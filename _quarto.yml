@@ -1,0 +1,66 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Patoloji Atlası"
+  author: "Serdar Balcı, MD, Pathologist"
+  date: "04 March 2022"
+  chapters:
+    - index.qmd
+    - tipfakultesi.qmd
+    - gastro.qmd
+    - genital.qmd
+    - uriner.qmd
+    - jineko.qmd
+    - meme.qmd
+    - referanslar.qmd
+
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    light: flatly
+    dark: darkly
+    code-fold: true
+    code-tools: true
+    fig-width: 8
+    fig-height: 4
+    execute:
+      warning: false
+    css: styles.css
+    self-contained: false
+    anchor-sections: true
+    link-external-icon: true
+    link-external-newwindow: true
+    link-external-filter: '^(?:http:|https:)\/\/www\.serdarbalci\.com\/'
+    citations-hover: true
+    footnotes-hover: true
+  pdf:
+    documentclass: scrreprt
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    number-depth: 3
+    colorlinks: true
+    highlight-style: github
+  docx:
+    toc: true
+    section-numbers: true
+    highlight-style: github
+    toc-depth: 3
+    toc-title: Contents
+    number-sections: true
+    number-depth: 3
+  epub:
+    toc: true
+  markua:
+    toc: true
+  commonmark:
+    toc: true
+
+
+editor: visual
+
