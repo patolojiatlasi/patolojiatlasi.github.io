@@ -19,12 +19,12 @@ book:
   image: images/cover.png
   cover-image: images/cover.png
   site-url: https://patolojiatlasi.com
-  repo-url: https://github.com/patolojiatlasi/patolojiatlasi.github.io
+#  repo-url: https://github.com/patolojiatlasi/patolojiatlasi.github.io
   google-analytics: "G-7BT7Q4FLT9"
 #  repo-branch: main
 #  repo-actions: [edit, issue, source]
 #  sharing: [twitter, facebook, linkedin]
-#  downloads: epub # [pdf, epub]
+  downloads: epub # [pdf, epub]
   search:
     location: navbar
     type: overlay
@@ -33,15 +33,15 @@ book:
     style: floating #docked
     background: light
     search: true
-  navbar:
-    title: "Patoloji Atlası"
-    logo: images/cover.png
-    search: true
-    pinned: false
-    collapse: true
-    right:
-      - icon: github
-        href: https://github.com/patolojiatlasi
+#   navbar:
+#     title: "Patoloji Atlası"
+#     logo: images/cover.png
+#     search: true
+#     pinned: false
+#     collapse: true
+#     right:
+#       - icon: github
+#         href: https://github.com/patolojiatlasi
   open-graph: true
   twitter-card:
     creator: "@serdarbalci"
@@ -65,49 +65,50 @@ book:
       chapters:
         - genelpatoloji.qmd
         - hucreicibirikimler.qmd
-#         - iskeminekroz.qmd
-#         - inflamasyon.qmd
-#     - part: "İnfeksiyöz Hastalıkların Patolojisi"
-#       chapters:
-#         - virus.qmd
-# #        - bakteri.qmd
-#         - mantar.qmd
-# #        - parazit.qmd
-#     - part: "Temel Tümör Patolojisi"
-#       chapters:
-#         - benign.qmd
+        - iskeminekroz.qmd
+        - inflamasyon.qmd
+        - tamir.qmd
+    - part: "İnfeksiyöz Hastalıkların Patolojisi"
+      chapters:
+        - virus.qmd
+#        - bakteri.qmd
+        - mantar.qmd
+#        - parazit.qmd
+    - part: "Temel Tümör Patolojisi"
+      chapters:
+        - benign.qmd
 # #    - part: "Hematopatoloji"
 # #      chapters:
 # #        - hematopatoloji.qmd
-#     - part: "Gastrointestinal Sistem Patolojisi"
-#       chapters:
-#         - gastro.qmd
-#     - part: "Karaciğer Patolojisi"
-#       chapters:
-#         - karaciger.qmd
-#     - part: "Jinekolojik Patoloji"
-#       chapters:
-#         - genital.qmd
-#         - over.qmd
-#     - part: uriner.qmd
-#     - part: jineko.qmd
-#     - part: meme.qmd
-#     - part: "Baş Boyun Patolojisi"
-#       chapters:
-#         - kulak.qmd
-#     - part: "Kemik ve Yumuşak Doku Patolojisi"
-#       chapters:
-#         - kemik.qmd
-#     - referanslar.qmd
-#   appendices:
-#     - yonetim-gelistirme.qmd
-#     - katki.qmd
-#
-#
+    - part: "Gastrointestinal Sistem Patolojisi"
+      chapters:
+        - gastro.qmd
+    - part: "Karaciğer Patolojisi"
+      chapters:
+        - karaciger.qmd
+    - part: "Jinekolojik Patoloji"
+      chapters:
+        - jineko.qmd
+        - genital.qmd
+        - over.qmd
+    - part: uriner.qmd
+    - part: meme.qmd
+    - part: "Baş Boyun Patolojisi"
+      chapters:
+        - kulak.qmd
+    - part: "Kemik ve Yumuşak Doku Patolojisi"
+      chapters:
+        - kemik.qmd
+    - referanslar.qmd
+  appendices:
+    - yonetim-gelistirme.qmd
+    - katki.qmd
+
+
 # bibliography: references.bib
 # # csl: citestyle.csl
 # highlight-style: pygments
-#
+
 # comments:
 #   hypothesis: true
 #   utterances:
