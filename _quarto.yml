@@ -4,16 +4,16 @@ project:
 
 book:
   title: "Patoloji Atlası"
-  author: "Serdar Balcı, MD, Pathologist"
+  author: "Derleyen: Serdar Balcı"
   description: |
     Tıp Öğrencileri İçin Patoloji Laboratuvar Notları
-    Görerek Öğrenin.
+    Görerek Öğrenin
   date: "Mart 2022"
   cover-image: images/cover.png
   site-url: https://patolojiatlasi.com
   repo-url: https://github.com/patolojiatlasi/patolojiatlasi.github.io
-  repo-branch: main
-  repo-actions: [edit, issue, source]
+#  repo-branch: main
+#  repo-actions: [edit, issue, source]
   sharing: [twitter, facebook, linkedin]
   downloads: [pdf, epub]
   search: true
@@ -27,23 +27,51 @@ book:
     left: "Copyright 2022, patolojiAI"
     right:
       - icon: github
-        href: https://github.com/
+        href: https://github.com/patolojiatlasi
+      - icon: github
+        href: https://github.com/patologyatlas
       - icon: twitter
-        href: https://twitter.com/
+        href: https://twitter.com/patolojinotlari
   chapters:
-    - index.md
-#    - index.qmd
+    - index.qmd
     - preface.qmd
-    - part: genelpatoloji.qmd
+    - part: "Genel Patoloji"
       chapters:
-        - tipfakultesi.qmd
-    - part: "Gastro"
+        - genelpatoloji.qmd
+        - hucreicibirikimler.qmd
+        - iskeminekroz.qmd
+        - inflamasyon.qmd
+    - part: "İnfeksiyöz Hastalıkların Patolojisi"
+      chapters:
+        - virus.qmd
+#        - bakteri.qmd
+        - mantar.qmd
+#        - parazit.qmd
+    - part: "Temel Tümör Patolojisi"
+      chapters:
+        - benign.qmd
+#    - part: "Hematopatoloji"
+#      chapters:
+#        - hematopatoloji.qmd
+    - part: "Gastrointestinal Sistem Patolojisi"
       chapters:
         - gastro.qmd
-    - part: genital.qmd
+    - part: "Karaciğer Patolojisi"
+      chapters:
+        - karaciger.qmd
+    - part: "Jinekolojik Patoloji"
+      chapters:
+        - genital.qmd
+        - over.qmd
     - part: uriner.qmd
     - part: jineko.qmd
     - part: meme.qmd
+    - part: "Baş Boyun Patolojisi"
+      chapters:
+        - kulak.qmd
+    - part: "Kemik ve Yumuşak Doku Patolojisi"
+      chapters:
+        - kemik.qmd
     - referanslar.qmd
   appendices:
     - yonetim-gelistirme.qmd
@@ -75,16 +103,14 @@ format:
     anchor-sections: true
     link-external-icon: true
     link-external-newwindow: true
-    link-external-filter: '^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/'
+    link-external-filter: '(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/www\.pathologyatlas\.github\.io\/)'
     citations-hover: true
     footnotes-hover: true
     number-depth: 3
-  pdf:
-    documentclass: scrreprt
-    toc: true
-  epub: default
-
-
+#  epub: default
+#  pdf:
+#    documentclass: scrreprt
+#    toc: true
 
 editor: visual
 
