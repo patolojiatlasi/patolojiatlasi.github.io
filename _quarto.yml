@@ -6,11 +6,11 @@ book:
   title: "Patoloji Atlası"
   subtitle: "Tıp Öğrencileri İçin Patoloji Laboratuvar Notları: Görerek Öğrenin"
   author: |
-    **Derleyen:** Serdar Balcı, Yıldırım Karslıoğlu, Emre Karakök<br>
-    **Yazar:** Memorial Patoloji Hekim ve Teknikerleri
+    **Derleyen:** [Serdar Balcı](https://www.serdarbalci.com)
+    **Yazar:** [Memorial Patoloji](https://MemorialPath.github.io) Hekim ve Teknikerleri
   description: |
-    Tıp Öğrencileri İçin Patoloji Laboratuvar Notları
-    Görerek Öğrenin
+    Tıp Öğrencileri İçin Patoloji Laboratuvar Notları.
+    Görerek Öğrenin.
   abstract: |
     Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.
     Katkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin.
@@ -23,8 +23,8 @@ book:
   google-analytics: "G-7BT7Q4FLT9"
 #  repo-branch: main
 #  repo-actions: [edit, issue, source]
-  sharing: [twitter, facebook, linkedin]
-  downloads: epub # [pdf, epub]
+#  sharing: [twitter, facebook, linkedin]
+#  downloads: epub # [pdf, epub]
   search:
     location: navbar
     type: overlay
@@ -65,87 +65,90 @@ book:
       chapters:
         - genelpatoloji.qmd
         - hucreicibirikimler.qmd
-        - iskeminekroz.qmd
-        - inflamasyon.qmd
-    - part: "İnfeksiyöz Hastalıkların Patolojisi"
-      chapters:
-        - virus.qmd
-#        - bakteri.qmd
-        - mantar.qmd
-#        - parazit.qmd
-    - part: "Temel Tümör Patolojisi"
-      chapters:
-        - benign.qmd
-#    - part: "Hematopatoloji"
-#      chapters:
-#        - hematopatoloji.qmd
-    - part: "Gastrointestinal Sistem Patolojisi"
-      chapters:
-        - gastro.qmd
-    - part: "Karaciğer Patolojisi"
-      chapters:
-        - karaciger.qmd
-    - part: "Jinekolojik Patoloji"
-      chapters:
-        - genital.qmd
-        - over.qmd
-    - part: uriner.qmd
-    - part: jineko.qmd
-    - part: meme.qmd
-    - part: "Baş Boyun Patolojisi"
-      chapters:
-        - kulak.qmd
-    - part: "Kemik ve Yumuşak Doku Patolojisi"
-      chapters:
-        - kemik.qmd
-    - referanslar.qmd
-  appendices:
-    - yonetim-gelistirme.qmd
-    - katki.qmd
-
-
-bibliography: references.bib
-# csl: citestyle.csl
-highlight-style: pygments
-
-comments:
-  hypothesis: true
-  utterances:
-    repo: patolojiatlasi/patolojiatlasi.github.io
+#         - iskeminekroz.qmd
+#         - inflamasyon.qmd
+#     - part: "İnfeksiyöz Hastalıkların Patolojisi"
+#       chapters:
+#         - virus.qmd
+# #        - bakteri.qmd
+#         - mantar.qmd
+# #        - parazit.qmd
+#     - part: "Temel Tümör Patolojisi"
+#       chapters:
+#         - benign.qmd
+# #    - part: "Hematopatoloji"
+# #      chapters:
+# #        - hematopatoloji.qmd
+#     - part: "Gastrointestinal Sistem Patolojisi"
+#       chapters:
+#         - gastro.qmd
+#     - part: "Karaciğer Patolojisi"
+#       chapters:
+#         - karaciger.qmd
+#     - part: "Jinekolojik Patoloji"
+#       chapters:
+#         - genital.qmd
+#         - over.qmd
+#     - part: uriner.qmd
+#     - part: jineko.qmd
+#     - part: meme.qmd
+#     - part: "Baş Boyun Patolojisi"
+#       chapters:
+#         - kulak.qmd
+#     - part: "Kemik ve Yumuşak Doku Patolojisi"
+#       chapters:
+#         - kemik.qmd
+#     - referanslar.qmd
+#   appendices:
+#     - yonetim-gelistirme.qmd
+#     - katki.qmd
+#
+#
+# bibliography: references.bib
+# # csl: citestyle.csl
+# highlight-style: pygments
+#
+# comments:
+#   hypothesis: true
+#   utterances:
+#     repo: patolojiatlasi/patolojiatlasi.github.io
 format:
   html:
     theme: cosmo
-    cover-image: images/cover.png
-#    code-link: true
-#    code-fold: true
-#    code-tools: true
-#    code-copy: true
-    light: flatly
-    dark: darkly
-    fig-width: 8
-    fig-height: 4
+#     cover-image: images/cover.png
+# #    code-link: true
+# #    code-fold: true
+# #    code-tools: true
+# #    code-copy: true
+#     light: flatly
+#     dark: darkly
+# #    fig-width: 8
+# #    fig-height: 4
+#     execute:
+#       warning: false
+#     css: styles.css
+#     self-contained: false
+#     anchor-sections: true
+#     link-external-icon: true
+#     link-external-newwindow: true
+#     link-external-filter: '(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/www\.pathologyatlas\.github\.io\/)'
+#     citations-hover: true
+#     footnotes-hover: true
+#     number-depth: 3
+  epub:
+    epub-cover-image: images/cover.png
     execute:
       warning: false
-    css: styles.css
-    self-contained: false
-    anchor-sections: true
-    link-external-icon: true
-    link-external-newwindow: true
-    link-external-filter: '(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/www\.pathologyatlas\.github\.io\/)'
-    citations-hover: true
-    footnotes-hover: true
-    number-depth: 3
-#  epub: default
-#  pdf:
-#    documentclass: scrreprt
-#    toc: true
+  pdf:
+    documentclass: scrreprt
+    toc: true
 
 
-citation:
-    type: website
-    container-title: Patoloji Atlası
-    date: 3/2022
-    url: "https://www.patolojiatlasi.com"
+# citation:
+#     type: website
+#     container-title: Patoloji Atlası
+#     date: 3/2022
+#     url: "https://www.patolojiatlasi.com"
 
 
 editor: visual
