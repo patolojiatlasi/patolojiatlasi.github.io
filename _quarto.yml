@@ -5,27 +5,67 @@ project:
 book:
   title: "Patoloji Atlası"
   author: "Serdar Balcı, MD, Pathologist"
+  description: |
+    Tıp Öğrencileri İçin Patoloji Laboratuvar Notları
+    Görerek Öğrenin.
   date: "04 March 2022"
+  cover-image: images/cover.png
+  site-url: https://patolojiatlasi.com
+  repo-url: https://github.com/patolojiatlasi/patolojiatlasi.github.io
+  repo-branch: main
+  repo-actions: [edit, issue, source]
+  sharing: [twitter, facebook, linkedin]
+  downloads: [pdf, epub]
+  search: true
+  sidebar:
+    style: docked
+    background: light
+  page-navigation: true
+  page-footer:
+    border: true
+    background: light
+    left: "Copyright 2022, patolojiAI"
+    right:
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com/
   chapters:
-    - index.qmd
-    - tipfakultesi.qmd
-    - gastro.qmd
-    - genital.qmd
-    - uriner.qmd
-    - jineko.qmd
-    - meme.qmd
+    - index.md
+#    - index.qmd
+    - preface.qmd
+    - part: genelpatoloji.qmd
+      chapters:
+        - tipfakultesi.qmd
+    - part: "Gastro"
+      chapters:
+        - gastro.qmd
+    - part: genital.qmd
+    - part: uriner.qmd
+    - part: jineko.qmd
+    - part: meme.qmd
     - referanslar.qmd
-
+  appendices:
+    - yonetim-gelistirme.qmd
+    - katki.qmd
 
 bibliography: references.bib
+# csl: citestyle.csl
+highlight-style: pygments
+
+comments:
+  hypothesis: true
 
 format:
   html:
     theme: cosmo
-    light: flatly
-    dark: darkly
+    cover-image: images/cover.png
+    code-link: true
     code-fold: true
     code-tools: true
+    code-copy: true
+    light: flatly
+    dark: darkly
     fig-width: 8
     fig-height: 4
     execute:
@@ -35,31 +75,15 @@ format:
     anchor-sections: true
     link-external-icon: true
     link-external-newwindow: true
-    link-external-filter: '^(?:http:|https:)\/\/www\.serdarbalci\.com\/'
+    link-external-filter: '^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/'
     citations-hover: true
     footnotes-hover: true
+    number-depth: 3
   pdf:
     documentclass: scrreprt
     toc: true
-    toc-depth: 3
-    number-sections: true
-    number-depth: 3
-    colorlinks: true
-    highlight-style: github
-  docx:
-    toc: true
-    section-numbers: true
-    highlight-style: github
-    toc-depth: 3
-    toc-title: Contents
-    number-sections: true
-    number-depth: 3
-  epub:
-    toc: true
-  markua:
-    toc: true
-  commonmark:
-    toc: true
+  epub: default
+
 
 
 editor: visual
