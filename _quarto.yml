@@ -135,13 +135,28 @@ format:
     citations-hover: true
     footnotes-hover: true
     number-depth: 3
+    toc-title: "İçindekiler"
   epub:
+    toc: true
     epub-cover-image: images/cover.png
     execute:
       warning: false
   pdf:
     documentclass: scrreprt
     toc: true
+    toc-depth: 3
+    number-sections: true
+    number-depth: 3
+    colorlinks: true
+    highlight-style: github
+  docx:
+    toc: true
+    section-numbers: true
+    highlight-style: github
+    toc-depth: 3
+    toc-title: "İçindekiler"
+    number-sections: true
+    number-depth: 3
 
 
 citation:
