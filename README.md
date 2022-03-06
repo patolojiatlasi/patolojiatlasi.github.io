@@ -1,1 +1,3 @@
-# patolojiatlasi.github.io
+# Patoloji Atlası
+
+[Patoloji Atlası]()
