@@ -69,7 +69,6 @@ book:
         - inflamasyon.qmd
         - amiloid.qmd
         - tamir.qmd
-        - hamartom.qmd
     - part: "İnfeksiyöz Hastalıkların Patolojisi"
       chapters:
         - virus.qmd
@@ -79,6 +78,8 @@ book:
     - part: "Temel Tümör Patolojisi"
       chapters:
         - benign.qmd
+        - hamartom.qmd
+        - heterotopi.qmd
 # #    - part: "Hematopatoloji"
 # #      chapters:
 # #        - hematopatoloji.qmd
