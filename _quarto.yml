@@ -69,6 +69,7 @@ book:
         - inflamasyon.qmd
         - amiloid.qmd
         - tamir.qmd
+        - hamartom.qmd
     - part: "İnfeksiyöz Hastalıkların Patolojisi"
       chapters:
         - virus.qmd
@@ -84,6 +85,7 @@ book:
     - part: "Gastrointestinal Sistem Patolojisi"
       chapters:
         - gastro.qmd
+        - kolon.qmd
     - part: "Karaciğer Patolojisi"
       chapters:
         - karaciger.qmd
