@@ -9,11 +9,11 @@ book:
     **Derleyen:** [Serdar Balcı](https://www.serdarbalci.com)
     **Yazar:** [Memorial Patoloji](https://MemorialPath.github.io) Hekim ve Teknikerleri
   description: |
-    Tıp Öğrencileri İçin Patoloji Laboratuvar Notları.
+    Tıp Fakültesi Öğrencileri İçin Patoloji Laboratuvar Notları.
     Görerek Öğrenin.
   abstract: |
     Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.
-    Katkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin.
+    [Katkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin](katki.qmd).
   date: "Mart 2022"
   output-file: "Patoloji-Atlasi"
   image: images/cover.png
@@ -93,7 +93,10 @@ book:
       chapters:
         - jineko.qmd
         - genital.qmd
-    - part: uriner.qmd
+    - part: "Üriner Sistem Patolojisi"
+      chapters:
+        - uriner.qmd
+        - bobrek.qmd
     - part: meme.qmd
     - part: "Baş Boyun Patolojisi"
       chapters:
