@@ -1,1 +1,13 @@
 # Patoloji Atlası {#patoloji-atlasi .unnumbered}
+
+```{r echo=FALSE}
+songuncelleme <- Sys.time() 
+```
+
+Son güncelleme zamanı: `r print(songuncelleme)`
+
+```{r echo=FALSE}
+cat(as.character(Sys.time()))
+```
+
+
