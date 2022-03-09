@@ -9,11 +9,11 @@ book:
     - **Derleyen:** [Serdar Balcı](https://www.serdarbalci.com)
     - **Yazarlar:** [Memorial Patoloji](https://MemorialPath.github.io) Hekim ve Teknikerleri
   description: |
-    Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları.
+    - Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları.
     Görerek Öğrenin.
   abstract: |
     Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.
-    [Katkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin](katki.qmd).
+    Katkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin.
   date: "Mart 2022"
   output-file: "Patoloji-Atlasi"
   image: images/cover.png
@@ -148,14 +148,14 @@ format:
     epub-cover-image: images/cover.png
     execute:
       warning: false
-  pdf:
-    documentclass: scrreprt
-    toc: true
-    toc-depth: 3
-    number-sections: true
-    number-depth: 3
-    colorlinks: true
-    highlight-style: github
+#   pdf:
+#     documentclass: scrreprt
+#     toc: true
+#     toc-depth: 3
+#     number-sections: true
+#     number-depth: 3
+#     colorlinks: true
+#     highlight-style: github
   docx:
     toc: true
     section-numbers: true
