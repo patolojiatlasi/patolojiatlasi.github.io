@@ -4,10 +4,4 @@
 songuncelleme <- Sys.time() 
 ```
 
-Son güncelleme zamanı: `r print(songuncelleme)`
-
-```{r echo=FALSE}
-cat(as.character(Sys.time()))
-```
-
-
+Son güncelleme zamanı: `r songuncelleme`
