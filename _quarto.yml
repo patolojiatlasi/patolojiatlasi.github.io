@@ -6,8 +6,8 @@ book:
   title: "Patoloji Atlası"
   subtitle: "Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları: Görerek Öğrenin"
   author: |
-    - **Derleyen:** [Serdar Balcı](https://www.serdarbalci.com)
-    - **Yazarlar:** [Memorial Patoloji](https://MemorialPath.github.io) Hekim ve Teknikerleri
+    **Derleyen:** [Serdar Balcı](https://www.serdarbalci.com)
+    **Yazarlar:** [Memorial Patoloji](https://MemorialPath.github.io) Hekim ve Teknikerleri
   description: |
     Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları. Görerek Öğrenin.
     Patoloji Ders Notları ve Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.
@@ -16,7 +16,7 @@ book:
     Görerek Öğrenin.
     Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.
     [Katkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin](https://www.patolojiatlasi.com/katki.html).
-  date: "Mart 2022"
+  date: "2022-03-14"
   output-file: "Patoloji-Atlasi"
   image: images/cover.png
   cover-image: images/cover.png
@@ -25,7 +25,7 @@ book:
   google-analytics: "G-7BT7Q4FLT9"
 #  repo-branch: main
 #  repo-actions: [edit, issue, source]
-#  sharing: [twitter, facebook, linkedin]
+  sharing: [twitter, facebook, linkedin]
   downloads: epub # [pdf, epub]
   search:
     location: navbar
@@ -75,7 +75,7 @@ book:
     - part: "İnfeksiyöz Hastalıkların Patolojisi"
       chapters:
         - virus.qmd
-#        - bakteri.qmd
+        - bakteri.qmd
         - mantar.qmd
 #        - parazit.qmd
     - part: "Temel Tümör Patolojisi"
