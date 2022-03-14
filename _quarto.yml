@@ -60,9 +60,9 @@ book:
         href: https://github.com/patologyatlas
       - icon: twitter
         href: https://twitter.com/patolojinotlari
-      - icon: web
+      - icon: globe2
         href: https://patolojinotlari.com
-      - icon: web
+      - icon: globe2
         href: https://serdarbalci.com
   chapters:
     - index.qmd
@@ -161,18 +161,19 @@ format:
 #     documentclass: scrreprt
 #     toc: true
 #     toc-depth: 3
+#     toc-title: "İçindekiler"
 #     number-sections: true
 #     number-depth: 3
 #     colorlinks: true
 #     highlight-style: github
-  docx:
-    toc: true
-    section-numbers: true
-    highlight-style: github
-    toc-depth: 3
-    toc-title: "İçindekiler"
-    number-sections: true
-    number-depth: 3
+#   docx:
+#     toc: true
+#     section-numbers: true
+#     highlight-style: github
+#     toc-depth: 3
+#     toc-title: "İçindekiler"
+#     number-sections: true
+#     number-depth: 3
 
 
 citation:
