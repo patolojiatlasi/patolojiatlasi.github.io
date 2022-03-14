@@ -24,10 +24,9 @@ contact: bilgi\@patolojiatlasi.com
 
 </iframe>
 
+-   https://github.com/marketplace/actions/quarto-render
 
-- https://github.com/marketplace/actions/quarto-render
-
-- https://github.com/quarto-dev/quarto-actions
+-   https://github.com/quarto-dev/quarto-actions
 
 ------------------------------------------------------------------------
 
