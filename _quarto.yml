@@ -16,7 +16,7 @@ book:
     Görerek Öğrenin.
     Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.
     [Katkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin](https://www.patolojiatlasi.com/katki.html).
-  date: "2022-03-14"
+  date: 2022-03-14
   output-file: "Patoloji-Atlasi"
   image: images/cover.png
   cover-image: images/cover.png
@@ -60,6 +60,10 @@ book:
         href: https://github.com/patologyatlas
       - icon: twitter
         href: https://twitter.com/patolojinotlari
+      - icon: web
+        href: https://patolojinotlari.com
+      - icon: web
+        href: https://serdarbalci.com
   chapters:
     - index.qmd
     - giris.qmd
@@ -119,6 +123,7 @@ book:
 # # csl: citestyle.csl
 highlight-style: pygments
 
+
 comments:
   hypothesis: true
   utterances:
@@ -142,7 +147,7 @@ format:
     anchor-sections: true
     link-external-icon: true
     link-external-newwindow: true
-    link-external-filter: '(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/www\.pathologyatlas\.github\.io\/)'
+    link-external-filter: '(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/pathologyatlas\.github\.io\/)'
     citations-hover: true
     footnotes-hover: true
     number-depth: 3
