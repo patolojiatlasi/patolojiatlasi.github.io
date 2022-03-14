@@ -106,7 +106,7 @@ book:
       chapters:
         - uriner.qmd
         - bobrek.qmd
-    - part: meme.qmd
+    - part: meme.md
     - part: "Baş Boyun Patolojisi"
       chapters:
         - kulak.qmd
@@ -115,7 +115,7 @@ book:
         - kemik.qmd
     - referanslar.qmd
   appendices:
-    - yonetim-gelistirme.qmd
+    - yonetim-gelistirme.md
     - katki.qmd
 
 
