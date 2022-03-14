@@ -2,6 +2,7 @@ project:
   type: book
   output-dir: docs
 
+
 book:
   title: "Patoloji Atlası"
   subtitle: "Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları: Görerek Öğrenin"
@@ -16,9 +17,10 @@ book:
     Görerek Öğrenin.
     Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.
     [Katkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin](https://www.patolojiatlasi.com/katki.html).
-  date: 2022-03-14
-  output-file: "Patoloji-Atlasi"
   image: images/cover.png
+  date: 2022-03-14
+  date-meta: short
+  output-file: "Patoloji-Atlasi"
   cover-image: images/cover.png
   site-url: https://patolojiatlasi.com
 #  repo-url: https://github.com/patolojiatlasi/patolojiatlasi.github.io
