@@ -43,3 +43,15 @@ contact: bilgi\@patolojiatlasi.com
 ## Neoplazinin Klinikopatolojik Özellikleri ve Epidemiyoloji
 
 <https://pathologyatlas.github.io/lecture1/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.html>
+
+
+# TODO
+
+- lab-patolojinotlari adresini patolojiatlasi'na yönlendir.
+- template ve eski repository'lerde openseadragon adresini değiştir
+- pathologyatlas-github-io'daki alt repository'leri kaldır
+- EN için ilk grubu yayınla
+- pathologyatlas-github-io EN'e yönlendir
+- GBDAtlas ilk grubu ekle
+- development ve wsi to html repolarının adreslerini güncelle ve detaylandır
+
