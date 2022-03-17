@@ -2,6 +2,7 @@ project:
   type: book
   output-dir: docs
 
+lang: tr
 
 book:
   title: "Patoloji Atlası"
@@ -47,6 +48,8 @@ book:
 #       - icon: github
 #         href: https://github.com/patolojiatlasi
   open-graph: true
+  locale: tr_TR
+  site-name: Patoloji Atlası
   twitter-card:
     creator: "@serdarbalci"
     site: "@patolojinotlari"
@@ -70,6 +73,7 @@ book:
     - index.qmd
     - giris.qmd
     - yazarlar.qmd
+    - part: "---"
     - part: "Genel Patoloji"
       chapters:
         - genelpatoloji.qmd
@@ -115,7 +119,9 @@ book:
     - part: "Kemik ve Yumuşak Doku Patolojisi"
       chapters:
         - kemik.qmd
+    - part: "---"
     - referanslar.qmd
+    - part: "---"
   appendices:
     - yonetim-gelistirme.md
     - katki.qmd
@@ -132,14 +138,16 @@ comments:
     repo: patolojiatlasi/patolojiatlasi.github.io
 format:
   html:
-    theme: cosmo
+    theme:
+      light: flatly
+      dark: darkly
+# cosmo
     cover-image: images/cover.png
 #    code-link: true
 #    code-fold: true
 #    code-tools: true
 #    code-copy: true
-    light: flatly
-    dark: darkly
+
 #    fig-width: 8
 #    fig-height: 4
     execute:
