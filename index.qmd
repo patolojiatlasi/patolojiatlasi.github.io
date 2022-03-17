@@ -1,6 +1,12 @@
 # Patoloji Atlası {#patoloji-atlasi .unnumbered}
 
-```{r language, echo=FALSE, include=TRUE}
-# language <- "EN"
+
+```{r EN, include=FALSE, eval=FALSE}
+language <- "EN"
+```
+
+
+
+```{r TR, include=FALSE, eval=TRUE}
 language <- "TR"
 ```
