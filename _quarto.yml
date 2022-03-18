@@ -6,6 +6,7 @@ lang: tr
 
 book:
   title: "Patoloji Atlası"
+  engine: knitr
   subtitle: "Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları: Görerek Öğrenin"
   author: |
     **Derleyen:** [Serdar Balcı](https://www.serdarbalci.com)
@@ -84,7 +85,7 @@ book:
     - part: "İnflamasyon"
       chapters:
         # - inflamasyon.qmd
-        - kronikinflamasyon.Rmd
+        - kronikinflamasyon.qmd
     - part: "İnfeksiyöz Hastalıkların Patolojisi"
       chapters:
         - virus.qmd

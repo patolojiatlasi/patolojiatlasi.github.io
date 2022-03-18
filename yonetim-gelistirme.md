@@ -58,6 +58,13 @@ contact: bilgi\@patolojiatlasi.com
 - https://bookdown.org/yihui/rmarkdown-cookbook/eng-asis.html
 - https://quarto.org/docs/authoring/create-citeable-articles.html
 
+- https://github.com/quarto-dev/quarto-actions
+- https://github.com/pommevilla/quarto-render
+- https://github.com/pommevilla/friendly-dollop
+- https://pommevilla.github.io/friendly-dollop/
+
+- https://github.com/maelle/multilingual-book
+
 # adding submodule
 
 https://github.blog/2016-02-01-working-with-submodules/
