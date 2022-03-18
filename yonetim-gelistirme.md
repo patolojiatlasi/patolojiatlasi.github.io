@@ -53,7 +53,10 @@ contact: bilgi\@patolojiatlasi.com
 -   pathologyatlas-github-io EN'e yönlendir
 -   GBDAtlas ilk grubu ekle
 -   development ve wsi to html repolarının adreslerini güncelle ve detaylandır
-- https://quarto.org/docs/websites/website-navigation.html#pages-404
+-   https://quarto.org/docs/websites/website-navigation.html#pages-404
+-   https://statnmap.com/2017-04-04-format-text-conditionally-with-rmarkdown-chunks-complete-iframed-article/
+- https://bookdown.org/yihui/rmarkdown-cookbook/eng-asis.html
+- https://quarto.org/docs/authoring/create-citeable-articles.html
 
 # adding submodule
 
@@ -79,10 +82,9 @@ see: [Convert .svs to .dzi and publish as or embed in a web page](https://github
 
 see: [Using templates for new repositories](https://github.com/pathologyatlas/template)
 
-
 # tweeting with update
-- https://github.com/and-computers/HowToTweetEveryCommit
-- https://www.daveabrock.com/2020/04/19/posting-to-twitter-from-gh-actions/
-- https://gitweet.io/
-- https://joshuaiz.com/words/using-github-actions-to-post-to-twitter-on-commit
 
+-   https://github.com/and-computers/HowToTweetEveryCommit
+-   https://www.daveabrock.com/2020/04/19/posting-to-twitter-from-gh-actions/
+-   https://gitweet.io/
+-   https://joshuaiz.com/words/using-github-actions-to-post-to-twitter-on-commit

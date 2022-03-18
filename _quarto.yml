@@ -18,9 +18,9 @@ book:
     Görerek Öğrenin.
     Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.
     [Katkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin](https://www.patolojiatlasi.com/katki.html).
+  date: "`r Sys.time()`"
+  date-format: "DD MMMM, YYYY"
   image: images/cover.png
-  date: 2022-03-14
-  date-meta: short
   output-file: "Patoloji-Atlasi"
   cover-image: images/cover.png
   site-url: https://patolojiatlasi.com
@@ -79,9 +79,12 @@ book:
         - genelpatoloji.qmd
         - hucreicibirikimler.qmd
         - iskeminekroz.qmd
-        - inflamasyon.qmd
         - amiloid.qmd
         - tamir.qmd
+    - part: "İnflamasyon"
+      chapters:
+        # - inflamasyon.qmd
+        - kronikinflamasyon.Rmd
     - part: "İnfeksiyöz Hastalıkların Patolojisi"
       chapters:
         - virus.qmd

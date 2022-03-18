@@ -1,0 +1,50 @@
+name: Update Site and Tweet
+on:
+#  push:
+#  workflow_dispatch:
+
+jobs:
+#  build:
+#    runs-on: ubuntu-latest
+#    steps:
+#    - uses: actions/checkout@v2
+#    - name: Build the site in the jekyll/builder container
+#      run: |
+#        docker run \
+#        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+#        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+
+   tweet:
+# #    needs: build
+#      if: "!contains(github.event.head_commit.message, 'WIP')"
+#      runs-on: ubuntu-latest
+#      steps:
+#        - name: Get current date
+#          id: date
+#          run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+#        - uses: ethomson/send-tweet-action@v1
+#          with:
+#            status: '#Pathology Atlas and Notes for #MedicalSchool Students: See and Learn is updated on ${{ steps.date.outputs.date }}. See https://www.patolojinotlari.com/ For #digitalslides #WSI see https://lab.patolojinotlari.com/ and https://www.patolojiatlasi.com/'
+#            consumer-key: ${{ secrets.API_KEY }}
+#            consumer-secret: ${{ secrets.API_SECRET_KEY }}
+#            access-token: ${{ secrets.ACCESS_TOKEN }}
+#            access-token-secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
+
+
+#   tweet:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Get current date
+#         id: date
+#         run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+#       - uses: Eomm/why-don-t-you-tweet@v1
+#         with:
+#           # GitHub event payload
+#           # https://docs.github.com/en/developers/webhooks-and-events/webhooks/webhook-events-and-payloads#release
+#           tweet-message: "Pathology Atlas and Notes for Medical Students See and Learn is updated on ${{ steps.date.outputs.date }}. See here https://www.patolojinotlari.com/ and here https://lab.patolojinotlari.com/"
+#         env:
+#           # Get your tokens from https://developer.twitter.com/apps
+#           TWITTER_CONSUMER_API_KEY: ${{ secrets.API_KEY }}
+#           TWITTER_CONSUMER_API_SECRET: ${{ secrets.API_SECRET_KEY }}
+#           TWITTER_ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+#           TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
