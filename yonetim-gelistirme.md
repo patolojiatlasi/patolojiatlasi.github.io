@@ -12,9 +12,21 @@
 
 [linkedin](https://www.linkedin.com/company/patoloji-notlari)
 
-https://leanpub.com/patolojiatlasi/
+[https://leanpub.com/patolojiatlasi/](https://leanpub.com/patolojiatlasi/)
 
 [development & WIP](https://pathologyatlas.github.io/development.md)
+
+  - [https://github.com/pathologyatlas](https://github.com/pathologyatlas)
+
+  - [https://github.com/pathologyatlas/TODO](https://github.com/pathologyatlas/TODO)
+
+  - [https://github.com/pathologyatlas/pathologyatlas.github.io](https://github.com/pathologyatlas/pathologyatlas.github.io)
+
+  - [https://github.com/pathologyatlas/template](https://github.com/pathologyatlas/template)
+
+  - [https://github.com/pathologyatlas/make-html-WSI](https://github.com/pathologyatlas/make-html-WSI)
+
+
 
 contact: info\@patolojinotlari.com
 

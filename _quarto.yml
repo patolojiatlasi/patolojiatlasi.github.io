@@ -10,12 +10,12 @@ book:
   subtitle: "Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları: Görerek Öğrenin"
   author:
    - name: "Serdar Balcı"
-     url: https://www.serdarbalci.com
+     url: "https://www.serdarbalci.com"
      affiliation: "Memorial Patoloji"
-     affiliation-url: https://MemorialPath.github.io
+     affiliation-url: "https://MemorialPath.github.io"
    - name: Memorial Patoloji Hekim ve Teknikerleri
      affiliation: "Memorial Patoloji"
-     affiliation-url: https://MemorialPath.github.io
+     affiliation-url: "https://MemorialPath.github.io"
   description: |
     Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları. Görerek Öğrenin.
     Patoloji Ders Notları ve Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.
@@ -128,6 +128,9 @@ book:
     - part: "Kemik ve Yumuşak Doku Patolojisi"
       chapters:
         - kemik.qmd
+    - part: "Pediatrik ve Perinatal Patoloji"
+      chapters:
+        - plasenta.qmd
     - part: "---"
     - referanslar.qmd
     - part: "---"
