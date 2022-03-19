@@ -44,26 +44,9 @@ contact: bilgi\@patolojiatlasi.com
 
 <https://pathologyatlas.github.io/lecture1/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.html>
 
-# TODO
 
--   lab-patolojinotlari adresini patolojiatlasi'na yönlendir.
--   template ve eski repository'lerde openseadragon adresini değiştir
--   pathologyatlas-github-io'daki alt repository'leri kaldır
--   EN için ilk grubu yayınla
--   pathologyatlas-github-io EN'e yönlendir
--   GBDAtlas ilk grubu ekle
--   development ve wsi to html repolarının adreslerini güncelle ve detaylandır
--   https://quarto.org/docs/websites/website-navigation.html#pages-404
--   https://statnmap.com/2017-04-04-format-text-conditionally-with-rmarkdown-chunks-complete-iframed-article/
-- https://bookdown.org/yihui/rmarkdown-cookbook/eng-asis.html
-- https://quarto.org/docs/authoring/create-citeable-articles.html
+---
 
-- https://github.com/quarto-dev/quarto-actions
-- https://github.com/pommevilla/quarto-render
-- https://github.com/pommevilla/friendly-dollop
-- https://pommevilla.github.io/friendly-dollop/
-
-- https://github.com/maelle/multilingual-book
 
 # adding submodule
 
@@ -89,9 +72,47 @@ see: [Convert .svs to .dzi and publish as or embed in a web page](https://github
 
 see: [Using templates for new repositories](https://github.com/pathologyatlas/template)
 
-# tweeting with update
+
+
+
+
+
+---
+
+
+# TODO
+
+## Yönlendirme
+
+-   lab-patolojinotlari adresini patolojiatlasi'na yönlendir.
+-   pathologyatlas-github-io EN'e yönlendir
+-   development ve wsi to html repolarının adreslerini güncelle ve detaylandır
+-   https://quarto.org/docs/websites/website-navigation.html#pages-404
+
+## GBDAtlas
+-   GBDAtlas ilk grubu ekle
+
+## Language
+
+-   https://statnmap.com/2017-04-04-format-text-conditionally-with-rmarkdown-chunks-complete-iframed-article/
+-   https://statnmap.com/2017-10-06-translation-rmarkdown-documents-using-data-frame/
+-   https://statnmap.com/2017-03-11-rmarkdown-conditional-chunks-to-create-multilingual-pdf-and-html-with-images/
+-   https://bookdown.org/yihui/rmarkdown-cookbook/eng-asis.html
+-   https://quarto.org/docs/authoring/create-citeable-articles.html
+
+- https://github.com/maelle/multilingual-book
+
+## GitHub Actions
+
+- https://github.com/quarto-dev/quarto-actions
+- https://github.com/pommevilla/quarto-render
+- https://github.com/pommevilla/friendly-dollop
+- https://pommevilla.github.io/friendly-dollop/
+
+## tweeting with update
 
 -   https://github.com/and-computers/HowToTweetEveryCommit
 -   https://www.daveabrock.com/2020/04/19/posting-to-twitter-from-gh-actions/
 -   https://gitweet.io/
 -   https://joshuaiz.com/words/using-github-actions-to-post-to-twitter-on-commit
+

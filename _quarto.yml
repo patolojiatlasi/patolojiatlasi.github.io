@@ -8,9 +8,14 @@ book:
   title: "Patoloji Atlası"
   engine: knitr
   subtitle: "Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları: Görerek Öğrenin"
-  author: |
-    **Derleyen:** [Serdar Balcı](https://www.serdarbalci.com)
-    **Yazarlar:** [Memorial Patoloji](https://MemorialPath.github.io) Hekim ve Teknikerleri
+  author:
+   - name: "Serdar Balcı"
+     url: https://www.serdarbalci.com
+     affiliation: "Memorial Patoloji"
+     affiliation-url: https://MemorialPath.github.io
+   - name: Memorial Patoloji Hekim ve Teknikerleri
+     affiliation: "Memorial Patoloji"
+     affiliation-url: https://MemorialPath.github.io
   description: |
     Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları. Görerek Öğrenin.
     Patoloji Ders Notları ve Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.
@@ -84,8 +89,8 @@ book:
         - tamir.qmd
     - part: "İnflamasyon"
       chapters:
+        - kronikinflamasyon.Rmd
         # - inflamasyon.qmd
-        - kronikinflamasyon.qmd
     - part: "İnfeksiyöz Hastalıkların Patolojisi"
       chapters:
         - virus.qmd

@@ -1,10 +1,12 @@
-```{r}
+```{r language2, include=FALSE}
 language <- "TR"
 ```
 
 ```{asis, echo = (language == "EN")}
 
-# Hydronephrosis and Chronic Pyelonephritis
+# Chronic Inflammation
+
+## Hydronephrosis and Chronic Pyelonephritis
 
 Hydronephrosis and Chronic Pyelonephritis
 
@@ -23,8 +25,9 @@ See Microscopy with viewer:
 ```
 
 ```{asis, echo = (language == "TR")}
+# Kronik İnflamasyon
 
-# Hidronefroz ve Kronik Pyelonefrit
+## Hidronefroz ve Kronik Pyelonefrit
 
 Hidronefroz ve Kronik Pyelonefrit
 
