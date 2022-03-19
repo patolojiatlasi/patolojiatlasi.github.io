@@ -17,7 +17,7 @@ book:
      affiliation: "Memorial Patoloji"
      affiliation-url: "https://MemorialPath.github.io"
   description: |
-    Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları. Görerek Öğrenin.
+    Tanıtım: Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları. Görerek Öğrenin.
     Patoloji Ders Notları ve Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.
   abstract: |
     Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları.
@@ -78,6 +78,8 @@ book:
   chapters:
     - index.qmd
     - giris.qmd
+    # - text: "Giriş"
+    # - href: giris.qmd
     - yazarlar.qmd
     - part: "---"
     - part: "Genel Patoloji"
@@ -89,7 +91,9 @@ book:
         - tamir.qmd
     - part: "İnflamasyon"
       chapters:
-        - kronikinflamasyon.Rmd
+        - kronikinflamasyon.qmd
+        # - text: "Kronik inflamasyon"
+        # - href: kronikinflamasyon.Rmd
         # - inflamasyon.qmd
     - part: "İnfeksiyöz Hastalıkların Patolojisi"
       chapters:
@@ -147,6 +151,8 @@ highlight-style: pygments
 comments:
   hypothesis: true
   utterances:
+    repo: patolojiatlasi/patolojiatlasi.github.io
+  giscus:
     repo: patolojiatlasi/patolojiatlasi.github.io
 format:
   html:

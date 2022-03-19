@@ -111,8 +111,8 @@ see: [Using templates for new repositories](https://github.com/pathologyatlas/te
 -   https://statnmap.com/2017-03-11-rmarkdown-conditional-chunks-to-create-multilingual-pdf-and-html-with-images/
 -   https://bookdown.org/yihui/rmarkdown-cookbook/eng-asis.html
 -   https://quarto.org/docs/authoring/create-citeable-articles.html
-
-- https://github.com/maelle/multilingual-book
+-   https://github.com/maelle/multilingual-book
+-   https://github.com/patolojiatlasi/multilingual-book
 
 ## GitHub Actions
 
@@ -127,4 +127,25 @@ see: [Using templates for new repositories](https://github.com/pathologyatlas/te
 -   https://www.daveabrock.com/2020/04/19/posting-to-twitter-from-gh-actions/
 -   https://gitweet.io/
 -   https://joshuaiz.com/words/using-github-actions-to-post-to-twitter-on-commit
+
+
+
+---
+
+:::{.callout-note}
+Note that there are five types of callouts, including:
+`note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+:::{.callout-tip}
+## Tip With Caption
+
+This is an example of a callout with a caption.
+:::
+
+:::{.callout-caution collapse="true"}
+## Expand To Learn About Collapse
+
+This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+:::
 
