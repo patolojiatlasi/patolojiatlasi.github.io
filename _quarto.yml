@@ -77,9 +77,8 @@ book:
         href: https://serdarbalci.com
   chapters:
     - index.qmd
-    - giris.qmd
-    # - text: "Giriş"
-    # - href: giris.qmd
+    - text: "Giriş"
+      href: giris.qmd
     - yazarlar.qmd
     - part: "---"
     - part: "Genel Patoloji"
@@ -91,9 +90,8 @@ book:
         - tamir.qmd
     - part: "İnflamasyon"
       chapters:
-        - kronikinflamasyon.qmd
-        # - text: "Kronik inflamasyon"
-        # - href: kronikinflamasyon.Rmd
+        - text: "Kronik inflamasyon"
+          href: kronikinflamasyon.Rmd
         # - inflamasyon.qmd
     - part: "İnfeksiyöz Hastalıkların Patolojisi"
       chapters:
