@@ -1,5 +1,5 @@
 name: Update Site and Tweet
-on:
+# on:
 #  push:
 #  workflow_dispatch:
 
@@ -14,7 +14,7 @@ jobs:
 #        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
 #        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
 
-   tweet:
+#    tweet:
 # #    needs: build
 #      if: "!contains(github.event.head_commit.message, 'WIP')"
 #      runs-on: ubuntu-latest
