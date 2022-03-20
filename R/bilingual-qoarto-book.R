@@ -26,6 +26,9 @@ fs::file_copy(path = "./R/languageEN.R",
 quarto::quarto_render(".")
 
 
+fs::file_delete(path = "./EN/CNAME")
+
+
 # prepare TR ----
 
 fs::file_copy(path = "./_quarto_TR.yml",
