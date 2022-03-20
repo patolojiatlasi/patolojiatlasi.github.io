@@ -12,21 +12,19 @@
 
 [linkedin](https://www.linkedin.com/company/patoloji-notlari)
 
-[https://leanpub.com/patolojiatlasi/](https://leanpub.com/patolojiatlasi/)
+<https://leanpub.com/patolojiatlasi/>
 
 [development & WIP](https://pathologyatlas.github.io/development.md)
 
-  - [https://github.com/pathologyatlas](https://github.com/pathologyatlas)
+-   <https://github.com/pathologyatlas>
 
-  - [https://github.com/pathologyatlas/TODO](https://github.com/pathologyatlas/TODO)
+-   <https://github.com/pathologyatlas/TODO>
 
-  - [https://github.com/pathologyatlas/pathologyatlas.github.io](https://github.com/pathologyatlas/pathologyatlas.github.io)
+-   <https://github.com/pathologyatlas/pathologyatlas.github.io>
 
-  - [https://github.com/pathologyatlas/template](https://github.com/pathologyatlas/template)
+-   <https://github.com/pathologyatlas/template>
 
-  - [https://github.com/pathologyatlas/make-html-WSI](https://github.com/pathologyatlas/make-html-WSI)
-
-
+-   <https://github.com/pathologyatlas/make-html-WSI>
 
 contact: info\@patolojinotlari.com
 
@@ -56,9 +54,7 @@ contact: bilgi\@patolojiatlasi.com
 
 <https://pathologyatlas.github.io/lecture1/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.html>
 
-
----
-
+------------------------------------------------------------------------
 
 # adding submodule
 
@@ -84,24 +80,18 @@ see: [Convert .svs to .dzi and publish as or embed in a web page](https://github
 
 see: [Using templates for new repositories](https://github.com/pathologyatlas/template)
 
-
-
-
-
-
----
-
+------------------------------------------------------------------------
 
 # TODO
 
 ## Yönlendirme
 
--   lab-patolojinotlari adresini patolojiatlasi'na yönlendir.
--   pathologyatlas-github-io EN'e yönlendir
 -   development ve wsi to html repolarının adreslerini güncelle ve detaylandır
 -   https://quarto.org/docs/websites/website-navigation.html#pages-404
+-   Yönlendirme örneği: https://github.com/patolojiatlasi/GBD
 
 ## GBDAtlas
+
 -   GBDAtlas ilk grubu ekle
 
 ## Language
@@ -116,10 +106,10 @@ see: [Using templates for new repositories](https://github.com/pathologyatlas/te
 
 ## GitHub Actions
 
-- https://github.com/quarto-dev/quarto-actions
-- https://github.com/pommevilla/quarto-render
-- https://github.com/pommevilla/friendly-dollop
-- https://pommevilla.github.io/friendly-dollop/
+-   https://github.com/quarto-dev/quarto-actions
+-   https://github.com/pommevilla/quarto-render
+-   https://github.com/pommevilla/friendly-dollop
+-   https://pommevilla.github.io/friendly-dollop/
 
 ## tweeting with update
 
@@ -128,24 +118,21 @@ see: [Using templates for new repositories](https://github.com/pathologyatlas/te
 -   https://gitweet.io/
 -   https://joshuaiz.com/words/using-github-actions-to-post-to-twitter-on-commit
 
+------------------------------------------------------------------------
 
-
----
-
-:::{.callout-note}
-Note that there are five types of callouts, including:
-`note`, `tip`, `warning`, `caution`, and `important`.
+::: callout-note
+Note that there are five types of callouts, including: `note`, `tip`, `warning`, `caution`, and `important`.
 :::
 
-:::{.callout-tip}
+::: callout-tip
 ## Tip With Caption
 
 This is an example of a callout with a caption.
 :::
 
-:::{.callout-caution collapse="true"}
+::: {.callout-caution collapse="true"}
 ## Expand To Learn About Collapse
 
-This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+This is an example of a 'folded' caution callout that can be expanded by the user.
+You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
 :::
-
