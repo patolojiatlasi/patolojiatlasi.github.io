@@ -32,12 +32,11 @@ book:
     - text: "Home Page"
       href: index.qmd
     - text: "Türkçe Atlas İçin"
-      href: "./index.html"
+      href: index.qmd
     - text: "Introduction"
       href: giris.qmd
     - text: "Authors and Contributors"
       href: yazarlar.qmd
-#       slug: authors
     - part: "General Pathology"
       chapters:
         - text: "Intracellular Accumulations"
