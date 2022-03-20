@@ -11,7 +11,11 @@ https://pathologyatlas.ro/
 
 ## Pathology Outlines
 - https://www.pathologyoutlines.com/
- 
+
+
+## Marmara University
+
+https://tip.marmara.edu.tr/ogrenci/ders-notlari/donem-2/patoloji-laboratuvar2/
 
 ## Histopathology of Mesenchymal Neoplasms: a system-based compendium
 
