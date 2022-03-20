@@ -76,7 +76,14 @@ book:
       - icon: globe2
         href: https://serdarbalci.com
   chapters:
-    - index.qmd
+    - text: "Anasayfa"
+      href: index.qmd
+    - text: "For English click here"
+      href: ./EN/index.html
+      icon: globe2
+    # - text: "GBD Atlas"
+    #   href: "https://patolojiatlasi.com/GBD/"
+    #   icon: globe2
     - text: "Giriş"
       href: giris.qmd
     - yazarlar.qmd
@@ -96,7 +103,8 @@ book:
     - part: "İnfeksiyöz Hastalıkların Patolojisi"
       chapters:
         - virus.qmd
-        - bakteri.qmd
+        - text: "Bakteriler"
+          href: bakteri.qmd
         - mantar.qmd
 #        - parazit.qmd
     - part: "Temel Tümör Patolojisi"
