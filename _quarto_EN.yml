@@ -29,11 +29,15 @@ book:
       - icon: globe2
         href: https://serdarbalci.com
   chapters:
-    - index.qmd
+    - text: "Home Page"
+      href: index.qmd
+    - text: "Türkçe Atlas İçin"
+      href: "./index.html"
     - text: "Introduction"
       href: giris.qmd
     - text: "Authors and Contributors"
       href: yazarlar.qmd
+      slug: authors
     - part: "General Pathology"
       chapters:
         - text: "Intracellular Accumulations"

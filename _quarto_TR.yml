@@ -78,12 +78,12 @@ book:
   chapters:
     - text: "Anasayfa"
       href: index.qmd
-    # - text: "For English click here"
-    #   href: "./EN/index.html"
-    #   icon: globe2
-    # - text: "GBD Atlas"
-    #   href: "https://patolojiatlasi.com/GBD/"
-    #   icon: globe2
+    - text: "For English click here"
+      url: "./EN/index.html"
+      icon: globe2
+    - text: "GBD Atlas"
+      url: "./GBD/index.html"
+      icon: globe2
     - text: "Giriş"
       href: giris.qmd
     - yazarlar.qmd
@@ -99,6 +99,8 @@ book:
       chapters:
         - text: "Kronik inflamasyon"
           href: kronikinflamasyon.qmd
+        - text: "Granülamatöz İnflamasyon"
+          href: granulom.qmd
         # - inflamasyon.qmd
     - part: "İnfeksiyöz Hastalıkların Patolojisi"
       chapters:
