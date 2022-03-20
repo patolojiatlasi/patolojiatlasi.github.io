@@ -23,7 +23,7 @@ fs::file_copy(path = "./R/languageEN.R",
 
 # render EN ----
 
-quarto::quarto_render(".")
+quarto::quarto_render(".", as_job = FALSE)
 
 
 fs::file_delete(path = "./EN/CNAME")
@@ -42,7 +42,7 @@ fs::file_copy(path = "./R/languageTR.R",
 
 # render TR ----
 
-quarto::quarto_render(".")
+quarto::quarto_render(".", as_job = FALSE)
 
 
 

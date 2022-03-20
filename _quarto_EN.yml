@@ -11,7 +11,7 @@ book:
   cover-image: images/cover.png
   site-url: https://patolojiatlasi.com
   sidebar:
-    style: floating #docked
+    style: floating
     search: true
   page-navigation: true
   page-footer:
@@ -30,16 +30,22 @@ book:
         href: https://serdarbalci.com
   chapters:
     - index.qmd
-    - giris.qmd
-    - yazarlar.qmd
-    - part: "Genel Patoloji"
+    - text: "Introduction"
+      href: giris.qmd
+    - text: "Authors and Contributors"
+      href: yazarlar.qmd
+    - part: "General Pathology"
       chapters:
-        - genelpatoloji.qmd
-        - hucreicibirikimler.qmd
-        - iskeminekroz.qmd
-        - inflamasyon.qmd
-        - amiloid.qmd
-        - tamir.qmd
+        - text: "Intracellular Accumulations"
+          href: hucreicibirikimler.qmd
+        - text: "Hemodynamic Disorders"
+          href: iskeminekroz.qmd
+        - text: "Inflammation"
+          href: inflamasyon.qmd
+        - text: "Amyloidosis"
+          href: amiloid.qmd
+        - text: "Repair Mechanisms"
+          href: tamir.qmd
 
 
 editor: visual
