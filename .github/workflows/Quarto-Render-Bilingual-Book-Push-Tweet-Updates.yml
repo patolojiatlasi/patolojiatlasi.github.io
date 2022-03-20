@@ -52,7 +52,7 @@ jobs:
           fs::file_copy(path = "./R/languageEN.R", new_path = "./R/language.R",overwrite = TRUE)
           # render EN
           quarto::quarto_render(".", as_job = FALSE)
-          fs::file_delete(path = "./EN/CNAME")
+          if (file.exists("./EN/CNAME")){fs::file_delete(path = "./EN/CNAME")}
           # prepare TR
           fs::file_copy(path = "./_quarto_TR.yml", new_path = "./_quarto.yml", overwrite = TRUE)
           fs::file_copy(path = "./R/languageTR.R", new_path = "./R/language.R", overwrite = TRUE)

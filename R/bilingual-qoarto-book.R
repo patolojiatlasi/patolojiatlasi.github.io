@@ -26,7 +26,9 @@ fs::file_copy(path = "./R/languageEN.R",
 quarto::quarto_render(".", as_job = FALSE)
 
 
-fs::file_delete(path = "./EN/CNAME")
+if (file.exists("./EN/CNAME")){
+  fs::file_delete(path = "./EN/CNAME")
+}
 
 
 # prepare TR ----
