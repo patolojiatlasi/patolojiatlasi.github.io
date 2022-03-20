@@ -1,13 +1,14 @@
 # Patoloji Atlası {#patoloji-atlasi .unnumbered}
 
-```{r EN, include=FALSE, eval=FALSE}
-language <- "EN"
+```{r language, echo=FALSE, include=TRUE}
+source("./R/language.R")
 ```
 
-```{r TR, include=FALSE, eval=TRUE}
-language <- "TR"
-```
+```{comment}
 
 [For English click here](./EN/index.html)
 
 [GBDAtlas](/GBD/)
+
+```
+

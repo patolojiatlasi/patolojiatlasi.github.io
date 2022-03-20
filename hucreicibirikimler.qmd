@@ -1,5 +1,11 @@
 # Hücre İçi Birikimler
 
+
+```{r language, echo=FALSE, include=TRUE}
+source("./R/language.R")
+```
+
+
 ## Kolesterol Polibi
 
 -   <https://pathologyatlas.github.io/cholesterolpolyp/HE.html>
@@ -56,17 +62,9 @@ See Microscopy with viewer:
 
 </iframe>
 
-
 ## Melanosis Coli
 
-
-```{r melanosiscoli, include=FALSE}
-# language <- "EN"
-language <- "TR"
-```
-
-
-```{asis, echo = language == "TR"}
+```{asis, echo = (language == "TR")}
 
 **Melanozis Koli**
 
@@ -78,8 +76,7 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-
-```{asis, echo = language == "EN"}
+```{asis, echo = (language == "EN")}
 
 **Melanosis Coli**
 
@@ -91,7 +88,7 @@ See Microscopy with viewer:
 
 ```
 
-```{asis, echo = language == "TR"}
+```{asis, echo = (language == "TR")}
 
 **Melanozis Koli PAS**
 
@@ -103,8 +100,7 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-
-```{asis, echo = language == "EN"}
+```{asis, echo = (language == "EN")}
 
 **Melanosis Coli PAS**
 
@@ -115,4 +111,3 @@ See Microscopy with viewer:
 <iframe src="https://pathologyatlas.github.io/melanosiscoli/PAS.html" style="height:400px;width:100%;"></iframe>
 
 ```
-

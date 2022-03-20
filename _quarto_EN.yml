@@ -5,56 +5,17 @@ project:
 lang: en
 
 book:
-  title: "Patoloji Atlası"
-  subtitle: "Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları: Görerek Öğrenin"
-  author: |
-    **Derleyen:** [Serdar Balcı](https://www.serdarbalci.com)
-    **Yazarlar:** [Memorial Patoloji](https://MemorialPath.github.io) Hekim ve Teknikerleri
-  description: |
-    Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları. Görerek Öğrenin.
-    Patoloji Ders Notları ve Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.
-  abstract: |
-    Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları.
-    Görerek Öğrenin.
-    Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.
-    [Katkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin](https://www.patolojiatlasi.com/katki.html).
-  image: images/cover.png
-  date: 2022-03-14
-  date-meta: short
-  output-file: "Patoloji-Atlasi"
+  title: "Pathology Atlas"
+  engine: knitr
+  output-file: "Patology-Atlas"
   cover-image: images/cover.png
   site-url: https://patolojiatlasi.com
-#  repo-url: https://github.com/patolojiatlasi/patolojiatlasi.github.io
-  google-analytics: "G-7BT7Q4FLT9"
-#  repo-branch: main
-#  repo-actions: [edit, issue, source]
-  sharing: [twitter, facebook, linkedin]
-  downloads: epub # [pdf, epub]
-  search:
-    location: navbar
-    type: overlay
-    copy-button: true
   sidebar:
     style: floating #docked
-    background: light
     search: true
-#   navbar:
-#     title: "Patoloji Atlası"
-#     logo: images/cover.png
-#     search: true
-#     pinned: false
-#     collapse: true
-#     right:
-#       - icon: github
-#         href: https://github.com/patolojiatlasi
-  open-graph: true
-  twitter-card:
-    creator: "@serdarbalci"
-    site: "@patolojinotlari"
   page-navigation: true
   page-footer:
     border: true
-    background: light
     left: "Copyright 2022, patolojiAI"
     right:
       - icon: github
@@ -79,111 +40,6 @@ book:
         - inflamasyon.qmd
         - amiloid.qmd
         - tamir.qmd
-    - part: "İnfeksiyöz Hastalıkların Patolojisi"
-      chapters:
-        - virus.qmd
-        - bakteri.qmd
-        - mantar.qmd
-#        - parazit.qmd
-    - part: "Temel Tümör Patolojisi"
-      chapters:
-        - benign.qmd
-        - hamartom.qmd
-        - heterotopi.qmd
-        - metastaz.qmd
-# #    - part: "Hematopatoloji"
-# #      chapters:
-# #        - hematopatoloji.qmd
-    - part: "Gastrointestinal Sistem Patolojisi"
-      chapters:
-        - gastro.qmd
-        - kolon.qmd
-    - part: "Karaciğer Patolojisi"
-      chapters:
-        - karaciger.qmd
-    - part: "Jinekolojik Patoloji"
-      chapters:
-        - jineko.qmd
-        - genital.qmd
-    - part: "Üriner Sistem Patolojisi"
-      chapters:
-        - uriner.qmd
-        - bobrek.qmd
-    - part: meme.md
-    - part: "Baş Boyun Patolojisi"
-      chapters:
-        - kulak.qmd
-    - part: "Kemik ve Yumuşak Doku Patolojisi"
-      chapters:
-        - kemik.qmd
-    - referanslar.qmd
-  appendices:
-    - yonetim-gelistirme.md
-    - katki.qmd
-
-
-# bibliography: references.bib
-# # csl: citestyle.csl
-highlight-style: pygments
-
-
-comments:
-  hypothesis: true
-  utterances:
-    repo: patolojiatlasi/patolojiatlasi.github.io
-format:
-  html:
-    theme: cosmo
-    cover-image: images/cover.png
-#    code-link: true
-#    code-fold: true
-#    code-tools: true
-#    code-copy: true
-    light: flatly
-    dark: darkly
-#    fig-width: 8
-#    fig-height: 4
-    execute:
-      warning: false
-#    css: styles.css
-    self-contained: false
-    anchor-sections: true
-    link-external-icon: true
-    link-external-newwindow: true
-    link-external-filter: '(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/pathologyatlas\.github\.io\/)'
-    citations-hover: true
-    footnotes-hover: true
-    number-depth: 3
-    toc-title: "İçindekiler"
-  epub:
-    toc: true
-    epub-cover-image: images/cover.png
-    execute:
-      warning: false
-#   pdf:
-#     documentclass: scrreprt
-#     toc: true
-#     toc-depth: 3
-#     toc-title: "İçindekiler"
-#     number-sections: true
-#     number-depth: 3
-#     colorlinks: true
-#     highlight-style: github
-#   docx:
-#     toc: true
-#     section-numbers: true
-#     highlight-style: github
-#     toc-depth: 3
-#     toc-title: "İçindekiler"
-#     number-sections: true
-#     number-depth: 3
-
-
-citation:
-    type: webpage
-    container-title: Patoloji Atlası
-    accessed: "March-2022"
-    url: "https://www.patolojiatlasi.com/"
 
 
 editor: visual

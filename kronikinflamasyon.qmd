@@ -1,5 +1,5 @@
-```{r language2, include=FALSE}
-language <- "TR"
+```{r language, echo=FALSE, include=TRUE}
+source("./R/language.R")
 ```
 
 ```{asis, echo = (language == "EN")}
