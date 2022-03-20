@@ -7,6 +7,7 @@ on:
 
 jobs:
   quarto-render-and-deploy:
+    if: "!contains(github.event.head_commit.message, 'WIP')"
     runs-on: ubuntu-latest
     env:
       RENV_PATHS_ROOT: ~/.local/share/renv
@@ -69,18 +70,13 @@ jobs:
           publish_dir: ./docs
 
 
-   tweet:
-# #    needs: build
-     if: "!contains(github.event.head_commit.message, 'WIP')"
-     runs-on: ubuntu-latest
-     steps:
-       - name: Get current date
-         id: date
-         run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
-       - uses: ethomson/send-tweet-action@v1
-         with:
-           status: '#WSI whole slide image içeren patoloji atlası güncellendi ${{ steps.date.outputs.date }}. Patoloji notları için: https://www.patolojinotlari.com/ #dijitalpatoloji #WSI #preparat için https://www.patolojiatlasi.com/'
-           consumer-key: ${{ secrets.API_KEY }}
-           consumer-secret: ${{ secrets.API_SECRET_KEY }}
-           access-token: ${{ secrets.ACCESS_TOKEN }}
-           access-token-secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
+      - name: "Tweet"
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+      - uses: ethomson/send-tweet-action@v1
+        with:
+          status: 'Patoloji atlası güncellendi ${{ steps.date.outputs.date }}. Patoloji notları için: https://www.patolojinotlari.com/ #dijitalpatoloji #WSI #preparat için https://www.patolojiatlasi.com/'
+          consumer-key: ${{ secrets.API_KEY }}
+          consumer-secret: ${{ secrets.API_SECRET_KEY }}
+          access-token: ${{ secrets.ACCESS_TOKEN }}
+          access-token-secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
