@@ -1,7 +1,35 @@
 # Yazarlar ve Katkıda Bulunanlar {.unnumbered}
 
-**Derleyen:** [Serdar Balcı](https://www.serdarbalci.com)
+## Derleyen:
+- [Serdar Balcı](https://www.serdarbalci.com)
 
-**Yazarlar:** [Memorial Patoloji](https://MemorialPath.github.io) Hekim ve Teknikerleri
+## Katkıda Bulunanlar:
+**[Memorial Patoloji](https://MemorialPath.github.io) Hekimleri**
+- [Ilknur Turkmen](https://www.memorial.com.tr/en/doctors/ilknur-turkmen-1975)
+- [Gülen Bülbül Doğusoy]
+<!-- - [Fatma Aktepe] -->
+<!-- - [Türkan Atasever Rezanko] -->
+<!-- - [Pembe Gül Güneş] -->
+<!-- - [Şemsi Yıldız] -->
+- [Serdar Balcı]
+<!-- - [Sezen Koçarslan] -->
+- [Yıldırım Karslıoğlu]
+- [Mehtat Uz Ünlü]
+- [Murat Oktay]
+<!-- - [Deniz Bayçelebi] -->
+<!-- - [Emre Karakök] -->
+<!-- - [Zuhal Kuş Sılav] -->
+<!-- - [Fatma Gülgün Sade Koçak] -->
+<!-- - [Zeynep Pehlivanoğlu] -->
 
--   [Ilknur Turkmen](https://www.memorial.com.tr/en/doctors/ilknur-turkmen-1975)
+**[Memorial Patoloji](https://MemorialPath.github.io) Teknikerleri**
+- [Emrah Uça]
+- [Elif Sevin Şanioğlu]
+
+
+---
+
+
+```{r, echo=FALSE}
+htmltools::includeMarkdown(path = "https://github.com/MemorialPath/MemorialPath.github.io/blob/main/README.md")
+```
