@@ -78,12 +78,6 @@ book:
   chapters:
     - text: "Anasayfa"
       href: index.qmd
-    - text: "For English click here"
-      url: "./EN/index.html"
-      icon: globe2
-    - text: "GBD Atlas"
-      url: "./GBD/index.html"
-      icon: globe2
     - text: "Giriş"
       href: giris.qmd
     - yazarlar.qmd
@@ -91,7 +85,6 @@ book:
     - part: "Genel Patoloji"
       chapters:
         - genelpatoloji.qmd
-        - text: "Birikim ve Depo Hastalıkları"
         - text: "Hücre İçi Birikimler"
           href: hucreicibirikimler.qmd
         - text: "Hücre Dışı Birikimler"
