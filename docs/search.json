@@ -1,0 +1,289 @@
+[
+  {
+    "objectID": "giris.html",
+    "href": "giris.html",
+    "title": "Giriş",
+    "section": "",
+    "text": "Son güncelleme zamanı: 2022-03-21 20:08:15\nSosyal medyadan derlenen görüntülerden oluşan patoloji notları için tıklayınız."
+  },
+  {
+    "objectID": "yazarlar.html",
+    "href": "yazarlar.html",
+    "title": "Yazarlar ve Katkıda Bulunanlar",
+    "section": "",
+    "text": "Serdar Balcı"
+  },
+  {
+    "objectID": "yazarlar.html#katkıda-bulunanlar",
+    "href": "yazarlar.html#katkıda-bulunanlar",
+    "title": "Yazarlar ve Katkıda Bulunanlar",
+    "section": "Katkıda Bulunanlar:",
+    "text": "Katkıda Bulunanlar:\nMemorial Patoloji Hekimleri - Ilknur Turkmen - [Gülen Bülbül Doğusoy]     - [Serdar Balcı]  - [Yıldırım Karslıoğlu] - [Mehtat Uz Ünlü] - [Murat Oktay]     \nMemorial Patoloji Teknikerleri - [Emrah Uça] - [Elif Sevin Şanioğlu]\n\n\n\n<!DOCTYPE html>\n\n  \n    \n  \n  \n  \n  \n  \n  \n\n\n    \n    \n    \n  \n\n<meta name=\"optimizely-datafile\" content=\"{&quot;version&quot;: &quot;4&quot;, &quot;rollouts&quot;: [], &quot;typedAudiences&quot;: [], &quot;anonymizeIP&quot;: true, &quot;projectId&quot;: &quot;16737760170&quot;, &quot;variables&quot;: [], &quot;featureFlags&quot;: [], &quot;experiments&quot;: [{&quot;status&quot;: &quot;Running&quot;, &quot;audienceIds&quot;: [], &quot;variations&quot;: [{&quot;variables&quot;: [], &quot;id&quot;: &quot;20438636352&quot;, &quot;key&quot;: &quot;control&quot;}, {&quot;variables&quot;: [], &quot;id&quot;: &quot;20484957397&quot;, &quot;key&quot;: &quot;treatment&quot;}], &quot;id&quot;: &quot;20479227424&quot;, &quot;key&quot;: &quot;growth_ghec_onboarding_experience&quot;, &quot;layerId&quot;: &quot;20467848595&quot;, &quot;trafficAllocation&quot;: [{&quot;entityId&quot;: &quot;20484957397&quot;, &quot;endOfRange&quot;: 1000}, {&quot;entityId&quot;: &quot;20484957397&quot;, &quot;endOfRange&quot;: 3000}, {&quot;entityId&quot;: &quot;20484957397&quot;, &quot;endOfRange&quot;: 5000}, {&quot;entityId&quot;: &quot;20484957397&quot;, &quot;endOfRange&quot;: 6000}, {&quot;entityId&quot;: &quot;20484957397&quot;, &quot;endOfRange&quot;: 8000}, {&quot;entityId&quot;: &quot;20484957397&quot;, &quot;endOfRange&quot;: 10000}], &quot;forcedVariations&quot;: {&quot;85e2238ce2b9074907d7a3d91d6feeae&quot;: &quot;control&quot;}}, {&quot;status&quot;: &quot;Running&quot;, &quot;audienceIds&quot;: [], &quot;variations&quot;: [{&quot;variables&quot;: [], &quot;id&quot;: &quot;20667381018&quot;, &quot;key&quot;: &quot;control&quot;}, {&quot;variables&quot;: [], &quot;id&quot;: &quot;20680930759&quot;, &quot;key&quot;: &quot;treatment&quot;}], &quot;id&quot;: &quot;20652570897&quot;, &quot;key&quot;: &quot;project_genesis&quot;, &quot;layerId&quot;: &quot;20672300363&quot;, &quot;trafficAllocation&quot;: [{&quot;entityId&quot;: &quot;20667381018&quot;, &quot;endOfRange&quot;: 5000}, {&quot;entityId&quot;: &quot;20680930759&quot;, &quot;endOfRange&quot;: 10000}], &quot;forcedVariations&quot;: {&quot;83356e17066d336d1803024138ecb683&quot;: &quot;treatment&quot;, &quot;18e31c8a9b2271332466133162a4aa0d&quot;: &quot;treatment&quot;, &quot;10f8ab3fbc5ebe989a36a05f79d48f32&quot;: &quot;treatment&quot;, &quot;1686089f6d540cd2deeaec60ee43ecf7&quot;: &quot;treatment&quot;}}, {&quot;status&quot;: &quot;Running&quot;, &quot;audienceIds&quot;: [], &quot;variations&quot;: [{&quot;variables&quot;: [], &quot;id&quot;: &quot;20898546114&quot;, &quot;key&quot;: &quot;control&quot;}, {&quot;variables&quot;: [], &quot;id&quot;: &quot;20923036705&quot;, &quot;key&quot;: &quot;treatment_a&quot;}, {&quot;variables&quot;: [], &quot;id&quot;: &quot;20965581308&quot;, &quot;key&quot;: &quot;treatment_b&quot;}], &quot;id&quot;: &quot;20902325119&quot;, &quot;key&quot;: &quot;contact_sales_page_optimizations&quot;, &quot;layerId&quot;: &quot;20969031091&quot;, &quot;trafficAllocation&quot;: [{&quot;entityId&quot;: &quot;20965581308&quot;, &quot;endOfRange&quot;: 3330}, {&quot;entityId&quot;: &quot;20965581308&quot;, &quot;endOfRange&quot;: 5000}, {&quot;entityId&quot;: &quot;20965581308&quot;, &quot;endOfRange&quot;: 6670}, {&quot;entityId&quot;: &quot;20965581308&quot;, &quot;endOfRange&quot;: 10000}], &quot;forcedVariations&quot;: {}}], &quot;audiences&quot;: [{&quot;conditions&quot;: &quot;[\\&quot;or\\&quot;, {\\&quot;match\\&quot;: \\&quot;exact\\&quot;, \\&quot;name\\&quot;: \\&quot;$opt_dummy_attribute\\&quot;, \\&quot;type\\&quot;: \\&quot;custom_attribute\\&quot;, \\&quot;value\\&quot;: \\&quot;$opt_dummy_value\\&quot;}]&quot;, &quot;id&quot;: &quot;$opt_dummy_audience&quot;, &quot;name&quot;: &quot;Optimizely-Generated Audience for Backwards Compatibility&quot;}], &quot;groups&quot;: [], &quot;sdkKey&quot;: &quot;WTc6awnGuYDdG98CYRban&quot;, &quot;environmentKey&quot;: &quot;production&quot;, &quot;attributes&quot;: [{&quot;id&quot;: &quot;16822470375&quot;, &quot;key&quot;: &quot;user_id&quot;}, {&quot;id&quot;: &quot;17143601254&quot;, &quot;key&quot;: &quot;spammy&quot;}, {&quot;id&quot;: &quot;18175660309&quot;, &quot;key&quot;: &quot;organization_plan&quot;}, {&quot;id&quot;: &quot;18813001570&quot;, &quot;key&quot;: &quot;is_logged_in&quot;}, {&quot;id&quot;: &quot;19073851829&quot;, &quot;key&quot;: &quot;geo&quot;}, {&quot;id&quot;: &quot;20175462351&quot;, &quot;key&quot;: &quot;requestedCurrency&quot;}, {&quot;id&quot;: &quot;20785470195&quot;, &quot;key&quot;: &quot;country_code&quot;}], &quot;botFiltering&quot;: false, &quot;accountId&quot;: &quot;16737760170&quot;, &quot;events&quot;: [{&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;17911811441&quot;, &quot;key&quot;: &quot;hydro_click.dashboard.teacher_toolbox_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18124116703&quot;, &quot;key&quot;: &quot;submit.organizations.complete_sign_up&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18145892387&quot;, &quot;key&quot;: &quot;no_metric.tracked_outside_of_optimizely&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18178755568&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.add_repo&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18180553241&quot;, &quot;key&quot;: &quot;submit.repository_imports.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18186103728&quot;, &quot;key&quot;: &quot;click.help.learn_more_about_repository_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18188530140&quot;, &quot;key&quot;: &quot;test_event&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18191963644&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.transfer_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18195612788&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.import_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18210945499&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.invite_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18211063248&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.create_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18215721889&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.update_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18224360785&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.dismiss&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18234832286&quot;, &quot;key&quot;: &quot;submit.organization_activation.complete&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18252392383&quot;, &quot;key&quot;: &quot;submit.org_repository.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18257551537&quot;, &quot;key&quot;: &quot;submit.org_member_invitation.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18259522260&quot;, &quot;key&quot;: &quot;submit.organization_profile.update&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18564603625&quot;, &quot;key&quot;: &quot;view.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18568612016&quot;, &quot;key&quot;: &quot;click.classroom_sign_in_click&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18572592540&quot;, &quot;key&quot;: &quot;view.classroom_name&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18574203855&quot;, &quot;key&quot;: &quot;click.classroom_create_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18582053415&quot;, &quot;key&quot;: &quot;click.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18589463420&quot;, &quot;key&quot;: &quot;click.classroom_create_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591323364&quot;, &quot;key&quot;: &quot;click.classroom_create_first_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591652321&quot;, &quot;key&quot;: &quot;click.classroom_grant_access&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18607131425&quot;, &quot;key&quot;: &quot;view.classroom_creation&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;18831680583&quot;, &quot;key&quot;: &quot;upgrade_account_plan&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19064064515&quot;, &quot;key&quot;: &quot;click.signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19075373687&quot;, &quot;key&quot;: &quot;click.view_account_billing_page&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19077355841&quot;, &quot;key&quot;: &quot;click.dismiss_signup_prompt&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19079713938&quot;, &quot;key&quot;: &quot;click.contact_sales&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19120963070&quot;, &quot;key&quot;: &quot;click.compare_account_plans&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19151690317&quot;, &quot;key&quot;: &quot;click.upgrade_account_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19424193129&quot;, &quot;key&quot;: &quot;click.open_account_switcher&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19520330825&quot;, &quot;key&quot;: &quot;click.visit_account_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19540970635&quot;, &quot;key&quot;: &quot;click.switch_account_context&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19730198868&quot;, &quot;key&quot;: &quot;submit.homepage_signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19820830627&quot;, &quot;key&quot;: &quot;click.homepage_signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19988571001&quot;, &quot;key&quot;: &quot;click.create_enterprise_trial&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20036538294&quot;, &quot;key&quot;: &quot;click.create_organization_team&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20040653299&quot;, &quot;key&quot;: &quot;click.input_enterprise_trial_form&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20062030003&quot;, &quot;key&quot;: &quot;click.continue_with_team&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20068947153&quot;, &quot;key&quot;: &quot;click.create_organization_free&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20086636658&quot;, &quot;key&quot;: &quot;click.signup_continue.username&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20091648988&quot;, &quot;key&quot;: &quot;click.signup_continue.create_account&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20103637615&quot;, &quot;key&quot;: &quot;click.signup_continue.email&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20111574253&quot;, &quot;key&quot;: &quot;click.signup_continue.password&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20120044111&quot;, &quot;key&quot;: &quot;view.pricing_page&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20152062109&quot;, &quot;key&quot;: &quot;submit.create_account&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20165800992&quot;, &quot;key&quot;: &quot;submit.upgrade_payment_form&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20171520319&quot;, &quot;key&quot;: &quot;submit.create_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20222645674&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.discuss_your_needs&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20227443657&quot;, &quot;key&quot;: &quot;submit.verify_primary_user_email&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20234607160&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.try_enterprise&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20238175784&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.team&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20239847212&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.continue_free&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20251097193&quot;, &quot;key&quot;: &quot;recommended_plan&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20438619534&quot;, &quot;key&quot;: &quot;click.pricing_calculator.1_member&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20456699683&quot;, &quot;key&quot;: &quot;click.pricing_calculator.15_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20467868331&quot;, &quot;key&quot;: &quot;click.pricing_calculator.10_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20476267432&quot;, &quot;key&quot;: &quot;click.trial_days_remaining&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20476357660&quot;, &quot;key&quot;: &quot;click.discover_feature&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20479287901&quot;, &quot;key&quot;: &quot;click.pricing_calculator.custom_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20481107083&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.apply_teacher_benefits&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20483089392&quot;, &quot;key&quot;: &quot;click.pricing_calculator.5_members&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;, &quot;20652570897&quot;], &quot;id&quot;: &quot;20484283944&quot;, &quot;key&quot;: &quot;click.onboarding_task&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20484996281&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.apply_student_benefits&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20486713726&quot;, &quot;key&quot;: &quot;click.onboarding_task_breadcrumb&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20490791319&quot;, &quot;key&quot;: &quot;click.upgrade_to_enterprise&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20491786766&quot;, &quot;key&quot;: &quot;click.talk_to_us&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20494144087&quot;, &quot;key&quot;: &quot;click.dismiss_enterprise_trial&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;, &quot;20652570897&quot;], &quot;id&quot;: &quot;20499722759&quot;, &quot;key&quot;: &quot;completed_all_tasks&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;, &quot;20652570897&quot;], &quot;id&quot;: &quot;20500710104&quot;, &quot;key&quot;: &quot;completed_onboarding_tasks&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20513160672&quot;, &quot;key&quot;: &quot;click.read_doc&quot;}, {&quot;experimentIds&quot;: [&quot;20652570897&quot;], &quot;id&quot;: &quot;20516196762&quot;, &quot;key&quot;: &quot;actions_enabled&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20518980986&quot;, &quot;key&quot;: &quot;click.dismiss_trial_banner&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20535446721&quot;, &quot;key&quot;: &quot;click.issue_actions_prompt.dismiss_prompt&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20557002247&quot;, &quot;key&quot;: &quot;click.issue_actions_prompt.setup_workflow&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20595070227&quot;, &quot;key&quot;: &quot;click.pull_request_setup_workflow&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20626600314&quot;, &quot;key&quot;: &quot;click.seats_input&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20642310305&quot;, &quot;key&quot;: &quot;click.decrease_seats_number&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20662990045&quot;, &quot;key&quot;: &quot;click.increase_seats_number&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20679620969&quot;, &quot;key&quot;: &quot;click.public_product_roadmap&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20761240940&quot;, &quot;key&quot;: &quot;click.dismiss_survey_banner&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20767210721&quot;, &quot;key&quot;: &quot;click.take_survey&quot;}, {&quot;experimentIds&quot;: [&quot;20652570897&quot;], &quot;id&quot;: &quot;20795281201&quot;, &quot;key&quot;: &quot;click.archive_list&quot;}, {&quot;experimentIds&quot;: [&quot;20902325119&quot;], &quot;id&quot;: &quot;20966790249&quot;, &quot;key&quot;: &quot;contact_sales.submit&quot;}, {&quot;experimentIds&quot;: [&quot;20902325119&quot;], &quot;id&quot;: &quot;20996500333&quot;, &quot;key&quot;: &quot;contact_sales.existing_customer&quot;}, {&quot;experimentIds&quot;: [&quot;20902325119&quot;], &quot;id&quot;: &quot;20996890162&quot;, &quot;key&quot;: &quot;contact_sales.blank_message_field&quot;}, {&quot;experimentIds&quot;: [&quot;20902325119&quot;], &quot;id&quot;: &quot;21000470317&quot;, &quot;key&quot;: &quot;contact_sales.personal_email&quot;}, {&quot;experimentIds&quot;: [&quot;20902325119&quot;], &quot;id&quot;: &quot;21002790172&quot;, &quot;key&quot;: &quot;contact_sales.blank_phone_field&quot;}], &quot;revision&quot;: &quot;1096&quot;}\" />\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\nMemorialPath.github.io/README.md at main · MemorialPath/MemorialPath.github.io · GitHub\n    \n    \n  \n  \n  \n    \n    \n\n\n\n\n\n<meta name=\"hovercard-subject-tag\" content=\"repository:359836025\" data-pjax-transient>\n\n\n\n\n\n\n<meta name=\"google-site-verification\" content=\"c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY\">\n\n\n\n  \n  \n\n\n\n\n\n  <meta name=\"hostname\" content=\"github.com\">\n<meta name=\"user-login\" content=\"\">\n\n\n\n  <meta name=\"expected-hostname\" content=\"github.com\">\n\n\n<meta name=\"enabled-features\" content=\"MARKETPLACE_PENDING_INSTALLATIONS\">\n\n\n\n  \n  \n  \n\n\n\n\n\n<link rel=\"canonical\" href=\"https://github.com/MemorialPath/MemorialPath.github.io/blob/main/README.md\" data-pjax-transient>\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n<div class=\"position-relative js-header-wrapper \">\n  <a href=\"#start-of-content\" class=\"px-2 py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content\">Skip to content</a>\n  <span data-view-component=\"true\" class=\"progress-pjax-loader js-pjax-loader-bar Progress position-fixed width-full\">\n<span style=\"width: 0%;\" data-view-component=\"true\" class=\"Progress-item progress-pjax-loader-bar left-0 top-0 color-bg-accent-emphasis\"></span>\n\n\n      \n\n        <header class=\"Header-old header-logged-out js-details-container Details position-relative f4 py-2\" role=\"banner\">\n\n\n\n    \n      \n        \n    \n\n      \n\n    <div class=\"d-lg-none css-truncate css-truncate-target width-fit p-2\">\n\n    </div>\n\n  <div class=\"d-flex flex-items-center\">\n        <a href=\"/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo\"\n          class=\"d-inline-block d-lg-none f5 no-underline border color-border-default rounded-2 px-2 py-1 mr-3 mr-sm-5 color-fg-inherit\"\n          data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/MemorialPath/MemorialPath.github.io/blob/main/README.md&quot;,&quot;user_id&quot;:null}}\" data-hydro-click-hmac=\"c60a16d21710606d089a7dbf7e25de736c5c3832318bfe021bdb50447c21c7de\"\n        >\n          Sign&nbsp;up\n        </a>\n\n    <button aria-label=\"Toggle navigation\" aria-expanded=\"false\" type=\"button\" data-view-component=\"true\" class=\"js-details-target btn-link d-lg-none mt-1 color-fg-inherit\">  <svg aria-hidden=\"true\" height=\"24\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"24\" data-view-component=\"true\" class=\"octicon octicon-three-bars\">\n<path fill-rule=\"evenodd\" d=\"M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z\"></path>\n\n\n\n      \n    \n\n<div class=\"HeaderMenu HeaderMenu--logged-out position-fixed top-0 right-0 bottom-0 height-fit position-lg-relative d-lg-flex flex-justify-between flex-items-center flex-auto\">\n  <div class=\"d-flex d-lg-none flex-justify-end border-bottom color-bg-subtle p-3\">\n    <button aria-label=\"Toggle navigation\" aria-expanded=\"false\" type=\"button\" data-view-component=\"true\" class=\"js-details-target btn-link\">  <svg aria-hidden=\"true\" height=\"24\" viewBox=\"0 0 24 24\" version=\"1.1\" width=\"24\" data-view-component=\"true\" class=\"octicon octicon-x color-fg-muted\">\n<path fill-rule=\"evenodd\" d=\"M5.72 5.72a.75.75 0 011.06 0L12 10.94l5.22-5.22a.75.75 0 111.06 1.06L13.06 12l5.22 5.22a.75.75 0 11-1.06 1.06L12 13.06l-5.22 5.22a.75.75 0 01-1.06-1.06L10.94 12 5.72 6.78a.75.75 0 010-1.06z\"></path>\n\n\n\n      \n\n    <nav class=\"mt-0 px-3 px-lg-0 mb-5 mb-lg-0\" aria-label=\"Global\">\n      <ul class=\"d-lg-flex list-style-none\">\n          <li class=\"mr-0 mr-lg-3 position-relative flex-wrap flex-justify-between flex-items-center border-bottom border-lg-bottom-0 d-block d-lg-flex flex-lg-nowrap flex-lg-items-center\">\n<details class=\"HeaderMenu-details details-overlay details-reset width-full\">\n  <summary class=\"HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block\">\n    Product\n    <svg x=\"0\" y=\"0\" viewBox=\"0 0 14 8\" xml:space=\"preserve\" fill=\"none\" class=\"icon-chevon-down-mktg position-absolute position-lg-relative\"><path d=\"M1,1l6.2,6L13,1\"></path></svg>\n  </summary>\n  <div class=\"dropdown-menu flex-auto rounded px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4\">\n    <ul class=\"list-style-none f5 pb-1\">\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Features&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Features;&quot;}\" href=\"/features\">\n  Features\n\n\n  \n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Mobile&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Mobile;&quot;}\" href=\"/mobile\">\n  Mobile\n\n\n  \n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Actions&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Actions;&quot;}\" href=\"/features/actions\">\n  Actions\n\n\n  \n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Codespaces&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Codespaces;&quot;}\" href=\"/features/codespaces\">\n  Codespaces\n\n\n  \n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Packages&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Packages;&quot;}\" href=\"/features/packages\">\n  Packages\n\n\n  \n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Security&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Security;&quot;}\" href=\"/features/security\">\n  Security\n\n\n  \n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Code review&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Code review;&quot;}\" href=\"/features/code-review\">\n  Code review\n\n\n  \n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Issues&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Issues;&quot;}\" href=\"/features/issues\">\n  Issues\n\n\n  \n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Integrations&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Integrations;&quot;}\" href=\"/features/integrations\">\n  Integrations\n\n\n  \n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold border-top pt-4 pb-2 mt-3\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to GitHub Sponsors&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:GitHub Sponsors;&quot;}\" href=\"/sponsors\">\n  GitHub Sponsors\n\n\n  \n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Customer stories&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Customer stories;&quot;}\" href=\"/customer-stories\">\n  Customer stories\n\n\n  \n\n    </ul>\n  </div>\n</details>\n\n\n\n\n          <li class=\"mr-0 mr-lg-3 position-relative flex-wrap flex-justify-between flex-items-center border-bottom border-lg-bottom-0 d-block d-lg-flex flex-lg-nowrap flex-lg-items-center\">\n<a class=\"HeaderMenu-link no-underline py-3 d-block d-lg-inline-block\" data-analytics-event=\"{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Team&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Team;&quot;}\" href=\"/team\">Team</a>\n\n\n\n\n          <li class=\"mr-0 mr-lg-3 position-relative flex-wrap flex-justify-between flex-items-center border-bottom border-lg-bottom-0 d-block d-lg-flex flex-lg-nowrap flex-lg-items-center\">\n<a class=\"HeaderMenu-link no-underline py-3 d-block d-lg-inline-block\" data-analytics-event=\"{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Enterprise&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Enterprise;&quot;}\" href=\"/enterprise\">Enterprise</a>\n\n\n\n\n        <li class=\"mr-0 mr-lg-3 position-relative flex-wrap flex-justify-between flex-items-center border-bottom border-lg-bottom-0 d-block d-lg-flex flex-lg-nowrap flex-lg-items-center\">\n<details class=\"HeaderMenu-details details-overlay details-reset width-full\">\n  <summary class=\"HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block\">\n    Explore\n    <svg x=\"0\" y=\"0\" viewBox=\"0 0 14 8\" xml:space=\"preserve\" fill=\"none\" class=\"icon-chevon-down-mktg position-absolute position-lg-relative\"><path d=\"M1,1l6.2,6L13,1\"></path></svg>\n  </summary>\n  <div class=\"dropdown-menu flex-auto rounded px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4\">\n    <ul class=\"list-style-none f5 pb-1\">\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Explore GitHub&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Explore GitHub;&quot;}\" href=\"/explore\">\n  Explore GitHub\n\n\n  \n\n          <li class=\"color-fg-muted text-normal f6 text-mono mb-1 border-top pt-3 mt-3 mb-1\">Learn and contribute</li>\n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Topics&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Topics;&quot;}\" href=\"/topics\">\n  Topics\n\n\n  \n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Collections&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Collections;&quot;}\" href=\"/collections\">\n  Collections\n\n\n  \n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Trending&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Trending;&quot;}\" href=\"/trending\">\n  Trending\n\n\n  \n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Learning Lab&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Learning Lab;&quot;}\" href=\"https://lab.github.com/\">\n  Learning Lab\n\n\n  \n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Open source guides&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Open source guides;&quot;}\" href=\"https://opensource.guide\">\n  Open source guides\n\n\n  \n\n          <li class=\"color-fg-muted text-normal f6 text-mono mb-1 border-top pt-3 mt-3 mb-1\">Connect with others</li>\n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to The ReadME Project&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:The ReadME Project;&quot;}\" href=\"/readme\">\n  The ReadME Project\n\n\n  \n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Events&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Events;&quot;}\" href=\"/events\">\n  Events\n\n\n  \n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Community forum&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Community forum;&quot;}\" href=\"https://github.community\">\n  Community forum\n\n\n  \n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to GitHub Education&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:GitHub Education;&quot;}\" href=\"https://education.github.com\">\n  GitHub Education\n\n\n  \n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to GitHub Stars program&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:GitHub Stars program;&quot;}\" href=\"https://stars.github.com\">\n  GitHub Stars program\n\n\n  \n\n    </ul>\n  </div>\n</details>\n\n\n\n\n        <li class=\"mr-0 mr-lg-3 position-relative flex-wrap flex-justify-between flex-items-center border-bottom border-lg-bottom-0 d-block d-lg-flex flex-lg-nowrap flex-lg-items-center\">\n<a class=\"HeaderMenu-link no-underline py-3 d-block d-lg-inline-block\" data-analytics-event=\"{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Marketplace&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Marketplace;&quot;}\" href=\"/marketplace\">Marketplace</a>\n\n\n\n\n        <li class=\"mr-0 mr-lg-3 position-relative flex-wrap flex-justify-between flex-items-center border-bottom border-lg-bottom-0 d-block d-lg-flex flex-lg-nowrap flex-lg-items-center\">\n<details class=\"HeaderMenu-details details-overlay details-reset width-full\">\n  <summary class=\"HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block\">\n    Pricing\n    <svg x=\"0\" y=\"0\" viewBox=\"0 0 14 8\" xml:space=\"preserve\" fill=\"none\" class=\"icon-chevon-down-mktg position-absolute position-lg-relative\"><path d=\"M1,1l6.2,6L13,1\"></path></svg>\n  </summary>\n  <div class=\"dropdown-menu flex-auto rounded px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4\">\n    <ul class=\"list-style-none f5 pb-1\">\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Plans&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Plans;&quot;}\" href=\"/pricing\">\n  Plans\n\n\n  \n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Compare plans&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Compare plans;&quot;}\" href=\"/pricing#compare-features\">\n  Compare plans\n\n\n  \n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Contact Sales&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Contact Sales;&quot;}\" href=\"https://github.com/enterprise/contact\">\n  Contact Sales\n\n\n  \n\n          <li>\n<a class=\"lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold border-top pt-4 pb-2 mt-3\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Education&quot;,&quot;label&quot;:&quot;ref_page:/MemorialPath/MemorialPath.github.io/blob/main/README.md;ref_cta:Education;&quot;}\" href=\"https://education.github.com\">\n  Education\n\n\n  \n\n    </ul>\n  </div>\n</details>\n\n\n\n\n      </ul>\n    </nav>\n\n  <div class=\"d-lg-flex flex-items-center px-3 px-lg-0 text-center text-lg-left\">\n      <div class=\"d-lg-flex min-width-0 mb-3 mb-lg-0\">\n\n\n\n  \n    \n            \n              \n                \n  \n  \n\n              \n            \n\n              \n\n              View all branches\n          \n\n        \n\n        \n          \n\n            \n\n            \n\n              \n\n            \n              \n                \n  \n  \n\n              \n            \n              View all tags"
+  },
+  {
+    "objectID": "hucreicibirikimler.html#kolesterol-polibi",
+    "href": "hucreicibirikimler.html#kolesterol-polibi",
+    "title": "1  Hücre İçi Birikimler",
+    "section": "1.1 Kolesterol Polibi",
+    "text": "1.1 Kolesterol Polibi\n\nhttps://pathologyatlas.github.io/cholesterolpolyp/HE.html\nSee Microscopy with viewer:"
+  },
+  {
+    "objectID": "hucreicibirikimler.html#glikojen-depo-hastalığı",
+    "href": "hucreicibirikimler.html#glikojen-depo-hastalığı",
+    "title": "1  Hücre İçi Birikimler",
+    "section": "1.2 Glikojen Depo Hastalığı",
+    "text": "1.2 Glikojen Depo Hastalığı\nKaraciğer İğnde Biyopsisinde glikojen depo hastalığı\nHematoksilen Eozin\nhttps://pathologyatlas.github.io/glycogenstorage/HE.html\nMikroskopik görüntüleri inceleyin:\n\n\nPAS\nhttps://pathologyatlas.github.io/glycogenstorage/PAS.html\nMikroskopik görüntüleri inceleyin:\n\n\nPASD\nhttps://pathologyatlas.github.io/glycogenstorage/PASD.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "hucreicibirikimler.html#antrakoz-antrakotik-pigment",
+    "href": "hucreicibirikimler.html#antrakoz-antrakotik-pigment",
+    "title": "1  Hücre İçi Birikimler",
+    "section": "1.3 Antrakoz, Antrakotik Pigment",
+    "text": "1.3 Antrakoz, Antrakotik Pigment\nTorakal bölge lenf nodunda antrakotik pigment\nhttps://pathologyatlas.github.io/anthracosis/HE.html\nSee Microscopy with viewer:"
+  },
+  {
+    "objectID": "hucreicibirikimler.html#melanosis-coli",
+    "href": "hucreicibirikimler.html#melanosis-coli",
+    "title": "1  Hücre İçi Birikimler",
+    "section": "1.4 Melanosis Coli",
+    "text": "1.4 Melanosis Coli\n\nMelanozis Koli\nhttps://pathologyatlas.github.io/melanosiscoli/HE.html\nMikroskopik görüntüleri inceleyin:\n\n\n\n\n\n\n\nMelanozis Koli PAS\nhttps://pathologyatlas.github.io/melanosiscoli/PAS.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "iskeminekroz.html",
+    "href": "iskeminekroz.html",
+    "title": "2  Hemodinamik Bozukluklar",
+    "section": "",
+    "text": "Yağ dokuda yağ nekrozu ve sabunlaşma\nhttps://pathologyatlas.github.io/fat-necrosis/HE.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "amiloid.html",
+    "href": "amiloid.html",
+    "title": "3  Amiloidoz (Amiloid Birikimi)",
+    "section": "",
+    "text": "Damar duvarlarında amiloid birikimi\nhttps://pathologyatlas.github.io/amyloid/crystalviolet.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "amiloid.html#congo-red",
+    "href": "amiloid.html#congo-red",
+    "title": "3  Amiloidoz (Amiloid Birikimi)",
+    "section": "3.2 Congo Red",
+    "text": "3.2 Congo Red\nCongo Red stain for amyloidosis\nhttps://pathologyatlas.github.io/congored/congored.html\nSee Microscopy with viewer:"
+  },
+  {
+    "objectID": "amiloid.html#congo-red-birefringence",
+    "href": "amiloid.html#congo-red-birefringence",
+    "title": "3  Amiloidoz (Amiloid Birikimi)",
+    "section": "3.3 Congo Red Birefringence",
+    "text": "3.3 Congo Red Birefringence"
+  },
+  {
+    "objectID": "tamir.html",
+    "href": "tamir.html",
+    "title": "4  Tamir Mekanizmaları",
+    "section": "",
+    "text": "4.0.2 Keloid - Skar\nKeloid Skar oluşumu\nhttps://pathologyatlas.github.io/keloid-scar/HE.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "kronikinflamasyon.html#hidronefroz-ve-kronik-pyelonefrit",
+    "href": "kronikinflamasyon.html#hidronefroz-ve-kronik-pyelonefrit",
+    "title": "5  Kronik İnflamasyon",
+    "section": "5.1 Hidronefroz ve Kronik Pyelonefrit",
+    "text": "5.1 Hidronefroz ve Kronik Pyelonefrit\nHidronefroz ve Kronik Pyelonefrit\nhttps://pathologyatlas.github.io/chronicpyelonephritis/HE1.html\nMikroskopik görüntüleri inceleyin:\n\n\nhttps://pathologyatlas.github.io/chronicpyelonephritis/HE2.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "granulom.html",
+    "href": "granulom.html",
+    "title": "6  Nekrotizan Granülamatöz İnflamasyon",
+    "section": "",
+    "text": "Karaciğer dokusunda nekrotizan granülamatöz inflamasyon\nhttps://pathologyatlas.github.io/necrotisinggranuloma/HE.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "virus.html",
+    "href": "virus.html",
+    "title": "7  Viruslar",
+    "section": "",
+    "text": "https://pathologyatlas.github.io/HSV/herpesesophagitis/viewer_z0.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "bakteri.html",
+    "href": "bakteri.html",
+    "title": "8  Bakteriler",
+    "section": "",
+    "text": "Mide’de Helicobacter pylori (H. pylori) HE\nhttps://pathologyatlas.github.io/helicobacterpylori/HE.html\nMikroskopik görüntüleri inceleyin:\n\n\n\n\n\n\n\nMide’de Helicobacter pylori (H. pylori) Warthin Starry Histokimyası\nhttps://pathologyatlas.github.io/helicobacterpylori/warthinstarry.html\nMikroskopik görüntüleri inceleyin:\n\n\n\n\n\n\n\nMide’de Helicobacter pylori (H. pylori) Giemsa Histokimyası\nhttps://pathologyatlas.github.io/helicobacterpylori/giemsa.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "mantar.html",
+    "href": "mantar.html",
+    "title": "9  Mantarlar",
+    "section": "",
+    "text": "https://pathologyatlas.github.io/candidaalbicans/cervicovaginalsmear/viewer_z0.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "benign.html",
+    "href": "benign.html",
+    "title": "10  Benign Tümörler",
+    "section": "",
+    "text": "https://pathologyatlas.github.io/tubularadenoma-flat/HE.html\nMikroskopik görüntüleri inceleyin:\n\n\nhttps://pathologyatlas.github.io/tubularadenoma-flat/HE2.html\nMikroskopik görüntüleri inceleyin:\n\n\n\n\n\nMacroscopy\ntubular adenoma with a stalk macroscopy\nMicroscopy\ntubular adenoma with a stalk\nMikroskopik görüntüleri inceleyin:\nhttps://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html"
+  },
+  {
+    "objectID": "hamartom.html",
+    "href": "hamartom.html",
+    "title": "11  Hamartom",
+    "section": "",
+    "text": "https://pathologyatlas.github.io/hamartomatouspolyp/HE.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "hamartom.html#schwann-cell-hamartoma-in-a-colon-polyp",
+    "href": "hamartom.html#schwann-cell-hamartoma-in-a-colon-polyp",
+    "title": "11  Hamartom",
+    "section": "11.2 Schwann Cell Hamartoma in a Colon Polyp",
+    "text": "11.2 Schwann Cell Hamartoma in a Colon Polyp\n\nhttps://pathologyatlas.github.io/schwanncellhamartoma/HE.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "heterotopi.html",
+    "href": "heterotopi.html",
+    "title": "12  Heterotopi",
+    "section": "",
+    "text": "https://pathologyatlas.github.io/intrapancreaticspleen/HE.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "metastaz.html",
+    "href": "metastaz.html",
+    "title": "13  Metastaz",
+    "section": "",
+    "text": "https://pathologyatlas.github.io/metastaticsarcoma/HE.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "metastaz.html#v2",
+    "href": "metastaz.html#v2",
+    "title": "13  Metastaz",
+    "section": "13.2 V2",
+    "text": "13.2 V2\nmetastaticsarcoma/HE.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "kolon.html",
+    "href": "kolon.html",
+    "title": "15  Kolon",
+    "section": "",
+    "text": "https://pathologyatlas.github.io/tubularadenoma-flat/HE.html\nMikroskopik görüntüleri inceleyin:\n\n\nhttps://pathologyatlas.github.io/tubularadenoma-flat/HE2.html\nMikroskopik görüntüleri inceleyin:\n\n\n\n\n\nMacroscopy\ntubular adenoma with a stalk macroscopy\n\n\n\nsaplı polip\n\n\n\nMicroscopy\ntubular adenoma with a stalk\nMikroskopik görüntüleri inceleyin:\nhttps://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html\n\n\n\n\n\n\nMikroskopi\nhttps://pathologyatlas.github.io/hyperplasticpolyp/case1.html\nMikroskopik görüntüleri inceleyin:\n\n\n\n\n\nhttps://pathologyatlas.github.io/hamartomatouspolyp/HE.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "kolon.html#schwann-cell-hamartoma-in-a-colon-polyp",
+    "href": "kolon.html#schwann-cell-hamartoma-in-a-colon-polyp",
+    "title": "15  Kolon",
+    "section": "15.2 Schwann Cell Hamartoma in a Colon Polyp",
+    "text": "15.2 Schwann Cell Hamartoma in a Colon Polyp\nhttps://pathologyatlas.github.io/schwanncellhamartoma/HE.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "karaciger.html",
+    "href": "karaciger.html",
+    "title": "16  Karaciğer Tümörleri",
+    "section": "",
+    "text": "https://pathologyatlas.github.io/hepatocellularcarcinoma/HCC/viewer_z0.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "jineko.html",
+    "href": "jineko.html",
+    "title": "17  Jinekopatoloji",
+    "section": "",
+    "text": "https://pathologyatlas.github.io/ovarianserousmicropapillary/HE.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "bobrek.html",
+    "href": "bobrek.html",
+    "title": "20  Böbrek Tümörleri",
+    "section": "",
+    "text": "https://pathologyatlas.github.io/kidneyoncocytoma/HE.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "meme.html",
+    "href": "meme.html",
+    "title": "Meme Patolojisi",
+    "section": "",
+    "text": "See extended list of Breast Pathology cases here https://pathologyatlas.github.io/breast/"
+  },
+  {
+    "objectID": "kulak.html",
+    "href": "kulak.html",
+    "title": "21  Kulak",
+    "section": "",
+    "text": "https://pathologyatlas.github.io/cholesteatoma/cholesteatoma.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "kemik.html",
+    "href": "kemik.html",
+    "title": "22  Kemik Tümörleri",
+    "section": "",
+    "text": "https://pathologyatlas.github.io/exostosis/oc.html\nMikroskopik görüntüleri inceleyin:\n\n\nhttps://pathologyatlas.github.io/exostosis/oc001.html\nMikroskopik görüntüleri inceleyin:\n\n\nhttps://pathologyatlas.github.io/exostosis/oc002.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "plasenta.html#koryoamnionit",
+    "href": "plasenta.html#koryoamnionit",
+    "title": "23  Plasenta",
+    "section": "23.1 Koryoamnionit",
+    "text": "23.1 Koryoamnionit\nhttps://pathologyatlas.github.io/chorioamnionitis/HE.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "yonetim-gelistirme.html",
+    "href": "yonetim-gelistirme.html",
+    "title": "Appendix A — Yönetim ve Geliştirme",
+    "section": "",
+    "text": "pathologyatlas.github.io\nlab.patolojinotlari.com\npatolojinotlari.com\nparapathology.com\ntwitter\nlinkedin\nhttps://leanpub.com/patolojiatlasi/\ndevelopment & WIP\ncontact: info@patolojinotlari.com\ncontact: bilgi@patolojiatlasi.com"
+  },
+  {
+    "objectID": "yonetim-gelistirme.html#pancreas-ductal-adenocarcinoma",
+    "href": "yonetim-gelistirme.html#pancreas-ductal-adenocarcinoma",
+    "title": "Appendix A — Yönetim ve Geliştirme",
+    "section": "B.1 Pancreas Ductal Adenocarcinoma",
+    "text": "B.1 Pancreas Ductal Adenocarcinoma\nhttps://pathologyatlas.github.io/pancreaticadenocarcinoma/\n\nB.1.1 Case 1\nhistopathology"
+  },
+  {
+    "objectID": "yonetim-gelistirme.html#neoplazinin-klinikopatolojik-özellikleri-ve-epidemiyoloji",
+    "href": "yonetim-gelistirme.html#neoplazinin-klinikopatolojik-özellikleri-ve-epidemiyoloji",
+    "title": "Appendix A — Yönetim ve Geliştirme",
+    "section": "B.2 Neoplazinin Klinikopatolojik Özellikleri ve Epidemiyoloji",
+    "text": "B.2 Neoplazinin Klinikopatolojik Özellikleri ve Epidemiyoloji\nhttps://pathologyatlas.github.io/lecture1/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.html"
+  },
+  {
+    "objectID": "yonetim-gelistirme.html#yönlendirme",
+    "href": "yonetim-gelistirme.html#yönlendirme",
+    "title": "Appendix A — Yönetim ve Geliştirme",
+    "section": "G.1 Yönlendirme",
+    "text": "G.1 Yönlendirme\n\ndevelopment ve wsi to html repolarının adreslerini güncelle ve detaylandır\nhttps://quarto.org/docs/websites/website-navigation.html#pages-404\nYönlendirme örneği: https://github.com/patolojiatlasi/GBD"
+  },
+  {
+    "objectID": "yonetim-gelistirme.html#gbdatlas",
+    "href": "yonetim-gelistirme.html#gbdatlas",
+    "title": "Appendix A — Yönetim ve Geliştirme",
+    "section": "G.2 GBDAtlas",
+    "text": "G.2 GBDAtlas\n\nGBDAtlas ilk grubu ekle"
+  },
+  {
+    "objectID": "yonetim-gelistirme.html#language",
+    "href": "yonetim-gelistirme.html#language",
+    "title": "Appendix A — Yönetim ve Geliştirme",
+    "section": "G.3 Language",
+    "text": "G.3 Language\n\nhttps://statnmap.com/2017-04-04-format-text-conditionally-with-rmarkdown-chunks-complete-iframed-article/\nhttps://statnmap.com/2017-10-06-translation-rmarkdown-documents-using-data-frame/\nhttps://statnmap.com/2017-03-11-rmarkdown-conditional-chunks-to-create-multilingual-pdf-and-html-with-images/\nhttps://bookdown.org/yihui/rmarkdown-cookbook/eng-asis.html\nhttps://quarto.org/docs/authoring/create-citeable-articles.html\nhttps://github.com/maelle/multilingual-book\nhttps://github.com/patolojiatlasi/multilingual-book"
+  },
+  {
+    "objectID": "yonetim-gelistirme.html#github-actions",
+    "href": "yonetim-gelistirme.html#github-actions",
+    "title": "Appendix A — Yönetim ve Geliştirme",
+    "section": "G.4 GitHub Actions",
+    "text": "G.4 GitHub Actions\n\nhttps://github.com/quarto-dev/quarto-actions\nhttps://github.com/pommevilla/quarto-render\nhttps://github.com/pommevilla/friendly-dollop\nhttps://pommevilla.github.io/friendly-dollop/"
+  },
+  {
+    "objectID": "yonetim-gelistirme.html#tweeting-with-update",
+    "href": "yonetim-gelistirme.html#tweeting-with-update",
+    "title": "Appendix A — Yönetim ve Geliştirme",
+    "section": "G.5 tweeting with update",
+    "text": "G.5 tweeting with update\n\nhttps://github.com/and-computers/HowToTweetEveryCommit\nhttps://www.daveabrock.com/2020/04/19/posting-to-twitter-from-gh-actions/\nhttps://gitweet.io/\nhttps://joshuaiz.com/words/using-github-actions-to-post-to-twitter-on-commit\n\n\n\n\n\n\n\n\nNot\n\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important.\n\n\n\n\n\n\n\n\nTip With Caption\n\n\n\nThis is an example of a callout with a caption.\n\n\n\n\n\n\n\n\nExpand To Learn About Collapse\n\n\n\n\n\nThis is an example of a ‘folded’ caution callout that can be expanded by the user. You can use collapse=\"true\" to collapse it by default or collapse=\"false\" to make a collapsible callout that is expanded by default."
+  },
+  {
+    "objectID": "katki.html",
+    "href": "katki.html",
+    "title": "Appendix B — Katkıda Bulunmak İçin",
+    "section": "",
+    "text": "Halihazırda taranmış preparatlarınızı bulut üzerinden eposta ile paylaşırsanız, onları da ekleyebiliriz.\nPreparatın olduğu sayfaya eklenmek üzere\nAdınızı,\n\nKurumunuzu\n\nYönlendirilmesini istediğiniz iletişim linkini (web ya da e-posta)\n\nEklemek istediğiniz ek klinik bilgi, resim ya da notları\nbilgi@patolojiatlasi.com adresine iletiniz.\nAdres: Doç.Dr.Serdar Balcı Memorial Patoloji Laboratuvarı, Ortadoğu Plaza Kat:14, Kaptanpaşa Mah. Piyalepaşa Bulvarı, Okmeydanı Cd No:73, 34384 Şişli/İstanbul"
+  }
+]
