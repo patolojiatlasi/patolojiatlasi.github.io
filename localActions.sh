@@ -1,4 +1,6 @@
 # sh '/Users/serdarbalci/Documents/GitHub/patolojiatlasi.github.io/localActions.sh'
+Rscript -e 'if (!requireNamespace("rmarkdown", quietly = TRUE)) {install.packages("rmarkdown")}'
+Rscript -e 'if (!requireNamespace("htmltools", quietly = TRUE)) {install.packages("htmltools")}'
 Rscript -e 'if (!requireNamespace("xfun", quietly = TRUE)) {install.packages("xfun")}'
 Rscript -e 'if (!requireNamespace("quarto", quietly = TRUE)) {install.packages("quarto")}'
 Rscript -e 'if (!requireNamespace("fs", quietly = TRUE)) {install.packages("fs")}'
