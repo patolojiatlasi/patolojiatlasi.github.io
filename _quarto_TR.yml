@@ -115,6 +115,10 @@ book:
         - hamartom.qmd
         - heterotopi.qmd
         - metastaz.qmd
+    - part: "Prognostik Morfolojik Özellikler"
+      chapters:
+        - text: "Ekstramural Venöz İnvazyon"
+          href: ekstramuralvenozinvazyon.qmd
 # #    - part: "Hematopatoloji"
 # #      chapters:
 # #        - hematopatoloji.qmd
