@@ -24,8 +24,7 @@ book:
     Görerek Öğrenin.
     Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.
     [Katkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin](https://www.patolojiatlasi.com/katki.html).
-  date: "`r Sys.time()`"
-  date-format: "DD MMMM, YYYY"
+  date: last-modified
   image: images/cover.png
   output-file: "Patoloji-Atlasi"
   cover-image: images/cover.png
