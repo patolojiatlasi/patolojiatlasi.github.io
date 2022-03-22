@@ -5,7 +5,19 @@ source("./R/language.R")
 ```
 
 
-[For English click here](./EN/index.html)
+```{asis, echo = (language == "TR")}
+
+[For English click here](/patolojiatlasiV2/)
 
 [GBDAtlas](/GBD/)
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+[Türkçe Atlas için tıklayın](https://www.patolojiatlasi.com/)
+
+```
+
 

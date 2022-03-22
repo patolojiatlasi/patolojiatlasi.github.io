@@ -83,7 +83,6 @@ book:
     - part: "---"
     - part: "Genel Patoloji"
       chapters:
-        - genelpatoloji.qmd
         - text: "Hücre İçi Birikimler"
           href: hucreicibirikimler.qmd
         - text: "Hücre Dışı Birikimler"
@@ -100,11 +99,14 @@ book:
         # - inflamasyon.qmd
     - part: "İnfeksiyöz Hastalıkların Patolojisi"
       chapters:
-        - virus.qmd
+        - text: "Viruslar"
+          href: virus.qmd
         - text: "Bakteriler"
           href: bakteri.qmd
-        - mantar.qmd
-#        - parazit.qmd
+        - text: "Mantarlar"
+          href: mantar.qmd
+        - text: "Parazitler"
+          href: parazit.qmd
     - part: "Temel Tümör Patolojisi"
       chapters:
         - benign.qmd
@@ -137,6 +139,12 @@ book:
     - part: "Baş Boyun Patolojisi"
       chapters:
         - kulak.qmd
+    - part: "Santral Sinir Sistem Patolojisi"
+      chapters:
+        - text: "Gliomlar"
+          href: gliom.qmd
+        - text: "Meningiom"
+          href: meningiom.qmd
     - part: "Kemik Patolojisi"
       chapters:
         - kemik.qmd

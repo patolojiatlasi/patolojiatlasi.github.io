@@ -59,7 +59,7 @@ jobs:
           fs::file_copy(path = "./R/languageTR.R", new_path = "./R/language.R", overwrite = TRUE)
           # render TR
           quarto::quarto_render(".", as_job = FALSE)
-          fs::dir_copy(path = "./EN", new_path = "./docs/EN", overwrite = TRUE)
+          # fs::dir_copy(path = "./EN", new_path = "./docs/EN", overwrite = TRUE)
 
 
       - name: "Deploy to gh-pages"
