@@ -111,7 +111,7 @@ book:
         - hamartom.qmd
         - heterotopi.qmd
         - metastaz.qmd
-    - part: "Prognostik Morfolojik Özellikler"
+    - part: "Tümörlerdeki Prognostik Morfolojik Özellikler"
       chapters:
         - text: "Ekstramural Venöz İnvazyon"
           href: ekstramuralvenozinvazyon.qmd
@@ -137,9 +137,13 @@ book:
     - part: "Baş Boyun Patolojisi"
       chapters:
         - kulak.qmd
-    - part: "Kemik ve Yumuşak Doku Patolojisi"
+    - part: "Kemik Patolojisi"
       chapters:
         - kemik.qmd
+    - part: "Yumuşak Doku Patolojisi"
+      chapters:
+        - text: "Adipöz Doku Patolojisi"
+          href: adipoz.qmd
     - part: "Pediatrik ve Perinatal Patoloji"
       chapters:
         - plasenta.qmd

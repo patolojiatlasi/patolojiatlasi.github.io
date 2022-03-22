@@ -13,7 +13,7 @@ Rscript -e 'fs::file_copy(path = "./R/languageTR.R", new_path = "./R/language.R"
 Rscript -e 'quarto::quarto_render(".", as_job = FALSE)'
 Rscript -e 'fs::dir_copy(path = "./EN", new_path = "./docs/EN", overwrite = TRUE)'
 # act --secret-file ~/my.secrets
-git add .
-git commit -m "WIP local render added changes `date +'%Y-%m-%d %H:%M:%S'`" # WIP ifadesi eklenirse github actions çalışmaz.
+# git add .
+# git commit -m "WIP local render added changes `date +'%Y-%m-%d %H:%M:%S'`" # WIP ifadesi eklenirse github actions çalışmaz.
 # git commit -m "local render added changes `date +'%Y-%m-%d %H:%M:%S'`"
 # git push origin main
