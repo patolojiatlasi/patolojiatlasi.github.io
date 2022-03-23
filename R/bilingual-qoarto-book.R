@@ -47,16 +47,15 @@ fs::file_copy(path = "./R/languageTR.R",
 quarto::quarto_render(".", as_job = FALSE)
 
 
-fs::dir_copy(path = "./EN",
-             new_path = "./docs/EN",
-             overwrite = TRUE
-)
-
-
 
 
 ##### ----
 
+
+# fs::dir_copy(path = "./EN",
+#              new_path = "./docs/EN",
+#              overwrite = TRUE
+# )
 
 
 # language <- c("TR", "EN")
