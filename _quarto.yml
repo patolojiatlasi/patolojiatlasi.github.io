@@ -5,8 +5,8 @@ project:
 lang: tr
 
 book:
-  title: "Patoloji Atlası"
   engine: knitr
+  title: "Patoloji Atlası"
   subtitle: "Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları: Görerek Öğrenin"
   author:
    - name: "Serdar Balcı"
@@ -173,8 +173,8 @@ comments:
   hypothesis: true
   utterances:
     repo: patolojiatlasi/patolojiatlasi.github.io
-  giscus:
-    repo: patolojiatlasi/patolojiatlasi.github.io
+#   giscus:
+#     repo: patolojiatlasi/patolojiatlasi.github.io
 format:
   html:
     theme:
@@ -196,7 +196,7 @@ format:
     anchor-sections: true
     link-external-icon: true
     link-external-newwindow: true
-    link-external-filter: '(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/pathologyatlas\.github\.io\/)'
+#    link-external-filter: '(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/pathologyatlas\.github\.io\/)'
     citations-hover: true
     footnotes-hover: true
     number-depth: 3

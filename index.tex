@@ -40,6 +40,8 @@
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
   pdftitle={Patoloji Atlası},
+  pdfauthor={Serdar Balcı; Memorial Patoloji Hekim ve Teknikerleri},
+  pdflang={tr},
   colorlinks=true,
   linkcolor={blue},
   filecolor={Maroon},
@@ -47,6 +49,44 @@
   urlcolor={Blue},
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\newenvironment{Shaded}{}{}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.33,0.33}{\textbf{#1}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.42,0.45,0.49}{#1}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.84,0.23,0.29}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.36,0.77}{#1}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.84,0.23,0.29}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.01,0.18,0.38}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.42,0.45,0.49}{#1}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.42,0.45,0.49}{#1}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.36,0.77}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.84,0.23,0.29}{#1}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.84,0.23,0.29}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.36,0.77}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.42,0.45,0.49}{#1}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.33,0.33}{\underline{#1}}}
+\newcommand{\ExtensionTok}[1]{\textcolor[rgb]{0.84,0.23,0.29}{\textbf{#1}}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.36,0.77}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.44,0.26,0.76}{#1}}
+\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.01,0.18,0.38}{#1}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.42,0.45,0.49}{#1}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.84,0.23,0.29}{#1}}
+\newcommand{\NormalTok}[1]{\textcolor[rgb]{0.14,0.16,0.18}{#1}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.14,0.16,0.18}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.44,0.26,0.76}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.84,0.23,0.29}{#1}}
+\newcommand{\RegionMarkerTok}[1]{\textcolor[rgb]{0.42,0.45,0.49}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.36,0.77}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.01,0.18,0.38}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.01,0.18,0.38}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.89,0.38,0.04}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.01,0.18,0.38}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{1.00,0.33,0.33}{#1}}
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -97,27 +137,58 @@
 \newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
 \newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{turkish}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
 \KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[many]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
 \makeatletter
 \makeatother
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
-\renewcommand*\contentsname{Table of contents}
-\renewcommand*\listfigurename{List of Figures}
-\renewcommand*\listtablename{List of Tables}
-\renewcommand*\figurename{Figure}
-\renewcommand*\tablename{Table}
+\renewcommand*\contentsname{Içindekiler}
+\renewcommand*\listfigurename{Şekil Listesi}
+\renewcommand*\listtablename{Tablo Listesi}
+\renewcommand*\figurename{Figür}
+\renewcommand*\tablename{Tablo}
 }
 \@ifpackageloaded{float}{}{\usepackage{float}}
 \floatstyle{ruled}
 \@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
-\floatname{codelisting}{Listing}
-\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\floatname{codelisting}{Listeleme}
+\newcommand*\listoflistings{\listof{codelisting}{İlan Listesi}}
 \makeatother
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[many]{tcolorbox}}
+\makeatother
+\makeatletter
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
 \makeatother
 \makeatletter
 \makeatother
@@ -132,27 +203,24 @@
   \apptocmd{\@title}{\par {\large #1 \par}}{}{}
 }
 \makeatother
-\subtitle{Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji
-Laboratuvar Notları: Görerek Öğrenin}
-\author{\begin{itemize}
-\tightlist
-\item
-  \textbf{Derleyen:} \href{https://www.serdarbalci.com}{Serdar Balcı}
-\item
-  \textbf{Yazarlar:} \href{https://MemorialPath.github.io}{Memorial
-  Patoloji} Hekim ve Teknikerleri
-\end{itemize}}
-\date{Mart 2022}
+\subtitle{Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri
+İçin Patoloji Laboratuvar Notları: Görerek Öğrenin}
+\author{Serdar Balcı \and Memorial Patoloji Hekim ve Teknikerleri}
+\date{2022-03-23T22:17:52+03:00}
 
 \begin{document}
 \maketitle
 \begin{abstract}
-Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan
-oluşmaktadır. Katkı yapmak ve kendi vakalarınız ekletmek için lütfen
-iletişime geçin.
+Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin
+Patoloji Laboratuvar Notları. Görerek Öğrenin. Patoloji Atlası Memorial
+Patoloji arşivinden derlenen vakalardan oluşmaktadır.
+\href{https://www.patolojiatlasi.com/katki.html}{Katkı yapmak ve kendi
+vakalarınız ekletmek için lütfen iletişime geçin}.
 \end{abstract}
 
-\renewcommand*\contentsname{Table of contents}
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, frame hidden, enhanced, boxrule=0pt, interior hidden, borderline west={3pt}{0pt}{shadecolor}]}{\end{tcolorbox}}\fi
+
+\renewcommand*\contentsname{İçindekiler}
 {
 \hypersetup{linkcolor=}
 \setcounter{tocdepth}{2}
@@ -160,125 +228,276 @@ iletişime geçin.
 }
 Patoloji Atlası
 
+\href{/EN/}{For English click here}
+
+\href{/GBD/}{GBDAtlas}
+
 Giriş
 
-Genel Patoloji
+Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan
+oluşmaktadır.\\
+\href{https://www.patolojiatlasi.com/katki.html}{Katkı yapmak ve kendi
+vakalarınız ekletmek için lütfen iletişime geçin}.
+
+Son güncelleme zamanı: 2022-03-23 22:32:52
+
+Sosyal medyadan derlenen görüntülerden oluşan
+\href{https://www.patolojinotlari.com/}{patoloji notları için
+tıklayınız}.
+
+Yazarlar ve Katkıda Bulunanlar
+
+\hypertarget{derleyen}{%
+\chapter*{Derleyen:}\label{derleyen}}
+\addcontentsline{toc}{chapter}{Derleyen:}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.serdarbalci.com}{Serdar Balcı}
+\end{itemize}
+
+\hypertarget{katkux131da-bulunanlar}{%
+\chapter*{Katkıda Bulunanlar:}\label{katkux131da-bulunanlar}}
+\addcontentsline{toc}{chapter}{Katkıda Bulunanlar:}
+
+\textbf{\href{https://MemorialPath.github.io}{Memorial Patoloji}
+Hekimleri}
+
+\begin{itemize}
+\item
+  \href{https://www.memorial.com.tr/en/doctors/ilknur-turkmen-1975}{Ilknur
+  Turkmen}
+\item
+  {[}Gülen Bülbül Doğusoy{]}\\
+  \strut \\
+  \strut \\
+  \strut \\
+\item
+  {[}Serdar Balcı{]}\\
+\item
+  {[}Yıldırım Karslıoğlu{]}
+\item
+  {[}Mehtat Uz Ünlü{]}
+\item
+  {[}Murat Oktay{]}\\
+  \strut \\
+  \strut \\
+  \strut \\
+  \strut \\
+\end{itemize}
+
+\textbf{\href{https://MemorialPath.github.io}{Memorial Patoloji}
+Teknikerleri}
+
+\begin{itemize}
+\item
+  {[}Emrah Uça{]}
+\item
+  {[}Elif Sevin Şanioğlu{]}
+\end{itemize}
 
 Genel Patoloji
 
-\hypertarget{huxfccre-iuxe7i-birikimler}{%
-\chapter{Hücre İçi Birikimler}\label{huxfccre-iuxe7i-birikimler}}
+Hücre İçi Birikimler
+
+\hypertarget{kolesterol-polibi}{%
+\chapter{Kolesterol Polibi}\label{kolesterol-polibi}}
+
+\begin{itemize}
+\item
+  \url{https://pathologyatlas.github.io/cholesterolpolyp/HE.html}
+\item
+  See Microscopy with viewer:
+\end{itemize}
 
 \hypertarget{glikojen-depo-hastalux131ux11fux131}{%
-\section{Glikojen Depo
+\chapter{Glikojen Depo
 Hastalığı}\label{glikojen-depo-hastalux131ux11fux131}}
 
-Histopathology of Glycogen Storage Disease in Liver Biopsy
+Karaciğer İğnde Biyopsisinde glikojen depo hastalığı
 
 \textbf{Hematoksilen Eozin}
 
-\begin{itemize}
-\item
-  \url{https://pathologyatlas.github.io/glycogenstorage/HE.html}
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+\url{https://pathologyatlas.github.io/glycogenstorage/HE.html}
+
+Mikroskopik görüntüleri inceleyin:
 
 \textbf{PAS}
 
-\begin{itemize}
-\item
-  \url{https://pathologyatlas.github.io/glycogenstorage/PAS.html}
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+\url{https://pathologyatlas.github.io/glycogenstorage/PAS.html}
+
+Mikroskopik görüntüleri inceleyin:
 
 \textbf{PASD}
 
-\begin{itemize}
-\item
-  \url{https://pathologyatlas.github.io/glycogenstorage/PASD.html}
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+\url{https://pathologyatlas.github.io/glycogenstorage/PASD.html}
+
+Mikroskopik görüntüleri inceleyin:
+
+\hypertarget{antrakoz-antrakotik-pigment}{%
+\chapter{Antrakoz, Antrakotik
+Pigment}\label{antrakoz-antrakotik-pigment}}
+
+Torakal bölge lenf nodunda antrakotik pigment
+
+\url{https://pathologyatlas.github.io/anthracosis/HE.html}
+
+See Microscopy with viewer:
+
+\hypertarget{melanosis-coli}{%
+\chapter{Melanosis Coli}\label{melanosis-coli}}
+
+\textbf{Melanozis Koli}
+
+\url{https://pathologyatlas.github.io/melanosiscoli/HE.html}
+
+Mikroskopik görüntüleri inceleyin:
+
+\textbf{Melanozis Koli PAS}
+
+\url{https://pathologyatlas.github.io/melanosiscoli/PAS.html}
+
+Mikroskopik görüntüleri inceleyin:
+
+Okronozis
+
+\textbf{Okronozis}
+
+\url{https://pathologyatlas.github.io/ochronosis/HE.html}
+
+Mikroskopik görüntüleri inceleyin:
 
 Hemodinamik Bozukluklar
 
 \hypertarget{iskemi-ve-nekroz}{%
 \chapter{İskemi ve Nekroz}\label{iskemi-ve-nekroz}}
 
-\hypertarget{fat-necrosis-and-saponification}{%
-\section{Fat Necrosis and
-Saponification}\label{fat-necrosis-and-saponification}}
+\hypertarget{yaux11f-nekrozu-ve-sabunlaux15fma}{%
+\section{Yağ nekrozu ve
+Sabunlaşma}\label{yaux11f-nekrozu-ve-sabunlaux15fma}}
 
-Histopathology of fat necrosis and saponification in adipose tissue
+Yağ dokuda yağ nekrozu ve sabunlaşma
 
-\begin{itemize}
-\item
-  \url{https://pathologyatlas.github.io/fat-necrosis/HE.html}
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+\url{https://pathologyatlas.github.io/fat-necrosis/HE.html}
 
-İnflamasyon
+Mikroskopik görüntüleri inceleyin:
 
 Amiloidoz (Amiloid Birikimi)
 
-\hypertarget{crystal-violet}{%
-\chapter{Crystal Violet}\label{crystal-violet}}
+\hypertarget{kristal-viyole}{%
+\chapter{Kristal Viyole}\label{kristal-viyole}}
 
-Crystal violet stain of amyloid accumulation in vessel wall
+Damar duvarlarında amiloid birikimi
 
-\begin{itemize}
-\item
-  \url{https://pathologyatlas.github.io/amyloid/crystalviolet.html}
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+\url{https://pathologyatlas.github.io/amyloid/crystalviolet.html}
+
+Mikroskopik görüntüleri inceleyin:
+
+\hypertarget{congo-red}{%
+\chapter{Congo Red}\label{congo-red}}
+
+Congo Red stain for amyloidosis
+
+\url{https://pathologyatlas.github.io/congored/congored.html}
+
+See Microscopy with viewer:
+
+\hypertarget{congo-red-birefringence}{%
+\chapter{Congo Red Birefringence}\label{congo-red-birefringence}}
 
 \hypertarget{tamir-mekanizmalarux131}{%
 \chapter{Tamir Mekanizmaları}\label{tamir-mekanizmalarux131}}
 
-\hypertarget{fibrosis}{%
-\section{Fibrosis}\label{fibrosis}}
+\hypertarget{fibrozis}{%
+\section{Fibrozis}\label{fibrozis}}
 
-Histopathology of a developing firosis in a cholecystitis
+Kolesistit spesmeninde gelişmekte olan genç fibrozis
 
-\begin{itemize}
-\item
-  \url{https://pathologyatlas.github.io/fibrosis/HE.html}
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+\url{https://pathologyatlas.github.io/fibrosis/HE.html}
 
-\hypertarget{keloid---scar}{%
-\section{Keloid - Scar}\label{keloid---scar}}
+Mikroskopik görüntüleri inceleyin:
 
-Histopathology of Keloid Scar Formation
+\hypertarget{keloid---skar}{%
+\section{Keloid - Skar}\label{keloid---skar}}
 
-\begin{itemize}
-\item
-  \url{https://pathologyatlas.github.io/keloid-scar/HE.html}
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+Keloid Skar oluşumu
+
+\url{https://pathologyatlas.github.io/keloid-scar/HE.html}
+
+Mikroskopik görüntüleri inceleyin:
+
+İnflamasyon
+
+Kronik İnflamasyon
+
+\hypertarget{hidronefroz-ve-kronik-pyelonefrit}{%
+\chapter{Hidronefroz ve Kronik
+Pyelonefrit}\label{hidronefroz-ve-kronik-pyelonefrit}}
+
+Hidronefroz ve Kronik Pyelonefrit
+
+\url{https://pathologyatlas.github.io/chronicpyelonephritis/HE1.html}
+
+Mikroskopik görüntüleri inceleyin:
+
+\url{https://pathologyatlas.github.io/chronicpyelonephritis/HE2.html}
+
+Mikroskopik görüntüleri inceleyin:
+
+Nekrotizan Granülamatöz İnflamasyon
+
+\textbf{Karaciğer dokusunda nekrotizan granülamatöz inflamasyon}
+
+\url{https://pathologyatlas.github.io/necrotisinggranuloma/HE.html}
+
+Mikroskopik görüntüleri inceleyin:
 
 İnfeksiyöz Hastalıkların Patolojisi
 
 Viruslar
 
 \hypertarget{herpes-simplex-virus-hsv}{%
-\section{Herpes Simplex Virus (HSV)}\label{herpes-simplex-virus-hsv}}
+\chapter{Herpes Simplex Virus (HSV)}\label{herpes-simplex-virus-hsv}}
 
 \hypertarget{herpes-esophagatis}{%
-\subsection{Herpes Esophagatis}\label{herpes-esophagatis}}
+\section{Herpes Esophagatis}\label{herpes-esophagatis}}
 
-\begin{itemize}
-\item
-  \url{https://pathologyatlas.github.io/HSV/herpesesophagitis/viewer_z0.html}
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+\url{https://pathologyatlas.github.io/HSV/herpesesophagitis/viewer_z0.html}
+
+Mikroskopik görüntüleri inceleyin:
+
+\hypertarget{molluscum-contagiosum}{%
+\chapter{Molluscum contagiosum}\label{molluscum-contagiosum}}
+
+Molluscum contagiosum
+
+\textbf{Molluscum contagiosum}
+
+\url{https://pathologyatlas.github.io/molluscum-contagiosum/HE.html}
+
+Mikroskopik görüntüleri inceleyin:
+
+Bakteriler
+
+\textbf{Mide'de Helicobacter pylori (H. pylori) HE}
+
+\url{https://pathologyatlas.github.io/helicobacterpylori/HE.html}
+
+Mikroskopik görüntüleri inceleyin:
+
+\textbf{Mide'de Helicobacter pylori (H. pylori) Warthin Starry
+Histokimyası}
+
+\url{https://pathologyatlas.github.io/helicobacterpylori/warthinstarry.html}
+
+Mikroskopik görüntüleri inceleyin:
+
+\textbf{Mide'de Helicobacter pylori (H. pylori) Giemsa Histokimyası}
+
+\url{https://pathologyatlas.github.io/helicobacterpylori/giemsa.html}
+
+Mikroskopik görüntüleri inceleyin:
 
 \hypertarget{mantarlar}{%
 \chapter{Mantarlar}\label{mantarlar}}
@@ -287,12 +506,17 @@ Viruslar
 \section{\texorpdfstring{Candida \emph{albicans} in cervicovaginal
 smear}{Candida albicans in cervicovaginal smear}}\label{candida-albicans-in-cervicovaginal-smear}}
 
-\begin{itemize}
-\item
-  \url{https://pathologyatlas.github.io/candidaalbicans/cervicovaginalsmear/viewer_z0.html}
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+\url{https://pathologyatlas.github.io/candidaalbicans/cervicovaginalsmear/viewer_z0.html}
+
+Mikroskopik görüntüleri inceleyin:
+
+Enterobius vermicularis
+
+\textbf{Enterobius vermicularis}
+
+\url{https://pathologyatlas.github.io/enterobius-vermicularis/HE.html}
+
+Mikroskopik görüntüleri inceleyin:
 
 Temel Tümör Patolojisi
 
@@ -308,46 +532,28 @@ Benign Tümörler
 \subsection{Sesil Polip, Flat (Düz) Tübüler
 Adenom}\label{sesil-polip-flat-duxfcz-tuxfcbuxfcler-adenom}}
 
-\begin{itemize}
-\item
-  \url{https://pathologyatlas.github.io/tubularadenoma-flat/HE.html}
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+\url{https://pathologyatlas.github.io/tubularadenoma-flat/HE.html}
 
-\begin{itemize}
-\item
-  \url{https://pathologyatlas.github.io/tubularadenoma-flat/HE2.html}
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+Mikroskopik görüntüleri inceleyin:
+
+\url{https://pathologyatlas.github.io/tubularadenoma-flat/HE2.html}
+
+Mikroskopik görüntüleri inceleyin:
 
 \hypertarget{saplux131-polip}{%
 \subsection{Saplı Polip}\label{saplux131-polip}}
 
-\begin{itemize}
-\tightlist
-\item
-  Macroscopy
-\end{itemize}
+Macroscopy
 
 \href{https://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg}{tubular
 adenoma with a stalk macroscopy}
 
-\begin{itemize}
-\tightlist
-\item
-  Microscopy
-\end{itemize}
+Microscopy
 
 \href{https://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk.jpeg}{tubular
 adenoma with a stalk}
 
-\begin{itemize}
-\tightlist
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+Mikroskopik görüntüleri inceleyin:
 
 \url{https://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html}
 
@@ -387,6 +593,36 @@ Heterotopia}\label{intrapancreatic-spleen-heterotopia}}
   Mikroskopik görüntüleri inceleyin:
 \end{itemize}
 
+Metastaz
+
+\hypertarget{karaciux11ferde-sarkom-metastazux131}{%
+\chapter{Karaciğerde Sarkom
+Metastazı}\label{karaciux11ferde-sarkom-metastazux131}}
+
+\begin{itemize}
+\item
+  \url{https://pathologyatlas.github.io/metastaticsarcoma/HE.html}
+\item
+  Mikroskopik görüntüleri inceleyin:
+\end{itemize}
+
+\hypertarget{v2}{%
+\chapter{V2}\label{v2}}
+
+\href{./metastaticsarcoma/HE.html}{metastaticsarcoma/HE.html}
+
+Mikroskopik görüntüleri inceleyin:
+
+Tümörlerdeki Prognostik Morfolojik Özellikler
+
+Adenokarsinomda Ekstramural Venöz İnvazyon
+
+\textbf{Adenokarsinomda Ekstramural Venöz İnvazyon}
+
+\url{https://pathologyatlas.github.io/extramuralvenousinvasion/HE.html}
+
+Mikroskopik görüntüleri inceleyin:
+
 Gastrointestinal Sistem Patolojisi
 
 Gastrointestinal sistem Patolojisi
@@ -403,99 +639,75 @@ Kolon
 \subsection{Sesil Polip, Flat (Düz) Tübüler
 Adenom}\label{sesil-polip-flat-duxfcz-tuxfcbuxfcler-adenom-1}}
 
-\begin{itemize}
-\item
-  \url{https://pathologyatlas.github.io/tubularadenoma-flat/HE.html}
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+\url{https://pathologyatlas.github.io/tubularadenoma-flat/HE.html}
 
-\begin{itemize}
-\item
-  \url{https://pathologyatlas.github.io/tubularadenoma-flat/HE2.html}
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+Mikroskopik görüntüleri inceleyin:
+
+\url{https://pathologyatlas.github.io/tubularadenoma-flat/HE2.html}
+
+Mikroskopik görüntüleri inceleyin:
 
 \hypertarget{saplux131-polip-1}{%
 \subsection{Saplı Polip}\label{saplux131-polip-1}}
 
-\begin{itemize}
-\tightlist
-\item
-  Macroscopy
-\end{itemize}
+Macroscopy
 
 \href{https://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg}{tubular
 adenoma with a stalk macroscopy}
 
-\begin{itemize}
-\tightlist
-\item
-  Microscopy
-\end{itemize}
+\begin{figure}
+
+{\centering \includegraphics{https://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg}
+
+}
+
+\caption{saplı polip}
+
+\end{figure}
+
+Microscopy
 
 \href{https://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk.jpeg}{tubular
 adenoma with a stalk}
 
-\begin{itemize}
-\tightlist
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+Mikroskopik görüntüleri inceleyin:
 
 \url{https://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html}
 
 \hypertarget{hiperplastik-polip}{%
 \section{Hiperplastik Polip}\label{hiperplastik-polip}}
 
-\begin{itemize}
-\tightlist
-\item
-  Mikroskopi
-\end{itemize}
+Mikroskopi
 
 \url{https://pathologyatlas.github.io/hyperplasticpolyp/case1.html}
 
-\begin{itemize}
-\tightlist
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+Mikroskopik görüntüleri inceleyin:
 
 \hypertarget{hamartomatuxf6z-polip-1}{%
 \section{Hamartomatöz Polip}\label{hamartomatuxf6z-polip-1}}
 
-\begin{itemize}
-\item
-  \url{https://pathologyatlas.github.io/hamartomatouspolyp/HE.html}
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+\url{https://pathologyatlas.github.io/hamartomatouspolyp/HE.html}
+
+Mikroskopik görüntüleri inceleyin:
 
 \hypertarget{schwann-cell-hamartoma-in-a-colon-polyp-1}{%
 \chapter{Schwann Cell Hamartoma in a Colon
 Polyp}\label{schwann-cell-hamartoma-in-a-colon-polyp-1}}
 
-\begin{itemize}
-\item
-  \url{https://pathologyatlas.github.io/schwanncellhamartoma/HE.html}
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+\url{https://pathologyatlas.github.io/schwanncellhamartoma/HE.html}
+
+Mikroskopik görüntüleri inceleyin:
 
 Karaciğer Patolojisi
 
-\hypertarget{hepatocellular-carcinoma-without-cirrhosis}{%
-\section{Hepatocellular Carcinoma, without
-cirrhosis}\label{hepatocellular-carcinoma-without-cirrhosis}}
+Karaciğer Tümörleri
 
-\begin{itemize}
-\item
-  \url{https://pathologyatlas.github.io/hepatocellularcarcinoma/HCC/viewer_z0.html}
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+\hypertarget{hepatoseluxfcler-karsinom}{%
+\section{Hepatoselüler Karsinom}\label{hepatoseluxfcler-karsinom}}
+
+\url{https://pathologyatlas.github.io/hepatocellularcarcinoma/HCC/viewer_z0.html}
+
+Mikroskopik görüntüleri inceleyin:
 
 Jinekolojik Patoloji
 
@@ -508,16 +720,9 @@ Jinekopatoloji
 \section{Ovary, Serous borderline tumor, micropapillary
 variant}\label{ovary-serous-borderline-tumor-micropapillary-variant}}
 
-\begin{itemize}
-\item
-  \url{https://pathologyatlas.github.io/ovarianserousmicropapillary/HE.html}
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+\url{https://pathologyatlas.github.io/ovarianserousmicropapillary/HE.html}
 
-Case by:
-\href{https://www.memorial.com.tr/en/doctors/ilknur-turkmen-1975}{Ilknur
-Turkmen, MD, Pathologist}
+Mikroskopik görüntüleri inceleyin:
 
 Genital Sistem Patolojisi
 
@@ -530,23 +735,16 @@ Böbrek Tümörleri
 \hypertarget{onkositom}{%
 \chapter{Onkositom}\label{onkositom}}
 
-\begin{itemize}
-\item
-  \url{https://pathologyatlas.github.io/kidneyoncocytoma/HE.html}
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+\url{https://pathologyatlas.github.io/kidneyoncocytoma/HE.html}
+
+Mikroskopik görüntüleri inceleyin:
 
 Meme Patolojisi
 
 Breast Pathology
 
-\begin{itemize}
-\tightlist
-\item
-  See extended list of Breast Pathology cases here
-  \url{https://pathologyatlas.github.io/breast/}
-\end{itemize}
+See extended list of Breast Pathology cases here
+\url{https://pathologyatlas.github.io/breast/}
 
 Baş Boyun Patolojisi
 
@@ -556,53 +754,81 @@ Baş Boyun Patolojisi
 \hypertarget{kolesteatom}{%
 \section{Kolesteatom}\label{kolesteatom}}
 
-\begin{itemize}
-\item
-  \url{https://pathologyatlas.github.io/cholesteatoma/cholesteatoma.html}
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+\url{https://pathologyatlas.github.io/cholesteatoma/cholesteatoma.html}
 
-Kemik ve Yumuşak Doku Patolojisi
+Mikroskopik görüntüleri inceleyin:
 
-\hypertarget{exostosis-osteochondroma}{%
-\chapter{Exostosis (osteochondroma)}\label{exostosis-osteochondroma}}
+Santral Sinir Sistem Patolojisi
 
-\begin{itemize}
-\item
-  \url{https://pathologyatlas.github.io/exostosis/oc.html}
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+Yüksek Dereceli Gliom Yayma Preparat
 
-\begin{itemize}
-\item
-  \url{https://pathologyatlas.github.io/exostosis/oc001.html}
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+\textbf{Yüksek Dereceli Gliom Yayma Preparat}
 
-\begin{itemize}
-\item
-  \url{https://pathologyatlas.github.io/exostosis/oc002.html}
-\item
-  Mikroskopik görüntüleri inceleyin:
-\end{itemize}
+\url{https://pathologyatlas.github.io/high-grade-glioma-squash/HE.html}
 
-\hypertarget{liposarcoma}{%
-\section{Liposarcoma}\label{liposarcoma}}
+Mikroskopik görüntüleri inceleyin:
 
-\hypertarget{osteosarcoma}{%
-\section{Osteosarcoma}\label{osteosarcoma}}
+Beyin İnvazyonu Gösteren Meningiom
 
-\hypertarget{osteochondroma}{%
-\section{Osteochondroma}\label{osteochondroma}}
+\textbf{Beyin İnvazyonu Gösteren Meningiom}
 
-\hypertarget{chondrosarcoma}{%
-\section{Chondrosarcoma}\label{chondrosarcoma}}
+\url{https://pathologyatlas.github.io/brain-invasive-meningioma/HE.html}
 
-\hypertarget{fibrosarcoma}{%
-\section{Fibrosarcoma}\label{fibrosarcoma}}
+Mikroskopik görüntüleri inceleyin:
+
+Meningiom Kemik İnfiltrasyonu
+
+\textbf{Meningiom Kemik İnfiltrasyonu}
+
+\url{https://pathologyatlas.github.io/meningioma-bone-infiltration/HE.html}
+
+Mikroskopik görüntüleri inceleyin:
+
+Kemik Patolojisi
+
+Kemik Tümörleri
+
+\hypertarget{benign-kemik-tuxfcmuxf6rleri}{%
+\chapter{Benign Kemik Tümörleri}\label{benign-kemik-tuxfcmuxf6rleri}}
+
+\hypertarget{ekzostoz-osteokondrom}{%
+\section{Ekzostoz (Osteokondrom)}\label{ekzostoz-osteokondrom}}
+
+\url{https://pathologyatlas.github.io/exostosis/oc.html}
+
+Mikroskopik görüntüleri inceleyin:
+
+\url{https://pathologyatlas.github.io/exostosis/oc001.html}
+
+Mikroskopik görüntüleri inceleyin:
+
+\url{https://pathologyatlas.github.io/exostosis/oc002.html}
+
+Mikroskopik görüntüleri inceleyin:
+
+\hypertarget{section}{%
+\section{}\label{section}}
+
+Yumuşak Doku Patolojisi
+
+Miksoid Liposarkom
+
+\textbf{Miksoid Liposarkom}
+
+\url{https://pathologyatlas.github.io/myxoidliposarcoma/HE.html}
+
+Mikroskopik görüntüleri inceleyin:
+
+Pediatrik ve Perinatal Patoloji
+
+Plasenta
+
+\hypertarget{koryoamnionit}{%
+\chapter{Koryoamnionit}\label{koryoamnionit}}
+
+\url{https://pathologyatlas.github.io/chorioamnionitis/HE.html}
+
+Mikroskopik görüntüleri inceleyin:
 
 Referanslar
 
@@ -610,32 +836,49 @@ Referanslar
 \begin{CSLReferences}{0}{0}
 \end{CSLReferences}
 
-Appendices
+Ekler
 
 Yönetim ve Geliştirme
 
+\href{https://pathologyatlas.github.io/}{pathologyatlas.github.io}
+
+\href{https://lab.patolojinotlari.com}{lab.patolojinotlari.com}
+
+\href{https://patolojinotlari.com}{patolojinotlari.com}
+
+\href{https://parapathology.com}{parapathology.com}
+
+\href{https://twitter.com/patolojinotlari}{twitter}
+
+\href{https://www.linkedin.com/company/patoloji-notlari}{linkedin}
+
+\url{https://leanpub.com/patolojiatlasi/}
+
+\href{https://pathologyatlas.github.io/development.md}{development \&
+WIP}
+
 \begin{itemize}
 \item
-  \href{https://pathologyatlas.github.io/}{pathologyatlas.github.io}
+  \url{https://github.com/pathologyatlas}
 \item
-  \href{https://lab.patolojinotlari.com}{lab.patolojinotlari.com}
+  \url{https://github.com/pathologyatlas/TODO}
 \item
-  \href{https://patolojinotlari.com}{patolojinotlari.com}
+  \url{https://github.com/pathologyatlas/pathologyatlas.github.io}
 \item
-  \href{https://parapathology.com}{parapathology.com}
+  \url{https://github.com/pathologyatlas/template}
 \item
-  \href{https://twitter.com/patolojinotlari}{twitter}
+  \url{https://github.com/pathologyatlas/make-html-WSI}
+\end{itemize}
+
+contact: info@patolojinotlari.com
+
+contact: bilgi@patolojiatlasi.com
+
+\begin{itemize}
 \item
-  \href{https://www.linkedin.com/company/patoloji-notlari}{linkedin}
+  https://github.com/marketplace/actions/quarto-render
 \item
-  https://leanpub.com/patolojiatlasi/
-\item
-  \href{https://pathologyatlas.github.io/development.md}{development \&
-  WIP}
-\item
-  contact: info@patolojinotlari.com
-\item
-  contact: bilgi@patolojiatlasi.com
+  https://github.com/quarto-dev/quarto-actions
 \end{itemize}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
@@ -646,61 +889,175 @@ Examples for future uploads
 \chapter{Pancreas Ductal
 Adenocarcinoma}\label{pancreas-ductal-adenocarcinoma}}
 
-\begin{itemize}
-\tightlist
-\item
-  \url{https://pathologyatlas.github.io/pancreaticadenocarcinoma/}
-\end{itemize}
+\url{https://pathologyatlas.github.io/pancreaticadenocarcinoma/}
 
 \hypertarget{case-1}{%
 \section{Case 1}\label{case-1}}
 
-\begin{itemize}
-\tightlist
-\item
-  \href{https://pathologyatlas.github.io/pancreaticadenocarcinoma/case1-histopathology/viewer_z0.html}{histopathology}
-\end{itemize}
+\href{https://pathologyatlas.github.io/pancreaticadenocarcinoma/case1-histopathology/viewer_z0.html}{histopathology}
 
 \hypertarget{neoplazinin-klinikopatolojik-uxf6zellikleri-ve-epidemiyoloji}{%
 \chapter{Neoplazinin Klinikopatolojik Özellikleri ve
 Epidemiyoloji}\label{neoplazinin-klinikopatolojik-uxf6zellikleri-ve-epidemiyoloji}}
 
+\url{https://pathologyatlas.github.io/lecture1/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.html}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+adding submodule
+
+https://github.blog/2016-02-01-working-with-submodules/
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{git}\NormalTok{ submodule add https://github.com/pathologyatlas/pancreaticadenocarcinoma pancreaticadenocarcinoma}
+\end{Highlighting}
+\end{Shaded}
+
+removing submodule
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{git}\NormalTok{ submodule deinit }\AttributeTok{{-}f} \AttributeTok{{-}{-}all}
+\FunctionTok{rm} \AttributeTok{{-}rf}\NormalTok{ .git/modules/}
+\FunctionTok{git}\NormalTok{ rm }\AttributeTok{{-}f}\NormalTok{ pancreaticadenocarcinoma}
+\end{Highlighting}
+\end{Shaded}
+
+making WSI
+
+see:
+\href{https://github.com/pathologyatlas/make-html-WSI\#convert-svs-to-dzi-and-publish-as-or-embed-in-a-web-page}{Convert
+.svs to .dzi and publish as or embed in a web page}
+
+using templates for new repositories
+
+see: \href{https://github.com/pathologyatlas/template}{Using templates
+for new repositories}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+TODO
+
+\hypertarget{yuxf6nlendirme}{%
+\chapter{Yönlendirme}\label{yuxf6nlendirme}}
+
 \begin{itemize}
 \tightlist
 \item
-  \url{https://pathologyatlas.github.io/lecture1/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.html}
+  development ve wsi to html repolarının adreslerini güncelle ve
+  detaylandır
+\item
+  https://quarto.org/docs/websites/website-navigation.html\#pages-404
+\item
+  Yönlendirme örneği: https://github.com/patolojiatlasi/GBD
 \end{itemize}
+
+\hypertarget{gbdatlas}{%
+\chapter{GBDAtlas}\label{gbdatlas}}
+
+\begin{itemize}
+\tightlist
+\item
+  GBDAtlas ilk grubu ekle
+\end{itemize}
+
+\hypertarget{language}{%
+\chapter{Language}\label{language}}
+
+\begin{itemize}
+\tightlist
+\item
+  https://statnmap.com/2017-04-04-format-text-conditionally-with-rmarkdown-chunks-complete-iframed-article/
+\item
+  https://statnmap.com/2017-10-06-translation-rmarkdown-documents-using-data-frame/
+\item
+  https://statnmap.com/2017-03-11-rmarkdown-conditional-chunks-to-create-multilingual-pdf-and-html-with-images/
+\item
+  https://bookdown.org/yihui/rmarkdown-cookbook/eng-asis.html
+\item
+  https://quarto.org/docs/authoring/create-citeable-articles.html
+\item
+  https://github.com/maelle/multilingual-book
+\item
+  https://github.com/patolojiatlasi/multilingual-book
+\end{itemize}
+
+\hypertarget{github-actions}{%
+\chapter{GitHub Actions}\label{github-actions}}
+
+\begin{itemize}
+\tightlist
+\item
+  https://github.com/quarto-dev/quarto-actions
+\item
+  https://github.com/pommevilla/quarto-render
+\item
+  https://github.com/pommevilla/friendly-dollop
+\item
+  https://pommevilla.github.io/friendly-dollop/
+\end{itemize}
+
+\hypertarget{tweeting-with-update}{%
+\chapter{tweeting with update}\label{tweeting-with-update}}
+
+\begin{itemize}
+\tightlist
+\item
+  https://github.com/and-computers/HowToTweetEveryCommit
+\item
+  https://www.daveabrock.com/2020/04/19/posting-to-twitter-from-gh-actions/
+\item
+  https://gitweet.io/
+\item
+  https://joshuaiz.com/words/using-github-actions-to-post-to-twitter-on-commit
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{tcolorbox}[standard jigsaw,title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}Not, rightrule=.15mm, opacitybacktitle=0.6, leftrule=.75mm, colback=white, left=2mm, colframe=quarto-callout-note-color-frame, toprule=.15mm, bottomtitle=1mm, coltitle=black, titlerule=0mm, colbacktitle=quarto-callout-note-color!10!white, opacityback=0, toptitle=1mm, bottomrule=.15mm, arc=.35mm]
+Note that there are five types of callouts, including: \texttt{note},
+\texttt{tip}, \texttt{warning}, \texttt{caution}, and
+\texttt{important}.
+\end{tcolorbox}
+
+\begin{tcolorbox}[standard jigsaw,title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}Tip With Caption, rightrule=.15mm, opacitybacktitle=0.6, leftrule=.75mm, colback=white, left=2mm, colframe=quarto-callout-tip-color-frame, toprule=.15mm, bottomtitle=1mm, coltitle=black, titlerule=0mm, colbacktitle=quarto-callout-tip-color!10!white, opacityback=0, toptitle=1mm, bottomrule=.15mm, arc=.35mm]
+This is an example of a callout with a caption.
+\end{tcolorbox}
+
+\begin{tcolorbox}[standard jigsaw,title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}Expand To Learn About Collapse, rightrule=.15mm, opacitybacktitle=0.6, leftrule=.75mm, colback=white, left=2mm, colframe=quarto-callout-caution-color-frame, toprule=.15mm, bottomtitle=1mm, coltitle=black, titlerule=0mm, colbacktitle=quarto-callout-caution-color!10!white, opacityback=0, toptitle=1mm, bottomrule=.15mm, arc=.35mm]
+This is an example of a `folded' caution callout that can be expanded by
+the user. You can use \texttt{collapse="true"} to collapse it by default
+or \texttt{collapse="false"} to make a collapsible callout that is
+expanded by default.
+\end{tcolorbox}
 
 Katkıda Bulunmak İçin
 
-\begin{itemize}
-\item
-  H\&E ya da özel boyalı preparatlarınızı bize elden ya da kargo ile
-  ulaştırırsanız, onları tarayıp atlasa ekleyebiliriz.
-\item
-  Halihazırda taranmış preparatlarınızı bulut üzerinden
-  \href{mailto:bilgi@patolojiatlasi.com}{eposta} ile paylaşırsanız,
-  onları da ekleyebiliriz.
-\item
-  Preparatın olduğu sayfaya eklenmek üzere
+H\&E ya da özel boyalı preparatlarınızı bize elden ya da kargo ile
+ulaştırırsanız, onları tarayıp atlasa ekleyebiliriz.
 
-  \begin{itemize}
-  \item
-    Adınızı,
-  \item
-    Kurumunuzu
-  \item
-    Yönlendirilmesini istediğiniz iletişim linkini (web ya da e-posta)
-  \item
-    Eklemek istediğiniz ek klinik bilgi, resim ya da notları
-  \end{itemize}
-\item
-  \href{mailto:bilgi@patolojiatlasi.com}{\nolinkurl{bilgi@patolojiatlasi.com}}
-  adresine iletiniz.
-\item
-  Adres: Doç.Dr.Serdar Balcı Memorial Patoloji Laboratuvarı, Ortadoğu
-  Plaza Kat:14, Kaptanpaşa Mah. Piyalepaşa Bulvarı, Okmeydanı Cd No:73,
-  34384 Şişli/İstanbul
-\end{itemize}
+Halihazırda taranmış preparatlarınızı bulut üzerinden
+\href{mailto:bilgi@patolojiatlasi.com}{eposta} ile paylaşırsanız, onları
+da ekleyebiliriz.
+
+Preparatın olduğu sayfaya eklenmek üzere
+
+\begin{verbatim}
+Adınızı,
+
+Kurumunuzu
+
+Yönlendirilmesini istediğiniz iletişim linkini (web ya da e-posta)
+
+Eklemek istediğiniz ek klinik bilgi, resim ya da notları
+\end{verbatim}
+
+\href{mailto:bilgi@patolojiatlasi.com}{\nolinkurl{bilgi@patolojiatlasi.com}}
+adresine iletiniz.
+
+Adres: Doç.Dr.Serdar Balcı Memorial Patoloji Laboratuvarı, Ortadoğu
+Plaza Kat:14, Kaptanpaşa Mah. Piyalepaşa Bulvarı, Okmeydanı Cd No:73,
+34384 Şişli/İstanbul
 
 \end{document}
