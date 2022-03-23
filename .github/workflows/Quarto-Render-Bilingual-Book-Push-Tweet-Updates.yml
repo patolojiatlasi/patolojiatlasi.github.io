@@ -79,7 +79,7 @@ jobs:
         with:
           source-directory: 'EN'
           destination-github-username: 'patolojiatlasi'
-          destination-repository-name: 'patolojiatlasiV2'
+          destination-repository-name: 'EN'
           user-email: drserdarbalci@gmail.com
           target-branch: main
 
