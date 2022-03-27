@@ -72,7 +72,7 @@ jobs:
 
 
 
-      - name: Pushes to patolojiatlasiV2
+      - name: Pushes to patolojiatlasi EN
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
