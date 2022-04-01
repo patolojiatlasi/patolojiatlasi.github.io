@@ -120,6 +120,8 @@ book:
         - metastaz.qmd
     - part: "Tümörlerdeki Prognostik Morfolojik Özellikler"
       chapters:
+        - text: "Venous Invasion"
+          href: venozinvazyon.qmd
         - text: "Ekstramural Venöz İnvazyon"
           href: ekstramuralvenozinvazyon.qmd
 # #    - part: "Hematopatoloji"
@@ -128,7 +130,12 @@ book:
     - part: "Gastrointestinal Sistem Patolojisi"
       chapters:
         - gastro.qmd
-        - kolon.qmd
+        - text: "Esophagus"
+          href: ozofagus.qmd
+        - text: "Stomach"
+          href: mide.qmd
+        - text: "Colon"
+          href: kolon.qmd
     - part: "Karaciğer Patolojisi"
       chapters:
         - karaciger.qmd
@@ -238,5 +245,5 @@ citation:
 
 
 editor: visual
-  
+
 
