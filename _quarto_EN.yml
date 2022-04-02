@@ -11,19 +11,18 @@ book:
   author:
    - name: "Serdar Balcı"
      url: "https://www.serdarbalci.com"
-     affiliation: "Memorial Patoloji"
+     affiliation: "Memorial Pathology"
      affiliation-url: "https://MemorialPath.github.io"
-   - name: Memorial Patoloji Hekim ve Teknikerleri
-     affiliation: "Memorial Patoloji"
+   - name: Pathologists, Assistants and Technicians
+     affiliation: "Memorial Pathology"
      affiliation-url: "https://MemorialPath.github.io"
   description: |
-    Tanıtım: Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları. Görerek Öğrenin.
-    Patoloji Ders Notları ve Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.
+    Pathology Atlas and Notes for Medical Students: See and Learn
+    Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Pathology Archive.
   abstract: |
-    Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları.
-    Görerek Öğrenin.
-    Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.
-    [Katkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin](https://www.patolojiatlasi.com/katki.html).
+    Pathology Atlas and Notes for Medical Students: See and Learn
+    Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Pathology Archive.
+    If you want to contribute, please [contact us](https://www.patolojiatlasi.com/katki.html).
   date: last-modified
   image: images/cover.png
   output-file: "Patology-Atlas"
@@ -43,7 +42,7 @@ book:
     style: floating
     search: true
 #   navbar:
-#     title: "Patoloji Atlası"
+#     title: "Pathology Atlas"
 #     logo: images/cover.png
 #     search: true
 #     pinned: false
@@ -53,7 +52,7 @@ book:
 #         href: https://github.com/patolojiatlasi
   open-graph: true
   locale: tr_TR
-  site-name: Patoloji Atlası
+  site-name: Pathology Atlas
   twitter-card:
     creator: "@serdarbalci"
     site: "@patolojinotlari"
