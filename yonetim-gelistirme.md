@@ -118,6 +118,18 @@ see: [Using templates for new repositories](https://github.com/pathologyatlas/te
 -   https://gitweet.io/
 -   https://joshuaiz.com/words/using-github-actions-to-post-to-twitter-on-commit
 
+
+---
+
+```zsh
+git commit --allow-empty -m "Empty-Commit"
+git push origin main
+```
+
+
+
+
+
 ------------------------------------------------------------------------
 
 ::: callout-note
