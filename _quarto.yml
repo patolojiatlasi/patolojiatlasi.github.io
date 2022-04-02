@@ -23,7 +23,7 @@ book:
     Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları.
     Görerek Öğrenin.
     Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.
-    [Katkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin](https://www.patolojiatlasi.com/katki.html).
+    Katkı yapmak ve kendi vakalarınız ekletmek için lütfen [iletişime geçin](https://www.patolojiatlasi.com/katki.html).
   date: last-modified
   image: images/cover.png
   output-file: "Patoloji-Atlasi"
@@ -203,7 +203,7 @@ format:
     anchor-sections: true
     link-external-icon: true
     link-external-newwindow: true
-#    link-external-filter: '(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/pathologyatlas\.github\.io\/)'
+    link-external-filter: '(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/pathologyatlas\.github\.io\/)'
     citations-hover: true
     footnotes-hover: true
     number-depth: 3

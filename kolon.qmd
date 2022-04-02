@@ -1,24 +1,14 @@
-
 ```{r language ischemic-colitis, echo=FALSE, include=TRUE}
 source("./R/language.R")
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 # İskemik Kolit
 ```
 
-
-
-
 ```{asis, echo = (language == "EN")}
 # Ischemic Colitis
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -33,9 +23,6 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-
-
-
 ```{asis, echo = (language == "EN")}
 
 **Ischemic Colitis**
@@ -48,12 +35,6 @@ See Microscopy with viewer:
 <iframe src="https://pathologyatlas.github.io/ischemic-colitis/HE.html" style="height:400px;width:100%;"></iframe>
 
 ```
-
-
-
-
-
-
 
 ## Benign Tümörler
 
@@ -130,3 +111,64 @@ Mikroskopik görüntüleri inceleyin:
 <iframe src="https://pathologyatlas.github.io/schwanncellhamartoma/HE.html" style="height:400px;width:100%;">
 
 </iframe>
+
+
+
+
+```{r language mucinous-adenocarcinoma-colon, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+
+```
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+# Tübülövillöz adenom zemininde gelişmiş Müsinöz adenokarsinom, kolon
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+# Mucinous adenocarcinoma of colon arising from tubulovillus adenoma
+
+```
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Tübülövillöz adenom zemininde gelişmiş Müsinöz adenokarsinom, kolon**
+
+
+[https://pathologyatlas.github.io/mucinous-adenocarcinoma-colon/HE.html](https://pathologyatlas.github.io/mucinous-adenocarcinoma-colon/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://pathologyatlas.github.io/mucinous-adenocarcinoma-colon/HE.html" style="height:400px;width:100%;"></iframe>
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Mucinous adenocarcinoma of colon arising from tubulovillus adenoma**
+
+
+[https://pathologyatlas.github.io/mucinous-adenocarcinoma-colon/HE.html](https://pathologyatlas.github.io/mucinous-adenocarcinoma-colon/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://pathologyatlas.github.io/mucinous-adenocarcinoma-colon/HE.html" style="height:400px;width:100%;"></iframe>
+
+```
+
+

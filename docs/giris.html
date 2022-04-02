@@ -496,7 +496,7 @@ Patoloji Ders Notları ve Patoloji Atlası Memorial Patoloji arşivinden derlene
 <div class="cell">
 
 </div>
-<p>Son güncelleme zamanı: 2022-04-01 22:30:40</p>
+<p>Son güncelleme zamanı: 2022-04-02 17:24:15</p>
 <p>Sosyal medyadan derlenen görüntülerden oluşan <a href="https://www.patolojinotlari.com/">patoloji notları için tıklayınız</a>.</p>
 
 
@@ -674,7 +674,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     });
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/https:\/\/patolojiatlasi\.com/);
+      var filterRegex = new RegExp(/(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/pathologyatlas\.github\.io\/)/);
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
