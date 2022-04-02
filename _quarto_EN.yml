@@ -94,36 +94,36 @@ book:
           href: amiloid.qmd
         - text: "Repair Mechanisms"
           href: tamir.qmd
-    - part: "İnflamasyon"
+    - part: "Inflamation"
       chapters:
-        - text: "Kronik inflamasyon"
+        - text: "Chronic inflamation"
           href: kronikinflamasyon.qmd
-        - text: "Granülamatöz İnflamasyon"
+        - text: "Granulamatous inflammation"
           href: granulom.qmd
         # - inflamasyon.qmd
-    - part: "İnfeksiyöz Hastalıkların Patolojisi"
+    - part: "Infectious Diseases"
       chapters:
-        - text: "Viruslar"
+        - text: "Viruses"
           href: virus.qmd
-        - text: "Bakteriler"
+        - text: "Bacteria"
           href: bakteri.qmd
-        - text: "Mantarlar"
+        - text: "Fungi"
           href: mantar.qmd
-        - text: "Parazitler"
+        - text: "Parasites"
           href: parazit.qmd
-    - part: "Temel Tümör Patolojisi"
+    - part: "Neoplasia, Tumor Pathology Basics"
       chapters:
         - benign.qmd
         - hamartom.qmd
         - heterotopi.qmd
         - metastaz.qmd
-    - part: "Tümörlerdeki Prognostik Morfolojik Özellikler"
+    - part: "Prognostic Morphologic Features of Neoplasms"
       chapters:
         - text: "Venous Invasion"
           href: venozinvazyon.qmd
-        - text: "Ekstramural Venöz İnvazyon"
+        - text: "Extramural Venous Invaasion"
           href: ekstramuralvenozinvazyon.qmd
-# #    - part: "Hematopatoloji"
+# #    - part: "Hematopathology"
 # #      chapters:
 # #        - hematopatoloji.qmd
     - part: "Gastrointestinal Sistem Patolojisi"
