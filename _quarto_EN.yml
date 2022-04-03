@@ -171,7 +171,8 @@ book:
     - part: "---"
   appendices:
     - yonetim-gelistirme.md
-    - katki.qmd
+    - text: "Contributions are welcome"
+      href: katki.qmd
 
 # before_chapter_script: "./R/language.R"
 
