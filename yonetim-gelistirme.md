@@ -114,7 +114,6 @@ see: [Using templates for new repositories](https://github.com/pathologyatlas/te
 -   https://github.com/marketplace?page=1&q=another+repo&query=another+repo+&type=actions
 -   https://github.com/marketplace/actions/file-changes-action
 
-
 ## tweeting with update
 
 -   https://github.com/and-computers/HowToTweetEveryCommit
@@ -122,24 +121,16 @@ see: [Using templates for new repositories](https://github.com/pathologyatlas/te
 -   https://gitweet.io/
 -   https://joshuaiz.com/words/using-github-actions-to-post-to-twitter-on-commit
 
+------------------------------------------------------------------------
 
----
-
-```zsh
+``` zsh
 git commit --allow-empty -m "Empty-Commit"
 git push origin main
 ```
 
+------------------------------------------------------------------------
 
----
-
-- https://www.w3schools.com/howto/howto_css_responsive_iframes.asp
-
-
-
-
-
-
+-   https://www.w3schools.com/howto/howto_css_responsive_iframes.asp
 
 ------------------------------------------------------------------------
 

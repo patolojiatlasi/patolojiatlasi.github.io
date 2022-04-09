@@ -138,6 +138,10 @@ book:
     - part: "Liver"
       chapters:
         - karaciger.qmd
+    - part: "Mezotel"
+      chapters:
+        - text: "Abdomen"
+          href: mezotel.qmd
     - part: "Gynecopathology"
       chapters:
         - jineko.qmd

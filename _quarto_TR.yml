@@ -134,6 +134,10 @@ book:
     - part: "Karaciğer Patolojisi"
       chapters:
         - karaciger.qmd
+    - part: "Mezotel"
+      chapters:
+        - text: "Abdomen"
+          href: mezotel.qmd
     - part: "Jinekolojik Patoloji"
       chapters:
         - jineko.qmd
