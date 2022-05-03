@@ -63,7 +63,7 @@ Anthracosis Anthracotic pigment in a thoracic lymph node
 
 See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/anthracosis/HE.html" style="height:400px;width:100%;"></iframe>
+<iframe src="https://pathologyatlas.github.io/anthracosis/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 
 ### Cholesterol Polyp, gallbladder

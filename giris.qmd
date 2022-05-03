@@ -1,16 +1,17 @@
 # Giriş {#giris .unnumbered}
 
-Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.  
-[Katkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin](https://www.patolojiatlasi.com/katki.html).  
+Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.\
+
+[Katkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin](https://www.patolojiatlasi.com/katki.html).
 
 ```{r songuncelleme, echo=FALSE}
 songuncelleme <- Sys.time() 
 ```
 
-Son güncelleme zamanı: `r songuncelleme`  
+Son güncelleme zamanı: `r songuncelleme`
 
 ```{comment}
 For English go to: [lab.patolojinotlari.com](https://lab.patolojinotlari.com/)
 ```
 
-Sosyal medyadan derlenen görüntülerden oluşan [patoloji notları için tıklayınız](https://www.patolojinotlari.com/).  
+Sosyal medyadan derlenen görüntülerden oluşan [patoloji notları için tıklayınız](https://www.patolojinotlari.com/).

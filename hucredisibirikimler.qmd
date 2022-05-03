@@ -1,19 +1,14 @@
-
 ```{r language ochronosis, echo=FALSE, include=TRUE}
 source("./R/language.R")
 ```
-
 
 ```{asis, echo = (language == "TR")}
 # Okronozis
 ```
 
-
 ```{asis, echo = (language == "EN")}
 # Ochronosis
 ```
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -24,10 +19,9 @@ source("./R/language.R")
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://pathologyatlas.github.io/ochronosis/HE.html" style="height:400px;width:100%;"></iframe>
+<iframe src="https://pathologyatlas.github.io/ochronosis/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
-
 
 ```{asis, echo = (language == "EN")}
 
@@ -38,7 +32,6 @@ Mikroskopik görüntüleri inceleyin:
 
 See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/ochronosis/HE.html" style="height:400px;width:100%;"></iframe>
+<iframe src="https://pathologyatlas.github.io/ochronosis/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
-

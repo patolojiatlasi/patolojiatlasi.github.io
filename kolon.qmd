@@ -19,7 +19,7 @@ source("./R/language.R")
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://pathologyatlas.github.io/ischemic-colitis/HE.html" style="height:400px;width:100%;"></iframe>
+<iframe src="https://pathologyatlas.github.io/ischemic-colitis/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -32,7 +32,7 @@ Mikroskopik görüntüleri inceleyin:
 
 See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/ischemic-colitis/HE.html" style="height:400px;width:100%;"></iframe>
+<iframe src="https://pathologyatlas.github.io/ischemic-colitis/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -46,7 +46,7 @@ See Microscopy with viewer:
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://pathologyatlas.github.io/tubularadenoma-flat/HE.html" style="height:400px;width:100%;">
+<iframe src="https://pathologyatlas.github.io/tubularadenoma-flat/HE.html" style="height:400px;width:100%;" data-external="1">
 
 </iframe>
 
@@ -54,7 +54,7 @@ Mikroskopik görüntüleri inceleyin:
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://pathologyatlas.github.io/tubularadenoma-flat/HE2.html" style="height:400px;width:100%;">
+<iframe src="https://pathologyatlas.github.io/tubularadenoma-flat/HE2.html" style="height:400px;width:100%;" data-external="1">
 
 </iframe>
 
@@ -76,7 +76,7 @@ Mikroskopik görüntüleri inceleyin:
 
 <https://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html>
 
-<iframe src="https://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html" style="height:400px;width:100%;">
+<iframe src="https://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html" style="height:400px;width:100%;" data-external="1">
 
 </iframe>
 
@@ -88,7 +88,7 @@ Mikroskopi
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://pathologyatlas.github.io/hyperplasticpolyp/case1.html" style="height:400px;width:100%;">
+<iframe src="https://pathologyatlas.github.io/hyperplasticpolyp/case1.html" style="height:400px;width:100%;" data-external="1">
 
 </iframe>
 
@@ -98,19 +98,84 @@ Mikroskopik görüntüleri inceleyin:
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://pathologyatlas.github.io/hamartomatouspolyp/HE.html" style="height:400px;width:100%;">
+<iframe src="https://pathologyatlas.github.io/hamartomatouspolyp/HE.html" style="height:400px;width:100%;" data-external="1">
 
 </iframe>
 
-## Schwann Cell Hamartoma in a Colon Polyp
+#### Schwann Cell Hamartoma in a Colon Polyp
 
 <https://pathologyatlas.github.io/schwanncellhamartoma/HE.html>
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://pathologyatlas.github.io/schwanncellhamartoma/HE.html" style="height:400px;width:100%;">
+<iframe src="https://pathologyatlas.github.io/schwanncellhamartoma/HE.html" style="height:400px;width:100%;" data-external="1">
 
 </iframe>
+
+
+
+
+
+```{r language colon-intramucosal-lipoma, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+
+```
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+# Kolon intramukozal lipom
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+# Colon intramucosal lipoma
+
+```
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Kolon intramukozal lipom**
+
+
+[https://pathologyatlas.github.io/colon-intramucosal-lipoma/HE.html](https://pathologyatlas.github.io/colon-intramucosal-lipoma/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://pathologyatlas.github.io/colon-intramucosal-lipoma/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Colon intramucosal lipoma**
+
+
+[https://pathologyatlas.github.io/colon-intramucosal-lipoma/HE.html](https://pathologyatlas.github.io/colon-intramucosal-lipoma/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://pathologyatlas.github.io/colon-intramucosal-lipoma/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
 
 
 
@@ -121,26 +186,17 @@ source("./R/language.R")
 
 ```
 
-
-
-
 ```{asis, echo = (language == "TR")}
 
 # Tübülövillöz adenom zemininde gelişmiş Müsinöz adenokarsinom, kolon
 
 ```
 
-
-
-
 ```{asis, echo = (language == "EN")}
 
 # Mucinous adenocarcinoma of colon arising from tubulovillus adenoma
 
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -151,14 +207,11 @@ source("./R/language.R")
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://pathologyatlas.github.io/mucinous-adenocarcinoma-colon/HE.html" style="height:400px;width:100%;"></iframe>
+<iframe src="https://pathologyatlas.github.io/mucinous-adenocarcinoma-colon/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
-
----
-
-
+------------------------------------------------------------------------
 
 ```{asis, echo = (language == "EN")}
 
@@ -169,14 +222,9 @@ Mikroskopik görüntüleri inceleyin:
 
 See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/mucinous-adenocarcinoma-colon/HE.html" style="height:400px;width:100%;"></iframe>
+<iframe src="https://pathologyatlas.github.io/mucinous-adenocarcinoma-colon/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
-
-
-
-
-
 
 ```{r language colon-adenocarcinoma, echo=FALSE, include=TRUE}
 
@@ -184,26 +232,17 @@ source("./R/language.R")
 
 ```
 
-
-
-
 ```{asis, echo = (language == "TR")}
 
 # Kolon Adenokarsinomu
 
 ```
 
-
-
-
 ```{asis, echo = (language == "EN")}
 
 # Colon Adenocarcinoma
 
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -214,12 +253,9 @@ source("./R/language.R")
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://pathologyatlas.github.io/colon-adenocarcinoma/HE.html" style="height:400px;width:100%;"></iframe>
+<iframe src="https://pathologyatlas.github.io/colon-adenocarcinoma/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
-
-
-
 
 ```{asis, echo = (language == "EN")}
 
@@ -230,8 +266,6 @@ Mikroskopik görüntüleri inceleyin:
 
 See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/colon-adenocarcinoma/HE.html" style="height:400px;width:100%;"></iframe>
+<iframe src="https://pathologyatlas.github.io/colon-adenocarcinoma/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
-
-

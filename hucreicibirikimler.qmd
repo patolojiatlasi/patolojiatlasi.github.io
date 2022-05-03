@@ -1,10 +1,8 @@
 # Hücre İçi Birikimler
 
-
 ```{r language, echo=FALSE, include=TRUE}
 source("./R/language.R")
 ```
-
 
 ## Kolesterol Polibi
 
@@ -12,7 +10,7 @@ source("./R/language.R")
 
 -   See Microscopy with viewer:
 
-<iframe src="https://pathologyatlas.github.io/cholesterolpolyp/HE.html" style="height:400px;width:100%;">
+<iframe src="https://pathologyatlas.github.io/cholesterolpolyp/HE.html" style="height:400px;width:100%;" data-external="1">
 
 </iframe>
 
@@ -26,7 +24,7 @@ Karaciğer İğnde Biyopsisinde glikojen depo hastalığı
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://pathologyatlas.github.io/glycogenstorage/HE.html" style="height:400px;width:100%;">
+<iframe src="https://pathologyatlas.github.io/glycogenstorage/HE.html" style="height:400px;width:100%;" data-external="1">
 
 </iframe>
 
@@ -36,7 +34,7 @@ Mikroskopik görüntüleri inceleyin:
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://pathologyatlas.github.io/glycogenstorage/PAS.html" style="height:400px;width:100%;">
+<iframe src="https://pathologyatlas.github.io/glycogenstorage/PAS.html" style="height:400px;width:100%;" data-external="1">
 
 </iframe>
 
@@ -46,7 +44,7 @@ Mikroskopik görüntüleri inceleyin:
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://pathologyatlas.github.io/glycogenstorage/PASD.html" style="height:400px;width:100%;">
+<iframe src="https://pathologyatlas.github.io/glycogenstorage/PASD.html" style="height:400px;width:100%;" data-external="1">
 
 </iframe>
 
@@ -58,7 +56,7 @@ Torakal bölge lenf nodunda antrakotik pigment
 
 See Microscopy with viewer:
 
-<iframe src="https://pathologyatlas.github.io/anthracosis/HE.html" style="height:400px;width:100%;">
+<iframe src="https://pathologyatlas.github.io/anthracosis/HE.html" style="height:400px;width:100%;" data-external="1">
 
 </iframe>
 
@@ -72,7 +70,7 @@ See Microscopy with viewer:
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://pathologyatlas.github.io/melanosiscoli/HE.html" style="height:400px;width:100%;"></iframe>
+<iframe src="https://pathologyatlas.github.io/melanosiscoli/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -84,7 +82,7 @@ Mikroskopik görüntüleri inceleyin:
 
 See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/melanosiscoli/HE.html" style="height:400px;width:100%;"></iframe>
+<iframe src="https://pathologyatlas.github.io/melanosiscoli/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -96,7 +94,7 @@ See Microscopy with viewer:
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://pathologyatlas.github.io/melanosiscoli/PAS.html" style="height:400px;width:100%;"></iframe>
+<iframe src="https://pathologyatlas.github.io/melanosiscoli/PAS.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -108,6 +106,6 @@ Mikroskopik görüntüleri inceleyin:
 
 See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/melanosiscoli/PAS.html" style="height:400px;width:100%;"></iframe>
+<iframe src="https://pathologyatlas.github.io/melanosiscoli/PAS.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```

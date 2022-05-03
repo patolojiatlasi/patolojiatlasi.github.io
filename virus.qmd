@@ -8,30 +8,23 @@
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://pathologyatlas.github.io/HSV/herpesesophagitis/viewer_z0.html" style="height:400px;width:100%;">
+<iframe src="https://pathologyatlas.github.io/HSV/herpesesophagitis/viewer_z0.html" style="height:400px;width:100%;" data-external="1">
 
 </iframe>
 
-
-
 ## Molluscum contagiosum
-
 
 ```{r language molluscum-contagiosum, echo=FALSE, include=TRUE}
 source("./R/language.R")
 ```
 
-
 ```{asis, echo = (language == "TR")}
 # Molluscum contagiosum
 ```
 
-
 ```{asis, echo = (language == "EN")}
 # Molluscum contagiosum
 ```
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -42,10 +35,9 @@ source("./R/language.R")
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://pathologyatlas.github.io/molluscum-contagiosum/HE.html" style="height:400px;width:100%;"></iframe>
+<iframe src="https://pathologyatlas.github.io/molluscum-contagiosum/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
-
 
 ```{asis, echo = (language == "EN")}
 
@@ -56,7 +48,6 @@ Mikroskopik görüntüleri inceleyin:
 
 See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/molluscum-contagiosum/HE.html" style="height:400px;width:100%;"></iframe>
+<iframe src="https://pathologyatlas.github.io/molluscum-contagiosum/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
-
