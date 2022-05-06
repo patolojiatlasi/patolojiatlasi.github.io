@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.271">
+<meta name="generator" content="quarto-0.9.348">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -62,16 +62,18 @@ ul.task-list{list-style: none;}
 
 <meta property="og:title" content="Pathology Atlas - 29&nbsp; Kulak">
 <meta property="og:description" content="Pathology Atlas and Notes for Medical Students: See and Learn
-Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Pathology Archive.">
+Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Pathology Archive.
+">
 <meta property="og:site-name" content="Pathology Atlas">
 <meta name="twitter:title" content="Pathology Atlas - 29&nbsp; Kulak">
 <meta name="twitter:description" content="Pathology Atlas and Notes for Medical Students: See and Learn
-Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Pathology Archive.">
+Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Pathology Archive.
+">
 <meta name="twitter:creator" content="@serdarbalci">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="floating">
+<body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -516,7 +518,7 @@ Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Path
 
 <div>
   <div class="description">
-    Pathology Atlas and Notes for Medical Students: See and Learn Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Pathology Archive.
+    <p>Pathology Atlas and Notes for Medical Students: See and Learn Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Pathology Archive.</p>
   </div>
 </div>
 
@@ -543,7 +545,7 @@ Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Path
 </section>
 
 </main> <!-- /main -->
-<script type="application/javascript">
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const disableStylesheet = (stylesheets) => {
     for (let i=0; i < stylesheets.length; i++) {
@@ -661,7 +663,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.blur();
     // flash "checked"
     button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
     setTimeout(function() {
+      button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
     // clear code selection
