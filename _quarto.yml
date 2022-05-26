@@ -4,6 +4,10 @@ project:
 
 lang: tr
 
+language:
+  title-block-author-single: "Derleyen"
+  title-block-author-plural: "Katkıda Bulunanlar"
+
 book:
   engine: knitr
   title: "Patoloji Atlası"
