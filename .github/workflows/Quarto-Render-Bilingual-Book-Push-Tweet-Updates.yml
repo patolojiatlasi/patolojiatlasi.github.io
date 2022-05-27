@@ -113,7 +113,7 @@ jobs:
     - name: Mirror + trigger CI
       uses: SvanBoxel/gitlab-mirror-and-ci-action@master
       with:
-        args: "https://gitlab.com/patolojiatlasi/atlas"
+        args: "https://gitlab.com/patolojiatlasi/tr"
       env:
         GITLAB_HOSTNAME: "gitlab.com"
         GITLAB_USERNAME: "patolojiatlasi"
