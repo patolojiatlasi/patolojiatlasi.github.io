@@ -95,6 +95,11 @@ jobs:
       #     user-email: drserdarbalci@gmail.com
       #     target-branch: main
 
+
+  send-tweet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: "Tweet"
         id: date
         run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
@@ -107,7 +112,7 @@ jobs:
           access-token-secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
           
   build-to-gitlab:
-#    needs: quarto-render-and-deploy
+    needs: quarto-render-and-deploy
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
