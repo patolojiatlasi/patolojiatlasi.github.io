@@ -105,12 +105,30 @@ jobs:
         run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
       - uses: ethomson/send-tweet-action@v1
         with:
-          status: 'Patoloji atlası güncellendi ${{ steps.date.outputs.date }}. Patoloji notları için: https://www.patolojinotlari.com/ #dijitalpatoloji #WSI #preparat için https://www.patolojiatlasi.com/'
+          status: '#Patoloji atlası güncellendi ${{ steps.date.outputs.date }}. #dijitalpatoloji #WSI #preparat https://www.patolojiatlasi.com/'
           consumer-key: ${{ secrets.API_KEY }}
           consumer-secret: ${{ secrets.API_SECRET_KEY }}
           access-token: ${{ secrets.ACCESS_TOKEN }}
           access-token-secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
-          
+
+
+  send-tweet-EN:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: "Tweet"
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+      - uses: ethomson/send-tweet-action@v1
+        with:
+          status: '#Pathology #atlas is updated ${{ steps.date.outputs.date }}. #digitalpathology #WSI #slides https://www.patolojiatlasi.com/'
+          consumer-key: ${{ secrets.API_KEY }}
+          consumer-secret: ${{ secrets.API_SECRET_KEY }}
+          access-token: ${{ secrets.ACCESS_TOKEN }}
+          access-token-secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
+
+
+
   build-to-gitlab:
     needs: quarto-render-and-deploy
     runs-on: ubuntu-latest
