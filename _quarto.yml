@@ -135,6 +135,10 @@ book:
     - part: "Karaciğer Patolojisi"
       chapters:
         - karaciger.qmd
+    - part: "Pankreatobilier Sistem Patolojisi"
+      chapters:
+        - text: "Safra Kesesi"
+          href: safrakesesi.qmd
     - part: "Mezotel"
       chapters:
         - text: "Abdomen"

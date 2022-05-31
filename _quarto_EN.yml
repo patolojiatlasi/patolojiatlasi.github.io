@@ -139,6 +139,10 @@ book:
     - part: "Liver"
       chapters:
         - karaciger.qmd
+    - part: "Pankreatobiliary system"
+      chapters:
+        - text: "Gallbladder"
+          href: safrakesesi.qmd
     - part: "Mezotel"
       chapters:
         - text: "Abdomen"
