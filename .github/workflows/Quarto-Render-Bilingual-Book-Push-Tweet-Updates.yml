@@ -72,6 +72,20 @@ jobs:
 #           publish_dir: ./docs
 
 
+      - name: Commit results to main branch
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add .
+          git commit -m "CI added changes `date +'%Y-%m-%d %H:%M:%S'`" || echo "No changes to commit"
+          git push origin || echo "No changes to commit"
+      - name: Push changes # push the output folder to your repo
+        uses: ad-m/github-push-action@master
+        with:
+          branch: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # WORKFLOW_GITHUB_TOKEN
+          force: true
 
       - name: Pushes to patolojiatlasi EN
         uses: cpina/github-action-push-to-another-repository@main
