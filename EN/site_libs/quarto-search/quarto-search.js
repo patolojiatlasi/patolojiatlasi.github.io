@@ -17,14 +17,12 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
   const { autocomplete } = window["@algolia/autocomplete-js"];
 
   let quartoSearchOptions = {};
-  let language = {};
   const searchOptionEl = window.document.getElementById(
     "quarto-search-options"
   );
   if (searchOptionEl) {
     const jsonStr = searchOptionEl.textContent;
     quartoSearchOptions = JSON.parse(jsonStr);
-    language = quartoSearchOptions.language;
   }
 
   // note the search mode
@@ -101,11 +99,6 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
     classNames: {
       form: "d-flex",
     },
-    translations: {
-      clearButtonTitle: language["search-clear-button-title"],
-      detachedCancelButtonText: language["search-detached-cancel-button-title"],
-      submitButtonTitle: language["search-submit-button-title"],
-    },
     initialState: {
       query,
     },
@@ -143,20 +136,12 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
           items.forEach((item) => {
             const hrefParts = item.href.split("#");
             const baseHref = hrefParts[0];
-            const isDocumentItem = hrefParts.length === 1;
 
             const items = groupedItems.get(baseHref);
             if (!items) {
               groupedItems.set(baseHref, [item]);
             } else {
-              // If the href for this item matches the document
-              // exactly, place this item first as it is the item that represents
-              // the document itself
-              if (isDocumentItem) {
-                items.unshift(item);
-              } else {
-                items.push(item);
-              }
+              items.push(item);
               groupedItems.set(baseHref, items);
             }
           });
@@ -187,10 +172,10 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
                   reshapedItems.push({
                     target,
                     title: isExpanded
-                      ? language["search-hide-matches-text"]
+                      ? `Hide additional matches`
                       : remainingCount === 1
-                      ? `${remainingCount} ${language["search-more-match-text"]}`
-                      : `${remainingCount} ${language["search-more-matches-text"]}`,
+                      ? `${remainingCount} more match in this document`
+                      : `${remainingCount} more matches in this document`,
                     type: kItemTypeMore,
                     href: kItemTypeMoreHref,
                   });
@@ -302,7 +287,7 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
               return createElement(
                 "div",
                 { class: "quarto-search-no-results" },
-                language["search-no-results-text"]
+                "No results."
               );
             },
             header({ items, createElement }) {
@@ -315,7 +300,7 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
                 return createElement(
                   "div",
                   { class: "search-result-header" },
-                  `${count} ${language["search-matching-documents-text"]}`
+                  `${count} matching documents.`
                 );
               } else {
                 return createElement(
@@ -325,26 +310,6 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
                 );
               }
             },
-            footer({ _items, createElement }) {
-              if (
-                quartoSearchOptions.algolia &&
-                quartoSearchOptions.algolia["show-logo"]
-              ) {
-                const libDir = quartoSearchOptions.algolia["libDir"];
-                const logo = createElement("img", {
-                  src: offsetURL(
-                    `${libDir}/quarto-search/search-by-algolia.svg`
-                  ),
-                  class: "algolia-search-logo",
-                });
-                return createElement(
-                  "a",
-                  { href: "http://www.algolia.com/" },
-                  logo
-                );
-              }
-            },
-
             item({ item, createElement }) {
               return renderItem(
                 item,
@@ -360,17 +325,6 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
       ];
     },
   });
-
-  // Remove the labeleledby attribute since it is pointing
-  // to a non-existent label
-  if (quartoSearchOptions.type === "overlay") {
-    const inputEl = window.document.querySelector(
-      "#quarto-search .aa-Autocomplete"
-    );
-    if (inputEl) {
-      inputEl.removeAttribute("aria-labelledby");
-    }
-  }
 
   // If the main document scrolls dismiss the search results
   // (otherwise, since they're floating in the document they can scroll with the document)
@@ -499,13 +453,13 @@ function validateItems(items) {
   if (items.length > 0) {
     const item = items[0];
     const missingFields = [];
-    if (item.href == undefined) {
+    if (!item.href) {
       missingFields.push("href");
     }
-    if (!item.title == undefined) {
+    if (!item.title) {
       missingFields.push("title");
     }
-    if (!item.text == undefined) {
+    if (!item.text) {
       missingFields.push("text");
     }
 
@@ -531,7 +485,6 @@ function validateItems(items) {
 
 let lastQuery = null;
 function showCopyLink(query, options) {
-  const language = options.language;
   lastQuery = query;
   // Insert share icon
   const inputSuffixEl = window.document.body.querySelector(
@@ -547,7 +500,7 @@ function showCopyLink(query, options) {
       copyButtonEl = window.document.createElement("button");
       copyButtonEl.setAttribute("class", "aa-CopyButton");
       copyButtonEl.setAttribute("type", "button");
-      copyButtonEl.setAttribute("title", language["search-copy-link-title"]);
+      copyButtonEl.setAttribute("title", "Copy link to search");
       copyButtonEl.onmousedown = (e) => {
         e.preventDefault();
         e.stopPropagation();
@@ -747,15 +700,10 @@ function createDocumentCard(createElement, icon, title, section, text, href) {
     containerEl
   );
 
-  const classes = ["search-result-doc", "search-item"];
-  if (!section) {
-    classes.push("document-selectable");
-  }
-
   return createElement(
     "div",
     {
-      class: classes.join(" "),
+      class: "search-result-doc search-item",
     },
     linkEl
   );
@@ -859,11 +807,10 @@ function positionPanel(pos) {
   const inputEl = window.document.querySelector(
     "#quarto-search .aa-Autocomplete"
   );
-
   if (panelEl && inputEl) {
     panelEl.style.top = `${Math.round(panelEl.offsetTop)}px`;
     if (pos === "start") {
-      panelEl.style.left = `${Math.round(inputEl.left)}px`;
+      panelEl.style.left = `${Math.round(inputEl.offsetLeft)}px`;
     } else {
       panelEl.style.right = `${Math.round(inputEl.offsetRight)}px`;
     }
@@ -876,86 +823,23 @@ function highlightMatch(query, text) {
   if (text) {
     const start = text.toLowerCase().indexOf(query.toLowerCase());
     if (start !== -1) {
-      const startMark = "<mark class='search-match'>";
-      const endMark = "</mark>";
-
       const end = start + query.length;
       text =
         text.slice(0, start) +
-        startMark +
+        "<mark class='search-match'>" +
         text.slice(start, end) +
-        endMark +
+        "</mark>" +
         text.slice(end);
-      const startInfo = clipStart(text, start);
-      const endInfo = clipEnd(
-        text,
-        startInfo.position + startMark.length + endMark.length
-      );
-      text =
-        startInfo.prefix +
-        text.slice(startInfo.position, endInfo.position) +
-        endInfo.suffix;
-
-      return text;
+      const clipStart = Math.max(start - 50, 0);
+      const clipEnd = clipStart + 200;
+      text = text.slice(clipStart, clipEnd);
+      return text.slice(text.indexOf(" ") + 1);
     } else {
       return text;
     }
   } else {
     return text;
   }
-}
-
-function clipStart(text, pos) {
-  const clipStart = pos - 50;
-  if (clipStart < 0) {
-    // This will just return the start of the string
-    return {
-      position: 0,
-      prefix: "",
-    };
-  } else {
-    // We're clipping before the start of the string, walk backwards to the first space.
-    const spacePos = findSpace(text, pos, -1);
-    return {
-      position: spacePos.position,
-      prefix: "",
-    };
-  }
-}
-
-function clipEnd(text, pos) {
-  const clipEnd = pos + 200;
-  if (clipEnd > text.length) {
-    return {
-      position: text.length,
-      suffix: "",
-    };
-  } else {
-    const spacePos = findSpace(text, clipEnd, 1);
-    return {
-      position: spacePos.position,
-      suffix: spacePos.clipped ? "…" : "",
-    };
-  }
-}
-
-function findSpace(text, start, step) {
-  let stepPos = start;
-  while (stepPos > -1 && stepPos < text.length) {
-    const char = text[stepPos];
-    if (char === " " || char === "," || char === ":") {
-      return {
-        position: step === 1 ? stepPos : stepPos - step,
-        clipped: stepPos > 1 && stepPos < text.length,
-      };
-    }
-    stepPos = stepPos + step;
-  }
-
-  return {
-    position: stepPos - step,
-    clipped: false,
-  };
 }
 
 // removes highlighting as implemented by the mark tag
