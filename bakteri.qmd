@@ -10,6 +10,17 @@ source("./R/language.R")
 # Bacteria
 ```
 
+
+```{asis, echo = language == "TR"}
+## Helicobacter pylori
+```
+
+```{asis, echo = language == "EN"}
+## Helicobacter pylori
+```
+
+
+
 ```{asis, echo = language == "TR"}
 
 **Mide'de Helicobacter pylori (H. pylori) HE**

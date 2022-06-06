@@ -1,0 +1,9 @@
+---
+title: "List"
+listing: 
+  type: default
+  feed: true
+  fields: [image, date, title, subtitle, categories, description]
+  sort-ui: [title, date]
+  filter-ui: true
+---

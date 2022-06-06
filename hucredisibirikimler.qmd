@@ -1,13 +1,15 @@
+# Hücre Dışı Birikimler
+
 ```{r language ochronosis, echo=FALSE, include=TRUE}
 source("./R/language.R")
 ```
 
 ```{asis, echo = (language == "TR")}
-# Okronozis
+## Okronozis
 ```
 
 ```{asis, echo = (language == "EN")}
-# Ochronosis
+## Ochronosis
 ```
 
 ```{asis, echo = (language == "TR")}

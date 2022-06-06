@@ -1,25 +1,14 @@
-
-
 ```{r language venous-invasion, echo=FALSE, include=TRUE}
 source("./R/language.R")
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 # Venöz invazyon
 ```
 
-
-
-
 ```{asis, echo = (language == "EN")}
 # Venous invasion
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -34,9 +23,6 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-
-
-
 ```{asis, echo = (language == "EN")}
 
 **Venous invasion**
@@ -49,6 +35,3 @@ See Microscopy with viewer:
 <iframe src="https://pathologyatlas.github.io/venous-invasion/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
-
-
-

@@ -23,6 +23,8 @@ book:
      affiliation-url: "https://MemorialPath.github.io"
   description: |
     Tanıtım: Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları. Görerek Öğrenin.
+    Patoloji Atlas
+    Patoloji Notu
     Patoloji Ders Notları ve Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.
   abstract: |
     Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları.
@@ -180,8 +182,13 @@ book:
     - part: "---"
   appendices:
     - yonetim-gelistirme.md
-    - katki.qmd
-    - yorum.qmd
+    - text: "Katkıda bulunun"
+      href: katki.qmd
+    - text: "Yorum ekleyin"
+      href: yorum.qmd
+    - text: "Liste"
+      href: listing.qmd
+    - listing2.qmd
 
 # before_chapter_script: "./R/language.R"
 

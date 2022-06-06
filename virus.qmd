@@ -12,18 +12,17 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 
-## Molluscum contagiosum
 
 ```{r language molluscum-contagiosum, echo=FALSE, include=TRUE}
 source("./R/language.R")
 ```
 
 ```{asis, echo = (language == "TR")}
-# Molluscum contagiosum
+## Molluscum contagiosum
 ```
 
 ```{asis, echo = (language == "EN")}
-# Molluscum contagiosum
+## Molluscum contagiosum
 ```
 
 ```{asis, echo = (language == "TR")}

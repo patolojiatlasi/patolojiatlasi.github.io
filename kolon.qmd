@@ -1,13 +1,24 @@
+---
+title: "Kolon patolojisi"
+description: "Kalın barsak benign ve malign hastalıkları"
+author: "Serdar Balcı"
+date: last-modified
+categories: [kolon, tumor]
+---
+
+
+
+
 ```{r language ischemic-colitis, echo=FALSE, include=TRUE}
 source("./R/language.R")
 ```
 
 ```{asis, echo = (language == "TR")}
-# İskemik Kolit
+## İskemik Kolit
 ```
 
 ```{asis, echo = (language == "EN")}
-# Ischemic Colitis
+## Ischemic Colitis
 ```
 
 ```{asis, echo = (language == "TR")}
@@ -112,18 +123,11 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 
-
-
-
-
 ```{r language colon-intramucosal-lipoma, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
 
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -131,17 +135,11 @@ source("./R/language.R")
 
 ```
 
-
-
-
 ```{asis, echo = (language == "EN")}
 
 # Colon intramucosal lipoma
 
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -156,9 +154,6 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-
-
-
 ```{asis, echo = (language == "EN")}
 
 **Colon intramucosal lipoma**
@@ -171,14 +166,6 @@ See Microscopy with viewer:
 <iframe src="https://pathologyatlas.github.io/colon-intramucosal-lipoma/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
-
-
-
-
-
-
-
-
 
 ```{r language mucinous-adenocarcinoma-colon, echo=FALSE, include=TRUE}
 

@@ -1,19 +1,24 @@
-
-```{r language enterobius-vermicularis, echo=FALSE, include=TRUE}
+```{r, echo=FALSE, include=TRUE}
 source("./R/language.R")
 ```
 
-
 ```{asis, echo = (language == "TR")}
-# Enterobius vermicularis
+# Parazitler
 ```
-
 
 ```{asis, echo = (language == "EN")}
-# Enterobius vermicularis
+# Parasites
 ```
 
 
+
+```{asis, echo = (language == "TR")}
+## Enterobius vermicularis
+```
+
+```{asis, echo = (language == "EN")}
+## Enterobius vermicularis
+```
 
 ```{asis, echo = (language == "TR")}
 
@@ -28,7 +33,6 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-
 ```{asis, echo = (language == "EN")}
 
 **Enterobius vermicularis**
@@ -41,5 +45,3 @@ See Microscopy with viewer:
 <iframe src="https://pathologyatlas.github.io/enterobius-vermicularis/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
-
-
