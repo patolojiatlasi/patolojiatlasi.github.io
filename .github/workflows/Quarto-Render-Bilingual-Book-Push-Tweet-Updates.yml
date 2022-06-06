@@ -135,7 +135,7 @@ jobs:
         run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
       - uses: ethomson/send-tweet-action@v1
         with:
-          status: '#Pathology #atlas is updated ${{ steps.date.outputs.date }}. #digitalpathology #WSI #slides https://www.patolojiatlasi.com/'
+          status: '#Pathology #atlas is updated ${{ steps.date.outputs.date }}. #digitalpathology #WSI #slides https://www.patolojiatlasi.com/EN/'
           consumer-key: ${{ secrets.API_KEY }}
           consumer-secret: ${{ secrets.API_SECRET_KEY }}
           access-token: ${{ secrets.ACCESS_TOKEN }}
