@@ -44,7 +44,7 @@ jobs:
           renv::restore()
 
       - name: "Install Quarto and render"
-        uses: pommevilla/quarto-render@main
+        uses: quarto-dev/quarto-actions/install-quarto@v1
 
       - name: "Render Book From two different yml"
         shell: Rscript {0}
@@ -111,7 +111,7 @@ jobs:
 
 
   send-tweet:
-    if: "!contains(github.event.head_commit.message, 'WIP') && !contains(github.event.head_commit.message, 'merge')"
+    if: "!contains(github.event.head_commit.message, 'WIP') && !contains(github.event.head_commit.message, 'merge')   && !contains(github.event.head_commit.message, 'notweet')"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -128,7 +128,7 @@ jobs:
 
 
   send-tweet-EN:
-    if: "!contains(github.event.head_commit.message, 'WIP') && !contains(github.event.head_commit.message, 'merge')"
+    if: "!contains(github.event.head_commit.message, 'WIP') && !contains(github.event.head_commit.message, 'merge')  && !contains(github.event.head_commit.message, 'notweet')"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
