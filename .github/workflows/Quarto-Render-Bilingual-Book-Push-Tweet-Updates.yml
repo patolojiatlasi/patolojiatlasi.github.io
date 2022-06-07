@@ -111,6 +111,7 @@ jobs:
 
 
   send-tweet:
+    if: "!contains(github.event.head_commit.message, 'WIP') && !contains(github.event.head_commit.message, 'merge')"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -127,10 +128,11 @@ jobs:
 
 
   send-tweet-EN:
+    if: "!contains(github.event.head_commit.message, 'WIP') && !contains(github.event.head_commit.message, 'merge')"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: "Tweet"
+      - name: "Tweet-EN"
         id: date
         run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
       - uses: ethomson/send-tweet-action@v1
