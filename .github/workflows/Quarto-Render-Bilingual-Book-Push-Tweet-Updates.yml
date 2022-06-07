@@ -44,9 +44,9 @@ jobs:
           renv::restore()
 
       - name: "Install Quarto"
-        uses: pathologyatlas/quarto-render@main
+        # uses: pathologyatlas/quarto-render@main
         # uses: pommevilla/quarto-render@main
-        # uses: quarto-dev/quarto-actions/install-quarto@v1
+        uses: quarto-dev/quarto-actions/install-quarto@v1
 
       - name: "Render Book From EN"
         shell: Rscript {0}
