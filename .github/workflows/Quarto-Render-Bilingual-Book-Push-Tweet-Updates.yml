@@ -43,27 +43,38 @@ jobs:
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
           renv::restore()
 
-      - name: "Install Quarto and render"
-        uses: pommevilla/quarto-render@main
-        # uses: quarto-dev/quarto-actions/install-quarto@v1
+      - name: "Install Quarto"
+        # uses: pommevilla/quarto-render@main
+        uses: quarto-dev/quarto-actions/install-quarto@v1
 
-      - name: "Render Book From two different yml"
+      - name: "Render Book From EN"
         shell: Rscript {0}
         run: |
           # Prepare EN
           fs::file_copy(path = "./_quarto_EN.yml", new_path = "./_quarto.yml", overwrite = TRUE)
           fs::file_copy(path = "./R/languageEN.R", new_path = "./R/language.R",overwrite = TRUE)
           # render EN
-          quarto::quarto_render(".", as_job = FALSE)
+          # quarto::quarto_render(".", as_job = FALSE)
+
+      - name: "render EN"
+        run: |
+          quarto render
+
+      - name: "Render Book From TR"
+        shell: Rscript {0}
+        run: |
           if (file.exists("./EN/CNAME")){fs::file_delete(path = "./EN/CNAME")}
           # prepare TR
           fs::file_copy(path = "./_quarto_TR.yml", new_path = "./_quarto.yml", overwrite = TRUE)
           fs::file_copy(path = "./R/languageTR.R", new_path = "./R/language.R", overwrite = TRUE)
           # render TR
-          quarto::quarto_render(".", as_job = FALSE)
+          # quarto::quarto_render(".", as_job = FALSE)
           # fs::dir_copy(path = "./EN", new_path = "./docs/EN", overwrite = TRUE)
           fs::dir_copy(path = "./docs", new_path = "./public", overwrite = TRUE)
 
+      - name: "render TR"
+        run: |
+          quarto render
 
 #       - name: "Deploy to gh-pages"
 #         uses: peaceiris/actions-gh-pages@v3
