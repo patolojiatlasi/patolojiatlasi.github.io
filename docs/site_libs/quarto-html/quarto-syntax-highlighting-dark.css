@@ -36,10 +36,6 @@
   --quarto-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-:root {
-  --quarto-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
 code span.ot {
   color: #007020;
 }
@@ -157,3 +153,9 @@ code span.kw {
   color: #007020;
   font-weight: bold;
 }
+
+.prevent-inlining {
+  content: "</";
+}
+
+/*# sourceMappingURL=935a306eefa94366c21e1a970dddb765.css.map */

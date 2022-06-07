@@ -49,6 +49,9 @@ quarto::quarto_render(".", as_job = FALSE)
 
 fs::dir_copy(path = "./docs", new_path = "./public", overwrite = TRUE)
 
+
+cat("\Ud83E\UdD83")
+
 ##### ----
 
 
