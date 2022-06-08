@@ -186,9 +186,9 @@ book:
       href: katki.qmd
     - text: "Comments are welcome"
       href: yorum.qmd
-    # - text: "List"
-    #   href: listing.qmd
-    # - listing2.qmd
+    - text: "List"
+      href: listing.qmd
+    - listing2.qmd
 
 
 # before_chapter_script: "./R/language.R"
