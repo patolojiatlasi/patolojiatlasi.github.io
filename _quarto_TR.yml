@@ -7,6 +7,7 @@ lang: tr
 language:
   title-block-author-single: "Derleyen"
   title-block-author-plural: "Katkıda Bulunanlar"
+  title-block-affiliation-plural: "Kurum"
 
 book:
   engine: knitr
