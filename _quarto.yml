@@ -7,6 +7,7 @@ lang: tr
 language:
   title-block-author-single: "Derleyen"
   title-block-author-plural: "Katkıda Bulunanlar"
+  title-block-affiliation-plural: "Kurum"
 
 book:
   engine: knitr
@@ -94,6 +95,8 @@ book:
           href: hucreicibirikimler.qmd
         - text: "Hücre Dışı Birikimler"
           href: hucredisibirikimler.qmd
+        - text: "Hücre Hasarı"
+          href: hucrehasari.qmd
         - iskeminekroz.qmd
         - amiloid.qmd
         - tamir.qmd
