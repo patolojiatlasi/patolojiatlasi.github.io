@@ -97,9 +97,12 @@ book:
           href: hucredisibirikimler.qmd
         - text: "Hücre Hasarı"
           href: hucrehasari.qmd
-        - iskeminekroz.qmd
-        - amiloid.qmd
-        - tamir.qmd
+        - text: "Hemodinamik Bozukluklar"
+          href: iskeminekroz.qmd
+        - text: "Amiloid birikimi"
+          href: amiloid.qmd
+        - text: "Tamir Mekanizmaları"
+          href: tamir.qmd
     - part: "İnflamasyon"
       chapters:
         - text: "Kronik inflamasyon"
