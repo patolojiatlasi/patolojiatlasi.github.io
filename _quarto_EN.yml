@@ -155,6 +155,8 @@ book:
       chapters:
         - jineko.qmd
         - genital.qmd
+        - text: "Endometrium"
+          href: endometrium.qmd
     - part: "Uropathology"
       chapters:
         - uriner.qmd
