@@ -57,10 +57,10 @@ jobs:
 
       - name: Install R dependencies
         run: |
-            if (!requireNamespace("remotes", quietly = TRUE)) {install.packages("remotes")}
-            remotes::install_deps(dependencies = TRUE)
-            if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
-            renv::restore()
+            # if (!requireNamespace("remotes", quietly = TRUE)) {install.packages("remotes")}
+            # remotes::install_deps(dependencies = TRUE)
+            # if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+            # renv::restore()
             if (!requireNamespace("fs", quietly = TRUE)) install.packages("fs")
             if (!requireNamespace("quarto", quietly = TRUE)) install.packages("quarto")
             saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
