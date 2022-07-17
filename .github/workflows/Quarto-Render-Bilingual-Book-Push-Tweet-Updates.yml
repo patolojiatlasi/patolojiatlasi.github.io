@@ -18,8 +18,8 @@ jobs:
       - name: "Setup Quarto"
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: "Render Quarto"
-        uses: quarto-dev/quarto-actions/render@v2
+      # - name: "Render Quarto"
+      #   uses: quarto-dev/quarto-actions/render@v2
 
       # - uses: actions/setup-python@v2
       #
