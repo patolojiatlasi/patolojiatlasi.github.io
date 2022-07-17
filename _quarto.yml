@@ -10,6 +10,7 @@ lang: tr
 language:
   title-block-author-single: "Derleyen"
   title-block-author-plural: "Katkıda Bulunanlar"
+  title-block-affiliation-plural: "Kurum"
 
 book:
   engine: knitr
@@ -97,9 +98,14 @@ book:
           href: hucreicibirikimler.qmd
         - text: "Hücre Dışı Birikimler"
           href: hucredisibirikimler.qmd
-        - iskeminekroz.qmd
-        - amiloid.qmd
-        - tamir.qmd
+        - text: "Hücre Hasarı"
+          href: hucrehasari.qmd
+        - text: "Hemodinamik Bozukluklar"
+          href: iskeminekroz.qmd
+        - text: "Amiloid birikimi"
+          href: amiloid.qmd
+        - text: "Tamir Mekanizmaları"
+          href: tamir.qmd
     - part: "İnflamasyon"
       chapters:
         - text: "Kronik inflamasyon"
@@ -156,10 +162,15 @@ book:
       chapters:
         - jineko.qmd
         - genital.qmd
+        - text: "Endometrium"
+          href: endometrium.qmd
     - part: "Üriner Sistem Patolojisi"
       chapters:
         - uriner.qmd
         - bobrek.qmd
+    - part: "Endokrin Sistem Patolojisi"
+      chapters:
+        - hipofiz.qmd
     - part: meme.md
     - part: "Baş Boyun Patolojisi"
       chapters:

@@ -1,0 +1,45 @@
+
+
+```{r language reactive-atypia, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+
+```
+
+```{asis, echo = (language == "TR")}
+# Hücre Hasarı
+## Reaktif Atipi, ülsere kolon polibi
+
+```
+
+```{asis, echo = (language == "EN")}
+# Cellular Injury
+## Reactive atypia in an ulcerated colon polyp
+
+```
+
+```{asis, echo = (language == "TR")}
+
+**Reaktif Atipi, ülsere kolon polibi**
+
+
+[https://pathologyatlas.github.io/reactive-atypia/HE.html](https://pathologyatlas.github.io/reactive-atypia/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://pathologyatlas.github.io/reactive-atypia/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+```{asis, echo = (language == "EN")}
+
+**Reactive atypia in an ulcerated colon polyp**
+
+
+[https://pathologyatlas.github.io/reactive-atypia/HE.html](https://pathologyatlas.github.io/reactive-atypia/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://pathologyatlas.github.io/reactive-atypia/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```

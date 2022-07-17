@@ -92,6 +92,8 @@ book:
           href: hucreicibirikimler.qmd
         - text: "Extracellular Accumulations"
           href: hucredisibirikimler.qmd
+        - text: "Cellular Injury"
+          href: hucrehasari.qmd
         - text: "Hemodynamic Disorders"
           href: iskeminekroz.qmd
         - text: "Inflammation"
@@ -156,10 +158,15 @@ book:
       chapters:
         - jineko.qmd
         - genital.qmd
+        - text: "Endometrium"
+          href: endometrium.qmd
     - part: "Uropathology"
       chapters:
         - uriner.qmd
         - bobrek.qmd
+    - part: "Endocrine System"
+      chapters:
+        - hipofiz.qmd
     - part: meme.md
     - part: "Head and Neck"
       chapters:

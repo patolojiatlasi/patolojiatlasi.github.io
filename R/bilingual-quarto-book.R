@@ -44,6 +44,8 @@ fs::file_copy(path = "./R/languageTR.R",
 
 # render TR ----
 
+Sys.sleep(5)
+
 quarto::quarto_render(".", as_job = FALSE)
 
 
