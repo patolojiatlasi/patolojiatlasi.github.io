@@ -15,47 +15,93 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: "Setup Quarto"
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: "Render Quarto"
+        uses: quarto-dev/quarto-actions/render@v2
+
       # - uses: actions/setup-python@v2
       #
       # - name: "Install Python deps"
       #   run: |
       #     pip install -r requirements.txt
 
-      # - uses: r-lib/actions/setup-r@v1
-      #
+      - uses: r-lib/actions/setup-r@v2
+
+      - uses: r-lib/actions/setup-r-dependencies@v2
+
+      - uses: r-lib/actions/setup-renv@v2
+
       # - name: "Install curl for Bioconductor"
       #   run: |
       #     sudo apt -y install libcurl4-openssl-dev
 
-      - name: "Install R Packages: Cache packages"
-        uses: actions/cache@v1
+
+      - name: Restore R package cache
+        uses: actions/cache@v2
         with:
-          path: ${{ env.RENV_PATHS_ROOT }}
-          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-renv-
+          path: ${{ env.R_LIBS_USER }}
+          key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
+          restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
 
-      - name: "Install R Packages: Restore packages"
-        shell: Rscript {0}
+
+      # - name: "Install R Packages: Cache packages"
+      #   uses: actions/cache@v2
+      #   with:
+      #     path: ${{ env.RENV_PATHS_ROOT }}
+      #     key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-renv-
+
+
+      - name: Install R dependencies
         run: |
-          if (!requireNamespace("quarto", quietly = TRUE)) {install.packages("quarto")}
-          if (!requireNamespace("fs", quietly = TRUE)) {install.packages("fs")}
-          if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
-          renv::restore()
+            if (!requireNamespace("remotes", quietly = TRUE)) {install.packages("remotes")}
+            remotes::install_deps(dependencies = TRUE)
+            if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+            renv::restore()
+            if (!requireNamespace("fs", quietly = TRUE)) install.packages("fs")
+            if (!requireNamespace("quarto", quietly = TRUE)) install.packages("quarto")
+            saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
+            writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
+        shell: Rscript {0}
 
-      - name: "Install Quarto"
-        # uses: pathologyatlas/quarto-render@main
-        # uses: pommevilla/quarto-render@main
-        uses: quarto-dev/quarto-actions/install-quarto@v1
+
+
+
+      # - name: "Install R Packages: Restore packages"
+      #   shell: Rscript {0}
+      #   run: |
+      #     if (!requireNamespace("quarto", quietly = TRUE)) {install.packages("quarto")}
+      #     if (!requireNamespace("fs", quietly = TRUE)) {install.packages("fs")}
+      #     if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+      #     renv::restore()
+
+
+      # - name: "Setup Quarto"
+      #   uses: quarto-dev/quarto-actions/setup@v2
+
+      # - name: "Render Quarto"
+      #   uses: quarto-dev/quarto-actions/render@v2
+
+
+      # - name: "Install Quarto"
+      #   # uses: pathologyatlas/quarto-render@main
+      #   # uses: pommevilla/quarto-render@main
+      #   uses: quarto-dev/quarto-actions/install-quarto@v1
 
       - name: "Render Book From EN"
         shell: Rscript {0}
         run: |
+          if (dir.exists(paths = "./_freeze")) {fs::dir_delete(path = "./_freeze")}
+          fs::dir_copy(path = "./_freeze_EN", new_path = "./_freeze", overwrite = TRUE)
           # Prepare EN
           fs::file_copy(path = "./_quarto_EN.yml", new_path = "./_quarto.yml", overwrite = TRUE)
           fs::file_copy(path = "./R/languageEN.R", new_path = "./R/language.R",overwrite = TRUE)
           # render EN
           quarto::quarto_render(".", as_job = FALSE)
+          fs::dir_copy(path = "./_freeze", new_path = "./_freeze_EN", overwrite = TRUE)
 
 #      - name: "render EN"
 #        run: |
@@ -66,10 +112,14 @@ jobs:
         run: |
           if (file.exists("./EN/CNAME")){fs::file_delete(path = "./EN/CNAME")}
           # prepare TR
+          if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
+          fs::dir_copy(path = "./_freeze_TR", new_path = "./_freeze", overwrite = TRUE)
           fs::file_copy(path = "./_quarto_TR.yml", new_path = "./_quarto.yml", overwrite = TRUE)
           fs::file_copy(path = "./R/languageTR.R", new_path = "./R/language.R", overwrite = TRUE)
           # render TR
           quarto::quarto_render(".", as_job = FALSE)
+          fs::dir_copy(path = "./_freeze", new_path = "./_freeze_TR", overwrite = TRUE)
+          if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
           # fs::dir_copy(path = "./EN", new_path = "./docs/EN", overwrite = TRUE)
           fs::dir_copy(path = "./docs", new_path = "./public", overwrite = TRUE)
 
