@@ -21,6 +21,15 @@ fs::file_copy(path = "./R/languageEN.R",
               new_path = "./R/language.R",
               overwrite = TRUE)
 
+if (dir.exists(paths = "./_freeze")) {
+  fs::dir_delete(path = "./_freeze")
+}
+
+fs::dir_copy(path = "./_freeze_EN",
+             new_path = "./_freeze",
+             overwrite = TRUE)
+
+
 # render EN ----
 
 quarto::quarto_render(".", as_job = FALSE)
@@ -29,6 +38,11 @@ quarto::quarto_render(".", as_job = FALSE)
 if (file.exists("./EN/CNAME")){
   fs::file_delete(path = "./EN/CNAME")
 }
+
+
+fs::dir_copy(path = "./_freeze",
+             new_path = "./_freeze_EN",
+             overwrite = TRUE)
 
 
 # prepare TR ----
@@ -42,12 +56,33 @@ fs::file_copy(path = "./R/languageTR.R",
               new_path = "./R/language.R",
               overwrite = TRUE)
 
+if (dir.exists(paths = "./_freeze")) {
+  fs::dir_delete(path = "./_freeze")
+}
+
+fs::dir_copy(path = "./_freeze_TR",
+             new_path = "./_freeze",
+             overwrite = TRUE)
+
+
 # render TR ----
 
-Sys.sleep(5)
+Sys.sleep(2)
 
 quarto::quarto_render(".", as_job = FALSE)
 
+
+Sys.sleep(2)
+
+fs::dir_copy(path = "./_freeze",
+             new_path = "./_freeze_TR",
+             overwrite = TRUE)
+
+Sys.sleep(2)
+
+if (dir.exists(paths = "./_freeze")) {
+  fs::dir_delete(path = "./_freeze")
+}
 
 fs::dir_copy(path = "./docs", new_path = "./public", overwrite = TRUE)
 

@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Pathology Atlas",
     "section": "",
-    "text": "For English click here.\nGBDAtlas\nSosyal medyadan derlenen görüntülerden oluşan patoloji notları için tıklayınız.\nAtıf için\n\n\n\n\n\n\n\n\n\n\nOpen Science Framework DOI: 10.17605/OSF.IO/6W5K8"
+    "text": "Türkçe Atlas için tıklayın\nFor social media based pathology notes click here\nFor Citation\n\n\n\n\n\n\n\nOpen Science Framework DOI: 10.17605/OSF.IO/6W5K8"
   },
   {
     "objectID": "giris.html",
     "href": "giris.html",
     "title": "Giriş",
     "section": "",
-    "text": "Katkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin.\n\n\n\nSon güncelleme zamanı: 2022-07-17 11:42:02\nSosyal medyadan derlenen görüntülerden oluşan patoloji notları için tıklayınız."
+    "text": "Katkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin.\n\n\n\nSon güncelleme zamanı: 2022-07-17 21:25:00\nSosyal medyadan derlenen görüntülerden oluşan patoloji notları için tıklayınız."
   },
   {
     "objectID": "yazarlar.html",
@@ -53,14 +53,14 @@
     "href": "hucreicibirikimler.html#melanosis-coli",
     "title": "1  Hücre İçi Birikimler",
     "section": "1.4 Melanosis Coli",
-    "text": "1.4 Melanosis Coli\n\nMelanozis Koli\nhttps://pathologyatlas.github.io/melanosiscoli/HE.html\nMikroskopik görüntüleri inceleyin:\n\n\n\n\n\n\n\nMelanozis Koli PAS\nhttps://pathologyatlas.github.io/melanosiscoli/PAS.html\nMikroskopik görüntüleri inceleyin:"
+    "text": "1.4 Melanosis Coli\n\n\n\n\nMelanosis Coli\nhttps://pathologyatlas.github.io/melanosiscoli/HE.html\nSee Microscopy with viewer:\n\n\n\n\n\n\n\nMelanosis Coli PAS\nhttps://pathologyatlas.github.io/melanosiscoli/PAS.html\nSee Microscopy with viewer:"
   },
   {
-    "objectID": "hucredisibirikimler.html#okronozis",
-    "href": "hucredisibirikimler.html#okronozis",
+    "objectID": "hucredisibirikimler.html#ochronosis",
+    "href": "hucredisibirikimler.html#ochronosis",
     "title": "2  Hücre Dışı Birikimler",
-    "section": "2.1 Okronozis",
-    "text": "2.1 Okronozis"
+    "section": "2.1 Ochronosis",
+    "text": "2.1 Ochronosis"
   },
   {
     "objectID": "hucrehasari.html#reactive-atypia-in-an-ulcerated-colon-polyp",
@@ -112,18 +112,18 @@
     "text": "7.2 Keloid - Skar\nKeloid Skar oluşumu\nhttps://pathologyatlas.github.io/keloid-scar/HE.html\nMikroskopik görüntüleri inceleyin:"
   },
   {
-    "objectID": "kronikinflamasyon.html#hidronefroz-ve-kronik-pyelonefrit",
-    "href": "kronikinflamasyon.html#hidronefroz-ve-kronik-pyelonefrit",
-    "title": "8  Kronik İnflamasyon",
-    "section": "8.1 Hidronefroz ve Kronik Pyelonefrit",
-    "text": "8.1 Hidronefroz ve Kronik Pyelonefrit\nHidronefroz ve Kronik Pyelonefrit\nhttps://pathologyatlas.github.io/chronicpyelonephritis/HE1.html\nMikroskopik görüntüleri inceleyin:\n\n\nhttps://pathologyatlas.github.io/chronicpyelonephritis/HE2.html\nMikroskopik görüntüleri inceleyin:"
+    "objectID": "kronikinflamasyon.html#hydronephrosis-and-chronic-pyelonephritis",
+    "href": "kronikinflamasyon.html#hydronephrosis-and-chronic-pyelonephritis",
+    "title": "8  Chronic Inflammation",
+    "section": "8.1 Hydronephrosis and Chronic Pyelonephritis",
+    "text": "8.1 Hydronephrosis and Chronic Pyelonephritis\nHydronephrosis and Chronic Pyelonephritis\nhttps://pathologyatlas.github.io/chronicpyelonephritis/HE1.html\nSee Microscopy with viewer:\n\n\nhttps://pathologyatlas.github.io/chronicpyelonephritis/HE2.html\nSee Microscopy with viewer:"
   },
   {
-    "objectID": "granulom.html#nekrotizan-granülamatöz-inflamasyon",
-    "href": "granulom.html#nekrotizan-granülamatöz-inflamasyon",
-    "title": "9  Granülamatöz İnflamasyon",
-    "section": "9.1 Nekrotizan Granülamatöz İnflamasyon",
-    "text": "9.1 Nekrotizan Granülamatöz İnflamasyon"
+    "objectID": "granulom.html#necrotising-granulomatous-inflammation",
+    "href": "granulom.html#necrotising-granulomatous-inflammation",
+    "title": "9  Granulomatous Inflammation",
+    "section": "9.1 Necrotising Granulomatous Inflammation",
+    "text": "9.1 Necrotising Granulomatous Inflammation"
   },
   {
     "objectID": "virus.html",
@@ -142,7 +142,7 @@
   {
     "objectID": "bakteri.html#helicobacter-pylori",
     "href": "bakteri.html#helicobacter-pylori",
-    "title": "11  Bakteriler",
+    "title": "11  Bacteria",
     "section": "11.1 Helicobacter pylori",
     "text": "11.1 Helicobacter pylori"
   },
@@ -154,16 +154,16 @@
     "text": "print(\"repeating content\")\n\n[1] \"repeating content\"\n\n\nhttps://pathologyatlas.github.io/candidaalbicans/cervicovaginalsmear/viewer_z0.html\nMikroskopik görüntüleri inceleyin:"
   },
   {
-    "objectID": "mantar.html#beyin-mukormikozis",
-    "href": "mantar.html#beyin-mukormikozis",
+    "objectID": "mantar.html#brain-mucormycosis",
+    "href": "mantar.html#brain-mucormycosis",
     "title": "12  Mantarlar",
-    "section": "12.2 Beyin mukormikozis",
-    "text": "12.2 Beyin mukormikozis"
+    "section": "12.2 brain mucormycosis",
+    "text": "12.2 brain mucormycosis"
   },
   {
     "objectID": "parazit.html#enterobius-vermicularis",
     "href": "parazit.html#enterobius-vermicularis",
-    "title": "13  Parazitler",
+    "title": "13  Parasites",
     "section": "13.1 Enterobius vermicularis",
     "text": "13.1 Enterobius vermicularis"
   },
@@ -196,11 +196,11 @@
     "text": "https://pathologyatlas.github.io/intrapancreaticspleen/HE.html\nMikroskopik görüntüleri inceleyin:"
   },
   {
-    "objectID": "heterotopi.html#paratubal-adneksiyal-bölgede-ektopik-adrenal-dokusu",
-    "href": "heterotopi.html#paratubal-adneksiyal-bölgede-ektopik-adrenal-dokusu",
+    "objectID": "heterotopi.html#ectopic-adrenal-tissue-in-paratubal-adnexal-region",
+    "href": "heterotopi.html#ectopic-adrenal-tissue-in-paratubal-adnexal-region",
     "title": "16  Heterotopi Ektopi",
-    "section": "16.2 Paratubal adneksiyal bölgede ektopik adrenal dokusu",
-    "text": "16.2 Paratubal adneksiyal bölgede ektopik adrenal dokusu"
+    "section": "16.2 Ectopic adrenal tissue in paratubal adnexal region",
+    "text": "16.2 Ectopic adrenal tissue in paratubal adnexal region"
   },
   {
     "objectID": "metastaz.html",
@@ -226,37 +226,37 @@
   {
     "objectID": "venozinvazyon.html",
     "href": "venozinvazyon.html",
-    "title": "18  Venöz invazyon",
+    "title": "18  Venous invasion",
     "section": "",
-    "text": "Venöz invazyon\nhttps://pathologyatlas.github.io/venous-invasion/HE.html\nMikroskopik görüntüleri inceleyin:"
+    "text": "Venous invasion\nhttps://pathologyatlas.github.io/venous-invasion/HE.html\nSee Microscopy with viewer:"
   },
   {
     "objectID": "ekstramuralvenozinvazyon.html",
     "href": "ekstramuralvenozinvazyon.html",
-    "title": "19  Adenokarsinomda Ekstramural Venöz İnvazyon",
+    "title": "19  Extramural Venous Invasion in Adenocarcinoma",
     "section": "",
-    "text": "Adenokarsinomda Ekstramural Venöz İnvazyon\nhttps://pathologyatlas.github.io/extramuralvenousinvasion/HE.html\nMikroskopik görüntüleri inceleyin:"
+    "text": "Extramural Venous Invasion in Adenocarcinoma\nhttps://pathologyatlas.github.io/extramuralvenousinvasion/HE.html\nSee Microscopy with viewer:"
   },
   {
     "objectID": "ozofagus.html",
     "href": "ozofagus.html",
-    "title": "21  Özefagusta Granüler Hücreli Tümör",
+    "title": "21  Granular Cell Tumor in Esophagus",
     "section": "",
-    "text": "Özefagusta Granüler Hücreli Tümör\nhttps://pathologyatlas.github.io/granular-cell-tumor/HE.html\nMikroskopik görüntüleri inceleyin:"
+    "text": "Granular Cell Tumor in Esophagus\nhttps://pathologyatlas.github.io/granular-cell-tumor/HE.html\nSee Microscopy with viewer:"
   },
   {
     "objectID": "mide.html",
     "href": "mide.html",
     "title": "22  Gastritis Cystica Profunda",
     "section": "",
-    "text": "Gastritis Cystica Profunda\nhttps://pathologyatlas.github.io/gastritis-cystica-profunda/HE.html\nMikroskopik görüntüleri inceleyin:"
+    "text": "Gastritis Cystica Profunda\nhttps://pathologyatlas.github.io/gastritis-cystica-profunda/HE.html\nSee Microscopy with viewer:"
   },
   {
-    "objectID": "kolon.html#iskemik-kolit",
-    "href": "kolon.html#iskemik-kolit",
+    "objectID": "kolon.html#ischemic-colitis",
+    "href": "kolon.html#ischemic-colitis",
     "title": "23  Kolon patolojisi",
-    "section": "23.1 İskemik Kolit",
-    "text": "23.1 İskemik Kolit"
+    "section": "23.1 Ischemic Colitis",
+    "text": "23.1 Ischemic Colitis"
   },
   {
     "objectID": "kolon.html#benign-tümörler",
@@ -270,28 +270,28 @@
     "href": "karaciger.html",
     "title": "24  Karaciğer Tümörleri",
     "section": "",
-    "text": "https://pathologyatlas.github.io/hepatocellularcarcinoma/HCC/viewer_z0.html\nMikroskopik görüntüleri inceleyin:\n::: {.cell}\nHepatoselüler karsinom, fibrolamellar\nhttps://pathologyatlas.github.io/fibrolamellar-hepatocellular-carcinoma/HE1.html\nMikroskopik görüntüleri inceleyin:\nhttps://pathologyatlas.github.io/fibrolamellar-hepatocellular-carcinoma/HE2.html\nMikroskopik görüntüleri inceleyin:\nhttps://pathologyatlas.github.io/fibrolamellar-hepatocellular-carcinoma/HE3.html\nMikroskopik görüntüleri inceleyin:\nhttps://pathologyatlas.github.io/fibrolamellar-hepatocellular-carcinoma/HE4.html\nMikroskopik görüntüleri inceleyin:\n:::"
+    "text": "https://pathologyatlas.github.io/hepatocellularcarcinoma/HCC/viewer_z0.html\nMikroskopik görüntüleri inceleyin:\n::: {.cell}\nHepatocellular carcinoma, fibrolamellar\nhttps://pathologyatlas.github.io/fibrolamellar-hepatocellular-carcinoma/HE1.html\nSee Microscopy with viewer:\nhttps://pathologyatlas.github.io/fibrolamellar-hepatocellular-carcinoma/HE2.html\nSee Microscopy with viewer:\nhttps://pathologyatlas.github.io/fibrolamellar-hepatocellular-carcinoma/HE3.html\nSee Microscopy with viewer:\nhttps://pathologyatlas.github.io/fibrolamellar-hepatocellular-carcinoma/HE4.html\nSee Microscopy with viewer:\n:::"
   },
   {
-    "objectID": "karaciger.html#hepatoselüler-karsinom-fibrolamellar",
-    "href": "karaciger.html#hepatoselüler-karsinom-fibrolamellar",
+    "objectID": "karaciger.html#hepatocellular-carcinoma-fibrolamellar",
+    "href": "karaciger.html#hepatocellular-carcinoma-fibrolamellar",
     "title": "24  Karaciğer Tümörleri",
-    "section": "24.2 Hepatoselüler karsinom, fibrolamellar",
-    "text": "24.2 Hepatoselüler karsinom, fibrolamellar"
+    "section": "24.2 Hepatocellular carcinoma, fibrolamellar",
+    "text": "24.2 Hepatocellular carcinoma, fibrolamellar"
   },
   {
     "objectID": "safrakesesi.html",
     "href": "safrakesesi.html",
-    "title": "25  Safra Kesesi Adenomyom",
+    "title": "25  Gallbladder Adenomyoma",
     "section": "",
-    "text": "Safra Kesesi Adenomyom\nhttps://pathologyatlas.github.io/gallbladder-adenomyoma/HE.html\nMikroskopik görüntüleri inceleyin:"
+    "text": "Gallbladder Adenomyoma\nhttps://pathologyatlas.github.io/gallbladder-adenomyoma/HE.html\nSee Microscopy with viewer:"
   },
   {
     "objectID": "mezotel.html",
     "href": "mezotel.html",
-    "title": "26  Abdominal mezotelyoma",
+    "title": "26  Abdominal mesothelioma",
     "section": "",
-    "text": "Abdominal mezotelyoma\nhttps://pathologyatlas.github.io/abdominal-mesothelioma/HE.html\nMikroskopik görüntüleri inceleyin:"
+    "text": "Abdominal mesothelioma\nhttps://pathologyatlas.github.io/abdominal-mesothelioma/HE.html\nSee Microscopy with viewer:"
   },
   {
     "objectID": "jineko.html",
@@ -338,16 +338,16 @@
   {
     "objectID": "gliom.html",
     "href": "gliom.html",
-    "title": "34  Yüksek Dereceli Gliom Yayma Preparat",
+    "title": "34  High Grade Glioma Squash Slide",
     "section": "",
-    "text": "Yüksek Dereceli Gliom Yayma Preparat\nhttps://pathologyatlas.github.io/high-grade-glioma-squash/HE.html\nMikroskopik görüntüleri inceleyin:"
+    "text": "High Grade Glioma Squash Slide\nhttps://pathologyatlas.github.io/high-grade-glioma-squash/HE.html\nSee Microscopy with viewer:"
   },
   {
     "objectID": "meningiom.html",
     "href": "meningiom.html",
-    "title": "35  Beyin İnvazyonu Gösteren Meningiom",
+    "title": "35  Brain Invasive Meningioma",
     "section": "",
-    "text": "Beyin İnvazyonu Gösteren Meningiom\nhttps://pathologyatlas.github.io/brain-invasive-meningioma/HE.html\nMikroskopik görüntüleri inceleyin:\n\n\n\n\n\n\n\n\n\n\n36 Meningiom Kemik İnfiltrasyonu\n\n\n\n\n\nMeningiom Kemik İnfiltrasyonu\nhttps://pathologyatlas.github.io/meningioma-bone-infiltration/HE.html\nMikroskopik görüntüleri inceleyin:"
+    "text": "Brain Invasive Meningioma\nhttps://pathologyatlas.github.io/brain-invasive-meningioma/HE.html\nSee Microscopy with viewer:\n\n\n\n\n\n\n\n\n\n\n36 Meningioma Bone Infiltration\n\n\n\n\n\nMeningioma Bone Infiltration\nhttps://pathologyatlas.github.io/meningioma-bone-infiltration/HE.html\nSee Microscopy with viewer:"
   },
   {
     "objectID": "kemik.html",
@@ -359,9 +359,9 @@
   {
     "objectID": "adipoz.html",
     "href": "adipoz.html",
-    "title": "37  Miksoid Liposarkom",
+    "title": "37  Myxoid Liposarcoma",
     "section": "",
-    "text": "Miksoid Liposarkom\nhttps://pathologyatlas.github.io/myxoidliposarcoma/HE.html\nMikroskopik görüntüleri inceleyin:"
+    "text": "Myxoid Liposarcoma\nhttps://pathologyatlas.github.io/myxoidliposarcoma/HE.html\nSee Microscopy with viewer:"
   },
   {
     "objectID": "plasenta.html#koryoamnionit",
