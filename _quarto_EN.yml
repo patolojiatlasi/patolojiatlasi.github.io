@@ -4,6 +4,9 @@ project:
 
 lang: en
 
+execute:
+  freeze: auto
+
 book:
   engine: knitr
   title: "Pathology Atlas"

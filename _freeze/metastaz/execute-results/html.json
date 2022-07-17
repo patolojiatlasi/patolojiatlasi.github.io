@@ -1,0 +1,14 @@
+{
+  "hash": "7fa66c3aef60b421308b18808086edb1",
+  "result": {
+    "markdown": "::: {.cell}\n\n```{.r .cell-code}\nprint(\"repeating content\")\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] \"repeating content\"\n```\n:::\n:::\n\n\n\n\n# Metastaz\n\n## Karaciğerde Sarkom Metastazı\n\n-   <https://pathologyatlas.github.io/metastaticsarcoma/HE.html>\n\n-   Mikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://pathologyatlas.github.io/metastaticsarcoma/HE.html\" style=\"height:400px;width:100%;\" data-external=\"1\">\n\n</iframe>\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
