@@ -23,4 +23,6 @@ Imports:
     magrittr,
     renv,
     jsonlite,
-    rmarkdown
+    rmarkdown,
+    quarto,
+    fs

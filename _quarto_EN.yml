@@ -1,6 +1,8 @@
 project:
   type: book
   output-dir: EN
+  resources:
+    - "CITATION.cff"
 
 lang: en
 
