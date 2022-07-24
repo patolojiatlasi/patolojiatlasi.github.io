@@ -1,6 +1,9 @@
 project:
   type: book
   output-dir: docs
+  resources:
+    - "CITATION.cff"
+
 
 execute:
   freeze: auto
