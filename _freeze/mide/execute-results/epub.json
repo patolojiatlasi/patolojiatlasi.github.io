@@ -9,7 +9,11 @@
       "rmarkdown/pagebreak.lua"
     ],
     "includes": {},
-    "engineDependencies": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
     "preserve": {},
     "postProcess": true
   }
