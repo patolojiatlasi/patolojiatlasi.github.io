@@ -1,24 +1,22 @@
-
 ```{r language gastritis-cystica-profunda, echo=FALSE, include=TRUE}
 source("./R/language.R")
 ```
 
-
-
-
 ```{asis, echo = (language == "TR")}
-# Gastritis Cystica Profunda
+# Mide Patolojisi
 ```
-
-
-
 
 ```{asis, echo = (language == "EN")}
-# Gastritis Cystica Profunda
+# Pathology of Stomach
 ```
 
+```{asis, echo = (language == "TR")}
+## Gastritis Cystica Profunda
+```
 
-
+```{asis, echo = (language == "EN")}
+## Gastritis Cystica Profunda
+```
 
 ```{asis, echo = (language == "TR")}
 
@@ -33,9 +31,6 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-
-
-
 ```{asis, echo = (language == "EN")}
 
 **Gastritis Cystica Profunda**
@@ -48,6 +43,3 @@ See Microscopy with viewer:
 <iframe src="https://pathologyatlas.github.io/gastritis-cystica-profunda/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
-
-
-

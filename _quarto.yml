@@ -4,11 +4,11 @@ project:
   resources:
     - "CITATION.cff"
 
+lang: tr
 
 execute:
   freeze: auto
 
-lang: tr
 
 language:
   title-block-author-single: "Derleyen"
@@ -148,6 +148,8 @@ book:
           href: ozofagus.qmd
         - text: "Mide Patolojisi"
           href: mide.qmd
+        - text: "Duodenum Patolojisi"
+          href: duodenum.qmd
         - text: "Kolon Patolojisi"
           href: kolon.qmd
     - part: "Karaciğer Patolojisi"
