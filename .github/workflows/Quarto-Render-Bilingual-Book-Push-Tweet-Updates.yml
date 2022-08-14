@@ -123,7 +123,7 @@ jobs:
           # render TR
           quarto::quarto_render(".", as_job = FALSE)
           fs::dir_copy(path = "./_freeze", new_path = "./_freeze_TR", overwrite = TRUE)
-          if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
+          # if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
           # fs::dir_copy(path = "./EN", new_path = "./docs/EN", overwrite = TRUE)
           fs::dir_copy(path = "./docs", new_path = "./public", overwrite = TRUE)
 
