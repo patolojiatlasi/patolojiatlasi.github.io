@@ -64,3 +64,9 @@ See Microscopy with viewer:
 ```
 
 
+knitr::include_url
+
+```{r}
+knitr::include_url(url = "https://pathologyatlas.github.io/ectopic-adrenal/HE.html")
+```
+

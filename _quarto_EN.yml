@@ -21,7 +21,7 @@ book:
      orcid: "0000-0002-7852-3851"
    - name: Pathologists, Assistants and Technicians
      affiliation: "Memorial Pathology"
-     affiliation-url: "yazarlar.html"
+     affiliation-url: "https://patoloji.memorial.com.tr/"
   description: |
     Pathology Atlas and Notes for Medical Students: See and Learn
     Atlas of Pathology
@@ -133,8 +133,6 @@ book:
           href: venozinvazyon.qmd
         - text: "Extramural Venous Invaasion"
           href: ekstramuralvenozinvazyon.qmd
-        - text: "Tumor Spread"
-          href: tumoryayilim.qmd
 # #    - part: "Hematopathology"
 # #      chapters:
 # #        - hematopatoloji.qmd
@@ -145,8 +143,6 @@ book:
           href: ozofagus.qmd
         - text: "Stomach"
           href: mide.qmd
-        - text: "Duodenum"
-          href: duodenum.qmd
         - text: "Colon"
           href: kolon.qmd
     - part: "Liver"

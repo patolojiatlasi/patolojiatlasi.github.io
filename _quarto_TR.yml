@@ -4,11 +4,11 @@ project:
   resources:
     - "CITATION.cff"
 
-lang: tr
 
 execute:
   freeze: auto
 
+lang: tr
 
 language:
   title-block-author-single: "Derleyen"
@@ -27,7 +27,7 @@ book:
      orcid: "0000-0002-7852-3851"
    - name: Memorial Patoloji Hekim ve Teknikerleri
      affiliation: "Memorial Patoloji"
-     affiliation-url: "yazarlar.html"
+     affiliation-url: "https://patoloji.memorial.com.tr/"
   description: |
     Tanıtım: Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları. Görerek Öğrenin.
     Patoloji Atlas
@@ -138,8 +138,6 @@ book:
           href: venozinvazyon.qmd
         - text: "Ekstramural Venöz İnvazyon"
           href: ekstramuralvenozinvazyon.qmd
-        - text: "Tümör Yayılımı"
-          href: tumoryayilim.qmd
 # #    - part: "Hematopatoloji"
 # #      chapters:
 # #        - hematopatoloji.qmd
@@ -150,8 +148,6 @@ book:
           href: ozofagus.qmd
         - text: "Mide Patolojisi"
           href: mide.qmd
-        - text: "Duodenum Patolojisi"
-          href: duodenum.qmd
         - text: "Kolon Patolojisi"
           href: kolon.qmd
     - part: "Karaciğer Patolojisi"

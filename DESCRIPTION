@@ -25,4 +25,6 @@ Imports:
     jsonlite,
     rmarkdown,
     quarto,
-    fs
+    fs,
+    knitr,
+    tinytex

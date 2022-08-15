@@ -193,7 +193,7 @@
     "href": "heterotopi.html",
     "title": "16  Heterotopi Ektopi",
     "section": "",
-    "text": "https://pathologyatlas.github.io/intrapancreaticspleen/HE.html\nMikroskopik görüntüleri inceleyin:"
+    "text": "https://pathologyatlas.github.io/intrapancreaticspleen/HE.html\nMikroskopik görüntüleri inceleyin:\nknitr::include_url"
   },
   {
     "objectID": "heterotopi.html#ectopic-adrenal-tissue-in-paratubal-adnexal-region",
@@ -238,121 +238,86 @@
     "text": "Extramural Venous Invasion in Adenocarcinoma\nhttps://pathologyatlas.github.io/extramuralvenousinvasion/HE.html\nSee Microscopy with viewer:"
   },
   {
-    "objectID": "tumoryayilim.html#colon-tumor-spread-to-cervix",
-    "href": "tumoryayilim.html#colon-tumor-spread-to-cervix",
-    "title": "20  Tumor Spread to Other Organs",
-    "section": "20.1 Colon tumor spread to cervix",
-    "text": "20.1 Colon tumor spread to cervix"
-  },
-  {
-    "objectID": "tumoryayilim.html#colon-tumor-spread-to-endometrium",
-    "href": "tumoryayilim.html#colon-tumor-spread-to-endometrium",
-    "title": "20  Tumor Spread to Other Organs",
-    "section": "20.2 Colon tumor spread to endometrium",
-    "text": "20.2 Colon tumor spread to endometrium"
-  },
-  {
-    "objectID": "tumoryayilim.html#colon-tumor-spread-to-over",
-    "href": "tumoryayilim.html#colon-tumor-spread-to-over",
-    "title": "20  Tumor Spread to Other Organs",
-    "section": "20.3 Colon tumor spread to over",
-    "text": "20.3 Colon tumor spread to over"
-  },
-  {
-    "objectID": "tumoryayilim.html#colon-tumor-spread-to-small-intestine",
-    "href": "tumoryayilim.html#colon-tumor-spread-to-small-intestine",
-    "title": "20  Tumor Spread to Other Organs",
-    "section": "20.4 Colon tumor spread to small intestine",
-    "text": "20.4 Colon tumor spread to small intestine"
-  },
-  {
     "objectID": "ozofagus.html",
     "href": "ozofagus.html",
-    "title": "22  Granular Cell Tumor in Esophagus",
+    "title": "21  Granular Cell Tumor in Esophagus",
     "section": "",
     "text": "Granular Cell Tumor in Esophagus\nhttps://pathologyatlas.github.io/granular-cell-tumor/HE.html\nSee Microscopy with viewer:"
   },
   {
     "objectID": "mide.html#gastritis-cystica-profunda",
     "href": "mide.html#gastritis-cystica-profunda",
-    "title": "23  Pathology of Stomach",
-    "section": "23.1 Gastritis Cystica Profunda",
-    "text": "23.1 Gastritis Cystica Profunda"
-  },
-  {
-    "objectID": "duodenum.html#celiac-disease",
-    "href": "duodenum.html#celiac-disease",
-    "title": "24  Duodenum",
-    "section": "24.1 Celiac Disease",
-    "text": "24.1 Celiac Disease"
+    "title": "22  Pathology of Stomach",
+    "section": "22.1 Gastritis Cystica Profunda",
+    "text": "22.1 Gastritis Cystica Profunda"
   },
   {
     "objectID": "kolon.html#ischemic-colitis",
     "href": "kolon.html#ischemic-colitis",
-    "title": "25  Kolon patolojisi",
-    "section": "25.1 Ischemic Colitis",
-    "text": "25.1 Ischemic Colitis"
+    "title": "23  Kolon patolojisi",
+    "section": "23.1 Ischemic Colitis",
+    "text": "23.1 Ischemic Colitis"
   },
   {
     "objectID": "kolon.html#benign-tümörler",
     "href": "kolon.html#benign-tümörler",
-    "title": "25  Kolon patolojisi",
-    "section": "25.2 Benign Tümörler",
-    "text": "25.2 Benign Tümörler\n\n25.2.1 Tübüler Adenom\n\nSesil Polip, Flat (Düz) Tübüler Adenom\nhttps://pathologyatlas.github.io/tubularadenoma-flat/HE.html\nMikroskopik görüntüleri inceleyin:\n\n\nhttps://pathologyatlas.github.io/tubularadenoma-flat/HE2.html\nMikroskopik görüntüleri inceleyin:\n\n\n\n\nSaplı Polip\nMacroscopy\ntubular adenoma with a stalk macroscopy\n\n\n\nsaplı polip\n\n\n\nMicroscopy\ntubular adenoma with a stalk\nMikroskopik görüntüleri inceleyin:\nhttps://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html\n\n\n\n\n\n25.2.2 Hiperplastik Polip\nMikroskopi\nhttps://pathologyatlas.github.io/hyperplasticpolyp/case1.html\nMikroskopik görüntüleri inceleyin:\n\n\n\n\n25.2.3 Hamartomatöz Polip\nhttps://pathologyatlas.github.io/hamartomatouspolyp/HE.html\nMikroskopik görüntüleri inceleyin:\n\n\n\nSchwann Cell Hamartoma in a Colon Polyp\nhttps://pathologyatlas.github.io/schwanncellhamartoma/HE.html\nMikroskopik görüntüleri inceleyin:"
+    "title": "23  Kolon patolojisi",
+    "section": "23.2 Benign Tümörler",
+    "text": "23.2 Benign Tümörler\n\n23.2.1 Tübüler Adenom\n\nSesil Polip, Flat (Düz) Tübüler Adenom\nhttps://pathologyatlas.github.io/tubularadenoma-flat/HE.html\nMikroskopik görüntüleri inceleyin:\n\n\nhttps://pathologyatlas.github.io/tubularadenoma-flat/HE2.html\nMikroskopik görüntüleri inceleyin:\n\n\n\n\nSaplı Polip\nMacroscopy\ntubular adenoma with a stalk macroscopy\n\n\n\nsaplı polip\n\n\n\nMicroscopy\ntubular adenoma with a stalk\nMikroskopik görüntüleri inceleyin:\nhttps://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html\n\n\n\n\n\n23.2.2 Hiperplastik Polip\nMikroskopi\nhttps://pathologyatlas.github.io/hyperplasticpolyp/case1.html\nMikroskopik görüntüleri inceleyin:\n\n\n\n\n23.2.3 Hamartomatöz Polip\nhttps://pathologyatlas.github.io/hamartomatouspolyp/HE.html\nMikroskopik görüntüleri inceleyin:\n\n\n\nSchwann Cell Hamartoma in a Colon Polyp\nhttps://pathologyatlas.github.io/schwanncellhamartoma/HE.html\nMikroskopik görüntüleri inceleyin:"
   },
   {
     "objectID": "karaciger.html",
     "href": "karaciger.html",
-    "title": "26  Karaciğer Tümörleri",
+    "title": "24  Karaciğer Tümörleri",
     "section": "",
     "text": "https://pathologyatlas.github.io/hepatocellularcarcinoma/HCC/viewer_z0.html\nMikroskopik görüntüleri inceleyin:\n::: {.cell}\nHepatocellular carcinoma, fibrolamellar\nhttps://pathologyatlas.github.io/fibrolamellar-hepatocellular-carcinoma/HE1.html\nSee Microscopy with viewer:\nhttps://pathologyatlas.github.io/fibrolamellar-hepatocellular-carcinoma/HE2.html\nSee Microscopy with viewer:\nhttps://pathologyatlas.github.io/fibrolamellar-hepatocellular-carcinoma/HE3.html\nSee Microscopy with viewer:\nhttps://pathologyatlas.github.io/fibrolamellar-hepatocellular-carcinoma/HE4.html\nSee Microscopy with viewer:\n:::"
   },
   {
     "objectID": "karaciger.html#hepatocellular-carcinoma-fibrolamellar",
     "href": "karaciger.html#hepatocellular-carcinoma-fibrolamellar",
-    "title": "26  Karaciğer Tümörleri",
-    "section": "26.2 Hepatocellular carcinoma, fibrolamellar",
-    "text": "26.2 Hepatocellular carcinoma, fibrolamellar"
+    "title": "24  Karaciğer Tümörleri",
+    "section": "24.2 Hepatocellular carcinoma, fibrolamellar",
+    "text": "24.2 Hepatocellular carcinoma, fibrolamellar"
   },
   {
     "objectID": "safrakesesi.html",
     "href": "safrakesesi.html",
-    "title": "27  Gallbladder Adenomyoma",
+    "title": "25  Gallbladder Adenomyoma",
     "section": "",
     "text": "Gallbladder Adenomyoma\nhttps://pathologyatlas.github.io/gallbladder-adenomyoma/HE.html\nSee Microscopy with viewer:"
   },
   {
     "objectID": "mezotel.html",
     "href": "mezotel.html",
-    "title": "28  Abdominal mesothelioma",
+    "title": "26  Abdominal mesothelioma",
     "section": "",
     "text": "Abdominal mesothelioma\nhttps://pathologyatlas.github.io/abdominal-mesothelioma/HE.html\nSee Microscopy with viewer:"
   },
   {
     "objectID": "jineko.html",
     "href": "jineko.html",
-    "title": "29  Jinekopatoloji",
+    "title": "27  Jinekopatoloji",
     "section": "",
     "text": "https://pathologyatlas.github.io/ovarianserousmicropapillary/HE.html\nMikroskopik görüntüleri inceleyin:"
   },
   {
     "objectID": "endometrium.html",
     "href": "endometrium.html",
-    "title": "31  Endometrial Polyp",
+    "title": "29  Endometrial Polyp",
     "section": "",
     "text": "Endometrial Polyp\nhttps://pathologyatlas.github.io/endometrial-polyp/HE.html\nSee Microscopy with viewer:"
   },
   {
     "objectID": "bobrek.html",
     "href": "bobrek.html",
-    "title": "33  Böbrek Tümörleri",
+    "title": "31  Böbrek Tümörleri",
     "section": "",
     "text": "https://pathologyatlas.github.io/kidneyoncocytoma/HE.html\nMikroskopik görüntüleri inceleyin:"
   },
   {
     "objectID": "hipofiz.html",
     "href": "hipofiz.html",
-    "title": "34  Pituitary Adenoma",
+    "title": "32  Pituitary Adenoma",
     "section": "",
     "text": "Pituitary Adenoma\nhttps://pathologyatlas.github.io/pituitary-adenoma/HE.html\nSee Microscopy with viewer:"
   },
@@ -366,44 +331,44 @@
   {
     "objectID": "kulak.html",
     "href": "kulak.html",
-    "title": "35  Kulak",
+    "title": "33  Kulak",
     "section": "",
     "text": "https://pathologyatlas.github.io/cholesteatoma/cholesteatoma.html\nMikroskopik görüntüleri inceleyin:"
   },
   {
     "objectID": "gliom.html",
     "href": "gliom.html",
-    "title": "36  High Grade Glioma Squash Slide",
+    "title": "34  High Grade Glioma Squash Slide",
     "section": "",
     "text": "High Grade Glioma Squash Slide\nhttps://pathologyatlas.github.io/high-grade-glioma-squash/HE.html\nSee Microscopy with viewer:"
   },
   {
     "objectID": "meningiom.html",
     "href": "meningiom.html",
-    "title": "37  Brain Invasive Meningioma",
+    "title": "35  Brain Invasive Meningioma",
     "section": "",
-    "text": "Brain Invasive Meningioma\nhttps://pathologyatlas.github.io/brain-invasive-meningioma/HE.html\nSee Microscopy with viewer:\n\n\n\n\n\n\n\n\n\n\n38 Meningioma Bone Infiltration\n\n\n\n\n\nMeningioma Bone Infiltration\nhttps://pathologyatlas.github.io/meningioma-bone-infiltration/HE.html\nSee Microscopy with viewer:"
+    "text": "Brain Invasive Meningioma\nhttps://pathologyatlas.github.io/brain-invasive-meningioma/HE.html\nSee Microscopy with viewer:\n\n\n\n\n\n\n\n\n\n\n36 Meningioma Bone Infiltration\n\n\n\n\n\nMeningioma Bone Infiltration\nhttps://pathologyatlas.github.io/meningioma-bone-infiltration/HE.html\nSee Microscopy with viewer:"
   },
   {
     "objectID": "kemik.html",
     "href": "kemik.html",
-    "title": "38  Kemik Tümörleri",
+    "title": "36  Kemik Tümörleri",
     "section": "",
     "text": "https://pathologyatlas.github.io/exostosis/oc.html\nMikroskopik görüntüleri inceleyin:\n\n\nhttps://pathologyatlas.github.io/exostosis/oc001.html\nMikroskopik görüntüleri inceleyin:\n\n\nhttps://pathologyatlas.github.io/exostosis/oc002.html\nMikroskopik görüntüleri inceleyin:"
   },
   {
     "objectID": "adipoz.html",
     "href": "adipoz.html",
-    "title": "39  Myxoid Liposarcoma",
+    "title": "37  Myxoid Liposarcoma",
     "section": "",
     "text": "Myxoid Liposarcoma\nhttps://pathologyatlas.github.io/myxoidliposarcoma/HE.html\nSee Microscopy with viewer:"
   },
   {
     "objectID": "plasenta.html#koryoamnionit",
     "href": "plasenta.html#koryoamnionit",
-    "title": "40  Plasenta",
-    "section": "40.1 Koryoamnionit",
-    "text": "40.1 Koryoamnionit\nhttps://pathologyatlas.github.io/chorioamnionitis/HE.html\nMikroskopik görüntüleri inceleyin:"
+    "title": "38  Plasenta",
+    "section": "38.1 Koryoamnionit",
+    "text": "38.1 Koryoamnionit\nhttps://pathologyatlas.github.io/chorioamnionitis/HE.html\nMikroskopik görüntüleri inceleyin:"
   },
   {
     "objectID": "yonetim-gelistirme.html",
@@ -473,13 +438,13 @@
     "href": "listing.html",
     "title": "Appendix D — List",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKaraciğer Hastalıkları Karaciğer Tümörleri\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nkolon\n\n\ntumor\n\n\n\n\nKalın barsak benign ve malign hastalıkları\n\n\n\n\n\n\nAug 14, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKaraciğer Hastalıkları Karaciğer Tümörleri\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nkolon\n\n\ntumor\n\n\n\n\nKalın barsak benign ve malign hastalıkları\n\n\n\n\n\n\nJun 6, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "listing2.html",
     "href": "listing2.html",
     "title": "Appendix E — List",
     "section": "",
-    "text": "Karaciğer Hastalıkları Karaciğer Tümörleri\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\n\n\n\n\nKalın barsak benign ve malign hastalıkları\n\n\n\n\n\n\nAug 14, 2022\n\n\nSerdar Balcı\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Karaciğer Hastalıkları Karaciğer Tümörleri\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\n\n\n\n\nKalın barsak benign ve malign hastalıkları\n\n\n\n\n\n\nJun 6, 2022\n\n\nSerdar Balcı\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   }
 ]
