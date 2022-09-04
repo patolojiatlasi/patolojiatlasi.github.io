@@ -32,7 +32,7 @@ jobs:
     - name: Set tweetstring
       run: |
         echo "tweetstring=$(cat tweetstring.txt)" >>$GITHUB_ENV
-        echo '::set-output name=TWEET_STRING::$(echo $tweetstring)'
+        echo '::set-output name=TWEET_STRING::$(tweetstring)'
       id: random-tweet-generator
     - uses: ethomson/send-tweet-action@v1
       with:
