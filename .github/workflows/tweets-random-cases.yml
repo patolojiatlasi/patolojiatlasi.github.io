@@ -23,15 +23,19 @@ jobs:
         if (!requireNamespace("dplyr", quietly = TRUE)) {install.packages("dplyr")}
       shell: Rscript {0}
 
-    - name: Echo
-      run: echo $(Rscript -e "source('./R/tweet-random-cases.R')")
+    - name: write tweetstring
+      run: |
+        source('./R/tweet-random-cases.R')
+      shell: Rscript {0}
 
 
- #   - name: Set tweetstring
- #     run: echo '::set-output name=TWEET_STRING::$(Rscript -e "source('./R/tweet-random-cases.R')")'
- #     id: random-tweet-generator
- #   - name: Get tweetstring
- #     run: echo "The selected tweetstring is ${{ steps.random-tweet-generator.outputs.TWEET_STRING }}"
+    - name: Set tweetstring
+      run:|
+        tweetstring='cat ./tweetstring.txt'
+        echo '::set-output name=TWEET_STRING::$(echo "$tweetstring")'
+      id: random-tweet-generator
+    - name: Get tweetstring
+      run: echo "The selected tweetstring is ${{ steps.random-tweet-generator.outputs.TWEET_STRING }}"
 
 
     # - name: "Tweet"

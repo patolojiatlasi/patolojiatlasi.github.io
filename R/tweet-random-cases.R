@@ -13,4 +13,4 @@ searchcontent <- sample_n(searchcontent, 1)
 
 tweetstring <- glue::glue("{searchcontent$title} bölümünden bir vaka: {searchcontent$section}")
 
-cat(tweetstring)
+writeLines(text = tweetstring, "./tweetstring.txt")
