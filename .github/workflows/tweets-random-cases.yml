@@ -26,8 +26,7 @@ jobs:
     - name: "Tweet"
       id: tweet
       run: |
-        v1=echo $(Rscript -e "source('./R/tweet-random-cases.R')")
-        echo "::set-output name=tweetstring::$(v1)"
+        echo "::set-output name=tweetstring::$(Rscript -e "source('./R/tweet-random-cases.R')")"
 
     - uses: ethomson/send-tweet-action@v1
       with:
