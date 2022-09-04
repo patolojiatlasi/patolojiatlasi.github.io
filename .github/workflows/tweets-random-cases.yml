@@ -24,11 +24,11 @@ jobs:
       shell: Rscript {0}
 
 
-     - name: Set tweetstring
-       run: echo '::set-output name=TWEET_STRING::$(Rscript -e "source('./R/tweet-random-cases.R')")"'
-       id: random-tweet-generator
-     - name: Get tweetstring
-       run: echo "The selected tweetstring is ${{ steps.random-tweet-generator.outputs.TWEET_STRING }}"
+    - name: Set tweetstring
+      run: echo '::set-output name=TWEET_STRING::$(Rscript -e "source('./R/tweet-random-cases.R')")"'
+      id: random-tweet-generator
+    - name: Get tweetstring
+      run: echo "The selected tweetstring is ${{ steps.random-tweet-generator.outputs.TWEET_STRING }}"
 
 
     # - name: "Tweet"
