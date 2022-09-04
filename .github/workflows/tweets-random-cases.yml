@@ -34,22 +34,17 @@ jobs:
         echo "tweetstring=$(cat tweetstring.txt)" >>$GITHUB_ENV
         echo '::set-output name=TWEET_STRING::$(echo $tweetstring)'
       id: random-tweet-generator
-    - name: Get tweetstring
-      run: |
-        echo "The selected tweetstring1 is ${{ steps.random-tweet-generator.outputs.TWEET_STRING }}"
-
-
-    # - name: "Tweet"
-    #   id: tweet
+    # - name: Get tweetstring
     #   run: |
-    #     echo "::set-output name=TWEET_STRING::$(Rscript -e "source('./R/tweet-random-cases.R')")"
-    #     echo TWEET_STRING
-    #
-    # - uses: ethomson/send-tweet-action@v1
-    #   with:
-    #    status: '#Patoloji atlası güncellendi ${{ steps.tweet.outputs.TWEET_STRING }}. #dijitalpatoloji #WSI #preparat https://www.patolojiatlasi.com/'
-    #    consumer-key: ${{ secrets.API_KEY }}
-    #    consumer-secret: ${{ secrets.API_SECRET_KEY }}
-    #    access-token: ${{ secrets.ACCESS_TOKEN }}
-    #    access-token-secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
-    #
+    #     echo "The selected tweetstring1 is ${{ steps.random-tweet-generator.outputs.TWEET_STRING }}"
+
+
+    - name: "Tweet"
+    - uses: ethomson/send-tweet-action@v1
+      with:
+       status: '${{ steps.random-tweet-generator.outputs.TWEET_STRING }}'
+       consumer-key: ${{ secrets.API_KEY }}
+       consumer-secret: ${{ secrets.API_SECRET_KEY }}
+       access-token: ${{ secrets.ACCESS_TOKEN }}
+       access-token-secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
+
