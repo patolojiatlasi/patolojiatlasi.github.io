@@ -2,8 +2,8 @@ name: Tweets Random Cases
 on:
   workflow_dispatch:
   push:
-  # schedule:
-  #   - cron: '5 20 * * *'
+  schedule:
+    - cron: '5 20 * * *'
 
 jobs:
   tweets-random-cases-from-patolojiatlasi:
