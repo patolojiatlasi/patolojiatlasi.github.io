@@ -155,6 +155,8 @@ book:
     - part: "Karaciğer Patolojisi"
       chapters:
         - karaciger.qmd
+        - text: "Karaciğer Benign Tümörleri"
+          href: karaciger-benign.qmd
     - part: "Pankreatobilier Sistem Patolojisi"
       chapters:
         - text: "Safra Kesesi"

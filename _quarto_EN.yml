@@ -150,6 +150,8 @@ book:
     - part: "Liver"
       chapters:
         - karaciger.qmd
+        - text: "Benign Liver Tumors"
+          href: karaciger-benign.qmd
     - part: "Pankreatobiliary system"
       chapters:
         - text: "Gallbladder"
