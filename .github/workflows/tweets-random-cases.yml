@@ -36,7 +36,7 @@ jobs:
       id: random-tweet-generator
     - uses: ethomson/send-tweet-action@v1
       with:
-       status: '${{ steps.random-tweet-generator.outputs.TWEET_STRING }}  ${{ $tweetstring }} '
+       status: '${{ steps.random-tweet-generator.outputs.TWEET_STRING }}'
        consumer-key: ${{ secrets.API_KEY }}
        consumer-secret: ${{ secrets.API_SECRET_KEY }}
        access-token: ${{ secrets.ACCESS_TOKEN }}
