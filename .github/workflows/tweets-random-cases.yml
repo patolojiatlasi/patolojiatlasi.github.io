@@ -26,12 +26,13 @@ jobs:
     - name: "Tweet"
       id: tweet
       run: |
-        echo "::set-output name=tweetstring::$(Rscript -e "source('./R/tweet-random-cases.R')")"
+        echo "::set-output name=TWEET_STRING::$(Rscript -e "source('./R/tweet-random-cases.R')")"
 
     - uses: ethomson/send-tweet-action@v1
       with:
-       status: '#Patoloji atlası güncellendi ${{ steps.tweet.outputs.tweetstring }}. #dijitalpatoloji #WSI #preparat https://www.patolojiatlasi.com/'
+       status: '#Patoloji atlası güncellendi ${{ steps.tweet.outputs.TWEET_STRING }}. #dijitalpatoloji #WSI #preparat https://www.patolojiatlasi.com/'
        consumer-key: ${{ secrets.API_KEY }}
        consumer-secret: ${{ secrets.API_SECRET_KEY }}
        access-token: ${{ secrets.ACCESS_TOKEN }}
        access-token-secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
+
