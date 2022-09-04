@@ -34,12 +34,6 @@ jobs:
         echo "tweetstring=$(cat tweetstring.txt)" >>$GITHUB_ENV
         echo '::set-output name=TWEET_STRING::$(echo $tweetstring)'
       id: random-tweet-generator
-    # - name: Get tweetstring
-    #   run: |
-    #     echo "The selected tweetstring1 is ${{ steps.random-tweet-generator.outputs.TWEET_STRING }}"
-
-
-    - name: "Tweet"
     - uses: ethomson/send-tweet-action@v1
       with:
        status: '${{ steps.random-tweet-generator.outputs.TWEET_STRING }}'
