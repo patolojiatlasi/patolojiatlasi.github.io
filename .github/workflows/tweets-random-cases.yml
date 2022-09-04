@@ -30,7 +30,7 @@ jobs:
 
 
     - name: Set tweetstring
-      run:|
+      run: |
         tweetstring='cat ./tweetstring.txt'
         echo '::set-output name=TWEET_STRING::$(echo "$tweetstring")'
       id: random-tweet-generator
