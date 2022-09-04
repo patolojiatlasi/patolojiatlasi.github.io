@@ -31,8 +31,8 @@ jobs:
 
     - name: Set tweetstring
       run: |
-        tweetstring='cat tweetstring.txt'
-        echo '::set-output name=TWEET_STRING::$tweetstring'
+        tweetstring=$(cat tweetstring.txt)
+        echo '::set-output name=TWEET_STRING::$(echo $tweetstring)'
       id: random-tweet-generator
     - name: Get tweetstring
       run: echo "The selected tweetstring is ${{ steps.random-tweet-generator.outputs.TWEET_STRING }}"
