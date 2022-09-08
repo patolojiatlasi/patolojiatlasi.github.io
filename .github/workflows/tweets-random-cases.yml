@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
   schedule:
-    - cron: '5 20 * * *'
+    - cron: '5 20 * * 1-2'
 
 jobs:
   tweets-random-cases-from-patolojiatlasi:
