@@ -28,13 +28,13 @@ jobs:
 
     - name: Install R dependencies
       run: |
-        if (!requireNamespace("remotes", quietly = TRUE)) {install.packages("remotes")}
+        if (!requireNamespace("remotes", quietly = TRUE)) {install.packages("remotes", , dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
         remotes::install_deps(dependencies = TRUE)
-        if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+        if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv", dependencies = TRUE, quiet = TRUE, verbose = FALSE)
         renv::restore()
-        if (!requireNamespace("jsonlite", quietly = TRUE)) {install.packages("jsonlite")}
-        if (!requireNamespace("magrittr", quietly = TRUE)) {install.packages("magrittr")}
-        if (!requireNamespace("dplyr", quietly = TRUE)) {install.packages("dplyr")}
+        if (!requireNamespace("jsonlite", quietly = TRUE)) {install.packages("jsonlite", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
+        if (!requireNamespace("magrittr", quietly = TRUE)) {install.packages("magrittr", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
+        if (!requireNamespace("dplyr", quietly = TRUE)) {install.packages("dplyr", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
         saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
         writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
       shell: Rscript {0}

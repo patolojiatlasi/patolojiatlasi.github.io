@@ -31,7 +31,9 @@ Imports:
     dplyr,
     RCurl,
     XML,
-    svDialogs
+    svDialogs,
+    xfun,
+    glue
 
 Remotes:
     duncantl/XMLRPC,
