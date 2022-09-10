@@ -42,3 +42,139 @@ jobs:
        access-token: ${{ secrets.ACCESS_TOKEN }}
        access-token-secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
 
+
+
+
+
+# print(paste0("publish to WordPress started at: ", Sys.time()))
+# 
+# ## load wordpress library ----
+# 
+# 
+# # install.packages("devtools")
+# # install.packages("RCurl")
+# # install.packages("XML")
+# # devtools::install_github("duncantl/XMLRPC")
+# # devtools::install_github("duncantl/RWordPress")
+# # library("devtools")
+# # library("RCurl")
+# # library("XML")
+# # library("XMLRPC")
+# # library("RWordPress")
+# # library("knitr")
+# # library("svDialogs")
+# 
+# ## select random hashtag ----
+# 
+# # pattern1 <- c(
+# #   "^.*Autopsy.*.md$",
+# #   "^.*GIPath.*.md$",
+# #   "^.*GUPath.*.md$",
+# #   "^.*GrossPath.*.md$",
+# #   "^.*BreastPath.*.md$",
+# #   "^.*BSTpath.*.md$",
+# #   "^.*CardiacPath.*.md$",
+# #   "^.*Cytopath.*.md$",
+# #   "^.*EndoPath.*.md$",
+# #   "^.*ENTPath.*.md$",
+# #   "^.*EyePath.*.md$",
+# #   "^.*ForensicPath.*.md$",
+# #   "^.*GynPath.*.md$",
+# #   "^.*HemePath.*.md$",
+# #   "^.*HPBpath.*.md$",
+# #   "^.*IDpath.*.md$",
+# #   "^.*MolDx.*.md$",
+# #   "^.*NeuroPath.*.md$",
+# #   "^.*OralPath.*.md$",
+# #   "^.*PancPath.*.md$",
+# #   "^.*PediPath.*.md$",
+# #   "^.*PulmPath.*.md$",
+# #   "^.*SurgPath.*.md$"
+# #   # "^.*uncategorised.*.md$",
+# #   # ".md$",
+# # )
+# 
+# 
+# 
+# 
+# 
+# ### publish WordPress ----
+# 
+# fileListForWP <-
+#     list.files(path = "./pathTweets/",
+#                pattern = pattern,
+#                ignore.case = TRUE)
+# 
+# 
+# 
+# for (i in 1:1) {
+#   inputWP <-
+#     paste0("./pathTweets/", fileListForWP[i])
+# 
+#   titlehash <-
+#     gsub(pattern = "tweetsFor|\\d|.md",
+#          replacement = "",
+#          x = fileListForWP[i])
+# 
+#   titleWP <-
+#     paste0("#pathology Tweet Collection: #", titlehash, " group ", i)
+# 
+#   knitr::knit2wp(
+#     input = inputWP,
+#     title = titleWP,
+#     shortcode = TRUE,
+#     categories = c("pathTweets",
+#                    "pathTweets",
+#                    titlehash),
+#     action = "newPost",
+#     # action = "newPage",
+#     publish = TRUE
+#   )
+# 
+#   Sys.sleep(10)
+# 
+# }
+# 
+# 
+# for (i in 2:length(fileListForWP)) {
+#   inputWP <-
+#     paste0("./pathTweets/", fileListForWP[i])
+# 
+#   titlehash <-
+#     gsub(pattern = "tweetsFor|\\d|.md",
+#          replacement = "",
+#          x = fileListForWP[i])
+# 
+#   titleWP <-
+#     paste0("#pathology Tweet Collection generated with #rstats: #",
+#            titlehash,
+#            " group ",
+#            i)
+# 
+#   knitr::knit2wp(
+#     input = inputWP,
+#     title = titleWP,
+#     shortcode = TRUE,
+#     categories = c("pathTweets",
+#                    "pathTweets",
+#                    titlehash),
+#     # action = "newPost",
+#     action = "newPage",
+#     publish = TRUE
+#   )
+# 
+#   Sys.sleep(10)
+# 
+# }
+# 
+# 
+# 
+# 
+# 
+# # knitr::knit2wp(input = file.choose(),
+# #                title = dlgInput("Enter a post name",
+# #                                 Sys.info()["user"])$res,
+# #
+# #                shortcode = TRUE)
+# 
+# 
