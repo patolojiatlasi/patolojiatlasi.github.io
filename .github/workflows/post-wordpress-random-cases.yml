@@ -26,9 +26,9 @@ jobs:
 #
     #  - name: Create and populate .Renviron file
     #   run: |
-    #     echo user_name="$wp_user_name" >> ~/.Renviron
-    #     echo user_secret="$wp_user_secret" >> ~/.Renviron
-    #     echo user_site="$wp_user_site"  >> ~/.Renviron
+    #     echo WP_USER_NAME="$WP_USER_NAME" >> ~/.Renviron
+    #     echo WP_USER_SECRET="$WP_USER_SECRET" >> ~/.Renviron
+    #     echo WP_USER_SITE="$WP_USER_SITE"  >> ~/.Renviron
     #   shell: bash
 #
 
@@ -46,7 +46,7 @@ jobs:
       run: |
         if (!requireNamespace("remotes", quietly = TRUE)) {install.packages("remotes", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
         # remotes::install_deps(dependencies = TRUE)
-        if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+        if (!requireNamespace("renv", quietly = TRUE)) {install.packages("renv")}
         renv::restore()
         if (!requireNamespace("magrittr", quietly = TRUE)) {install.packages("magrittr", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
         if (!requireNamespace("dplyr", quietly = TRUE)) {install.packages("dplyr", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
@@ -61,11 +61,23 @@ jobs:
       shell: Rscript {0}
 
 
-    - name: write tweetstring
+    - name: generate and post tweetstring
+      env:
+          WP_USER_NAME: ${{ secrets.WP_USER_NAME }}
+          WP_USER_SECRET: ${{ secrets.WP_USER_SECRET }}
+          WP_USER_SITE: ${{ secrets.WP_USER_SITE }}
       run: |
-        options(WordpressLogin=c(user_name=user_secret), WordpressURL=paste0(user_site, '/xmlrpc.php')
-        inputWP <- source('./R/tweet-random-cases.R')
-        titleWP <- inputWP
+        # read environment variables
+        WP_USER_NAME <- Sys.getenv("WP_USER_NAME")
+        WP_USER_SECRET <- Sys.getenv("WP_USER_SECRET")
+        WP_USER_SITE <- Sys.getenv("WP_USER_SITE")
+        options(
+        WordpressLogin = c(WP_USER_NAME = WP_USER_SECRET),
+        WordpressURL = paste0('https://', WP_USER_SITE ,'wordpress.com', '/xmlrpc.php')
+        )
+        source('./R/tweet-random-cases.R')
+        inputWP <- "./tweetstring.txt"
+        titleWP <- readLines("./tweetstring.txt")
         knitr::knit2wp(input = inputWP, title = titleWP, shortcode = TRUE, categories = c('patolojiatlasi'), action = "newPost", publish = TRUE)
       shell: Rscript {0}
 
