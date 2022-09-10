@@ -16,10 +16,11 @@ jobs:
     - name: "actions checkout"
       uses: actions/checkout@v2
 
-      - name: Install tool
-        run: |
-          sudo apt-get update
-          sudo apt-get install libcurl4-openssl-dev
+    - name: Install tool
+      run: |
+        sudo apt-get update
+        sudo apt-get install libcurl4-openssl-dev
+
 
 #
     #  - name: Create and populate .Renviron file
