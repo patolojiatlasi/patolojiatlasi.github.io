@@ -8,7 +8,8 @@ on:
 jobs:
   post-wordpress-random-cases-from-patolojiatlasi:
     if: "!contains(github.event.head_commit.message, 'WIP')"
-    runs-on: ubuntu-latest
+    runs-on: nacos-latest
+    # runs-on: ubuntu-latest
 
     env:
       RENV_PATHS_ROOT: ~/.local/share/renv
@@ -16,10 +17,10 @@ jobs:
     - name: "actions checkout"
       uses: actions/checkout@v2
 
-    - name: Install tool
-      run: |
-        sudo apt-get update
-        sudo apt-get install libcurl4-openssl-dev
+    # - name: Install tool
+    #   run: |
+    #     sudo apt-get update
+    #     sudo apt-get install libcurl4-openssl-dev
 
 
 #
@@ -37,14 +38,14 @@ jobs:
       uses: actions/cache@v2
       with:
         path: ${{ env.R_LIBS_USER }}
-        key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
-        restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
+        key: ${{ runner.os }}-${{ hashFiles('.github/R-version2') }}-1-${{ hashFiles('.github/depends2.Rds') }}
+        restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version2') }}-1-
 
 
     - name: Install R dependencies
       run: |
         if (!requireNamespace("remotes", quietly = TRUE)) {install.packages("remotes", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
-        remotes::install_deps(dependencies = TRUE)
+        # remotes::install_deps(dependencies = TRUE)
         if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
         renv::restore()
         if (!requireNamespace("magrittr", quietly = TRUE)) {install.packages("magrittr", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
@@ -55,8 +56,8 @@ jobs:
         if (!requireNamespace("RWordPress", quietly = TRUE)) {remotes::install_github("duncantl/RWordPress", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
         if (!requireNamespace("knitr", quietly = TRUE)) {install.packages("knitr", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
         if (!requireNamespace("svDialogs", quietly = TRUE)) {install.packages("svDialogs", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
-        saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
-        writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
+        saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends2.Rds", version = 2)
+        writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version2")
       shell: Rscript {0}
 
 
