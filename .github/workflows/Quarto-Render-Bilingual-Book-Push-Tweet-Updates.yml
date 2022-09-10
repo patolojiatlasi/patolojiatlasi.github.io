@@ -187,7 +187,7 @@ jobs:
         run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
       - uses: ethomson/send-tweet-action@v1
         with:
-          status: '#Patoloji atlası güncellendi ${{ steps.date.outputs.date }} ${{github.event.head_commit.message}}. #dijitalpatoloji #WSI #preparat https://www.patolojiatlasi.com/'
+          status: '#Patoloji atlası güncellendi ${{ steps.date.outputs.date }} ${{github.event.head_commit.message}}. #dijitalpatoloji #WSI #preparat #memorialpatoloji #memorialsaglik https://www.patolojiatlasi.com/'
           consumer-key: ${{ secrets.API_KEY }}
           consumer-secret: ${{ secrets.API_SECRET_KEY }}
           access-token: ${{ secrets.ACCESS_TOKEN }}
