@@ -27,4 +27,12 @@ Imports:
     quarto,
     fs,
     knitr,
-    tinytex
+    tinytex,
+    dplyr,
+    RCurl,
+    XML,
+    svDialogs
+
+Remotes:
+    duncantl/XMLRPC,
+    duncantl/RWordPress

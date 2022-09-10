@@ -27,7 +27,10 @@ jobs:
 
     - name: Install R dependencies
       run: |
-        if (!requireNamespace("remotes", quietly = TRUE)) {install.packages("magrittr", dependencies = TRUE)}
+        if (!requireNamespace("remotes", quietly = TRUE)) {install.packages("remotes")}
+        remotes::install_deps(dependencies = TRUE)
+        if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+        renv::restore()
         if (!requireNamespace("magrittr", quietly = TRUE)) {install.packages("magrittr", dependencies = TRUE)}
         if (!requireNamespace("dplyr", quietly = TRUE)) {install.packages("dplyr", dependencies = TRUE)}
         if (!requireNamespace("RCurl", quietly = TRUE)) {install.packages("RCurl", dependencies = TRUE)}
@@ -36,12 +39,24 @@ jobs:
         if (!requireNamespace("RWordPress", quietly = TRUE)) {remotes::install_github("duncantl/RWordPress", dependencies = TRUE)}
         if (!requireNamespace("knitr", quietly = TRUE)) {install.packages("knitr", dependencies = TRUE)}
         if (!requireNamespace("svDialogs", quietly = TRUE)) {install.packages("svDialogs", dependencies = TRUE)}
+        saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
+        writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
       shell: Rscript {0}
+
+
+    - name: Create and populate .Renviron file
+      run: |
+        echo user_name="$wp_user_name" >> ~/.Renviron
+        echo user_secret="$wp_user_secret" >> ~/.Renviron
+        echo user_site="$wp_user_site"  >> ~/.Renviron
+      shell: bash
+
 
     - name: write tweetstring
       run: |
+        options(WordpressLogin=c(user_name=user_secret), WordpressURL=paste0(user_site, '/xmlrpc.php')
         inputWP <- source('./R/tweet-random-cases.R')
-        titleWP <- source('./R/tweet-random-cases.R')
+        titleWP <- inputWP
         knitr::knit2wp(input = inputWP, title = titleWP, shortcode = TRUE, categories = c('patolojiatlasi'), action = "newPost", publish = TRUE)
       shell: Rscript {0}
 
