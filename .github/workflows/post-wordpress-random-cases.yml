@@ -1,0 +1,73 @@
+name: Tweets Random Cases
+on:
+  workflow_dispatch:
+  push:
+  schedule:
+    - cron: '5 20 * * 4-5'
+
+jobs:
+  post-wordpress-random-cases-from-patolojiatlasi:
+    runs-on: ubuntu-latest
+    env:
+      RENV_PATHS_ROOT: ~/.local/share/renv
+    steps:
+    - name: "actions checkout"
+      uses: actions/checkout@v2
+
+    - uses: r-lib/actions/setup-r@v2
+
+      - name: Restore R package cache
+        uses: actions/cache@v2
+        with:
+          path: ${{ env.R_LIBS_USER }}
+          key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
+          restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
+
+
+    - name: Install R dependencies
+      run: |
+        if (!requireNamespace("remotes", quietly = TRUE)) {install.packages("magrittr", dependencies = TRUE)}
+        if (!requireNamespace("magrittr", quietly = TRUE)) {install.packages("magrittr", dependencies = TRUE)}
+        if (!requireNamespace("dplyr", quietly = TRUE)) {install.packages("dplyr", dependencies = TRUE)}
+        if (!requireNamespace("RCurl", quietly = TRUE)) {install.packages("RCurl", dependencies = TRUE)}
+        if (!requireNamespace("XML", quietly = TRUE)) {install.packages("XML", dependencies = TRUE)}
+        if (!requireNamespace("XMLRPC", quietly = TRUE)) {remotes::install_github("duncantl/XMLRPC", dependencies = TRUE)}
+        if (!requireNamespace("RWordPress", quietly = TRUE)) {remotes::install_github("duncantl/RWordPress", dependencies = TRUE)}
+        if (!requireNamespace("knitr", quietly = TRUE)) {install.packages("knitr", dependencies = TRUE)}
+        if (!requireNamespace("svDialogs", quietly = TRUE)) {install.packages("svDialogs", dependencies = TRUE)}
+      shell: Rscript {0}
+
+    - name: write tweetstring
+      run: |
+        inputWP <- source('./R/tweet-random-cases.R')
+        titleWP <- source('./R/tweet-random-cases.R')
+        knitr::knit2wp(input = inputWP, title = titleWP, shortcode = TRUE, categories = c('patolojiatlasi'), action = "newPost", publish = TRUE)
+      shell: Rscript {0}
+
+
+
+
+#   knitr::knit2wp(
+#     input = inputWP,
+#     title = titleWP,
+#     shortcode = TRUE,
+#     categories = c("patolojiatlasi"),
+#     action = "newPost",
+#     # action = "newPage",
+#     publish = TRUE
+#   )
+
+
+#
+#   knitr::knit2wp(
+#     input = inputWP,
+#     title = titleWP,
+#     shortcode = TRUE,
+#     categories = c("pathTweets",
+#                    "pathTweets",
+#                    titlehash),
+#     # action = "newPost",
+#     action = "newPage",
+#     publish = TRUE
+#   )
+#
