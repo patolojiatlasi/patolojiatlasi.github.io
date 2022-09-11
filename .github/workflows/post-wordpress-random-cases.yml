@@ -68,6 +68,7 @@ jobs:
           WP_USER_NAME: ${{ secrets.WP_USER_NAME }}
           WP_USER_SECRET: ${{ secrets.WP_USER_SECRET }}
           WP_USER_SITE: ${{ secrets.WP_USER_SITE }}
+          WP_LOG: ${{ secrets.WP_LOG }}
       run: |
         # read environment variables
         # WP_USER_NAME <- Sys.getenv("WP_USER_NAME")
@@ -75,8 +76,8 @@ jobs:
         WP_LOG <- Sys.getenv("WP_LOG")
         WP_USER_SITE <- Sys.getenv("WP_USER_SITE")
         options(
-        # WordpressLogin = c(WP_USER_NAME = WP_USER_SECRET),
-        WordpressLogin = WP_LOG,
+        # WordpressLogin = c(paste0(WP_USER_NAME, "= '", WP_USER_SECRET, "'")),
+        WordpressLogin = c(WP_LOG),
 
         WordpressURL = paste0('https://', WP_USER_SITE ,'.wordpress.com', '/xmlrpc.php')
         )
