@@ -70,11 +70,14 @@ jobs:
           WP_USER_SITE: ${{ secrets.WP_USER_SITE }}
       run: |
         # read environment variables
-        WP_USER_NAME <- Sys.getenv("WP_USER_NAME")
-        WP_USER_SECRET <- Sys.getenv("WP_USER_SECRET")
+        # WP_USER_NAME <- Sys.getenv("WP_USER_NAME")
+        # WP_USER_SECRET <- Sys.getenv("WP_USER_SECRET")
+        WP_LOG <- Sys.getenv("WP_LOG")
         WP_USER_SITE <- Sys.getenv("WP_USER_SITE")
         options(
-        WordpressLogin = c(WP_USER_NAME = WP_USER_SECRET),
+        # WordpressLogin = c(WP_USER_NAME = WP_USER_SECRET),
+        WordpressLogin = WP_LOG,
+
         WordpressURL = paste0('https://', WP_USER_SITE ,'.wordpress.com', '/xmlrpc.php')
         )
         options(knitr.knit2wp.warning = FALSE)
