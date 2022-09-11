@@ -71,8 +71,8 @@ jobs:
           WP_LOG: ${{ secrets.WP_LOG }}
       run: |
         # read environment variables
-        # WP_USER_NAME <- Sys.getenv("WP_USER_NAME")
-        # WP_USER_SECRET <- Sys.getenv("WP_USER_SECRET")
+        WP_USER_NAME <- Sys.getenv("WP_USER_NAME")
+        WP_USER_SECRET <- Sys.getenv("WP_USER_SECRET")
         # WP_LOG <- Sys.getenv("WP_LOG")
         WP_USER_SITE <- Sys.getenv("WP_USER_SITE")
         options(
