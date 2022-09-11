@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       RENV_PATHS_ROOT: ~/.local/share/renv
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
     steps:
     - name: "actions checkout"
       uses: actions/checkout@v2
