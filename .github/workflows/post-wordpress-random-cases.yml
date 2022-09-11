@@ -73,14 +73,11 @@ jobs:
         # read environment variables
         WP_USER_NAME <- Sys.getenv("WP_USER_NAME")
         WP_USER_SECRET <- Sys.getenv("WP_USER_SECRET")
-        # WP_LOG <- Sys.getenv("WP_LOG")
         WP_USER_SITE <- Sys.getenv("WP_USER_SITE")
-        options(
-        WordpressLogin = c(paste0(WP_USER_NAME, "= '", WP_USER_SECRET, "'")),
-        # WordpressLogin = c(WP_LOG),
-
-        WordpressURL = paste0('https://', WP_USER_SITE ,'.wordpress.com', '/xmlrpc.php')
-        )
+        options(WordpressURL = paste0('https://', WP_USER_SITE ,'.wordpress.com', '/xmlrpc.php'))
+        WordpressLogin <- c(WP_USER_SECRET)
+        names(WordpressLogin) <- WP_USER_NAME
+        options(WordpressLogin = WordpressLogin)
         options(knitr.knit2wp.warning = FALSE)
         source('./R/tweet-random-cases.R')
         inputWP <- "./tweetstring.txt"
