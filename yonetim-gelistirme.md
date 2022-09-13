@@ -150,3 +150,102 @@ This is an example of a callout with a caption.
 This is an example of a 'folded' caution callout that can be expanded by the user.
 You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
 :::
+
+::: aside
+Some additional commentary of more peripheral interest.
+:::
+
+::: {.callout-note collapse="false" appearance="default" icon="true"}
+## Optional caption (note)
+
+-   Make expandable with 'collapse=true'
+-   Remove 'collapse' to prevent expandability
+-   Set appearance to 'default', 'simple' or 'minimal'
+-   Remove icon with 'icon=false'
+:::
+
+::: {.callout-warning collapse="false" appearance="default" icon="true"}
+## Optional caption (warning)
+
+-   Make expandable with 'collapse=true'
+-   Remove 'collapse' to prevent expandability
+-   Set appearance to 'default', 'simple' or 'minimal'
+-   Remove icon with 'icon=false'
+:::
+
+::: {.callout-important collapse="false" appearance="default" icon="true"}
+## Optional caption (important)
+
+-   Make expandable with 'collapse=true'
+-   Remove 'collapse' to prevent expandability
+-   Set appearance to 'default', 'simple' or 'minimal'
+-   Remove icon with 'icon=false'
+:::
+
+::: {.callout-tip collapse="false" appearance="default" icon="true"}
+## Optional caption (tip)
+
+-   Make expandable with 'collapse=true'
+-   Remove 'collapse' to prevent expandability
+-   Set appearance to 'default', 'simple' or 'minimal'
+-   Remove icon with 'icon=false'
+:::
+
+::: {.callout-caution collapse="false" appearance="default" icon="true"}
+## Optional caption (caution)
+
+-   Make expandable with 'collapse=true'
+-   Remove 'collapse' to prevent expandability
+-   Set appearance to 'default', 'simple' or 'minimal'
+-   Remove icon with 'icon=false'
+:::
+
+::: columns
+::: {.column width="40%"}
+Left column
+:::
+
+::: {.column width="60%"}
+Right column
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: footer
+Custom footer text
+:::
+
+footnote[^yonetim-gelistirme-1]
+
+[^yonetim-gelistirme-1]: A footnote
+
+::: incremental
+-   Eat spaghetti
+-   Drink wine
+:::
+
+::: nonincremental
+-   Eat spaghetti
+-   Drink wine
+:::
+
+. . .
+
+::: notes
+Speaker notes go here.
+:::
+
+deneme smaller {.smaller} deneme smaller
+
+scroll till end {.scrollable} scroll till end
+
+::: panel-tabset
+### Tab A
+
+Content for `Tab A`
+
+### Tab B
+
+Content for `Tab B`
+:::
