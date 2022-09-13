@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
   schedule:
-    - cron: '5 20 * * 4-5'
+    - cron: '5 20 * * 4'
 
 jobs:
   post-wordpress-random-cases-from-patolojiatlasi:
