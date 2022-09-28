@@ -181,12 +181,14 @@ book:
     - part: "Head and Neck"
       chapters:
         - kulak.qmd
-    - part: "Central Nervous system"
+    - part: "Central Nervous System"
       chapters:
         - text: "Glioma"
           href: gliom.qmd
         - text: "Meningioma"
           href: meningiom.qmd
+        - text: "Vascular Lesions"
+          href: sss-vaskuler.qmd
     - part: "Bone"
       chapters:
         - kemik.qmd
