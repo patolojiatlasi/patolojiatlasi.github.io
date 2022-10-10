@@ -1,0 +1,26 @@
+```{r language wsi, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+
+```
+
+```{asis, echo = (language == "TR")}
+
+# Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları 
+
+```
+
+```{asis, echo = (language == "EN")}
+
+# Pages Containing Whole Slide Images for Pathology Education 
+
+```
+
+
+## Rosai Collection 
+
+<https://www.rosaicollection.org/>
+
+<iframe src="https://www.rosaicollection.org/" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
