@@ -108,6 +108,8 @@ book:
           href: erozyon.qmd
     - part: "Inflamation"
       chapters:
+        - text: "Acute inflamation"
+          href: akutinflamasyon.qmd
         - text: "Chronic inflamation"
           href: kronikinflamasyon.qmd
         - text: "Granulamatous inflammation"
@@ -203,7 +205,8 @@ book:
     - part: "---"
     - referanslar.qmd
     - part: "---"
-    - wsi.qmd
+    - text: "WSI pages"
+      href: wsi.qmd
     - part: "---"
   appendices:
     - yonetim-gelistirme.md

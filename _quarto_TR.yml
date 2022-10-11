@@ -112,6 +112,8 @@ book:
           href: erozyon.qmd
     - part: "İnflamasyon"
       chapters:
+        - text: "Akut inflamasyon"
+          href: akutinflamasyon.qmd
         - text: "Kronik inflamasyon"
           href: kronikinflamasyon.qmd
         - text: "Granülamatöz İnflamasyon"
@@ -207,7 +209,8 @@ book:
     - part: "---"
     - referanslar.qmd
     - part: "---"
-    - wsi.qmd
+    - text: "WSI sayfaları"
+      href: wsi.qmd
     - part: "---"
   appendices:
     - yonetim-gelistirme.md
