@@ -1,7 +1,7 @@
 name: Tweets Random Cases
 on:
   workflow_dispatch:
-  push:
+#  push:
   schedule:
     - cron: '5 20 * * 1'
 
