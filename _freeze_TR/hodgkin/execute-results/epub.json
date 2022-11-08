@@ -1,0 +1,20 @@
+{
+  "hash": "a0c0108d77f74a7c66dbeb394c4a0657",
+  "result": {
+    "markdown": "::: {.cell}\n\n:::\n\n::: {.cell}\n\n## Hodgkin Lenfoma\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n**Hodgkin Lenfoma**\n\n\n[https://pathologyatlas.github.io/hodgkin/HE.html](https://pathologyatlas.github.io/hodgkin/HE.html)\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://pathologyatlas.github.io/hodgkin/HE.html\" style=\"height:400px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "hodgkin_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}
