@@ -140,9 +140,10 @@ book:
           href: venozinvazyon.qmd
         - text: "Extramural Venous Invaasion"
           href: ekstramuralvenozinvazyon.qmd
-# #    - part: "Hematopathology"
-# #      chapters:
-# #        - hematopatoloji.qmd
+    - part: "Hematopathology"
+      chapters:
+#        - hematopatoloji.qmd
+        - hodgkin.qmd
     - part: "Gastrointestinal System"
       chapters:
         - gastro.qmd
