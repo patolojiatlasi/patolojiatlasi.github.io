@@ -53,7 +53,7 @@ book:
     type: overlay
     copy-button: true
   sidebar:
-    style: floating #docked
+    style: docked #floating
     background: light
     search: true
 #   navbar:
