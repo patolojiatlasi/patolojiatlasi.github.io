@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -50,8 +50,6 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./wsi.html" rel="next">
-<link href="./plasenta.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -86,11 +84,18 @@ div.csl-indent {
 
 
 <meta property="og:title" content="Pathology Atlas - Referanslar">
-<meta property="og:description" content="Pathology Atlas and Notes for Medical Students: See and Learn Atlas of Pathology Notes for Pathology Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Pathology Archive.">
+<meta property="og:description" content="Pathology Atlas and Notes for Medical Students: See and Learn
+Atlas of Pathology
+Notes for Pathology
+Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Pathology Archive.">
 <meta property="og:site-name" content="Pathology Atlas">
 <meta name="twitter:title" content="Pathology Atlas - Referanslar">
-<meta name="twitter:description" content="Pathology Atlas and Notes for Medical Students: See and Learn Atlas of Pathology Notes for Pathology Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Pathology Archive.">
+<meta name="twitter:description" content="Pathology Atlas and Notes for Medical Students: See and Learn
+Atlas of Pathology
+Notes for Pathology
+Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Pathology Archive.">
 <meta name="twitter:creator" content="@serdarbalci">
+<meta name="twitter:site" content="@patolojinotlari">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -602,7 +607,7 @@ div.csl-indent {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./wsi.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">49</span>&nbsp; <span class="chapter-title">WSI pages</span></a>
+  <a href="./wsi.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">49</span>&nbsp; <span class="chapter-title">Recommendations</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -658,16 +663,12 @@ div.csl-indent {
 <h1 class="title d-none d-lg-block">Referanslar</h1>
 </div>
 
-<div>
-  <div class="description">
-    <p>Pathology Atlas and Notes for Medical Students: See and Learn Atlas of Pathology Notes for Pathology Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Pathology Archive.</p>
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -813,7 +814,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   // Switch to dark mode if need be
   if (hasAlternateSentinel()) {
     toggleColorMode(true);
-  } 
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -835,7 +838,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -871,24 +891,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var filterRegex = new RegExp(/(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/pathologyatlas\.github\.io\/)/);
@@ -896,7 +934,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
-    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -910,18 +948,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <script src="https://utteranc.es/client.js" repo="patolojiatlasi/patolojiatlasi.github.io" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./plasenta.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">48</span>&nbsp; <span class="chapter-title">Plasenta</span></span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./wsi.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">49</span>&nbsp; <span class="chapter-title">WSI pages</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
