@@ -10,7 +10,7 @@ execute:
 lang: en
 
 book:
-  engine: knitr
+  # engine: knitr
   title: "Pathology Atlas"
   subtitle: "Pathology Atlas and Notes for Medical Students: See and Learn"
   author:
@@ -59,8 +59,8 @@ book:
 #       - icon: github
 #         href: https://github.com/patolojiatlasi
   open-graph: true
-  locale: tr_TR
-  site-name: Pathology Atlas
+  # locale: tr_TR
+  # site-name: Pathology Atlas
   twitter-card:
     creator: "@serdarbalci"
     site: "@patolojinotlari"

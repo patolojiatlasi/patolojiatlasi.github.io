@@ -15,7 +15,7 @@ language:
   title-block-affiliation-plural: "Kurum"
 
 book:
-  engine: knitr
+  # engine: knitr
   title: "Patoloji Atlası"
   subtitle: "Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları: Görerek Öğrenin"
   author:
@@ -66,8 +66,8 @@ book:
 #       - icon: github
 #         href: https://github.com/patolojiatlasi
   open-graph: true
-  locale: tr_TR
-  site-name: Patoloji Atlası
+  # locale: tr_TR
+  # site-name: Patoloji Atlası
   twitter-card:
     creator: "@serdarbalci"
     site: "@patolojinotlari"
@@ -244,8 +244,8 @@ format:
   html:
     theme:
       light: flatly
-      dark: darkly
-# cosmo
+      dark: darkly # cosmo
+      page-layout: full
     cover-image: images/cover.png
 #    code-link: true
 #    code-fold: true
