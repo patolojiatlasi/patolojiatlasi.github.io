@@ -60,9 +60,6 @@ See Microscopy with viewer:
 
 </iframe>
 
-
-
-
 <https://pathologyatlas.github.io/anthracosis/HE2.html>
 
 See Microscopy with viewer:
@@ -71,13 +68,9 @@ See Microscopy with viewer:
 
 </iframe>
 
-
-
-
-
 ## Melanosis Coli
 
-```{asis, echo = (language == "TR")}
+```{asis, echo = (language == "TR"), column=column-body-outset}
 
 **Melanozis Koli**
 
@@ -101,7 +94,7 @@ See Microscopy with viewer:
 
 ```
 
-```{asis, echo = (language == "TR")}
+```{asis, echo = (language == "TR"), colum=column-page}
 
 **Melanozis Koli PAS**
 
