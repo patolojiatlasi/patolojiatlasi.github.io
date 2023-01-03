@@ -1,6 +1,6 @@
 # Yönetim ve Geliştirme
 
-[pathologyatlas.github.io](https://pathologyatlas.github.io/)
+[pathologyatlas.github.io](https://www.patoloji.dev/)
 
 [lab.patolojinotlari.com](https://lab.patolojinotlari.com)
 
@@ -14,7 +14,7 @@
 
 <https://leanpub.com/patolojiatlasi/>
 
-[development & WIP](https://pathologyatlas.github.io/development.md)
+[development & WIP](https://www.patoloji.dev/development.md)
 
 -   <https://github.com/pathologyatlas>
 
@@ -44,15 +44,15 @@ contact: bilgi\@patolojiatlasi.com
 
 ## Pancreas Ductal Adenocarcinoma
 
-<https://pathologyatlas.github.io/pancreaticadenocarcinoma/>
+<https://www.patoloji.dev/pancreaticadenocarcinoma/>
 
 ### Case 1
 
-[histopathology](https://pathologyatlas.github.io/pancreaticadenocarcinoma/case1-histopathology/viewer_z0.html)
+[histopathology](https://www.patoloji.dev/pancreaticadenocarcinoma/case1-histopathology/viewer_z0.html)
 
 ## Neoplazinin Klinikopatolojik Özellikleri ve Epidemiyoloji
 
-<https://pathologyatlas.github.io/lecture1/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.html>
+<https://www.patoloji.dev/lecture1/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.html>
 
 ------------------------------------------------------------------------
 

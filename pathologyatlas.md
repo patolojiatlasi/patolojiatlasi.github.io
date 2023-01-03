@@ -1,7 +1,7 @@
 # Pathology Atlas / Patoloji Notları
 
 - [https://www.patolojiatlasi.com/](https://www.patolojiatlasi.com/)
-- [pathologyatlas.github.io](https://pathologyatlas.github.io/)
+- [pathologyatlas.github.io](https://www.patoloji.dev/)
 - [lab.patolojinotlari.com](https://lab.patolojinotlari.com)
 - [patolojinotlari.com](https://patolojinotlari.com)
 - [parapathology.com](https://parapathology.com)
@@ -18,28 +18,28 @@
 # Examples for future uploads
 
 ## Pancreas Ductal Adenocarcinoma
-- [https://pathologyatlas.github.io/pancreaticadenocarcinoma/](https://pathologyatlas.github.io/pancreaticadenocarcinoma/)
+- [https://www.patoloji.dev/pancreaticadenocarcinoma/](https://www.patoloji.dev/pancreaticadenocarcinoma/)
 
 ### Case 1
-- [histopathology](https://pathologyatlas.github.io/pancreaticadenocarcinoma/case1-histopathology/viewer_z0.html)
+- [histopathology](https://www.patoloji.dev/pancreaticadenocarcinoma/case1-histopathology/viewer_z0.html)
 
 ## Neoplazinin Klinikopatolojik Özellikleri ve Epidemiyoloji
 
-- [https://pathologyatlas.github.io/lecture1/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.html](https://pathologyatlas.github.io/lecture1/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.html)
+- [https://www.patoloji.dev/lecture1/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.html](https://www.patoloji.dev/lecture1/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.html)
 
 
 ---
 
 # Breast Pathology
 
-- See extended list of Breast Pathology cases here [https://pathologyatlas.github.io/breast/](https://pathologyatlas.github.io/breast/)
+- See extended list of Breast Pathology cases here [https://www.patoloji.dev/breast/](https://www.patoloji.dev/breast/)
 
 
 ---
 
 # GIS Pathology
 
-- See extended list of Gastrointestinal System Pathology cases here [https://pathologyatlas.github.io/GIS/](https://pathologyatlas.github.io/GIS/)
+- See extended list of Gastrointestinal System Pathology cases here [https://www.patoloji.dev/GIS/](https://www.patoloji.dev/GIS/)
 
 ---
 
@@ -59,20 +59,20 @@
 Anthracosis Anthracotic pigment in a thoracic lymph node
 
 
-[https://pathologyatlas.github.io/anthracosis/HE.html](https://pathologyatlas.github.io/anthracosis/HE.html)
+[https://www.patoloji.dev/anthracosis/HE.html](https://www.patoloji.dev/anthracosis/HE.html)
 
 See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/anthracosis/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://www.patoloji.dev/anthracosis/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 
 ### Cholesterol Polyp, gallbladder
 
-- [https://pathologyatlas.github.io/cholesterolpolyp/HE.html](https://pathologyatlas.github.io/cholesterolpolyp/HE.html)
+- [https://www.patoloji.dev/cholesterolpolyp/HE.html](https://www.patoloji.dev/cholesterolpolyp/HE.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/cholesterolpolyp/HE.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/cholesterolpolyp/HE.html" width="100%" height="400px"></iframe>
 
 
 ### Glycogen Storage Disease
@@ -80,27 +80,27 @@ See Microscopy with viewer:
 
 **H&E Slide**
 
-- [https://pathologyatlas.github.io/glycogenstorage/HE.html](https://pathologyatlas.github.io/glycogenstorage/HE.html)
+- [https://www.patoloji.dev/glycogenstorage/HE.html](https://www.patoloji.dev/glycogenstorage/HE.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/glycogenstorage/HE.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/glycogenstorage/HE.html" width="100%" height="400px"></iframe>
 
 **PAS Slide**
 
-- [https://pathologyatlas.github.io/glycogenstorage/PAS.html](https://pathologyatlas.github.io/glycogenstorage/PAS.html)
+- [https://www.patoloji.dev/glycogenstorage/PAS.html](https://www.patoloji.dev/glycogenstorage/PAS.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/glycogenstorage/PAS.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/glycogenstorage/PAS.html" width="100%" height="400px"></iframe>
 
 **PASD Slide**
 
-- [https://pathologyatlas.github.io/glycogenstorage/PASD.html](https://pathologyatlas.github.io/glycogenstorage/PASD.html)
+- [https://www.patoloji.dev/glycogenstorage/PASD.html](https://www.patoloji.dev/glycogenstorage/PASD.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/glycogenstorage/PASD.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/glycogenstorage/PASD.html" width="100%" height="400px"></iframe>
 
 
 ## Inflammation and Hemodynamic Disorders 
@@ -118,11 +118,11 @@ See Microscopy with viewer:
 
 Histopathology of fat necrosis and saponification in adipose tissue
 
-- [https://pathologyatlas.github.io/fat-necrosis/HE.html](https://pathologyatlas.github.io/fat-necrosis/HE.html)
+- [https://www.patoloji.dev/fat-necrosis/HE.html](https://www.patoloji.dev/fat-necrosis/HE.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/fat-necrosis/HE.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/fat-necrosis/HE.html" width="100%" height="400px"></iframe>
 
 
 
@@ -134,21 +134,21 @@ Histopathology of fat necrosis and saponification in adipose tissue
 Histopathology of a developing firosis in a cholecystitis 
 
 
-- [https://pathologyatlas.github.io/fibrosis/HE.html](https://pathologyatlas.github.io/fibrosis/HE.html)
+- [https://www.patoloji.dev/fibrosis/HE.html](https://www.patoloji.dev/fibrosis/HE.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/fibrosis/HE.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/fibrosis/HE.html" width="100%" height="400px"></iframe>
 
 ### Keloid - Scar
 
 Histopathology of Keloid Scar Formation 
 
-- [https://pathologyatlas.github.io/keloid-scar/HE.html](https://pathologyatlas.github.io/keloid-scar/HE.html)
+- [https://www.patoloji.dev/keloid-scar/HE.html](https://www.patoloji.dev/keloid-scar/HE.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/keloid-scar/HE.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/keloid-scar/HE.html" width="100%" height="400px"></iframe>
 
 
 
@@ -173,11 +173,11 @@ Histopathology of Keloid Scar Formation
 Crystal violet stain of amyloid accumulation in vessel wall
 
 
-- [https://pathologyatlas.github.io/amyloid/crystalviolet.html](https://pathologyatlas.github.io/amyloid/crystalviolet.html)
+- [https://www.patoloji.dev/amyloid/crystalviolet.html](https://www.patoloji.dev/amyloid/crystalviolet.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/amyloid/crystalviolet.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/amyloid/crystalviolet.html" width="100%" height="400px"></iframe>
 
 
 
@@ -187,11 +187,11 @@ Crystal violet stain of amyloid accumulation in vessel wall
 
 ### Candida _albicans_ in cervicovaginal smear
 
-- [https://pathologyatlas.github.io/candidaalbicans/cervicovaginalsmear/viewer_z0.html](https://pathologyatlas.github.io/candidaalbicans/cervicovaginalsmear/viewer_z0.html)
+- [https://www.patoloji.dev/candidaalbicans/cervicovaginalsmear/viewer_z0.html](https://www.patoloji.dev/candidaalbicans/cervicovaginalsmear/viewer_z0.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/candidaalbicans/cervicovaginalsmear/viewer_z0.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/candidaalbicans/cervicovaginalsmear/viewer_z0.html" width="100%" height="400px"></iframe>
 
 
 
@@ -200,11 +200,11 @@ Crystal violet stain of amyloid accumulation in vessel wall
 #### Herpes Esophagatis
 
 
-- [https://pathologyatlas.github.io/HSV/herpesesophagitis/viewer_z0.html](https://pathologyatlas.github.io/HSV/herpesesophagitis/viewer_z0.html)
+- [https://www.patoloji.dev/HSV/herpesesophagitis/viewer_z0.html](https://www.patoloji.dev/HSV/herpesesophagitis/viewer_z0.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/HSV/herpesesophagitis/viewer_z0.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/HSV/herpesesophagitis/viewer_z0.html" width="100%" height="400px"></iframe>
 
 
 
@@ -213,11 +213,11 @@ Crystal violet stain of amyloid accumulation in vessel wall
 
 #### Warthin Starry Slide
 
-[https://pathologyatlas.github.io/helicobacterpylori/warthinstarry.html](https://pathologyatlas.github.io/helicobacterpylori/warthinstarry.html)
+[https://www.patoloji.dev/helicobacterpylori/warthinstarry.html](https://www.patoloji.dev/helicobacterpylori/warthinstarry.html)
 
 See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/helicobacterpylori/warthinstarry.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/helicobacterpylori/warthinstarry.html" width="100%" height="400px"></iframe>
 
 
 
@@ -245,18 +245,18 @@ See Microscopy with viewer:
 
 #### Flat Tubular Adenoma 
 
-- [https://pathologyatlas.github.io/tubularadenoma-flat/HE.html](https://pathologyatlas.github.io/tubularadenoma-flat/HE.html)
+- [https://www.patoloji.dev/tubularadenoma-flat/HE.html](https://www.patoloji.dev/tubularadenoma-flat/HE.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/tubularadenoma-flat/HE.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/tubularadenoma-flat/HE.html" width="100%" height="400px"></iframe>
 
 
-- [https://pathologyatlas.github.io/tubularadenoma-flat/HE2.html](https://pathologyatlas.github.io/tubularadenoma-flat/HE2.html)
+- [https://www.patoloji.dev/tubularadenoma-flat/HE2.html](https://www.patoloji.dev/tubularadenoma-flat/HE2.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/tubularadenoma-flat/HE2.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/tubularadenoma-flat/HE2.html" width="100%" height="400px"></iframe>
 
 
 
@@ -264,23 +264,23 @@ See Microscopy with viewer:
 
 - Macroscopy
 
-![tubular adenoma with a stalk macroscopy](https://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg){:80%}
+![tubular adenoma with a stalk macroscopy](https://www.patoloji.dev/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg){:80%}
 
 
-<img src ="https://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg" alt="tubular adenoma with a stalk macroscopy" width="80%">
+<img src ="https://www.patoloji.dev/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg" alt="tubular adenoma with a stalk macroscopy" width="80%">
 
 - Microscopy
 
-![tubular adenoma with a stalk](https://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk.jpeg)
+![tubular adenoma with a stalk](https://www.patoloji.dev/tubularadenoma/tubular-adenoma-with-stalk.jpeg)
 
 - See Microscopy with viewer: 
 
-[https://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html](https://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html)
+[https://www.patoloji.dev/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html](https://www.patoloji.dev/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html)
 
 
 
 
-<iframe src="https://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html" width="100%" height="400px"></iframe>
 
 
 
@@ -310,32 +310,32 @@ See Microscopy with viewer:
 #### Intrapancreatic Spleen, Heterotopia
 
 
-- [https://pathologyatlas.github.io/intrapancreaticspleen/HE.html](https://pathologyatlas.github.io/intrapancreaticspleen/HE.html)
+- [https://www.patoloji.dev/intrapancreaticspleen/HE.html](https://www.patoloji.dev/intrapancreaticspleen/HE.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/intrapancreaticspleen/HE.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/intrapancreaticspleen/HE.html" width="100%" height="400px"></iframe>
 
 
 ### Hamartoma
 
 #### Hamartomatous Polyp
 
-- [https://pathologyatlas.github.io/hamartomatouspolyp/HE.html](https://pathologyatlas.github.io/hamartomatouspolyp/HE.html)
+- [https://www.patoloji.dev/hamartomatouspolyp/HE.html](https://www.patoloji.dev/hamartomatouspolyp/HE.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/hamartomatouspolyp/HE.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/hamartomatouspolyp/HE.html" width="100%" height="400px"></iframe>
 
 
 ### Metastasis
 #### Metastatic Sarcoma in the Liver
 
-- [https://pathologyatlas.github.io/metastaticsarcoma/HE.html](https://pathologyatlas.github.io/metastaticsarcoma/HE.html)
+- [https://www.patoloji.dev/metastaticsarcoma/HE.html](https://www.patoloji.dev/metastaticsarcoma/HE.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/metastaticsarcoma/HE.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/metastaticsarcoma/HE.html" width="100%" height="400px"></iframe>
 
 
 ### Osteosarcoma
@@ -460,11 +460,11 @@ See Microscopy with viewer:
 
 ### Kidney Oncocytoma
 
-- [https://pathologyatlas.github.io/kidneyoncocytoma/HE.html](https://pathologyatlas.github.io/kidneyoncocytoma/HE.html)
+- [https://www.patoloji.dev/kidneyoncocytoma/HE.html](https://www.patoloji.dev/kidneyoncocytoma/HE.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/kidneyoncocytoma/HE.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/kidneyoncocytoma/HE.html" width="100%" height="400px"></iframe>
 
 
 
@@ -504,11 +504,11 @@ See Microscopy with viewer:
 
 ### Ovary, Serous borderline tumor, micropapillary variant
 
-- [https://pathologyatlas.github.io/ovarianserousmicropapillary/HE.html](https://pathologyatlas.github.io/ovarianserousmicropapillary/HE.html)
+- [https://www.patoloji.dev/ovarianserousmicropapillary/HE.html](https://www.patoloji.dev/ovarianserousmicropapillary/HE.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/ovarianserousmicropapillary/HE.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/ovarianserousmicropapillary/HE.html" width="100%" height="400px"></iframe>
 
 
 
@@ -558,18 +558,18 @@ See Microscopy with viewer:
 
 #### Flat Tubular Adenoma 
 
-- [https://pathologyatlas.github.io/tubularadenoma-flat/HE.html](https://pathologyatlas.github.io/tubularadenoma-flat/HE.html)
+- [https://www.patoloji.dev/tubularadenoma-flat/HE.html](https://www.patoloji.dev/tubularadenoma-flat/HE.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/tubularadenoma-flat/HE.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/tubularadenoma-flat/HE.html" width="100%" height="400px"></iframe>
 
 
-- [https://pathologyatlas.github.io/tubularadenoma-flat/HE2.html](https://pathologyatlas.github.io/tubularadenoma-flat/HE2.html)
+- [https://www.patoloji.dev/tubularadenoma-flat/HE2.html](https://www.patoloji.dev/tubularadenoma-flat/HE2.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/tubularadenoma-flat/HE2.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/tubularadenoma-flat/HE2.html" width="100%" height="400px"></iframe>
 
 
 
@@ -577,23 +577,23 @@ See Microscopy with viewer:
 
 - Macroscopy
 
-![tubular adenoma with a stalk macroscopy](https://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg){:80%}
+![tubular adenoma with a stalk macroscopy](https://www.patoloji.dev/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg){:80%}
 
 
-<img src ="https://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg" alt="tubular adenoma with a stalk macroscopy" width="80%">
+<img src ="https://www.patoloji.dev/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg" alt="tubular adenoma with a stalk macroscopy" width="80%">
 
 - Microscopy
 
-![tubular adenoma with a stalk](https://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk.jpeg)
+![tubular adenoma with a stalk](https://www.patoloji.dev/tubularadenoma/tubular-adenoma-with-stalk.jpeg)
 
 - See Microscopy with viewer: 
 
-[https://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html](https://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html)
+[https://www.patoloji.dev/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html](https://www.patoloji.dev/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html)
 
 
 
 
-<iframe src="https://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html" width="100%" height="400px"></iframe>
 
 
 
@@ -602,21 +602,21 @@ See Microscopy with viewer:
 
 - Microscopy
 
-[https://pathologyatlas.github.io/hyperplasticpolyp/case1.html](https://pathologyatlas.github.io/hyperplasticpolyp/case1.html)
+[https://www.patoloji.dev/hyperplasticpolyp/case1.html](https://www.patoloji.dev/hyperplasticpolyp/case1.html)
 
 - See Microscopy with viewer: 
 
 
-<iframe src="https://pathologyatlas.github.io/hyperplasticpolyp/case1.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/hyperplasticpolyp/case1.html" width="100%" height="400px"></iframe>
 
 
 ### Hamartomatous Polyp
 
-- [https://pathologyatlas.github.io/hamartomatouspolyp/HE.html](https://pathologyatlas.github.io/hamartomatouspolyp/HE.html)
+- [https://www.patoloji.dev/hamartomatouspolyp/HE.html](https://www.patoloji.dev/hamartomatouspolyp/HE.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/hamartomatouspolyp/HE.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/hamartomatouspolyp/HE.html" width="100%" height="400px"></iframe>
 
 
 
@@ -674,11 +674,11 @@ See Microscopy with viewer:
 
 ### Hepatocellular Carcinoma, without cirrhosis
 
-- [https://pathologyatlas.github.io/hepatocellularcarcinoma/HCC/viewer_z0.html](https://pathologyatlas.github.io/hepatocellularcarcinoma/HCC/viewer_z0.html)
+- [https://www.patoloji.dev/hepatocellularcarcinoma/HCC/viewer_z0.html](https://www.patoloji.dev/hepatocellularcarcinoma/HCC/viewer_z0.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/hepatocellularcarcinoma/HCC/viewer_z0.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/hepatocellularcarcinoma/HCC/viewer_z0.html" width="100%" height="400px"></iframe>
 
 
 
@@ -721,11 +721,11 @@ See Microscopy with viewer:
 
 ### Cholesteatoma
 
-- [https://pathologyatlas.github.io/cholesteatoma/cholesteatoma.html](https://pathologyatlas.github.io/cholesteatoma/cholesteatoma.html)
+- [https://www.patoloji.dev/cholesteatoma/cholesteatoma.html](https://www.patoloji.dev/cholesteatoma/cholesteatoma.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/cholesteatoma/cholesteatoma.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/cholesteatoma/cholesteatoma.html" width="100%" height="400px"></iframe>
 
 
 
@@ -767,25 +767,25 @@ See Microscopy with viewer:
 
 ## Exostosis (osteochondroma)
 
-- [https://pathologyatlas.github.io/exostosis/oc.html](https://pathologyatlas.github.io/exostosis/oc.html)
+- [https://www.patoloji.dev/exostosis/oc.html](https://www.patoloji.dev/exostosis/oc.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/exostosis/oc.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/exostosis/oc.html" width="100%" height="400px"></iframe>
 
 
-- [https://pathologyatlas.github.io/exostosis/oc001.html](https://pathologyatlas.github.io/exostosis/oc001.html)
-
-- See Microscopy with viewer: 
-
-<iframe src="https://pathologyatlas.github.io/exostosis/oc001.html" width="100%" height="400px"></iframe>
-
-
-- [https://pathologyatlas.github.io/exostosis/oc002.html](https://pathologyatlas.github.io/exostosis/oc002.html)
+- [https://www.patoloji.dev/exostosis/oc001.html](https://www.patoloji.dev/exostosis/oc001.html)
 
 - See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/exostosis/oc002.html" width="100%" height="400px"></iframe>
+<iframe src="https://www.patoloji.dev/exostosis/oc001.html" width="100%" height="400px"></iframe>
+
+
+- [https://www.patoloji.dev/exostosis/oc002.html](https://www.patoloji.dev/exostosis/oc002.html)
+
+- See Microscopy with viewer: 
+
+<iframe src="https://www.patoloji.dev/exostosis/oc002.html" width="100%" height="400px"></iframe>
 
 
 ### Liposarcoma
