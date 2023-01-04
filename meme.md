@@ -2,4 +2,4 @@
 
 # Breast Pathology
 
-See extended list of Breast Pathology cases here <https://www.patoloji.dev/breast/>
+See extended list of Breast Pathology cases here <https://images.patolojiatlasi.com/breast/>
