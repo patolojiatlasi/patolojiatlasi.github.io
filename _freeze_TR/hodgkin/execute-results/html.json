@@ -1,8 +1,10 @@
 {
-  "hash": "a0c0108d77f74a7c66dbeb394c4a0657",
+  "hash": "552f4a09ecfe0869af36392ee65db397",
   "result": {
-    "markdown": "::: {.cell}\n\n:::\n\n::: {.cell}\n\n## Hodgkin Lenfoma\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n**Hodgkin Lenfoma**\n\n\n[https://pathologyatlas.github.io/hodgkin/HE.html](https://pathologyatlas.github.io/hodgkin/HE.html)\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://pathologyatlas.github.io/hodgkin/HE.html\" style=\"height:400px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n::: {.cell}\n\n:::\n",
-    "supporting": [],
+    "markdown": "::: {.cell}\n\n:::\n\n::: {.cell}\n\n## Hodgkin Lenfoma\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n**Hodgkin Lenfoma**\n\n\n[https://www.patoloji.dev/hodgkin/HE.html](https://www.patoloji.dev/hodgkin/HE.html)\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://www.patoloji.dev/hodgkin/HE.html\" style=\"height:400px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "hodgkin_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
