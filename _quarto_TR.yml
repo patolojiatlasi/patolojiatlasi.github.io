@@ -89,12 +89,15 @@ book:
         href: https://www.patolojinotlari.com
       - icon: globe2
         href: https://serdarbalci.com
+        target: _blank
+
   chapters:
     - text: "Anasayfa"
       href: index.qmd
     - text: "Giriş"
       href: giris.qmd
-    - yazarlar.qmd
+    - href: yazarlar.qmd
+      target: _blank
     - part: "---"
     - part: "Genel Patoloji"
       chapters:
@@ -299,4 +302,13 @@ citation:
 
 
 editor: visual
+
+# https://github.com/quarto-dev/quarto-cli/discussions/2283
+
+function Link (link)
+  if link.target:match '^https?%:' then
+    link.attributes.target = '_blank'
+    return link
+  end
+end
 
