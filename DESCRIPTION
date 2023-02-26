@@ -16,7 +16,7 @@ Authors@R:
            comment = c(ORCID = "0000-0002-7852-3851"))
 Maintainer: Serdar Balci <serdar.balci@memorial.com.tr>
 Depends: 
-    R (>= 4.1.0)
+    R (>= 4.2.0)
 Imports:
     remotes,
     rlang,
