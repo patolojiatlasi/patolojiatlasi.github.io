@@ -89,7 +89,7 @@ book:
         href: https://www.patolojinotlari.com
       - icon: globe2
         href: https://serdarbalci.com
-        target: _blank
+        # target: _blank
 
   chapters:
     - text: "Anasayfa"
@@ -97,7 +97,7 @@ book:
     - text: "Giriş"
       href: giris.qmd
     - href: yazarlar.qmd
-      target: _blank
+      # target: _blank
     - part: "---"
     - part: "Genel Patoloji"
       chapters:
@@ -305,10 +305,10 @@ editor: visual
 
 # https://github.com/quarto-dev/quarto-cli/discussions/2283
 
-function Link (link)
-  if link.target:match '^https?%:' then
-    link.attributes.target = '_blank'
-    return link
-  end
-end
+# function Link (link)
+#   if link.target:match '^https?%:' then
+#     link.attributes.target = '_blank'
+#     return link
+#   end
+# end
 
