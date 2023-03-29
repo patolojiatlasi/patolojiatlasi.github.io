@@ -5,7 +5,7 @@ project:
     - "CITATION.cff"
 
 execute:
-  freeze: auto
+  freeze: false
 
 lang: en
 
@@ -213,7 +213,7 @@ book:
     - text: "Recommendations"
       href: wsi.qmd
     - text: "Hacettepe Case of Month"
-      href: hacettepe-com.qmd
+      href: hacettepecom.qmd
     - part: "---"
   appendices:
     - yonetim-gelistirme.md

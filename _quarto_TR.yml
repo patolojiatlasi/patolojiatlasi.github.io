@@ -5,7 +5,7 @@ project:
     - "CITATION.cff"
 
 execute:
-  freeze: auto
+  freeze: false
 
 lang: tr
 
@@ -222,7 +222,7 @@ book:
     - text: "Öneriler"
       href: wsi.qmd
     - text: "Hacettepe Ayın Vakası"
-      href: hacettepe-com.qmd
+      href: hacettepecom.qmd
     - part: "---"
   appendices:
     - yonetim-gelistirme.md
