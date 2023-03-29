@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: "actions checkout"
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: "Setup Quarto"
         uses: quarto-dev/quarto-actions/setup@v2
@@ -28,9 +28,9 @@ jobs:
       #     pip install -r requirements.txt
 
 
-      # - name: "Install curl for Bioconductor"
-      #  run: |
-      #    sudo apt -y install libcurl4-openssl-dev
+      - name: "Install curl for Bioconductor"
+       run: |
+         sudo apt -y install libcurl4-openssl-dev
 
 
       - uses: r-lib/actions/setup-r@v2
