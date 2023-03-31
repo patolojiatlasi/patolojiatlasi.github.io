@@ -157,7 +157,8 @@ book:
           href: kolon.qmd
     - part: "Liver"
       chapters:
-        - karaciger.qmd
+        - text: "Liver Tumors"
+          href: karaciger.qmd
         - text: "Benign Liver Tumors"
           href: karaciger-benign.qmd
     - part: "Pankreatobiliary system"
@@ -172,23 +173,32 @@ book:
           href: mezotel.qmd
     - part: "Gynecopathology"
       chapters:
-        - jineko.qmd
-        - genital.qmd
+        - text: "Gynecopathology"
+          href: jineko.qmd
+        - text: "Genital System"
+          href: genital.qmd
         - text: "Endometrium"
           href: endometrium.qmd
         - text: "Endometriosis"
           href: endometriosis.qmd
     - part: "Uropathology"
       chapters:
-        - uriner.qmd
-        - bobrek.qmd
+        - text: "Uropathology"
+          href: uriner.qmd
+        - text: "Kidney Tumors / Renal Tumors"
+          href: bobrek.qmd
     - part: "Endocrine System"
       chapters:
-        - hipofiz.qmd
-    - part: meme.md
+        - text: "Pituitary Adenoma"
+          href: hipofiz.qmd
+    - part: "Breast"
+      chapters:
+        - text: "Breast Tumors"
+          href: meme.md
     - part: "Head and Neck"
       chapters:
-        - kulak.qmd
+        - text: "Ear"
+          href: kulak.qmd
     - part: "Central Nervous System"
       chapters:
         - text: "Glioma"
@@ -199,7 +209,8 @@ book:
           href: sss-vaskuler.qmd
     - part: "Bone"
       chapters:
-        - kemik.qmd
+        - text: "Bone Tumors"
+          href: kemik.qmd
     - part: "Soft Tissue"
       chapters:
         - text: "Adipose Tissue"

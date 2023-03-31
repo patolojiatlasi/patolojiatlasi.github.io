@@ -166,8 +166,9 @@ book:
           href: kolon.qmd
     - part: "Karaciğer Patolojisi"
       chapters:
-        - karaciger.qmd
-        - text: "Karaciğer Benign Tümörleri"
+        - text: "Karaciğer Tümörleri"
+          href: karaciger.qmd
+        - text: "Benign Karaciğer Tümörleri"
           href: karaciger-benign.qmd
     - part: "Pankreatobilier Sistem Patolojisi"
       chapters:
@@ -181,23 +182,32 @@ book:
           href: mezotel.qmd
     - part: "Jinekolojik Patoloji"
       chapters:
-        - jineko.qmd
-        - genital.qmd
+        - text: "Jinekolojik Patoloji"
+          href: jineko.qmd
+        - text: "Genital Sistem Patolojisi"
+          href: genital.qmd
         - text: "Endometrium"
           href: endometrium.qmd
         - text: "Endometriozis"
           href: endometriosis.qmd
     - part: "Üriner Sistem Patolojisi"
       chapters:
-        - uriner.qmd
-        - bobrek.qmd
+        - text: "Üropatoloji"
+          href: uriner.qmd
+        - text: "Böbrek Tümörleri / Renal Tümörler"
+          href: bobrek.qmd
     - part: "Endokrin Sistem Patolojisi"
       chapters:
-        - hipofiz.qmd
-    - part: meme.md
+        - text: "Hipofiz Adenomu"
+          href: hipofiz.qmd
+    - part: "Meme Patolojisi"
+      chapters:
+        - text: "Meme Tümörleri"
+          href: meme.md
     - part: "Baş Boyun Patolojisi"
       chapters:
-        - kulak.qmd
+        - text: "Kulak"
+          href: kulak.qmd
     - part: "Santral Sinir Sistem Patolojisi"
       chapters:
         - text: "Gliomlar"
@@ -208,7 +218,8 @@ book:
           href: sss-vaskuler.qmd
     - part: "Kemik Patolojisi"
       chapters:
-        - kemik.qmd
+        - text: "Kemik Tümörleri"
+          href: kemik.qmd
     - part: "Yumuşak Doku Patolojisi"
       chapters:
         - text: "Adipöz Doku Patolojisi"
