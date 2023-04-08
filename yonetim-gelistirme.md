@@ -121,6 +121,29 @@ see: [Using templates for new repositories](https://github.com/pathologyatlas/te
 -   https://gitweet.io/
 -   https://joshuaiz.com/words/using-github-actions-to-post-to-twitter-on-commit
 
+
+
+## Ders Notlarını ve PPT ekle
+
+```
+<iframe src="https://www.serdarbalci.com/makalesaati/ISO-accreditation-digital-pathology.html" width="100%" height="475px"></iframe>
+```
+
+
+```
+{=html}
+<iframe class="slide-deck" src="/dokuman/ISO-accreditation-digital-pathology.html" width="100%" height="475px"></iframe>
+```
+
+
+```
+{{< include ./dokuman/_ISO-accreditation-digital-pathology.qmd >}}
+
+```
+
+
+
+
 ------------------------------------------------------------------------
 
 ``` zsh
@@ -147,8 +170,7 @@ This is an example of a callout with a caption.
 ::: {.callout-caution collapse="true"}
 ## Expand To Learn About Collapse
 
-This is an example of a 'folded' caution callout that can be expanded by the user.
-You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
 :::
 
 ::: aside
