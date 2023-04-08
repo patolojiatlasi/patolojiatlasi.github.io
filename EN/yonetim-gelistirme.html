@@ -738,6 +738,7 @@ Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Path
   <li><a href="#language" id="toc-language" class="nav-link" data-scroll-target="#language"><span class="toc-section-number">G.3</span>  Language</a></li>
   <li><a href="#github-actions" id="toc-github-actions" class="nav-link" data-scroll-target="#github-actions"><span class="toc-section-number">G.4</span>  GitHub Actions</a></li>
   <li><a href="#tweeting-with-update" id="toc-tweeting-with-update" class="nav-link" data-scroll-target="#tweeting-with-update"><span class="toc-section-number">G.5</span>  tweeting with update</a></li>
+  <li><a href="#ders-notlarını-ve-ppt-ekle" id="toc-ders-notlarını-ve-ppt-ekle" class="nav-link" data-scroll-target="#ders-notlarını-ve-ppt-ekle"><span class="toc-section-number">G.6</span>  Ders Notlarını ve PPT ekle</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -862,7 +863,7 @@ Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Path
 <li>https://github.com/marketplace/actions/file-changes-action</li>
 </ul>
 </section>
-<section id="tweeting-with-update" class="level2 page-columns page-full" data-number="G.5">
+<section id="tweeting-with-update" class="level2" data-number="G.5">
 <h2 data-number="G.5" class="anchored" data-anchor-id="tweeting-with-update"><span class="header-section-number">G.5</span> tweeting with update</h2>
 <ul>
 <li>https://github.com/and-computers/HowToTweetEveryCommit</li>
@@ -870,9 +871,17 @@ Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Path
 <li>https://gitweet.io/</li>
 <li>https://joshuaiz.com/words/using-github-actions-to-post-to-twitter-on-commit</li>
 </ul>
+</section>
+<section id="ders-notlarını-ve-ppt-ekle" class="level2 page-columns page-full" data-number="G.6">
+<h2 data-number="G.6" class="anchored" data-anchor-id="ders-notlarını-ve-ppt-ekle"><span class="header-section-number">G.6</span> Ders Notlarını ve PPT ekle</h2>
+<pre><code>&lt;iframe src="https://www.serdarbalci.com/makalesaati/ISO-accreditation-digital-pathology.html" width="100%" height="475px"&gt;&lt;/iframe&gt;</code></pre>
+<pre><code>{=html}
+&lt;iframe class="slide-deck" src="/dokuman/ISO-accreditation-digital-pathology.html" width="100%" height="475px"&gt;&lt;/iframe&gt;</code></pre>
+<pre><code>{{&lt; include ./dokuman/_ISO-accreditation-digital-pathology.qmd &gt;}}
+</code></pre>
 <hr>
-<div class="sourceCode" id="cb3"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">--allow-empty</span> <span class="at">-m</span> <span class="st">"Empty-Commit"</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">--allow-empty</span> <span class="at">-m</span> <span class="st">"Empty-Commit"</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <hr>
 <ul>
 <li>https://www.w3schools.com/howto/howto_css_responsive_iframes.asp</li>
