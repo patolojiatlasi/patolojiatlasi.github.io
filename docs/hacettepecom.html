@@ -701,6 +701,26 @@ gtag('config', 'G-7BT7Q4FLT9', { 'anonymize_ip': true});
 <p>Mikroskopik görüntüleri inceleyin:</p>
 <iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html" style="height:400px;width:100%;" data-external="1">
 </iframe>
+<button id="tani-case1-btn">
+Tanıyı Göster
+</button>
+<div id="answer" style="display: none;">
+İntradermal Nodüler Fasciitis
+</div>
+<script>
+  const showAnswerBtn = document.getElementById('tani-case1-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
 </div>
 <div class="cell">
 
