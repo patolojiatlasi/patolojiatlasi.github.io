@@ -81,6 +81,23 @@ Mikroskopik görüntüleri inceleyin:
 
 **hacettepe-com-case-1**
 
+<button id="dx-case1-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Intradermal Nodular Fasciitis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case1-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
 
 [https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
 
@@ -94,11 +111,116 @@ See Microscopy with viewer:
 
 
 
+```{asis, echo = (language == "TR")}
+
+## Case-2
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-2
+
+```
+
 
 - [case 2](https://www.youtube.com/watch?v=xHQihI19L5g&t=164s&ab_channel=KemalKosemehmetoglu)
 
 
 {{< video https://www.youtube.com/embed/ >}}
+
+
+
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-3
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-3
+
+```
 
 
 - [case 3](https://www.youtube.com/watch?v=JGDsmznBqZM&t=24s&ab_channel=KemalKosemehmetoglu)
@@ -113,6 +235,97 @@ https://www.youtube.com/watch?v=yKnEyGE4oD4&ab_channel=KemalKosemehmetoglu
 https://www.youtube.com/watch?v=M__Z-JU5X8k&ab_channel=KemalKosemehmetoglu
 
 
+
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-4
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-4
+
+```
+
+
+
 - [case 4](https://www.youtube.com/watch?v=Akp6H3myCIo&t=11s&ab_channel=KemalKosemehmetoglu)
 
 
@@ -121,10 +334,192 @@ https://www.youtube.com/watch?v=M__Z-JU5X8k&ab_channel=KemalKosemehmetoglu
 {{< video https://www.youtube.com/embed/ >}}
 
 
+
+
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-5
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-5
+
+```
+
+
+
+
 - [case 5](https://www.youtube.com/watch?v=o13qcP56mqg&t=69s&ab_channel=KemalKosemehmetoglu)
 
 
 {{< video https://www.youtube.com/embed/ >}}
+
+
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-6
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-6
+
+```
 
 
 - [case 6](https://www.youtube.com/watch?v=ipjRs0h1PnY&t=187s&ab_channel=KemalKosemehmetoglu)
@@ -133,10 +528,189 @@ https://www.youtube.com/watch?v=M__Z-JU5X8k&ab_channel=KemalKosemehmetoglu
 {{< video https://www.youtube.com/embed/ >}}
 
 
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-7
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-7
+
+```
+
+
+
 - [case 7](https://www.youtube.com/watch?v=FU-Fv7kQPdE&ab_channel=KemalKosemehmetoglu)
 
 
 {{< video https://www.youtube.com/embed/ >}}
+
+
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-8
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-8
+
+```
 
 
 - [case 8](https://www.youtube.com/watch?v=c8pDBHRO7t8&ab_channel=KemalKosemehmetoglu)
@@ -145,10 +719,188 @@ https://www.youtube.com/watch?v=M__Z-JU5X8k&ab_channel=KemalKosemehmetoglu
 {{< video https://www.youtube.com/embed/ >}}
 
 
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-9
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-9
+
+```
+
+
 - [case 9](https://www.youtube.com/watch?v=9OxpsDNCHWk&ab_channel=KemalKosemehmetoglu)
 
 
 {{< video https://www.youtube.com/embed/ >}}
+
+
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-10
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-10
+
+```
 
 
 - [case 10](https://www.youtube.com/watch?v=0vNcCaTYstU&t=1s&ab_channel=KemalKosemehmetoglu)
@@ -157,10 +909,188 @@ https://www.youtube.com/watch?v=M__Z-JU5X8k&ab_channel=KemalKosemehmetoglu
 {{< video https://www.youtube.com/embed/ >}}
 
 
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-11
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-11
+
+```
+
+
 - [case 11](https://www.youtube.com/watch?v=A5XO1Kp11Zk&ab_channel=KemalKosemehmetoglu)
 
 
 {{< video https://www.youtube.com/embed/ >}}
+
+
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-12
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-12
+
+```
 
 
 - [case 12](https://www.youtube.com/watch?v=2TwT4sE9XmM&ab_channel=KemalKosemehmetoglu)
@@ -169,10 +1099,188 @@ https://www.youtube.com/watch?v=M__Z-JU5X8k&ab_channel=KemalKosemehmetoglu
 {{< video https://www.youtube.com/embed/ >}}
 
 
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-13
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-13
+
+```
+
+
 - [case 13](https://www.youtube.com/watch?v=TLRJ0pBrwxA&ab_channel=KemalKosemehmetoglu)
 
 
 {{< video https://www.youtube.com/embed/ >}}
+
+
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-14
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-14
+
+```
 
 
 - [case 14](https://www.youtube.com/watch?v=MVZntjhry6g&ab_channel=KemalKosemehmetoglu)
@@ -181,10 +1289,188 @@ https://www.youtube.com/watch?v=M__Z-JU5X8k&ab_channel=KemalKosemehmetoglu
 {{< video https://www.youtube.com/embed/ >}}
 
 
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-15
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-15
+
+```
+
+
 - [case 15](https://www.youtube.com/watch?v=3lmx9hYGcG8&t=20s&ab_channel=KemalKosemehmetoglu)
 
 
 {{< video https://www.youtube.com/embed/ >}}
+
+
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-16
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-16
+
+```
 
 
 - [case 16](https://www.youtube.com/watch?v=Tkempcd59I0&t=1s&ab_channel=KemalKosemehmetoglu)
@@ -193,10 +1479,188 @@ https://www.youtube.com/watch?v=M__Z-JU5X8k&ab_channel=KemalKosemehmetoglu
 {{< video https://www.youtube.com/embed/ >}}
 
 
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-17
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-17
+
+```
+
+
 - [case 17](https://www.youtube.com/watch?v=zlewGuN0BBY&t=31s&ab_channel=KemalKosemehmetoglu)
 
 
 {{< video https://www.youtube.com/embed/ >}}
+
+
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-18
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-18
+
+```
 
 
 - [case 18](https://www.youtube.com/watch?v=5c_5A4z6tro&t=3s&ab_channel=KemalKosemehmetoglu)
@@ -206,11 +1670,189 @@ https://www.youtube.com/watch?v=M__Z-JU5X8k&ab_channel=KemalKosemehmetoglu
 
 
 
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-19
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-19
+
+```
+
+
 
 - [case 19](https://www.youtube.com/watch?v=SaNDCvKzQ6M&ab_channel=KemalKosemehmetoglu)
 
 
 {{< video https://www.youtube.com/embed/ >}}
+
+
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-20
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-20
+
+```
 
 
 - [case 20](https://www.youtube.com/watch?v=f8nE-6oR5VI&ab_channel=KemalKosemehmetoglu)
@@ -219,10 +1861,188 @@ https://www.youtube.com/watch?v=M__Z-JU5X8k&ab_channel=KemalKosemehmetoglu
 {{< video https://www.youtube.com/embed/ >}}
 
 
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-21
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-21
+
+```
+
+
 - [case 21](https://www.youtube.com/watch?v=Uith4SvB2_Q&t=20s&ab_channel=KemalKosemehmetoglu)
 
 
 {{< video https://www.youtube.com/embed/ >}}
+
+
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-22
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-22
+
+```
 
 
 - [case 22](https://www.youtube.com/watch?v=wo6N0q5EiWc&ab_channel=KemalKosemehmetoglu)
@@ -231,10 +2051,188 @@ https://www.youtube.com/watch?v=M__Z-JU5X8k&ab_channel=KemalKosemehmetoglu
 {{< video https://www.youtube.com/embed/ >}}
 
 
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-23
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-23
+
+```
+
+
 - [case 23](https://www.youtube.com/watch?v=2j0ER0ShVR0&ab_channel=KemalKosemehmetoglu)
 
 
 {{< video https://www.youtube.com/embed/ >}}
+
+
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-24
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-24
+
+```
 
 
 - [case 24](https://www.youtube.com/watch?v=-S0_Hr6sNZ8&ab_channel=KemalKosemehmetoglu)
@@ -243,10 +2241,188 @@ https://www.youtube.com/watch?v=M__Z-JU5X8k&ab_channel=KemalKosemehmetoglu
 {{< video https://www.youtube.com/embed/ >}}
 
 
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-25
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-25
+
+```
+
+
 - [case 25](https://www.youtube.com/watch?v=tcmQKs38A14&ab_channel=KemalKosemehmetoglu)
 
 
 {{< video https://www.youtube.com/embed/ >}}
+
+
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-26
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-26
+
+```
 
 
 - [case 26](https://www.youtube.com/watch?v=UHadS40tpkY&ab_channel=KemalKosemehmetoglu)
@@ -255,10 +2431,188 @@ https://www.youtube.com/watch?v=M__Z-JU5X8k&ab_channel=KemalKosemehmetoglu
 {{< video https://www.youtube.com/embed/ >}}
 
 
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-27
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-27
+
+```
+
+
 - [case 27](https://www.youtube.com/watch?v=c2ePAdTH00g&ab_channel=KemalKosemehmetoglu)
 
 
 {{< video https://www.youtube.com/embed/ >}}
+
+
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-28
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-28
+
+```
 
 
 - [case 28](https://www.youtube.com/watch?v=yUrabUzw3RI&ab_channel=KemalKosemehmetoglu)
@@ -267,10 +2621,188 @@ https://www.youtube.com/watch?v=M__Z-JU5X8k&ab_channel=KemalKosemehmetoglu
 {{< video https://www.youtube.com/embed/ >}}
 
 
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-29
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-29
+
+```
+
+
 - [case 29](https://www.youtube.com/watch?v=GkGz7NV7JmM&ab_channel=KemalKosemehmetoglu)
 
 
 {{< video https://www.youtube.com/embed/ >}}
+
+
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-30
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-30
+
+```
 
 
 - [case 30](https://www.youtube.com/watch?v=az6Fk7bYsQ8&ab_channel=KemalKosemehmetoglu)
@@ -279,10 +2811,188 @@ https://www.youtube.com/watch?v=M__Z-JU5X8k&ab_channel=KemalKosemehmetoglu
 {{< video https://www.youtube.com/embed/ >}}
 
 
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-31
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-31
+
+```
+
+
 - [case 31](https://www.youtube.com/watch?v=KHM2yQkRIV8&ab_channel=KemalKosemehmetoglu)
 
 
 {{< video https://www.youtube.com/embed/ >}}
+
+
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-32
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-32
+
+```
 
 
 - [case 32](https://www.youtube.com/watch?v=mnLIi1sNnlQ&ab_channel=KemalKosemehmetoglu)
@@ -291,10 +3001,188 @@ https://www.youtube.com/watch?v=M__Z-JU5X8k&ab_channel=KemalKosemehmetoglu
 {{< video https://www.youtube.com/embed/ >}}
 
 
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-33
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-33
+
+```
+
+
 - [case 33](https://www.youtube.com/watch?v=iWDCr1XysLk&ab_channel=KemalKosemehmetoglu)
 
 
 {{< video https://www.youtube.com/embed/ >}}
+
+
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-34
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-34
+
+```
 
 
 - [case 34](https://www.youtube.com/watch?v=bcIvt60vba0&ab_channel=KemalKosemehmetoglu)
@@ -303,10 +3191,188 @@ https://www.youtube.com/watch?v=M__Z-JU5X8k&ab_channel=KemalKosemehmetoglu
 {{< video https://www.youtube.com/embed/ >}}
 
 
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-35
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-35
+
+```
+
+
 - [case 35](https://www.youtube.com/watch?v=f_rdB9xqpiw&ab_channel=KemalKosemehmetoglu)
 
 
 {{< video https://www.youtube.com/embed/ >}}
+
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-36
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-36
+
+```
+
 
 
 - [case 36](https://www.youtube.com/watch?v=ga7KjbH3U1s&ab_channel=KemalKosemehmetoglu)
@@ -315,10 +3381,188 @@ https://www.youtube.com/watch?v=M__Z-JU5X8k&ab_channel=KemalKosemehmetoglu
 {{< video https://www.youtube.com/embed/ >}}
 
 
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-37
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-37
+
+```
+
+
 - [case 37](https://www.youtube.com/watch?v=H8cnZqL29eI&ab_channel=KemalKosemehmetoglu)
 
 
 {{< video https://www.youtube.com/embed/ >}}
+
+
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-**
+
+
+<button id="tani-case-btn">Tanıyı Göster</button>
+<div id="answer" style="display: none;">Tanı</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('tani-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Tanıyı Gizle';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Tanıyı Göster';
+    }
+  });
+</script>
+
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+
+
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-**
+
+<button id="dx-case-btn">Show the Diagnosis</button>
+<div id="answer" style="display: none;">Diagnosis</div>
+
+<script>
+  const showAnswerBtn = document.getElementById('dx-case-btn');
+  const answer = document.getElementById('answer');
+
+  showAnswerBtn.addEventListener('click', () => {
+    if (answer.style.display === 'none') {
+      answer.style.display = 'block';
+      showAnswerBtn.textContent = 'Hide the Diagnosis';
+    } else {
+      answer.style.display = 'none';
+      showAnswerBtn.textContent = 'Show the Diagnosis';
+    }
+  });
+</script>
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-38
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## Case-38
+
+```
 
 
 - [case 38](https://www.youtube.com/watch?v=hhO5QsqIPFg&ab_channel=KemalKosemehmetoglu)
