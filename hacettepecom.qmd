@@ -10,17 +10,10 @@ source("./R/language.R")
 # [Hacettepe Case Of the Month (COM)](https://hacettepepathology.com/)
 
 
-- [case 1](https://www.youtube.com/watch?v=nfFtViUXHqU&ab_channel=KemalKosemehmetoglu)
-
-
-{{< video https://www.youtube.com/embed/nfFtViUXHqU >}}
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
-## hacettepe-com-case-1
+## Case-1
 
 ```
 
@@ -29,9 +22,16 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## hacettepe-com-case-1
+## Case-1
 
 ```
+
+
+
+- [case 1](https://www.youtube.com/watch?v=nfFtViUXHqU&ab_channel=KemalKosemehmetoglu)
+
+
+{{< video https://www.youtube.com/embed/nfFtViUXHqU >}}
 
 
 
