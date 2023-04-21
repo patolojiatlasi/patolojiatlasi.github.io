@@ -1,3 +1,12 @@
+
+```{r language hacettepe-com-case, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+
+```
+
+
+
 # [Hacettepe Case Of the Month (COM)](https://hacettepepathology.com/)
 
 
@@ -5,6 +14,60 @@
 
 
 {{< video https://www.youtube.com/embed/nfFtViUXHqU >}}
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+## hacettepe-com-case-1
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## hacettepe-com-case-1
+
+```
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-1**
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-1**
+
+
+[https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
 
 
 - [case 2](https://www.youtube.com/watch?v=xHQihI19L5g&t=164s&ab_channel=KemalKosemehmetoglu)
