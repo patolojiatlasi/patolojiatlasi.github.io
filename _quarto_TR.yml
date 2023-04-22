@@ -143,6 +143,7 @@ book:
           href: karsinogenez.qmd
         - malign.qmd
         - metastaz.qmd
+        - tumoryayilim.qmd
     - part: "Tümörlerdeki Prognostik Morfolojik Özellikler"
       chapters:
         - text: "Venöz İnvazyon"
@@ -208,7 +209,7 @@ book:
           href: meme.md
     - part: "Baş Boyun Patolojisi"
       chapters:
-        - text: Nazofarenks
+        - text: "Nazofarenks"
           href: nazofarenks.qmd
         - text: "Kulak"
           href: kulak.qmd

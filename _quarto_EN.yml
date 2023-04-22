@@ -134,6 +134,7 @@ book:
           href: karsinogenez.qmd
         - malign.qmd
         - metastaz.qmd
+        - tumoryayilim.qmd
     - part: "Prognostic Morphologic Features of Neoplasms"
       chapters:
         - text: "Venous Invasion"
@@ -199,7 +200,7 @@ book:
           href: meme.md
     - part: "Head and Neck"
       chapters:
-        - text: Nazopharynx
+        - text: "Nazopharynx"
           href: nazofarenks.qmd
         - text: "Ear"
           href: kulak.qmd
