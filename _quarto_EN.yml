@@ -162,12 +162,16 @@ book:
           href: karaciger.qmd
         - text: "Benign Liver Tumors"
           href: karaciger-benign.qmd
-    - part: "Pankreatobiliary system"
+    - part: "Pancreatobiliary system"
       chapters:
         - text: "Pancreas"
           href: pankreas.qmd
         - text: "Gallbladder"
           href: safrakesesi.qmd
+    - part: "Lung"
+      chapters:
+        - text: "Neuroendocrine"
+          href: noroendokrin.qmd
     - part: "Mezotel"
       chapters:
         - text: "Abdomen"

@@ -177,6 +177,10 @@ book:
           href: pankreas.qmd
         - text: "Safra Kesesi"
           href: safrakesesi.qmd
+    - part: "Akciğer Patolojisi"
+      chapters:
+        - text: "Nöroendokrin"
+          href: noroendokrin.qmd
     - part: "Mezotel"
       chapters:
         - text: "Abdomen"
