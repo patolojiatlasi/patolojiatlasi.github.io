@@ -190,9 +190,9 @@ See Microscopy with viewer:
 
 {{< video https://www.youtube.com/embed/JGDsmznBqZM >}}
 
-https://www.youtube.com/watch?v=yKnEyGE4oD4&ab_channel=KemalKosemehmetoglu
+[case 3, scopy](https://www.youtube.com/watch?v=yKnEyGE4oD4&ab_channel=KemalKosemehmetoglu)
 
-https://www.youtube.com/watch?v=M\_\_Z-JU5X8k&ab_channel=KemalKosemehmetoglu
+{{< video https://www.youtube.com/embed/yKnEyGE4oD4 >}}
 
 ```{comment}
 asis, echo = (language == "TR")
@@ -201,19 +201,19 @@ asis, echo = (language == "TR")
 
 
 <button id="tani-case3-btn">Tanıyı Göster</button>
-<div id="answer" style="display: none;">Rhabdomyosarcoma of Bladder</div>
+<div id="answer3" style="display: none;">Rhabdomyosarcoma of Bladder</div>
 
 <script>
-  const showAnswerBtn = document.getElementById('tani-case3-btn');
-  const answer = document.getElementById('answer');
+  const showAnswer3Btn = document.getElementById('tani-case3-btn');
+  const answer3 = document.getElementById('answer3');
 
-  showAnswerBtn.addEventListener('click', () => {
-    if (answer.style.display === 'none') {
-      answer.style.display = 'block';
-      showAnswerBtn.textContent = 'Tanıyı Gizle';
+  showAnswer3Btn.addEventListener('click', () => {
+    if (answer3.style.display === 'none') {
+      answer3.style.display = 'block';
+      showAnswer3Btn.textContent = 'Tanıyı Gizle';
     } else {
-      answer.style.display = 'none';
-      showAnswerBtn.textContent = 'Tanıyı Göster';
+      answer3.style.display = 'none';
+      showAnswer3Btn.textContent = 'Tanıyı Göster';
     }
   });
 </script>
@@ -226,11 +226,6 @@ Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-3/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
-
-
-
-
-
 ```
 
 ```{comment}
@@ -239,19 +234,19 @@ asis, echo = (language == "EN")
 **hacettepe-com-case-3**
 
 <button id="dx-case3-btn">Show the Diagnosis</button>
-<div id="answer" style="display: none;">Rhabdomyosarcoma of Bladder</div>
+<div id="answer3" style="display: none;">Rhabdomyosarcoma of Bladder</div>
 
 <script>
-  const showAnswerBtn = document.getElementById('dx-case3-btn');
-  const answer = document.getElementById('answer');
+  const showAnswer3Btn = document.getElementById('dx-case3-btn');
+  const answer3 = document.getElementById('answer3');
 
-  showAnswerBtn.addEventListener('click', () => {
-    if (answer.style.display === 'none') {
-      answer.style.display = 'block';
-      showAnswerBtn.textContent = 'Hide the Diagnosis';
+  showAnswer3Btn.addEventListener('click', () => {
+    if (answer3.style.display === 'none') {
+      answer3.style.display = 'block';
+      showAnswer3Btn.textContent = 'Hide the Diagnosis';
     } else {
-      answer.style.display = 'none';
-      showAnswerBtn.textContent = 'Show the Diagnosis';
+      answer3.style.display = 'none';
+      showAnswer3Btn.textContent = 'Show the Diagnosis';
     }
   });
 </script>
@@ -286,19 +281,19 @@ See Microscopy with viewer:
 
 
 <button id="tani-case4-btn">Tanıyı Göster</button>
-<div id="answer" style="display: none;">Liposarcoma, inflammatory variant</div>
+<div id="answer4" style="display: none;">Liposarcoma, inflammatory variant</div>
 
 <script>
-  const showAnswerBtn = document.getElementById('tani-case4-btn');
-  const answer = document.getElementById('answer');
+  const showAnswer4Btn = document.getElementById('tani-case4-btn');
+  const answer4 = document.getElementById('answer4');
 
-  showAnswerBtn.addEventListener('click', () => {
-    if (answer.style.display === 'none') {
-      answer.style.display = 'block';
-      showAnswerBtn.textContent = 'Tanıyı Gizle';
+  showAnswer4Btn.addEventListener('click', () => {
+    if (answer4.style.display === 'none') {
+      answer4.style.display = 'block';
+      showAnswer4Btn.textContent = 'Tanıyı Gizle';
     } else {
-      answer.style.display = 'none';
-      showAnswerBtn.textContent = 'Tanıyı Göster';
+      answer4.style.display = 'none';
+      showAnswer4Btn.textContent = 'Tanıyı Göster';
     }
   });
 </script>
@@ -331,19 +326,19 @@ Mikroskopik görüntüleri inceleyin:
 **hacettepe-com-case-4**
 
 <button id="dx-case4-btn">Show the Diagnosis</button>
-<div id="answer" style="display: none;">Liposarcoma, inflammatory variant</div>
+<div id="answer4" style="display: none;">Liposarcoma, inflammatory variant</div>
 
 <script>
-  const showAnswerBtn = document.getElementById('dx-case4-btn');
-  const answer = document.getElementById('answer');
+  const showAnswer4Btn = document.getElementById('dx-case4-btn');
+  const answer4 = document.getElementById('answer4');
 
-  showAnswerBtn.addEventListener('click', () => {
-    if (answer.style.display === 'none') {
-      answer.style.display = 'block';
-      showAnswerBtn.textContent = 'Hide the Diagnosis';
+  showAnswer4Btn.addEventListener('click', () => {
+    if (answer4.style.display === 'none') {
+      answer4.style.display = 'block';
+      showAnswer4Btn.textContent = 'Hide the Diagnosis';
     } else {
-      answer.style.display = 'none';
-      showAnswerBtn.textContent = 'Show the Diagnosis';
+      answer4.style.display = 'none';
+      showAnswer4Btn.textContent = 'Show the Diagnosis';
     }
   });
 </script>
@@ -382,25 +377,26 @@ See Microscopy with viewer:
 
 {{< video https://www.youtube.com/embed/o13qcP56mqg >}}
 
+
 ```{asis, echo = (language == "TR")}
 
 **hacettepe-com-case-5**
 
 
 <button id="tani-case5-btn">Tanıyı Göster</button>
-<div id="answer" style="display: none;">Malignant peripheral nerve sheath tumor, perineural differantiation</div>
+<div id="answer5" style="display: none;">Malignant peripheral nerve sheath tumor, perineural differantiation</div>
 
 <script>
-  const showAnswerBtn = document.getElementById('tani-case5-btn');
-  const answer = document.getElementById('answer');
+  const showAnswer5Btn = document.getElementById('tani-case5-btn');
+  const answer5 = document.getElementById('answer5');
 
-  showAnswerBtn.addEventListener('click', () => {
-    if (answer.style.display === 'none') {
-      answer.style.display = 'block';
-      showAnswerBtn.textContent = 'Tanıyı Gizle';
+  showAnswer5Btn.addEventListener('click', () => {
+    if (answer5.style.display === 'none') {
+      answer5.style.display = 'block';
+      showAnswer5Btn.textContent = 'Tanıyı Gizle';
     } else {
-      answer.style.display = 'none';
-      showAnswerBtn.textContent = 'Tanıyı Göster';
+      answer5.style.display = 'none';
+      showAnswer5Btn.textContent = 'Tanıyı Göster';
     }
   });
 </script>
@@ -425,19 +421,19 @@ Mikroskopik görüntüleri inceleyin:
 **hacettepe-com-case-5**
 
 <button id="dx-case5-btn">Show the Diagnosis</button>
-<div id="answer" style="display: none;">Malignant peripheral nerve sheath tumor, perineural differantiation</div>
+<div id="answer5" style="display: none;">Malignant peripheral nerve sheath tumor, perineural differantiation</div>
 
 <script>
-  const showAnswerBtn = document.getElementById('dx-case5-btn');
-  const answer = document.getElementById('answer');
+  const showAnswer5Btn = document.getElementById('dx-case5-btn');
+  const answer5 = document.getElementById('answer5');
 
-  showAnswerBtn.addEventListener('click', () => {
-    if (answer.style.display === 'none') {
-      answer.style.display = 'block';
-      showAnswerBtn.textContent = 'Hide the Diagnosis';
+  showAnswer5Btn.addEventListener('click', () => {
+    if (answer5.style.display === 'none') {
+      answer5.style.display = 'block';
+      showAnswer5Btn.textContent = 'Hide the Diagnosis';
     } else {
-      answer.style.display = 'none';
-      showAnswerBtn.textContent = 'Show the Diagnosis';
+      answer5.style.display = 'none';
+      showAnswer5Btn.textContent = 'Show the Diagnosis';
     }
   });
 </script>
