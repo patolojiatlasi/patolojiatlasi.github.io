@@ -895,16 +895,16 @@ Show the Diagnosis
 Sarcoma with INI1 loss, previously diagnosed as yolk sac tumor
 </div>
 <script>
-  const showAnswerBtn = document.getElementById('dx-case2-btn');
-  const answer = document.getElementById('answer2');
+  const showAnswer2Btn = document.getElementById('dx-case2-btn');
+  const answer2 = document.getElementById('answer2');
 
-  showAnswerBtn.addEventListener('click', () => {
-    if (answer.style.display === 'none') {
-      answer.style.display = 'block';
-      showAnswerBtn.textContent = 'Hide the Diagnosis';
+  showAnswer2Btn.addEventListener('click', () => {
+    if (answer2.style.display === 'none') {
+      answer2.style.display = 'block';
+      showAnswer2Btn.textContent = 'Hide the Diagnosis';
     } else {
-      answer.style.display = 'none';
-      showAnswerBtn.textContent = 'Show the Diagnosis';
+      answer2.style.display = 'none';
+      showAnswer2Btn.textContent = 'Show the Diagnosis';
     }
   });
 </script>
