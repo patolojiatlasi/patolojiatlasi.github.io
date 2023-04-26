@@ -468,19 +468,19 @@ See Microscopy with viewer:
 
 
 <button id="tani-case6-btn">Tanıyı Göster</button>
-<div id="answer" style="display: none;">Hybrid hemosiderotic fibrolipomatous tumor - myxoinflammatory </div>
+<div id="answer6" style="display: none;">Hybrid hemosiderotic fibrolipomatous tumor - myxoinflammatory </div>
 
 <script>
-  const showAnswerBtn = document.getElementById('tani-case6-btn');
-  const answer = document.getElementById('answer');
+  const showAnswer6Btn = document.getElementById('tani-case6-btn');
+  const answer6 = document.getElementById('answer6');
 
-  showAnswerBtn.addEventListener('click', () => {
-    if (answer.style.display === 'none') {
-      answer.style.display = 'block';
-      showAnswerBtn.textContent = 'Tanıyı Gizle';
+  showAnswer6Btn.addEventListener('click', () => {
+    if (answer6.style.display === 'none') {
+      answer6.style.display = 'block';
+      showAnswer6Btn.textContent = 'Tanıyı Gizle';
     } else {
-      answer.style.display = 'none';
-      showAnswerBtn.textContent = 'Tanıyı Göster';
+      answer6.style.display = 'none';
+      showAnswer6Btn.textContent = 'Tanıyı Göster';
     }
   });
 </script>
@@ -505,19 +505,19 @@ Mikroskopik görüntüleri inceleyin:
 **hacettepe-com-case-6**
 
 <button id="dx-case6-btn">Show the Diagnosis</button>
-<div id="answer" style="display: none;">Hybrid hemosiderotic fibrolipomatous tumor - myxoinflammatory </div>
+<div id="answer6" style="display: none;">Hybrid hemosiderotic fibrolipomatous tumor - myxoinflammatory </div>
 
 <script>
-  const showAnswerBtn = document.getElementById('dx-case6-btn');
-  const answer = document.getElementById('answer');
+  const showAnswer6Btn = document.getElementById('dx-case6-btn');
+  const answer6 = document.getElementById('answer6');
 
-  showAnswerBtn.addEventListener('click', () => {
-    if (answer.style.display === 'none') {
-      answer.style.display = 'block';
-      showAnswerBtn.textContent = 'Hide the Diagnosis';
+  showAnswer6Btn.addEventListener('click', () => {
+    if (answer6.style.display === 'none') {
+      answer6.style.display = 'block';
+      showAnswer6Btn.textContent = 'Hide the Diagnosis';
     } else {
-      answer.style.display = 'none';
-      showAnswerBtn.textContent = 'Show the Diagnosis';
+      answer6.style.display = 'none';
+      showAnswer6Btn.textContent = 'Show the Diagnosis';
     }
   });
 </script>
@@ -546,25 +546,27 @@ See Microscopy with viewer:
 
 {{< video https://www.youtube.com/embed/FU-Fv7kQPdE >}}
 
-```{asis, echo = (language == "TR")}
+```{comment}
+
+asis, echo = (language == "TR")
 
 **hacettepe-com-case-7**
 
 
 <button id="tani-case7-btn">Tanıyı Göster</button>
-<div id="answer" style="display: none;">Kappa Light Chain tubulopathy with crystals</div>
+<div id="answer7" style="display: none;">Kappa Light Chain tubulopathy with crystals</div>
 
 <script>
-  const showAnswerBtn = document.getElementById('tani-case7-btn');
-  const answer = document.getElementById('answer');
+  const showAnswer7Btn = document.getElementById('tani-case7-btn');
+  const answer7 = document.getElementById('answer7');
 
-  showAnswerBtn.addEventListener('click', () => {
-    if (answer.style.display === 'none') {
-      answer.style.display = 'block';
-      showAnswerBtn.textContent = 'Tanıyı Gizle';
+  showAnswer7Btn.addEventListener('click', () => {
+    if (answer7.style.display === 'none') {
+      answer7.style.display = 'block';
+      showAnswer7Btn.textContent = 'Tanıyı Gizle';
     } else {
-      answer.style.display = 'none';
-      showAnswerBtn.textContent = 'Tanıyı Göster';
+      answer7.style.display = 'none';
+      showAnswer7Btn.textContent = 'Tanıyı Göster';
     }
   });
 </script>
@@ -584,24 +586,25 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-```{asis, echo = (language == "EN")}
+```{comment}
+asis, echo = (language == "EN")
 
 **hacettepe-com-case-7**
 
 <button id="dx-case7-btn">Show the Diagnosis</button>
-<div id="answer" style="display: none;">Kappa Light Chain tubulopathy with crystals</div>
+<div id="answer7" style="display: none;">Kappa Light Chain tubulopathy with crystals</div>
 
 <script>
-  const showAnswerBtn = document.getElementById('dx-case7-btn');
-  const answer = document.getElementById('answer');
+  const showAnswer7Btn = document.getElementById('dx-case7-btn');
+  const answer7 = document.getElementById('answer7');
 
-  showAnswerBtn.addEventListener('click', () => {
-    if (answer.style.display === 'none') {
-      answer.style.display = 'block';
-      showAnswerBtn.textContent = 'Hide the Diagnosis';
+  showAnswer7Btn.addEventListener('click', () => {
+    if (answer7.style.display === 'none') {
+      answer7.style.display = 'block';
+      showAnswer7Btn.textContent = 'Hide the Diagnosis';
     } else {
-      answer.style.display = 'none';
-      showAnswerBtn.textContent = 'Show the Diagnosis';
+      answer7.style.display = 'none';
+      showAnswer7Btn.textContent = 'Show the Diagnosis';
     }
   });
 </script>
@@ -636,19 +639,19 @@ See Microscopy with viewer:
 
 
 <button id="tani-case8-btn">Tanıyı Göster</button>
-<div id="answer" style="display: none;">malignant mesothelioma metastasis to skin</div>
+<div id="answer8" style="display: none;">malignant mesothelioma metastasis to skin</div>
 
 <script>
-  const showAnswerBtn = document.getElementById('tani-case8-btn');
-  const answer = document.getElementById('answer');
+  const showAnswer8Btn = document.getElementById('tani-case8-btn');
+  const answer8 = document.getElementById('answer8');
 
-  showAnswerBtn.addEventListener('click', () => {
-    if (answer.style.display === 'none') {
-      answer.style.display = 'block';
-      showAnswerBtn.textContent = 'Tanıyı Gizle';
+  showAnswer8Btn.addEventListener('click', () => {
+    if (answer8.style.display === 'none') {
+      answer8.style.display = 'block';
+      showAnswer8Btn.textContent = 'Tanıyı Gizle';
     } else {
-      answer.style.display = 'none';
-      showAnswerBtn.textContent = 'Tanıyı Göster';
+      answer8.style.display = 'none';
+      showAnswer8Btn.textContent = 'Tanıyı Göster';
     }
   });
 </script>
@@ -673,19 +676,19 @@ Mikroskopik görüntüleri inceleyin:
 **hacettepe-com-case-8**
 
 <button id="dx-case-btn">Show the Diagnosis</button>
-<div id="answer" style="display: none;">malignant mesothelioma metastasis to skin</div>
+<div id="answer8" style="display: none;">malignant mesothelioma metastasis to skin</div>
 
 <script>
-  const showAnswerBtn = document.getElementById('dx-case-btn');
-  const answer = document.getElementById('answer');
+  const showAnswer8Btn = document.getElementById('dx-case-btn');
+  const answer8 = document.getElementById('answer8');
 
-  showAnswerBtn.addEventListener('click', () => {
-    if (answer.style.display === 'none') {
-      answer.style.display = 'block';
-      showAnswerBtn.textContent = 'Hide the Diagnosis';
+  showAnswer8Btn.addEventListener('click', () => {
+    if (answer8.style.display === 'none') {
+      answer8.style.display = 'block';
+      showAnswer8Btn.textContent = 'Hide the Diagnosis';
     } else {
-      answer.style.display = 'none';
-      showAnswerBtn.textContent = 'Show the Diagnosis';
+      answer8.style.display = 'none';
+      showAnswer8Btn.textContent = 'Show the Diagnosis';
     }
   });
 </script>
@@ -720,19 +723,19 @@ See Microscopy with viewer:
 
 
 <button id="tani-case9-btn">Tanıyı Göster</button>
-<div id="answer" style="display: none;">angiomatoid fibrous histiocytoma</div>
+<div id="answer9" style="display: none;">angiomatoid fibrous histiocytoma</div>
 
 <script>
-  const showAnswerBtn = document.getElementById('tani-case9-btn');
-  const answer = document.getElementById('answer');
+  const showAnswer9Btn = document.getElementById('tani-case9-btn');
+  const answer9 = document.getElementById('answer9');
 
-  showAnswerBtn.addEventListener('click', () => {
-    if (answer.style.display === 'none') {
-      answer.style.display = 'block';
-      showAnswerBtn.textContent = 'Tanıyı Gizle';
+  showAnswer9Btn.addEventListener('click', () => {
+    if (answer9.style.display === 'none') {
+      answer9.style.display = 'block';
+      showAnswer9Btn.textContent = 'Tanıyı Gizle';
     } else {
-      answer.style.display = 'none';
-      showAnswerBtn.textContent = 'Tanıyı Göster';
+      answer9.style.display = 'none';
+      showAnswer9Btn.textContent = 'Tanıyı Göster';
     }
   });
 </script>
@@ -757,19 +760,19 @@ Mikroskopik görüntüleri inceleyin:
 **hacettepe-com-case-9**
 
 <button id="dx-case-btn">Show the Diagnosis</button>
-<div id="answer" style="display: none;">angiomatoid fibrous histiocytoma</div>
+<div id="answer9" style="display: none;">angiomatoid fibrous histiocytoma</div>
 
 <script>
-  const showAnswerBtn = document.getElementById('dx-case-btn');
-  const answer = document.getElementById('answer');
+  const showAnswer9Btn = document.getElementById('dx-case-btn');
+  const answer9 = document.getElementById('answer9');
 
-  showAnswerBtn.addEventListener('click', () => {
-    if (answer.style.display === 'none') {
-      answer.style.display = 'block';
-      showAnswerBtn.textContent = 'Hide the Diagnosis';
+  showAnswer9Btn.addEventListener('click', () => {
+    if (answer9.style.display === 'none') {
+      answer9.style.display = 'block';
+      showAnswer9Btn.textContent = 'Hide the Diagnosis';
     } else {
-      answer.style.display = 'none';
-      showAnswerBtn.textContent = 'Show the Diagnosis';
+      answer9.style.display = 'none';
+      showAnswer9Btn.textContent = 'Show the Diagnosis';
     }
   });
 </script>
