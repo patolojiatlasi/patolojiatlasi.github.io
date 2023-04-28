@@ -102,7 +102,7 @@ See Microscopy with viewer:
 
 ```
 
--   [case 2](https://www.youtube.com/watch?v=xHQihI19L5g&t=164s&ab_channel=KemalKosemehmetoglu)
+-   [case 2](https://www.youtube.com/watch?v=xHQihI19L5g&ab_channel=KemalKosemehmetoglu)
 
 {{< video https://www.youtube.com/embed/ >}}
 
@@ -186,7 +186,7 @@ See Microscopy with viewer:
 
 ```
 
--   [case 3](https://www.youtube.com/watch?v=JGDsmznBqZM&t=24s&ab_channel=KemalKosemehmetoglu)
+-   [case 3](https://www.youtube.com/watch?v=JGDsmznBqZM&ab_channel=KemalKosemehmetoglu)
 
 {{< video https://www.youtube.com/embed/JGDsmznBqZM >}}
 
@@ -271,7 +271,7 @@ See Microscopy with viewer:
 
 ```
 
--   [case 4](https://www.youtube.com/watch?v=Akp6H3myCIo&t=11s&ab_channel=KemalKosemehmetoglu)
+-   [case 4](https://www.youtube.com/watch?v=Akp6H3myCIo&ab_channel=KemalKosemehmetoglu)
 
 {{< video https://www.youtube.com/embed/Akp6H3myCIo >}}
 
@@ -373,7 +373,7 @@ See Microscopy with viewer:
 
 ```
 
--   [case 5](https://www.youtube.com/watch?v=o13qcP56mqg&t=69s&ab_channel=KemalKosemehmetoglu)
+-   [case 5](https://www.youtube.com/watch?v=o13qcP56mqg&ab_channel=KemalKosemehmetoglu)
 
 {{< video https://www.youtube.com/embed/o13qcP56mqg >}}
 
@@ -707,6 +707,12 @@ See Microscopy with viewer:
 
 ```
 
+
+
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 ## Case-9
@@ -722,6 +728,8 @@ See Microscopy with viewer:
 -   [case 9](https://www.youtube.com/watch?v=9OxpsDNCHWk&ab_channel=KemalKosemehmetoglu)
 
 {{< video https://www.youtube.com/embed/9OxpsDNCHWk >}}
+
+
 
 ```{asis, echo = (language == "TR")}
 
@@ -755,11 +763,10 @@ Mikroskopik görüntüleri inceleyin:
 <iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-9/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 
-
-
-
-
 ```
+
+
+
 
 ```{asis, echo = (language == "EN")}
 
@@ -791,6 +798,11 @@ See Microscopy with viewer:
 
 ```
 
+
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 ## Case-10
@@ -803,9 +815,9 @@ See Microscopy with viewer:
 
 ```
 
--   [case 10](https://www.youtube.com/watch?v=0vNcCaTYstU&t=1s&ab_channel=KemalKosemehmetoglu)
+-   [case 10](https://www.youtube.com/watch?v=0vNcCaTYstU&ab_channel=KemalKosemehmetoglu)
 
-{{< video https://www.youtube.com/embed/ >}}
+{{< video https://www.youtube.com/embed/0vNcCaTYstU >}}
 
 ```{asis, echo = (language == "TR")}
 
@@ -813,30 +825,30 @@ See Microscopy with viewer:
 
 
 <button id="tani-case10-btn">Tanıyı Göster</button>
-<div id="answer" style="display: none;">myxoinflammatory fibroblastic sarcoma, psoas</div>
+<div id="answer10" style="display: none;">myxoinflammatory fibroblastic sarcoma, psoas</div>
 
 <script>
-  const showAnswerBtn = document.getElementById('tani-case10-btn');
-  const answer = document.getElementById('answer');
+  const showAnswer10Btn = document.getElementById('tani-case10-btn');
+  const answer10 = document.getElementById('answer10');
 
-  showAnswerBtn.addEventListener('click', () => {
-    if (answer.style.display === 'none') {
-      answer.style.display = 'block';
-      showAnswerBtn.textContent = 'Tanıyı Gizle';
+  showAnswer10Btn.addEventListener('click', () => {
+    if (answer10.style.display === 'none') {
+      answer10.style.display = 'block';
+      showAnswer10Btn.textContent = 'Tanıyı Gizle';
     } else {
-      answer.style.display = 'none';
-      showAnswerBtn.textContent = 'Tanıyı Göster';
+      answer10.style.display = 'none';
+      showAnswer10Btn.textContent = 'Tanıyı Göster';
     }
   });
 </script>
 
 
 
-[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[https://images.patolojiatlasi.com/hacettepe-com-case-10/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-10/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-10/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 
 
@@ -850,28 +862,28 @@ Mikroskopik görüntüleri inceleyin:
 **hacettepe-com-case-10**
 
 <button id="dx-case10-btn">Show the Diagnosis</button>
-<div id="answer" style="display: none;">myxoinflammatory fibroblastic sarcoma, psoas</div>
+<div id="answer10" style="display: none;">myxoinflammatory fibroblastic sarcoma, psoas</div>
 
 <script>
-  const showAnswerBtn = document.getElementById('dx-case10-btn');
-  const answer = document.getElementById('answer');
+  const showAnswer10Btn = document.getElementById('dx-case10-btn');
+  const answer10 = document.getElementById('answer10');
 
-  showAnswerBtn.addEventListener('click', () => {
-    if (answer.style.display === 'none') {
-      answer.style.display = 'block';
-      showAnswerBtn.textContent = 'Hide the Diagnosis';
+  showAnswer10Btn.addEventListener('click', () => {
+    if (answer10.style.display === 'none') {
+      answer10.style.display = 'block';
+      showAnswer10Btn.textContent = 'Hide the Diagnosis';
     } else {
-      answer.style.display = 'none';
-      showAnswerBtn.textContent = 'Show the Diagnosis';
+      answer10.style.display = 'none';
+      showAnswer10Btn.textContent = 'Show the Diagnosis';
     }
   });
 </script>
 
-[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[https://images.patolojiatlasi.com/hacettepe-com-case-10/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-10/HE.html)
 
 See Microscopy with viewer: 
 
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-10/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -1223,7 +1235,7 @@ See Microscopy with viewer:
 
 ```
 
--   [case 15](https://www.youtube.com/watch?v=3lmx9hYGcG8&t=20s&ab_channel=KemalKosemehmetoglu)
+-   [case 15](https://www.youtube.com/watch?v=3lmx9hYGcG8&ab_channel=KemalKosemehmetoglu)
 
 {{< video https://www.youtube.com/embed/ >}}
 
@@ -1307,7 +1319,7 @@ See Microscopy with viewer:
 
 ```
 
--   [case 16](https://www.youtube.com/watch?v=Tkempcd59I0&t=1s&ab_channel=KemalKosemehmetoglu)
+-   [case 16](https://www.youtube.com/watch?v=Tkempcd59I0&ab_channel=KemalKosemehmetoglu)
 
 {{< video https://www.youtube.com/embed/ >}}
 
@@ -1391,7 +1403,7 @@ See Microscopy with viewer:
 
 ```
 
--   [case 17](https://www.youtube.com/watch?v=zlewGuN0BBY&t=31s&ab_channel=KemalKosemehmetoglu)
+-   [case 17](https://www.youtube.com/watch?v=zlewGuN0BBY&ab_channel=KemalKosemehmetoglu)
 
 {{< video https://www.youtube.com/embed/ >}}
 
@@ -1475,7 +1487,7 @@ See Microscopy with viewer:
 
 ```
 
--   [case 18](https://www.youtube.com/watch?v=5c_5A4z6tro&t=3s&ab_channel=KemalKosemehmetoglu)
+-   [case 18](https://www.youtube.com/watch?v=5c_5A4z6tro&ab_channel=KemalKosemehmetoglu)
 
 {{< video https://www.youtube.com/embed/ >}}
 
@@ -1727,7 +1739,7 @@ See Microscopy with viewer:
 
 ```
 
--   [case 21](https://www.youtube.com/watch?v=Uith4SvB2_Q&t=20s&ab_channel=KemalKosemehmetoglu)
+-   [case 21](https://www.youtube.com/watch?v=Uith4SvB2_Q&ab_channel=KemalKosemehmetoglu)
 
 {{< video https://www.youtube.com/embed/ >}}
 
@@ -3248,7 +3260,7 @@ See Microscopy with viewer:
 
 ```
 
--   [case 39](https://www.youtube.com/watch?v=q4nuIBROlZI&t=119s&ab_channel=KemalKosemehmetoglu)
+-   [case 39](https://www.youtube.com/watch?v=q4nuIBROlZI&ab_channel=KemalKosemehmetoglu)
 
 {{< video https://www.youtube.com/embed/q4nuIBROlZI >}}
 
@@ -3350,7 +3362,7 @@ See Microscopy with viewer:
 
 -   Hacettepepathology.BOM - BUGS of the Month! Two exemplary cases with outstanding morphology!
 
-https://www.youtube.com/watch?v=hF7jSmHiiYQ&t=38s&ab_channel=KemalKosemehmetoglu
+https://www.youtube.com/watch?v=hF7jSmHiiYQ&ab_channel=KemalKosemehmetoglu
 
 -   HacettepePathology.COM - BOM - BUGS Of the Month! A stunning case of cerebral toxoplasmosis!
 
