@@ -992,7 +992,7 @@ See Microscopy with viewer:
 
 -   [case 12](https://www.youtube.com/watch?v=2TwT4sE9XmM&ab_channel=KemalKosemehmetoglu)
 
-{{< video https://www.youtube.com/embed/ >}}
+{{< video https://www.youtube.com/embed/2TwT4sE9XmM >}}
 
 ```{asis, echo = (language == "TR")}
 
@@ -1000,30 +1000,30 @@ See Microscopy with viewer:
 
 
 <button id="tani-case12-btn">Tanıyı Göster</button>
-<div id="answer" style="display: none;">myelolipoma, periprostatic</div>
+<div id="answer12" style="display: none;">myelolipoma, periprostatic</div>
 
 <script>
-  const showAnswerBtn = document.getElementById('tani-case12-btn');
-  const answer = document.getElementById('answer');
+  const showAnswer12Btn = document.getElementById('tani-case12-btn');
+  const answer12 = document.getElementById('answer12');
 
-  showAnswerBtn.addEventListener('click', () => {
-    if (answer.style.display === 'none') {
-      answer.style.display = 'block';
-      showAnswerBtn.textContent = 'Tanıyı Gizle';
+  showAnswer12Btn.addEventListener('click', () => {
+    if (answer12.style.display === 'none') {
+      answer12.style.display = 'block';
+      showAnswer12Btn.textContent = 'Tanıyı Gizle';
     } else {
-      answer.style.display = 'none';
-      showAnswerBtn.textContent = 'Tanıyı Göster';
+      answer12.style.display = 'none';
+      showAnswer12Btn.textContent = 'Tanıyı Göster';
     }
   });
 </script>
 
 
 
-[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[https://images.patolojiatlasi.com/hacettepe-com-case-12/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-12/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-12/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 
 
@@ -1037,30 +1037,34 @@ Mikroskopik görüntüleri inceleyin:
 **hacettepe-com-case-12**
 
 <button id="dx-case12-btn">Show the Diagnosis</button>
-<div id="answer" style="display: none;">myelolipoma, periprostatic</div>
+<div id="answer12" style="display: none;">myelolipoma, periprostatic</div>
 
 <script>
-  const showAnswerBtn = document.getElementById('dx-case12-btn');
-  const answer = document.getElementById('answer');
+  const showAnswer12Btn = document.getElementById('dx-case12-btn');
+  const answer12 = document.getElementById('answer12');
 
-  showAnswerBtn.addEventListener('click', () => {
-    if (answer.style.display === 'none') {
-      answer.style.display = 'block';
-      showAnswerBtn.textContent = 'Hide the Diagnosis';
+  showAnswer12Btn.addEventListener('click', () => {
+    if (answer12.style.display === 'none') {
+      answer12.style.display = 'block';
+      showAnswer12Btn.textContent = 'Hide the Diagnosis';
     } else {
-      answer.style.display = 'none';
-      showAnswerBtn.textContent = 'Show the Diagnosis';
+      answer12.style.display = 'none';
+      showAnswer12Btn.textContent = 'Show the Diagnosis';
     }
   });
 </script>
 
-[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[https://images.patolojiatlasi.com/hacettepe-com-case-12/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-12/HE.html)
 
 See Microscopy with viewer: 
 
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-12/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
+
+
+
+
 
 ```{asis, echo = (language == "TR")}
 
