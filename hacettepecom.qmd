@@ -1163,7 +1163,7 @@ See Microscopy with viewer:
 
 -   [case 13](https://www.youtube.com/watch?v=TLRJ0pBrwxA&ab_channel=KemalKosemehmetoglu)
 
-{{< video https://www.youtube.com/embed/ >}}
+{{< video https://www.youtube.com/embed/TLRJ0pBrwxA >}}
 
 ```{asis, echo = (language == "TR")}
 
@@ -1171,30 +1171,30 @@ See Microscopy with viewer:
 
 
 <button id="tani-case13-btn">Tanıyı Göster</button>
-<div id="answer" style="display: none;">intranodal pallisading myofibroblastoma</div>
+<div id="answer13" style="display: none;">intranodal pallisading myofibroblastoma</div>
 
 <script>
-  const showAnswerBtn = document.getElementById('tani-case13-btn');
-  const answer = document.getElementById('answer');
+  const showAnswer13Btn = document.getElementById('tani-case13-btn');
+  const answer13 = document.getElementById('answer13');
 
-  showAnswerBtn.addEventListener('click', () => {
-    if (answer.style.display === 'none') {
-      answer.style.display = 'block';
-      showAnswerBtn.textContent = 'Tanıyı Gizle';
+  showAnswer13Btn.addEventListener('click', () => {
+    if (answer13.style.display === 'none') {
+      answer13.style.display = 'block';
+      showAnswer13Btn.textContent = 'Tanıyı Gizle';
     } else {
-      answer.style.display = 'none';
-      showAnswerBtn.textContent = 'Tanıyı Göster';
+      answer13.style.display = 'none';
+      showAnswer13Btn.textContent = 'Tanıyı Göster';
     }
   });
 </script>
 
 
 
-[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[https://images.patolojiatlasi.com/hacettepe-com-case-13/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-13/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-13/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 
 
@@ -1208,28 +1208,28 @@ Mikroskopik görüntüleri inceleyin:
 **hacettepe-com-case-13**
 
 <button id="dx-case13-btn">Show the Diagnosis</button>
-<div id="answer" style="display: none;">intranodal pallisading myofibroblastoma</div>
+<div id="answer13" style="display: none;">intranodal pallisading myofibroblastoma</div>
 
 <script>
-  const showAnswerBtn = document.getElementById('dx-case13-btn');
-  const answer = document.getElementById('answer');
+  const showAnswer13Btn = document.getElementById('dx-case13-btn');
+  const answer13 = document.getElementById('answer13');
 
-  showAnswerBtn.addEventListener('click', () => {
-    if (answer.style.display === 'none') {
-      answer.style.display = 'block';
-      showAnswerBtn.textContent = 'Hide the Diagnosis';
+  showAnswer13Btn.addEventListener('click', () => {
+    if (answer13.style.display === 'none') {
+      answer13.style.display = 'block';
+      showAnswer13Btn.textContent = 'Hide the Diagnosis';
     } else {
-      answer.style.display = 'none';
-      showAnswerBtn.textContent = 'Show the Diagnosis';
+      answer13.style.display = 'none';
+      showAnswer13Btn.textContent = 'Show the Diagnosis';
     }
   });
 </script>
 
-[https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[https://images.patolojiatlasi.com/hacettepe-com-case-13/HE.html](https://images.patolojiatlasi.com/hacettepe-com-case-13/HE.html)
 
 See Microscopy with viewer: 
 
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-13/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
