@@ -5,7 +5,7 @@ project:
     - "CITATION.cff"
 
 execute:
-  freeze: false
+  freeze: true
 
 lang: en
 
