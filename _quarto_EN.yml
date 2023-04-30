@@ -236,10 +236,16 @@ book:
     - part: "---"
     - referanslar.qmd
     - part: "---"
-    - text: "Recommendations"
-      href: wsi.qmd
-    - text: "Hacettepe Case of Month"
-      href: hacettepecom.qmd
+    - part: "Special Collections"
+      chapters:
+        - text: "Recommended Websites"
+          href: wsi.qmd
+        - text: "GBDAtlas"
+          href: gbd.qmd
+        - text: "Hacettepe Case of Month"
+          href: hacettepecom.qmd
+        - text: "BSAtlas"
+          href: bs.qmd
     - part: "---"
   appendices:
     - yonetim-gelistirme.md
