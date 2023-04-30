@@ -245,10 +245,16 @@ book:
     - part: "---"
     - referanslar.qmd
     - part: "---"
-    - text: "Öneriler"
-      href: wsi.qmd
-    - text: "Hacettepe Ayın Vakası"
-      href: hacettepecom.qmd
+    - part: "Özel Kolleksiyonlar"
+      chapters:
+        - text: "Önerilen Sayfalar"
+          href: wsi.qmd
+        - text: "GBDAtlas"
+          href: gbd.qmd
+        - text: "Hacettepe Ayın Vakası"
+          href: hacettepecom.qmd
+        - text: "BSAtlas"
+          href: bs.qmd
     - part: "---"
   appendices:
     - yonetim-gelistirme.md
