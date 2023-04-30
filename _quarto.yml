@@ -265,6 +265,9 @@ book:
     - text: "Liste"
       href: listing.qmd
     - listing2.qmd
+    # - feature-trials.qmd
+
+
 
 # before_chapter_script: "./R/language.R"
 
