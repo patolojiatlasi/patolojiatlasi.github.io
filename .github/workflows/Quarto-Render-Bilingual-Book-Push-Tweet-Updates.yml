@@ -179,38 +179,38 @@ jobs:
       #     target-branch: main
 
 
-  send-tweet:
-    if: "!contains(github.event.head_commit.message, 'WIP') && !contains(github.event.head_commit.message, 'merge')   && !contains(github.event.head_commit.message, 'notweet')"
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: "Tweet"
-        id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
-      - uses: ethomson/send-tweet-action@v1
-        with:
-          status: '#Patoloji atlası güncellendi ${{ steps.date.outputs.date }} ${{github.event.head_commit.message}}. #dijitalpatoloji #WSI #preparat #memorialpatoloji #memorialsaglik https://www.patolojiatlasi.com/'
-          consumer-key: ${{ secrets.API_KEY }}
-          consumer-secret: ${{ secrets.API_SECRET_KEY }}
-          access-token: ${{ secrets.ACCESS_TOKEN }}
-          access-token-secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
+  # send-tweet:
+  #   if: "!contains(github.event.head_commit.message, 'WIP') && !contains(github.event.head_commit.message, 'merge')   && !contains(github.event.head_commit.message, 'notweet')"
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - name: "Tweet"
+  #       id: date
+  #       run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+  #     - uses: ethomson/send-tweet-action@v1
+  #       with:
+  #         status: '#Patoloji atlası güncellendi ${{ steps.date.outputs.date }} ${{github.event.head_commit.message}}. #dijitalpatoloji #WSI #preparat #memorialpatoloji #memorialsaglik https://www.patolojiatlasi.com/'
+  #         consumer-key: ${{ secrets.API_KEY }}
+  #         consumer-secret: ${{ secrets.API_SECRET_KEY }}
+  #         access-token: ${{ secrets.ACCESS_TOKEN }}
+  #         access-token-secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
 
 
-  send-tweet-EN:
-    if: "!contains(github.event.head_commit.message, 'WIP') && !contains(github.event.head_commit.message, 'merge')  && !contains(github.event.head_commit.message, 'notweet')"
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: "Tweet-EN"
-        id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
-      - uses: ethomson/send-tweet-action@v1
-        with:
-          status: '#Pathology #atlas is updated ${{ steps.date.outputs.date }} ${{github.event.head_commit.message}}. #digitalpathology #WSI #slides https://www.patolojiatlasi.com/EN/'
-          consumer-key: ${{ secrets.API_KEY }}
-          consumer-secret: ${{ secrets.API_SECRET_KEY }}
-          access-token: ${{ secrets.ACCESS_TOKEN }}
-          access-token-secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
+  # send-tweet-EN:
+  #   if: "!contains(github.event.head_commit.message, 'WIP') && !contains(github.event.head_commit.message, 'merge')  && !contains(github.event.head_commit.message, 'notweet')"
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - name: "Tweet-EN"
+  #       id: date
+  #       run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+  #     - uses: ethomson/send-tweet-action@v1
+  #       with:
+  #         status: '#Pathology #atlas is updated ${{ steps.date.outputs.date }} ${{github.event.head_commit.message}}. #digitalpathology #WSI #slides https://www.patolojiatlasi.com/EN/'
+  #         consumer-key: ${{ secrets.API_KEY }}
+  #         consumer-secret: ${{ secrets.API_SECRET_KEY }}
+  #         access-token: ${{ secrets.ACCESS_TOKEN }}
+  #         access-token-secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
 
 
 
@@ -230,7 +230,10 @@ jobs:
         GITLAB_PROJECT_ID: "36540563" # // https://gitlab.com/<namespace>/<repository>/edit
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # // https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
 
-
+  patoloji-ders-notlari:
+    needs: quarto-render-and-deploy
+    runs-on: ubuntu-latest
+    steps:
     - name: Pushes to patoloji-ders-notlari
       uses: cpina/github-action-push-to-another-repository@main
       env:
@@ -242,7 +245,10 @@ jobs:
         user-email: drserdarbalci@gmail.com
         target-branch: main
 
-
+  atlas:
+    needs: quarto-render-and-deploy
+    runs-on: ubuntu-latest
+    steps:
     - name: Pushes to atlas
       uses: cpina/github-action-push-to-another-repository@main
       env:
