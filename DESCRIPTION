@@ -7,7 +7,7 @@ License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
-Date: 2022-07-20
+Date: 2023-05-01
 Authors@R: 
     person(given = "Serdar",
            family = "Balci",
@@ -16,7 +16,7 @@ Authors@R:
            comment = c(ORCID = "0000-0002-7852-3851"))
 Maintainer: Serdar Balci <serdar.balci@memorial.com.tr>
 Depends: 
-    R (>= 4.2.0)
+    R (>= 4.3.0)
 Imports:
     remotes,
     rlang,
