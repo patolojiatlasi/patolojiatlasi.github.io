@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.340">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>gpdp</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="gpdp_files/libs/clipboard/clipboard.min.js"></script>
+<script src="gpdp_files/libs/quarto-html/quarto.js"></script>
+<script src="gpdp_files/libs/quarto-html/popper.min.js"></script>
+<script src="gpdp_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="gpdp_files/libs/quarto-html/anchor.min.js"></script>
+<link href="gpdp_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="gpdp_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="gpdp_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="gpdp_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="gpdp_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="memorial-patolojinin" class="level1">
+<h1>Memorial Patolojinin</h1>
+<p>Günlük Pratiğinde Dijital Patoloji</p>
+<p><img src="img%5Cgpdp0.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp1.gif" class="img-fluid"></p>
+<p><img src="img%5Cgpdp2.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp3.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp4.png" class="img-fluid"></p>
+</section>
+<section id="daha-önce-gönderdiğim-sunum-ve-yazılara-lütfen-bakın" class="level1">
+<h1>Daha önce gönderdiğim sunum ve yazılara lütfen bakın</h1>
+<p><em><a href="https://docs.google.com/presentation/d/1o1Glh4xTOPYEjX0s9uUKxwhEdwj7NZa7pj7fjZv6gAE/edit#slide=id.p">Patolojide Yapay Zeka</a></em></p>
+<p><em><a href="https://docs.google.com/document/d/10osEzn36YuIaLW8qQp3ANuQeCZi-SqJkA5LV-R7bcWU/edit#heading=h.vk8e6k5f2h73">Dijital Patoloji’ye Geçerken</a></em></p>
+<p><em><a href="https://docs.google.com/document/d/1HUWnkXb-6_IzNHiU3LTVDwLvgQM8eLZUaYWRzeSDl2U/edit#heading=h.awc8eb1l8ncb">Patolojide Bilişim</a></em></p>
+</section>
+<section id="kılavuzlar" class="level1">
+<h1>Kılavuzlar</h1>
+<p><em><a href="https://www.serdarbalci.com/edufiles/18778_Leeds_Guide_to_Digital_Pathology_Brochure_A4_final_hi.pdf">Leeds Guide to Digital Pathology</a></em></p>
+<p><em><a href="https://www.serdarbalci.com/edufiles/Horizontal_Leeds_guide_032222_whtpg1.pdf">The Leeds Guide to Digital Pathology Volume 2</a></em></p>
+<p><em><a href="https://www.serdarbalci.com/edufiles/Aperio_AT2_DX_User_s_Guide.pdf">Aperio AT2 DX Users Guide</a></em></p>
+<p><em><a href="https://www.serdarbalci.com/edufiles/Aperio_AT2_DX_User_s_Guide_TR.pdf">Aperio AT2 DX Users Guide Türkçe</a></em></p>
+<p><em><a href="https://www.serdarbalci.com/edufiles/MAN-0251_Aperio_AT2_Console_User_Guide.pdf">Aperio AT2 Console User Guide</a></em></p>
+<p><em><a href="https://www.serdarbalci.com/edufiles/Aperio-Brightfield-Tarayici-Guvenlik-Talimatlari.pdf">Aperio Brightfield Tarayıcı Güvenlik Talimatları</a></em></p>
+<p><em><a href="https://www.serdarbalci.com/edufiles/Sectra_UsersGuide_Pathology_Turkish.pdf">Sectra Users Guide Pathology Türkçe</a></em></p>
+</section>
+<section id="nelerden-bahsedeceğiz" class="level1">
+<h1>Nelerden bahsedeceğiz?</h1>
+<p>Spesmen Kabulü</p>
+<p>Makroskopi resimleri</p>
+<p>Scanner’dan önce</p>
+<p>Scanner’da ne oluyor</p>
+<p>Sectra’ya aktarım</p>
+<p>Tanı koyarken nelere dikkat edeceğiz</p>
+<p><img src="img%5Cgpdp5.png" class="img-fluid"></p>
+<p>via #dalle <em><a href="https://labs.openai.com/s/jqJBiW0lElfHIGygPnBhFlBj">https://labs.openai.com/s/jqJBiW0lElfHIGygPnBhFlBj</a></em></p>
+</section>
+<section id="spesmen-kabulü" class="level1">
+<h1>Spesmen Kabulü</h1>
+</section>
+<section id="section" class="level1">
+<h1></h1>
+</section>
+<section id="virapis-sectra" class="level1">
+<h1>ViraPis → Sectra</h1>
+<p><img src="img%5Cgpdp6.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp7.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp8.png" class="img-fluid"></p>
+</section>
+<section id="makroskopi-resimleri" class="level1">
+<h1>Makroskopi Resimleri</h1>
+</section>
+<section id="makroskopi-resimlerini-yüklemek" class="level1">
+<h1>Makroskopi Resimlerini Yüklemek</h1>
+</section>
+<section id="uniview" class="level1">
+<h1>Uniview</h1>
+<p><em><a href="https://sectra.memorial.com.tr/uniview/">https://sectra.memorial.com.tr/uniview/</a></em></p>
+<p><img src="img%5Cgpdp9.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp10.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp11.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp12.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp13.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp14.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp15.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp16.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp17.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp18.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp19.png" class="img-fluid"></p>
+</section>
+<section id="makroskopi-resimlerini-yüklemek-1" class="level1">
+<h1>Makroskopi Resimlerini Yüklemek</h1>
+</section>
+<section id="ids7" class="level1">
+<h1>IDS7</h1>
+<p>IDS7 sadece windows ve sadece Edge browser ile çalışıyor</p>
+<p><img src="img%5Cgpdp20.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp21.png" class="img-fluid"></p>
+</section>
+<section id="dışarıdan-gelen-resimleri-yüklemek" class="level1">
+<h1>Dışarıdan Gelen Resimleri Yüklemek</h1>
+<p>Bunun için de IDS7’deki yöntem en ideali.</p>
+<p><img src="img%5Cgpdp22.png" class="img-fluid"></p>
+</section>
+<section id="makroskopi-resimlerini-bulmak" class="level1">
+<h1>Makroskopi Resimlerini Bulmak</h1>
+</section>
+<section id="uniview-1" class="level1">
+<h1>Uniview</h1>
+<p><img src="img%5Cgpdp23.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp24.png" class="img-fluid"></p>
+</section>
+<section id="ids7-1" class="level1">
+<h1>IDS7</h1>
+<p><img src="img%5Cgpdp25.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp26.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp27.png" class="img-fluid"></p>
+</section>
+<section id="mikroskopi-wsi" class="level1">
+<h1>Mikroskopi WSI</h1>
+</section>
+<section id="aperio-tarama-cihazı" class="level1">
+<h1>Aperio / Tarama Cihazı</h1>
+</section>
+<section id="tarama-öncesi" class="level1">
+<h1>Tarama Öncesi</h1>
+<p>Barkod</p>
+<p>Lam</p>
+<p><img src="img%5Cgpdp28.png" class="img-fluid"></p>
+</section>
+<section id="barkod" class="level1">
+<h1>Barkod</h1>
+<p><strong>Barkod, Karekod, QR Code, Datamatrix</strong></p>
+<p><em><a href="https://youtu.be/KMsvtqQqz5g">What Are Those Other Weird QR Codes?</a></em></p>
+<p><img src="img%5Cgpdp29.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp30.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp31.png" class="img-fluid"></p>
+</section>
+<section id="section-1" class="level1">
+<h1></h1>
+<p><img src="img%5Cgpdp32.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp33.png" class="img-fluid"></p>
+<p><em><a href="https://regex101.com/r/OmbUN6/12">https://regex101.com/r/OmbUN6/12</a></em></p>
+</section>
+<section id="barkod-neden-önemli" class="level1">
+<h1>Barkod neden önemli</h1>
+<ul>
+<li>Sanal mapenin düzgün oluşması</li>
+<li>Lamların sıralı dizilmesi</li>
+<li>HE ve Özel boyaların sıralı dizilmesi</li>
+<li>İleride ilgili algoritması çalışacak lamların tespiti
+<ul>
+<li>Mesela Ki-67 düzgün bir şekilde düzgün yere yazılırsa bu lamda algoritma taramadan hemen sonra çalışacaktır. Aksi halde algoritmayı manuel çalıştırmak gerekecek.</li>
+<li>Bunun için sadece barkod da yeterli olmayacak, SUT kodlu istek türleri yerine klinik anlamlılığı olan ifadelerle gruplamalar yapmak gerekecektir.</li>
+</ul></li>
+</ul>
+</section>
+<section id="barkod-olmayınca-ne-oluyor" class="level1">
+<h1>Barkod olmayınca ne oluyor?</h1>
+<ul>
+<li>Uyumsuz olarak belirlenip geçici alana kopyalanıyor</li>
+<li>El ile bunları taşımak gerekiyor
+<ul>
+<li>Bu sırada hatalar oluyor</li>
+</ul></li>
+<li>Geçici alanda biriken dosyalar sistemin performansını düşürüyor</li>
+<li>Lamdan haberi olmayan patolog raporu o lama bakmadan yazabiliyor</li>
+</ul>
+<p><img src="img%5Cgpdp34.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp35.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp36.png" class="img-fluid"></p>
+</section>
+<section id="sanal-mape" class="level1">
+<h1>Sanal Mape</h1>
+</section>
+<section id="section-2" class="level1">
+<h1></h1>
+<p><img src="img%5Cgpdp37.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp38.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp39.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp40.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp41.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp42.png" class="img-fluid"></p>
+</section>
+<section id="görüntü-silmek" class="level1">
+<h1>Görüntü Silmek</h1>
+<p><img src="img%5Cgpdp43.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp44.png" class="img-fluid"></p>
+</section>
+<section id="görüntü-bilgisini-düzeltmek" class="level1">
+<h1>Görüntü Bilgisini Düzeltmek</h1>
+<p><img src="img%5Cgpdp45.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp46.png" class="img-fluid"></p>
+</section>
+<section id="kalibrasyon" class="level1">
+<h1>Kalibrasyon</h1>
+<p><img src="img%5Cgpdp47.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp48.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp49.png" class="img-fluid"></p>
+<p><em><a href="https://www.instagram.com/p/CacgqWKo68d/">https://www.instagram.com/p/CacgqWKo68d/</a></em></p>
+<p><img src="img%5Cgpdp50.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp51.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp52.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp53.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp54.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp55.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp56.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp57.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp58.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp59.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp60.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp61.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp62.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp63.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp64.jpg" class="img-fluid"></p>
+</section>
+<section id="section-3" class="level1">
+<h1></h1>
+<p><img src="img%5Cgpdp65.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp66.png" class="img-fluid"></p>
+</section>
+<section id="lam-özellikleri" class="level1">
+<h1>Lam Özellikleri</h1>
+<p><img src="img%5Cgpdp67.png" class="img-fluid"></p>
+</section>
+<section id="section-4" class="level1">
+<h1></h1>
+<p><img src="img%5Cgpdp68.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp69.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp70.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp71.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp72.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp73.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp74.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp75.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp76.png" class="img-fluid"></p>
+</section>
+<section id="aynı-cam-aynı-alan-aynı-makina-aynı-büyütme." class="level1">
+<h1>Aynı cam, aynı alan, aynı makina, aynı büyütme.</h1>
+<p><img src="img%5Cgpdp77.png" class="img-fluid"></p>
+</section>
+<section id="küçük-bir-kabarcık-tüm-taramanın-kalitesini-bozmuş.-alanı-seçip-fokus-noktasını-ayarlamak-lazım.-bunun-için-her-lamın-tarandıktan-sonra-kalite-kontrolünden-geçmesi-lazım" class="level1">
+<h1>Küçük bir kabarcık tüm taramanın kalitesini bozmuş. alanı seçip fokus noktasını ayarlamak lazım. Bunun için her lamın tarandıktan sonra kalite kontrolünden geçmesi lazım</h1>
+<p><img src="img%5Cgpdp78.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp79.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp80.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp81.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp82.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp83.png" class="img-fluid"></p>
+</section>
+<section id="tarama-nasıl-yapılır" class="level1">
+<h1>Tarama Nasıl Yapılır</h1>
+</section>
+<section id="tarama-nasıl-yapılır-1" class="level1">
+<h1>Tarama nasıl yapılır?</h1>
+<p><img src="img%5Cgpdp84.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp85.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp86.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp87.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp88.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp89.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp90.jpg" class="img-fluid"></p>
+</section>
+<section id="lamların-dizilmesi" class="level1">
+<h1>Lamların Dizilmesi</h1>
+<p><img src="img%5Cgpdp91.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp92.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp93.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp94.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp95.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp96.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp97.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp98.jpg" class="img-fluid"></p>
+</section>
+<section id="önizleme" class="level1">
+<h1>Önizleme</h1>
+<p><img src="img%5Cgpdp99.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp100.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp101.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp102.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp103.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp104.jpg" class="img-fluid"></p>
+</section>
+<section id="odaklama-noktaları" class="level1">
+<h1>Odaklama Noktaları</h1>
+<p><img src="img%5Cgpdp105.png" class="img-fluid"></p>
+</section>
+<section id="tarama-sırasında" class="level1">
+<h1>Tarama Sırasında</h1>
+<p><img src="img%5Cgpdp106.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp107.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp108.png" class="img-fluid"></p>
+</section>
+<section id="mikroskopi-resimleri-nasıl-yükleniyor" class="level1">
+<h1>Mikroskopi Resimleri Nasıl Yükleniyor</h1>
+<p><img src="img%5Cgpdp109.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp110.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp111.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp112.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp113.png" class="img-fluid"></p>
+</section>
+<section id="uyumsuz-vakalar" class="level1">
+<h1>Uyumsuz Vakalar</h1>
+<p>Barkod Nedenli</p>
+<p><img src="img%5Cgpdp114.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp115.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp116.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp117.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp118.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp119.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp120.png" class="img-fluid"></p>
+</section>
+<section id="uyumsuz-vakalar-1" class="level1">
+<h1>Uyumsuz Vakalar</h1>
+<p>Hasta Numarası Nedenli</p>
+<p><img src="img%5Cgpdp121.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp122.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp123.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp124.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp125.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp126.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp127.jpg" class="img-fluid"></p>
+</section>
+<section id="uyumsuz-vakalar-2" class="level1">
+<h1>Uyumsuz Vakalar</h1>
+<p>Hatalı Görüntülerin Transferi</p>
+</section>
+<section id="sectrada-hasta-birleştirme-ve-görüntü-aktarımı" class="level1">
+<h1>Sectra’da hasta birleştirme ve görüntü aktarımı</h1>
+<p><img src="img%5Cgpdp128.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp129.jpg" class="img-fluid"></p>
+</section>
+<section id="dışarıdan-gelen" class="level1">
+<h1>Dışarıdan Gelen</h1>
+<p>WSI dosyalarını (.svs) Yüklemek</p>
+<p><img src="img%5Cgpdp130.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp131.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp132.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp133.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp134.png" class="img-fluid"></p>
+</section>
+<section id="rutin-dışı-farklı-özellikle-vaka-taramak" class="level1">
+<h1>Rutin Dışı Farklı Özellikle Vaka Taramak</h1>
+<p><img src="img%5Cgpdp135.jpg" class="img-fluid"></p>
+</section>
+<section id="section-5" class="level1">
+<h1></h1>
+<p><img src="img%5Cgpdp136.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp137.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp138.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp139.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp140.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp141.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp142.jpg" class="img-fluid"></p>
+</section>
+<section id="ihk-taranması" class="level1">
+<h1>IHK taranması</h1>
+<p><img src="img%5Cgpdp143.png" class="img-fluid"></p>
+</section>
+<section id="sitoloji-taraması" class="level1">
+<h1>Sitoloji Taraması</h1>
+</section>
+<section id="section-6" class="level1">
+<h1></h1>
+<p><img src="img%5Cgpdp144.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp145.png" class="img-fluid"></p>
+</section>
+<section id="mega-lam-taraması" class="level1">
+<h1>Mega Lam Taraması</h1>
+<p><img src="img%5Cgpdp146.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp147.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp148.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp149.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp150.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp151.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp152.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp153.png" class="img-fluid"></p>
+</section>
+<section id="aradan-nasıl-vaka-taranır" class="level1">
+<h1>Aradan nasıl vaka taranır?</h1>
+<p><img src="img%5Cgpdp154.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp155.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp156.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp157.jpg" class="img-fluid"></p>
+</section>
+<section id="hata-mesajları" class="level1">
+<h1>Hata Mesajları</h1>
+<p><img src="img%5Cgpdp158.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp159.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp160.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp161.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp162.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp163.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp164.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp165.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp166.jpg" class="img-fluid"></p>
+</section>
+<section id="en-hızlı-tarama-için-camları-taramaya-nasıl-koyalım" class="level1">
+<h1>En hızlı tarama için camları taramaya nasıl koyalım?</h1>
+<p><img src="img%5Cgpdp167.png" class="img-fluid"></p>
+<p>Teknikerleri gerçek acil olmayan vakalar için aramayalım</p>
+<p>Mümkün olduğu kadar cihazı durdurmadan taramalara ekleme yapalım</p>
+<p>Taranacak vakaların önden kesilmesini, farklı renkli lama kesilmesini sağlayalım</p>
+<p>Biraz sabırlı olalım.</p>
+<p>GT450 denemesi sonrasında satın alma kronometre ile ölçüm yapıyor günlerdir.</p>
+<p>2 - 10 dakika arasında değişiyor bir lamın taranması.</p>
+<p>3 - 4 dakika x 10 rack x 40 lam = 1200 - 1600 dakika (20-26 saat)</p>
+<p>Bu sorudan önce:</p>
+<p><strong>En hızlı tarama için lamları nasıl hazırlayalım?</strong></p>
+<p><strong>Eskinin analitik süreci (tüm laboratuvar), dijital için preanalitik süreç oldu.</strong></p>
+<p><img src="img%5Cgpdp168.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp169.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp170.jpg" class="img-fluid"></p>
+</section>
+<section id="tarama-cihazı-bakımı" class="level1">
+<h1>Tarama Cihazı Bakımı</h1>
+<p>Kalibrasyon</p>
+<p>Cam Kırıkları</p>
+<p>Toz</p>
+<p>6 ayda bir kırılma indisi düzeltmesi</p>
+<p><img src="img%5Cgpdp171.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp172.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp173.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp174.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp175.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp176.png" class="img-fluid"></p>
+</section>
+<section id="memorial-patolojinin-günlük-pratiğinde-dijital-patoloji" class="level1">
+<h1>Memorial Patolojinin Günlük Pratiğinde Dijital Patoloji</h1>
+<p>Önceki Sunumdan Kalanlar</p>
+<p><img src="img%5Cgpdp177.gif" class="img-fluid"></p>
+<p><img src="img%5Cgpdp178.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp179.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp180.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp181.png" class="img-fluid"></p>
+<p><strong>Şu an iş akışımızda mape dizimi önce geliyor. Boyadan çıkan lamlar kurutulduktan sonra mapelere diziliyor. Daha sonra dağıtıma çıkıyor. Dijitale giden vakalar da bu mape dizilimini beklediği için saat 3-4’e kadar bekliyor. Daha sonra raklara dizme, ön tarama yapılması ve cihazın çalıştırılması başlıyor. Sabaha kadar çalışan cihazda 400 lamın yaklaşık %75-80’i taranmış oluyor. Kalanlar da ertesi sabah tamamlanmış oluyor.</strong></p>
+<p><img src="img%5Cgpdp182.png" class="img-fluid"></p>
+<p><strong>Hibrid bir iş akışında boyama cihazından çıkan vakaların dijitale mi yoksa mape dizimine mi gideceğine karar verilmesi gerekecek. Bu adım potansiyel hatalara ve gecikmelere sebep olacaktır.</strong></p>
+<p><img src="img%5Cgpdp183.png" class="img-fluid"></p>
+<p><strong>Tam dijital bir iş akışında ise boyadan çıkan lamlar direk taramaya alınacak ve mape dizimi yapılmadan lamlar arşive gidecektir. Bu durumda bir mape hazırlama basamağı olmayacaktır.</strong></p>
+</section>
+<section id="tam-dijital-ve-hibrid-bir-iş-akışında-şu-noktalara-dikkat-etmek-lazım" class="level1">
+<h1>Tam dijital ve hibrid bir iş akışında şu noktalara dikkat etmek lazım</h1>
+<p><strong>Hangi vakanın dijitalde tamamlandığı (dijital bir mape ile hazır olduğu) nasıl bilinecek?</strong></p>
+<p><strong>Uzman vakayı açıp blok ve lam sayısına bakıp vaka hazır diye mi kabul edecek?</strong></p>
+<p><strong>Yoksa bir tekniker bu vaka tam diye kontrol edip bunu haber mi verecek?</strong></p>
+<p><strong>Tekniker haber verecekse bu nasıl olacak? Mail ile olan bildirimler karışıklığa neden oluyor.</strong></p>
+<p><strong>Sectra’da vaka durumu özelliği var. Ancak bir lam bile yüklense “çekim” durumuna geliyor. Bunu kontrol eden tekniker “gönderildi” gibi bir sonraki basamağa bunu aktarabilir.</strong></p>
+<p><strong>Bu bilgi sadece sectra’da mı olacak yoksa rapora hazır bilgisi virapis’e de giderek bunu güncelleyecek mi (bildiğim kadarıyla sectra durum bilgilerini güncelleyip virapise gönderecek bir yapıda değil)</strong></p>
+<p><img src="img%5Cgpdp184.png" class="img-fluid"></p>
+</section>
+<section id="tarama-sonrası" class="level1">
+<h1>Tarama Sonrası</h1>
+</section>
+<section id="tanı-süreci" class="level1">
+<h1>Tanı süreci</h1>
+</section>
+<section id="sectra-eğitim-videoları" class="level1">
+<h1>Sectra eğitim videoları</h1>
+<p><em><a href="https://trainingvideos.sectra.com/library/lang/en">https://trainingvideos.sectra.com/library/lang/en</a></em></p>
+<p><em><a href="https://trainingvideos.sectra.com/library/tag/pathology">Sectra Training Video Library</a></em></p>
+<p>Sectra Yardım menüsünden ulaşılabilecek kılavuzlar:</p>
+<p>Kullanıcı Kılavuzu IDS7</p>
+<p>Kullanıcı Kılavuzu Patoloji Görüntü Penceresi</p>
+<p><img src="img%5Cgpdp185.jpg" class="img-fluid"></p>
+</section>
+<section id="section-7" class="level1">
+<h1></h1>
+<p><img src="img%5Cgpdp186.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp187.jpg" class="img-fluid"></p>
+</section>
+<section id="mikroskopi-resimlerini-bulmak" class="level1">
+<h1>Mikroskopi Resimlerini Bulmak</h1>
+</section>
+<section id="virapis-üzerinden" class="level1">
+<h1>ViraPis üzerinden</h1>
+<p><img src="img%5Cgpdp188.png" class="img-fluid"></p>
+</section>
+<section id="ids7-2" class="level1">
+<h1>IDS7</h1>
+<p><img src="img%5Cgpdp189.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp190.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp191.png" class="img-fluid"></p>
+</section>
+<section id="uniview-2" class="level1">
+<h1>Uniview</h1>
+<p><img src="img%5Cgpdp192.png" class="img-fluid"></p>
+</section>
+<section id="lamların-tümü-taranmış-mı" class="level1">
+<h1>Lamların Tümü Taranmış Mı?</h1>
+<p><strong>Virapisten lam sayısı sectraya gidiyor. Ancak bu lam sayısına sadece HE’ler dahil, özel boyalar ve yaymalar dahil değil. Bu sayı sadece virapisin numaraladığı blok ve lamlar üzerinden hesaplanıyor. Dolayısıyla bize bir fikir verebilse de tam işe yaramış diyemeyiz.</strong></p>
+<p><img src="img%5Cgpdp193.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp194.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp195.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp196.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp197.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp198.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp199.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp200.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp201.png" class="img-fluid"></p>
+</section>
+<section id="lamın-tamamı-taranmış-mı" class="level1">
+<h1>Lamın Tamamı Taranmış Mı?</h1>
+<p><strong>Lamların tümünün taranmış olması vakanın onaylanması için yeterli olur mu? (İstek kağıdı, makroskopide sorun olmadığını varsayarak). Taramayı yapan tekniker vakanın onaya hazır olduğunu belirtmeden önce taramada sorun olup olmadığını kontrol edecek mi? (Şu anki cihaz için söylüyorum) Ya da boyaların durumunu kontrol edecek mi? Bu kısmı teknikerlerin yapabileceğini sanmıyorum. Artık o vakanın uzmanına kalacak. Ve gerekirse yeniden tarama ya da lamları isteyecek.</strong></p>
+<p><img src="img%5Cgpdp202.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp203.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp204.png" class="img-fluid"></p>
+</section>
+<section id="doğru-lam-taranmış-mı" class="level1">
+<h1>Doğru Lam Taranmış Mı?</h1>
+<p><img src="img%5Cgpdp205.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp206.png" class="img-fluid"></p>
+</section>
+<section id="ekranda-gezinti" class="level1">
+<h1>Ekranda Gezinti</h1>
+<p>Muscle Memory</p>
+<p>Yeni kuşak patolojinin yeni ergonomi sorunları</p>
+</section>
+<section id="section-8" class="level1">
+<h1></h1>
+<p><img src="img%5Cgpdp207.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp208.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp209.png" class="img-fluid"></p>
+<p><em><a href="https://www.sysmex.com.tr/ueruenler/products-detail/slidedriver.html">https://www.sysmex.com.tr/ueruenler/products-detail/slidedriver.html</a></em></p>
+<p><img src="img%5Cgpdp210.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp211.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp212.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp213.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp214.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp215.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp216.png" class="img-fluid"></p>
+<p><strong>Mac kullananlar için: </strong> <span style="color:#1155CC"> <em><a href="https://middleclick.app/">https://middleclick.app/</a></em> </span></p>
+<p><span style="color:#434343">Mouse, 3D Mouse:</span></p>
+<p><span style="color:#1155CC"> <em><a href="https://www.cimri.com/klavye-mouse/en-ucuz-3dconnexion-klavye-mouse-fiyatlari">https://www.cimri.com/klavye-mouse/en-ucuz-3dconnexion-klavye-mouse-fiyatlari</a></em> </span></p>
+<p><span style="color:#1155CC"> <em><a href="https://3dconnexion.com/uk/product/spacemouse-pro/">https://3dconnexion.com/uk/product/spacemouse-pro/</a></em> </span></p>
+<p><span style="color:#434343">Digital Pathology Cockpit:</span></p>
+<p><span style="color:#1155CC"> <em><a href="https://www.3dhistech.com/solutions/digital-pathology-cockpit/">Digital Pathology Cockpit - 3DHISTECH Ltd.</a></em> </span></p>
+<p><span style="color:#1155CC"> <em><a href="https://www.3dhistech.com/diagnostics/lab-components/slidedriver/">SlideDriver - 3DHISTECH Ltd.</a></em> </span></p>
+</section>
+<section id="lamları-gözden-geçirildi-olarak-işaretleme" class="level1">
+<h1>Lamları Gözden Geçirildi Olarak İşaretleme</h1>
+<p><img src="img%5Cgpdp217.jpg" class="img-fluid"></p>
+</section>
+<section id="ekran" class="level1">
+<h1>Ekran</h1>
+<p><em><a href="https://www.virtualpathology.leeds.ac.uk/research/systems/pouqa/pathology/">https://www.virtualpathology.leeds.ac.uk/research/systems/pouqa/pathology/</a></em></p>
+<p><img src="img%5Cgpdp218.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp219.png" class="img-fluid"></p>
+</section>
+<section id="öğretim-dosyası-anahtar-sözcükleri" class="level1">
+<h1>Öğretim Dosyası Anahtar Sözcükleri</h1>
+<p><img src="img%5Cgpdp220.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp221.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp222.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp223.png" class="img-fluid"></p>
+</section>
+<section id="anahtar-kelimeler-ile-vakayı-bulmak" class="level1">
+<h1>Anahtar kelimeler ile vakayı bulmak</h1>
+<p><img src="img%5Cgpdp224.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp225.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp226.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp227.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp228.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp229.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp230.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp231.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp232.png" class="img-fluid"></p>
+</section>
+<section id="iş-listesi-oluşturmak" class="level1">
+<h1>İş Listesi Oluşturmak</h1>
+<p><img src="img%5Cgpdp233.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp234.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp235.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp236.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp237.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp238.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp239.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp240.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp241.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp242.png" class="img-fluid"></p>
+</section>
+<section id="section-9" class="level1">
+<h1></h1>
+<p><img src="img%5Cgpdp243.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp244.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp245.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp246.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp247.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp248.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp249.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp250.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp251.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp252.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp253.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp254.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp255.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp256.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp257.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp258.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp259.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp260.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp261.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp262.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp263.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp264.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp265.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp266.png" class="img-fluid"></p>
+</section>
+<section id="arşivlenmiş-vakalar" class="level1">
+<h1>Arşivlenmiş Vakalar</h1>
+<p><img src="img%5Cgpdp267.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp268.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp269.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp270.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp271.png" class="img-fluid"></p>
+</section>
+<section id="hastaları-geçici-olarak-anonim-hale-getirmek" class="level1">
+<h1>Hastaları geçici olarak anonim hale getirmek</h1>
+<p><img src="img%5Cgpdp272.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp273.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp274.png" class="img-fluid"></p>
+</section>
+<section id="vaka-dökümü-almak" class="level1">
+<h1>Vaka dökümü almak</h1>
+<p><img src="img%5Cgpdp275.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp276.png" class="img-fluid"></p>
+</section>
+<section id="x-vs-40x" class="level1">
+<h1>20x vs 40x</h1>
+<p><img src="img%5Cgpdp277.png" class="img-fluid"></p>
+</section>
+<section id="senkron-görüntüleme" class="level1">
+<h1>Senkron görüntüleme</h1>
+<p><img src="img%5Cgpdp278.jpg" class="img-fluid"></p>
+</section>
+<section id="not-alma" class="level1">
+<h1>Not alma</h1>
+</section>
+<section id="ölçüm" class="level1">
+<h1>Ölçüm</h1>
+</section>
+<section id="bağlantı-hızı" class="level1">
+<h1>Bağlantı hızı</h1>
+</section>
+<section id="işık-gamma-ayarı" class="level1">
+<h1>Işık / Gamma ayarı</h1>
+<p><img src="img%5Cgpdp279.png" class="img-fluid"></p>
+</section>
+<section id="dış-konsültasyon-için-link-oluşturmak" class="level1">
+<h1>Dış Konsültasyon İçin Link Oluşturmak</h1>
+<p><img src="img%5Cgpdp280.png" class="img-fluid"></p>
+<p>via #dalle <em><a href="https://labs.openai.com/s/Yp6cRTIqZwB0LHxSz2uAZa9O">https://labs.openai.com/s/Yp6cRTIqZwB0LHxSz2uAZa9O</a></em></p>
+<p><img src="img%5Cgpdp281.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp282.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp283.png" class="img-fluid"></p>
+</section>
+<section id="sanal-hasta-çalışma-hastası-oluşturmak" class="level1">
+<h1>Sanal Hasta, Çalışma Hastası Oluşturmak</h1>
+<p><img src="img%5Cgpdp284.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp285.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp286.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp287.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp288.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp289.jpg" class="img-fluid"></p>
+</section>
+<section id="görüntüleri-dışa-aktarmak" class="level1">
+<h1>Görüntüleri Dışa aktarmak</h1>
+<p>.svs olarak kaydetmek</p>
+<p><img src="img%5Cgpdp290.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp291.png" class="img-fluid"></p>
+<p>Bu dışarı aktarma uniview ekranından da yapılabiliyor, ancak dışarı paylaşılan linklerde bu özellik aktif değil</p>
+<p><img src="img%5Cgpdp292.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp293.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp294.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp295.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp296.png" class="img-fluid"></p>
+<p><em><a href="https://medevel.com/10-os-whole-slide-image/">10 Open-source Whole-Slide Image Viewers and Analysis Programs; Redefining Digital Pathology</a></em></p>
+<p><em><a href="https://digitalpathologyplace.com/8-free-open-source-software-programs-for-image-analysis-of-pathology-slides/">8 free open source software programs for image analysis of pathology slides</a></em></p>
+<p><img src="img%5Cgpdp297.png" class="img-fluid"></p>
+<p><em><a href="https://www.leicabiosystems.com/digital-pathology/manage/aperio-imagescope/">https://www.leicabiosystems.com/digital-pathology/manage/aperio-imagescope/</a></em></p>
+<p><img src="img%5Cgpdp298.png" class="img-fluid"></p>
+<p><em><a href="https://qupath.github.io/">https://qupath.github.io/</a></em></p>
+<p><img src="img%5Cgpdp299.png" class="img-fluid"></p>
+<p><em><a href="https://www.pathomation.com/pma-start/">https://www.pathomation.com/pma-start/</a></em></p>
+<p><img src="img%5Cgpdp300.png" class="img-fluid"></p>
+<p><em><a href="https://www.iis.fraunhofer.de/en/ff/sse/health/medical-image-analysis/mikroskopie/micaia.html">https://www.iis.fraunhofer.de/en/ff/sse/health/medical-image-analysis/mikroskopie/micaia.html</a></em></p>
+<p><img src="img%5Cgpdp301.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp302.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp303.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp304.png" class="img-fluid"></p>
+</section>
+<section id="section-10" class="level1">
+<h1></h1>
+</section>
+<section id="anonim-olarak-bir-grup-hastayı-paylaşmak" class="level1">
+<h1>anonim olarak bir grup hastayı paylaşmak</h1>
+<p>(çalışma, kurs, eğitim ve öğrenci dersleri için)</p>
+<p><strong>Paige ve başka firmalar çalışması için anonim olarak bir grup hastayı paylaşmak gerekti. Bunun için svs dosyalarını indirmek ve tekrar yüklemek çok zaman alıyordu.</strong></p>
+<p><strong>Onun için bir “visitor” hesabı oluşturdu Sectra ekibi.</strong></p>
+<p><strong>Bu hesapla giren kişiler sadece bizim bu klasöre sürükleyip bıraktığımız vakaları anonim olarak görecekler. (burada notlar ve raporu görme opsiyonu da vardı ama ben onu istemedim). Burada sadece patoloji mikroskopi ve makroskopi görüntüleri anonim olarak görünebiliyor. Diğer tetkikler ve bilgiler görünmüyor.</strong></p>
+<p><strong>Bu hesapla giren kişiler svs dosyalarını da anonim olarak indirebilecekler. Anonimleştirme işlemi erişim numarasını ve boyaları ortadan kaldırmıyor. Erişim numarasının HIPAA’ya uygun olup olmadığı Sectra forumlarında tartışılıyordu. Ama o konuda daha güncelleme gelmemiş.</strong></p>
+<p><strong>Bu hesapla ya da benzeri hesaplarla vaka paylaşabilir, kurslar düzenleyebilir, öğrenciler için kolleksiyonlar yapabilirsiniz. Böylece vakanın tümünü anonim olarak paylaştığınız gerçek hayatla uyumlu eğitim ve kurslar düzenleyebilirsiniz. Reklamlar :)</strong></p>
+<p><strong>İlerisi için aklınızda olsun.</strong></p>
+<p><img src="img%5Cgpdp305.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp306.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp307.png" class="img-fluid"></p>
+</section>
+<section id="sectrada-raporlama-ve-ses-kaydı" class="level1">
+<h1>Sectra’da raporlama ve ses kaydı</h1>
+<p><img src="img%5Cgpdp308.jpg" class="img-fluid"></p>
+<p>Sectra’da rapor için ses kayıt</p>
+<p><img src="img%5Cgpdp309.jpg" class="img-fluid"></p>
+<p>Sectra’da rapor için ses kayıt</p>
+<p><img src="img%5Cgpdp310.png" class="img-fluid"></p>
+<p>Sectra’da rapor için ses kayıt</p>
+<p><img src="img%5Cgpdp311.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp312.png" class="img-fluid"></p>
+<p>Rosai, 10th Ed. Chapter 1</p>
+<p><em><a href="https://my.sectra.com/en-US/ideas/digital_pathology/">https://my.sectra.com/en-US/ideas/digital_pathology/</a></em></p>
+<p><img src="img%5Cgpdp313.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp314.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp315.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp316.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp317.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp318.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp319.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp320.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp321.png" class="img-fluid"></p>
+<p><em><a href="https://cubicl.io/portals/5c52931175aca05eac172ee5/">https://cubicl.io/portals/5c52931175aca05eac172ee5/</a></em></p>
+<p><img src="img%5Cgpdp322.png" class="img-fluid"></p>
+</section>
+<section id="section-11" class="level1">
+<h1></h1>
+<p><img src="img%5Cgpdp323.png" class="img-fluid"></p>
+</section>
+<section id="kalite-kontrol" class="level1">
+<h1>Kalite Kontrol</h1>
+<p><img src="img%5Cgpdp324.jpg" class="img-fluid"></p>
+</section>
+<section id="okuma-önerileri" class="level1">
+<h1>Okuma önerileri</h1>
+<p><em><a href="https://www.virtualpathology.leeds.ac.uk/research/clinical/docs/2018/pdfs/18778_Leeds%20Guide%20to%20Digital%20Pathology_Brochure_A4_final_hi.pdf">The Leeds Guide to Digital Pathology</a></em></p>
+<p><em><a href="https://jcp.bmj.com/content/70/12/1010.long">Future-proofing pathology: the case for clinical adoption of digital pathology</a></em></p>
+<p><img src="img%5Cgpdp325.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp326.gif" class="img-fluid"></p>
+<p><img src="img%5Cgpdp327.gif" class="img-fluid"></p>
+<p><img src="img%5Cgpdp328.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp329.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp330.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp331.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp332.png" class="img-fluid"></p>
+<p>https://www.linkedin.com/posts/igor2k_artificialintelligence-neuroscience-cognitivescience-activity-6987973855575166976-bdfA?utm_source=share&amp;utm_medium=member_desktop</p>
+<p><img src="img%5Cgpdp333.png" class="img-fluid"></p>
+<p><em><a href="https://www.augmentiqs.com/microscope-based-digital-pathology-system/">https://www.augmentiqs.com/microscope-based-digital-pathology-system/</a></em></p>
+<p><img src="img%5Cgpdp334.jpg" class="img-fluid"></p>
+<p><img src="img%5Cgpdp335.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp336.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp337.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp338.png" class="img-fluid"></p>
+<p><img src="img%5Cgpdp339.png" class="img-fluid"></p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
