@@ -141,6 +141,16 @@ jobs:
 #           publish_dir: ./docs
 
 
+
+      - name: "Render patoloji-ders-notlari"
+        shell: Rscript {0}
+        run: |
+          filestorender <- list.files(path = "./lecture-notes/", pattern = ".qmd", full.names = TRUE, recursive = TRUE)
+          purrr::map(.x = filestorender, .f= quarto::quarto_render)
+          # quarto::quarto_render(input = "./lecture-notes/*.qmd")
+
+
+
       - name: Commit results to main branch
         run: |
           git config --local user.email "actions@github.com"
