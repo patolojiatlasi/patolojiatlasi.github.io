@@ -34,7 +34,8 @@ Imports:
     XML,
     svDialogs,
     xfun,
-    glue
+    glue,
+    purrr
 Remotes:
     duncantl/XMLRPC,
     duncantl/RWordPress
