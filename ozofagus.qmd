@@ -9,8 +9,19 @@ source("./R/language.R")
 
 
 ```{asis, echo = (language == "TR")}
+# Özofagus
+```
 
-# Özefagusta Granüler Hücreli Tümör
+
+```{asis, echo = (language == "TR")}
+
+## Özofagusta Granüler Hücreli Tümör
+
+```
+
+```{asis, echo = (language == "EN")}
+
+# Esophagus
 
 ```
 
@@ -19,7 +30,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-# Granular Cell Tumor in Esophagus
+## Granular Cell Tumor in Esophagus
 
 ```
 
@@ -28,7 +39,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-**Özefagusta Granüler Hücreli Tümör**
+**Özofagusta Granüler Hücreli Tümör**
 
 
 [https://images.patolojiatlasi.com/granular-cell-tumor/HE.html](https://images.patolojiatlasi.com/granular-cell-tumor/HE.html)
