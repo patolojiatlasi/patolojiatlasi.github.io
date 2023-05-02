@@ -11,7 +11,7 @@
 
 
 ```{=html}
-<iframe class="slide-deck" src="/dokuman/ISO-accreditation-digital-pathology.html" width="100%" height="475px"></iframe>
+<iframe class="slide-deck" src="/lecture-notes/alt-gis-tumorleri-sunum.html" width="100%" height="475px"></iframe>
 ```
 
 
@@ -19,7 +19,23 @@
 
 <br>
 
-{{< include ./dokuman/_ISO-accreditation-digital-pathology.qmd >}}
+{{< include ./lecture-notes/_alt-gis-tumorleri-sunum.qmd >}}
+
+
+<br>
+
+
+
+```{=html}
+<iframe class="slide-deck" src="/lecture-notes/alt-gis-tumorleri-web.html" width="100%" height="475px"></iframe>
+```
+
+
+
+
+<br>
+
+{{< include ./lecture-notes/_alt-gis-tumorleri-web.qmd >}}
 
 
 <br>
