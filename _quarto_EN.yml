@@ -5,7 +5,7 @@ project:
     - "CITATION.cff"
 
 execute:
-  freeze: true
+  freeze: auto
 
 lang: en
 
@@ -20,16 +20,16 @@ book:
      affiliation-url: "https://patoloji.memorial.com.tr/"
      orcid: "0000-0002-7852-3851"
    - name: Pathologists, Assistants and Technicians
-     affiliation: "Memorial Pathology"
-     affiliation-url: "https://patoloji.memorial.com.tr/"
+     affiliation: "Memorial Pathology & Other Institutions"
+     affiliation-url: "https://www.patolojiatlasi.com/EN/yazarlar.html"
   description: |
     Pathology Atlas and Notes for Medical Students: See and Learn
     Atlas of Pathology
     Notes for Pathology
-    Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Pathology Archive.
+    Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Pathology Archive and collaborators from other institutions.
   abstract: |
     Pathology Atlas and Notes for Medical Students: See and Learn
-    Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Pathology Archive.
+    Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Pathology Archive and collaborators from other institutions.
     If you want to contribute, please [contact us](https://www.patolojiatlasi.com/katki.html).
   date: last-modified
   image: images/cover.png
