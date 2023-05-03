@@ -81,14 +81,19 @@ book:
     right:
       - icon: github
         href: https://github.com/patolojiatlasi
+        target: _blank
       - icon: github
         href: https://github.com/pathologyatlas
+        target: _blank
       - icon: twitter
         href: https://twitter.com/patolojinotlari
+        target: _blank
       - icon: globe2
         href: https://www.patolojinotlari.com
+        target: _blank
       - icon: globe2
-        href: https://serdarbalci.com
+        href: https://www.serdarbalci.com
+        target: _blank
         # target: _blank
 
   chapters:
@@ -97,6 +102,7 @@ book:
     - text: "Giriş"
       href: giris.qmd
     - href: yazarlar.qmd
+      target: _blank
       # target: _blank
     - part: "---"
     - part: "Genel Patoloji"
@@ -255,6 +261,9 @@ book:
           href: hacettepecom.qmd
         - text: "BSAtlas"
           href: bs.qmd
+        - text: Sosyal Medyadan Derleme Patoloji Kitabı
+          href: https://www.patolojinotlari.com
+          target: _blank
     - part: "---"
   appendices:
     - yonetim-gelistirme.md
@@ -265,7 +274,7 @@ book:
     - text: "Liste"
       href: listing.qmd
     - listing2.qmd
-    - feature-trials.qmd
+    # - feature-trials.qmd
 
 
 
