@@ -298,7 +298,7 @@ format:
 #    fig-height: 4
     execute:
       warning: false
-#    css: styles.css
+    css: styles.css
     self-contained: false
     anchor-sections: true
     link-external-icon: true
