@@ -199,7 +199,7 @@ jobs:
   #   if: "!contains(github.event.head_commit.message, 'WIP') && !contains(github.event.head_commit.message, 'merge')   && !contains(github.event.head_commit.message, 'notweet')"
   #   runs-on: ubuntu-latest
   #   steps:
-  #     - uses: actions/checkout@v2
+  #     - uses: actions/checkout@v3
   #     - name: "Tweet"
   #       id: date
   #       run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
@@ -216,7 +216,7 @@ jobs:
   #   if: "!contains(github.event.head_commit.message, 'WIP') && !contains(github.event.head_commit.message, 'merge')  && !contains(github.event.head_commit.message, 'notweet')"
   #   runs-on: ubuntu-latest
   #   steps:
-  #     - uses: actions/checkout@v2
+  #     - uses: actions/checkout@v3
   #     - name: "Tweet-EN"
   #       id: date
   #       run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
@@ -254,7 +254,7 @@ jobs:
 
 
       - name: Restore R package cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ${{ env.R_LIBS_USER }}
           key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
