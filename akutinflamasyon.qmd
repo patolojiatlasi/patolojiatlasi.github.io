@@ -28,7 +28,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## akut appendisit
+## Akut Appendisit
 
 ```
 
@@ -37,7 +37,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## acute appendicitis
+## Acute Appendicitis
 
 ```
 

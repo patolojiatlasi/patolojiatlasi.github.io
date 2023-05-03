@@ -1,1 +1,24 @@
-# Gastrointestinal sistem Patolojisi
+
+
+```{r language gastro, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+# Pathology of the Gastrointestinal System 
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+# Gastrointestinal Sistem Patolojisi
+
+```
