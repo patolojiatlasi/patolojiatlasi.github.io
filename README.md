@@ -4,6 +4,7 @@
 
 [![Quarto Render Bilingual Book Push Tweet Updates](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/Quarto-Render-Bilingual-Book-Push-Tweet-Updates.yml/badge.svg)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/Quarto-Render-Bilingual-Book-Push-Tweet-Updates.yml)
 
+[![Lecture Notes Quarto Render Bilingual Book Push Other Repos and GitLab](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/lecture-notes.yml/badge.svg)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/lecture-notes.yml)
 
 [![pages-build-deployment](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/pages/pages-build-deployment)
 
