@@ -55,7 +55,7 @@ jobs:
         shell: Rscript {0}
         run: |
           filestorender <- list.files(path = "./lecture-notes/", pattern = ".qmd", full.names = TRUE, recursive = TRUE)
-          purrr::map(.x = filestorender, .f= quarto::quarto_render)
+          purrr::map(.x = filestorender, .f= quarto::quarto_render, output_format = 'all')
           # quarto::quarto_render(input = "./lecture-notes/*.qmd")
 
 
