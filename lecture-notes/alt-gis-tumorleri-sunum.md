@@ -2,14 +2,14 @@
 
 ![](img%5CAlt-GIS-Tumorleri-sunum0.jpg)
 
-# Alt GIS tümörleri
+## Alt GIS tümörleri
 
-# Dr. Serdar BALCI
+## Dr. Serdar BALCI
 
 https://sites.google.com/view/drserdarbalci/
 https://www.serdarbalci.com/
 
-# Polipler
+## Polipler
 
 - **En sık kolonda**
 - **Özefagus, mide, ince barsakta da olabilir**
@@ -18,7 +18,7 @@ https://www.serdarbalci.com/
 - **Non-neoplastik kolon polipleri**
   - **Inflamatuar, hamartomatöz, hiperplastik**
 
-# Polyps
+## Polyps
 
 ![](img%5CAlt-GIS-Tumorleri-sunum1.png)
 
@@ -26,7 +26,7 @@ https://www.serdarbalci.com/
 
 ![](img%5CAlt-GIS-Tumorleri-sunum3.jpg)
 
-# İnflamatuar polipler
+## İnflamatuar polipler
 
 - **Kronik hasar ve tamir sonucu inflame, rekatif mukozadan oluşurlar**
 - **Soliter rektal ülse sendromu sonrası oluşan polip**
@@ -41,7 +41,7 @@ https://www.serdarbalci.com/
 
 ![](img%5CAlt-GIS-Tumorleri-sunum6.png)
 
-# Hamartomatöz polipler
+## Hamartomatöz polipler
 
 **Sporadik**
 
@@ -51,7 +51,7 @@ https://www.serdarbalci.com/
 
 **Robbins Basic Pathology**
 
-# Juvenil Polipler
+## Juvenil Polipler
 
 - **En sık görülen hamartomatöz polip**
 - **\<5 yaş**
@@ -81,7 +81,7 @@ https://www.serdarbalci.com/
 
 **Robbins Basic Pathology**
 
-# Peutz-Jeghers Sendromu
+## Peutz-Jeghers Sendromu
 
 - **Nadir otozomal dominant**
 - **Multiple GIS polipleri ve mukokütenöz pigmentasyon**
@@ -110,7 +110,7 @@ https://www.serdarbalci.com/
 
 **Robbins Basic Pathology**
 
-# Hiperplastik polipler
+## Hiperplastik polipler
 
 **Sık görülen epitelyal proliferasyonlar**
 
@@ -153,7 +153,7 @@ goblet hücrelerinde birikme**
 
 ![](img%5CAlt-GIS-Tumorleri-sunum17.png)
 
-# Adenom
+## Adenom
 
 **GIS neoplastik kitle lezyonu**
 
@@ -161,7 +161,7 @@ goblet hücrelerinde birikme**
 
 **Robbins Basic Pathology**
 
-# Adenomlar
+## Adenomlar
 
 **Epitel displazisi**
 
@@ -239,7 +239,7 @@ inmesi ile ayrılır**
 
 **Robbins Basic Pathology**
 
-# Familial Adenomatous Polyposis
+## Familial Adenomatous Polyposis
 
 **Otozomal dominant**
 
@@ -279,7 +279,7 @@ farkı yok**
 - **FAP olup APC kaybı olmayan olgular**
   - **Base excision repair gene MUTYH mutasyonu var**
 
-# Hereditary Nonpolyposis Colorectal Cancer
+## Hereditary Nonpolyposis Colorectal Cancer
 
 - **Lynch sendromu**
 - **Kolorektal, endometrium, mide, over, üreter, beyin, ince barsak,
@@ -294,7 +294,7 @@ farkı yok**
     hale gelir ki bu durum klibikte mikrosatellit instabilte oalrak
     adalandırılır ve sendrom tanısında kullanılır**
 
-# Adenokarsinom
+## Adenokarsinom
 
 - **Gastrointestinal sistein en sık tümörü**
 - **Moribidite ve mortalite nedeni**
@@ -310,7 +310,7 @@ farkı yok**
 - **Lifli yiyeceklerin az, karbonhidrat ve yağların fazla tüketilmesi**
 - **NSAID koruyucu etkisi olabilir**
 
-# APC/β-catenin yolağı
+## APC/β-catenin yolağı
 
 **Klasik multistep adenom-karsinom dizisi**
 
@@ -375,7 +375,7 @@ inhibe eder**
 
 **Robbins Basic Pathology**
 
-# Mikrosatellit instabilite yolağı
+## Mikrosatellit instabilite yolağı
 
 **DNA mismatch tamir eksikliği**
 
@@ -387,7 +387,7 @@ inhibe eder**
 
 ![](img%5CAlt-GIS-Tumorleri-sunum36.png)
 
-# The microsatellite instability pathway
+## The microsatellite instability pathway
 
 - **Mutations accumulate in microsatellite repeats → microsatellite
   instability**
@@ -407,7 +407,7 @@ inhibe eder**
 
 **Robbins Basic Pathology**
 
-# Adenokarsinom dağılımı
+## Adenokarsinom dağılımı
 
 - **Kolon boyunca dağılım gösterir**
 - **Proksimal kolon**
@@ -496,7 +496,7 @@ central necrosis within metastases.**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-# Appendiks tümörleri
+## Appendiks tümörleri
 
 - **NET (Karsinoid)**
   - **En sık görülen tümör**
@@ -511,11 +511,11 @@ central necrosis within metastases.**
 
 ![](img%5CAlt-GIS-Tumorleri-sunum56.jpg)
 
-# Tumors of Lower GI Tract
+## Tumors of Lower GI Tract
 
-# Serdar BALCI, MD
+## Serdar BALCI, MD
 
-# Polyps
+## Polyps
 
 - **Most common in the colon**
 - **May occur in the esophagus, stomach, or small intestine**
@@ -537,7 +537,7 @@ to create a stalk**
 
 **Polyps with stalks are termed pedunculated**
 
-# Inflammatory Polyps
+## Inflammatory Polyps
 
 - **Chronic cycles of injury and healing produce a polypoid mass made up
   of inflamed and reactive mucosal tissue**
@@ -554,7 +554,7 @@ to create a stalk**
 
 ![](img%5CAlt-GIS-Tumorleri-sunum62.png)
 
-# Hamartomatous Polyps
+## Hamartomatous Polyps
 
 **Occur sporadically**
 
@@ -564,7 +564,7 @@ to create a stalk**
 
 **Robbins Basic Pathology**
 
-# Juvenile Polyps
+## Juvenile Polyps
 
 - **Most common type of hamartomatous polyp**
 - **Children \<5 years of age**
@@ -595,7 +595,7 @@ to create a stalk**
 
 **Robbins Basic Pathology**
 
-# Peutz-Jeghers Syndrome
+## Peutz-Jeghers Syndrome
 
 **Rare autosomal dominant disorder**
 
@@ -629,7 +629,7 @@ polyps.**
 
 **Robbins Basic Pathology**
 
-# Hyperplastic Polyps
+## Hyperplastic Polyps
 
 **Common epithelial proliferations**
 
@@ -674,7 +674,7 @@ cut in cross-section**
 
 ![](img%5CAlt-GIS-Tumorleri-sunum73.png)
 
-# Adenoma
+## Adenoma
 
 **Neoplastic mass lesion in the GI tract**
 
@@ -758,7 +758,7 @@ the crypts**
 
 **Robbins Basic Pathology**
 
-# Familial Adenomatous Polyps
+## Familial Adenomatous Polyps
 
 **Autosomal dominant disorder**
 
@@ -801,9 +801,9 @@ FAP, often before age 30**
   - **One third have mutations in one of several genes involved in DNA
     repair and develop glioblastomas**
 - **Patients who have FAP without APC loss have mutations of the base
-  excision repair gene MUTYH **
+  excision repair gene MUTYH**
 
-# Hereditary Nonpolyposis Colorectal Cancer
+## Hereditary Nonpolyposis Colorectal Cancer
 
 - **Lynch syndrome**
 - **Familial clustering of cancers at several sites including the
@@ -820,7 +820,7 @@ FAP, often before age 30**
   - **Regions containing short repeating DNA sequences referred to as
     microsatellite DNA**
 
-# Adenocarcinoma of Colon
+## Adenocarcinoma of Colon
 
 - **Most common malignancy of the gastrointestinal tract**
 - **Major contributor to morbidity and mortality worldwide**
@@ -840,7 +840,7 @@ FAP, often before age 30**
   refined carbohydrates and fat**
 - **NSAID may have a protective effect**
 
-# The APC/β-catenin pathway
+## The APC/β-catenin pathway
 
 **The classic adenoma-carcinoma sequence**
 
@@ -896,7 +896,7 @@ adenomas**
 **50% in adenocarcinoma**
 
 **SMAD2 and SMAD4, which are effectors of TGF-β signaling, normally
-inhibits cell cycle **
+inhibits cell cycle**
 
 **Loss of function TP53 and others caused by chromosomal deletions,
 chromosomal instability in this pathway**
@@ -905,7 +905,7 @@ chromosomal instability in this pathway**
 
 **Robbins Basic Pathology**
 
-# The microsatellite instability pathway
+## The microsatellite instability pathway
 
 **DNA mismatch repair deficiency**
 
@@ -937,7 +937,7 @@ develop through DNA mismatch repair defects.**
 
 ![](img%5CAlt-GIS-Tumorleri-sunum95.png)
 
-# Adenocarcinoma distribution
+## Adenocarcinoma distribution
 
 - **Distributed approximately equally over the entire length of the
   colon**
@@ -1029,7 +1029,7 @@ central necrosis within metastases.**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-# Tumors of the Appendix
+## Tumors of the Appendix
 
 - **NET (Carcinoid)**
   - **Most common tumor**
