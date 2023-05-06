@@ -55,8 +55,17 @@ jobs:
         shell: Rscript {0}
         run: |
           filestorender <- list.files(path = "./lecture-notes/", pattern = ".qmd", full.names = TRUE, recursive = TRUE)
-          purrr::map(.x = filestorender, .f= quarto::quarto_render, output_format = 'all')
+          purrr::map(.x = filestorender, .f= quarto::quarto_render, output_format = 'gfm')
+          purrr::map(.x = filestorender, .f= quarto::quarto_render, output_format = 'revealjs')
+          # purrr::map(.x = filestorender, .f= quarto::quarto_render, output_format = 'all')
           # quarto::quarto_render(input = "./lecture-notes/*.qmd")
+          md_files <- list.files(path = './lecture-notes', pattern = '*\\.md', full.names = FALSE, recursive = TRUE)
+          md_files <- md_files[!grepl(pattern = 'README', x = md_files)]
+          md_files <- gsub(pattern = '\\.md', replacement = '', x = md_files)
+          md_files_list <- purrr::map(.x = md_files, .f = ~ paste0('[', .x , '](./lecture-notes/', .x , '.md)\n'))
+          readme_text <- paste0(unlist(md_files_list), collapse = "\n\n")
+          readme_text <- paste0('# Patoloji Ders Notları \n\n', readme_text)
+          writeLines(text = readme_text, con = './lecture-notes/README.md')
 
 
       - name: Commit results to main branch
