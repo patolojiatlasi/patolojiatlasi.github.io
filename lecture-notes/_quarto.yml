@@ -1,9 +1,0 @@
-project:
-  type: book
-  output-dir: docs
-
-book:
-  chapters:
-    - index.qmd
-
-# quarto::quarto_render(input = "./*.qmd")
