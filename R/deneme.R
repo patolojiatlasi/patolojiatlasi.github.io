@@ -30,7 +30,7 @@ quarto::quarto_render(input = "./lecture-notes/alt-gis-tumorleri-sunum-2.qmd",
 
 
 
-filestorender <- list.files(path = "./lecture-notes/", pattern = ".qmd", full.names = TRUE, recursive = TRUE)
+filestorender <- list.files(path = "./lecture-notes/", pattern = ".qmd", full.names = TRUE)
 
 # file.exists(filestorender)
 
@@ -69,3 +69,24 @@ readme_text <- paste0(unlist(md_files_list), collapse = "\n\n")
 readme_text <- paste0("# Patoloji Ders Notları \n\n", readme_text)
 
 writeLines(text = readme_text, con = "./lecture-notes/README.md")
+
+
+
+
+quarto::quarto_render(input = "./lecture-notes/alt-gis-tumorleri.qmd",
+                      output_format = "all")
+
+
+quarto::quarto_render(input = "./lecture-notes/alt-gis-tumorleri.qmd",
+                      output_format = "gfm")
+
+
+quarto::quarto_render(input = filestorender,
+                      output_format = "gfm")
+
+
+quarto::quarto_render(input = filestorender,
+                      output_format = "all")
+
+
+
