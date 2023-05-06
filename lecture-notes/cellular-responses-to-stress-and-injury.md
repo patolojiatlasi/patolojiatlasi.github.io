@@ -3,8 +3,7 @@ Serdar Balcı
 
 # Cellular Responses to Stress and Injury
 
-<img src="img%5CCellular-Responses-to-Stress-and-Injury0.png"
-class="quarto-discovered-preview-image" />
+![](img%5CCellular-Responses-to-Stress-and-Injury0.png)
 
 # Serdar BALCI
 

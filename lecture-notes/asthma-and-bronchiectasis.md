@@ -1,8 +1,7 @@
 # Asthma and Bronchiectasis
 Serdar Balcı
 
-<img src="img%5CAsthma-and-Bronchiectasispptx-kopyas%C4%B10.jpg"
-class="quarto-discovered-preview-image" />
+![](img%5CAsthma-and-Bronchiectasispptx-kopyas%C4%B10.jpg)
 
 # Asthma and Bronchiectasis
 

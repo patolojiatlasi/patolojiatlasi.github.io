@@ -1,8 +1,7 @@
 # Atelectasis and Acute Lung Injury
 Serdar Balcı
 
-<img src="img%5CAtelectasis-and-Acute-Lung-Injury0.jpg"
-class="quarto-discovered-preview-image" />
+![](img%5CAtelectasis-and-Acute-Lung-Injury0.jpg)
 
 # Atelectasis and Acute Lung Injury
 

@@ -1,8 +1,7 @@
 # Amyloidosis
 Serdar Balcı
 
-<img src="img%5CAmyloidosispptx-sunum0.jpg"
-class="quarto-discovered-preview-image" />
+![](img%5CAmyloidosispptx-sunum0.jpg)
 
 # Amyloidosis
 

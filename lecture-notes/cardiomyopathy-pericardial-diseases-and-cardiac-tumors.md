@@ -1,9 +1,7 @@
 # Title
 Serdar Balcı
 
-<img
-src="img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors0.jpg"
-class="quarto-discovered-preview-image" />
+![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors0.jpg)
 
 # Cardiomyopathy, Pericardial diseases and Cardiac Tumors
 

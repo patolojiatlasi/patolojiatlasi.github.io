@@ -1,8 +1,7 @@
 # Title
 Serdar Balcı
 
-<img src="img%5CPulmonary-Infections0.jpg"
-class="quarto-discovered-preview-image" />
+![](img%5CPulmonary-Infections0.jpg)
 
 # Pulmonary Infections
 
