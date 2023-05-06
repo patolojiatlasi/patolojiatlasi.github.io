@@ -1,8 +1,7 @@
 # Alt GIS Tümörleri
 Serdar Balcı
 
-<img src="img%5CAlt-GIS-Tumorleri-sunum0.jpg"
-class="quarto-discovered-preview-image" />
+![](img%5CAlt-GIS-Tumorleri-sunum0.jpg)
 
 ## Alt GIS tümörleri
 

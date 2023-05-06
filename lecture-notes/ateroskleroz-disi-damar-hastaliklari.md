@@ -1,9 +1,7 @@
 # Title
 Serdar Balcı
 
-<img
-src="img%5CAteroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B10.jpg"
-class="quarto-discovered-preview-image" />
+![](img%5CAteroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B10.jpg)
 
 # Ateroskleroz dışı damar hastalıkları
 

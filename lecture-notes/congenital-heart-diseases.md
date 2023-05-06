@@ -1,8 +1,7 @@
 # Title
 Serdar Balcı
 
-<img src="img%5CCongenital-Heart-Diseases0.jpg"
-class="quarto-discovered-preview-image" />
+![](img%5CCongenital-Heart-Diseases0.jpg)
 
 # Congenital Heart Diseases
 
