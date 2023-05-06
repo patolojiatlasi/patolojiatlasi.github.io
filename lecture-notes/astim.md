@@ -1,3 +1,0 @@
-# Astım
-Serdar Balcı
-
