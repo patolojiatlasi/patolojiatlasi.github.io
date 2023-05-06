@@ -97,6 +97,9 @@ book:
         # target: _blank
 
   chapters:
+    - text: "English Version"
+      href: /EN/
+      target: _blank
     - text: "Anasayfa"
       href: index.qmd
     - text: "Giriş"
