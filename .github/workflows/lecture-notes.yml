@@ -59,7 +59,7 @@ jobs:
           # purrr::map(.x = filestorender, .f= quarto::quarto_render, output_format = 'revealjs')
           # purrr::map(.x = filestorender, .f= quarto::quarto_render, output_format = 'all')
           # quarto::quarto_render(input = "./lecture-notes/*.qmd")
-          quarto::quarto_render(input = filestorender, output_format = 'gfm')
+          quarto::quarto_render(input = filestorender, output_format = 'gfm', as_job = FALSE)
           md_files <- list.files(path = './lecture-notes', pattern = '*\\.md', full.names = FALSE, recursive = TRUE)
           md_files <- md_files[!grepl(pattern = 'README', x = md_files)]
           md_files <- gsub(pattern = '\\.md', replacement = '', x = md_files)

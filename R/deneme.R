@@ -82,7 +82,7 @@ quarto::quarto_render(input = "./lecture-notes/alt-gis-tumorleri.qmd",
 
 
 quarto::quarto_render(input = filestorender,
-                      output_format = "gfm")
+                      output_format = "gfm", as_job = FALSE)
 
 
 quarto::quarto_render(input = filestorender,
