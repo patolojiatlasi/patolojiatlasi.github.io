@@ -7,7 +7,7 @@ project:
     - CNAME
 
 execute:
-  freeze: true
+  freeze: false
 
 lang: tr
 
