@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="alt-gis-tumorleri-sunum-2_files/libs/clipboard/clipboard.min.js"></script>
+<script src="alt-gis-tumorleri-sunum-2_files/libs/quarto-html/tabby.min.js"></script>
+<script src="alt-gis-tumorleri-sunum-2_files/libs/quarto-html/popper.min.js"></script>
+<script src="alt-gis-tumorleri-sunum-2_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="alt-gis-tumorleri-sunum-2_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="alt-gis-tumorleri-sunum-2_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="alt-gis-tumorleri-sunum-2_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="alt-gis-tumorleri-sunum-2_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.4.17">
+
+  <meta name="author" content="Serdar Balcı">
+  <title>Alt GIS Tümörleri</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="alt-gis-tumorleri-sunum-2_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="alt-gis-tumorleri-sunum-2_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="alt-gis-tumorleri-sunum-2_files/libs/revealjs/dist/theme/quarto.css" id="theme">
+  <link href="alt-gis-tumorleri-sunum-2_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="alt-gis-tumorleri-sunum-2_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="alt-gis-tumorleri-sunum-2_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="alt-gis-tumorleri-sunum-2_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+
+  .callout {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+    border-radius: .25rem;
+  }
+
+  .callout.callout-style-simple { 
+    padding: 0em 0.5em;
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    display: flex;
+  }
+
+  .callout.callout-style-default {
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+  }
+
+  .callout .callout-body-container {
+    flex-grow: 1;
+  }
+
+  .callout.callout-style-simple .callout-body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-style-default .callout-body {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-titled.callout-style-simple .callout-body {
+    margin-top: 0.2em;
+  }
+
+  .callout:not(.callout-titled) .callout-body {
+      display: flex;
+  }
+
+  .callout:not(.no-icon).callout-titled.callout-style-simple .callout-content {
+    padding-left: 1.6em;
+  }
+
+  .callout.callout-titled .callout-header {
+    padding-top: 0.2em;
+    margin-bottom: -0.2em;
+  }
+
+  .callout.callout-titled .callout-title  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+    
+  .callout.callout-titled.callout-style-simple .callout-content  p {
+    margin-top: 0;
+  }
+
+  .callout.callout-titled.callout-style-default .callout-content  p {
+    margin-top: 0.7em;
+  }
+
+  .callout.callout-style-simple div.callout-title {
+    border-bottom: none;
+    font-size: .9rem;
+    font-weight: 600;
+    opacity: 75%;
+  }
+
+  .callout.callout-style-default  div.callout-title {
+    border-bottom: none;
+    font-weight: 600;
+    opacity: 85%;
+    font-size: 0.9rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-default div.callout-content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-simple .callout-icon::before {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
+
+  .callout.callout-style-default .callout-icon::before {
+    height: 0.9rem;
+    width: 0.9rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+  }
+
+  .callout-title {
+    display: flex
+  }
+    
+  .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  .callout.no-icon::before {
+    display: none !important;
+  }
+
+  .callout.callout-titled .callout-body > .callout-content > :last-child {
+    margin-bottom: 0.5rem;
+  }
+
+  .callout.callout-titled .callout-icon::before {
+    margin-top: .5rem;
+    padding-right: .5rem;
+  }
+
+  .callout:not(.callout-titled) .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  /* Callout Types */
+
+  div.callout-note {
+    border-left-color: #4582ec !important;
+  }
+
+  div.callout-note .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
+  }
+
+  div.callout-note.callout-style-default .callout-title {
+    background-color: #dae6fb
+  }
+
+  div.callout-important {
+    border-left-color: #d9534f !important;
+  }
+
+  div.callout-important .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-important.callout-style-default .callout-title {
+    background-color: #f7dddc
+  }
+
+  div.callout-warning {
+    border-left-color: #f0ad4e !important;
+  }
+
+  div.callout-warning .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-warning.callout-style-default .callout-title {
+    background-color: #fcefdc
+  }
+
+  div.callout-tip {
+    border-left-color: #02b875 !important;
+  }
+
+  div.callout-tip .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-tip.callout-style-default .callout-title {
+    background-color: #ccf1e3
+  }
+
+  div.callout-caution {
+    border-left-color: #fd7e14 !important;
+  }
+
+  div.callout-caution .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
+  }
+
+  div.callout-caution.callout-style-default .callout-title {
+    background-color: #ffe5d0
+  }
+
+  </style>
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Alt GIS Tümörleri</h1>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Serdar Balcı 
+</div>
+</div>
+</div>
+
+</section>
+<section class="slide level2">
+
+
+<img data-src="img%5CAlt-GIS-Tumorleri-sunum0.jpg" class="r-stretch"></section>
+<section id="alt-gis-tümörleri" class="slide level2">
+<h2>Alt GIS tümörleri</h2>
+<p>https://sites.google.com/view/drserdarbalci/ https://www.serdarbalci.com/</p>
+</section>
+<section id="polipler" class="slide level2">
+<h2>Polipler</h2>
+<ul>
+<li><strong>En sık kolonda</strong></li>
+<li><strong>Özefagus, mide, ince barsakta da olabilir</strong></li>
+<li><strong>Sapsız olanlara sesil polip denir</strong></li>
+<li><strong>En sık görülen neoplastik polip adenom</strong></li>
+<li><strong>Non-neoplastik kolon polipleri</strong>
+<ul>
+<li><strong>Inflamatuar, hamartomatöz, hiperplastik</strong></li>
+</ul></li>
+</ul>
+</section>
+<section id="polyps" class="slide level2">
+<h2>Polyps</h2>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum1.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum2.jpg"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum3.jpg"></p>
+</section>
+<section id="inflamatuar-polipler" class="slide level2">
+<h2>İnflamatuar polipler</h2>
+<ul>
+<li><strong>Kronik hasar ve tamir sonucu inflame, rekatif mukozadan oluşurlar</strong></li>
+<li><strong>Soliter rektal ülse sendromu sonrası oluşan polip</strong>
+<ul>
+<li><strong>Rektal kanama, mukus akıntısı, anterior duvarda inflamasyon</strong></li>
+<li><strong>Anorektal sfinkterde relaksasyon sorunu</strong></li>
+</ul></li>
+</ul>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum4.png"></p>
+<p><strong>Robbins and Cotran Pathologic Basis of Disease</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum5.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum6.png"></p>
+</section>
+<section id="hamartomatöz-polipler" class="slide level2">
+<h2>Hamartomatöz polipler</h2>
+<p><strong>Sporadik</strong></p>
+<p><strong>Genetik, akkiz sendromlarla ilişkili</strong></p>
+
+<img data-src="img%5CAlt-GIS-Tumorleri-sunum7.png" class="r-stretch"><p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="juvenil-polipler" class="slide level2">
+<h2>Juvenil Polipler</h2>
+<ul>
+<li><strong>En sık görülen hamartomatöz polip</strong></li>
+<li><strong>&lt;5 yaş</strong></li>
+<li><strong>Rektum</strong></li>
+<li><strong>Rektal kanama, prolaps</strong></li>
+<li><strong>Sporadik olanlar soliter</strong></li>
+<li><strong>Autosomal dominant juvenil polypo zis sendromu 3-100 polip</strong>
+<ul>
+<li><strong>Kolektomi</strong></li>
+</ul></li>
+<li><strong>Displazi küçük ibr kısmında olur (sendrom ilişkili)</strong>
+<ul>
+<li><strong>Sendrom adenokarsinom gelişimi açısından riskli</strong></li>
+</ul></li>
+<li><strong>Mukozadaki hiperplazi, transforming growth factor-β (TGF-β) yolağı ile ilişkili</strong></li>
+</ul>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum8.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum9.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum10.png"></p>
+<p><strong>SAplı, düzgün yüzeyli, kırmızı lezyonlar</strong></p>
+<p><strong>&lt;3 cm</strong></p>
+<p><strong>Kesit yüzünde kistik</strong></p>
+<p><strong>Müsin ve inflamasyon kalıntısından oluşan debri</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="peutz-jeghers-sendromu" class="slide level2">
+<h2>Peutz-Jeghers Sendromu</h2>
+<ul>
+<li><strong>Nadir otozomal dominant</strong></li>
+<li><strong>Multiple GIS polipleri ve mukokütenöz pigmentasyon</strong></li>
+<li><strong>Malignite riskinde artış: kolon, pankreas, meme, akciğer, over, uterus, testis</strong></li>
+<li><strong>LKB1/STK11 fonksiyon kaybına neden olan mutasyon, germline heterozigot ve sporadik vakalarda var</strong></li>
+<li><strong>Polipler çoğunlukla ince barsakta</strong>
+<ul>
+<li><strong>mide, kolon, mesane, akciğerde de olabiliyor</strong></li>
+</ul></li>
+</ul>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum11.png"></p>
+<p><strong>İri ve saplı</strong></p>
+<p><strong>Lobüle kontur</strong></p>
+<p><strong>Dallanan yumuşak doku, düz kas, lamina propria ve bezler</strong></p>
+<p><strong>Epitel normal</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum12.png"></p>
+<p><strong>Peutz-Jeghers polyp</strong></p>
+<p><strong>Kompleks yapı ve düz kas demetleri ile ayrılır</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="hiperplastik-polipler" class="slide level2">
+<h2>Hiperplastik polipler</h2>
+<p><strong>Sık görülen epitelyal proliferasyonlar</strong></p>
+<p><strong>6-7 dekad</strong></p>
+<p><strong>Epitel hücre döngüsünde azalma, yüzeyden epitel dökülmesinde azalma, goblet hücrelerinde birikme</strong></p>
+<p><strong>Malign potansiyeli yok, sesil serrated adenomlardan ayrılmalı</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum13.png"></p>
+<p><strong>Sol kolon</strong></p>
+<p><strong>&lt;5mm</strong></p>
+<p><strong>Düzgün sınırlı, nodüler mukoza kabarıklığı</strong></p>
+<p><strong>Multipl, sigmoid ve rektum</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum14.png"></p>
+<p><strong>İrregüler birikim gösteren epitel hücreleri</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum15.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><strong>Tufting results from epithelial overcrowding</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum16.png"></p>
+<p><strong>Epitel kalabalıklaşması testere benzeri serrated görünüm verir</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum17.png"></p>
+</section>
+<section id="adenom" class="slide level2">
+<h2>Adenom</h2>
+<p><strong>GIS neoplastik kitle lezyonu</strong></p>
+<p><strong>Mukozal çıkıntı, polip oluştururlar</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="adenomlar" class="slide level2">
+<h2>Adenomlar</h2>
+<p><strong>Epitel displazisi</strong></p>
+<p><strong>Küçük, saplı ya da büyük sesil</strong></p>
+<p><strong>Cinsiyetler arası fark yok</strong></p>
+<p><strong>Batı dünyasında 50 yaş üstü yetişkinlerin %50’sinde</strong></p>
+<p><strong>Kolorektal kanser öncülleri</strong></p>
+<p><strong>Takip kolonoskopi</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum18.png"></p>
+<p><strong>fibromuscular stalk</strong></p>
+<p><strong>Robbins and Cotran Pathologic Basis of Disease</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum19.png"></p>
+<p><strong>Tübüler adenom, düzgün yüzey, yuvarlak glandüler yapılar</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum20.png"></p>
+<p><strong>Villöz adenom</strong></p>
+<p><strong>Uzun, ince çıkıntılar, ince barsak villuslarına benzer</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum21.png"></p>
+<p><strong>Nükleer hiperkromazi, elongasyon, sıralanma artışı</strong></p>
+<p><strong>Değişiklikler yüzeyde daha belirgi, kriptten ayrıldıkça diferasnsiayasyon kaybı oluyor</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum22.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum23.png"></p>
+<p><strong>Sessile serrated adenoma:</strong></p>
+<p><strong>Goblet hücreleri ile döşeli</strong></p>
+<p><strong>Belirign displazi yok</strong></p>
+<p><strong>Hiperplastik polipten değişikliklerin derine kadar (kripte kadar) inmesi ile ayrılır</strong></p>
+<p><strong>Sağ kolon, malignite potansiyeli var</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum24.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum25.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum26.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum27.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum28.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="familial-adenomatous-polyposis" class="slide level2">
+<h2>Familial Adenomatous Polyposis</h2>
+<p><strong>Otozomal dominant</strong></p>
+<p><strong>Çok sayıda adenom genç yaşta gelişir</strong></p>
+<p><strong>APC geninde mutasyon</strong></p>
+<p><strong>&gt;100 polip tanı için şart, binlerce polip olabilir</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum29.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum30.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><strong>Poliplerin sayısı fazla ama morfolojik olarak sporadik adenomlardan farkı yok</strong></p>
+<p><strong>Kolorektal kanser 30 yaş altında %100 gelişir</strong></p>
+<p><strong>Profilaktik kolektomi</strong></p>
+<p><strong>Başka neoplazilerle de ilişkisi var</strong></p>
+<ul>
+<li><strong>Gardner sendromu</strong>
+<ul>
+<li><strong>Osteom, mandibula, kafa kemiği ve uzun kemikler</strong></li>
+<li><strong>Epidermal kist</strong></li>
+<li><strong>Dezmoid ve tiroid tümörleri</strong></li>
+<li><strong>Diş anomalileri, çıkmamış ve artmış sayıda diş</strong></li>
+</ul></li>
+<li><strong>Turcot sendromu</strong>
+<ul>
+<li><strong>Daha nadir</strong></li>
+<li><strong>CNS tümörleri</strong></li>
+<li><strong>2/3 medulloblastom, APC gen mutasyonu var</strong></li>
+<li><strong>1/3 glioblastom, DNA tamir genlerinde mutasyon var</strong></li>
+</ul></li>
+<li><strong>FAP olup APC kaybı olmayan olgular</strong>
+<ul>
+<li><strong>Base excision repair gene MUTYH mutasyonu var</strong></li>
+</ul></li>
+</ul>
+</section>
+<section id="hereditary-nonpolyposis-colorectal-cancer" class="slide level2">
+<h2>Hereditary Nonpolyposis Colorectal Cancer</h2>
+<ul>
+<li><strong>Lynch sendromu</strong></li>
+<li><strong>Kolorektal, endometrium, mide, over, üreter, beyin, ince barsak, hepatobilier sistem, der,</strong></li>
+<li><strong>Daha genç yaşlarda ve sağ kolonda</strong></li>
+<li><strong>DNA tamir genlerinde germline mutasyon</strong>
+<ul>
+<li><strong>MSH2 veya MLH1</strong></li>
+<li><strong>HNPCC sendromunda bir mutant bir normal alle var</strong></li>
+<li><strong>İkinci vuruş olduğunda mutasyon birikim hızı 1000 kat artar</strong>
+<ul>
+<li><strong>Mutasyon ya da genetik defekt</strong></li>
+</ul></li>
+<li><strong>Kısa tekrarların olduğu DNA sekanslarındaki hasar daha belirgin hale gelir ki bu durum klibikte mikrosatellit instabilte oalrak adalandırılır ve sendrom tanısında kullanılır</strong></li>
+</ul></li>
+</ul>
+</section>
+<section id="adenokarsinom" class="slide level2">
+<h2>Adenokarsinom</h2>
+<ul>
+<li><strong>Gastrointestinal sistein en sık tümörü</strong></li>
+<li><strong>Moribidite ve mortalite nedeni</strong></li>
+<li><strong>Kanser ilişkili ölümlerin %15’I, akciğerden sonra ikinci sırada</strong></li>
+<li><strong>İnce barsak GIS’in %75’ini tutmasına rağmen tümörlerin çok azı burada oluyor</strong></li>
+<li><strong>İnsidans</strong>
+<ul>
+<li><strong>60-70 yaş arası pik yapıyor, &lt;50 yaş %20</strong></li>
+<li><strong>Erkeklerde daha sık</strong></li>
+<li><strong>ABD, Kanada, .. Gibi gelişmiş ülkelerde daha sık</strong></li>
+<li><strong>Hindistan, Güney Amerika ve Afrika’da 30x daha az</strong></li>
+<li><strong>Japon insidansı giderek artıyor</strong></li>
+</ul></li>
+<li><strong>Lifli yiyeceklerin az, karbonhidrat ve yağların fazla tüketilmesi</strong></li>
+<li><strong>NSAID koruyucu etkisi olabilir</strong></li>
+</ul>
+</section>
+<section id="apcβ-catenin-yolağı" class="slide level2">
+<h2>APC/β-catenin yolağı</h2>
+<p><strong>Klasik multistep adenom-karsinom dizisi</strong></p>
+<p><strong>Sporadik tümörlerin %80’i</strong></p>
+<p><strong>APC mutasyonu erken bsamakta oluyor</strong></p>
+<p><strong>Her iki allelde inaktif olmalı ki adenom gelişsin</strong></p>
+<p><strong>APC yok</strong></p>
+<p><strong>β-Catenin aktif</strong></p>
+<p><strong>WNT durumundan bağımsız</strong></p>
+<p><strong>WNT sinyali APC’yi inhibe eder</strong></p>
+<p><strong>β-Catenin çekirdeğe girer</strong></p>
+<p><strong>APC aktif</strong></p>
+<p><strong>β-Catenin yıkılır</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum31.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><strong>β-Catenin nükleusta aktif</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum32.png"></p>
+<p><strong>cyclin D1 ve MYC transkripsiyonu, proliferasyona neden olur</strong></p>
+<p><strong>TWIST ve SLUG eksorese olur</strong></p>
+<p><strong>E-cadherin ekspresyonu baskılanır</strong></p>
+<p><strong>Kontakt inhibisyon azalır</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><strong>TP53 kolon tümörlerinin %70-80’inde mutant ancak adenomlarda yok</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum33.png"></p>
+<p><strong>KRAS</strong></p>
+<p><strong>10% &lt;1cm</strong></p>
+<p><strong>50% &gt;1cm</strong></p>
+<p><strong>50% adenokarsinom</strong></p>
+<p><strong>SMAD2 ve SMAD4, TGF-β signaling effektörleri, normalde hücre siklusunu inhibe eder</strong></p>
+<p><strong>TP53 ve diğerlerindeki fonksiyon kaybı kromozomal delesyonlarla olur</strong></p>
+<p><strong>Bu yolakta kromozomal instabilite daha fazla</strong></p>
+<p><strong>Epigenetiğin de rolü var</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="mikrosatellit-instabilite-yolağı" class="slide level2">
+<h2>Mikrosatellit instabilite yolağı</h2>
+<p><strong>DNA mismatch tamir eksikliği</strong></p>
+<p><strong>Mutasyonlar birikir → mikrosatellit dengesizliğine neden olur</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum34.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum35.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum36.png"></p>
+</section>
+<section id="the-microsatellite-instability-pathway" class="slide level2">
+<h2>The microsatellite instability pathway</h2>
+<ul>
+<li><strong>Mutations accumulate in microsatellite repeats → microsatellite instability</strong>
+<ul>
+<li><strong>Microsatellites typically are located in noncoding regions</strong></li>
+<li><strong>Microsatellite sequences located in the coding or promoter regions of genes involved in regulation of cell growth</strong>
+<ul>
+<li><strong>type II TGF-β receptor, uncontrolled growth</strong></li>
+<li><strong>pro-apoptotic protein BAX, survival of abnormal clones</strong></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum37.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum38.png"></p>
+<p><strong>BRAF mutasyonu ve epigenetik susturulması</strong></p>
+<p><strong>KRAS ve TP53 mutant değil</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="adenokarsinom-dağılımı" class="slide level2">
+<h2>Adenokarsinom dağılımı</h2>
+<ul>
+<li><strong>Kolon boyunca dağılım gösterir</strong></li>
+<li><strong>Proksimal kolon</strong>
+<ul>
+<li><strong>Polipoid, egzofitik</strong></li>
+<li><strong>Obstrüksiyona neden olmaz</strong></li>
+</ul></li>
+<li><strong>Distal kolon</strong>
+<ul>
+<li><strong>annular lezyonlar</strong></li>
+<li><strong>Luminal daralma</strong></li>
+<li><strong>obstrüksiyon</strong></li>
+</ul></li>
+</ul>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum39.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum40.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum41.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum42.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum43.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum44.png"></p>
+<p><strong>A: Well-differentiated adenocarcinoma. Note the elongated, hyperchromatic nuclei. Necrotic debris, present in the gland lumen, is typical.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum45.png"></p>
+<p><strong>Poorly differentiated adenocarcinoma forms a few glands but is largely composed of infiltrating nests of tumor cells.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum46.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum47.png"></p>
+<p><strong>Mucinous adenocarcinoma with signet ring cells and extracellular mucin pools</strong></p>
+<p><strong>Poor prognosis</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum48.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum49.png"></p>
+<p><strong>A: Lymph node metastasis</strong></p>
+<p><strong>Glandular structures within the subcapsular sinus.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum50.png"></p>
+<p><strong>B: Solitary subpleural nodule of colorectal carcinoma metastatic to the lung.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum51.png"></p>
+<p><strong>C: Liver containing two large and many smaller metastases. Note the central necrosis within metastases.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum52.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum53.jpg"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum54.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum55.png"></p>
+<p><strong>Autopsy Pathology: A Manual and Atlas</strong></p>
+</section>
+<section id="appendiks-tümörleri" class="slide level2">
+<h2>Appendiks tümörleri</h2>
+<ul>
+<li><strong>NET (Karsinoid)</strong>
+<ul>
+<li><strong>En sık görülen tümör</strong></li>
+<li><strong>İnsidental olarak bulunuyor</strong></li>
+<li><strong>Daha çok appendiksin tip kısmında</strong></li>
+</ul></li>
+<li><strong>Düşük dereceli appendiks musinöz neoplazmları</strong>
+<ul>
+<li><strong>Mukosel</strong>
+<ul>
+<li><strong>Obstrükte appendiks içinde müsin göllenmesi</strong></li>
+</ul></li>
+<li><strong>Müsinöz adenom, müsinöz karsinom</strong></li>
+<li><strong>Psödokimsoma peritonei</strong></li>
+<li><strong>Primer over tümörünü taklit eden metastaz</strong></li>
+</ul></li>
+</ul>
+
+<img data-src="img%5CAlt-GIS-Tumorleri-sunum56.jpg" class="r-stretch"></section>
+<section id="tumors-of-lower-gi-tract" class="slide level2">
+<h2>Tumors of Lower GI Tract</h2>
+</section>
+<section id="serdar-balci-md" class="slide level2">
+<h2>Serdar BALCI, MD</h2>
+</section>
+<section id="polyps-1" class="slide level2">
+<h2>Polyps</h2>
+<ul>
+<li><strong>Most common in the colon</strong></li>
+<li><strong>May occur in the esophagus, stomach, or small intestine</strong></li>
+<li><strong>Most common neoplastic polyp is the adenoma</strong></li>
+<li><strong>Non-neoplastic colonic polyps</strong>
+<ul>
+<li><strong>inflammatory, hamartomatous, hyperplastic</strong></li>
+</ul></li>
+</ul>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum57.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum58.jpg"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum59.jpg"></p>
+<p><strong>Those without stalks are referred to as sessile</strong></p>
+<p><strong>As sessile polyps enlarge, proliferation of cells adjacent to the polyp and the effects of traction on the luminal protrusion, may combine to create a stalk</strong></p>
+<p><strong>Polyps with stalks are termed pedunculated</strong></p>
+</section>
+<section id="inflammatory-polyps" class="slide level2">
+<h2>Inflammatory Polyps</h2>
+<ul>
+<li><strong>Chronic cycles of injury and healing produce a polypoid mass made up of inflamed and reactive mucosal tissue</strong></li>
+<li><strong>Polyp that forms as part of the solitary rectal ulcer syndrome</strong>
+<ul>
+<li><strong>Clinical triad of rectal bleeding, mucus discharge, and an inflammatory lesion of the anterior rectal wall</strong></li>
+<li><strong>Impaired relaxation of the anorectal sphincter</strong></li>
+</ul></li>
+</ul>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum60.png"></p>
+<p><strong>Robbins and Cotran Pathologic Basis of Disease</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum61.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum62.png"></p>
+</section>
+<section id="hamartomatous-polyps" class="slide level2">
+<h2>Hamartomatous Polyps</h2>
+<p><strong>Occur sporadically</strong></p>
+<p><strong>Components of various genetically determined or acquired syndromes</strong></p>
+
+<img data-src="img%5CAlt-GIS-Tumorleri-sunum63.png" class="r-stretch"><p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="juvenile-polyps" class="slide level2">
+<h2>Juvenile Polyps</h2>
+<ul>
+<li><strong>Most common type of hamartomatous polyp</strong></li>
+<li><strong>Children &lt;5 years of age</strong></li>
+<li><strong>Located in the rectum</strong></li>
+<li><strong>Rectal bleeding, prolapse</strong></li>
+<li><strong>Sporadic juvenile polyps are usually solitary</strong></li>
+<li><strong>Autosomal dominant syndrome of juvenile polyposis 3-100 polyps</strong></li>
+<li><strong>Colectomy may be required</strong></li>
+<li><strong>Dysplasia occurs in a small proportion (mostly syndrome-associated)</strong>
+<ul>
+<li><strong>Juvenile polyposis syndrome is associated with increased risk for the development of colonic adenocarcinoma</strong></li>
+</ul></li>
+<li><strong>Mucosal hyperplasia, transforming growth factor-β (TGF-β)</strong></li>
+</ul>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum64.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum65.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum66.png"></p>
+<p><strong>Pedunculated, smooth-surfaced, reddish lesions</strong></p>
+<p><strong>&lt;3 cm</strong></p>
+<p><strong>Cystic spaces on cut sections</strong></p>
+<p><strong>Dilated glands filled with mucin and inflammatory debris</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="peutz-jeghers-syndrome" class="slide level2">
+<h2>Peutz-Jeghers Syndrome</h2>
+<p><strong>Rare autosomal dominant disorder</strong></p>
+<p><strong>Presence of multiple gastrointestinal hamartomatous polyps and mucocutaneous hyperpigmentation</strong></p>
+<p><strong>Increased risk of several malignancies, colon, pancreas, breast, lung, ovaries, uterus, and testes</strong></p>
+<p><strong>Germ line heterozygous loss-of-function mutations in the gene LKB1/STK11 are present in approximately half of the patients with the familial and subset of sporadic form</strong></p>
+<p><strong>Intestinal polyps are most common in the small intestine, may also occur in the stomach and colon, rarely, in the bladder and lungs</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum67.png"></p>
+<p><strong>Large and pedunculated</strong></p>
+<p><strong>Lobulated contour</strong></p>
+<p><strong>Arborizing network of connective tissue, smooth muscle, lamina propria, and glands lined by normal-appearing intestinal epithelium</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum68.png"></p>
+<p><strong>Peutz-Jeghers polyp. Complex glandular architecture and bundles of smooth muscle help to distinguish Peutz-Jeghers polyps from juvenile polyps.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="hyperplastic-polyps" class="slide level2">
+<h2>Hyperplastic Polyps</h2>
+<p><strong>Common epithelial proliferations</strong></p>
+<p><strong>Sixth and seventh decades of life</strong></p>
+<p><strong>Decreased epithelial cell turnover and delayed shedding of surface epithelial cells, leading to a “pileup” of goblet cells</strong></p>
+<p><strong>No malignant potential, must be distinguished from sessile serrated adenomas</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum69.png"></p>
+<p><strong>Most commonly found in the left colon</strong></p>
+<p><strong>Less than 5 mm in diameter</strong></p>
+<p><strong>Smooth, nodular protrusions of the mucosa</strong></p>
+<p><strong>Frequently multiple, in the sigmoid colon and rectum</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum70.png"></p>
+<p><strong>Polyp surface with irregular tufting of epithelial cells</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum71.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><strong>Tufting results from epithelial overcrowding</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum72.png"></p>
+<p><strong>Epithelial crowding produces a serrated architecture when glands are cut in cross-section</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum73.png"></p>
+</section>
+<section id="adenoma" class="slide level2">
+<h2>Adenoma</h2>
+<p><strong>Neoplastic mass lesion in the GI tract</strong></p>
+<p><strong>Produce a mucosal protrusion, or polyp</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><strong>Epithelial dysplasia</strong></p>
+<p><strong>Small, often pedunculated polyps to large sessile lesions</strong></p>
+<p><strong>No gender predilection</strong></p>
+<p><strong>50% of adults living in the Western world beginning age 50</strong></p>
+<p><strong>Precursors to colorectal cancer</strong></p>
+<p><strong>Surveillance colonoscopy</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum74.png"></p>
+<p><strong>fibromuscular stalk</strong></p>
+<p><strong>Robbins and Cotran Pathologic Basis of Disease</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum75.png"></p>
+<p><strong>Tubular adenoma with a smooth surface and rounded glands</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum76.jpg"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum77.png"></p>
+<p><strong>Villous adenoma with long, slender projections that are reminiscent of small intestinal villi</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum78.png"></p>
+<p><strong>The cytologic hallmark of epithelial dysplasia is nuclear hyperchromasia, elongation, and stratification</strong></p>
+<p><strong>Changes are most easily appreciated at the surface of the adenoma, because the epithelium fails to mature as cells migrate out of the crypt</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum79.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum80.png"></p>
+<p><strong>Sessile serrated adenoma</strong></p>
+<p><strong>Lined by goblet cells without typical cytologic features of dysplasia. This lesion is distinguished from a hyperplastic polyp by involvement of the crypts</strong></p>
+<p><strong>Most common in the right colon</strong></p>
+<p><strong>Have a malignant potential similar to that of traditional adenomas</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum81.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum82.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum83.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum84.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum85.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="familial-adenomatous-polyps" class="slide level2">
+<h2>Familial Adenomatous Polyps</h2>
+<p><strong>Autosomal dominant disorder</strong></p>
+<p><strong>Numerous colorectal adenomas by the teenage years</strong></p>
+<p><strong>Mutations of the adenomatous polyposis coli gene ( APC )</strong></p>
+<p><strong>&gt;100 polyps is necessary for a diagnosis of classic FAP, and as many as several thousand may be present</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum86.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum87.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><strong>Except for their remarkable numbers, these growths are morphologically indistinguishable from sporadic adenomas</strong></p>
+<p><strong>Colorectal adenocarcinoma develops in 100% of patients with untreated FAP, often before age 30</strong></p>
+<p><strong>Prophylactic colectomy</strong></p>
+<p><strong>Neoplasia at other sites</strong></p>
+<ul>
+<li><strong>Gardner syndrome</strong>
+<ul>
+<li><strong>osteomas of mandible, skull, and long bones</strong></li>
+<li><strong>epidermal cysts</strong></li>
+<li><strong>desmoid and thyroid tumors</strong></li>
+<li><strong>dental abnormalities, including unerupted and supernumerary teeth</strong></li>
+</ul></li>
+<li><strong>Turcot syndrome</strong>
+<ul>
+<li><strong>rarer</strong></li>
+<li><strong>intestinal adenomas and tumors of the central nervous system</strong></li>
+<li><strong>Two thirds of patients with Turcot syndrome have APC gene mutations and develop medulloblastomas</strong></li>
+<li><strong>One third have mutations in one of several genes involved in DNA repair and develop glioblastomas</strong></li>
+</ul></li>
+<li><strong>Patients who have FAP without APC loss have mutations of the base excision repair gene MUTYH</strong></li>
+</ul>
+</section>
+<section id="hereditary-nonpolyposis-colorectal-cancer-1" class="slide level2">
+<h2>Hereditary Nonpolyposis Colorectal Cancer</h2>
+<ul>
+<li><strong>Lynch syndrome</strong></li>
+<li><strong>Familial clustering of cancers at several sites including the colorectum, endometrium, stomach, ovary, ureters, brain, small bowel, hepatobiliary tract, and skin</strong></li>
+<li><strong>Colon cancers tend to occur at younger ages than for sporadic colon cancers and often are located in the right colon</strong></li>
+<li><strong>Inherited germline mutations in DNA mismatch repair genes</strong>
+<ul>
+<li><strong>MSH2 or MLH1</strong></li>
+<li><strong>HNPCC inherit one mutated DNA repair gene and one normal allele</strong></li>
+<li><strong>When the second copy is lost through mutation or epigenetic silencing, defects in mismatch repair lead to the accumulation of mutations at rates up to 1000 times higher than normal</strong></li>
+<li><strong>Regions containing short repeating DNA sequences referred to as microsatellite DNA</strong></li>
+</ul></li>
+</ul>
+</section>
+<section id="adenocarcinoma-of-colon" class="slide level2">
+<h2>Adenocarcinoma of Colon</h2>
+<ul>
+<li><strong>Most common malignancy of the gastrointestinal tract</strong></li>
+<li><strong>Major contributor to morbidity and mortality worldwide</strong></li>
+<li><strong>Small intestine, which accounts for 75% of the overall length of the gastrointestinal tract, is an uncommon site for benign and malignant tumors. Nearly 15% of all cancer-related deaths, second only to lung cancer</strong></li>
+<li><strong>Incidence</strong>
+<ul>
+<li><strong>Peaks at 60 to 70 years of age, and less than 20% of cases occur before age 50</strong></li>
+<li><strong>Males are affected slightly more often than females</strong></li>
+<li><strong>Most prevalent in the United States, Canada, Australia, New Zealand, Denmark, Sweden, and other developed countries</strong></li>
+<li><strong>30x lower in India, South America, and Africa</strong></li>
+<li><strong>Japan incidence is increasing</strong></li>
+</ul></li>
+<li><strong>Low intake of unabsorbable vegetable fiber and high intake of refined carbohydrates and fat</strong></li>
+<li><strong>NSAID may have a protective effect</strong></li>
+</ul>
+</section>
+<section id="the-apcβ-catenin-pathway" class="slide level2">
+<h2>The APC/β-catenin pathway</h2>
+<p><strong>The classic adenoma-carcinoma sequence</strong></p>
+<p><strong>80% of sporadic colon tumors</strong></p>
+<p><strong>Involves mutation of the APC tumor suppressor early in the neoplastic process</strong></p>
+<p><strong>Both copies of the APC gene must be functionally inactivated, either by mutation or epigenetic events, for adenomas to develop</strong></p>
+<p><strong>No APC is present</strong></p>
+<p><strong>β-Catenin is active independent of WNT status</strong></p>
+<p><strong>WNT signal inhibits APC</strong></p>
+<p><strong>β-Catenin enters nucleus</strong></p>
+<p><strong>APC is active</strong></p>
+<p><strong>β-Catenin is dectructed</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum88.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><strong>β-Catenin is active in the nucleus</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum89.png"></p>
+<p><strong>cyclin D1 and MYC transcribed for proliferation</strong></p>
+<p><strong>TWIST and SLUG are expressed</strong></p>
+<p><strong>They repress E-cadherin expression</strong></p>
+<p><strong>Reduce contact inhibition</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><strong>TP53 ?? 70% to 80% of colon cancers but is uncommonly affected in adenomas</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum90.png"></p>
+<p><strong>KRAS</strong></p>
+<p><strong>10% in &lt;1cm</strong></p>
+<p><strong>50% &gt;1cm</strong></p>
+<p><strong>50% in adenocarcinoma</strong></p>
+<p><strong>SMAD2 and SMAD4, which are effectors of TGF-β signaling, normally inhibits cell cycle</strong></p>
+<p><strong>Loss of function TP53 and others caused by chromosomal deletions, chromosomal instability in this pathway</strong></p>
+<p><strong>Epigenetics</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="the-microsatellite-instability-pathway-1" class="slide level2">
+<h2>The microsatellite instability pathway</h2>
+<p><strong>DNA mismatch repair deficiency</strong></p>
+<p><strong>Due to loss of mismatch repair genes</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum91.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum92.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum93.png"></p>
+<ul>
+<li><strong>Mutations accumulate in microsatellite repeats → microsatellite instability</strong>
+<ul>
+<li><strong>Microsatellites typically are located in noncoding regions</strong></li>
+<li><strong>Microsatellite sequences located in the coding or promoter regions of genes involved in regulation of cell growth</strong>
+<ul>
+<li><strong>type II TGF-β receptor, uncontrolled growth</strong></li>
+<li><strong>pro-apoptotic protein BAX, survival of abnormal clones</strong></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum94.png"></p>
+<p><strong>Mutations in the oncogene BRAF and silencing of distinct groups of genes due to CpG island hypermethylation also are common in cancers that develop through DNA mismatch repair defects.</strong></p>
+<p><strong>KRAS and TP53 typically are not mutated.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum95.png"></p>
+</section>
+<section id="adenocarcinoma-distribution" class="slide level2">
+<h2>Adenocarcinoma distribution</h2>
+<ul>
+<li><strong>Distributed approximately equally over the entire length of the colon</strong></li>
+<li><strong>Proximal colon</strong>
+<ul>
+<li><strong>polypoid, exophytic masses</strong></li>
+<li><strong>that extend along one wall of the large-caliber cecum and ascending colon</strong></li>
+<li><strong>rarely cause obstruction</strong></li>
+</ul></li>
+<li><strong>Distal colon</strong>
+<ul>
+<li><strong>annular lesions that produce “napkin ring” constrictions and luminal narrowing</strong></li>
+<li><strong>point of obstruction</strong></li>
+</ul></li>
+</ul>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum96.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum97.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum98.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum99.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum100.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum101.png"></p>
+<p><strong>A: Well-differentiated adenocarcinoma. Note the elongated, hyperchromatic nuclei. Necrotic debris, present in the gland lumen, is typical.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum102.png"></p>
+<p><strong>Poorly differentiated adenocarcinoma forms a few glands but is largely composed of infiltrating nests of tumor cells.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum103.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum104.png"></p>
+<p><strong>Mucinous adenocarcinoma with signet ring cells and extracellular mucin pools</strong></p>
+<p><strong>Poor prognosis</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum105.png"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum106.png"></p>
+<p><strong>Lymph node metastasis</strong></p>
+<p><strong>Glandular structures within the subcapsular sinus.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum107.png"></p>
+<p><strong>B: Solitary subpleural nodule of colorectal carcinoma metastatic to the lung.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum108.png"></p>
+<p><strong>C: Liver containing two large and many smaller metastases. Note the central necrosis within metastases.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum109.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum110.jpg"></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum111.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CAlt-GIS-Tumorleri-sunum112.png"></p>
+<p><strong>Autopsy Pathology: A Manual and Atlas</strong></p>
+</section>
+<section id="tumors-of-the-appendix" class="slide level2">
+<h2>Tumors of the Appendix</h2>
+<ul>
+<li><strong>NET (Carcinoid)</strong>
+<ul>
+<li><strong>Most common tumor</strong></li>
+<li><strong>Usually discovered incidentally</strong></li>
+<li><strong>Distal tip of the appendix</strong></li>
+</ul></li>
+<li><strong>Low grade appendicial mucinous neoplasm</strong>
+<ul>
+<li><strong>Mucocele</strong></li>
+<li><strong>consequence of mucinous cystadenoma or mucinous cystadenocarcinoma</strong></li>
+<li><strong>Invasion through the appendiceal wall can lead to intraperitoneal seeding and spread. In women, the resulting peritoneal implants may be mistaken for mucinous ovarian tumors</strong></li>
+<li><strong>Pseudomyxoma peritonei</strong></li>
+</ul></li>
+</ul>
+<div class="footer footer-default">
+
+</div>
+</section>
+    </div>
+  </div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="alt-gis-tumorleri-sunum-2_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="alt-gis-tumorleri-sunum-2_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="alt-gis-tumorleri-sunum-2_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="alt-gis-tumorleri-sunum-2_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="alt-gis-tumorleri-sunum-2_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="alt-gis-tumorleri-sunum-2_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="alt-gis-tumorleri-sunum-2_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="alt-gis-tumorleri-sunum-2_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="alt-gis-tumorleri-sunum-2_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="alt-gis-tumorleri-sunum-2_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'smaller': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button', {
+        text: function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+      });
+      clipboard.on('success', function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      });
+      function tippyHover(el, contentFn) {
+        const config = {
+          allowHTML: true,
+          content: contentFn,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start'
+        };
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          return note.innerHTML;
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    
+
+</body></html>

@@ -65,18 +65,8 @@ rsconnect/
 *.svs
 # Renv
 /renv/
-# EN
-/EN/
-#docs
-/docs/
-# public
-/public/
 # quarto.deb
 *.deb
 *.deb.*
 tweetstring.txt
 Patoloji Atlası-win32-x64
-# freeze
-/_freeze/
-/_freeze_EN/
-/_freeze_TR/
