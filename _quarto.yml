@@ -4,6 +4,7 @@ project:
   resources:
     - "CITATION.cff"
     - ./lecture-notes/
+    - CNAME
 
 execute:
   freeze: false
