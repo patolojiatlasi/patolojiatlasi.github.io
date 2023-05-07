@@ -142,13 +142,13 @@ jobs:
         shell: Rscript {0}
         run: |
           if (dir.exists(paths = "./_freeze")) {fs::dir_delete(path = "./_freeze")}
-          fs::dir_copy(path = "./_freeze_EN", new_path = "./_freeze", overwrite = TRUE)
+          if (dir.exists(paths = "./_freeze_EN")) { fs::dir_copy(path = "./_freeze_EN", new_path = "./_freeze", overwrite = TRUE) }
           # Prepare EN
           fs::file_copy(path = "./_quarto_EN.yml", new_path = "./_quarto.yml", overwrite = TRUE)
           fs::file_copy(path = "./R/languageEN.R", new_path = "./R/language.R",overwrite = TRUE)
           # render EN
           quarto::quarto_render(".", as_job = FALSE)
-          fs::dir_copy(path = "./_freeze", new_path = "./_freeze_EN", overwrite = TRUE)
+          if (dir.exists(paths = "./_freeze")) { fs::dir_copy(path = "./_freeze", new_path = "./_freeze_EN", overwrite = TRUE) }
 
 
       - name: "Render Book From TR"
@@ -157,15 +157,15 @@ jobs:
           if (file.exists("./EN/CNAME")){fs::file_delete(path = "./EN/CNAME")}
           # prepare TR
           if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
-          fs::dir_copy(path = "./_freeze_TR", new_path = "./_freeze", overwrite = TRUE)
+          if (dir.exists(paths = "./_freeze_TR")) { fs::dir_copy(path = "./_freeze_TR", new_path = "./_freeze", overwrite = TRUE) }
           fs::file_copy(path = "./_quarto_TR.yml", new_path = "./_quarto.yml", overwrite = TRUE)
           fs::file_copy(path = "./R/languageTR.R", new_path = "./R/language.R", overwrite = TRUE)
           # render TR
           quarto::quarto_render(".", as_job = FALSE)
-          fs::dir_copy(path = "./_freeze", new_path = "./_freeze_TR", overwrite = TRUE)
+          if (dir.exists(paths = "./_freeze")) { fs::dir_copy(path = "./_freeze", new_path = "./_freeze_TR", overwrite = TRUE) }
           # if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
           # fs::dir_copy(path = "./EN", new_path = "./docs/EN", overwrite = TRUE)
-          fs::dir_copy(path = "./docs", new_path = "./public", overwrite = TRUE)
+          if (dir.exists(paths = "./docs")) { fs::dir_copy(path = "./docs", new_path = "./public", overwrite = TRUE) }
           if (file.exists("./public/CNAME")){fs::file_delete(path = "./public/CNAME")}
 
 
