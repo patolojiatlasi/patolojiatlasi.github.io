@@ -93,19 +93,6 @@ jobs:
           force: true
 
 
-
-      - name: Pushes to patoloji-ders-notlari
-        uses: cpina/github-action-push-to-another-repository@main
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-        with:
-          source-directory: 'lecture-notes'
-          destination-github-username: 'sbalci'
-          destination-repository-name: 'patoloji-ders-notlari'
-          user-email: drserdarbalci@gmail.com
-          target-branch: main
-
-
   quarto-render-and-deploy:
     needs: lecture-notes
     runs-on: ubuntu-latest
@@ -164,7 +151,6 @@ jobs:
           fs::dir_copy(path = "./_freeze", new_path = "./_freeze_EN", overwrite = TRUE)
 
 
-
       - name: "Render Book From TR"
         shell: Rscript {0}
         run: |
@@ -182,7 +168,6 @@ jobs:
           fs::dir_copy(path = "./docs", new_path = "./public", overwrite = TRUE)
           if (file.exists("./public/CNAME")){fs::file_delete(path = "./public/CNAME")}
           if (dir.exists(paths = "./docs/EN")) { fs::dir_delete(path = "./docs/EN") }
-
 
 
       - name: Commit results to main branch
@@ -212,8 +197,6 @@ jobs:
           target-branch: main
 
 
-
-
       - name: Pushes to atlas
         uses: cpina/github-action-push-to-another-repository@main
         env:
@@ -224,6 +207,18 @@ jobs:
            destination-repository-name: 'atlas'
            user-email: drserdarbalci@gmail.com
            target-branch: main
+
+
+      - name: Pushes to patoloji-ders-notlari
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'lecture-notes'
+          destination-github-username: 'sbalci'
+          destination-repository-name: 'patoloji-ders-notlari'
+          user-email: drserdarbalci@gmail.com
+          target-branch: main
 
 
 
