@@ -60,10 +60,10 @@ jobs:
           # purrr::map(.x = filestorender, .f= quarto::quarto_render, output_format = 'all')
           # quarto::quarto_render(input = "./lecture-notes/*.qmd")
           quarto::quarto_render(input = filestorender, output_format = 'gfm', as_job = FALSE)
-          quarto::quarto_render(input = filestorender, output_format = 'revealjs', as_job = FALSE)
+          # quarto::quarto_render(input = filestorender, output_format = 'revealjs', as_job = FALSE)
           # quarto::quarto_render(input = filestorender, output_format = 'all', as_job = FALSE)
 
-      - name: "Prepare patoloji-ders-notlari "
+      - name: "Prepare lecture-notes readme"
         shell: Rscript {0}
         run: |
           md_files <- list.files(path = './lecture-notes/', pattern = '*\\.md', full.names = FALSE, recursive = TRUE)
@@ -244,18 +244,17 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # // https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
 
   quartopub:
-    if: "contains(github.event.head_commit.message, 'lecture') && !contains(github.event.head_commit.message, 'merge') && !contains(github.event.head_commit.message, 'WIP')"
     needs: quarto-render-and-deploy
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@main 
+        uses: actions/checkout@v3
 
       - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@main
+        uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render and Publish 
-        uses: quarto-dev/quarto-actions/publish@main
+        uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: quarto-pub
           path: public
