@@ -238,7 +238,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # // https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
 
   quartopub:
-    if: "contains(github.event.head_commit.message, 'lecture') && !contains(github.event.head_commit.message, 'merge') && !contains(github.event.head_commit.message, 'WIP')"
     needs: quarto-render-and-deploy
     runs-on: ubuntu-latest
     steps:
