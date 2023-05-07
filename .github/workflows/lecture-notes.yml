@@ -59,33 +59,14 @@ jobs:
           # purrr::map(.x = filestorender, .f= quarto::quarto_render, output_format = 'revealjs')
           # purrr::map(.x = filestorender, .f= quarto::quarto_render, output_format = 'all')
           # quarto::quarto_render(input = "./lecture-notes/*.qmd")
-          # quarto::quarto_render(input = filestorender, output_format = 'gfm', as_job = FALSE)
-          # quarto::quarto_render(input = filestorender, output_format = 'revealjs', as_job = FALSE)
-          quarto::quarto_render(input = filestorender, output_format = 'all', as_job = FALSE)
-
-
-
-      - name: Commit results to main branch
-        run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
-          git add .
-          git commit -m "CI added changes `date +'%Y-%m-%d %H:%M:%S'`" || echo "No changes to commit"
-          git push origin || echo "No changes to commit"
-
-      - name: Push changes # push the output folder to your repo
-        uses: ad-m/github-push-action@master
-        with:
-          branch: main
-          github_token: ${{ secrets.API_TOKEN_GITHUB }}
-          # WORKFLOW_GITHUB_TOKEN
-          force: true
-
+          quarto::quarto_render(input = filestorender, output_format = 'gfm', as_job = FALSE)
+          quarto::quarto_render(input = filestorender, output_format = 'revealjs', as_job = FALSE)
+          # quarto::quarto_render(input = filestorender, output_format = 'all', as_job = FALSE)
 
       - name: "Prepare patoloji-ders-notlari "
         shell: Rscript {0}
         run: |
-          md_files <- list.files(path = './lecture-notes', pattern = '*\\.md', full.names = FALSE, recursive = TRUE)
+          md_files <- list.files(path = './lecture-notes/', pattern = '*\\.md', full.names = FALSE, recursive = TRUE)
           md_files <- md_files[!grepl(pattern = 'README', x = md_files)]
           md_files <- gsub(pattern = '\\.md', replacement = '', x = md_files)
           md_files_list <- purrr::map(.x = md_files, .f = ~ paste0('[', .x , '](./', .x , '.md)\n'))
@@ -110,6 +91,7 @@ jobs:
           github_token: ${{ secrets.API_TOKEN_GITHUB }}
           # WORKFLOW_GITHUB_TOKEN
           force: true
+
 
 
       - name: Pushes to patoloji-ders-notlari
@@ -196,9 +178,10 @@ jobs:
           quarto::quarto_render(".", as_job = FALSE)
           fs::dir_copy(path = "./_freeze", new_path = "./_freeze_TR", overwrite = TRUE)
           # if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
-          # fs::dir_copy(path = "./EN", new_path = "./docs/EN", overwrite = TRUE)
+          fs::dir_copy(path = "./EN", new_path = "./docs/EN", overwrite = TRUE)
           fs::dir_copy(path = "./docs", new_path = "./public", overwrite = TRUE)
           if (file.exists("./public/CNAME")){fs::file_delete(path = "./public/CNAME")}
+          if (dir.exists(paths = "./docs/EN")) { fs::dir_delete(path = "./docs/EN") }
 
 
 
