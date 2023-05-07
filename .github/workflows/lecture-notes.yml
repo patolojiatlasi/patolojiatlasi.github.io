@@ -60,7 +60,7 @@ jobs:
           # purrr::map(.x = filestorender, .f= quarto::quarto_render, output_format = 'all')
           # quarto::quarto_render(input = "./lecture-notes/*.qmd")
           quarto::quarto_render(input = filestorender, output_format = 'gfm', as_job = FALSE, quiet = TRUE)
-          # quarto::quarto_render(input = filestorender, output_format = 'revealjs', as_job = FALSE)
+          quarto::quarto_render(input = filestorender, output_format = 'revealjs', as_job = FALSE, quiet = TRUE)
           # quarto::quarto_render(input = filestorender, output_format = 'all', as_job = FALSE)
 
       - name: "Prepare lecture-notes readme"
@@ -141,33 +141,32 @@ jobs:
       - name: "Render Book From EN"
         shell: Rscript {0}
         run: |
-          if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
-          if (dir.exists(paths = "./_freeze_EN")) { fs::dir_copy(path = "./_freeze_EN", new_path = "./_freeze", overwrite = TRUE) }
+          if (dir.exists(paths = "./_freeze")) {fs::dir_delete(path = "./_freeze")}
+          fs::dir_copy(path = "./_freeze_EN", new_path = "./_freeze", overwrite = TRUE)
           # Prepare EN
           fs::file_copy(path = "./_quarto_EN.yml", new_path = "./_quarto.yml", overwrite = TRUE)
           fs::file_copy(path = "./R/languageEN.R", new_path = "./R/language.R",overwrite = TRUE)
           # render EN
           quarto::quarto_render(".", as_job = FALSE)
-          if (dir.exists(paths = "./_freeze")) { fs::dir_copy(path = "./_freeze", new_path = "./_freeze_EN", overwrite = TRUE) }
+          fs::dir_copy(path = "./_freeze", new_path = "./_freeze_EN", overwrite = TRUE)
 
 
       - name: "Render Book From TR"
         shell: Rscript {0}
         run: |
-          if (file.exists("./EN/CNAME")) {fs::file_delete(path = "./EN/CNAME")}
+          if (file.exists("./EN/CNAME")){fs::file_delete(path = "./EN/CNAME")}
           # prepare TR
           if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
-          if (dir.exists(paths = "./_freeze_TR")) { fs::dir_copy(path = "./_freeze_TR", new_path = "./_freeze", overwrite = TRUE) }
+          fs::dir_copy(path = "./_freeze_TR", new_path = "./_freeze", overwrite = TRUE)
           fs::file_copy(path = "./_quarto_TR.yml", new_path = "./_quarto.yml", overwrite = TRUE)
           fs::file_copy(path = "./R/languageTR.R", new_path = "./R/language.R", overwrite = TRUE)
           # render TR
           quarto::quarto_render(".", as_job = FALSE)
-          if (dir.exists(paths = "./_freeze")) { fs::dir_copy(path = "./_freeze", new_path = "./_freeze_TR", overwrite = TRUE) }
+          fs::dir_copy(path = "./_freeze", new_path = "./_freeze_TR", overwrite = TRUE)
           # if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
-          if (dir.exists(paths = "./EN")) { fs::dir_copy(path = "./EN", new_path = "./docs/EN", overwrite = TRUE) }
-          if (dir.exists(paths = "./docs")) { fs::dir_copy(path = "./docs", new_path = "./public", overwrite = TRUE) }
-          if (file.exists("./public/CNAME")) {fs::file_delete(path = "./public/CNAME")}
-          if (dir.exists(paths = "./docs/EN")) { fs::dir_delete(path = "./docs/EN") }
+          # fs::dir_copy(path = "./EN", new_path = "./docs/EN", overwrite = TRUE)
+          fs::dir_copy(path = "./docs", new_path = "./public", overwrite = TRUE)
+          if (file.exists("./public/CNAME")){fs::file_delete(path = "./public/CNAME")}
 
 
       - name: Commit results to main branch
@@ -239,6 +238,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # // https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
 
   quartopub:
+    if: "contains(github.event.head_commit.message, 'lecture') && !contains(github.event.head_commit.message, 'merge') && !contains(github.event.head_commit.message, 'WIP')"
     needs: quarto-render-and-deploy
     runs-on: ubuntu-latest
     steps:
@@ -253,8 +253,8 @@ jobs:
         with:
           target: quarto-pub
           path: public
-          render: false
-          QUARTO_PUB_AUTH_TOKEN: ${{ secrets.QUARTOPUB }}
+          # render: false
+          QUARTO_PUB_AUTH_TOKEN: ${{ secrets.QUARTO_PUB_AUTH_TOKEN }}
           GITHUB_EMAIL: drserdarbalci@gmail.com
           GITHUB_USERNAME: sbalci
 

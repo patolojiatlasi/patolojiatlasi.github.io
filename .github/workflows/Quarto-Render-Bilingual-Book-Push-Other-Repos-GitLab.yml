@@ -341,6 +341,6 @@ jobs:
           target: quarto-pub
           path: public
           render: false
-          QUARTO_PUB_AUTH_TOKEN: ${{ secrets.QUARTOPUB }}
+          QUARTO_PUB_AUTH_TOKEN: ${{ secrets.QUARTO_PUB_AUTH_TOKEN }}
           GITHUB_EMAIL: drserdarbalci@gmail.com
           GITHUB_USERNAME: sbalci
