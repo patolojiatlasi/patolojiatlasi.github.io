@@ -1,3 +1,0 @@
-# Patoloji Ders Notları 
-
-

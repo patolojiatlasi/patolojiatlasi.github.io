@@ -59,7 +59,7 @@ jobs:
           # purrr::map(.x = filestorender, .f= quarto::quarto_render, output_format = 'revealjs')
           # purrr::map(.x = filestorender, .f= quarto::quarto_render, output_format = 'all')
           # quarto::quarto_render(input = "./lecture-notes/*.qmd")
-          quarto::quarto_render(input = filestorender, output_format = 'gfm', as_job = FALSE)
+          quarto::quarto_render(input = filestorender, output_format = 'gfm', as_job = FALSE, quiet = TRUE)
           # quarto::quarto_render(input = filestorender, output_format = 'revealjs', as_job = FALSE)
           # quarto::quarto_render(input = filestorender, output_format = 'all', as_job = FALSE)
 

@@ -6,7 +6,7 @@ project:
     - lecture-notes
 
 execute:
-  freeze: true
+  freeze: false
 
 lang: en
 
