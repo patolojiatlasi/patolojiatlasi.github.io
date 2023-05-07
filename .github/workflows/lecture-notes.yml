@@ -51,7 +51,7 @@ jobs:
         shell: Rscript {0}
 
 
-      - name: "Render patoloji-ders-notlari"
+      - name: "Render lecture-notes"
         shell: Rscript {0}
         run: |
           filestorender <- list.files(path = "./lecture-notes/", pattern = ".qmd", full.names = TRUE, recursive = TRUE)
@@ -86,6 +86,38 @@ jobs:
           github_token: ${{ secrets.API_TOKEN_GITHUB }}
           # WORKFLOW_GITHUB_TOKEN
           force: true
+
+
+      - name: "Prepare patoloji-ders-notlari "
+        shell: Rscript {0}
+        run: |
+          md_files <- list.files(path = './lecture-notes', pattern = '*\\.md', full.names = FALSE, recursive = TRUE)
+          md_files <- md_files[!grepl(pattern = 'README', x = md_files)]
+          md_files <- gsub(pattern = '\\.md', replacement = '', x = md_files)
+          md_files_list <- purrr::map(.x = md_files, .f = ~ paste0('[', .x , '](./', .x , '.md)\n'))
+          readme_text <- paste0(unlist(md_files_list), collapse = "\n\n")
+          readme_text <- paste0('# Patoloji Ders Notları \n\n', readme_text)
+          writeLines(text = readme_text, con = './lecture-notes/README.md')
+
+
+
+      - name: Commit results to main branch
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add .
+          git commit -m "CI added changes `date +'%Y-%m-%d %H:%M:%S'`" || echo "No changes to commit"
+          git push origin || echo "No changes to commit"
+
+      - name: Push changes # push the output folder to your repo
+        uses: ad-m/github-push-action@master
+        with:
+          branch: main
+          github_token: ${{ secrets.API_TOKEN_GITHUB }}
+          # WORKFLOW_GITHUB_TOKEN
+          force: true
+
+
 
       - name: Pushes to patoloji-ders-notlari
         uses: cpina/github-action-push-to-another-repository@main
@@ -173,6 +205,8 @@ jobs:
           # if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
           # fs::dir_copy(path = "./EN", new_path = "./docs/EN", overwrite = TRUE)
           fs::dir_copy(path = "./docs", new_path = "./public", overwrite = TRUE)
+          if (file.exists("./public/CNAME")){fs::file_delete(path = "./public/CNAME")}
+
 
 
       - name: Commit results to main branch
@@ -248,8 +282,10 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@main
         with:
           target: quarto-pub
-          path: docs
+          path: public
           render: false
           QUARTO_PUB_AUTH_TOKEN: ${{ secrets.QUARTOPUB }}
+          GITHUB_EMAIL: drserdarbalci@gmail.com
+          GITHUB_USERNAME: sbalci
 
 

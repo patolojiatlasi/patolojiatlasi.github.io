@@ -128,6 +128,8 @@ jobs:
           # if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
           # fs::dir_copy(path = "./EN", new_path = "./docs/EN", overwrite = TRUE)
           fs::dir_copy(path = "./docs", new_path = "./public", overwrite = TRUE)
+          if (file.exists("./public/CNAME")){fs::file_delete(path = "./public/CNAME")}
+
 
 #      - name: "render TR"
 #        run: |
@@ -337,7 +339,8 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@main
         with:
           target: quarto-pub
-          path: docs
+          path: public
           render: false
           QUARTO_PUB_AUTH_TOKEN: ${{ secrets.QUARTOPUB }}
-
+          GITHUB_EMAIL: drserdarbalci@gmail.com
+          GITHUB_USERNAME: sbalci
