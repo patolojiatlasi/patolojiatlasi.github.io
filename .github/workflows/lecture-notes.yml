@@ -62,13 +62,7 @@ jobs:
           # quarto::quarto_render(input = filestorender, output_format = 'gfm', as_job = FALSE)
           # quarto::quarto_render(input = filestorender, output_format = 'revealjs', as_job = FALSE)
           quarto::quarto_render(input = filestorender, output_format = 'all', as_job = FALSE)
-          md_files <- list.files(path = './lecture-notes', pattern = '*\\.md', full.names = FALSE, recursive = TRUE)
-          md_files <- md_files[!grepl(pattern = 'README', x = md_files)]
-          md_files <- gsub(pattern = '\\.md', replacement = '', x = md_files)
-          md_files_list <- purrr::map(.x = md_files, .f = ~ paste0('[', .x , '](./', .x , '.md)\n'))
-          readme_text <- paste0(unlist(md_files_list), collapse = "\n\n")
-          readme_text <- paste0('# Patoloji Ders Notları \n\n', readme_text)
-          writeLines(text = readme_text, con = './lecture-notes/README.md')
+
 
 
       - name: Commit results to main branch
@@ -96,10 +90,10 @@ jobs:
           md_files <- gsub(pattern = '\\.md', replacement = '', x = md_files)
           md_files_list <- purrr::map(.x = md_files, .f = ~ paste0('[', .x , '](./', .x , '.md)\n'))
           readme_text <- paste0(unlist(md_files_list), collapse = "\n\n")
-          readme_text <- paste0('# Patoloji Ders Notları \n\n', readme_text)
+          timestamp_text <- as.character(Sys.time())
+          readme_text <- paste0('# Patoloji Ders Notları \n\n', timestamp_text, '\n\n', readme_text)
+          if (file.exists('./lecture-notes/README.md')){fs::file_delete(path = './lecture-notes/README.md')}
           writeLines(text = readme_text, con = './lecture-notes/README.md')
-
-
 
       - name: Commit results to main branch
         run: |
@@ -116,7 +110,6 @@ jobs:
           github_token: ${{ secrets.API_TOKEN_GITHUB }}
           # WORKFLOW_GITHUB_TOKEN
           force: true
-
 
 
       - name: Pushes to patoloji-ders-notlari

@@ -3,7 +3,7 @@ project:
   output-dir: EN
   resources:
     - "CITATION.cff"
-    - ./lecture-notes/
+    - lecture-notes
 
 execute:
   freeze: true
