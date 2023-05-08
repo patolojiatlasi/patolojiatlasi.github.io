@@ -69,9 +69,9 @@ book:
 #     right:
 #       - icon: github
 #         href: https://github.com/patolojiatlasi
-  open-graph: true
-  # locale: tr_TR
-  # site-name: Patoloji Atlası
+  open-graph:
+    locale: tr_TR
+    site-name: Patoloji Atlası
   twitter-card:
     creator: "@serdarbalci"
     site: "@patolojinotlari"

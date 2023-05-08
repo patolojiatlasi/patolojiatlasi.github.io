@@ -85,8 +85,8 @@ quarto::quarto_render(input = filestorender,
                       output_format = "gfm", as_job = FALSE)
 
 
-quarto::quarto_render(input = filestorender,
-                      output_format = "all")
+quarto::quarto_render(input = "./lecture-notes/pulmonary-infections.qmd",
+                      output_format = "all", as_job = FALSE, debug = TRUE)
 
 
 
