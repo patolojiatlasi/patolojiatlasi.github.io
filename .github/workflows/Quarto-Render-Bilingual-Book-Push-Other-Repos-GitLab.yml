@@ -129,6 +129,7 @@ jobs:
           # fs::dir_copy(path = "./EN", new_path = "./docs/EN", overwrite = TRUE)
           if (dir.exists(paths = "./docs")) { fs::dir_copy(path = "./docs", new_path = "./public", overwrite = TRUE) }
           if (file.exists("./public/CNAME")){fs::file_delete(path = "./public/CNAME")}
+          if (dir.exists(paths = "./docs/EN")) { fs::dir_delete(path = "./docs/EN") }
 
 
 #      - name: "render TR"
@@ -329,16 +330,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@main 
+        uses: actions/checkout@v3 
 
       - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@main
+        uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render and Publish 
-        uses: quarto-dev/quarto-actions/publish@main
+        uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: quarto-pub
-          path: public
+          path: docs
           render: false
           QUARTO_PUB_AUTH_TOKEN: ${{ secrets.QUARTO_PUB_AUTH_TOKEN }}
           GITHUB_EMAIL: drserdarbalci@gmail.com

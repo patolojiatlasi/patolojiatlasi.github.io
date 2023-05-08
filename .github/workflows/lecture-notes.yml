@@ -154,7 +154,7 @@ jobs:
       - name: "Render Book From TR"
         shell: Rscript {0}
         run: |
-          if (file.exists("./EN/CNAME")){fs::file_delete(path = "./EN/CNAME")}
+          if (file.exists("./EN/CNAME")){ fs::file_delete(path = "./EN/CNAME") }
           # prepare TR
           if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
           if (dir.exists(paths = "./_freeze_TR")) { fs::dir_copy(path = "./_freeze_TR", new_path = "./_freeze", overwrite = TRUE) }
@@ -167,6 +167,7 @@ jobs:
           # fs::dir_copy(path = "./EN", new_path = "./docs/EN", overwrite = TRUE)
           if (dir.exists(paths = "./docs")) { fs::dir_copy(path = "./docs", new_path = "./public", overwrite = TRUE) }
           if (file.exists("./public/CNAME")){fs::file_delete(path = "./public/CNAME")}
+          if (dir.exists(paths = "./docs/EN")) { fs::dir_delete(path = "./docs/EN") }
 
 
       - name: Commit results to main branch
@@ -251,7 +252,7 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: quarto-pub
-          path: public
+          path: docs
           # render: false
           QUARTO_PUB_AUTH_TOKEN: ${{ secrets.QUARTO_PUB_AUTH_TOKEN }}
           GITHUB_EMAIL: drserdarbalci@gmail.com
