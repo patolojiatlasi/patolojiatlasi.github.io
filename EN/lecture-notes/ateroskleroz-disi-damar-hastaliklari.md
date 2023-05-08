@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CAteroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B10.jpg)
+![](./img-local/Ateroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B10.jpg)
 
 # Ateroskleroz dışı damar hastalıkları
 
@@ -19,7 +19,7 @@ Serdar Balcı
 
 **Değişik amaçlar için değişik damarlar**
 
-![](img%5CAteroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B11.png)
+![](./img-local/Ateroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B11.png)
 
 **Robbins Basic Pathology**
 
@@ -116,7 +116,7 @@ sahiptir**
 
 **Tümörler ve infeksiyonlar**
 
-![](img%5CAteroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B12.png)
+![](./img-local/Ateroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B12.png)
 
 **Robbins Basic Pathology**
 
@@ -227,7 +227,7 @@ sahiptir**
   - **NO**
   - **Transforming growth factor-α (TGF-α)**
 
-![](img%5CAteroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B13.png)
+![](./img-local/Ateroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B13.png)
 
 **Robbins Basic Pathology**
 
@@ -243,11 +243,11 @@ sahiptir**
 
 **Ölümcül intraserebral kanama**
 
-![](img%5CAteroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B14.png)
+![](./img-local/Ateroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B14.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAteroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B15.png)
+![](./img-local/Ateroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B15.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -463,7 +463,7 @@ büyümeye eğilimli**
   - **Boşluklarda süt benzeri lenf içeriği birikimi**
     - **Şilöz assit (batın), şilotoraks, şiloperikardium**
 
-![](img%5CAteroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B16.png)
+![](./img-local/Ateroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B16.png)
 
 **Robbins Basic Pathology**
 
@@ -506,11 +506,11 @@ büyümeye eğilimli**
 
 **İnce duvarlı damarlar, az stroma**
 
-![](img%5CAteroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B17.png)
+![](./img-local/Ateroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B17.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAteroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B18.png)
+![](./img-local/Ateroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B18.png)
 
 **Robbins Basic Pathology**
 
@@ -538,7 +538,7 @@ lezyonlar**
 
 **Travma sonrası gelişir, birkaç haftada 1-2 cm ulaşır**
 
-![](img%5CAteroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B19.png)
+![](./img-local/Ateroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B19.png)
 
 **Robbins Basic Pathology**
 
@@ -554,7 +554,7 @@ lezyonlar**
 
 **İntravsküler tromboz, distrofik kalsifikasyon görülür**
 
-![](img%5CAteroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B110.png)
+![](./img-local/Ateroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B110.png)
 
 **Robbins Basic Pathology**
 
@@ -600,13 +600,13 @@ proliferasyona neden oluyor**
 
 **Antibiyotik ile tedavi edilir**
 
-![](img%5CAteroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B111.png)
+![](./img-local/Ateroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B111.png)
 
 **Bacillary angiomatosis.**
 
 **Robbins Basic Pathology**
 
-![](img%5CAteroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B112.png)
+![](./img-local/Ateroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B112.png)
 
 **Bacillary angiomatosis.**
 
@@ -630,11 +630,11 @@ demonstrates clusters of tangled bacilli (black)**
 - **Cyclin D’in viral homologu proliferasyona neden olur**
 - **Yama, plak, nodüler fazları**
 
-![](img%5CAteroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B113.png)
+![](./img-local/Ateroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B113.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAteroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B114.png)
+![](./img-local/Ateroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B114.png)
 
 **Robbins Basic Pathology**
 
@@ -692,13 +692,13 @@ kadar değişen morfoloji**
 
 - **5 yıllık sağkalım %30**
 
-![](img%5CAteroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B115.png)
+![](./img-local/Ateroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B115.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAteroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B116.png)
+![](./img-local/Ateroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B116.png)
 
-![](img%5CAteroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B117.png)
+![](./img-local/Ateroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B117.png)
 
 **Moderately differentiated angiosarcoma with dense clumps of atypical
 cells lining distinct vascular lumina**
@@ -713,6 +713,6 @@ marker CD31**
 **Tromboz, intimal kalınlaşma ateroskleroz stent ya da greft sonrası
 görülebilir**
 
-![](img%5CAteroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B118.png)
+![](./img-local/Ateroskleroz-d%C4%B1s%CC%A7%C4%B1-damar-hastal%C4%B1klar%C4%B1pptx-kopyas%C4%B118.png)
 
 **Robbins Basic Pathology**

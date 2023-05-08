@@ -1,19 +1,19 @@
 # Title
 Serdar Balcı
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus0.jpg)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus0.jpg)
 
 # Pathology of Oral Cavity and Esophagus
 
 # Serdar BALCI, MD
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus1.jpg)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus1.jpg)
 
 # ORAL INFLAMMATORY LESIONS
 
 # Aphthous Ulcers (Canker Sores)
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus2.png)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus2.png)
 
 **Aphthous ulcer**
 
@@ -126,7 +126,7 @@ polykaryons**
 
 **Buccal mucosa, along the bite line**
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus3.png)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus3.png)
 
 **Robbins Basic Pathology**
 
@@ -140,7 +140,7 @@ polykaryons**
 
 **Growth can be rapid, raise fear of a malignant neoplasm**
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus4.png)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus4.png)
 
 # Leukoplakia
 
@@ -180,9 +180,9 @@ polykaryons**
   - **Most severe dysplastic changes**
   - **50% of these cases undergo malignant transformation**
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus5.png)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus5.png)
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus6.png)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus6.png)
 
 # DISEASES OF SALIVARY GLANDS
 
@@ -231,9 +231,9 @@ polykaryons**
     tissue**
   - **filled with mucin and inflammatory cells, macrophages**
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus7.png)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus7.png)
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus8.png)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus8.png)
 
 # ESOPHAGUS
 
@@ -259,13 +259,13 @@ polykaryons**
   - **Result in aspiration, suffocation, pneumonia, or severe fluid and
     electrolyte imbalances**
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus9.png)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus9.png)
 
 **Fistula (without atresia) **
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus10.jpg)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus10.jpg)
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus11.jpg)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus11.jpg)
 
 # Esophageal stenosis
 
@@ -372,9 +372,9 @@ the patient remained asymptomatic at a follow-up visit 8 months later.**
 - **90% of cirrhotic patients**
 - **Hepatic schistosomiasis**
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus12.png)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus12.png)
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus13.png)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus13.png)
 
 # Lacerations
 
@@ -387,7 +387,7 @@ the patient remained asymptomatic at a follow-up visit 8 months later.**
   - **transmural esophageal tears**
   - **mediastinitis**
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus14.png)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus14.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -417,13 +417,13 @@ the patient remained asymptomatic at a follow-up visit 8 months later.**
 
 **Mucormycosis and aspergillosis**
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus15.png)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus15.png)
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus16.png)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus16.png)
 
 **punched-out ulcers**
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus17.png)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus17.png)
 
 # Other diseases
 
@@ -442,7 +442,7 @@ the patient remained asymptomatic at a follow-up visit 8 months later.**
 - **Constant LES tone**
   - **Prevent gastric content to go back**
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus18.jpg)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus18.jpg)
 
 **Netter’s Illustrated Human Pathology, Second Edition**
 
@@ -473,7 +473,7 @@ the patient remained asymptomatic at a follow-up visit 8 months later.**
   - **Basal zone hyperplasia**
   - **Elongation of lamina propria papillae**
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus19.png)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus19.png)
 
 # Eosinophilic Esophagitis
 
@@ -483,7 +483,7 @@ the patient remained asymptomatic at a follow-up visit 8 months later.**
   - **far from the gastroesophageal junction**
 - **Majority of patients are atopic**
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus20.png)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus20.png)
 
 # Hiatal hernia
 
@@ -495,11 +495,11 @@ the patient remained asymptomatic at a follow-up visit 8 months later.**
 
 **in infants and children**
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus21.jpg)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus21.jpg)
 
 **Netter’s Illustrated Human Pathology, Second Edition**
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus22.jpg)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus22.jpg)
 
 **Netter’s Illustrated Human Pathology, Second Edition**
 
@@ -524,12 +524,12 @@ the patient remained asymptomatic at a follow-up visit 8 months later.**
   - **High grade dysplasia**
   - **Intramucosal carcinoma**
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus23.jpg)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus23.jpg)
 
 **Netter’s Illustrated Human Pathology, Second Edition**
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus24.png)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus24.png)
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus25.png)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus25.png)
 
-![](img%5CPathology-of-Oral-Cavity-and-Esophagus26.png)
+![](./img-local/Pathology-of-Oral-Cavity-and-Esophagus26.png)

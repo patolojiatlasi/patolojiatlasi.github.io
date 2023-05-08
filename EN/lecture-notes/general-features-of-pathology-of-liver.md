@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver0.jpg)
+![](./img-local/General-Features-of-Pathology-of-Liver0.jpg)
 
 # General Features of Pathology of Liver
 
@@ -18,55 +18,55 @@ Serdar Balcı
 - **Center for biochemistry**
   - **Anabolism, catabolism, detoxification**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver1.png)
+![](./img-local/General-Features-of-Pathology-of-Liver1.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver2.png)
+![](./img-local/General-Features-of-Pathology-of-Liver2.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver3.png)
+![](./img-local/General-Features-of-Pathology-of-Liver3.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver4.png)
+![](./img-local/General-Features-of-Pathology-of-Liver4.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver5.png)
+![](./img-local/General-Features-of-Pathology-of-Liver5.png)
 
 **Atlas of Liver Pathology**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver6.png)
+![](./img-local/General-Features-of-Pathology-of-Liver6.png)
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver7.png)
-
-**Robbins Basic Pathology**
-
-![](img%5CGeneral-Features-of-Pathology-of-Liver8.png)
-
-![](img%5CGeneral-Features-of-Pathology-of-Liver9.png)
+![](./img-local/General-Features-of-Pathology-of-Liver7.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver10.png)
+![](./img-local/General-Features-of-Pathology-of-Liver8.png)
+
+![](./img-local/General-Features-of-Pathology-of-Liver9.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver11.png)
+![](./img-local/General-Features-of-Pathology-of-Liver10.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver12.png)
+![](./img-local/General-Features-of-Pathology-of-Liver11.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver13.png)
+![](./img-local/General-Features-of-Pathology-of-Liver12.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver14.png)
+![](./img-local/General-Features-of-Pathology-of-Liver13.png)
+
+**Robbins Basic Pathology**
+
+![](./img-local/General-Features-of-Pathology-of-Liver14.png)
 
 # LIVER INJURY
 
@@ -98,7 +98,7 @@ Serdar Balcı
   - **Necrosis zone link central veins to portal tracts or bridge
     adjacent portal tracts**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver15.png)
+![](./img-local/General-Features-of-Pathology-of-Liver15.png)
 
 **apoptotic hepatocytes**
 
@@ -109,37 +109,37 @@ Serdar Balcı
 **clusters of macrophages with eosinophilic cytoplasm indicate foci
 where hepatocytes have undergone necrosis**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver16.png)
+![](./img-local/General-Features-of-Pathology-of-Liver16.png)
 
 **Normal liver with patent portal and hepatic veins**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver17.png)
+![](./img-local/General-Features-of-Pathology-of-Liver17.png)
 
 **Extinction occurs when contiguous hepatocytes die, usually after
 inflammatory injury to their blood supply **
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver18.png)
+![](./img-local/General-Features-of-Pathology-of-Liver18.png)
 
 **Empty parenchyma collapses and begins to scar and adjacent portal
 tracts and hepatic veins become approximated**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver19.png)
+![](./img-local/General-Features-of-Pathology-of-Liver19.png)
 
 **Scars in regions of extinction contract and condense, becoming fibrous
 septa**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver20.png)
+![](./img-local/General-Features-of-Pathology-of-Liver20.png)
 
 **Septa elongate by the traction caused by hyperplasia of adjacent
 hepatocytes**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver21.png)
+![](./img-local/General-Features-of-Pathology-of-Liver21.png)
 
 **Septa are resorbed. The resulting tissue has either venoportal fibrous
 adhesions or hepatic veins that are closely approximated to portal
 tracts. Portal tracts are remnants, often with no portal vein**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver22.png)
+![](./img-local/General-Features-of-Pathology-of-Liver22.png)
 
 # Regeneration of lost hepatocytes
 
@@ -154,11 +154,11 @@ tracts. Portal tracts are remnants, often with no portal vein**
   - **Activation of the primary intrahepatic stem cell niche (canal of
     Hering)**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver23.png)
+![](./img-local/General-Features-of-Pathology-of-Liver23.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver24.png)
+![](./img-local/General-Features-of-Pathology-of-Liver24.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
@@ -178,17 +178,17 @@ tracts. Portal tracts are remnants, often with no portal vein**
 - **In response to disruption of the extracellular matrix (ECM)**
 - **Direct stimulation of stellate cells by toxins**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver25.png)
+![](./img-local/General-Features-of-Pathology-of-Liver25.png)
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver26.png)
+![](./img-local/General-Features-of-Pathology-of-Liver26.png)
 
 **types I and III collagen and other ECM components**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver27.png)
+![](./img-local/General-Features-of-Pathology-of-Liver27.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver28.png)
+![](./img-local/General-Features-of-Pathology-of-Liver28.png)
 
 **types I and III collagen and other ECM components**
 
@@ -196,7 +196,7 @@ tracts. Portal tracts are remnants, often with no portal vein**
 
 # ACUTE HEPATITIS
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver29.png)
+![](./img-local/General-Features-of-Pathology-of-Liver29.png)
 
 **Robbins Basic Pathology**
 
@@ -249,7 +249,7 @@ tracts. Portal tracts are remnants, often with no portal vein**
 **Acute viral hepatitis showing disruption of lobular architecture,
 inflammatory cells in sinusoids, and apoptotic cells **
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver30.png)
+![](./img-local/General-Features-of-Pathology-of-Liver30.png)
 
 **Robbins Basic Pathology**
 
@@ -265,42 +265,42 @@ and variable inflammation**
 
 **Massive hepatic necrosis and fulminant liver failure**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver31.png)
+![](./img-local/General-Features-of-Pathology-of-Liver31.png)
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver32.png)
+![](./img-local/General-Features-of-Pathology-of-Liver32.png)
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver33.png)
+![](./img-local/General-Features-of-Pathology-of-Liver33.png)
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver34.png)
+![](./img-local/General-Features-of-Pathology-of-Liver34.png)
 
 **Massive hepatic necrosis**
 
 **the wrinkled capsule and irregular nodularity of the generally
 necrotic liver is due to collapse of the parenchyma**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver35.png)
+![](./img-local/General-Features-of-Pathology-of-Liver35.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
 **Massive necrosis, cut section of liver. The liver is small (700 g),
 bile-stained, soft, and congested**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver36.png)
+![](./img-local/General-Features-of-Pathology-of-Liver36.png)
 
 **Hepatocellular necrosis caused by acetaminophen overdose. Confluent
 necrosis is seen in the perivenular region (zone 3)**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver37.png)
+![](./img-local/General-Features-of-Pathology-of-Liver37.png)
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver38.png)
+![](./img-local/General-Features-of-Pathology-of-Liver38.png)
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver39.png)
+![](./img-local/General-Features-of-Pathology-of-Liver39.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
 # CHRONIC HEPATITIS
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver40.png)
+![](./img-local/General-Features-of-Pathology-of-Liver40.png)
 
 **Robbins Basic Pathology**
 
@@ -324,21 +324,21 @@ fibrous septa —bands of dense scar—will extend between portal tracts**
 **In the most severe cases, continued scarring and nodule formation
 leads to the development of cirrhosis**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver41.png)
+![](./img-local/General-Features-of-Pathology-of-Liver41.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver42.png)
+![](./img-local/General-Features-of-Pathology-of-Liver42.png)
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver43.png)
+![](./img-local/General-Features-of-Pathology-of-Liver43.png)
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver44.png)
+![](./img-local/General-Features-of-Pathology-of-Liver44.png)
 
 **Cirrhosis resulting from chronic viral hepatitis**
 
 **Robbins Basic Pathology**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver45.png)
+![](./img-local/General-Features-of-Pathology-of-Liver45.png)
 
 # Grading and Staging of Chronic Hepatitis
 
@@ -350,12 +350,12 @@ leads to the development of cirrhosis**
 
 **An example for Staging of Fibrosis**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver46.png)
+![](./img-local/General-Features-of-Pathology-of-Liver46.png)
 
 **Modern Pathology (2007) 20, S3–S14**
 
 **An example for Grading of İnflammatory Activity**
 
-![](img%5CGeneral-Features-of-Pathology-of-Liver47.png)
+![](./img-local/General-Features-of-Pathology-of-Liver47.png)
 
 **Modern Pathology (2007) 20, S3–S14**

@@ -1,7 +1,7 @@
 # Viral ve Otoimmün Hepatitler
 Serdar Balcı
 
-![](img%5CViral-ve-otoimmun-hepatitler0.jpg)
+![](./img-local/Viral-ve-otoimmun-hepatitler0.jpg)
 
 # Viral ve Otoimmün Hepatitler
 
@@ -41,7 +41,7 @@ kıvrıntılı kapsüllü**
 **Acute viral hepatitis showing disruption of lobular architecture,
 inflammatory cells in sinusoids, and apoptotic cells **
 
-![](img%5CViral-ve-otoimmun-hepatitler1.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler1.png)
 
 **Robbins Basic Pathology**
 
@@ -59,13 +59,13 @@ and variable inflammation**
 
 **Massive hepatic necrosis and fulminant liver failure**
 
-![](img%5CViral-ve-otoimmun-hepatitler2.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler2.png)
 
-![](img%5CViral-ve-otoimmun-hepatitler3.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler3.png)
 
-![](img%5CViral-ve-otoimmun-hepatitler4.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler4.png)
 
-![](img%5CViral-ve-otoimmun-hepatitler5.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler5.png)
 
 # Kronik hepatit
 
@@ -79,25 +79,25 @@ and variable inflammation**
 
 **Nodül oluşumu, siroz**
 
-![](img%5CViral-ve-otoimmun-hepatitler6.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler6.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CViral-ve-otoimmun-hepatitler7.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler7.png)
 
-![](img%5CViral-ve-otoimmun-hepatitler8.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler8.png)
 
-![](img%5CViral-ve-otoimmun-hepatitler9.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler9.png)
 
 **Cirrhosis resulting from chronic viral hepatitis**
 
 **Robbins Basic Pathology**
 
-![](img%5CViral-ve-otoimmun-hepatitler10.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler10.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CViral-ve-otoimmun-hepatitler11.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler11.png)
 
 **Robbins Basic Pathology**
 
@@ -111,41 +111,41 @@ and variable inflammation**
 
 **Fibrozis evrelemesi için bir örnek**
 
-![](img%5CViral-ve-otoimmun-hepatitler12.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler12.png)
 
 **Modern Pathology (2007) 20, S3–S14**
 
 **İnflamatuar aktivite derecelendirmesi için örnek**
 
-![](img%5CViral-ve-otoimmun-hepatitler13.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler13.png)
 
 **Modern Pathology (2007) 20, S3–S14**
 
 # VIRAL HEPATIT
 
-![](img%5CViral-ve-otoimmun-hepatitler14.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler14.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CViral-ve-otoimmun-hepatitler15.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler15.png)
 
 **MacSween’s Pathology of the Liver 6th Ed**
 
-![](img%5CViral-ve-otoimmun-hepatitler16.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler16.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CViral-ve-otoimmun-hepatitler17.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler17.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CViral-ve-otoimmun-hepatitler18.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler18.png)
 
-![](img%5CViral-ve-otoimmun-hepatitler19.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler19.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CViral-ve-otoimmun-hepatitler20.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler20.png)
 
 **Kronik hepatit B’de yıllık HCC riski %0.02, siroz varsa %2.5**
 
@@ -179,15 +179,15 @@ genelde inaktif**
   - **Viral infektivite için gerekli**
   - **HCC yolağında p53 degredasyonu ile yer alır**
 
-![](img%5CViral-ve-otoimmun-hepatitler21.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler21.png)
 
 **MacSween’s Pathology of the Liver 6th Ed**
 
-![](img%5CViral-ve-otoimmun-hepatitler22.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler22.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CViral-ve-otoimmun-hepatitler23.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler23.png)
 
 **Robbins Basic Pathology**
 
@@ -218,32 +218,32 @@ retikulum**
 
 **Rosai and Ackerman’s Surgical Pathology**
 
-![](img%5CViral-ve-otoimmun-hepatitler24.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler24.png)
 
 **Chronic viral hepatitis B: viral replicative phase. Hepatitis B core
 antigen **
 
 **Rosai and Ackerman’s Surgical Pathology**
 
-![](img%5CViral-ve-otoimmun-hepatitler25.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler25.png)
 
 **Chronic viral hepatitis B: viral replicative phase. Hepatitis B
 surface antigen **
 
 **Rosai and Ackerman’s Surgical Pathology**
 
-![](img%5CViral-ve-otoimmun-hepatitler26.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler26.png)
 
 **Chronic viral hepatitis B: viral nonreplicative (integration) phase.
 Hepatitis B surface antigen **
 
-![](img%5CViral-ve-otoimmun-hepatitler27.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler27.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CViral-ve-otoimmun-hepatitler28.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler28.png)
 
-![](img%5CViral-ve-otoimmun-hepatitler29.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler29.png)
 
 **Robbins Basic Pathology**
 
@@ -253,7 +253,7 @@ Hepatitis B surface antigen **
 
 **Bir hastada birden çok alt tip olabilir**
 
-![](img%5CViral-ve-otoimmun-hepatitler30.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler30.png)
 
 **Yıllık HCC riski %1-4**
 
@@ -267,11 +267,11 @@ Hepatitis B surface antigen **
 - **Persistan enfeksiyon HCV’nin özelliği**
   - **Subklinik, asemptomatik enfeksiyonların %80-85’i**
 
-![](img%5CViral-ve-otoimmun-hepatitler31.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler31.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CViral-ve-otoimmun-hepatitler32.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler32.png)
 
 **Robbins Basic Pathology**
 
@@ -293,9 +293,9 @@ Hepatitis B surface antigen **
 - **Kriyoglobulinemia**
   - **HCV’li hastaların %50’sinde**
 
-![](img%5CViral-ve-otoimmun-hepatitler33.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler33.png)
 
-![](img%5CViral-ve-otoimmun-hepatitler34.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler34.png)
 
 **Robbins Basic Pathology**
 
@@ -313,9 +313,9 @@ Hepatitis B surface antigen **
 
 **Süerinfekte olanlar, belirgin hepatit**
 
-![](img%5CViral-ve-otoimmun-hepatitler35.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler35.png)
 
-![](img%5CViral-ve-otoimmun-hepatitler36.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler36.png)
 
 **Robbins Basic Pathology**
 
@@ -438,6 +438,6 @@ Hepatitis B surface antigen **
 **the wrinkled capsule and irregular nodularity of the generally
 necrotic liver is due to collapse of the parenchyma**
 
-![](img%5CViral-ve-otoimmun-hepatitler37.png)
+![](./img-local/Viral-ve-otoimmun-hepatitler37.png)
 
 **Autopsy Pathology: A Manual and Atlas**

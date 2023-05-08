@@ -3,11 +3,11 @@ Serdar Balcı
 
 # Cellular Responses to Stress and Injury
 
-![](img%5CCellular-Responses-to-Stress-and-Injury0.png)
+![](./img-local/Cellular-Responses-to-Stress-and-Injury0.png)
 
 # Serdar BALCI
 
-![](img%5CCellular-Responses-to-Stress-and-Injury1.jpg)
+![](./img-local/Cellular-Responses-to-Stress-and-Injury1.jpg)
 
 # Adaptations
 
@@ -41,7 +41,7 @@ Serdar Balcı
 
 - **Pathologic itself**
 
-![](img%5CCellular-Responses-to-Stress-and-Injury2.jpg)
+![](./img-local/Cellular-Responses-to-Stress-and-Injury2.jpg)
 
 **Hypertrophy**
 
@@ -67,19 +67,19 @@ Serdar Balcı
 
 # Physiologic hypertrophy
 
-![](img%5CCellular-Responses-to-Stress-and-Injury3.jpg)
+![](./img-local/Cellular-Responses-to-Stress-and-Injury3.jpg)
 
-![](img%5CCellular-Responses-to-Stress-and-Injury4.jpg)
+![](./img-local/Cellular-Responses-to-Stress-and-Injury4.jpg)
 
-![](img%5CCellular-Responses-to-Stress-and-Injury5.jpg)
+![](./img-local/Cellular-Responses-to-Stress-and-Injury5.jpg)
 
 # Physiologic hypertrophy and hyperplasia of the uterus during pregnancy
 
-![](img%5CCellular-Responses-to-Stress-and-Injury6.jpg)
+![](./img-local/Cellular-Responses-to-Stress-and-Injury6.jpg)
 
-![](img%5CCellular-Responses-to-Stress-and-Injury7.jpg)
+![](./img-local/Cellular-Responses-to-Stress-and-Injury7.jpg)
 
-![](img%5CCellular-Responses-to-Stress-and-Injury8.jpg)
+![](./img-local/Cellular-Responses-to-Stress-and-Injury8.jpg)
 
 # Pathologic hypertrophy
 
@@ -90,7 +90,7 @@ advantage. In this patient with hypertension, the left ventricular
 cavity is small because of concentric hypertrophy of the walls and
 papillary muscles.\_\_
 
-![](img%5CCellular-Responses-to-Stress-and-Injury9.jpg)
+![](./img-local/Cellular-Responses-to-Stress-and-Injury9.jpg)
 
 **Atlas of Autopsy Pathology, 2** **nd** \_\_ ed. \_\_ **Figure 15-34**
 **   Right ventricular hypertrophy. These short-axis cuts of the heart
@@ -102,7 +102,7 @@ this specimen the apical cut (top) is particularly revealing. The left
 ventricle is relatively normal. ** *RV,* \_\_ Right ventricle; \_\_
 *LV,* \_\_ left ventricle. \_\_
 
-![](img%5CCellular-Responses-to-Stress-and-Injury10.jpg)
+![](./img-local/Cellular-Responses-to-Stress-and-Injury10.jpg)
 
 **Atlas of Autopsy Pathology, 2** **nd** \_\_ ed. \_\_ **Figure 15-35**
 **   Concentric and eccentric hypertrophy. The difference between
@@ -115,7 +115,7 @@ the heart on the right has very thick left ventricular walls that
 diminish the cavity. Both specimens showed histopathologic features of
 hypertrophy. \_\_
 
-![](img%5CCellular-Responses-to-Stress-and-Injury11.jpg)
+![](./img-local/Cellular-Responses-to-Stress-and-Injury11.jpg)
 
 **Atlas of Autopsy Pathology, 2** **nd** \_\_ ed. \_\_ **Figure 15-37**
 **   Right ventricular hypertrophy and dilation. Normally, the right
@@ -204,7 +204,7 @@ contraction**
 
 **Hypertrophy and hyperplasia can occur together**
 
-![](img%5CCellular-Responses-to-Stress-and-Injury12.jpg)
+![](./img-local/Cellular-Responses-to-Stress-and-Injury12.jpg)
 
 # Physiologic hypertrophy and hyperplasia of the uterus during pregnancy
 
@@ -226,7 +226,7 @@ contraction**
 
 **Liver**
 
-![](img%5CCellular-Responses-to-Stress-and-Injury13.jpg)
+![](./img-local/Cellular-Responses-to-Stress-and-Injury13.jpg)
 
 # Compensatory Hyperplasia of Liver
 
@@ -309,11 +309,11 @@ eventually arise**
 
 **Cells decrease function, not dead**
 
-![](img%5CCellular-Responses-to-Stress-and-Injury14.jpg)
+![](./img-local/Cellular-Responses-to-Stress-and-Injury14.jpg)
 
 **Normal brain of a young adult**
 
-![](img%5CCellular-Responses-to-Stress-and-Injury15.jpg)
+![](./img-local/Cellular-Responses-to-Stress-and-Injury15.jpg)
 
 **an 82-year-old man with atherosclerotic disease.**
 
@@ -358,7 +358,7 @@ eventually arise**
 
 **Increased catabolism**
 
-![](img%5CCellular-Responses-to-Stress-and-Injury16.jpg)
+![](./img-local/Cellular-Responses-to-Stress-and-Injury16.jpg)
 
 # Adaptations
 
@@ -377,9 +377,9 @@ eventually arise**
   - **epithelial or mesenchymal)**
 - **replaced by another adult cell type**
 
-![](img%5CCellular-Responses-to-Stress-and-Injury17.jpg)
+![](./img-local/Cellular-Responses-to-Stress-and-Injury17.jpg)
 
-![](img%5CCellular-Responses-to-Stress-and-Injury18.jpg)
+![](./img-local/Cellular-Responses-to-Stress-and-Injury18.jpg)
 
 # Question to think aboutWhich one is pathologic?
 

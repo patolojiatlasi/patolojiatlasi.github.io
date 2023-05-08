@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver0.jpg)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver0.jpg)
 
 # Inflammatory, Toxic, Alcoholic and Metabolic Diseases of Liver
 
@@ -40,7 +40,7 @@ Serdar Balcı
   - **Environmental exposures (e.g., cleaning solvents, pesticides,
     fertilizers)**
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver1.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver1.png)
 
 **Robbins Basic Pathology**
 
@@ -59,9 +59,9 @@ Serdar Balcı
 
 **For updated information **
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver2.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver2.png)
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver3.jpg)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver3.jpg)
 
 # Predictable
 
@@ -97,15 +97,15 @@ Serdar Balcı
 **If the toxin is a metabolite of a drug then it may accumulate in zone
 3 and most severe effect is seen in zone 3**
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver4.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver4.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver5.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver5.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver6.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver6.png)
 
 **Acetaminophen overdose. Confluent necrosis is seen in the perivenular
 region (zone 3) **
@@ -134,7 +134,7 @@ region (zone 3) **
 - **Macroscopically, the fatty liver with widespread steatosis**
   - **Large (weighing 4 to 6 kg or more), soft, yellow, and greasy**
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver7.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver7.png)
 
 **Fatty liver disease. Macrovesicular steatosis is most prominent around
 the central vein and extends outward to the portal tracts with
@@ -161,7 +161,7 @@ perisinusoidal “chicken wire fence” pattern.**
   - **tangled intermediate filaments**
   - **eosinophilic cytoplasmic inclusions in degenerating hepatocytes**
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver8.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver8.png)
 
 **clustered inflammatory cells**
 
@@ -171,7 +171,7 @@ perisinusoidal “chicken wire fence” pattern.**
 
 **Robbins Basic Pathology**
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver9.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver9.png)
 
 **keratins 8 and 18 **
 
@@ -222,7 +222,7 @@ hepatocytes in a chicken wire fence pattern**
 **Steatosis or fatty change imparts a yellow to orange cast to the liver
 parenchyma**
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver10.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver10.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -231,7 +231,7 @@ parenchyma**
 **Diffuse nodularity. Average nodule size is 3 mm. Greenish because of
 bile stasis**
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver11.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver11.png)
 
 **Robbins Basic Pathology**
 
@@ -239,7 +239,7 @@ bile stasis**
 blue-staining fibrous tissue; fatty accumulation is no longer seen in
 this “burned-out” stage**
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver12.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver12.png)
 
 **Robbins Basic Pathology**
 
@@ -255,7 +255,7 @@ cirrhosis**
 
 **Alcoholic liver disease**
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver13.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver13.png)
 
 **Robbins Basic Pathology**
 
@@ -321,15 +321,15 @@ cirrhosis**
     - **Mononuclear infiltrates rather than neutrophilic infiltrates
       predominate**
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver14.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver14.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver15.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver15.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver16.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver16.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
@@ -361,9 +361,9 @@ cirrhosis**
     - **same histologic injuries**
     - **but, spared significant morbidity**
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver17.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver17.png)
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver18.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver18.png)
 
 - **Hepatocellular microvesicular steatosis**
   - **Electron microscopy of hepatocellular mitochondria**
@@ -400,7 +400,7 @@ cirrhosis**
   - **diabetes mellitus (in 75% to 80% of patients)**
   - **skin pigmentation (in 75% to 80%)**
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver19.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver19.png)
 
 **HFE gene**
 
@@ -445,11 +445,11 @@ absorption**
 
 **Accumulation of iron results in a rusty brown liver **
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver20.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver20.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver21.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver21.png)
 
 **Robbins Basic Pathology**
 
@@ -530,7 +530,7 @@ into bile**
 
 - **Kayser-Fleischer rings**
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver22.jpg)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver22.jpg)
 
 - **May mimic other liver diseases**
   - **Fatty liver diseases**
@@ -592,7 +592,7 @@ genotype, usually but not always in the setting of cirrhosis**
 **The treatment and cure for the severe hepatic disease are orthotopic
 liver transplantation**
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver23.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver23.png)
 
 **α1-Antitrypsin deficiency**
 
@@ -602,8 +602,8 @@ liver transplantation**
 
 **Robbins Basic Pathology**
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver24.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver24.png)
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver25.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver25.png)
 
-![](img%5CInflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver26.png)
+![](./img-local/Inflammatory%2C-Toxic%2C-Alcoholic-and-Metabolic-Diseases-of-Liver26.png)

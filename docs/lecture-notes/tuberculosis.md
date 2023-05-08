@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CTuberculosis0.jpg)
+![](./img-local/Tuberculosis0.jpg)
 
 # Tuberculosis
 
@@ -81,7 +81,7 @@ Serdar Balcı
   - **Prevent the fusion of the lysosomes with the phagocytic vacuole**
   - **Unchecked mycobacterial proliferation**
 
-![](img%5CTuberculosis1.png)
+![](./img-local/Tuberculosis1.png)
 
 **Robbins Basic Pathology**
 
@@ -90,7 +90,7 @@ Serdar Balcı
   - **Macrophage mannose receptor**
   - **Complement receptors**
 
-![](img%5CTuberculosis2.png)
+![](./img-local/Tuberculosis2.png)
 
 **Robbins Basic Pathology**
 
@@ -101,7 +101,7 @@ Serdar Balcı
   - **Bacteremia and seeding of multiple sites**
   - **Asymptomatic or have a mild flu-like illness**
 
-![](img%5CTuberculosis3.png)
+![](./img-local/Tuberculosis3.png)
 
 **Robbins Basic Pathology**
 
@@ -112,7 +112,7 @@ Serdar Balcı
   - **Disease may progress from this point without development of an
     effective immune response**
 
-![](img%5CTuberculosis4.png)
+![](./img-local/Tuberculosis4.png)
 
 **Robbins Basic Pathology**
 
@@ -121,7 +121,7 @@ Serdar Balcı
   - **Processed mycobacterial antigens reach the draining lymph nodes**
   - **Presented to CD4 T cells by dendritic cells and macrophages**
 
-![](img%5CTuberculosis5.png)
+![](./img-local/Tuberculosis5.png)
 
 **Robbins Basic Pathology**
 
@@ -133,7 +133,7 @@ Serdar Balcı
 
 **Activate macrophages**
 
-![](img%5CTuberculosis6.png)
+![](./img-local/Tuberculosis6.png)
 
 **Robbins Basic Pathology**
 
@@ -143,7 +143,7 @@ Serdar Balcı
   - **Undergo activation and differentiation into epithelioid
     histiocytes**
 
-![](img%5CTuberculosis7.png)
+![](./img-local/Tuberculosis7.png)
 
 **Robbins Basic Pathology**
 
@@ -152,7 +152,7 @@ Serdar Balcı
   - **Elevated nitric oxide levels at the site of infection**
   - **Excellent antibacterial activity**
 
-![](img%5CTuberculosis8.png)
+![](./img-local/Tuberculosis8.png)
 
 **Robbins Basic Pathology**
 
@@ -160,7 +160,7 @@ Serdar Balcı
   - **Generation of reactive oxygen species**
   - **Antibacterial activity**
 
-![](img%5CTuberculosis9.png)
+![](./img-local/Tuberculosis9.png)
 
 **Robbins Basic Pathology**
 
@@ -170,7 +170,7 @@ Serdar Balcı
   - **Absence of resistance**
   - **Disease progression**
 
-![](img%5CTuberculosis10.png)
+![](./img-local/Tuberculosis10.png)
 
 **Robbins Basic Pathology**
 
@@ -208,7 +208,7 @@ Serdar Balcı
 
 - **Parenchymal lesion + Nodal involvement → Ghon complex**
 
-![](img%5CTuberculosis11.png)
+![](./img-local/Tuberculosis11.png)
 
 **Primary pulmonary tuberculosis**
 
@@ -221,11 +221,11 @@ upper lobe**
 
 **Robbins Basic Pathology**
 
-![](img%5CTuberculosis12.png)
+![](./img-local/Tuberculosis12.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CTuberculosis13.png)
+![](./img-local/Tuberculosis13.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -238,18 +238,18 @@ infection**
 
 **Despite seeding of other organs, no lesions develop**
 
-![](img%5CTuberculosis14.png)
+![](./img-local/Tuberculosis14.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CTuberculosis15.png)
+![](./img-local/Tuberculosis15.png)
 
 **Robbins Basic Pathology**
 
 **immunosuppressed patient, sheets of foamy macrophages packed with
 mycobacteria**
 
-![](img%5CTuberculosis16.png)
+![](./img-local/Tuberculosis16.png)
 
 **Robbins Basic Pathology**
 
@@ -272,7 +272,7 @@ mycobacteria**
 special stains for acid-fast organisms is indicated when granulomas are
 present**
 
-![](img%5CTuberculosis17.png)
+![](./img-local/Tuberculosis17.png)
 
 **Robbins Basic Pathology**
 
@@ -331,11 +331,11 @@ present**
 riddled with gray-white areas of caseation and multiple areas of
 softening and cavitation.**
 
-![](img%5CTuberculosis18.png)
+![](./img-local/Tuberculosis18.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CTuberculosis19.png)
+![](./img-local/Tuberculosis19.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -362,7 +362,7 @@ parenchyma**
 
 **progressive primary tuberculosis**
 
-![](img%5CTuberculosis20.png)
+![](./img-local/Tuberculosis20.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -385,7 +385,7 @@ tubes, epididymis **
 **Miliary tuberculosis of the spleen. The cut surface shows numerous
 gray-white granulomas.**
 
-![](img%5CTuberculosis21.png)
+![](./img-local/Tuberculosis21.png)
 
 **Robbins Basic Pathology**
 
@@ -403,7 +403,7 @@ gray-white granulomas.**
   - **Contaminated milk**
   - **Swallowing of coughed-up infective material**
 
-![](img%5CTuberculosis22.png)
+![](./img-local/Tuberculosis22.png)
 
 **Robbins Basic Pathology**
 
@@ -456,7 +456,7 @@ gray-white granulomas.**
 - **Tissue examination does not reveal granulomas**
 - **Foamy histiocytes filled with atypical mycobacteria**
 
-![](img%5CTuberculosis23.png)
+![](./img-local/Tuberculosis23.png)
 
 **Mycobacterium avium complex **
 

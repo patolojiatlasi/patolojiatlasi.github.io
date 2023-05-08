@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver0.jpg)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver0.jpg)
 
 # Circulatory and Cholestatic Disorders of Liver
 
@@ -19,31 +19,31 @@ Serdar Balcı
   - **Destruction of the bile ducts**
   - **Metabolic defects in hepatocyte bile secretion**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver1.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver1.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver2.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver2.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver3.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver3.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver4.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver4.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver5.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver5.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver6.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver6.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver7.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver7.png)
 
 # Cholestatic Liver Diseases
 
@@ -65,23 +65,23 @@ spaces.**
 
 **Kupffer cells frequently contain regurgitated bile pigments**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver8.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver8.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver9.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver9.png)
 
 **Intracellular cholestasis showing the bile pigments in the cytoplasm**
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver10.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver10.png)
 
 **Bile plug showing the expansion of bile canaliculus by bile**
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver11.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver11.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -94,12 +94,12 @@ spaces.**
   - **Chronic obstruction can lead to cirrhosis**
   - **Ascending cholangitis may develop**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver12.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver12.png)
 
 **Acute large duct obstruction. Marked edema, ductular reaction,
 neutrophils**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver13.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver13.png)
 
 **Ascending cholangitis**
 
@@ -117,7 +117,7 @@ parenchymal destruction**
 
 **Predisposes to cholangiocarcinoma**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver14.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver14.png)
 
 # Neonatal Cholestasis
 
@@ -136,7 +136,7 @@ parenchymal destruction**
 
 **Neonatal hepatitis. Multinucleated giant hepatocytes**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver15.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver15.png)
 
 - **Clinical presentation**
   - **Jaundice**
@@ -168,7 +168,7 @@ parenchymal destruction**
 
 **Hepatocyte necrosis is scant or absent **
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver16.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver16.png)
 
 **Robbins Basic Pathology**
 
@@ -181,7 +181,7 @@ and parenchyma become dilated and contain prominent bile plugs**
 
 **Accompanies or even precedes the development of septic shock**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver17.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver17.png)
 
 **Ductular cholestasis. Large, dark bile concretions within markedly
 dilated canals of Hering and ductules at the portal-parenchymal
@@ -192,7 +192,7 @@ sepsis, is related to endotoxemia.**
 
 # AUTOIMMUNE CHOLANGIOPATHIES
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver18.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver18.png)
 
 **Robbins Basic Pathology**
 
@@ -228,14 +228,14 @@ sepsis, is related to endotoxemia.**
 - **Portal-portal septal fibrosis**
 - **Mild interface and lobular hepatitis also may be present**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver19.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver19.png)
 
 **Biliary cirrhosis. Sagittal section through the liver demonstrates the
 nodularity and bile staining of end-stage biliary cirrhosis.**
 
 Robbins and Cotran Pathologic Basis of Disease
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver20.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver20.png)
 
 **Unlike other forms of cirrhosis, nodules of liver cells in biliary
 cirrhosis are often not round but irregular, like jigsaw puzzle shapes**
@@ -246,11 +246,11 @@ cirrhosis are often not round but irregular, like jigsaw puzzle shapes**
 infiltrate of lymphocytes and plasma cells. Granulomatous reaction to a
 bile duct undergoing destruction (florid duct lesion)**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver21.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver21.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver22.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver22.png)
 
 - **Ductular reaction**
 - **Earlier stages of disease**
@@ -258,7 +258,7 @@ bile duct undergoing destruction (florid duct lesion)**
 - **Later stages**
   - **contribute to subsequent scarring **
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver23.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver23.png)
 
 **ductular reaction in a fibrotic septum**
 
@@ -298,7 +298,7 @@ bile duct undergoing destruction (florid duct lesion)**
 demonstrates liver enlargement, nodularity indicative of cirrhosis, and
 green discoloration due to cholestasis**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver24.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver24.png)
 
 **Robbins Basic Pathology**
 
@@ -332,7 +332,7 @@ green discoloration due to cholestasis**
 
   - **narrow strictures alternating with normal sized or dilated ducts**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver25.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver25.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
@@ -370,7 +370,7 @@ green discoloration due to cholestasis**
 **Primary sclerosing cholangitis. A bile duct undergoing degeneration is
 entrapped in a dense, “onion-skin” concentric scar.**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver26.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver26.png)
 
 **Robbins Basic Pathology**
 
@@ -393,13 +393,13 @@ entrapped in a dense, “onion-skin” concentric scar.**
 
 # CIRCULATORY DISORDERS
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver27.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver27.png)
 
 **Robbins Basic Pathology**
 
 # Impaired Blood Flow into the Liver
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver28.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver28.png)
 
 # Hepatic Artery Inflow
 
@@ -419,18 +419,18 @@ entrapped in a dense, “onion-skin” concentric scar.**
   - **neoplasia**
   - **sepsis**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver29.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver29.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver30.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver30.png)
 
 **Acute centrilobular hemorrhage and necrosis**
 
 **Shock from acute blood loss or sepsis causes centrilobular hemorrhage
 and necrosis**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver31.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver31.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -470,7 +470,7 @@ and necrosis**
 
 # Impaired Blood Flow Through the Liver
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver32.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver32.png)
 
 **Cirrhosis**
 
@@ -482,7 +482,7 @@ and necrosis**
 
 **Sickle cell crisis in liver**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver33.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver33.png)
 
 # Passive Congestion and Centrilobular Necrosis
 
@@ -522,27 +522,27 @@ and necrosis**
     with pale midzonal areas**
   - **nutmeg liver**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver34.jpg)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver34.jpg)
 
 **http://www.pathguy.com/lectures/nutmeg3.jpg**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver35.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver35.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver36.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver36.png)
 
 **Centrilobular hemorrhagic necrosis (nutmeg liver)**
 
 **Robbins Basic Pathology**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver37.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver37.png)
 
 **Robbins Basic Pathology**
 
 # Hepatic Vein Outflow Obstruction
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver38.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver38.png)
 
 # Hepatic Vein Thrombosis(Budd-Chiari Syndrome)
 
@@ -560,7 +560,7 @@ and necrosis**
 - **Major veins may contain completely or incompletely occlusive fresh
   thrombi or organized adherent thrombi**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver39.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver39.png)
 
 **Budd-Chiari syndrome. Thrombosis of the major hepatic veins has caused
 profound hepatic congestion.**
@@ -569,7 +569,7 @@ profound hepatic congestion.**
 
 **Cholestasis and hepatic vein thrombosis (Budd-Chiari syndrome)**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver40.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver40.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -590,6 +590,6 @@ of the hepatic vein**
 and newly formed collagen. There is also fibrosis in the sinusoidal
 spaces.**
 
-![](img%5CCirculatory-and-Cholestatic-Disorders-of-Liver41.png)
+![](./img-local/Circulatory-and-Cholestatic-Disorders-of-Liver41.png)
 
 **Robbins Basic Pathology**

@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B10.jpg)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B10.jpg)
 
 # Karaciğerin Vasküler ve Kolestatik Hastalıkları
 
@@ -9,27 +9,27 @@ Serdar Balcı
 
 # KOLESTATIK KARACIĞER HASTALIKLARI
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B11.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B11.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B12.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B12.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B13.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B13.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B14.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B14.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B15.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B15.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B16.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B16.png)
 
 **Robbins Basic Pathology**
 
@@ -46,19 +46,19 @@ Serdar Balcı
 - **Ekstrahepatik hastalıklar da karaciğer içinde sekonder
   değişikliklere neden olabilir**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B17.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B17.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B18.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B18.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B19.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B19.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B110.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B110.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -104,7 +104,7 @@ Serdar Balcı
 
 **Hepatosit nekrozu minimal ya da yok**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B111.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B111.png)
 
 **Robbins Basic Pathology**
 
@@ -116,11 +116,11 @@ Serdar Balcı
 
 **Septik şoka eşlik eder**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B112.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B112.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B113.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B113.png)
 
 **Robbins Basic Pathology**
 
@@ -155,19 +155,19 @@ destrüksiyonu**
 
 **Hafif interfaz ve lobüler hepatit**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B114.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B114.png)
 
 Robbins and Cotran Pathologic Basis of Disease
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B115.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B115.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B116.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B116.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B117.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B117.png)
 
 **Robbins Basic Pathology**
 
@@ -193,7 +193,7 @@ Robbins and Cotran Pathologic Basis of Disease
 demonstrates liver enlargement, nodularity indicative of cirrhosis, and
 green discoloration due to cholestasis**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B118.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B118.png)
 
 **Robbins Basic Pathology**
 
@@ -232,11 +232,11 @@ hasarı**
     - **Soğan zarı benzeri görünüm, giderek atrofik olan lümen**
   - **Lümen kaybolur, koyu skar alanı kalır**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B119.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B119.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B120.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B120.png)
 
 **Robbins Basic Pathology**
 
@@ -259,13 +259,13 @@ hasarı**
 
 # DOLAŞIM BOZUKLUKLARI
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B121.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B121.png)
 
 **Robbins Basic Pathology**
 
 # Karaciğere kan gelişindeki bozukluklar
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B122.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B122.png)
 
 # Hepatik arter akımı
 
@@ -286,7 +286,7 @@ hasarı**
 
 **Karaciğerde enfarkt**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B123.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B123.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -295,7 +295,7 @@ hasarı**
 **Shock from acute blood loss or sepsis causes centrilobular hemorrhage
 and necrosis**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B124.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B124.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -330,7 +330,7 @@ and necrosis**
 
 # Karaciğerden kan geçişinde bozukluklar
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B125.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B125.png)
 
 **Siroz**
 
@@ -373,25 +373,25 @@ and necrosis**
   - **Santralde hemoraji ve nekroz, midzon alanlar daha doluk**
   - **Nutmeg karaciğer**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B126.jpg)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B126.jpg)
 
 **http://www.pathguy.com/lectures/nutmeg3.jpg**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B127.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B127.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B128.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B128.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B129.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B129.png)
 
 **Robbins Basic Pathology**
 
 # Hepatik ven çıkış obstrüksiyonu
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B130.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B130.png)
 
 # Hepatik ven trombozu(Budd-Chiari Sendromu)
 
@@ -408,13 +408,13 @@ and necrosis**
 - **Sentrilobüler fibrozis**
 - **Majör venlerde komplet ya da inkomplet taze ya da organize trombus**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B131.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B131.png)
 
 **Robbins Basic Pathology**
 
 **Cholestasis and hepatic vein thrombosis (Budd-Chiari syndrome)**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B132.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B132.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -429,6 +429,6 @@ and necrosis**
 **Disse aralığına geçen eritroistler, stellat hücreleri uyarır, hepatik
 ven terminal dallarında fibrozis**
 
-![](img%5CKaraci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B133.png)
+![](./img-local/Karaci%C4%9Ferin-Vask%C3%BCler-ve-Kolestatik-Hastal%C4%B1klar%C4%B133.png)
 
 **Robbins Basic Pathology**

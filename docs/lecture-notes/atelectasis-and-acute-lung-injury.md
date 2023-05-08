@@ -1,7 +1,7 @@
 # Atelectasis and Acute Lung Injury
 Serdar Balcı
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury0.jpg)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury0.jpg)
 
 # Atelectasis and Acute Lung Injury
 
@@ -24,13 +24,13 @@ Serdar Balcı
   - **Alveolar sacs**
   - **Alveoli**
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury1.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury1.png)
 
 **Basement membranes**
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury2.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury2.png)
 
 **Basement Membranes**
 
@@ -40,7 +40,7 @@ Serdar Balcı
 
 **Robbins Basic Pathology**
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury3.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury3.png)
 
 **Pulmonary interstitium**
 
@@ -58,7 +58,7 @@ Serdar Balcı
 
 **Robbins Basic Pathology**
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury4.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury4.png)
 
 - **Alveolar epithelium**
 - **Type I pneumocytes**
@@ -99,7 +99,7 @@ veins**
 
 **Hypoxia**
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury5.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury5.png)
 
 # Resorption atelectasis
 
@@ -111,7 +111,7 @@ veins**
 
 **Robbins Basic Pathology**
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury6.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury6.png)
 
 **Entire lung**
 
@@ -121,7 +121,7 @@ veins**
 
 **Robbins Basic Pathology**
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury7.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury7.png)
 
 **Obstruction of a bronchus by a mucous or mucopurulent plug**
 
@@ -139,7 +139,7 @@ veins**
 
 **Robbins Basic Pathology**
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury8.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury8.png)
 
 # Compression atelectasis
 
@@ -155,7 +155,7 @@ veins**
 
 **Robbins Basic Pathology**
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury9.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury9.png)
 
 - **Pleural effusion**
   - **Most commonly by congestive heart failure**
@@ -164,7 +164,7 @@ veins**
 
 **Robbins Basic Pathology**
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury10.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury10.png)
 
 - **Basal atelectasis**
   - **Bedridden patients**
@@ -173,7 +173,7 @@ veins**
 
 **Robbins Basic Pathology**
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury11.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury11.png)
 
 # Contraction atelectasis
 
@@ -200,11 +200,11 @@ alveolar space**
 
 **Microvascular injury**
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury12.jpg)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury12.jpg)
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury13.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury13.png)
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury14.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury14.png)
 
 # ACUTE LUNG INJURY
 
@@ -230,7 +230,7 @@ alveolar space**
   - **Progress to multisystem organ failure**
 - **Histology → Diffuse alveolar damage (DAD)**
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury15.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury15.png)
 
 **Robbins Basic Pathology**
 
@@ -254,13 +254,13 @@ alveolar space**
   - **Widespread surfactant abnormalities caused by damage to type II
     pneumocytes**
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury16.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury16.png)
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury17.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury17.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury18.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury18.png)
 
 # 1. Endothelial activation
 
@@ -272,7 +272,7 @@ alveolar space**
 
 **Robbins Basic Pathology**
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury19.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury19.png)
 
 # 2. Adhesion and extravasation of neutrophils
 
@@ -287,7 +287,7 @@ alveolar space**
 
 **Robbins Basic Pathology**
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury20.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury20.png)
 
 # 3. Accumulation of intraalveolar fluid and formation of hyaline membranes
 
@@ -304,7 +304,7 @@ alveolar space**
 
 **Robbins Basic Pathology**
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury21.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury21.png)
 
 # 4. Resolution of Injury
 
@@ -336,11 +336,11 @@ alveolar space**
 
 **Alveolar remodeling, interstitial fibrosis, cyst formation**
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury22.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury22.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury23.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury23.png)
 
 **Robbins Basic Pathology**
 
@@ -350,7 +350,7 @@ alveolar space**
 
 **Many lined by hyaline membranes **
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury24.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury24.png)
 
 # Hyaline membranes
 
@@ -372,6 +372,6 @@ alveolar space**
 
 **Proliferation of interstitial cells and deposition of collagen**
 
-![](img%5CAtelectasis-and-Acute-Lung-Injury25.png)
+![](./img-local/Atelectasis-and-Acute-Lung-Injury25.png)
 
 **Robbins Basic Pathology**

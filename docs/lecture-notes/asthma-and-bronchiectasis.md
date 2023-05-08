@@ -1,7 +1,7 @@
 # Asthma and Bronchiectasis
 Serdar Balcı
 
-![](img%5CAsthma-and-Bronchiectasispptx-kopyas%C4%B10.jpg)
+![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B10.jpg)
 
 # Asthma and Bronchiectasis
 
@@ -85,11 +85,11 @@ Serdar Balcı
   - **Early (immediate) phase**
   - **Late phase**
 
-![](img%5CAsthma-and-Bronchiectasispptx-kopyas%C4%B11.png)
+![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B11.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAsthma-and-Bronchiectasispptx-kopyas%C4%B12.png)
+![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B12.png)
 
 **Accumulation of mucus in the bronchial lumen**
 
@@ -115,11 +115,11 @@ Serdar Balcı
 
 **Priming or sensitization**
 
-![](img%5CAsthma-and-Bronchiectasispptx-kopyas%C4%B13.png)
+![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B13.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAsthma-and-Bronchiectasispptx-kopyas%C4%B14.png)
+![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B14.png)
 
 # Reexposure
 
@@ -130,7 +130,7 @@ cells**
 
 **Release preformed mediators**
 
-![](img%5CAsthma-and-Bronchiectasispptx-kopyas%C4%B15.png)
+![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B15.png)
 
 - **Bronchospasm**
   - **Directly from mediators**
@@ -139,7 +139,7 @@ cells**
 - **Mucus production**
 - **Recruit additional mediator-releasing cells from blood**
 
-![](img%5CAsthma-and-Bronchiectasispptx-kopyas%C4%B16.png)
+![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B16.png)
 
 # Late Phase
 
@@ -154,7 +154,7 @@ cells**
 
 **Robbins Basic Pathology**
 
-![](img%5CAsthma-and-Bronchiectasispptx-kopyas%C4%B17.png)
+![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B17.png)
 
 - **Repeated inflammation lead to structural changes**
   - **Airway remodeling**
@@ -249,13 +249,13 @@ cells**
 
 **Markedly expanded lungs **
 
-![](img%5CAsthma-and-Bronchiectasispptx-kopyas%C4%B18.png)
+![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B18.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
 **Mucous plugs fill and occlude the bronchi**
 
-![](img%5CAsthma-and-Bronchiectasispptx-kopyas%C4%B19.png)
+![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B19.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -272,16 +272,16 @@ cells**
   - **Goblet cell metaplasia of the airway epithelium**
   - **Hypertrophy and/or hyperplasia of the bronchial muscle**
 
-![](img%5CAsthma-and-Bronchiectasispptx-kopyas%C4%B110.png)
+![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B110.png)
 
 **sub-basement membrane fibrosis, eosinophilic inflammation, and smooth
 muscle hyperplasia**
 
-![](img%5CAsthma-and-Bronchiectasispptx-kopyas%C4%B111.jpg)
+![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B111.jpg)
 
 **http://upload.wikimedia.org/wikipedia/commons/8/81/Curshman%27s_Spiral.jpg**
 
-![](img%5CAsthma-and-Bronchiectasispptx-kopyas%C4%B112.jpg)
+![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B112.jpg)
 
 **http://upload.wikimedia.org/wikipedia/commons/1/19/Charcot-Leyden_crystals%2C_HE_1.jpg**
 
@@ -291,7 +291,7 @@ muscle hyperplasia**
 
 **Permanent dilation of bronchi and bronchioles**
 
-![](img%5CAsthma-and-Bronchiectasispptx-kopyas%C4%B113.png)
+![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B113.png)
 
 - **Caused by destruction of the muscle and the supporting elastic
   tissue**
@@ -316,7 +316,7 @@ muscle hyperplasia**
 
 **Predisposing to infections of the bronchial tree**
 
-![](img%5CAsthma-and-Bronchiectasispptx-kopyas%C4%B114.png)
+![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B114.png)
 
 **Robbins Basic Pathology**
 
@@ -324,21 +324,21 @@ muscle hyperplasia**
 
 **Extensive mucous plugging and dilation of the tracheobronchial tree**
 
-![](img%5CAsthma-and-Bronchiectasispptx-kopyas%C4%B115.png)
+![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B115.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAsthma-and-Bronchiectasispptx-kopyas%C4%B116.png)
+![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B116.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAsthma-and-Bronchiectasispptx-kopyas%C4%B117.png)
+![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B117.png)
 
-![](img%5CAsthma-and-Bronchiectasispptx-kopyas%C4%B118.png)
+![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B118.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CAsthma-and-Bronchiectasispptx-kopyas%C4%B119.png)
+![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B119.png)
 
 **Robbins Basic Pathology**
 

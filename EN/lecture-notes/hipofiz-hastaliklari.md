@@ -53,7 +53,7 @@ Golyat’ın öldüğünü gören Filistliler kaçtılar.**
 
 *A History of Acromegaly * **Pituitary 1999;2:7–28**
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B10.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B10.jpg)
 
 **Undoubtedly Goliath’s great size was due to ** **acromegaly **
 **secondary to a pituitary macroadenoma. This pituitary adenoma was
@@ -68,7 +68,7 @@ resulting in ** **transtentorial herniation and death** **.**
 
 **Radiology. 1990 Jul;176(1):288. **
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B11.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B11.jpg)
 
 # Hipofiz (Pitüiter) Hastalıkları
 
@@ -92,19 +92,19 @@ resulting in ** **transtentorial herniation and death** **.**
   - **Sitoplazmalarının rengine göre**
   - **Bazofilik, eozinofilik, kromofobik hücrelerden oluşur**
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B12.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B12.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B13.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B13.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B14.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B14.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B15.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B15.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B16.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B16.jpg)
 
 # Hipofiz hastalıkları
 
@@ -164,7 +164,7 @@ resulting in ** **transtentorial herniation and death** **.**
   - **Somatotrop hücre adenomlarının %40**
   - **Kortikotrop hücre adenomlarının küçük bir kısmı**
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B17.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B17.png)
 
 # Hipofiz adenomu patogenezi
 
@@ -182,11 +182,11 @@ resulting in ** **transtentorial herniation and death** **.**
 - **TP53 mutasyonları**
   - **Agresif davranış, invazyon ve rekürrensle ilişkili**
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B18.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B18.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B19.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B19.png)
 
 **Makroadenom\>1 cm**
 
@@ -194,7 +194,7 @@ resulting in ** **transtentorial herniation and death** **.**
 
 **Robbins Basic Pathology**
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B110.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B110.png)
 
 **İyi sınırlı, yumuşak kıvamlı lezyon**
 
@@ -212,7 +212,7 @@ resulting in ** **transtentorial herniation and death** **.**
 
 **Robbins Basic Pathology**
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B111.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B111.png)
 
 **Masif, nonfonksiyone adenom, sella turcicayı aşıp beyne bası
 uygulamış**
@@ -222,7 +222,7 @@ iri olurlar**
 
 **Robbins Basic Pathology**
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B112.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B112.png)
 
 **Uniform poligonal hücreler, tabaka, kord veya papiller görünümde**
 
@@ -241,9 +241,9 @@ tümör boyunca homojendir**
 
 **anterior hipofiz parankimi**
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B113.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B113.png)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B114.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B114.png)
 
 **Hücresel monomorfizm ve retikülin ağının olmamamsı ile hipofiz adenomu
 çevre nonneoplastik adenohipofiz dokusundan ayrılabilir**
@@ -275,7 +275,7 @@ tümör boyunca homojendir**
   - **Makroadenom**
   - **Hipopitüitarizm**
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B115.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B115.png)
 
 **Robbins Basic Pathology**
 
@@ -306,7 +306,7 @@ değişken büyüklük**
     - **Serum PRL düzeyindeki hafif yükselmeler (\<200 µg/L) PRL dışı
       başka hipofiz adenomlarında da olabilir**
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B116.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B116.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
@@ -467,9 +467,9 @@ değişken büyüklük**
 - **Loss of stimulatory effects of MSH on melanocytes**
   - **Pallor**
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B117.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B117.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B118.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B118.jpg)
 
 # POSTERIOR HIPOFIZ SENDROMLARI
 
@@ -493,7 +493,7 @@ değişken büyüklük**
   - **diabetes insipidus**
   - **secretion of inappropriately high levels of ADH**
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B119.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B119.jpg)
 
 # Antidiüretik hormon
 
@@ -521,7 +521,7 @@ değişken büyüklük**
 
 # HIPOTALAMIK SUPRASELLAR TÜMÖRLER
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B120.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B120.png)
 
 **Kraniyofarenjiom**
 
@@ -557,13 +557,13 @@ değişken büyüklük**
 
   - **Erişkinlerde**
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B121.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B121.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
 # 
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B122.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B122.png)
 
 # Hipofiz adenomuna yaklaşım
 
@@ -642,11 +642,11 @@ değişken büyüklük**
 
 **Metastaz**
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B123.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B123.png)
 
 # 
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B124.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B124.png)
 
 # Sellar kitleler
 
@@ -673,19 +673,19 @@ değişken büyüklük**
 **Glezer et al, Rare Sellar Lesions, Endocrinol Metab Clin N Am 37
 (2008) 195–211**
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B125.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B125.png)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B126.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B126.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B127.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B127.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B128.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B128.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B129.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B129.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B130.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B130.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B131.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B131.jpg)
 
 # 
 
@@ -708,11 +708,11 @@ in 22.2% of the population**
   - \_\_ CrH: bronşial, gastroenterohepatik, adrenal, prostat endokrin
     tümörler\_\_
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B132.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B132.png)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B133.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B133.png)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B134.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B134.png)
 
 # Hipofiz adenomu
 
@@ -792,7 +792,7 @@ in 22.2% of the population**
   seri kesitler, retikülin ve ACTH ile bakılarak)**
 - **Adenom görülmezse klinikopatolojik korelasyon gerektirir**
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B135.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B135.png)
 
 # ACTH- Crooke cell
 
@@ -844,7 +844,7 @@ in 22.2% of the population**
 
 **Dorsum sella dan açılarak intakt çıkartılmaya çalışılmalı**
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B136.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B136.png)
 
 # Alıntı slaytlar
 
@@ -856,17 +856,17 @@ in 22.2% of the population**
 
 **Mukoid wedge**
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B137.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B137.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B138.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B138.png)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B139.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B139.png)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B140.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B140.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B141.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B141.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B142.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B142.png)
 
 # Hipofiz adenomu sınıflandırması
 
@@ -886,17 +886,17 @@ in 22.2% of the population**
 
 **Makroadenom \>1cm**
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B143.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B143.png)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B144.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B144.png)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B145.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B145.png)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B146.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B146.png)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B147.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B147.png)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B148.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B148.jpg)
 
 # Büyüme Hormonu Adenomu
 
@@ -1145,130 +1145,130 @@ in 22.2% of the population**
 
 # 
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B149.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B149.png)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B150.png)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B150.png)
 
 # Hipofiz adenomu
 
 # dialar
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B151.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B151.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B152.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B152.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B153.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B153.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B154.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B154.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B155.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B155.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B156.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B156.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B157.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B157.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B158.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B158.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B159.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B159.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B160.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B160.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B161.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B161.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B162.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B162.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B163.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B163.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B164.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B164.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B165.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B165.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B166.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B166.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B167.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B167.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B168.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B168.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B169.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B169.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B170.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B170.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B171.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B171.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B172.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B172.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B173.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B173.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B174.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B174.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B175.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B175.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B176.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B176.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B177.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B177.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B178.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B178.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B179.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B179.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B180.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B180.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B181.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B181.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B182.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B182.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B183.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B183.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B184.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B184.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B185.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B185.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B186.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B186.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B187.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B187.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B188.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B188.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B189.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B189.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B190.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B190.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B191.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B191.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B192.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B192.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B193.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B193.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B194.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B194.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B195.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B195.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B196.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B196.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B197.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B197.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B198.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B198.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B199.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B199.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B1100.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B1100.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B1101.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B1101.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B1102.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B1102.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B1103.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B1103.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B1104.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B1104.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B1105.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B1105.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B1106.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B1106.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B1107.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B1107.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B1108.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B1108.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B1109.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B1109.jpg)
 
-![](img%5CHipofiz-Hastal%C4%B1klar%C4%B1110.jpg)
+![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B1110.jpg)

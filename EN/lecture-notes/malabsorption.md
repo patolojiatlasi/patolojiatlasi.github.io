@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CMalabsorption0.jpg)
+![](./img-local/Malabsorption0.jpg)
 
 # Malabsorption and Diarrhea
 
@@ -79,7 +79,7 @@ Serdar Balcı
     processed within the small intestinal epithelium**
 - **Lymphatic transport of absorbed lipids**
 
-![](img%5CMalabsorption1.png)
+![](./img-local/Malabsorption1.png)
 
 **Robbins Basic Pathology**
 
@@ -105,7 +105,7 @@ Serdar Balcı
 
 # Celiac Disease
 
-![](img%5CMalabsorption2.jpg)
+![](./img-local/Malabsorption2.jpg)
 
 - **Celiac sprue**
 
@@ -125,7 +125,7 @@ Serdar Balcı
 
 - **Primary treatment is a gluten-free diet**
 
-![](img%5CMalabsorption3.png)
+![](./img-local/Malabsorption3.png)
 
 - **Intestinal immune reaction to gluten**
 - **Gluten is digested by luminal and brush border enzymes into amino
@@ -136,7 +136,7 @@ Serdar Balcı
 
 **Robbins Basic Pathology**
 
-![](img%5CMalabsorption4.png)
+![](./img-local/Malabsorption4.png)
 
 **Gliadin is deamidated by tissue transglutaminase**
 
@@ -150,7 +150,7 @@ Serdar Balcı
 
 **Robbins Basic Pathology**
 
-![](img%5CMalabsorption5.png)
+![](./img-local/Malabsorption5.png)
 
 - **B cell response**
 - **Production of antibodies**
@@ -163,7 +163,7 @@ Serdar Balcı
 
 **Robbins Basic Pathology**
 
-![](img%5CMalabsorption6.png)
+![](./img-local/Malabsorption6.png)
 
 - **T cells**
 - **Accumulation of CD8+ cells**
@@ -186,7 +186,7 @@ on enterocytes**
 **Lymphocytes become cytotoxic and kill enterocytes that express surface
 MIC-A**
 
-![](img%5CMalabsorption7.png)
+![](./img-local/Malabsorption7.png)
 
 **Robbins Basic Pathology**
 
@@ -199,7 +199,7 @@ MIC-A**
 - **Associated with other immune diseases**
   - **Type 1 diabetes, thyroiditis, and Sjögren syndrome**
 
-![](img%5CMalabsorption8.png)
+![](./img-local/Malabsorption8.png)
 
 - **Biopsy specimens**
   - **Taken from the second portion of the duodenum or proximal
@@ -216,11 +216,11 @@ MIC-A**
 
 **Robbins Basic Pathology**
 
-![](img%5CMalabsorption9.png)
+![](./img-local/Malabsorption9.png)
 
-![](img%5CMalabsorption10.png)
+![](./img-local/Malabsorption10.png)
 
-![](img%5CMalabsorption11.png)
+![](./img-local/Malabsorption11.png)
 
 **Normal duodenal bulb**
 
@@ -233,15 +233,15 @@ injury **
 
 **Two intraepithelial lymphocytes per 10 enterocytes**
 
-![](img%5CMalabsorption12.png)
+![](./img-local/Malabsorption12.png)
 
-![](img%5CMalabsorption13.png)
+![](./img-local/Malabsorption13.png)
 
-![](img%5CMalabsorption14.png)
+![](./img-local/Malabsorption14.png)
 
-![](img%5CMalabsorption15.png)
+![](./img-local/Malabsorption15.png)
 
-![](img%5CMalabsorption16.png)
+![](./img-local/Malabsorption16.png)
 
 **crypt hyperplasia**
 
@@ -249,7 +249,7 @@ injury **
 
 **Robbins Basic Pathology**
 
-![](img%5CMalabsorption17.png)
+![](./img-local/Malabsorption17.png)
 
 **increased numbers of intraepithelial CD8+ T lymphocytes**
 
@@ -338,14 +338,14 @@ infections**
 
 **acanthocytic red cells (spur cells) in peripheral blood smears**
 
-![](img%5CMalabsorption18.jpg)
+![](./img-local/Malabsorption18.jpg)
 
 - **Lipid vacuoles in small intestinal epithelial cells**
 - **Seen by light microscopy**
 - **Highlighted by special stains**
   - **oil red O**
 
-![](img%5CMalabsorption19.png)
+![](./img-local/Malabsorption19.png)
 
 # MICROSCOPIC COLITIS
 
@@ -365,7 +365,7 @@ infections**
   - **associated with celiac and autoimmune diseases, including
     thyroiditis, arthritis, and autoimmune or lymphocytic gastritis**
 
-![](img%5CMalabsorption20.png)
+![](./img-local/Malabsorption20.png)
 
 # GRAFT-VERSUS-HOST DISEASE
 
@@ -381,7 +381,7 @@ histologic finding**
 **Intestinal graft-versus-host disease often manifests as a watery
 diarrhea**
 
-![](img%5CMalabsorption21.png)
+![](./img-local/Malabsorption21.png)
 
 # IRRITABLE BOWEL SYNDROME
 
@@ -400,11 +400,11 @@ habits including diarrhea and constipation**
 
 # Infectious Enterocolitis
 
-![](img%5CMalabsorption22.png)
+![](./img-local/Malabsorption22.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CMalabsorption23.png)
+![](./img-local/Malabsorption23.png)
 
 **Bacterial infections induce acute self-limited colitis**
 
@@ -412,7 +412,7 @@ habits including diarrhea and constipation**
 
 **Robbins Basic Pathology**
 
-![](img%5CMalabsorption24.png)
+![](./img-local/Malabsorption24.png)
 
 **Cryptitis**
 
@@ -426,7 +426,7 @@ habits including diarrhea and constipation**
 
 **Robbins Basic Pathology**
 
-![](img%5CMalabsorption25.png)
+![](./img-local/Malabsorption25.png)
 
 **Pseudomembranous colitis**
 
@@ -437,7 +437,7 @@ inflammatory debris**
 
 **Robbins Basic Pathology**
 
-![](img%5CMalabsorption26.png)
+![](./img-local/Malabsorption26.png)
 
 **Pseudomembranes**
 
@@ -448,9 +448,9 @@ of a volcanic eruption**
 
 # Giardiasis
 
-![](img%5CMalabsorption27.jpg)
+![](./img-local/Malabsorption27.jpg)
 
-![](img%5CMalabsorption28.jpg)
+![](./img-local/Malabsorption28.jpg)
 
 **Decreases the expression of brush border enzymes, including lactase**
 
@@ -463,7 +463,7 @@ of a volcanic eruption**
 **Clinically characterized by acute or chronic diarrhea and can result
 in malabsorption**
 
-![](img%5CMalabsorption29.png)
+![](./img-local/Malabsorption29.png)
 
 # Whipple disease
 
@@ -476,34 +476,34 @@ lamina propria and mesenteric lymph nodes**
 
 **Malabsorptive diarrhea**
 
-![](img%5CMalabsorption30.png)
+![](./img-local/Malabsorption30.png)
 
 **Histologic features of viral enteritis include increased numbers of
 intraepithelial and lamina propria lymphocytes and crypt hypertrophy**
 
-![](img%5CMalabsorption31.png)
+![](./img-local/Malabsorption31.png)
 
 **Diffuse eosinophilic infiltrates in parasitic infection. This case was
 caused by Ascaris (upper inset), but a similar tissue reaction could be
 caused by Strongyloides **
 
-![](img%5CMalabsorption32.png)
+![](./img-local/Malabsorption32.png)
 
 **Schistosomiasis can induce an inflammatory reaction to eggs trapped
 within the lamina propria**
 
-![](img%5CMalabsorption33.png)
+![](./img-local/Malabsorption33.png)
 
 **Entamoeba histolytica in a colon biopsy specimen. Note some organisms
 ingesting red blood cells (arrow)**
 
-![](img%5CMalabsorption34.png)
+![](./img-local/Malabsorption34.png)
 
 **Cryptosporidia organisms are seen as small blue spheres that appear to
 lie on top of the brush border but are actually enveloped by a thin
 layer of host cell cytoplasm**
 
-![](img%5CMalabsorption35.png)
+![](./img-local/Malabsorption35.png)
 
 **The morphology of mycobacterial infection can be similar to Whipple
 disease, particularly in the immunocompromised host**

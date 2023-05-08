@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CTransmission-and-Dissemination-of-Microbes0.jpg)
+![](./img-local/Transmission-and-Dissemination-of-Microbes0.jpg)
 
 # Transmission and Dissemination of Microbes
 
@@ -55,7 +55,7 @@ substances**
 
 # SKIN
 
-![](img%5CTransmission-and-Dissemination-of-Microbes1.png)
+![](./img-local/Transmission-and-Dissemination-of-Microbes1.png)
 
 # Skin
 
@@ -118,7 +118,7 @@ Farklı isimlendirmek gerekirse
 
 # GASTROINTESTINAL TRACT
 
-![](img%5CTransmission-and-Dissemination-of-Microbes2.png)
+![](./img-local/Transmission-and-Dissemination-of-Microbes2.png)
 
 # Gastrointestinal Tract
 
@@ -223,11 +223,11 @@ Farklı isimlendirmek gerekirse
     channel-forming pore protein**
   - **ulceration and invasion of the colonic mucosa**
 
-![](img%5CTransmission-and-Dissemination-of-Microbes3.png)
+![](./img-local/Transmission-and-Dissemination-of-Microbes3.png)
 
 **Color Atlas Of Pathology**
 
-![](img%5CTransmission-and-Dissemination-of-Microbes4.png)
+![](./img-local/Transmission-and-Dissemination-of-Microbes4.png)
 
 **Color Atlas Of Pathology**
 
@@ -249,7 +249,7 @@ Farklı isimlendirmek gerekirse
 
 # RESPIRATORY TRACT
 
-![](img%5CTransmission-and-Dissemination-of-Microbes5.png)
+![](./img-local/Transmission-and-Dissemination-of-Microbes5.png)
 
 # Microbes are inhaled in dust or aerosol particles
 
@@ -308,7 +308,7 @@ Farklı isimlendirmek gerekirse
 
 # UROGENITAL TRACT
 
-![](img%5CTransmission-and-Dissemination-of-Microbes6.png)
+![](./img-local/Transmission-and-Dissemination-of-Microbes6.png)
 
 # Urinary Tract Infections
 
@@ -359,7 +359,7 @@ candidiasis**
 
 # SPREAD AND DISSEMINATION OF MICROBES WITHIN THE BODY
 
-![](img%5CTransmission-and-Dissemination-of-Microbes7.png)
+![](./img-local/Transmission-and-Dissemination-of-Microbes7.png)
 
 # 
 
@@ -537,7 +537,7 @@ are shed in stool**
 - **Arthropods**
   - **Phthirus pubis**
 
-![](img%5CTransmission-and-Dissemination-of-Microbes8.png)
+![](./img-local/Transmission-and-Dissemination-of-Microbes8.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 

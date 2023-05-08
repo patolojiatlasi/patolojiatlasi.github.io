@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CDiseases-and-Tumors-of-the-Mediastinum-and-Pleura0.jpg)
+![](./img-local/Diseases-and-Tumors-of-the-Mediastinum-and-Pleura0.jpg)
 
 # Diseases and Tumors of the Mediastinum and Pleura
 
@@ -41,13 +41,13 @@ Serdar Balcı
 - **Systemic lupus erythematosus, rheumatoid arthritis, and uremia**
 - **Previous thoracic surgery**
 
-![](img%5CDiseases-and-Tumors-of-the-Mediastinum-and-Pleura1.png)
+![](./img-local/Diseases-and-Tumors-of-the-Mediastinum-and-Pleura1.png)
 
 **Acute serofibrinous pleuritis related to pneumonia**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDiseases-and-Tumors-of-the-Mediastinum-and-Pleura2.png)
+![](./img-local/Diseases-and-Tumors-of-the-Mediastinum-and-Pleura2.png)
 
 **Suppurative pleuritis**
 
@@ -97,7 +97,7 @@ Serdar Balcı
 **In contrast with bloody pleural effusions, the blood clots within the
 pleural cavity**
 
-![](img%5CDiseases-and-Tumors-of-the-Mediastinum-and-Pleura3.png)
+![](./img-local/Diseases-and-Tumors-of-the-Mediastinum-and-Pleura3.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -139,17 +139,17 @@ increases the risk of lung carcinoma**
 - **Lung typically is ensheathed by a yellow-white, firm, sometimes
   gelatinous layer of tumor that obliterates the pleural space**
 
-![](img%5CDiseases-and-Tumors-of-the-Mediastinum-and-Pleura4.png)
+![](./img-local/Diseases-and-Tumors-of-the-Mediastinum-and-Pleura4.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDiseases-and-Tumors-of-the-Mediastinum-and-Pleura5.png)
+![](./img-local/Diseases-and-Tumors-of-the-Mediastinum-and-Pleura5.png)
 
 **Malignant mesothelioma**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDiseases-and-Tumors-of-the-Mediastinum-and-Pleura6.png)
+![](./img-local/Diseases-and-Tumors-of-the-Mediastinum-and-Pleura6.png)
 
 **Malignant mesothelioma**
 
@@ -179,7 +179,7 @@ Robbins Basic Pathology
     - **Nondistinctive sheets**
   - **Biphasic, having both sarcomatous and epithelial areas**
 
-![](img%5CDiseases-and-Tumors-of-the-Mediastinum-and-Pleura7.png)
+![](./img-local/Diseases-and-Tumors-of-the-Mediastinum-and-Pleura7.png)
 
 **Malignant mesothelioma**
 
@@ -200,13 +200,13 @@ Robbins Basic Pathology
   - **p16/CDKN2A, 9p21**
   - **NF2, 22q12**
 
-![](img%5CDiseases-and-Tumors-of-the-Mediastinum-and-Pleura8.png)
+![](./img-local/Diseases-and-Tumors-of-the-Mediastinum-and-Pleura8.png)
 
 **Metastatic tumor involving the parietal pleura **
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDiseases-and-Tumors-of-the-Mediastinum-and-Pleura9.png)
+![](./img-local/Diseases-and-Tumors-of-the-Mediastinum-and-Pleura9.png)
 
 **Rosai and Ackerman’s Surgical Pathology**
 
@@ -285,7 +285,7 @@ diverse autoimmune disorders**
 **Gross appearance of a thymoma showing distinct multinodularity. There
 is focal cystic change in the larger nodule. **
 
-![](img%5CDiseases-and-Tumors-of-the-Mediastinum-and-Pleura10.png)
+![](./img-local/Diseases-and-Tumors-of-the-Mediastinum-and-Pleura10.png)
 
 # Noninvasive thymomas
 
@@ -304,7 +304,7 @@ recapitulate the phenotype of medullary thymocytes**
 to elongated nuclei with inconspicuous nucleoli. Few small, reactive
 lymphoid cells are interspersed.**
 
-![](img%5CDiseases-and-Tumors-of-the-Mediastinum-and-Pleura11.png)
+![](./img-local/Diseases-and-Tumors-of-the-Mediastinum-and-Pleura11.png)
 
 # Invasive thymoma
 
@@ -320,7 +320,7 @@ with numerous thymocytes**
 polygonal and have round to oval, bland nuclei with inconspicuous
 nucleoli. Numerous small, reactive lymphoid cells are interspersed.**
 
-![](img%5CDiseases-and-Tumors-of-the-Mediastinum-and-Pleura12.png)
+![](./img-local/Diseases-and-Tumors-of-the-Mediastinum-and-Pleura12.png)
 
 # Thymic carcinoma
 
@@ -337,8 +337,8 @@ nucleoli. Numerous small, reactive lymphoid cells are interspersed.**
 **Gross appearance of thymic carcinoma (type C thymoma). The tumor is
 invasive and shows foci of necrosis. **
 
-![](img%5CDiseases-and-Tumors-of-the-Mediastinum-and-Pleura13.png)
+![](./img-local/Diseases-and-Tumors-of-the-Mediastinum-and-Pleura13.png)
 
 **thymic carcinoma**
 
-![](img%5CDiseases-and-Tumors-of-the-Mediastinum-and-Pleura14.png)
+![](./img-local/Diseases-and-Tumors-of-the-Mediastinum-and-Pleura14.png)

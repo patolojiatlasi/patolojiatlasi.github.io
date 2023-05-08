@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji0.jpg)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji0.jpg)
 
 # Neoplazinin Klinikopatolojik Özellikleri ve Epidemiyoloji
 
@@ -79,17 +79,17 @@ Serdar Balcı
 
 - **Kaşeksinin tedavisi tümörün ortadan kaldırılmasıdır**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji1.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji1.png)
 
 **Cancer cachexia: understanding the molecular basis Nature Reviews
 Cancer, 14, 754–762 (2014)**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji2.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji2.png)
 
 **Cancer cachexia: understanding the molecular basis Nature Reviews
 Cancer, 14, 754–762 (2014)**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji3.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji3.png)
 
 **Cancer cachexia: understanding the molecular basis Nature Reviews
 Cancer, 14, 754–762 (2014)**
@@ -103,7 +103,7 @@ Cancer, 14, 754–762 (2014)**
   - **Klinik olarak belirgin hastalığa neden olur ve ölümcül olabilir**
   - **Metastazı taklit eder, tedavi değişikliğine neden olur**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji4.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji4.png)
 
 **Kemik metastazı nedenli hiperkalsemi, paraneoplastik sendrom
 değildir**
@@ -113,7 +113,7 @@ paraneoplastik sendromdur**
 
 **Robbins Basic Pathology**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji5.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji5.png)
 
 **Robbins Basic Pathology**
 
@@ -144,27 +144,27 @@ paraneoplastik sendromdur**
 
 **FIGO Grade**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji6.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji6.png)
 
 **Cancer Grading Manual**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji7.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji7.png)
 
 **Cancer Grading Manual**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji8.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji8.png)
 
 **Cancer Grading Manual**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji9.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji9.png)
 
 **Cancer Grading Manual**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji10.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji10.png)
 
 **Cancer Grading Manual**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji11.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji11.png)
 
 **Cancer Grading Manual**
 
@@ -194,27 +194,27 @@ paraneoplastik sendromdur**
   - **Her organ için kombinasyon değişkendir**
 - **FIGO jinekolojik tümörler için evreleme sitemi**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji12.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji12.png)
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji13.png)
-
-**Atlas of Staging in Gynecological Cancer**
-
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji14.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji13.png)
 
 **Atlas of Staging in Gynecological Cancer**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji15.jpg)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji14.png)
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji16.jpg)
+**Atlas of Staging in Gynecological Cancer**
+
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji15.jpg)
+
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji16.jpg)
 
 **Arch Pathol Lab Med. 2009 Oct;133(10):1539-51**
 
 **cancerstaging.org**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji17.jpg)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji17.jpg)
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji18.jpg)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji18.jpg)
 
 - **Grade - Derece**
   - **Patolog tarfından belirlenir**
@@ -263,15 +263,15 @@ paraneoplastik sendromdur**
 
 **Tru-cut (iğne) biopsi**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji19.jpg)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji19.jpg)
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji20.jpg)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji20.jpg)
 
 **Int J Surg Case Rep. 2014; 5(1): 30–33**
 
 # Frozen
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji21.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji21.png)
 
 **http://www.ihcworld.com/**
 
@@ -285,11 +285,11 @@ paraneoplastik sendromdur**
   - **Lenf nodu**
   - **Tükrük bezi**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji22.jpg)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji22.jpg)
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji23.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji23.png)
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji24.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji24.png)
 
 **Eksfoliatif Sitoloji**
 
@@ -301,13 +301,13 @@ paraneoplastik sendromdur**
 
 # İmmünohistokimya
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji25.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji25.png)
 
 **Bancroft’s Theory and Practice of Histological Techniques**
 
 # Akım Sitometri
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji26.jpg)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji26.jpg)
 
 # Tümör Belirteçleri
 
@@ -342,7 +342,7 @@ belirteçleri**
   - **Translokasyon**
   - **Ewing sarkomu, lenfomalar, lösemiler**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji27.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji27.png)
 
 **Bancroft’s Theory and Practice of Histological Techniques**
 
@@ -365,11 +365,11 @@ belirteçleri**
 - **Kolon kanseri**
   - **RAS mutasyonu**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji28.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji28.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji29.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji29.png)
 
 **Tümörün moleküler profili**
 
@@ -410,7 +410,7 @@ belirteçleri**
     tirozin kinaz füzyonu olur**
   - **Bu grup ALK inhibitörlerine cevap verir**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji30.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji30.png)
 
 **Yeni klasifikasyonlar**
 
@@ -481,19 +481,19 @@ kullanılır**
   - **569,000 kanserden öldü**
 - **Türkiye**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji31.jpg)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji31.jpg)
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji32.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji32.png)
 
 **http://globocan.iarc.fr/Pages/fact_sheets_population.aspx**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji33.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji33.png)
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji34.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji34.png)
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji35.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji35.png)
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji36.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji36.png)
 
 # Kanser hızları zaman içinde değişmektedir
 
@@ -547,9 +547,9 @@ kullanılır**
     life turns out to be illegal, immoral, or fattening, or—most
     disturbing—possibly carcinogenic.**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji37.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji37.png)
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji38.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji38.png)
 
 # ?düşünmek için?
 
@@ -575,9 +575,9 @@ kullanılır**
 
 # Herediter
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji39.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji39.png)
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji40.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji40.png)
 
 - **Tek bir mutant genin kalıtımı tümör geliştirme riskini belirgin
   artırır**
@@ -588,13 +588,13 @@ kullanılır**
   - **Nörofibromatozis tip 1’deki Lisch nodülleri ve café-au-lait
     lekeleri**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji41.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji41.png)
 
 **Kromozom ve DNA dengesizlikleri**
 
 **Belirgin kanser türlerinde artış**
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji42.png)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji42.png)
 
 - **Ailesel kanserlerin özellikleri**
   - **Erken yaşta başlangıç**
@@ -658,4 +658,4 @@ sağlıyor**
 
 \_\_ \_\_ *<http://www.cancerindex.org/Turkey>*
 
-![](img%5CNeoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji43.jpg)
+![](./img-local/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji43.jpg)

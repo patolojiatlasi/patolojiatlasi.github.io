@@ -41,7 +41,7 @@ Serdar Balcı
 
 <span style="color:#3333FF"> **CASEOUS NECROSIS, TB** </span>
 
-![](img%5CLab1-Cellular-Injury0.png)
+![](./img-local/Lab1-Cellular-Injury0.png)
 
 <span style="color:#3333FF"> **FIBRINOID NECROSIS** </span>
 

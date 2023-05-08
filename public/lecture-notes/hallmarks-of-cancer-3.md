@@ -1,17 +1,17 @@
 # Title
 Serdar Balcı
 
-![](img%5CHallmarks-of-Cancer-30.jpg)
+![](./img-local/Hallmarks-of-Cancer-30.jpg)
 
 # Hallmarks of Cancer-3
 
 # Serdar BALCI, MD
 
-![](img%5CHallmarks-of-Cancer-31.jpg)
+![](./img-local/Hallmarks-of-Cancer-31.jpg)
 
 # ABILITY TO INVADE AND METASTASIZE
 
-![](img%5CHallmarks-of-Cancer-32.png)
+![](./img-local/Hallmarks-of-Cancer-32.png)
 
 # Metastatic Cascade
 
@@ -29,7 +29,7 @@ Serdar Balcı
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-33.png)
+![](./img-local/Hallmarks-of-Cancer-33.png)
 
 # Invasion of Extracellular Matrix (ECM)
 
@@ -41,7 +41,7 @@ Serdar Balcı
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-34.png)
+![](./img-local/Hallmarks-of-Cancer-34.png)
 
 # Invasion of Epithelial Basement Membrane
 
@@ -55,7 +55,7 @@ Serdar Balcı
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-35.png)
+![](./img-local/Hallmarks-of-Cancer-35.png)
 
 - **E-cadherin**
   - **Interstitial glue**
@@ -72,11 +72,11 @@ Serdar Balcı
 
 **Diffuse infiltrative, poorly-cohesive adenocarcinomas of stomach**
 
-![](img%5CHallmarks-of-Cancer-36.png)
+![](./img-local/Hallmarks-of-Cancer-36.png)
 
 **Rosai and Ackerman’s Surgical Pathology**
 
-![](img%5CHallmarks-of-Cancer-37.png)
+![](./img-local/Hallmarks-of-Cancer-37.png)
 
 - **Tumor cells**
   - **Secrete proteolytic enzymes themselves**
@@ -87,7 +87,7 @@ Serdar Balcı
   - **Cathepsin D**
   - **Urokinase plasminogen activator**
 
-![](img%5CHallmarks-of-Cancer-38.png)
+![](./img-local/Hallmarks-of-Cancer-38.png)
 
 - **MMPs**
   - **Remodeling insoluble components of the basement membrane and
@@ -101,7 +101,7 @@ Serdar Balcı
     membrane**
   - **Stimulates release of VEGF from ECM-sequestered pools**
 
-![](img%5CHallmarks-of-Cancer-39.png)
+![](./img-local/Hallmarks-of-Cancer-39.png)
 
 - **Normal epithelial cells**
   - **Integrins**
@@ -110,7 +110,7 @@ Serdar Balcı
   - **Maintain the cells in a resting, differentiated state**
   - **Loss of adhesion in normal cells leads to induction of apoptosis**
 
-![](img%5CHallmarks-of-Cancer-310.png)
+![](./img-local/Hallmarks-of-Cancer-310.png)
 
 - **In tumor**
   - **Cells resist apoptosis**
@@ -120,7 +120,7 @@ Serdar Balcı
   - **New sites formed for receptors on tumor cells**
   - **Stimulate migration**
 
-![](img%5CHallmarks-of-Cancer-311.png)
+![](./img-local/Hallmarks-of-Cancer-311.png)
 
 - **Complex, multistep process**
 - **Many families of receptors and signaling proteins**
@@ -132,26 +132,26 @@ Serdar Balcı
   - **Stromal cells paracrine effectors of cell motility**
     - **Hepatocyte growth factor/scatter factor (HGF/SCF)**
 
-![](img%5CHallmarks-of-Cancer-312.png)
+![](./img-local/Hallmarks-of-Cancer-312.png)
 
 # Vascular DisseminationHoming of Tumor Cells
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-313.png)
+![](./img-local/Hallmarks-of-Cancer-313.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-314.png)
+![](./img-local/Hallmarks-of-Cancer-314.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-315.jpg)
+![](./img-local/Hallmarks-of-Cancer-315.jpg)
 
 **Figure 14.5c ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
 
-![](img%5CHallmarks-of-Cancer-316.png)
+![](./img-local/Hallmarks-of-Cancer-316.png)
 
 **Robbins Basic Pathology**
 
@@ -165,43 +165,43 @@ Serdar Balcı
   - **Polygonal epithelioid cell shape to a spindly mesenchymal shape**
   - **Increased production of proteolytic enzymes**
 
-![](img%5CHallmarks-of-Cancer-317.jpg)
+![](./img-local/Hallmarks-of-Cancer-317.jpg)
 
 **Figure 14.14b ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
 
-![](img%5CHallmarks-of-Cancer-318.jpg)
+![](./img-local/Hallmarks-of-Cancer-318.jpg)
 
 **Figure 14.19b ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
 
-![](img%5CHallmarks-of-Cancer-319.png)
+![](./img-local/Hallmarks-of-Cancer-319.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-320.jpg)
+![](./img-local/Hallmarks-of-Cancer-320.jpg)
 
 **Figure 14.2a ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
 
-![](img%5CHallmarks-of-Cancer-321.png)
+![](./img-local/Hallmarks-of-Cancer-321.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-322.png)
+![](./img-local/Hallmarks-of-Cancer-322.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-323.png)
+![](./img-local/Hallmarks-of-Cancer-323.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-324.jpg)
+![](./img-local/Hallmarks-of-Cancer-324.jpg)
 
 **Figure 14.9 ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
 
-![](img%5CHallmarks-of-Cancer-325.png)
+![](./img-local/Hallmarks-of-Cancer-325.png)
 
 **Robbins Basic Pathology**
 
@@ -225,28 +225,28 @@ receptors CXCR4 and CCR7**
 highly expressed only in those organs to which breast cancer cells
 metastasize**
 
-![](img%5CHallmarks-of-Cancer-326.jpg)
+![](./img-local/Hallmarks-of-Cancer-326.jpg)
 
 **The Scientist Cancer’s Vanguard Exosomes are emerging as key players
 in metastasis. April 1, 2016**
 
-![](img%5CHallmarks-of-Cancer-327.png)
+![](./img-local/Hallmarks-of-Cancer-327.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-328.png)
+![](./img-local/Hallmarks-of-Cancer-328.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-329.png)
+![](./img-local/Hallmarks-of-Cancer-329.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-330.png)
+![](./img-local/Hallmarks-of-Cancer-330.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CHallmarks-of-Cancer-331.png)
+![](./img-local/Hallmarks-of-Cancer-331.png)
 
 **Metastasis-to-metastasis seeding**
 
@@ -256,7 +256,7 @@ in metastasis. April 1, 2016**
 
 **Nature. 2015 Apr 16;520(7547):353-7**
 
-![](img%5CHallmarks-of-Cancer-332.jpg)
+![](./img-local/Hallmarks-of-Cancer-332.jpg)
 
 # REPROGRAMMING ENERGY METABOLISM
 
@@ -270,7 +270,7 @@ in metastasis. April 1, 2016**
 - **They use pyruvate in biosynthetic pathways instead of using it for
   ATP supply**
 
-![](img%5CHallmarks-of-Cancer-333.jpg)
+![](./img-local/Hallmarks-of-Cancer-333.jpg)
 
 **The Scientist Metabolic Reprogramming How cancer cells fuel their
 rapid growth April 1, 2016**
@@ -281,7 +281,7 @@ rapid growth April 1, 2016**
 
 # Defects in tricyclic carbon cycle
 
-![](img%5CHallmarks-of-Cancer-334.png)
+![](./img-local/Hallmarks-of-Cancer-334.png)
 
 **Isocitrate dehydrogenase mutations cause accumulation of byproducts**
 
@@ -289,7 +289,7 @@ rapid growth April 1, 2016**
 
 **Cancer Cell. 2010 Jan 19;17(1):7-9**
 
-![](img%5CHallmarks-of-Cancer-335.png)
+![](./img-local/Hallmarks-of-Cancer-335.png)
 
 **Succinate dehydrogenase**
 
@@ -301,7 +301,7 @@ rapid growth April 1, 2016**
 
 **Oncogene (2006) 25, 4675–4682**
 
-![](img%5CHallmarks-of-Cancer-336.jpg)
+![](./img-local/Hallmarks-of-Cancer-336.jpg)
 
 # EVASION OF THE IMMUNE SYSTEM
 
@@ -313,35 +313,35 @@ rapid growth April 1, 2016**
 
 **Tumor immunity and hosts response to tumor**
 
-![](img%5CHallmarks-of-Cancer-337.png)
+![](./img-local/Hallmarks-of-Cancer-337.png)
 
 **https://www.youtube.com/watch?v=K09xzIQ8zsg**
 
-![](img%5CHallmarks-of-Cancer-338.png)
+![](./img-local/Hallmarks-of-Cancer-338.png)
 
 **https://www.youtube.com/watch?v=K09xzIQ8zsg**
 
-![](img%5CHallmarks-of-Cancer-339.png)
+![](./img-local/Hallmarks-of-Cancer-339.png)
 
 **https://www.youtube.com/watch?v=K09xzIQ8zsg**
 
-![](img%5CHallmarks-of-Cancer-340.png)
+![](./img-local/Hallmarks-of-Cancer-340.png)
 
 **https://www.youtube.com/watch?v=K09xzIQ8zsg**
 
-![](img%5CHallmarks-of-Cancer-341.png)
+![](./img-local/Hallmarks-of-Cancer-341.png)
 
 **https://www.youtube.com/watch?v=K09xzIQ8zsg**
 
-![](img%5CHallmarks-of-Cancer-342.png)
+![](./img-local/Hallmarks-of-Cancer-342.png)
 
 **https://www.youtube.com/watch?v=K09xzIQ8zsg**
 
-![](img%5CHallmarks-of-Cancer-343.png)
+![](./img-local/Hallmarks-of-Cancer-343.png)
 
 **https://www.youtube.com/watch?v=K09xzIQ8zsg**
 
-![](img%5CHallmarks-of-Cancer-344.jpg)
+![](./img-local/Hallmarks-of-Cancer-344.jpg)
 
 # GENOMIC INSTABILITY AS AN ENABLER OF MALIGNANCY
 
@@ -353,19 +353,19 @@ rapid growth April 1, 2016**
   - **Nucleotide excision repair**
   - **Recombination repair**
 
-![](img%5CHallmarks-of-Cancer-345.png)
+![](./img-local/Hallmarks-of-Cancer-345.png)
 
 **http://www.nobelprize.org/**
 
-![](img%5CHallmarks-of-Cancer-346.png)
+![](./img-local/Hallmarks-of-Cancer-346.png)
 
 **http://www.nobelprize.org/**
 
-![](img%5CHallmarks-of-Cancer-347.png)
+![](./img-local/Hallmarks-of-Cancer-347.png)
 
 **http://www.nobelprize.org/**
 
-![](img%5CHallmarks-of-Cancer-348.png)
+![](./img-local/Hallmarks-of-Cancer-348.png)
 
 **http://www.nobelprize.org/**
 
@@ -432,7 +432,7 @@ specialized enzyme called activation-induced cytosine deaminase (AID),
 which catalyzes both immunoglobulin gene class switch recombination and
 somatic hypermutation**
 
-![](img%5CHallmarks-of-Cancer-349.jpg)
+![](./img-local/Hallmarks-of-Cancer-349.jpg)
 
 # TUMOR-PROMOTING INFLAMMATION AS ENABLER OF MALIGNANCY
 
@@ -460,6 +460,6 @@ somatic hypermutation**
 
 # Specific Drugs for Specific FeaturesTargetted Therapy
 
-![](img%5CHallmarks-of-Cancer-350.png)
+![](./img-local/Hallmarks-of-Cancer-350.png)
 
 **Robbins Basic Pathology**

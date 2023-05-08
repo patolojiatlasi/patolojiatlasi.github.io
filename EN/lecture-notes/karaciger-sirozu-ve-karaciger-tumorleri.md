@@ -1,45 +1,45 @@
 # Title
 Serdar Balcı
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri0.jpg)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri0.jpg)
 
 # Karaciğer Sirozu veKaraciğer Tümörleri
 
 # Dr. Serdar BALCI
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri1.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri1.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri2.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri2.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri3.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri3.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri4.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri4.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri5.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri5.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri6.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri6.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri7.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri7.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri8.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri8.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri9.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri9.png)
 
 **Robbins Basic Pathology**
 
@@ -97,17 +97,17 @@ regresyonu mümkün**
 - **Hepatosit yüzeyinde mikrovillus kaybı**
   - **Transport kapasitesinde daha da azalma**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri10.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri10.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri11.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri11.png)
 
 **types I and III collagen and other ECM components**
 
 **Robbins Basic Pathology**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri12.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri12.png)
 
 **Portal Hipertansiyon**
 
@@ -152,7 +152,7 @@ regresyonu mümkün**
   - **Multip ise fibropolikistik karaciğer ve polikistik böbrek
     hastalıkları ile ilişkili olabilir**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri13.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri13.png)
 
 **Von Meyenburg complex**
 
@@ -173,11 +173,11 @@ regresyonu mümkün**
 - **Malignite riski yok**
 - **Karaciğer kapsülüne bası nedenli semptomatik**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri14.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri14.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri15.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri15.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
@@ -195,7 +195,7 @@ regresyonu mümkün**
 
 **30 cm’e kadar**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri16.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri16.png)
 
 **Hepatic adenoma.**
 
@@ -207,7 +207,7 @@ regresyonu mümkün**
 - **Portal trakt yok**
 - **Belirgin arteryal damarlar ve venler**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri17.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri17.png)
 
 **B: Photomicrograph showing adenoma, with cords of normal-appearing
 hepatocytes, absence of portal tracts, and prominent neovascularization
@@ -272,7 +272,7 @@ hepatocytes, absence of portal tracts, and prominent neovascularization
 
 **Pleomorfik, multipl nükleus**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri18.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri18.png)
 
 **A: Large cell change. Very large hepatocytes with very large, often
 atypical nuclei are scattered among normal-size hepatocytes with round,
@@ -292,7 +292,7 @@ typical nuclei.**
 
 **Premalign olarak kabul ediliyor**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri19.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri19.png)
 
 **B: Small cell change (SCC). Normal-appearing hepatocytes are in the
 lower right corner. SCC is indicated by smaller than normal hepatocytes
@@ -312,7 +312,7 @@ with thickened liver cell plates, and high nuclear : cytoplasmic **
 
 **Malign subnodülleri olabilir**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri20.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri20.png)
 
 **A: Hepatitis C–related cirrhosis with a distinctively large nodule
 (arrows). Nodule-in-nodule growth in this dysplastic nodule suggests a
@@ -320,7 +320,7 @@ high grade lesion.**
 
 **Robbins Basic Pathology**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri21.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri21.png)
 
 **B: Histologically the region within the box in A shows a
 well-differentiated hepatocellular carcinoma (HCC) (right side) and a
@@ -358,7 +358,7 @@ subnodule of moderately differentiated HCC within it (center, left).**
 
 **Portal vene uzanım, vena kavaya, sağ kalbe uzanım**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri22.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri22.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
@@ -372,11 +372,11 @@ subnodule of moderately differentiated HCC within it (center, left).**
 
 **Az stroma, yumuşak kıvamı var**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri23.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri23.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri24.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri24.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
@@ -392,58 +392,58 @@ subnodule of moderately differentiated HCC within it (center, left).**
 
 **Bu varyantta prognoz diğerlerine göre daha iyi**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri25.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri25.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri26.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri26.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri27.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri27.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri28.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri28.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri29.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri29.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri30.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri30.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri31.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri31.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri32.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri32.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri33.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri33.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri34.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri34.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri35.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri35.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri36.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri36.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri37.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri37.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CKaraci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri38.png)
+![](./img-local/Karaci%C4%9Fer-Sirozu-ve-Karaci%C4%9Fer-T%C3%BCm%C3%B6rleri38.png)
 
 **Autopsy Pathology: A Manual and Atlas**

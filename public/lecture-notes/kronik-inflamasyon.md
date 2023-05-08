@@ -1,21 +1,21 @@
 # Title
 Serdar Balcı
 
-![](img%5CKronik-inflamasyon0.jpg)
+![](./img-local/Kronik-inflamasyon0.jpg)
 
 # Kronik İnflamasyon
 
 # Dr. Serdar BALCI
 
-![](img%5CKronik-inflamasyon1.png)
+![](./img-local/Kronik-inflamasyon1.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKronik-inflamasyon2.png)
+![](./img-local/Kronik-inflamasyon2.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKronik-inflamasyon3.png)
+![](./img-local/Kronik-inflamasyon3.png)
 
 **Kronik inflamatuar hücreler**
 
@@ -74,7 +74,7 @@ Serdar Balcı
 - **Endojen ajanlar**
   - **Kolesterol kristalleri, ateroskleroz**
 
-![](img%5CKronik-inflamasyon4.png)
+![](./img-local/Kronik-inflamasyon4.png)
 
 # Bunlar inflamatuar hastalık mı?Henüz daha nihayi karar verilemedi
 
@@ -101,44 +101,44 @@ Serdar Balcı
 
 # Kronik inflamasyon için bazı örnekler
 
-![](img%5CKronik-inflamasyon5.jpg)
+![](./img-local/Kronik-inflamasyon5.jpg)
 
 **Tekrarlayan akut kolesistit atakları sonrası safra kesesinde kronik
 inflamasyon**
 
-![](img%5CKronik-inflamasyon6.jpg)
+![](./img-local/Kronik-inflamasyon6.jpg)
 
 **Safra kesesi, kronik inflamasyon, kronik kolesistit**
 
-![](img%5CKronik-inflamasyon7.jpg)
+![](./img-local/Kronik-inflamasyon7.jpg)
 
 **Mide, kronik peptik ülser**
 
-![](img%5CKronik-inflamasyon8.jpg)
+![](./img-local/Kronik-inflamasyon8.jpg)
 
-![](img%5CKronik-inflamasyon9.png)
+![](./img-local/Kronik-inflamasyon9.png)
 
 **Pathology - The Big Picture**
 
-![](img%5CKronik-inflamasyon10.jpg)
+![](./img-local/Kronik-inflamasyon10.jpg)
 
 **Pulmoner Fibrozis (idiopatik) **
 
-![](img%5CKronik-inflamasyon11.jpg)
+![](./img-local/Kronik-inflamasyon11.jpg)
 
 **Böbrek Transplant rejeksiyonu**
 
-![](img%5CKronik-inflamasyon12.jpg)
+![](./img-local/Kronik-inflamasyon12.jpg)
 
-![](img%5CKronik-inflamasyon13.jpg)
+![](./img-local/Kronik-inflamasyon13.jpg)
 
 **Ksantogranülamatöz inflamasyon ve lipogranülom**
 
-![](img%5CKronik-inflamasyon14.jpg)
+![](./img-local/Kronik-inflamasyon14.jpg)
 
 **Pilonidal sinüs **
 
-![](img%5CKronik-inflamasyon15.png)
+![](./img-local/Kronik-inflamasyon15.png)
 
 **Inflammation**
 
@@ -155,14 +155,14 @@ inflamasyon**
 
 **Mast hücreleri**
 
-![](img%5CKronik-inflamasyon16.jpg)
+![](./img-local/Kronik-inflamasyon16.jpg)
 
 **Inflammation**
 
 **Stephenson, Timothy J., Underwood’s Pathology: A Clinical Approach, 9,
 165-182**
 
-![](img%5CKronik-inflamasyon17.png)
+![](./img-local/Kronik-inflamasyon17.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
@@ -186,7 +186,7 @@ inflamasyon**
 
 **Retiküloendotelyal sistem**
 
-![](img%5CKronik-inflamasyon18.jpg)
+![](./img-local/Kronik-inflamasyon18.jpg)
 
 **Inflammation**
 
@@ -203,19 +203,19 @@ inflamasyon**
 
 **Kanda yaklaşık 1 gün dolaşırlar**
 
-![](img%5CKronik-inflamasyon19.png)
+![](./img-local/Kronik-inflamasyon19.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
 # Makrofaj aktivasyonu
 
-![](img%5CKronik-inflamasyon20.png)
+![](./img-local/Kronik-inflamasyon20.png)
 
 **Robbins Basic Pathology**
 
 # Klasik makrofaj aktivasyonu
 
-![](img%5CKronik-inflamasyon21.png)
+![](./img-local/Kronik-inflamasyon21.png)
 
 - **Mikroorganizma ürünleri ile indüklenir**
   - **endotoksinler**
@@ -230,7 +230,7 @@ inflamasyon**
 
 # Alternatif makrofaj aktivasyonu
 
-![](img%5CKronik-inflamasyon22.png)
+![](./img-local/Kronik-inflamasyon22.png)
 
 - **IL-4 ve IL-13 ile indüklenir**
   - **T hücreleri, Mast hücreleri ve eozinofiller**
@@ -241,7 +241,7 @@ inflamasyon**
   - **Fibroblast aktivasyonu**
   - **Kollojen sentezinin uyarılmaıs**
 
-![](img%5CKronik-inflamasyon23.png)
+![](./img-local/Kronik-inflamasyon23.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
@@ -276,7 +276,7 @@ inflamasyon**
 **IFN-γ etkisi ile birleşip, çok çekirdekli iri dev hücrelere
 dönüşürler**
 
-![](img%5CKronik-inflamasyon24.png)
+![](./img-local/Kronik-inflamasyon24.png)
 
 **RUBINS PATHOLOGY Clinicopathologic Foundations of Medicine**
 
@@ -290,7 +290,7 @@ dönüşürler**
 - **İnfeksiyon ve immünolojik hastalıklardaki adaptif immün yanıtın bir
   parçası**
 
-![](img%5CKronik-inflamasyon25.png)
+![](./img-local/Kronik-inflamasyon25.png)
 
 **Pathology - The Big Picture**
 
@@ -310,13 +310,13 @@ dönüşürler**
   - **Helmintler, parazitler**
   - **Allerjik inflamatuar yanıtlar**
 
-![](img%5CKronik-inflamasyon26.png)
+![](./img-local/Kronik-inflamasyon26.png)
 
 **Robbins Basic Pathology**
 
 # İki yönlü iletişim
 
-![](img%5CKronik-inflamasyon27.png)
+![](./img-local/Kronik-inflamasyon27.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
@@ -342,7 +342,7 @@ dönüşürler**
   - **Parazitler için toksik**
   - **Epitel hücre nekrozu da yapar**
 
-![](img%5CKronik-inflamasyon28.png)
+![](./img-local/Kronik-inflamasyon28.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
@@ -359,7 +359,7 @@ dönüşürler**
   - **Allerjik reaksiyonlar**
     - **Anaflaktik şok**
 
-![](img%5CKronik-inflamasyon29.jpg)
+![](./img-local/Kronik-inflamasyon29.jpg)
 
 **Chronic peptic ulcer   (a) Entire ulcer (LP)  (b) Surface layers of
 ulcer (MP)  (c) Deep layers of ulcer (MP) ( illustrations opposite ) A
@@ -422,7 +422,7 @@ Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology,
 
 **Copyright © 2011 © 2011, Elsevier Limited**
 
-![](img%5CKronik-inflamasyon30.jpg)
+![](./img-local/Kronik-inflamasyon30.jpg)
 
 **Pulmonary fibrosis (idiopathic)   (a) LP  (b) HP Idiopathic pulmonary
 fibrosis (or cryptogenic fibrosing alveolitis ) is a good example of a
@@ -462,7 +462,7 @@ Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology,
 
 **Copyright © 2011 © 2011, Elsevier Limited**
 
-![](img%5CKronik-inflamasyon31.jpg)
+![](./img-local/Kronik-inflamasyon31.jpg)
 
 **Transplant rejection: kidney (LP) Organ transplantation introduces
 non-self antigens into the recipient. Specifically, the HLA antigens
@@ -497,7 +497,7 @@ Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology,
 
 **Copyright © 2011 © 2011, Elsevier Limited**
 
-![](img%5CKronik-inflamasyon32.jpg)
+![](./img-local/Kronik-inflamasyon32.jpg)
 
 **Foreign body reaction   (a) Foreign body granuloma (LP)  (b) Giant
 cell with inclusion (HP) The presence of certain non-soluble foreign
@@ -531,7 +531,7 @@ Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology,
 
 **Copyright © 2011 © 2011, Elsevier Limited**
 
-![](img%5CKronik-inflamasyon33.jpg)
+![](./img-local/Kronik-inflamasyon33.jpg)
 
 **Bronchiectasis (LP) Bronchiectasis is a chronic inflammation of the
 bronchi associated with des truction of the wall and permanent
@@ -561,7 +561,7 @@ Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology,
 
 **Copyright © 2011 © 2011, Elsevier Limited**
 
-![](img%5CKronik-inflamasyon34.jpg)
+![](./img-local/Kronik-inflamasyon34.jpg)
 
 **Xanthogranulomatous inflammation and lipogranuloma   (a)
 Xanthogranulomatous cholecystitis (MP)  (b) Lipogranuloma in fat
@@ -594,7 +594,7 @@ Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology,
 
 **Copyright © 2011 © 2011, Elsevier Limited**
 
-![](img%5CKronik-inflamasyon35.jpg)
+![](./img-local/Kronik-inflamasyon35.jpg)
 
 **Giant cells   (a) Foreign body giant cell (HP)  (b) Langhans’ giant
 cell (HP) As described in the introduction, multinucleate giant cells
@@ -629,7 +629,7 @@ Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology,
 
 **Copyright © 2011 © 2011, Elsevier Limited**
 
-![](img%5CKronik-inflamasyon36.jpg)
+![](./img-local/Kronik-inflamasyon36.jpg)
 
 **Sarcoidosis   (a) Sarcoidosis in a lymph node (MP)  (b) Sarcoid
 granulomas (HP) Sarcoidosis is a chronic granulomatous disease of
@@ -675,7 +675,7 @@ Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology,
 
 **Copyright © 2011 © 2011, Elsevier Limited**
 
-![](img%5CKronik-inflamasyon37.jpg)
+![](./img-local/Kronik-inflamasyon37.jpg)
 
 **Cells in chronic inflammation (HP) In chronic inflammation the major
 infiltrating cells types are macrophages , lymphocytes and plasma cells
@@ -711,7 +711,7 @@ Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology,
 
 **Copyright © 2011 © 2011, Elsevier Limited**
 
-![](img%5CKronik-inflamasyon38.jpg)
+![](./img-local/Kronik-inflamasyon38.jpg)
 
 **Pilonidal sinus (LP) A common example of a chronic abscess is the
 pilonidal sinus. In this condition, a chronic subcutaneous abscess
@@ -755,15 +755,15 @@ Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology,
   - **Inflamatuar barsak hastalıkları**
 - **3) Sarkoidoz**
 
-![](img%5CKronik-inflamasyon39.png)
+![](./img-local/Kronik-inflamasyon39.png)
 
 **RUBINS PATHOLOGY Clinicopathologic Foundations of Medicine**
 
-![](img%5CKronik-inflamasyon40.png)
+![](./img-local/Kronik-inflamasyon40.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CKronik-inflamasyon41.png)
+![](./img-local/Kronik-inflamasyon41.png)
 
 **Granülomlardaki aktive makrofajlar**
 
@@ -780,7 +780,7 @@ lymphocytes**
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CKronik-inflamasyon42.png)
+![](./img-local/Kronik-inflamasyon42.png)
 
 **Granülomlardaki aktive makrofajlar**
 
@@ -790,11 +790,11 @@ lymphocytes**
 
 **Pathology - The Big Picture**
 
-![](img%5CKronik-inflamasyon43.png)
+![](./img-local/Kronik-inflamasyon43.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKronik-inflamasyon44.png)
+![](./img-local/Kronik-inflamasyon44.png)
 
 **Hipoksi ve serbest radikal hasarı ile merkezde nekroz zonu oluşur**
 
@@ -803,7 +803,7 @@ kayıp**
 
 **Robbins Basic Pathology**
 
-![](img%5CKronik-inflamasyon45.png)
+![](./img-local/Kronik-inflamasyon45.png)
 
 **Granüler ve peynirimsi görünüm nedeniyle kazeifikasyon nekrozu**
 
@@ -812,37 +812,37 @@ dokudan oluşan bir sınırlayıcı doku bulunur**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CKronik-inflamasyon46.png)
+![](./img-local/Kronik-inflamasyon46.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKronik-inflamasyon47.png)
+![](./img-local/Kronik-inflamasyon47.png)
 
 **RUBINS PATHOLOGY Clinicopathologic Foundations of Medicine**
 
 # Mycobacterium tuberculosisacid-fast Ziehl-Neelsen stain; Magnified 1000X.
 
-![](img%5CKronik-inflamasyon48.jpg)
+![](./img-local/Kronik-inflamasyon48.jpg)
 
 **http://phil.cdc.gov/**
 
-![](img%5CKronik-inflamasyon49.png)
+![](./img-local/Kronik-inflamasyon49.png)
 
 **RUBINS PATHOLOGY Clinicopathologic Foundations of Medicine**
 
-![](img%5CKronik-inflamasyon50.jpg)
+![](./img-local/Kronik-inflamasyon50.jpg)
 
 **Foreign body reaction **
 
-![](img%5CKronik-inflamasyon51.jpg)
+![](./img-local/Kronik-inflamasyon51.jpg)
 
 **Foreign body reaction **
 
-![](img%5CKronik-inflamasyon52.jpg)
+![](./img-local/Kronik-inflamasyon52.jpg)
 
-![](img%5CKronik-inflamasyon53.jpg)
+![](./img-local/Kronik-inflamasyon53.jpg)
 
-![](img%5CKronik-inflamasyon54.png)
+![](./img-local/Kronik-inflamasyon54.png)
 
 **RUBINS PATHOLOGY Clinicopathologic Foundations of Medicine**
 
@@ -853,11 +853,11 @@ body reactions**
 
 **Noncaseating **
 
-![](img%5CKronik-inflamasyon55.png)
+![](./img-local/Kronik-inflamasyon55.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CKronik-inflamasyon56.jpg)
+![](./img-local/Kronik-inflamasyon56.jpg)
 
 *“Asistanlardan biri, Fransızca anlamadığıma hükmederek;”Tumeur
 blanche’ların ekseriya bol akıntılarla ciğer veremi tevlit edebileceğini
@@ -938,4 +938,4 @@ anlatıyor. Mithat Bey ona susmasını ihtar etti.“*
   - **Asidoz**
   - **Hipotensif şok**
 
-![](img%5CKronik-inflamasyon57.jpg)
+![](./img-local/Kronik-inflamasyon57.jpg)

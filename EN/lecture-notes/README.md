@@ -1,6 +1,6 @@
 # Patoloji Ders Notları 
 
-2023-05-07 18:10:07.998173
+2023-05-08 11:59:14.843652
 
 [adrenal-bez-hastaliklari](./adrenal-bez-hastaliklari.md)
 

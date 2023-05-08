@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CCerebrovascular-diseases0.jpg)
+![](./img-local/Cerebrovascular-diseases0.jpg)
 
 # Cerebrovascular diseases
 
@@ -20,7 +20,7 @@ Serdar Balcı
 
 # EDEMA
 
-![](img%5CCerebrovascular-diseases1.png)
+![](./img-local/Cerebrovascular-diseases1.png)
 
 # Cerebral Edema
 
@@ -37,7 +37,7 @@ Serdar Balcı
   - **Neuronal and glial cell membrane injury**
   - **Generalized hypoxic-ischemic insult, exposure to some toxins**
 
-![](img%5CCerebrovascular-diseases2.png)
+![](./img-local/Cerebrovascular-diseases2.png)
 
 **Edematous brain**
 
@@ -50,7 +50,7 @@ narrowed, and the ventricular cavities are compressed**
 
 **Robbins Basic Pathology**
 
-![](img%5CCerebrovascular-diseases3.png)
+![](./img-local/Cerebrovascular-diseases3.png)
 
 **Cerebral edema**
 
@@ -62,7 +62,7 @@ associated with a dangerous increase in intracranial pressure.**
 
 # HYDROCEPHALUS
 
-![](img%5CCerebrovascular-diseases4.png)
+![](./img-local/Cerebrovascular-diseases4.png)
 
 # Hydrocephalus
 
@@ -78,18 +78,18 @@ subarachnoid space**
 **The balance between rates of generation and resorption regulates CSF
 volume**
 
-![](img%5CCerebrovascular-diseases5.png)
+![](./img-local/Cerebrovascular-diseases5.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCerebrovascular-diseases6.png)
+![](./img-local/Cerebrovascular-diseases6.png)
 
 - **Accumulation of excessive CSF within the ventricular system**
 - **Overproduction of CSF**
   - **Tumors of the choroid plexus**
   - **Rarely causes hydrocephalus**
 
-![](img%5CCerebrovascular-diseases7.png)
+![](./img-local/Cerebrovascular-diseases7.png)
 
 - **Noncommunicating hydrocephalus**
   - **Localized obstacle to CSF flow within the ventricular system**
@@ -109,7 +109,7 @@ volume**
   - **A compensatory increase in CSF volume can also follow the loss of
     brain parenchyma after infarcts or with degenerative diseases**
 
-![](img%5CCerebrovascular-diseases8.jpg)
+![](./img-local/Cerebrovascular-diseases8.jpg)
 
 # HERNIATION
 
@@ -127,11 +127,11 @@ volume**
   compressed tissue**
   - **infarction, additional swelling, and further herniation**
 
-![](img%5CCerebrovascular-diseases9.png)
+![](./img-local/Cerebrovascular-diseases9.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCerebrovascular-diseases10.png)
+![](./img-local/Cerebrovascular-diseases10.png)
 
 # Subfalcine (cingulate) herniation
 
@@ -142,11 +142,11 @@ the cingulate gyrus under the edge of falx**
 
 **Subfalcial herniation**
 
-![](img%5CCerebrovascular-diseases11.png)
+![](./img-local/Cerebrovascular-diseases11.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCerebrovascular-diseases12.png)
+![](./img-local/Cerebrovascular-diseases12.png)
 
 # Transtentorial (uncinate) herniation
 
@@ -160,7 +160,7 @@ the cingulate gyrus under the edge of falx**
   - **ischemic injury**
   - **primary visual cortex**
 
-![](img%5CCerebrovascular-diseases13.png)
+![](./img-local/Cerebrovascular-diseases13.png)
 
 - **If herniation is big enough**
   - **compress the contralateral cerebral peduncle against the
@@ -170,13 +170,13 @@ the cingulate gyrus under the edge of falx**
 - **Kernohan’s notch**
   - **Deformation formed by compression of the peduncle**
 
-![](img%5CCerebrovascular-diseases14.png)
+![](./img-local/Cerebrovascular-diseases14.png)
 
 **Transtentorial herniation**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCerebrovascular-diseases15.png)
+![](./img-local/Cerebrovascular-diseases15.png)
 
 **Duret hemorrhages**
 
@@ -191,7 +191,7 @@ upper brain stem**
 
 **Robbins Basic Pathology**
 
-![](img%5CCerebrovascular-diseases16.png)
+![](./img-local/Cerebrovascular-diseases16.png)
 
 **Duret hemorrhage**
 
@@ -202,7 +202,7 @@ leading to hemorrhage**
 
 **Robbins Basic Pathology**
 
-![](img%5CCerebrovascular-diseases17.png)
+![](./img-local/Cerebrovascular-diseases17.png)
 
 # Tonsillar herniation
 
@@ -214,7 +214,7 @@ leading to hemorrhage**
 
 **Compromises vital respiratory and cardiac centers in the medulla**
 
-![](img%5CCerebrovascular-diseases18.png)
+![](./img-local/Cerebrovascular-diseases18.png)
 
 **Cerebellar tonsillar herniation**
 
@@ -289,7 +289,7 @@ leading to hemorrhage**
   - **Wide gyri and narrowed sulci**
   - **Cut surface shows poor demarcation between gray and white matter**
 
-![](img%5CCerebrovascular-diseases19.png)
+![](./img-local/Cerebrovascular-diseases19.png)
 
 **Early changes**
 
@@ -305,7 +305,7 @@ leading to hemorrhage**
 
 **Similar changes later in astrocytes and oligodendroglia**
 
-![](img%5CCerebrovascular-diseases20.png)
+![](./img-local/Cerebrovascular-diseases20.png)
 
 **Early changes**
 
@@ -321,7 +321,7 @@ leading to hemorrhage**
 
 **Similar changes later in astrocytes and oligodendroglia**
 
-![](img%5CCerebrovascular-diseases21.png)
+![](./img-local/Cerebrovascular-diseases21.png)
 
 **Reaction to tissue damage**
 
@@ -332,7 +332,7 @@ edges of the lesion where the vascular supply is intact.**
 
 **Robbins Basic Pathology**
 
-![](img%5CCerebrovascular-diseases22.png)
+![](./img-local/Cerebrovascular-diseases22.png)
 
 **Subacute changes**
 
@@ -351,7 +351,7 @@ surrounding reactive gliosis.**
 
 **Robbins Basic Pathology**
 
-![](img%5CCerebrovascular-diseases23.png)
+![](./img-local/Cerebrovascular-diseases23.png)
 
 **Repair**
 
@@ -427,18 +427,18 @@ fragmentation and distal embolization**
 region in the left middle cerebral artery distribution: Hemorrhagic
 (red) infarction**
 
-![](img%5CCerebrovascular-diseases24.png)
+![](./img-local/Cerebrovascular-diseases24.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCerebrovascular-diseases25.png)
+![](./img-local/Cerebrovascular-diseases25.png)
 
 **An infarct with punctate hemorrhages, consistent with
 ischemia-reperfusion injury, is present in the temporal lobe**
 
 **Robbins Basic Pathology**
 
-![](img%5CCerebrovascular-diseases26.png)
+![](./img-local/Cerebrovascular-diseases26.png)
 
 **Old cystic infarct shows destruction of cortex and surrounding
 gliosis**
@@ -539,7 +539,7 @@ parallel those of ischemic infarction**
   - **typically occur in the basal ganglia, thalamus, pons, and
     cerebellum**
 
-![](img%5CCerebrovascular-diseases27.png)
+![](./img-local/Cerebrovascular-diseases27.png)
 
 **Cerebral hemorrhage. Massive hypertensive hemorrhage rupturing into a
 lateral ventricle**
@@ -599,7 +599,7 @@ lateral ventricle**
 - **Recurrent bleeds are common**
 - **Prognosis worsens with each bleeding episode**
 
-![](img%5CCerebrovascular-diseases28.png)
+![](./img-local/Cerebrovascular-diseases28.png)
 
 **90% of saccular aneurysms occur in the anterior circulation near major
 arterial branch points**
@@ -623,15 +623,15 @@ arterial branch points**
 **An unruptured saccular aneurysm is a thin-walled outpouching of an
 artery**
 
-![](img%5CCerebrovascular-diseases29.png)
+![](./img-local/Cerebrovascular-diseases29.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCerebrovascular-diseases30.png)
+![](./img-local/Cerebrovascular-diseases30.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCerebrovascular-diseases31.png)
+![](./img-local/Cerebrovascular-diseases31.png)
 
 **Beyond the neck of the aneurysm no muscular wall and intimal elastic
 lamina**
@@ -683,7 +683,7 @@ the subarachnoid space or the substance of the brain, or both**
 
 **Arteriovenous malformation**
 
-![](img%5CCerebrovascular-diseases32.png)
+![](./img-local/Cerebrovascular-diseases32.png)
 
 **İnvolve subarachnoid vessels extending into brain parenchyma**
 
@@ -801,52 +801,52 @@ findings**
   - **diffuse encephalopathy**
   - **cognitive dysfunction**
 
-![](img%5CCerebrovascular-diseases33.png)
+![](./img-local/Cerebrovascular-diseases33.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCerebrovascular-diseases34.png)
+![](./img-local/Cerebrovascular-diseases34.png)
 
 **Massive recent infarct**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCerebrovascular-diseases35.png)
+![](./img-local/Cerebrovascular-diseases35.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCerebrovascular-diseases36.png)
+![](./img-local/Cerebrovascular-diseases36.png)
 
 **Recent intracerebral hemorrhage with intraventricular extension**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCerebrovascular-diseases37.png)
+![](./img-local/Cerebrovascular-diseases37.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCerebrovascular-diseases38.png)
+![](./img-local/Cerebrovascular-diseases38.png)
 
 **Deep arteriovenous malformation**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCerebrovascular-diseases39.png)
+![](./img-local/Cerebrovascular-diseases39.png)
 
 **Cavernous venous vascular malformation**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCerebrovascular-diseases40.png)
+![](./img-local/Cerebrovascular-diseases40.png)
 
 **Bilateral hemorrhagic infarcts related to sagittal sinus thrombosis**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCerebrovascular-diseases41.png)
+![](./img-local/Cerebrovascular-diseases41.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCerebrovascular-diseases42.png)
+![](./img-local/Cerebrovascular-diseases42.png)
 
 **Autopsy Pathology: A Manual and Atlas**

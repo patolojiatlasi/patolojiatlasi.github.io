@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CPathology-of-the-Stomach0.jpg)
+![](./img-local/Pathology-of-the-Stomach0.jpg)
 
 # Pathology of the Stomach
 
@@ -23,15 +23,15 @@ Serdar Balcı
 
 # ACUTE GASTRITIS
 
-![](img%5CPathology-of-the-Stomach1.png)
+![](./img-local/Pathology-of-the-Stomach1.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Stomach2.png)
+![](./img-local/Pathology-of-the-Stomach2.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Stomach3.png)
+![](./img-local/Pathology-of-the-Stomach3.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -46,11 +46,11 @@ Serdar Balcı
 **In severe cases mucosal erosion, ulceration, hemorrhage, hematemesis,
 melena, massive blood loss**
 
-![](img%5CPathology-of-the-Stomach4.png)
+![](./img-local/Pathology-of-the-Stomach4.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-the-Stomach5.png)
+![](./img-local/Pathology-of-the-Stomach5.png)
 
 # Protective mechanisms of gastric epithelium
 
@@ -68,7 +68,7 @@ melena, massive blood loss**
     - **washing away acid that has back-diffused into the lamina
       propria**
 
-![](img%5CPathology-of-the-Stomach6.png)
+![](./img-local/Pathology-of-the-Stomach6.png)
 
 # Disruption of protective mechanisms result in gastritis
 
@@ -132,7 +132,7 @@ melena, massive blood loss**
 
 # Morphology of ulcer
 
-![](img%5CPathology-of-the-Stomach7.png)
+![](./img-local/Pathology-of-the-Stomach7.png)
 
 - **Acute ulcers**
   - **rounded**
@@ -168,9 +168,9 @@ melena, massive blood loss**
 
 # H. pylori
 
-![](img%5CPathology-of-the-Stomach8.png)
+![](./img-local/Pathology-of-the-Stomach8.png)
 
-![](img%5CPathology-of-the-Stomach9.png)
+![](./img-local/Pathology-of-the-Stomach9.png)
 
 # Helicobacter pylori Gastritis
 
@@ -212,7 +212,7 @@ melena, massive blood loss**
   - **intestinal metaplasia**
   - **increased risk of gastric adenocarcinoma**
 
-![](img%5CPathology-of-the-Stomach10.png)
+![](./img-local/Pathology-of-the-Stomach10.png)
 
 **H. pylori shows tropism for gastric foveolar epitheleum**
 
@@ -223,14 +223,14 @@ mucosa of the gastric body, or duodenal epithelium**
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-the-Stomach11.png)
+![](./img-local/Pathology-of-the-Stomach11.png)
 
 **concentrated within the superficial mucus overlying epithelial cells
 in the surface and neck regions**
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-the-Stomach12.png)
+![](./img-local/Pathology-of-the-Stomach12.png)
 
 **neutrophils within the lamina propria**
 
@@ -242,7 +242,7 @@ in the surface and neck regions**
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-the-Stomach13.png)
+![](./img-local/Pathology-of-the-Stomach13.png)
 
 **superficial lamina propria includes large numbers of plasma cells,
 often in clusters or sheets**
@@ -259,7 +259,7 @@ transform into lymphoma**
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-the-Stomach14.png)
+![](./img-local/Pathology-of-the-Stomach14.png)
 
 **Intestinal metaplasia**
 
@@ -282,7 +282,7 @@ transform into lymphoma**
 
 # H.pylori vs Autoimmune Gastritis
 
-![](img%5CPathology-of-the-Stomach15.png)
+![](./img-local/Pathology-of-the-Stomach15.png)
 
 **Robbins Basic Pathology**
 
@@ -303,7 +303,7 @@ megaloblastic anemia (pernicious anemia)**
 
 **Reduced serum concentration of pepsinogen reflects chief cell loss**
 
-![](img%5CPathology-of-the-Stomach16.png)
+![](./img-local/Pathology-of-the-Stomach16.png)
 
 - **Diffuse damage of the oxyntic mucosa within the body and fundus**
 - **Damage to the antrum and cardia typically is absent or mild**
@@ -316,11 +316,11 @@ megaloblastic anemia (pernicious anemia)**
     gastric glands**
 - **Intestinal metaplasia may develop**
 
-![](img%5CPathology-of-the-Stomach17.jpg)
+![](./img-local/Pathology-of-the-Stomach17.jpg)
 
 **Netter’s Illustrated Human Pathology, Second Edition**
 
-![](img%5CPathology-of-the-Stomach18.jpg)
+![](./img-local/Pathology-of-the-Stomach18.jpg)
 
 **Netter’s Illustrated Human Pathology, Second Edition**
 
@@ -330,23 +330,23 @@ megaloblastic anemia (pernicious anemia)**
 contact with acid-pepsin secretion. Majority are found in the duodenum
 or stomach.**
 
-![](img%5CPathology-of-the-Stomach19.png)
+![](./img-local/Pathology-of-the-Stomach19.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Stomach20.png)
+![](./img-local/Pathology-of-the-Stomach20.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Stomach21.png)
+![](./img-local/Pathology-of-the-Stomach21.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Stomach22.jpg)
+![](./img-local/Pathology-of-the-Stomach22.jpg)
 
 **Netter’s Illustrated Human Pathology, Second Edition**
 
-![](img%5CPathology-of-the-Stomach23.jpg)
+![](./img-local/Pathology-of-the-Stomach23.jpg)
 
 **Netter’s Illustrated Human Pathology, Second Edition**
 
@@ -409,7 +409,7 @@ or stomach.**
   - **Located near the interface of the body and antrum**
 - **Solitary in more than 80% of patients**
 
-![](img%5CPathology-of-the-Stomach24.png)
+![](./img-local/Pathology-of-the-Stomach24.png)
 
 **Round to oval**
 
@@ -417,7 +417,7 @@ or stomach.**
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-the-Stomach25.png)
+![](./img-local/Pathology-of-the-Stomach25.png)
 
 **Base of ulcers**
 
@@ -431,19 +431,19 @@ or stomach.**
 
 # OTHER DISEASES
 
-![](img%5CPathology-of-the-Stomach26.png)
+![](./img-local/Pathology-of-the-Stomach26.png)
 
 **Gastric candidiasis**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Stomach27.png)
+![](./img-local/Pathology-of-the-Stomach27.png)
 
 **Iatrogenic ulceration **
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Stomach28.png)
+![](./img-local/Pathology-of-the-Stomach28.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -458,10 +458,10 @@ fundus**
 
 **Hypoproteinemia due to protein-losing enteropathy**
 
-![](img%5CPathology-of-the-Stomach29.png)
+![](./img-local/Pathology-of-the-Stomach29.png)
 
-![](img%5CPathology-of-the-Stomach30.png)
+![](./img-local/Pathology-of-the-Stomach30.png)
 
-![](img%5CPathology-of-the-Stomach31.png)
+![](./img-local/Pathology-of-the-Stomach31.png)
 
-![](img%5CPathology-of-the-Stomach32.jpg)
+![](./img-local/Pathology-of-the-Stomach32.jpg)

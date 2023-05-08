@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri0.jpg)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri0.jpg)
 
 # SSS Tümörleri
 
@@ -49,21 +49,21 @@ Serdar Balcı
 
 # SSS Tümörleri Sınıflaması
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri1.jpg)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri1.jpg)
 
 # Hücre orijinine göre sınıflama
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri2.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri2.png)
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri3.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri3.png)
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri4.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri4.png)
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri5.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri5.png)
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri6.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri6.png)
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri7.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri7.png)
 
 # Ayırıcı tanı için en önemli özellikler
 
@@ -92,7 +92,7 @@ Serdar Balcı
 
 **Spinal subaraknoid tümör yayılımı (ekilimi, seeding)**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri8.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri8.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -167,7 +167,7 @@ anaplasia, increased cell density, necrosis, and mitotic activity**
   - **Rekürrens olurs da kistik komponentin genişlemesi ile olur**
 - **Hipotalamik tümörler problemli çünkü tümüyle rezeke edilemez**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri9.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri9.png)
 
 **Pilositik Astrositom**
 
@@ -194,11 +194,11 @@ anaplasia, increased cell density, necrosis, and mitotic activity**
 
 **Nekroz ve mitoz çok çok nadir**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri10.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri10.png)
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri11.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri11.png)
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri12.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri12.png)
 
 # Diffüz astrositomlar
 
@@ -220,17 +220,17 @@ anaplasia, increased cell density, necrosis, and mitotic activity**
 
 **Infiltrating pontine glioma (astrocytoma)**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri13.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri13.png)
 
 Autopsy Pathology: A Manual and Atlas
 
 **Diffüz infiltratif astrositom**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri14.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri14.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri15.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri15.png)
 
 **İyi diferansiye astrositomlar belirsiz sınırlı, gri, infiltratif
 tümörlerdir. Ayrı bir kitle oluşturmadan infiltratif oalrak büyür ve
@@ -238,7 +238,7 @@ normal dokuların yapısını ortadan kaldırır**
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri16.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri16.png)
 
 **Makroskopik olarak görünen sınır ötesine de uzanım mutlaka vardır**
 
@@ -248,15 +248,15 @@ normal dokuların yapısını ortadan kaldırır**
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri17.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri17.png)
 
 **Clinical Neuropathology Text and Color Atlas**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri18.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri18.png)
 
 **Practical Surgical Neuropathology**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri19.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri19.png)
 
 **Brain Tumor Pathol (2011) 28:177–183**
 
@@ -273,13 +273,13 @@ normal dokuların yapısını ortadan kaldırır**
   çok kötü**
   - **Rezeksiyon, radyoterapi ve kemoterapi ile ortanca sağkalım 15 ay**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri20.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri20.png)
 
 **Brain Tumor Pathol (2011) 28:177–183**
 
 # Defects in tricyclic carbon cycle
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri21.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri21.png)
 
 **Isocitrate dehydrogenase mutasyonları yan ürünlerin birikimine neden
 olur**
@@ -288,7 +288,7 @@ olur**
 
 **Cancer Cell. 2010 Jan 19;17(1):7-9**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri22.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri22.png)
 
 **N Engl J Med 2009;360:765-73.**
 
@@ -313,7 +313,7 @@ olabilir**
 
 **Mitotik figürlerin görülmesi**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri23.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri23.png)
 
 **Practical Surgical Neuropathology**
 
@@ -336,7 +336,7 @@ olabilir**
   - **Vasküler endotelyal proliferasyon**
   - **Glomeruloid vasküler proliferasyon**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri24.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri24.png)
 
 **Glioblastom**
 
@@ -352,11 +352,11 @@ olabilir**
 
 **Glioblastoma multiforme**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri25.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri25.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri26.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri26.png)
 
 **Glioblastom**
 
@@ -364,15 +364,15 @@ olabilir**
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri27.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri27.png)
 
 **Clinical Neuropathology Text and Color Atlas**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri28.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri28.png)
 
 **Practical Surgical Neuropathology**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri29.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri29.png)
 
 **Practical Surgical Neuropathology**
 
@@ -386,7 +386,7 @@ olabilir**
 - **Çoğunlukla serebral hemisferlerde**
   - **Frontal ve temporal lob**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri30.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri30.png)
 
 **Oligodendrogliom: Tümör hücreleri yuvarlak oval çekirdekli,
 sitoplazmik halo**
@@ -408,7 +408,7 @@ sitoplazmik halo**
 **1p ve 19q kaybı gösteren tümörlerde kemoterapi ve radyoterapiye cevap
 çok daha iyi**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri31.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri31.png)
 
 # İyi diferansiye oligodendrogliomlar(WHO grade II/IV)
 
@@ -457,7 +457,7 @@ sitoplazmik halo**
 
 **Ventrikül tabanından köken alır**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri32.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri32.png)
 
 # Ependymoma
 
@@ -482,7 +482,7 @@ sitoplazmik halo**
 
 **Less evident ependymal differentiation**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri33.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri33.png)
 
 **Robbins Basic Pathology**
 
@@ -568,7 +568,7 @@ sitoplazmik halo**
   - **Tumors of similar histologic type and a poor degree of
     differentiation elsewhere in the nervous system**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri34.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri34.png)
 
 **Located in the midline of the cerebellum**
 
@@ -581,11 +581,11 @@ leptomeninges**
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri35.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri35.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri36.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri36.png)
 
 **Extremely cellular**
 
@@ -599,7 +599,7 @@ leptomeninges**
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri37.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri37.png)
 
 **Focal neuronal differentiation**
 
@@ -727,7 +727,7 @@ leptomeninges**
 - **Mutations in NF2 are more common in:**
   - **fibroblastic, transitional, and psammomatous growth pattern**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri38.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri38.png)
 
 **Meningioma**
 
@@ -743,13 +743,13 @@ leptomeninges**
 
 **Parasagittal meningioma**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri39.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri39.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
 **Intraosseous meningioma**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri40.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri40.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -768,7 +768,7 @@ leptomeninges**
   - **gland-like PAS-positive eosinophilic secretions known as
     pseudopsammoma bodies**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri41.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri41.png)
 
 **Robbins Basic Pathology**
 
@@ -827,7 +827,7 @@ rare**
 **Carcinomas are the dominant type of systemic tumors that metastasize
 to the nervous system**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri42.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri42.png)
 
 **Metastatic melanoma**
 
@@ -944,38 +944,38 @@ presence of melanin**
   - **Intervening stromal cells with vacuolated, lightly PAS-positive,
     lipid-rich cytoplasm**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri43.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri43.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri44.png)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri44.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
 <span style="color:#E72E09">Distribution of CNS Tumors</span>
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri45.jpg)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri45.jpg)
 
 **A pilocytic astrocytoma of the cerebellum in a child. **
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri46.jpg)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri46.jpg)
 
 **Glioma of the brainstem – pilocytic astrocytoma**
 
 # GBM. Note the prominent vascularity as well as the area of necrosis at the left with neoplastic cells palisading around it (pseudopalisading necrosis\*).
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri47.jpg)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri47.jpg)
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri48.jpg)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri48.jpg)
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri49.jpg)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri49.jpg)
 
 # Here is an ependymoma arising from the ependymal lining of the fourth ventricle above the brainstem and bulging toward the cerebellum.
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri50.jpg)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri50.jpg)
 
 # This horizontal (CT scan) section of the brain reveals a large ependymoma of the fourth ventricle.
 
-![](img%5CSSS-T%C3%BCm%C3%B6rleri51.jpg)
+![](./img-local/SSS-T%C3%BCm%C3%B6rleri51.jpg)
 
 # Irregular posterior fossa mass (medulloblastoma) - near the midline of the cerebellum and extending into the fourth ventricle above the brainstem

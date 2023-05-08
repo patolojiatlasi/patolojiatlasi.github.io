@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CHeart-Failure-and-Arryhtmias0.jpg)
+![](./img-local/Heart-Failure-and-Arryhtmias0.jpg)
 
 # Heart Failure and Arryhtmias
 
@@ -92,11 +92,11 @@ Decompensated heart failure**
   - **Myocyte enlargement**
 - **Hypertrophy**
 
-![](img%5CHeart-Failure-and-Arryhtmias1.png)
+![](./img-local/Heart-Failure-and-Arryhtmias1.png)
 
-![](img%5CHeart-Failure-and-Arryhtmias2.png)
+![](./img-local/Heart-Failure-and-Arryhtmias2.png)
 
-![](img%5CHeart-Failure-and-Arryhtmias3.png)
+![](./img-local/Heart-Failure-and-Arryhtmias3.png)
 
 **pressure-overloaded heart **
 
@@ -104,7 +104,7 @@ Decompensated heart failure**
 
 **Robbins Basic Pathology**
 
-![](img%5CHeart-Failure-and-Arryhtmias4.png)
+![](./img-local/Heart-Failure-and-Arryhtmias4.png)
 
 # Hypertrophy in pressure overload
 
@@ -118,7 +118,7 @@ adjacent to existing sarcomeres**
 **Ventricular wall thickness increases without an increase in the size
 of the chamber**
 
-![](img%5CHeart-Failure-and-Arryhtmias5.png)
+![](./img-local/Heart-Failure-and-Arryhtmias5.png)
 
 # Hypertrophy in volume overload
 
@@ -198,7 +198,7 @@ cases**
   - **Hemosiderin-laden alveolar macrophages**
     - **Heart failure cells**
 
-![](img%5CHeart-Failure-and-Arryhtmias6.jpg)
+![](./img-local/Heart-Failure-and-Arryhtmias6.jpg)
 
 **http://www.pathguy.com/lectures/heart_failure_cells.jpg**
 
@@ -234,7 +234,7 @@ cases**
   - **Long-standing severe right-sided heart failure, the central areas
     can become fibrotic, cardiac cirrhosis**
 
-![](img%5CHeart-Failure-and-Arryhtmias7.jpg)
+![](./img-local/Heart-Failure-and-Arryhtmias7.jpg)
 
 **http://www.pathguy.com/lectures/nutmeg3.jpg**
 
@@ -280,7 +280,7 @@ cases**
 
 **Healed remote MIs are present in about 40% of the cases**
 
-![](img%5CHeart-Failure-and-Arryhtmias8.png)
+![](./img-local/Heart-Failure-and-Arryhtmias8.png)
 
 **Robbins Basic Pathology**
 
@@ -310,7 +310,7 @@ conduction system**
   - **Hypertensive hypertrophy or unexplained increased cardiac mass is
     the only pathologic finding**
 
-![](img%5CHeart-Failure-and-Arryhtmias9.jpg)
+![](./img-local/Heart-Failure-and-Arryhtmias9.jpg)
 
 # The mechanism of SCD
 
@@ -327,54 +327,54 @@ IHD**
 **Most cases of fatal arrhythmia are triggered by electrical
 irritability of myocardium distant from the conduction system **
 
-![](img%5CHeart-Failure-and-Arryhtmias10.png)
+![](./img-local/Heart-Failure-and-Arryhtmias10.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CHeart-Failure-and-Arryhtmias11.png)
+![](./img-local/Heart-Failure-and-Arryhtmias11.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CHeart-Failure-and-Arryhtmias12.png)
+![](./img-local/Heart-Failure-and-Arryhtmias12.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CHeart-Failure-and-Arryhtmias13.png)
+![](./img-local/Heart-Failure-and-Arryhtmias13.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CHeart-Failure-and-Arryhtmias14.png)
+![](./img-local/Heart-Failure-and-Arryhtmias14.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CHeart-Failure-and-Arryhtmias15.png)
+![](./img-local/Heart-Failure-and-Arryhtmias15.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CHeart-Failure-and-Arryhtmias16.png)
+![](./img-local/Heart-Failure-and-Arryhtmias16.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CHeart-Failure-and-Arryhtmias17.png)
+![](./img-local/Heart-Failure-and-Arryhtmias17.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CHeart-Failure-and-Arryhtmias18.png)
+![](./img-local/Heart-Failure-and-Arryhtmias18.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CHeart-Failure-and-Arryhtmias19.png)
+![](./img-local/Heart-Failure-and-Arryhtmias19.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CHeart-Failure-and-Arryhtmias20.png)
+![](./img-local/Heart-Failure-and-Arryhtmias20.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CHeart-Failure-and-Arryhtmias21.png)
+![](./img-local/Heart-Failure-and-Arryhtmias21.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CHeart-Failure-and-Arryhtmias22.png)
+![](./img-local/Heart-Failure-and-Arryhtmias22.png)
 
 **Autopsy Pathology: A Manual and Atlas**

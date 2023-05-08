@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CDiseases-and-Tumors-of-the-Upper-Respiratory-Tract0.jpg)
+![](./img-local/Diseases-and-Tumors-of-the-Upper-Respiratory-Tract0.jpg)
 
 # Diseases and Tumors of the Upper Respiratory Tract
 
@@ -113,7 +113,7 @@ failure**
 - **predispose the patient to secondary bacterial infection**
   - **staphylococci, streptococci, and H. influenzae**
 
-![](img%5CDiseases-and-Tumors-of-the-Upper-Respiratory-Tract1.png)
+![](./img-local/Diseases-and-Tumors-of-the-Upper-Respiratory-Tract1.png)
 
 **Laryngitis**
 
@@ -122,7 +122,7 @@ purulent exudates**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDiseases-and-Tumors-of-the-Upper-Respiratory-Tract2.png)
+![](./img-local/Diseases-and-Tumors-of-the-Upper-Respiratory-Tract2.png)
 
 **Large, yellow exophytic exudates caused by invasive aspergillosis**
 
@@ -131,7 +131,7 @@ purulent exudates**
 **marked edema and focal necrosis resulting in obstruction after
 traumatic intubation**
 
-![](img%5CDiseases-and-Tumors-of-the-Upper-Respiratory-Tract3.png)
+![](./img-local/Diseases-and-Tumors-of-the-Upper-Respiratory-Tract3.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -150,7 +150,7 @@ traumatic intubation**
 **Demonstration by in situ hybridization of EBER in nasopharyngeal
 undifferentiated carcinoma**
 
-![](img%5CDiseases-and-Tumors-of-the-Upper-Respiratory-Tract4.png)
+![](./img-local/Diseases-and-Tumors-of-the-Upper-Respiratory-Tract4.png)
 
 **Rosai and Ackerman’s Surgical Pathology**
 
@@ -166,17 +166,17 @@ undifferentiated carcinoma**
 
 **Nasopharyngeal carcinoma of keratinizing squamous cell type**
 
-![](img%5CDiseases-and-Tumors-of-the-Upper-Respiratory-Tract5.png)
+![](./img-local/Diseases-and-Tumors-of-the-Upper-Respiratory-Tract5.png)
 
 **Rosai and Ackerman’s Surgical Pathology**
 
 **Nasopharyngeal carcinoma of differentiated nonkeratinizing type**
 
-![](img%5CDiseases-and-Tumors-of-the-Upper-Respiratory-Tract6.png)
+![](./img-local/Diseases-and-Tumors-of-the-Upper-Respiratory-Tract6.png)
 
 **Rosai and Ackerman’s Surgical Pathology**
 
-![](img%5CDiseases-and-Tumors-of-the-Upper-Respiratory-Tract7.png)
+![](./img-local/Diseases-and-Tumors-of-the-Upper-Respiratory-Tract7.png)
 
 **Nasopharyngeal carcinoma. Undifferentiated type.**
 
@@ -225,7 +225,7 @@ Pathology</span>
 
 **heavy smokers or singers (singer’s nodes)**
 
-![](img%5CDiseases-and-Tumors-of-the-Upper-Respiratory-Tract8.png)
+![](./img-local/Diseases-and-Tumors-of-the-Upper-Respiratory-Tract8.png)
 
 **Rosai and Ackerman’s Surgical Pathology**
 
@@ -245,13 +245,13 @@ Pathology</span>
 
 **Covered by an orderly, typical, stratified squamous epithelium**
 
-![](img%5CDiseases-and-Tumors-of-the-Upper-Respiratory-Tract9.png)
+![](./img-local/Diseases-and-Tumors-of-the-Upper-Respiratory-Tract9.png)
 
 **Laryngeal papillomatosis **
 
 **Rosai and Ackerman’s Surgical Pathology**
 
-![](img%5CDiseases-and-Tumors-of-the-Upper-Respiratory-Tract10.png)
+![](./img-local/Diseases-and-Tumors-of-the-Upper-Respiratory-Tract10.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -304,34 +304,34 @@ Pathology</span>
 
 **Ulcerating and fungating**
 
-![](img%5CDiseases-and-Tumors-of-the-Upper-Respiratory-Tract11.png)
+![](./img-local/Diseases-and-Tumors-of-the-Upper-Respiratory-Tract11.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-and-Tumors-of-the-Upper-Respiratory-Tract12.png)
+![](./img-local/Diseases-and-Tumors-of-the-Upper-Respiratory-Tract12.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDiseases-and-Tumors-of-the-Upper-Respiratory-Tract13.png)
+![](./img-local/Diseases-and-Tumors-of-the-Upper-Respiratory-Tract13.png)
 
 **Rosai and Ackerman’s Surgical Pathology**
 
-![](img%5CDiseases-and-Tumors-of-the-Upper-Respiratory-Tract14.png)
+![](./img-local/Diseases-and-Tumors-of-the-Upper-Respiratory-Tract14.png)
 
 **Rosai and Ackerman’s Surgical Pathology**
 
-![](img%5CDiseases-and-Tumors-of-the-Upper-Respiratory-Tract15.png)
+![](./img-local/Diseases-and-Tumors-of-the-Upper-Respiratory-Tract15.png)
 
 **Rosai and Ackerman’s Surgical Pathology**
 
-![](img%5CDiseases-and-Tumors-of-the-Upper-Respiratory-Tract16.png)
+![](./img-local/Diseases-and-Tumors-of-the-Upper-Respiratory-Tract16.png)
 
 **Rosai and Ackerman’s Surgical Pathology**
 
-![](img%5CDiseases-and-Tumors-of-the-Upper-Respiratory-Tract17.png)
+![](./img-local/Diseases-and-Tumors-of-the-Upper-Respiratory-Tract17.png)
 
 **Rosai and Ackerman’s Surgical Pathology**
 
-![](img%5CDiseases-and-Tumors-of-the-Upper-Respiratory-Tract18.png)
+![](./img-local/Diseases-and-Tumors-of-the-Upper-Respiratory-Tract18.png)
 
 **Autopsy Pathology: A Manual and Atlas**

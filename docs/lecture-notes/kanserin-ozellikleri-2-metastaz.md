@@ -1,13 +1,13 @@
 # Title
 Serdar Balcı
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz0.jpg)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz0.jpg)
 
 # Kanserin Başlıca Özellikleri-2, Metastaz
 
 # Dr. Serdar BALCI
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz1.jpg)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz1.jpg)
 
 # SÜREGIDEN BIR ANJIOGENEZ OLUŞUMU
 
@@ -102,11 +102,11 @@ kullanılmaktadır**
   - **Retinal anjiomlar**
   - **Renal kistler**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz2.jpg)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz2.jpg)
 
 # INVAZYON VE METASTAZ KABILIYETI
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz3.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz3.png)
 
 # Metastatik Yol
 
@@ -124,7 +124,7 @@ kullanılmaktadır**
 
 **Robbins Basic Pathology**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz4.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz4.png)
 
 # Ekstraselüler Matriksin İnvazyonu
 
@@ -136,7 +136,7 @@ kullanılmaktadır**
 
 **Robbins Basic Pathology**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz5.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz5.png)
 
 # Epitel bazal membranın invazyonu
 
@@ -150,7 +150,7 @@ kullanılmaktadır**
 
 **Robbins Basic Pathology**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz6.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz6.png)
 
 - **E-cadherin**
   - **Hücreler arası yapışkan**
@@ -167,11 +167,11 @@ kullanılmaktadır**
 
 **Midenin diffüz infiltratif, poorly-cohesive adenokarsinomu**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz7.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz7.png)
 
 **Rosai and Ackerman’s Surgical Pathology**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz8.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz8.png)
 
 # 
 
@@ -184,7 +184,7 @@ kullanılmaktadır**
   - **Cathepsin D**
   - **Urokinase plasminogen activator**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz9.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz9.png)
 
 - **MMPs**
   - **Bazal membran ve interstisyel matriksin yeniden düzenlenmesi**
@@ -197,7 +197,7 @@ kullanılmaktadır**
   - **Epitel ve vasküler bazal membrandaki tip IV kollojeni yıkar**
   - **Ekstraselüler matriks içindeki VEGF açığa çıkarırlar**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz10.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz10.png)
 
 - **Normal epitel hücreleri**
   - **Integrinler**
@@ -206,7 +206,7 @@ kullanılmaktadır**
   - **Hücreleri diferansiye durumda tutar**
   - **Adhezyon kaybı normalde apoptoz başlangıcına neden olur**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz11.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz11.png)
 
 - **Tümörde**
   - **Hücreler apotoza “direnir”**
@@ -216,7 +216,7 @@ kullanılmaktadır**
   - **Tümör hücreleri üzerinde yeni reseptör alanları oluşturulur**
   - **Migrasyon uyarılır**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz12.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz12.png)
 
 - **Kompleks, çok basamaklı bir süreç**
 - **Reseptör ve sinyal protein aileleri**
@@ -228,26 +228,26 @@ kullanılmaktadır**
   - **Stromal hücrelerin motilite üzerindeki prakrin etkileri**
     - **Hepatocyte growth factor/scatter factor (HGF/SCF)**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz13.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz13.png)
 
 # Vasküler yayılım ve uzak organlara yerleşme (homing)
 
 **Robbins Basic Pathology**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz14.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz14.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz15.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz15.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz16.jpg)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz16.jpg)
 
 **Figure 14.5c ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz17.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz17.png)
 
 **Robbins Basic Pathology**
 
@@ -263,43 +263,43 @@ kullanılmaktadır**
   - **Poligonal epitel hücreler, iğsi mezenkimal şekil alır**
   - **Proteolitik enzimlerin atrmış üretimi**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz18.jpg)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz18.jpg)
 
 **Figure 14.14b ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz19.jpg)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz19.jpg)
 
 **Figure 14.19b ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz20.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz20.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz21.jpg)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz21.jpg)
 
 **Figure 14.2a ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz22.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz22.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz23.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz23.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz24.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz24.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz25.jpg)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz25.jpg)
 
 **Figure 14.9 ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz26.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz26.png)
 
 **Robbins Basic Pathology**
 
@@ -320,23 +320,23 @@ endotellerindeki ligandlar uyumlu ise metastaz oraya olur**
 **Bu reseptörlerin ligandları (chemokines CXCL12 and CCL21) memenin sık
 metastaz yaptığı organlarda görülür**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz27.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz27.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz28.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz28.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz29.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz29.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz30.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz30.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz31.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz31.png)
 
 **Metastasis-to-metastasis seeding**
 
@@ -346,7 +346,7 @@ metastaz yaptığı organlarda görülür**
 
 **Nature. 2015 Apr 16;520(7547):353-7**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz32.jpg)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz32.jpg)
 
 # ENERJI METABOLIZMASININ YENIDEN DÜZENLENMESI
 
@@ -367,7 +367,7 @@ metastaz yaptığı organlarda görülür**
 
 # Trisiklik karbon siklusundaki defektler
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz33.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz33.png)
 
 **Izositrat dehidrogenaz mutasyonları yan ürünlerin birikimine neden
 olur**
@@ -376,7 +376,7 @@ olur**
 
 **Cancer Cell. 2010 Jan 19;17(1):7-9**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz34.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz34.png)
 
 **Suksinat dehidrogenaz**
 
@@ -388,7 +388,7 @@ olur**
 
 **Oncogene (2006) 25, 4675–4682**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz35.jpg)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz35.jpg)
 
 # IMMÜN SISTEMDEN KAÇIŞ
 
@@ -400,7 +400,7 @@ olur**
 
 **Tümör immünolojisi ve tümöre karşı konak cevabı**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz36.jpg)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz36.jpg)
 
 # GENOMIK INSTABILITE
 
@@ -474,7 +474,7 @@ specialized enzyme called activation-induced cytosine deaminase (AID),
 which catalyzes both immunoglobulin gene class switch recombination and
 somatic hypermutation**
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz37.jpg)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz37.jpg)
 
 # TÜMÖRÜ DESTEKLEYEN INFLAMASYON
 
@@ -502,6 +502,6 @@ somatic hypermutation**
 
 # Spesifik Özellikler için Spesifik İlaçlarHedefe Yönelik Tedavi
 
-![](img%5CKanserin-Ozellikleri-2-Metastaz38.png)
+![](./img-local/Kanserin-Ozellikleri-2-Metastaz38.png)
 
 **Robbins Basic Pathology**

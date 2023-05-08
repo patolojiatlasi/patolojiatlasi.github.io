@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CSantral-Sinir-Sisteminde-Hasar0.jpg)
+![](./img-local/Santral-Sinir-Sisteminde-Hasar0.jpg)
 
 # Santral Sinir Sisteminde Hasar
 
@@ -31,7 +31,7 @@ sitoplazmada belirgin eozinofili (kırmızı nöron)**
 
 **Nükleus da büzüşen hücre gibi köşeli şekil alır**
 
-![](img%5CSantral-Sinir-Sisteminde-Hasar1.png)
+![](./img-local/Santral-Sinir-Sisteminde-Hasar1.png)
 
 **Robbins Basic Pathology**
 
@@ -41,7 +41,7 @@ transport**
 **Swellings (spheroids) can be recognized on H&E stains and can be
 highlighted by silver staining or immunohistochemistry.**
 
-![](img%5CSantral-Sinir-Sisteminde-Hasar2.png)
+![](./img-local/Santral-Sinir-Sisteminde-Hasar2.png)
 
 **Axonal spheroids are visible as bulbous swellings at points of
 disruption, or altered axonal transport.**
@@ -58,7 +58,7 @@ disruption, or altered axonal transport.**
 
 **-peripheral dispersion of Nissl substance (central chromatolysis)**
 
-![](img%5CSantral-Sinir-Sisteminde-Hasar3.png)
+![](./img-local/Santral-Sinir-Sisteminde-Hasar3.png)
 
 **C: With axonal injury there can be swelling of the cell body and
 peripheral dispersal of the Nissl substance, termed chromatolysis.**
@@ -91,7 +91,7 @@ peripheral dispersal of the Nissl substance, termed chromatolysis.**
   - **Previously scant cytoplasm expands and takes on a bright pink hue,
     and the cell extends multiple stout, ramifying processes**
 
-![](img%5CSantral-Sinir-Sisteminde-Hasar4.png)
+![](./img-local/Santral-Sinir-Sisteminde-Hasar4.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 

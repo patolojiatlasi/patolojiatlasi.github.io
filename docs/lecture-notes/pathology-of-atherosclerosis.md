@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CPathology-of-Atherosclerosis0.jpg)
+![](./img-local/Pathology-of-Atherosclerosis0.jpg)
 
 # Pathology of Atherosclerosis
 
@@ -26,7 +26,7 @@ Serdar Balcı
 
 **Lipid core, necrotic debris, fibrous cap**
 
-![](img%5CPathology-of-Atherosclerosis1.png)
+![](./img-local/Pathology-of-Atherosclerosis1.png)
 
 **Obstruct lumen**
 
@@ -40,7 +40,7 @@ Serdar Balcı
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-Atherosclerosis2.png)
+![](./img-local/Pathology-of-Atherosclerosis2.png)
 
 **Familial Hypercholesterolemia**
 
@@ -48,19 +48,19 @@ Serdar Balcı
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-Atherosclerosis3.png)
+![](./img-local/Pathology-of-Atherosclerosis3.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-Atherosclerosis4.png)
+![](./img-local/Pathology-of-Atherosclerosis4.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-Atherosclerosis5.png)
+![](./img-local/Pathology-of-Atherosclerosis5.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-Atherosclerosis6.png)
+![](./img-local/Pathology-of-Atherosclerosis6.png)
 
 **Immune complex**
 
@@ -92,9 +92,9 @@ fill in a wound**
 - **Toxic exposure**
   - **Oxidized lipids, cigarette smoke**
 
-![](img%5CPathology-of-Atherosclerosis7.png)
+![](./img-local/Pathology-of-Atherosclerosis7.png)
 
-![](img%5CPathology-of-Atherosclerosis8.png)
+![](./img-local/Pathology-of-Atherosclerosis8.png)
 
 **Robbins Basic Pathology**
 
@@ -117,14 +117,14 @@ fill in a wound**
 
 **Recurrent injury, recurrent thickening**
 
-![](img%5CPathology-of-Atherosclerosis9.png)
+![](./img-local/Pathology-of-Atherosclerosis9.png)
 
 **Robbins Basic Pathology**
 
 **Accumulation of lipoproteins (mainly oxidized LDL and cholesterol
 crystals) in the vessel wall**
 
-![](img%5CPathology-of-Atherosclerosis10.png)
+![](./img-local/Pathology-of-Atherosclerosis10.png)
 
 **Platelet adhesion**
 
@@ -136,7 +136,7 @@ crystals) in the vessel wall**
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-Atherosclerosis11.png)
+![](./img-local/Pathology-of-Atherosclerosis11.png)
 
 **Robbins Basic Pathology**
 
@@ -149,11 +149,11 @@ and vascular wall cells**
 
 **Smooth muscle cell proliferation and ECM production**
 
-![](img%5CPathology-of-Atherosclerosis12.png)
+![](./img-local/Pathology-of-Atherosclerosis12.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-Atherosclerosis13.png)
+![](./img-local/Pathology-of-Atherosclerosis13.png)
 
 # Hemodynamic Disturbances
 
@@ -233,11 +233,11 @@ and vascular wall cells**
   uncertain**
 - **Fatty streaks may evolve into plaques, not all progress**
 
-![](img%5CPathology-of-Atherosclerosis14.png)
+![](./img-local/Pathology-of-Atherosclerosis14.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-Atherosclerosis15.png)
+![](./img-local/Pathology-of-Atherosclerosis15.png)
 
 **Robbins Basic Pathology**
 
@@ -287,15 +287,15 @@ and vascular wall cells**
   - **Thrombus organization**
   - **Often undergo calcification**
 
-![](img%5CPathology-of-Atherosclerosis16.png)
+![](./img-local/Pathology-of-Atherosclerosis16.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-Atherosclerosis17.png)
+![](./img-local/Pathology-of-Atherosclerosis17.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-Atherosclerosis18.png)
+![](./img-local/Pathology-of-Atherosclerosis18.png)
 
 **Atherosclerotic plaque in the coronary artery. fibrous cap and a
 central necrotic (largely lipid) core**
@@ -308,7 +308,7 @@ central necrotic (largely lipid) core**
 
 **media of the artery is thinned under the most advanced plaque**
 
-![](img%5CPathology-of-Atherosclerosis19.png)
+![](./img-local/Pathology-of-Atherosclerosis19.png)
 
 **Robbins Basic Pathology**
 
@@ -316,7 +316,7 @@ central necrotic (largely lipid) core**
 
 **inflammatory cells, calcification neovascularization**
 
-![](img%5CPathology-of-Atherosclerosis20.png)
+![](./img-local/Pathology-of-Atherosclerosis20.png)
 
 **Robbins Basic Pathology**
 
@@ -339,7 +339,7 @@ central necrotic (largely lipid) core**
 
 **Aneurysm formation**
 
-![](img%5CPathology-of-Atherosclerosis21.png)
+![](./img-local/Pathology-of-Atherosclerosis21.png)
 
 **Robbins Basic Pathology**
 
@@ -379,11 +379,11 @@ membrane to blood**
 
 **Hemorrhage into the atheroma, expanding its volume**
 
-![](img%5CPathology-of-Atherosclerosis22.png)
+![](./img-local/Pathology-of-Atherosclerosis22.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-Atherosclerosis23.png)
+![](./img-local/Pathology-of-Atherosclerosis23.png)
 
 **Robbins Basic Pathology**
 
@@ -397,21 +397,21 @@ membrane to blood**
 
 **Clusters of inflammatory cells**
 
-![](img%5CPathology-of-Atherosclerosis24.png)
+![](./img-local/Pathology-of-Atherosclerosis24.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-Atherosclerosis25.png)
+![](./img-local/Pathology-of-Atherosclerosis25.png)
 
 **Robbins Basic Pathology**
 
 # ANEURYSMS
 
-![](img%5CPathology-of-Atherosclerosis26.png)
+![](./img-local/Pathology-of-Atherosclerosis26.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-Atherosclerosis27.png)
+![](./img-local/Pathology-of-Atherosclerosis27.png)
 
 **True aneurysm, saccular type**
 
@@ -419,7 +419,7 @@ membrane to blood**
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-Atherosclerosis28.png)
+![](./img-local/Pathology-of-Atherosclerosis28.png)
 
 **True aneurysm, fusiform type.**
 
@@ -427,7 +427,7 @@ membrane to blood**
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-Atherosclerosis29.png)
+![](./img-local/Pathology-of-Atherosclerosis29.png)
 
 **False aneurysm**
 
@@ -436,7 +436,7 @@ externally by adherent extravascular tissues**
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-Atherosclerosis30.png)
+![](./img-local/Pathology-of-Atherosclerosis30.png)
 
 **Dissection. Blood has entered the wall of the vessel and separated
 (dissected) the layers.**
@@ -467,7 +467,7 @@ externally by adherent extravascular tissues**
   - **Smooth muscle loss, elastic loss in media**
   - **Cystic medial degeneration**
 
-![](img%5CPathology-of-Atherosclerosis31.png)
+![](./img-local/Pathology-of-Atherosclerosis31.png)
 
 **Robbins Basic Pathology**
 
@@ -505,7 +505,7 @@ bifurcation**
 
 **Up to 15 cm in diameter and 25 cm in length**
 
-![](img%5CPathology-of-Atherosclerosis32.png)
+![](./img-local/Pathology-of-Atherosclerosis32.png)
 
 **Robbins Basic Pathology**
 
@@ -515,15 +515,15 @@ bifurcation**
 
 **Form a blood-filled channel within the aortic wall**
 
-![](img%5CPathology-of-Atherosclerosis33.png)
+![](./img-local/Pathology-of-Atherosclerosis33.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-Atherosclerosis34.png)
+![](./img-local/Pathology-of-Atherosclerosis34.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-Atherosclerosis35.png)
+![](./img-local/Pathology-of-Atherosclerosis35.png)
 
 **B: Histologic preparation showing the dissection and intramural
 hematoma (asterisk). Aortic elastic layers are black and blood is red in
@@ -539,26 +539,26 @@ this section, stained with the Movat stain**
 
 **Re-enter aorta, covered with endothelium**
 
-![](img%5CPathology-of-Atherosclerosis36.png)
+![](./img-local/Pathology-of-Atherosclerosis36.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-Atherosclerosis37.png)
+![](./img-local/Pathology-of-Atherosclerosis37.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-Atherosclerosis38.png)
+![](./img-local/Pathology-of-Atherosclerosis38.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-Atherosclerosis39.png)
+![](./img-local/Pathology-of-Atherosclerosis39.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-Atherosclerosis40.png)
+![](./img-local/Pathology-of-Atherosclerosis40.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-Atherosclerosis41.png)
+![](./img-local/Pathology-of-Atherosclerosis41.png)
 
 **Autopsy Pathology: A Manual and Atlas**

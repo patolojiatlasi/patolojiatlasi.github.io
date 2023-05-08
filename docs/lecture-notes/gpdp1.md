@@ -49,6 +49,6 @@ Sectra’ya aktarım
 
 Tanı koyarken nelere dikkat edeceğiz
 
-![](img%5Cgpdp10.png)
+![](./img-local/gpdp10.png)
 
 via \#dalle *<https://labs.openai.com/s/jqJBiW0lElfHIGygPnBhFlBj>*

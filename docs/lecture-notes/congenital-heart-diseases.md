@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CCongenital-Heart-Diseases0.jpg)
+![](./img-local/Congenital-Heart-Diseases0.jpg)
 
 # Congenital Heart Diseases
 
@@ -18,11 +18,11 @@ birth**
 
 **Incidence is higher in premature infants and in stillborns**
 
-![](img%5CCongenital-Heart-Diseases1.png)
+![](./img-local/Congenital-Heart-Diseases1.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCongenital-Heart-Diseases2.png)
+![](./img-local/Congenital-Heart-Diseases2.png)
 
 # Surgery
 
@@ -66,9 +66,9 @@ many years after surgical correction**
   - **Fibroblast growth factor**
   - **Notch pathways**
 
-![](img%5CCongenital-Heart-Diseases3.png)
+![](./img-local/Congenital-Heart-Diseases3.png)
 
-![](img%5CCongenital-Heart-Diseases4.png)
+![](./img-local/Congenital-Heart-Diseases4.png)
 
 **Robbins Basic Pathology**
 
@@ -86,7 +86,7 @@ vice versa**
 
 **Malformations causing an ** *obstruction*
 
-![](img%5CCongenital-Heart-Diseases5.png)
+![](./img-local/Congenital-Heart-Diseases5.png)
 
 # Left-to-right shunts
 
@@ -147,7 +147,7 @@ introduces poorly oxygenated blood into the systemic circulation **
   - **Potentially allow transient right-to-left blood flow**
   - **Paradoxical embolism**
 
-![](img%5CCongenital-Heart-Diseases6.png)
+![](./img-local/Congenital-Heart-Diseases6.png)
 
 # Atrial Septal Defect
 
@@ -157,7 +157,7 @@ introduces poorly oxygenated blood into the systemic circulation **
 
 **Robbins Basic Pathology**
 
-![](img%5CCongenital-Heart-Diseases7.png)
+![](./img-local/Congenital-Heart-Diseases7.png)
 
 # Ostium secundum ASDs
 
@@ -172,7 +172,7 @@ and dilation of the pulmonary artery**
 
 **Robbins Basic Pathology**
 
-![](img%5CCongenital-Heart-Diseases8.png)
+![](./img-local/Congenital-Heart-Diseases8.png)
 
 # Ostium primum ASDs
 
@@ -187,7 +187,7 @@ canal**
 
 **Robbins Basic Pathology**
 
-![](img%5CCongenital-Heart-Diseases9.png)
+![](./img-local/Congenital-Heart-Diseases9.png)
 
 # Sinus venosus ASDs
 
@@ -202,7 +202,7 @@ superior vena cava**
 
 # Ventricular Septal Defects
 
-![](img%5CCongenital-Heart-Diseases10.png)
+![](./img-local/Congenital-Heart-Diseases10.png)
 
 **Most common congenital cardiac anomaly at birth**
 
@@ -219,11 +219,11 @@ and is the site of approximately 90% of VSDs**
 
 **Ventricular septal defect of the membranous type **
 
-![](img%5CCongenital-Heart-Diseases11.png)
+![](./img-local/Congenital-Heart-Diseases11.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCongenital-Heart-Diseases12.png)
+![](./img-local/Congenital-Heart-Diseases12.png)
 
 **Minute defects in the membranous septum to large defects involving
 virtually the entire interventricular wall**
@@ -236,7 +236,7 @@ virtually the entire interventricular wall**
 
 **Robbins Basic Pathology**
 
-![](img%5CCongenital-Heart-Diseases13.png)
+![](./img-local/Congenital-Heart-Diseases13.png)
 
 - **Small defects close spontaneously**
 - **Small defects**
@@ -248,7 +248,7 @@ virtually the entire interventricular wall**
 
 # Patent Ductus Arteriosus
 
-![](img%5CCongenital-Heart-Diseases14.png)
+![](./img-local/Congenital-Heart-Diseases14.png)
 
 - **90% are isolated**
 - **Can be life saving in combined anomalies**
@@ -259,7 +259,7 @@ virtually the entire interventricular wall**
 
 **Robbins Basic Pathology**
 
-![](img%5CCongenital-Heart-Diseases15.png)
+![](./img-local/Congenital-Heart-Diseases15.png)
 
 - **Reversal of flow and shunting of unoxygenated blood into the
   systemic circulation**
@@ -267,7 +267,7 @@ virtually the entire interventricular wall**
 
 **Robbins Basic Pathology**
 
-![](img%5CCongenital-Heart-Diseases16.png)
+![](./img-local/Congenital-Heart-Diseases16.png)
 
 # Right-to-Left Shunts
 
@@ -279,7 +279,7 @@ virtually the entire interventricular wall**
 - **Tetralogy of Fallot**
 - **Transposition of the great vessels**
 
-![](img%5CCongenital-Heart-Diseases17.png)
+![](./img-local/Congenital-Heart-Diseases17.png)
 
 # Tetralogy of Fallot
 
@@ -289,7 +289,7 @@ virtually the entire interventricular wall**
 
 **Robbins Basic Pathology**
 
-![](img%5CCongenital-Heart-Diseases18.png)
+![](./img-local/Congenital-Heart-Diseases18.png)
 
 **Anterosuperior displacement of the infundibular septum**
 
@@ -297,7 +297,7 @@ virtually the entire interventricular wall**
 
 **Robbins Basic Pathology**
 
-![](img%5CCongenital-Heart-Diseases19.png)
+![](./img-local/Congenital-Heart-Diseases19.png)
 
 - **VSD**
 - **Right ventricular outflow tract obstruction**
@@ -307,7 +307,7 @@ virtually the entire interventricular wall**
 
 **Robbins Basic Pathology**
 
-![](img%5CCongenital-Heart-Diseases20.png)
+![](./img-local/Congenital-Heart-Diseases20.png)
 
 - **The heart is large and “boot-shaped” **
   - **Right ventricular hypertrophy**
@@ -318,7 +318,7 @@ virtually the entire interventricular wall**
 
 **Robbins Basic Pathology**
 
-![](img%5CCongenital-Heart-Diseases21.png)
+![](./img-local/Congenital-Heart-Diseases21.png)
 
 - **VSD usually is large**
 - **Aortic valve lies immediately over the VSD**
@@ -327,7 +327,7 @@ virtually the entire interventricular wall**
 
 **Robbins Basic Pathology**
 
-![](img%5CCongenital-Heart-Diseases22.png)
+![](./img-local/Congenital-Heart-Diseases22.png)
 
 - **Obstruction of the right ventricular outflow**
   - **Narrowing of the infundibulum**
@@ -355,13 +355,13 @@ ventricle**
 
 **Transposition of the great arteries **
 
-![](img%5CCongenital-Heart-Diseases23.png)
+![](./img-local/Congenital-Heart-Diseases23.png)
 
-![](img%5CCongenital-Heart-Diseases24.png)
+![](./img-local/Congenital-Heart-Diseases24.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCongenital-Heart-Diseases25.png)
+![](./img-local/Congenital-Heart-Diseases25.png)
 
 # Transposition of the Great Arteries with VSD
 
@@ -373,7 +373,7 @@ ventricle**
 
 **Robbins Basic Pathology**
 
-![](img%5CCongenital-Heart-Diseases26.png)
+![](./img-local/Congenital-Heart-Diseases26.png)
 
 **Patent foramen ovale**
 
@@ -398,7 +398,7 @@ ventricle**
 
 # Aortic Coarctation
 
-![](img%5CCongenital-Heart-Diseases27.png)
+![](./img-local/Congenital-Heart-Diseases27.png)
 
 **Robbins Basic Pathology**
 
@@ -419,7 +419,7 @@ present **
 
 # Coarctation of AortaInfantile form
 
-![](img%5CCongenital-Heart-Diseases28.png)
+![](./img-local/Congenital-Heart-Diseases28.png)
 
 - **Hypoplasia of the aortic arch proximal to a PDA**
 - **Circumferential narrowing of the aortic segment between the left
@@ -435,7 +435,7 @@ present **
 
 # Coarctation of AortaAdult form
 
-![](img%5CCongenital-Heart-Diseases29.png)
+![](./img-local/Congenital-Heart-Diseases29.png)
 
 **More common **
 
@@ -452,58 +452,58 @@ are dilated and the left ventricle is hypertrophied**
 
 **Robbins Basic Pathology**
 
-![](img%5CCongenital-Heart-Diseases30.png)
+![](./img-local/Congenital-Heart-Diseases30.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCongenital-Heart-Diseases31.png)
+![](./img-local/Congenital-Heart-Diseases31.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCongenital-Heart-Diseases32.png)
+![](./img-local/Congenital-Heart-Diseases32.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCongenital-Heart-Diseases33.png)
+![](./img-local/Congenital-Heart-Diseases33.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCongenital-Heart-Diseases34.png)
+![](./img-local/Congenital-Heart-Diseases34.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCongenital-Heart-Diseases35.png)
+![](./img-local/Congenital-Heart-Diseases35.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCongenital-Heart-Diseases36.png)
+![](./img-local/Congenital-Heart-Diseases36.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCongenital-Heart-Diseases37.png)
+![](./img-local/Congenital-Heart-Diseases37.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCongenital-Heart-Diseases38.png)
+![](./img-local/Congenital-Heart-Diseases38.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCongenital-Heart-Diseases39.png)
+![](./img-local/Congenital-Heart-Diseases39.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCongenital-Heart-Diseases40.png)
+![](./img-local/Congenital-Heart-Diseases40.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCongenital-Heart-Diseases41.png)
+![](./img-local/Congenital-Heart-Diseases41.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCongenital-Heart-Diseases42.png)
+![](./img-local/Congenital-Heart-Diseases42.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCongenital-Heart-Diseases43.png)
+![](./img-local/Congenital-Heart-Diseases43.png)
 
 **Autopsy Pathology: A Manual and Atlas**

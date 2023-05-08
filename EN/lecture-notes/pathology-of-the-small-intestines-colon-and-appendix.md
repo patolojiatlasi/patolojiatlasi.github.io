@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix0.jpg)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix0.jpg)
 
 # Pathology of the Small Intestines, Colon and Appendix
 
@@ -38,11 +38,11 @@ Serdar Balcı
 - **Abdominal pain, distention, vomiting, and constipation**
 - **Surgery is necessary for most cases**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix1.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix1.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix2.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix2.png)
 
 **Intussusception**
 
@@ -51,7 +51,7 @@ immediately distal segment**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix3.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix3.png)
 
 **Intussusception**
 
@@ -59,7 +59,7 @@ immediately distal segment**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix4.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix4.png)
 
 **Volvulus**
 
@@ -67,15 +67,15 @@ immediately distal segment**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix5.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix5.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix6.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix6.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix7.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix7.png)
 
 **Robbins Basic Pathology**
 
@@ -117,7 +117,7 @@ normal colon to the rectum**
   - **Functional obstruction**
   - **Dilation proximal to the affected segment**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix8.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix8.png)
 
 **Robbins Basic Pathology**
 
@@ -140,7 +140,7 @@ normal colon to the rectum**
 
 # Abdominal Hernia
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix9.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix9.png)
 
 - **Any weakness or defect in the wall of the peritoneal cavity**
 - **Protrusion of a serosa-lined pouch of peritoneum**
@@ -148,7 +148,7 @@ normal colon to the rectum**
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix10.jpg)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix10.jpg)
 
 - **Acquired**
   - **Most commonly anterior wall**
@@ -158,7 +158,7 @@ normal colon to the rectum**
   - **Morgagni hernia**
     - **anterior, retrosternal**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix11.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix11.png)
 
 **Inguinal and femoral canals**
 
@@ -238,28 +238,28 @@ normal colon to the rectum**
     ischemic disease should be considered in the differential diagnosis
     for focal colitis of the splenic flexure or rectosigmoid colon**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix12.jpg)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix12.jpg)
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix13.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix13.png)
 
 **Dark purple serosa of necrotic small intestines**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix14.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix14.png)
 
 **distinct demarcation can be seen between the viable and nonviable
 tissue**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix15.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix15.png)
 
 **Multifocal mucosal hemorrhagic infarcts in the small and large bowel**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix16.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix16.png)
 
 **Transmural infarct of the cecum**
 
@@ -305,7 +305,7 @@ muscularis propria**
   - **Impaired venous drainage eventually prevents entry of oxygenated
     arterial blood**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix17.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix17.png)
 
 **Atrophy or sloughing of surface epithelium**
 
@@ -317,7 +317,7 @@ muscularis propria**
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix18.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix18.png)
 
 - **Chronic ischemia**
   - **Fibrous scarring of the lamina propria**
@@ -401,7 +401,7 @@ pathogenesis**
 - **High luminal pressures, by exaggerated peristaltic contractions,
   with spasmodic sequestration of bowel segments**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix19.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix19.png)
 
 **Small, flask-like outpouchings**
 
@@ -411,7 +411,7 @@ pathogenesis**
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix20.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix20.png)
 
 **Thin wall composed of**
 
@@ -423,19 +423,19 @@ pathogenesis**
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix21.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix21.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix22.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix22.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix23.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix23.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix24.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix24.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -503,7 +503,7 @@ pathogenesis**
 - **Tend to become inflamed, thrombosed, and, in the course of time,
   recanalized**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix25.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix25.png)
 
 **Meckel diverticulum **
 
@@ -561,64 +561,64 @@ pathogenesis**
     - **Acute gangrenous appendicitis**
   - **Rupture and suppurative peritonitis**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix26.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix26.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix27.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix27.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix28.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix28.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix29.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix29.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix30.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix30.png)
 
 **Tuberculous peritonitis**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix31.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix31.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix32.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix32.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix33.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix33.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix34.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix34.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix35.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix35.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix36.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix36.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix37.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix37.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix38.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix38.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix39.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix39.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPathology-of-the-Small-Intestines%2C-Colon-and-Appendix40.png)
+![](./img-local/Pathology-of-the-Small-Intestines%2C-Colon-and-Appendix40.png)
 
 **Autopsy Pathology: A Manual and Atlas**

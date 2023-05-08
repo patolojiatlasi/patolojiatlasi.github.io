@@ -1,19 +1,19 @@
 # Title
 Serdar Balcı
 
-![](img%5CHallmarks-of-Cancer-20.jpg)
+![](./img-local/Hallmarks-of-Cancer-20.jpg)
 
 # Hallmarks of Cancer-2
 
 # Serdar BALCI, MD
 
-![](img%5CHallmarks-of-Cancer-21.jpg)
+![](./img-local/Hallmarks-of-Cancer-21.jpg)
 
 # EVASION OF CELL DEATH
 
 **Resistance to Apoptosis**
 
-![](img%5CHallmarks-of-Cancer-22.png)
+![](./img-local/Hallmarks-of-Cancer-22.png)
 
 # Extrinsic Pathway
 
@@ -33,7 +33,7 @@ Serdar Balcı
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-23.png)
+![](./img-local/Hallmarks-of-Cancer-23.png)
 
 # Intrinsic Pathway
 
@@ -77,7 +77,7 @@ Serdar Balcı
   - **Since the change is not actively proliferating cells but
     preventing from death**
 
-![](img%5CHallmarks-of-Cancer-24.png)
+![](./img-local/Hallmarks-of-Cancer-24.png)
 
 # Autophagy
 
@@ -88,13 +88,13 @@ Serdar Balcı
 **Cancer cells use autophagy to survive in unfriendly climates or during
 therapy**
 
-![](img%5CHallmarks-of-Cancer-25.jpg)
+![](./img-local/Hallmarks-of-Cancer-25.jpg)
 
 # LIMITLESS REPLICATIVE POTENTIAL
 
 # Telomer Shortening in normal human cells
 
-![](img%5CHallmarks-of-Cancer-26.png)
+![](./img-local/Hallmarks-of-Cancer-26.png)
 
 **Capacity of 60 to 70 doublings**
 
@@ -108,7 +108,7 @@ therapy**
 
 # Telomer shortening in neoplasia
 
-![](img%5CHallmarks-of-Cancer-27.png)
+![](./img-local/Hallmarks-of-Cancer-27.png)
 
 **TP53 or RB mutations, cell is forced to replicate**
 
@@ -128,11 +128,11 @@ therapy**
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-28.png)
+![](./img-local/Hallmarks-of-Cancer-28.png)
 
 **Rubin’s Pathology 7th Ed**
 
-![](img%5CHallmarks-of-Cancer-29.png)
+![](./img-local/Hallmarks-of-Cancer-29.png)
 
 - **Telomere maintenance is seen in virtually all types of cancers**
 - **Upregulation of the enzyme telomerase**
@@ -142,11 +142,11 @@ therapy**
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-210.png)
+![](./img-local/Hallmarks-of-Cancer-210.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-211.jpg)
+![](./img-local/Hallmarks-of-Cancer-211.jpg)
 
 # DEVELOPMENT OF SUSTAINED ANGIOGENESIS
 

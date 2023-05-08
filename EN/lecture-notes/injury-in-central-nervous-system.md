@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CInjury-in-central-nervous-system0.jpg)
+![](./img-local/Injury-in-central-nervous-system0.jpg)
 
 # Injury in central nervous system
 
@@ -32,7 +32,7 @@ the cytoplasm (“red neurons”)**
 
 **Nucleus assumes the angulated shape of the shrunken cell body **
 
-![](img%5CInjury-in-central-nervous-system1.png)
+![](./img-local/Injury-in-central-nervous-system1.png)
 
 **Acute hypoxic-ischemic injury in cerebral cortex, where the individual
 cell bodies are shrunken, along with the nuclei. They also are
@@ -46,7 +46,7 @@ transport**
 **Swellings (spheroids) can be recognized on H&E stains and can be
 highlighted by silver staining or immunohistochemistry.**
 
-![](img%5CInjury-in-central-nervous-system2.png)
+![](./img-local/Injury-in-central-nervous-system2.png)
 
 **Axonal spheroids are visible as bulbous swellings at points of
 disruption, or altered axonal transport.**
@@ -63,7 +63,7 @@ disruption, or altered axonal transport.**
 
 **-peripheral dispersion of Nissl substance (central chromatolysis)**
 
-![](img%5CInjury-in-central-nervous-system3.png)
+![](./img-local/Injury-in-central-nervous-system3.png)
 
 **C: With axonal injury there can be swelling of the cell body and
 peripheral dispersal of the Nissl substance, termed chromatolysis.**
@@ -96,7 +96,7 @@ peripheral dispersal of the Nissl substance, termed chromatolysis.**
   - **Previously scant cytoplasm expands and takes on a bright pink hue,
     and the cell extends multiple stout, ramifying processes**
 
-![](img%5CInjury-in-central-nervous-system4.png)
+![](./img-local/Injury-in-central-nervous-system4.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 

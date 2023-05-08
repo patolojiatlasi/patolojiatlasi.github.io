@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CDegenerative-Diseases-of-CNS0.jpg)
+![](./img-local/Degenerative-Diseases-of-CNS0.jpg)
 
 # Degenerative Diseases of CNS
 
@@ -18,7 +18,7 @@ Serdar Balcı
   preferentially affect particular kinds of neurons??**
   - **Subtle differences among subtypes of neurons**
 
-![](img%5CDegenerative-Diseases-of-CNS1.png)
+![](./img-local/Degenerative-Diseases-of-CNS1.png)
 
 **Robbins Basic Pathology**
 
@@ -51,7 +51,7 @@ Serdar Balcı
 - **Arises during the course of many neurodegenerative diseases**
 - **Accompany numerous other diseases that injure the cerebral cortex**
 
-![](img%5CDegenerative-Diseases-of-CNS2.png)
+![](./img-local/Degenerative-Diseases-of-CNS2.png)
 
 **Robbins Basic Pathology**
 
@@ -81,7 +81,7 @@ Serdar Balcı
 
 **Beta amyloid (Aβ) accumulates in the brain over time**
 
-![](img%5CDegenerative-Diseases-of-CNS3.png)
+![](./img-local/Degenerative-Diseases-of-CNS3.png)
 
 # APP (amyloid precursor protein)Transmembrane protein
 
@@ -91,7 +91,7 @@ Serdar Balcı
 
 **Robbins Basic Pathology**
 
-![](img%5CDegenerative-Diseases-of-CNS4.png)
+![](./img-local/Degenerative-Diseases-of-CNS4.png)
 
 **Aβ is created APP is sequentially cleaved by the enzymes β-amyloid
 converting enzyme (BACE) and γ-secretase**
@@ -102,7 +102,7 @@ generated**
 
 **Robbins Basic Pathology**
 
-![](img%5CDegenerative-Diseases-of-CNS5.png)
+![](./img-local/Degenerative-Diseases-of-CNS5.png)
 
 **Aβ peptides form pathogenic aggregates and contribute to the
 characteristic plaques and tangles of Alzheimer disease**
@@ -165,14 +165,14 @@ microtubule binding protein tau**
   - **Then in the hippocampal formation and isocortex**
   - **Finally in the neocortex**
 
-![](img%5CDegenerative-Diseases-of-CNS6.png)
+![](./img-local/Degenerative-Diseases-of-CNS6.png)
 
 **Plaques contain a central core of amyloid and a surrounding region of
 dystrophic neurites**
 
 **Robbins Basic Pathology**
 
-![](img%5CDegenerative-Diseases-of-CNS7.png)
+![](./img-local/Degenerative-Diseases-of-CNS7.png)
 
 - **Neuritic plaques**
 - **Focal, spherical collections of dilated, tortuous, silver-staining
@@ -189,7 +189,7 @@ dystrophic neurites**
   - **Relative sparing of primary motor and sensory cortices until late
     in the disease course**
 
-![](img%5CDegenerative-Diseases-of-CNS8.png)
+![](./img-local/Degenerative-Diseases-of-CNS8.png)
 
 **Immunohistochemical stain for Aβ**
 
@@ -198,7 +198,7 @@ surrounding region**
 
 **Robbins Basic Pathology**
 
-![](img%5CDegenerative-Diseases-of-CNS9.png)
+![](./img-local/Degenerative-Diseases-of-CNS9.png)
 
 - **The amyloid core contains Aβ**
 - **Diffuse plaques**
@@ -208,13 +208,13 @@ surrounding region**
     ganglia, and the cerebellar cortex**
   - **May represent an early stage of plaque development**
 
-![](img%5CDegenerative-Diseases-of-CNS10.png)
+![](./img-local/Degenerative-Diseases-of-CNS10.png)
 
 **Neurons containing tangles stained with an antibody specific for tau**
 
 **Robbins Basic Pathology**
 
-![](img%5CDegenerative-Diseases-of-CNS11.png)
+![](./img-local/Degenerative-Diseases-of-CNS11.png)
 
 - **Neurofibrillary tangles**
 - **Bundles of paired helical filaments**
@@ -230,7 +230,7 @@ surrounding region**
   - **basal forebrain**
   - **raphe nuclei**
 
-![](img%5CDegenerative-Diseases-of-CNS12.png)
+![](./img-local/Degenerative-Diseases-of-CNS12.png)
 
 - **Neurofibrillary tangles**
 - **Major component of paired helical filaments is abnormally
@@ -317,18 +317,18 @@ neurons**
   or PINK1 genes**
   - **important for normal mitochondrial function**
 
-![](img%5CDegenerative-Diseases-of-CNS13.png)
+![](./img-local/Degenerative-Diseases-of-CNS13.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CDegenerative-Diseases-of-CNS14.png)
+![](./img-local/Degenerative-Diseases-of-CNS14.png)
 
 **Typical gross finding at autopsy is pallor of the substantia nigra and
 locus ceruleus**
 
 **Robbins Basic Pathology**
 
-![](img%5CDegenerative-Diseases-of-CNS15.png)
+![](./img-local/Degenerative-Diseases-of-CNS15.png)
 
 **Lewy bodies may be found in those neurons that remain**
 
@@ -398,7 +398,7 @@ nucleus of Meynert and the amygdala → Dementia**
   - **Atrophy frequently is also seen in the frontal lobe, less often in
     the parietal lobe, and occasionally in the entire cortex**
 
-![](img%5CDegenerative-Diseases-of-CNS16.png)
+![](./img-local/Degenerative-Diseases-of-CNS16.png)
 
 **Normal hemisphere on the left**
 
@@ -491,46 +491,46 @@ immunoreactive for ubiquitin**
     descending corticospinal tracts**
   - **Skeletal muscles show neurogenic atrophy**
 
-![](img%5CDegenerative-Diseases-of-CNS17.png)
+![](./img-local/Degenerative-Diseases-of-CNS17.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDegenerative-Diseases-of-CNS18.png)
+![](./img-local/Degenerative-Diseases-of-CNS18.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDegenerative-Diseases-of-CNS19.png)
+![](./img-local/Degenerative-Diseases-of-CNS19.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDegenerative-Diseases-of-CNS20.png)
+![](./img-local/Degenerative-Diseases-of-CNS20.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDegenerative-Diseases-of-CNS21.png)
+![](./img-local/Degenerative-Diseases-of-CNS21.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDegenerative-Diseases-of-CNS22.png)
+![](./img-local/Degenerative-Diseases-of-CNS22.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDegenerative-Diseases-of-CNS23.png)
+![](./img-local/Degenerative-Diseases-of-CNS23.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDegenerative-Diseases-of-CNS24.png)
+![](./img-local/Degenerative-Diseases-of-CNS24.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDegenerative-Diseases-of-CNS25.png)
+![](./img-local/Degenerative-Diseases-of-CNS25.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDegenerative-Diseases-of-CNS26.png)
+![](./img-local/Degenerative-Diseases-of-CNS26.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDegenerative-Diseases-of-CNS27.png)
+![](./img-local/Degenerative-Diseases-of-CNS27.png)
 
 **Autopsy Pathology: A Manual and Atlas**

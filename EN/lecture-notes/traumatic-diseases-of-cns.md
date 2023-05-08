@@ -6,7 +6,7 @@ sitoplazmada belirgin eozinofili (kırmızı nöron)**
 
 **Nükleus da büzüşen hücre gibi köşeli şekil alır**
 
-![](img%5CTraumatic-Diseases-of-CNS0.png)
+![](./img-local/Traumatic-Diseases-of-CNS0.png)
 
 **Robbins Basic Pathology**
 
@@ -16,7 +16,7 @@ transport**
 **Swellings (spheroids) can be recognized on H&E stains and can be
 highlighted by silver staining or immunohistochemistry.**
 
-![](img%5CTraumatic-Diseases-of-CNS1.png)
+![](./img-local/Traumatic-Diseases-of-CNS1.png)
 
 **Axonal spheroids are visible as bulbous swellings at points of
 disruption, or altered axonal transport.**
@@ -33,18 +33,18 @@ disruption, or altered axonal transport.**
 
 **-peripheral dispersion of Nissl substance (central chromatolysis)**
 
-![](img%5CTraumatic-Diseases-of-CNS2.png)
+![](./img-local/Traumatic-Diseases-of-CNS2.png)
 
 **C: With axonal injury there can be swelling of the cell body and
 peripheral dispersal of the Nissl substance, termed chromatolysis.**
 
 **Robbins Basic Pathology**
 
-![](img%5CTraumatic-Diseases-of-CNS3.png)
+![](./img-local/Traumatic-Diseases-of-CNS3.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CTraumatic-Diseases-of-CNS4.jpg)
+![](./img-local/Traumatic-Diseases-of-CNS4.jpg)
 
 # Traumatic Diseases of CNS
 
@@ -119,7 +119,7 @@ impact**
 **Acute contusions are present in both temporal lobes, with areas of
 hemorrhage and tissue disruption**
 
-![](img%5CTraumatic-Diseases-of-CNS5.png)
+![](./img-local/Traumatic-Diseases-of-CNS5.png)
 
 **Robbins Basic Pathology**
 
@@ -127,7 +127,7 @@ hemorrhage and tissue disruption**
 cortex may be preserved, trauma affects the superficial layers most
 severely**
 
-![](img%5CTraumatic-Diseases-of-CNS6.png)
+![](./img-local/Traumatic-Diseases-of-CNS6.png)
 
 **Robbins Basic Pathology**
 
@@ -143,7 +143,7 @@ severely**
 - **Inflammatory response to the injured tissue follows its usual
   course, with neutrophils preceding the appearance of macrophages**
 
-![](img%5CTraumatic-Diseases-of-CNS7.png)
+![](./img-local/Traumatic-Diseases-of-CNS7.png)
 
 **Old traumatic lesions have a characteristic macroscopic appearance**
 
@@ -152,7 +152,7 @@ gyri **
 
 **Robbins Basic Pathology**
 
-![](img%5CTraumatic-Diseases-of-CNS8.png)
+![](./img-local/Traumatic-Diseases-of-CNS8.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -193,11 +193,11 @@ unknown**
   - **Subarachnoid and intraparenchymal hemorrhages most often occur at
     sites of contusions and lacerations**
 
-![](img%5CTraumatic-Diseases-of-CNS9.png)
+![](./img-local/Traumatic-Diseases-of-CNS9.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CTraumatic-Diseases-of-CNS10.png)
+![](./img-local/Traumatic-Diseases-of-CNS10.png)
 
 # Epidural Hematoma
 
@@ -212,13 +212,13 @@ unknown**
 - **Dissect the tightly applied dura away from the inner skull surface**
 - **Produce a hematoma that compresses the brain surface**
 
-![](img%5CTraumatic-Diseases-of-CNS11.png)
+![](./img-local/Traumatic-Diseases-of-CNS11.png)
 
 **Epidural hematoma covering a portion of the dura**
 
 <span style="color:#FFFFFF">Robbins Basic Pathology</span>
 
-![](img%5CTraumatic-Diseases-of-CNS12.png)
+![](./img-local/Traumatic-Diseases-of-CNS12.png)
 
 # Subdural Hematoma
 
@@ -255,14 +255,14 @@ brain surface**
 
 **Breakdown and organization of the hematoma take place over time**
 
-![](img%5CTraumatic-Diseases-of-CNS13.png)
+![](./img-local/Traumatic-Diseases-of-CNS13.png)
 
 **Evolving subdural hematoma. The semiliquid membrane-bound mass of
 blood in the subdural space **
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CTraumatic-Diseases-of-CNS14.png)
+![](./img-local/Traumatic-Diseases-of-CNS14.png)
 
 **Subdural hematomas organize**
 
@@ -275,7 +275,7 @@ hematoma**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CTraumatic-Diseases-of-CNS15.png)
+![](./img-local/Traumatic-Diseases-of-CNS15.png)
 
 **Large organizing subdural hematoma attached to the dura**
 
@@ -296,44 +296,44 @@ microscopic findings consistent with hemorrhages of varying age**
 
 **Robbins Basic Pathology**
 
-![](img%5CTraumatic-Diseases-of-CNS16.png)
+![](./img-local/Traumatic-Diseases-of-CNS16.png)
 
-![](img%5CTraumatic-Diseases-of-CNS17.png)
+![](./img-local/Traumatic-Diseases-of-CNS17.png)
 
-![](img%5CTraumatic-Diseases-of-CNS18.png)
+![](./img-local/Traumatic-Diseases-of-CNS18.png)
 
-![](img%5CTraumatic-Diseases-of-CNS19.png)
+![](./img-local/Traumatic-Diseases-of-CNS19.png)
 
-![](img%5CTraumatic-Diseases-of-CNS20.png)
+![](./img-local/Traumatic-Diseases-of-CNS20.png)
 
-![](img%5CTraumatic-Diseases-of-CNS21.png)
+![](./img-local/Traumatic-Diseases-of-CNS21.png)
 
-![](img%5CTraumatic-Diseases-of-CNS22.png)
+![](./img-local/Traumatic-Diseases-of-CNS22.png)
 
-![](img%5CTraumatic-Diseases-of-CNS23.png)
+![](./img-local/Traumatic-Diseases-of-CNS23.png)
 
-![](img%5CTraumatic-Diseases-of-CNS24.png)
+![](./img-local/Traumatic-Diseases-of-CNS24.png)
 
-![](img%5CTraumatic-Diseases-of-CNS25.png)
+![](./img-local/Traumatic-Diseases-of-CNS25.png)
 
-![](img%5CTraumatic-Diseases-of-CNS26.png)
+![](./img-local/Traumatic-Diseases-of-CNS26.png)
 
-![](img%5CTraumatic-Diseases-of-CNS27.png)
+![](./img-local/Traumatic-Diseases-of-CNS27.png)
 
-![](img%5CTraumatic-Diseases-of-CNS28.png)
+![](./img-local/Traumatic-Diseases-of-CNS28.png)
 
-![](img%5CTraumatic-Diseases-of-CNS29.png)
+![](./img-local/Traumatic-Diseases-of-CNS29.png)
 
-![](img%5CTraumatic-Diseases-of-CNS30.png)
+![](./img-local/Traumatic-Diseases-of-CNS30.png)
 
-![](img%5CTraumatic-Diseases-of-CNS31.png)
+![](./img-local/Traumatic-Diseases-of-CNS31.png)
 
-![](img%5CTraumatic-Diseases-of-CNS32.png)
+![](./img-local/Traumatic-Diseases-of-CNS32.png)
 
-![](img%5CTraumatic-Diseases-of-CNS33.png)
+![](./img-local/Traumatic-Diseases-of-CNS33.png)
 
-![](img%5CTraumatic-Diseases-of-CNS34.png)
+![](./img-local/Traumatic-Diseases-of-CNS34.png)
 
-![](img%5CTraumatic-Diseases-of-CNS35.png)
+![](./img-local/Traumatic-Diseases-of-CNS35.png)
 
-![](img%5CTraumatic-Diseases-of-CNS36.png)
+![](./img-local/Traumatic-Diseases-of-CNS36.png)

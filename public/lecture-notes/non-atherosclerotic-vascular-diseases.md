@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CNon-Atherosclerotic-Vascular-Diseases0.jpg)
+![](./img-local/Non-Atherosclerotic-Vascular-Diseases0.jpg)
 
 # Pathology of VesselsNon-Atherosclerotic Vascular Diseases
 
@@ -21,7 +21,7 @@ Serdar Balcı
 
 **Different vascular structures for different purposes**
 
-![](img%5CNon-Atherosclerotic-Vascular-Diseases1.png)
+![](./img-local/Non-Atherosclerotic-Vascular-Diseases1.png)
 
 **Robbins Basic Pathology**
 
@@ -120,7 +120,7 @@ density**
 
 **Tumors and infections**
 
-![](img%5CNon-Atherosclerotic-Vascular-Diseases2.png)
+![](./img-local/Non-Atherosclerotic-Vascular-Diseases2.png)
 
 **Robbins Basic Pathology**
 
@@ -230,7 +230,7 @@ density**
   - **NO**
   - **Transforming growth factor-α (TGF-α)**
 
-![](img%5CNon-Atherosclerotic-Vascular-Diseases3.png)
+![](./img-local/Non-Atherosclerotic-Vascular-Diseases3.png)
 
 **Robbins Basic Pathology**
 
@@ -250,7 +250,7 @@ density**
 
 **Fatal intracerebral hemorrhage**
 
-![](img%5CNon-Atherosclerotic-Vascular-Diseases4.png)
+![](./img-local/Non-Atherosclerotic-Vascular-Diseases4.png)
 
 # Arteriovenous fistulas
 
@@ -274,7 +274,7 @@ density**
   - **Renovascular hypertension**
 - **Between focal segments → vascular outpouchings → rupture**
 
-![](img%5CNon-Atherosclerotic-Vascular-Diseases5.png)
+![](./img-local/Non-Atherosclerotic-Vascular-Diseases5.png)
 
 # DISORDERS OF BLOOD VESSEL HYPERREACTIVITY
 
@@ -289,7 +289,7 @@ density**
   - **Proximal vasodilation, central vasoconstriction, and more distal
     cyanosis**
 
-![](img%5CNon-Atherosclerotic-Vascular-Diseases6.png)
+![](./img-local/Non-Atherosclerotic-Vascular-Diseases6.png)
 
 # Primary Raynaud phenomenon
 
@@ -480,7 +480,7 @@ veins**
 
 # TUMORS OF VESSELS
 
-![](img%5CNon-Atherosclerotic-Vascular-Diseases7.png)
+![](./img-local/Non-Atherosclerotic-Vascular-Diseases7.png)
 
 **Robbins Basic Pathology**
 
@@ -524,11 +524,11 @@ veins**
 
 **Thin-walled capillaries with scant stroma**
 
-![](img%5CNon-Atherosclerotic-Vascular-Diseases8.png)
+![](./img-local/Non-Atherosclerotic-Vascular-Diseases8.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CNon-Atherosclerotic-Vascular-Diseases9.png)
+![](./img-local/Non-Atherosclerotic-Vascular-Diseases9.png)
 
 **Robbins Basic Pathology**
 
@@ -557,7 +557,7 @@ oral mucosa**
 **Develop after trauma, reaching a size of 1 to 2 cm within a few
 weeks**
 
-![](img%5CNon-Atherosclerotic-Vascular-Diseases10.png)
+![](./img-local/Non-Atherosclerotic-Vascular-Diseases10.png)
 
 **Robbins Basic Pathology**
 
@@ -576,7 +576,7 @@ tissue stroma**
 
 **Intravascular thrombosis, dystrophic calcification**
 
-![](img%5CNon-Atherosclerotic-Vascular-Diseases11.png)
+![](./img-local/Non-Atherosclerotic-Vascular-Diseases11.png)
 
 **Robbins Basic Pathology**
 
@@ -627,13 +627,13 @@ and vascular proliferation**
 
 **Cured by antibiotic treatment**
 
-![](img%5CNon-Atherosclerotic-Vascular-Diseases12.png)
+![](./img-local/Non-Atherosclerotic-Vascular-Diseases12.png)
 
 **Bacillary angiomatosis.**
 
 **Robbins Basic Pathology**
 
-![](img%5CNon-Atherosclerotic-Vascular-Diseases13.png)
+![](./img-local/Non-Atherosclerotic-Vascular-Diseases13.png)
 
 **Bacillary angiomatosis.**
 
@@ -657,11 +657,11 @@ demonstrates clusters of tangled bacilli (black)**
 - **Viral homologe of cyclin D causes proliferation**
 - **Patched, plaque, nodular phases**
 
-![](img%5CNon-Atherosclerotic-Vascular-Diseases14.png)
+![](./img-local/Non-Atherosclerotic-Vascular-Diseases14.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CNon-Atherosclerotic-Vascular-Diseases15.png)
+![](./img-local/Non-Atherosclerotic-Vascular-Diseases15.png)
 
 **Robbins Basic Pathology**
 
@@ -722,13 +722,13 @@ liver**
 
 - **5-year survival rates 30%**
 
-![](img%5CNon-Atherosclerotic-Vascular-Diseases16.png)
+![](./img-local/Non-Atherosclerotic-Vascular-Diseases16.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CNon-Atherosclerotic-Vascular-Diseases17.png)
+![](./img-local/Non-Atherosclerotic-Vascular-Diseases17.png)
 
-![](img%5CNon-Atherosclerotic-Vascular-Diseases18.png)
+![](./img-local/Non-Atherosclerotic-Vascular-Diseases18.png)
 
 **Moderately differentiated angiosarcoma with dense clumps of atypical
 cells lining distinct vascular lumina**
@@ -743,6 +743,6 @@ marker CD31**
 **Thrombosis, intimal thickening and atherosclerosis is seen after stent
 or grafts**
 
-![](img%5CNon-Atherosclerotic-Vascular-Diseases19.png)
+![](./img-local/Non-Atherosclerotic-Vascular-Diseases19.png)
 
 **Robbins Basic Pathology**
