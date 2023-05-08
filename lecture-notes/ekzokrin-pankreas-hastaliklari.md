@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B10.jpg)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B10.jpg)
 
 # Ekzokrin Pankreas Hastalıkları
 
@@ -40,7 +40,7 @@ enzymes**
 
 # Kistik Fibrozis
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B11.png)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B11.png)
 
 **Cystic fibrosis**
 
@@ -49,19 +49,19 @@ tissue.**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B12.png)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B12.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B13.png)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B13.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B14.png)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B14.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B15.png)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B15.png)
 
 **Pankreasta kistik fibrozis. Duktuslar dilate ve eozinofilik müsin ile
 tıkalı, parenkim atrofik ve fibröz doku gelişimi**
@@ -94,7 +94,7 @@ tıkalı, parenkim atrofik ve fibröz doku gelişimi**
 
 **Kronik pankreatit için artmış risk**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B16.png)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B16.png)
 
 # Anüler pankreas
 
@@ -139,7 +139,7 @@ gelişiyor**
 
 **Şeffaf seröz sıvı içerir**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B17.png)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B17.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -157,7 +157,7 @@ gelişiyor**
   - **Yoğun alkol tüketimi**
     - **ABD’de olguların %65’i, Britanyada 5%**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B18.png)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B18.png)
 
 **Robbins Basic Pathology**
 
@@ -200,7 +200,7 @@ gelişiyor**
 
 **Kan damarlarında hasar, interstisyel kanama**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B19.jpg)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B19.jpg)
 
 **The microscopic field shows a region of fat necrosis (right) and focal
 pancreatic parenchymal necrosis (center).**
@@ -211,7 +211,7 @@ precipitate in situ**
 
 **Robbins Basic Pathology**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B110.png)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B110.png)
 
 **The pancreas has been sectioned longitudinally to reveal dark areas of
 hemorrhage in the pancreatic substance and a focal area of pale fat
@@ -231,7 +231,7 @@ necrosis in the peripancreatic fat (upper left).**
 - **En ciddi hali → hemorajik pankreatit**
   - **Yaygın parankimal nekroz, difüz kanama**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B111.png)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B111.png)
 
 **Acute pancreatitis**
 
@@ -240,7 +240,7 @@ and peripancreatic fat**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B112.png)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B112.png)
 
 **Omentum with fat necrosis**
 
@@ -258,11 +258,11 @@ and peripancreatic fat**
   - **Faktör XII (Hageman factor) aktivasyonu, pıhtılaşma ve kompleman
     aktivasyonu**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B113.png)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B113.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B114.png)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B114.png)
 
 **Safra taşı veya çamuru**
 
@@ -287,7 +287,7 @@ pro-inflamatuar sitokin salgılarlar**
 
 **Robbins Basic Pathology**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B115.png)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B115.png)
 
 **İskemi, viral enfeksşyonlar, ilaçlar, direk travma**
 
@@ -295,7 +295,7 @@ pro-inflamatuar sitokin salgılarlar**
 
 **Robbins Basic Pathology**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B116.png)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B116.png)
 
 - **Pankreatik proenzimler ve lizozomal hidrolazlar birlikte
   paketlenir**
@@ -307,7 +307,7 @@ pro-inflamatuar sitokin salgılarlar**
 
 **Robbins Basic Pathology**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B117.png)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B117.png)
 
 **Robbins Basic Pathology**
 
@@ -342,11 +342,11 @@ pro-inflamatuar sitokin salgılarlar**
   - **Böbrek yetmezliği**
     - **Akut tübüler nekroz**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B118.png)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B118.png)
 
 **Robbins and Cotran Pathologic Basis of Diseases**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B119.png)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B119.png)
 
 **Robbins and Cotran Pathologic Basis of Diseases**
 
@@ -382,18 +382,18 @@ pro-inflamatuar sitokin salgılarlar**
 
 - **2 cm - 30 cm**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B120.png)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B120.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B121.jpg)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B121.jpg)
 
 **A: Cross-section revealing a poorly defined cyst with a necrotic
 brownish wall.**
 
 **Robbins Basic Pathology**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B122.jpg)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B122.jpg)
 
 **B: Histologically, the cyst lacks a true epithelial lining and instead
 is lined by fibrin and granulation tissue, with typical changes of
@@ -411,7 +411,7 @@ chronic inflammation.**
   - **diabetes mellitus**
 - **Tekrarlayan akut pankreatit atakları kronik pankreatite neden olur**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B123.png)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B123.png)
 
 **In chronic pancreatitis irreversible impairment in pancreatic
 function**
@@ -434,11 +434,11 @@ function**
 numerous areas of mineralization. Ducts are cystically dilated and
 contain scattered calculi.**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B124.png)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B124.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B125.jpg)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B125.jpg)
 
 **Extensive fibrosis and atrophy has left only residual islets (left)
 and ducts (right), with a sprinkling of chronic inflammatory cells and
@@ -446,7 +446,7 @@ acinar tissue.**
 
 **Robbins Basic Pathology**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B126.jpg)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B126.jpg)
 
 **parenchymal fibrosis**
 
@@ -458,7 +458,7 @@ acinar tissue.**
 
 **Robbins Basic Pathology**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B127.jpg)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B127.jpg)
 
 **Remaining islets of Langerhans become embedded in the sclerotic tissue
 and may fuse and appear enlarged; eventually they also disappear**
@@ -468,7 +468,7 @@ lobules and ducts**
 
 **Robbins Basic Pathology**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B128.jpg)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B128.jpg)
 
 **The ductal epithelium may be atrophied or hyperplastic or exhibit
 squamous metaplasia, and ductal concretions may be noted**
@@ -516,4 +516,4 @@ squamous metaplasia, and ductal concretions may be noted**
   - **deposit collagen**
   - **fibrosis**
 
-![](img%5CEkzokrin-Pankreas-Hastal%C4%B1klar%C4%B129.png)
+![](./img-local/Ekzokrin-Pankreas-Hastal%C4%B1klar%C4%B129.png)

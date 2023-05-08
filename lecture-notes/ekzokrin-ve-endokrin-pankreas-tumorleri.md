@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri0.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri0.jpg)
 
 # Ekzokrin ve Endokrin Pankreas Tümörleri
 
@@ -9,7 +9,7 @@ Serdar Balcı
 
 # PANKREATOBLASTOM
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri1.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri1.png)
 
 **Pankreatoblastom**
 
@@ -35,13 +35,13 @@ Serdar Balcı
 
 **Tüm pankreas neoplazilerinin \<%5**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri2.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri2.jpg)
 
 # Seröz Kistadenom
 
 **Robbins Basic Pathology**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri3.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri3.jpg)
 
 **Pankreas kistik tümörlerinin %25’i**
 
@@ -51,13 +51,13 @@ Serdar Balcı
 
 **Seröz Kistadenom**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri4.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri4.png)
 
 **Glikojenden zengin küboidal hücreler**
 
 **Robbins Basic Pathology**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri5.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri5.jpg)
 
 - **Yedinci dekad**
 - **Bulgular spesifik değil**
@@ -67,19 +67,19 @@ Serdar Balcı
 - **Cerrahi kür sağlar**
 - **Somatik von Hippel-Lindau ( VHL ) tumor supressor gen mutasyonu**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri6.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri6.png)
 
 **Robbins Basic Pathology**
 
 **Müsinöz Kistik Neoplazm**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri7.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri7.jpg)
 
 Robbins Basic Pathology
 
 **Müsinöz Kistik Neoplazm**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri8.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri8.jpg)
 
 **%95’I kadınlarda**
 
@@ -93,7 +93,7 @@ Robbins Basic Pathology
 
 **Müsinöz Kistik Neoplazm**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri9.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri9.jpg)
 
 **Kistler kolumnar müsinöz epitelle döşeli, çevresinde over stromasına
 benzer bir stroma var**
@@ -102,7 +102,7 @@ benzer bir stroma var**
 
 **Müsinöz Kistik Neoplazm**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri10.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri10.jpg)
 
 - **Epiteldeki sitolojik ve yapısal atipiye göre**
   - **Düşük dereceli, orta dereceli, yüksek dereceli displazi**
@@ -115,16 +115,16 @@ benzer bir stroma var**
 
 **Müsinöz Kistik Neoplazm**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri11.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri11.jpg)
 
 - **Noninvaziv kistler için distal pankreatektomi kür sağlar**
   - **Yüksek dereceli displazi olsa bile**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri12.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri12.jpg)
 
 **Intraduktal Papiller Müsinöz Neoplazm (IPMN)**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri13.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri13.jpg)
 
 **Pankreas başında lokalize belirgin papiller yapılar oluşturan, ana
 pankreatik duktusu genişleten tümör**
@@ -133,7 +133,7 @@ pankreatik duktusu genişleten tümör**
 
 **Intraduktal Papiller Müsinöz Neoplazm (IPMN)**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri14.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri14.jpg)
 
 **Müsin üreten intraduktal tümörler**
 
@@ -147,7 +147,7 @@ pankreatik duktusu genişleten tümör**
 
 **Intraduktal Papiller Müsinöz Neoplazm (IPMN)**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri15.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri15.jpg)
 
 **Papiller neoplazm ana duktusu tutumuş ve küçük duktüllere doğru
 yayılıyor**
@@ -156,7 +156,7 @@ yayılıyor**
 
 **Intraduktal Papiller Müsinöz Neoplazm (IPMN)**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri16.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri16.jpg)
 
 **Müsinöz kistik neoplazmlarda görülen stroma burada yok**
 
@@ -170,17 +170,17 @@ yayılıyor**
 
 **Robbins Basic Pathology**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri17.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri17.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri18.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri18.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri19.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri19.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
@@ -199,13 +199,13 @@ yayılıyor**
 - **Ailesel olgular var**
 - **BRCA2’deki germline mutasyonlar**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri20.gif)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri20.gif)
 
 **http://globocan.iarc.fr/Pages/fact_sheets_population.aspx**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri21.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri21.png)
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri22.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri22.png)
 
 **Prekürsör lezyonlar:**
 
@@ -217,7 +217,7 @@ yayılıyor**
 
 **Multipl mutasyonların birikimi sıralamalarından daha önemli**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri23.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri23.png)
 
 **KRAS**
 
@@ -245,13 +245,13 @@ yayılıyor**
 
 **Robbins Basic Pathology**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri24.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri24.png)
 
 **Pankreatik intraepitelyal neoplazi, derece 3 (PanIN-3)**
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri25.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri25.jpg)
 
 **%60’ı pankreas başında**
 
@@ -286,15 +286,15 @@ yayılıyor**
 - **Karaciğer boyutunda metastazlarla artış**
 - **Akciğer ve kemiklere uzak metastaz**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri26.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri26.png)
 
 **Robbins and Cotran Pathologic Basis of Diseases**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri27.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri27.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri28.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri28.jpg)
 
 **Orta az diferansiye adenokarsinom**
 
@@ -310,19 +310,19 @@ yayılıyor**
 
 **Robbins Basic Pathology**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri29.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri29.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri30.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri30.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri31.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri31.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri32.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri32.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
@@ -346,7 +346,7 @@ yayılıyor**
 
 # PANKRETIK NÖROENDOKRIN TÜMÖRLER
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri33.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri33.png)
 
 # Pankreatik Nöroendokrin Tümörler
 
@@ -360,15 +360,15 @@ yayılıyor**
 - **Nonfonksiyone olan tümörler tanı anında daha büyük**
   - **Klinik bulgu verecek hormon üretmediği için geç bulgu verir**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri34.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri34.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri35.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri35.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri36.jpg)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri36.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
@@ -390,7 +390,7 @@ yayılıyor**
   - **İnaktivasyon mutasyonları**
     - **ATRX and DAXX**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri37.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri37.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
@@ -425,13 +425,13 @@ yayılıyor**
 **Malign tümörler bile anaplazi özellikleri göstermeyebilir, ve belirgin
 enkapsüle olabilirler**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri38.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri38.png)
 
 **Ekstraselüler amiloid birikimi çoğu insülinomada görülür**
 
 **Robbins Basic Pathology**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri39.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri39.png)
 
 **Elektron mikroskopta insülinom granülleri, normal beta hücre
 hranüllerine benzer**
@@ -462,56 +462,56 @@ hranüllerine benzer**
 
 **Histolojik olarak belirgin anaplazi göstermezler**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri40.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri40.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri41.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri41.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri42.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri42.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri43.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri43.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri44.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri44.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri45.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri45.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri46.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri46.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri47.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri47.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
 # SOLID PSÖDOPAPILLER NEOPLAZM
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri48.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri48.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
 # ASINER HÜCRELI KARSINOM
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri49.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri49.png)
 
 **Asiner hücreli karsinom. Kesit yüzü solid ve nekrotik. Duktal tümörler
 gibi dezmoplazi yok**
 
 **Rosai and Ackerman’s Surgical Pathology**
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri50.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri50.png)
 
-![](img%5CEkzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri51.png)
+![](./img-local/Ekzokrin-ve-Endokrin-Pankreas-T%C3%BCm%C3%B6rleri51.png)
 
 **Asiner hücreli karsinom.**
 

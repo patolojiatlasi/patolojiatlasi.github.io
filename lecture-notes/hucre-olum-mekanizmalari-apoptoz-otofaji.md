@@ -1,49 +1,49 @@
 # Title
 Serdar Balcı
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji0.jpg)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji0.jpg)
 
 # Hücre Ölüm Mekanizmaları
 
 # Dr. Serdar BALCI
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji1.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji1.png)
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji2.jpg)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji2.jpg)
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji3.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji3.png)
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji4.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji4.png)
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji5.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji5.png)
 
 **Cell necrosis Liver**
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji6.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji6.png)
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
 
 **Cell necrosis Renal cortex**
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji7.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji7.png)
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji8.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji8.png)
 
 # SHRINKAGE/HYPERCHROMASIA
 
 **medicalschoolpathology.com**
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji9.jpg)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji9.jpg)
 
 **Core Pathology , Third Edition**
 
@@ -68,16 +68,16 @@ Serdar Balcı
 
 # Apoptoz erken evre
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji10.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji10.png)
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
 
 # Apoptoz geç evre
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji11.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji11.png)
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji12.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji12.png)
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
@@ -100,7 +100,7 @@ Serdar Balcı
 
 # Apoptozun fizyolojik nedenleri
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji13.jpg)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji13.jpg)
 
 - *Embriyogenez sırasında*
   - *Parmaklar arasındaki bağlantılar*
@@ -156,7 +156,7 @@ Serdar Balcı
   - **Parotis bezi**
   - **Böbrek**
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji14.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji14.png)
 
 **Kromatin yoğunlaşması ve kabalaşması**
 
@@ -174,22 +174,22 @@ Serdar Balcı
 
 **Sitozol ve organel içeren membranla çevrili veziküller**
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji15.jpg)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji15.jpg)
 
 **Core Pathology , Third Edition**
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji16.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji16.png)
 
 **Apoptoz mekanizması ** <span style="color:#FF0000">kaspaz </span>
 **enzimleri ile ** <span style="color:#FF0000">iki yolakla</span> \_\_
 olur\_\_
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji17.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji17.png)
 
 **Apoptotik ve anti-apoptotik sinyaller arası **
 <span style="color:#FF0000">denge</span> \_\_ vardır\_\_
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji18.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji18.png)
 
 # Mitokondriyal (İç) yolak
 
@@ -199,7 +199,7 @@ olur\_\_
 - **DNA hasarı**
   - **Radyasyon ve sitotoksik kemoterapi**
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji19.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji19.png)
 
 - **Bcl-2 **
   - **Anti-apoptotik**
@@ -208,17 +208,17 @@ olur\_\_
 - **Bcl-2’nin Bax’a oranı**
   - **Apoptoza gidip gitmemeyi belirler**
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji20.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji20.png)
 
 - **p53 çok fonksiyonlu bir protein**
   - **Hücre döngüsünü durdurur ve DNA tamirini başlatır**
   - **Eğer tamir başarısızsa bcl-2 yolağı ile apoptoz başlar**
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji21.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji21.png)
 
 **Mitokondriyal proteinler apoptozda merkezi bir rol oynar**
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji22.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji22.png)
 
 # Ölüm Reseptörü (Dış) Yolak
 
@@ -227,7 +227,7 @@ olur\_\_
 - **Tümör nekros faktörü (TNFR) gen ailesi**
   - **TNFR1 ve Fas (CD95)**
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji23.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji23.png)
 
 **Ligand bağlanması**
 
@@ -237,11 +237,11 @@ olur\_\_
 
 **Kaspazların aktivasyonu**
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji24.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji24.png)
 
 **Fas ligand aktive T lenfositlerinin yüzeyinde bulunur**
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji25.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji25.png)
 
 **FLIP (kaspaz antagonisti) bu yolağı inhibe eder**
 
@@ -331,11 +331,11 @@ hayatta tutmaya çalışırlar**
   - **Kaspazlar aktive olur**
   - **Apotoz**
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji26.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji26.png)
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji27.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji27.png)
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji28.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji28.png)
 
 # Oto-reaktif hücrelerin apoptozu
 
@@ -355,7 +355,7 @@ hayatta tutmaya çalışırlar**
 - **Sitotoksik T hücrelerinde Fas-Ligand da vardır ve Fas reseptörleri
   aracılığıyla apoptoz indüklenir**
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji29.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji29.png)
 
 # Nekroptoz
 
@@ -374,7 +374,7 @@ hayatta tutmaya çalışırlar**
 - **Kaspaz aktivasyonu yok**
   - **“kaspaz-bağımsız” programlı hücre ölümü**
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji30.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji30.png)
 
 **TNFR1 ile RNA, DNA virüslerinin proteinlerinin ligasyonu ile
 tetiklenir**
@@ -383,7 +383,7 @@ tetiklenir**
 
 **RIP1 ve RIP3 kompleksi**
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji31.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji31.png)
 
 **RIP1-RIP3 sinyali mitokondrial ATP üretimini azaltır**
 
@@ -414,13 +414,13 @@ tetiklenir**
 - **Pyro: fever (ateş)**
   - **IL-1 enfeksiyonda ateşe neden olan sitokin**
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji32.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji32.png)
 
 # OTOFAJİ
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji33.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji33.png)
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji34.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji34.png)
 
 # Otofaji: kendini yeme
 
@@ -428,7 +428,7 @@ tetiklenir**
 - **Gıda eksikliğindeki bir hayatta kalma mekanizması**
   - **Enerji ve gıda eksikliğinde geri dönüşüm amaçlı**
 
-![](img%5CH%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji35.png)
+![](./img-local/H%C3%BCcre-%C3%96l%C3%BCm-Mekanizmalar%C4%B1-Apoptoz-Otofaji35.png)
 
 **Organeller ve sitozolün bir kısmı otofajik vakuol içinde
 biriktirilir**

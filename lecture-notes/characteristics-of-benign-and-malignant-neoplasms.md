@@ -24,11 +24,11 @@ Serdar Balcı
 - **Accumulating mutations**
 - **Mostly Fatal**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms0.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms0.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms1.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms1.png)
 
 **Robbins Basic Pathology**
 
@@ -47,13 +47,13 @@ Serdar Balcı
 - **Chondroma: mature cartilage cells that synthesize their usual
   cartilaginous matrix**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms2.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms2.png)
 
 **MUIR’S TEXTBOOK OF PATHOLOGY**
 
 **Leiomyoma of the uterus**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms3.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms3.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
@@ -76,49 +76,49 @@ shemes.**
 
 **Adenocarcinoma of Colon**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms4.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms4.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms5.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms5.png)
 
 **Urologic Surgical Pathology, 3** **rd** \_\_ Ed\_\_
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms6.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms6.png)
 
 **Urologic Surgical Pathology, 3** **rd** \_\_ Ed\_\_
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms7.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms7.png)
 
 **Urologic Surgical Pathology, 3** **rd** \_\_ Ed\_\_
 
 **Well-differentiated squamous cell carcinoma of the skin**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms8.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms8.png)
 
 **Robbins Basic Pathology**
 
 **Well-differentiated squamous cell carcinoma of the skin**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms9.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms9.png)
 
 **Similar to normal squamous cells**
 
 **Robbins Basic Pathology**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms10.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms10.png)
 
 **Rubin’s Pathology 7th Ed**
 
 **Anaplastic tumor of the skeletal muscle (rhabdomyosarcoma)**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms11.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms11.png)
 
 **Robbins Basic Pathology**
 
 **Anaplastic tumor of the skeletal muscle (rhabdomyosarcoma)**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms12.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms12.png)
 
 **Prominent nucleoli**
 
@@ -148,11 +148,11 @@ cells**
 **Dedifferentiation or failure/ arrest in differentiation (stem cell
 origin)**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms13.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms13.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms14.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms14.png)
 
 **Pleomorphism: variation in size and shape of nuclei**
 
@@ -166,11 +166,11 @@ origin)**
 
 **Robbins Basic Pathology**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms15.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms15.png)
 
 **Rubin’s Pathology 7th Ed**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms16.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms16.png)
 
 **Rubin’s Pathology 7th Ed**
 
@@ -240,21 +240,21 @@ origin)**
 - **When these changes reach the full thickness of epithelium: carcinoma
   in situ**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms17.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms17.png)
 
 **Urologic Surgical Pathology, 3** **rd** \_\_ Ed\_\_
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms18.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms18.png)
 
 **Urologic Surgical Pathology, 3** **rd** \_\_ Ed\_\_
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms19.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms19.png)
 
 **Robbins Basic Pathology**
 
 **Carcinoma in situ**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms20.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms20.png)
 
 **Hypechromasia**
 
@@ -272,13 +272,13 @@ origin)**
 
 **Carcinoma in situ**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms21.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms21.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms22.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms22.png)
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms23.jpg)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms23.jpg)
 
 # RATE OF GROWTH
 
@@ -339,7 +339,7 @@ origin)**
 - **Some primary tumors (choriocarcinomas) become totally necrotic,
   leaving only secondary metastatic implants**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms24.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms24.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
@@ -381,11 +381,11 @@ necrosis**
 - **Develop an enclosing fibrous capsule**
   - **Separates them from the host tissue**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms25.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms25.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms26.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms26.png)
 
 **Robbins Basic Pathology**
 
@@ -404,11 +404,11 @@ necrosis**
   - **some benign vascular neoplasms of the dermis**
 - **Lack of a capsule does not mean that a tumor is malignant**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms27.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms27.png)
 
 **MUIR’S TEXTBOOK OF PATHOLOGY**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms28.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms28.png)
 
 **MUIR’S TEXTBOOK OF PATHOLOGY**
 
@@ -432,25 +432,25 @@ that they are devoid of cancer cells (clean margins)**
 **Like metastases, local invasiveness is the most reliable feature that
 distinguishes malignant from benign tumors**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms29.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms29.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms30.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms30.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms31.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms31.png)
 
 **MUIR’S TEXTBOOK OF PATHOLOGY**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms32.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms32.png)
 
 **Rubin’s Pathology 7th Ed**
 
 **Adenocarcinoma of Colon, invading pericolonic adipose tissue**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms33.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms33.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
@@ -464,7 +464,7 @@ distinguishes malignant from benign tumors**
 
 **Located in remote tissues**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms34.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms34.png)
 
 **Robbins Basic Pathology**
 
@@ -515,7 +515,7 @@ likely is metastatic spread**
   - **Proliferation of macrophages in the subcapsular sinuses (sinus
     histiocytosis)**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms35.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms35.png)
 
 **Pathology - The Big Picture**
 
@@ -549,7 +549,7 @@ likely is metastatic spread**
   - **All veins → Lung**
   - **Throid, prostate → paravertebral plexus → vertebra**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms36.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms36.png)
 
 **Rubin’s Pathology 7th Ed**
 
@@ -571,7 +571,7 @@ metastasis**
 
 **Homing of tumor cells**
 
-![](img%5CCharacteristics-of-Benign-and-Malignant-Neoplasms37.png)
+![](./img-local/Characteristics-of-Benign-and-Malignant-Neoplasms37.png)
 
 **Robbins Basic Pathology**
 

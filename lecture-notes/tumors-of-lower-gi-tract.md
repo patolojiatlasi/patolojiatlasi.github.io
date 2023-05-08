@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CTumors-of-Lower-GI-Tract0.jpg)
+![](./img-local/Tumors-of-Lower-GI-Tract0.jpg)
 
 # Tumors of Lower GI Tract
 
@@ -15,11 +15,11 @@ Serdar Balcı
 - **Non-neoplastic colonic polyps**
   - **inflammatory, hamartomatous, hyperplastic**
 
-![](img%5CTumors-of-Lower-GI-Tract1.png)
+![](./img-local/Tumors-of-Lower-GI-Tract1.png)
 
-![](img%5CTumors-of-Lower-GI-Tract2.jpg)
+![](./img-local/Tumors-of-Lower-GI-Tract2.jpg)
 
-![](img%5CTumors-of-Lower-GI-Tract3.jpg)
+![](./img-local/Tumors-of-Lower-GI-Tract3.jpg)
 
 **Those without stalks are referred to as sessile**
 
@@ -38,13 +38,13 @@ to create a stalk**
     inflammatory lesion of the anterior rectal wall**
   - **Impaired relaxation of the anorectal sphincter**
 
-![](img%5CTumors-of-Lower-GI-Tract4.png)
+![](./img-local/Tumors-of-Lower-GI-Tract4.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CTumors-of-Lower-GI-Tract5.png)
+![](./img-local/Tumors-of-Lower-GI-Tract5.png)
 
-![](img%5CTumors-of-Lower-GI-Tract6.png)
+![](./img-local/Tumors-of-Lower-GI-Tract6.png)
 
 # Hamartomatous Polyps
 
@@ -52,7 +52,7 @@ to create a stalk**
 
 **Components of various genetically determined or acquired syndromes**
 
-![](img%5CTumors-of-Lower-GI-Tract7.png)
+![](./img-local/Tumors-of-Lower-GI-Tract7.png)
 
 **Robbins Basic Pathology**
 
@@ -71,11 +71,11 @@ to create a stalk**
     the development of colonic adenocarcinoma**
 - **Mucosal hyperplasia, transforming growth factor-β (TGF-β)**
 
-![](img%5CTumors-of-Lower-GI-Tract8.png)
+![](./img-local/Tumors-of-Lower-GI-Tract8.png)
 
-![](img%5CTumors-of-Lower-GI-Tract9.png)
+![](./img-local/Tumors-of-Lower-GI-Tract9.png)
 
-![](img%5CTumors-of-Lower-GI-Tract10.png)
+![](./img-local/Tumors-of-Lower-GI-Tract10.png)
 
 **Pedunculated, smooth-surfaced, reddish lesions**
 
@@ -104,7 +104,7 @@ familial and subset of sporadic form**
 **Intestinal polyps are most common in the small intestine, may also
 occur in the stomach and colon, rarely, in the bladder and lungs**
 
-![](img%5CTumors-of-Lower-GI-Tract11.png)
+![](./img-local/Tumors-of-Lower-GI-Tract11.png)
 
 **Large and pedunculated**
 
@@ -113,7 +113,7 @@ occur in the stomach and colon, rarely, in the bladder and lungs**
 **Arborizing network of connective tissue, smooth muscle, lamina
 propria, and glands lined by normal-appearing intestinal epithelium**
 
-![](img%5CTumors-of-Lower-GI-Tract12.png)
+![](./img-local/Tumors-of-Lower-GI-Tract12.png)
 
 **Peutz-Jeghers polyp. Complex glandular architecture and bundles of
 smooth muscle help to distinguish Peutz-Jeghers polyps from juvenile
@@ -133,7 +133,7 @@ epithelial cells, leading to a “pileup” of goblet cells**
 **No malignant potential, must be distinguished from sessile serrated
 adenomas**
 
-![](img%5CTumors-of-Lower-GI-Tract13.png)
+![](./img-local/Tumors-of-Lower-GI-Tract13.png)
 
 **Most commonly found in the left colon**
 
@@ -145,26 +145,26 @@ adenomas**
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Lower-GI-Tract14.png)
+![](./img-local/Tumors-of-Lower-GI-Tract14.png)
 
 **Polyp surface with irregular tufting of epithelial cells**
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Lower-GI-Tract15.png)
+![](./img-local/Tumors-of-Lower-GI-Tract15.png)
 
 **Robbins Basic Pathology**
 
 **Tufting results from epithelial overcrowding**
 
-![](img%5CTumors-of-Lower-GI-Tract16.png)
+![](./img-local/Tumors-of-Lower-GI-Tract16.png)
 
 **Epithelial crowding produces a serrated architecture when glands are
 cut in cross-section**
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Lower-GI-Tract17.png)
+![](./img-local/Tumors-of-Lower-GI-Tract17.png)
 
 # Adenoma
 
@@ -186,28 +186,28 @@ cut in cross-section**
 
 **Surveillance colonoscopy**
 
-![](img%5CTumors-of-Lower-GI-Tract18.png)
+![](./img-local/Tumors-of-Lower-GI-Tract18.png)
 
 **fibromuscular stalk**
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CTumors-of-Lower-GI-Tract19.png)
+![](./img-local/Tumors-of-Lower-GI-Tract19.png)
 
 **Tubular adenoma with a smooth surface and rounded glands**
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Lower-GI-Tract20.jpg)
+![](./img-local/Tumors-of-Lower-GI-Tract20.jpg)
 
-![](img%5CTumors-of-Lower-GI-Tract21.png)
+![](./img-local/Tumors-of-Lower-GI-Tract21.png)
 
 **Villous adenoma with long, slender projections that are reminiscent of
 small intestinal villi**
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Lower-GI-Tract22.png)
+![](./img-local/Tumors-of-Lower-GI-Tract22.png)
 
 **The cytologic hallmark of epithelial dysplasia is nuclear
 hyperchromasia, elongation, and stratification**
@@ -218,9 +218,9 @@ crypt**
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Lower-GI-Tract23.png)
+![](./img-local/Tumors-of-Lower-GI-Tract23.png)
 
-![](img%5CTumors-of-Lower-GI-Tract24.png)
+![](./img-local/Tumors-of-Lower-GI-Tract24.png)
 
 **Sessile serrated adenoma**
 
@@ -232,21 +232,21 @@ the crypts**
 
 **Have a malignant potential similar to that of traditional adenomas**
 
-![](img%5CTumors-of-Lower-GI-Tract25.png)
+![](./img-local/Tumors-of-Lower-GI-Tract25.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Lower-GI-Tract26.png)
+![](./img-local/Tumors-of-Lower-GI-Tract26.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Lower-GI-Tract27.png)
+![](./img-local/Tumors-of-Lower-GI-Tract27.png)
 
-![](img%5CTumors-of-Lower-GI-Tract28.png)
+![](./img-local/Tumors-of-Lower-GI-Tract28.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Lower-GI-Tract29.png)
+![](./img-local/Tumors-of-Lower-GI-Tract29.png)
 
 **Robbins Basic Pathology**
 
@@ -261,11 +261,11 @@ the crypts**
 **\>100 polyps is necessary for a diagnosis of classic FAP, and as many
 as several thousand may be present**
 
-![](img%5CTumors-of-Lower-GI-Tract30.png)
+![](./img-local/Tumors-of-Lower-GI-Tract30.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Lower-GI-Tract31.png)
+![](./img-local/Tumors-of-Lower-GI-Tract31.png)
 
 **Robbins Basic Pathology**
 
@@ -356,13 +356,13 @@ by mutation or epigenetic events, for adenomas to develop**
 
 **β-Catenin is dectructed**
 
-![](img%5CTumors-of-Lower-GI-Tract32.png)
+![](./img-local/Tumors-of-Lower-GI-Tract32.png)
 
 **Robbins Basic Pathology**
 
 **β-Catenin is active in the nucleus**
 
-![](img%5CTumors-of-Lower-GI-Tract33.png)
+![](./img-local/Tumors-of-Lower-GI-Tract33.png)
 
 **cyclin D1 and MYC transcribed for proliferation**
 
@@ -377,7 +377,7 @@ by mutation or epigenetic events, for adenomas to develop**
 **TP53 ?? 70% to 80% of colon cancers but is uncommonly affected in
 adenomas**
 
-![](img%5CTumors-of-Lower-GI-Tract34.png)
+![](./img-local/Tumors-of-Lower-GI-Tract34.png)
 
 **KRAS**
 
@@ -403,11 +403,11 @@ chromosomal instability in this pathway**
 
 **Due to loss of mismatch repair genes**
 
-![](img%5CTumors-of-Lower-GI-Tract35.png)
+![](./img-local/Tumors-of-Lower-GI-Tract35.png)
 
-![](img%5CTumors-of-Lower-GI-Tract36.png)
+![](./img-local/Tumors-of-Lower-GI-Tract36.png)
 
-![](img%5CTumors-of-Lower-GI-Tract37.png)
+![](./img-local/Tumors-of-Lower-GI-Tract37.png)
 
 - **Mutations accumulate in microsatellite repeats → microsatellite
   instability**
@@ -417,7 +417,7 @@ chromosomal instability in this pathway**
     - **type II TGF-β receptor, uncontrolled growth**
     - **pro-apoptotic protein BAX, survival of abnormal clones**
 
-![](img%5CTumors-of-Lower-GI-Tract38.png)
+![](./img-local/Tumors-of-Lower-GI-Tract38.png)
 
 **Mutations in the oncogene BRAF and silencing of distinct groups of
 genes due to CpG island hypermethylation also are common in cancers that
@@ -427,7 +427,7 @@ develop through DNA mismatch repair defects.**
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Lower-GI-Tract39.png)
+![](./img-local/Tumors-of-Lower-GI-Tract39.png)
 
 # Adenocarcinoma distribution
 
@@ -443,21 +443,21 @@ develop through DNA mismatch repair defects.**
     luminal narrowing**
   - **point of obstruction**
 
-![](img%5CTumors-of-Lower-GI-Tract40.png)
+![](./img-local/Tumors-of-Lower-GI-Tract40.png)
 
-![](img%5CTumors-of-Lower-GI-Tract41.png)
+![](./img-local/Tumors-of-Lower-GI-Tract41.png)
 
-![](img%5CTumors-of-Lower-GI-Tract42.png)
+![](./img-local/Tumors-of-Lower-GI-Tract42.png)
 
-![](img%5CTumors-of-Lower-GI-Tract43.png)
-
-**Robbins Basic Pathology**
-
-![](img%5CTumors-of-Lower-GI-Tract44.png)
+![](./img-local/Tumors-of-Lower-GI-Tract43.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Lower-GI-Tract45.png)
+![](./img-local/Tumors-of-Lower-GI-Tract44.png)
+
+**Robbins Basic Pathology**
+
+![](./img-local/Tumors-of-Lower-GI-Tract45.png)
 
 **A: Well-differentiated adenocarcinoma. Note the elongated,
 hyperchromatic nuclei. Necrotic debris, present in the gland lumen, is
@@ -465,16 +465,16 @@ typical.**
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Lower-GI-Tract46.png)
+![](./img-local/Tumors-of-Lower-GI-Tract46.png)
 
 **Poorly differentiated adenocarcinoma forms a few glands but is largely
 composed of infiltrating nests of tumor cells.**
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Lower-GI-Tract47.png)
+![](./img-local/Tumors-of-Lower-GI-Tract47.png)
 
-![](img%5CTumors-of-Lower-GI-Tract48.png)
+![](./img-local/Tumors-of-Lower-GI-Tract48.png)
 
 **Mucinous adenocarcinoma with signet ring cells and extracellular mucin
 pools**
@@ -483,9 +483,9 @@ pools**
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Lower-GI-Tract49.png)
+![](./img-local/Tumors-of-Lower-GI-Tract49.png)
 
-![](img%5CTumors-of-Lower-GI-Tract50.png)
+![](./img-local/Tumors-of-Lower-GI-Tract50.png)
 
 **Lymph node metastasis**
 
@@ -493,31 +493,31 @@ pools**
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Lower-GI-Tract51.png)
+![](./img-local/Tumors-of-Lower-GI-Tract51.png)
 
 **B: Solitary subpleural nodule of colorectal carcinoma metastatic to
 the lung.**
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Lower-GI-Tract52.png)
+![](./img-local/Tumors-of-Lower-GI-Tract52.png)
 
 **C: Liver containing two large and many smaller metastases. Note the
 central necrosis within metastases.**
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Lower-GI-Tract53.png)
+![](./img-local/Tumors-of-Lower-GI-Tract53.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Lower-GI-Tract54.jpg)
+![](./img-local/Tumors-of-Lower-GI-Tract54.jpg)
 
-![](img%5CTumors-of-Lower-GI-Tract55.png)
+![](./img-local/Tumors-of-Lower-GI-Tract55.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Lower-GI-Tract56.png)
+![](./img-local/Tumors-of-Lower-GI-Tract56.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 

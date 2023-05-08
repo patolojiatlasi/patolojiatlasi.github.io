@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis0.jpg)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis0.jpg)
 
 # Valvular Heart Diseases, Rheumatic Fever and Endocarditis
 
@@ -78,14 +78,14 @@ separation **
 
 **Prone to early and progressive degenerative calcification**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis1.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis1.png)
 
 # Acquired stenoses
 
 **Acquired stenoses of the aortic and mitral valves account for
 approximately two thirds of all valve disease**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis2.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis2.png)
 
 **Robbins Basic Pathology**
 
@@ -96,39 +96,39 @@ approximately two thirds of all valve disease**
 - **Calcifications**
   - **Cuspal in the aortic valve**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis3.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis3.png)
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis4.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis4.png)
 
 - **Calcifications**
   - **Annular in the mitral valve**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis5.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis5.png)
 
 - **Calcifications**
   - **Annular in the mitral valve**
   - **Mitral annular calcification usually is asymptomatic unless it
     grows on the adjacent conduction system**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis6.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis6.png)
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis7.png)
-
-**Robbins Basic Pathology**
-
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis8.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis7.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis9.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis8.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis10.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis9.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis11.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis10.png)
+
+**Robbins Basic Pathology**
+
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis11.png)
 
 **Robbins Basic Pathology**
 
@@ -152,7 +152,7 @@ approximately two thirds of all valve disease**
 
 **Valvular counterparts to age-related arteriosclerosis**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis12.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis12.png)
 
 - **Chronic injury due to:**
   - **Hyperlipidemia**
@@ -160,14 +160,14 @@ approximately two thirds of all valve disease**
   - **Inflammation**
   - **Other factors implicated in atherosclerosis**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis13.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis13.png)
 
 - **Most cases**
   - **Asymptomatic, incidentally routine chest X-ray**
 - **Severe stenosis**
   - **Require surgery**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis14.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis14.png)
 
 **Calcified masses on the outflow side of the cusps**
 
@@ -175,14 +175,14 @@ approximately two thirds of all valve disease**
 
 **Mechanically impede valve opening**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis15.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis15.png)
 
 - **Commissural fusion is not typical**
   - **may become secondarily**
 - **Earlier, hemodynamically inconsequential stage**
   - **Aortic valve sclerosis**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis16.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis16.png)
 
 **Concentric left ventricular hypertrophy**
 
@@ -194,7 +194,7 @@ approximately two thirds of all valve disease**
 
 **Cardiac decompensation**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis17.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis17.png)
 
 # Myxomatous Mitral Valve
 
@@ -206,7 +206,7 @@ approximately two thirds of all valve disease**
 
 **Men and women are equally affected**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis18.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis18.png)
 
 **Myxomatous Mitral Valve**
 
@@ -222,7 +222,7 @@ approximately two thirds of all valve disease**
   myofibroblasts**
   - **Chronically aberrant hemodynamic forces**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis19.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis19.png)
 
 - **Ballooning (hooding) of the mitral leaflets**
 - **Leaflets**
@@ -234,14 +234,14 @@ approximately two thirds of all valve disease**
 - **Aortic and pulmonic valves**
   - **Less common**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis20.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis20.png)
 
 - **Histologic examination**
   - **Thinning fibrosa layer of the valve**
   - **Expansion of the middle spongiosa layer**
   - **Increased deposition of myxomatous (mucoid) material**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis21.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis21.png)
 
 - **The natural history and clinical course are benign**
 - **3% develop complications**
@@ -250,7 +250,7 @@ approximately two thirds of all valve disease**
   - **Increased risk for infective endocarditis**
   - **Sudden cardiac death due to ventricular arrhythmias**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis22.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis22.png)
 
 # RHEUMATIC VALVULAR DISEASE
 
@@ -310,7 +310,7 @@ approximately two thirds of all valve disease**
   - **Abundant cytoplasm and central nuclei with condensed chromatin**
   - **slender, wavy ribbon (caterpillar cells)**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis23.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis23.png)
 
 **Robbins Basic Pathology**
 
@@ -337,7 +337,7 @@ approximately two thirds of all valve disease**
 **Acute rheumatic mitral valvulitis superimposed on chronic rheumatic
 heart disease**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis24.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis24.png)
 
 **vegetations (verrucae) **
 
@@ -371,7 +371,7 @@ heart disease**
 
 **Marked left atrial dilation**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis25.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis25.png)
 
 **“fishmouth” or “buttonhole” stenoses**
 
@@ -385,13 +385,13 @@ heart disease**
 
 **Inflammatory neovascularization**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis26.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis26.png)
 
 **Robbins Basic Pathology**
 
 **Thickening and distortion of the cusps with commissural fusion**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis27.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis27.png)
 
 **Robbins Basic Pathology**
 
@@ -503,7 +503,7 @@ and calcification over time**
 **Subacute endocarditis caused by Streptococcus viridans on a previously
 myxomatous mitral valve**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis28.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis28.png)
 
 **Robbins Basic Pathology**
 
@@ -511,7 +511,7 @@ myxomatous mitral valve**
 bicuspid aortic valve with extensive cuspal destruction and ring abscess
 **
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis29.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis29.png)
 
 **Robbins Basic Pathology**
 
@@ -536,11 +536,11 @@ bicuspid aortic valve with extensive cuspal destruction and ring abscess
 
 **Potential nidus for bacterial colonization → infective endocarditis**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis30.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis30.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis31.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis31.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -552,7 +552,7 @@ bicuspid aortic valve with extensive cuspal destruction and ring abscess
 
 **Thrombus is only loosely attached to the cusp **
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis32.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis32.png)
 
 **Robbins Basic Pathology**
 
@@ -574,7 +574,7 @@ bicuspid aortic valve with extensive cuspal destruction and ring abscess
 
 **Similar lesions occur in antiphospholipid antibody syndrome**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis33.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis33.png)
 
 **Rheumatic heart disease**
 
@@ -586,7 +586,7 @@ bicuspid aortic valve with extensive cuspal destruction and ring abscess
 
 **Robbins Basic Pathology**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis34.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis34.png)
 
 **Infective endocarditis**
 
@@ -598,7 +598,7 @@ bicuspid aortic valve with extensive cuspal destruction and ring abscess
 
 **Robbins Basic Pathology**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis35.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis35.png)
 
 **Nonbacterial thrombotic endocarditis**
 
@@ -608,7 +608,7 @@ bicuspid aortic valve with extensive cuspal destruction and ring abscess
 
 **Robbins Basic Pathology**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis36.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis36.png)
 
 **Libman-Sacks endocarditis**
 
@@ -646,7 +646,7 @@ mucopolysaccharide rich matrix**
 
 **Tricuspid insufficiency and pulmonary stenosis**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis37.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis37.png)
 
 **Robbins Basic Pathology**
 
@@ -654,62 +654,62 @@ mucopolysaccharide rich matrix**
 intima, which contains smooth muscle cells and abundant acid
 mucopolysaccharides**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis38.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis38.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis39.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis39.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis40.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis40.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis41.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis41.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis42.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis42.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis43.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis43.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis44.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis44.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis45.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis45.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis46.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis46.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis47.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis47.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis48.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis48.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis49.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis49.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis50.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis50.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis51.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis51.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CValvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis52.png)
+![](./img-local/Valvular-Heart-Diseases%2C-Rheumatic-Fever-and-Endocarditis52.png)
 
 **Autopsy Pathology: A Manual and Atlas**

@@ -1,23 +1,23 @@
 # Title
 Serdar Balcı
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B10.jpg)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B10.jpg)
 
 # Karaciğerin inflamatuar, toksik, alkolik ve metabolik hastalıkları
 
 # Dr. Serdar BALCI
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B11.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B11.png)
 
 **Atlas of Liver Pathology**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B12.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B12.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B13.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B13.png)
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B14.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B14.png)
 
 # İLAÇ VEYA TOKSIK NEDENLI KARACIĞER HASTALIKLARI
 
@@ -52,7 +52,7 @@ Serdar Balcı
   - **Çevresel maruziyet (temizleme solüsyonları, böcek ilaçları, tarım
     ilaçları)**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B15.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B15.png)
 
 **Robbins Basic Pathology**
 
@@ -93,15 +93,15 @@ Serdar Balcı
   - **Direk toksisite**
   - **Immün ilişkili hepatosit veya safra destrüksiyonu**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B16.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B16.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B17.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B17.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B18.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B18.png)
 
 **Asetaminofen aşırı doz. Zon 3, perivenüler bölgede konflüen nekroz**
 
@@ -129,7 +129,7 @@ Serdar Balcı
 - **Makroskopik olarak yaygın yağlı karaciğer:**
   - **İri (4-6 kg), ymuşak, sarı ve yağlı**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B19.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B19.png)
 
 **Robbins Basic Pathology**
 
@@ -144,7 +144,7 @@ Serdar Balcı
   - **Dejenere hepatositler içerisindeki eozinofilik sitoplazmik
     inklüzyonlar**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B110.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B110.png)
 
 **Nekrotik hepatosit ve çevresinde kümelenmiş inflamatuar hücreler**
 
@@ -152,7 +152,7 @@ Serdar Balcı
 
 **Robbins Basic Pathology**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B111.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B111.png)
 
 **Balonlaşmış hepatositler**
 
@@ -200,15 +200,15 @@ başlar**
 **Steatosis or fatty change imparts a yellow to orange cast to the liver
 parenchyma**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B112.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B112.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B113.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B113.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B114.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B114.png)
 
 **Robbins Basic Pathology**
 
@@ -223,7 +223,7 @@ gelişebilir**
 
 **Alcoholic liver disease**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B115.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B115.png)
 
 **Robbins Basic Pathology**
 
@@ -283,15 +283,15 @@ gelişebilir**
       belirgin**
     - **Nötrofillerden daha çok mononükleer infiltrasyon hakim**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B116.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B116.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B117.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B117.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B118.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B118.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
@@ -316,9 +316,9 @@ gelişebilir**
   - **Unripe ackee fruit, Jamaica**
   - **Highly active antiretroviral therapy (HAART) tedavileri, HIV**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B119.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B119.png)
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B120.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B120.png)
 
 - **Hepatoselüler mikroveziküler steatoz**
   - **Elektron mikroskopide**
@@ -354,7 +354,7 @@ gelişebilir**
   - **Diyabet mellit (%75-80)**
   - **Deri pigmentasyonu (%75-80)**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B121.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B121.png)
 
 # Hereditary hemochromatosis
 
@@ -403,11 +403,11 @@ reaksiyonlar**
 
 **accumulation of iron results in a rusty brown liver **
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B122.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B122.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B123.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B123.png)
 
 **Robbins Basic Pathology**
 
@@ -477,7 +477,7 @@ ceruloplasmin oluşturur**
 
 - **Kayser-Fleischer halkaları**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B124.jpg)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B124.jpg)
 
 - **Diğer hastalıkları taklit edebilir**
   - **Yağlı karaciğer**
@@ -520,7 +520,7 @@ değil**
 
 **Transplantasyon**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B125.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B125.png)
 
 **α1-Antitrypsin deficiency**
 
@@ -541,7 +541,7 @@ değil**
   - **Direk invazyon**
   - **Penetran yaralanma**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B126.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B126.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -559,4 +559,4 @@ değil**
 
 **İlaç/toksin ilişkili hasar**
 
-![](img%5CKaraci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B127.png)
+![](./img-local/Karaci%C4%9Ferin-inflamatuar%2C-toksik%2C-alkolik-ve-metabolik-hastal%C4%B1klar%C4%B127.png)

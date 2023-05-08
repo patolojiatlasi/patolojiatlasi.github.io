@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CIntroduction-to-pathology0.jpg)
+![](./img-local/Introduction-to-pathology0.jpg)
 
 # Introduction to Pathology
 
@@ -133,11 +133,11 @@ diseases?**
   answer the questions in these four groups:**
   - **i.e. “Tell us the pathologies of ovary”**
 
-![](img%5CIntroduction-to-pathology1.jpg)
+![](./img-local/Introduction-to-pathology1.jpg)
 
 **Underwood’s Pathology: A Clinical Approach , Sixth Edition**
 
-![](img%5CIntroduction-to-pathology2.jpg)
+![](./img-local/Introduction-to-pathology2.jpg)
 
 **Underwood’s Pathology: A Clinical Approach , Sixth Edition**
 
@@ -187,7 +187,7 @@ diseases?**
 
 **Genetic background (susceptibility) + environmental effects**
 
-![](img%5CIntroduction-to-pathology3.png)
+![](./img-local/Introduction-to-pathology3.png)
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
@@ -205,9 +205,9 @@ abnormalities**
 
 **How the disease forms in sequence**
 
-![](img%5CIntroduction-to-pathology4.png)
+![](./img-local/Introduction-to-pathology4.png)
 
-![](img%5CIntroduction-to-pathology5.png)
+![](./img-local/Introduction-to-pathology5.png)
 
 **Figure 10-19, 10-20 from Robbins**
 
@@ -216,7 +216,7 @@ manifestations**
 
 **How the cancer forms in sequence**
 
-![](img%5CIntroduction-to-pathology6.png)
+![](./img-local/Introduction-to-pathology6.png)
 
 **Figure 17-49 from Robbins**
 
@@ -233,7 +233,7 @@ manifestations**
 - **Characteristic of a disease**
 - **Diagnostic of an etiologic process**
 
-![](img%5CIntroduction-to-pathology7.png)
+![](./img-local/Introduction-to-pathology7.png)
 
 **Stevens, Alan, MB BS, FRCPath - Core Pathology**
 
@@ -272,40 +272,40 @@ Berlin and dealt with public health**
 - **Immunologic properties**
 - **Molecular alterations**
 
-![](img%5CIntroduction-to-pathology8.png)
+![](./img-local/Introduction-to-pathology8.png)
 
-![](img%5CIntroduction-to-pathology9.png)
+![](./img-local/Introduction-to-pathology9.png)
 
-![](img%5CIntroduction-to-pathology10.png)
+![](./img-local/Introduction-to-pathology10.png)
 
-![](img%5CIntroduction-to-pathology11.png)
+![](./img-local/Introduction-to-pathology11.png)
 
-![](img%5CIntroduction-to-pathology12.jpg)
+![](./img-local/Introduction-to-pathology12.jpg)
 
-![](img%5CIntroduction-to-pathology13.png)
+![](./img-local/Introduction-to-pathology13.png)
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
 
 # Macroscopic examination
 
-![](img%5CIntroduction-to-pathology14.jpg)
+![](./img-local/Introduction-to-pathology14.jpg)
 
-![](img%5CIntroduction-to-pathology15.png)
+![](./img-local/Introduction-to-pathology15.png)
 
 # Microscopy
 
-![](img%5CIntroduction-to-pathology16.jpg)
+![](./img-local/Introduction-to-pathology16.jpg)
 
-![](img%5CIntroduction-to-pathology17.jpg)
+![](./img-local/Introduction-to-pathology17.jpg)
 
-![](img%5CIntroduction-to-pathology18.jpg)
+![](./img-local/Introduction-to-pathology18.jpg)
 
-![](img%5CIntroduction-to-pathology19.png)
+![](./img-local/Introduction-to-pathology19.png)
 
 # Cytology
 
-![](img%5CIntroduction-to-pathology20.png)
+![](./img-local/Introduction-to-pathology20.png)
 
 **Cytological preparation of a fine needle aspirate of a breast
 carcinoma. The specimen consists of dissociated cells with no
@@ -313,7 +313,7 @@ surrounding tissue.**
 
 # Immunohistochemistry
 
-![](img%5CIntroduction-to-pathology21.jpg)
+![](./img-local/Introduction-to-pathology21.jpg)
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
@@ -386,13 +386,13 @@ surrounding tissue.**
 
 # The books of medicine
 
-![](img%5CIntroduction-to-pathology22.png)
+![](./img-local/Introduction-to-pathology22.png)
 
-![](img%5CIntroduction-to-pathology23.jpg)
+![](./img-local/Introduction-to-pathology23.jpg)
 
-![](img%5CIntroduction-to-pathology24.jpg)
+![](./img-local/Introduction-to-pathology24.jpg)
 
-![](img%5CIntroduction-to-pathology25.jpg)
+![](./img-local/Introduction-to-pathology25.jpg)
 
 # Some books to study pathology
 
@@ -438,7 +438,7 @@ some suggestions for present or future studies.**
 
 **Medicine is an ever changing science so the trends in the books.**
 
-![](img%5CIntroduction-to-pathology26.jpg)
+![](./img-local/Introduction-to-pathology26.jpg)
 
 # Some web sites
 
@@ -452,7 +452,7 @@ some suggestions for present or future studies.**
 
 *<http://uscap.org/>*
 
-![](img%5CIntroduction-to-pathology27.png)
+![](./img-local/Introduction-to-pathology27.png)
 
 **Ludwig, Handbook of Autopsy Practice, Humana Press**
 
@@ -467,6 +467,6 @@ cell, is the basis of all disease”**
 
 **Hamdi Suat Aknar, Kamile Şevki Mutlu**
 
-![](img%5CIntroduction-to-pathology28.jpg)
+![](./img-local/Introduction-to-pathology28.jpg)
 
-![](img%5CIntroduction-to-pathology29.jpg)
+![](./img-local/Introduction-to-pathology29.jpg)

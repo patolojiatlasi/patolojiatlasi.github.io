@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B10.jpg)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B10.jpg)
 
 # Safra Kesesi ve Ekstrahepatik Safra Yolu Hastalıkları
 
@@ -54,15 +54,15 @@ Serdar Balcı
   - **Gebelik, hızlı kilo kaybı, spinal kord hasarı**
   - **Belirgin sebep olmadan**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B11.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B11.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B12.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B12.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B13.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B13.png)
 
 # Kolesterol Taşları
 
@@ -82,19 +82,19 @@ değişikliği**
 **Çoğu radyolüsen, %20’sinde radyoopak olacak kadar kalsiyum karbonat
 var**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B14.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B14.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B15.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B15.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B16.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B16.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B17.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B17.png)
 
 # Pigmente taşlar
 
@@ -114,7 +114,7 @@ var**
   - **Radyolüsen**
     - **Kalsiyum sabunu benzeri içerik**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B18.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B18.png)
 
 # Kolelitiazis (Safra Taşı)
 
@@ -131,7 +131,7 @@ var**
   - **Büyük taşlar erezyona, ince barsağa doğru fistüle neden olur ve
     buradan ince barsağa geçer, safra taşı ileusu**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B19.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B19.png)
 
 # Kolesistit
 
@@ -251,11 +251,11 @@ var**
   - **Altta yatan hastalıkların alevlenmesi**
     - **Kalp, akciğer, böbrek, karaciğer dekompanzasyonu**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B110.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B110.png)
 
 **Robbins and Cotran Pathologic Basis of Diseases**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B111.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B111.png)
 
 **Robbins and Cotran Pathologic Basis of Diseases**
 
@@ -412,19 +412,19 @@ transplantation**
 
 - **Ameliyat öncesi tanı \<20%**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B112.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B112.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B113.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B113.png)
 
 **Robbins and Cotran Pathologic Basis of Diseases**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B114.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B114.png)
 
 \_\_ WHO Classification of Tumours of the Digestive System\_\_
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B115.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B115.png)
 
 **Intracholecystic Papillary Tubular Neoplasm of the**
 
@@ -432,7 +432,7 @@ transplantation**
 
 **Pathol Case Rev 2014;19: 283** **–** **288**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B116.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B116.png)
 
 # Kolanjiokarsinom
 
@@ -460,7 +460,7 @@ ulaşıncaya kadar genelde asemptomatik**
 - **KRAS ve BRAF aktivasyon mutasyonları, TP53 fonksiyon kaybı
   mutasyonları**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B117.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B117.png)
 
 **Cholangiocarcinoma**
 
@@ -469,19 +469,19 @@ metastases.**
 
 **Robbins Basic Pathology**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B118.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B118.png)
 
 **Robbins and Cotran Pathologic Basis of Diseases**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B119.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B119.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B120.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B120.png)
 
 **Robbins and Cotran Pathologic Basis of Diseases**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B121.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B121.png)
 
 **Robbins and Cotran Pathologic Basis of Diseases**
 
@@ -494,26 +494,26 @@ metastases.**
   - **Peribilier sinirler ile abdomene uzanım**
 - **Hepatoselüler karsinomdan çok daha fazla eksratrahepatik yayılım**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B122.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B122.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B123.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B123.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B124.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B124.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B125.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B125.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B126.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B126.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSafra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B127.png)
+![](./img-local/Safra-Kesesi-ve-Ekstrahepatik-Safra-Yolu-Hastal%C4%B1klar%C4%B127.png)
 
 **Autopsy Pathology: A Manual and Atlas**

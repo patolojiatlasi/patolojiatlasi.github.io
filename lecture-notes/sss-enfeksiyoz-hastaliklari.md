@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B10.jpg)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B10.jpg)
 
 # SSS Enfeksiyöz hastalıkları
 
@@ -97,7 +97,7 @@ Serdar Balcı
   - **Belirgin nötrofil, proteinde artış, glukoz azalmış**
   - **Yaymada bakteri görülebilir, kültür**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B11.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B11.png)
 
 **Akut menenjit**
 
@@ -239,31 +239,31 @@ Serdar Balcı
 - **Intrakraniyel basınç artışı ve herniasyon ölümcül**
 - **Abse rüptürü ile ventrikülit, meninjit, venöz sinüs trombozu**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B12.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B12.png)
 
 **N Engl J Med 2014;371:447-56**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B13.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B13.png)
 
 **N Engl J Med 2014;371:447-56**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B14.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B14.png)
 
 **N Engl J Med 2014;371:447-56**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B15.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B15.png)
 
 **N Engl J Med 2014;371:447-56**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B16.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B16.png)
 
 **N Engl J Med 2014;371:447-56**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B17.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B17.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B18.jpg)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B18.jpg)
 
 **Merkezde likefaktif nekroz**
 
@@ -285,26 +285,26 @@ Serdar Balcı
   - **Mikroglial nodüller**
   - **nöronofaji**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B19.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B19.png)
 
 **Robbins Basic Pathology**
 
 **Lenfositlerin perivasküler birikimi**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B110.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B110.png)
 
 **Mikroglial nodüller**
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B111.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B111.png)
 
 **Herpes ensefalitinde frontal ve anterior temporal lobda belirgin
 yıkım**
 
 <span style="color:#FFFFFF">Robbins Basic Pathology</span>
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B112.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B112.png)
 
 **HIV ensefaliti: Mikroglia birikimi, mikroglial nodül oluşumu ve dev
 hücre**
@@ -421,11 +421,11 @@ enlarge as the disease progresses**
 
 **Each lesion is an area of demyelination**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B113.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B113.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B114.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B114.png)
 
 **Merkez**
 
@@ -471,11 +471,11 @@ enlarge as the disease progresses**
 - **Virchow-Robin aralıklarındaki damarlara uzanır**
   - **Sabun köpüğü görünümü**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B115.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B115.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B116.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B116.png)
 
 **Robbins Basic Pathology**
 
@@ -490,11 +490,11 @@ enlarge as the disease progresses**
 - **Yenidoğan**
   - **Koryoretinit, hidrosefali, intrakraniyel kalsifikasyon**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B117.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B117.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B118.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B118.png)
 
 **Free tachyzoites are demonstrated by immunohistochemical staining**
 
@@ -542,7 +542,7 @@ enlarge as the disease progresses**
   - **Bu şekilde bulaşır**
 - **Zaman içinde belirgin birikim**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B119.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B119.png)
 
 **Robbins Basic Pathology**
 
@@ -556,7 +556,7 @@ enlarge as the disease progresses**
 
 **Mutasyonlar sonrası spontan yapısal değişiklikler**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B120.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B120.png)
 
 **α-Helical PrPc may spontaneously shift to the β-sheet PrPsc
 conformation, an event that occurs at a much higher rate in familial
@@ -564,7 +564,7 @@ disease associated with germ line PrP mutations**
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B121.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B121.png)
 
 **PrPsc may also be from exogenous sources, such as contaminated food,
 medical instrumentation, or medicines. Once present, PrPsc converts
@@ -572,7 +572,7 @@ additional molecules of PrPc into PrPsc through physical interaction**
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B122.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B122.png)
 
 **formation of pathogenic PrPsc aggregates**
 
@@ -588,7 +588,7 @@ additional molecules of PrPc into PrPsc through physical interaction**
 - **Ölüme ilerleyiş oldukça hızlı**
   - **Makroskopik bulgu çok az, hafif atrofi**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B123.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B123.png)
 
 **Patognomonik bulgusu, süngersi (spongiform) değişiklik**
 
@@ -627,40 +627,40 @@ mikroskopik vakuoller**
 - **vCJD belirgin kortikal amiloid plakları spongiform değişiklik
   alanları çevresinde görülür**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B124.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B124.png)
 
 **Variant CJD amiloid plaklar spongiform alanlarda görülür**
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B125.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B125.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B126.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B126.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B127.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B127.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B128.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B128.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B129.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B129.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B130.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B130.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B131.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B131.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B132.png)
+![](./img-local/SSS-Enfeksiy%C3%B6z-hastal%C4%B1klar%C4%B132.png)
 
 **Rubin’s Pathology 7th Ed Clinicopathologic Foundations Of Medicine**

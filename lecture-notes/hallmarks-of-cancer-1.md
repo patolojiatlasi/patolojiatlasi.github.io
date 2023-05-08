@@ -1,55 +1,25 @@
 # Title
 Serdar Balcı
 
-![](img%5CHallmarks-of-Cancer-10.jpg)
+![](./img-local/Hallmarks-of-Cancer-10.jpg)
 
 # Hallmarks of Cancer-1
 
 # Serdar BALCI, MD
 
-![](img%5CHallmarks-of-Cancer-11.jpg)
+![](./img-local/Hallmarks-of-Cancer-11.jpg)
 
-![](img%5CHallmarks-of-Cancer-12.png)
+![](./img-local/Hallmarks-of-Cancer-12.png)
 
-![](img%5CHallmarks-of-Cancer-13.png)
+![](./img-local/Hallmarks-of-Cancer-13.png)
 
-![](img%5CHallmarks-of-Cancer-14.png)
-
-**Cell. 2000 Jan 7;100(1):57-70.**
-
-![](img%5CHallmarks-of-Cancer-15.jpg)
-
-![](img%5CHallmarks-of-Cancer-16.png)
-
-<span style="color:#FFFFFF"> *Cell* </span>
-<span style="color:#FFFFFF"> 2011 144, 646-674DOI:
-(10.1016/j.cell.2011.02.013) </span>
-
-**Cell. 2011 Mar 4;144(5):646-74**
-
-<span style="color:#FFFFFF">Copyright © 2011 Elsevier Inc.</span>
-*[Terms and Conditions](http://www.elsevier.com/termsandconditions)*
-
-![](img%5CHallmarks-of-Cancer-17.jpg)
-
-![](img%5CHallmarks-of-Cancer-18.png)
-
-<span style="color:#FFFFFF"> *Cell* </span>
-<span style="color:#FFFFFF"> 2011 144, 646-674DOI:
-(10.1016/j.cell.2011.02.013) </span>
-
-**Cell. 2011 Mar 4;144(5):646-74**
-
-<span style="color:#FFFFFF">Copyright © 2011 Elsevier Inc.</span>
-*[Terms and Conditions](http://www.elsevier.com/termsandconditions)*
-
-![](img%5CHallmarks-of-Cancer-19.png)
+![](./img-local/Hallmarks-of-Cancer-14.png)
 
 **Cell. 2000 Jan 7;100(1):57-70.**
 
-![](img%5CHallmarks-of-Cancer-110.jpg)
+![](./img-local/Hallmarks-of-Cancer-15.jpg)
 
-![](img%5CHallmarks-of-Cancer-111.png)
+![](./img-local/Hallmarks-of-Cancer-16.png)
 
 <span style="color:#FFFFFF"> *Cell* </span>
 <span style="color:#FFFFFF"> 2011 144, 646-674DOI:
@@ -60,13 +30,26 @@ Serdar Balcı
 <span style="color:#FFFFFF">Copyright © 2011 Elsevier Inc.</span>
 *[Terms and Conditions](http://www.elsevier.com/termsandconditions)*
 
-![](img%5CHallmarks-of-Cancer-112.png)
+![](./img-local/Hallmarks-of-Cancer-17.jpg)
+
+![](./img-local/Hallmarks-of-Cancer-18.png)
+
+<span style="color:#FFFFFF"> *Cell* </span>
+<span style="color:#FFFFFF"> 2011 144, 646-674DOI:
+(10.1016/j.cell.2011.02.013) </span>
+
+**Cell. 2011 Mar 4;144(5):646-74**
+
+<span style="color:#FFFFFF">Copyright © 2011 Elsevier Inc.</span>
+*[Terms and Conditions](http://www.elsevier.com/termsandconditions)*
+
+![](./img-local/Hallmarks-of-Cancer-19.png)
 
 **Cell. 2000 Jan 7;100(1):57-70.**
 
-![](img%5CHallmarks-of-Cancer-113.jpg)
+![](./img-local/Hallmarks-of-Cancer-110.jpg)
 
-![](img%5CHallmarks-of-Cancer-114.png)
+![](./img-local/Hallmarks-of-Cancer-111.png)
 
 <span style="color:#FFFFFF"> *Cell* </span>
 <span style="color:#FFFFFF"> 2011 144, 646-674DOI:
@@ -77,13 +60,13 @@ Serdar Balcı
 <span style="color:#FFFFFF">Copyright © 2011 Elsevier Inc.</span>
 *[Terms and Conditions](http://www.elsevier.com/termsandconditions)*
 
-![](img%5CHallmarks-of-Cancer-115.png)
+![](./img-local/Hallmarks-of-Cancer-112.png)
 
 **Cell. 2000 Jan 7;100(1):57-70.**
 
-![](img%5CHallmarks-of-Cancer-116.jpg)
+![](./img-local/Hallmarks-of-Cancer-113.jpg)
 
-![](img%5CHallmarks-of-Cancer-117.png)
+![](./img-local/Hallmarks-of-Cancer-114.png)
 
 <span style="color:#FFFFFF"> *Cell* </span>
 <span style="color:#FFFFFF"> 2011 144, 646-674DOI:
@@ -94,9 +77,26 @@ Serdar Balcı
 <span style="color:#FFFFFF">Copyright © 2011 Elsevier Inc.</span>
 *[Terms and Conditions](http://www.elsevier.com/termsandconditions)*
 
-![](img%5CHallmarks-of-Cancer-118.jpg)
+![](./img-local/Hallmarks-of-Cancer-115.png)
 
-![](img%5CHallmarks-of-Cancer-119.png)
+**Cell. 2000 Jan 7;100(1):57-70.**
+
+![](./img-local/Hallmarks-of-Cancer-116.jpg)
+
+![](./img-local/Hallmarks-of-Cancer-117.png)
+
+<span style="color:#FFFFFF"> *Cell* </span>
+<span style="color:#FFFFFF"> 2011 144, 646-674DOI:
+(10.1016/j.cell.2011.02.013) </span>
+
+**Cell. 2011 Mar 4;144(5):646-74**
+
+<span style="color:#FFFFFF">Copyright © 2011 Elsevier Inc.</span>
+*[Terms and Conditions](http://www.elsevier.com/termsandconditions)*
+
+![](./img-local/Hallmarks-of-Cancer-118.jpg)
+
+![](./img-local/Hallmarks-of-Cancer-119.png)
 
 <span style="color:#FFFFFF"> *Cell* </span>
 <span style="color:#FFFFFF"> 2011 144, 646-674DOI:
@@ -111,7 +111,7 @@ Serdar Balcı
 
 **http://www.cellsignal.com/common/content/content.jsp?id=science-pathways**
 
-![](img%5CHallmarks-of-Cancer-120.png)
+![](./img-local/Hallmarks-of-Cancer-120.png)
 
 **Robbins Basic Pathology**
 
@@ -133,7 +133,7 @@ Serdar Balcı
 
 **Tumor-promoting inflammation**
 
-![](img%5CHallmarks-of-Cancer-121.jpg)
+![](./img-local/Hallmarks-of-Cancer-121.jpg)
 
 # SELF-SUFFICIENCY IN GROWTH SIGNALS
 
@@ -153,43 +153,43 @@ Serdar Balcı
   - **Entry and progression of the cell into the cell cycle, resulting
     ultimately in cell division**
 
-![](img%5CHallmarks-of-Cancer-122.png)
+![](./img-local/Hallmarks-of-Cancer-122.png)
 
-![](img%5CHallmarks-of-Cancer-123.jpg)
+![](./img-local/Hallmarks-of-Cancer-123.jpg)
 
-![](img%5CHallmarks-of-Cancer-124.png)
+![](./img-local/Hallmarks-of-Cancer-124.png)
 
-![](img%5CHallmarks-of-Cancer-125.png)
+![](./img-local/Hallmarks-of-Cancer-125.png)
 
-![](img%5CHallmarks-of-Cancer-126.png)
+![](./img-local/Hallmarks-of-Cancer-126.png)
 
-![](img%5CHallmarks-of-Cancer-127.jpg)
+![](./img-local/Hallmarks-of-Cancer-127.jpg)
 
-![](img%5CHallmarks-of-Cancer-128.png)
+![](./img-local/Hallmarks-of-Cancer-128.png)
 
-![](img%5CHallmarks-of-Cancer-129.png)
+![](./img-local/Hallmarks-of-Cancer-129.png)
 
-![](img%5CHallmarks-of-Cancer-130.png)
+![](./img-local/Hallmarks-of-Cancer-130.png)
 
-![](img%5CHallmarks-of-Cancer-131.png)
+![](./img-local/Hallmarks-of-Cancer-131.png)
 
-![](img%5CHallmarks-of-Cancer-132.png)
+![](./img-local/Hallmarks-of-Cancer-132.png)
 
-![](img%5CHallmarks-of-Cancer-133.jpg)
-
-**Robbins Basic Pathology**
-
-![](img%5CHallmarks-of-Cancer-134.png)
+![](./img-local/Hallmarks-of-Cancer-133.jpg)
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-135.png)
-
-![](img%5CHallmarks-of-Cancer-136.png)
+![](./img-local/Hallmarks-of-Cancer-134.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-137.png)
+![](./img-local/Hallmarks-of-Cancer-135.png)
+
+![](./img-local/Hallmarks-of-Cancer-136.png)
+
+**Robbins Basic Pathology**
+
+![](./img-local/Hallmarks-of-Cancer-137.png)
 
 **Robbins Basic Pathology**
 
@@ -252,7 +252,7 @@ Serdar Balcı
 - **G protein**
   - **Phosphorylation via GTP**
 
-![](img%5CHallmarks-of-Cancer-138.png)
+![](./img-local/Hallmarks-of-Cancer-138.png)
 
 # RAS
 
@@ -266,7 +266,7 @@ Serdar Balcı
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-139.png)
+![](./img-local/Hallmarks-of-Cancer-139.png)
 
 # GAPs
 
@@ -278,7 +278,7 @@ Serdar Balcı
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-140.png)
+![](./img-local/Hallmarks-of-Cancer-140.png)
 
 # RAF/ERK/MAP kinase pathway
 
@@ -299,7 +299,7 @@ Serdar Balcı
 - **Targeted therapy is present**
   - **BCR-ABL kinase inhibitor (Gleevec)**
 
-![](img%5CHallmarks-of-Cancer-141.png)
+![](./img-local/Hallmarks-of-Cancer-141.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
@@ -322,15 +322,15 @@ Serdar Balcı
   - **Breast, colon, lung**
   - **Neuroblastomas, Small cell cancers of lung (NMYC, LMYC)**
 
-![](img%5CHallmarks-of-Cancer-142.png)
+![](./img-local/Hallmarks-of-Cancer-142.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CHallmarks-of-Cancer-143.png)
+![](./img-local/Hallmarks-of-Cancer-143.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CHallmarks-of-Cancer-144.png)
+![](./img-local/Hallmarks-of-Cancer-144.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
@@ -344,7 +344,7 @@ Serdar Balcı
 
 **Checkpoints to prevent proliferation of abnormal DNA**
 
-![](img%5CHallmarks-of-Cancer-145.png)
+![](./img-local/Hallmarks-of-Cancer-145.png)
 
 **Inhibit**
 
@@ -367,7 +367,7 @@ Serdar Balcı
     - **25% of melanoma-prone**
   - **Somatically acquired deletion or inactivation of CDKN2A**
 
-![](img%5CHallmarks-of-Cancer-146.png)
+![](./img-local/Hallmarks-of-Cancer-146.png)
 
 **Robbins Basic Pathology**
 
@@ -375,7 +375,7 @@ Serdar Balcı
 
 **Rous sarcoma virus**
 
-![](img%5CHallmarks-of-Cancer-147.jpg)
+![](./img-local/Hallmarks-of-Cancer-147.jpg)
 
 # INSENSITIVITY TO GROWTH INHIBITORY SIGNALS
 
@@ -394,29 +394,29 @@ Serdar Balcı
 
 # Retinoblastoma
 
-![](img%5CHallmarks-of-Cancer-148.jpg)
+![](./img-local/Hallmarks-of-Cancer-148.jpg)
 
-![](img%5CHallmarks-of-Cancer-149.jpg)
+![](./img-local/Hallmarks-of-Cancer-149.jpg)
 
-![](img%5CHallmarks-of-Cancer-150.jpg)
+![](./img-local/Hallmarks-of-Cancer-150.jpg)
 
-![](img%5CHallmarks-of-Cancer-151.jpg)
+![](./img-local/Hallmarks-of-Cancer-151.jpg)
 
 **Figure 2, from Pediatr Radiol. Jun 2012; 42(6): 738–749. PMCID:
 PMC3530407**
 
-![](img%5CHallmarks-of-Cancer-152.jpg)
+![](./img-local/Hallmarks-of-Cancer-152.jpg)
 
 **Figure 7.4b ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
 
 # Knudson two-hit hypothesis
 
-![](img%5CHallmarks-of-Cancer-153.png)
+![](./img-local/Hallmarks-of-Cancer-153.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-154.png)
+![](./img-local/Hallmarks-of-Cancer-154.png)
 
 **Robbins Basic Pathology**
 
@@ -432,17 +432,17 @@ become neoplastic**
 **Does a cell become neoplastic when one allele of proto-oncogene is
 mutated?**
 
-![](img%5CHallmarks-of-Cancer-155.png)
+![](./img-local/Hallmarks-of-Cancer-155.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-156.png)
+![](./img-local/Hallmarks-of-Cancer-156.png)
 
 **cyclin E transcription**
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-157.png)
+![](./img-local/Hallmarks-of-Cancer-157.png)
 
 **HPV E7 protein mimics here**
 
@@ -450,11 +450,11 @@ mutated?**
 
 **Robbins Basic Pathology**
 
-![](img%5CHallmarks-of-Cancer-158.png)
+![](./img-local/Hallmarks-of-Cancer-158.png)
 
-![](img%5CHallmarks-of-Cancer-159.png)
+![](./img-local/Hallmarks-of-Cancer-159.png)
 
-![](img%5CHallmarks-of-Cancer-160.png)
+![](./img-local/Hallmarks-of-Cancer-160.png)
 
 # TP53 GeneGuardian of the Genome
 
@@ -492,7 +492,7 @@ mutated?**
   - **p53 induces MDM2 expression and p53 levels decrease to normal,
     cell cycle continues**
 
-![](img%5CHallmarks-of-Cancer-161.png)
+![](./img-local/Hallmarks-of-Cancer-161.png)
 
 **Robbins Basic Pathology**
 
@@ -559,7 +559,7 @@ adrenal cortex**
 - **TGF-β signaling activates epithelial-to-mesenchymal transition
   (EMT)**
 
-![](img%5CHallmarks-of-Cancer-162.jpg)
+![](./img-local/Hallmarks-of-Cancer-162.jpg)
 
 **Figure 5.21 ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
@@ -574,7 +574,7 @@ adrenal cortex**
 - **100% of pancreatic cancers and 83% of colon cancers, at least one
   component of the TGF-β pathway is mutated**
 
-![](img%5CHallmarks-of-Cancer-163.jpg)
+![](./img-local/Hallmarks-of-Cancer-163.jpg)
 
 **Figure 6.29d ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
@@ -589,21 +589,21 @@ adrenal cortex**
   - **No contact inhibition**
   - **Proliferate and pile on top of one another**
 
-![](img%5CHallmarks-of-Cancer-164.png)
+![](./img-local/Hallmarks-of-Cancer-164.png)
 
 **Figure 3.7 from The Biology Of Cancer (2007) - Weinberg**
 
-![](img%5CHallmarks-of-Cancer-165.jpg)
+![](./img-local/Hallmarks-of-Cancer-165.jpg)
 
 **Figure 3.7a ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
 
-![](img%5CHallmarks-of-Cancer-166.jpg)
+![](./img-local/Hallmarks-of-Cancer-166.jpg)
 
 **Figure 3.12 ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
 
-![](img%5CHallmarks-of-Cancer-167.png)
+![](./img-local/Hallmarks-of-Cancer-167.png)
 
 **Figure 3.7 from The Biology Of Cancer (2007) - Weinberg**
 
@@ -629,7 +629,7 @@ adrenal cortex**
 
 **β-Catenin is dectructed**
 
-![](img%5CHallmarks-of-Cancer-168.png)
+![](./img-local/Hallmarks-of-Cancer-168.png)
 
 **Robbins Basic Pathology**
 
@@ -645,43 +645,43 @@ adrenal cortex**
 
 **β-Catenin is dectructed**
 
-![](img%5CHallmarks-of-Cancer-169.png)
+![](./img-local/Hallmarks-of-Cancer-169.png)
 
-![](img%5CHallmarks-of-Cancer-170.png)
+![](./img-local/Hallmarks-of-Cancer-170.png)
 
-![](img%5CHallmarks-of-Cancer-171.png)
+![](./img-local/Hallmarks-of-Cancer-171.png)
 
-![](img%5CHallmarks-of-Cancer-172.png)
+![](./img-local/Hallmarks-of-Cancer-172.png)
 
-![](img%5CHallmarks-of-Cancer-173.png)
+![](./img-local/Hallmarks-of-Cancer-173.png)
 
-![](img%5CHallmarks-of-Cancer-174.png)
+![](./img-local/Hallmarks-of-Cancer-174.png)
 
-![](img%5CHallmarks-of-Cancer-175.png)
+![](./img-local/Hallmarks-of-Cancer-175.png)
 
-![](img%5CHallmarks-of-Cancer-176.jpg)
+![](./img-local/Hallmarks-of-Cancer-176.jpg)
 
-![](img%5CHallmarks-of-Cancer-177.png)
+![](./img-local/Hallmarks-of-Cancer-177.png)
 
-![](img%5CHallmarks-of-Cancer-178.png)
+![](./img-local/Hallmarks-of-Cancer-178.png)
 
-![](img%5CHallmarks-of-Cancer-179.png)
+![](./img-local/Hallmarks-of-Cancer-179.png)
 
-![](img%5CHallmarks-of-Cancer-180.png)
+![](./img-local/Hallmarks-of-Cancer-180.png)
 
-![](img%5CHallmarks-of-Cancer-181.png)
+![](./img-local/Hallmarks-of-Cancer-181.png)
 
-![](img%5CHallmarks-of-Cancer-182.png)
+![](./img-local/Hallmarks-of-Cancer-182.png)
 
-![](img%5CHallmarks-of-Cancer-183.png)
+![](./img-local/Hallmarks-of-Cancer-183.png)
 
-![](img%5CHallmarks-of-Cancer-184.png)
+![](./img-local/Hallmarks-of-Cancer-184.png)
 
 **Robbins Basic Pathology**
 
 **β-Catenin is active in the nucleus**
 
-![](img%5CHallmarks-of-Cancer-185.png)
+![](./img-local/Hallmarks-of-Cancer-185.png)
 
 **cyclin D1 and MYC transcribed for proliferation**
 
@@ -706,12 +706,12 @@ adrenal cortex**
   β-catenin**
   - **Refractory to the degrading action of APC**
 
-![](img%5CHallmarks-of-Cancer-186.jpg)
+![](./img-local/Hallmarks-of-Cancer-186.jpg)
 
 **Figure 7.22 ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
 
-![](img%5CHallmarks-of-Cancer-187.jpg)
+![](./img-local/Hallmarks-of-Cancer-187.jpg)
 
 **Figure 7.24a ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_

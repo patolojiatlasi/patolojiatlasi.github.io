@@ -3,7 +3,7 @@ Serdar Balcı
 
 # Harvey Williams Cushing
 
-![](img%5CPituitary-Diseases0.jpg)
+![](./img-local/Pituitary-Diseases0.jpg)
 
 **first anaesthetic chart**
 
@@ -15,57 +15,57 @@ Serdar Balcı
 
 **https://en.wikipedia.org/wiki/Harvey_Cushing**
 
-![](img%5CPituitary-Diseases1.png)
+![](./img-local/Pituitary-Diseases1.png)
 
 **http://www.whonamedit.com/doctor.cfm/980.html**
 
-![](img%5CPituitary-Diseases2.png)
+![](./img-local/Pituitary-Diseases2.png)
 
-![](img%5CPituitary-Diseases3.png)
+![](./img-local/Pituitary-Diseases3.png)
 
-![](img%5CPituitary-Diseases4.png)
+![](./img-local/Pituitary-Diseases4.png)
 
 **Ann R Coll Surg Engl. 1969 Apr;44(4):180-1.**
 
-![](img%5CPituitary-Diseases5.png)
+![](./img-local/Pituitary-Diseases5.png)
 
 **Ann Surg. 1909 Dec;50(6):1002-17.**
 
-![](img%5CPituitary-Diseases6.png)
+![](./img-local/Pituitary-Diseases6.png)
 
 **Ann Surg. 1909 Dec;50(6):1002-17.**
 
-![](img%5CPituitary-Diseases7.png)
+![](./img-local/Pituitary-Diseases7.png)
 
-![](img%5CPituitary-Diseases8.png)
-
-**Pituitary. 2010 Dec;13(4):324-8.**
-
-![](img%5CPituitary-Diseases9.png)
+![](./img-local/Pituitary-Diseases8.png)
 
 **Pituitary. 2010 Dec;13(4):324-8.**
 
-![](img%5CPituitary-Diseases10.png)
+![](./img-local/Pituitary-Diseases9.png)
 
 **Pituitary. 2010 Dec;13(4):324-8.**
 
-![](img%5CPituitary-Diseases11.png)
+![](./img-local/Pituitary-Diseases10.png)
 
 **Pituitary. 2010 Dec;13(4):324-8.**
 
-![](img%5CPituitary-Diseases12.png)
+![](./img-local/Pituitary-Diseases11.png)
 
 **Pituitary. 2010 Dec;13(4):324-8.**
 
-![](img%5CPituitary-Diseases13.png)
+![](./img-local/Pituitary-Diseases12.png)
 
 **Pituitary. 2010 Dec;13(4):324-8.**
 
-![](img%5CPituitary-Diseases14.png)
+![](./img-local/Pituitary-Diseases13.png)
 
 **Pituitary. 2010 Dec;13(4):324-8.**
 
-![](img%5CPituitary-Diseases15.png)
+![](./img-local/Pituitary-Diseases14.png)
+
+**Pituitary. 2010 Dec;13(4):324-8.**
+
+![](./img-local/Pituitary-Diseases15.png)
 
 **Pituitary. 2010 Dec;13(4):324-8.**
 
@@ -121,7 +121,7 @@ Golyat’ın öldüğünü gören Filistliler kaçtılar.**
 
 *A History of Acromegaly * **Pituitary 1999;2:7–28**
 
-![](img%5CPituitary-Diseases16.jpg)
+![](./img-local/Pituitary-Diseases16.jpg)
 
 **Undoubtedly Goliath’s great size was due to ** **acromegaly **
 **secondary to a pituitary macroadenoma. This pituitary adenoma was
@@ -136,7 +136,7 @@ resulting in ** **transtentorial herniation and death** **.**
 
 **Radiology. 1990 Jul;176(1):288. **
 
-![](img%5CPituitary-Diseases17.jpg)
+![](./img-local/Pituitary-Diseases17.jpg)
 
 # Pituitary Diseases
 
@@ -161,19 +161,19 @@ resulting in ** **transtentorial herniation and death** **.**
   - **Eosinophilic cytoplasm**
   - **Poorly staining ( chromophobic ) cytoplasm**
 
-![](img%5CPituitary-Diseases18.png)
+![](./img-local/Pituitary-Diseases18.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPituitary-Diseases19.png)
+![](./img-local/Pituitary-Diseases19.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPituitary-Diseases20.jpg)
+![](./img-local/Pituitary-Diseases20.jpg)
 
-![](img%5CPituitary-Diseases21.jpg)
+![](./img-local/Pituitary-Diseases21.jpg)
 
-![](img%5CPituitary-Diseases22.jpg)
+![](./img-local/Pituitary-Diseases22.jpg)
 
 # Pituitary Diseases
 
@@ -236,7 +236,7 @@ resulting in ** **transtentorial herniation and death** **.**
   minority of adrenocorticotropic hormone (ACTH)–secreting corticotroph
   cell adenomas have GNAS1 mutations**
 
-![](img%5CPituitary-Diseases23.png)
+![](./img-local/Pituitary-Diseases23.png)
 
 - **Familial pituitary adenomas**
   - **MEN1, CDKN1B, PRKAR1A, and AIP**
@@ -254,11 +254,11 @@ resulting in ** **transtentorial herniation and death** **.**
   - **associated with a propensity for aggressive behavior, such as
     invasion and recurrence**
 
-![](img%5CPituitary-Diseases24.png)
+![](./img-local/Pituitary-Diseases24.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CPituitary-Diseases25.png)
+![](./img-local/Pituitary-Diseases25.png)
 
 **Macroadenomas \>1 cm**
 
@@ -266,7 +266,7 @@ resulting in ** **transtentorial herniation and death** **.**
 
 **Robbins Basic Pathology**
 
-![](img%5CPituitary-Diseases26.png)
+![](./img-local/Pituitary-Diseases26.png)
 
 **Pituitary adenoma is a well-circumscribed, soft lesion**
 
@@ -285,7 +285,7 @@ resulting in ** **transtentorial herniation and death** **.**
 
 **Robbins Basic Pathology**
 
-![](img%5CPituitary-Diseases27.png)
+![](./img-local/Pituitary-Diseases27.png)
 
 **Massive, nonfunctioning adenoma has grown far beyond the confines of
 the sella turcica and has distorted the overlying brain**
@@ -295,7 +295,7 @@ than those that secrete a hormone**
 
 **Robbins Basic Pathology**
 
-![](img%5CPituitary-Diseases28.png)
+![](./img-local/Pituitary-Diseases28.png)
 
 **Relatively uniform, polygonal cells arrayed in sheets, cords, or
 papillae**
@@ -318,9 +318,9 @@ within the cell, but it is fairly uniform throughout the neoplasm**
 
 **pituitary adenoma**
 
-![](img%5CPituitary-Diseases29.png)
+![](./img-local/Pituitary-Diseases29.png)
 
-![](img%5CPituitary-Diseases30.png)
+![](./img-local/Pituitary-Diseases30.png)
 
 **Cellular monomorphism and the absence of a significant reticulin
 network distinguish pituitary adenomas from non-neoplastic anterior
@@ -356,7 +356,7 @@ pituitary parenchyma**
 
 **Pituitary Adenomas**
 
-![](img%5CPituitary-Diseases31.png)
+![](./img-local/Pituitary-Diseases31.png)
 
 **Robbins Basic Pathology**
 
@@ -392,7 +392,7 @@ by immunohistochemical techniques**
       patient with a pituitary adenoma do not necessarily indicate a
       prolactin-secreting neoplasm**
 
-![](img%5CPituitary-Diseases32.png)
+![](./img-local/Pituitary-Diseases32.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
@@ -577,9 +577,9 @@ hyperthyroidism**
 - **Loss of stimulatory effects of MSH on melanocytes**
   - **Pallor**
 
-![](img%5CPituitary-Diseases33.jpg)
+![](./img-local/Pituitary-Diseases33.jpg)
 
-![](img%5CPituitary-Diseases34.jpg)
+![](./img-local/Pituitary-Diseases34.jpg)
 
 # POSTERIOR PITUITARY SYNDROMES
 
@@ -631,7 +631,7 @@ hyperthyroidism**
 
 # HYPOTHALAMIC SUPRASELLAR TUMORS
 
-![](img%5CPituitary-Diseases35.png)
+![](./img-local/Pituitary-Diseases35.png)
 
 **Craniopharyngioma**
 
@@ -667,13 +667,13 @@ hyperthyroidism**
 
   - **most often observed in adults**
 
-![](img%5CPituitary-Diseases36.png)
+![](./img-local/Pituitary-Diseases36.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
 # 
 
-![](img%5CPituitary-Diseases37.png)
+![](./img-local/Pituitary-Diseases37.png)
 
 # Hipofiz adenomuna yaklaşım
 
@@ -752,11 +752,11 @@ hyperthyroidism**
 
 **Metastaz**
 
-![](img%5CPituitary-Diseases38.png)
+![](./img-local/Pituitary-Diseases38.png)
 
 # 
 
-![](img%5CPituitary-Diseases39.png)
+![](./img-local/Pituitary-Diseases39.png)
 
 # Sellar kitleler
 
@@ -783,19 +783,19 @@ hyperthyroidism**
 **Glezer et al, Rare Sellar Lesions, Endocrinol Metab Clin N Am 37
 (2008) 195–211**
 
-![](img%5CPituitary-Diseases40.png)
+![](./img-local/Pituitary-Diseases40.png)
 
-![](img%5CPituitary-Diseases41.jpg)
+![](./img-local/Pituitary-Diseases41.jpg)
 
-![](img%5CPituitary-Diseases42.jpg)
+![](./img-local/Pituitary-Diseases42.jpg)
 
-![](img%5CPituitary-Diseases43.jpg)
+![](./img-local/Pituitary-Diseases43.jpg)
 
-![](img%5CPituitary-Diseases44.jpg)
+![](./img-local/Pituitary-Diseases44.jpg)
 
-![](img%5CPituitary-Diseases45.jpg)
+![](./img-local/Pituitary-Diseases45.jpg)
 
-![](img%5CPituitary-Diseases46.jpg)
+![](./img-local/Pituitary-Diseases46.jpg)
 
 # 
 
@@ -818,11 +818,11 @@ in 22.2% of the population**
   - \_\_ CrH: bronşial, gastroenterohepatik, adrenal, prostat endokrin
     tümörler\_\_
 
-![](img%5CPituitary-Diseases47.png)
+![](./img-local/Pituitary-Diseases47.png)
 
-![](img%5CPituitary-Diseases48.png)
+![](./img-local/Pituitary-Diseases48.png)
 
-![](img%5CPituitary-Diseases49.png)
+![](./img-local/Pituitary-Diseases49.png)
 
 # Hipofiz adenomu
 
@@ -902,7 +902,7 @@ in 22.2% of the population**
   seri kesitler, retikülin ve ACTH ile bakılarak)**
 - **Adenom görülmezse klinikopatolojik korelasyon gerektirir**
 
-![](img%5CPituitary-Diseases50.png)
+![](./img-local/Pituitary-Diseases50.png)
 
 # ACTH- Crooke cell
 
@@ -954,7 +954,7 @@ in 22.2% of the population**
 
 **Dorsum sella dan açılarak intakt çıkartılmaya çalışılmalı**
 
-![](img%5CPituitary-Diseases51.png)
+![](./img-local/Pituitary-Diseases51.png)
 
 # Alıntı slaytlar
 
@@ -966,17 +966,17 @@ in 22.2% of the population**
 
 **Mukoid wedge**
 
-![](img%5CPituitary-Diseases52.jpg)
+![](./img-local/Pituitary-Diseases52.jpg)
 
-![](img%5CPituitary-Diseases53.png)
+![](./img-local/Pituitary-Diseases53.png)
 
-![](img%5CPituitary-Diseases54.png)
+![](./img-local/Pituitary-Diseases54.png)
 
-![](img%5CPituitary-Diseases55.jpg)
+![](./img-local/Pituitary-Diseases55.jpg)
 
-![](img%5CPituitary-Diseases56.jpg)
+![](./img-local/Pituitary-Diseases56.jpg)
 
-![](img%5CPituitary-Diseases57.png)
+![](./img-local/Pituitary-Diseases57.png)
 
 # Hipofiz adenomu sınıflandırması
 
@@ -996,17 +996,17 @@ in 22.2% of the population**
 
 **Makroadenom \>1cm**
 
-![](img%5CPituitary-Diseases58.png)
+![](./img-local/Pituitary-Diseases58.png)
 
-![](img%5CPituitary-Diseases59.png)
+![](./img-local/Pituitary-Diseases59.png)
 
-![](img%5CPituitary-Diseases60.png)
+![](./img-local/Pituitary-Diseases60.png)
 
-![](img%5CPituitary-Diseases61.png)
+![](./img-local/Pituitary-Diseases61.png)
 
-![](img%5CPituitary-Diseases62.png)
+![](./img-local/Pituitary-Diseases62.png)
 
-![](img%5CPituitary-Diseases63.jpg)
+![](./img-local/Pituitary-Diseases63.jpg)
 
 # Büyüme Hormonu Adenomu
 
@@ -1255,130 +1255,130 @@ in 22.2% of the population**
 
 # 
 
-![](img%5CPituitary-Diseases64.png)
+![](./img-local/Pituitary-Diseases64.png)
 
-![](img%5CPituitary-Diseases65.png)
+![](./img-local/Pituitary-Diseases65.png)
 
 # Hipofiz adenomu
 
 # dialar
 
-![](img%5CPituitary-Diseases66.jpg)
+![](./img-local/Pituitary-Diseases66.jpg)
 
-![](img%5CPituitary-Diseases67.jpg)
+![](./img-local/Pituitary-Diseases67.jpg)
 
-![](img%5CPituitary-Diseases68.jpg)
+![](./img-local/Pituitary-Diseases68.jpg)
 
-![](img%5CPituitary-Diseases69.jpg)
+![](./img-local/Pituitary-Diseases69.jpg)
 
-![](img%5CPituitary-Diseases70.jpg)
+![](./img-local/Pituitary-Diseases70.jpg)
 
-![](img%5CPituitary-Diseases71.jpg)
+![](./img-local/Pituitary-Diseases71.jpg)
 
-![](img%5CPituitary-Diseases72.jpg)
+![](./img-local/Pituitary-Diseases72.jpg)
 
-![](img%5CPituitary-Diseases73.jpg)
+![](./img-local/Pituitary-Diseases73.jpg)
 
-![](img%5CPituitary-Diseases74.jpg)
+![](./img-local/Pituitary-Diseases74.jpg)
 
-![](img%5CPituitary-Diseases75.jpg)
+![](./img-local/Pituitary-Diseases75.jpg)
 
-![](img%5CPituitary-Diseases76.jpg)
+![](./img-local/Pituitary-Diseases76.jpg)
 
-![](img%5CPituitary-Diseases77.jpg)
+![](./img-local/Pituitary-Diseases77.jpg)
 
-![](img%5CPituitary-Diseases78.jpg)
+![](./img-local/Pituitary-Diseases78.jpg)
 
-![](img%5CPituitary-Diseases79.jpg)
+![](./img-local/Pituitary-Diseases79.jpg)
 
-![](img%5CPituitary-Diseases80.jpg)
+![](./img-local/Pituitary-Diseases80.jpg)
 
-![](img%5CPituitary-Diseases81.jpg)
+![](./img-local/Pituitary-Diseases81.jpg)
 
-![](img%5CPituitary-Diseases82.jpg)
+![](./img-local/Pituitary-Diseases82.jpg)
 
-![](img%5CPituitary-Diseases83.jpg)
+![](./img-local/Pituitary-Diseases83.jpg)
 
-![](img%5CPituitary-Diseases84.jpg)
+![](./img-local/Pituitary-Diseases84.jpg)
 
-![](img%5CPituitary-Diseases85.jpg)
+![](./img-local/Pituitary-Diseases85.jpg)
 
-![](img%5CPituitary-Diseases86.jpg)
+![](./img-local/Pituitary-Diseases86.jpg)
 
-![](img%5CPituitary-Diseases87.jpg)
+![](./img-local/Pituitary-Diseases87.jpg)
 
-![](img%5CPituitary-Diseases88.jpg)
+![](./img-local/Pituitary-Diseases88.jpg)
 
-![](img%5CPituitary-Diseases89.jpg)
+![](./img-local/Pituitary-Diseases89.jpg)
 
-![](img%5CPituitary-Diseases90.jpg)
+![](./img-local/Pituitary-Diseases90.jpg)
 
-![](img%5CPituitary-Diseases91.jpg)
+![](./img-local/Pituitary-Diseases91.jpg)
 
-![](img%5CPituitary-Diseases92.jpg)
+![](./img-local/Pituitary-Diseases92.jpg)
 
-![](img%5CPituitary-Diseases93.jpg)
+![](./img-local/Pituitary-Diseases93.jpg)
 
-![](img%5CPituitary-Diseases94.jpg)
+![](./img-local/Pituitary-Diseases94.jpg)
 
-![](img%5CPituitary-Diseases95.jpg)
+![](./img-local/Pituitary-Diseases95.jpg)
 
-![](img%5CPituitary-Diseases96.jpg)
+![](./img-local/Pituitary-Diseases96.jpg)
 
-![](img%5CPituitary-Diseases97.jpg)
+![](./img-local/Pituitary-Diseases97.jpg)
 
-![](img%5CPituitary-Diseases98.jpg)
+![](./img-local/Pituitary-Diseases98.jpg)
 
-![](img%5CPituitary-Diseases99.jpg)
+![](./img-local/Pituitary-Diseases99.jpg)
 
-![](img%5CPituitary-Diseases100.jpg)
+![](./img-local/Pituitary-Diseases100.jpg)
 
-![](img%5CPituitary-Diseases101.jpg)
+![](./img-local/Pituitary-Diseases101.jpg)
 
-![](img%5CPituitary-Diseases102.jpg)
+![](./img-local/Pituitary-Diseases102.jpg)
 
-![](img%5CPituitary-Diseases103.jpg)
+![](./img-local/Pituitary-Diseases103.jpg)
 
-![](img%5CPituitary-Diseases104.jpg)
+![](./img-local/Pituitary-Diseases104.jpg)
 
-![](img%5CPituitary-Diseases105.jpg)
+![](./img-local/Pituitary-Diseases105.jpg)
 
-![](img%5CPituitary-Diseases106.jpg)
+![](./img-local/Pituitary-Diseases106.jpg)
 
-![](img%5CPituitary-Diseases107.jpg)
+![](./img-local/Pituitary-Diseases107.jpg)
 
-![](img%5CPituitary-Diseases108.jpg)
+![](./img-local/Pituitary-Diseases108.jpg)
 
-![](img%5CPituitary-Diseases109.jpg)
+![](./img-local/Pituitary-Diseases109.jpg)
 
-![](img%5CPituitary-Diseases110.jpg)
+![](./img-local/Pituitary-Diseases110.jpg)
 
-![](img%5CPituitary-Diseases111.jpg)
+![](./img-local/Pituitary-Diseases111.jpg)
 
-![](img%5CPituitary-Diseases112.jpg)
+![](./img-local/Pituitary-Diseases112.jpg)
 
-![](img%5CPituitary-Diseases113.jpg)
+![](./img-local/Pituitary-Diseases113.jpg)
 
-![](img%5CPituitary-Diseases114.jpg)
+![](./img-local/Pituitary-Diseases114.jpg)
 
-![](img%5CPituitary-Diseases115.jpg)
+![](./img-local/Pituitary-Diseases115.jpg)
 
-![](img%5CPituitary-Diseases116.jpg)
+![](./img-local/Pituitary-Diseases116.jpg)
 
-![](img%5CPituitary-Diseases117.jpg)
+![](./img-local/Pituitary-Diseases117.jpg)
 
-![](img%5CPituitary-Diseases118.jpg)
+![](./img-local/Pituitary-Diseases118.jpg)
 
-![](img%5CPituitary-Diseases119.jpg)
+![](./img-local/Pituitary-Diseases119.jpg)
 
-![](img%5CPituitary-Diseases120.jpg)
+![](./img-local/Pituitary-Diseases120.jpg)
 
-![](img%5CPituitary-Diseases121.jpg)
+![](./img-local/Pituitary-Diseases121.jpg)
 
-![](img%5CPituitary-Diseases122.jpg)
+![](./img-local/Pituitary-Diseases122.jpg)
 
-![](img%5CPituitary-Diseases123.jpg)
+![](./img-local/Pituitary-Diseases123.jpg)
 
-![](img%5CPituitary-Diseases124.jpg)
+![](./img-local/Pituitary-Diseases124.jpg)
 
-![](img%5CPituitary-Diseases125.jpg)
+![](./img-local/Pituitary-Diseases125.jpg)
