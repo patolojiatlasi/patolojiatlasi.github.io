@@ -79,6 +79,7 @@ jobs:
       - name: "Prepare patoloji-ders-notlari"
         shell: Rscript {0}
         run: |
+          if (dir.exists(paths = "./patoloji-ders-notlari")) { fs::dir_delete(path = "./patoloji-ders-notlari") }
           if (dir.exists(paths = "./lecture-notes")) { fs::dir_copy(path = "./lecture-notes", new_path = "./patoloji-ders-notlari", overwrite = TRUE) }
           filestorender <- list.files(path = "./patoloji-ders-notlari", pattern = ".qmd", full.names = TRUE, recursive = TRUE)
           quarto::quarto_render(input = filestorender, output_format = 'revealjs', as_job = FALSE, quiet = TRUE)
@@ -264,7 +265,7 @@ jobs:
         with:
           target: quarto-pub
           path: docs
-          # render: false
+          render: false
           QUARTO_PUB_AUTH_TOKEN: ${{ secrets.QUARTO_PUB_AUTH_TOKEN }}
           GITHUB_EMAIL: drserdarbalci@gmail.com
           GITHUB_USERNAME: sbalci
