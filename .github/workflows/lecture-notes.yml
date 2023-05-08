@@ -79,7 +79,6 @@ jobs:
       - name: "Prepare patoloji-ders-notlari"
         shell: Rscript {0}
         run: |
-          if (dir.exists(paths = "./ders-notlari")) { fs::dir_delete(path = "./ders-notlari") }
           if (dir.exists(paths = "./lecture-notes")) { fs::dir_copy(path = "./lecture-notes", new_path = "./ders-notlari", overwrite = TRUE) }
           filestorender2 <- list.files(path = "./ders-notlari", pattern = ".qmd", full.names = TRUE, recursive = TRUE)
           quarto::quarto_render(input = filestorender2, output_format = 'revealjs', as_job = FALSE, quiet = TRUE)
