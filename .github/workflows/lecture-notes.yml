@@ -79,10 +79,10 @@ jobs:
       - name: "Prepare patoloji-ders-notlari"
         shell: Rscript {0}
         run: |
-          if (dir.exists(paths = "./patoloji-ders-notlari")) { fs::dir_delete(path = "./patoloji-ders-notlari") }
-          if (dir.exists(paths = "./lecture-notes")) { fs::dir_copy(path = "./lecture-notes", new_path = "./patoloji-ders-notlari", overwrite = TRUE) }
-          filestorender <- list.files(path = "./patoloji-ders-notlari", pattern = ".qmd", full.names = TRUE, recursive = TRUE)
-          quarto::quarto_render(input = filestorender, output_format = 'revealjs', as_job = FALSE, quiet = TRUE)
+          if (dir.exists(paths = "./ders-notlari")) { fs::dir_delete(path = "./ders-notlari") }
+          if (dir.exists(paths = "./lecture-notes")) { fs::dir_copy(path = "./lecture-notes", new_path = "./ders-notlari", overwrite = TRUE) }
+          filestorender2 <- list.files(path = "./ders-notlari", pattern = ".qmd", full.names = TRUE, recursive = TRUE)
+          quarto::quarto_render(input = filestorender2, output_format = 'revealjs', as_job = FALSE, quiet = TRUE)
 
 
 
@@ -226,7 +226,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-directory: 'patoloji-ders-notlari'
+          source-directory: 'ders-notlari'
           destination-github-username: 'sbalci'
           destination-repository-name: 'patoloji-ders-notlari'
           user-email: drserdarbalci@gmail.com
