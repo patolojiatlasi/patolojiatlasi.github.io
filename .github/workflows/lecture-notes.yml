@@ -82,7 +82,8 @@ jobs:
           if (dir.exists(paths = "./lecture-notes")) { fs::dir_copy(path = "./lecture-notes", new_path = "./ders-notlari", overwrite = TRUE) }
           filestorender2 <- list.files(path = "./ders-notlari", pattern = ".qmd", full.names = TRUE, recursive = TRUE)
           quarto::quarto_render(input = filestorender2, output_format = 'revealjs', as_job = FALSE, quiet = TRUE)
-
+          md_files2 <- list.files(path = './lecture-notes', pattern = '\\.md', full.names = TRUE)
+          fs::file_copy(path = md_files2, new_path = "./ders-notlari/", overwrite = TRUE)
 
 
 
