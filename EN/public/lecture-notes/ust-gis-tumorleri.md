@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri0.jpg)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri0.jpg)
 
 # Üst GIS Tümörleri
 
@@ -23,17 +23,17 @@ Serdar Balcı
     - **Daha az mutasyon**
     - **p16 artmış ekspresyonu, siklin bağımlı kinaz inhibitörü**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri1.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri1.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri2.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri2.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
 # TÜKRÜK BEZI TÜMÖRLERI
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri3.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri3.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
@@ -45,7 +45,7 @@ ve minör tükrük bezlerinde**
 
 *Malignite gelişimi bez boyutu ile ters orantılı*
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri4.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri4.png)
 
 **Pleomorphic adenoma**
 
@@ -53,21 +53,21 @@ ve minör tükrük bezlerinde**
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri5.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri5.png)
 
 **Pleomorphic adenoma**
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri6.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri6.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri7.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri7.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri8.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri8.png)
 
 **Mucoepidermoid carcinoma**
 
@@ -77,13 +77,13 @@ ve minör tükrük bezlerinde**
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri9.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri9.png)
 
 **Adenoid cystic carcinoma **
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri10.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri10.png)
 
 **Adenoid cystic carcinoma **
 
@@ -102,9 +102,9 @@ izlenir**
 
 **En sık görülen odontojenik tümörler ameloblastom ve odontom**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri11.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri11.png)
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri12.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri12.png)
 
 # ÖZEFAGUS TÜMÖRLERI
 
@@ -125,7 +125,7 @@ riski artırır**
 - **İnsidans 1970’lerden beri belirgin artoyor**
   - **ABD’de özefagus tümörlerinin %5’inden yarısına yükseldi**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri13.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri13.png)
 
 **N Engl J Med 2014;371:2499-509**
 
@@ -135,7 +135,7 @@ riski artırır**
 
 **TP53 mutasyonu tümörün erken edönemlerinde var**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri14.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri14.png)
 
 - **Distal 1/3’te olur**
 - **Mide kardiasını invaze edebilir**
@@ -147,7 +147,7 @@ riski artırır**
 
 **Robbins Basic Pathology**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri15.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri15.png)
 
 **Özefagus Adenokarsinomu**
 
@@ -189,7 +189,7 @@ yiyecekler**
 
 **Polipoid, lümene protrüde olup tıkanıklığa neden olurlar**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri16.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri16.png)
 
 **En sık midözefagusta**
 
@@ -197,7 +197,7 @@ yiyecekler**
 
 **Robbins Basic Pathology**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri17.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri17.png)
 
 **Skuamöz hücreli karsinom**
 
@@ -207,7 +207,7 @@ yiyecekler**
 
 **Robbins Basic Pathology**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri18.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri18.png)
 
 # Yayılım
 
@@ -243,9 +243,9 @@ yiyecekler**
   - **Hasar ve reaktif hiperplazi polip büyümesine neden olur**
   - **H.pylori ile ilişkili ise, eradikasyon sonrası gerilerler**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri19.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri19.png)
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri20.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri20.png)
 
 **Multiple**
 
@@ -255,7 +255,7 @@ yiyecekler**
 
 **Yüzeyi düzgün**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri21.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri21.png)
 
 **İrregüler, kistik genişlemiş, elonge foveolar bezler**
 
@@ -263,9 +263,9 @@ yiyecekler**
 
 **Displazi riski \>1.5 cm**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri22.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri22.png)
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri23.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri23.png)
 
 **İnflamatuar ve hiperplastik polipler**
 
@@ -285,15 +285,15 @@ yiyecekler**
 - **Multipl, kistik, dilate, irregüler bezler, parietal ve oksintik
   hücreler ile döşeli**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri24.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri24.png)
 
 **FLETCHER Diagnostic Histopathology of Tumors 4** **th** \_\_ Ed\_\_
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri25.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri25.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri26.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri26.png)
 
 # Gastrik Adenom
 
@@ -309,7 +309,7 @@ yiyecekler**
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri27.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri27.png)
 
 - **En sık antrum**
 - **Intestinal tip kolumnar epitel**
@@ -428,23 +428,23 @@ yiyecekler**
 - **Matara mide**
 - **Linitis plastica**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri28.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri28.png)
 
 **Intestinal-type adenocarcinoma **
 
 **Robbins Basic Pathology**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri29.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri29.png)
 
 **Diffuse-type adenocarcinoma **
 
 **Robbins Basic Pathology**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri30.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri30.png)
 
 **Intestinal-type adenocarcinoma **
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri31.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri31.png)
 
 **Diffuse-type adenocarcinoma **
 
@@ -490,7 +490,7 @@ yiyecekler**
   - **H.pylori**
 - **Diffüz büyük B hücreli lenfoma**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri32.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri32.png)
 
 **Mide lenfoması**
 
@@ -513,7 +513,7 @@ yiyecekler**
 - **Yüksek dereceli nöroendokrin tümörler**
   - **Nöroendokrin karsinom**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri33.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri33.png)
 
 **Intramural veya submukozal kitleler**
 
@@ -527,7 +527,7 @@ yiyecekler**
 
 **Robbins Basic Pathology**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri34.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri34.png)
 
 **Nöroendokrin Tümörler**
 
@@ -596,7 +596,7 @@ hücreler**
 - **Herhangi bir mutasyon tümör gelişimi için yeterli, birarada hiç
   yoklar**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri35.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri35.png)
 
 # GIST
 
@@ -610,18 +610,18 @@ hücreler**
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri36.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri36.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri37.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri37.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri38.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri38.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri39.png)
+![](./img-local/%C3%9Cst-GIS-T%C3%BCm%C3%B6rleri39.png)
 
 **Autopsy Pathology: A Manual and Atlas**

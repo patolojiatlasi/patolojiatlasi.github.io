@@ -20,13 +20,13 @@ becomes autonomous (independent of physiologic growth stimuli), although
 tumors generally remain dependent on the host for their nutrition and
 blood supply.**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia0.jpg)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia0.jpg)
 
 **Karkinos: Crab like**
 
 **http://en.wikipedia.org/wiki/Cancer#mediaviewer/File:BreastCancer.jpg**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia1.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia1.png)
 
 **Rosai and Ackerman’s Surgical Pathology**
 
@@ -201,7 +201,7 @@ a crab’s behavior**
     - **Japanese, European, North American, South American**
   - **Authors from same country also have different opinions**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia2.gif)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia2.gif)
 
 # WHO Classification of Neoplasms
 
@@ -212,19 +212,19 @@ a crab’s behavior**
     genetic features**
   - **Started adding therapeutic subgroups as well**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia3.gif)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia3.gif)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia4.jpg)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia4.jpg)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia5.jpg)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia5.jpg)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia6.jpg)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia6.jpg)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia7.jpg)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia7.jpg)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia8.jpg)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia8.jpg)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia9.jpg)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia9.jpg)
 
 **http://www.iarc.fr/en/publications/list/bb/**
 
@@ -256,7 +256,7 @@ a crab’s behavior**
 
 **Chondrocyte + oma → Chondroma**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia10.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia10.png)
 
 **Robbins Basic Pathology**
 
@@ -274,19 +274,19 @@ a crab’s behavior**
 - **Cystadenoma**
   - **Tumors forming cysts**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia11.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia11.png)
 
 **Thyroid Follicular Adenoma**
 
 **Tumor is Forming Glands that resemble normal tissue**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia12.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia12.png)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia13.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia13.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia14.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia14.png)
 
 **Tubular Adenoma of Colon**
 
@@ -304,13 +304,13 @@ a crab’s behavior**
 
 **Robbins Basic Pathology**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia15.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia15.png)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia16.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia16.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia17.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia17.png)
 
 **Robbins Basic Pathology**
 
@@ -318,11 +318,11 @@ a crab’s behavior**
 
 **Finger like projections**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia18.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia18.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia19.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia19.png)
 
 **Urologic Surgical Pathology, Chapter 6, 228-316.e23**
 
@@ -330,7 +330,7 @@ a crab’s behavior**
 
 **Benign Neoplasm forming Cyst**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia20.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia20.png)
 
 Rosai and Ackerman’s Surgical Pathology
 
@@ -356,13 +356,13 @@ Rosai and Ackerman’s Surgical Pathology
 
 **Ovarian Cystadenocarcinoma**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia21.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia21.png)
 
 **Rosai and Ackerman’s Surgical Pathology**
 
 # Nomenclature of Malignant TumorsDifferentiation
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia22.jpg)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia22.jpg)
 
 **How much the tumor cell resemble the normal counterpart**
 
@@ -376,13 +376,13 @@ Rosai and Ackerman’s Surgical Pathology
 
 **Elsevier’s Integrated Pathology**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia23.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia23.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia24.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia24.png)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia25.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia25.png)
 
 **Robbins Basic Pathology**
 
@@ -411,19 +411,19 @@ Rosai and Ackerman’s Surgical Pathology
 
 **Mixed tumor of salivary gland, Pleomorphic Adenoma**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia26.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia26.png)
 
 **Robbins Basic Pathology**
 
 **Fibroadenoma of Breast**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia27.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia27.png)
 
 **Robbins Basic Pathology**
 
 **Wilms tumor (nephroblastoma)**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia28.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia28.png)
 
 **Rosai and Ackerman’s Surgical Pathology**
 
@@ -444,21 +444,21 @@ bone, epithelium, muscle, fat, nerve, and other tissues**
 
 # Mature Csytis Teratoma of Ovary
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia29.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia29.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia30.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia30.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
 # Mixed Tumors
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia31.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia31.png)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia32.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia32.png)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia33.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia33.png)
 
 **Robbins Basic Pathology**
 
@@ -500,9 +500,9 @@ nephroblastoma**
 - **Little evidence of acquired translocations, suggesting a neoplastic
   origin**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia34.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia34.png)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia35.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia35.png)
 
 **Bile Duct Hamartoma in Liver**
 
@@ -523,6 +523,6 @@ tissue in the submucosa of the stomach, duodenum, or small intestine**
 
 **Heterotopic exocrine pancreas tissue in stomach**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasia36.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasia36.png)
 
 **Rosai and Ackerman’s Surgical Pathology**

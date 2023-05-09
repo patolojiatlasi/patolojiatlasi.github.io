@@ -1,17 +1,17 @@
 # Title
 Serdar Balcı
 
-![](img%5CEmbolism%2C-Infarction-and-Shock0.jpg)
+![](./img-local/Embolism%2C-Infarction-and-Shock0.jpg)
 
 # Embolism, Infarction and Shock
 
 # Serdar BALCI, MD
 
-![](img%5CEmbolism%2C-Infarction-and-Shock1.png)
+![](./img-local/Embolism%2C-Infarction-and-Shock1.png)
 
-![](img%5CEmbolism%2C-Infarction-and-Shock2.png)
+![](./img-local/Embolism%2C-Infarction-and-Shock2.png)
 
-![](img%5CEmbolism%2C-Infarction-and-Shock3.png)
+![](./img-local/Embolism%2C-Infarction-and-Shock3.png)
 
 **medicalschoolpathology.com**
 
@@ -39,7 +39,7 @@ hypotension, and right-sided heart failure**
 
 # Pulmonary Thromboembolism
 
-![](img%5CEmbolism%2C-Infarction-and-Shock4.png)
+![](./img-local/Embolism%2C-Infarction-and-Shock4.png)
 
 **Robbins Basic Pathology**
 
@@ -162,11 +162,11 @@ and right ventricular failure (cor pulmonale)**
   - **Local toxic endothelial injury**
   - **Platelet activation and granulocyte recruitment**
 
-![](img%5CEmbolism%2C-Infarction-and-Shock5.png)
+![](./img-local/Embolism%2C-Infarction-and-Shock5.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CEmbolism%2C-Infarction-and-Shock6.png)
+![](./img-local/Embolism%2C-Infarction-and-Shock6.png)
 
 **Robbins Basic Pathology**
 
@@ -221,7 +221,7 @@ and right ventricular failure (cor pulmonale)**
   - **systemic fibrin thrombi**
     - **disseminated intravascular coagulation**
 
-![](img%5CEmbolism%2C-Infarction-and-Shock7.png)
+![](./img-local/Embolism%2C-Infarction-and-Shock7.png)
 
 **Robbins Basic Pathology**
 
@@ -294,7 +294,7 @@ single efferent vein (testis or ovary)**
 
 **Bland Infarcts**
 
-![](img%5CEmbolism%2C-Infarction-and-Shock8.png)
+![](./img-local/Embolism%2C-Infarction-and-Shock8.png)
 
 Robbins Basic Pathology
 
@@ -313,15 +313,15 @@ Robbins Basic Pathology
 - **Flow is reestablished after infarction has occurred **
   - **angioplasty of an arterial obstruction**
 
-![](img%5CEmbolism%2C-Infarction-and-Shock9.png)
+![](./img-local/Embolism%2C-Infarction-and-Shock9.png)
 
-![](img%5CEmbolism%2C-Infarction-and-Shock10.png)
+![](./img-local/Embolism%2C-Infarction-and-Shock10.png)
 
 **Robbins Basic Pathology**
 
 # White infarcts
 
-![](img%5CEmbolism%2C-Infarction-and-Shock11.png)
+![](./img-local/Embolism%2C-Infarction-and-Shock11.png)
 
 - **Arterial occlusions in solid organs with end-arterial circulations**
   - **heart, spleen, and kidney**
@@ -349,7 +349,7 @@ hemorrhagic**
   - **Parenchymal regeneration or scar**
   - **In CNS → liquefactive necrosis**
 
-![](img%5CEmbolism%2C-Infarction-and-Shock12.png)
+![](./img-local/Embolism%2C-Infarction-and-Shock12.png)
 
 **Kidney infarct, replaced by a large fibrotic scar**
 
@@ -403,7 +403,7 @@ abscess**
   - **Loss of blood or plasma volume**
 - **Septic shock**
 
-![](img%5CEmbolism%2C-Infarction-and-Shock13.png)
+![](./img-local/Embolism%2C-Infarction-and-Shock13.png)
 
 # Septic Shock
 
@@ -413,7 +413,7 @@ abscess**
   - **When there is no microorganism product**
 - **Coagulation is also affected**
 
-![](img%5CEmbolism%2C-Infarction-and-Shock14.png)
+![](./img-local/Embolism%2C-Infarction-and-Shock14.png)
 
 - **Metabolic abnormalities**
 - **Immune suppression**

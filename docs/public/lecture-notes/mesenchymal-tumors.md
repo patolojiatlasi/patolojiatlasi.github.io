@@ -1,9 +1,9 @@
 # Title
 Serdar Balcı
 
-![](img%5CMesenchymal-Tumors0.jpg)
+![](./img-local/Mesenchymal-Tumors0.jpg)
 
-![](img%5CMesenchymal-Tumors1.jpg)
+![](./img-local/Mesenchymal-Tumors1.jpg)
 
 # Mesenchymal Tumors
 
@@ -44,7 +44,7 @@ Serdar Balcı
 
 **Osteoid tissue does not have lymphatics **
 
-![](img%5CMesenchymal-Tumors2.png)
+![](./img-local/Mesenchymal-Tumors2.png)
 
 **Pathology Secrets Third Edition**
 
@@ -73,31 +73,31 @@ century**
 **Liver angiosarcoma → radioactive Thorotrast use as a radiologic
 imaging contrast material**
 
-![](img%5CMesenchymal-Tumors3.png)
+![](./img-local/Mesenchymal-Tumors3.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CMesenchymal-Tumors4.gif)
+![](./img-local/Mesenchymal-Tumors4.gif)
 
-![](img%5CMesenchymal-Tumors5.jpg)
+![](./img-local/Mesenchymal-Tumors5.jpg)
 
-![](img%5CMesenchymal-Tumors6.jpg)
+![](./img-local/Mesenchymal-Tumors6.jpg)
 
-![](img%5CMesenchymal-Tumors7.jpg)
+![](./img-local/Mesenchymal-Tumors7.jpg)
 
-![](img%5CMesenchymal-Tumors8.jpg)
+![](./img-local/Mesenchymal-Tumors8.jpg)
 
-![](img%5CMesenchymal-Tumors9.jpg)
+![](./img-local/Mesenchymal-Tumors9.jpg)
 
-![](img%5CMesenchymal-Tumors10.jpg)
+![](./img-local/Mesenchymal-Tumors10.jpg)
 
 **http://www.iarc.fr/en/publications/list/bb/**
 
-![](img%5CMesenchymal-Tumors11.png)
+![](./img-local/Mesenchymal-Tumors11.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CMesenchymal-Tumors12.png)
+![](./img-local/Mesenchymal-Tumors12.png)
 
 **Benign adipose tissue tumor**
 
@@ -105,7 +105,7 @@ imaging contrast material**
 
 **Rubin’s Pathology 7th Ed**
 
-![](img%5CMesenchymal-Tumors13.png)
+![](./img-local/Mesenchymal-Tumors13.png)
 
 **Malignant Adipose Tissue Tumor**
 
@@ -113,7 +113,7 @@ imaging contrast material**
 
 **Rubin’s Pathology 7th Ed**
 
-![](img%5CMesenchymal-Tumors14.png)
+![](./img-local/Mesenchymal-Tumors14.png)
 
 **Malignant Adipose Tissue Tumor**
 
@@ -124,7 +124,7 @@ called dedifferentiated**
 
 **Rubin’s Pathology 7th Ed**
 
-![](img%5CMesenchymal-Tumors15.png)
+![](./img-local/Mesenchymal-Tumors15.png)
 
 **Malignant Adipse Tissue Tumor**
 
@@ -132,7 +132,7 @@ called dedifferentiated**
 
 **Rubin’s Pathology 7th Ed**
 
-![](img%5CMesenchymal-Tumors16.png)
+![](./img-local/Mesenchymal-Tumors16.png)
 
 **Fibromatosis**
 
@@ -140,7 +140,7 @@ called dedifferentiated**
 
 **Rubin’s Pathology 7th Ed**
 
-![](img%5CMesenchymal-Tumors17.png)
+![](./img-local/Mesenchymal-Tumors17.png)
 
 **Malignant Fibroblast Tumor**
 
@@ -152,7 +152,7 @@ called dedifferentiated**
 
 **Malignant Fibrous Histiocytoma**
 
-![](img%5CMesenchymal-Tumors18.png)
+![](./img-local/Mesenchymal-Tumors18.png)
 
 **Rubin’s Pathology 7th Ed**
 
@@ -160,11 +160,11 @@ called dedifferentiated**
 
 **Fibrosarcoma**
 
-![](img%5CMesenchymal-Tumors19.png)
+![](./img-local/Mesenchymal-Tumors19.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CMesenchymal-Tumors20.png)
+![](./img-local/Mesenchymal-Tumors20.png)
 
 **Robbins Basic Pathology**
 
@@ -172,7 +172,7 @@ called dedifferentiated**
 
 **Rhabdomyoma**
 
-![](img%5CMesenchymal-Tumors21.png)
+![](./img-local/Mesenchymal-Tumors21.png)
 
 **Enzinger and Weiss’s Soft Tissue Tumors **
 
@@ -180,11 +180,11 @@ called dedifferentiated**
 
 **Rhabdomyosarcoma**
 
-![](img%5CMesenchymal-Tumors22.png)
+![](./img-local/Mesenchymal-Tumors22.png)
 
 **Rubin’s Pathology 7th Ed**
 
-![](img%5CMesenchymal-Tumors23.png)
+![](./img-local/Mesenchymal-Tumors23.png)
 
 **Malignant skeletal muscle tumor**
 
@@ -192,7 +192,7 @@ called dedifferentiated**
 
 **Rubin’s Pathology 7th Ed**
 
-![](img%5CMesenchymal-Tumors24.png)
+![](./img-local/Mesenchymal-Tumors24.png)
 
 **Malignant skeletal muscle tumor**
 
@@ -204,7 +204,7 @@ called dedifferentiated**
 
 **Leiomyoma**
 
-![](img%5CMesenchymal-Tumors25.png)
+![](./img-local/Mesenchymal-Tumors25.png)
 
 **Rubin’s Pathology 7th Ed**
 
@@ -212,7 +212,7 @@ called dedifferentiated**
 
 **Leiomyosarcoma**
 
-![](img%5CMesenchymal-Tumors26.png)
+![](./img-local/Mesenchymal-Tumors26.png)
 
 **Rubin’s Pathology 7th Ed**
 
@@ -220,11 +220,11 @@ called dedifferentiated**
 
 **Leiomyosarcoma**
 
-![](img%5CMesenchymal-Tumors27.png)
+![](./img-local/Mesenchymal-Tumors27.png)
 
 **Rubin’s Pathology 7th Ed**
 
-![](img%5CMesenchymal-Tumors28.png)
+![](./img-local/Mesenchymal-Tumors28.png)
 
 **Malignant smooth muscle tumor**
 
@@ -247,15 +247,15 @@ called dedifferentiated**
   - **Located in the muscularis propria**
   - **Serve as pacemaker cells for gut peristalsis**
 
-![](img%5CMesenchymal-Tumors29.png)
+![](./img-local/Mesenchymal-Tumors29.png)
 
 **Rosai and Ackerman’s Surgical Pathology**
 
-![](img%5CMesenchymal-Tumors30.png)
+![](./img-local/Mesenchymal-Tumors30.png)
 
 **Rosai and Ackerman’s Surgical Pathology**
 
-![](img%5CMesenchymal-Tumors31.png)
+![](./img-local/Mesenchymal-Tumors31.png)
 
 **Benign vascular tumor**
 
@@ -263,7 +263,7 @@ called dedifferentiated**
 
 **Rubin’s Pathology 7th Ed**
 
-![](img%5CMesenchymal-Tumors32.png)
+![](./img-local/Mesenchymal-Tumors32.png)
 
 **Rubin’s Pathology 7th Ed**
 
@@ -271,7 +271,7 @@ called dedifferentiated**
 
 **Angiosarcoma**
 
-![](img%5CMesenchymal-Tumors33.png)
+![](./img-local/Mesenchymal-Tumors33.png)
 
 **Rubin’s Pathology 7th Ed**
 
@@ -292,7 +292,7 @@ spread**
 
 **Kaposi Sarcoma**
 
-![](img%5CMesenchymal-Tumors34.png)
+![](./img-local/Mesenchymal-Tumors34.png)
 
 **Rubin’s Pathology 7th Ed**
 
@@ -324,7 +324,7 @@ spread**
   - **Children in areas of sub-Saharan Africa**
   - **Rapidly developing lymphadenopathy**
 
-![](img%5CMesenchymal-Tumors35.png)
+![](./img-local/Mesenchymal-Tumors35.png)
 
 **Robbins Basic Pathology**
 
@@ -332,17 +332,17 @@ spread**
 
 **Schwannoma**
 
-![](img%5CMesenchymal-Tumors36.png)
+![](./img-local/Mesenchymal-Tumors36.png)
 
 **Rosai and Ackerman’s Surgical Pathology**
 
 **Malignant peripheral nerve sheath tumor **
 
-![](img%5CMesenchymal-Tumors37.png)
+![](./img-local/Mesenchymal-Tumors37.png)
 
 **Rosai and Ackerman’s Surgical Pathology**
 
-![](img%5CMesenchymal-Tumors38.png)
+![](./img-local/Mesenchymal-Tumors38.png)
 
 **Robbins Basic Pathology**
 
@@ -350,11 +350,11 @@ spread**
 
 **Osteochondroma**
 
-![](img%5CMesenchymal-Tumors39.png)
+![](./img-local/Mesenchymal-Tumors39.png)
 
 **Rubin’s Pathology 7th Ed**
 
-![](img%5CMesenchymal-Tumors40.png)
+![](./img-local/Mesenchymal-Tumors40.png)
 
 **Benign bone tumor forming cartilage**
 
@@ -366,7 +366,7 @@ spread**
 
 **Chondrosarcoma**
 
-![](img%5CMesenchymal-Tumors41.png)
+![](./img-local/Mesenchymal-Tumors41.png)
 
 **Rubin’s Pathology 7th Ed**
 
@@ -389,7 +389,7 @@ osteosarcomas**
 **Prognosis depends on the resectability of the tumor, its histologic
 grade, and the presence or absence of hematogenous metastases**
 
-![](img%5CMesenchymal-Tumors42.png)
+![](./img-local/Mesenchymal-Tumors42.png)
 
 **Robbins Basic Pathology**
 
@@ -397,13 +397,13 @@ grade, and the presence or absence of hematogenous metastases**
 
 **Osteosarcoma**
 
-![](img%5CMesenchymal-Tumors43.png)
+![](./img-local/Mesenchymal-Tumors43.png)
 
 **Rubin’s Pathology 7th Ed**
 
-![](img%5CMesenchymal-Tumors44.png)
+![](./img-local/Mesenchymal-Tumors44.png)
 
-![](img%5CMesenchymal-Tumors45.png)
+![](./img-local/Mesenchymal-Tumors45.png)
 
 **Robbins Basic Pathology**
 
@@ -428,6 +428,6 @@ adolescent tumors**
 
 # Any tumor spreading with a bite?
 
-![](img%5CMesenchymal-Tumors46.png)
+![](./img-local/Mesenchymal-Tumors46.png)
 
 **Tasmanian Devil Facial Tumour Disease**

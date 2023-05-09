@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CViral-and-Autoimmune-Hepatitis0.jpg)
+![](./img-local/Viral-and-Autoimmune-Hepatitis0.jpg)
 
 # Viral and Autoimmune Hepatitis
 
@@ -9,29 +9,29 @@ Serdar Balcı
 
 # VIRAL HEPATITIS
 
-![](img%5CViral-and-Autoimmune-Hepatitis1.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis1.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CViral-and-Autoimmune-Hepatitis2.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis2.png)
 
 **MacSween’s Pathology of the Liver 6th Ed**
 
-![](img%5CViral-and-Autoimmune-Hepatitis3.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis3.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CViral-and-Autoimmune-Hepatitis4.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis4.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CViral-and-Autoimmune-Hepatitis5.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis5.png)
 
-![](img%5CViral-and-Autoimmune-Hepatitis6.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis6.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CViral-and-Autoimmune-Hepatitis7.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis7.png)
 
 **The risk of hepatocellular carcinoma**
 
@@ -74,15 +74,15 @@ rearrangements and usually become inactive**
   - **may have a role in the development of hepatocellular carcinoma by
     regulating p53 degradation and expression**
 
-![](img%5CViral-and-Autoimmune-Hepatitis8.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis8.png)
 
 **MacSween’s Pathology of the Liver 6th Ed**
 
-![](img%5CViral-and-Autoimmune-Hepatitis9.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis9.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CViral-and-Autoimmune-Hepatitis10.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis10.png)
 
 **Robbins Basic Pathology**
 
@@ -115,21 +115,21 @@ stuffed with surface antigen **
 
 **Rosai and Ackerman’s Surgical Pathology**
 
-![](img%5CViral-and-Autoimmune-Hepatitis11.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis11.png)
 
 **Chronic viral hepatitis B: viral replicative phase. Hepatitis B core
 antigen **
 
 **Rosai and Ackerman’s Surgical Pathology**
 
-![](img%5CViral-and-Autoimmune-Hepatitis12.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis12.png)
 
 **Chronic viral hepatitis B: viral replicative phase. Hepatitis B
 surface antigen **
 
 **Rosai and Ackerman’s Surgical Pathology**
 
-![](img%5CViral-and-Autoimmune-Hepatitis13.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis13.png)
 
 **Chronic viral hepatitis B: viral nonreplicative (integration) phase.
 Hepatitis B surface antigen **
@@ -138,13 +138,13 @@ Hepatitis B surface antigen **
 accumulation of HBsAg in cytoplasm, have large, pale, finely granular,
 pink cytoplasmic inclusions on hematoxylin-eosin staining**
 
-![](img%5CViral-and-Autoimmune-Hepatitis14.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis14.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CViral-and-Autoimmune-Hepatitis15.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis15.png)
 
-![](img%5CViral-and-Autoimmune-Hepatitis16.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis16.png)
 
 **Robbins Basic Pathology**
 
@@ -154,7 +154,7 @@ pink cytoplasmic inclusions on hematoxylin-eosin staining**
 
 **Infected person may carry many HCV variants**
 
-![](img%5CViral-and-Autoimmune-Hepatitis17.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis17.png)
 
 **The risk of hepatocellular carcinoma is 1% to 4% per year**
 
@@ -173,11 +173,11 @@ HCV infection**
 80% to 85% of patients with subclinical or asymptomatic acute
 infection**
 
-![](img%5CViral-and-Autoimmune-Hepatitis18.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis18.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CViral-and-Autoimmune-Hepatitis19.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis19.png)
 
 **Robbins Basic Pathology**
 
@@ -190,7 +190,7 @@ infection**
 - **Bile duct injury**
   - **Direct infection of cholangiocytes by the virus**
 
-![](img%5CViral-and-Autoimmune-Hepatitis20.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis20.png)
 
 # 
 
@@ -200,9 +200,9 @@ or visceral) and glomerulonephritis**
 
 **Cryoglobulinemia is found in 50% of patients with hepatitis C**
 
-![](img%5CViral-and-Autoimmune-Hepatitis21.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis21.png)
 
-![](img%5CViral-and-Autoimmune-Hepatitis22.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis22.png)
 
 **Robbins Basic Pathology**
 
@@ -218,9 +218,9 @@ or visceral) and glomerulonephritis**
   - **Most superinfected persons there is an acceleration of hepatitis,
     progressing to more severe chronic hepatitis 4 to 7 weeks later**
 
-![](img%5CViral-and-Autoimmune-Hepatitis23.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis23.png)
 
-![](img%5CViral-and-Autoimmune-Hepatitis24.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis24.png)
 
 **Robbins Basic Pathology**
 
@@ -304,7 +304,7 @@ chronic liver disease or persistent viremia**
   - **Direct invasion of the liver from a nearby source**
   - **A penetrating injury**
 
-![](img%5CViral-and-Autoimmune-Hepatitis25.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis25.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -360,7 +360,7 @@ chronic liver disease or persistent viremia**
 - **The overall risk of cirrhosis is 5%**
   - **main cause of death**
 
-![](img%5CViral-and-Autoimmune-Hepatitis26.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis26.png)
 
 **Early phase of severe cell injury and inflammation followed by rapid
 scarring**
@@ -379,4 +379,4 @@ necrosis**
 **Burned-out cirrhosis, associated with little ongoing cell injury or
 inflammation**
 
-![](img%5CViral-and-Autoimmune-Hepatitis27.png)
+![](./img-local/Viral-and-Autoimmune-Hepatitis27.png)

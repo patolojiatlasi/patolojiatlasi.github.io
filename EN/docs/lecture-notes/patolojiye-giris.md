@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CPatolojiye-giris-web0.jpg)
+![](./img-local/Patolojiye-giris-web0.jpg)
 
 # Patoloji’ye Giriş
 
@@ -133,11 +133,11 @@ lazım**
   bir soru sorulduğunda cevaba bu şekilde başlayın**
   - **Mesela: “Over hastalıklarından bahseder misin?”**
 
-![](img%5CPatolojiye-giris-web1.jpg)
+![](./img-local/Patolojiye-giris-web1.jpg)
 
 **Underwood’s Pathology: A Clinical Approach , Sixth Edition**
 
-![](img%5CPatolojiye-giris-web2.jpg)
+![](./img-local/Patolojiye-giris-web2.jpg)
 
 **Underwood’s Pathology: A Clinical Approach , Sixth Edition**
 
@@ -188,7 +188,7 @@ olur**
 
 **Genetik geçmiş (yatkınlık) + çevresel etkenler**
 
-![](img%5CPatolojiye-giris-web3.png)
+![](./img-local/Patolojiye-giris-web3.png)
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
@@ -207,9 +207,9 @@ neden olur**
 
 **Hastalıklar basamaklarla oluşur**
 
-![](img%5CPatolojiye-giris-web4.png)
+![](./img-local/Patolojiye-giris-web4.png)
 
-![](img%5CPatolojiye-giris-web5.png)
+![](./img-local/Patolojiye-giris-web5.png)
 
 **Figure 10-19, 10-20 from Robbins**
 
@@ -218,7 +218,7 @@ manifestations**
 
 **Kanser çok basamaklı bir süreçtir**
 
-![](img%5CPatolojiye-giris-web6.png)
+![](./img-local/Patolojiye-giris-web6.png)
 
 **Figure 17-49 from Robbins**
 
@@ -235,7 +235,7 @@ manifestations**
 - **Değişiklikler ya bir hastalığın karakteristiğidir**
 - **Ya da bir etiyolojik süreci yansıtır**
 
-![](img%5CPatolojiye-giris-web7.png)
+![](./img-local/Patolojiye-giris-web7.png)
 
 **Stevens, Alan, MB BS, FRCPath - Core Pathology**
 
@@ -258,46 +258,46 @@ manifestations**
 - **İmmünolojik özellikler**
 - **Moleküler değişiklikler**
 
-![](img%5CPatolojiye-giris-web8.png)
+![](./img-local/Patolojiye-giris-web8.png)
 
-![](img%5CPatolojiye-giris-web9.png)
+![](./img-local/Patolojiye-giris-web9.png)
 
-![](img%5CPatolojiye-giris-web10.png)
+![](./img-local/Patolojiye-giris-web10.png)
 
-![](img%5CPatolojiye-giris-web11.png)
+![](./img-local/Patolojiye-giris-web11.png)
 
-![](img%5CPatolojiye-giris-web12.jpg)
+![](./img-local/Patolojiye-giris-web12.jpg)
 
-![](img%5CPatolojiye-giris-web13.png)
+![](./img-local/Patolojiye-giris-web13.png)
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
 
 # Makroskopik inceleme
 
-![](img%5CPatolojiye-giris-web14.jpg)
+![](./img-local/Patolojiye-giris-web14.jpg)
 
-![](img%5CPatolojiye-giris-web15.png)
+![](./img-local/Patolojiye-giris-web15.png)
 
 # Mikroskopi
 
-![](img%5CPatolojiye-giris-web16.jpg)
+![](./img-local/Patolojiye-giris-web16.jpg)
 
-![](img%5CPatolojiye-giris-web17.jpg)
+![](./img-local/Patolojiye-giris-web17.jpg)
 
-![](img%5CPatolojiye-giris-web18.jpg)
+![](./img-local/Patolojiye-giris-web18.jpg)
 
-![](img%5CPatolojiye-giris-web19.png)
+![](./img-local/Patolojiye-giris-web19.png)
 
 # Sitoloji
 
-![](img%5CPatolojiye-giris-web20.png)
+![](./img-local/Patolojiye-giris-web20.png)
 
 **Meme kanserinden yapılan bir aspirasyona ait örnek**
 
 # İmmünohistokimya
 
-![](img%5CPatolojiye-giris-web21.jpg)
+![](./img-local/Patolojiye-giris-web21.jpg)
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
@@ -390,13 +390,13 @@ manifestations**
 
 # Temel tıbbın kitapları
 
-![](img%5CPatolojiye-giris-web22.png)
+![](./img-local/Patolojiye-giris-web22.png)
 
-![](img%5CPatolojiye-giris-web23.jpg)
+![](./img-local/Patolojiye-giris-web23.jpg)
 
-![](img%5CPatolojiye-giris-web24.jpg)
+![](./img-local/Patolojiye-giris-web24.jpg)
 
-![](img%5CPatolojiye-giris-web25.jpg)
+![](./img-local/Patolojiye-giris-web25.jpg)
 
 # Patolojinin kitapları
 
@@ -443,7 +443,7 @@ ilerideki çalışmalarınız için önerilen kitaplardan.**
 **Tıp sürekli değişiyor, kitaplardaki trend ve moda da sürekli
 değişiyor**
 
-![](img%5CPatolojiye-giris-web26.jpg)
+![](./img-local/Patolojiye-giris-web26.jpg)
 
 # Bazı web sayfaları
 
@@ -462,7 +462,7 @@ değişiyor**
 **Hastalıkların temeli vücuttaki en küçük yaşayan birimde başlar, hücre
 tüm hastalıkların temelidir**
 
-![](img%5CPatolojiye-giris-web27.png)
+![](./img-local/Patolojiye-giris-web27.png)
 
 **Ludwig, Handbook of Autopsy Practice, Humana Press**
 
@@ -472,11 +472,11 @@ tüm hastalıkların temelidir**
 
 **Hamdi Suat Aknar,** \_\_ Kamile Şevki Mutlu\_\_
 
-![](img%5CPatolojiye-giris-web28.jpg)
+![](./img-local/Patolojiye-giris-web28.jpg)
 
-![](img%5CPatolojiye-giris-web29.jpg)
+![](./img-local/Patolojiye-giris-web29.jpg)
 
-![](img%5CPatolojiye-giris-ders0.jpg)
+![](./img-local/Patolojiye-giris-ders0.jpg)
 
 # Patoloji’ye Giriş
 
@@ -605,11 +605,11 @@ lazım**
   bir soru sorulduğunda cevaba bu şekilde başlayın**
   - **Mesela: “Over hastalıklarından bahseder misin?”**
 
-![](img%5CPatolojiye-giris-ders1.jpg)
+![](./img-local/Patolojiye-giris-ders1.jpg)
 
 **Underwood’s Pathology: A Clinical Approach , Sixth Edition**
 
-![](img%5CPatolojiye-giris-ders2.jpg)
+![](./img-local/Patolojiye-giris-ders2.jpg)
 
 **Underwood’s Pathology: A Clinical Approach , Sixth Edition**
 
@@ -660,7 +660,7 @@ olur**
 
 **Genetik geçmiş (yatkınlık) + çevresel etkenler**
 
-![](img%5CPatolojiye-giris-ders3.png)
+![](./img-local/Patolojiye-giris-ders3.png)
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
@@ -679,9 +679,9 @@ neden olur**
 
 **Hastalıklar basamaklarla oluşur**
 
-![](img%5CPatolojiye-giris-ders4.png)
+![](./img-local/Patolojiye-giris-ders4.png)
 
-![](img%5CPatolojiye-giris-ders5.png)
+![](./img-local/Patolojiye-giris-ders5.png)
 
 **Figure 10-19, 10-20 from Robbins**
 
@@ -690,7 +690,7 @@ manifestations**
 
 **Kanser çok basamaklı bir süreçtir**
 
-![](img%5CPatolojiye-giris-ders6.png)
+![](./img-local/Patolojiye-giris-ders6.png)
 
 **Figure 17-49 from Robbins**
 
@@ -707,7 +707,7 @@ manifestations**
 - **Değişiklikler ya bir hastalığın karakteristiğidir**
 - **Ya da bir etiyolojik süreci yansıtır**
 
-![](img%5CPatolojiye-giris-ders7.png)
+![](./img-local/Patolojiye-giris-ders7.png)
 
 **Stevens, Alan, MB BS, FRCPath - Core Pathology**
 
@@ -730,46 +730,46 @@ manifestations**
 - **İmmünolojik özellikler**
 - **Moleküler değişiklikler**
 
-![](img%5CPatolojiye-giris-ders8.png)
+![](./img-local/Patolojiye-giris-ders8.png)
 
-![](img%5CPatolojiye-giris-ders9.png)
+![](./img-local/Patolojiye-giris-ders9.png)
 
-![](img%5CPatolojiye-giris-ders10.png)
+![](./img-local/Patolojiye-giris-ders10.png)
 
-![](img%5CPatolojiye-giris-ders11.png)
+![](./img-local/Patolojiye-giris-ders11.png)
 
-![](img%5CPatolojiye-giris-ders12.jpg)
+![](./img-local/Patolojiye-giris-ders12.jpg)
 
-![](img%5CPatolojiye-giris-ders13.png)
+![](./img-local/Patolojiye-giris-ders13.png)
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
 
 # Makroskopik inceleme
 
-![](img%5CPatolojiye-giris-ders14.jpg)
+![](./img-local/Patolojiye-giris-ders14.jpg)
 
-![](img%5CPatolojiye-giris-ders15.png)
+![](./img-local/Patolojiye-giris-ders15.png)
 
 # Mikroskopi
 
-![](img%5CPatolojiye-giris-ders16.jpg)
+![](./img-local/Patolojiye-giris-ders16.jpg)
 
-![](img%5CPatolojiye-giris-ders17.jpg)
+![](./img-local/Patolojiye-giris-ders17.jpg)
 
-![](img%5CPatolojiye-giris-ders18.jpg)
+![](./img-local/Patolojiye-giris-ders18.jpg)
 
-![](img%5CPatolojiye-giris-ders19.png)
+![](./img-local/Patolojiye-giris-ders19.png)
 
 # Sitoloji
 
-![](img%5CPatolojiye-giris-ders20.png)
+![](./img-local/Patolojiye-giris-ders20.png)
 
 **Meme kanserinden yapılan bir aspirasyona ait örnek**
 
 # İmmünohistokimya
 
-![](img%5CPatolojiye-giris-ders21.jpg)
+![](./img-local/Patolojiye-giris-ders21.jpg)
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
@@ -862,13 +862,13 @@ manifestations**
 
 # Temel tıbbın kitapları
 
-![](img%5CPatolojiye-giris-ders22.png)
+![](./img-local/Patolojiye-giris-ders22.png)
 
-![](img%5CPatolojiye-giris-ders23.jpg)
+![](./img-local/Patolojiye-giris-ders23.jpg)
 
-![](img%5CPatolojiye-giris-ders24.jpg)
+![](./img-local/Patolojiye-giris-ders24.jpg)
 
-![](img%5CPatolojiye-giris-ders25.jpg)
+![](./img-local/Patolojiye-giris-ders25.jpg)
 
 # Patolojinin kitapları
 
@@ -915,7 +915,7 @@ ilerideki çalışmalarınız için önerilen kitaplardan.**
 **Tıp sürekli değişiyor, kitaplardaki trend ve moda da sürekli
 değişiyor**
 
-![](img%5CPatolojiye-giris-ders26.jpg)
+![](./img-local/Patolojiye-giris-ders26.jpg)
 
 # Bazı web sayfaları
 
@@ -934,7 +934,7 @@ değişiyor**
 **Hastalıkların temeli vücuttaki en küçük yaşayan birimde başlar, hücre
 tüm hastalıkların temelidir**
 
-![](img%5CPatolojiye-giris-ders27.png)
+![](./img-local/Patolojiye-giris-ders27.png)
 
 **Ludwig, Handbook of Autopsy Practice, Humana Press**
 
@@ -944,6 +944,6 @@ tüm hastalıkların temelidir**
 
 **Hamdi Suat Aknar, Kamile Şevki Mutlu**
 
-![](img%5CPatolojiye-giris-ders28.jpg)
+![](./img-local/Patolojiye-giris-ders28.jpg)
 
-![](img%5CPatolojiye-giris-ders29.jpg)
+![](./img-local/Patolojiye-giris-ders29.jpg)

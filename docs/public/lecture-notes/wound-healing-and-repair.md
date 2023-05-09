@@ -1,7 +1,7 @@
 # Wound Healing Repair
 Serdar Balcı
 
-![](img%5CWound-Healing-and-Repair0.jpg)
+![](./img-local/Wound-Healing-and-Repair0.jpg)
 
 # Wound Healing and Repair
 
@@ -27,11 +27,11 @@ Serdar Balcı
   - **rapidly dividing epithelia**
 - **liver**
 
-![](img%5CWound-Healing-and-Repair1.png)
+![](./img-local/Wound-Healing-and-Repair1.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CWound-Healing-and-Repair2.png)
+![](./img-local/Wound-Healing-and-Repair2.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
@@ -62,17 +62,17 @@ function**
 **Fibrosis develops in a tissue space occupied by an inflammatory
 exudate**
 
-![](img%5CWound-Healing-and-Repair3.png)
+![](./img-local/Wound-Healing-and-Repair3.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CWound-Healing-and-Repair4.png)
+![](./img-local/Wound-Healing-and-Repair4.png)
 
 **Robbins Basic Pathology**
 
 # Healing of Skin Wounds
 
-![](img%5CWound-Healing-and-Repair5.png)
+![](./img-local/Wound-Healing-and-Repair5.png)
 
 **Robbins Basic Pathology**
 
@@ -106,7 +106,7 @@ clot**
 **Basal cells at the cut edge of the epidermis increased mitotic
 activity**
 
-![](img%5CWound-Healing-and-Repair6.png)
+![](./img-local/Wound-Healing-and-Repair6.png)
 
 **Robbins Basic Pathology**
 
@@ -121,7 +121,7 @@ along the dermis**
 
 **A thin but continuous epithelial layer.**
 
-![](img%5CWound-Healing-and-Repair7.png)
+![](./img-local/Wound-Healing-and-Repair7.png)
 
 **Robbins Basic Pathology**
 
@@ -137,7 +137,7 @@ vertically oriented and do not bridge the incision**
 **Epithelial cell proliferation continues, yielding a thickened
 epidermal covering layer**
 
-![](img%5CWound-Healing-and-Repair8.png)
+![](./img-local/Wound-Healing-and-Repair8.png)
 
 **Robbins Basic Pathology**
 
@@ -155,7 +155,7 @@ incision**
 **Differentiation of surface cells yields a mature epidermal
 architecture with surface keratinization**
 
-![](img%5CWound-Healing-and-Repair9.png)
+![](./img-local/Wound-Healing-and-Repair9.png)
 
 **Robbins Basic Pathology**
 
@@ -170,7 +170,7 @@ substantially diminished**
 
 **Regression of vascular channels**
 
-![](img%5CWound-Healing-and-Repair10.png)
+![](./img-local/Wound-Healing-and-Repair10.png)
 
 **Robbins Basic Pathology**
 
@@ -185,7 +185,7 @@ substantially diminished**
 **Dermal appendages destroyed in the line of the incision are
 permanently lost The tensile strength of the wound increases with time**
 
-![](img%5CWound-Healing-and-Repair11.png)
+![](./img-local/Wound-Healing-and-Repair11.png)
 
 **Robbins Basic Pathology**
 
@@ -199,13 +199,13 @@ permanently lost The tensile strength of the wound increases with time**
 - **The repair process is more complex **
   - **involves a combination of regeneration and scarring**
 
-![](img%5CWound-Healing-and-Repair12.png)
+![](./img-local/Wound-Healing-and-Repair12.png)
 
 **Robbins Basic Pathology**
 
 # Healing by Second Intention (secondary union)
 
-![](img%5CWound-Healing-and-Repair13.png)
+![](./img-local/Wound-Healing-and-Repair13.png)
 
 **Inflammatory reaction is more intense**
 
@@ -219,7 +219,7 @@ permanently lost The tensile strength of the wound increases with time**
 
 **Followed by wound contraction by myofibroblasts**
 
-![](img%5CWound-Healing-and-Repair14.png)
+![](./img-local/Wound-Healing-and-Repair14.png)
 
 **Robbins Basic Pathology**
 
@@ -231,7 +231,7 @@ permanently lost The tensile strength of the wound increases with time**
 
 **Usually does not improve**
 
-![](img%5CWound-Healing-and-Repair15.png)
+![](./img-local/Wound-Healing-and-Repair15.png)
 
 **Robbins Basic Pathology**
 
@@ -279,7 +279,7 @@ permanently lost The tensile strength of the wound increases with time**
   - **Skeletal muscle**
     - **satellite cells attached to the endomysial sheath**
 
-![](img%5CWound-Healing-and-Repair16.png)
+![](./img-local/Wound-Healing-and-Repair16.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
@@ -316,23 +316,23 @@ permanently lost The tensile strength of the wound increases with time**
   - **self-renewal capacity is more limited**
   - **lineage potential is restricted to tissue, organ**
 
-![](img%5CWound-Healing-and-Repair17.png)
+![](./img-local/Wound-Healing-and-Repair17.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CWound-Healing-and-Repair18.png)
+![](./img-local/Wound-Healing-and-Repair18.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CWound-Healing-and-Repair19.png)
+![](./img-local/Wound-Healing-and-Repair19.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CWound-Healing-and-Repair20.png)
+![](./img-local/Wound-Healing-and-Repair20.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CWound-Healing-and-Repair21.png)
+![](./img-local/Wound-Healing-and-Repair21.png)
 
 **Robbins Basic Pathology**
 
@@ -350,27 +350,27 @@ permanently lost The tensile strength of the wound increases with time**
 - **stimulate the function of growth control genes**
   - **proto-oncogenes**
 
-![](img%5CWound-Healing-and-Repair22.png)
+![](./img-local/Wound-Healing-and-Repair22.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CWound-Healing-and-Repair23.png)
+![](./img-local/Wound-Healing-and-Repair23.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CWound-Healing-and-Repair24.png)
+![](./img-local/Wound-Healing-and-Repair24.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CWound-Healing-and-Repair25.png)
+![](./img-local/Wound-Healing-and-Repair25.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CWound-Healing-and-Repair26.png)
+![](./img-local/Wound-Healing-and-Repair26.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CWound-Healing-and-Repair27.png)
+![](./img-local/Wound-Healing-and-Repair27.png)
 
 **Robbins Basic Pathology**
 
@@ -388,7 +388,7 @@ permanently lost The tensile strength of the wound increases with time**
   - **connect the matrix elements to one another and to cells**
   - **Cell Adhesion Molecules**
 
-![](img%5CWound-Healing-and-Repair28.png)
+![](./img-local/Wound-Healing-and-Repair28.png)
 
 **Robbins Basic Pathology**
 
@@ -415,7 +415,7 @@ permanently lost The tensile strength of the wound increases with time**
 
 **combination of regeneration of some cells and scar formation**
 
-![](img%5CWound-Healing-and-Repair29.png)
+![](./img-local/Wound-Healing-and-Repair29.png)
 
 - **Inflammatory response**
 - **Angiogenesis**
@@ -428,11 +428,11 @@ permanently lost The tensile strength of the wound increases with time**
 
 **Robbins Basic Pathology**
 
-![](img%5CWound-Healing-and-Repair30.png)
+![](./img-local/Wound-Healing-and-Repair30.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CWound-Healing-and-Repair31.png)
+![](./img-local/Wound-Healing-and-Repair31.png)
 
 **Robbins Basic Pathology**
 
@@ -442,7 +442,7 @@ permanently lost The tensile strength of the wound increases with time**
 
 **induction of fibroblast and endothelial cell proliferation**
 
-![](img%5CWound-Healing-and-Repair32.png)
+![](./img-local/Wound-Healing-and-Repair32.png)
 
 **Robbins Basic Pathology**
 
@@ -454,19 +454,19 @@ permanently lost The tensile strength of the wound increases with time**
 
 **pink, granular appearance macroscopically**
 
-![](img%5CWound-Healing-and-Repair33.png)
+![](./img-local/Wound-Healing-and-Repair33.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CWound-Healing-and-Repair34.png)
+![](./img-local/Wound-Healing-and-Repair34.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CWound-Healing-and-Repair35.png)
+![](./img-local/Wound-Healing-and-Repair35.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CWound-Healing-and-Repair36.png)
+![](./img-local/Wound-Healing-and-Repair36.png)
 
 **Robbins Basic Pathology**
 
@@ -476,7 +476,7 @@ permanently lost The tensile strength of the wound increases with time**
 - \_\_ Existing vessels\_\_
   - **primarily venules**
 
-![](img%5CWound-Healing-and-Repair37.png)
+![](./img-local/Wound-Healing-and-Repair37.png)
 
 **Robbins Basic Pathology**
 
@@ -488,7 +488,7 @@ permanently lost The tensile strength of the wound increases with time**
   - **Block pathologic vessel growth **
     - **diabetic retinopathy**
 
-![](img%5CWound-Healing-and-Repair38.png)
+![](./img-local/Wound-Healing-and-Repair38.png)
 
 **Robbins Basic Pathology**
 
@@ -504,23 +504,23 @@ permanently lost The tensile strength of the wound increases with time**
 - **Suppression of endothelial proliferation and migration and
   deposition of the basement membrane**
 
-![](img%5CWound-Healing-and-Repair39.png)
+![](./img-local/Wound-Healing-and-Repair39.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CWound-Healing-and-Repair40.png)
+![](./img-local/Wound-Healing-and-Repair40.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CWound-Healing-and-Repair41.png)
+![](./img-local/Wound-Healing-and-Repair41.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CWound-Healing-and-Repair42.png)
+![](./img-local/Wound-Healing-and-Repair42.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CWound-Healing-and-Repair43.png)
+![](./img-local/Wound-Healing-and-Repair43.png)
 
 **Robbins Basic Pathology**
 
@@ -561,27 +561,27 @@ metalloproteinases (MMPs), dependent on zinc ions for activity**
   - **Keloid formation (excess fibroblastic growth)**
   - **Exuberant granulation tissue (prevent epithelialization)**
 
-![](img%5CWound-Healing-and-Repair44.png)
+![](./img-local/Wound-Healing-and-Repair44.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CWound-Healing-and-Repair45.png)
+![](./img-local/Wound-Healing-and-Repair45.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CWound-Healing-and-Repair46.png)
+![](./img-local/Wound-Healing-and-Repair46.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CWound-Healing-and-Repair47.png)
+![](./img-local/Wound-Healing-and-Repair47.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CWound-Healing-and-Repair48.png)
+![](./img-local/Wound-Healing-and-Repair48.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CWound-Healing-and-Repair49.png)
+![](./img-local/Wound-Healing-and-Repair49.png)
 
 **Robbins Basic Pathology**
 
@@ -602,6 +602,6 @@ an orderly sequence of steps**
 
 **Responsible for organ dysfunction and even organ failure**
 
-![](img%5CWound-Healing-and-Repair50.png)
+![](./img-local/Wound-Healing-and-Repair50.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**

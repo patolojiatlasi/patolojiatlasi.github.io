@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CLung-Tumors0.jpg)
+![](./img-local/Lung-Tumors0.jpg)
 
 # Lung Tumors
 
@@ -12,11 +12,11 @@ Serdar Balcı
 **metastatic tumors form multiple discrete nodules scattered throughout
 all lobes**
 
-![](img%5CLung-Tumors1.png)
+![](./img-local/Lung-Tumors1.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CLung-Tumors2.png)
+![](./img-local/Lung-Tumors2.png)
 
 **Metastases to the lung**
 
@@ -46,7 +46,7 @@ all lobes**
   - **Clonal cytogenic abnormalities show that it is a benign neoplasm**
     - **Misnomer as hamartoma**
 
-![](img%5CLung-Tumors3.png)
+![](./img-local/Lung-Tumors3.png)
 
 # Lung cancer
 
@@ -188,11 +188,11 @@ years) than among nonsmokers**
 - **Squamous cell and small cell carcinomas**
   - **Strongest association with smoking**
 
-![](img%5CLung-Tumors4.png)
+![](./img-local/Lung-Tumors4.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CLung-Tumors5.png)
+![](./img-local/Lung-Tumors5.png)
 
 **Robbins Basic Pathology**
 
@@ -261,7 +261,7 @@ years) than among nonsmokers**
 the right main-stem bronchus. Metastatic tumor deposits are evident in
 both lungs**
 
-![](img%5CLung-Tumors6.png)
+![](./img-local/Lung-Tumors6.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -273,51 +273,51 @@ both lungs**
   - **Obstruct the lumen of a major bronchus**
   - **Produce distal atelectasis and infection**
 
-![](img%5CLung-Tumors7.png)
+![](./img-local/Lung-Tumors7.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CLung-Tumors8.png)
+![](./img-local/Lung-Tumors8.png)
 
 **Goblet cell hyperplasia**
 
 **Robbins Basic Pathology**
 
-![](img%5CLung-Tumors9.png)
+![](./img-local/Lung-Tumors9.png)
 
 **Basal cell (reserve cell) hyperplasia**
 
 **Robbins Basic Pathology**
 
-![](img%5CLung-Tumors10.png)
+![](./img-local/Lung-Tumors10.png)
 
 **Squamous metaplasia**
 
 **Robbins Basic Pathology**
 
-![](img%5CLung-Tumors11.png)
+![](./img-local/Lung-Tumors11.png)
 
 **Squamous dysplasia**
 
 **Robbins Basic Pathology**
 
-![](img%5CLung-Tumors12.png)
+![](./img-local/Lung-Tumors12.png)
 
 **Carcinoma in situ**
 
 **Robbins Basic Pathology**
 
-![](img%5CLung-Tumors13.png)
+![](./img-local/Lung-Tumors13.png)
 
 **invasive squamous carcinoma**
 
 **Robbins Basic Pathology**
 
-![](img%5CLung-Tumors14.png)
+![](./img-local/Lung-Tumors14.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CLung-Tumors15.png)
+![](./img-local/Lung-Tumors15.png)
 
 **Robbins Basic Pathology**
 
@@ -334,7 +334,7 @@ both lungs**
 
 **Adenocarcinomas of the lung arise most commonly in the periphery**
 
-![](img%5CLung-Tumors16.png)
+![](./img-local/Lung-Tumors16.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -407,7 +407,7 @@ both lungs**
 - **Monoclonal**
 - **K-RAS mutations**
 
-![](img%5CLung-Tumors17.png)
+![](./img-local/Lung-Tumors17.png)
 
 **Robbins Basic Pathology**
 
@@ -449,13 +449,13 @@ both lungs**
 
 - **No stromal invasion with desmoplasia**
 
-![](img%5CLung-Tumors18.png)
+![](./img-local/Lung-Tumors18.png)
 
 **Robbins Basic Pathology**
 
 # ADENOCARCINOMA
 
-![](img%5CLung-Tumors19.png)
+![](./img-local/Lung-Tumors19.png)
 
 **Gland-forming adenocarcinoma; inset shows thyroid transcription factor
 1 (TTF-1) positivity, which is seen in a majority of pulmonary
@@ -536,11 +536,11 @@ adenocarcinomas**
 - **5-15% metastasized to the hilar nodes at presentation, distant
   metastases are rare**
 
-![](img%5CLung-Tumors20.png)
+![](./img-local/Lung-Tumors20.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CLung-Tumors21.png)
+![](./img-local/Lung-Tumors21.png)
 
 **Robbins Basic Pathology**
 
@@ -580,7 +580,7 @@ adenocarcinomas**
   - **Finely granular chromatin**
   - **Mitotic figures are frequent**
 
-![](img%5CLung-Tumors22.png)
+![](./img-local/Lung-Tumors22.png)
 
 **small cell neuroendocrine (oat cell) carcinoma developed in an
 asbestosis-scarred lung**
@@ -598,7 +598,7 @@ asbestosis-scarred lung**
 
 **deeply basophilic cells and areas of necrosis **
 
-![](img%5CLung-Tumors23.png)
+![](./img-local/Lung-Tumors23.png)
 
 **basophilic staining of vascular walls due to encrustation by DNA from
 necrotic tumor cells (Azzopardi effect)**
@@ -611,4 +611,4 @@ necrotic tumor cells (Azzopardi effect)**
 
 **Learn his life and his contribution to “Istanbul” and “Karzinoide”**
 
-![](img%5CLung-Tumors24.png)
+![](./img-local/Lung-Tumors24.png)

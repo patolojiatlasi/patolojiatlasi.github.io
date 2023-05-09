@@ -49,16 +49,16 @@ Serdar Balcı
 
 **siRNA (small interfering RNA)**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi0.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi0.png)
 
 <span style="color:#888888">TEK GEN DEFEKTLERiNİN NEDEN</span>
 <span style="color:#888888">OLDUGU HASTALIKLAR</span>
 
 # MENDELIAN HASTALIKLAR
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi1.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi1.png)
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi2.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi2.png)
 
 # Otozomal Dominant
 
@@ -81,11 +81,11 @@ kodlayan genler değildir.**
 
 **enzim proteinleri**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi3.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi3.png)
 
 # X’e bağlı resesif
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi4.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi4.png)
 
 # Yapısal Proteinleri Kodlayan GenlerdekiMutasyonların Neden Olduğu Hastalıklar
 
@@ -169,9 +169,9 @@ kodlayan genler değildir.**
 
 **Homozigotlarda 5 kat**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi5.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi5.png)
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi6.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi6.png)
 
 # Kistik Fibrozis
 
@@ -185,17 +185,17 @@ kodlayan genler değildir.**
 - **Ekzokrin ter bezleri yapısal olarak normal**
   - **terde yüksek sodyum klorür düzeyi**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi7.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi7.png)
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi8.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi8.png)
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi9.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi9.png)
 
 # Fenilketonüri
 
 **fenilalanin hidroksilaz (FAH) enziminde eksiklik**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi10.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi10.png)
 
 **mental retardasyon**
 
@@ -220,21 +220,21 @@ ishal ve E.coli sepsisi**
 
 # Lizozomal Depo Hastalıkları
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi11.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi11.png)
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi12.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi12.png)
 
 # Tay-Sachs Hastalığı (Gangliosidoz:Heksozaminidaz Beta-Subünite Eksikliği)
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi13.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi13.png)
 
 # Niemann-Pick hastalığıasit sfingomyelinaz eksikliği
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi14.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi14.png)
 
 # Gaucher hastalığı, glukoserebrozidaz mutasyonları
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi15.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi15.png)
 
 # Mukopolisakkaridozlar
 
@@ -251,11 +251,11 @@ kaybedilir. **
 
 **Hunter sendromunda klinik gidiş daha hafiftir.**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi16.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi16.png)
 
 # Glikojen Depo Hastalıklan (Glikojenozlar)
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi17.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi17.png)
 
 # KOMPLEKS MULTiGENiKHASTALIKLAR
 
@@ -271,21 +271,21 @@ sürekli varyasyon gösterir**
 
 # Sitogenetik Anomaliler
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi18.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi18.png)
 
 # Trizomi 21 (Down Sendromu)
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi19.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi19.png)
 
 # 
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi20.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi20.png)
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi21.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi21.png)
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi22.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi22.png)
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi23.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi23.png)
 
 # Turner Sendromu
 
@@ -317,7 +317,7 @@ fonksiyonunu bozınaktadır**
 
 **bütün bu hastalıklarda nörodejeneratif değişiklikler bulunmaktadır**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi24.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi24.png)
 
 # Frajil X
 
@@ -327,256 +327,256 @@ mutasyon**
 **Down sendromundan sonra, mental retardasyonun en sık görülen genetik
 nedenidir**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi25.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi25.png)
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi26.png)
-
-**Autopsy Pathology: A Manual and Atlas**
-
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi27.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi26.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi28.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi27.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi29.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi28.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi30.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi29.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi31.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi30.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi32.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi31.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi33.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi32.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi34.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi33.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi35.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi34.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi36.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi35.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi37.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi36.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi38.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi37.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi39.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi38.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi40.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi39.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi41.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi40.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi42.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi41.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi43.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi42.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi44.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi43.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi45.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi44.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi46.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi45.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi47.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi46.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi48.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi47.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi49.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi48.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi50.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi49.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi51.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi50.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi52.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi51.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi53.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi52.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi54.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi53.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi55.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi54.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi56.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi55.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi57.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi56.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi58.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi57.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi59.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi58.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi60.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi59.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi61.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi60.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi62.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi61.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi63.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi62.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi64.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi63.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi65.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi64.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi66.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi65.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi67.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi66.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi68.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi67.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi69.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi68.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi70.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi69.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi71.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi70.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi72.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi71.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi73.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi72.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi74.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi73.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi75.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi74.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi76.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi75.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi77.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi76.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi78.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi77.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi79.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi78.png)
+
+**Autopsy Pathology: A Manual and Atlas**
+
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi79.png)
 
 Autopsy Pathology: A Manual and Atlas
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi80.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi80.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi81.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi81.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi82.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi82.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi83.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi83.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi84.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi84.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi85.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi85.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi86.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi86.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi87.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi87.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGenetik-bozukluklar%C4%B1n-patolojisi88.png)
+![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi88.png)
 
 **Autopsy Pathology: A Manual and Atlas**

@@ -50,15 +50,15 @@ aktivitelerini yerine getirebilir**
 
 **İnflamatuar eksuda ile dolu bir boşlukta gelişen fibrozis**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir0.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir0.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir1.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir1.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir2.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir2.png)
 
 **Robbins Basic Pathology**
 
@@ -105,7 +105,7 @@ aktivitelerini yerine getirebilir**
   - **İskelet kası**
     - **Endomisyal kılıftaki satellit hücrelerde proliferasyon oluyor**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir3.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir3.png)
 
 **Robbins Basic Pathology**
 
@@ -140,27 +140,27 @@ aktivitelerini yerine getirebilir**
   - **Yenilenme kapasitesi daha kısıtlı**
   - **Farklılaşma potansiyeli doku ve organa özgü**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir4.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir4.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir5.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir5.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir6.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir6.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir7.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir7.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir8.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir8.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir9.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir9.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
@@ -178,27 +178,27 @@ aktivitelerini yerine getirebilir**
 - **Büyümeyi kontrol eden genleri uyarır**
   - **proto-onkogenler**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir10.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir10.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir11.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir11.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir12.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir12.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir13.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir13.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir14.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir14.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir15.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir15.png)
 
 **Robbins Basic Pathology**
 
@@ -216,7 +216,7 @@ aktivitelerini yerine getirebilir**
   - **Matriks elemanlarını birbirine ve diğer hücrelere bağlarlar**
   - **Hücre adhezyon molekülleri**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir16.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir16.png)
 
 **Robbins Basic Pathology**
 
@@ -243,7 +243,7 @@ aktivitelerini yerine getirebilir**
 
 **Rejenerasyon gösteren hücreler ve skar birlikte olabilir**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir17.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir17.png)
 
 - **İnflamatuar yanıt**
 - **Anjiogenez**
@@ -256,11 +256,11 @@ aktivitelerini yerine getirebilir**
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir18.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir18.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir19.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir19.png)
 
 **Robbins Basic Pathology**
 
@@ -270,7 +270,7 @@ aktivitelerini yerine getirebilir**
 
 **Fibroblast ve endotel hücre proliferasyonu**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir20.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir20.png)
 
 **Robbins Basic Pathology**
 
@@ -282,19 +282,19 @@ aktivitelerini yerine getirebilir**
 
 **Makroskopik olarak pembe granüler görünüm**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir21.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir21.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir22.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir22.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir23.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir23.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir24.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir24.png)
 
 **Robbins Basic Pathology**
 
@@ -304,7 +304,7 @@ aktivitelerini yerine getirebilir**
 - **Var olan dmarlardan gelişim**
   - **Öncelikle venüllerden başlar**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir25.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir25.png)
 
 **Robbins Basic Pathology**
 
@@ -326,7 +326,7 @@ aktivitelerini yerine getirebilir**
 - **Endotelyal proliferasyon ve göçün baskılanması ve bazal membranın
   oluşması**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir26.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir26.png)
 
 **Robbins Basic Pathology**
 
@@ -367,17 +367,17 @@ aktivitelerini yerine getirebilir**
   - **Keloid oluşumu (fazla fibroblastik büyüme)**
   - **Fazla granülasyon dokusu oluşumu (epitelizasyonu engeller)**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir27.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir27.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir28.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir28.png)
 
 **Robbins Basic Pathology**
 
 # Cilt yaralanmalarının iyileşmesi
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir29.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir29.png)
 
 **Robbins Basic Pathology**
 
@@ -410,7 +410,7 @@ aktivitelerini yerine getirebilir**
 **Epidermiste kesilen yerlere komşu bazal hücrelerde mitotik aktivite
 artar**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir30.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir30.png)
 
 **Robbins Basic Pathology**
 
@@ -427,7 +427,7 @@ along the dermis**
 
 **A thin but continuous epithelial layer.**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir31.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir31.png)
 
 **Robbins Basic Pathology**
 
@@ -445,7 +445,7 @@ vertically oriented and do not bridge the incision**
 **Epithelial cell proliferation continues, yielding a thickened
 epidermal covering layer**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir32.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir32.png)
 
 **Robbins Basic Pathology**
 
@@ -463,7 +463,7 @@ incision**
 **Differentiation of surface cells yields a mature epidermal
 architecture with surface keratinization**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir33.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir33.png)
 
 **Robbins Basic Pathology**
 
@@ -478,7 +478,7 @@ substantially diminished**
 
 **Regression of vascular channels**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir34.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir34.png)
 
 **Robbins Basic Pathology**
 
@@ -493,7 +493,7 @@ substantially diminished**
 **Dermal appendages destroyed in the line of the incision are
 permanently lost The tensile strength of the wound increases with time**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir35.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir35.png)
 
 **Robbins Basic Pathology**
 
@@ -507,13 +507,13 @@ permanently lost The tensile strength of the wound increases with time**
 - **The repair process is more complex **
   - **involves a combination of regeneration and scarring**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir36.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir36.png)
 
 **Robbins Basic Pathology**
 
 # Healing by Second Intention (secondary union)
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir37.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir37.png)
 
 **Inflammatory reaction is more intense**
 
@@ -527,7 +527,7 @@ permanently lost The tensile strength of the wound increases with time**
 
 **Followed by wound contraction by myofibroblasts**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir38.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir38.png)
 
 **Robbins Basic Pathology**
 
@@ -539,23 +539,23 @@ permanently lost The tensile strength of the wound increases with time**
 
 **Usually does not improve**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir39.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir39.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir40.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir40.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir41.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir41.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir42.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir42.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-%C4%B0yile%C5%9Fmesi-ve-Tamir43.png)
+![](./img-local/Yara-%C4%B0yile%C5%9Fmesi-ve-Tamir43.png)
 
 **Robbins Basic Pathology**
 
@@ -625,15 +625,15 @@ aktivitelerini yerine getirebilir**
 
 **İnflamatuar eksuda ile dolu bir boşlukta gelişen fibrozis**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B10.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B10.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B11.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B11.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B12.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B12.png)
 
 **Robbins Basic Pathology**
 
@@ -680,7 +680,7 @@ aktivitelerini yerine getirebilir**
   - **İskelet kası**
     - **Endomisyal kılıftaki satellit hücrelerde proliferasyon oluyor**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B13.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B13.png)
 
 **Robbins Basic Pathology**
 
@@ -715,27 +715,27 @@ aktivitelerini yerine getirebilir**
   - **Yenilenme kapasitesi daha kısıtlı**
   - **Farklılaşma potansiyeli doku ve organa özgü**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B14.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B14.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B15.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B15.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B16.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B16.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B17.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B17.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B18.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B18.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B19.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B19.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
@@ -753,27 +753,27 @@ aktivitelerini yerine getirebilir**
 - **Büyümeyi kontrol eden genleri uyarır**
   - **proto-onkogenler**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B110.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B110.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B111.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B111.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B112.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B112.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B113.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B113.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B114.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B114.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B115.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B115.png)
 
 **Robbins Basic Pathology**
 
@@ -791,7 +791,7 @@ aktivitelerini yerine getirebilir**
   - **Matriks elemanlarını birbirine ve diğer hücrelere bağlarlar**
   - **Hücre adhezyon molekülleri**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B116.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B116.png)
 
 **Robbins Basic Pathology**
 
@@ -818,7 +818,7 @@ aktivitelerini yerine getirebilir**
 
 **Rejenerasyon gösteren hücreler ve skar birlikte olabilir**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B117.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B117.png)
 
 - **İnflamatuar yanıt**
 - **Anjiogenez**
@@ -831,11 +831,11 @@ aktivitelerini yerine getirebilir**
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B118.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B118.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B119.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B119.png)
 
 **Robbins Basic Pathology**
 
@@ -845,7 +845,7 @@ aktivitelerini yerine getirebilir**
 
 **Fibroblast ve endotel hücre proliferasyonu**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B120.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B120.png)
 
 **Robbins Basic Pathology**
 
@@ -857,19 +857,19 @@ aktivitelerini yerine getirebilir**
 
 **Makroskopik olarak pembe granüler görünüm**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B121.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B121.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B122.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B122.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B123.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B123.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B124.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B124.png)
 
 **Robbins Basic Pathology**
 
@@ -879,7 +879,7 @@ aktivitelerini yerine getirebilir**
 - **Var olan dmarlardan gelişim**
   - **Öncelikle venüllerden başlar**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B125.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B125.png)
 
 **Robbins Basic Pathology**
 
@@ -901,7 +901,7 @@ aktivitelerini yerine getirebilir**
 - **Endotelyal proliferasyon ve göçün baskılanması ve bazal membranın
   oluşması**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B126.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B126.png)
 
 **Robbins Basic Pathology**
 
@@ -942,17 +942,17 @@ aktivitelerini yerine getirebilir**
   - **Keloid oluşumu (fazla fibroblastik büyüme)**
   - **Fazla granülasyon dokusu oluşumu (epitelizasyonu engeller)**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B127.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B127.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B128.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B128.png)
 
 **Robbins Basic Pathology**
 
 # Cilt yaralanmalarının iyileşmesi
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B129.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B129.png)
 
 **Robbins Basic Pathology**
 
@@ -985,7 +985,7 @@ aktivitelerini yerine getirebilir**
 **Epidermiste kesilen yerlere komşu bazal hücrelerde mitotik aktivite
 artar**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B130.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B130.png)
 
 **Robbins Basic Pathology**
 
@@ -1002,7 +1002,7 @@ along the dermis**
 
 **A thin but continuous epithelial layer.**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B131.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B131.png)
 
 **Robbins Basic Pathology**
 
@@ -1020,7 +1020,7 @@ vertically oriented and do not bridge the incision**
 **Epithelial cell proliferation continues, yielding a thickened
 epidermal covering layer**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B132.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B132.png)
 
 **Robbins Basic Pathology**
 
@@ -1038,7 +1038,7 @@ incision**
 **Differentiation of surface cells yields a mature epidermal
 architecture with surface keratinization**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B133.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B133.png)
 
 **Robbins Basic Pathology**
 
@@ -1053,7 +1053,7 @@ substantially diminished**
 
 **Regression of vascular channels**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B134.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B134.png)
 
 **Robbins Basic Pathology**
 
@@ -1068,7 +1068,7 @@ substantially diminished**
 **Dermal appendages destroyed in the line of the incision are
 permanently lost The tensile strength of the wound increases with time**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B135.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B135.png)
 
 **Robbins Basic Pathology**
 
@@ -1082,13 +1082,13 @@ permanently lost The tensile strength of the wound increases with time**
 - **The repair process is more complex **
   - **involves a combination of regeneration and scarring**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B136.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B136.png)
 
 **Robbins Basic Pathology**
 
 # Healing by Second Intention (secondary union)
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B137.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B137.png)
 
 **Inflammatory reaction is more intense**
 
@@ -1102,7 +1102,7 @@ permanently lost The tensile strength of the wound increases with time**
 
 **Followed by wound contraction by myofibroblasts**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B138.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B138.png)
 
 **Robbins Basic Pathology**
 
@@ -1114,23 +1114,23 @@ permanently lost The tensile strength of the wound increases with time**
 
 **Usually does not improve**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B139.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B139.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B140.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B140.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B141.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B141.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B142.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B142.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CYara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B143.png)
+![](./img-local/Yara-I%CC%87yiles%CC%A7mesi-ve-Tamir-kopyas%C4%B143.png)
 
 **Robbins Basic Pathology**
 

@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CDiseases-of-the-Myelin-and-Metabolic-and-Toxic-Disorders0.jpg)
+![](./img-local/Diseases-of-the-Myelin-and-Metabolic-and-Toxic-Disorders0.jpg)
 
 # Diseases of the Myelin, Metabolic and Toxic Disorders
 
@@ -121,7 +121,7 @@ any significant extent, and vice versa**
     molecules**
   - **May cause neuronal death**
 
-![](img%5CDiseases-of-the-Myelin-and-Metabolic-and-Toxic-Disorders1.png)
+![](./img-local/Diseases-of-the-Myelin-and-Metabolic-and-Toxic-Disorders1.png)
 
 **Multiple Sclerosis**
 
@@ -139,7 +139,7 @@ descending fiber tracts, cerebellum, and spinal cord**
 
 <span style="color:#FFFFFF">Robbins Basic Pathology</span>
 
-![](img%5CDiseases-of-the-Myelin-and-Metabolic-and-Toxic-Disorders2.png)
+![](./img-local/Diseases-of-the-Myelin-and-Metabolic-and-Toxic-Disorders2.png)
 
 **Multiple Sclerosis**
 
@@ -271,7 +271,7 @@ pathogenic**
 
 **X-linked diseases also occur**
 
-![](img%5CDiseases-of-the-Myelin-and-Metabolic-and-Toxic-Disorders3.png)
+![](./img-local/Diseases-of-the-Myelin-and-Metabolic-and-Toxic-Disorders3.png)
 
 **Robbins Basic Pathology**
 
@@ -477,22 +477,22 @@ sufficiently severe, injury is widespread**
 
 # 
 
-![](img%5CDiseases-of-the-Myelin-and-Metabolic-and-Toxic-Disorders4.png)
+![](./img-local/Diseases-of-the-Myelin-and-Metabolic-and-Toxic-Disorders4.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDiseases-of-the-Myelin-and-Metabolic-and-Toxic-Disorders5.png)
+![](./img-local/Diseases-of-the-Myelin-and-Metabolic-and-Toxic-Disorders5.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDiseases-of-the-Myelin-and-Metabolic-and-Toxic-Disorders6.png)
+![](./img-local/Diseases-of-the-Myelin-and-Metabolic-and-Toxic-Disorders6.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDiseases-of-the-Myelin-and-Metabolic-and-Toxic-Disorders7.png)
+![](./img-local/Diseases-of-the-Myelin-and-Metabolic-and-Toxic-Disorders7.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDiseases-of-the-Myelin-and-Metabolic-and-Toxic-Disorders8.png)
+![](./img-local/Diseases-of-the-Myelin-and-Metabolic-and-Toxic-Disorders8.png)
 
 **Autopsy Pathology: A Manual and Atlas**

@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CIschemic-Heart-Disease0.jpg)
+![](./img-local/Ischemic-Heart-Disease0.jpg)
 
 # Ischemic Heart Disease
 
@@ -43,7 +43,7 @@ disease**
   - **May be enough if there is slow growth of atherosclerosis for
     years**
 
-![](img%5CIschemic-Heart-Disease1.png)
+![](./img-local/Ischemic-Heart-Disease1.png)
 
 # Acute coronary syndrome
 
@@ -54,15 +54,15 @@ disease**
 
 **Robbins Basic Pathology**
 
-![](img%5CIschemic-Heart-Disease2.png)
+![](./img-local/Ischemic-Heart-Disease2.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CIschemic-Heart-Disease3.png)
+![](./img-local/Ischemic-Heart-Disease3.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CIschemic-Heart-Disease4.png)
+![](./img-local/Ischemic-Heart-Disease4.png)
 
 **Robbins Basic Pathology**
 
@@ -91,7 +91,7 @@ disease**
   - **Associated with plaque disruption and superimposed thrombosis,
     distal embolization of the thrombus, vasospasm, MI**
 
-![](img%5CIschemic-Heart-Disease5.png)
+![](./img-local/Ischemic-Heart-Disease5.png)
 
 **Myocardial Infarction**
 
@@ -167,11 +167,11 @@ due to ventricular fibrillation**
   - **The infarct can involve the entire wall thickness**
   - **Transmural infarct**
 
-![](img%5CIschemic-Heart-Disease6.png)
+![](./img-local/Ischemic-Heart-Disease6.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CIschemic-Heart-Disease7.png)
+![](./img-local/Ischemic-Heart-Disease7.png)
 
 **Robbins Basic Pathology**
 
@@ -184,11 +184,11 @@ due to ventricular fibrillation**
   - **Metabolic demands of the myocardium**
   - **Extent of collateral supply**
 
-![](img%5CIschemic-Heart-Disease8.png)
+![](./img-local/Ischemic-Heart-Disease8.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CIschemic-Heart-Disease9.png)
+![](./img-local/Ischemic-Heart-Disease9.png)
 
 - **Left anterior descending (LAD) artery**
   - **40-50% of all MIs **
@@ -209,7 +209,7 @@ due to ventricular fibrillation**
 
 **Robbins Basic Pathology**
 
-![](img%5CIschemic-Heart-Disease10.png)
+![](./img-local/Ischemic-Heart-Disease10.png)
 
 - **Transmural infarctions**
   - **Involve the full thickness of the ventricle**
@@ -229,7 +229,7 @@ due to ventricular fibrillation**
 
 **Robbins Basic Pathology**
 
-![](img%5CIschemic-Heart-Disease11.png)
+![](./img-local/Ischemic-Heart-Disease11.png)
 
 **Robbins Basic Pathology**
 
@@ -246,19 +246,19 @@ due to ventricular fibrillation**
   - **Infarcted area is unstained (pale), while old scars appear white
     and glistening**
 
-![](img%5CIschemic-Heart-Disease12.png)
+![](./img-local/Ischemic-Heart-Disease12.png)
 
 **New acute infarct**
 
 **Robbins Basic Pathology**
 
-![](img%5CIschemic-Heart-Disease13.png)
+![](./img-local/Ischemic-Heart-Disease13.png)
 
 **Recent subendocardial infarct**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CIschemic-Heart-Disease14.png)
+![](./img-local/Ischemic-Heart-Disease14.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -276,19 +276,19 @@ due to ventricular fibrillation**
 
 **Healed ischemic damage in hypertrophic cardiomyopathy**
 
-![](img%5CIschemic-Heart-Disease15.png)
+![](./img-local/Ischemic-Heart-Disease15.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CIschemic-Heart-Disease16.png)
+![](./img-local/Ischemic-Heart-Disease16.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CIschemic-Heart-Disease17.png)
+![](./img-local/Ischemic-Heart-Disease17.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CIschemic-Heart-Disease18.png)
+![](./img-local/Ischemic-Heart-Disease18.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -300,23 +300,23 @@ due to ventricular fibrillation**
 - **Intracellular myocyte vacuolization**
   - **Viable, poorly contractile**
 
-![](img%5CIschemic-Heart-Disease19.png)
+![](./img-local/Ischemic-Heart-Disease19.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CIschemic-Heart-Disease20.png)
+![](./img-local/Ischemic-Heart-Disease20.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CIschemic-Heart-Disease21.png)
+![](./img-local/Ischemic-Heart-Disease21.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CIschemic-Heart-Disease22.png)
+![](./img-local/Ischemic-Heart-Disease22.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CIschemic-Heart-Disease23.png)
+![](./img-local/Ischemic-Heart-Disease23.png)
 
 **Scar formation 6 week**
 
@@ -350,30 +350,30 @@ due to ventricular fibrillation**
   - **Microvascular injury**
   - **Complement activation**
 
-![](img%5CIschemic-Heart-Disease24.png)
+![](./img-local/Ischemic-Heart-Disease24.png)
 
-![](img%5CIschemic-Heart-Disease25.png)
-
-**Robbins Basic Pathology**
-
-![](img%5CIschemic-Heart-Disease26.png)
+![](./img-local/Ischemic-Heart-Disease25.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CIschemic-Heart-Disease27.png)
+![](./img-local/Ischemic-Heart-Disease26.png)
+
+**Robbins Basic Pathology**
+
+![](./img-local/Ischemic-Heart-Disease27.png)
 
 **A transmural hemorrhagic infarct from ischemic damage that occurred 2
 or 3 days before death**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CIschemic-Heart-Disease28.png)
+![](./img-local/Ischemic-Heart-Disease28.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CIschemic-Heart-Disease29.png)
+![](./img-local/Ischemic-Heart-Disease29.png)
 
-![](img%5CIschemic-Heart-Disease30.png)
+![](./img-local/Ischemic-Heart-Disease30.png)
 
 **Robbins Basic Pathology**
 
@@ -391,43 +391,43 @@ or 3 days before death**
 - **Ventricular aneurysm**
 - **Progressive late heart failure**
 
-![](img%5CIschemic-Heart-Disease31.png)
+![](./img-local/Ischemic-Heart-Disease31.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CIschemic-Heart-Disease32.png)
+![](./img-local/Ischemic-Heart-Disease32.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CIschemic-Heart-Disease33.png)
+![](./img-local/Ischemic-Heart-Disease33.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CIschemic-Heart-Disease34.png)
+![](./img-local/Ischemic-Heart-Disease34.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CIschemic-Heart-Disease35.png)
+![](./img-local/Ischemic-Heart-Disease35.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CIschemic-Heart-Disease36.png)
+![](./img-local/Ischemic-Heart-Disease36.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CIschemic-Heart-Disease37.png)
+![](./img-local/Ischemic-Heart-Disease37.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CIschemic-Heart-Disease38.png)
+![](./img-local/Ischemic-Heart-Disease38.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CIschemic-Heart-Disease39.png)
+![](./img-local/Ischemic-Heart-Disease39.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CIschemic-Heart-Disease40.png)
+![](./img-local/Ischemic-Heart-Disease40.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 

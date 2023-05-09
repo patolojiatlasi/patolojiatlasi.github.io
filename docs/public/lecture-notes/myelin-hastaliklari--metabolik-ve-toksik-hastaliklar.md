@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CMyelin-hastal%C4%B1klar%C4%B1%2C-metabolik-ve-toksik-hastal%C4%B1klar0.jpg)
+![](./img-local/Myelin-hastal%C4%B1klar%C4%B1%2C-metabolik-ve-toksik-hastal%C4%B1klar0.jpg)
 
 # Myelin hastalıkları, metabolik ve toksik hastalıklar
 
@@ -108,7 +108,7 @@ tutmaz**
   - **Lenfosit ve makrofajlardan salınan maddelerin toksik etkisi**
   - **Nöron ölümü**
 
-![](img%5CMyelin-hastal%C4%B1klar%C4%B1%2C-metabolik-ve-toksik-hastal%C4%B1klar1.png)
+![](./img-local/Myelin-hastal%C4%B1klar%C4%B1%2C-metabolik-ve-toksik-hastal%C4%B1klar1.png)
 
 **Beyaz madde hastalığı**
 
@@ -124,7 +124,7 @@ yolaklarda, serebellum ve spinal kord**
 
 <span style="color:#FFFFFF">Robbins Basic Pathology</span>
 
-![](img%5CMyelin-hastal%C4%B1klar%C4%B1%2C-metabolik-ve-toksik-hastal%C4%B1klar2.png)
+![](./img-local/Myelin-hastal%C4%B1klar%C4%B1%2C-metabolik-ve-toksik-hastal%C4%B1klar2.png)
 
 **Robbins Basic Pathology**
 
@@ -257,7 +257,7 @@ da kullanılır**
 
 **X-bağlı olanlar da var**
 
-![](img%5CMyelin-hastal%C4%B1klar%C4%B1%2C-metabolik-ve-toksik-hastal%C4%B1klar3.png)
+![](./img-local/Myelin-hastal%C4%B1klar%C4%B1%2C-metabolik-ve-toksik-hastal%C4%B1klar3.png)
 
 **Robbins Basic Pathology**
 
@@ -453,22 +453,22 @@ da kullanılır**
 
 # 
 
-![](img%5CMyelin-hastal%C4%B1klar%C4%B1%2C-metabolik-ve-toksik-hastal%C4%B1klar4.png)
+![](./img-local/Myelin-hastal%C4%B1klar%C4%B1%2C-metabolik-ve-toksik-hastal%C4%B1klar4.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CMyelin-hastal%C4%B1klar%C4%B1%2C-metabolik-ve-toksik-hastal%C4%B1klar5.png)
+![](./img-local/Myelin-hastal%C4%B1klar%C4%B1%2C-metabolik-ve-toksik-hastal%C4%B1klar5.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CMyelin-hastal%C4%B1klar%C4%B1%2C-metabolik-ve-toksik-hastal%C4%B1klar6.png)
+![](./img-local/Myelin-hastal%C4%B1klar%C4%B1%2C-metabolik-ve-toksik-hastal%C4%B1klar6.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CMyelin-hastal%C4%B1klar%C4%B1%2C-metabolik-ve-toksik-hastal%C4%B1klar7.png)
+![](./img-local/Myelin-hastal%C4%B1klar%C4%B1%2C-metabolik-ve-toksik-hastal%C4%B1klar7.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CMyelin-hastal%C4%B1klar%C4%B1%2C-metabolik-ve-toksik-hastal%C4%B1klar8.png)
+![](./img-local/Myelin-hastal%C4%B1klar%C4%B1%2C-metabolik-ve-toksik-hastal%C4%B1klar8.png)
 
 **Autopsy Pathology: A Manual and Atlas**

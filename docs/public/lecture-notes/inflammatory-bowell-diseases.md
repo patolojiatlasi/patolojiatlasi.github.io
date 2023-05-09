@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CInflammatory-Bowell-Diseases0.jpg)
+![](./img-local/Inflammatory-Bowell-Diseases0.jpg)
 
 # Inflammatory Bowell Diseases
 
@@ -17,17 +17,17 @@ Serdar Balcı
 
 **Ulcerative colitis**
 
-![](img%5CInflammatory-Bowell-Diseases1.png)
+![](./img-local/Inflammatory-Bowell-Diseases1.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CInflammatory-Bowell-Diseases2.png)
+![](./img-local/Inflammatory-Bowell-Diseases2.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CInflammatory-Bowell-Diseases3.png)
+![](./img-local/Inflammatory-Bowell-Diseases3.png)
 
-![](img%5CInflammatory-Bowell-Diseases4.png)
+![](./img-local/Inflammatory-Bowell-Diseases4.png)
 
 **Robbins Basic Pathology**
 
@@ -140,11 +140,11 @@ to ulcerative colitis but not Crohn disease**
 - **Risk of Crohn disease is increased by smoking**
   - **whereas ulcerative colitis is reduced**
 
-![](img%5CInflammatory-Bowell-Diseases5.png)
+![](./img-local/Inflammatory-Bowell-Diseases5.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CInflammatory-Bowell-Diseases6.png)
+![](./img-local/Inflammatory-Bowell-Diseases6.png)
 
 # Crohn Disease
 
@@ -161,7 +161,7 @@ to ulcerative colitis but not Crohn disease**
 
 **Robbins Basic Pathology**
 
-![](img%5CInflammatory-Bowell-Diseases7.png)
+![](./img-local/Inflammatory-Bowell-Diseases7.png)
 
 **Robbins Basic Pathology**
 
@@ -174,17 +174,17 @@ to ulcerative colitis but not Crohn disease**
   - **coarsely textured, cobblestone appearance**
   - **diseased tissue is depressed below the level of normal mucosa**
 
-![](img%5CInflammatory-Bowell-Diseases8.png)
+![](./img-local/Inflammatory-Bowell-Diseases8.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CInflammatory-Bowell-Diseases9.png)
+![](./img-local/Inflammatory-Bowell-Diseases9.png)
 
 **Early lesion of the ileum showing hyperemia and focal ulceration**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CInflammatory-Bowell-Diseases10.png)
+![](./img-local/Inflammatory-Bowell-Diseases10.png)
 
 **Chronic lesion involving the ileum**
 
@@ -203,7 +203,7 @@ coarsely textured (“cobblestone”) mucosa with fissures**
   propria**
   - **contribute to stricture formation**
 
-![](img%5CInflammatory-Bowell-Diseases11.png)
+![](./img-local/Inflammatory-Bowell-Diseases11.png)
 
 **Extensive transmural disease**
 
@@ -225,7 +225,7 @@ coarsely textured (“cobblestone”) mucosa with fissures**
 
 **Abrupt transition between ulcerated and normal mucosa**
 
-![](img%5CInflammatory-Bowell-Diseases12.png)
+![](./img-local/Inflammatory-Bowell-Diseases12.png)
 
 **Repeated cycles of crypt destruction and regeneration**
 
@@ -249,7 +249,7 @@ shapes and unusual orientations to one another**
 - **Mucosal atrophy, with loss of crypts, may result after years of
   disease**
 
-![](img%5CInflammatory-Bowell-Diseases13.png)
+![](./img-local/Inflammatory-Bowell-Diseases13.png)
 
 **Noncaseating granulomas**
 
@@ -261,7 +261,7 @@ shapes and unusual orientations to one another**
 
 **Robbins Basic Pathology**
 
-![](img%5CInflammatory-Bowell-Diseases14.png)
+![](./img-local/Inflammatory-Bowell-Diseases14.png)
 
 **Noncaseating granulomas**
 
@@ -300,15 +300,15 @@ shapes and unusual orientations to one another**
   - **Risk of colonic adenocarcinoma is increased in patients with
     long-standing colonic Crohn disease**
 
-![](img%5CInflammatory-Bowell-Diseases15.png)
+![](./img-local/Inflammatory-Bowell-Diseases15.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CInflammatory-Bowell-Diseases16.png)
+![](./img-local/Inflammatory-Bowell-Diseases16.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CInflammatory-Bowell-Diseases17.png)
+![](./img-local/Inflammatory-Bowell-Diseases17.png)
 
 **Robbins Basic Pathology**
 
@@ -325,15 +325,15 @@ shapes and unusual orientations to one another**
 - **Involve part or all of the colon**
 - **Skip lesions are not seen**
 
-![](img%5CInflammatory-Bowell-Diseases18.png)
+![](./img-local/Inflammatory-Bowell-Diseases18.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CInflammatory-Bowell-Diseases19.png)
+![](./img-local/Inflammatory-Bowell-Diseases19.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CInflammatory-Bowell-Diseases20.png)
+![](./img-local/Inflammatory-Bowell-Diseases20.png)
 
 **Disease of the entire colon is termed pancolitis**
 
@@ -343,7 +343,7 @@ granular mucosa in the cecum (left) and smooth, atrophic mucosa distally
 
 **Robbins Basic Pathology**
 
-![](img%5CInflammatory-Bowell-Diseases21.png)
+![](./img-local/Inflammatory-Bowell-Diseases21.png)
 
 **broad-based ulceration of the colonic mucosa of the distal colon**
 
@@ -359,7 +359,7 @@ granular mucosa in the cecum (left) and smooth, atrophic mucosa distally
   - **Mild mucosal inflammation of the distal ileum, backwash ileitis,
     may be present in severe cases of pancolitis**
 
-![](img%5CInflammatory-Bowell-Diseases22.png)
+![](./img-local/Inflammatory-Bowell-Diseases22.png)
 
 **Involved colonic mucosa may be slightly red and granular-appearing or
 exhibit extensive broad-based ulcers**
@@ -390,7 +390,7 @@ normal (top)**
 
 # Histologic features of Ulcerative Colitis
 
-![](img%5CInflammatory-Bowell-Diseases23.png)
+![](./img-local/Inflammatory-Bowell-Diseases23.png)
 
 - **Similar to those in colonic Crohn disease**
   - **inflammatory infiltrates**

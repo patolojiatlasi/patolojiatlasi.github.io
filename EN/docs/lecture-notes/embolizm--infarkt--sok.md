@@ -1,17 +1,17 @@
 # Title
 Serdar Balcı
 
-![](img%5CEmbolizm%2C-Infarkt%2C-%C5%9Eok0.jpg)
+![](./img-local/Embolizm%2C-Infarkt%2C-%C5%9Eok0.jpg)
 
 # Embolizm, İnfarkt ve Şok
 
 # Dr. Serdar BALCI
 
-![](img%5CEmbolizm%2C-Infarkt%2C-%C5%9Eok1.png)
+![](./img-local/Embolizm%2C-Infarkt%2C-%C5%9Eok1.png)
 
-![](img%5CEmbolizm%2C-Infarkt%2C-%C5%9Eok2.png)
+![](./img-local/Embolizm%2C-Infarkt%2C-%C5%9Eok2.png)
 
-![](img%5CEmbolizm%2C-Infarkt%2C-%C5%9Eok3.png)
+![](./img-local/Embolizm%2C-Infarkt%2C-%C5%9Eok3.png)
 
 **medicalschoolpathology.com**
 
@@ -46,7 +46,7 @@ Serdar Balcı
 
 # Pulmoner tromboemboli
 
-![](img%5CEmbolizm%2C-Infarkt%2C-%C5%9Eok4.png)
+![](./img-local/Embolizm%2C-Infarkt%2C-%C5%9Eok4.png)
 
 **Robbins Basic Pathology**
 
@@ -172,11 +172,11 @@ sağ ventrikül yetmezliğine neden olur (kor pulmonale)**
   - **Lokal toksik endotelyal hasar**
   - **Platelet aktivasyonu ve granülosit birikimi**
 
-![](img%5CEmbolizm%2C-Infarkt%2C-%C5%9Eok5.png)
+![](./img-local/Embolizm%2C-Infarkt%2C-%C5%9Eok5.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CEmbolizm%2C-Infarkt%2C-%C5%9Eok6.png)
+![](./img-local/Embolizm%2C-Infarkt%2C-%C5%9Eok6.png)
 
 **Robbins Basic Pathology**
 
@@ -227,7 +227,7 @@ sağ ventrikül yetmezliğine neden olur (kor pulmonale)**
   - **Sistemik fibrin trombüsü**
     - **DIC**
 
-![](img%5CEmbolizm%2C-Infarkt%2C-%C5%9Eok7.png)
+![](./img-local/Embolizm%2C-Infarkt%2C-%C5%9Eok7.png)
 
 **Robbins Basic Pathology**
 
@@ -299,7 +299,7 @@ sağ ventrikül yetmezliğine neden olur (kor pulmonale)**
 
 **Aseptik infarkt**
 
-![](img%5CEmbolizm%2C-Infarkt%2C-%C5%9Eok8.png)
+![](./img-local/Embolizm%2C-Infarkt%2C-%C5%9Eok8.png)
 
 Robbins Basic Pathology
 
@@ -318,15 +318,15 @@ Robbins Basic Pathology
 - **Infarkt sonrası akım yeniden sağlandığında**
   - **Arterial tıkanıklığın açılması (angioplasty)**
 
-![](img%5CEmbolizm%2C-Infarkt%2C-%C5%9Eok9.png)
+![](./img-local/Embolizm%2C-Infarkt%2C-%C5%9Eok9.png)
 
-![](img%5CEmbolizm%2C-Infarkt%2C-%C5%9Eok10.png)
+![](./img-local/Embolizm%2C-Infarkt%2C-%C5%9Eok10.png)
 
 **Robbins Basic Pathology**
 
 # Beyaz infarkt
 
-![](img%5CEmbolizm%2C-Infarkt%2C-%C5%9Eok11.png)
+![](./img-local/Embolizm%2C-Infarkt%2C-%C5%9Eok11.png)
 
 - **Tek arterial akımı olan solid organlarda, uç arterin tıkanması**
   - **Kalp, dalak, böbrek**
@@ -351,7 +351,7 @@ Robbins Basic Pathology
   - **Skar ile tamir gelişir**
 - **SSS nekroz→ likefaktif nekroz**
 
-![](img%5CEmbolizm%2C-Infarkt%2C-%C5%9Eok12.png)
+![](./img-local/Embolizm%2C-Infarkt%2C-%C5%9Eok12.png)
 
 **Böbrekte infarkt alanında skar**
 
@@ -403,7 +403,7 @@ Robbins Basic Pathology
   - **Kan ve plazma hacim kaybı**
 - **Septik şok**
 
-![](img%5CEmbolizm%2C-Infarkt%2C-%C5%9Eok13.png)
+![](./img-local/Embolizm%2C-Infarkt%2C-%C5%9Eok13.png)
 
 # Septik şok
 
@@ -414,7 +414,7 @@ Robbins Basic Pathology
   - **Ortamda mikrrorganizma yok**
 - **Koagülasyon da etkilenir**
 
-![](img%5CEmbolizm%2C-Infarkt%2C-%C5%9Eok14.png)
+![](./img-local/Embolizm%2C-Infarkt%2C-%C5%9Eok14.png)
 
 - **Metabolik anormallikler**
 - **İmmün baskılanması**

@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar0.jpg)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar0.jpg)
 
 # Serebrovasküler Hastalıklar
 
@@ -20,7 +20,7 @@ Serdar Balcı
 
 # ÖDEM
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar1.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar1.png)
 
 # Serebral Ödem
 
@@ -36,7 +36,7 @@ Serdar Balcı
   - **Nöronal ve glial membran hasarı**
   - **Jeneralize hipoksik-iskemik etki, toksinler**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar2.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar2.png)
 
 **Ödemli beyin**
 
@@ -49,7 +49,7 @@ ventriküler kaviteler baskılanmıştır**
 
 **Robbins Basic Pathology**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar3.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar3.png)
 
 **Serebral ödem**
 
@@ -59,7 +59,7 @@ ventriküler kaviteler baskılanmıştır**
 
 # HIDROSEFALUS
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar4.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar4.png)
 
 # Hidrosefalus
 
@@ -71,18 +71,18 @@ ventriküler kaviteler baskılanmıştır**
 
 **Üretim ve emilim miktarı ile BOS miktarı regüle edilir**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar5.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar5.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar6.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar6.png)
 
 - **BOS’un ventriküler sistemde birikmesi**
 - **BOS’un fazla üretimi**
   - **Koroid pleksus tümörlerinde**
   - **Nadiren hidrosefaliye neden olur**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar7.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar7.png)
 
 - **Obstrüktif hidrosefali (Noncommunicating)**
   - **BOS akımınının belli bir lokalizasyonda tıkanması**
@@ -103,7 +103,7 @@ ventriküler kaviteler baskılanmıştır**
   - **Infarkt ya da dejeneratif hastalıklar sonrası kaybolan beyin
     parankimi yerine sıvı dolması**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar8.jpg)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar8.jpg)
 
 # HERNIASYON
 
@@ -117,11 +117,11 @@ ventriküler kaviteler baskılanmıştır**
 - **Herniasyon sonrası dokular itilir ve damarlara bası olur**
   - **Infarkt, daha fazla genişleme, daha fazla herni**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar9.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar9.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar10.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar10.png)
 
 # Subfalksiyan (singulat) herniasyonu
 
@@ -132,11 +132,11 @@ girusu falks’ın altına iter**
 
 **Subfalcial herniation**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar11.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar11.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar12.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar12.png)
 
 # Transtentorial (unsinat) herniasyonu
 
@@ -148,7 +148,7 @@ girusu falks’ın altına iter**
   - **Iskemik hasar**
   - **Primer görme korteksi**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar13.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar13.png)
 
 - **Eğer herniasyon yeterince büyükse**
   - **Kontralateral ** *pedunculus cerebri’ye bası*
@@ -156,13 +156,13 @@ girusu falks’ın altına iter**
 - **Kernohan’s notch**
   - **Pedunculus’ta izlenen deformatiye verilen ad**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar14.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar14.png)
 
 **Transtentorial herniation**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar15.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar15.png)
 
 **Duret kanaması**
 
@@ -176,7 +176,7 @@ girusu falks’ın altına iter**
 
 **Robbins Basic Pathology**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar16.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar16.png)
 
 **Duret kanaması**
 
@@ -186,7 +186,7 @@ girusu falks’ın altına iter**
 
 **Robbins Basic Pathology**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar17.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar17.png)
 
 # Tonsiller herniasyon
 
@@ -198,7 +198,7 @@ girusu falks’ın altına iter**
 
 **Solunum ve dolaşım merkezlerine bası**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar18.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar18.png)
 
 **Cerebellar tonsillar herniation**
 
@@ -268,7 +268,7 @@ girusu falks’ın altına iter**
   - **Geniş giruslar, daralmış sulkuslar**
   - **Gri beyaz cevher ayrımı silikleşmiş**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar19.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar19.png)
 
 **Erken değişiklikler**
 
@@ -285,7 +285,7 @@ girusu falks’ın altına iter**
 **Benzer değişiklikler sonrasında astrositlerde ve oligodendroglial
 hücrelerde görülür**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar20.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar20.png)
 
 **Erken değişiklikler**
 
@@ -302,7 +302,7 @@ hücrelerde görülür**
 **Benzer değişiklikler sonrasında astrositlerde ve oligodendroglial
 hücrelerde görülür**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar21.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar21.png)
 
 **Doku hasarına yanıt**
 
@@ -312,7 +312,7 @@ hücrelerde görülür**
 
 **Robbins Basic Pathology**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar22.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar22.png)
 
 **Subakut değişiklikler**
 
@@ -328,7 +328,7 @@ hücrelerde görülür**
 
 **Robbins Basic Pathology**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar23.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar23.png)
 
 **Tamir**
 
@@ -397,18 +397,18 @@ distributions is at greatest risk**
 
 **Hemorajik (kırmızı) infarkt, middle serebral arter lokalizasyonu**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar24.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar24.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar25.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar25.png)
 
 **Punktat kanama ile giden bir infarkt, iskemi reperfüzyon hasarı,
 temporal lob**
 
 **Robbins Basic Pathology**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar26.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar26.png)
 
 **Geç dönem, kistik infarkt ve çevre gliozis**
 
@@ -483,7 +483,7 @@ parallel those of ischemic infarction**
 - **Hipertansiyon en sık altta yatan neden**
   - **Tipik olarak bazal ganglionlar, talamus, pons ve serebellum**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar27.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar27.png)
 
 **Serebral kanama**
 
@@ -541,7 +541,7 @@ parallel those of ischemic infarction**
 - **Reküren kanamalar olur**
 - **Her kanamada prognoz daha da kötüleşir**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar28.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar28.png)
 
 **%90’ı anterior dolaşımda olur**
 
@@ -562,15 +562,15 @@ parallel those of ischemic infarction**
 **An unruptured saccular aneurysm is a thin-walled outpouching of an
 artery**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar29.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar29.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar30.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar30.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar31.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar31.png)
 
 **Anevrizma boyun kısmından sonra musküler tabaka ve elastik lamina
 yok**
@@ -620,7 +620,7 @@ her ikisine birden kanama olur**
 
 **Arteriovenous malformation**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar32.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar32.png)
 
 **İnvolve subarachnoid vessels extending into brain parenchyma**
 
@@ -725,52 +725,52 @@ kalsifikasyon**
   - **Diffüz ensefalopati**
   - **Kognitif bozukluklar**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar33.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar33.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar34.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar34.png)
 
 **Massive recent infarct**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar35.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar35.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar36.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar36.png)
 
 **Recent intracerebral hemorrhage with intraventricular extension**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar37.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar37.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar38.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar38.png)
 
 **Deep arteriovenous malformation**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar39.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar39.png)
 
 **Cavernous venous vascular malformation**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar40.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar40.png)
 
 **Bilateral hemorrhagic infarcts related to sagittal sinus thrombosis**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar41.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar41.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSerebrovask%C3%BCler-Hastal%C4%B1klar42.png)
+![](./img-local/Serebrovask%C3%BCler-Hastal%C4%B1klar42.png)
 
 **Autopsy Pathology: A Manual and Atlas**

@@ -1,13 +1,13 @@
 # Title
 Serdar Balcı
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases0.jpg)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases0.jpg)
 
 # Gallbladder and Extrahepatic Biliary Tract Diseases
 
 # Serdar BALCI, MD
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases1.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases1.png)
 
 # GALLBLADDER DISEASES
 
@@ -21,13 +21,13 @@ Serdar Balcı
 
 **Aberrant location**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases2.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases2.png)
 
 **Phrygian cap of the gallbladder**
 
 **Fundus is folded inward.**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases3.jpg)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases3.jpg)
 
 # Cholelithiasis (Gallstones)
 
@@ -49,7 +49,7 @@ Serdar Balcı
     (supersaturation)**
   - **Remain dispersed and crystallizes out of solution**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases4.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases4.png)
 
 - **Gallstone formation**
   - **Enhanced by hypomobility of the gallbladder (stasis)**
@@ -77,17 +77,17 @@ Serdar Balcı
   - **Pregnancy, rapid weight loss, spinal cord injury**
   - **Without obvious cause**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases5.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases5.png)
 
 **Robbins Basic Pathology**
 
 **Cholesterol gallstones**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases6.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases6.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases7.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases7.png)
 
 # Cholesterol stones
 
@@ -108,17 +108,17 @@ impart gray-white to black discoloration**
 
 **Most radiolucent, 20% sufficient calcium carbonate to be radiopaque**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases8.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases8.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
 **Pigmented gallstones**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases9.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases9.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases10.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases10.png)
 
 # Pigment stones
 
@@ -140,7 +140,7 @@ impart gray-white to black discoloration**
   - **Radiolucent**
     - **calcium soaps**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases11.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases11.png)
 
 # Cholelithiasis (Gallstones)
 
@@ -158,19 +158,19 @@ impart gray-white to black discoloration**
   - **A large stone may erode directly into an adjacent loop of small
     bowel, generating intestinal obstruction ( gallstone ileus )**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases12.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases12.png)
 
 **Cholesterolosis in gallbladder**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases13.jpg)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases13.jpg)
 
 **Cholesterolosis in gallbladder**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases14.jpg)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases14.jpg)
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases15.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases15.png)
 
 # Cholecystitis
 
@@ -287,11 +287,11 @@ impart gray-white to black discoloration**
   - **Aggravation of preexisting medical illness**
     - **cardiac, pulmonary, renal, or liver decompensation**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases16.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases16.png)
 
 **Robbins and Cotran Pathologic Basis of Diseases**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases17.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases17.png)
 
 **Robbins and Cotran Pathologic Basis of Diseases**
 
@@ -460,19 +460,19 @@ transplantation**
 
 - **Preoperative diagnosis \<20%**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases18.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases18.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases19.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases19.png)
 
 **Robbins and Cotran Pathologic Basis of Diseases**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases20.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases20.png)
 
 \_\_ WHO Classification of Tumours of the Digestive System\_\_
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases21.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases21.png)
 
 **Intracholecystic Papillary Tubular Neoplasm of the**
 
@@ -480,7 +480,7 @@ transplantation**
 
 **Pathol Case Rev 2014;19: 283** **–** **288**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases22.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases22.png)
 
 # Cholangiocarcinomas
 
@@ -509,7 +509,7 @@ asymptomatic until they reach an advanced stage**
 - **Activating mutations in the KRAS and BRAF oncogenes and
   loss-of-function mutations in the TP53 tumor suppressor gene**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases23.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases23.png)
 
 **Cholangiocarcinoma**
 
@@ -518,19 +518,19 @@ metastases.**
 
 **Robbins Basic Pathology**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases24.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases24.png)
 
 **Robbins and Cotran Pathologic Basis of Diseases**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases25.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases25.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases26.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases26.png)
 
 **Robbins and Cotran Pathologic Basis of Diseases**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases27.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases27.png)
 
 **Robbins and Cotran Pathologic Basis of Diseases**
 
@@ -545,26 +545,26 @@ metastases.**
 - **Cholangiocarcinoma has a greater propensity for extrahepatic spread
   than does hepatocellular carcinoma**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases28.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases28.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases29.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases29.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases30.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases30.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases31.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases31.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases32.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases32.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGallbladder-and-Extrahepatic-Biliary-Tract-Diseases33.png)
+![](./img-local/Gallbladder-and-Extrahepatic-Biliary-Tract-Diseases33.png)
 
 **Autopsy Pathology: A Manual and Atlas**

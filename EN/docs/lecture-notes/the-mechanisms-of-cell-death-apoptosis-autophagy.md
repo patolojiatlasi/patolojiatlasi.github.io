@@ -1,49 +1,49 @@
 # Title
 Serdar Balcı
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy0.jpg)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy0.jpg)
 
 # The Mechanisms of Cell Death
 
 # Serdar BALCI, MD
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy1.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy1.png)
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy2.jpg)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy2.jpg)
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy3.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy3.png)
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy4.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy4.png)
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy5.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy5.png)
 
 **Cell necrosis Liver**
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy6.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy6.png)
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
 
 **Cell necrosis Renal cortex**
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy7.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy7.png)
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy8.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy8.png)
 
 # SHRINKAGE/HYPERCHROMASIA
 
 **medicalschoolpathology.com**
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy9.jpg)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy9.jpg)
 
 **Core Pathology , Third Edition**
 
@@ -70,16 +70,16 @@ cytoplasmic proteins**
 
 # Apoptosis Early stage
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy10.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy10.png)
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
 
 # Apoptosis Late stage
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy11.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy11.png)
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy12.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy12.png)
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
@@ -102,7 +102,7 @@ cytoplasmic proteins**
 
 # Physiologic Causes of Apoptosis
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy13.jpg)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy13.jpg)
 
 - *during embryogenesis*
   - *Webs among fingers*
@@ -158,7 +158,7 @@ cell/tissue/organism**
   - **Parotid gland**
   - **Kidney**
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy14.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy14.png)
 
 **Chromatin condensation and aggregation**
 
@@ -176,22 +176,22 @@ cell/tissue/organism**
 
 **membrane-bound vesicles of cytosol and organelles**
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy15.jpg)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy15.jpg)
 
 **Core Pathology , Third Edition**
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy16.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy16.png)
 
 **Mechanism of apoptosis depends on **
 <span style="color:#FF0000">caspase </span> **enzymes via **
 <span style="color:#FF0000">two pathways</span>
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy17.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy17.png)
 
 **There is a ** <span style="color:#FF0000">balance</span> \_\_ btw pro
 and anti-apoptotic signals\_\_
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy18.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy18.png)
 
 # The Mitochondrial (Intrinsic) Pathway of Apoptosis
 
@@ -201,7 +201,7 @@ and anti-apoptotic signals\_\_
 - **DNA damage**
   - **due to radiation or cytotoxic chemotherapy **
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy19.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy19.png)
 
 - **Bcl-2**
   - **Anti-apoptotic**
@@ -212,18 +212,18 @@ and anti-apoptotic signals\_\_
 - **The ratio of Bcl-2 to Bax**
   - **determines whether a cell goes to apoptosis**
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy20.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy20.png)
 
 - **p53 is a multifunctional protein**
   - **induces cell cycle arrest and initiates DNA damage repair**
   - **if this is unsuccessful, p53 can induce apoptosis**
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy21.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy21.png)
 
 **Mitochondria contain several proteins that are capable of inducing
 apoptosis**
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy22.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy22.png)
 
 # The Death Receptor (Extrinsic) Pathway of Apoptosis
 
@@ -232,7 +232,7 @@ apoptosis**
 - **Tumour necrosis factor receptor (TNFR) gene family**
   - **TNFR1 and Fas (CD95)**
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy23.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy23.png)
 
 **Ligand binding**
 
@@ -242,11 +242,11 @@ apoptosis**
 
 **activation of caspases**
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy24.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy24.png)
 
 **Fas ligand expressed mainly on activated T lymphocytes**
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy25.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy25.png)
 
 **A caspase antagonist FLIP, block activation of caspases downstream of
 death receptors**
@@ -339,11 +339,11 @@ death receptors**
   - **activation of caspases**
   - **apoptosis**
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy26.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy26.png)
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy27.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy27.png)
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy28.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy28.png)
 
 # Apoptosis of Self-Reactive Lymphocytes
 
@@ -369,7 +369,7 @@ death receptors**
 
 # NECROPTOSIS
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy29.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy29.png)
 
 # Necroptosis
 
@@ -389,7 +389,7 @@ death receptors**
 - **No caspase activation**
   - **“caspase-independent” programmed cell death**
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy30.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy30.png)
 
 **Triggered by ligation of TNFR1, and viral proteins of RNA and DNA
 viruses**
@@ -397,7 +397,7 @@ viruses**
 **caspase-independent but dependent on signaling by the RIP1 and RIP3
 complex**
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy31.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy31.png)
 
 **RIP1-RIP3 signaling reduces mitochondrial ATP generation**
 
@@ -432,13 +432,13 @@ necrosis**
 - **Pyro: fever**
   - **Fever inducing cytokine IL-1**
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy32.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy32.png)
 
 # AUTOPHAGY
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy33.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy33.png)
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy34.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy34.png)
 
 # Autophagy: self-eating
 
@@ -449,7 +449,7 @@ necrosis**
   death in different diseases such as neurodegenerative diseases and
   degenerative diseases of muscle. **
 
-![](img%5CThe-Mechanisms-of-Cell-Death-apoptosis-autophagy35.png)
+![](./img-local/The-Mechanisms-of-Cell-Death-apoptosis-autophagy35.png)
 
 **Intracellular organelles and portions of cytosol are sequestered
 within an autophagic vacuole**

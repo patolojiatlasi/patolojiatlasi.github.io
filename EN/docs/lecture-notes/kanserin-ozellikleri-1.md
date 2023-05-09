@@ -15,55 +15,25 @@ change**
 **Disorder of cell growth that is triggered by a series of acquired
 mutations affecting a single cell and its clonal progeny**
 
-![](img%5CKanserin-Ozellikleri-10.jpg)
+![](./img-local/Kanserin-Ozellikleri-10.jpg)
 
 # Kanserin Başlıca Özellikleri-1
 
 # Dr. Serdar BALCI
 
-![](img%5CKanserin-Ozellikleri-11.jpg)
+![](./img-local/Kanserin-Ozellikleri-11.jpg)
 
-![](img%5CKanserin-Ozellikleri-12.png)
+![](./img-local/Kanserin-Ozellikleri-12.png)
 
-![](img%5CKanserin-Ozellikleri-13.png)
+![](./img-local/Kanserin-Ozellikleri-13.png)
 
-![](img%5CKanserin-Ozellikleri-14.png)
-
-**Cell. 2000 Jan 7;100(1):57-70.**
-
-![](img%5CKanserin-Ozellikleri-15.jpg)
-
-![](img%5CKanserin-Ozellikleri-16.png)
-
-<span style="color:#FFFFFF"> *Cell* </span>
-<span style="color:#FFFFFF"> 2011 144, 646-674DOI:
-(10.1016/j.cell.2011.02.013) </span>
-
-**Cell. 2011 Mar 4;144(5):646-74**
-
-<span style="color:#FFFFFF">Copyright © 2011 Elsevier Inc.</span>
-*[Terms and Conditions](http://www.elsevier.com/termsandconditions)*
-
-![](img%5CKanserin-Ozellikleri-17.jpg)
-
-![](img%5CKanserin-Ozellikleri-18.png)
-
-<span style="color:#FFFFFF"> *Cell* </span>
-<span style="color:#FFFFFF"> 2011 144, 646-674DOI:
-(10.1016/j.cell.2011.02.013) </span>
-
-**Cell. 2011 Mar 4;144(5):646-74**
-
-<span style="color:#FFFFFF">Copyright © 2011 Elsevier Inc.</span>
-*[Terms and Conditions](http://www.elsevier.com/termsandconditions)*
-
-![](img%5CKanserin-Ozellikleri-19.png)
+![](./img-local/Kanserin-Ozellikleri-14.png)
 
 **Cell. 2000 Jan 7;100(1):57-70.**
 
-![](img%5CKanserin-Ozellikleri-110.jpg)
+![](./img-local/Kanserin-Ozellikleri-15.jpg)
 
-![](img%5CKanserin-Ozellikleri-111.png)
+![](./img-local/Kanserin-Ozellikleri-16.png)
 
 <span style="color:#FFFFFF"> *Cell* </span>
 <span style="color:#FFFFFF"> 2011 144, 646-674DOI:
@@ -74,13 +44,26 @@ mutations affecting a single cell and its clonal progeny**
 <span style="color:#FFFFFF">Copyright © 2011 Elsevier Inc.</span>
 *[Terms and Conditions](http://www.elsevier.com/termsandconditions)*
 
-![](img%5CKanserin-Ozellikleri-112.png)
+![](./img-local/Kanserin-Ozellikleri-17.jpg)
+
+![](./img-local/Kanserin-Ozellikleri-18.png)
+
+<span style="color:#FFFFFF"> *Cell* </span>
+<span style="color:#FFFFFF"> 2011 144, 646-674DOI:
+(10.1016/j.cell.2011.02.013) </span>
+
+**Cell. 2011 Mar 4;144(5):646-74**
+
+<span style="color:#FFFFFF">Copyright © 2011 Elsevier Inc.</span>
+*[Terms and Conditions](http://www.elsevier.com/termsandconditions)*
+
+![](./img-local/Kanserin-Ozellikleri-19.png)
 
 **Cell. 2000 Jan 7;100(1):57-70.**
 
-![](img%5CKanserin-Ozellikleri-113.jpg)
+![](./img-local/Kanserin-Ozellikleri-110.jpg)
 
-![](img%5CKanserin-Ozellikleri-114.png)
+![](./img-local/Kanserin-Ozellikleri-111.png)
 
 <span style="color:#FFFFFF"> *Cell* </span>
 <span style="color:#FFFFFF"> 2011 144, 646-674DOI:
@@ -91,13 +74,13 @@ mutations affecting a single cell and its clonal progeny**
 <span style="color:#FFFFFF">Copyright © 2011 Elsevier Inc.</span>
 *[Terms and Conditions](http://www.elsevier.com/termsandconditions)*
 
-![](img%5CKanserin-Ozellikleri-115.png)
+![](./img-local/Kanserin-Ozellikleri-112.png)
 
 **Cell. 2000 Jan 7;100(1):57-70.**
 
-![](img%5CKanserin-Ozellikleri-116.jpg)
+![](./img-local/Kanserin-Ozellikleri-113.jpg)
 
-![](img%5CKanserin-Ozellikleri-117.png)
+![](./img-local/Kanserin-Ozellikleri-114.png)
 
 <span style="color:#FFFFFF"> *Cell* </span>
 <span style="color:#FFFFFF"> 2011 144, 646-674DOI:
@@ -108,9 +91,26 @@ mutations affecting a single cell and its clonal progeny**
 <span style="color:#FFFFFF">Copyright © 2011 Elsevier Inc.</span>
 *[Terms and Conditions](http://www.elsevier.com/termsandconditions)*
 
-![](img%5CKanserin-Ozellikleri-118.jpg)
+![](./img-local/Kanserin-Ozellikleri-115.png)
 
-![](img%5CKanserin-Ozellikleri-119.png)
+**Cell. 2000 Jan 7;100(1):57-70.**
+
+![](./img-local/Kanserin-Ozellikleri-116.jpg)
+
+![](./img-local/Kanserin-Ozellikleri-117.png)
+
+<span style="color:#FFFFFF"> *Cell* </span>
+<span style="color:#FFFFFF"> 2011 144, 646-674DOI:
+(10.1016/j.cell.2011.02.013) </span>
+
+**Cell. 2011 Mar 4;144(5):646-74**
+
+<span style="color:#FFFFFF">Copyright © 2011 Elsevier Inc.</span>
+*[Terms and Conditions](http://www.elsevier.com/termsandconditions)*
+
+![](./img-local/Kanserin-Ozellikleri-118.jpg)
+
+![](./img-local/Kanserin-Ozellikleri-119.png)
 
 <span style="color:#FFFFFF"> *Cell* </span>
 <span style="color:#FFFFFF"> 2011 144, 646-674DOI:
@@ -125,7 +125,7 @@ mutations affecting a single cell and its clonal progeny**
 
 **http://www.cellsignal.com/common/content/content.jsp?id=science-pathways**
 
-![](img%5CKanserin-Ozellikleri-120.png)
+![](./img-local/Kanserin-Ozellikleri-120.png)
 
 **Robbins Basic Pathology**
 
@@ -147,43 +147,43 @@ mutations affecting a single cell and its clonal progeny**
 
 **Tümörü uyaran inflamasyon**
 
-![](img%5CKanserin-Ozellikleri-121.jpg)
+![](./img-local/Kanserin-Ozellikleri-121.jpg)
 
 # BÜYÜME SINYALLERI BAKIMINDAN KENDI KENDINE YETERLI OLMAK
 
-![](img%5CKanserin-Ozellikleri-122.jpg)
+![](./img-local/Kanserin-Ozellikleri-122.jpg)
 
-![](img%5CKanserin-Ozellikleri-123.jpg)
+![](./img-local/Kanserin-Ozellikleri-123.jpg)
 
-![](img%5CKanserin-Ozellikleri-124.png)
+![](./img-local/Kanserin-Ozellikleri-124.png)
 
-![](img%5CKanserin-Ozellikleri-125.jpg)
+![](./img-local/Kanserin-Ozellikleri-125.jpg)
 
-![](img%5CKanserin-Ozellikleri-126.jpg)
+![](./img-local/Kanserin-Ozellikleri-126.jpg)
 
-![](img%5CKanserin-Ozellikleri-127.jpg)
+![](./img-local/Kanserin-Ozellikleri-127.jpg)
 
-![](img%5CKanserin-Ozellikleri-128.jpg)
+![](./img-local/Kanserin-Ozellikleri-128.jpg)
 
-![](img%5CKanserin-Ozellikleri-129.jpg)
+![](./img-local/Kanserin-Ozellikleri-129.jpg)
 
-![](img%5CKanserin-Ozellikleri-130.jpg)
+![](./img-local/Kanserin-Ozellikleri-130.jpg)
 
-![](img%5CKanserin-Ozellikleri-131.jpg)
+![](./img-local/Kanserin-Ozellikleri-131.jpg)
 
-![](img%5CKanserin-Ozellikleri-132.jpg)
+![](./img-local/Kanserin-Ozellikleri-132.jpg)
 
-![](img%5CKanserin-Ozellikleri-133.jpg)
+![](./img-local/Kanserin-Ozellikleri-133.jpg)
 
-![](img%5CKanserin-Ozellikleri-134.jpg)
+![](./img-local/Kanserin-Ozellikleri-134.jpg)
 
-![](img%5CKanserin-Ozellikleri-135.jpg)
+![](./img-local/Kanserin-Ozellikleri-135.jpg)
 
-![](img%5CKanserin-Ozellikleri-136.jpg)
+![](./img-local/Kanserin-Ozellikleri-136.jpg)
 
-![](img%5CKanserin-Ozellikleri-137.jpg)
+![](./img-local/Kanserin-Ozellikleri-137.jpg)
 
-![](img%5CKanserin-Ozellikleri-138.jpg)
+![](./img-local/Kanserin-Ozellikleri-138.jpg)
 
 # Büyüme sinyalleri bakımından kendi kendine yeterli olmak
 
@@ -197,7 +197,7 @@ mutations affecting a single cell and its clonal progeny**
     uyarılır ve aktif hale gelir**
   - **Hücre siklusu başlar ve hücre bölünmesi gerçekleşir**
 
-![](img%5CKanserin-Ozellikleri-139.png)
+![](./img-local/Kanserin-Ozellikleri-139.png)
 
 **Robbins Basic Pathology**
 
@@ -257,7 +257,7 @@ mutations affecting a single cell and its clonal progeny**
 - **G protein**
   - **GTP ile fosforile olur**
 
-![](img%5CKanserin-Ozellikleri-140.png)
+![](./img-local/Kanserin-Ozellikleri-140.png)
 
 # RAS
 
@@ -271,7 +271,7 @@ mutations affecting a single cell and its clonal progeny**
 
 **Robbins Basic Pathology**
 
-![](img%5CKanserin-Ozellikleri-141.png)
+![](./img-local/Kanserin-Ozellikleri-141.png)
 
 # GAPs
 
@@ -283,7 +283,7 @@ mutations affecting a single cell and its clonal progeny**
 
 **Robbins Basic Pathology**
 
-![](img%5CKanserin-Ozellikleri-142.png)
+![](./img-local/Kanserin-Ozellikleri-142.png)
 
 # RAF/ERK/MAP kinaz yolağı
 
@@ -304,7 +304,7 @@ mutations affecting a single cell and its clonal progeny**
 - **Hedefe yönelik tedavilerin ilki**
   - **BCR-ABL kinaz inhibitörü (Gleevec)**
 
-![](img%5CKanserin-Ozellikleri-143.png)
+![](./img-local/Kanserin-Ozellikleri-143.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
@@ -327,15 +327,15 @@ mutations affecting a single cell and its clonal progeny**
   - **Meme, kolon, akciğer**
   - **Nöroblastom, Akciğer küçük hücreli karsinom (NMYC, LMYC)**
 
-![](img%5CKanserin-Ozellikleri-144.png)
+![](./img-local/Kanserin-Ozellikleri-144.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CKanserin-Ozellikleri-145.png)
+![](./img-local/Kanserin-Ozellikleri-145.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CKanserin-Ozellikleri-146.jpg)
+![](./img-local/Kanserin-Ozellikleri-146.jpg)
 
 # Siklin ve siklin bağımlı kinazlar
 
@@ -347,7 +347,7 @@ mutations affecting a single cell and its clonal progeny**
 
 **Kontrol noktaları anormal DNA proliferasyonunu engeller**
 
-![](img%5CKanserin-Ozellikleri-147.png)
+![](./img-local/Kanserin-Ozellikleri-147.png)
 
 **Robbins Basic Pathology**
 
@@ -362,7 +362,7 @@ mutations affecting a single cell and its clonal progeny**
     - **%25’inde melanom yatkınlığı**
   - **Somatik akkiz delesyon veya inaktivasyonu**
 
-![](img%5CKanserin-Ozellikleri-148.png)
+![](./img-local/Kanserin-Ozellikleri-148.png)
 
 **Robbins Basic Pathology**
 
@@ -370,7 +370,7 @@ mutations affecting a single cell and its clonal progeny**
 
 **Rous sarcoma virus**
 
-![](img%5CKanserin-Ozellikleri-149.jpg)
+![](./img-local/Kanserin-Ozellikleri-149.jpg)
 
 # BÜYÜME INHIBITÖRLERINE DUYARSIZLIK
 
@@ -387,29 +387,29 @@ mutations affecting a single cell and its clonal progeny**
 
 # Retinoblastom
 
-![](img%5CKanserin-Ozellikleri-150.jpg)
+![](./img-local/Kanserin-Ozellikleri-150.jpg)
 
-![](img%5CKanserin-Ozellikleri-151.jpg)
+![](./img-local/Kanserin-Ozellikleri-151.jpg)
 
-![](img%5CKanserin-Ozellikleri-152.jpg)
+![](./img-local/Kanserin-Ozellikleri-152.jpg)
 
-![](img%5CKanserin-Ozellikleri-153.jpg)
+![](./img-local/Kanserin-Ozellikleri-153.jpg)
 
 **Figure 2, from Pediatr Radiol. Jun 2012; 42(6): 738–749. PMCID:
 PMC3530407**
 
-![](img%5CKanserin-Ozellikleri-154.jpg)
+![](./img-local/Kanserin-Ozellikleri-154.jpg)
 
 **Figure 7.4b ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
 
 # Knudson çift darbe hipotezi
 
-![](img%5CKanserin-Ozellikleri-155.png)
+![](./img-local/Kanserin-Ozellikleri-155.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CKanserin-Ozellikleri-156.png)
+![](./img-local/Kanserin-Ozellikleri-156.png)
 
 **Robbins Basic Pathology**
 
@@ -424,13 +424,13 @@ gelişir**
 
 **Proto-onkogenin tek alleli mutasyona uğrarsa neoplazi gelişir mi?**
 
-![](img%5CKanserin-Ozellikleri-157.png)
+![](./img-local/Kanserin-Ozellikleri-157.png)
 
 **G1 kontrol noktası**
 
 **Robbins Basic Pathology**
 
-![](img%5CKanserin-Ozellikleri-158.png)
+![](./img-local/Kanserin-Ozellikleri-158.png)
 
 **G1 kontrol noktası**
 
@@ -438,7 +438,7 @@ gelişir**
 
 **Robbins Basic Pathology**
 
-![](img%5CKanserin-Ozellikleri-159.png)
+![](./img-local/Kanserin-Ozellikleri-159.png)
 
 **G1 kontrol noktası**
 
@@ -484,7 +484,7 @@ gelişir**
   - **P53, MDM2 ekspresyonunu uyarır, p53 normal seviyelere döner ve
     hücre siklusu devam eder**
 
-![](img%5CKanserin-Ozellikleri-160.png)
+![](./img-local/Kanserin-Ozellikleri-160.png)
 
 **Robbins Basic Pathology**
 
@@ -549,7 +549,7 @@ karsinomları**
   - **Antiproliferatif sinyalleri reseptörden nükleusa taşır**
 - **TGF-β sinyali ile epitelyal-mezenkimal dönüşüm aktive olur**
 
-![](img%5CKanserin-Ozellikleri-161.jpg)
+![](./img-local/Kanserin-Ozellikleri-161.jpg)
 
 **Figure 5.21 ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
@@ -564,7 +564,7 @@ karsinomları**
 - **Pankreas kanserlerinin %100’ünde, kolon kanserlerinin %83’ünde TGF-β
   yolağında bir mutasyon vardır**
 
-![](img%5CKanserin-Ozellikleri-162.jpg)
+![](./img-local/Kanserin-Ozellikleri-162.jpg)
 
 **Figure 6.29d ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
@@ -579,21 +579,21 @@ karsinomları**
   - **Hücreler büyümeye devam eder, birbiri üzerine birikmeye devam
     eder**
 
-![](img%5CKanserin-Ozellikleri-163.png)
+![](./img-local/Kanserin-Ozellikleri-163.png)
 
 **Figure 3.7 from The Biology Of Cancer (2007) - Weinberg**
 
-![](img%5CKanserin-Ozellikleri-164.jpg)
+![](./img-local/Kanserin-Ozellikleri-164.jpg)
 
 **Figure 3.7a ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
 
-![](img%5CKanserin-Ozellikleri-165.jpg)
+![](./img-local/Kanserin-Ozellikleri-165.jpg)
 
 **Figure 3.12 ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
 
-![](img%5CKanserin-Ozellikleri-166.png)
+![](./img-local/Kanserin-Ozellikleri-166.png)
 
 **Figure 3.7 from The Biology Of Cancer (2007) - Weinberg**
 
@@ -620,13 +620,13 @@ karsinomları**
 
 **β-Catenin yıkılır**
 
-![](img%5CKanserin-Ozellikleri-167.png)
+![](./img-local/Kanserin-Ozellikleri-167.png)
 
 **Robbins Basic Pathology**
 
 **β-Catenin çekirdekte aktiftir**
 
-![](img%5CKanserin-Ozellikleri-168.png)
+![](./img-local/Kanserin-Ozellikleri-168.png)
 
 **Proliferasyon için cyclin D1 ve MYC transkripsiyonu olur**
 
@@ -652,21 +652,21 @@ karsinomları**
   - **APC’nin yıkım etkisine direnç gösterecek şekilde mutasyonlar
     olur**
 
-![](img%5CKanserin-Ozellikleri-169.jpg)
+![](./img-local/Kanserin-Ozellikleri-169.jpg)
 
 **Figure 7.22 ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
 
-![](img%5CKanserin-Ozellikleri-170.jpg)
+![](./img-local/Kanserin-Ozellikleri-170.jpg)
 
 **Figure 7.24a ** \_ The Biology of Cancer\_ \_\_ (© Garland Science
 2007)\_\_
 
-![](img%5CKanserin-Ozellikleri-171.jpg)
+![](./img-local/Kanserin-Ozellikleri-171.jpg)
 
 # HÜCRE ÖLÜMÜNDEN KAÇIŞ
 
-![](img%5CKanserin-Ozellikleri-172.png)
+![](./img-local/Kanserin-Ozellikleri-172.png)
 
 # Dış yolak
 
@@ -686,7 +686,7 @@ karsinomları**
 
 **Robbins Basic Pathology**
 
-![](img%5CKanserin-Ozellikleri-173.png)
+![](./img-local/Kanserin-Ozellikleri-173.png)
 
 # İç yolak
 
@@ -741,13 +741,13 @@ karsinomları**
   kullanabilir**
   - **Tedavi gibi**
 
-![](img%5CKanserin-Ozellikleri-174.jpg)
+![](./img-local/Kanserin-Ozellikleri-174.jpg)
 
 # SINIRSIZ ÇOĞALMA POTANSIYELI
 
 # Normal hücrelerde telomerler kısalır
 
-![](img%5CKanserin-Ozellikleri-175.png)
+![](./img-local/Kanserin-Ozellikleri-175.png)
 
 **Yaklaşık 60, 70 bölünme kapasitesi vardır**
 
@@ -761,7 +761,7 @@ karsinomları**
 
 # Neoplazide telomer kısalması
 
-![](img%5CKanserin-Ozellikleri-176.png)
+![](./img-local/Kanserin-Ozellikleri-176.png)
 
 **TP53 ve RB mutasyonlarında hücre çoğalmaya zorlanır**
 
@@ -781,11 +781,11 @@ karsinomları**
 
 **Robbins Basic Pathology**
 
-![](img%5CKanserin-Ozellikleri-177.png)
+![](./img-local/Kanserin-Ozellikleri-177.png)
 
 **Rubin’s Pathology 7th Ed**
 
-![](img%5CKanserin-Ozellikleri-178.png)
+![](./img-local/Kanserin-Ozellikleri-178.png)
 
 - **Hemen tüm kanserlerde telomer korunması görülür**
 - **Telomeraz enzimi fazla çalışır**
@@ -797,6 +797,6 @@ karsinomları**
 
 **Robbins Basic Pathology**
 
-![](img%5CKanserin-Ozellikleri-179.png)
+![](./img-local/Kanserin-Ozellikleri-179.png)
 
 **Robbins Basic Pathology**

@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B10.jpg)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B10.jpg)
 
 # SSS Dejeneratif Hastalıkları
 
@@ -18,7 +18,7 @@ Serdar Balcı
   etkiliyor??**
   - **Nöronların arasındaki küçük farklılıklar**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B11.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B11.png)
 
 **Robbins Basic Pathology**
 
@@ -51,7 +51,7 @@ Serdar Balcı
 - **Serebral korteks hasarına neden olan diğer hastalıklara da eşlik
   edebilir**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B12.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B12.png)
 
 **Robbins Basic Pathology**
 
@@ -81,7 +81,7 @@ Serdar Balcı
 
 **Beyinde zaman içinde Beta amyloid (Aβ) birikimi**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B13.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B13.png)
 
 # APP (Amiloid Prekürsör Protein)Transmembran protein
 
@@ -91,7 +91,7 @@ Serdar Balcı
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B14.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B14.png)
 
 - **APP β-amyloid converting enzyme (BACE) ve γ-secretase ile
   kesildiğinde Aβ ortaya çıkar**
@@ -101,7 +101,7 @@ Serdar Balcı
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B15.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B15.png)
 
 **Aβ peptidleri patojenik agregatlar oluşturur**
 
@@ -164,13 +164,13 @@ olur**
   - **Hippokampus, izokorteks**
   - **En son neokorteks**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B16.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B16.png)
 
 **Plaklar merkezde amiloid ve çevrede distrofik nöritlerden oluşur**
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B17.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B17.png)
 
 - **Nöritik plaklar**
 - **Fokal, yuvarlak, dilate, tortiyöz, gümüşleme ile belirginleşen
@@ -186,7 +186,7 @@ olur**
   - **Primer motor ve sensory kortkes ise geç dönem hastalığa kadar
     korunur**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B18.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B18.png)
 
 **Aβ’nin immünohistokimya ile gösterimi**
 
@@ -194,7 +194,7 @@ olur**
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B19.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B19.png)
 
 - **Amiloid merkezde Aβ mevcuttur**
 - **Diffüz plaklar**
@@ -204,13 +204,13 @@ olur**
     serebellar kortekste görülür**
   - **Plak gelişiminin erken dönemi**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B110.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B110.png)
 
 **Tau spesifik anitkor ile gösterilen yumak içeren nöronlar**
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B111.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B111.png)
 
 - **Nörofibriler yumaklar**
 - **Heliks oluşturan filaman demetleri**
@@ -225,7 +225,7 @@ olur**
   - **Bazal önbeyin**
   - **Nucleus raphe**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B112.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B112.png)
 
 - **Nörofibriler yumaklar**
 - **Heliks oluşturan filamanların çoğu anormal fosforilenmiş tau
@@ -307,17 +307,17 @@ neden olan ahstalıklar**
 - **Bazı ailesel formlarda PARK7 veya PINK1 genlerinde mutasyon**
   - **Normal mitokondri fonksiyonu ile ilişkili genler**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B113.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B113.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B114.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B114.png)
 
 **Substantia nigra ve locus ceruleus bölgesinde pigment kaybı**
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B115.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B115.png)
 
 **Geride kalan nöronlarda Lewy cisimcikleri görülebilir**
 
@@ -387,7 +387,7 @@ kolinerjik hücreler ve amigdala’da da tespit edilir → Demans**
   - **Frontal lobda da atrofi görülür, daha az sıklıkla parietal lobda
     ve bazen tüm kortekste**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B116.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B116.png)
 
 **Solda normal hemisfer**
 
@@ -472,46 +472,46 @@ dilatasyon**
     dejenerasyon**
   - **İskelet kaslarında denervasyon atrofisi**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B117.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B117.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B118.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B118.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B119.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B119.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B120.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B120.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B121.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B121.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B122.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B122.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B123.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B123.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B124.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B124.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B125.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B125.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B126.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B126.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-Dejeneratif-Hastal%C4%B1klar%C4%B127.png)
+![](./img-local/SSS-Dejeneratif-Hastal%C4%B1klar%C4%B127.png)
 
 **Autopsy Pathology: A Manual and Atlas**

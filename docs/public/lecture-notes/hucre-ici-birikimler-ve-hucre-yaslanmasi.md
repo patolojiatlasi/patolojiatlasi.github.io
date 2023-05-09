@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B10.jpg)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B10.jpg)
 
 # Hücre içi birikimler veHücre Yaşlanması
 
@@ -21,13 +21,13 @@ Serdar Balcı
 
 # HÜCRE İÇİ BİRİKİM MEKANİZMALARI
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B11.png)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B11.png)
 
 **Normal bir maddenin atılamaması**
 
 **Paketleme ve taşımada sorun**
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B12.png)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B12.png)
 
 **Anormal bir endojen maddenin birikimi**
 
@@ -37,14 +37,14 @@ Serdar Balcı
 
 **α1-antitrypsin**
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B13.png)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B13.png)
 
 **Bir metabolitin herediter enzim eksikliği nedeniyle metabolize
 edilememesi**
 
 **Depo hastalıkları**
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B14.png)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B14.png)
 
 **Anormal ekzojen bir maddenin depolanması ve birikimi**
 
@@ -65,9 +65,9 @@ edilememesi**
   - **Anoksi**
   - **Alkol aşırı alımı (suistimali)**
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B15.png)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B15.png)
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B16.png)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B16.png)
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
@@ -79,7 +79,7 @@ Kolesterol ve kolesterol esterleri) **
 
 **Ateroskleroz**
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B17.png)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B17.png)
 
 # Proteinler
 
@@ -98,9 +98,9 @@ Kolesterol ve kolesterol esterleri) **
 - **Nöron**
   - **Nörofibriler yumaklar**
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B18.jpg)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B18.jpg)
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B19.png)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B19.png)
 
 # Glikojen
 
@@ -136,9 +136,9 @@ Kolesterol ve kolesterol esterleri) **
   - **Madenciler**
   - **Tekstil sanayi işçilerinde**
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B110.jpg)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B110.jpg)
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B111.png)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B111.png)
 
 **http://kobiljak.msu.edu/cai/HM561_Pathology/Injury/Lab1-Image23.html**
 
@@ -157,7 +157,7 @@ peroksidasyonu**
 **Pigment çok miktarda olduğunda dokuya kahverengi renk verir:
 Kahverengi atrofi**
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B112.png)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B112.png)
 
 **Hücre için hasara neden olmaz ama geçmiş bir serbest radikal hasarının
 işareti**
@@ -177,7 +177,7 @@ görülür**
 
 **Dermal makrofajlarda**
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B113.png)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B113.png)
 
 **Differential Diagnosis in Surgical Pathology Figure 2-65: Blue Nevus**
 
@@ -190,11 +190,11 @@ görülür**
 **Demir hücrelerde apoferritin proteini ile birleşip ferritin
 miçellerini oluşturur**
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B114.png)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B114.png)
 
 **ışık ve elektron mikroskobu ile kolayca farkedilir**
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B115.png)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B115.png)
 
 **Küçük miktardaki pigment varlığı kemik iliği, dalak, karaciğerde
 (yaşlı eritrositlerin yıkıldığı yerler) normaldir**
@@ -224,20 +224,20 @@ alcoholic hyaline are pink and glassy)**
 proteins and deposition of basement membrane material can give the
 vessel walls a  pink, glassy appearance)**
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B116.jpg)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B116.jpg)
 
 **Mallory body (or Mallory hyaline) in the ballooning hepatocyte in the
 center of the photo.**
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B117.jpg)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B117.jpg)
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B118.jpg)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B118.jpg)
 
 **Hyaline change in renal arteries**
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B119.jpg)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B119.jpg)
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B120.jpg)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B120.jpg)
 
 # PATOLOJİK KALSİFİKASYON
 
@@ -269,7 +269,7 @@ center of the photo.**
 - **Aort kapağındaki distrofik kalsifikasyon yaşlılardaki aort
   stenozunun önemli bir nedenidir**
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B121.png)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B121.png)
 
 # Distrofik kalsifikasyonun patogenezi
 
@@ -346,7 +346,7 @@ fosfolipidlerine afinitesi vardır**
 
 **Kalsifikasyon odağında heterotopik kemik oluşumu da gözlenebilir**
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B122.png)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B122.png)
 
 **Rosai and Ackerman’s Surgical Pathology Figure 18.127**
 
@@ -356,7 +356,7 @@ fosfolipidlerine afinitesi vardır**
 
 # Niçin yaşlanıyoruz?
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B123.jpg)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B123.jpg)
 
 **Underwood’s Pathology: A Clinical Approach , Sixth Edition**
 
@@ -402,7 +402,7 @@ kısalır**
 
 **Hücre döngüsü durdurulur**
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B124.png)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B124.png)
 
 # Telomeraz
 
@@ -425,7 +425,7 @@ nükleotidler eklenir**
   - **Telomer uzunluğu sabitlenmiştir**
   - **Hücreler sınırsız çoğalırlar**
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B125.png)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B125.png)
 
 # Protein homeostazında sorun
 
@@ -447,8 +447,8 @@ nükleotidler eklenir**
 
 **Apoptotik yolağın aktifleşmesi**
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B126.png)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B126.png)
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B127.png)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B127.png)
 
-![](img%5CH%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B128.png)
+![](./img-local/H%C3%BCcre-i%C3%A7i-birikimler-ve-H%C3%BCcre-Ya%C5%9Flanmas%C4%B128.png)

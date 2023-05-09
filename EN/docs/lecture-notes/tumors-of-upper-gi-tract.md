@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CTumors-of-Upper-GI-Tract0.jpg)
+![](./img-local/Tumors-of-Upper-GI-Tract0.jpg)
 
 # Tumors of Upper GI Tract
 
@@ -23,17 +23,17 @@ Serdar Balcı
     - **fewer mutations**
     - **overexpress p16, a cyclin-dependent kinase inhibitor**
 
-![](img%5CTumors-of-Upper-GI-Tract1.png)
+![](./img-local/Tumors-of-Upper-GI-Tract1.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CTumors-of-Upper-GI-Tract2.png)
+![](./img-local/Tumors-of-Upper-GI-Tract2.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
 # TUMORS OF SALIVARY GLANDS
 
-![](img%5CTumors-of-Upper-GI-Tract3.png)
+![](./img-local/Tumors-of-Upper-GI-Tract3.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
@@ -52,7 +52,7 @@ sublingual tumors are cancerous**
 *Likelihood that a salivary gland tumor is malignant is inversely
 proportional, roughly, to the size of the gland*
 
-![](img%5CTumors-of-Upper-GI-Tract4.png)
+![](./img-local/Tumors-of-Upper-GI-Tract4.png)
 
 **Pleomorphic adenoma**
 
@@ -60,21 +60,21 @@ proportional, roughly, to the size of the gland*
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CTumors-of-Upper-GI-Tract5.png)
+![](./img-local/Tumors-of-Upper-GI-Tract5.png)
 
 **Pleomorphic adenoma**
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CTumors-of-Upper-GI-Tract6.png)
+![](./img-local/Tumors-of-Upper-GI-Tract6.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CTumors-of-Upper-GI-Tract7.png)
+![](./img-local/Tumors-of-Upper-GI-Tract7.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CTumors-of-Upper-GI-Tract8.png)
+![](./img-local/Tumors-of-Upper-GI-Tract8.png)
 
 **Mucoepidermoid carcinoma**
 
@@ -84,13 +84,13 @@ proportional, roughly, to the size of the gland*
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CTumors-of-Upper-GI-Tract9.png)
+![](./img-local/Tumors-of-Upper-GI-Tract9.png)
 
 **Adenoid cystic carcinoma **
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CTumors-of-Upper-GI-Tract10.png)
+![](./img-local/Tumors-of-Upper-GI-Tract10.png)
 
 **Adenoid cystic carcinoma **
 
@@ -111,9 +111,9 @@ caries or dental trauma**
 
 **The most common odontogenic tumors are ameloblastoma and odontoma**
 
-![](img%5CTumors-of-Upper-GI-Tract11.png)
+![](./img-local/Tumors-of-Upper-GI-Tract11.png)
 
-![](img%5CTumors-of-Upper-GI-Tract12.png)
+![](./img-local/Tumors-of-Upper-GI-Tract12.png)
 
 # ESOPHAGIAL TUMORS
 
@@ -129,11 +129,11 @@ obesity, and previous radiation therapy**
 **Reduced adenocarcinoma risk is associated with diets rich in fresh
 fruits and vegetables**
 
-![](img%5CTumors-of-Upper-GI-Tract13.png)
+![](./img-local/Tumors-of-Upper-GI-Tract13.png)
 
-![](img%5CTumors-of-Upper-GI-Tract14.png)
+![](./img-local/Tumors-of-Upper-GI-Tract14.png)
 
-![](img%5CTumors-of-Upper-GI-Tract15.png)
+![](./img-local/Tumors-of-Upper-GI-Tract15.png)
 
 - **Whites**
 - **7x more common in male**
@@ -144,7 +144,7 @@ fruits and vegetables**
   for almost any other cancer**
   - **From 5% to half of all esophageal cancers in the United States**
 
-![](img%5CTumors-of-Upper-GI-Tract16.png)
+![](./img-local/Tumors-of-Upper-GI-Tract16.png)
 
 **N Engl J Med 2014;371:2499-509**
 
@@ -155,7 +155,7 @@ fruits and vegetables**
 **TP53 mutation are often present at early stages of esophageal
 adenocarcinoma**
 
-![](img%5CTumors-of-Upper-GI-Tract17.png)
+![](./img-local/Tumors-of-Upper-GI-Tract17.png)
 
 - **Usually occurs in the distal third**
 - **May invade the adjacent gastric cardia**
@@ -167,7 +167,7 @@ adenocarcinoma**
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Upper-GI-Tract18.png)
+![](./img-local/Tumors-of-Upper-GI-Tract18.png)
 
 **Esophageal adenocarcinoma**
 
@@ -211,7 +211,7 @@ esophagus **
 
 **Polypoid and protrude into and obstruct the lumen**
 
-![](img%5CTumors-of-Upper-GI-Tract19.png)
+![](./img-local/Tumors-of-Upper-GI-Tract19.png)
 
 **most frequently in the midesophagus**
 
@@ -219,15 +219,15 @@ esophagus **
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Upper-GI-Tract20.png)
+![](./img-local/Tumors-of-Upper-GI-Tract20.png)
 
-![](img%5CTumors-of-Upper-GI-Tract21.jpg)
+![](./img-local/Tumors-of-Upper-GI-Tract21.jpg)
 
-![](img%5CTumors-of-Upper-GI-Tract22.jpg)
+![](./img-local/Tumors-of-Upper-GI-Tract22.jpg)
 
-![](img%5CTumors-of-Upper-GI-Tract23.jpg)
+![](./img-local/Tumors-of-Upper-GI-Tract23.jpg)
 
-![](img%5CTumors-of-Upper-GI-Tract24.png)
+![](./img-local/Tumors-of-Upper-GI-Tract24.png)
 
 **Squamous Cell Carcinoma**
 
@@ -240,7 +240,7 @@ esophagus **
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Upper-GI-Tract25.png)
+![](./img-local/Tumors-of-Upper-GI-Tract25.png)
 
 # Spread
 
@@ -280,9 +280,9 @@ neoplasia**
   - **If associated with H. pylori gastritis, regress after bacterial
     eradication**
 
-![](img%5CTumors-of-Upper-GI-Tract26.png)
+![](./img-local/Tumors-of-Upper-GI-Tract26.png)
 
-![](img%5CTumors-of-Upper-GI-Tract27.png)
+![](./img-local/Tumors-of-Upper-GI-Tract27.png)
 
 **Multiple**
 
@@ -292,7 +292,7 @@ neoplasia**
 
 **covered by a smooth surface**
 
-![](img%5CTumors-of-Upper-GI-Tract28.png)
+![](./img-local/Tumors-of-Upper-GI-Tract28.png)
 
 **Irregular, cystically dilated, and elongated foveolar glands**
 
@@ -301,15 +301,15 @@ inflammation**
 
 **Dysplasia increases in risk \>1.5 cm**
 
-![](img%5CTumors-of-Upper-GI-Tract29.png)
+![](./img-local/Tumors-of-Upper-GI-Tract29.png)
 
 **Inflammatory and Hyperplastic Polyps**
 
-![](img%5CTumors-of-Upper-GI-Tract30.png)
+![](./img-local/Tumors-of-Upper-GI-Tract30.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CTumors-of-Upper-GI-Tract31.png)
+![](./img-local/Tumors-of-Upper-GI-Tract31.png)
 
 # Fundic Gland Polyps
 
@@ -325,11 +325,11 @@ inflammation**
 - **Multiple, and are composed of cystically dilated, irregular glands
   lined by flattened parietal and chief cells**
 
-![](img%5CTumors-of-Upper-GI-Tract32.png)
+![](./img-local/Tumors-of-Upper-GI-Tract32.png)
 
 **FLETCHER Diagnostic Histopathology of Tumors 4** **th** \_\_ Ed\_\_
 
-![](img%5CTumors-of-Upper-GI-Tract33.png)
+![](./img-local/Tumors-of-Upper-GI-Tract33.png)
 
 # Gastric Adenoma
 
@@ -345,7 +345,7 @@ inflammation**
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CTumors-of-Upper-GI-Tract34.png)
+![](./img-local/Tumors-of-Upper-GI-Tract34.png)
 
 - **Most commonly in antrum**
 - **Intestinal-type columnar epithelium**
@@ -433,7 +433,7 @@ inflammation**
 - **proximal stomach**
 - **diffuse morphology with a marked lymphocytic infiltrate**
 
-![](img%5CTumors-of-Upper-GI-Tract35.jpg)
+![](./img-local/Tumors-of-Upper-GI-Tract35.jpg)
 
 # Her2 amplification
 
@@ -445,7 +445,7 @@ inflammation**
   - **CISH**
   - **FISH**
 
-![](img%5CTumors-of-Upper-GI-Tract36.jpg)
+![](./img-local/Tumors-of-Upper-GI-Tract36.jpg)
 
 # Lauren classification
 
@@ -475,31 +475,31 @@ lumina**
 - **leather bottle (Matara mide)**
 - **linitis plastica**
 
-![](img%5CTumors-of-Upper-GI-Tract37.png)
+![](./img-local/Tumors-of-Upper-GI-Tract37.png)
 
 **Intestinal-type adenocarcinoma **
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Upper-GI-Tract38.png)
+![](./img-local/Tumors-of-Upper-GI-Tract38.png)
 
 **Intestinal-type adenocarcinoma **
 
-![](img%5CTumors-of-Upper-GI-Tract39.png)
+![](./img-local/Tumors-of-Upper-GI-Tract39.png)
 
-![](img%5CTumors-of-Upper-GI-Tract40.png)
-
-**Diffuse-type adenocarcinoma **
-
-**Robbins Basic Pathology**
-
-![](img%5CTumors-of-Upper-GI-Tract41.png)
+![](./img-local/Tumors-of-Upper-GI-Tract40.png)
 
 **Diffuse-type adenocarcinoma **
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Upper-GI-Tract42.png)
+![](./img-local/Tumors-of-Upper-GI-Tract41.png)
+
+**Diffuse-type adenocarcinoma **
+
+**Robbins Basic Pathology**
+
+![](./img-local/Tumors-of-Upper-GI-Tract42.png)
 
 # Gastric Cancer
 
@@ -524,7 +524,7 @@ lumina**
 
 # The Cancer Genome Atlas (TCGA) projectMolecular classification
 
-![](img%5CTumors-of-Upper-GI-Tract43.png)
+![](./img-local/Tumors-of-Upper-GI-Tract43.png)
 
 **Chromosomal instability**
 
@@ -538,7 +538,7 @@ lumina**
 
 **doi:10.1038/nature13480**
 
-![](img%5CTumors-of-Upper-GI-Tract44.png)
+![](./img-local/Tumors-of-Upper-GI-Tract44.png)
 
 **Nature 2014**
 
@@ -557,7 +557,7 @@ lumina**
   if lymph node metastases are present**
 - **5-year survival rate for advanced gastric cancer remains below 20%**
 
-![](img%5CTumors-of-Upper-GI-Tract45.png)
+![](./img-local/Tumors-of-Upper-GI-Tract45.png)
 
 # Early Gastric Cancer
 
@@ -579,7 +579,7 @@ lumina**
   - **H.pylori**
 - **Diffuse large B cell lymphoma**
 
-![](img%5CTumors-of-Upper-GI-Tract46.png)
+![](./img-local/Tumors-of-Upper-GI-Tract46.png)
 
 **Gastric Lymphoma**
 
@@ -603,7 +603,7 @@ lumina**
 - **High-grade neuroendocrine tumors**
   - **neuroendocrine carcinoma**
 
-![](img%5CTumors-of-Upper-GI-Tract47.png)
+![](./img-local/Tumors-of-Upper-GI-Tract47.png)
 
 **intramural or submucosal masses**
 
@@ -616,7 +616,7 @@ and obstruction**
 
 **Robbins Basic Pathology**
 
-![](img%5CTumors-of-Upper-GI-Tract48.png)
+![](./img-local/Tumors-of-Upper-GI-Tract48.png)
 
 **Neuroendocrine Tumor**
 
@@ -685,7 +685,7 @@ and obstruction**
     growth factor receptor A**
 - **either mutation is sufficient, almost never found together**
 
-![](img%5CTumors-of-Upper-GI-Tract49.png)
+![](./img-local/Tumors-of-Upper-GI-Tract49.png)
 
 # GIST
 
@@ -699,18 +699,18 @@ and obstruction**
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CTumors-of-Upper-GI-Tract50.png)
+![](./img-local/Tumors-of-Upper-GI-Tract50.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CTumors-of-Upper-GI-Tract51.png)
+![](./img-local/Tumors-of-Upper-GI-Tract51.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CTumors-of-Upper-GI-Tract52.png)
+![](./img-local/Tumors-of-Upper-GI-Tract52.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CTumors-of-Upper-GI-Tract53.png)
+![](./img-local/Tumors-of-Upper-GI-Tract53.png)
 
 **Autopsy Pathology: A Manual and Atlas**

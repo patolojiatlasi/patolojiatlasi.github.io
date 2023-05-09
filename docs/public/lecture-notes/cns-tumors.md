@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CCNS-Tumors0.jpg)
+![](./img-local/CNS-Tumors0.jpg)
 
 # Central Nervous System Tumors
 
@@ -50,21 +50,21 @@ Serdar Balcı
 
 # Classification of CNS Tumors
 
-![](img%5CCNS-Tumors1.jpg)
+![](./img-local/CNS-Tumors1.jpg)
 
 # Cell of Origin based classification
 
-![](img%5CCNS-Tumors2.png)
+![](./img-local/CNS-Tumors2.png)
 
-![](img%5CCNS-Tumors3.png)
+![](./img-local/CNS-Tumors3.png)
 
-![](img%5CCNS-Tumors4.png)
+![](./img-local/CNS-Tumors4.png)
 
-![](img%5CCNS-Tumors5.png)
+![](./img-local/CNS-Tumors5.png)
 
-![](img%5CCNS-Tumors6.png)
+![](./img-local/CNS-Tumors6.png)
 
-![](img%5CCNS-Tumors7.png)
+![](./img-local/CNS-Tumors7.png)
 
 # The most important feature for differential diagnosis
 
@@ -94,7 +94,7 @@ rare**
 
 **Spinal subarachnoid tumor seeding**
 
-![](img%5CCNS-Tumors8.png)
+![](./img-local/CNS-Tumors8.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -172,7 +172,7 @@ anaplasia, increased cell density, necrosis, and mitotic activity**
 - **Tumors of hypothalamus are especially problematic because they
   cannot be resected completely**
 
-![](img%5CCNS-Tumors9.png)
+![](./img-local/CNS-Tumors9.png)
 
 **pilocytic astrocytoma**
 
@@ -200,11 +200,11 @@ often present**
 
 **Necrosis and mitoses are very rare**
 
-![](img%5CCNS-Tumors10.png)
+![](./img-local/CNS-Tumors10.png)
 
-![](img%5CCNS-Tumors11.png)
+![](./img-local/CNS-Tumors11.png)
 
-![](img%5CCNS-Tumors12.png)
+![](./img-local/CNS-Tumors12.png)
 
 # Diffuse Astrocytomas
 
@@ -224,17 +224,17 @@ often present**
 
 **Infiltrating pontine glioma (astrocytoma)**
 
-![](img%5CCNS-Tumors13.png)
+![](./img-local/CNS-Tumors13.png)
 
 Autopsy Pathology: A Manual and Atlas
 
 **Diffusely infiltrating astrocytoma**
 
-![](img%5CCNS-Tumors14.png)
+![](./img-local/CNS-Tumors14.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCNS-Tumors15.png)
+![](./img-local/CNS-Tumors15.png)
 
 **Well-differentiated astrocytomas are poorly defined, gray,
 infiltrative tumors that expand and distort the invaded brain without
@@ -242,7 +242,7 @@ forming a discrete mass**
 
 **Robbins Basic Pathology**
 
-![](img%5CCNS-Tumors16.png)
+![](./img-local/CNS-Tumors16.png)
 
 **Infiltration beyond the grossly evident margins is always present**
 
@@ -252,15 +252,15 @@ forming a discrete mass**
 
 **Robbins Basic Pathology**
 
-![](img%5CCNS-Tumors17.png)
+![](./img-local/CNS-Tumors17.png)
 
 **Clinical Neuropathology Text and Color Atlas**
 
-![](img%5CCNS-Tumors18.png)
+![](./img-local/CNS-Tumors18.png)
 
 **Practical Surgical Neuropathology**
 
-![](img%5CCNS-Tumors19.png)
+![](./img-local/CNS-Tumors19.png)
 
 **Brain Tumor Pathol (2011) 28:177–183**
 
@@ -275,13 +275,13 @@ forming a discrete mass**
 - **Resection, radiotherapy, and chemotherapy median survival is 15
   months**
 
-![](img%5CCNS-Tumors20.png)
+![](./img-local/CNS-Tumors20.png)
 
 **Brain Tumor Pathol (2011) 28:177–183**
 
 # Defects in tricyclic carbon cycle
 
-![](img%5CCNS-Tumors21.png)
+![](./img-local/CNS-Tumors21.png)
 
 **Isocitrate dehydrogenase mutations cause accumulation of byproducts**
 
@@ -289,7 +289,7 @@ forming a discrete mass**
 
 **Cancer Cell. 2010 Jan 19;17(1):7-9**
 
-![](img%5CCNS-Tumors22.png)
+![](./img-local/CNS-Tumors22.png)
 
 **N Engl J Med 2009;360:765-73.**
 
@@ -316,7 +316,7 @@ from the main lesion**
 
 **Mitotic figures**
 
-![](img%5CCNS-Tumors23.png)
+![](./img-local/CNS-Tumors23.png)
 
 **Practical Surgical Neuropathology**
 
@@ -345,7 +345,7 @@ low-grade astrocytoma**
   - **Vascular endothelial proliferation**
   - **Glomeruloid vascular proliferation**
 
-![](img%5CCNS-Tumors24.png)
+![](./img-local/CNS-Tumors24.png)
 
 **Glioblastoma**
 
@@ -362,11 +362,11 @@ low-grade astrocytoma**
 
 **Glioblastoma multiforme**
 
-![](img%5CCNS-Tumors25.png)
+![](./img-local/CNS-Tumors25.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCNS-Tumors26.png)
+![](./img-local/CNS-Tumors26.png)
 
 **Glioblastoma**
 
@@ -375,15 +375,15 @@ cell nuclei**
 
 **Robbins Basic Pathology**
 
-![](img%5CCNS-Tumors27.png)
+![](./img-local/CNS-Tumors27.png)
 
 **Clinical Neuropathology Text and Color Atlas**
 
-![](img%5CCNS-Tumors28.png)
+![](./img-local/CNS-Tumors28.png)
 
 **Practical Surgical Neuropathology**
 
-![](img%5CCNS-Tumors29.png)
+![](./img-local/CNS-Tumors29.png)
 
 **Practical Surgical Neuropathology**
 
@@ -397,7 +397,7 @@ cell nuclei**
 - **Mostly in the cerebral hemispheres**
   - **Frontal or temporal lobes**
 
-![](img%5CCNS-Tumors30.png)
+![](./img-local/CNS-Tumors30.png)
 
 **Oligodendroglioma tumor cells have round nuclei, often with a
 cytoplasmic halo**
@@ -421,7 +421,7 @@ pattern**
 **Tumors with deletions of 1p and 19q are usually highly responsive to
 chemotherapy and radiotherapy**
 
-![](img%5CCNS-Tumors31.png)
+![](./img-local/CNS-Tumors31.png)
 
 # Well-differentiated oligodendrogliomas(WHO grade II/IV)
 
@@ -470,7 +470,7 @@ chemotherapy and radiotherapy**
 
 **Extending from the ventricular floor**
 
-![](img%5CCNS-Tumors32.png)
+![](./img-local/CNS-Tumors32.png)
 
 - **Cells with regular, round to oval nuclei and abundant granular
   chromatin**
@@ -493,7 +493,7 @@ chemotherapy and radiotherapy**
 
 **Less evident ependymal differentiation**
 
-![](img%5CCNS-Tumors33.png)
+![](./img-local/CNS-Tumors33.png)
 
 **Robbins Basic Pathology**
 
@@ -565,7 +565,7 @@ chemotherapy and radiotherapy**
   - **Tumors of similar histologic type and a poor degree of
     differentiation elsewhere in the nervous system**
 
-![](img%5CCNS-Tumors34.png)
+![](./img-local/CNS-Tumors34.png)
 
 **Located in the midline of the cerebellum**
 
@@ -578,11 +578,11 @@ leptomeninges**
 
 **Robbins Basic Pathology**
 
-![](img%5CCNS-Tumors35.png)
+![](./img-local/CNS-Tumors35.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCNS-Tumors36.png)
+![](./img-local/CNS-Tumors36.png)
 
 **Extremely cellular**
 
@@ -596,7 +596,7 @@ leptomeninges**
 
 **Robbins Basic Pathology**
 
-![](img%5CCNS-Tumors37.png)
+![](./img-local/CNS-Tumors37.png)
 
 **Focal neuronal differentiation**
 
@@ -702,7 +702,7 @@ leptomeninges**
 - **Mutations in NF2 are more common in:**
   - **fibroblastic, transitional, and psammomatous growth pattern**
 
-![](img%5CCNS-Tumors38.png)
+![](./img-local/CNS-Tumors38.png)
 
 **Meningioma**
 
@@ -718,13 +718,13 @@ leptomeninges**
 
 **Parasagittal meningioma**
 
-![](img%5CCNS-Tumors39.png)
+![](./img-local/CNS-Tumors39.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
 **Intraosseous meningioma**
 
-![](img%5CCNS-Tumors40.png)
+![](./img-local/CNS-Tumors40.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -743,7 +743,7 @@ leptomeninges**
   - **gland-like PAS-positive eosinophilic secretions known as
     pseudopsammoma bodies**
 
-![](img%5CCNS-Tumors41.png)
+![](./img-local/CNS-Tumors41.png)
 
 **Robbins Basic Pathology**
 
@@ -802,7 +802,7 @@ rare**
 **Carcinomas are the dominant type of systemic tumors that metastasize
 to the nervous system**
 
-![](img%5CCNS-Tumors42.png)
+![](./img-local/CNS-Tumors42.png)
 
 **Metastatic melanoma**
 
@@ -912,38 +912,38 @@ presence of melanin**
   - **Intervening stromal cells with vacuolated, lightly PAS-positive,
     lipid-rich cytoplasm**
 
-![](img%5CCNS-Tumors43.png)
+![](./img-local/CNS-Tumors43.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCNS-Tumors44.png)
+![](./img-local/CNS-Tumors44.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
 <span style="color:#E72E09">Distribution of CNS Tumors</span>
 
-![](img%5CCNS-Tumors45.jpg)
+![](./img-local/CNS-Tumors45.jpg)
 
 **A pilocytic astrocytoma of the cerebellum in a child. **
 
-![](img%5CCNS-Tumors46.jpg)
+![](./img-local/CNS-Tumors46.jpg)
 
 **Glioma of the brainstem – pilocytic astrocytoma**
 
 # GBM. Note the prominent vascularity as well as the area of necrosis at the left with neoplastic cells palisading around it (pseudopalisading necrosis\*).
 
-![](img%5CCNS-Tumors47.jpg)
+![](./img-local/CNS-Tumors47.jpg)
 
-![](img%5CCNS-Tumors48.jpg)
+![](./img-local/CNS-Tumors48.jpg)
 
-![](img%5CCNS-Tumors49.jpg)
+![](./img-local/CNS-Tumors49.jpg)
 
 # Here is an ependymoma arising from the ependymal lining of the fourth ventricle above the brainstem and bulging toward the cerebellum.
 
-![](img%5CCNS-Tumors50.jpg)
+![](./img-local/CNS-Tumors50.jpg)
 
 # This horizontal (CT scan) section of the brain reveals a large ependymoma of the fourth ventricle.
 
-![](img%5CCNS-Tumors51.jpg)
+![](./img-local/CNS-Tumors51.jpg)
 
 # Irregular posterior fossa mass (medulloblastoma) - near the midline of the cerebellum and extending into the fourth ventricle above the brainstem

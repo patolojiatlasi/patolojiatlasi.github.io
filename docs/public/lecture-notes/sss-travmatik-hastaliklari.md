@@ -6,7 +6,7 @@ sitoplazmada belirgin eozinofili (kırmızı nöron)**
 
 **Nükleus da büzüşen hücre gibi köşeli şekil alır**
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B10.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B10.png)
 
 **Robbins Basic Pathology**
 
@@ -16,7 +16,7 @@ transport**
 **Swellings (spheroids) can be recognized on H&E stains and can be
 highlighted by silver staining or immunohistochemistry.**
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B11.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B11.png)
 
 **Axonal spheroids are visible as bulbous swellings at points of
 disruption, or altered axonal transport.**
@@ -33,18 +33,18 @@ disruption, or altered axonal transport.**
 
 **-peripheral dispersion of Nissl substance (central chromatolysis)**
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B12.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B12.png)
 
 **C: With axonal injury there can be swelling of the cell body and
 peripheral dispersal of the Nissl substance, termed chromatolysis.**
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B13.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B13.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B14.jpg)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B14.jpg)
 
 # SSS Travmatik Hastalıkları
 
@@ -115,14 +115,14 @@ peripheral dispersal of the Nissl substance, termed chromatolysis.**
 
 **Akut kontüzyonlar, her iki temporal lobda, hemoraji ve doku hasarı**
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B15.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B15.png)
 
 **Robbins Basic Pathology**
 
 **İskemik lezyonlarda korteksin yüzeyel dokuları korunurken, travmada
 yüzeyel tabakalar daha çok etkilenir**
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B16.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B16.png)
 
 **Robbins Basic Pathology**
 
@@ -137,7 +137,7 @@ yüzeyel tabakalar daha çok etkilenir**
     bozulması**
 - **İnflamatuar cevap gelişir, nötrofiller ve sonrasında makrofajlar**
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B17.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B17.png)
 
 **Eski travma alanı:**
 
@@ -145,7 +145,7 @@ yüzeyel tabakalar daha çok etkilenir**
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B18.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B18.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -186,11 +186,11 @@ ve diffüz akson hasarı vardır**
   - **Subaraknoid ve intraparenkimal kanamalar kontüzyon ve laserasyon
     alanlarında olur**
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B19.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B19.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B110.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B110.png)
 
 # Epidural Hematom
 
@@ -205,13 +205,13 @@ ve diffüz akson hasarı vardır**
 - **Durayı kemikten ayırır**
 - **Beyne bası yapan bir hematom alanı oluşturur**
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B111.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B111.png)
 
 **Duranın bir kısmını kaplayan epidural hematom**
 
 <span style="color:#FFFFFF">Robbins Basic Pathology</span>
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B112.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B112.png)
 
 # Subdural Hematom
 
@@ -247,7 +247,7 @@ ve diffüz akson hasarı vardır**
 
 **Kanama yıkılır ve organize olur**
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B113.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B113.png)
 
 **Gelişen subdural hematom**
 
@@ -255,7 +255,7 @@ ve diffüz akson hasarı vardır**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B114.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B114.png)
 
 **Subdural hematomlar organize olur**
 
@@ -267,7 +267,7 @@ ve diffüz akson hasarı vardır**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B115.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B115.png)
 
 **Duraya yapışık büyük organize subdural hematom**
 
@@ -288,44 +288,44 @@ membranlara yapışıklık olmaz**
 
 **Robbins Basic Pathology**
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B116.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B116.png)
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B117.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B117.png)
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B118.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B118.png)
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B119.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B119.png)
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B120.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B120.png)
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B121.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B121.png)
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B122.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B122.png)
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B123.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B123.png)
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B124.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B124.png)
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B125.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B125.png)
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B126.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B126.png)
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B127.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B127.png)
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B128.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B128.png)
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B129.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B129.png)
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B130.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B130.png)
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B131.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B131.png)
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B132.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B132.png)
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B133.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B133.png)
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B134.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B134.png)
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B135.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B135.png)
 
-![](img%5CSSS-Travmatik-Hastal%C4%B1klar%C4%B136.png)
+![](./img-local/SSS-Travmatik-Hastal%C4%B1klar%C4%B136.png)

@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas0.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas0.jpg)
 
 # Diseases and Tumors of Exocrine Pancreas
 
@@ -45,7 +45,7 @@ enzymes**
 
 # Cystic Fibrosis
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas1.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas1.png)
 
 **Cystic fibrosis**
 
@@ -54,19 +54,19 @@ tissue.**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas2.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas2.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas3.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas3.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas4.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas4.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas5.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas5.png)
 
 **Pancreas in cystic fibrosis. The ducts are dilated and plugged with
 eosinophilic mucin, and the parenchymal glands are atrophic and replaced
@@ -106,7 +106,7 @@ through the minor sphincter, which has a narrow opening**
 
 **increased risk for chronic pancreatitis**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas6.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas6.png)
 
 # Annular Pancreas
 
@@ -157,7 +157,7 @@ tissue**
 **Thin-walled, serous, fluid-filled cysts may be found in the pancreas
 in some patients with autosomal-dominant polycystic kidney disease.**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas7.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas7.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -179,7 +179,7 @@ in some patients with autosomal-dominant polycystic kidney disease.**
     - **65% of cases in the United States, 5% or less in the United
       Kingdom**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas8.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas8.png)
 
 **Robbins Basic Pathology**
 
@@ -225,7 +225,7 @@ in some patients with autosomal-dominant polycystic kidney disease.**
 
 **Destruction of blood vessels leading to interstitial hemorrhage**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas9.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas9.jpg)
 
 **The microscopic field shows a region of fat necrosis (right) and focal
 pancreatic parenchymal necrosis (center).**
@@ -236,7 +236,7 @@ precipitate in situ**
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas10.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas10.png)
 
 **The pancreas has been sectioned longitudinally to reveal dark areas of
 hemorrhage in the pancreatic substance and a focal area of pale fat
@@ -261,7 +261,7 @@ necrosis in the peripancreatic fat (upper left).**
   - **extensive parenchymal necrosis, diffuse hemorrhage within the
     substance of the gland**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas11.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas11.png)
 
 **Acute pancreatitis**
 
@@ -270,7 +270,7 @@ and peripancreatic fat**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas12.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas12.png)
 
 **Omentum with fat necrosis**
 
@@ -290,11 +290,11 @@ and peripancreatic fat**
   - **activation of factor XII (Hageman factor), clotting and complement
     systems**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas13.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas13.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas14.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas14.png)
 
 **Impaction of a gallstone or biliary sludge**
 
@@ -320,14 +320,14 @@ microvasculature**
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas15.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas15.png)
 
 **Ischemia, viral infections (mumps), drugs, and direct trauma to the
 pancreas are important in acinar cell injury mechanism**
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas16.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas16.png)
 
 - **Pancreatic proenzymes and lysosomal hydrolases become packaged
   together**
@@ -340,7 +340,7 @@ pancreas are important in acinar cell injury mechanism**
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas17.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas17.png)
 
 **Robbins Basic Pathology**
 
@@ -376,11 +376,11 @@ pancreas are important in acinar cell injury mechanism**
   - **renal failure**
     - **acute tubular necrosis**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas18.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas18.png)
 
 **Robbins and Cotran Pathologic Basis of Diseases**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas19.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas19.png)
 
 **Robbins and Cotran Pathologic Basis of Diseases**
 
@@ -419,18 +419,18 @@ pancreas are important in acinar cell injury mechanism**
 
 - **2 cm - 30 cm**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas20.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas20.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas21.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas21.jpg)
 
 **A: Cross-section revealing a poorly defined cyst with a necrotic
 brownish wall.**
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas22.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas22.jpg)
 
 **B: Histologically, the cyst lacks a true epithelial lining and instead
 is lined by fibrin and granulation tissue, with typical changes of
@@ -448,7 +448,7 @@ chronic inflammation.**
   - **diabetes mellitus**
 - **Recurrent bouts of acute pancreatitis cause chronic pancreatitis**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas23.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas23.png)
 
 **In chronic pancreatitis irreversible impairment in pancreatic
 function**
@@ -475,11 +475,11 @@ function**
 numerous areas of mineralization. Ducts are cystically dilated and
 contain scattered calculi.**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas24.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas24.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas25.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas25.jpg)
 
 **Extensive fibrosis and atrophy has left only residual islets (left)
 and ducts (right), with a sprinkling of chronic inflammatory cells and
@@ -487,7 +487,7 @@ acinar tissue.**
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas26.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas26.jpg)
 
 **parenchymal fibrosis**
 
@@ -499,7 +499,7 @@ acinar tissue.**
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas27.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas27.jpg)
 
 **Remaining islets of Langerhans become embedded in the sclerotic tissue
 and may fuse and appear enlarged; eventually they also disappear**
@@ -509,7 +509,7 @@ lobules and ducts**
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas28.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas28.jpg)
 
 **The ductal epithelium may be atrophied or hyperplastic or exhibit
 squamous metaplasia, and ductal concretions may be noted**
@@ -561,7 +561,7 @@ squamous metaplasia, and ductal concretions may be noted**
   - **deposit collagen**
   - **fibrosis**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas29.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas29.png)
 
 # TUMORS OF EXOCRINE PANCREAS
 
@@ -579,7 +579,7 @@ squamous metaplasia, and ductal concretions may be noted**
 
 # PANCREATOBLASTOMA
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas30.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas30.png)
 
 **Pancreatoblastoma showing a predominantly solid pattern of growth but
 also small rosette-like glandular formations**
@@ -602,13 +602,13 @@ also small rosette-like glandular formations**
 
 **\<5% of all pancreatic neoplasms**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas31.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas31.jpg)
 
 # Serous Cystadenoma
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas32.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas32.jpg)
 
 **25% of all pancreatic cystic neoplasms**
 
@@ -618,13 +618,13 @@ also small rosette-like glandular formations**
 
 **Serous Cystadenoma**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas33.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas33.png)
 
 **Glycogen-rich cuboidal cells**
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas34.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas34.jpg)
 
 - **Seventh decade of life**
 - **Nonspecific symptoms**
@@ -635,19 +635,19 @@ also small rosette-like glandular formations**
 - **Most carry somatic mutations von Hippel-Lindau ( VHL ) tumor
   suppressor gene**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas35.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas35.png)
 
 **Robbins Basic Pathology**
 
 **Mucinous Cystic Neoplasm**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas36.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas36.jpg)
 
 Robbins Basic Pathology
 
 **Mucinous Cystic Neoplasm**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas37.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas37.jpg)
 
 **95% of mucinous cystic neoplasms arise in women**
 
@@ -661,7 +661,7 @@ Robbins Basic Pathology
 
 **Mucinous Cystic Neoplasm**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas38.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas38.jpg)
 
 **The cysts are lined by columnar mucinous epithelium, with a densely
 cellular “ovarian” stroma.**
@@ -670,7 +670,7 @@ cellular “ovarian” stroma.**
 
 **Mucinous Cystic Neoplasm**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas39.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas39.jpg)
 
 - **Degree of cytologic and architectural atypia in the lining
   epithelium**
@@ -684,16 +684,16 @@ cellular “ovarian” stroma.**
 
 **Mucinous Cystic Neoplasm**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas40.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas40.jpg)
 
 - **Distal pancreatectomy for noninvasive cysts typically is curative**
   - **even in the setting of severe dysplasia**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas41.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas41.jpg)
 
 **Intraductal Papillary Mucinous Neoplasms (IPMNs)**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas42.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas42.jpg)
 
 **Cross-section through the head of the pancreas showing a prominent
 papillary neoplasm distending the main pancreatic duct.**
@@ -702,7 +702,7 @@ papillary neoplasm distending the main pancreatic duct.**
 
 **Intraductal Papillary Mucinous Neoplasms (IPMNs)**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas43.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas43.jpg)
 
 **Mucin-producing intraductal neoplasms**
 
@@ -716,7 +716,7 @@ papillary neoplasm distending the main pancreatic duct.**
 
 **Intraductal Papillary Mucinous Neoplasms (IPMNs)**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas44.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas44.jpg)
 
 **The papillary mucinous neoplasm involved the main pancreatic duct
 (left) and is extending down into the smaller ducts and ductules
@@ -726,7 +726,7 @@ papillary neoplasm distending the main pancreatic duct.**
 
 **Intraductal Papillary Mucinous Neoplasms (IPMNs)**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas45.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas45.jpg)
 
 **No cellular stroma seen in mucinous cystic neoplasms**
 
@@ -740,17 +740,17 @@ G-protein**
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas46.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas46.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas47.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas47.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas48.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas48.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
@@ -782,7 +782,7 @@ G-protein**
 **Accumulation of multiple mutations is more important than their
 occurrence in a specific order**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas49.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas49.png)
 
 **KRAS**
 
@@ -812,14 +812,14 @@ occurrence in a specific order**
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas50.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas50.png)
 
 **Pancreatic intraepithelial neoplasia grade 3 (PanIN-3) involving a
 small pancreatic duct.**
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas51.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas51.jpg)
 
 **60% of pancreatic cancers arise in the head of the gland**
 
@@ -857,15 +857,15 @@ small pancreatic duct.**
 - **Liver often is enlarged as a consequence of metastatic deposits**
 - **Distant metastases to the lungs and bones**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas52.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas52.png)
 
 **Robbins and Cotran Pathologic Basis of Diseases**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas53.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas53.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas54.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas54.jpg)
 
 **Moderately to poorly differentiated adenocarcinoma**
 
@@ -881,19 +881,19 @@ small pancreatic duct.**
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas55.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas55.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas56.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas56.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas57.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas57.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas58.jpg)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas58.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
@@ -919,13 +919,13 @@ small pancreatic duct.**
 
 # SOLID PSEUDOPAPILLARY NEOPLASM
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas59.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas59.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
 # ACINAR CELL CARCINOMA
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas60.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas60.png)
 
 **Acinar cell carcinoma. The cut surface is solid and has a necrotic
 center. It lacks the fibrous component usually seen in ductal
@@ -933,9 +933,9 @@ adenocarcinoma.**
 
 **Rosai and Ackerman’s Surgical Pathology**
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas61.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas61.png)
 
-![](img%5CDiseases-and-Tumors-of-Exocrine-Pancreas62.png)
+![](./img-local/Diseases-and-Tumors-of-Exocrine-Pancreas62.png)
 
 **A, Acinar cell carcinoma of the pancreas showing a well-differentiated
 acinar arrangement of the tumor cells**

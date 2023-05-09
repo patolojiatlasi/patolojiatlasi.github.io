@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging0.jpg)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging0.jpg)
 
 # Intracellular Accumulations and Cellular Aging
 
@@ -19,12 +19,12 @@ Serdar Balcı
 
 # INTRACELLULAR ACCUMULATION MECHANISMS
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging1.png)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging1.png)
 
 **Inadequate removal of a normal substance secondary to defects in
 mechanisms of packaging and transport**
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging2.png)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging2.png)
 
 **Accumulation of an abnormal endogenous substance**
 
@@ -34,13 +34,13 @@ mechanisms of packaging and transport**
 
 **α1-antitrypsin**
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging3.png)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging3.png)
 
 **Failure to degrade a metabolite due to inherited enzyme deficiencies**
 
 **Storage diseases**
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging4.png)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging4.png)
 
 **Deposition and accumulation of an abnormal exogenous substance**
 
@@ -61,9 +61,9 @@ mechanisms of packaging and transport**
   - **Anoxia**
   - **Alcohol abuse**
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging5.png)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging5.png)
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging6.png)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging6.png)
 
 **Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology
 , Fifth Edition**
@@ -74,7 +74,7 @@ mechanisms of packaging and transport**
   - **triglycerides, cholesterol, and cholesteryl esters **
 - **Atherosclerosis**
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging7.png)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging7.png)
 
 # Proteins
 
@@ -93,9 +93,9 @@ mechanisms of packaging and transport**
 - **Neurons**
   - **neurofibrillary tangles**
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging8.jpg)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging8.jpg)
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging9.png)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging9.png)
 
 # Glycogen
 
@@ -132,9 +132,9 @@ tracheobronchial lymph nodes**
   - **Miners**
   - **Textile industry workers**
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging10.jpg)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging10.jpg)
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging11.png)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging11.png)
 
 **http://kobiljak.msu.edu/cai/HM561_Pathology/Injury/Lab1-Image23.html**
 
@@ -152,7 +152,7 @@ polyunsaturated lipids of subcellular membranes**
 **when present in large amounts an appearance to the tissue that is
 called brown atrophy**
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging12.png)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging12.png)
 
 **not injurious to the cell but a marker of past free radical injury**
 
@@ -171,7 +171,7 @@ electron-dense granules**
 
 **dermal macrophages**
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging13.png)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging13.png)
 
 **Differential Diagnosis in Surgical Pathology Figure 2-65: Blue Nevus**
 
@@ -186,11 +186,11 @@ iron**
 micelles. Hemosiderin pigment represents large aggregates of ferritin
 micelles**
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging14.png)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging14.png)
 
 **readily visualized by light and electron microscopy**
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging15.png)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging15.png)
 
 - **small amounts of this pigment are normal in the mononuclear
   phagocytes of the bone marrow, spleen, and liver, where aging red
@@ -218,20 +218,20 @@ alcoholic hyaline are pink and glassy)**
 proteins and deposition of basement membrane material can give the
 vessel walls a  pink, glassy appearance)**
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging16.jpg)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging16.jpg)
 
 **Mallory body (or Mallory hyaline) in the ballooning hepatocyte in the
 center of the photo.**
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging17.jpg)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging17.jpg)
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging18.jpg)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging18.jpg)
 
 **Hyaline change in renal arteries**
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging19.jpg)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging19.jpg)
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging20.jpg)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging20.jpg)
 
 **Pigments (colored substances) are sometimes seen in histologic
 sections. They can be normal or abnormal, and they may be from the
@@ -256,7 +256,7 @@ this kind of thing with others but they look at me strangely and back
 away slightly.** **Happiness aside, lipofuscin accumulates with age, and
 is of no clinical significance. **
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging21.jpg)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging21.jpg)
 
 **4. Melanin** **Melanin comes from the Greek word for black (melas).
 This doesn’t make me as happy as fuscus. I don’t know why. It is a deep
@@ -268,7 +268,7 @@ It is also seen when there is a local excess of iron (as in a bruise) or
 systemic excess of iron (for example, in patients with repeated blood
 transfusions.**
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging22.jpg)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging22.jpg)
 
 # PATHOLOGIC CALCIFICATION
 
@@ -302,7 +302,7 @@ transfusions.**
 - **Dystrophic calcification of the aortic valves is an important cause
   of aortic stenosis in elderly persons**
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging23.png)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging23.png)
 
 # Pathogenesis of dystrophic calcification
 
@@ -375,7 +375,7 @@ ability to regulate intracellular calcium**
 
 **Heterotopic bone may be formed in the focus of calcification.**
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging24.png)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging24.png)
 
 **Rosai and Ackerman’s Surgical Pathology Figure 18.127**
 
@@ -385,7 +385,7 @@ ability to regulate intracellular calcium**
 
 # Why do we age?
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging25.jpg)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging25.jpg)
 
 **Underwood’s Pathology: A Clinical Approach , Sixth Edition**
 
@@ -435,7 +435,7 @@ DNA**
 
 **signals cell cycle arrest**
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging26.png)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging26.png)
 
 # Telomerase
 
@@ -456,7 +456,7 @@ for adding nucleotides to the ends of chromosomes**
   - **telomere length is stabilized**
   - **the cells to proliferate indefinitely**
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging27.png)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging27.png)
 
 # Defective protein homeostasis
 
@@ -474,8 +474,8 @@ for adding nucleotides to the ends of chromosomes**
   - **lead to accumulation of misfolded proteins**
   - **can trigger pathways of apoptosis**
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging28.png)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging28.png)
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging29.png)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging29.png)
 
-![](img%5CIntracellular-Accumulations-Cellular-Aging30.png)
+![](./img-local/Intracellular-Accumulations-Cellular-Aging30.png)

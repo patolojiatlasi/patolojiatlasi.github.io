@@ -31,7 +31,7 @@ Serdar Balcı
 
 # What if homeostasis is not preserved
 
-![](img%5CGeneral-Mechanisms-of-Cell-Injury0.jpg)
+![](./img-local/General-Mechanisms-of-Cell-Injury0.jpg)
 
 *Figure 1-1 from Robbins and Cotran Pathologic Basis of Disease 8* *th*
 \_ ed, \_
@@ -126,7 +126,7 @@ Serdar Balcı
 
 **to pump more**
 
-![](img%5CGeneral-Mechanisms-of-Cell-Injury1.jpg)
+![](./img-local/General-Mechanisms-of-Cell-Injury1.jpg)
 
 **Atherosclerosis**
 
@@ -144,7 +144,7 @@ Serdar Balcı
 
 **Cell death**
 
-![](img%5CGeneral-Mechanisms-of-Cell-Injury2.jpg)
+![](./img-local/General-Mechanisms-of-Cell-Injury2.jpg)
 
 **Remember!**
 
@@ -192,7 +192,7 @@ Serdar Balcı
 - **Apoptosis**
   - **Cell kills itself**
 
-![](img%5CGeneral-Mechanisms-of-Cell-Injury3.jpg)
+![](./img-local/General-Mechanisms-of-Cell-Injury3.jpg)
 
 |                       |                 Necrosis                  |                                  Apoptosis                                   |
 |:---------------------:|:-----------------------------------------:|:----------------------------------------------------------------------------:|

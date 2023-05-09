@@ -1,45 +1,45 @@
 # Title
 Serdar Balcı
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms0.jpg)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms0.jpg)
 
 # Liver Cirrhosis and Neoplasms
 
 # Serdar BALCI, MD
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms1.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms1.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms2.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms2.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms3.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms3.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms4.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms4.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms5.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms5.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms6.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms6.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms7.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms7.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms8.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms8.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms9.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms9.png)
 
 **Robbins Basic Pathology**
 
@@ -115,17 +115,17 @@ function (cirrhotic regression) is possible**
 - **Loss of microvilli from the hepatocyte surface**
   - **diminishing its transport capacity**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms10.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms10.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms11.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms11.png)
 
 **types I and III collagen and other ECM components**
 
 **Robbins Basic Pathology**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms12.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms12.png)
 
 **Portal Hypertension**
 
@@ -173,7 +173,7 @@ function (cirrhotic regression) is possible**
   - **When multiple may indicate the presence of fibropolycystic disease
     of the liver, association with polycystic kidney disease**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms13.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms13.png)
 
 **Von Meyenburg complex**
 
@@ -196,11 +196,11 @@ function (cirrhotic regression) is possible**
 - **No risk for malignancy**
 - **Cause symptoms by pressing on the liver capsule**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms14.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms14.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms15.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms15.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
@@ -216,7 +216,7 @@ function (cirrhotic regression) is possible**
 
 **Pale, yellow-tan, or bile-stained and up to 30 cm in diameter**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms16.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms16.png)
 
 **Hepatic adenoma.**
 
@@ -229,7 +229,7 @@ function (cirrhotic regression) is possible**
 - **Prominent arterial vessels and draining veins are distributed
   throughout**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms17.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms17.png)
 
 **B: Photomicrograph showing adenoma, with cords of normal-appearing
 hepatocytes, absence of portal tracts, and prominent neovascularization
@@ -303,7 +303,7 @@ hepatocytes, absence of portal tracts, and prominent neovascularization
 
 **Pleomorphic, often multiple nuclei**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms18.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms18.png)
 
 **A: Large cell change. Very large hepatocytes with very large, often
 atypical nuclei are scattered among normal-size hepatocytes with round,
@@ -323,7 +323,7 @@ typical nuclei.**
 
 **Considered to be directly premalignant**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms19.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms19.png)
 
 **B: Small cell change (SCC). Normal-appearing hepatocytes are in the
 lower right corner. SCC is indicated by smaller than normal hepatocytes
@@ -343,7 +343,7 @@ with thickened liver cell plates, and high nuclear : cytoplasmic **
 
 **Sometimes contain overtly malignant subnodules**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms20.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms20.png)
 
 **A: Hepatitis C–related cirrhosis with a distinctively large nodule
 (arrows). Nodule-in-nodule growth in this dysplastic nodule suggests a
@@ -351,7 +351,7 @@ high grade lesion.**
 
 **Robbins Basic Pathology**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms21.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms21.png)
 
 **B: Histologically the region within the box in A shows a
 well-differentiated hepatocellular carcinoma (HCC) (right side) and a
@@ -401,7 +401,7 @@ by bile staining and areas of hemorrhage or necrosis**
 the portal circulation) or inferior vena cava, extending even into the
 right side of the heart**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms22.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms22.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
@@ -420,11 +420,11 @@ resembling Mallory bodies**
 **There is little stroma in most hepatocellular carcinomas, explaining
 their soft consistency**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms23.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms23.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms24.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms24.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
@@ -441,58 +441,58 @@ their soft consistency**
 **Fibrolamellar variant has a better prognosis than that of the other,
 more common variants**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms25.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms25.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms26.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms26.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms27.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms27.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms28.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms28.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms29.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms29.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms30.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms30.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms31.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms31.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms32.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms32.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms33.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms33.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms34.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms34.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms35.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms35.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms36.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms36.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms37.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms37.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CLiver-Cirrhosis-and-Neoplasms38.png)
+![](./img-local/Liver-Cirrhosis-and-Neoplasms38.png)
 
 **Autopsy Pathology: A Manual and Atlas**

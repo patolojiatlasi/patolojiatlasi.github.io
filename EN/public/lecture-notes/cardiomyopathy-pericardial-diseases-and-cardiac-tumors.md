@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors0.jpg)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors0.jpg)
 
 # Cardiomyopathy, Pericardial diseases and Cardiac Tumors
 
@@ -50,11 +50,11 @@ Serdar Balcı
   - **Spongy appearance of the ventricles**
   - **CHF and arrhythmias**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors1.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors1.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors2.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors2.png)
 
 **Robbins Basic Pathology**
 
@@ -68,11 +68,11 @@ Serdar Balcı
 
 **Regardless of cause, the clinicopathologic patterns are similar**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors3.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors3.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors4.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors4.png)
 
 **Robbins Basic Pathology**
 
@@ -125,18 +125,18 @@ normal**
 dilation secondarily (atherosclerotic coronary artery disease) are
 absent **
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors5.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors5.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors6.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors6.png)
 
 **A: Four-chamber dilation and hypertrophy are evident. A small mural
 thrombus can be seen at the apex of the left ventricle (arrow)**
 
 **Robbins Basic Pathology**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors7.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors7.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -150,7 +150,7 @@ thrombus can be seen at the apex of the left ventricle (arrow)**
 
 **Mark previous myocyte ischemic necrosis caused by hypoperfusion**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors8.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors8.png)
 
 **B: The nonspecific histologic picture in typical DCM, with myocyte
 hypertrophy and interstitial fibrosis (collagen is blue in this Masson
@@ -174,13 +174,13 @@ trichrome–stained preparation).**
 
 **Arrhythmogenic right ventricular cardiomyopathy**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors9.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors9.png)
 
 **Robbins Basic Pathology**
 
 **Arrhythmogenic right ventricular cardiomyopathy**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors10.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors10.png)
 
 **Robbins Basic Pathology**
 
@@ -197,11 +197,11 @@ trichrome–stained preparation).**
 **Systolic function usually is preserved, myocardium does not relax,
 primary diastolic dysfunction**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors11.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors11.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors12.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors12.png)
 
 **Robbins Basic Pathology**
 
@@ -225,35 +225,35 @@ activation**
 - **Haphazard myocyte (and myofiber) disarray**
 - **Interstitial fibrosis**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors13.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors13.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors14.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors14.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors15.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors15.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors16.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors16.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors17.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors17.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors18.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors18.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors19.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors19.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors20.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors20.png)
 
 **Robbins Basic Pathology**
 
@@ -273,7 +273,7 @@ activation**
 
 **Variable degrees of interstitial fibrosis**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors21.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors21.png)
 
 **Robbins Basic Pathology**
 
@@ -283,7 +283,7 @@ activation**
   - **Normal or mutant forms of transthyretin**
   - **4% of African Americans carry a specific mutation**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors22.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors22.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -320,7 +320,7 @@ activation**
   - **Trypanosomes accompanied by an inflammatory infiltrate of
     neutrophils, lymphocytes, macrophages, and occasional eosinophils**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors23.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors23.png)
 
 **Robbins Basic Pathology**
 
@@ -352,7 +352,7 @@ activation**
 **mottled with pale foci or small hemorrhages signifying active
 inflammation**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors24.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors24.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -368,7 +368,7 @@ endomyocardial biopsy**
 **Lesions can resolve without significant sequelae or heal by
 progressive fibrosis **
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors25.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors25.png)
 
 **Robbins Basic Pathology**
 
@@ -378,7 +378,7 @@ progressive fibrosis **
 
 **Lymphocytes, macrophages, and a high proportion of eosinophils**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors26.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors26.png)
 
 **Robbins Basic Pathology**
 
@@ -391,13 +391,13 @@ progressive fibrosis **
 - **Necrosis**
 - **Poor prognosis**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors27.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors27.png)
 
 **Giant cell myocarditis. Areas of hemorrhage and necrosis **
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors28.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors28.png)
 
 **Robbins Basic Pathology**
 
@@ -419,7 +419,7 @@ progressive fibrosis **
   - **Systemic lupus erythematosus**
   - **Metastatic malignancies**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors29.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors29.png)
 
 # Acute bacterial pericarditis
 
@@ -431,11 +431,11 @@ progressive fibrosis **
 
 **Robbins Basic Pathology**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors30.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors30.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors31.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors31.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -492,7 +492,7 @@ well-tolerated**
 **Rapidly developing collections of as little as 250 mL (ruptured MI or
 ruptured aortic dissection) → Fatal cardiac tamponade**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors32.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors32.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -537,14 +537,14 @@ substance**
 
 **Hemorrhage, poorly organizing thrombus, and mononuclear inflammation**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors33.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors33.png)
 
 **Atrial myxoma: Large pedunculated lesion arises from the region of the
 fossa ovalis and extends into the mitral valve orifice**
 
 **Robbins Basic Pathology**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors34.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors34.png)
 
 **Atrial myxoma:**
 
@@ -571,15 +571,15 @@ vascular formations**
     from the plasma membrane to the centrally located nucleus, so-called
     spider cells**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors35.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors35.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors36.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors36.png)
 
 **Enzinger and Weiss Soft Tissue Tumors Sixth Edition**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors37.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors37.png)
 
 **A: Acute cardiac allograft rejection, typified by a lymphocyte
 infiltrate associated with cardiac myocyte damage. Note the similarity
@@ -587,7 +587,7 @@ of rejection and viral myocarditis**
 
 **Robbins Basic Pathology**
 
-![](img%5CCardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors38.png)
+![](./img-local/Cardiomyopathy%2C-Pericardial-diseases-and-Cardiac-Tumors38.png)
 
 **B: Allograft arteriopathy, with severe concentric intimal thickening
 producing critical stenosis. The internal elastic lamina (arrow) and

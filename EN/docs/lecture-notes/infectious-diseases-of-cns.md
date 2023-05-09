@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CInfectious-Diseases-of-CNS0.jpg)
+![](./img-local/Infectious-Diseases-of-CNS0.jpg)
 
 # Infectious Diseases of CNS
 
@@ -101,7 +101,7 @@ Serdar Balcı
   - **Abundant neutrophils, elevated protein, and reduced glucose**
   - **Bacteria may be seen on a smear or can be cultured**
 
-![](img%5CInfectious-Diseases-of-CNS1.png)
+![](./img-local/Infectious-Diseases-of-CNS1.png)
 
 **Acute meningitis**
 
@@ -255,31 +255,31 @@ surface**
 - **Abscess rupture can lead to ventriculitis, meningitis, and venous
   sinus thrombosis**
 
-![](img%5CInfectious-Diseases-of-CNS2.png)
+![](./img-local/Infectious-Diseases-of-CNS2.png)
 
 **N Engl J Med 2014;371:447-56**
 
-![](img%5CInfectious-Diseases-of-CNS3.png)
+![](./img-local/Infectious-Diseases-of-CNS3.png)
 
 **N Engl J Med 2014;371:447-56**
 
-![](img%5CInfectious-Diseases-of-CNS4.png)
+![](./img-local/Infectious-Diseases-of-CNS4.png)
 
 **N Engl J Med 2014;371:447-56**
 
-![](img%5CInfectious-Diseases-of-CNS5.png)
+![](./img-local/Infectious-Diseases-of-CNS5.png)
 
 **N Engl J Med 2014;371:447-56**
 
-![](img%5CInfectious-Diseases-of-CNS6.png)
+![](./img-local/Infectious-Diseases-of-CNS6.png)
 
 **N Engl J Med 2014;371:447-56**
 
-![](img%5CInfectious-Diseases-of-CNS7.png)
+![](./img-local/Infectious-Diseases-of-CNS7.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CInfectious-Diseases-of-CNS8.jpg)
+![](./img-local/Infectious-Diseases-of-CNS8.jpg)
 
 **Central liquefactive necrosis**
 
@@ -301,26 +301,26 @@ surface**
   - **microglial nodules**
   - **neuronophagia**
 
-![](img%5CInfectious-Diseases-of-CNS9.png)
+![](./img-local/Infectious-Diseases-of-CNS9.png)
 
 **Robbins Basic Pathology**
 
 **perivascular cuffing of lymphocytes **
 
-![](img%5CInfectious-Diseases-of-CNS10.png)
+![](./img-local/Infectious-Diseases-of-CNS10.png)
 
 **microglial nodules **
 
 **Robbins Basic Pathology**
 
-![](img%5CInfectious-Diseases-of-CNS11.png)
+![](./img-local/Infectious-Diseases-of-CNS11.png)
 
 **Herpes encephalitis showing extensive destruction of inferior frontal
 and anterior temporal lobes**
 
 <span style="color:#FFFFFF">Robbins Basic Pathology</span>
 
-![](img%5CInfectious-Diseases-of-CNS12.png)
+![](./img-local/Infectious-Diseases-of-CNS12.png)
 
 **HIV encephalitis: Accumulation of microglia forming a microglial
 nodule and multinucleate giant cell**
@@ -445,11 +445,11 @@ enlarge as the disease progresses**
 
 **Each lesion is an area of demyelination**
 
-![](img%5CInfectious-Diseases-of-CNS13.png)
+![](./img-local/Infectious-Diseases-of-CNS13.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CInfectious-Diseases-of-CNS14.png)
+![](./img-local/Infectious-Diseases-of-CNS14.png)
 
 **Center**
 
@@ -497,11 +497,11 @@ by glassy-appearing amphophilic viral inclusions**
   - **Organisms proliferate, these spaces expand, giving rise to a “soap
     bubble”–like appearance**
 
-![](img%5CInfectious-Diseases-of-CNS15.png)
+![](./img-local/Infectious-Diseases-of-CNS15.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CInfectious-Diseases-of-CNS16.png)
+![](./img-local/Infectious-Diseases-of-CNS16.png)
 
 **Robbins Basic Pathology**
 
@@ -517,11 +517,11 @@ by glassy-appearing amphophilic viral inclusions**
 - **Newborns**
   - **Chorioretinitis, hydrocephalus, and intracranial calcifications**
 
-![](img%5CInfectious-Diseases-of-CNS17.png)
+![](./img-local/Infectious-Diseases-of-CNS17.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CInfectious-Diseases-of-CNS18.png)
+![](./img-local/Infectious-Diseases-of-CNS18.png)
 
 **Free tachyzoites are demonstrated by immunohistochemical staining**
 
@@ -572,7 +572,7 @@ including eosinophils**
 - **Over time accumulation of a high burden of pathogenic PrP sc
   molecules in the brain**
 
-![](img%5CInfectious-Diseases-of-CNS19.png)
+![](./img-local/Infectious-Diseases-of-CNS19.png)
 
 **Robbins Basic Pathology**
 
@@ -587,7 +587,7 @@ including eosinophils**
 **Certain mutations in the gene encoding PrP c ( PRNP ) accelerate the
 rate of spontaneous conformational change**
 
-![](img%5CInfectious-Diseases-of-CNS20.png)
+![](./img-local/Infectious-Diseases-of-CNS20.png)
 
 **α-Helical PrPc may spontaneously shift to the β-sheet PrPsc
 conformation, an event that occurs at a much higher rate in familial
@@ -595,7 +595,7 @@ disease associated with germ line PrP mutations**
 
 **Robbins Basic Pathology**
 
-![](img%5CInfectious-Diseases-of-CNS21.png)
+![](./img-local/Infectious-Diseases-of-CNS21.png)
 
 **PrPsc may also be from exogenous sources, such as contaminated food,
 medical instrumentation, or medicines. Once present, PrPsc converts
@@ -603,7 +603,7 @@ additional molecules of PrPc into PrPsc through physical interaction**
 
 **Robbins Basic Pathology**
 
-![](img%5CInfectious-Diseases-of-CNS22.png)
+![](./img-local/Infectious-Diseases-of-CNS22.png)
 
 **formation of pathogenic PrPsc aggregates**
 
@@ -620,7 +620,7 @@ additional molecules of PrPc into PrPsc through physical interaction**
 - **The progression to death in CJD usually is so rapid**
   - **little macroscopic evidence of brain atrophy**
 
-![](img%5CInfectious-Diseases-of-CNS23.png)
+![](./img-local/Infectious-Diseases-of-CNS23.png)
 
 **Pathognomonic finding is a spongiform transformation of the cerebral
 cortex and deep gray matter structures (caudate, putamen)**
@@ -669,41 +669,41 @@ allows detection of diagnostic PrP sc .**
 - **In vCJD, however, there are abundant cortical amyloid plaques,
   surrounded by the spongiform change**
 
-![](img%5CInfectious-Diseases-of-CNS24.png)
+![](./img-local/Infectious-Diseases-of-CNS24.png)
 
 **Variant CJD (vCJD) is characterized by amyloid plaques (see inset)
 that sit in the regions of greatest spongiform change**
 
 **Robbins Basic Pathology**
 
-![](img%5CInfectious-Diseases-of-CNS25.png)
+![](./img-local/Infectious-Diseases-of-CNS25.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CInfectious-Diseases-of-CNS26.png)
+![](./img-local/Infectious-Diseases-of-CNS26.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CInfectious-Diseases-of-CNS27.png)
+![](./img-local/Infectious-Diseases-of-CNS27.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CInfectious-Diseases-of-CNS28.png)
+![](./img-local/Infectious-Diseases-of-CNS28.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CInfectious-Diseases-of-CNS29.png)
+![](./img-local/Infectious-Diseases-of-CNS29.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CInfectious-Diseases-of-CNS30.png)
+![](./img-local/Infectious-Diseases-of-CNS30.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CInfectious-Diseases-of-CNS31.png)
+![](./img-local/Infectious-Diseases-of-CNS31.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CInfectious-Diseases-of-CNS32.png)
+![](./img-local/Infectious-Diseases-of-CNS32.png)
 
 **Rubin’s Pathology 7th Ed Clinicopathologic Foundations Of Medicine**

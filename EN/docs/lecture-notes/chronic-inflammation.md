@@ -1,21 +1,21 @@
 # Title
 Serdar Balcı
 
-![](img%5CChronic-Inflammation0.jpg)
+![](./img-local/Chronic-Inflammation0.jpg)
 
 # Chronic Inflammation
 
 # Serdar BALCI, MD
 
-![](img%5CChronic-Inflammation1.png)
+![](./img-local/Chronic-Inflammation1.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CChronic-Inflammation2.png)
+![](./img-local/Chronic-Inflammation2.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CChronic-Inflammation3.png)
+![](./img-local/Chronic-Inflammation3.png)
 
 **collection of chronic inflammatory cells **
 
@@ -90,7 +90,7 @@ Serdar Balcı
 
 **cholesterol crystals, atherosclerosis**
 
-![](img%5CChronic-Inflammation4.png)
+![](./img-local/Chronic-Inflammation4.png)
 
 # Are these chronic inflammatory diseases?We do not know the definite answer, yetJury is still out
 
@@ -117,44 +117,44 @@ Serdar Balcı
 
 # Some examples for chronic inflammation
 
-![](img%5CChronic-Inflammation5.jpg)
+![](./img-local/Chronic-Inflammation5.jpg)
 
 **Chronic inflammation in the wall of a gallbladder that has experienced
 previous episodes of acute cholecystitis**
 
-![](img%5CChronic-Inflammation6.jpg)
+![](./img-local/Chronic-Inflammation6.jpg)
 
 **Gallbladder showing chronic cholecystitis**
 
-![](img%5CChronic-Inflammation7.jpg)
+![](./img-local/Chronic-Inflammation7.jpg)
 
 **Chronic peptic ulcer of the stomach**
 
-![](img%5CChronic-Inflammation8.jpg)
+![](./img-local/Chronic-Inflammation8.jpg)
 
-![](img%5CChronic-Inflammation9.png)
+![](./img-local/Chronic-Inflammation9.png)
 
 **Pathology - The Big Picture**
 
-![](img%5CChronic-Inflammation10.jpg)
+![](./img-local/Chronic-Inflammation10.jpg)
 
 **Pulmonary fibrosis (idiopathic) **
 
-![](img%5CChronic-Inflammation11.jpg)
+![](./img-local/Chronic-Inflammation11.jpg)
 
 **Transplant rejection: kidney **
 
-![](img%5CChronic-Inflammation12.jpg)
+![](./img-local/Chronic-Inflammation12.jpg)
 
-![](img%5CChronic-Inflammation13.jpg)
+![](./img-local/Chronic-Inflammation13.jpg)
 
 **Xanthogranulomatous inflammation and lipogranuloma **
 
-![](img%5CChronic-Inflammation14.jpg)
+![](./img-local/Chronic-Inflammation14.jpg)
 
 **Pilonidal sinus **
 
-![](img%5CChronic-Inflammation15.png)
+![](./img-local/Chronic-Inflammation15.png)
 
 **Inflammation**
 
@@ -171,14 +171,14 @@ previous episodes of acute cholecystitis**
 
 **Mast cells**
 
-![](img%5CChronic-Inflammation16.jpg)
+![](./img-local/Chronic-Inflammation16.jpg)
 
 **Inflammation**
 
 **Stephenson, Timothy J., Underwood’s Pathology: A Clinical Approach, 9,
 165-182**
 
-![](img%5CChronic-Inflammation17.png)
+![](./img-local/Chronic-Inflammation17.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
@@ -217,19 +217,19 @@ the bloodstream**
 
 **circulate in the blood for only about a day**
 
-![](img%5CChronic-Inflammation18.png)
+![](./img-local/Chronic-Inflammation18.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
 # Macrophage Activation
 
-![](img%5CChronic-Inflammation19.png)
+![](./img-local/Chronic-Inflammation19.png)
 
 **Robbins Basic Pathology**
 
 # Classical macrophage activation
 
-![](img%5CChronic-Inflammation20.png)
+![](./img-local/Chronic-Inflammation20.png)
 
 - **induced by microbial products**
   - **endotoxin**
@@ -244,7 +244,7 @@ the bloodstream**
 
 # Alternative macrophage activation
 
-![](img%5CChronic-Inflammation21.png)
+![](./img-local/Chronic-Inflammation21.png)
 
 - **induced by IL-4 and IL-13**
   - **produced by T lymphocytes, mast cells and eosinophils**
@@ -255,7 +255,7 @@ the bloodstream**
   - **activate fibroblasts**
   - **stimulate collagen synthesis**
 
-![](img%5CChronic-Inflammation22.png)
+![](./img-local/Chronic-Inflammation22.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
@@ -291,7 +291,7 @@ the bloodstream**
 **IFN-γ induce macrophages to fuse into large, multinucleate giant
 cells**
 
-![](img%5CChronic-Inflammation23.png)
+![](./img-local/Chronic-Inflammation23.png)
 
 **RUBINS PATHOLOGY Clinicopathologic Foundations of Medicine**
 
@@ -323,7 +323,7 @@ cells**
 
 **Bidirectional Interaction**
 
-![](img%5CChronic-Inflammation24.jpg)
+![](./img-local/Chronic-Inflammation24.jpg)
 
 **Inflammation**
 
@@ -332,13 +332,13 @@ cells**
 
 **Bidirectional Interaction**
 
-![](img%5CChronic-Inflammation25.png)
+![](./img-local/Chronic-Inflammation25.png)
 
 **Robbins Basic Pathology**
 
 # Bidirectional Interaction
 
-![](img%5CChronic-Inflammation26.png)
+![](./img-local/Chronic-Inflammation26.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
@@ -364,7 +364,7 @@ cells**
   - **toxic to parasites**
   - **also causes epithelial cell necrosis**
 
-![](img%5CChronic-Inflammation27.png)
+![](./img-local/Chronic-Inflammation27.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
@@ -382,7 +382,7 @@ cells**
   - **allergic reactions**
     - **anaphylactic shock**
 
-![](img%5CChronic-Inflammation28.jpg)
+![](./img-local/Chronic-Inflammation28.jpg)
 
 **Cells in chronic inflammation **
 
@@ -402,15 +402,15 @@ cells**
   - **inflammatory bowel disease**
 - **3) sarcoidosis**
 
-![](img%5CChronic-Inflammation29.png)
+![](./img-local/Chronic-Inflammation29.png)
 
 **RUBINS PATHOLOGY Clinicopathologic Foundations of Medicine**
 
-![](img%5CChronic-Inflammation30.png)
+![](./img-local/Chronic-Inflammation30.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CChronic-Inflammation31.png)
+![](./img-local/Chronic-Inflammation31.png)
 
 **Activated macrophages in granulomas**
 
@@ -428,7 +428,7 @@ cells**
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CChronic-Inflammation32.png)
+![](./img-local/Chronic-Inflammation32.png)
 
 **Activated macrophages in granulomas**
 
@@ -440,11 +440,11 @@ cells**
 
 **Pathology - The Big Picture**
 
-![](img%5CChronic-Inflammation33.png)
+![](./img-local/Chronic-Inflammation33.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CChronic-Inflammation34.png)
+![](./img-local/Chronic-Inflammation34.png)
 
 **a combination of hypoxia and free radical injury leads to a central
 zone of necrosis**
@@ -454,7 +454,7 @@ loss of cellular details**
 
 **Robbins Basic Pathology**
 
-![](img%5CChronic-Inflammation35.png)
+![](./img-local/Chronic-Inflammation35.png)
 
 **granular, cheesy appearance and is therefore called caseous necrosis
 **
@@ -464,37 +464,37 @@ tissue**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CChronic-Inflammation36.png)
+![](./img-local/Chronic-Inflammation36.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CChronic-Inflammation37.png)
+![](./img-local/Chronic-Inflammation37.png)
 
 **RUBINS PATHOLOGY Clinicopathologic Foundations of Medicine**
 
 # Mycobacterium tuberculosisacid-fast Ziehl-Neelsen stain; Magnified 1000X.
 
-![](img%5CChronic-Inflammation38.jpg)
+![](./img-local/Chronic-Inflammation38.jpg)
 
 **http://phil.cdc.gov/**
 
-![](img%5CChronic-Inflammation39.png)
+![](./img-local/Chronic-Inflammation39.png)
 
 **RUBINS PATHOLOGY Clinicopathologic Foundations of Medicine**
 
-![](img%5CChronic-Inflammation40.jpg)
+![](./img-local/Chronic-Inflammation40.jpg)
 
 **Foreign body reaction **
 
-![](img%5CChronic-Inflammation41.jpg)
+![](./img-local/Chronic-Inflammation41.jpg)
 
 **Foreign body reaction **
 
-![](img%5CChronic-Inflammation42.jpg)
+![](./img-local/Chronic-Inflammation42.jpg)
 
-![](img%5CChronic-Inflammation43.jpg)
+![](./img-local/Chronic-Inflammation43.jpg)
 
-![](img%5CChronic-Inflammation44.png)
+![](./img-local/Chronic-Inflammation44.png)
 
 **RUBINS PATHOLOGY Clinicopathologic Foundations of Medicine**
 
@@ -505,11 +505,11 @@ body reactions**
 
 <span style="color:#FF0000">Noncaseating</span> \_\_ \_\_
 
-![](img%5CChronic-Inflammation45.png)
+![](./img-local/Chronic-Inflammation45.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CChronic-Inflammation46.jpg)
+![](./img-local/Chronic-Inflammation46.jpg)
 
 *“Asistanlardan biri, Fransızca anlamadığıma hükmederek;”Tumeur
 blanche’ların ekseriya bol akıntılarla ciğer veremi tevlit edebileceğini
@@ -599,4 +599,4 @@ anlatıyor. Mithat Bey ona susmasını ihtar etti.“*
   - **metabolic disturbances including acidosis**
   - **hypotensive shock**
 
-![](img%5CChronic-Inflammation47.jpg)
+![](./img-local/Chronic-Inflammation47.jpg)

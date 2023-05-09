@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases0.jpg)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases0.jpg)
 
 # Chronic Obstructive Pulmonary DiseasesEmphysema and Chronic Bronchitis
 
@@ -27,11 +27,11 @@ Serdar Balcı
 
 **Chronic interstitial and infiltrative diseases**
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases1.png)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases1.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases2.png)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases2.png)
 
 **Chronic Obstructive Pulmonary Diseases**
 
@@ -46,7 +46,7 @@ terminal bronchioles**
 
 **Destruction of alveoli walls without significant fibrosis**
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases3.jpg)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases3.jpg)
 
 # Types of Emphysema
 
@@ -63,7 +63,7 @@ terminal bronchioles**
 
 **Irregular**
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases4.png)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases4.png)
 
 **distention of all the peripheral structures; later extends to
 respiratory bronchioles**
@@ -72,7 +72,7 @@ respiratory bronchioles**
 
 **Robbins Basic Pathology**
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases5.png)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases5.png)
 
 **Centriacinar emphysema**
 
@@ -84,16 +84,16 @@ respiratory bronchioles**
 
 **Centriacinar emphysema**
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases6.png)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases6.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
 **Centriacinar emphysema: Central areas show marked emphysematous
 damage, surrounded by relatively spared alveolar spaces**
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases7.png)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases7.png)
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases8.png)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases8.png)
 
 # Centriacinar (Centrilobular) Emphysema
 
@@ -103,7 +103,7 @@ damage, surrounded by relatively spared alveolar spaces**
 
 **Distal alveoli are spared**
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases9.png)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases9.png)
 
 **Both emphysematous and normal air spaces exist within the same acinus
 and lobule**
@@ -112,21 +112,21 @@ and lobule**
 - **In severe cases distal acinus also involved**
   - **Differentiation from panacinar emphysema becomes difficult**
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases10.png)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases10.png)
 
 **Cigarette smoking**
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases11.png)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases11.png)
 
 **Panacinar (Panlobular) emphysema**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases12.png)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases12.png)
 
 **Panacinar emphysema: involving the entire pulmonary lobule**
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases13.png)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases13.png)
 
 # Panacinar (Panlobular) Emphysema
 
@@ -136,7 +136,7 @@ and lobule**
 - **Associated with**
   - **α1-antitrypsin deficiency**
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases14.png)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases14.png)
 
 # Distal Acinar (Paraseptal) Emphysema
 
@@ -165,9 +165,9 @@ tissue septa, and at the margins of the lobules**
 
 **Most often in spontaneous pneumothorax in young adults**
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases15.png)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases15.png)
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases16.png)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases16.png)
 
 # Irregular Emphysema
 
@@ -179,7 +179,7 @@ tissue septa, and at the margins of the lobules**
 
 # Pathogenesis of Emphysema
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases17.png)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases17.png)
 
 - **Exposure to toxic substances**
   - **Tobacco smoke, inhaled pollutants**
@@ -201,7 +201,7 @@ deficiency develop symptomatic panacinar emphysema**
 
 **MMP-9 and MMP-12**
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases18.png)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases18.png)
 
 **Robbins Basic Pathology**
 
@@ -252,7 +252,7 @@ deficiency develop symptomatic panacinar emphysema**
 - **Bronchiolar inflammation and submucosal fibrosis in advanced
   disease**
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases19.png)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases19.png)
 
 **Robbins Basic Pathology**
 
@@ -269,7 +269,7 @@ deficiency develop symptomatic panacinar emphysema**
   - **Greater than 1 cm in diameter in the distended state**
   - **May rupture, leading to pneumothorax**
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases20.png)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases20.png)
 
 **Bullous emphysema with large apical and subpleural bullae**
 
@@ -277,7 +277,7 @@ Robbins Basic Pathology
 
 **Emphysematous bullae**
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases21.png)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases21.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -294,7 +294,7 @@ Robbins Basic Pathology
 
 **Interstitial pulmonary emphysema**
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases22.png)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases22.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -340,7 +340,7 @@ at least 2 consecutive years, absence of any identifiable cause**
 (approximately twice-normal) and squamous metaplasia of lung
 epithelium**
 
-![](img%5CChronic-Obstructive-Pulmonary-Diseases23.png)
+![](./img-local/Chronic-Obstructive-Pulmonary-Diseases23.png)
 
 **Robbins Basic Pathology**
 

@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology0.jpg)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology0.jpg)
 
 # Clinicopathological Features of Neoplasia and Epidemiology
 
@@ -85,17 +85,17 @@ Serdar Balcı
 - **No satisfactory treatment for cancer cachexia other than removal of
   the tumor**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology1.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology1.png)
 
 **Cancer cachexia: understanding the molecular basis Nature Reviews
 Cancer, 14, 754–762 (2014)**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology2.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology2.png)
 
 **Cancer cachexia: understanding the molecular basis Nature Reviews
 Cancer, 14, 754–762 (2014)**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology3.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology3.png)
 
 **Cancer cachexia: understanding the molecular basis Nature Reviews
 Cancer, 14, 754–762 (2014)**
@@ -110,7 +110,7 @@ Cancer, 14, 754–762 (2014)**
   - **Significant clinical illness and may even be lethal.**
   - **May mimic metastatic disease, changing treatment**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology4.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology4.png)
 
 **Hypercalcemia due to bone metastasis is not considered as
 paraneoplastic**
@@ -120,7 +120,7 @@ paraneoplastic syndrome**
 
 **Robbins Basic Pathology**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology5.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology5.png)
 
 **Robbins Basic Pathology**
 
@@ -151,27 +151,27 @@ paraneoplastic syndrome**
 
 **FIGO grade**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology6.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology6.png)
 
 **Cancer Grading Manual**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology7.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology7.png)
 
 **Cancer Grading Manual**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology8.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology8.png)
 
 **Cancer Grading Manual**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology9.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology9.png)
 
 **Cancer Grading Manual**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology10.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology10.png)
 
 **Cancer Grading Manual**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology11.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology11.png)
 
 **Cancer Grading Manual**
 
@@ -202,27 +202,27 @@ paraneoplastic syndrome**
   - **Changes in each organ**
 - **FIGO staging system for gynecologic tumors**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology12.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology12.png)
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology13.png)
-
-**Atlas of Staging in Gynecological Cancer**
-
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology14.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology13.png)
 
 **Atlas of Staging in Gynecological Cancer**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology15.jpg)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology14.png)
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology16.jpg)
+**Atlas of Staging in Gynecological Cancer**
+
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology15.jpg)
+
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology16.jpg)
 
 **Arch Pathol Lab Med. 2009 Oct;133(10):1539-51**
 
 **cancerstaging.org**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology17.jpg)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology17.jpg)
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology18.jpg)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology18.jpg)
 
 - **Grade**
   - **Given by pathologist**
@@ -272,15 +272,15 @@ cancer**
 
 **Tru-cut (needle) biopsy**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology19.jpg)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology19.jpg)
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology20.jpg)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology20.jpg)
 
 **Int J Surg Case Rep. 2014; 5(1): 30–33**
 
 # Frozen Section
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology21.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology21.png)
 
 **http://www.ihcworld.com/**
 
@@ -294,11 +294,11 @@ cancer**
   - **Lymph nodes**
   - **Salivary glands**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology22.jpg)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology22.jpg)
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology23.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology23.png)
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology24.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology24.png)
 
 **Exfoliative Cytology**
 
@@ -308,13 +308,13 @@ cancer**
 
 # Immunohistochemistry
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology25.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology25.png)
 
 **Bancroft’s Theory and Practice of Histological Techniques**
 
 # Flow cytometry
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology26.jpg)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology26.jpg)
 
 # Tumor Markers
 
@@ -349,7 +349,7 @@ blood**
   - **Translocation**
   - **Ewing Sarcoma, Lymphomas, Leukemias**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology27.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology27.png)
 
 **Bancroft’s Theory and Practice of Histological Techniques**
 
@@ -372,11 +372,11 @@ blood**
 - **Colon Cancers**
   - **RAS mutation**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology28.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology28.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology29.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology29.png)
 
 **Molecular Profiling of Tumors**
 
@@ -418,7 +418,7 @@ blood**
     kinase fusion**
   - **Respond well to ALK inhibitors**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology30.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology30.png)
 
 **A new classification**
 
@@ -488,19 +488,19 @@ cancer**
   - **569,000 people died of cancer**
 - **Turkey**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology31.jpg)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology31.jpg)
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology32.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology32.png)
 
 **http://globocan.iarc.fr/Pages/fact_sheets_population.aspx**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology33.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology33.png)
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology34.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology34.png)
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology35.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology35.png)
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology36.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology36.png)
 
 # Cancer Rates changes over time
 
@@ -559,9 +559,9 @@ cancer**
     life turns out to be illegal, immoral, or fattening, or—most
     disturbing—possibly carcinogenic.**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology37.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology37.png)
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology38.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology38.png)
 
 # ?questions to think?
 
@@ -588,9 +588,9 @@ cancer**
 
 # Heredity
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology39.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology39.png)
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology40.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology40.png)
 
 - **Inheritance of a single mutant gene greatly increases the risk of
   developing a tumor**
@@ -600,12 +600,12 @@ cancer**
   - **Polyps in APC**
   - **Lisch nodules and café-au-lait spots in neurofibromatosis type 1**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology41.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology41.png)
 
 **characterized by chromosomal or DNA instability and high rates of
 certain cancers**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology42.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology42.png)
 
 - **Features that characterize familial cancers**
   - **Early age at onset**
@@ -665,9 +665,9 @@ cigarettes**
 - **KETEM**
 - **kanser.gov.tr**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology43.jpg)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology43.jpg)
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology44.png)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology44.png)
 
 **N Engl J Med 373;18 October 29, 2015**
 
@@ -679,4 +679,4 @@ cigarettes**
 
 **http://www.cancerindex.org/Turkey**
 
-![](img%5CClinicopathological-features-of-Neoplasia-and-Epidemiology45.jpg)
+![](./img-local/Clinicopathological-features-of-Neoplasia-and-Epidemiology45.jpg)

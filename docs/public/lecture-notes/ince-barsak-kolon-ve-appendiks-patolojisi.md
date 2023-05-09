@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi0.jpg)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi0.jpg)
 
 # İnce Barsak, Kolon ve Appendiks Patolojisi
 
@@ -38,11 +38,11 @@ Serdar Balcı
 - **Karın ağrısı, distansiyon, kusma ve kabızlık**
 - **Çoğu olguda cerrahi gerekir**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi1.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi1.png)
 
 **Robbins Basic Pathology**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi2.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi2.png)
 
 **Intussusception - İnvajinasyon**
 
@@ -51,7 +51,7 @@ girer**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi3.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi3.png)
 
 **Intussusception - İnvajinasyon**
 
@@ -59,7 +59,7 @@ girer**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi4.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi4.png)
 
 **Volvulus**
 
@@ -67,15 +67,15 @@ girer**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi5.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi5.png)
 
 **Robbins Basic Pathology**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi6.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi6.png)
 
 **Robbins Basic Pathology**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi7.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi7.png)
 
 **Robbins Basic Pathology**
 
@@ -113,7 +113,7 @@ anastomozu**
   - **Fonksiyonel obstrüksiyon**
   - **Etkilenen segmentin proksimalinde dilatasyon**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi8.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi8.png)
 
 **Robbins Basic Pathology**
 
@@ -136,7 +136,7 @@ anastomozu**
 
 # Abdominal Herni
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi9.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi9.png)
 
 - **Periton duvarındaki her hangi bir defekt ya da kayıp**
 - **Seroza kaplı periton cebinin protrüzyonu**
@@ -144,7 +144,7 @@ anastomozu**
 
 **Robbins Basic Pathology**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi10.jpg)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi10.jpg)
 
 - **Akkiz**
   - **En sıklıklar anterior duvar**
@@ -154,7 +154,7 @@ anastomozu**
   - **Morgagni hernisi**
     - **anterior, retrosternal**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi11.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi11.png)
 
 - **Inguinal ve femoral kanallar**
 - **Umbilickus**
@@ -232,27 +232,27 @@ anastomozu**
     hastalıklar splenik köşe ve rektosigmoid bölgedeki fokal kolitlerin
     ayırıcı tanısında yer almalı**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi12.jpg)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi12.jpg)
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi13.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi13.png)
 
 **Nekrotik ince barsak segmenti**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi14.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi14.png)
 
 **Canlı ve ölü doku arasındaki keskin geçiş**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi15.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi15.png)
 
 **Multifokal mukozal hemorajik enfarktlar**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi16.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi16.png)
 
 **Çekumda transmural enfarkt**
 
@@ -296,7 +296,7 @@ görülebilir**
   - **Venöz dönüş tıkanıklığı sonuçta oksijenli arteryal kan akışını
     engeller**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi17.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi17.png)
 
 **Atrofi ve yüzey epitelde dökülme**
 
@@ -308,7 +308,7 @@ görülebilir**
 
 **Robbins Basic Pathology**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi18.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi18.png)
 
 - **Kronik iskemi**
   - **Lamina proprianın fibröz skarlanması**
@@ -388,7 +388,7 @@ olur**
 - **Yüksek lüminal basınç, abartılı peristalsise, barsak segmentlerinde
   spazma bağlı sıkışmalara neden olur**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi19.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi19.png)
 
 **Küçük, kap şeklinde çıkıntılar**
 
@@ -398,7 +398,7 @@ olur**
 
 **Robbins Basic Pathology**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi20.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi20.png)
 
 **İnce bir duvar**
 
@@ -410,19 +410,19 @@ olur**
 
 **Robbins Basic Pathology**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi21.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi21.png)
 
 **Robbins Basic Pathology**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi22.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi22.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi23.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi23.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi24.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi24.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -446,7 +446,7 @@ olur**
   - **Sinüs traktı oluşumu**
   - **Peritonit**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi25.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi25.png)
 
 # Meckel Divertikülü
 
@@ -538,64 +538,64 @@ olur**
     - **Akut gangrenöz appendisit**
   - **Rüptür ve süpüratif peritonit**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi26.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi26.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi27.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi27.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi28.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi28.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi29.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi29.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi30.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi30.png)
 
 **Tuberculous peritonitis**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi31.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi31.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi32.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi32.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi33.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi33.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi34.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi34.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi35.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi35.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi36.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi36.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi37.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi37.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi38.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi38.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi39.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi39.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5C%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi40.png)
+![](./img-local/%C4%B0nce-Barsak%2C-Kolon-ve-Appendiks-Patolojisi40.png)
 
 **Autopsy Pathology: A Manual and Atlas**

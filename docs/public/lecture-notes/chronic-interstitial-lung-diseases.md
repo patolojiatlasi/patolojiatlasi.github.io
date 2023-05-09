@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CChronic-Interstitial-Lung-Diseases0.jpg)
+![](./img-local/Chronic-Interstitial-Lung-Diseases0.jpg)
 
 # Chronic Interstitial Lung Diseases
 
@@ -29,15 +29,15 @@ Serdar Balcı
   - **Scarring and gross destruction of the lung**
   - **End-stage or “honeycomb” lung**
 
-![](img%5CChronic-Interstitial-Lung-Diseases1.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases1.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CChronic-Interstitial-Lung-Diseases2.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases2.png)
 
 # FIBROSING DISEASES
 
-![](img%5CChronic-Interstitial-Lung-Diseases3.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases3.png)
 
 # IDIOPATHIC PULMONARY FIBROSIS
 
@@ -65,13 +65,13 @@ Serdar Balcı
   - **Exuberant fibroblastic or myofibroblastic proliferation**
   - **Fibroblastic foci**
 
-![](img%5CChronic-Interstitial-Lung-Diseases4.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases4.png)
 
 **from injured type I pneumocytes**
 
 **Robbins Basic Pathology**
 
-![](img%5CChronic-Interstitial-Lung-Diseases5.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases5.png)
 
 - **Retraction of scars along the interlobular septa → cobblestones**
 - **Fibrosis**
@@ -85,23 +85,23 @@ Serdar Balcı
 
 **Alternating areas of light-colored fibrosis and normal lung**
 
-![](img%5CChronic-Interstitial-Lung-Diseases6.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases6.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
 **the degree of fibrosis increases and small subpleural cysts appear**
 
-![](img%5CChronic-Interstitial-Lung-Diseases7.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases7.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
 **visceral pleural surface becomes progressively more irregular**
 
-![](img%5CChronic-Interstitial-Lung-Diseases8.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases8.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CChronic-Interstitial-Lung-Diseases9.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases9.png)
 
 **Late stage progressive cyst formation Honeycomb lung**
 
@@ -110,18 +110,18 @@ Serdar Balcı
 **Usual interstitial pneumonia. The fibrosis is more pronounced in the
 subpleural region. **
 
-![](img%5CChronic-Interstitial-Lung-Diseases10.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases10.png)
 
 **Usual interstitial pneumonia. Fibrosis in the subpleural region.**
 
-![](img%5CChronic-Interstitial-Lung-Diseases11.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases11.png)
 
 **Robbins Basic Pathology**
 
 **Fibroblastic focus with fibers running parallel to surface and bluish
 myxoid extracellular matrix. Honeycombing is present to the left.**
 
-![](img%5CChronic-Interstitial-Lung-Diseases12.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases12.png)
 
 **Robbins Basic Pathology**
 
@@ -152,7 +152,7 @@ myxoid extracellular matrix. Honeycombing is present to the left.**
 
   - **Intimal fibrosis, medial thickening of pulmonary arteries**
 
-![](img%5CChronic-Interstitial-Lung-Diseases13.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases13.png)
 
 # NONSPECIFIC INTERSTITIAL PNEUMONIA
 
@@ -176,7 +176,7 @@ myxoid extracellular matrix. Honeycombing is present to the left.**
   - **Without the temporal heterogeneity**
 - **Fibroblastic foci and honeycombing --\> in both variants**
 
-![](img%5CChronic-Interstitial-Lung-Diseases14.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases14.png)
 
 # CRYPTOGENIC ORGANIZING PNEUMONIA
 
@@ -202,11 +202,11 @@ myxoid extracellular matrix. Honeycombing is present to the left.**
 
 **Adjacent alveoli are relatively normal, compressed**
 
-![](img%5CChronic-Interstitial-Lung-Diseases15.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases15.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CChronic-Interstitial-Lung-Diseases16.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases16.png)
 
 # PULMONARY INVOLVEMENT IN COLLAGEN VASCULAR DISEASES
 
@@ -220,7 +220,7 @@ myxoid extracellular matrix. Honeycombing is present to the left.**
 - **Pleural involvement**
   - **Pleuritis, pleural nodules, and pleural effusion**
 
-![](img%5CChronic-Interstitial-Lung-Diseases17.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases17.png)
 
 # PNEUMOCONIOSES
 
@@ -231,7 +231,7 @@ myxoid extracellular matrix. Honeycombing is present to the left.**
 - **Diseases induced by organic as well as inorganic particulates**
 - **Chemical fume- and vapor-induced non-neoplastic lung diseases**
 
-![](img%5CChronic-Interstitial-Lung-Diseases18.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases18.png)
 
 **Robbins Basic Pathology**
 
@@ -287,14 +287,14 @@ myxoid extracellular matrix. Honeycombing is present to the left.**
 
 **Large amount of black pigment is associated with fibrosis**
 
-![](img%5CChronic-Interstitial-Lung-Diseases19.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases19.png)
 
 **Robbins Basic Pathology**
 
 **Progressive massive fibrosis superimposed on coal workers’
 pneumoconiosis**
 
-![](img%5CChronic-Interstitial-Lung-Diseases20.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases20.png)
 
 - **10% of cases of simple CWP progress to PMF**
 - **If smoking-related risk has been taken into account**
@@ -323,7 +323,7 @@ pneumoconiosis**
   - **Fibrogenic cytokines**
 - **Anti-TNF monoclonal antibodies can block lung fibrosis in mice**
 
-![](img%5CChronic-Interstitial-Lung-Diseases21.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases21.png)
 
 **Silicotic nodules**
 
@@ -348,7 +348,7 @@ pneumoconiosis**
 **Whorled appearance of the collagen fibers is distinctive for
 silicosis**
 
-![](img%5CChronic-Interstitial-Lung-Diseases22.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases22.png)
 
 **Robbins Basic Pathology**
 
@@ -393,13 +393,13 @@ silicosis**
 
 **an asbestos body, revealing the typical beading and knobbed ends **
 
-![](img%5CChronic-Interstitial-Lung-Diseases23.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases23.png)
 
 **Robbins Basic Pathology**
 
 **an asbestos body, revealing the typical beading and knobbed ends **
 
-![](img%5CChronic-Interstitial-Lung-Diseases24.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases24.png)
 
 **Robbins Basic Pathology**
 
@@ -468,7 +468,7 @@ penetrate epithelial cells to reach the interstitium**
   - **Much lower concentrations and without an accompanying interstitial
     fibrosis.**
 
-![](img%5CChronic-Interstitial-Lung-Diseases25.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases25.png)
 
 **Robbins Basic Pathology**
 
@@ -487,7 +487,7 @@ penetrate epithelial cells to reach the interstitium**
 - **Scarring trap and narrow pulmonary arteries and arterioles**
   - **Pulmonary hypertension and cor pulmonale**
 
-![](img%5CChronic-Interstitial-Lung-Diseases26.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases26.png)
 
 **Asbestosis**
 
@@ -498,7 +498,7 @@ diaphragmatic surface**
 
 **Robbins Basic Pathology**
 
-![](img%5CChronic-Interstitial-Lung-Diseases27.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases27.png)
 
 # Pleural plaques
 
@@ -521,7 +521,7 @@ pleural fibrosis.**
 
 **Robbins Basic Pathology**
 
-![](img%5CChronic-Interstitial-Lung-Diseases28.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases28.png)
 
 # Asbestosis
 
@@ -534,7 +534,7 @@ pleural fibrosis.**
 **Concomitant cigarette smoking greatly increases the risk of lung
 carcinoma but not that of mesothelioma**
 
-![](img%5CChronic-Interstitial-Lung-Diseases29.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases29.png)
 
 # DRUG- AND RADIATION-INDUCED PULMONARY DISEASES
 
@@ -569,11 +569,11 @@ carcinoma but not that of mesothelioma**
   - **Progress from acute form**
   - **Associated with pulmonary fibrosis**
 
-![](img%5CChronic-Interstitial-Lung-Diseases30.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases30.png)
 
 # GRANULOMATOUS DISEASES
 
-![](img%5CChronic-Interstitial-Lung-Diseases31.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases31.png)
 
 # SARCOIDOSIS
 
@@ -660,7 +660,7 @@ carcinoma but not that of mesothelioma**
 - **Over time**
   - **Entire granuloma with a hyalinized scar**
 
-![](img%5CChronic-Interstitial-Lung-Diseases32.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases32.png)
 
 **Sarcoid**
 
@@ -675,11 +675,11 @@ cells**
   - **Stellate inclusions enclosed within giant cells**
 - **They are not specific**
 
-![](img%5CChronic-Interstitial-Lung-Diseases33.jpg)
+![](./img-local/Chronic-Interstitial-Lung-Diseases33.jpg)
 
-![](img%5CChronic-Interstitial-Lung-Diseases34.jpg)
+![](./img-local/Chronic-Interstitial-Lung-Diseases34.jpg)
 
-![](img%5CChronic-Interstitial-Lung-Diseases35.jpg)
+![](./img-local/Chronic-Interstitial-Lung-Diseases35.jpg)
 
 # Sarcoidosis
 
@@ -700,7 +700,7 @@ cells**
   - **production of active vitamin D by the mononuclear phagocytes in
     the granulomas**
 
-![](img%5CChronic-Interstitial-Lung-Diseases36.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases36.png)
 
 # HYPERSENSITIVITY PNEUMONITIS
 
@@ -714,7 +714,7 @@ cells**
 
 **The damage at the level of alveoli**
 
-![](img%5CChronic-Interstitial-Lung-Diseases37.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases37.png)
 
 **Robbins Basic Pathology**
 
@@ -742,11 +742,11 @@ cells**
 **Loosely formed interstitial granulomas and chronic inflammation are
 characteristic**
 
-![](img%5CChronic-Interstitial-Lung-Diseases38.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases38.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CChronic-Interstitial-Lung-Diseases39.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases39.png)
 
 # PULMONARY EOSINOPHILIA
 
@@ -792,7 +792,7 @@ the alveolar spaces**
 
 **Periphery of the lung fields**
 
-![](img%5CChronic-Interstitial-Lung-Diseases40.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases40.png)
 
 # SMOKING-RELATED INTERSTITIAL DISEASES
 
@@ -820,7 +820,7 @@ spaces, **
 
 **Slight fibrous thickening of the alveolar walls**
 
-![](img%5CChronic-Interstitial-Lung-Diseases41.png)
+![](./img-local/Chronic-Interstitial-Lung-Diseases41.png)
 
 **Robbins Basic Pathology**
 

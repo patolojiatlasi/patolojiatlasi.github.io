@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors0.jpg)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors0.jpg)
 
 # Gastrointestinal and Pancreas Neuroendocrine Tumors
 
@@ -15,7 +15,7 @@ Serdar Balcı
 
 **Learn his life and his contribution to “Istanbul” and “Karzinoide”**
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors1.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors1.png)
 
 # Carcinoid vs Neuroendocrine Tumor
 
@@ -29,7 +29,7 @@ Serdar Balcı
   - **40% in small intestine**
 - **Tracheobroncial tree, lungs**
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors2.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors2.png)
 
 # Neuroendocrine Tumors
 
@@ -60,11 +60,11 @@ Serdar Balcı
 
 # Grade
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors3.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors3.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors4.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors4.png)
 
 # Neuroendocrine Tumor
 
@@ -79,7 +79,7 @@ and obstruction**
 
 **Robbins Basic Pathology**
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors5.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors5.png)
 
 **Neuroendocrine Tumor**
 
@@ -87,13 +87,13 @@ and obstruction**
 
 **Robbins Basic Pathology**
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors6.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors6.png)
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors7.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors7.png)
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors8.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors8.png)
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors9.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors9.png)
 
 **Neuroendocrine Tumor**
 
@@ -105,19 +105,19 @@ and obstruction**
 
 **Robbins Basic Pathology**
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors10.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors10.png)
 
 # Cytology
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors11.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors11.png)
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors12.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors12.png)
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors13.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors13.png)
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors14.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors14.png)
 
 # Clinical Features of GI NET
 
@@ -156,7 +156,7 @@ carcinoid syndrome**
   - **Gastric NET without predisposing factors (atrophic gastritis) are
     often more aggressive**
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors15.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors15.png)
 
 - **Midgut**
   - **jejunum and ileum**
@@ -178,7 +178,7 @@ carcinoid syndrome**
 
 # PANCREATIC NEUROENDOCRINE TUMORS
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors16.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors16.png)
 
 # Pancreatic Neuroendocrine Tumors
 
@@ -192,19 +192,19 @@ carcinoid syndrome**
 - **Nonfunctional are larger lesions at diagnosis**
   - **no symptoms related to excessive hormone production**
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors17.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors17.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors18.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors18.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors19.jpg)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors19.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors20.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors20.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
@@ -226,7 +226,7 @@ carcinoid syndrome**
   - **Inactivating mutations**
     - **ATRX and DAXX**
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors21.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors21.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
@@ -258,14 +258,14 @@ orientation to the vasculature**
 **Not even malignant lesions present much evidence of anaplasia, and
 they may be deceptively encapsulated**
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors22.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors22.png)
 
 **Deposition of amyloid in the extracellular tissue is a characteristic
 feature of many insulinomas**
 
 **Robbins Basic Pathology**
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors23.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors23.png)
 
 **Under the electron microscope, neoplastic beta cells, like their
 normal counterparts, display distinctive round granules**
@@ -335,22 +335,22 @@ symptoms**
 
 **Multihormonal tumors**
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors24.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors24.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors25.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors25.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors26.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors26.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors27.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors27.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CGastrointestinal-and-Pancreas-Neuroendocrine-Tumors28.png)
+![](./img-local/Gastrointestinal-and-Pancreas-Neuroendocrine-Tumors28.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
