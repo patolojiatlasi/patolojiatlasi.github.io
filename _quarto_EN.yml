@@ -91,6 +91,8 @@ book:
     - part: "---"
     - part: "General Pathology"
       chapters:
+        - text: "Techniques Used in Pathology"
+          href: teknik.qmd
         - text: "Intracellular Accumulations"
           href: hucreicibirikimler.qmd
         - text: "Extracellular Accumulations"

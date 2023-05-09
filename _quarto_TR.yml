@@ -109,6 +109,8 @@ book:
     - part: "---"
     - part: "Genel Patoloji"
       chapters:
+        - text: "Patolojide Kullanılan Teknikler"
+          href: teknik.qmd
         - text: "Hücre İçi Birikimler"
           href: hucreicibirikimler.qmd
         - text: "Hücre Dışı Birikimler"
