@@ -3,11 +3,11 @@ source("./R/language.R")
 ```
 
 ```{asis, echo = (language == "TR")}
-# Miksoid Liposarkom
+# Miksoid Liposarkom {#sec-miksoid-liposarkom}
 ```
 
 ```{asis, echo = (language == "EN")}
-# Myxoid Liposarcoma
+# Myxoid Liposarcoma {#sec-myxoid-liposarcoma}
 ```
 
 ```{asis, echo = (language == "TR")}

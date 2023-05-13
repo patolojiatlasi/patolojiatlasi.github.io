@@ -3,19 +3,19 @@ source("./R/language.R")
 ```
 
 ```{asis, echo = language == "TR"}
-# Bakteriler
+# Bakteriler {#sec-bakteriler}
 ```
 
 ```{asis, echo = language == "EN"}
-# Bacteria
+# Bacteria {#sec-bacteria}
 ```
 
 ```{asis, echo = language == "TR"}
-## Helicobacter pylori
+## Helicobacter pylori {#sec-helicobacter-pylori}
 ```
 
 ```{asis, echo = language == "EN"}
-## Helicobacter pylori
+## Helicobacter pylori {#sec-helicobacter-pylori}
 ```
 
 ```{asis, echo = language == "TR"}

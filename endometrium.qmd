@@ -6,13 +6,13 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## Endometrial Polip
+## Endometrial Polip {#sec-endometrial-polip}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Endometrial Polyp
+## Endometrial Polyp {#sec-endometrial-polyp}
 
 ```
 

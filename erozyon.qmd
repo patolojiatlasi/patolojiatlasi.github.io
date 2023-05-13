@@ -9,7 +9,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-# Erozyon
+# Erozyon {#sec-erozyon}
 
 ```
 
@@ -18,7 +18,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-# Erosion
+# Erosion {#sec-erosion}
 
 ```
 
@@ -27,7 +27,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## Mide mukozasında erozyon
+## Mide mukozasında erozyon {#sec-mide-mukozasinda-erozyon}
 
 ```
 
@@ -36,7 +36,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## Erosion in Gastric Mucosa
+## Erosion in Gastric Mucosa {#sec-erosion-in-gastric-mucosa}
 
 ```
 

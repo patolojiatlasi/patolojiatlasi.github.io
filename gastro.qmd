@@ -8,17 +8,17 @@ source("./R/language.R")
 
 
 
-```{asis, echo = (language == "TR")}
+```{asis, echo = (language == "EN")}
 
-# Pathology of the Gastrointestinal System 
+# Pathology of the Gastrointestinal System  {#sec-pathology-of-the-gastrointestinal-system}
 
 ```
 
 
 
 
-```{asis, echo = (language == "EN")}
+```{asis, echo = (language == "TR")}
 
-# Gastrointestinal Sistem Patolojisi
+# Gastrointestinal Sistem Patolojisi {#sec-gastrointestinal-sistem-patolojisi}
 
 ```

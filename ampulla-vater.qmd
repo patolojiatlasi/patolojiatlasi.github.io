@@ -8,7 +8,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-# Ampulla Vater
+# Ampulla Vater {#sec-ampulla-vater}
 
 ```
 
@@ -17,7 +17,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-# Ampulla of Vater
+# Ampulla of Vater {#sec-ampulla-of-vater}
 
 ```
 
@@ -26,7 +26,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## Ampulla Vater Adenokarsinomu
+## Ampulla Vater Adenokarsinomu {#sec-ampulla-vater-adenokarsinomu}
 
 ```
 
@@ -35,7 +35,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## Adenocarcinoma of Ampulla of Vater
+## Adenocarcinoma of Ampulla of Vater {#sec-adenocarcinoma-of-ampulla-of-vater}
 
 ```
 

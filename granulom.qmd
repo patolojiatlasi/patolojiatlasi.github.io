@@ -3,19 +3,19 @@ source("./R/language.R")
 ```
 
 ```{asis, echo = (language == "TR")}
-# Granülamatöz İnflamasyon
+# Granülamatöz İnflamasyon {#sec-granulamatoz-inflamasyon}
 ```
 
 ```{asis, echo = (language == "EN")}
-# Granulomatous Inflammation
+# Granulomatous Inflammation {#sec-granulamatous-inflammation}
 ```
 
 ```{asis, echo = (language == "TR")}
-## Nekrotizan Granülamatöz İnflamasyon
+## Nekrotizan Granülamatöz İnflamasyon {#sec-nekrotizan-granulamatoz-inflamasyon}
 ```
 
 ```{asis, echo = (language == "EN")}
-## Necrotising Granulomatous Inflammation
+## Necrotising Granulomatous Inflammation {#sec-necrotising-granulamatoz-inflamation}
 ```
 
 ```{asis, echo = (language == "TR")}

@@ -4,17 +4,17 @@ source("./R/language.R")
 
 ```
 
-# [Hacettepe Case Of the Month (COM)](https://hacettepepathology.com/)
+# [Hacettepe Case Of the Month (COM)](https://hacettepepathology.com/)  {#sec-hacettepe-case-of-the-month}
 
 ```{asis, echo = (language == "TR")}
 
-## Case-1
+## Case-1 {#sec-hacettepe-case-of-the-month-case-1}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-1
+## Case-1 {#sec-hacettepe-case-of-the-month-case-1}
 
 ```
 
@@ -98,13 +98,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-2
+## Case-2 {#sec-hacettepe-case-of-the-month-case-2}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-2
+## Case-2 {#sec-hacettepe-case-of-the-month-case-2}
 
 ```
 
@@ -189,13 +189,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-3
+## Case-3 {#sec-hacettepe-case-of-the-month-case-3}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-3
+## Case-3 {#sec-hacettepe-case-of-the-month-case-3}
 
 ```
 
@@ -281,13 +281,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-4
+## Case-4 {#sec-hacettepe-case-of-the-month-case-4}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-4
+## Case-4 {#sec-hacettepe-case-of-the-month-case-4}
 
 ```
 
@@ -390,13 +390,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-5
+## Case-5 {#sec-hacettepe-case-of-the-month-case-5}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-5
+## Case-5 {#sec-hacettepe-case-of-the-month-case-5}
 
 ```
 
@@ -482,13 +482,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-6
+## Case-6 {#sec-hacettepe-case-of-the-month-case-6}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-6
+## Case-6 {#sec-hacettepe-case-of-the-month-case-6}
 
 ```
 
@@ -577,13 +577,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-7
+## Case-7 {#sec-hacettepe-case-of-the-month-case-7}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-7
+## Case-7 {#sec-hacettepe-case-of-the-month-case-7}
 
 ```
 
@@ -671,13 +671,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-8
+## Case-8 {#sec-hacettepe-case-of-the-month-case-8}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-8
+## Case-8 {#sec-hacettepe-case-of-the-month-case-8}
 
 ```
 
@@ -770,13 +770,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-9
+## Case-9 {#sec-hacettepe-case-of-the-month-case-9}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-9
+## Case-9 {#sec-hacettepe-case-of-the-month-case-9}
 
 ```
 
@@ -867,13 +867,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-10
+## Case-10 {#sec-hacettepe-case-of-the-month-case-10}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-10
+## Case-10 {#sec-hacettepe-case-of-the-month-case-10}
 
 ```
 
@@ -958,13 +958,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-11
+## Case-11 {#sec-hacettepe-case-of-the-month-case-11}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-11
+## Case-11 {#sec-hacettepe-case-of-the-month-case-11}
 
 ```
 
@@ -1056,13 +1056,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-12
+## Case-12 {#sec-hacettepe-case-of-the-month-case-12}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-12
+## Case-12 {#sec-hacettepe-case-of-the-month-case-12}
 
 ```
 
@@ -1151,13 +1151,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-13
+## Case-13 {#sec-hacettepe-case-of-the-month-case-13}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-13
+## Case-13 {#sec-hacettepe-case-of-the-month-case-13}
 
 ```
 
@@ -1242,13 +1242,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-14
+## Case-14 {#sec-hacettepe-case-of-the-month-case-14}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-14
+## Case-14 {#sec-hacettepe-case-of-the-month-case-14}
 
 ```
 
@@ -1333,13 +1333,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-15
+## Case-15 {#sec-hacettepe-case-of-the-month-case-15}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-15
+## Case-15 {#sec-hacettepe-case-of-the-month-case-15}
 
 ```
 
@@ -1426,13 +1426,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-16
+## Case-16 {#sec-hacettepe-case-of-the-month-case-16}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-16
+## Case-16 {#sec-hacettepe-case-of-the-month-case-16}
 
 ```
 
@@ -1519,13 +1519,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-17
+## Case-17 {#sec-hacettepe-case-of-the-month-case-17}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-17
+## Case-17 {#sec-hacettepe-case-of-the-month-case-17}
 
 ```
 
@@ -1622,13 +1622,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-18
+## Case-18 {#sec-hacettepe-case-of-the-month-case-18}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-18
+## Case-18 {#sec-hacettepe-case-of-the-month-case-18}
 
 ```
 
@@ -1713,13 +1713,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-19
+## Case-19 {#sec-hacettepe-case-of-the-month-case-19}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-19
+## Case-19 {#sec-hacettepe-case-of-the-month-case-19}
 
 ```
 
@@ -1804,13 +1804,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-20
+## Case-20 {#sec-hacettepe-case-of-the-month-case-20}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-20
+## Case-20 {#sec-hacettepe-case-of-the-month-case-20}
 
 ```
 
@@ -1897,13 +1897,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-21
+## Case-21 {#sec-hacettepe-case-of-the-month-case-21}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-21
+## Case-21 {#sec-hacettepe-case-of-the-month-case-21}
 
 ```
 
@@ -1988,13 +1988,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-22
+## Case-22 {#sec-hacettepe-case-of-the-month-case-22}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-22
+## Case-22 {#sec-hacettepe-case-of-the-month-case-22}
 
 ```
 
@@ -2081,13 +2081,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-23
+## Case-23 {#sec-hacettepe-case-of-the-month-case-23}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-23
+## Case-23 {#sec-hacettepe-case-of-the-month-case-23}
 
 ```
 
@@ -2172,13 +2172,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-24
+## Case-24 {#sec-hacettepe-case-of-the-month-case-24}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-24
+## Case-24 {#sec-hacettepe-case-of-the-month-case-24}
 
 ```
 
@@ -2263,13 +2263,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Case-25
+## Case-25 {#sec-hacettepe-case-of-the-month-case-25}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Case-25
+## Case-25 {#sec-hacettepe-case-of-the-month-case-25}
 
 ```
 

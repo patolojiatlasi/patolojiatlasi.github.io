@@ -5,18 +5,18 @@ source("./R/language.R")
 
 
 ```{asis, echo = (language == "TR")}
-# Duodenum
+# Duodenum {#sec-duodenum}
 ```
 
 ```{asis, echo = (language == "EN")}
-# Duodenum
+# Duodenum {#sec-duodenum}
 ```
 
 
 
 ```{asis, echo = (language == "TR")}
 
-## Çölyak Hastalığı
+## Çölyak Hastalığı {#sec-colyak-hastaligi}
 
 ```
 
@@ -25,7 +25,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## Celiac Disease
+## Celiac Disease {#sec-celiac-disease}
 
 ```
 

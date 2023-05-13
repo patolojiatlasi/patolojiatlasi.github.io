@@ -3,11 +3,11 @@ source("./R/language.R")
 ```
 
 ```{asis, echo = (language == "TR")}
-# Adenokarsinomda Ekstramural Venöz İnvazyon
+# Adenokarsinomda Ekstramural Venöz İnvazyon {#sec-adenokarsinomda-ekstramural-venoz-invazyon}
 ```
 
 ```{asis, echo = (language == "EN")}
-# Extramural Venous Invasion in Adenocarcinoma
+# Extramural Venous Invasion in Adenocarcinoma {#sec-extramural-venoz-invazyon-in-adenocarcinoma}
 ```
 
 ```{asis, echo = (language == "TR")}

@@ -3,11 +3,11 @@ source("./R/language.R")
 ```
 
 ```{asis, echo = (language == "TR")}
-# Yüksek Dereceli Gliom Yayma Preparat
+# Yüksek Dereceli Gliom Yayma Preparat {#sec-yuksek-dereceli-gliom-yayma-preparat}
 ```
 
 ```{asis, echo = (language == "EN")}
-# High Grade Glioma Squash Slide
+# High Grade Glioma Squash Slide {#sec-high-grade-glioma-squash-slide}
 ```
 
 ```{asis, echo = (language == "TR")}

@@ -10,7 +10,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-# Akut İnflamasyon
+# Akut İnflamasyon {#sec-akut-inflamasyon}
 
 ```
 
@@ -19,7 +19,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-# Acute Inflammation
+# Acute Inflammation {#sec-acute-inflammation}
 
 ```
 
@@ -28,7 +28,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## Akut Appendisit
+## Akut Appendisit {#sec-akut-appendisit}
 
 ```
 
@@ -37,7 +37,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## Acute Appendicitis
+## Acute Appendicitis {#sec-acute-appendicitis}
 
 ```
 

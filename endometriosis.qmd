@@ -6,13 +6,13 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## Endometriozis
+## Endometriozis {#sec-endometriozis}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Endometriosis
+## Endometriosis {#sec-endometriosis}
 
 ```
 
