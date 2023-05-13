@@ -1,7 +1,7 @@
 # Amyloidosis
 Serdar Balcı
 
-![](img%5CAmyloidosispptx-sunum0.jpg)
+![](./img-local/Amyloidosispptx-sunum0.jpg)
 
 # Amyloidosis
 
@@ -17,25 +17,25 @@ Serdar Balcı
     accumulate**
     - **Abnormal fibrils**
 
-![](img%5CAmyloidosispptx-sunum1.png)
+![](./img-local/Amyloidosispptx-sunum1.png)
 
 **Right conjunctival amyloidosis.**
 
 **Al-Ola Abdallah, et al. Am J Case Rep. 2012;13:102-105.**
 
-![](img%5CAmyloidosispptx-sunum2.png)
+![](./img-local/Amyloidosispptx-sunum2.png)
 
 **Systemic AL amyloidosis**
 
 **Estelle Desport, et al. Orphanet J Rare Dis. 2012;7:54-54.**
 
-![](img%5CAmyloidosispptx-sunum3.png)
+![](./img-local/Amyloidosispptx-sunum3.png)
 
 **Macroglossia due to amyloidosis**
 
 **Hakan Emmungil, et al. Case Rep Rheumatol. 2014;2014:549641.**
 
-![](img%5CAmyloidosispptx-sunum4.png)
+![](./img-local/Amyloidosispptx-sunum4.png)
 
 **A patient with macroglossia**
 
@@ -65,7 +65,7 @@ Serdar Balcı
   - **Congo red stain binds to these fibrils and produces a red–green
     birefringence**
 
-![](img%5CAmyloidosispptx-sunum5.png)
+![](./img-local/Amyloidosispptx-sunum5.png)
 
 **Robbins Basic Pathology**
 
@@ -90,15 +90,15 @@ Serdar Balcı
   - **prone to misfolding**
   - **aggregation**
 
-![](img%5CAmyloidosispptx-sunum6.jpg)
+![](./img-local/Amyloidosispptx-sunum6.jpg)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CAmyloidosispptx-sunum7.png)
+![](./img-local/Amyloidosispptx-sunum7.png)
 
 **Rubin’s Pathology 7th Ed**
 
-![](img%5CAmyloidosispptx-sunum8.png)
+![](./img-local/Amyloidosispptx-sunum8.png)
 
 **Rubin’s Pathology 7th Ed**
 
@@ -137,11 +137,11 @@ Serdar Balcı
   - **Larger transmembrane glycoprotein**
   - **Amyloid precursor protein (APP)**
 
-![](img%5CAmyloidosispptx-sunum9.png)
+![](./img-local/Amyloidosispptx-sunum9.png)
 
 **Rubin’s Pathology 7th Ed**
 
-![](img%5CAmyloidosispptx-sunum10.png)
+![](./img-local/Amyloidosispptx-sunum10.png)
 
 **Color Atlas of Pathology**
 
@@ -183,11 +183,11 @@ Serdar Balcı
 
 # CLASSIFICATION OF AMYLOIDOSIS
 
-![](img%5CAmyloidosispptx-sunum11.png)
+![](./img-local/Amyloidosispptx-sunum11.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAmyloidosispptx-sunum12.png)
+![](./img-local/Amyloidosispptx-sunum12.png)
 
 # Primary Amyloidosis: Immunocyte Dyscrasias with Amyloidosis
 
@@ -292,11 +292,11 @@ inflammation**
   - **Undifferentiated carcinomas of the stomach**
 - **Islets of Langerhans, type 2 diabetes mellitus**
 
-![](img%5CAmyloidosispptx-sunum13.png)
+![](./img-local/Amyloidosispptx-sunum13.png)
 
 **Color Atlas of Pathology**
 
-![](img%5CAmyloidosispptx-sunum14.png)
+![](./img-local/Amyloidosispptx-sunum14.png)
 
 **Medullary carcinoma of thyroid**
 
@@ -356,31 +356,31 @@ staining\_\_
 
 **Genetic mutation analysis**
 
-![](img%5CAmyloidosispptx-sunum15.png)
+![](./img-local/Amyloidosispptx-sunum15.png)
 
 **Robbins Basic Pathology**
 
 # Congo red–stain: Apple-green birefringence under polarized light
 
-![](img%5CAmyloidosispptx-sunum16.png)
+![](./img-local/Amyloidosispptx-sunum16.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAmyloidosispptx-sunum17.png)
+![](./img-local/Amyloidosispptx-sunum17.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAmyloidosispptx-sunum18.png)
+![](./img-local/Amyloidosispptx-sunum18.png)
 
-![](img%5CAmyloidosispptx-sunum19.png)
+![](./img-local/Amyloidosispptx-sunum19.png)
 
-![](img%5CAmyloidosispptx-sunum20.png)
+![](./img-local/Amyloidosispptx-sunum20.png)
 
-![](img%5CAmyloidosispptx-sunum21.png)
+![](./img-local/Amyloidosispptx-sunum21.png)
 
-![](img%5CAmyloidosispptx-sunum22.png)
+![](./img-local/Amyloidosispptx-sunum22.png)
 
-![](img%5CAmyloidosispptx-sunum23.png)
+![](./img-local/Amyloidosispptx-sunum23.png)
 
 # Amyloid in Kidney
 
@@ -401,7 +401,7 @@ staining\_\_
   - **Walls of the blood vessels**
     - **Marked vascular narrowing**
 
-![](img%5CAmyloidosispptx-sunum24.png)
+![](./img-local/Amyloidosispptx-sunum24.png)
 
 **Rubin’s Pathology 7th Ed**
 
@@ -413,7 +413,7 @@ staining\_\_
 
 **Limited to splenic sinuses**
 
-![](img%5CAmyloidosispptx-sunum25.png)
+![](./img-local/Amyloidosispptx-sunum25.png)
 
 **Color Atlas of Pathology**
 
@@ -436,7 +436,7 @@ and sinusoids**
 **Normal liver function may be preserved even in the setting of severe
 involvement**
 
-![](img%5CAmyloidosispptx-sunum26.png)
+![](./img-local/Amyloidosispptx-sunum26.png)
 
 **Rubin’s Pathology 7th Ed**
 
@@ -458,11 +458,11 @@ involvement**
 
 **Deposits begin between myocardial fibers cause pressure atrophy**
 
-![](img%5CAmyloidosispptx-sunum27.png)
+![](./img-local/Amyloidosispptx-sunum27.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAmyloidosispptx-sunum28.png)
+![](./img-local/Amyloidosispptx-sunum28.png)
 
 **Rubin’s Pathology 7th Ed**
 

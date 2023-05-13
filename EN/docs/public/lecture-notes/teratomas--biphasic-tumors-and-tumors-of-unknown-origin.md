@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CTeratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin0.jpg)
+![](./img-local/Teratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin0.jpg)
 
 # Teratomas, biphasic tumors and tumors of unknown origin
 
@@ -19,14 +19,14 @@ Serdar Balcı
 - **Incidentally**
 - **Bilateral in 10-15% of cases**
 
-![](img%5CTeratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin1.png)
+![](./img-local/Teratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin1.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
 **Stratified squamous epithelium, sebaceous glands, hair shafts, skin
 adnexal structures, cartilage, bone, thyroid tissue, neural tissues**
 
-![](img%5CTeratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin2.png)
+![](./img-local/Teratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin2.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
@@ -68,7 +68,7 @@ neuroepithelium**
 
 **Penetrate the capsule, and spread either locally or distantly**
 
-![](img%5CTeratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin3.png)
+![](./img-local/Teratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin3.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
@@ -79,11 +79,11 @@ neuroepithelium**
 **Capable of metastatic behavior whether the elements are mature or
 immature**
 
-![](img%5CTeratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin4.png)
+![](./img-local/Teratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin4.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CTeratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin5.png)
+![](./img-local/Teratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin5.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
@@ -112,25 +112,25 @@ immature**
   - **Carcinoma ex pleomorphic adenoma**
   - **Malignant mixed tumor**
 
-![](img%5CTeratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin6.png)
+![](./img-local/Teratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin6.png)
 
 **Rubin’s Pathology 7th Ed**
 
-![](img%5CTeratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin7.png)
+![](./img-local/Teratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin7.png)
 
 **Rubin’s Pathology 7th Ed**
 
-![](img%5CTeratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin8.png)
+![](./img-local/Teratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin8.png)
 
 **Rubin’s Pathology 7th Ed**
 
-![](img%5CTeratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin9.png)
+![](./img-local/Teratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin9.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
 # Fibroadenoma
 
-![](img%5CTeratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin10.png)
+![](./img-local/Teratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin10.png)
 
 **Fibroadenoma**
 
@@ -142,11 +142,11 @@ immature**
 
 **Benign biphasic tumor of breat**
 
-![](img%5CTeratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin11.png)
+![](./img-local/Teratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin11.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CTeratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin12.png)
+![](./img-local/Teratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin12.png)
 
 **Fibroadenoma**
 
@@ -154,7 +154,7 @@ immature**
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CTeratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin13.png)
+![](./img-local/Teratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin13.png)
 
 **Phylloides tumor**
 
@@ -173,11 +173,11 @@ immature**
   - **EWS gene on chromosome 22**
   - **FLI1 a gene encoding an ETS family transcription factor**
 
-![](img%5CTeratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin14.png)
+![](./img-local/Teratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin14.png)
 
 **Rubin’s Pathology 7th Ed**
 
-![](img%5CTeratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin15.png)
+![](./img-local/Teratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin15.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
@@ -189,7 +189,7 @@ immature**
   - **SS18-SSX1, SSX2, or SSX4 fusion genes, encode chimeric
     transcription factors**
 
-![](img%5CTeratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin16.png)
+![](./img-local/Teratomas%2C-biphasic-tumors-and-tumors-of-unknown-origin16.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 

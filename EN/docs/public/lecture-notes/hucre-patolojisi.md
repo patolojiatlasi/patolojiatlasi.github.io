@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CHucre-Patolojisi-web0.jpg)
+![](./img-local/Hucre-Patolojisi-web0.jpg)
 
 # Hücre Patolojisi
 

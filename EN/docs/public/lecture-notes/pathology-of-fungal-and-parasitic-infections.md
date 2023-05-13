@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections0.jpg)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections0.jpg)
 
 # Pathology of Fungal and Parasitic Infections
 
@@ -77,7 +77,7 @@ Serdar Balcı
   - **Newborns, debilitated people, children receiving oral steroids for
     asthma, broad-spectrum antibiotics, HIV-positive patients**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections1.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections1.png)
 
 **Rubin’s Pathology 7th Ed, Clinicopathologic Foundations Of Medicine**
 
@@ -86,7 +86,7 @@ Serdar Balcı
   - **Dysphagia (painful swallowing) and retrosternal pain**
   - **White plaques and pseudomembranes resembling oral thrush**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections2.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections2.png)
 
 **Robbins and Cotran’s Pathological Basis of Disease**
 
@@ -128,11 +128,11 @@ Serdar Balcı
   - **Melanin production**
   - **Enzymes**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections3.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections3.png)
 
 **Robbins and Cotran’s Pathological Basis of Disease**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections4.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections4.png)
 
 **Rubin’s Pathology 7th Ed, Clinicopathologic Foundations Of Medicine**
 
@@ -222,7 +222,7 @@ cavities**
 
 # Invasive aspergillosis
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections5.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections5.png)
 
 - **Opportunistic infection**
 - **Lung, heart valves, brain**
@@ -232,11 +232,11 @@ cavities**
 
 **Robbins and Cotran’s Pathological Basis of Disease**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections6.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections6.png)
 
 **Rubin’s Pathology 7th Ed**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections7.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections7.png)
 
 **Robbins and Cotran’s Pathological Basis of Disease**
 
@@ -248,11 +248,11 @@ cavities**
 
 **Branching at acute angles (40 degrees)**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections8.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections8.png)
 
 **Robbins and Cotran’s Pathological Basis of Disease**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections9.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections9.png)
 
 **Robbins and Cotran’s Pathological Basis of Disease**
 
@@ -291,15 +291,15 @@ cavities**
 
 **Demonstrated in necrotic tissues by H&E and special stains**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections10.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections10.png)
 
 **Robbins and Cotran’s Pathological Basis of Disease**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections11.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections11.png)
 
 **Robbins and Cotran’s Pathological Basis of Disease**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections12.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections12.png)
 
 **Rubin’s Pathology 7th Ed, Clinicopathologic Foundations Of Medicine**
 
@@ -321,13 +321,13 @@ cavities**
   - **Primary in people with severe immunodeficiency**
   - **Hemorrhagic pneumonia, vascular thrombi, distal infarctions**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections13.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections13.png)
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections14.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections14.png)
 
 **Rubin’s Pathology 7th Ed Clinicopathologic Foundations Of Medicine**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections15.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections15.png)
 
 **Rubin’s Pathology 7th Ed Clinicopathologic Foundations Of Medicine**
 
@@ -341,17 +341,17 @@ cavities**
 
 **Transmitted by insects, fecal-oral route**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections16.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections16.png)
 
 **Robbins and Cotran’s Pathological Basis of Disease**
 
 # Malaria
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections17.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections17.png)
 
 **Rubin’s Pathology 7th Ed Clinicopathologic Foundations Of Medicine**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections18.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections18.png)
 
 **Robbins and Cotran’s Pathological Basis of Disease**
 
@@ -409,7 +409,7 @@ numerous**
   - **focal ischemic softening**
   - **inflammatory infiltrates in the meninges**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections19.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections19.png)
 
 **Robbins and Cotran’s Pathological Basis of Disease**
 
@@ -436,13 +436,13 @@ numerous**
   - **Erythrophagocytosis**
   - **Visceral hemorrhages**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections20.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections20.png)
 
 **Robbins and Cotran’s Pathological Basis of Disease**
 
 # Leishmaniasis
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections21.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections21.png)
 
 **Robbins and Cotran’s Pathological Basis of Disease**
 
@@ -524,7 +524,7 @@ with leishmania**
   - **Continuously undergo genetic rearrangement and escape from immune
     response**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections22.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections22.png)
 
 **Robbins and Cotran’s Pathological Basis of Disease**
 
@@ -593,7 +593,7 @@ with leishmania**
   - **Lungs**
   - **may even be found in large numbers in sputum**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections23.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections23.png)
 
 **Robbins and Cotran’s Pathological Basis of Disease**
 
@@ -606,7 +606,7 @@ with leishmania**
   - **skin**
   - **heart**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections24.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections24.png)
 
 **Robbins and Cotran’s Pathological Basis of Disease**
 
@@ -624,7 +624,7 @@ with leishmania**
   - **there is inflammation, followed by focal scarring, and
     calcifications, which may be visible by radiography**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections25.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections25.png)
 
 **Rubin’s Pathology 7th Ed Clinicopathologic Foundations Of Medicine**
 
@@ -662,15 +662,15 @@ cm in diameter**
 - **Degenerating scolices of the worm produce a fine, sandlike sediment
   within the hydatid fluid (“hydatid sand”)**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections26.jpg)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections26.jpg)
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections27.jpg)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections27.jpg)
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections28.jpg)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections28.jpg)
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections29.jpg)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections29.jpg)
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections30.jpg)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections30.jpg)
 
 # Trichinosis
 
@@ -680,7 +680,7 @@ cm in diameter**
   - **diaphragm, extraocular, laryngeal, deltoid, gastrocnemius, and
     intercostal muscles**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections31.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections31.png)
 
 **Robbins and Cotran’s Pathological Basis of Disease**
 
@@ -697,11 +697,11 @@ eosinophils**
 
 **Eosinophils are distinctive for helminth infections**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections32.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections32.png)
 
 **Robbins and Cotran’s Pathological Basis of Disease**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections33.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections33.png)
 
 **Robbins and Cotran’s Pathological Basis of Disease**
 
@@ -715,7 +715,7 @@ eosinophils**
   - **Subcutaneous fibrosis**
   - **Epithelial hyperkeratosis**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections34.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections34.png)
 
 **Robbins and Cotran’s Pathological Basis of Disease**
 
@@ -728,7 +728,7 @@ eosinophils**
   - **Mixed chronic inflammatory infiltrate that includes fibrin,
     neutrophils, eosinophils, lymphocytes, and giant cells**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections35.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections35.png)
 
 **Robbins and Cotran’s Pathological Basis of Disease**
 
@@ -745,83 +745,83 @@ eosinophils**
 
 # 
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections36.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections36.png)
 
 **Color Atlas Of Pathology**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections37.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections37.png)
 
 **Color Atlas Of Pathology**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections38.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections38.png)
 
 **Color Atlas Of Pathology**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections39.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections39.png)
 
 **Color Atlas Of Pathology**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections40.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections40.png)
 
 **Color Atlas Of Pathology**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections41.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections41.png)
 
 **Color Atlas Of Pathology**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections42.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections42.png)
 
 **Color Atlas Of Pathology**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections43.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections43.png)
 
 **Color Atlas Of Pathology**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections44.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections44.png)
 
 **Color Atlas Of Pathology**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections45.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections45.png)
 
 **Color Atlas Of Pathology**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections46.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections46.png)
 
 **Color Atlas Of Pathology**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections47.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections47.png)
 
 **Color Atlas Of Pathology**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections48.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections48.png)
 
 **Color Atlas Of Pathology**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections49.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections49.png)
 
 **Color Atlas Of Pathology**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections50.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections50.png)
 
 **Color Atlas Of Pathology**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections51.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections51.png)
 
 **Rubin’s Pathology 7th Ed Clinicopathologic Foundations Of Medicine**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections52.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections52.png)
 
 **Rubin’s Pathology 7th Ed Clinicopathologic Foundations Of Medicine**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections53.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections53.png)
 
 **Rubin’s Pathology 7th Ed Clinicopathologic Foundations Of Medicine**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections54.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections54.png)
 
 **Rubin’s Pathology 7th Ed Clinicopathologic Foundations Of Medicine**
 
-![](img%5CPathology-of-Fungal-and-Parasitic-Infections55.png)
+![](./img-local/Pathology-of-Fungal-and-Parasitic-Infections55.png)
 
 **Rubin’s Pathology 7th Ed Clinicopathologic Foundations Of Medicine**
 

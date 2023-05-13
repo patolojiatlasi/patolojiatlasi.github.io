@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B10.jpg)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B10.jpg)
 
 # Inflamatuar Barsak Hastalıkları
 
@@ -17,17 +17,17 @@ Serdar Balcı
 
 **Ülseratif Kolit**
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B11.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B11.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B12.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B12.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B13.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B13.png)
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B14.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B14.png)
 
 **Robbins Basic Pathology**
 
@@ -126,11 +126,11 @@ CD ile ilişkili değil**
 - **CD riski sigara ile artıyor**
   - **UC riski ise sigara ile azalıyor**
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B15.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B15.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B16.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B16.png)
 
 # Crohn Hastalığı
 
@@ -147,7 +147,7 @@ CD ile ilişkili değil**
 
 **Robbins Basic Pathology**
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B17.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B17.png)
 
 **Robbins Basic Pathology**
 
@@ -161,17 +161,17 @@ CD ile ilişkili değil**
   - **Kaba, kaldırım taşı görünümü**
   - **Hastalıklı doku normal mukoza seviyesinin altında**
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B18.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B18.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B19.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B19.png)
 
 **Early lesion of the ileum showing hyperemia and focal ulceration**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B110.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B110.png)
 
 **Chronic lesion involving the ileum**
 
@@ -190,7 +190,7 @@ coarsely textured (“cobblestone”) mucosa with fissures**
   - **M.propriada hipertrofi**
     - **Striktür gelişimi**
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B111.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B111.png)
 
 **Belirgin transmural hastalık**
 
@@ -210,7 +210,7 @@ coarsely textured (“cobblestone”) mucosa with fissures**
 
 **Ülsere ve normal mukoza arasında ani geçiş**
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B112.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B112.png)
 
 **Tekrarlayan hasar ve tamir**
 
@@ -233,7 +233,7 @@ düzensiz kriptler**
 - **Mukozal atrofi ve kript kaybı yıllar süren hastalık sonrası
   gelişir**
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B113.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B113.png)
 
 **Nonkazeifiye granülomlar**
 
@@ -245,7 +245,7 @@ düzensiz kriptler**
 
 **Robbins Basic Pathology**
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B114.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B114.png)
 
 **Nonkazeifiye granülomlar**
 
@@ -280,15 +280,15 @@ düzensiz kriptler**
     - **Ülseratif kolitte daha sık**
   - **Uzun süren hastalıklarda artmış kolon adenokarsinomu riski**
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B115.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B115.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B116.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B116.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B117.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B117.png)
 
 **Robbins Basic Pathology**
 
@@ -304,15 +304,15 @@ düzensiz kriptler**
 - **Kolonu kısmen ya da tümüyle tuta**
 - **Kesintili tutulum görülmez**
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B118.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B118.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B119.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B119.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B120.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B120.png)
 
 **Pankolit: Tüm kolonun tutulumu**
 
@@ -322,7 +322,7 @@ düzensiz kriptler**
 
 **Robbins Basic Pathology**
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B121.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B121.png)
 
 **Distal kolonda geniş tabanlı ülserasyonlar**
 
@@ -338,7 +338,7 @@ düzensiz kriptler**
   - **Pankolit varsa, Distal ileumda hafif inflamasyon ve backwash
     ileitis görülebilir**
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B122.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B122.png)
 
 **Geniş tabanlı ülser**
 
@@ -363,7 +363,7 @@ düzensiz kriptler**
 
 # Histolojik Bulgular
 
-![](img%5CInflamatuar-Barsak-Hastal%C4%B1klar%C4%B123.png)
+![](./img-local/Inflamatuar-Barsak-Hastal%C4%B1klar%C4%B123.png)
 
 - **Crohn’a benzer**
   - **Inflamasyon**

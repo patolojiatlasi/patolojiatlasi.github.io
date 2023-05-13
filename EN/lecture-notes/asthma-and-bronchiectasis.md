@@ -1,5 +1,17 @@
-# Asthma and Bronchiectasis
-Serdar Balcı
+---
+title: "Asthma and Bronchiectasis"
+author: Serdar Balcı
+format:
+  revealjs:
+    scrollable: true
+  gfm:
+    preview-mode: raw
+lang: en
+keep-md: true
+# editor: visual
+---
+
+
 
 ![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B10.jpg)
 
@@ -9,12 +21,12 @@ Serdar Balcı
 
 # Asthma
 
-- **Chronic inflammatory disorder of the airways**
-- **Recurrent episodes of wheezing, breathlessness, chest tightness**
-- **Cough at night and/or early in the morning**
-- **Difficulty in expiration**
-  - **Progressive hyperinflation of the lungs**
-  - **Air trapped distal to the bronchi**
+-   **Chronic inflammatory disorder of the airways**
+-   **Recurrent episodes of wheezing, breathlessness, chest tightness**
+-   **Cough at night and/or early in the morning**
+-   **Difficulty in expiration**
+    -   **Progressive hyperinflation of the lungs**
+    -   **Air trapped distal to the bronchi**
 
 **Intermittent and reversible airway obstruction**
 
@@ -24,66 +36,63 @@ Serdar Balcı
 
 **Increased mucus secretion**
 
-- **Stimuli that trigger attacks in patients would have little or no
-  effect in persons with normal airways**
+-   **Stimuli that trigger attacks in patients would have little or no effect in persons with normal airways**
 
-- **Inflammatory response**
+-   **Inflammatory response**
 
-  - **Eosinophils, mast cells, macrophages, lymphocytes, neutrophils,
-    epithelial cells**
+    -   **Eosinophils, mast cells, macrophages, lymphocytes, neutrophils, epithelial cells**
 
-- **Significant increase in the incidence of asthma in the Western
-  world**
+-   **Significant increase in the incidence of asthma in the Western world**
 
-  - **Hygiene hypothesis**
-  - **Eradication of infections may alter immune homeostasis**
-  - **Promote allergic and other harmful immune responses**
+    -   **Hygiene hypothesis**
+    -   **Eradication of infections may alter immune homeostasis**
+    -   **Promote allergic and other harmful immune responses**
 
-- **Atopic **
+-   **Atopic**
 
-  - **Evidence of allergen sensitization**
-  - **History of allergic rhinitis, eczema**
+    -   **Evidence of allergen sensitization**
+    -   **History of allergic rhinitis, eczema**
 
-- **Nonatopic**
+-   **Nonatopic**
 
-- **Episodes of bronchospasm triggered by**
+-   **Episodes of bronchospasm triggered by**
 
-  - **Respiratory infections, viral**
-  - **Environmental irritants, smoke, fumes**
-  - **Cold air**
-  - **Stress**
-  - **Exercise**
+    -   **Respiratory infections, viral**
+    -   **Environmental irritants, smoke, fumes**
+    -   **Cold air**
+    -   **Stress**
+    -   **Exercise**
 
-- **Different patterns of inflammation**
+-   **Different patterns of inflammation**
 
-  - **Eosinophilic**
-  - **Neutrophilic**
-  - **Mixed inflammatory**
-  - **Pauci-granulocytic**
+    -   **Eosinophilic**
+    -   **Neutrophilic**
+    -   **Mixed inflammatory**
+    -   **Pauci-granulocytic**
 
-- **Genetic predisposition to type I hypersensitivity**
+-   **Genetic predisposition to type I hypersensitivity**
 
-  - **Atopy**
+    -   **Atopy**
 
-- **Acute and chronic airway inflammation**
+-   **Acute and chronic airway inflammation**
 
-- **Bronchial hyperresponsiveness to a variety of stimuli**
+-   **Bronchial hyperresponsiveness to a variety of stimuli**
 
-- **Excessive TH2 reaction against environmental antigens**
+-   **Excessive TH2 reaction against environmental antigens**
 
-  - **IL-4 stimulates IgE production**
-  - **IL-5 activates eosinophils**
-  - **IL-13 stimulates mucus production**
-  - **IL-13 promotes IgE production by B cells**
+    -   **IL-4 stimulates IgE production**
+    -   **IL-5 activates eosinophils**
+    -   **IL-13 stimulates mucus production**
+    -   **IL-13 promotes IgE production by B cells**
 
-- **IgE coats submucosal mast cells**
+-   **IgE coats submucosal mast cells**
 
-  - **Exposure to allergen → release granule contents**
+    -   **Exposure to allergen → release granule contents**
 
-- **Two waves of reaction**
+-   **Two waves of reaction**
 
-  - **Early (immediate) phase**
-  - **Late phase**
+    -   **Early (immediate) phase**
+    -   **Late phase**
 
 ![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B11.png)
 
@@ -125,129 +134,122 @@ Serdar Balcı
 
 **Immediate reaction**
 
-**Antigen-induced cross-linking of IgE bound to IgE receptors on mast
-cells**
+**Antigen-induced cross-linking of IgE bound to IgE receptors on mast cells**
 
 **Release preformed mediators**
 
 ![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B15.png)
 
-- **Bronchospasm**
-  - **Directly from mediators**
-  - **Direct stimulation of subepithelial vagal receptors**
-- **Vascular permeability**
-- **Mucus production**
-- **Recruit additional mediator-releasing cells from blood**
+-   **Bronchospasm**
+    -   **Directly from mediators**
+    -   **Direct stimulation of subepithelial vagal receptors**
+-   **Vascular permeability**
+-   **Mucus production**
+-   **Recruit additional mediator-releasing cells from blood**
 
 ![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B16.png)
 
 # Late Phase
 
-- **Leukocytes signals the initiation of the late phase**
-- **Fresh round of mediator release from leukocytes, endothelium,
-  epithelial cells**
-- **Epithelial cells activated**
-  - **Eotaxins**
-- **Major basic protein, eosinophil cationic protein**
-  - **From eosinophils**
-  - **Damage to the epithelium**
+-   **Leukocytes signals the initiation of the late phase**
+-   **Fresh round of mediator release from leukocytes, endothelium, epithelial cells**
+-   **Epithelial cells activated**
+    -   **Eotaxins**
+-   **Major basic protein, eosinophil cationic protein**
+    -   **From eosinophils**
+    -   **Damage to the epithelium**
 
 **Robbins Basic Pathology**
 
 ![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B17.png)
 
-- **Repeated inflammation lead to structural changes**
-  - **Airway remodeling**
-- **Hypertrophy**
-  - **Bronchial smooth muscle**
-  - **Mucus glands**
-- **Increased vascularity**
-- **Deposition of subepithelial collagen**
-- **May occur several years before initiation of symptoms**
+-   **Repeated inflammation lead to structural changes**
+    -   **Airway remodeling**
+-   **Hypertrophy**
+    -   **Bronchial smooth muscle**
+    -   **Mucus glands**
+-   **Increased vascularity**
+-   **Deposition of subepithelial collagen**
+-   **May occur several years before initiation of symptoms**
 
 **Robbins Basic Pathology**
 
 # Asthma
 
-- **Complex genetic disorder**
-- **Multiple susceptibility genes interact with environmental factors**
-- **Variation in the expression of genes**
-- **Combinations of polymorphisms**
-  - **Immune response**
-  - **Tissue remodeling**
-- **Long arm of chromosome 5 (5q)**
-  - **Regulation of IgE synthesis**
-  - **Mast cell and eosinophil growth and differentiation**
-  - **IL13**
-    - **Genetic polymorphisms linked with susceptibility to the
-      development of atopic asthma**
-  - **CD14**
-    - **Single-nucleotide polymorphisms associated with occupational
-      asthma**
-  - **Class II HLA alleles**
-    - **Tendency to produce IgE antibodies**
-  - **β2-adrenergic receptor gene**
-  - **IL-4 receptor gene**
-    - **Atopy, total serum IgE level, and asthma**
-- **20q**
-  - **ADAM-33**
-    - **Regulates proliferation of bronchial smooth muscle and
-      fibroblasts**
-    - **Airway remodeling**
+-   **Complex genetic disorder**
+-   **Multiple susceptibility genes interact with environmental factors**
+-   **Variation in the expression of genes**
+-   **Combinations of polymorphisms**
+    -   **Immune response**
+    -   **Tissue remodeling**
+-   **Long arm of chromosome 5 (5q)**
+    -   **Regulation of IgE synthesis**
+    -   **Mast cell and eosinophil growth and differentiation**
+    -   **IL13**
+        -   **Genetic polymorphisms linked with susceptibility to the development of atopic asthma**
+    -   **CD14**
+        -   **Single-nucleotide polymorphisms associated with occupational asthma**
+    -   **Class II HLA alleles**
+        -   **Tendency to produce IgE antibodies**
+    -   **β2-adrenergic receptor gene**
+    -   **IL-4 receptor gene**
+        -   **Atopy, total serum IgE level, and asthma**
+-   **20q**
+    -   **ADAM-33**
+        -   **Regulates proliferation of bronchial smooth muscle and fibroblasts**
+        -   **Airway remodeling**
 
 # Atopic Asthma
 
-- **Most common type**
-- **Begin in childhood**
-- **Classic example of type I IgE–mediated hypersensitivity reaction**
-- **Family history is common**
-- **Asthmatic attacks preceded by allergic rhinitis, urticaria, eczema**
-- **Triggered by**
-  - **Environmental antigens**
-    - **Dusts, pollen, animal dander, foods**
-- **Infections**
+-   **Most common type**
+-   **Begin in childhood**
+-   **Classic example of type I IgE--mediated hypersensitivity reaction**
+-   **Family history is common**
+-   **Asthmatic attacks preceded by allergic rhinitis, urticaria, eczema**
+-   **Triggered by**
+    -   **Environmental antigens**
+        -   **Dusts, pollen, animal dander, foods**
+-   **Infections**
 
 # Non-Atopic Asthma
 
-- **No evidence of allergen sensitization**
-- **Skin test results usually are negative**
-- **Family history is less common**
-- **Triggered by**
-  - **Respiratory infections due to viruses**
-    - **Rhinovirus, parainfluenza virus**
-  - **Inhaled air pollutants**
-    - **Sulfur dioxide, ozone, nitrogen dioxide**
-- **Virus-induced inflammation**
-  - **lowers the threshold of the subepithelial vagal receptors to
-    irritants**
-- **Eosinophils are also common**
+-   **No evidence of allergen sensitization**
+-   **Skin test results usually are negative**
+-   **Family history is less common**
+-   **Triggered by**
+    -   **Respiratory infections due to viruses**
+        -   **Rhinovirus, parainfluenza virus**
+    -   **Inhaled air pollutants**
+        -   **Sulfur dioxide, ozone, nitrogen dioxide**
+-   **Virus-induced inflammation**
+    -   **lowers the threshold of the subepithelial vagal receptors to irritants**
+-   **Eosinophils are also common**
 
 # Drug-Induced Asthma
 
-- **Aspirin sensitivity**
-  - **Recurrent rhinitis, nasal polyps, urticaria, bronchospasm**
-  - **Inhibits the cyclooxygenase pathway of arachidonic acid metabolism
-    without affecting the lipoxygenase route**
-  - **Leukotrienes are produced more → bronchial spasm**
+-   **Aspirin sensitivity**
+    -   **Recurrent rhinitis, nasal polyps, urticaria, bronchospasm**
+    -   **Inhibits the cyclooxygenase pathway of arachidonic acid metabolism without affecting the lipoxygenase route**
+    -   **Leukotrienes are produced more → bronchial spasm**
 
 # Occupational Asthma
 
-- **Stimulated by**
-  - **Fumes**
-    - **Epoxy resins, plastics**
-  - **Organic and chemical dusts**
-    - **Wood, cotton, platinum**
-  - **Gases**
-    - **Toluene**
+-   **Stimulated by**
+    -   **Fumes**
+        -   **Epoxy resins, plastics**
+    -   **Organic and chemical dusts**
+        -   **Wood, cotton, platinum**
+    -   **Gases**
+        -   **Toluene**
 
 # Asthma
 
-- **Lungs are overdistended**
-  - **Overinflation**
-  - **Small areas of atelectasis**
-- **Occlusion of bronchi and bronchioles by thick, sticky mucous plugs**
+-   **Lungs are overdistended**
+    -   **Overinflation**
+    -   **Small areas of atelectasis**
+-   **Occlusion of bronchi and bronchioles by thick, sticky mucous plugs**
 
-**Markedly expanded lungs **
+**Markedly expanded lungs**
 
 ![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B18.png)
 
@@ -259,23 +261,22 @@ cells**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-- **Curschmann spirals**
-  - **Mucous plugs contain whorls of shed epithelium**
-- **Numerous eosinophils**
-- **Charcot-Leyden crystals**
-  - **Collections of crystalloids made up of eosinophil proteins**
-- **Airway remodeling**
-  - **Thickening of airway wall**
-  - **Sub-basement membrane fibrosis**
-  - **Increased vascularity in submucosa**
-  - **Increase in size of the submucosal glands**
-  - **Goblet cell metaplasia of the airway epithelium**
-  - **Hypertrophy and/or hyperplasia of the bronchial muscle**
+-   **Curschmann spirals**
+    -   **Mucous plugs contain whorls of shed epithelium**
+-   **Numerous eosinophils**
+-   **Charcot-Leyden crystals**
+    -   **Collections of crystalloids made up of eosinophil proteins**
+-   **Airway remodeling**
+    -   **Thickening of airway wall**
+    -   **Sub-basement membrane fibrosis**
+    -   **Increased vascularity in submucosa**
+    -   **Increase in size of the submucosal glands**
+    -   **Goblet cell metaplasia of the airway epithelium**
+    -   **Hypertrophy and/or hyperplasia of the bronchial muscle**
 
 ![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B110.png)
 
-**sub-basement membrane fibrosis, eosinophilic inflammation, and smooth
-muscle hyperplasia**
+**sub-basement membrane fibrosis, eosinophilic inflammation, and smooth muscle hyperplasia**
 
 ![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B111.jpg)
 
@@ -293,14 +294,11 @@ muscle hyperplasia**
 
 ![](./img-local/Asthma-and-Bronchiectasispptx-kopyas%C4%B113.png)
 
-- **Caused by destruction of the muscle and the supporting elastic
-  tissue**
-- **Resulting from or associated with chronic necrotizing infections**
-- **Not a primary disease**
-  - **Secondary to persisting infection or obstruction caused by a
-    variety of conditions**
-  - **Acquired, congenital, hereditary conditions predispose to
-    bronchiectasis**
+-   **Caused by destruction of the muscle and the supporting elastic tissue**
+-   **Resulting from or associated with chronic necrotizing infections**
+-   **Not a primary disease**
+    -   **Secondary to persisting infection or obstruction caused by a variety of conditions**
+    -   **Acquired, congenital, hereditary conditions predispose to bronchiectasis**
 
 # Bronchiectasis in bronchial obstruction
 
@@ -344,24 +342,23 @@ muscle hyperplasia**
 
 # Cystic fibrosis
 
-- **Autosomal recessive disease**
-- **Mutations in the CFTR gene encoding transmembrane regulator**
-- **Chloride ion transport**
-  - **High salt concentrations in sweat**
-  - **Viscous luminal secretions in respiratory and gastrointestinal
-    tracts**
-  - **Severe (ΔF508) → multisystem disease**
-- **Cardiopulmonary complications**
-  - **Most common cause of death**
-  - **Pulmonary infections**
-    - **Pseudomonads**
-  - **Bronchiectasis**
-  - **Right-sided heart failure**
-- **Pancreatic insufficiency**
-- **Infertility**
-  - **Congenital bilateral absence of vas deferens**
-- **Liver**
-  - **Cirrhosis**
+-   **Autosomal recessive disease**
+-   **Mutations in the CFTR gene encoding transmembrane regulator**
+-   **Chloride ion transport**
+    -   **High salt concentrations in sweat**
+    -   **Viscous luminal secretions in respiratory and gastrointestinal tracts**
+    -   **Severe (ΔF508) → multisystem disease**
+-   **Cardiopulmonary complications**
+    -   **Most common cause of death**
+    -   **Pulmonary infections**
+        -   **Pseudomonads**
+    -   **Bronchiectasis**
+    -   **Right-sided heart failure**
+-   **Pancreatic insufficiency**
+-   **Infertility**
+    -   **Congenital bilateral absence of vas deferens**
+-   **Liver**
+    -   **Cirrhosis**
 
 # Bronchiectasis in immunodeficiency
 
@@ -371,57 +368,48 @@ muscle hyperplasia**
 
 # Bronchiectasis in Kartagener syndrome
 
-- **Rare autosomal recessive disorder**
-- **Cilia impair mucociliary clearance in the airways**
-  - **Persistent infections**
-- **Reduce the mobility of spermatozoa**
-  - **Sterility in males**
+-   **Rare autosomal recessive disorder**
+-   **Cilia impair mucociliary clearance in the airways**
+    -   **Persistent infections**
+-   **Reduce the mobility of spermatozoa**
+    -   **Sterility in males**
 
 # Bronchiectasis in infections
 
-- **Pneumonia**
-  - **Necrotizing or suppurative pneumonia**
-  - **Staphylococcus aureus or Klebsiella spp.**
-- **Posttuberculosis bronchiectasis**
+-   **Pneumonia**
+    -   **Necrotizing or suppurative pneumonia**
+    -   **Staphylococcus aureus or Klebsiella spp.**
+-   **Posttuberculosis bronchiectasis**
 
 # Bronchiectasis
 
-- **Obstruction and chronic persistent infection**
-  - **Either may come first**
-    - **Normal clearance mechanisms are disturbed by obstruction →
-      secondary infection**
-    - **Chronic infection over time → damage to bronchial walls →
-      weakening and dilation**
-- **Affects the lower lobes bilaterally**
-  - **Air passages that are most vertical**
-  - **Affect single segment in tumors and foreign bodies**
-- **Most severe involvement is found in the more distal bronchi and
-  bronchioles. **
-- **Airways may be dilated to as much as four times their usual
-  diameter**
-  - **Can be followed almost to the pleural surfaces**
-- **In normal lungs**
-  - **Bronchioles cannot be followed beyond a point 2 to 3 cm from the
-    pleural surfaces**
-- **Histologic findings vary with the activity and chronicity**
-  - **An intense acute and chronic inflammatory exudate within the walls
-    of the bronchi and bronchioles**
-  - **Desquamation of lining epithelium**
-  - **Extensive areas of ulceration**
-- **Mixed flora can be cultured from the involved bronchi**
-  - **Staphylococci, streptococci, pneumococci, enteric organisms,
-    anaerobic and microaerophilic bacteria**
-  - **In children Haemophilus influenzae and Pseudomonas aeruginosa**
-- **Healing**
-  - **Epithelium may regenerate completely**
-  - **Abnormal dilation and scarring persist**
-  - **Fibrosis of the bronchial and bronchiolar walls and
-    peribronchiolar fibrosis**
-  - **Necrosis destroys the bronchial or bronchiolar walls**
-  - **Abscess cavity → Fungus ball**
-- **Complications**
-  - **Clubbing of the fingers**
-  - **Hypoxemia, hypercapnia, pulmonary hypertension, rarely cor
-    pulmonale**
-  - **Brain abscesses**
-  - **Reactive amyloidosis**
+-   **Obstruction and chronic persistent infection**
+    -   **Either may come first**
+        -   **Normal clearance mechanisms are disturbed by obstruction → secondary infection**
+        -   **Chronic infection over time → damage to bronchial walls → weakening and dilation**
+-   **Affects the lower lobes bilaterally**
+    -   **Air passages that are most vertical**
+    -   **Affect single segment in tumors and foreign bodies**
+-   **Most severe involvement is found in the more distal bronchi and bronchioles.**
+-   **Airways may be dilated to as much as four times their usual diameter**
+    -   **Can be followed almost to the pleural surfaces**
+-   **In normal lungs**
+    -   **Bronchioles cannot be followed beyond a point 2 to 3 cm from the pleural surfaces**
+-   **Histologic findings vary with the activity and chronicity**
+    -   **An intense acute and chronic inflammatory exudate within the walls of the bronchi and bronchioles**
+    -   **Desquamation of lining epithelium**
+    -   **Extensive areas of ulceration**
+-   **Mixed flora can be cultured from the involved bronchi**
+    -   **Staphylococci, streptococci, pneumococci, enteric organisms, anaerobic and microaerophilic bacteria**
+    -   **In children Haemophilus influenzae and Pseudomonas aeruginosa**
+-   **Healing**
+    -   **Epithelium may regenerate completely**
+    -   **Abnormal dilation and scarring persist**
+    -   **Fibrosis of the bronchial and bronchiolar walls and peribronchiolar fibrosis**
+    -   **Necrosis destroys the bronchial or bronchiolar walls**
+    -   **Abscess cavity → Fungus ball**
+-   **Complications**
+    -   **Clubbing of the fingers**
+    -   **Hypoxemia, hypercapnia, pulmonary hypertension, rarely cor pulmonale**
+    -   **Brain abscesses**
+    -   **Reactive amyloidosis**

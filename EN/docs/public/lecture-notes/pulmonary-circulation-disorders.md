@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CPulmonary-Circulation-Disorders0.jpg)
+![](./img-local/Pulmonary-Circulation-Disorders0.jpg)
 
 # Pulmonary Circulation Disorders
 
@@ -74,11 +74,11 @@ Serdar Balcı
 
 **saddle embolus at the main left and right pulmonary arteries**
 
-![](img%5CPulmonary-Circulation-Disorders1.png)
+![](./img-local/Pulmonary-Circulation-Disorders1.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPulmonary-Circulation-Disorders2.png)
+![](./img-local/Pulmonary-Circulation-Disorders2.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -112,11 +112,11 @@ Serdar Balcı
 **A small, roughly wedge-shaped hemorrhagic pulmonary infarct of recent
 occurrence**
 
-![](img%5CPulmonary-Circulation-Disorders3.png)
+![](./img-local/Pulmonary-Circulation-Disorders3.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPulmonary-Circulation-Disorders4.png)
+![](./img-local/Pulmonary-Circulation-Disorders4.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -240,11 +240,11 @@ pulmonary vascular bed**
 - **The wall thickness may exceed the diameter of the lumen**
   - **Point of near-obliteration**
 
-![](img%5CPulmonary-Circulation-Disorders5.png)
+![](./img-local/Pulmonary-Circulation-Disorders5.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPulmonary-Circulation-Disorders6.png)
+![](./img-local/Pulmonary-Circulation-Disorders6.png)
 
 **B: Marked medial hypertrophy.**
 
@@ -257,7 +257,7 @@ pulmonary vascular bed**
 **Endothelial proliferation forms multiple lumina within small
 arteries**
 
-![](img%5CPulmonary-Circulation-Disorders7.png)
+![](./img-local/Pulmonary-Circulation-Disorders7.png)
 
 **Robbins Basic Pathology**
 
@@ -297,7 +297,7 @@ of collagen IV**
 **These antibodies can be detected in the serum of more than 90% of
 persons with Goodpasture syndrome**
 
-![](img%5CPulmonary-Circulation-Disorders8.png)
+![](./img-local/Pulmonary-Circulation-Disorders8.png)
 
 - **Lungs are heavy**
 - **Red-brown consolidation**
@@ -324,11 +324,11 @@ persons with Goodpasture syndrome**
 **Large numbers of intra-alveolar hemosiderin-laden macrophages on a
 background of thickened fibrous septa**
 
-![](img%5CPulmonary-Circulation-Disorders9.png)
+![](./img-local/Pulmonary-Circulation-Disorders9.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CPulmonary-Circulation-Disorders10.png)
+![](./img-local/Pulmonary-Circulation-Disorders10.png)
 
 **Robbins Basic Pathology**
 

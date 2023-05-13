@@ -18,13 +18,13 @@ becomes autonomous (independent of physiologic growth stimuli), although
 tumors generally remain dependent on the host for their nutrition and
 blood supply.**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B10.jpg)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B10.jpg)
 
 **Karkinos: Crab like**
 
 **http://en.wikipedia.org/wiki/Cancer#mediaviewer/File:BreastCancer.jpg**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B11.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B11.png)
 
 **Rosai and Ackerman’s Surgical Pathology**
 
@@ -199,7 +199,7 @@ a crab’s behavior**
     - **Japanese, European, North American, South American**
   - **Authors from same country also have different opinions**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B12.gif)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B12.gif)
 
 # WHO Classification of Neoplasms
 
@@ -210,19 +210,19 @@ a crab’s behavior**
     genetic features**
   - **Started adding therapeutic subgroups as well**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B13.gif)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B13.gif)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B14.jpg)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B14.jpg)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B15.jpg)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B15.jpg)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B16.jpg)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B16.jpg)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B17.jpg)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B17.jpg)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B18.jpg)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B18.jpg)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B19.jpg)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B19.jpg)
 
 **http://www.iarc.fr/en/publications/list/bb/**
 
@@ -254,7 +254,7 @@ a crab’s behavior**
 
 **Chondrocyte + oma → Chondroma**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B110.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B110.png)
 
 **Robbins Basic Pathology**
 
@@ -272,19 +272,19 @@ a crab’s behavior**
 - **Cystadenoma**
   - **Tumors forming cysts**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B111.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B111.png)
 
 **Thyroid Follicular Adenoma**
 
 **Tumor is Forming Glands that resemble normal tissue**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B112.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B112.png)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B113.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B113.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B114.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B114.png)
 
 **Tubular Adenoma of Colon**
 
@@ -302,13 +302,13 @@ a crab’s behavior**
 
 **Robbins Basic Pathology**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B115.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B115.png)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B116.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B116.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B117.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B117.png)
 
 **Robbins Basic Pathology**
 
@@ -316,11 +316,11 @@ a crab’s behavior**
 
 **Finger like projections**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B118.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B118.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B119.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B119.png)
 
 **Urologic Surgical Pathology, Chapter 6, 228-316.e23**
 
@@ -328,7 +328,7 @@ a crab’s behavior**
 
 **Benign Neoplasm forming Cyst**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B120.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B120.png)
 
 Rosai and Ackerman’s Surgical Pathology
 
@@ -354,13 +354,13 @@ Rosai and Ackerman’s Surgical Pathology
 
 **Ovarian Cystadenocarcinoma**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B121.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B121.png)
 
 **Rosai and Ackerman’s Surgical Pathology**
 
 # Nomenclature of Malignant TumorsDifferentiation
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B122.jpg)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B122.jpg)
 
 **How much the tumor cell resemble the normal counterpart**
 
@@ -374,13 +374,13 @@ Rosai and Ackerman’s Surgical Pathology
 
 **Elsevier’s Integrated Pathology**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B123.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B123.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B124.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B124.png)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B125.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B125.png)
 
 **Robbins Basic Pathology**
 
@@ -409,19 +409,19 @@ Rosai and Ackerman’s Surgical Pathology
 
 **Mixed tumor of salivary gland, Pleomorphic Adenoma**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B126.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B126.png)
 
 **Robbins Basic Pathology**
 
 **Fibroadenoma of Breast**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B127.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B127.png)
 
 **Robbins Basic Pathology**
 
 **Wilms tumor (nephroblastoma)**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B128.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B128.png)
 
 **Rosai and Ackerman’s Surgical Pathology**
 
@@ -442,21 +442,21 @@ bone, epithelium, muscle, fat, nerve, and other tissues**
 
 # Mature Csytis Teratoma of Ovary
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B129.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B129.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B130.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B130.png)
 
 **Robbins and Cotran’s Pathological Basis of Diseases**
 
 # Mixed Tumors
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B131.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B131.png)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B132.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B132.png)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B133.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B133.png)
 
 **Robbins Basic Pathology**
 
@@ -498,9 +498,9 @@ nephroblastoma**
 - **Little evidence of acquired translocations, suggesting a neoplastic
   origin**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B134.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B134.png)
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B135.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B135.png)
 
 **Bile Duct Hamartoma in Liver**
 
@@ -521,6 +521,6 @@ tissue in the submucosa of the stomach, duodenum, or small intestine**
 
 **Heterotopic exocrine pancreas tissue in stomach**
 
-![](img%5CNomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B136.png)
+![](./img-local/Nomenclature-and-Classification-of-Neoplasiapptx-kopyas%C4%B136.png)
 
 **Rosai and Ackerman’s Surgical Pathology**

@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas0.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas0.jpg)
 
 # Neoplasms of Exocrine and Endocrine Pancreas
 
@@ -9,7 +9,7 @@ Serdar Balcı
 
 # PANCREATOBLASTOMA
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas1.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas1.png)
 
 **Pancreatoblastoma showing a predominantly solid pattern of growth but
 also small rosette-like glandular formations**
@@ -32,13 +32,13 @@ also small rosette-like glandular formations**
 
 **\<5% of all pancreatic neoplasms**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas2.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas2.jpg)
 
 # Serous Cystadenoma
 
 **Robbins Basic Pathology**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas3.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas3.jpg)
 
 **25% of all pancreatic cystic neoplasms**
 
@@ -48,13 +48,13 @@ also small rosette-like glandular formations**
 
 **Serous Cystadenoma**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas4.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas4.png)
 
 **Glycogen-rich cuboidal cells**
 
 **Robbins Basic Pathology**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas5.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas5.jpg)
 
 - **Seventh decade of life**
 - **Nonspecific symptoms**
@@ -65,19 +65,19 @@ also small rosette-like glandular formations**
 - **Most carry somatic mutations von Hippel-Lindau ( VHL ) tumor
   suppressor gene**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas6.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas6.png)
 
 **Robbins Basic Pathology**
 
 **Mucinous Cystic Neoplasm**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas7.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas7.jpg)
 
 Robbins Basic Pathology
 
 **Mucinous Cystic Neoplasm**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas8.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas8.jpg)
 
 **95% of mucinous cystic neoplasms arise in women**
 
@@ -91,7 +91,7 @@ Robbins Basic Pathology
 
 **Mucinous Cystic Neoplasm**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas9.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas9.jpg)
 
 **The cysts are lined by columnar mucinous epithelium, with a densely
 cellular “ovarian” stroma.**
@@ -100,7 +100,7 @@ cellular “ovarian” stroma.**
 
 **Mucinous Cystic Neoplasm**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas10.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas10.jpg)
 
 - **Degree of cytologic and architectural atypia in the lining
   epithelium**
@@ -114,16 +114,16 @@ cellular “ovarian” stroma.**
 
 **Mucinous Cystic Neoplasm**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas11.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas11.jpg)
 
 - **Distal pancreatectomy for noninvasive cysts typically is curative**
   - **even in the setting of severe dysplasia**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas12.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas12.jpg)
 
 **Intraductal Papillary Mucinous Neoplasms (IPMNs)**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas13.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas13.jpg)
 
 **Cross-section through the head of the pancreas showing a prominent
 papillary neoplasm distending the main pancreatic duct.**
@@ -132,7 +132,7 @@ papillary neoplasm distending the main pancreatic duct.**
 
 **Intraductal Papillary Mucinous Neoplasms (IPMNs)**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas14.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas14.jpg)
 
 **Mucin-producing intraductal neoplasms**
 
@@ -146,7 +146,7 @@ papillary neoplasm distending the main pancreatic duct.**
 
 **Intraductal Papillary Mucinous Neoplasms (IPMNs)**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas15.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas15.jpg)
 
 **The papillary mucinous neoplasm involved the main pancreatic duct
 (left) and is extending down into the smaller ducts and ductules
@@ -156,7 +156,7 @@ papillary neoplasm distending the main pancreatic duct.**
 
 **Intraductal Papillary Mucinous Neoplasms (IPMNs)**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas16.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas16.jpg)
 
 **No cellular stroma seen in mucinous cystic neoplasms**
 
@@ -170,17 +170,17 @@ G-protein**
 
 **Robbins Basic Pathology**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas17.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas17.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas18.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas18.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas19.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas19.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
@@ -212,7 +212,7 @@ G-protein**
 **Accumulation of multiple mutations is more important than their
 occurrence in a specific order**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas20.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas20.png)
 
 **KRAS**
 
@@ -242,14 +242,14 @@ occurrence in a specific order**
 
 **Robbins Basic Pathology**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas21.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas21.png)
 
 **Pancreatic intraepithelial neoplasia grade 3 (PanIN-3) involving a
 small pancreatic duct.**
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas22.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas22.jpg)
 
 **60% of pancreatic cancers arise in the head of the gland**
 
@@ -287,15 +287,15 @@ small pancreatic duct.**
 - **Liver often is enlarged as a consequence of metastatic deposits**
 - **Distant metastases to the lungs and bones**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas23.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas23.png)
 
 **Robbins and Cotran Pathologic Basis of Diseases**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas24.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas24.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas25.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas25.jpg)
 
 **Moderately to poorly differentiated adenocarcinoma**
 
@@ -311,19 +311,19 @@ small pancreatic duct.**
 
 **Robbins Basic Pathology**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas26.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas26.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas27.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas27.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas28.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas28.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas29.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas29.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
@@ -349,7 +349,7 @@ small pancreatic duct.**
 
 # PANCREATIC NEUROENDOCRINE TUMORS
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas30.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas30.png)
 
 # Pancreatic Neuroendocrine Tumors
 
@@ -363,15 +363,15 @@ small pancreatic duct.**
 - **Nonfunctional are larger lesions at diagnosis**
   - **no symptoms related to excessive hormone production**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas31.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas31.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas32.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas32.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas33.jpg)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas33.jpg)
 
 **Ankara Atatürk Eğitim ve Araştırma Hastanesi Arşivi**
 
@@ -394,7 +394,7 @@ small pancreatic duct.**
   - **Inactivating mutations**
     - **ATRX and DAXX**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas34.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas34.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
@@ -432,14 +432,14 @@ orientation to the vasculature**
 **Not even malignant lesions present much evidence of anaplasia, and
 they may be deceptively encapsulated**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas35.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas35.png)
 
 **Deposition of amyloid in the extracellular tissue is a characteristic
 feature of many insulinomas**
 
 **Robbins Basic Pathology**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas36.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas36.png)
 
 **Under the electron microscope, neoplastic beta cells, like their
 normal counterparts, display distinctive round granules**
@@ -472,47 +472,47 @@ already metastasized at the time of diagnosis**
 
 **Histologically bland and rarely exhibit marked anaplasia**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas37.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas37.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas38.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas38.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas39.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas39.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas40.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas40.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas41.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas41.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas42.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas42.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas43.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas43.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas44.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas44.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
 # SOLID PSEUDOPAPILLARY NEOPLASM
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas45.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas45.png)
 
 **Endocr Pathol. 2014 Mar;25(1):65-79**
 
 # ACINAR CELL CARCINOMA
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas46.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas46.png)
 
 **Acinar cell carcinoma. The cut surface is solid and has a necrotic
 center. It lacks the fibrous component usually seen in ductal
@@ -520,9 +520,9 @@ adenocarcinoma.**
 
 **Rosai and Ackerman’s Surgical Pathology**
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas47.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas47.png)
 
-![](img%5CNeoplasms-of-Exocrine-Pancreas48.png)
+![](./img-local/Neoplasms-of-Exocrine-Pancreas48.png)
 
 **A, Acinar cell carcinoma of the pancreas showing a well-differentiated
 acinar arrangement of the tumor cells**

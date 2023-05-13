@@ -1,7 +1,7 @@
 # Title
 Serdar Balcı
 
-![](img%5CDiseases-of-Exocrine-Pancreas0.jpg)
+![](./img-local/Diseases-of-Exocrine-Pancreas0.jpg)
 
 # Diseases of Exocrine Pancreas
 
@@ -43,7 +43,7 @@ enzymes**
 
 # Cystic Fibrosis
 
-![](img%5CDiseases-of-Exocrine-Pancreas1.png)
+![](./img-local/Diseases-of-Exocrine-Pancreas1.png)
 
 **Cystic fibrosis**
 
@@ -52,19 +52,19 @@ tissue.**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDiseases-of-Exocrine-Pancreas2.png)
+![](./img-local/Diseases-of-Exocrine-Pancreas2.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CDiseases-of-Exocrine-Pancreas3.png)
+![](./img-local/Diseases-of-Exocrine-Pancreas3.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CDiseases-of-Exocrine-Pancreas4.png)
+![](./img-local/Diseases-of-Exocrine-Pancreas4.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CDiseases-of-Exocrine-Pancreas5.png)
+![](./img-local/Diseases-of-Exocrine-Pancreas5.png)
 
 **Pancreas in cystic fibrosis. The ducts are dilated and plugged with
 eosinophilic mucin, and the parenchymal glands are atrophic and replaced
@@ -104,7 +104,7 @@ through the minor sphincter, which has a narrow opening**
 
 **increased risk for chronic pancreatitis**
 
-![](img%5CDiseases-of-Exocrine-Pancreas6.png)
+![](./img-local/Diseases-of-Exocrine-Pancreas6.png)
 
 # Annular Pancreas
 
@@ -150,7 +150,7 @@ tissue**
 
 **contain clear serous fluid**
 
-![](img%5CDiseases-of-Exocrine-Pancreas7.png)
+![](./img-local/Diseases-of-Exocrine-Pancreas7.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -172,7 +172,7 @@ tissue**
     - **65% of cases in the United States, 5% or less in the United
       Kingdom**
 
-![](img%5CDiseases-of-Exocrine-Pancreas8.png)
+![](./img-local/Diseases-of-Exocrine-Pancreas8.png)
 
 **Robbins Basic Pathology**
 
@@ -218,7 +218,7 @@ tissue**
 
 **destruction of blood vessels leading to interstitial hemorrhage**
 
-![](img%5CDiseases-of-Exocrine-Pancreas9.jpg)
+![](./img-local/Diseases-of-Exocrine-Pancreas9.jpg)
 
 **The microscopic field shows a region of fat necrosis (right) and focal
 pancreatic parenchymal necrosis (center).**
@@ -229,7 +229,7 @@ precipitate in situ**
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-of-Exocrine-Pancreas10.png)
+![](./img-local/Diseases-of-Exocrine-Pancreas10.png)
 
 **The pancreas has been sectioned longitudinally to reveal dark areas of
 hemorrhage in the pancreatic substance and a focal area of pale fat
@@ -254,7 +254,7 @@ necrosis in the peripancreatic fat (upper left).**
   - **extensive parenchymal necrosis, diffuse hemorrhage within the
     substance of the gland**
 
-![](img%5CDiseases-of-Exocrine-Pancreas11.png)
+![](./img-local/Diseases-of-Exocrine-Pancreas11.png)
 
 **Acute pancreatitis**
 
@@ -263,7 +263,7 @@ and peripancreatic fat**
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDiseases-of-Exocrine-Pancreas12.png)
+![](./img-local/Diseases-of-Exocrine-Pancreas12.png)
 
 **Omentum with fat necrosis**
 
@@ -283,11 +283,11 @@ and peripancreatic fat**
   - **activation of factor XII (Hageman factor), clotting and complement
     systems**
 
-![](img%5CDiseases-of-Exocrine-Pancreas13.png)
+![](./img-local/Diseases-of-Exocrine-Pancreas13.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-of-Exocrine-Pancreas14.png)
+![](./img-local/Diseases-of-Exocrine-Pancreas14.png)
 
 **Impaction of a gallstone or biliary sludge**
 
@@ -313,14 +313,14 @@ microvasculature**
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-of-Exocrine-Pancreas15.png)
+![](./img-local/Diseases-of-Exocrine-Pancreas15.png)
 
 **Ischemia, viral infections (mumps), drugs, and direct trauma to the
 pancreas are important in acinar cell injury mechanism**
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-of-Exocrine-Pancreas16.png)
+![](./img-local/Diseases-of-Exocrine-Pancreas16.png)
 
 - **Pancreatic proenzymes and lysosomal hydrolases become packaged
   together**
@@ -333,7 +333,7 @@ pancreas are important in acinar cell injury mechanism**
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-of-Exocrine-Pancreas17.png)
+![](./img-local/Diseases-of-Exocrine-Pancreas17.png)
 
 **Robbins Basic Pathology**
 
@@ -369,11 +369,11 @@ pancreas are important in acinar cell injury mechanism**
   - **renal failure**
     - **acute tubular necrosis**
 
-![](img%5CDiseases-of-Exocrine-Pancreas18.png)
+![](./img-local/Diseases-of-Exocrine-Pancreas18.png)
 
 **Robbins and Cotran Pathologic Basis of Diseases**
 
-![](img%5CDiseases-of-Exocrine-Pancreas19.png)
+![](./img-local/Diseases-of-Exocrine-Pancreas19.png)
 
 **Robbins and Cotran Pathologic Basis of Diseases**
 
@@ -412,18 +412,18 @@ pancreas are important in acinar cell injury mechanism**
 
 - **2 cm - 30 cm**
 
-![](img%5CDiseases-of-Exocrine-Pancreas20.png)
+![](./img-local/Diseases-of-Exocrine-Pancreas20.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDiseases-of-Exocrine-Pancreas21.jpg)
+![](./img-local/Diseases-of-Exocrine-Pancreas21.jpg)
 
 **A: Cross-section revealing a poorly defined cyst with a necrotic
 brownish wall.**
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-of-Exocrine-Pancreas22.jpg)
+![](./img-local/Diseases-of-Exocrine-Pancreas22.jpg)
 
 **B: Histologically, the cyst lacks a true epithelial lining and instead
 is lined by fibrin and granulation tissue, with typical changes of
@@ -441,7 +441,7 @@ chronic inflammation.**
   - **diabetes mellitus**
 - **Recurrent bouts of acute pancreatitis cause chronic pancreatitis**
 
-![](img%5CDiseases-of-Exocrine-Pancreas23.png)
+![](./img-local/Diseases-of-Exocrine-Pancreas23.png)
 
 **In chronic pancreatitis irreversible impairment in pancreatic
 function**
@@ -468,11 +468,11 @@ function**
 numerous areas of mineralization. Ducts are cystically dilated and
 contain scattered calculi.**
 
-![](img%5CDiseases-of-Exocrine-Pancreas24.png)
+![](./img-local/Diseases-of-Exocrine-Pancreas24.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
-![](img%5CDiseases-of-Exocrine-Pancreas25.jpg)
+![](./img-local/Diseases-of-Exocrine-Pancreas25.jpg)
 
 **Extensive fibrosis and atrophy has left only residual islets (left)
 and ducts (right), with a sprinkling of chronic inflammatory cells and
@@ -480,7 +480,7 @@ acinar tissue.**
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-of-Exocrine-Pancreas26.jpg)
+![](./img-local/Diseases-of-Exocrine-Pancreas26.jpg)
 
 **parenchymal fibrosis**
 
@@ -492,7 +492,7 @@ acinar tissue.**
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-of-Exocrine-Pancreas27.jpg)
+![](./img-local/Diseases-of-Exocrine-Pancreas27.jpg)
 
 **Remaining islets of Langerhans become embedded in the sclerotic tissue
 and may fuse and appear enlarged; eventually they also disappear**
@@ -502,7 +502,7 @@ lobules and ducts**
 
 **Robbins Basic Pathology**
 
-![](img%5CDiseases-of-Exocrine-Pancreas28.jpg)
+![](./img-local/Diseases-of-Exocrine-Pancreas28.jpg)
 
 **The ductal epithelium may be atrophied or hyperplastic or exhibit
 squamous metaplasia, and ductal concretions may be noted**
@@ -554,4 +554,4 @@ squamous metaplasia, and ductal concretions may be noted**
   - **deposit collagen**
   - **fibrosis**
 
-![](img%5CDiseases-of-Exocrine-Pancreas29.png)
+![](./img-local/Diseases-of-Exocrine-Pancreas29.png)

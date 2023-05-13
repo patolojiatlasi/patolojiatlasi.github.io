@@ -21,11 +21,11 @@ https://www.serdarbalci.com/
 
 ## Polyps
 
-![](img%5CAlt-GIS-Tumorleri-sunum1.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum1.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum2.jpg)
+![](./img-local/Alt-GIS-Tumorleri-sunum2.jpg)
 
-![](img%5CAlt-GIS-Tumorleri-sunum3.jpg)
+![](./img-local/Alt-GIS-Tumorleri-sunum3.jpg)
 
 ## İnflamatuar polipler
 
@@ -34,13 +34,13 @@ https://www.serdarbalci.com/
   - **Rektal kanama, mukus akıntısı, anterior duvarda inflamasyon**
   - **Anorektal sfinkterde relaksasyon sorunu**
 
-![](img%5CAlt-GIS-Tumorleri-sunum4.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum4.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CAlt-GIS-Tumorleri-sunum5.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum5.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum6.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum6.png)
 
 ## Hamartomatöz polipler
 
@@ -48,7 +48,7 @@ https://www.serdarbalci.com/
 
 **Genetik, akkiz sendromlarla ilişkili**
 
-![](img%5CAlt-GIS-Tumorleri-sunum7.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum7.png)
 
 **Robbins Basic Pathology**
 
@@ -66,11 +66,11 @@ https://www.serdarbalci.com/
 - **Mukozadaki hiperplazi, transforming growth factor-β (TGF-β) yolağı
   ile ilişkili**
 
-![](img%5CAlt-GIS-Tumorleri-sunum8.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum8.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum9.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum9.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum10.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum10.png)
 
 **SAplı, düzgün yüzeyli, kırmızı lezyonlar**
 
@@ -93,7 +93,7 @@ https://www.serdarbalci.com/
 - **Polipler çoğunlukla ince barsakta**
   - **mide, kolon, mesane, akciğerde de olabiliyor**
 
-![](img%5CAlt-GIS-Tumorleri-sunum11.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum11.png)
 
 **İri ve saplı**
 
@@ -103,7 +103,7 @@ https://www.serdarbalci.com/
 
 **Epitel normal**
 
-![](img%5CAlt-GIS-Tumorleri-sunum12.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum12.png)
 
 **Peutz-Jeghers polyp**
 
@@ -122,7 +122,7 @@ goblet hücrelerinde birikme**
 
 **Malign potansiyeli yok, sesil serrated adenomlardan ayrılmalı**
 
-![](img%5CAlt-GIS-Tumorleri-sunum13.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum13.png)
 
 **Sol kolon**
 
@@ -134,25 +134,25 @@ goblet hücrelerinde birikme**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum14.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum14.png)
 
 **İrregüler birikim gösteren epitel hücreleri**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum15.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum15.png)
 
 **Robbins Basic Pathology**
 
 **Tufting results from epithelial overcrowding**
 
-![](img%5CAlt-GIS-Tumorleri-sunum16.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum16.png)
 
 **Epitel kalabalıklaşması testere benzeri serrated görünüm verir**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum17.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum17.png)
 
 ## Adenom
 
@@ -176,19 +176,19 @@ goblet hücrelerinde birikme**
 
 **Takip kolonoskopi**
 
-![](img%5CAlt-GIS-Tumorleri-sunum18.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum18.png)
 
 **fibromuscular stalk**
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CAlt-GIS-Tumorleri-sunum19.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum19.png)
 
 **Tübüler adenom, düzgün yüzey, yuvarlak glandüler yapılar**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum20.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum20.png)
 
 **Villöz adenom**
 
@@ -196,7 +196,7 @@ goblet hücrelerinde birikme**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum21.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum21.png)
 
 **Nükleer hiperkromazi, elongasyon, sıralanma artışı**
 
@@ -205,9 +205,9 @@ diferasnsiayasyon kaybı oluyor**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum22.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum22.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum23.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum23.png)
 
 **Sessile serrated adenoma:**
 
@@ -222,21 +222,21 @@ inmesi ile ayrılır**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum24.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum24.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum25.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum25.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum26.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum26.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum27.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum27.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum28.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum28.png)
 
 **Robbins Basic Pathology**
 
@@ -250,11 +250,11 @@ inmesi ile ayrılır**
 
 **\>100 polip tanı için şart, binlerce polip olabilir**
 
-![](img%5CAlt-GIS-Tumorleri-sunum29.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum29.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum30.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum30.png)
 
 **Robbins Basic Pathology**
 
@@ -335,13 +335,13 @@ farkı yok**
 
 **β-Catenin yıkılır**
 
-![](img%5CAlt-GIS-Tumorleri-sunum31.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum31.png)
 
 **Robbins Basic Pathology**
 
 **β-Catenin nükleusta aktif**
 
-![](img%5CAlt-GIS-Tumorleri-sunum32.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum32.png)
 
 **cyclin D1 ve MYC transkripsiyonu, proliferasyona neden olur**
 
@@ -355,7 +355,7 @@ farkı yok**
 
 **TP53 kolon tümörlerinin %70-80’inde mutant ancak adenomlarda yok**
 
-![](img%5CAlt-GIS-Tumorleri-sunum33.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum33.png)
 
 **KRAS**
 
@@ -382,11 +382,11 @@ inhibe eder**
 
 **Mutasyonlar birikir → mikrosatellit dengesizliğine neden olur**
 
-![](img%5CAlt-GIS-Tumorleri-sunum34.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum34.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum35.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum35.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum36.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum36.png)
 
 ## The microsatellite instability pathway
 
@@ -398,9 +398,9 @@ inhibe eder**
     - **type II TGF-β receptor, uncontrolled growth**
     - **pro-apoptotic protein BAX, survival of abnormal clones**
 
-![](img%5CAlt-GIS-Tumorleri-sunum37.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum37.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum38.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum38.png)
 
 **BRAF mutasyonu ve epigenetik susturulması**
 
@@ -419,21 +419,21 @@ inhibe eder**
   - **Luminal daralma**
   - **obstrüksiyon**
 
-![](img%5CAlt-GIS-Tumorleri-sunum39.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum39.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum40.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum40.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum41.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum41.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum42.png)
-
-**Robbins Basic Pathology**
-
-![](img%5CAlt-GIS-Tumorleri-sunum43.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum42.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum44.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum43.png)
+
+**Robbins Basic Pathology**
+
+![](./img-local/Alt-GIS-Tumorleri-sunum44.png)
 
 **A: Well-differentiated adenocarcinoma. Note the elongated,
 hyperchromatic nuclei. Necrotic debris, present in the gland lumen, is
@@ -441,16 +441,16 @@ typical.**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum45.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum45.png)
 
 **Poorly differentiated adenocarcinoma forms a few glands but is largely
 composed of infiltrating nests of tumor cells.**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum46.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum46.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum47.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum47.png)
 
 **Mucinous adenocarcinoma with signet ring cells and extracellular mucin
 pools**
@@ -459,9 +459,9 @@ pools**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum48.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum48.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum49.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum49.png)
 
 **A: Lymph node metastasis**
 
@@ -469,31 +469,31 @@ pools**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum50.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum50.png)
 
 **B: Solitary subpleural nodule of colorectal carcinoma metastatic to
 the lung.**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum51.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum51.png)
 
 **C: Liver containing two large and many smaller metastases. Note the
 central necrosis within metastases.**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum52.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum52.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum53.jpg)
+![](./img-local/Alt-GIS-Tumorleri-sunum53.jpg)
 
-![](img%5CAlt-GIS-Tumorleri-sunum54.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum54.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum55.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum55.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
@@ -510,7 +510,7 @@ central necrosis within metastases.**
   - **Psödokimsoma peritonei**
   - **Primer over tümörünü taklit eden metastaz**
 
-![](img%5CAlt-GIS-Tumorleri-sunum56.jpg)
+![](./img-local/Alt-GIS-Tumorleri-sunum56.jpg)
 
 ## Tumors of Lower GI Tract
 
@@ -524,11 +524,11 @@ central necrosis within metastases.**
 - **Non-neoplastic colonic polyps**
   - **inflammatory, hamartomatous, hyperplastic**
 
-![](img%5CAlt-GIS-Tumorleri-sunum57.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum57.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum58.jpg)
+![](./img-local/Alt-GIS-Tumorleri-sunum58.jpg)
 
-![](img%5CAlt-GIS-Tumorleri-sunum59.jpg)
+![](./img-local/Alt-GIS-Tumorleri-sunum59.jpg)
 
 **Those without stalks are referred to as sessile**
 
@@ -547,13 +547,13 @@ to create a stalk**
     inflammatory lesion of the anterior rectal wall**
   - **Impaired relaxation of the anorectal sphincter**
 
-![](img%5CAlt-GIS-Tumorleri-sunum60.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum60.png)
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CAlt-GIS-Tumorleri-sunum61.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum61.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum62.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum62.png)
 
 ## Hamartomatous Polyps
 
@@ -561,7 +561,7 @@ to create a stalk**
 
 **Components of various genetically determined or acquired syndromes**
 
-![](img%5CAlt-GIS-Tumorleri-sunum63.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum63.png)
 
 **Robbins Basic Pathology**
 
@@ -580,11 +580,11 @@ to create a stalk**
     the development of colonic adenocarcinoma**
 - **Mucosal hyperplasia, transforming growth factor-β (TGF-β)**
 
-![](img%5CAlt-GIS-Tumorleri-sunum64.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum64.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum65.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum65.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum66.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum66.png)
 
 **Pedunculated, smooth-surfaced, reddish lesions**
 
@@ -613,7 +613,7 @@ familial and subset of sporadic form**
 **Intestinal polyps are most common in the small intestine, may also
 occur in the stomach and colon, rarely, in the bladder and lungs**
 
-![](img%5CAlt-GIS-Tumorleri-sunum67.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum67.png)
 
 **Large and pedunculated**
 
@@ -622,7 +622,7 @@ occur in the stomach and colon, rarely, in the bladder and lungs**
 **Arborizing network of connective tissue, smooth muscle, lamina
 propria, and glands lined by normal-appearing intestinal epithelium**
 
-![](img%5CAlt-GIS-Tumorleri-sunum68.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum68.png)
 
 **Peutz-Jeghers polyp. Complex glandular architecture and bundles of
 smooth muscle help to distinguish Peutz-Jeghers polyps from juvenile
@@ -642,7 +642,7 @@ epithelial cells, leading to a “pileup” of goblet cells**
 **No malignant potential, must be distinguished from sessile serrated
 adenomas**
 
-![](img%5CAlt-GIS-Tumorleri-sunum69.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum69.png)
 
 **Most commonly found in the left colon**
 
@@ -654,26 +654,26 @@ adenomas**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum70.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum70.png)
 
 **Polyp surface with irregular tufting of epithelial cells**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum71.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum71.png)
 
 **Robbins Basic Pathology**
 
 **Tufting results from epithelial overcrowding**
 
-![](img%5CAlt-GIS-Tumorleri-sunum72.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum72.png)
 
 **Epithelial crowding produces a serrated architecture when glands are
 cut in cross-section**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum73.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum73.png)
 
 ## Adenoma
 
@@ -695,28 +695,28 @@ cut in cross-section**
 
 **Surveillance colonoscopy**
 
-![](img%5CAlt-GIS-Tumorleri-sunum74.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum74.png)
 
 **fibromuscular stalk**
 
 **Robbins and Cotran Pathologic Basis of Disease**
 
-![](img%5CAlt-GIS-Tumorleri-sunum75.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum75.png)
 
 **Tubular adenoma with a smooth surface and rounded glands**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum76.jpg)
+![](./img-local/Alt-GIS-Tumorleri-sunum76.jpg)
 
-![](img%5CAlt-GIS-Tumorleri-sunum77.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum77.png)
 
 **Villous adenoma with long, slender projections that are reminiscent of
 small intestinal villi**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum78.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum78.png)
 
 **The cytologic hallmark of epithelial dysplasia is nuclear
 hyperchromasia, elongation, and stratification**
@@ -727,9 +727,9 @@ crypt**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum79.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum79.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum80.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum80.png)
 
 **Sessile serrated adenoma**
 
@@ -741,21 +741,21 @@ the crypts**
 
 **Have a malignant potential similar to that of traditional adenomas**
 
-![](img%5CAlt-GIS-Tumorleri-sunum81.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum81.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum82.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum82.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum83.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum83.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum84.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum84.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum85.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum85.png)
 
 **Robbins Basic Pathology**
 
@@ -770,11 +770,11 @@ the crypts**
 **\>100 polyps is necessary for a diagnosis of classic FAP, and as many
 as several thousand may be present**
 
-![](img%5CAlt-GIS-Tumorleri-sunum86.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum86.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum87.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum87.png)
 
 **Robbins Basic Pathology**
 
@@ -865,13 +865,13 @@ by mutation or epigenetic events, for adenomas to develop**
 
 **β-Catenin is dectructed**
 
-![](img%5CAlt-GIS-Tumorleri-sunum88.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum88.png)
 
 **Robbins Basic Pathology**
 
 **β-Catenin is active in the nucleus**
 
-![](img%5CAlt-GIS-Tumorleri-sunum89.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum89.png)
 
 **cyclin D1 and MYC transcribed for proliferation**
 
@@ -886,7 +886,7 @@ by mutation or epigenetic events, for adenomas to develop**
 **TP53 ?? 70% to 80% of colon cancers but is uncommonly affected in
 adenomas**
 
-![](img%5CAlt-GIS-Tumorleri-sunum90.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum90.png)
 
 **KRAS**
 
@@ -912,11 +912,11 @@ chromosomal instability in this pathway**
 
 **Due to loss of mismatch repair genes**
 
-![](img%5CAlt-GIS-Tumorleri-sunum91.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum91.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum92.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum92.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum93.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum93.png)
 
 - **Mutations accumulate in microsatellite repeats → microsatellite
   instability**
@@ -926,7 +926,7 @@ chromosomal instability in this pathway**
     - **type II TGF-β receptor, uncontrolled growth**
     - **pro-apoptotic protein BAX, survival of abnormal clones**
 
-![](img%5CAlt-GIS-Tumorleri-sunum94.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum94.png)
 
 **Mutations in the oncogene BRAF and silencing of distinct groups of
 genes due to CpG island hypermethylation also are common in cancers that
@@ -936,7 +936,7 @@ develop through DNA mismatch repair defects.**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum95.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum95.png)
 
 ## Adenocarcinoma distribution
 
@@ -952,21 +952,21 @@ develop through DNA mismatch repair defects.**
     luminal narrowing**
   - **point of obstruction**
 
-![](img%5CAlt-GIS-Tumorleri-sunum96.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum96.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum97.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum97.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum98.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum98.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum99.png)
-
-**Robbins Basic Pathology**
-
-![](img%5CAlt-GIS-Tumorleri-sunum100.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum99.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum101.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum100.png)
+
+**Robbins Basic Pathology**
+
+![](./img-local/Alt-GIS-Tumorleri-sunum101.png)
 
 **A: Well-differentiated adenocarcinoma. Note the elongated,
 hyperchromatic nuclei. Necrotic debris, present in the gland lumen, is
@@ -974,16 +974,16 @@ typical.**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum102.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum102.png)
 
 **Poorly differentiated adenocarcinoma forms a few glands but is largely
 composed of infiltrating nests of tumor cells.**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum103.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum103.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum104.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum104.png)
 
 **Mucinous adenocarcinoma with signet ring cells and extracellular mucin
 pools**
@@ -992,9 +992,9 @@ pools**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum105.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum105.png)
 
-![](img%5CAlt-GIS-Tumorleri-sunum106.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum106.png)
 
 **Lymph node metastasis**
 
@@ -1002,31 +1002,31 @@ pools**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum107.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum107.png)
 
 **B: Solitary subpleural nodule of colorectal carcinoma metastatic to
 the lung.**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum108.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum108.png)
 
 **C: Liver containing two large and many smaller metastases. Note the
 central necrosis within metastases.**
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum109.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum109.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum110.jpg)
+![](./img-local/Alt-GIS-Tumorleri-sunum110.jpg)
 
-![](img%5CAlt-GIS-Tumorleri-sunum111.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum111.png)
 
 **Robbins Basic Pathology**
 
-![](img%5CAlt-GIS-Tumorleri-sunum112.png)
+![](./img-local/Alt-GIS-Tumorleri-sunum112.png)
 
 **Autopsy Pathology: A Manual and Atlas**
 
