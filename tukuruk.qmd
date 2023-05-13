@@ -1,0 +1,25 @@
+```{r language tukuruk bezi, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+
+```
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+# Tükürük Bezi Tümörleri
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+# Tumors of Salivary Gland
+
+```
+
+
