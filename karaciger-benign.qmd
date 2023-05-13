@@ -8,7 +8,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## Karaciğer Benign Tümörleri
+## Karaciğer Benign Tümörleri {#sec-karaciger-benign-tumorleri} 
 
 ```
 
@@ -17,7 +17,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## Benign Liver Tumors
+## Benign Liver Tumors {#sec-benign-liver-tumors} 
 
 ```
 
@@ -26,7 +26,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## Karaciğer Hemanjiom
+## Karaciğer Hemanjiom {#sec-karaci-hemanjiom} 
 
 ```
 
@@ -35,7 +35,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## Liver Hemangioma
+## Liver Hemangioma {#sec-liver-hemangioma} 
 
 ```
 

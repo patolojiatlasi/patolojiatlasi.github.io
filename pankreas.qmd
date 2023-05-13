@@ -10,7 +10,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-# Pankreas Tümörleri
+# Pankreas Tümörleri {#sec-pankreas-tumorleri} 
 
 ```
 
@@ -18,7 +18,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-# Tumors of the Pancreas
+# Tumors of the Pancreas {#sec-tumors-of-pancreas} 
 
 ```
 
@@ -29,7 +29,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## pankreas, müsinöz adenokarsinom zemininde gelişmiş, osteoklast benzeri dev hücreler içeren indiferansiye karsinom
+## pankreas, müsinöz adenokarsinom zemininde gelişmiş, osteoklast benzeri dev hücreler içeren indiferansiye karsinom {#sec-pankreas-musinous-adenokarsinom-osteoklast} 
 
 ```
 
@@ -38,7 +38,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## pancreas, undifferentiated carcinoma with osteoclast-like giant cells, arising within a mucinous adenocarcinoma
+## pancreas, undifferentiated carcinoma with osteoclast-like giant cells, arising within a mucinous adenocarcinoma {#sec-pancreas-musinous-adenocarcinoma-osteoclastic} 
 
 ```
 

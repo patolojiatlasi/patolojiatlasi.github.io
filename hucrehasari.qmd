@@ -5,14 +5,16 @@ source("./R/language.R")
 ```
 
 ```{asis, echo = (language == "TR")}
-# Hücre Hasarı
-## Reaktif Atipi, ülsere kolon polibi
+# Hücre Hasarı {#sec-hucre-hasari} 
+
+## Reaktif Atipi, ülsere kolon polibi {#sec-reaktif-atipi} 
 
 ```
 
 ```{asis, echo = (language == "EN")}
-# Cellular Injury
-## Reactive atypia in an ulcerated colon polyp
+# Cellular Injury {#sec-cellular-injury} 
+
+## Reactive atypia in an ulcerated colon polyp {#sec-reactive-atypia} 
 
 ```
 

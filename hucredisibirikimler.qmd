@@ -1,15 +1,15 @@
-# Hücre Dışı Birikimler
+# Hücre Dışı Birikimler {#sec-hucre-disi-birikimler} 
 
 ```{r language ochronosis, echo=FALSE, include=TRUE}
 source("./R/language.R")
 ```
 
 ```{asis, echo = (language == "TR")}
-## Okronozis
+## Okronozis {#sec-okronozis} 
 ```
 
 ```{asis, echo = (language == "EN")}
-## Ochronosis
+## Ochronosis {#sec-ochronosis} 
 ```
 
 ```{asis, echo = (language == "TR")}

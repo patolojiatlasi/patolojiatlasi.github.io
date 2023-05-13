@@ -5,12 +5,12 @@ source("./R/language.R")
 
 
 ```{asis, echo = (language == "TR")}
-# Beyin İnvazyonu Gösteren Meningiom
+# Beyin İnvazyonu Gösteren Meningiom {#sec-beyin-invazyonu-gosteren-meningiom} 
 ```
 
 
 ```{asis, echo = (language == "EN")}
-# Brain Invasive Meningioma
+# Brain Invasive Meningioma {#sec-brain-invasive-meningioma} 
 ```
 
 
@@ -51,12 +51,12 @@ source("./R/language.R")
 
 
 ```{asis, echo = (language == "TR")}
-# Meningiom Kemik İnfiltrasyonu
+# Meningiom Kemik İnfiltrasyonu {#sec-kemik-infiltrasyonu-gosteren-meningiom} 
 ```
 
 
 ```{asis, echo = (language == "EN")}
-# Meningioma Bone Infiltration
+# Meningioma Bone Infiltration {#sec-meningioma-invading-bone} 
 ```
 
 

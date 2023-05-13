@@ -1,10 +1,10 @@
-# Hücre İçi Birikimler
+# Hücre İçi Birikimler {#sec-hucre-ici-birikimler} 
 
 ```{r language, echo=FALSE, include=TRUE}
 source("./R/language.R")
 ```
 
-## Kolesterol Polibi
+## Kolesterol Polibi {#sec-kolesterol-polibi} 
 
 -   <https://images.patolojiatlasi.com/cholesterolpolyp/HE.html>
 
@@ -14,7 +14,7 @@ source("./R/language.R")
 
 </iframe>
 
-## Glikojen Depo Hastalığı
+## Glikojen Depo Hastalığı {#sec-glikojen-depo-hastaligi} 
 
 Karaciğer İğnde Biyopsisinde glikojen depo hastalığı
 
@@ -48,7 +48,7 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 
-## Antrakoz, Antrakotik Pigment
+## Antrakoz, Antrakotik Pigment {#sec-antrakoz-antrakotik-pigment} 
 
 Torakal bölge lenf nodunda antrakotik pigment
 
@@ -68,7 +68,7 @@ See Microscopy with viewer:
 
 </iframe>
 
-## Melanosis Coli
+## Melanosis Coli {#sec-melanosis-coli} 
 
 ```{asis, echo = (language == "TR")}
 

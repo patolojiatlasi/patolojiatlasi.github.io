@@ -8,7 +8,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-# Santral Sinir Sistemi Vasküler Lezyonlar
+# Santral Sinir Sistemi Vasküler Lezyonlar {#sec-santral-sinir-sistemi-vaskuler} 
 
 ```
 
@@ -17,7 +17,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-# Central Nervous System Vascular Lesions
+# Central Nervous System Vascular Lesions {#sec-central-nervous-system-vascular} 
 
 ```
 
@@ -26,7 +26,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## beyin arteriovenöz malformasyon
+## Beyin arteriovenöz malformasyon {#sec-beyin-arteriovenoz-malformasyon} 
 
 ```
 
@@ -35,7 +35,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## brain arteriovenous malformation
+## Brain arteriovenous malformation {#sec-brain-arteriovenous-malformation} 
 
 ```
 

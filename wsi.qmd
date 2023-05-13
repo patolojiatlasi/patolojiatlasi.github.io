@@ -6,17 +6,17 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-# Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları 
+# Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları  {#sec-wsi-sayfalari} 
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-# Pages Containing Whole Slide Images for Pathology Education 
+# Pages Containing Whole Slide Images for Pathology Education  {#sec-wsi-pages} 
 
 ```
 
-## Rosai Collection 
+## Rosai Collection  {#sec-rosai-collection} 
 
 <https://www.rosaicollection.org/>
 
@@ -25,7 +25,7 @@ source("./R/language.R")
 </iframe>
 
 
-##  Atlas of Medical Foreign Bodies 
+##  Atlas of Medical Foreign Bodies  {#sec-atlas-of-medical-foreign-bodies} 
 
 
 <a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/158161000@N04" title=""><img src="https://live.staticflickr.com/65535/52497202833_7dcdb50371_z.jpg" width="600" height="800" alt=""></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

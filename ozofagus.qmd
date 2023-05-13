@@ -9,19 +9,19 @@ source("./R/language.R")
 
 
 ```{asis, echo = (language == "TR")}
-# Özofagus
+# Özofagus {#sec-ozofagus} 
 ```
 
 
 ```{asis, echo = (language == "TR")}
 
-## Özofagusta Granüler Hücreli Tümör
+## Özofagusta Granüler Hücreli Tümör {#sec-ozofagus-granuler-hucreli-tumor} 
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-# Esophagus
+# Esophagus {#sec-esophagus} 
 
 ```
 
@@ -30,7 +30,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## Granular Cell Tumor in Esophagus
+## Granular Cell Tumor in Esophagus {#sec-esophagus-granular-cell-tumor} 
 
 ```
 

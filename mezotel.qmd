@@ -12,7 +12,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-# Abdominal mezotelyoma
+# Abdominal mezotelyoma {#sec-abdominal-mezotelyoma} 
 
 ```
 
@@ -21,7 +21,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-# Abdominal mesothelioma
+# Abdominal mesothelioma {#sec-abdominal-mesothelioma} 
 
 ```
 

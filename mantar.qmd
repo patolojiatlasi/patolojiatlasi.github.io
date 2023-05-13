@@ -1,6 +1,6 @@
-## Mantarlar
+## Mantarlar {#sec-mantarlar} 
 
-## Candida *albicans* in cervicovaginal smear
+## Candida *albicans* in cervicovaginal smear {#sec-candida-albicans-in-cervicovaginal-smear} 
 
 
 {{< include _content-to-repeat-1.qmd >}}
@@ -22,13 +22,13 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## Beyin mukormikozis
+## Beyin mukormikozis {#sec-beyin-mukormikozis} 
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## brain mucormycosis
+## brain mucormycosis {#sec-brain-mucormycosis} 
 
 ```
 

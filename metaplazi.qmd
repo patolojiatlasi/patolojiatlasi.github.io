@@ -1,13 +1,3 @@
-# metaplasia
-
-
-
-**metaplasia for pathology atlas repositories**
-
-
-
-
-
 ```{r language metaplasia, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
@@ -18,13 +8,13 @@ source("./R/language.R")
 
 
 ```{asis, echo = (language == "TR")}
-# Metaplazi
+# Metaplazi {#sec-metaplazi} 
 ```
 
 
 ```{asis, echo = (language == "TR")}
 
-## Pankreatik Asiner Metaplazi, Mide
+## Pankreatik Asiner Metaplazi, Mide {#sec-pankreatik-asiner-metaplazi} 
 
 ```
 
@@ -32,14 +22,14 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-# Metaplasia
+# Metaplasia {#sec-metaplasia} 
 
 ```
 
 
 ```{asis, echo = (language == "EN")}
 
-## Pancreatic Acinar Metaplasia, Stomach
+## Pancreatic Acinar Metaplasia, Stomach {#sec-pancreatic-acinar-metaplasia} 
 
 ```
 

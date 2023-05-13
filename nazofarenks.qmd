@@ -9,9 +9,9 @@ source("./R/language.R")
 
 
 ```{asis, echo = (language == "TR")}
-# Nazofarenks
+# Nazofarenks {#sec-nazofarenks} 
 
-## Nazofarenks Karsinomu, nonkeratinize skuamöz hücreli karsinom
+## Nazofarenks Karsinomu, nonkeratinize skuamöz hücreli karsinom {#sec-nazofarenks-karsinomu-nonkeratinize-skuamoz-hucreli-karsinom} 
 
 ```
 
@@ -19,9 +19,9 @@ source("./R/language.R")
 
 
 ```{asis, echo = (language == "EN")}
-# Nasopharynx
+# Nasopharynx {#sec-nasopharynx} 
 
-##  Nasopharyngeal carcinoma, nonkeratinizing squamous cell carcinoma
+##  Nasopharyngeal carcinoma, nonkeratinizing squamous cell carcinoma {#sec-nasopharyngial-carcinoma-nonkeratinizing-squamous-cell-carcinoma} 
 
 ```
 

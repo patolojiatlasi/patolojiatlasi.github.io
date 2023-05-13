@@ -7,14 +7,16 @@ source("./R/language.R")
 
 
 ```{asis, echo = (language == "TR")}
-## Serviks Skuamöz Hücreli Karsinom
+# Serviks  {#sec-serviks} 
+## Serviks Skuamöz Hücreli Karsinom {#sec-serviks-skuamoz-hucreli-karsinom} 
 ```
 
 
 
 
 ```{asis, echo = (language == "EN")}
-## Cervix Squamous Cell Carcinoma
+# Cervix  {#sec-cervix} 
+## Cervix Squamous Cell Carcinoma {#sec-cervix-squamous-cell-carcinoma} 
 ```
 
 

@@ -3,19 +3,19 @@ source("./R/language.R")
 ```
 
 ```{asis, echo = (language == "TR")}
-# Kronik İnflamasyon
+# Kronik İnflamasyon {#sec-kronik-inflamasyon} 
 ```
 
 
 ```{asis, echo = (language == "EN")}
-# Chronic Inflammation
+# Chronic Inflammation {#sec-chronic-inflammation} 
 ```
 
 
 ```{asis, echo = (language == "EN")}
-## Hydronephrosis and Chronic Pyelonephritis
+## Hydronephrosis and Chronic Pyelonephritis {#sec-hydronephrosis-chronic-pyelonephritis} 
 
-Hydronephrosis and Chronic Pyelonephritis
+**Hydronephrosis and Chronic Pyelonephritis**
 
 [https://images.patolojiatlasi.com/chronicpyelonephritis/HE1.html](https://images.patolojiatlasi.com/chronicpyelonephritis/HE1.html)
 
@@ -32,9 +32,9 @@ See Microscopy with viewer:
 ```
 
 ```{asis, echo = (language == "TR")}
-## Hidronefroz ve Kronik Pyelonefrit
+## Hidronefroz ve Kronik Pyelonefrit {#sec-hidronefroz-kronik-pyelonefrit} 
 
-Hidronefroz ve Kronik Pyelonefrit
+**Hidronefroz ve Kronik Pyelonefrit**
 
 [https://images.patolojiatlasi.com/chronicpyelonephritis/HE1.html](https://images.patolojiatlasi.com/chronicpyelonephritis/HE1.html)
 
@@ -55,7 +55,7 @@ Mikroskopik görüntüleri inceleyin:
 
 ```{asis, echo = (language == "TR")}
 
-## Kronik Pyelonefrit
+## Kronik Pyelonefrit {#sec-kronik-pyelonefrit} 
 
 ```
 
@@ -64,7 +64,7 @@ Mikroskopik görüntüleri inceleyin:
 
 ```{asis, echo = (language == "EN")}
 
-## Chronic Pyelonephritis
+## Chronic Pyelonephritis {#sec-chronic-pyelonephritis} 
 
 ```
 
@@ -73,7 +73,7 @@ Mikroskopik görüntüleri inceleyin:
 
 ```{asis, echo = (language == "TR")}
 
-**kronik pyelonefrit**
+**Kronik Pyelonefrit**
 
 
 [https://images.patolojiatlasi.com/chronic-pyelonephritis/HE.html](https://images.patolojiatlasi.com/chronic-pyelonephritis/HE.html)
@@ -89,7 +89,7 @@ Mikroskopik görüntüleri inceleyin:
 
 ```{asis, echo = (language == "EN")}
 
-**chronic pyelonephritis**
+**Chronic Pyelonephritis**
 
 
 [https://images.patolojiatlasi.com/chronic-pyelonephritis/HE.html](https://images.patolojiatlasi.com/chronic-pyelonephritis/HE.html)

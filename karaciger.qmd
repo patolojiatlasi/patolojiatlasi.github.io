@@ -4,9 +4,9 @@ description: |
     Karaciğer Tümörleri
 ---
 
-# Karaciğer Tümörleri
+# Karaciğer Tümörleri {#sec-karaciger-tumorleri} 
 
-## Hepatoselüler Karsinom
+## Hepatoselüler Karsinom {#sec-hepatoseluler-karsinom} 
 
 <https://images.patolojiatlasi.com/hepatocellularcarcinoma/HCC/viewer_z0.html>
 
@@ -29,7 +29,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## Hepatoselüler karsinom, fibrolamellar
+## Hepatoselüler karsinom, fibrolamellar {#sec-hepatoseluler-karsinom-fibrolamellar} 
 
 ```
 
@@ -38,7 +38,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## Hepatocellular carcinoma, fibrolamellar
+## Hepatocellular carcinoma, fibrolamellar {#sec-hepatocellular-carcinoma-fibrolamellar} 
 
 ```
 

@@ -3,19 +3,19 @@ source("./R/language.R")
 ```
 
 ```{asis, echo = (language == "TR")}
-# Mide Patolojisi
+# Mide Patolojisi {#sec-mide-patolojisi} 
 ```
 
 ```{asis, echo = (language == "EN")}
-# Pathology of Stomach
+# Pathology of Stomach {#sec-pathology-of-stomach} 
 ```
 
 ```{asis, echo = (language == "TR")}
-## Gastritis Cystica Profunda
+## Gastritis Cystica Profunda {#sec-gastritis-cystica-profunda} 
 ```
 
 ```{asis, echo = (language == "EN")}
-## Gastritis Cystica Profunda
+## Gastritis Cystica Profunda {#sec-gastritis-cystica-profunda} 
 ```
 
 ```{asis, echo = (language == "TR")}

@@ -9,9 +9,9 @@ source("./R/language.R")
 
 
 ```{asis, echo = (language == "TR")}
-# Prostat 
+# Prostat  {#sec-prostat} 
 
-## benign prostat hiperplazisi
+## benign prostat hiperplazisi {#sec-benign-prostat-hiperplazisi} 
 
 ```
 
@@ -19,9 +19,9 @@ source("./R/language.R")
 
 
 ```{asis, echo = (language == "EN")}
-# Prostate
+# Prostate {#sec-prostate} 
 
-## benign prostate hyperplasia
+## benign prostate hyperplasia {#sec-benign-prostate-hyperplasia} 
 
 ```
 

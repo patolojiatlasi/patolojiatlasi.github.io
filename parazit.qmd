@@ -3,21 +3,21 @@ source("./R/language.R")
 ```
 
 ```{asis, echo = (language == "TR")}
-# Parazitler
+# Parazitler {#sec-parazitler} 
 ```
 
 ```{asis, echo = (language == "EN")}
-# Parasites
+# Parasites {#sec-parasites} 
 ```
 
 
 
 ```{asis, echo = (language == "TR")}
-## Enterobius vermicularis
+## Enterobius vermicularis {#sec-enterobius-vermicularis} 
 ```
 
 ```{asis, echo = (language == "EN")}
-## Enterobius vermicularis
+## Enterobius vermicularis {#sec-enterobius-vermicularis} 
 ```
 
 ```{asis, echo = (language == "TR")}

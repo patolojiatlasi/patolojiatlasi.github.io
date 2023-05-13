@@ -1,8 +1,8 @@
-# Viruslar
+# Viruslar {#sec-viruslar} 
 
-## Herpes Simplex Virus (HSV)
+## Herpes Simplex Virus (HSV) {#sec-herpes-simplex-virus} 
 
-### Herpes Esophagatis
+### Herpes Esophagatis {#sec-herpes-esophagatis} 
 
 <https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html>
 
@@ -17,11 +17,11 @@ source("./R/language.R")
 ```
 
 ```{asis, echo = (language == "TR")}
-## Molluscum contagiosum
+## Molluscum contagiosum {#sec-molluscum-contagiosum} 
 ```
 
 ```{asis, echo = (language == "EN")}
-## Molluscum contagiosum
+## Molluscum contagiosum {#sec-molluscum-contagiosum} 
 ```
 
 ```{asis, echo = (language == "TR")}

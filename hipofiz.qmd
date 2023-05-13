@@ -12,7 +12,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## Hipofiz Adenomu
+## Hipofiz Adenomu {#sec-hipofiz-adenomu} 
 
 ```
 
@@ -21,7 +21,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## Pituitary Adenoma
+## Pituitary Adenoma {#sec-pituitary-adenoma} 
 
 ```
 

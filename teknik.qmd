@@ -8,7 +8,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-# Patolojide Kullanılan Teknikler
+# Patolojide Kullanılan Teknikler {#sec-patolojide-kullanilan-teknikler} 
 
 ```
 
@@ -17,7 +17,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-# Techniques Used in Pathology
+# Techniques Used in Pathology {#sec-techniques-used-in-pathology} 
 
 ```
 
@@ -26,7 +26,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## Chromogenic in situ hybridization (CISH)
+## Chromogenic in situ hybridization (CISH) {#sec-chromogenic-in-situ-hybridization-cish} 
 
 ```
 
@@ -35,7 +35,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## Chromogenic in situ hybridization (CISH)
+## Chromogenic in situ hybridization (CISH) {#sec-chromogenic-in-situ-hybridization-cish} 
 
 ```
 

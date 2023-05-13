@@ -9,9 +9,9 @@ source("./R/language.R")
 
 
 ```{asis, echo = (language == "TR")}
-# Nöroendokrin Tümörler
+# Nöroendokrin Tümörler {#sec-noroendokrin-tumorler} 
 
-## Nöroendokrin Tümör Sitolojisi Giemsa
+## Nöroendokrin Tümör Sitolojisi Giemsa  {#sec-noroendokrin-tumor-sitolojisi-giemsa} 
 
 ```
 
@@ -19,9 +19,9 @@ source("./R/language.R")
 
 
 ```{asis, echo = (language == "EN")}
-# Neuroendocrine Tumors
+# Neuroendocrine Tumors {#sec-neuroendocrine-tumors} 
 
-## Neuroendocrine Tumor Cytology Giemsa
+## Neuroendocrine Tumor Cytology Giemsa {#sec-neuroendocrine-tumor-cytology-giemsa} 
 
 ```
 

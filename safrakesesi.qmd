@@ -12,8 +12,9 @@ source("./R/language.R")
 
 
 ```{asis, echo = (language == "TR")}
+# Safra Kesesi  {#sec-safra-kesesi} 
 
-## Safra Kesesi Adenomyom
+## Safra Kesesi Adenomyom {#sec-safra-kesesi-adenomyom} 
 
 ```
 
@@ -22,7 +23,9 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## Gallbladder Adenomyoma
+# Gallbladder  {#sec-gallbladder} 
+
+## Gallbladder Adenomyoma {#sec-gallbladder-adenomyoma} 
 
 ```
 

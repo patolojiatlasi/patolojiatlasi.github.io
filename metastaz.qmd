@@ -1,8 +1,8 @@
 {{< include _content-to-repeat-1.qmd >}}
 
-# Metastaz
+# Metastaz {#sec-metastaz} 
 
-## Karaciğerde Sarkom Metastazı
+## Karaciğerde Sarkom Metastazı {#sec-karaciger-sarkom-metastaz} 
 
 -   <https://images.patolojiatlasi.com/metastaticsarcoma/HE.html>
 
@@ -26,7 +26,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## Sinsi bir lenf nodu metastazı
+## Sinsi bir lenf nodu metastazı {#sec-sinsi-lenf-nodu-metastazi} 
 
 ```
 
@@ -35,7 +35,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## insidious lymph node metastasis
+## Insidious lymph node metastasis {#sec-insidious-lymph-node-metastasis} 
 
 ```
 

@@ -1,4 +1,4 @@
-# Plasenta
+# Plasenta {#sec-plasenta} 
 
 ```{r chorioamnionitis, include=FALSE}
 language <- "TR"
@@ -7,7 +7,7 @@ language <- "TR"
 
 ```{asis, echo = language == "EN"}
 
-## chorioamnionitis
+## chorioamnionitis {#sec-chorioamnionitis} 
 
 [https://images.patolojiatlasi.com/chorioamnionitis/HE.html](https://images.patolojiatlasi.com/chorioamnionitis/HE.html)
 
@@ -20,7 +20,7 @@ See Microscopy with viewer:
 
 ```{asis, echo = language == "TR"}
 
-## Koryoamnionit
+## Koryoamniyonit {#sec-koryoamniyonit} 
 
 
 [https://images.patolojiatlasi.com/chorioamnionitis/HE.html](https://images.patolojiatlasi.com/chorioamnionitis/HE.html)

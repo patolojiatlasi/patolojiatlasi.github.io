@@ -6,25 +6,25 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-# Diğer Organlara Tümör Yayılımı
+# Başka Organlara Tümör Yayılımı {#sec-baska-organlara-tumor-yayilimi} 
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-# Tumor Spread to Other Organs
+# Tumor Spread to Other Organs {#sec-tumor-spread-to-other-organs} 
 
 ```
 
 ```{asis, echo = (language == "TR")}
 
-## Servikse kolon tümörü yayılımı
+## Servikse kolon tümörü yayılımı {#sec-servikse-kolon-tumor-yayilimi} 
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Colon tumor spread to cervix
+## Colon tumor spread to cervix {#sec-colon-tumor-spread-to-cervix} 
 
 ```
 
@@ -56,13 +56,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Endometriuma kolon tümörü yayılımı
+## Endometriuma kolon tümörü yayılımı {#sec-endometriuma-kolon-tumor-yayilimi} 
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Colon tumor spread to endometrium
+## Colon tumor spread to endometrium {#sec-colon-tumor-spread-to-endometrium} 
 
 ```
 
@@ -94,13 +94,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## Overe kolon tümörü yayılımı
+## Overe kolon tümörü yayılımı {#sec-overe-kolon-tumor-yayilimi} 
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Colon tumor spread to over
+## Colon tumor spread to over {#sec-colon-tumor-spread-to-over} 
 
 ```
 
@@ -132,13 +132,13 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-## İnce barsağa kolon tümörü yayılımı
+## İnce barsağa kolon tümörü yayılımı {#sec-ince-barsak-kolon-tumor-yayilimi} 
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Colon tumor spread to small intestine
+## Colon tumor spread to small intestine {#sec-colon-tumor-spread-to-small-intestine} 
 
 ```
 

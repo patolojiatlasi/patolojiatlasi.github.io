@@ -3,11 +3,11 @@ source("./R/language.R")
 ```
 
 ```{asis, echo = (language == "TR")}
-# Venöz invazyon
+# Venöz invazyon {#sec-venoz-invazyon} 
 ```
 
 ```{asis, echo = (language == "EN")}
-# Venous invasion
+# Venous invasion {#sec-venous-invasion} 
 ```
 
 ```{asis, echo = (language == "TR")}

@@ -10,7 +10,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-# Malign Tümör Özellikleri 
+# Malign Tümör Özellikleri  {#sec-malign-tumor-ozellikleri} 
 
 ```
 
@@ -19,7 +19,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-# Features of Malignancy 
+# Features of Malignancy  {#sec-features-of-malignancy} 
 
 ```
 
@@ -29,7 +29,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## pleomorfizm
+## Pleomorfizm {#sec-pleomorfizm} 
 
 ```
 
@@ -38,7 +38,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## pleomorphism
+## Pleomorphism {#sec-pleomorphism} 
 
 ```
 
@@ -47,7 +47,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-**pleomorfizm**
+**Pleomorfizm**
 
 
 [https://images.patolojiatlasi.com/pleomorphism/HE.html](https://images.patolojiatlasi.com/pleomorphism/HE.html)
@@ -63,7 +63,7 @@ Mikroskopik görüntüleri inceleyin:
 
 ```{asis, echo = (language == "EN")}
 
-**pleomorphism**
+**Pleomorphism**
 
 
 [https://images.patolojiatlasi.com/pleomorphism/HE.html](https://images.patolojiatlasi.com/pleomorphism/HE.html)

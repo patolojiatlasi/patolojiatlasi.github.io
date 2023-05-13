@@ -9,7 +9,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-# Tükürük Bezi Tümörleri
+# Tükürük Bezi Tümörleri {#sec-tukuruk-bezi-tumorleri} 
 
 ```
 
@@ -18,7 +18,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-# Tumors of Salivary Gland
+# Tumors of Salivary Gland {#sec-salivary-gland-tumors} 
 
 ```
 

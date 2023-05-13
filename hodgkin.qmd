@@ -10,7 +10,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## Hodgkin Lenfoma
+## Hodgkin Lenfoma {#sec-hodgkin-lenfoma} 
 
 ```
 
@@ -19,7 +19,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## Hodgkin Lymphoma
+## Hodgkin Lymphoma {#sec-hodgkin-lymphoma} 
 
 ```
 

@@ -12,11 +12,11 @@ source("./R/language.R")
 ```
 
 ```{asis, echo = (language == "TR")}
-## İskemik Kolit
+## İskemik Kolit {#sec-iskemik-kolit} 
 ```
 
 ```{asis, echo = (language == "EN")}
-## Ischemic Colitis
+## Ischemic Colitis {#sec-ischemic-colitis} 
 ```
 
 ```{asis, echo = (language == "TR")}
@@ -45,11 +45,11 @@ See Microscopy with viewer:
 
 ```
 
-## Benign Tümörler
+## Benign Tümörler {#sec-kolon-benign-tumorler} 
 
-### Tübüler Adenom
+### Tübüler Adenom {#sec-kolon-tubuler-adenom} 
 
-#### Sesil Polip, Flat (Düz) Tübüler Adenom
+#### Sesil Polip, Flat (Düz) Tübüler Adenom {#sec-kolon-sesil-polip} 
 
 <https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html>
 
@@ -67,7 +67,7 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 
-#### Saplı Polip
+#### Saplı Polip {#sec-kolon-sapli-polip} 
 
 Macroscopy
 
@@ -89,7 +89,7 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 
-### Hiperplastik Polip
+### Hiperplastik Polip {#sec-kolon-hiperplastik-polip} 
 
 Mikroskopi
 
@@ -101,7 +101,7 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 
-### Hamartomatöz Polip
+### Hamartomatöz Polip {#sec-kolon-hamartomatoz-polip} 
 
 <https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html>
 
@@ -111,7 +111,7 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 
-#### Schwann Cell Hamartoma in a Colon Polyp
+#### Schwann Cell Hamartoma in a Colon Polyp {#sec-colon-schwann-cell-hamartoma} 
 
 <https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html>
 
@@ -121,7 +121,7 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 
-```{r language colon-intramucosal-lipoma, echo=FALSE, include=TRUE}
+```{r language colon-submucosal-lipoma, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
 
@@ -129,39 +129,39 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-# Kolon intramukozal lipom
+# Kolon submukozal lipom {#sec-kolon-intramukozal-lipom} 
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-# Colon intramucosal lipoma
+# Colon submucosal lipoma {#sec-colon-submucosal-lipoma} 
 
 ```
 
 ```{asis, echo = (language == "TR")}
 
-**Kolon intramukozal lipom**
+**Kolon submukozal lipom**
 
 
-[https://images.patolojiatlasi.com/colon-intramucosal-lipoma/HE.html](https://images.patolojiatlasi.com/colon-intramucosal-lipoma/HE.html)
+[https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html](https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/colon-intramucosal-lipoma/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-**Colon intramucosal lipoma**
+**Colon submucosal lipoma**
 
 
-[https://images.patolojiatlasi.com/colon-intramucosal-lipoma/HE.html](https://images.patolojiatlasi.com/colon-intramucosal-lipoma/HE.html)
+[https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html](https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html)
 
 See Microscopy with viewer: 
 
-<iframe src="https://images.patolojiatlasi.com/colon-intramucosal-lipoma/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -173,13 +173,13 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-# Tübülövillöz adenom zemininde gelişmiş Müsinöz adenokarsinom, kolon
+# Tübülövillöz adenom zemininde gelişmiş Müsinöz adenokarsinom, kolon {#sec-tubulovilloz-adenom-zemininde-adenokarsinom} 
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-# Mucinous adenocarcinoma of colon arising from tubulovillus adenoma
+# Mucinous adenocarcinoma of colon arising from tubulovillus adenoma {#sec-adenocarcinoma-arising-tubulovillous-adenoma} 
 
 ```
 
@@ -219,13 +219,13 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-# Kolon Adenokarsinomu
+# Kolon Adenokarsinomu {#sec-kolon-adenokarsinomu} 
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-# Colon Adenocarcinoma
+# Colon Adenocarcinoma {#sec-colon-adenocarcinoma} 
 
 ```
 

@@ -1,6 +1,6 @@
-# Heterotopi Ektopi
+# Heterotopi Ektopi {#sec-heterotopi-ektopi} 
 
-## Intrapancreatic Spleen, Heterotopia
+## Intrapancreatic Spleen, Heterotopia {#sec-intrapancreatic-spleen} 
 
 -   <https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html>
 
@@ -15,11 +15,11 @@ source("./R/language.R")
 ```
 
 ```{asis, echo = (language == "TR")}
-## Paratubal adneksiyal bölgede ektopik adrenal dokusu
+## Paratubal adneksiyal bölgede ektopik adrenal dokusu {#sec-paratubal-adneksiyal-bolgede-ektopik-adrenal} 
 ```
 
 ```{asis, echo = (language == "EN")}
-## Ectopic adrenal tissue in paratubal adnexal region
+## Ectopic adrenal tissue in paratubal adnexal region {#sec-ectopic-adrenal-tissue-paratubal-adnexial-tissue} 
 ```
 
 ```{asis, echo = (language == "TR")}

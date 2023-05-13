@@ -9,8 +9,9 @@ source("./R/language.R")
 
 
 ```{asis, echo = (language == "TR")}
+# Karsinogenez  {#sec-karsinogenez} 
 
-## metaplazi, displazi, karsinom
+## metaplazi, displazi, karsinom  {#sec-mepaplazi-displazi-karsinom} 
 
 ```
 
@@ -18,8 +19,9 @@ source("./R/language.R")
 
 
 ```{asis, echo = (language == "EN")}
+# Carcinogenesis {#sec-carcinogenesis} 
 
-## metaplasia, dysplasia, carcinoma
+## metaplasia, dysplasia, carcinoma {#sec-metaplasia-dysplasia-carcinoma} 
 
 ```
 
