@@ -1,8 +1,10 @@
 {
-  "hash": "f74cacc98f304a526e578a59ad343480",
+  "hash": "637c7797d2caa12ab3e230adfe3f8dcf",
   "result": {
-    "markdown": "::: {.cell}\n\n:::\n\n::: {.cell}\n# Prostat \n\n## benign prostat hiperplazisi\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n**benign prostat hiperplazisi**\n\n\n[https://images.patolojiatlasi.com/benign-prostate-hyperplasia/HE.html](https://images.patolojiatlasi.com/benign-prostate-hyperplasia/HE.html)\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/benign-prostate-hyperplasia/HE.html\" style=\"height:400px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n::: {.cell}\n\n:::\n",
-    "supporting": [],
+    "markdown": "::: {.cell}\n\n:::\n\n::: {.cell}\n# Prostat  {#sec-prostat} \n\n## benign prostat hiperplazisi {#sec-benign-prostat-hiperplazisi} \n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n**benign prostat hiperplazisi**\n\n\n[https://images.patolojiatlasi.com/benign-prostate-hyperplasia/HE.html](https://images.patolojiatlasi.com/benign-prostate-hyperplasia/HE.html)\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/benign-prostate-hyperplasia/HE.html\" style=\"height:400px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "prostat_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
