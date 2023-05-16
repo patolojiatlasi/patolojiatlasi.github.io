@@ -1,104 +1,85 @@
-# Title
-Serdar Balcı
+---
+title: "Hipofiz Hastalıkları"
+author: Serdar Balcı
+format:
+  revealjs:
+    scrollable: true
+  gfm:
+    preview-mode: raw
+lang: en
+keep-md: true
+## editor: visual
+---
 
-# Davut’un Golyat’ı Öldürmesi (I.Samuel)
 
-**1.Sa.17: 4 Filist ordugahından Gatlı Golyat adında usta bir
-dövüşçüortaya çıktı. ** **Boyu ** **altı arşın bir karıştı\*fe\*.D Not
-17:4 “Altı arşın bir karış”: ** **Yaklaşık 2.9 m** **.**
 
-**1.Sa.17: 5 Başına tunç\* miğfer takmış, pullu bir zırh kuşanmıştı. **
-**Tunç zırhın ağırlığı** \_\_ beş bin şekeldi\*ff\*.D Not 17:5 “Beş bin
-şekel”: \_\_ **Yaklaşık 57.5 kg** **.**
+## Davut'un Golyat'ı Öldürmesi (I.Samuel)
 
-**1.Sa.17: 6 Baldırları zırhlarla korunmuştu. Omuzları arasında tunç bir
-pala asılıydı.**
+__1\.Sa\.17: 4 Filist ordugahından Gatlı Golyat adında usta bir dövüşçüortaya çıktı\. __  __Boyu __  __altı arşın bir karıştı\*fe\*\.D Not 17:4 "Altı arşın bir karış": __  __Yaklaşık 2\.9 m__  __\.__
 
-**1.Sa.17: 7 Mızrağının sapı dokumacı tezgahının sırığı gibiydi. **
-**Mızrağındemir başının ağırlığı** \_\_ altı yüz şekeldi\*fg\*.
-Golyat’ın önüsıra kalkanını taşıyan bir adam yürüyordu.D Not 17:7 “Altı
-yüz şekel”: \_\_ **Yaklaşık 6.9 kg** **.**
+__1\.Sa\.17: 5 Başına tunç\* miğfer takmış\, pullu bir zırh kuşanmıştı\. __  __Tunç zırhın ağırlığı__  __ beş bin şekeldi\*ff\*\.D Not 17:5 "Beş bin şekel": __  __Yaklaşık 57\.5 kg__  __\.__
 
-**1.Sa.17: 8 Golyat durup İsrail ordusuna, “Neden savaş düzeni aldınız?”
-diye haykırdı, “Ben Filistli’yim, sizse Saul’un kölelerisiniz. Aranızdan
-karşıma çıkacak birini seçin.**
+__1\.Sa\.17: 6 Baldırları zırhlarla korunmuştu\. Omuzları arasında tunç bir pala asılıydı\.__
 
-**1.Sa.17: 38 Sonra kendi giysilerini Davut’a verdi; başına tunç miğfer
-taktı, ona bir zırh giydirdi.**
+__1\.Sa\.17: 7 Mızrağının sapı dokumacı tezgahının sırığı gibiydi\. __  __Mızrağındemir başının ağırlığı__  __ altı yüz şekeldi\*fg\*\. Golyat'ın önüsıra kalkanını taşıyan bir adam yürüyordu\.D Not 17:7 "Altı yüz şekel": __  __Yaklaşık 6\.9 kg__  __\.__
 
-**1.Sa.17: 39 Davut giysilerinin üzerine kılıcını kuşanıp yürümeye
-çalıştı. Çünkü bu giysilere alışık değildi. Saul’a, “Bunlarla
-yürüyemiyorum” dedi, “Çünkü alışık değilim.” Sonra giysileri üzerinden
-çıkardı.**
+__1\.Sa\.17: 8 Golyat durup İsrail ordusuna\, "Neden savaş düzeni aldınız?" diye haykırdı\, "Ben Filistli'yim\, sizse Saul'un kölelerisiniz\. Aranızdan karşıma çıkacak birini seçin\.__
 
-**1.Sa.17: 40 Değneğini alıp dereden beş çakıl taşı seçti. Bunları çoban
-dağarcığının cebine koyduktan sonra ** **sapanını alıp Filistli Golyat’a
-doğru ilerledi** **.**
+__1\.Sa\.17: 38 Sonra kendi giysilerini Davut'a verdi; başına tunç miğfer taktı\, ona bir zırh giydirdi\.__
 
-**1.Sa.17: 48 Golyat saldırmak amacıyla Davut’a doğru ilerledi. Davut
-daonunla dövüşmek üzere hemen Filist cephesine doğru koştu.**
+__1\.Sa\.17: 39 Davut giysilerinin üzerine kılıcını kuşanıp yürümeye çalıştı\. Çünkü bu giysilere alışık değildi\. Saul'a\, "Bunlarla yürüyemiyorum" dedi\, "Çünkü alışık değilim\." Sonra giysileri üzerinden çıkardı\.__
 
-**1.Sa.17: 49 ** **Elini dağarcığına sokup bir taş çıkardı, sapanla
-fırlattı.Taş Filistli’nin alnına çarpıp saplandı. Filistli yüzükoyun
-yere düştü.**
+__1\.Sa\.17: 40 Değneğini alıp dereden beş çakıl taşı seçti\. Bunları çoban dağarcığının cebine koyduktan sonra __  __sapanını alıp Filistli Golyat'a doğru ilerledi__  __\.__
 
-**1.Sa.17: 50 Böylece Davut Filistli Golyat’ı sapan ve taşla
-yendi.Elinde kılıç olmaksızın onu yere serdi.**
+__1\.Sa\.17: 48 Golyat saldırmak amacıyla Davut'a doğru ilerledi\. Davut daonunla dövüşmek üzere hemen Filist cephesine doğru koştu\.__
 
-**1.Sa.17: 51 Sonra koşup üzerine çıktı. Golyat’ın kılıcını
-tutupkınından çektiği gibi onu öldürdü ve başını kesti.Kahraman
-Golyat’ın öldüğünü gören Filistliler kaçtılar.**
+__1\.Sa\.17: 49 __  __Elini dağarcığına sokup bir taş çıkardı\, sapanla fırlattı\.Taş Filistli'nin alnına çarpıp saplandı\. Filistli yüzükoyun yere düştü\.__
 
-**Pierre Puget ‘David, vainqueur de Goliath’ **
+__1\.Sa\.17: 50 Böylece Davut Filistli Golyat'ı sapan ve taşla yendi\.Elinde kılıç olmaksızın onu yere serdi\.__
 
-*A History of Acromegaly * **Pituitary 1999;2:7–28**
+__1\.Sa\.17: 51 Sonra koşup üzerine çıktı\. Golyat'ın kılıcını tutupkınından çektiği gibi onu öldürdü ve başını kesti\.Kahraman Golyat'ın öldüğünü gören Filistliler kaçtılar\.__
+
+__Pierre Puget  ‘David\, vainqueur de Goliath’                  __
+
+_A History of Acromegaly _  __Pituitary 1999;2:7–28__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B10.jpg)
 
-**Undoubtedly Goliath’s great size was due to ** **acromegaly **
-**secondary to a pituitary macroadenoma. This pituitary adenoma was
-apparently large enough to induce ** **visual field deficits** \_\_ by
-its pressure on the optic chiasm, which made Goliath \_\_ **unable to
-follow the young David ** **as he circled him. The ** **stone entered
-Goliath’s cranial vault ** **through a ** **markedly thinned frontal
-bone** **, which resulted from enlargement of the frontal paranasal
-sinus, a frequent feature of acromegaly. The stone lodged in Goliath’s
-enlarged pituitary and caused a ** **pituitary hemorrhage** **,
-resulting in ** **transtentorial herniation and death** **.**
+__Undoubtedly Goliath's great size was due to __  __acromegaly __  __secondary to a pituitary macroadenoma\. This pituitary adenoma was apparently large enough to induce __  __visual field deficits__  __ by its pressure on the optic chiasm\, which made Goliath __  __unable to follow the young David __  __as he circled him\. The __  __stone entered Goliath's cranial vault __  __through a __  __markedly thinned frontal bone__  __\, which resulted from enlargement of the frontal paranasal sinus\, a frequent feature of acromegaly\. The stone lodged in Goliath's enlarged pituitary and caused a __  __pituitary hemorrhage__  __\, resulting in __  __transtentorial herniation and death__  __\.__
 
-**Radiology. 1990 Jul;176(1):288. **
+__Radiology\. 1990 Jul;176\(1\):288\. __
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B11.jpg)
 
-# Hipofiz (Pitüiter) Hastalıkları
+## Hipofiz (Pitüiter) Hastalıkları
 
-# Dr. Serdar BALCI
+## Dr. Serdar BALCI
 
-# Hipofiz (Pitüiter) bezi
+## Hipofiz (Pitüiter) bezi
 
-- **Küçük, fasulye şeklinde**
-- **Sella turcica içinde beyin tabanında yer alır**
-- **Hipotalamus ile ilişkili**
-  - **Sap (stalk), aksonlar**
-  - **Venöz pleksus**
-- **Anterior lob (Adenohipofiz)**
-- **Posterior lob (Nörohipofiz)**
+* __Küçük\, fasulye şeklinde__
+* __Sella turcica içinde beyin tabanında yer alır__
+* __Hipotalamus ile ilişkili__
+  * __Sap \(stalk\)\, aksonlar__
+  * __Venöz pleksus__
+* __Anterior lob \(Adenohipofiz\)__
+* __Posterior lob \(Nörohipofiz\)__
 
-# Adenohipofiz
+## Adenohipofiz
 
-- **Epitelyal hücreler**
-- **Embriyolojik olarak oral kaviteden gelişir**
-- **Normal histoloji:**
-  - **Sitoplazmalarının rengine göre**
-  - **Bazofilik, eozinofilik, kromofobik hücrelerden oluşur**
+* __Epitelyal hücreler__
+* __Embriyolojik olarak oral kaviteden gelişir__
+* __Normal histoloji:__
+  * __Sitoplazmalarının rengine göre__
+  * __Bazofilik\, eozinofilik\, kromofobik hücrelerden oluşur__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B12.png)
 
-**Robbins Basic Pathology**
+__Robbins Basic Pathology__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B13.png)
 
-**Robbins Basic Pathology**
+__Robbins Basic Pathology__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B14.jpg)
 
@@ -106,572 +87,512 @@ resulting in ** **transtentorial herniation and death** **.**
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B16.jpg)
 
-# Hipofiz hastalıkları
+## Hipofiz hastalıkları
 
-- **Hiperpitüitarizm**
-  - **Trofik hormonların fazla sekresyonu**
-  - **Anterior bölgede hipofiz adenomu**
-- **Hipopitüitarizm**
-  - **Trofik hormonların yokluğu**
+* __Hiperpitüitarizm__
+  * __Trofik hormonların fazla sekresyonu__
+  * __Anterior bölgede hipofiz adenomu__
+* __Hipopitüitarizm__
+  * __Trofik hormonların yokluğu__
+  * __İskemik hasar\, cerrahi\, radyasyon\, diğer inflamatuar reaksiyonlar__
+  * __Nonfonksiyone pitüter adenomlar normal yapıları yıkar__
 
-  - **İskemik hasar, cerrahi, radyasyon, diğer inflamatuar
-    reaksiyonlar**
+  * __Lokal kitle etkisi__
+  * __Sella genişlemesi\, kemik erezyonu\, sella diafragmasının hasarı__
+  * __Optik kiazmadaki çaprazlayan liflere bası__
+    * __lateral \(temporal\) görme defektleri\, bitemporal hemianopsia__
+  * __İntrakraniyel basınç artışı__
+    * __Başağrısı\, bulantı\, kusma__
+  * __Beyin tabanına uzanım__
+    * __İnvaziv hipofiz adenomu__
+    * __Nöbet veya obstrüktif tip hidrosefalus__
+    * __Kraniyel sinir felci__
+  * __Adenom içine akut kanama__
+    * __Lezyonun hızlı genişlemesi__
+    * __Pitüiter apopleksi__
+    * __Hızlı ölümcül__
 
-  - **Nonfonksiyone pitüter adenomlar normal yapıları yıkar**
+## Hiperpitüitarizm
 
-  - **Lokal kitle etkisi**
+* __En sık neden anterior lob kaynaklı adenom__
+* __Daha az sıklıkla__
+  * __Hiperplazi__
+  * __Anterior hipofiz karsinomları__
+  * __Ekstrapitüiter tümörlerden hormon sekresyonu__
+  * __Hipotalamik hastalıklar__
 
-  - **Sella genişlemesi, kemik erezyonu, sella diafragmasının hasarı**
+## Pitüiter adenom patogenezi
 
-  - **Optik kiazmadaki çaprazlayan liflere bası**
-
-    - **lateral (temporal) görme defektleri, bitemporal hemianopsia**
-
-  - **İntrakraniyel basınç artışı**
-
-    - **Başağrısı, bulantı, kusma**
-
-  - **Beyin tabanına uzanım**
-
-    - **İnvaziv hipofiz adenomu**
-    - **Nöbet veya obstrüktif tip hidrosefalus**
-    - **Kraniyel sinir felci**
-
-  - **Adenom içine akut kanama**
-
-    - **Lezyonun hızlı genişlemesi**
-    - **Pitüiter apopleksi**
-    - **Hızlı ölümcül**
-
-# Hiperpitüitarizm
-
-- **En sık neden anterior lob kaynaklı adenom**
-- **Daha az sıklıkla**
-  - **Hiperplazi**
-  - **Anterior hipofiz karsinomları**
-  - **Ekstrapitüiter tümörlerden hormon sekresyonu**
-  - **Hipotalamik hastalıklar**
-
-# Pitüiter adenom patogenezi
-
-- **Guanine nucleotide–binding protein (G protein) mutasyonları**
-- **Sinyal iletiminde kritik rolü var**
-  - **Yüzey reseptörlerden (growth hormone–releasing hormone receptor)
-    intraselüler efektörlere (adenyl cyclase)**
-    - **Sekonde mesajcılar (cAMP).**
-  - **GNAS1 geni ile kodalnır**
-- **GNAS1 mutasyonu**
-  - **Somatotrop hücre adenomlarının %40**
-  - **Kortikotrop hücre adenomlarının küçük bir kısmı**
+* __Guanine nucleotide–binding protein \(G protein\) mutasyonları__
+* __Sinyal iletiminde kritik rolü var__
+  * __Yüzey reseptörlerden \(growth hormone–releasing hormone receptor\) intraselüler efektörlere \(adenyl cyclase\)__
+    * __Sekonde mesajcılar \(cAMP\)\.__
+  * __GNAS1 geni ile kodalnır__
+* __GNAS1 mutasyonu__
+  * __Somatotrop hücre adenomlarının %40__
+  * __Kortikotrop hücre adenomlarının küçük bir kısmı__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B17.png)
 
-# Hipofiz adenomu patogenezi
+## Hipofiz adenomu patogenezi
 
-- **Ailesel hipofiz adenomları**
-  - **MEN1, CDKN1B, PRKAR1A, and AIP**
-  - **MEN1 geninde germline inaktivasyon mutasyonları**
-    - **multiple endocrine neoplasia syndrome type 1 (MEN-1)**
-  - **CDKN1B gene**
-    - **Hücre siklusunda düzenleyici p27 or KIP1**
-  - **CDKN1B germline mutasyonlar**
-    - **“MEN-1 benzeri” sendrom**
-  - **Aryl hydrocarbon receptor–interacting protein (AIP)**
-    - **Hipofiz adenom yatkınlık geni**
-    - **\<35 yaş, GH adenomu**
-- **TP53 mutasyonları**
-  - **Agresif davranış, invazyon ve rekürrensle ilişkili**
+* __Ailesel hipofiz adenomları__
+  * __MEN1\, CDKN1B\, PRKAR1A\, and AIP__
+  * __MEN1 geninde germline inaktivasyon mutasyonları__
+    * __multiple endocrine neoplasia syndrome type 1 \(MEN\-1\)__
+  * __CDKN1B gene__
+    * __Hücre siklusunda düzenleyici p27 or KIP1__
+  * __CDKN1B germline mutasyonlar__
+    * __“MEN\-1 benzeri” sendrom__
+  * __Aryl hydrocarbon receptor–interacting protein \(AIP\)__
+    * __Hipofiz adenom yatkınlık geni__
+    * __<35 yaş\, GH adenomu__
+* __TP53 mutasyonları__
+  * __Agresif davranış\, invazyon ve rekürrensle ilişkili__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B18.png)
 
-**Autopsy Pathology: A Manual and Atlas**
+__Autopsy Pathology: A Manual and Atlas__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B19.png)
 
-**Makroadenom\>1 cm**
+__Makroadenom>1 cm__
 
-**Mikroadenom\<1 cm**
+__Mikroadenom<1 cm__
 
-**Robbins Basic Pathology**
+__Robbins Basic Pathology__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B110.png)
 
-**İyi sınırlı, yumuşak kıvamlı lezyon**
+__İyi sınırlı\, yumuşak kıvamlı lezyon__
 
-**Küçük tümörler, sella turcica sınırlı**
+__Küçük tümörler\, sella turcica sınırlı__
 
-**İri tümörle optik kiazma ve komşu yapılara baskı uygular**
+__İri tümörle optik kiazma ve komşu yapılara baskı uygular__
 
-**Sella turcia ve clinoid proses erezyonu**
+__Sella turcia ve clinoid proses erezyonu__
 
-**Kavernöz ve sifenoid sinüslere uzanım**
+__Kavernöz ve sifenoid sinüslere uzanım__
 
-**%30 olguda kapsülsüz, kemik, dura ve nadiren beyin invazyonu**
+__%30 olguda kapsülsüz\, kemik\, dura ve nadiren beyin invazyonu__
 
-**Kanama ve nekroz büyük iri adenomlarda sık**
+__Kanama ve nekroz büyük iri adenomlarda sık__
 
-**Robbins Basic Pathology**
+__Robbins Basic Pathology__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B111.png)
 
-**Masif, nonfonksiyone adenom, sella turcicayı aşıp beyne bası
-uygulamış**
+__Masif\, nonfonksiyone adenom\, sella turcicayı aşıp beyne bası uygulamış__
 
-**Nonfonksiyone adenomlar tanı anında fonksiyone adenomlara kıyasla daha
-iri olurlar**
+__Nonfonksiyone adenomlar tanı anında fonksiyone adenomlara kıyasla daha iri olurlar__
 
-**Robbins Basic Pathology**
+__Robbins Basic Pathology__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B112.png)
 
-**Uniform poligonal hücreler, tabaka, kord veya papiller görünümde**
+__Uniform poligonal hücreler\, tabaka\, kord veya papiller görünümde__
 
-**Destekleyici konnektif doku ya da retikülin çok az**
+__Destekleyici konnektif doku ya da retikülin çok az__
 
-**Yumuşak, jelatinöz kıvam**
+__Yumuşak\, jelatinöz kıvam__
 
-**Nükleuslar uniform ya da pleomorfik**
+__Nükleuslar uniform ya da pleomorfik__
 
-**Mitotik aktivite genelde çok nadir**
+__Mitotik aktivite genelde çok nadir__
 
-**Sitoplazma asidofilik, bazofilik ya da kromofobik olabilir, ancak
-tümör boyunca homojendir**
+__Sitoplazma asidofilik\, bazofilik ya da kromofobik olabilir\, ancak tümör boyunca homojendir__
 
-**Robbins Basic Pathology**
+__Robbins Basic Pathology__
 
-**anterior hipofiz parankimi**
+__anterior hipofiz parankimi__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B113.png)
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B114.png)
 
-**Hücresel monomorfizm ve retikülin ağının olmamamsı ile hipofiz adenomu
-çevre nonneoplastik adenohipofiz dokusundan ayrılabilir**
+__Hücresel monomorfizm ve retikülin ağının olmamamsı ile hipofiz adenomu çevre nonneoplastik adenohipofiz dokusundan ayrılabilir__
 
-# Hipofiz adenomu
+## Hipofiz adenomu
 
-- **Histolojik inceleme ile fonksiyonel durum güvenle tahmin
-  edilemeyebilir**
-- **TP53 mutasyonu gösteren adenomlar**
-  - **Belirgin mitotik aktivite**
-  - **Yüksek proliferasyon hızı**
-  - **“Atipik adenom” diye adlandırılırlar**
-  - **Agresif davranış potansiyeli var**
-- **Genelde tek hücre tipinden oluşur ve tek tip hormon üretirler**
-- **Bazı adenomlar iki farklı hormon sekrete edebilir**
-  - **GH ve PRL en sık kombinasyon**
-  - **Nadiren plurihormonal**
-- **Fonksiyonel**
-  - **Hormon fazlalaığı ve klinik bulguları**
-- **Nonfonksiyone adenomlar**
-  - **Kitle etkisi, hipopitüitarizm**
-  - **Hormon ekspresyonu sadece dokuda, immünohistokimya ile
-    gösterilebilir, klinik bulgu yoktur**
-- **Gerçek “hormon negatif”**
-  - **İmmünohistokimyasal olarak ya da ultrastrüktüler olarak hormon
-    üretimi yok**
-- **Nonfonksiyone ve hormon negatif adenomlar**
-  - **Geç klinik bulgu verirler**
-  - **Makroadenom**
-  - **Hipopitüitarizm**
+* __Histolojik inceleme ile fonksiyonel durum güvenle tahmin edilemeyebilir__
+* __TP53 mutasyonu gösteren adenomlar__
+  * __Belirgin mitotik aktivite__
+  * __Yüksek proliferasyon hızı__
+  * __“Atipik adenom” diye adlandırılırlar__
+  * __Agresif davranış potansiyeli var__
+
+* __Genelde tek hücre tipinden oluşur ve tek tip hormon üretirler__
+* __Bazı adenomlar iki farklı hormon sekrete edebilir__
+  * __GH ve PRL en sık kombinasyon__
+  * __Nadiren plurihormonal__
+
+* __Fonksiyonel__
+  * __Hormon fazlalaığı ve klinik bulguları__
+* __Nonfonksiyone adenomlar__
+  * __Kitle etkisi\, hipopitüitarizm__
+  * __Hormon ekspresyonu sadece dokuda\, immünohistokimya ile gösterilebilir\, klinik bulgu yoktur__
+* __Gerçek “hormon negatif”__
+  * __İmmünohistokimyasal olarak ya da ultrastrüktüler olarak hormon üretimi yok__
+* __Nonfonksiyone ve hormon negatif adenomlar__
+  * __Geç klinik bulgu verirler__
+  * __Makroadenom__
+  * __Hipopitüitarizm__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B115.png)
 
-**Robbins Basic Pathology**
+__Robbins Basic Pathology__
 
-# Prolaktinom
+## Prolaktinom
 
-**En sık hiperfonksiyon gösteren adenom**
+__En sık hiperfonksiyon gösteren adenom__
 
-**Küçük mikroadenom, büyük kitle etkisi yapabilen adenomlara kadar
-değişken büyüklük**
+__Küçük mikroadenom\, büyük kitle etkisi yapabilen adenomlara kadar değişken büyüklük__
 
-**PRL immünohistokimyasal olarak gösterilebilir**
+__PRL immünohistokimyasal olarak gösterilebilir__
 
-# Hiperprolaktinemi
+## Hiperprolaktinemi
 
-- **Amenore, Galaktore, libido kaybı, infertilite**
-- **Doğurganlık çağındaki kadınlarda erken dönemde tespit edilir**
-- **Erkeklerde ve ileri yaş kadınlarda daha az klinik bulgu**
-  - **Adenom büyüklüğü tanı sırasında daha büyük**
-- **PRL-adenomu dışı nedenler:**
-  - **Gebelik**
-  - **Yüksek doz östrojen tedavisi**
-  - **Böbrek yetmezliği**
-  - **Hipotiroidi**
-  - **Hipotalamik lezyonlar**
-  - **Dopamin inhibitörleri (reserpine)**
-  - **Sap (stalk) etkisi**
-    - **Hipotalamusun inhibitör etkisini kaldıracak kitle etkisi**
-    - **Serum PRL düzeyindeki hafif yükselmeler (\<200 µg/L) PRL dışı
-      başka hipofiz adenomlarında da olabilir**
+* __Amenore\, Galaktore\, libido kaybı\, infertilite__
+* __Doğurganlık çağındaki kadınlarda erken dönemde tespit edilir__
+* __Erkeklerde ve ileri yaş kadınlarda daha az klinik bulgu__
+  * __Adenom büyüklüğü tanı sırasında daha büyük__
+
+* __PRL\-adenomu dışı nedenler:__
+  * __Gebelik__
+  * __Yüksek doz östrojen tedavisi__
+  * __Böbrek yetmezliği__
+  * __Hipotiroidi__
+  * __Hipotalamik lezyonlar__
+  * __Dopamin inhibitörleri \(reserpine\)__
+  * __Sap \(stalk\) etkisi__
+    * __Hipotalamusun inhibitör etkisini kaldıracak kitle etkisi__
+    * __Serum PRL düzeyindeki hafif yükselmeler \(<200 µg/L\) PRL dışı başka hipofiz adenomlarında da olabilir__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B116.png)
 
-**Robbins and Cotran Pathologic Basis of Disease**
+__Robbins and Cotran Pathologic Basis of Disease__
 
-# Somatotrop (büyüme hormonu / growth hormone) adenomları
+## Somatotrop (büyüme hormonu / growth hormone) adenomları
 
-- **En sık ikinci fonksiyonel adenom**
-  - **GH adenomu**
-  - **Mikst GH+PRL adenomu**
-- **Klinik bulgular hafif olabilir**
-- **Klinik bulgu verdiğinde oldukça büyük olabilir**
-- **GH immünohistokimya ile gösterilebilir**
-  - **Az miktarda PRL ekspresyonu da eşlik edebilir**
-- **Sürekli GH sekresyonu**
-  - **Hepatositlerden insulin-like growth factor I (somatomedin C)
-    salgılanması**
-    - **Klinik bulgulara neden olur**
-- **Epifiz hattı kapanmadan, prepüberte**
-  - **Gigantizm (Devlik)**
-    - **Vücut boyutlarında jeneralize artış**
-    - **Kol ve bacaklarda uygunsuz boy**
-- **Epifiz hattı kapandıktan sonra**
-  - **Akromegali**
-    - **Yumuşak doku, deri, organlar ve el, ayak, yüz kemiklerinde
-      büyüme**
-    - **Prognatizm**
-      - **Çenede irileşme ve öne çıkma**
-      - **Yüzün alt tarfında genişleme ve dişlerde ayrılma**
-    - **El ve ayaklarda genişleme**
-    - **Iri, sosis gibi parmaklar**
-- **Growth hormone fazlalığı**
-  - **Anormal glukoz toleransı**
-  - **diabetes mellitus**
-  - **Jeneralize kas güçsüzlüğü**
-  - **Hipertansiyon**
-  - **Artrit**
-  - **Osteoporoz**
-  - **Konjestif Kalp Yetmezliği**
+* __En sık ikinci fonksiyonel adenom__
+  * __GH adenomu__
+  * __Mikst GH\+PRL adenomu__
+* __Klinik bulgular hafif olabilir__
+* __Klinik bulgu verdiğinde oldukça büyük olabilir__
+* __GH immünohistokimya ile gösterilebilir__
+  * __Az miktarda PRL ekspresyonu da eşlik edebilir__
 
-# Kortikotrop (ACTH üreten) adenomlar
+* __Sürekli GH sekresyonu__
+  * __Hepatositlerden insulin\-like growth factor I \(somatomedin C\) salgılanması__
+    * __Klinik bulgulara neden olur__
 
-- **Çoğu tanı anında küçük, mikroadenom**
+* __Epifiz hattı kapanmadan\, prepüberte__
+  * __Gigantizm \(Devlik\)__
+    * __Vücut boyutlarında jeneralize artış__
+    * __Kol ve bacaklarda uygunsuz boy__
+* __Epifiz hattı kapandıktan sonra__
+  * __Akromegali__
+    * __Yumuşak doku\, deri\, organlar ve el\, ayak\, yüz kemiklerinde büyüme__
+    * __Prognatizm__
+      * __Çenede irileşme ve öne çıkma__
+      * __Yüzün alt tarfında genişleme ve dişlerde ayrılma__
+    * __El ve ayaklarda genişleme__
+    * __Iri\, sosis gibi parmaklar__
 
-- **PAS pozitif**
+* __Growth hormone fazlalığı__
+  * __Anormal glukoz toleransı__
+  * __diabetes mellitus__
+  * __Jeneralize kas güçsüzlüğü__
+  * __Hipertansiyon__
+  * __Artrit__
+  * __Osteoporoz__
+  * __Konjestif Kalp Yetmezliği__
 
-  - **Glikolize ACTH birikimi nedeniyle**
+## Kortikotrop (ACTH üreten) adenomlar
 
-- **Immünohistokimya ile ACTH ekspresyonu**
+* __Çoğu tanı anında küçük\, mikroadenom__
+* __PAS pozitif__
+  * __Glikolize ACTH birikimi nedeniyle__
+* __Immünohistokimya ile ACTH ekspresyonu__
+* __Elektron mikroskobu ile\, membrana bağlı elektron yoğun granüller \(300nm çap\)__
 
-- **Elektron mikroskobu ile, membrana bağlı elektron yoğun granüller
-  (300nm çap)**
+* __Klinik olarak sessiz__
+* __Hiperkortizolizm__
+  * __Cushing sendromu__
+  * __ACTH’ın adrenal korteks üzerindeki uyarıcı etkileri__
+* __Cushing hastalığı__
+  * __Eğer artmış ACTH hipofiz kaynaklı ise__
 
-- **Klinik olarak sessiz**
+* __Nelson sendromu__
+  * __Cushing sendromu tedavisi için cerrahi olarak adrenallerin alınması sonrası gelişen iri\, klinik agresif kortikotrop adenomu__
+  * __Adrenaller alındığında → daha önce var olan mikroadenom üzerindeki geri bildirim kalkar__
+  * __Kitle etkisi__
 
-- **Hiperkortizolizm**
+## Gonadotrop (FSH ya da LH) adenomları
 
-  - **Cushing sendromu**
-  - **ACTH’ın adrenal korteks üzerindeki uyarıcı etkileri**
+__Tespiti zor__
 
-- **Cushing hastalığı**
+__Hormonları düzensiz ve az salgılar__
 
-  - **Eğer artmış ACTH hipofiz kaynaklı ise**
+__Hormonlar klinik sendroma yol açmazlar__
 
-- **Nelson sendromu**
+__Kitle etkisi__
 
-  - **Cushing sendromu tedavisi için cerrahi olarak adrenallerin
-    alınması sonrası gelişen iri, klinik agresif kortikotrop adenomu**
-  - **Adrenaller alındığında → daha önce var olan mikroadenom üzerindeki
-    geri bildirim kalkar**
-  - **Kitle etkisi**
+__İmmünohistokimyasal oalrak ortak gonadotropin α\-subunit\, spesifik β\-FSH ve β\-LH subunits__
 
-# Gonadotrop (FSH ya da LH) adenomları
+__FSH genelde daha baskın__
 
-**Tespiti zor**
+## Tirotrop (TSH) adenomları
 
-**Hormonları düzensiz ve az salgılar**
+__Hipofiz adenomlarının %1’i__
 
-**Hormonlar klinik sendroma yol açmazlar**
+__Hipertiroidizm__
 
-**Kitle etkisi**
+## Nonfonksiyone adenomlar
 
-**İmmünohistokimyasal oalrak ortak gonadotropin α-subunit, spesifik
-β-FSH ve β-LH subunits**
+* __Hipofiz adenomlarının %25’i__
+* __Kitle etkisi__
+* __Hipopitüitarizm__
+* __Klinik sakin fonksiyone adenomlar__
+  * __Sessiz gonadotrop adenomu__
+* __Gerçek hormon negatif \(null cell\) adenom__
 
-**FSH genelde daha baskın**
+## Hipofiz karsinomları
 
-# Tirotrop (TSH) adenomları
+__Çok nadir__
 
-**Hipofiz adenomlarının %1’i**
+__Lokal invazyon__
 
-**Hipertiroidizm**
+__Uzak metastaz__
 
-# Nonfonksiyone adenomlar
+## Hipopitüitarizm
 
-- **Hipofiz adenomlarının %25’i**
-- **Kitle etkisi**
-- **Hipopitüitarizm**
-- **Klinik sakin fonksiyone adenomlar**
-  - **Sessiz gonadotrop adenomu**
-- **Gerçek hormon negatif (null cell) adenom**
+__Anterior lob parankiminin %75’inden fazlasında kayıp__
 
-# Hipofiz karsinomları
+__Konjenital \(çok nadir\)__
 
-**Çok nadir**
+__Nonfonksiyone hipofiz adenomu__
 
-**Lokal invazyon**
+* __Anterior hipofizde iskemik nekroz__
+  * __Sheehan sendromu__
+    * __Doğum sonrası nekroz__
+    * __Gebelik sırasında bezde fizyolojik genişleme__
+    * __Bu genişlemeye venöz portal sistem eşlik etmez__
+    * __Ani kan kaybı ve hipotansiyon iskemiye neden olur__
+    * __Nörohipofiz etkilenmez\, beslenmesi arteryal__
+  * __Dissemine intravasküler koagülasyon__
+  * __Orak hücreli anemi__
+  * __Artmış intrakraniyel basınç__
+  * __Travma__
+  * __Şok__
+* __Rezidü bez büzüşmüş ve skar__
 
-**Uzak metastaz**
+* __Cerrahi \,radyasyon__
+* __İnflamasyon__
+  * __Sarkoidoz\, tüberküloz__
+* __Travma__
+* __Metastaz__
 
-# Hipopitüitarizm
+## Clinical manifestations of anterior pituitary hypofunction
 
-**Anterior lob parankiminin %75’inden fazlasında kayıp**
-
-**Konjenital (çok nadir)**
-
-**Nonfonksiyone hipofiz adenomu**
-
-- **Anterior hipofizde iskemik nekroz**
-
-  - **Sheehan sendromu**
-    - **Doğum sonrası nekroz**
-    - **Gebelik sırasında bezde fizyolojik genişleme**
-    - **Bu genişlemeye venöz portal sistem eşlik etmez**
-    - **Ani kan kaybı ve hipotansiyon iskemiye neden olur**
-    - **Nörohipofiz etkilenmez, beslenmesi arteryal**
-  - **Dissemine intravasküler koagülasyon**
-  - **Orak hücreli anemi**
-  - **Artmış intrakraniyel basınç**
-  - **Travma**
-  - **Şok**
-
-- **Rezidü bez büzüşmüş ve skar**
-
-- **Cerrahi ,radyasyon**
-
-- **İnflamasyon**
-
-  - **Sarkoidoz, tüberküloz**
-
-- **Travma**
-
-- **Metastaz**
-
-# Clinical manifestations of anterior pituitary hypofunction
-
-- **Depend on the specific hormones that are lacking**
-- **Growth hormone deficiency**
-  - **Growth failure (pituitary dwarfism)**
-- **Gonadotropin or gonadotropin-releasing hormone (GnRH) deficiency**
-  - **amenorrhea and infertility in women**
-  - **decreased libido, impotence, and loss of pubic and axillary hair
-    in men**
-- **TSH**
-  - **hypothyroidism**
-- **ACTH**
-  - **hypoadrenalism**
-- **Prolactin deficiency**
-  - **failure of postpartum lactation**
-- **Loss of stimulatory effects of MSH on melanocytes**
-  - **Pallor**
+* __Depend on the specific hormones that are lacking__
+* __Growth hormone deficiency__
+  * __Growth failure \(pituitary dwarfism\)__
+* __Gonadotropin or gonadotropin\-releasing hormone \(GnRH\) deficiency__
+  * __amenorrhea and infertility in women__
+  * __decreased libido\, impotence\, and loss of pubic and axillary hair in men__
+* __TSH__
+  * __hypothyroidism__
+* __ACTH__
+  * __hypoadrenalism__
+* __Prolactin deficiency__
+  * __failure of postpartum lactation__
+* __Loss of stimulatory effects of MSH on melanocytes__
+  * __Pallor__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B117.jpg)
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B118.jpg)
 
-# POSTERIOR HIPOFIZ SENDROMLARI
+## POSTERIOR HIPOFIZ SENDROMLARI
 
-# Posterior Pituitary Syndromes
+## Posterior Pituitary Syndromes
 
-- **Neurohypophysis**
-  - **composed of modified glial cells (termed pituicytes )**
-  - **Axonal processes extending from nerve cell bodies in the
-    supraoptic and paraventricular nuclei of the hypothalamus**
-- **Hypothalamic neurons produce two peptides**
-  - **antidiuretic hormone (ADH) and oxytocin**
-  - **They are stored in axon terminals in the neurohypophysis**
-  - **Released into the circulation in response to stimuli**
-- **Oxytocin**
-  - **stimulates the contraction of smooth muscle in the pregnant
-    uterus**
-  - **muscle surrounding the lactiferous ducts of the mammary glands**
-  - **Impairment of oxytocin synthesis and release has not been
-    associated with significant clinical abnormalities**
-- **ADH**
-  - **diabetes insipidus**
-  - **secretion of inappropriately high levels of ADH**
+* __Neurohypophysis__
+  * __composed of modified glial cells \(termed pituicytes \)__
+  * __Axonal processes extending from nerve cell bodies in the supraoptic and paraventricular nuclei of the hypothalamus__
+* __Hypothalamic neurons produce two peptides__
+  * __antidiuretic hormone \(ADH\) and oxytocin__
+  * __They are stored in axon terminals in the neurohypophysis__
+  * __Released into the circulation in response to stimuli__
+* __Oxytocin__
+  * __stimulates the contraction of smooth muscle in the pregnant uterus__
+  * __muscle surrounding the lactiferous ducts of the mammary glands__
+  * __Impairment of oxytocin synthesis and release has not been associated with significant clinical abnormalities__
+* __ADH__
+  * __diabetes insipidus__
+  * __secretion of inappropriately high levels of ADH__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B119.jpg)
 
-# Antidiüretik hormon
+## Antidiüretik hormon
 
-- **Supraoptik nükleus kaynaklı nanopeptid**
-- **ADH sekresyon nedenleri**
-  - **Artmış plazma onkositik basıncı, sol atrial dilatasyonu, egzersiz,
-    duygusal stres**
-  - **Böbrek toplayıcı duktuslarından su emilimi**
-- **ADH eksikliği diabetes insipidus**
-  - **Poliüri**
+  * __Supraoptik nükleus kaynaklı nanopeptid__
+* __ADH sekresyon nedenleri__
+  * __Artmış plazma onkositik basıncı\, sol atrial dilatasyonu\, egzersiz\, duygusal stres__
+  * __Böbrek toplayıcı duktuslarından su emilimi__
+* __ADH eksikliği diabetes insipidus__
+  * __Poliüri__
+  * __Böbrek idrardan suyu yeterli miktarda ememez__
 
-  - **Böbrek idrardan suyu yeterli miktarda ememez**
+  * __Uygunsuz ADH sekresyonu \(SIADH\)__
+    * __Fazla su emilimi__
+    * __Hiponatremi\, serebral ödem\, nörolojik disfonksiyon__
+  * __ADH fazlalığı nedenleri:__
+    * __Paraneoplastik__
+      * __Küçük hücreli akciğer kanseri__
+    * __Nonneoplastik akciğer hastalıkları__
+    * __Hipotalamus veya hipofize lokal hasar__
 
-  - **Uygunsuz ADH sekresyonu (SIADH)**
-
-    - **Fazla su emilimi**
-    - **Hiponatremi, serebral ödem, nörolojik disfonksiyon**
-
-  - **ADH fazlalığı nedenleri:**
-
-    - **Paraneoplastik**
-      - **Küçük hücreli akciğer kanseri**
-    - **Nonneoplastik akciğer hastalıkları**
-    - **Hipotalamus veya hipofize lokal hasar**
-
-# HIPOTALAMIK SUPRASELLAR TÜMÖRLER
+## HIPOTALAMIK SUPRASELLAR TÜMÖRLER
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B120.png)
 
-**Kraniyofarenjiom**
+__Kraniyofarenjiom__
 
-**Autopsy Pathology: A Manual and Atlas**
+__Autopsy Pathology: A Manual and Atlas__
 
-# Kraniyofarenjiom
+## Kraniyofarenjiom
 
-- **Rathke kesesi artıkları**
+* __Rathke kesesi artıkları__
+* __İntrakraniyel tümörlerin %1\-5__
+* __Çoğu suprasellar\, intrasellar uzanım olabilir__
+* __Bimodal yaş dağılımı__
+  * __5\-15 yaş__
+  * __>65 yaş__
+* __WNT yolağı\, β\-catenin mutasyonları__
 
-- **İntrakraniyel tümörlerin %1-5**
-
-- **Çoğu suprasellar, intrasellar uzanım olabilir**
-
-- **Bimodal yaş dağılımı**
-
-  - **5-15 yaş**
-  - **\>65 yaş**
-
-- **WNT yolağı, β-catenin mutasyonları**
-
-- **Ortalama çap 3-4  cm**
-
-- **Sistik ve bazen multiloküle**
-
-- **Adamantinomatöz Kraniyofarenjiom**
-
-  - **Çocuklarda**
-  - **Kalsifikasyon**
-  - **Kistleri kolesterolden zengin, kahverengi-sarı sıvı (makine
-    yağı)**
-
-- **Papiller Kraniyofarenjiom**
-
-  - **Erişkinlerde**
+* __Ortalama çap 3\-4  cm__
+* __Sistik ve bazen multiloküle__
+* __Adamantinomatöz Kraniyofarenjiom__
+  * __Çocuklarda__
+  * __Kalsifikasyon__
+  * __Kistleri kolesterolden zengin\, kahverengi\-sarı sıvı \(makine yağı\)__
+* __Papiller Kraniyofarenjiom__
+  * __Erişkinlerde__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B121.png)
 
-**Robbins and Cotran Pathologic Basis of Disease**
+__Robbins and Cotran Pathologic Basis of Disease__
 
-# 
+## 
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B122.png)
 
-# Hipofiz adenomuna yaklaşım
+## Hipofiz adenomuna yaklaşım
 
-# Dr. Serdar Balcı
+## Dr. Serdar Balcı
 
-# Klinik bilgi
+## Klinik bilgi
 
-- **Çocuklarda: PRL, ACTH**
-- **Hormon düzeylerinde artış**
-  - **Hiperprolaktinemi → nonspesifik**
-- **Kitle etkisi**
-  - **Başağrısı**
-  - **Görme alanı**
-  - **Hipopituitarism**
-- **D. insipid ve kraniel sinir arazı**
-  - **Öncelikle diğer tümörler, metastazlar**
-  - **İnflamatuar süreçler**
+* __Çocuklarda: PRL\, ACTH__
+* __Hormon düzeylerinde artış__
+  * __Hiperprolaktinemi → nonspesifik__
+* __Kitle etkisi__
+  * __Başağrısı__
+  * __Görme alanı__
+  * __Hipopituitarism__
+* __D\. insipid ve kraniel sinir arazı__
+  * __Öncelikle diğer tümörler\, metastazlar__
+  * __İnflamatuar süreçler__
 
-# Ameliyat
+## Ameliyat
 
-**Eğer hemen patolojiye gelecekse SF içeren tüpte gönderilebilir.
-(Otoliz, formolsüz diye not konan rapor sayısı)**
+__Eğer hemen patolojiye gelecekse SF içeren tüpte gönderilebilir\. \(Otoliz\, formolsüz diye not konan rapor sayısı\)__
 
-**Gazlı bezi unutun**
+__Gazlı bezi unutun__
 
-**Formaldehit**
+__Formaldehit__
 
-**EM inceleme?**
+__EM inceleme?__
 
-# Hipofiz adenomu - Frozen
+## Hipofiz adenomu - Frozen
 
-- **Doku genelde küçük**
-  - **Donma artefaktı**
-- **Yayma**
-  - **Daha az doku yeterli**
-  - **Deneyim gerektiriyor**
-- **Tek tanısal materyal frozenda ** *harcanmış * **olabilir**
-- **Frozen beklenmedik bir bulgu ile karşılaşınca uygulanabilir (başka
-  tümör şüphesi)**
-- **İntraoperatif retikülin?**
-- **Cerrahi sınır?**
+* __Doku genelde küçük__
+  * __Donma artefaktı__
+* __Yayma__
+  * __Daha az doku yeterli__
+  * __Deneyim gerektiriyor__
+* __Tek tanısal materyal frozenda __  _harcanmış _  __olabilir__
+* __Frozen beklenmedik bir bulgu ile karşılaşınca uygulanabilir \(başka tümör şüphesi\)__
+* __İntraoperatif retikülin?__
+* __Cerrahi sınır?__
 
-# Mikroadenom – Frozen?
+## Mikroadenom – Frozen?
 
-# Adenohipofiz
+## Adenohipofiz
 
-**Lobüler yapı**
+__Lobüler yapı__
 
-**Coğrafi dağılım**
+__Coğrafi dağılım__
 
-**Tükrük bezi benzeri bezler gibi taklitçiler**
+__Tükrük bezi benzeri bezler gibi taklitçiler__
 
-# Ara lob???
+## Ara lob???
 
-# Nörohipofiz
+## Nörohipofiz
 
-# Suprasellar kitleler - Ddx
+## Suprasellar kitleler - Ddx
 
-**Pituisitom**
+__Pituisitom__
 
-**Lenfositik/granülamatöz hipofizit**
+__Lenfositik/granülamatöz hipofizit__
 
-**Lenfoma**
+__Lenfoma__
 
-**Gangliositom/Gangliositoadenom**
+__Gangliositom/Gangliositoadenom__
 
-**Germ hücreli tümörler**
+__Germ hücreli tümörler__
 
-**Granüler hücrrli tümör**
+__Granüler hücrrli tümör__
 
-**Plazmasitom**
+__Plazmasitom__
 
-**Lenfoma**
+__Lenfoma__
 
-**Paragangliom**
+__Paragangliom__
 
-**Metastaz**
+__Metastaz__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B123.png)
 
-# 
+## 
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B124.png)
 
-# Sellar kitleler
+## Sellar kitleler
 
-**Kraniyofarengiom**
+__Kraniyofarengiom__
 
-**Rathke kleft kisti**
+__Rathke kleft kisti__
 
-**Teratom**
+__Teratom__
 
-**Kordoma**
+__Kordoma__
 
-**Germinom**
+__Germinom__
 
-**Pilositik astrositom**
+__Pilositik astrositom__
 
-**Lenfoma**
+__Lenfoma__
 
-**İnflamasyon**
+__İnflamasyon__
 
-**Langerhans hücreli histiyositoz**
+__Langerhans hücreli histiyositoz__
 
-**Granüler hücreli tümör**
+__Granüler hücreli tümör__
 
-**Glezer et al, Rare Sellar Lesions, Endocrinol Metab Clin N Am 37
-(2008) 195–211**
+__Glezer et al\, Rare Sellar Lesions\, Endocrinol Metab Clin N Am 37 \(2008\) 195–211__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B125.png)
 
@@ -687,26 +608,23 @@ değişken büyüklük**
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B131.jpg)
 
-# 
+## 
 
-**Postmortem prevalence of pituitary adenoma is 14.4% **
+__Postmortem prevalence of pituitary adenoma is 14\.4% __
 
-**radiologic studies identify a lesion consistent with pituitary adenoma
-in 22.2% of the population**
+__radiologic studies identify a lesion consistent with pituitary adenoma in 22\.2% of the population__
 
-**providing an overall estimated prevalence of 16.9%.**
+__providing an overall estimated prevalence of 16\.9%\.__
 
-# Adenom - Hiperplazi
+## Adenom - Hiperplazi
 
-- **Diffüz, nodüler**
-- **Hiperplazi**
-  - **Stimulus kesilince büyüme durur**
-  - **Gebelik: laktotrop hücre proliferasyonu**
-  - **Primer hipopituitarizm: tirotrop**
-  - **Hipotalamik gangliositom, GHrH eksprese eden tümörler:
-    somatotrop**
-  - \_\_ CrH: bronşial, gastroenterohepatik, adrenal, prostat endokrin
-    tümörler\_\_
+* __Diffüz\, nodüler__
+* __Hiperplazi__
+  * __Stimulus kesilince büyüme durur__
+  * __Gebelik: laktotrop hücre proliferasyonu__
+  * __Primer hipopituitarizm: tirotrop__
+  * __Hipotalamik gangliositom\, GHrH eksprese eden tümörler: somatotrop__
+  * __ CrH: bronşial\, gastroenterohepatik\, adrenal\, prostat endokrin tümörler__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B132.png)
 
@@ -714,147 +632,146 @@ in 22.2% of the population**
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B134.png)
 
-# Hipofiz adenomu
+## Hipofiz adenomu
 
-# FFPE – H&E
+## FFPE – H&E
 
-- **H&E**
-- **10 boyasız**
-  - **Retikülin**
-  - **PAS?**
-  - **MIB-1**
-  - **p53**
-  - **Hormonlar**
+* __H&E__
+* __10 boyasız__
+  * __Retikülin__
+  * __PAS?__
+  * __MIB\-1__
+  * __p53__
+  * __Hormonlar__
 
-**Nükleus**
+__Nükleus__
 
-**Nükleol**
+__Nükleol__
 
-**Kromatin**
+__Kromatin__
 
-**Atipi?**
+__Atipi?__
 
-**Mitoz**
+__Mitoz__
 
-**Sitoplazma**
+__Sitoplazma__
 
-**Yapı**
+__Yapı__
 
-**Papiller**
+__Papiller__
 
-**Amiloid**
+__Amiloid__
 
-**Kalsifikasyon**
+__Kalsifikasyon__
 
-**Tedavi etkisi**
+__Tedavi etkisi__
 
-# Retikülin: Adenohipofiz, Hiperplazi, Adenom
+## Retikülin: Adenohipofiz, Hiperplazi, Adenom
 
-# Hormon belirteçleri
+## Hormon belirteçleri
 
-# GH
+## GH
 
-# GH – CK8
+## GH – CK8
 
-# Prolaktin
+## Prolaktin
 
-# Prolaktin – CK8
+## Prolaktin – CK8
 
-# TSH
+## TSH
 
-# FSH
+## FSH
 
-# LH
+## LH
 
-# ACTH
+## ACTH
 
-# ACTH - mikroadenom
+## ACTH - mikroadenom
 
-**Retikülin ve ACTH IHK’sı gerekli**
+__Retikülin ve ACTH IHK’sı gerekli__
 
-**Yoğun granüllü**
+__Yoğun granüllü__
 
-**Bazofilik hücreler**
+__Bazofilik hücreler__
 
-**PAS +**
+__PAS \+__
 
-**CAM 5.2, CK7, CK8**
+__CAM 5\.2\, CK7\, CK8__
 
-# ACTH- Crooke değişiklik
+## ACTH- Crooke değişiklik
 
-- **Tümörsüz alanda (genellikle kortikotroplarda)**
-- **Dolaşımdaki artmış glukokortikoid varlığını yansıtır**
-  - **Pituiter kortikotrop adenom**
-  - **Ektopik ACTH sekresyonu**
-  - **Primer adrenal patolojiler**
-  - **İatrojenik**
-- **Adenom görülmediyse mikroadenom varlığı araştırılmalı (1-2 mm’lik
-  seri kesitler, retikülin ve ACTH ile bakılarak)**
-- **Adenom görülmezse klinikopatolojik korelasyon gerektirir**
+* __Tümörsüz alanda \(genellikle kortikotroplarda\)__
+* __Dolaşımdaki artmış glukokortikoid varlığını yansıtır__
+  * __Pituiter kortikotrop adenom__
+  * __Ektopik ACTH sekresyonu__
+  * __Primer adrenal patolojiler__
+  * __İatrojenik__
+* __Adenom görülmediyse mikroadenom varlığı araştırılmalı \(1\-2 mm’lik seri kesitler\, retikülin ve ACTH ile bakılarak\)__
+* __Adenom görülmezse klinikopatolojik korelasyon gerektirir__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B135.png)
 
-# ACTH- Crooke cell
+## ACTH- Crooke cell
 
-- **Adenom görülmediyse mikroadenom varlığı araştırılmalı**
-  - **1-2 mm’lik seri kesitler**
-  - **Retikülin ve ACTH ile bakılarak**
-- **Adenom görülmezse klinikopatolojik korelasyon gerektirir**
-  - **Hâlâ sellada adenom var mı?**
-  - **Kortikoid yüksekliğinin başka nedenleri**
-  - **Aspiratörde ya da seri kesitlerde kaybolan adenom?**
+* __Adenom görülmediyse mikroadenom varlığı araştırılmalı__
+  * __1\-2 mm’lik seri kesitler__
+  * __Retikülin ve ACTH ile bakılarak__
+* __Adenom görülmezse klinikopatolojik korelasyon gerektirir__
+  * __Hâlâ sellada adenom var mı?__
+  * __Kortikoid yüksekliğinin başka nedenleri__
+  * __Aspiratörde ya da seri kesitlerde kaybolan adenom?__
 
-# ACTH Crooke değişiklik yok, adenom yok
+## ACTH Crooke değişiklik yok, adenom yok
 
-- **Kortikotrop hiperplazi?**
-  - **Patolojik değerlendirme zor olabilir**
-- **Psödo Cushing**
+* __Kortikotrop hiperplazi?__
+  * __Patolojik değerlendirme zor olabilir__
+* __Psödo Cushing__
 
-# ACTH – Crooke cell adenoma
+## ACTH – Crooke cell adenoma
 
-**Adenomatöz hücrelerin sitoplazmasında yoğun birikim**
+__Adenomatöz hücrelerin sitoplazmasında yoğun birikim__
 
-**Nükleer pleomorfizm, iri hücre**
+__Nükleer pleomorfizm\, iri hücre__
 
-**DDX: gangliositom, metastaz**
+__DDX: gangliositom\, metastaz__
 
-**ACTH +**
+__ACTH \+__
 
-**Yoğun halka şeklinde keratin birikimi**
+__Yoğun halka şeklinde keratin birikimi__
 
-**CAM 5.2 +**
+__CAM 5\.2 \+__
 
-# p53
+## p53
 
-# Ki-67
+## Ki-67
 
-# Pit-1
+## Pit-1
 
-# ER-α
+## ER-α
 
-# Mukozada ekilim?
+## Mukozada ekilim?
 
-# Serum – IHK korelasyonu
+## Serum – IHK korelasyonu
 
-# Otopside inceleme
+## Otopside inceleme
 
-**Stalk yüksekten kesilmeli**
+__Stalk yüksekten kesilmeli__
 
-**Sella kontrol edilmeli**
+__Sella kontrol edilmeli__
 
-**Dorsum sella dan açılarak intakt çıkartılmaya çalışılmalı**
+__Dorsum sella dan açılarak intakt çıkartılmaya çalışılmalı__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B136.png)
 
-# Alıntı slaytlar
+## Alıntı slaytlar
 
-# 
+## 
 
-# Adenohipofiz
+## Adenohipofiz
 
-**Lateral kanat**
+__Lateral kanat__
 
-**Mukoid wedge**
+__Mukoid wedge__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B137.jpg)
 
@@ -868,23 +785,23 @@ in 22.2% of the population**
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B142.png)
 
-# Hipofiz adenomu sınıflandırması
+## Hipofiz adenomu sınıflandırması
 
-**Cerrahi, radyoloji**
+__Cerrahi\, radyoloji__
 
-- **İnvazif**
-  - **Dura**
-  - **Kemik**
-  - **Sinüsler**
-- **Non-invazif**
+* __İnvazif__
+  * __Dura__
+  * __Kemik__
+  * __Sinüsler__
+* __Non\-invazif__
 
-**Hormon aktif**
+__Hormon aktif__
 
-**Nonfonksiyone**
+__Nonfonksiyone__
 
-**Mikroadenom \<1cm**
+__Mikroadenom <1cm__
 
-**Makroadenom \>1cm**
+__Makroadenom >1cm__
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B143.png)
 
@@ -898,260 +815,250 @@ in 22.2% of the population**
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B148.jpg)
 
-# Büyüme Hormonu Adenomu
+## Büyüme Hormonu Adenomu
 
-**%10**
+__%10__
 
-**%25-30**
+__%25\-30__
 
-**Gigantizm, akromegali**
+__Gigantizm\, akromegali__
 
-**İnvaziv makroadenom**
+__İnvaziv makroadenom__
 
-**IGF-1**
+__IGF\-1__
 
-# Yoğun granüllü GH adenomu
+## Yoğun granüllü GH adenomu
 
-**Yuvarlak, polihedral, asidofilik**
+__Yuvarlak\, polihedral\, asidofilik__
 
-**Yaygın, kuvvetli sitoplazmik GH**
+__Yaygın\, kuvvetli sitoplazmik GH__
 
-**Perinükleer CK8**
+__Perinükleer CK8__
 
-**Yarısında α-subünit pozitif**
+__Yarısında α\-subünit pozitif__
 
-**Pit-1 kuvvetli nükleer pozitif**
+__Pit\-1 kuvvetli nükleer pozitif__
 
-**EM sekretuvar granüller bol**
+__EM sekretuvar granüller bol__
 
-# Seyrek granüllü GH adenomu
+## Seyrek granüllü GH adenomu
 
-- **Küçük, yuvarlak, kısmen düzensiz hücreler**
+* __Küçük\, yuvarlak\, kısmen düzensiz hücreler__
+* __Fibröz cisimler__
+  * __Paranükleer soluk asidofilik küresel inklüzyon__
+  * __LMWCK\, CK8 pozitif__
+* __Pleomorfizm\, çok çekirdekli bizar hücreler__
+* __GH zayıf sitoplazmik__
+* __Pit\-1 kuvvetli nükleer pozitif__
 
-- **Fibröz cisimler**
+* __Daha agresif__
+* __Multinükleer\, pleomorfizm__
+  * __Prognostik değil__
+* __Makroadenom\, invazif__
+* __Otokrin__
+  * __GHrH salgılıyor__
 
-  - **Paranükleer soluk asidofilik küresel inklüzyon**
-  - **LMWCK, CK8 pozitif**
+## PRL hücre adenomu
 
-- **Pleomorfizm, çok çekirdekli bizar hücreler**
+* __%25\-30__
+* __Serum PRL düzeyi genelde tümör boyutu ile paralel__
+  * __>150ng/mL tanısal__
+  * __Daha düşük değerler bası etkisini yansıtır__
+* __Kadınlarda mikroadenom şeklinde__
+  * __Galaktore\, amenore__
+* __Erkeklerde__
+  * __Libido azalması\, impotans__
+* __Mikroadenom lateral ve posteriorda__
+* __Genelde diffüz\, nadiren papiller__
+* __Nadir iri\, uzun hücreler\, belirgin membran__
 
-- **GH zayıf sitoplazmik**
+__Amiloid depolanması\, kalsifikasyon__
 
-- **Pit-1 kuvvetli nükleer pozitif**
+__Pitüiter taş__
 
-- **Daha agresif**
+## Seyrek granüllü laktotrop adenomu
 
-- **Multinükleer, pleomorfizm**
+* __Kromofob\, amfofilik__
+  * __Belirgin __  _rough_  __ endoplazmik retikulum içerir__
+* __Paranükleer \(golgi\) paterninde PRL pozitif__
+* __Pit\-1 nükleer kuvvetli__
 
-  - **Prognostik değil**
+## Yoğun granüllü laktotrop adenomu
 
-- **Makroadenom, invazif**
+__Nadir__
 
-- **Otokrin**
+## Dopamin agonisti tedavisi etkisi
 
-  - **GHrH salgılıyor**
+__Atrofi__
 
-# PRL hücre adenomu
+__Hücre boyutunda küçülme__
 
-- **%25-30**
-- **Serum PRL düzeyi genelde tümör boyutu ile paralel**
-  - **\>150ng/mL tanısal**
-  - **Daha düşük değerler bası etkisini yansıtır**
-- **Kadınlarda mikroadenom şeklinde**
-  - **Galaktore, amenore**
-- **Erkeklerde**
-  - **Libido azalması, impotans**
-- **Mikroadenom lateral ve posteriorda**
-- **Genelde diffüz, nadiren papiller**
-- **Nadir iri, uzun hücreler, belirgin membran**
+__Sitoplazmada büzüşme__
 
-**Amiloid depolanması, kalsifikasyon**
+__N/C oranında artma__
 
-**Pitüiter taş**
+__İnterstisyel ve perivasküler fibrozis__
 
-# Seyrek granüllü laktotrop adenomu
+## TSH hücre adenomu
 
-- **Kromofob, amfofilik**
-  - **Belirgin ** *rough* \_\_ endoplazmik retikulum içerir\_\_
-- **Paranükleer (golgi) paterninde PRL pozitif**
-- **Pit-1 nükleer kuvvetli**
+__Nadir__
 
-# Yoğun granüllü laktotrop adenomu
+__İnvaziv__
 
-**Nadir**
+__Solid\, sinüzoidal patern__
 
-# Dopamin agonisti tedavisi etkisi
+__Stromal fibrozis\, psammom cisimleri__
 
-**Atrofi**
+__Hücre sınırları belirsiz kromofob adenom__
 
-**Hücre boyutunda küçülme**
+__Nükleer pleomorfizm olabilir__
 
-**Sitoplazmada büzüşme**
+__PAS sitoplazmik granüller__
 
-**N/C oranında artma**
+__Sitoplazma: α\-subünit\, β\-TSH__
 
-**İnterstisyel ve perivasküler fibrozis**
+__Nükleer Pit\-1__
 
-# TSH hücre adenomu
+__Plurihormonal ekspresyon izlenebilir__
 
-**Nadir**
+## ACTH hücre adenomu
 
-**İnvaziv**
+* __%10\-15__
+* __Makroskopik: kırmızı ve yumuşak mikroadenom__
+* __Seri kesitlere rağmen izlenemeyebilir__
+* __Nadir kavernöz sinüs invazyonu__
+  * __Klinik ve biyokimyasal semptom yok__
+  * __Sessiz__
 
-**Solid, sinüzoidal patern**
+__Diffüz\, sinüzoidal__
 
-**Stromal fibrozis, psammom cisimleri**
+__Bazofilik\, amfofilik\, monomorfik\, yuvarlak__
 
-**Hücre sınırları belirsiz kromofob adenom**
+__Kuvvetli PAS pozitif__
 
-**Nükleer pleomorfizm olabilir**
+__Crooke hyalen değişim__
 
-**PAS sitoplazmik granüller**
+__Pleomorfizm__
 
-**Sitoplazma: α-subünit, β-TSH**
+__Mitoz nadir__
 
-**Nükleer Pit-1**
+__ACTH\, β\-LPH ve/veya β\-endorfin__
 
-**Plurihormonal ekspresyon izlenebilir**
+__Cushing hastalığı \(pitüiter ACTH fazlalığı\)__
 
-# ACTH hücre adenomu
+__Nelson zemininde gelişen__
 
-- **%10-15**
-- **Makroskopik: kırmızı ve yumuşak mikroadenom**
-- **Seri kesitlere rağmen izlenemeyebilir**
-- **Nadir kavernöz sinüs invazyonu**
-  - **Klinik ve biyokimyasal semptom yok**
-  - **Sessiz**
+__Crooke cell adenoma__
 
-**Diffüz, sinüzoidal**
+__Sessiz kortikotrop adenomlar__
 
-**Bazofilik, amfofilik, monomorfik, yuvarlak**
+## Cushing hastalığı (pitüiter ACTH fazlalığı)
 
-**Kuvvetli PAS pozitif**
+## Gonadotrop hücre adenomu
 
-**Crooke hyalen değişim**
+__Nadir?__
 
-**Pleomorfizm**
+__Fonksiyonel olanlar erkeklerde daha sık__
 
-**Mitoz nadir**
+__Sessiz adenomlarda IHK ile tanı konur__
 
-**ACTH, β-LPH ve/veya β-endorfin**
+__Makroadenom__
 
-**Cushing hastalığı (pitüiter ACTH fazlalığı)**
+__Supra\, parasellar__
 
-**Nelson zemininde gelişen**
+__Sinüzoid\, psödorozet__
 
-**Crooke cell adenoma**
+__Kanama\, nekroz olabilir__
 
-**Sessiz kortikotrop adenomlar**
+__PAS negatif\, onkositik olabilir__
 
-# Cushing hastalığı (pitüiter ACTH fazlalığı)
+__α\-subünit\, β\-FSH \(daha sık\)\, β\-LH pozitif__
 
-# Gonadotrop hücre adenomu
+## Plurihormonal Adenomlar
 
-**Nadir?**
+* __Pit\-1__
+  * __Karışık somatotrop\-laktotrop__
+    * __Akromegali\, stalka bası__
+    * __İki farklı hücre tipi__
+  * __Mammosomatotrop__
+    * __Klinik sakin\, akromegali\, hiperPRL__
+    * __Aynı hücrede GH ve PRL__
+  * __Asidofil kök hücre__
+    * __Klinik sakin veya hiperPRL__
+    * __Kromofob__
+    * __İnvaziv__
+    * __Paranükleer vakuol__
+    * __Agresif seyir__
+  * __Plurihormonal GH üreten adenomlar__
+    * __Yoğun granüllü GH adenomu__
+    * __PRL\, α\-subünit\, β\-TSH\, β\-FSH\, β\-LH__
+* __ACTH\-α subünit__
+* __LH/FSH\-PRL\-β\-endorfin__
+* __GH\-ACTH__
+* __PRL\-TSH__
 
-**Fonksiyonel olanlar erkeklerde daha sık**
+## Null Hücre Adenomu
 
-**Sessiz adenomlarda IHK ile tanı konur**
+__%20\, giderek düşüyor__
 
-**Makroadenom**
+__Suprasellar\, parasellar invazyon__
 
-**Supra, parasellar**
+__Kavitasyon\, kanama__
 
-**Sinüzoid, psödorozet**
+__Yuvarlak\, poligonal\, kromofob__
 
-**Kanama, nekroz olabilir**
+__Diffüz\, papiller__
 
-**PAS negatif, onkositik olabilir**
+__Pleomorfizm\, mitoz nadir__
 
-**α-subünit, β-FSH (daha sık), β-LH pozitif**
+## İnvaziv
 
-# Plurihormonal Adenomlar
+__Kemik__
 
-- **Pit-1**
-  - **Karışık somatotrop-laktotrop**
-    - **Akromegali, stalka bası**
-    - **İki farklı hücre tipi**
-  - **Mammosomatotrop**
-    - **Klinik sakin, akromegali, hiperPRL**
-    - **Aynı hücrede GH ve PRL**
-  - **Asidofil kök hücre**
-    - **Klinik sakin veya hiperPRL**
-    - **Kromofob**
-    - **İnvaziv**
-    - **Paranükleer vakuol**
-    - **Agresif seyir**
-  - **Plurihormonal GH üreten adenomlar**
-    - **Yoğun granüllü GH adenomu**
-    - **PRL, α-subünit, β-TSH, β-FSH, β-LH**
-- **ACTH-α subünit**
-- **LH/FSH-PRL-β-endorfin**
-- **GH-ACTH**
-- **PRL-TSH**
+__Kavernöz sinüs__
 
-# Null Hücre Adenomu
+__Nazofarenks__
 
-**%20, giderek düşüyor**
+__Dura__
 
-**Suprasellar, parasellar invazyon**
+* __Agresif davranış__
+  * __Rekürrens__
+  * __Hormon düzeyi normale dönmez__
+* __Dura invazyonu sık__
+  * __Agresif değil__
 
-**Kavitasyon, kanama**
+## Atipik adenom
 
-**Yuvarlak, poligonal, kromofob**
+* __Biyolojik__
+  * __Agresif davranış__
+  * __Rekürrens__
+* __Ki\-67>%3__
+* __p53 pozitif__
+* __Metastaz yaparlar mı?__
 
-**Diffüz, papiller**
+## Hipofiz karsinomu
 
-**Pleomorfizm, mitoz nadir**
+* __BOS ya da sistemik yayılımla tanı konur__
+* __Erişkinlerde__
+* __Nadir__
+* __PRL\, GH__
+* __ACTH olanlar Nelson zemininde__
+* __İnvazyon\, pleomorfizm\, mitoz ve nekroz izlenir__
+  * __Ancak tanısal ya da prediktif değildir__
 
-# İnvaziv
+## Cadillac approach
 
-**Kemik**
+__Acta Neuropathol \(2006\) 111: 68–70__
 
-**Kavernöz sinüs**
-
-**Nazofarenks**
-
-**Dura**
-
-- **Agresif davranış**
-  - **Rekürrens**
-  - **Hormon düzeyi normale dönmez**
-- **Dura invazyonu sık**
-  - **Agresif değil**
-
-# Atipik adenom
-
-- **Biyolojik**
-  - **Agresif davranış**
-  - **Rekürrens**
-- **Ki-67\>%3**
-- **p53 pozitif**
-- **Metastaz yaparlar mı?**
-
-# Hipofiz karsinomu
-
-- **BOS ya da sistemik yayılımla tanı konur**
-- **Erişkinlerde**
-- **Nadir**
-- **PRL, GH**
-- **ACTH olanlar Nelson zemininde**
-- **İnvazyon, pleomorfizm, mitoz ve nekroz izlenir**
-  - **Ancak tanısal ya da prediktif değildir**
-
-# Cadillac approach
-
-**Acta Neuropathol (2006) 111: 68–70**
-
-# 
+## 
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B149.png)
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B150.png)
 
-# Hipofiz adenomu
+## Hipofiz adenomu
 
-# dialar
+## dialar
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B151.jpg)
 
@@ -1272,3 +1179,4 @@ in 22.2% of the population**
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B1109.jpg)
 
 ![](./img-local/Hipofiz-Hastal%C4%B1klar%C4%B1110.jpg)
+
