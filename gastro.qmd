@@ -1,5 +1,3 @@
-
-
 ```{r language gastro, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
@@ -8,17 +6,21 @@ source("./R/language.R")
 
 
 
-```{asis, echo = (language == "EN")}
-
-# Pathology of the Gastrointestinal System  {#sec-pathology-of-the-gastrointestinal-system}
-
-```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
-# Gastrointestinal Sistem Patolojisi {#sec-gastrointestinal-sistem-patolojisi}
+# Gastrointestinal Sistem {#sec-gastrointestinal-sistem}
 
 ```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+# Gastrointestinal System  {#sec-gastrointestinal-system}
+
+```
+
+
+
