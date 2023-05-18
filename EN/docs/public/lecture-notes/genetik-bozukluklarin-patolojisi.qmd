@@ -8,14 +8,14 @@ format:
     preview-mode: raw
 lang: en
 keep-md: true
-# editor: visual
+## editor: visual
 ---
 
-# Genetik bozuklukların patolojisi
+## Genetik bozuklukların patolojisi
 
-# Dr. Serdar BALCI
+## Dr. Serdar BALCI
 
-# Pediatrik ve Genetik hastalıklar
+## Pediatrik ve Genetik hastalıklar
 
 * __herediter \(kalıtsal\)__
 * __familyal \(ailesel\)__
@@ -27,7 +27,7 @@ keep-md: true
 * __Tüm genetik hastalıklar da konjenital değildir__
   * __Huntington__
 
-# Protein Kodlayan Genlerde Mutasyonlar
+## Protein Kodlayan Genlerde Mutasyonlar
 
 * __Nokta mutasyonları__
   * __"missens mutasyonları”__
@@ -38,18 +38,18 @@ keep-md: true
 * __Trinükleotid tekrar mutasyonları__
   * __FMR1 gene in Fragile\-X__
 
-# Protein Kodlayan Genlerde MutasyonDışı Değişiklikler
+## Protein Kodlayan Genlerde MutasyonDışı Değişiklikler
 
 * __Translokasyonlar__
 * __Kopya sayısı değişiklikleri \(polimorfizmler\)__
   * __SNP__
   * __CNV \(copy number variations\)__
 
-# Epigenetik Değişiklikler
+## Epigenetik Değişiklikler
 
 __Genin promoter bölgelerindeki sitozin rezidülerinin metilasyonu__
 
-# Kodlama Yapmayan RNA'Iarda Değişiklikler
+## Kodlama Yapmayan RNA'Iarda Değişiklikler
 
 __miRNA__
 
@@ -59,15 +59,15 @@ __siRNA \(small interfering RNA\)__
 
 ![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi0.png)
 
-<span style="color:#888888">TEK GEN DEFEKTLERiNİN NEDEN</span>  <span style="color:#888888">OLDUGU HASTALIKLAR</span>
+<span style="color:##888888">TEK GEN DEFEKTLERiNİN NEDEN</span>  <span style="color:##888888">OLDUGU HASTALIKLAR</span>
 
-# MENDELIAN HASTALIKLAR
+## MENDELIAN HASTALIKLAR
 
 ![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi1.png)
 
 ![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi2.png)
 
-# Otozomal Dominant
+## Otozomal Dominant
 
 __Otozornal dominant hastalıklarda normal gen ürününde %50'lik bir azalma olması durumunda\, klinik bulgu ve semptomlar eşlik eder\.__
 
@@ -77,7 +77,7 @@ __düşük penetrans__
 
 __değişken ekspresyon__
 
-# Otozomal Resesif
+## Otozomal Resesif
 
 __Komplet penetrans sıktır\.__
 
@@ -87,13 +87,13 @@ __enzim proteinleri__
 
 ![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi3.png)
 
-# X’e bağlı resesif
+## X’e bağlı resesif
 
 ![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi4.png)
 
-# Yapısal Proteinleri Kodlayan GenlerdekiMutasyonların Neden Olduğu Hastalıklar
+## Yapısal Proteinleri Kodlayan GenlerdekiMutasyonların Neden Olduğu Hastalıklar
 
-# Marfan Sendromu
+## Marfan Sendromu
 
 * __Ekstraselüler matriksteki fibrilin proteini__
   * __FBN1 mutasyonları__
@@ -112,7 +112,7 @@ __enzim proteinleri__
   * __kalp kapakları ileri derecede gerginleşebilir ve regürjitasyon gelişebilir \("floppy valve" sendromu\)\. __
   * __Aort rüptürü\, en sık ölüm nedenidir\.__
 
-# Ehlers-Danlos Sendromları
+## Ehlers-Danlos Sendromları
 
 * __kollajen sentezi veya yapısındaki bozukluklada karakterize__
 * __Tek gen hastalık grupları__
@@ -144,9 +144,9 @@ __enzim proteinleri__
   * __otozornal dominant__
   * __klasik EDS__
 
-# Reseptör Proteinleri ve Kanalları Kodlayan Genlerdeki Mutasyonların NedenOlduğu Hastalıklar
+## Reseptör Proteinleri ve Kanalları Kodlayan Genlerdeki Mutasyonların NedenOlduğu Hastalıklar
 
-# Ailesel Hiperkolesterolemi
+## Ailesel Hiperkolesterolemi
 
 __LDL reseptör proteinindeki mutasyonlar__
 
@@ -164,7 +164,7 @@ __Homozigotlarda 5 kat__
 
 ![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi6.png)
 
-# Kistik Fibrozis
+## Kistik Fibrozis
 
 * __ekzokrin bezler ile respiratuar\, gastrointestinal ve üreme kanallannın epitelinde sıvı salgılanmasını etleileyen bir epitelyal transport bozukluğu__
 * __hava yolları ve pankreas kanallarında tıkanma__
@@ -180,7 +180,7 @@ __Homozigotlarda 5 kat__
 
 ![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi9.png)
 
-# Fenilketonüri
+## Fenilketonüri
 
 __fenilalanin hidroksilaz \(FAH\) enziminde eksiklik__
 
@@ -194,7 +194,7 @@ __Nörolojik anormallikler__
 
 __saç ve deride azalmış pigmentasyon ve ekzema__
 
-# Galaktozemi
+## Galaktozemi
 
 __Otozomal resesif__
 
@@ -206,25 +206,25 @@ __sarılık\, karaciğer hasarı\, katarakt\, sinir sistemi hasarı\, kusma\, is
 
 __Diyette galaktoz kısıtlaması__
 
-# Lizozomal Depo Hastalıkları
+## Lizozomal Depo Hastalıkları
 
 ![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi11.png)
 
 ![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi12.png)
 
-# Tay-Sachs Hastalığı (Gangliosidoz:Heksozaminidaz Beta-Subünite Eksikliği)
+## Tay-Sachs Hastalığı (Gangliosidoz:Heksozaminidaz Beta-Subünite Eksikliği)
 
 ![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi13.png)
 
-# Niemann-Pick hastalığıasit sfingomyelinaz eksikliği
+## Niemann-Pick hastalığıasit sfingomyelinaz eksikliği
 
 ![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi14.png)
 
-# Gaucher hastalığı, glukoserebrozidaz mutasyonları
+## Gaucher hastalığı, glukoserebrozidaz mutasyonları
 
 ![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi15.png)
 
-# Mukopolisakkaridozlar
+## Mukopolisakkaridozlar
 
 __karaciğer\, dal ak\, kalp\, kan damarları\, beyin\, kornea ve eklemler gibi birçok dokuda\, mukopolisakkaridlerin__
 
@@ -238,11 +238,11 @@ __Hunter sendromunda klinik gidiş daha hafiftir\.__
 
 ![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi16.png)
 
-# Glikojen Depo Hastalıklan (Glikojenozlar)
+## Glikojen Depo Hastalıklan (Glikojenozlar)
 
 ![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi17.png)
 
-# KOMPLEKS MULTiGENiKHASTALIKLAR
+## KOMPLEKS MULTiGENiKHASTALIKLAR
 
 __Tip1 ve Tip2 diyabet__
 
@@ -252,15 +252,15 @@ __kantitatif kişisel özellik lokusları quantitative trait loci \[QTL\]__
 
 __tüm popülasyon grupları içerisinde ve de aynı zamanda çapraz olarak sürekli varyasyon gösterir__
 
-# Sitogenetik Anomaliler
+## Sitogenetik Anomaliler
 
 ![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi18.png)
 
-# Trizomi 21 (Down Sendromu)
+## Trizomi 21 (Down Sendromu)
 
 ![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi19.png)
 
-# 
+## 
 
 ![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi20.png)
 
@@ -270,9 +270,9 @@ __tüm popülasyon grupları içerisinde ve de aynı zamanda çapraz olarak su
 
 ![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi23.png)
 
-# Turner Sendromu
+## Turner Sendromu
 
-# Klinefelter sendromu 47,XXY
+## Klinefelter sendromu 47,XXY
 
 __Seks kromozomlarının ayrılmamasına__
 
@@ -282,7 +282,7 @@ __Hastalarda testiküler atrofi\, kısırlık\, vücut kıllanmasında azalma\
 
 __Erkeklerde kısırlığın en sık nedenidir__
 
-# Atipik Kalıtım Paterni
+## Atipik Kalıtım Paterni
 
 __Triplet tekrar mutasyonlarının neden olduğu hastalıklar__
 
@@ -290,7 +290,7 @@ __Mitokondriyal genlerdeki mutasyonlann neden olduğu hastalıklar__
 
 __Genomun imprinte edilmiş bölgelerindeki değişiklikler ile ilişkili hastalıklar__
 
-# Triplet tekrar mutasyonları
+## Triplet tekrar mutasyonları
 
 __gen içinde bulıman spesifik üç nükleotid grubunun amplifikasyonu genin fonksiyonunu bozınaktadır__
 
@@ -298,7 +298,7 @@ __bütün bu hastalıklarda nörodejeneratif değişiklikler bulunmaktadır__
 
 ![](./img-local/Genetik-bozukluklar%C4%B1n-patolojisi24.png)
 
-# Frajil X
+## Frajil X
 
 __Frajil X sendromu\, Xq27\.3'te haritalanmış olan FMR1 genindeki bir mutasyon__
 
