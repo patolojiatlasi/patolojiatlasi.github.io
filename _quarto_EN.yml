@@ -282,8 +282,13 @@ format:
   html:
     theme:
       light: flatly
-      dark: darkly
-# cosmo
+      dark: darkly # cosmo
+    page-layout: full
+    grid:
+      # sidebar-width: 300px
+      body-width: 1800px # default 900px
+      # margin-width: 300px
+      # gutter-width: 1.5rem
     cover-image: images/cover.png
 #    code-link: true
 #    code-fold: true
@@ -303,7 +308,7 @@ format:
     citations-hover: true
     footnotes-hover: true
     number-depth: 3
-    toc-title: "İçindekiler"
+    # toc-title: "İçindekiler"
   epub:
     toc: true
     epub-cover-image: images/cover.png
