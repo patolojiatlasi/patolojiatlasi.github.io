@@ -47,8 +47,16 @@ webpages <- df_links %>%
   dplyr::distinct() %>%
   dplyr::pull(links)
 
-
 write(x = webpages, file = "./webpages.txt")
+
+js_array <- paste0('var webPages = [', paste0('"', webpages, '"', collapse = ", "), '];')
+
+js_file <- "webpages.js"
+
+writeLines(js_array, js_file)
+
+
+
 
 
 

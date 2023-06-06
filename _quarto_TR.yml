@@ -6,6 +6,7 @@ project:
     - lecture-notes
     - CNAME
     - "script.js"
+    - "webpages.js"
 
 execute:
   freeze: auto
@@ -332,6 +333,7 @@ format:
     include-in-header:
       - text: |
           <script src="script.js"></script>
+          <script src="webpages.js"></script>
 
   epub:
     toc: true

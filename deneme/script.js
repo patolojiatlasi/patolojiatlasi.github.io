@@ -1,18 +1,21 @@
-// List of web pages
-var webPages = [
-"https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html",
-"https://images.patolojiatlasi.com/acute-appendicitis/HE.html",
-"https://images.patolojiatlasi.com/amyloid/crystalviolet.html",
-"https://images.patolojiatlasi.com/congored/congored.html",
-"https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html",
-];
-
-// Function to generate a random index
-function getRandomIndex(max) {
+window.addEventListener('DOMContentLoaded', function() {
+  // Function to generate a random index
+  function getRandomIndex(max) {
     return Math.floor(Math.random() * max);
-}
+  }
 
-// Set a random web page as the src of the iframe
-var randomIndex = getRandomIndex(webPages.length);
-var iframe = document.getElementById("randomIframe");
-iframe.src = webPages[randomIndex];
+  // Get a random webpage index
+  const randomIndex = getRandomIndex(webPages.length);
+
+  // Display the random webpage
+  const iframe = document.getElementById('randomIframe');
+  iframe.src = webPages[randomIndex];
+
+  const headingLink = document.createElement('a');
+  headingLink.href = webPages[randomIndex];
+  headingLink.textContent = 'Case of The Day';
+  headingLink.target = "_blank"; // Open in a new window or tab
+
+  const heading = document.getElementById('heading');
+  heading.appendChild(headingLink);
+});

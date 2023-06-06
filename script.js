@@ -1,36 +1,21 @@
-// Function to generate a random index
-function getRandomIndex(max) {
+window.addEventListener('DOMContentLoaded', function() {
+  // Function to generate a random index
+  function getRandomIndex(max) {
     return Math.floor(Math.random() * max);
-}
+  }
 
-// Function to load web page URLs from a text file
-function loadWebPagesFromFile(file, callback) {
-    var xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState === 4 && xhr.status === 200) {
-            var webPages = xhr.responseText.split("\n");
-            callback(webPages);
-        }
-    };
-    xhr.open("GET", file, true);
-    xhr.send();
-}
+  // Get a random webpage index
+  const randomIndex = getRandomIndex(webPages.length);
 
-// Set a random web page as the src of the iframe
-function setRandomWebPage(webPages) {
-    var randomIndex = getRandomIndex(webPages.length);
-    var iframe = document.getElementById("randomIframe");
-    iframe.src = webPages[randomIndex];
+  // Display the random webpage
+  const iframe = document.getElementById('randomIframe');
+  iframe.src = webPages[randomIndex];
 
-    var iframeContainer = document.getElementById("iframeContainer");
-    var headingLink = document.createElement("a");
-    headingLink.href = webPages[randomIndex];
-    headingLink.textContent = "Case of The Day";
+  const headingLink = document.createElement('a');
+  headingLink.href = webPages[randomIndex];
+  headingLink.textContent = 'Case of The Day';
+  headingLink.target = "_blank"; // Open in a new window or tab
 
-    var heading = document.createElement("h1");
-    heading.appendChild(headingLink);
-    iframeContainer.insertBefore(heading, iframe);
-}
-
-// Load web page URLs from a text file and set a random web page
-loadWebPagesFromFile("webpages.txt", setRandomWebPage);
+  const heading = document.getElementById('heading');
+  heading.appendChild(headingLink);
+});
