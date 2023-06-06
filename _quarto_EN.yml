@@ -4,6 +4,7 @@ project:
   resources:
     - "CITATION.cff"
     - lecture-notes
+    - "script.js"
 
 execute:
   freeze: auto
@@ -309,6 +310,9 @@ format:
     footnotes-hover: true
     number-depth: 3
     # toc-title: "İçindekiler"
+    include-in-header:
+      - text: |
+          <script src="script.js"></script>
   epub:
     toc: true
     epub-cover-image: images/cover.png

@@ -41,6 +41,17 @@ df_links <- data.frame(
   )
 
 
+webpages <- df_links %>%
+  dplyr::select(links) %>%
+  dplyr::filter(!is.na(links)) %>%
+  dplyr::distinct() %>%
+  dplyr::pull(links)
+
+
+write(x = webpages, file = "./webpages.txt")
+
+
+
 markdown <- qmd_content
 
 # Extract headings

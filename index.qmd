@@ -6,7 +6,6 @@ source("./R/language.R")
 
 <!-- [GBDAtlas](/GBD/)  -->
 
-
 ```{asis, echo = (language == "TR")}
 
 For English [click here](/EN/).  
@@ -30,8 +29,36 @@ For social media based pathology notes [click here](https://www.patolojinotlari.
 
 ```
 
-| Atıf için (Citation)                                                                                                                                                                                                                                                                                                         |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+---
+
+<br><br>
+
+
+
+
+<h1>Case of The Day</h1>
+<div id="iframeContainer">
+<iframe id="randomIframe" src=""></iframe>
+</div>
+
+
+
+
+
+
+<br><br>
+
+--- 
+
+<b><br>
+
+
+
+
+
+| Atıf için (Citation)                                                                                                                                                                                                                                                                                     |
+|------------------------------------------------------------------------|
 | [![](https://zenodo.org/badge/452585667.svg)](https://zenodo.org/badge/latestdoi/452585667)                                                                                                                                                                                                              |
 | [Open Science Framework DOI: 10.17605/OSF.IO/6W5K8](https://osf.io/6w5k8/)                                                                                                                                                                                                                               |
 | [![](https://img.shields.io/github/issues/patolojiatlasi/patolojiatlasi.github.io)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/issues)                                                                                                                                                   |

@@ -5,6 +5,7 @@ project:
     - "CITATION.cff"
     - lecture-notes
     - CNAME
+    - "script.js"
 
 execute:
   freeze: auto
@@ -103,7 +104,7 @@ book:
       href: index.qmd
     - text: "Giriş"
       href: giris.qmd
-    - text: "Yazarlar ve Katkıda Bulunanlar" 
+    - text: "Yazarlar ve Katkıda Bulunanlar"
       href: yazarlar.qmd
       target: _blank
       # target: _blank
@@ -328,6 +329,10 @@ format:
     footnotes-hover: true
     number-depth: 3
     toc-title: "İçindekiler"
+    include-in-header:
+      - text: |
+          <script src="script.js"></script>
+
   epub:
     toc: true
     epub-cover-image: images/cover.png
