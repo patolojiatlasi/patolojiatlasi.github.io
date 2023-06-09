@@ -7,6 +7,7 @@ project:
     - CNAME
     - "script.js"
     - "webpages.js"
+    - "webpages.txt"
 
 execute:
   freeze: auto
