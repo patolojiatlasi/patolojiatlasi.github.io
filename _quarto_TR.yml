@@ -4,6 +4,10 @@ project:
   resources:
     - "CITATION.cff"
     - lecture-notes
+    - images
+    - img
+    - openseadragon
+    - annotorious
     - CNAME
     - "script.js"
     - "webpages.js"
