@@ -51,7 +51,7 @@ book:
   image: images/cover.png
   output-file: "Patoloji-Atlasi"
   cover-image: images/cover.png
-  site-url: https://patolojiatlasi.com
+  site-url: https://patolojiatlasi.com/
 #  repo-url: https://github.com/patolojiatlasi/patolojiatlasi.github.io
   google-analytics: "G-7BT7Q4FLT9"
 #  repo-branch: main
@@ -88,22 +88,22 @@ book:
     border: true
     background: light
     left: "Copyright 2022, [patolojiAI](https://www.patolojiai.com/)"
-    right:
-      - icon: github
-        href: https://github.com/patolojiatlasi
-        target: _blank
-      - icon: github
-        href: https://github.com/pathologyatlas
-        target: _blank
-      - icon: twitter
-        href: https://twitter.com/patolojinotlari
-        target: _blank
-      - icon: globe2
-        href: https://www.patolojinotlari.com
-        target: _blank
-      - icon: globe2
-        href: https://www.serdarbalci.com
-        target: _blank
+    # right:
+    #   - icon: github
+    #     href: https://github.com/patolojiatlasi
+    #     target: _blank
+    #   - icon: github
+    #     href: https://github.com/pathologyatlas
+    #     target: _blank
+    #   - icon: twitter
+    #     href: https://twitter.com/patolojinotlari
+    #     target: _blank
+    #   - icon: globe2
+    #     href: https://www.patolojinotlari.com
+    #     target: _blank
+    #   - icon: globe2
+    #     href: https://www.serdarbalci.com
+    #     target: _blank
         # target: _blank
 
   chapters:
