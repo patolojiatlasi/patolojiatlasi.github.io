@@ -1,3 +1,0 @@
-# Akciğer Tümörleri
-Serdar Balcı
-
