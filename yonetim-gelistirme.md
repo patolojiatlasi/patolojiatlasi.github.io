@@ -50,7 +50,25 @@ contact: bilgi\@patolojiatlasi.com
 
 -   https://github.com/quarto-dev/quarto-actions
 
+
 ------------------------------------------------------------------------
+
+
+[![](./images/patoloji-atlasi-openseadragon-example)](https://openseadragon.github.io/examples/in-the-wild/#science)
+
+
+[![](./images/patoloji-atlasi-quarto-example)](https://github.com/quarto-dev/quarto-actions/tree/main/examples)
+
+
+
+
+
+
+
+
+
+---
+
 
 # Examples for future uploads
 
