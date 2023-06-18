@@ -18,12 +18,25 @@ source("./R/language.R")
 ## Gastritis Cystica Profunda {#sec-gastritis-cystica-profunda} 
 ```
 
+
+```{r, eval=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 **Gastritis Cystica Profunda**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/gastritis-cystica-profunda/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/gastritis-cystica-profunda/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -36,7 +49,7 @@ Mikroskopik görüntüleri inceleyin:
 **Gastritis Cystica Profunda**
 
 
-[Full Screen](https://images.patolojiatlasi.com/gastritis-cystica-profunda/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/gastritis-cystica-profunda/HE.html)
 
 See Microscopy with viewer: 
 

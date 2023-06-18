@@ -6,6 +6,19 @@
 
 #### Sesil Polip, Flat (Düz) Tübüler Adenom {#sec-sesil-polip}
 
+
+```{r, eval=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
 [Tam
 Ekran](https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html)
 
@@ -25,6 +38,19 @@ Mikroskopik görüntüleri inceleyin:
 </iframe>
 
 #### Saplı Polip {#sec-sapli-polip}
+
+
+```{r, eval=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
 
 Macroscopy
 

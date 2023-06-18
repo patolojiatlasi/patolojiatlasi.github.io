@@ -19,20 +19,20 @@ source("./R/language.R")
 ```
 
 ```{asis, echo = (language == "TR")}
-### müsin {#sec-musin}
+### Müsin {#sec-musin}
 ```
 
 
 ```{asis, echo = (language == "EN")}
-### mucin {#sec-mucin}
+### Mucin {#sec-mucin}
 ```
 
 ```{asis, echo = (language == "TR")}
-#### mucicarmine {#sec-mucicarmine}
+#### Mucicarmine {#sec-mucicarmine}
 ```
 
 ```{asis, echo = (language == "EN")}
-#### mucicarmine {#sec-mucin}
+#### Mucicarmine {#sec-mucicarmine}
 ```
 
 ```{r, eval=TRUE, include=FALSE}

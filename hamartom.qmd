@@ -2,7 +2,20 @@
 
 ## Hamartomatöz Polip {#sec-hamartomatoz-polip} 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
+
+```{r, eval=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -12,7 +25,20 @@ Mikroskopik görüntüleri inceleyin:
 
 ## Schwann Cell Hamartoma in a Colon Polyp {#sec-schwann-cell-hamartoma-colon-polyp} 
 
-[Tam Ekran](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html)
+
+```{r, eval=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 

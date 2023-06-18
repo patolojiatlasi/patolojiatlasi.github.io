@@ -2,9 +2,22 @@
 
 ## Kristal Viyole {#sec-amiloidoz-kristal-viyole}
 
+
+```{r, eval=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
 Damar duvarlarında amiloid birikimi
 
-[Tam Ekran](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -14,9 +27,22 @@ Mikroskopik görüntüleri inceleyin:
 
 ## Congo Red {#sec-amiloidoz-congo-red}
 
+
+```{r, eval=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
 Congo Red stain for amyloidosis
 
-[Tam Ekran](https://images.patolojiatlasi.com/congored/congored.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/congored/congored.html)
 
 See Microscopy with viewer:
 

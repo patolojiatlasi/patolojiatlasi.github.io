@@ -10,12 +10,25 @@ source("./R/language.R")
 # High Grade Glioma Squash Slide {#sec-high-grade-glioma-squash-slide}
 ```
 
+
+```{r, eval=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 **Yüksek Dereceli Gliom Yayma Preparat**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -28,7 +41,7 @@ Mikroskopik görüntüleri inceleyin:
 **High Grade Glioma Squash Slide**
 
 
-[Full Screen](https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html)
 
 See Microscopy with viewer: 
 

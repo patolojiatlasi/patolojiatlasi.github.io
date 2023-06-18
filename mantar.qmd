@@ -6,7 +6,20 @@
 {{< include _content-to-repeat-1.qmd >}}
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html)
+
+```{r, eval=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -32,12 +45,25 @@ source("./R/language.R")
 
 ```
 
+
+```{r, eval=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 **Beyin mukormikozis HE**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -50,7 +76,7 @@ Mikroskopik görüntüleri inceleyin:
 **brain mucormycosis HE**
 
 
-[Full Screen](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html)
 
 See Microscopy with viewer: 
 
@@ -58,12 +84,25 @@ See Microscopy with viewer:
 
 ```
 
+
+```{r, eval=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 **Beyin mukormikozis GMS**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -76,7 +115,7 @@ Mikroskopik görüntüleri inceleyin:
 **brain mucormycosis GMS**
 
 
-[Full Screen](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html)
 
 See Microscopy with viewer: 
 

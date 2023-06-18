@@ -4,7 +4,21 @@
 
 ### Herpes Esophagatis {#sec-herpes-esophagatis} 
 
-[Tam Ekran](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html)
+
+
+```{r, eval=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+
+```
+
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -24,12 +38,28 @@ source("./R/language.R")
 ## Molluscum contagiosum {#sec-molluscum-contagiosum} 
 ```
 
+
+
+```{r, eval=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 **Molluscum contagiosum**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -42,7 +72,7 @@ Mikroskopik görüntüleri inceleyin:
 **Molluscum contagiosum**
 
 
-[Full Screen](https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html)
 
 See Microscopy with viewer: 
 
