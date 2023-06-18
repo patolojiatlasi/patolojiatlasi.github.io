@@ -1,26 +1,33 @@
-```{r language myxoidliposarcoma, echo=FALSE, include=TRUE}
+```{r language adipoz, echo=FALSE, include=TRUE}
 source("./R/language.R")
 ```
 
 ```{asis, echo = (language == "TR")}
-# Miksoid Liposarkom {#sec-miksoid-liposarkom}
+# Adipoz Doku {#sec-adipoz-doku}
 ```
 
 ```{asis, echo = (language == "EN")}
-# Myxoid Liposarcoma {#sec-myxoid-liposarcoma}
+# Adipose Tissue {#sec-adipose-tissue}
 ```
 
 
-```{r, eval=FALSE, include=FALSE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+```{asis, echo = (language == "TR")}
+## Miksoid Liposarkom {#sec-miksoid-liposarkom}
+```
+
+```{asis, echo = (language == "EN")}
+## Myxoid Liposarcoma {#sec-myxoid-liposarcoma}
+```
+
+
+```{r, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/myxoidliposarcoma_screenshot.png")) {
 webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html",
+  file = "./screenshots/myxoidliposarcoma_screenshot.png"
 )
 }
 ```
-
-
 
 
 ```{asis, echo = (language == "TR")}
@@ -28,7 +35,7 @@ webshot2::webshot(
 **Miksoid Liposarkom**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/myxoidliposarcoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -41,7 +48,7 @@ Mikroskopik görüntüleri inceleyin:
 **Myxoid Liposarcoma**
 
 
-[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html)
+[![Click for Full Screen WSI](./screenshots/myxoidliposarcoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html)
 
 See Microscopy with viewer: 
 

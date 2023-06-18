@@ -6,7 +6,7 @@
 
 
 
-```{r, eval=FALSE, include=FALSE}
+```{r, eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE.html",
@@ -40,7 +40,7 @@ source("./R/language.R")
 
 
 
-```{r, eval=FALSE, include=FALSE}
+```{r, eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE.html",

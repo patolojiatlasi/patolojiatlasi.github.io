@@ -7,7 +7,7 @@ source("./R/language.R")
 ## Kolesterol Polibi {#sec-kolesterol-polibi}
 
 
-```{r, eval=FALSE, include=FALSE}
+```{r, eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE.html",
@@ -31,7 +31,7 @@ Screen](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html)
 ## Glikojen Depo Hastalığı {#sec-glikojen-depo-hastaligi}
 
 
-```{r, eval=FALSE, include=FALSE}
+```{r, eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE.html",
@@ -58,7 +58,7 @@ Mikroskopik görüntüleri inceleyin:
 **PAS**
 
 
-```{r, eval=FALSE, include=FALSE}
+```{r, eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE.html",
@@ -81,7 +81,7 @@ Mikroskopik görüntüleri inceleyin:
 **PASD**
 
 
-```{r, eval=FALSE, include=FALSE}
+```{r, eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE.html",
@@ -106,7 +106,7 @@ Mikroskopik görüntüleri inceleyin:
 Torakal bölge lenf nodunda antrakotik pigment
 
 
-```{r, eval=FALSE, include=FALSE}
+```{r, eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE.html",
@@ -137,7 +137,7 @@ See Microscopy with viewer:
 ## Melanosis Coli {#sec-melanosis-coli}
 
 
-```{r, eval=FALSE, include=FALSE}
+```{r, eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE.html",
@@ -174,7 +174,7 @@ See Microscopy with viewer:
 ```
 
 
-```{r, eval=FALSE, include=FALSE}
+```{r, eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE.html",
