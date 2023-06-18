@@ -1,0 +1,20 @@
+{
+  "hash": "48ddb61b1c4fda75ba4cb01d192778fc",
+  "result": {
+    "markdown": "# Heterotopi Ektopi {#sec-heterotopi-ektopi} \n\n## Intrapancreatic Spleen, Heterotopia {#sec-intrapancreatic-spleen} \n\n\n\n\n\n\n\n\n\n\n\n[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html)\n\n-   Mikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\">\n\n</iframe>\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n## Paratubal adneksiyal bölgede ektopik adrenal dokusu {#sec-paratubal-adneksiyal-bolgede-ektopik-adrenal} \n:::\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n\n**Paratubal adneksiyal bölgede ektopik adrenal dokusu**\n\n\n[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html)\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/ectopic-adrenal/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n```{=html}\n<iframe src=\"https://images.patolojiatlasi.com/ectopic-adrenal/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n```\n\n::: {.cell}\n\n:::\n\n```{=html}\n<iframe src=\"https://images.patolojiatlasi.com/ectopic-adrenal/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n```\n\n\nknitr::include_url\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nknitr::include_url(url = \"https://images.patolojiatlasi.com/ectopic-adrenal/HE.html\")\n```\n\n::: {.cell-output-display}\n[![](heterotopi_files/figure-epub/unnamed-chunk-7-1.png)](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html)\n:::\n:::\n",
+    "supporting": [
+      "heterotopi_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}
