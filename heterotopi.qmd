@@ -3,7 +3,7 @@
 ## Intrapancreatic Spleen, Heterotopia {#sec-intrapancreatic-spleen} 
 
 
-```{r, eval=TRUE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE.html",
@@ -36,7 +36,7 @@ source("./R/language.R")
 ```
 
 
-```{r, eval=TRUE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE.html",

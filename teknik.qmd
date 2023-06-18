@@ -35,7 +35,7 @@ source("./R/language.R")
 #### Mucicarmine {#sec-mucicarmine}
 ```
 
-```{r, eval=TRUE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/mucicarmine_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/mucin/mucicarmine.html",
@@ -185,7 +185,7 @@ asis, echo = (language == "EN")
 
 
 
-```{r, eval=TRUE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/cish_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/her2-cish/cish.html",

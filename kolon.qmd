@@ -20,7 +20,7 @@ source("./R/language.R")
 ```
 
 
-```{r, eval=TRUE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE.html",
@@ -65,7 +65,7 @@ See Microscopy with viewer:
 #### Sesil Polip, Flat (Düz) Tübüler Adenom {#sec-kolon-sesil-polip} 
 
 
-```{r, eval=TRUE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE.html",
@@ -106,7 +106,7 @@ Macroscopy
 Microscopy
 
 
-```{r, eval=TRUE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE.html",
@@ -133,7 +133,7 @@ Mikroskopik görüntüleri inceleyin:
 Mikroskopi
 
 
-```{r, eval=TRUE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE.html",
@@ -156,7 +156,7 @@ Mikroskopik görüntüleri inceleyin:
 ### Hamartomatöz Polip {#sec-kolon-hamartomatoz-polip} 
 
 
-```{r, eval=TRUE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE.html",
@@ -179,7 +179,7 @@ Mikroskopik görüntüleri inceleyin:
 #### Schwann Cell Hamartoma in a Colon Polyp {#sec-colon-schwann-cell-hamartoma} 
 
 
-```{r, eval=TRUE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE.html",
@@ -218,7 +218,7 @@ source("./R/language.R")
 ```
 
 
-```{r, eval=TRUE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE.html",
@@ -275,7 +275,7 @@ source("./R/language.R")
 ```
 
 
-```{r, eval=TRUE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE.html",
@@ -334,7 +334,7 @@ source("./R/language.R")
 ```
 
 
-```{r, eval=TRUE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE.html",
@@ -375,7 +375,7 @@ See Microscopy with viewer:
 
 
 
-```{r, eval=TRUE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE.html",

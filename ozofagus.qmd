@@ -28,7 +28,7 @@ source("./R/language.R")
 
 
 
-```{r, eval=TRUE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if(!file.exists("./screenshots/granular-cell-tumor_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/granular-cell-tumor/HE.html",
