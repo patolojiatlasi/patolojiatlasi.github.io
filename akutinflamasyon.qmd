@@ -5,16 +5,11 @@ source("./R/language.R")
 ```
 
 
-
-
-
 ```{asis, echo = (language == "TR")}
 
 # Akut İnflamasyon {#sec-akut-inflamasyon}
 
 ```
-
-
 
 
 ```{asis, echo = (language == "EN")}

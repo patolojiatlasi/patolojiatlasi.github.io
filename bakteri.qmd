@@ -20,10 +20,10 @@ source("./R/language.R")
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/helicobacterpylori_screenshot.png")) {
 webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/helicobacterpylori/HE.html",
+  file = "./screenshots/helicobacterpylori_screenshot.png"
 )
 }
 ```
@@ -35,7 +35,7 @@ webshot2::webshot(
 
 **Mide'de Helicobacter pylori (H. pylori) HE**
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/helicobacterpylori/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/helicobacterpylori_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/helicobacterpylori/HE.html)
 
 
 Mikroskopik görüntüleri inceleyin:
@@ -48,7 +48,7 @@ Mikroskopik görüntüleri inceleyin:
 
 **Helicobacter pylori (H. pylori) in stomach HE Slide**
 
-[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/helicobacterpylori/HE.html)
+[![Click for Full Screen WSI](./screenshots/helicobacterpylori_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/helicobacterpylori/HE.html)
 
 
 See Microscopy with viewer: 
@@ -60,10 +60,10 @@ See Microscopy with viewer:
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/helicobacterpyloriWS_screenshot.png")) {
 webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html",
+  file = "./screenshots/helicobacterpyloriWS_screenshot.png"
 )
 }
 ```
@@ -75,7 +75,7 @@ webshot2::webshot(
 
 **Mide'de Helicobacter pylori (H. pylori) Warthin Starry Histokimyası**
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/helicobacterpyloriWS_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html)
 
 
 Mikroskopik görüntüleri inceleyin:
@@ -88,7 +88,7 @@ Mikroskopik görüntüleri inceleyin:
 
 **Helicobacter pylori (H. pylori) in stomach Warthin Starry Histochemistry Slide**
 
-[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html)
+[![Click for Full Screen WSI](./screenshots/helicobacterpyloriWS_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html)
 
 
 See Microscopy with viewer: 
@@ -100,10 +100,10 @@ See Microscopy with viewer:
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/helicobacterpyloriGiemsa_screenshot.png")) {
 webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html",
+  file = "./screenshots/helicobacterpyloriGiemsa_screenshot.png"
 )
 }
 ```
@@ -115,7 +115,7 @@ webshot2::webshot(
 
 **Mide'de Helicobacter pylori (H. pylori) Giemsa Histokimyası**
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/helicobacterpyloriGiemsa_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html)
 
 
 Mikroskopik görüntüleri inceleyin:
@@ -128,7 +128,7 @@ Mikroskopik görüntüleri inceleyin:
 
 **Helicobacter pylori (H. pylori) in stomach Giemsa Histochemistry Slide**
 
-[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html)
+[![Click for Full Screen WSI](./screenshots/helicobacterpyloriGiemsa_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html)
 
 
 See Microscopy with viewer: 
@@ -141,10 +141,10 @@ See Microscopy with viewer:
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/helicobacterpyloriIHC_screenshot.png")) {
 webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/helicobacterpylori/IHC.html",
+  file = "./screenshots/helicobacterpyloriIHC_screenshot.png"
 )
 }
 ```
@@ -157,7 +157,7 @@ webshot2::webshot(
 
 **Mide'de Helicobacter pylori (H. pylori) İmmünohistokimyası**
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/helicobacterpylori/IHC.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/helicobacterpyloriIHC_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/IHC.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/helicobacterpylori/IHC.html)
 
 
 Mikroskopik görüntüleri inceleyin:
@@ -171,7 +171,7 @@ Mikroskopik görüntüleri inceleyin:
 
 **Helicobacter pylori (H. pylori) immunohistochemistry in stomach**
 
-[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/helicobacterpylori/IHC.html)
+[![Click for Full Screen WSI](./screenshots/helicobacterpyloriIHC_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/IHC.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/helicobacterpylori/IHC.html)
 
 
 See Microscopy with viewer: 
