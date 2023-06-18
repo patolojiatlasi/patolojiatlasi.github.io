@@ -4,6 +4,11 @@ project:
   resources:
     - "CITATION.cff"
     - lecture-notes
+    - images
+    - img
+    - screenshots
+    - openseadragon
+    - annotorious
     - "script.js"
     - "webpages.js"
     - "webpages.txt"
@@ -40,7 +45,7 @@ book:
   image: images/cover.png
   output-file: "Patology-Atlas"
   cover-image: images/cover.png
-  site-url: https://patolojiatlasi.com
+  site-url: https://patolojiatlasi.com/
 #  repo-url: https://github.com/patolojiatlasi/patolojiatlasi.github.io
 #  google-analytics: "G-7BT7Q4FLT9"
 #  repo-branch: main
@@ -74,17 +79,17 @@ book:
     border: true
     background: light
     left: "Copyright 2022, patolojiAI"
-    right:
-      - icon: github
-        href: https://github.com/patolojiatlasi
-      - icon: github
-        href: https://github.com/pathologyatlas
-      - icon: twitter
-        href: https://twitter.com/patolojinotlari
-      - icon: globe2
-        href: https://www.patolojinotlari.com
-      - icon: globe2
-        href: https://serdarbalci.com
+    # right:
+    #   - icon: github
+    #     href: https://github.com/patolojiatlasi
+    #   - icon: github
+    #     href: https://github.com/pathologyatlas
+    #   - icon: twitter
+    #     href: https://twitter.com/patolojinotlari
+    #   - icon: globe2
+    #     href: https://www.patolojinotlari.com
+    #   - icon: globe2
+    #     href: https://serdarbalci.com
   chapters:
     - text: "Home Page"
       href: index.qmd

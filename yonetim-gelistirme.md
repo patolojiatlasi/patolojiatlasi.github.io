@@ -4,15 +4,13 @@
 
 [![Quarto Render Bilingual Book Push Other Repos GitLab](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/Quarto-Render-Bilingual-Book-Push-Other-Repos-GitLab.yml/badge.svg)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/Quarto-Render-Bilingual-Book-Push-Other-Repos-GitLab.yml)
 
-
 [![Lecture Notes Quarto Render Bilingual Book Push Other Repos and GitLab](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/lecture-notes.yml/badge.svg)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/lecture-notes.yml)
 
 [![pages-build-deployment](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/pages/pages-build-deployment)
 
-
 [![Post Wordpress Random Cases](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/post-wordpress-random-cases.yml/badge.svg)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/post-wordpress-random-cases.yml)
 
----
+------------------------------------------------------------------------
 
 [pathologyatlas.github.io](https://images.patolojiatlasi.com/)
 
@@ -52,7 +50,25 @@ contact: bilgi\@patolojiatlasi.com
 
 -   https://github.com/quarto-dev/quarto-actions
 
+
 ------------------------------------------------------------------------
+
+
+[![](./images/patoloji-atlasi-openseadragon-example)](https://openseadragon.github.io/examples/in-the-wild/#science)
+
+
+[![](./images/patoloji-atlasi-quarto-example)](https://github.com/quarto-dev/quarto-actions/tree/main/examples)
+
+
+
+
+
+
+
+
+
+---
+
 
 # Examples for future uploads
 
@@ -135,28 +151,20 @@ see: [Using templates for new repositories](https://github.com/pathologyatlas/te
 -   https://gitweet.io/
 -   https://joshuaiz.com/words/using-github-actions-to-post-to-twitter-on-commit
 
-
-
 ## Ders Notlarını ve PPT ekle
 
-```
+```         
 <iframe src="https://www.serdarbalci.com/makalesaati/ISO-accreditation-digital-pathology.html" width="100%" height="475px"></iframe>
 ```
 
-
-```
+```         
 {=html}
 <iframe class="slide-deck" src="/dokuman/ISO-accreditation-digital-pathology.html" width="100%" height="475px"></iframe>
 ```
 
-
-```
+```         
 {{< include ./dokuman/_ISO-accreditation-digital-pathology.qmd >}}
-
 ```
-
-
-
 
 ------------------------------------------------------------------------
 
@@ -285,3 +293,28 @@ Content for `Tab A`
 
 Content for `Tab B`
 :::
+
+
+## get whole repos
+
+
+https://chat.openai.com/share/09291b04-532c-4c5c-adae-017538f447b6
+
+
+```powershell
+Invoke-RestMethod -Uri "https://api.github.com/users/pathologyatlas/repos?per_page=100" | ForEach-Object { $_.clone_url } > repositories.txt
+
+```
+
+```powershell
+$apiUrl = "https://api.github.com/users/pathologyatlas/repos?per_page=100"
+$repositories = Invoke-RestMethod -Uri $apiUrl | Select-Object -ExpandProperty clone_url
+
+foreach ($repository in $repositories) {
+    git clone $repository
+}
+```
+
+
+
+
