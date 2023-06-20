@@ -28,12 +28,25 @@ source("./R/language.R")
 
 ```
 
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 **Servikse kolon tümörü yayılımı**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/tumor-spread/HE-cervix.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tumor-spread/HE-cervix.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -46,7 +59,7 @@ Mikroskopik görüntüleri inceleyin:
 **Colon tumor spread to cervix**
 
 
-[Full Screen](https://images.patolojiatlasi.com/tumor-spread/HE-cervix.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/tumor-spread/HE-cervix.html)
 
 See Microscopy with viewer: 
 
@@ -66,12 +79,25 @@ See Microscopy with viewer:
 
 ```
 
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 **Endometriuma kolon tümörü yayılımı**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -84,7 +110,7 @@ Mikroskopik görüntüleri inceleyin:
 **Colon tumor spread to endometrium**
 
 
-[Full Screen](https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html)
 
 See Microscopy with viewer: 
 
@@ -104,12 +130,25 @@ See Microscopy with viewer:
 
 ```
 
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 **Overe kolon tümörü yayılımı**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/tumor-spread/HE-over.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tumor-spread/HE-over.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -122,7 +161,7 @@ Mikroskopik görüntüleri inceleyin:
 **Colon tumor spread to over**
 
 
-[Full Screen](https://images.patolojiatlasi.com/tumor-spread/HE-over.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/tumor-spread/HE-over.html)
 
 See Microscopy with viewer: 
 
@@ -142,12 +181,25 @@ See Microscopy with viewer:
 
 ```
 
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 **İnce barsağa kolon tümörü yayılımı**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -160,7 +212,7 @@ Mikroskopik görüntüleri inceleyin:
 **Colon tumor spread to small intestine**
 
 
-[Full Screen](https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html)
 
 See Microscopy with viewer: 
 

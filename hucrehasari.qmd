@@ -18,12 +18,25 @@ source("./R/language.R")
 
 ```
 
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 **Reaktif Atipi, ülsere kolon polibi**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/reactive-atypia/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/reactive-atypia/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -36,7 +49,7 @@ Mikroskopik görüntüleri inceleyin:
 **Reactive atypia in an ulcerated colon polyp**
 
 
-[Full Screen](https://images.patolojiatlasi.com/reactive-atypia/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/reactive-atypia/HE.html)
 
 See Microscopy with viewer: 
 

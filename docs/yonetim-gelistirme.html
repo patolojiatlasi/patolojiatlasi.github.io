@@ -110,6 +110,7 @@ gtag('config', 'G-7BT7Q4FLT9', { 'anonymize_ip': true});
 <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
 <link rel="manifest" href="./images/site.webmanifest">
+<link rel="icon" href="https://images.patolojiatlasi.com/img/favicon.ico" type="image/x-icon">
 
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -913,6 +914,7 @@ gtag('config', 'G-7BT7Q4FLT9', { 'anonymize_ip': true});
   <li><a href="#github-actions" id="toc-github-actions" class="nav-link" data-scroll-target="#github-actions"><span class="header-section-number">G.4</span> GitHub Actions</a></li>
   <li><a href="#tweeting-with-update" id="toc-tweeting-with-update" class="nav-link" data-scroll-target="#tweeting-with-update"><span class="header-section-number">G.5</span> tweeting with update</a></li>
   <li><a href="#ders-notlarını-ve-ppt-ekle" id="toc-ders-notlarını-ve-ppt-ekle" class="nav-link" data-scroll-target="#ders-notlarını-ve-ppt-ekle"><span class="header-section-number">G.6</span> Ders Notlarını ve PPT ekle</a></li>
+  <li><a href="#get-whole-repos" id="toc-get-whole-repos" class="nav-link" data-scroll-target="#get-whole-repos"><span class="header-section-number">G.7</span> get whole repos</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -986,6 +988,17 @@ gtag('config', 'G-7BT7Q4FLT9', { 'anonymize_ip': true});
 <li><p>https://github.com/marketplace/actions/quarto-render</p></li>
 <li><p>https://github.com/quarto-dev/quarto-actions</p></li>
 </ul>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://openseadragon.github.io/examples/in-the-wild/#science"><img src="./images/patoloji-atlasi-openseadragon-example.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://github.com/quarto-dev/quarto-actions/tree/main/examples"><img src="./images/patoloji-atlasi-quarto-example.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <hr>
 <section id="examples-for-future-uploads" class="level1" data-number="B">
 <h1 data-number="B"><span class="header-section-number">B</span> Examples for future uploads</h1>
@@ -1077,8 +1090,7 @@ gtag('config', 'G-7BT7Q4FLT9', { 'anonymize_ip': true});
 <pre><code>&lt;iframe src="https://www.serdarbalci.com/makalesaati/ISO-accreditation-digital-pathology.html" width="100%" height="475px"&gt;&lt;/iframe&gt;</code></pre>
 <pre><code>{=html}
 &lt;iframe class="slide-deck" src="/dokuman/ISO-accreditation-digital-pathology.html" width="100%" height="475px"&gt;&lt;/iframe&gt;</code></pre>
-<pre><code>{{&lt; include ./dokuman/_ISO-accreditation-digital-pathology.qmd &gt;}}
-</code></pre>
+<pre><code>{{&lt; include ./dokuman/_ISO-accreditation-digital-pathology.qmd &gt;}}</code></pre>
 <hr>
 <div class="sourceCode" id="cb6"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">--allow-empty</span> <span class="at">-m</span> <span class="st">"Empty-Commit"</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code><button title="Panoya Kopyala" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -1278,6 +1290,17 @@ Optional caption (caution)
 </div>
 </div>
 </div>
+</section>
+<section id="get-whole-repos" class="level2" data-number="G.7">
+<h2 data-number="G.7" class="anchored" data-anchor-id="get-whole-repos"><span class="header-section-number">G.7</span> get whole repos</h2>
+<p>https://chat.openai.com/share/09291b04-532c-4c5c-adae-017538f447b6</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Invoke-RestMethod</span> <span class="op">-</span>Uri <span class="st">"https://api.github.com/users/pathologyatlas/repos?per_page=100"</span> <span class="op">|</span> <span class="fu">ForEach-Object</span> <span class="op">{</span> <span class="va">$_</span><span class="op">.</span><span class="fu">clone_url</span> <span class="op">}</span> <span class="op">&gt;</span> repositories<span class="op">.</span><span class="fu">txt</span></span></code><button title="Panoya Kopyala" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="va">$apiUrl</span> <span class="op">=</span> <span class="st">"https://api.github.com/users/pathologyatlas/repos?per_page=100"</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="va">$repositories</span> <span class="op">=</span> <span class="fu">Invoke-RestMethod</span> <span class="op">-</span>Uri <span class="va">$apiUrl</span> <span class="op">|</span> <span class="fu">Select-Object</span> <span class="op">-</span>ExpandProperty clone_url</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="kw">foreach</span> <span class="op">(</span><span class="va">$repository</span> <span class="kw">in</span> <span class="va">$repositories</span><span class="op">)</span> <span class="op">{</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>    git clone <span class="va">$repository</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code><button title="Panoya Kopyala" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>

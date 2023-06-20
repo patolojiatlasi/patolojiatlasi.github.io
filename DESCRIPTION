@@ -37,7 +37,8 @@ Imports:
     svDialogs,
     xfun,
     glue,
-    purrr
+    purrr,
+    webshot2
 Remotes:
     duncantl/XMLRPC,
     duncantl/RWordPress

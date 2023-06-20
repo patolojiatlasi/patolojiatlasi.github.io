@@ -15,12 +15,25 @@ source("./R/language.R")
 
 
 
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 **Beyin İnvazyonu Gösteren Meningiom**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -34,7 +47,7 @@ Mikroskopik görüntüleri inceleyin:
 **Brain Invasive Meningioma**
 
 
-[Full Screen](https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html)
 
 See Microscopy with viewer: 
 
@@ -61,12 +74,25 @@ source("./R/language.R")
 
 
 
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 **Meningiom Kemik İnfiltrasyonu**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -80,7 +106,7 @@ Mikroskopik görüntüleri inceleyin:
 **Meningioma Bone Infiltration**
 
 
-[Full Screen](https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html)
 
 See Microscopy with viewer: 
 

@@ -1,6 +1,10 @@
 /* css styles */
-h1, h2, h3 {
+h1 {
   text-align: center;
+}
+
+h2, h3 {
+  text-align: left;
 }
 
 .slide-deck {

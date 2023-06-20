@@ -6,6 +6,7 @@ project:
     - lecture-notes
     - images
     - img
+    - screenshots
     - openseadragon
     - annotorious
     - "script.js"
@@ -323,7 +324,7 @@ format:
       - text: |
           <script src="script.js"></script>
           <script src="webpages.js"></script>
-      - file: header1.html
+      - file: "./header1.html"
 
   epub:
     toc: true

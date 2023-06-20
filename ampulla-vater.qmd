@@ -41,13 +41,26 @@ source("./R/language.R")
 
 
 
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
+if (!file.exists("./screenshots/ampullary-adenocarcinoma_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html",
+  file = "./screenshots/ampullary-adenocarcinoma_screenshot.png"
+)
+}
+```
+
+
+
+
+
 
 ```{asis, echo = (language == "TR")}
 
 **Ampulla Vater Adenokarsinomu**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/ampullary-adenocarcinoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -93,7 +106,7 @@ asis, echo = (language == "TR")
 **Adenocarcinoma of Ampulla of Vater**
 
 
-[Full Screen](https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html)
+[![Click for Full Screen WSI](./screenshots/ampullary-adenocarcinoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html)
 
 See Microscopy with viewer: 
 

@@ -1,82 +1,54 @@
-
-```{r language her2-cish, echo=FALSE, include=TRUE}
-
+```{r language teknik, echo=FALSE, include=TRUE}
 source("./R/language.R")
-
 ```
 
-
 ```{asis, echo = (language == "TR")}
-
 # Patolojide Kullanılan Teknikler {#sec-patolojide-kullanilan-teknikler} 
-
 ```
 
-
-
-
 ```{asis, echo = (language == "EN")}
-
 # Techniques Used in Pathology {#sec-techniques-used-in-pathology} 
-
 ```
 
-
-
 ```{asis, echo = (language == "TR")}
-
 ## Histokimya {#sec-histokimya} 
-
 ```
 
-
 ```{asis, echo = (language == "EN")}
-
 ## Histochemistry {#sec-histochemistry} 
-
 ```
-
 
 ```{asis, echo = (language == "TR")}
-
-### müsin {#sec-musin}
-
+### Müsin {#sec-musin}
 ```
-
-
 
 
 ```{asis, echo = (language == "EN")}
-
-### mucin {#sec-mucin}
-
+### Mucin {#sec-mucin}
 ```
-
 
 ```{asis, echo = (language == "TR")}
-
-#### mucicarmine {#sec-mucicarmine}
-
+#### Mucicarmine {#sec-mucicarmine}
 ```
-
-
-
 
 ```{asis, echo = (language == "EN")}
+#### Mucicarmine {#sec-mucicarmine}
+```
 
-#### mucicarmine {#sec-mucin}
-
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
+if (!file.exists("./screenshots/mucicarmine_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/mucin/mucicarmine.html",
+  file = "./screenshots/mucicarmine_screenshot.png"
+)
+}
 ```
 
 
-
-
 ```{asis, echo = (language == "TR")}
-
 **normal kolon mukozasında intrasitoplazmik müsini gösteren mucicarmine (müsikarmen) histokimyası**
 
-
-[Tam Ekran](https://images.patolojiatlasi.com/mucin/mucicarmine.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/mucicarmine_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/mucin/mucicarmine.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/mucin/mucicarmine.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -90,7 +62,7 @@ asis, echo = (language == "TR")
 **mucicarmine**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/mucin/HE_annotated.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/mucin/HE_annotated.html)
 
 İşaretlenmiş mikroskopik görüntüleri inceleyin:
 
@@ -102,8 +74,6 @@ asis, echo = (language == "TR")
 
 ```{comment}
 asis, echo = (language == "TR")
-
-
 
 <button id="tani-case-mucin-btn">Tanıyı Göster</button>
 <div id="answer-mucin" style="display: none;">mucicarmine</div>
@@ -138,7 +108,7 @@ asis, echo = (language == "TR")
 **mucicarmine histochemistry stain showing intracellular mucin in a normal colon**
 
 
-[Full Screen](https://images.patolojiatlasi.com/mucin/mucicarmine.html)
+[![Click for Full Screen WSI](./screenshots/mucicarmine_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/mucin/mucicarmine.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mucin/mucicarmine.html)
 
 See Microscopy with viewer: 
 
@@ -153,7 +123,7 @@ asis, echo = (language == "EN")
 **mucicarmine**
 
 
-[Full Screen](https://images.patolojiatlasi.com/mucin/HE_annotated.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mucin/HE_annotated.html)
 
 See Annotated Microscopy with viewer: 
 
@@ -193,20 +163,7 @@ asis, echo = (language == "EN")
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
@@ -228,12 +185,25 @@ asis, echo = (language == "EN")
 
 
 
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
+if (!file.exists("./screenshots/cish_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/her2-cish/cish.html",
+  file = "./screenshots/cish_screenshot.png"
+)
+}
+```
+
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 **Chromogenic in situ hybridization (CISH)**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/her2-cish/cish.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/cish_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/her2-cish/cish.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/her2-cish/cish.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -247,7 +217,7 @@ asis, echo = (language == "TR")
 **Chromogenic in situ hybridization (CISH)**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/her2-cish/cish_annotated.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/her2-cish/cish_annotated.html)
 
 İşaretlenmiş mikroskopik görüntüleri inceleyin:
 
@@ -295,7 +265,7 @@ asis, echo = (language == "TR")
 **Chromogenic in situ hybridization (CISH)**
 
 
-[Full Screen](https://images.patolojiatlasi.com/her2-cish/cish.html)
+[![Click for Full Screen WSI](./screenshots/cish_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/her-cish/cish.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/her2-cish/cish.html)
 
 See Microscopy with viewer: 
 
@@ -310,7 +280,7 @@ asis, echo = (language == "EN")
 **Chromogenic in situ hybridization (CISH)**
 
 
-[Full Screen](https://images.patolojiatlasi.com/her2-cish/cish_annotated.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/her2-cish/cish_annotated.html)
 
 See Annotated Microscopy with viewer: 
 

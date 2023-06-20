@@ -4,7 +4,20 @@
 
 ## Karaciğerde Sarkom Metastazı {#sec-karaciger-sarkom-metastaz} 
 
-[Tam Ekran](https://images.patolojiatlasi.com/metastaticsarcoma/HE.html)
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/metastaticsarcoma/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -41,13 +54,26 @@ source("./R/language.R")
 
 
 
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
+
 
 ```{asis, echo = (language == "TR")}
 
 **Sinsi bir lenf nodu metastazı HE**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -58,7 +84,7 @@ Mikroskopik görüntüleri inceleyin:
 **Sinsi bir lenf nodu metastazı OSKAR panCK**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/OSKARCK.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/OSKARCK.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -77,7 +103,7 @@ Mikroskopik görüntüleri inceleyin:
 **insidious lymph node metastasis HE**
 
 
-[Full Screen](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html)
 
 See Microscopy with viewer: 
 
@@ -86,7 +112,7 @@ See Microscopy with viewer:
 
 **insidious lymph node metastasis OSKAR panCK**
 
-[Full Screen](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/OSKARCK.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/OSKARCK.html)
 
 See Microscopy with viewer: 
 

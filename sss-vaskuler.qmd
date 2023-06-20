@@ -42,12 +42,25 @@ source("./R/language.R")
 
 
 
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 **beyin arteriovenöz malformasyon**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -63,7 +76,7 @@ Mikroskopik görüntüleri inceleyin:
 **brain arteriovenous malformation**
 
 
-[Full Screen](https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html)
 
 See Microscopy with viewer: 
 

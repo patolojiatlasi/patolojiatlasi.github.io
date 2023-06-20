@@ -25,13 +25,26 @@ source("./R/language.R")
 
 
 
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
+
 
 ```{asis, echo = (language == "TR")}
 
 **Hodgkin Lenfoma**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hodgkin/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hodgkin/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -47,7 +60,7 @@ Mikroskopik görüntüleri inceleyin:
 **Hodgkin Lymphoma**
 
 
-[Full Screen](https://images.patolojiatlasi.com/hodgkin/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hodgkin/HE.html)
 
 See Microscopy with viewer: 
 

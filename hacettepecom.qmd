@@ -22,6 +22,19 @@ source("./R/language.R")
 
 {{< video https://www.youtube.com/embed/nfFtViUXHqU >}}
 
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 **hacettepe-com-case-1**
@@ -47,7 +60,7 @@ source("./R/language.R")
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -82,7 +95,7 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
 
 See Microscopy with viewer: 
 
@@ -137,7 +150,7 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-2/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-2/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -172,7 +185,7 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-2/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-2/HE.html)
 
 See Microscopy with viewer: 
 
@@ -233,7 +246,7 @@ asis, echo = (language == "TR")
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-3/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-3/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -264,7 +277,7 @@ asis, echo = (language == "EN")
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-3/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-3/HE.html)
 
 See Microscopy with viewer: 
 
@@ -320,7 +333,7 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-4/HE1.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-4/HE1.html)
 
 
 Mikroskopik görüntüleri inceleyin:
@@ -329,7 +342,7 @@ Mikroskopik görüntüleri inceleyin:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-4/HE2.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-4/HE2.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -363,14 +376,14 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-4/HE1.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-4/HE1.html)
 
 See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-4/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-4/HE2.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-4/HE2.html)
 
 See Microscopy with viewer: 
 
@@ -430,7 +443,7 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-5/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-5/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -465,7 +478,7 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-5/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-5/HE.html)
 
 See Microscopy with viewer: 
 
@@ -521,7 +534,7 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-6/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-6/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -556,7 +569,7 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-6/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-6/HE.html)
 
 See Microscopy with viewer: 
 
@@ -618,7 +631,7 @@ asis, echo = (language == "TR")
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-7/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-7/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -654,7 +667,7 @@ asis, echo = (language == "EN")
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-7/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-7/HE.html)
 
 See Microscopy with viewer: 
 
@@ -711,7 +724,7 @@ asis, echo = (language == "TR")
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-8/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-8/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -747,7 +760,7 @@ asis, echo = (language == "EN")
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-8/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-8/HE.html)
 
 See Microscopy with viewer: 
 
@@ -811,7 +824,7 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-9/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-9/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -845,7 +858,7 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-9/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-9/HE.html)
 
 See Microscopy with viewer: 
 
@@ -906,7 +919,7 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-10/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-10/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -941,7 +954,7 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-10/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-10/HE.html)
 
 See Microscopy with viewer: 
 
@@ -1002,7 +1015,7 @@ asis, echo = (language == "TR")
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-11/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-11/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -1037,7 +1050,7 @@ asis, echo = (language == "EN")
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-11/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-11/HE.html)
 
 See Microscopy with viewer: 
 
@@ -1095,7 +1108,7 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-12/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-12/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -1130,7 +1143,7 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-12/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-12/HE.html)
 
 See Microscopy with viewer: 
 
@@ -1190,7 +1203,7 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-13/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-13/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -1225,7 +1238,7 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-13/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-13/HE.html)
 
 See Microscopy with viewer: 
 
@@ -1281,7 +1294,7 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-14/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-14/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -1316,7 +1329,7 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-14/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-14/HE.html)
 
 See Microscopy with viewer: 
 
@@ -1373,7 +1386,7 @@ asis, echo = (language == "TR")
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -1409,7 +1422,7 @@ asis, echo = (language == "EN")
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
 
 See Microscopy with viewer: 
 
@@ -1466,7 +1479,7 @@ asis, echo = (language == "TR")
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -1502,7 +1515,7 @@ asis, echo = (language == "EN")
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
 
 See Microscopy with viewer: 
 
@@ -1558,13 +1571,13 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-17/HE1.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-17/HE1.html)
 
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-17/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-17/HE2.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-17/HE2.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -1597,14 +1610,14 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-17/HE1.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-17/HE1.html)
 
 See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-17/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-17/HE2.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-17/HE2.html)
 
 See Microscopy with viewer: 
 
@@ -1661,7 +1674,7 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-18/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-18/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -1696,7 +1709,7 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-18/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-18/HE.html)
 
 See Microscopy with viewer: 
 
@@ -1752,7 +1765,7 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-19/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-19/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -1787,7 +1800,7 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-19/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-19/HE.html)
 
 See Microscopy with viewer: 
 
@@ -1844,7 +1857,7 @@ asis, echo = (language == "TR")
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -1880,7 +1893,7 @@ asis, echo = (language == "EN")
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
 
 See Microscopy with viewer: 
 
@@ -1936,7 +1949,7 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-21/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-21/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -1971,7 +1984,7 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-21/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-21/HE.html)
 
 See Microscopy with viewer: 
 
@@ -2028,7 +2041,7 @@ asis, echo = (language == "TR")
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -2064,7 +2077,7 @@ asis, echo = (language == "EN")
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
 
 See Microscopy with viewer: 
 
@@ -2120,7 +2133,7 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-23/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-23/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -2155,7 +2168,7 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-23/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-23/HE.html)
 
 See Microscopy with viewer: 
 
@@ -2211,7 +2224,7 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-24/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-24/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -2246,7 +2259,7 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-24/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-24/HE.html)
 
 See Microscopy with viewer: 
 
@@ -2302,7 +2315,7 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-25/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-25/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -2337,7 +2350,7 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-25/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-25/HE.html)
 
 See Microscopy with viewer: 
 
@@ -2394,7 +2407,7 @@ asis, echo = (language == "TR")
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -2430,7 +2443,7 @@ asis, echo = (language == "EN")
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
 
 See Microscopy with viewer: 
 
@@ -2486,14 +2499,14 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-27/HE1.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-27/HE1.html)
 
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-27/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-27/HE2.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-27/HE2.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -2528,7 +2541,7 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-27/HE1.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-27/HE1.html)
 
 See Microscopy with viewer: 
 
@@ -2536,7 +2549,7 @@ See Microscopy with viewer:
 
 
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-27/HE2.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-27/HE2.html)
 
 See Microscopy with viewer: 
 
@@ -2594,7 +2607,7 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE1.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE1.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -2602,7 +2615,7 @@ Mikroskopik görüntüleri inceleyin:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE2.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE2.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -2636,7 +2649,7 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE1.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE1.html)
 
 See Microscopy with viewer: 
 
@@ -2644,7 +2657,7 @@ See Microscopy with viewer:
 
 
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE2.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE2.html)
 
 See Microscopy with viewer: 
 
@@ -2703,7 +2716,7 @@ asis, echo = (language == "TR")
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -2739,7 +2752,7 @@ asis, echo = (language == "EN")
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
 
 See Microscopy with viewer: 
 
@@ -2796,7 +2809,7 @@ asis, echo = (language == "TR")
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -2832,7 +2845,7 @@ asis, echo = (language == "EN")
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
 
 See Microscopy with viewer: 
 
@@ -2888,7 +2901,7 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-31/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-31/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -2923,7 +2936,7 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-31/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-31/HE.html)
 
 See Microscopy with viewer: 
 
@@ -2979,7 +2992,7 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-32/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-32/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -3014,7 +3027,7 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-32/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-32/HE.html)
 
 See Microscopy with viewer: 
 
@@ -3070,7 +3083,7 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-33/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-33/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -3105,7 +3118,7 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-33/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-33/HE.html)
 
 See Microscopy with viewer: 
 
@@ -3162,7 +3175,7 @@ asis, echo = (language == "TR")
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -3198,7 +3211,7 @@ asis, echo = (language == "EN")
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
 
 See Microscopy with viewer: 
 
@@ -3255,7 +3268,7 @@ asis, echo = (language == "TR")
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -3291,7 +3304,7 @@ asis, echo = (language == "EN")
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
 
 See Microscopy with viewer: 
 
@@ -3348,7 +3361,7 @@ asis, echo = (language == "TR")
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -3384,7 +3397,7 @@ asis, echo = (language == "EN")
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
 
 See Microscopy with viewer: 
 
@@ -3441,7 +3454,7 @@ asis, echo = (language == "TR")
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -3477,7 +3490,7 @@ asis, echo = (language == "EN")
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
 
 See Microscopy with viewer: 
 
@@ -3537,7 +3550,7 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-38/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-38/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -3572,7 +3585,7 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-38/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-38/HE.html)
 
 See Microscopy with viewer: 
 
@@ -3637,7 +3650,7 @@ See Microscopy with viewer:
 
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/hacettepe-com-case-39/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-39/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -3672,7 +3685,7 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[Full Screen](https://images.patolojiatlasi.com/hacettepe-com-case-39/HE.html)
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-39/HE.html)
 
 See Microscopy with viewer: 
 

@@ -2,6 +2,24 @@
 language <- "TR"
 ```
 
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
+if (!file.exists("./screenshots/template_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE.html",
+  file = "./screenshots/template_screenshot.png"
+)
+}
+```
+
+
+
+
+
+
+
 ```{asis, echo = (language == "EN")}
 
 # Chronic Inflammation

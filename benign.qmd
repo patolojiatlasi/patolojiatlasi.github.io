@@ -1,41 +1,123 @@
+```{r language benign, echo=FALSE, include=TRUE}
+source("./R/language.R")
+```
+
+```{asis, echo = (language == "TR")}
 # Benign Tümörler {#sec-benign-tumorler}
+```
 
+```{asis, echo = (language == "EN")}
+# Benign Tumors {#sec-benign-tumors}
+```
+
+```{asis, echo = (language == "TR")}
 ## Adenomlar {#sec-adenomlar}
+```
 
+```{asis, echo = (language == "EN")}
+## Adenoma {#sec-adenoma}
+```
+
+
+```{asis, echo = (language == "TR")}
 ### Tübüler Adenom {#sec-tubuler-adenom}
+```
 
+```{asis, echo = (language == "EN")}
+### Tubular Adenoma {#sec-tubular-adenoma}
+```
+
+
+```{asis, echo = (language == "TR")}
 #### Sesil Polip, Flat (Düz) Tübüler Adenom {#sec-sesil-polip}
+```
 
-[Tam
-Ekran](https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html)
+
+```{asis, echo = (language == "EN")}
+#### Sesile Polyp, Flat Tubular Adenoma {#sec-sesile-polyp}
+```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
+if (!file.exists("./screenshots/tubularadenoma-flat1_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/tubularadenoma-flat1/HE.html",
+  file = "./screenshots/tubularadenoma-flat1_screenshot.png"
+)
+}
+```
+
+
+
+```{asis, echo = (language == "TR")}
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/tubularadenoma-flat_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html)
+
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html" style="height:600px;width:100%;" data-external="1">
+<iframe src="https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+```
 
-</iframe>
 
-[Tam
-Ekran](https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html)
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
+if (!file.exists("./screenshots/tubularadenoma-flat2_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/tubularadenoma-flat2/HE.html",
+  file = "./screenshots/tubularadenoma-flat2_screenshot.png"
+)
+}
+```
+
+
+```{asis, echo = (language == "TR")}
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/tubularadenoma-flat2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html)
+
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html" style="height:600px;width:100%;" data-external="1">
+<iframe src="https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
-</iframe>
+```
 
+```{asis, echo = (language == "TR")}
 #### Saplı Polip {#sec-sapli-polip}
+```
 
+
+```{asis, echo = (language == "EN")}
+#### Polyp with Stalk {#sec-polyp-with-stalk}
+```
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
+if (!file.exists("./screenshots/tubular-adenoma-with-stalk_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html",
+  file = "./screenshots/tubular-adenoma-with-stalk_screenshot.png"
+)
+}
+```
+
+
+```{asis, echo = (language == "EN")}
 Macroscopy
 
 [tubular adenoma with a stalk
 macroscopy](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg)
+```
 
+```{asis, echo = (language == "EN")}
 Microscopy
 
 [tubular adenoma with a
 stalk](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk.jpeg)
+```
 
+```{asis, echo = (language == "TR")}
 Mikroskopik görüntüleri inceleyin:
 
 [Tam
@@ -44,3 +126,4 @@ Ekran](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-sta
 <iframe src="https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html" style="height:600px;width:100%;">
 
 </iframe>
+```
