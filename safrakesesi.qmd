@@ -18,12 +18,10 @@ source("./R/language.R")
 # Gallbladder  {#sec-gallbladder} 
 ```
 
-
 ```{asis, echo = (language == "EN")}
 ## Gallbladder Adenomyoma {#sec-gallbladder-adenomyoma} 
 
 ```
-
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
@@ -33,9 +31,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -63,25 +58,17 @@ See Microscopy with viewer:
 
 ```
 
-
-
 ```{r language ischemia-gangrenous-cholecystitis, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
 
 ```
 
-
-
-
 ```{asis, echo = (language == "TR")}
 
 ## iskemi gangrenöz kolesistit {#sec-ischemia-gangrenous-cholecystitis}
 
 ```
-
-
-
 
 ```{asis, echo = (language == "EN")}
 
@@ -100,7 +87,6 @@ webshot2::webshot(
 
 ```
 
-
 ```{asis, echo = (language == "TR")}
 
 **iskemi gangrenöz kolesistit**
@@ -114,7 +100,7 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-```{comment} 
+```{comment}
 asis, echo = (language == "TR")
 
 **iskemi gangrenöz kolesistit**
@@ -127,8 +113,6 @@ asis, echo = (language == "TR")
 <iframe src="https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
-
-
 
 ```{comment}
 asis, echo = (language == "TR")
@@ -161,8 +145,6 @@ asis, echo = (language == "TR")
 
 ```
 
-
-
 ```{asis, echo = (language == "EN")}
 
 **ischemia in gangrenous cholecystitis**
@@ -174,7 +156,6 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
-
 
 ```{comment}
 asis, echo = (language == "EN")

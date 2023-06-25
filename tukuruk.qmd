@@ -4,17 +4,11 @@ source("./R/language.R")
 
 ```
 
-
-
-
 ```{asis, echo = (language == "TR")}
 
 # Tükürük Bezi Tümörleri {#sec-tukuruk-bezi-tumorleri} 
 
 ```
-
-
-
 
 ```{asis, echo = (language == "EN")}
 
@@ -22,17 +16,11 @@ source("./R/language.R")
 
 ```
 
-
-
-
 ```{r language mammary-analogue-secretory-carcinoma, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
 
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -40,16 +28,11 @@ source("./R/language.R")
 
 ```
 
-
-
-
 ```{asis, echo = (language == "EN")}
 
 ##  mammary analogue secretory carcinoma of salivary gland
 
 ```
-
-
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
@@ -59,11 +42,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -89,7 +67,7 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-```{comment} 
+```{comment}
 asis, echo = (language == "TR")
 
 **Tükürük bezinin meme benzeri sekretuar karsinomu**
@@ -111,8 +89,6 @@ asis, echo = (language == "TR")
 
 
 ```
-
-
 
 ```{comment}
 asis, echo = (language == "TR")
@@ -145,8 +121,6 @@ asis, echo = (language == "TR")
 
 ```
 
-
-
 ```{asis, echo = (language == "EN")}
 
 ** mammary analogue secretory carcinoma of salivary gland**
@@ -167,7 +141,6 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
-
 
 ```{comment}
 asis, echo = (language == "EN")
@@ -216,5 +189,3 @@ asis, echo = (language == "EN")
 
 
 ```
-
-

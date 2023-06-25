@@ -22,7 +22,6 @@ source("./R/language.R")
 ### Müsin {#sec-musin}
 ```
 
-
 ```{asis, echo = (language == "EN")}
 ### Mucin {#sec-mucin}
 ```
@@ -44,7 +43,6 @@ webshot2::webshot(
 }
 ```
 
-
 ```{asis, echo = (language == "TR")}
 **normal kolon mukozasında intrasitoplazmik müsini gösteren mucicarmine (müsikarmen) histokimyası**
 
@@ -56,7 +54,7 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-```{comment} 
+```{comment}
 asis, echo = (language == "TR")
 
 **mucicarmine**
@@ -69,8 +67,6 @@ asis, echo = (language == "TR")
 <iframe src="https://images.patolojiatlasi.com/mucin/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
-
-
 
 ```{comment}
 asis, echo = (language == "TR")
@@ -101,8 +97,6 @@ asis, echo = (language == "TR")
 
 ```
 
-
-
 ```{asis, echo = (language == "EN")}
 
 **mucicarmine histochemistry stain showing intracellular mucin in a normal colon**
@@ -115,7 +109,6 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/mucin/mucicarmine.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
-
 
 ```{comment}
 asis, echo = (language == "EN")
@@ -161,11 +154,7 @@ asis, echo = (language == "EN")
 
 ```
 
-
-
----
-
-
+------------------------------------------------------------------------
 
 ```{asis, echo = (language == "TR")}
 
@@ -173,17 +162,11 @@ asis, echo = (language == "EN")
 
 ```
 
-
-
-
 ```{asis, echo = (language == "EN")}
 
 ## Chromogenic in situ hybridization (CISH) {#sec-chromogenic-in-situ-hybridization-cish} 
 
 ```
-
-
-
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/cish_screenshot.png")) {
@@ -193,10 +176,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -211,7 +190,7 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-```{comment} 
+```{comment}
 asis, echo = (language == "TR")
 
 **Chromogenic in situ hybridization (CISH)**
@@ -224,8 +203,6 @@ asis, echo = (language == "TR")
 <iframe src="https://images.patolojiatlasi.com/her2-cish/cish_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
-
-
 
 ```{comment}
 asis, echo = (language == "TR")
@@ -258,8 +235,6 @@ asis, echo = (language == "TR")
 
 ```
 
-
-
 ```{asis, echo = (language == "EN")}
 
 **Chromogenic in situ hybridization (CISH)**
@@ -272,7 +247,6 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/her2-cish/cish.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
-
 
 ```{comment}
 asis, echo = (language == "EN")

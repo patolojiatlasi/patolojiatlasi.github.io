@@ -6,12 +6,9 @@ source("./R/language.R")
 # Kronik İnflamasyon {#sec-kronik-inflamasyon} 
 ```
 
-
 ```{asis, echo = (language == "EN")}
 # Chronic Inflammation {#sec-chronic-inflammation} 
 ```
-
-
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
@@ -21,9 +18,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
 
 ```{asis, echo = (language == "EN")}
 ## Hydronephrosis and Chronic Pyelonephritis {#sec-hydronephrosis-chronic-pyelonephritis} 
@@ -63,25 +57,17 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-
-
-
 ```{asis, echo = (language == "TR")}
 
 ## Kronik Pyelonefrit {#sec-kronik-pyelonefrit} 
 
 ```
 
-
-
-
 ```{asis, echo = (language == "EN")}
 
 ## Chronic Pyelonephritis {#sec-chronic-pyelonephritis} 
 
 ```
-
-
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
@@ -91,11 +77,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -110,9 +91,6 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-
-
-
 ```{asis, echo = (language == "EN")}
 
 **Chronic Pyelonephritis**
@@ -125,5 +103,3 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/chronic-pyelonephritis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
-
-

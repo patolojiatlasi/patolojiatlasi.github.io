@@ -1,7 +1,6 @@
-# Amiloidoz (Amiloid Birikimi)  {#sec-amiloidoz}
+# Amiloidoz (Amiloid Birikimi) {#sec-amiloidoz}
 
 ## Kristal Viyole {#sec-amiloidoz-kristal-viyole}
-
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/crystalviolet_screenshot.png")) {
@@ -12,12 +11,12 @@ webshot2::webshot(
 }
 ```
 
-
-
-
 Damar duvarlarında amiloid birikimi
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/crystalviolet_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/amyloid/crystalviolet.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/crystalviolet_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -26,7 +25,6 @@ Mikroskopik görüntüleri inceleyin:
 </iframe>
 
 ## Congo Red {#sec-amiloidoz-congo-red}
-
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/congored_screenshot.png")) {
@@ -37,12 +35,12 @@ webshot2::webshot(
 }
 ```
 
-
-
-
 Congo Red stain for amyloidosis
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/congored_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/congored/congored.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/congored/congored.html)
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/congored_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/congored/congored.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/congored/congored.html)
 
 See Microscopy with viewer:
 
@@ -52,11 +50,10 @@ See Microscopy with viewer:
 
 ## Congo Red Birefringence {#sec-amiloidoz-congo-red-birefringence}
 
-
-
 {{< video https://www.youtube.com/embed/U9glkfQLTm4 >}}
 
-
+```{=html}
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/U9glkfQLTm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
 </iframe> -->
+```

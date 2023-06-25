@@ -10,8 +10,6 @@ source("./R/language.R")
 # Parasites {#sec-parasites} 
 ```
 
-
-
 ```{asis, echo = (language == "TR")}
 ## Enterobius vermicularis {#sec-enterobius-vermicularis} 
 ```
@@ -19,7 +17,6 @@ source("./R/language.R")
 ```{asis, echo = (language == "EN")}
 ## Enterobius vermicularis {#sec-enterobius-vermicularis} 
 ```
-
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
@@ -29,9 +26,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 

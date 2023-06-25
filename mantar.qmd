@@ -1,11 +1,8 @@
-## Mantarlar {#sec-mantarlar} 
+## Mantarlar {#sec-mantarlar}
 
-## Candida *albicans* in cervicovaginal smear {#sec-candida-albicans-in-cervicovaginal-smear} 
-
+## Candida *albicans* in cervicovaginal smear {#sec-candida-albicans-in-cervicovaginal-smear}
 
 {{< include _content-to-repeat-1.qmd >}}
-
-
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
@@ -16,10 +13,10 @@ webshot2::webshot(
 }
 ```
 
-
-
-
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html)
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -45,7 +42,6 @@ source("./R/language.R")
 
 ```
 
-
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
@@ -54,9 +50,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -84,7 +77,6 @@ See Microscopy with viewer:
 
 ```
 
-
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
@@ -93,9 +85,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 

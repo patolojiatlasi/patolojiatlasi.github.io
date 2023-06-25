@@ -1,12 +1,8 @@
-
 ```{r language hodgkin, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
 
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -14,16 +10,11 @@ source("./R/language.R")
 
 ```
 
-
-
-
 ```{asis, echo = (language == "EN")}
 
 ## Hodgkin Lymphoma {#sec-hodgkin-lymphoma} 
 
 ```
-
-
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
@@ -33,11 +24,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -52,9 +38,6 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-
-
-
 ```{asis, echo = (language == "EN")}
 
 **Hodgkin Lymphoma**
@@ -67,6 +50,3 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/hodgkin/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
-
-
-

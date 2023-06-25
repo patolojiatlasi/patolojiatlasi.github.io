@@ -10,7 +10,6 @@ source("./R/language.R")
 # Adipose Tissue {#sec-adipose-tissue}
 ```
 
-
 ```{asis, echo = (language == "TR")}
 ## Miksoid Liposarkom {#sec-miksoid-liposarkom}
 ```
@@ -18,7 +17,6 @@ source("./R/language.R")
 ```{asis, echo = (language == "EN")}
 ## Myxoid Liposarcoma {#sec-myxoid-liposarcoma}
 ```
-
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/myxoidliposarcoma_screenshot.png")) {
@@ -28,7 +26,6 @@ webshot2::webshot(
 )
 }
 ```
-
 
 ```{asis, echo = (language == "TR")}
 

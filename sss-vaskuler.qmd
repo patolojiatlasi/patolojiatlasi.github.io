@@ -4,16 +4,11 @@ source("./R/language.R")
 
 ```
 
-
-
 ```{asis, echo = (language == "TR")}
 
 # Santral Sinir Sistemi Vasküler Lezyonlar {#sec-santral-sinir-sistemi-vaskuler} 
 
 ```
-
-
-
 
 ```{asis, echo = (language == "EN")}
 
@@ -21,26 +16,17 @@ source("./R/language.R")
 
 ```
 
-
-
-
 ```{asis, echo = (language == "TR")}
 
 ## Beyin arteriovenöz malformasyon {#sec-beyin-arteriovenoz-malformasyon} 
 
 ```
 
-
-
-
 ```{asis, echo = (language == "EN")}
 
 ## Brain arteriovenous malformation {#sec-brain-arteriovenous-malformation} 
 
 ```
-
-
-
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
@@ -50,10 +36,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -68,9 +50,6 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-
-
-
 ```{asis, echo = (language == "EN")}
 
 **brain arteriovenous malformation**
@@ -83,6 +62,3 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
-
-
-

@@ -1,4 +1,4 @@
-# Tamir Mekanizmaları {#sec-tamir-mekanizmalari} 
+# Tamir Mekanizmaları {#sec-tamir-mekanizmalari}
 
 Bu sayfadaki görüntülere artırılmış gerçeklik (augmented reality) ile de
 ulaşabilirsiniz[^tamir-1].
@@ -18,12 +18,9 @@ görünecektir.
 
 </iframe>
 
-## Fibrozis {#sec-fibrozis} 
+## Fibrozis {#sec-fibrozis}
 
 Kolesistit spesmeninde gelişmekte olan genç fibrozis
-
-
-
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
@@ -34,12 +31,10 @@ webshot2::webshot(
 }
 ```
 
-
-
-
-
-
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/fibrosis/HE.html)
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/fibrosis/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -47,8 +42,7 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 
-## Keloid - Skar {#sec-keloid-skar} 
-
+## Keloid - Skar {#sec-keloid-skar}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
@@ -59,12 +53,12 @@ webshot2::webshot(
 }
 ```
 
-
-
-
 Keloid Skar oluşumu
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/keloid-scar/HE.html)
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/keloid-scar/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 

@@ -4,13 +4,9 @@ source("./R/language.R")
 
 ```
 
-
-
-
 ```{asis, echo = (language == "TR")}
 # Metaplazi {#sec-metaplazi} 
 ```
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -18,22 +14,17 @@ source("./R/language.R")
 
 ```
 
-
-
 ```{asis, echo = (language == "EN")}
 
 # Metaplasia {#sec-metaplasia} 
 
 ```
 
-
 ```{asis, echo = (language == "EN")}
 
 ## Pancreatic Acinar Metaplasia, Stomach {#sec-pancreatic-acinar-metaplasia} 
 
 ```
-
-
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
@@ -43,11 +34,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -111,8 +97,6 @@ asis, echo = (language == "TR")
 
 ```
 
-
-
 ```{asis, echo = (language == "EN")}
 
 **Pancreatic Acinar Metaplasia, Stomach**
@@ -145,7 +129,6 @@ See Microscopy with viewer:
 
 
 ```
-
 
 ```{comment}
 asis, echo = (language == "EN")

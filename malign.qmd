@@ -28,7 +28,6 @@ source("./R/language.R")
 
 ```
 
-
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
@@ -37,9 +36,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 

@@ -6,7 +6,6 @@ source("./R/language.R")
 
 ## Kolesterol Polibi {#sec-kolesterol-polibi}
 
-
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
@@ -15,9 +14,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
 
 [Full
 Screen](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html)
@@ -30,7 +26,6 @@ Screen](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html)
 
 ## Glikojen Depo Hastalığı {#sec-glikojen-depo-hastaligi}
 
-
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
@@ -40,14 +35,14 @@ webshot2::webshot(
 }
 ```
 
-
-
-
 Karaciğer İğnde Biyopsisinde glikojen depo hastalığı
 
 **Hematoksilen Eozin**
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/HE.html)
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -57,7 +52,6 @@ Mikroskopik görüntüleri inceleyin:
 
 **PAS**
 
-
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
@@ -67,10 +61,10 @@ webshot2::webshot(
 }
 ```
 
-
-
-
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/PAS.html)
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/PAS.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -80,7 +74,6 @@ Mikroskopik görüntüleri inceleyin:
 
 **PASD**
 
-
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
@@ -90,10 +83,10 @@ webshot2::webshot(
 }
 ```
 
-
-
-
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/PASD.html)
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/PASD.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -105,7 +98,6 @@ Mikroskopik görüntüleri inceleyin:
 
 Torakal bölge lenf nodunda antrakotik pigment
 
-
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
@@ -115,10 +107,10 @@ webshot2::webshot(
 }
 ```
 
-
-
-
-[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/anthracosis/HE.html)
+[![Click for Full Screen
+WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+[Click for Full Screen
+WSI](https://images.patolojiatlasi.com/anthracosis/HE.html)
 
 See Microscopy with viewer:
 
@@ -126,7 +118,10 @@ See Microscopy with viewer:
 
 </iframe>
 
-[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/anthracosis/HE2.html)
+[![Click for Full Screen
+WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+[Click for Full Screen
+WSI](https://images.patolojiatlasi.com/anthracosis/HE2.html)
 
 See Microscopy with viewer:
 
@@ -136,7 +131,6 @@ See Microscopy with viewer:
 
 ## Melanosis Coli {#sec-melanosis-coli}
 
-
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
@@ -145,9 +139,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -173,7 +164,6 @@ See Microscopy with viewer:
 
 ```
 
-
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
@@ -182,9 +172,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 

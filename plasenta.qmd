@@ -1,10 +1,8 @@
-# Plasenta {#sec-plasenta} 
+# Plasenta {#sec-plasenta}
 
 ```{r chorioamnionitis, include=FALSE}
 language <- "TR"
 ```
-
-
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
@@ -14,10 +12,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
-
 
 ```{asis, echo = language == "EN"}
 
@@ -31,7 +25,6 @@ See Microscopy with viewer:
 
 ```
 
-
 ```{asis, echo = language == "TR"}
 
 ## Koryoamniyonit {#sec-koryoamniyonit} 
@@ -44,4 +37,3 @@ Mikroskopik görüntüleri inceleyin:
 <iframe src="https://images.patolojiatlasi.com/chorioamnionitis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
-

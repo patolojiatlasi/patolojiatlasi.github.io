@@ -1,7 +1,6 @@
-# Heterotopi Ektopi {#sec-heterotopi-ektopi} 
+# Heterotopi Ektopi {#sec-heterotopi-ektopi}
 
-## Intrapancreatic Spleen, Heterotopia {#sec-intrapancreatic-spleen} 
-
+## Intrapancreatic Spleen, Heterotopia {#sec-intrapancreatic-spleen}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
@@ -12,10 +11,10 @@ webshot2::webshot(
 }
 ```
 
-
-
-
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html)
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html)
 
 -   Mikroskopik görüntüleri inceleyin:
 
@@ -35,7 +34,6 @@ source("./R/language.R")
 ## Ectopic adrenal tissue in paratubal adnexal region {#sec-ectopic-adrenal-tissue-paratubal-adnexial-tissue} 
 ```
 
-
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
@@ -44,9 +42,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 

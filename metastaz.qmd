@@ -1,9 +1,8 @@
 {{< include _content-to-repeat-1.qmd >}}
 
-# Metastaz {#sec-metastaz} 
+# Metastaz {#sec-metastaz}
 
-## Karaciğerde Sarkom Metastazı {#sec-karaciger-sarkom-metastaz} 
-
+## Karaciğerde Sarkom Metastazı {#sec-karaciger-sarkom-metastaz}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
@@ -14,10 +13,10 @@ webshot2::webshot(
 }
 ```
 
-
-
-
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/metastaticsarcoma/HE.html)
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/metastaticsarcoma/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -25,17 +24,11 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 
-
-
-
 ```{r language insidious-lymph-node-metastasis, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
 
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -43,16 +36,11 @@ source("./R/language.R")
 
 ```
 
-
-
-
 ```{asis, echo = (language == "EN")}
 
 ## Insidious lymph node metastasis {#sec-insidious-lymph-node-metastasis} 
 
 ```
-
-
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
@@ -62,11 +50,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -95,9 +78,6 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-
-
-
 ```{asis, echo = (language == "EN")}
 
 **insidious lymph node metastasis HE**
@@ -121,5 +101,3 @@ See Microscopy with viewer:
 
 
 ```
-
-

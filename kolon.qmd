@@ -19,7 +19,6 @@ source("./R/language.R")
 ## Ischemic Colitis {#sec-ischemic-colitis} 
 ```
 
-
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
@@ -28,9 +27,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -58,12 +54,11 @@ See Microscopy with viewer:
 
 ```
 
-## Benign Tümörler {#sec-kolon-benign-tumorler} 
+## Benign Tümörler {#sec-kolon-benign-tumorler}
 
-### Tübüler Adenom {#sec-kolon-tubuler-adenom} 
+### Tübüler Adenom {#sec-kolon-tubuler-adenom}
 
-#### Sesil Polip, Flat (Düz) Tübüler Adenom {#sec-kolon-sesil-polip} 
-
+#### Sesil Polip, Flat (Düz) Tübüler Adenom {#sec-kolon-sesil-polip}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
@@ -74,10 +69,10 @@ webshot2::webshot(
 }
 ```
 
-
-
-
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html)
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -85,7 +80,10 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html)
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -93,19 +91,20 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 
-#### Saplı Polip {#sec-kolon-sapli-polip} 
+#### Saplı Polip {#sec-kolon-sapli-polip}
 
 Macroscopy
 
-[tubular adenoma with a stalk macroscopy](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg)
+[tubular adenoma with a stalk
+macroscopy](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg)
 
-![saplı polip](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg)
+![saplı
+polip](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg)
 
 <img src="https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg"/></img>
 
 Microscopy
 
-
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
@@ -115,23 +114,23 @@ webshot2::webshot(
 }
 ```
 
-
-
-
-[tubular adenoma with a stalk](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk.jpeg)
+[tubular adenoma with a
+stalk](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk.jpeg)
 
 Mikroskopik görüntüleri inceleyin:
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html)
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html)
 
 <iframe src="https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html" style="height:600px;width:100%;" data-external="1">
 
 </iframe>
 
-### Hiperplastik Polip {#sec-kolon-hiperplastik-polip} 
+### Hiperplastik Polip {#sec-kolon-hiperplastik-polip}
 
 Mikroskopi
-
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
@@ -142,10 +141,10 @@ webshot2::webshot(
 }
 ```
 
-
-
-
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html)
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -153,8 +152,7 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 
-### Hamartomatöz Polip {#sec-kolon-hamartomatoz-polip} 
-
+### Hamartomatöz Polip {#sec-kolon-hamartomatoz-polip}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
@@ -165,10 +163,10 @@ webshot2::webshot(
 }
 ```
 
-
-
-
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -176,8 +174,7 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 
-#### Schwann Cell Hamartoma in a Colon Polyp {#sec-colon-schwann-cell-hamartoma} 
-
+#### Schwann Cell Hamartoma in a Colon Polyp {#sec-colon-schwann-cell-hamartoma}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
@@ -188,10 +185,10 @@ webshot2::webshot(
 }
 ```
 
-
-
-
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html)
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -217,7 +214,6 @@ source("./R/language.R")
 
 ```
 
-
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
@@ -226,9 +222,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -274,7 +267,6 @@ source("./R/language.R")
 
 ```
 
-
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
@@ -283,9 +275,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -333,7 +322,6 @@ source("./R/language.R")
 
 ```
 
-
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
@@ -342,9 +330,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -372,9 +357,6 @@ See Microscopy with viewer:
 
 ```
 
-
-
-
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
 webshot2::webshot(
@@ -383,12 +365,6 @@ webshot2::webshot(
 )
 }
 ```
-
-
-
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -403,9 +379,6 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-
-
-
 ```{asis, echo = (language == "EN")}
 
 **Colon Adenocarcinoma**
@@ -418,10 +391,6 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html" style="height:600px;width:100%;"></iframe>
 
 ```
-
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -436,9 +405,6 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-
-
-
 ```{asis, echo = (language == "EN")}
 
 **Colon Adenocarcinoma pT4a**
@@ -451,13 +417,3 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html" style="height:600px;width:100%;"></iframe>
 
 ```
-
-
-
-
-
-
-
-
-
-
