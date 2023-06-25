@@ -1,8 +1,10 @@
 {
-  "hash": "0d854ca43ff73de4fa41355c1807a070",
+  "hash": "ed897c2061e4a4e3f2e4b08fcbee5c86",
   "result": {
     "markdown": "::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n# Esophagus {#sec-esophagus} \n:::\n\n::: {.cell}\n\n## Granular Cell Tumor in Esophagus {#sec-esophagus-granular-cell-tumor} \n:::\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n**Granular Cell Tumor in Esophagus**\n\n\n[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/granular-cell-tumor/HE.html)\n\nSee Microscopy with viewer: \n\n<iframe src=\"https://images.patolojiatlasi.com/granular-cell-tumor/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n",
-    "supporting": [],
+    "supporting": [
+      "ozofagus_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

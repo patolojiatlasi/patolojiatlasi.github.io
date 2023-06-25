@@ -1,8 +1,10 @@
 {
-  "hash": "24cc7f695b7523344965eb80b66f59e8",
+  "hash": "d118b8e8150b021fd43a9145a5914cdb",
   "result": {
     "markdown": "::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n## Pituitary Adenoma {#sec-pituitary-adenoma} \n:::\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n**Pituitary Adenoma**\n\n\n[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pituitary-adenoma/HE.html)\n\nSee Microscopy with viewer: \n\n<iframe src=\"https://images.patolojiatlasi.com/pituitary-adenoma/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n",
-    "supporting": [],
+    "supporting": [
+      "hipofiz_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

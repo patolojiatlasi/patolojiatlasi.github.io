@@ -1,8 +1,10 @@
 {
-  "hash": "ed0c85d0023cd4b7a3eabb740e03b7fa",
+  "hash": "6887b2877057cbdd74a12451f3dd37c7",
   "result": {
     "markdown": "::: {.cell}\n\n:::\n\n::: {.cell}\n\n# Santral Sinir Sistemi Vasküler Lezyonlar {#sec-santral-sinir-sistemi-vaskuler} \n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n## Beyin arteriovenöz malformasyon {#sec-beyin-arteriovenoz-malformasyon} \n:::\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n\n**beyin arteriovenöz malformasyon**\n\n\n[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html)\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n::: {.cell}\n\n:::\n",
-    "supporting": [],
+    "supporting": [
+      "sss-vaskuler_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
