@@ -35,13 +35,25 @@ source("./R/language.R")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/mammary-analogue-secretory-carcinoma1_screenshot.png")) {
 webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html",
+  file = "./screenshots/mammary-analogue-secretory-carcinoma1_screenshot.png"
 )
 }
 ```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE}
+if (!file.exists("./screenshots/mammary-analogue-secretory-carcinoma2_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html",
+  file = "./screenshots/mammary-analogue-secretory-carcinoma2_screenshot.png"
+)
+}
+```
+
+
 
 ```{asis, echo = (language == "TR")}
 
@@ -51,14 +63,14 @@ Tükürük bezinin sekretuar karsinomu ETV6 gen yeniden düzenlemesi ile karakte
 *Dr. Zeynep Bayramoğlu*
 
 
-[https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/mammary-analogue-secretory-carcinoma1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html)
 
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/mammary-analogue-secretory-carcinoma2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html)
 
-[https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html)
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -125,16 +137,14 @@ asis, echo = (language == "TR")
 
 ** mammary analogue secretory carcinoma of salivary gland**
 
-
-[https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html)
+[![Click for Full Screen WSI](./screenshots/mammary-analogue-secretory-carcinoma1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html)
 
 See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 
-
-[https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html)
+[![Click for Full Screen WSI](./screenshots/mammary-analogue-secretory-carcinoma2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html)
 
 See Microscopy with viewer: 
 
