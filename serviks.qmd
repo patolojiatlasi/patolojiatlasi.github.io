@@ -1,5 +1,6 @@
 ```{r language cervix-SCC, echo=FALSE, include=TRUE}
 source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{asis, echo = (language == "TR")}
@@ -21,6 +22,7 @@ webshot2::webshot(
 }
 ```
 
+
 ```{asis, echo = (language == "TR")}
 THIS IS INCLUDED
 
@@ -31,7 +33,8 @@ THIS IS INCLUDED
 ```
 
 
-```{asis, echo = ((language == "TR") && knitr::is_html_output())}
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+{asis, echo = ((language == "TR") && knitr::is_html_output())}
 THIS IS EXCLUDED
 
 Mikroskopik görüntüleri inceleyin:
