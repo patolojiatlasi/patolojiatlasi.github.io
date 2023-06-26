@@ -326,22 +326,22 @@ jobs:
         GITLAB_PROJECT_ID: "36540563" # // https://gitlab.com/<namespace>/<repository>/edit
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # // https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
 
-  quartopub:
-    needs: quarto-render-and-deploy
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v3 
-
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-
-      - name: Render and Publish 
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: quarto-pub
-          path: docs
-          render: false
-          QUARTO_PUB_AUTH_TOKEN: ${{ secrets.QUARTO_PUB_AUTH_TOKEN }}
-          GITHUB_EMAIL: drserdarbalci@gmail.com
-          GITHUB_USERNAME: sbalci
+  # quartopub:
+  #   needs: quarto-render-and-deploy
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Check out repository
+  #       uses: actions/checkout@v3
+  #
+  #     - name: Set up Quarto
+  #       uses: quarto-dev/quarto-actions/setup@v2
+  #
+  #     - name: Render and Publish
+  #       uses: quarto-dev/quarto-actions/publish@v2
+  #       with:
+  #         target: quarto-pub
+  #         path: docs
+  #         render: false
+  #         QUARTO_PUB_AUTH_TOKEN: ${{ secrets.QUARTO_PUB_AUTH_TOKEN }}
+  #         GITHUB_EMAIL: drserdarbalci@gmail.com
+  #         GITHUB_USERNAME: sbalci

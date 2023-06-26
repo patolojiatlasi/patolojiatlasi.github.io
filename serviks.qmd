@@ -22,6 +22,8 @@ webshot2::webshot(
 ```
 
 ```{asis, echo = (language == "TR")}
+THIS IS INCLUDED
+
 **Serviks Skuamöz Hücreli Karsinom**
 
 
@@ -30,6 +32,7 @@ webshot2::webshot(
 
 
 ```{asis, echo = ((language == "TR") && knitr::is_html_output())}
+THIS IS EXCLUDED
 
 Mikroskopik görüntüleri inceleyin:
 
