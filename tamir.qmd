@@ -23,16 +23,16 @@ görünecektir.
 Kolesistit spesmeninde gelişmekte olan genç fibrozis
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/fibrosis_screenshot.png")) {
 webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/fibrosis/HE.html",
+  file = "./screenshots/fibrosis_screenshot.png"
 )
 }
 ```
 
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+Tıklayın](./screenshots/fibrosis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/fibrosis/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/fibrosis/HE.html)
 
@@ -45,10 +45,10 @@ Mikroskopik görüntüleri inceleyin:
 ## Keloid - Skar {#sec-keloid-skar}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/keloid-scar_screenshot.png")) {
 webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/keloid-scar/HE.html",
+  file = "./screenshots/keloid-scar_screenshot.png"
 )
 }
 ```
@@ -56,7 +56,7 @@ webshot2::webshot(
 Keloid Skar oluşumu
 
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+Tıklayın](./screenshots/keloid-scar_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/keloid-scar/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/keloid-scar/HE.html)
 
