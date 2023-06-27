@@ -1,12 +1,19 @@
+```{r language kemik, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
 # Kemik Tümörleri {#sec-kemik-tumorleri}
 
 ## Benign Kemik Tümörleri {#sec-benign-kemik-tumorleri}
 
 ### Ekzostoz (Osteokondrom) {#sec-ekzostoz}
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/template/HE.html",
   file = "./screenshots/template_screenshot.png"
 )
@@ -29,9 +36,9 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/template/HE.html",
   file = "./screenshots/template_screenshot.png"
 )
@@ -54,9 +61,9 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/template/HE.html",
   file = "./screenshots/template_screenshot.png"
 )

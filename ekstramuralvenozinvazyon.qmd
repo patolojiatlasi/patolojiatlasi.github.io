@@ -11,9 +11,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 # Extramural Venous Invasion in Adenocarcinoma {#sec-extramural-venoz-invazyon-in-adenocarcinoma}
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/extramuralvenousinvasion_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/extramuralvenousinvasion/HE.html",
   file = "./screenshots/extramuralvenousinvasion_screenshot.png"
 )
@@ -86,9 +86,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/extramural-venous-invasion_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html",
   file = "./screenshots/extramural-venous-invasion_screenshot.png"
 )

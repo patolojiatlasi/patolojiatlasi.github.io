@@ -35,9 +35,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 #### Mucicarmine {#sec-mucicarmine}
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/mucicarmine_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/mucin/mucicarmine.html",
   file = "./screenshots/mucicarmine_screenshot.png"
 )
@@ -183,9 +183,9 @@ asis, echo = (language == "EN")
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/cish_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/her2-cish/cish.html",
   file = "./screenshots/cish_screenshot.png"
 )

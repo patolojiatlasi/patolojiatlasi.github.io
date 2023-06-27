@@ -1,10 +1,17 @@
+```{r language bobrek, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
 # Böbrek Tümörleri {#sec-bobrek-tumorleri}
 
 ## Onkositom {#sec-bobrek-onkositom}
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/kidneyoncocytoma_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/kidneyoncocytoma/HE.html",
   file = "./screenshots/kidneyoncocytoma_screenshot.png"
 )

@@ -19,9 +19,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/benign-prostate-hyperplasia_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/benign-prostate-hyperplasia/HE.html",
   file = "./screenshots/benign-prostate-hyperplasia_screenshot.png"
 )

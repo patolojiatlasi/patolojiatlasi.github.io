@@ -13,9 +13,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ## Kristal Viyole {#sec-amiloidoz-kristal-viyole}
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/crystalviolet_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/amyloid/crystalviolet.html",
   file = "./screenshots/crystalviolet_screenshot.png"
 )
@@ -46,9 +46,9 @@ Mikroskopik görüntüleri inceleyin:
 ## Congo Red {#sec-amiloidoz-congo-red}
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/congored_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/congored/HE.html",
   file = "./screenshots/congored_screenshot.png"
 )

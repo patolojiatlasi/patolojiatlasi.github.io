@@ -19,9 +19,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ## Myxoid Liposarcoma {#sec-myxoid-liposarcoma}
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/myxoidliposarcoma_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html",
   file = "./screenshots/myxoidliposarcoma_screenshot.png"
 )

@@ -39,9 +39,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 {{< video https://www.youtube.com/embed/nfFtViUXHqU >}}
 
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-1_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html",
   file = "./screenshots/hacettepe-com-case-1_screenshot.png"
 )

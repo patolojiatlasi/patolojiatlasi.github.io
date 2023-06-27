@@ -11,9 +11,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ### Herpes Esophagatis {#sec-herpes-esophagatis}
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/herpesesophagitis_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html",
   file = "./screenshots/herpesesophagitis_screenshot.png"
 )
@@ -50,9 +50,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ## Molluscum contagiosum {#sec-molluscum-contagiosum} 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/molluscum-contagiosum_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html",
   file = "./screenshots/molluscum-contagiosum_screenshot.png"
 )

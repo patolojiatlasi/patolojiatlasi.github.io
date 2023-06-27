@@ -7,9 +7,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ## Kolesterol Polibi {#sec-kolesterol-polibi}
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/template/HE.html",
   file = "./screenshots/template_screenshot.png"
 )
@@ -31,9 +31,9 @@ See Microscopy with viewer:
 
 ## Glikojen Depo Hastalığı {#sec-glikojen-depo-hastaligi}
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/template/HE.html",
   file = "./screenshots/template_screenshot.png"
 )
@@ -62,9 +62,9 @@ Mikroskopik görüntüleri inceleyin:
 
 **PAS**
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/template/HE.html",
   file = "./screenshots/template_screenshot.png"
 )
@@ -89,9 +89,9 @@ Mikroskopik görüntüleri inceleyin:
 
 **PASD**
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/template/HE.html",
   file = "./screenshots/template_screenshot.png"
 )
@@ -118,9 +118,9 @@ Mikroskopik görüntüleri inceleyin:
 
 Torakal bölge lenf nodunda antrakotik pigment
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/template/HE.html",
   file = "./screenshots/template_screenshot.png"
 )
@@ -159,9 +159,9 @@ See Microscopy with viewer:
 
 ## Melanosis Coli {#sec-melanosis-coli}
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/template/HE.html",
   file = "./screenshots/template_screenshot.png"
 )
@@ -201,9 +201,9 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/template/HE.html",
   file = "./screenshots/template_screenshot.png"
 )

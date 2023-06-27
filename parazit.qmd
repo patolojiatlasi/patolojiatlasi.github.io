@@ -1,4 +1,4 @@
-```{r, echo=FALSE, include=TRUE}
+```{r language parazit, echo=FALSE, include=TRUE}
 source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
@@ -19,13 +19,13 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ## Enterobius vermicularis {#sec-enterobius-vermicularis} 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
-if (!file.exists("./screenshots/enterobius-vermicularis_screenshot.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html",
-  file = "./screenshots/enterobius-vermicularis_screenshot.png"
-)
-}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+# if (!file.exists("./screenshots/enterobius-vermicularis_screenshot.png")) {
+# webshot2::webshot(delay=10,
+#   url = "https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html",
+#   file = "./screenshots/enterobius-vermicularis_screenshot.png"
+# )
+# }
 ```
 
 

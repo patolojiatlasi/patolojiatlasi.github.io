@@ -35,9 +35,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 #### Sesile Polyp, Flat Tubular Adenoma {#sec-sesile-polyp}
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/tubularadenoma-flat1_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/tubularadenoma-flat1/HE.html",
   file = "./screenshots/tubularadenoma-flat1_screenshot.png"
 )
@@ -58,9 +58,9 @@ Mikroskopik görüntüleri inceleyin:
 <iframe src="https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/tubularadenoma-flat2_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/tubularadenoma-flat2/HE.html",
   file = "./screenshots/tubularadenoma-flat2_screenshot.png"
 )
@@ -90,9 +90,9 @@ Mikroskopik görüntüleri inceleyin:
 #### Polyp with Stalk {#sec-polyp-with-stalk}
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/tubular-adenoma-with-stalk_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html",
   file = "./screenshots/tubular-adenoma-with-stalk_screenshot.png"
 )

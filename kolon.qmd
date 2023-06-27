@@ -20,9 +20,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ## Ischemic Colitis {#sec-ischemic-colitis} 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/template/HE.html",
   file = "./screenshots/template_screenshot.png"
 )
@@ -70,9 +70,9 @@ See Microscopy with viewer:
 
 #### Sesil Polip, Flat (Düz) Tübüler Adenom {#sec-kolon-sesil-polip}
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/template/HE.html",
   file = "./screenshots/template_screenshot.png"
 )
@@ -125,9 +125,9 @@ polip](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-sta
 
 Microscopy
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/template/HE.html",
   file = "./screenshots/template_screenshot.png"
 )
@@ -157,9 +157,9 @@ Tıklayın](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-wit
 
 Mikroskopi
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/template/HE.html",
   file = "./screenshots/template_screenshot.png"
 )
@@ -184,9 +184,9 @@ Mikroskopik görüntüleri inceleyin:
 
 ### Hamartomatöz Polip {#sec-kolon-hamartomatoz-polip}
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/template/HE.html",
   file = "./screenshots/template_screenshot.png"
 )
@@ -211,9 +211,9 @@ Mikroskopik görüntüleri inceleyin:
 
 #### Schwann Cell Hamartoma in a Colon Polyp {#sec-colon-schwann-cell-hamartoma}
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/template/HE.html",
   file = "./screenshots/template_screenshot.png"
 )
@@ -255,9 +255,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/template/HE.html",
   file = "./screenshots/template_screenshot.png"
 )
@@ -318,9 +318,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/template/HE.html",
   file = "./screenshots/template_screenshot.png"
 )
@@ -383,9 +383,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/template/HE.html",
   file = "./screenshots/template_screenshot.png"
 )
@@ -427,9 +427,9 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/template/HE.html",
   file = "./screenshots/template_screenshot.png"
 )

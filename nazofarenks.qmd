@@ -23,9 +23,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/nasopharynx-nonkeratinizing-scc-HE_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc-HE/HE.html",
   file = "./screenshots/nasopharynx-nonkeratinizing-scc-HE_screenshot.png"
 )
@@ -33,9 +33,9 @@ webshot2::webshot(
 ```
 
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/nasopharynx-nonkeratinizing-scc-panCK_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/panCK.html",
   file = "./screenshots/nasopharynx-nonkeratinizing-scc-panCK_screenshot.png"
 )
@@ -43,9 +43,9 @@ webshot2::webshot(
 ```
 
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/nasopharynx-nonkeratinizing-scc-p63_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/p63.html",
   file = "./screenshots/nasopharynx-nonkeratinizing-scc-p63_screenshot.png"
 )
@@ -54,9 +54,9 @@ webshot2::webshot(
 
 
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/nasopharynx-nonkeratinizing-scc-EBER_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/EBER.html",
   file = "./screenshots/nasopharynx-nonkeratinizing-scc-EBER_screenshot.png"
 )

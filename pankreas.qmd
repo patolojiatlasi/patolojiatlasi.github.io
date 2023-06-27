@@ -17,13 +17,13 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
-if (!file.exists("./screenshots/pancreas-undifferentiated-osteoclast_screenshot.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/pancreas-undifferentiated-osteoclast/HE.html",
-  file = "./screenshots/pancreas-undifferentiated-osteoclast_screenshot.png"
-)
-}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+# if (!file.exists("./screenshots/pancreas-undifferentiated-osteoclast_screenshot.png")) {
+# webshot2::webshot(delay=10,
+#   url = "https://images.patolojiatlasi.com/pancreas-undifferentiated-osteoclast/HE.html",
+#   file = "./screenshots/pancreas-undifferentiated-osteoclast_screenshot.png"
+# )
+# }
 ```
 
 ```{asis, echo = (language == "TR")}

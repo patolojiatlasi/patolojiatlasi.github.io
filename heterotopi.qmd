@@ -1,10 +1,17 @@
+```{r language heterotopi, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
 # Heterotopi Ektopi {#sec-heterotopi-ektopi}
 
 ## Intrapancreatic Spleen, Heterotopia {#sec-intrapancreatic-spleen}
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/template/HE.html",
   file = "./screenshots/template_screenshot.png"
 )
@@ -40,9 +47,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ## Ectopic adrenal tissue in paratubal adnexal region {#sec-ectopic-adrenal-tissue-paratubal-adnexial-tissue} 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/template/HE.html",
   file = "./screenshots/template_screenshot.png"
 )

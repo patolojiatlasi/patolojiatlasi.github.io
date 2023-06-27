@@ -11,9 +11,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 # High Grade Glioma Squash Slide {#sec-high-grade-glioma-squash-slide}
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/high-grade-glioma-squash_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html",
   file = "./screenshots/high-grade-glioma-squash_screenshot.png"
 )

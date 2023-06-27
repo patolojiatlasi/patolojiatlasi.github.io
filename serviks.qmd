@@ -13,9 +13,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ## Cervix Squamous Cell Carcinoma {#sec-cervix-squamous-cell-carcinoma} 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/cervix-SCC_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/cervix-SCC/HE.html",
   file = "./screenshots/cervix-SCC_screenshot.png"
 )

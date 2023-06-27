@@ -19,9 +19,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ## Necrotising Granulomatous Inflammation {#sec-necrotising-granulamatoz-inflamation}
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/necrotisinggranuloma_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html",
   file = "./screenshots/necrotisinggranuloma_screenshot.png"
 )

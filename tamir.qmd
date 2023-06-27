@@ -29,9 +29,9 @@ görünecektir.
 
 Kolesistit spesmeninde gelişmekte olan genç fibrozis
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/fibrosis_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/fibrosis/HE.html",
   file = "./screenshots/fibrosis_screenshot.png"
 )
@@ -55,9 +55,9 @@ Mikroskopik görüntüleri inceleyin:
 
 ## Keloid - Skar {#sec-keloid-skar}
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/keloid-scar_screenshot.png")) {
-webshot2::webshot(
+webshot2::webshot(delay=10,
   url = "https://images.patolojiatlasi.com/keloid-scar/HE.html",
   file = "./screenshots/keloid-scar_screenshot.png"
 )
