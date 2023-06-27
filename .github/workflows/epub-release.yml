@@ -54,13 +54,13 @@ jobs:
           asset_name: Patoloji-Atlasi.epub
           asset_content_type: application/epub+zip
 
-      - name: Upload Pathology-Atlas.epub
-        id: upload-pathology-atlas
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps
-          asset_path: ./EN/Pathology-Atlas.epub
-          asset_name: Pathology-Atlas.epub
-          asset_content_type: application/epub+zip
+      # - name: Upload Pathology-Atlas.epub
+      #   id: upload-pathology-atlas
+      #   uses: actions/upload-release-asset@v1
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps
+      #     asset_path: ./EN/Pathology-Atlas.epub
+      #     asset_name: Pathology-Atlas.epub
+      #     asset_content_type: application/epub+zip
