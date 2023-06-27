@@ -359,6 +359,8 @@ format:
     number-depth: 3
     colorlinks: true
     highlight-style: github
+    execute:
+      warning: false
   docx:
     toc: true
     section-numbers: true
@@ -367,7 +369,8 @@ format:
     toc-title: "İçindekiler"
     number-sections: true
     number-depth: 3
-
+    execute:
+      warning: false
 
 citation:
     type: webpage

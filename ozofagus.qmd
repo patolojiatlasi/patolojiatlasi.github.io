@@ -9,29 +9,26 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 # Özofagus {#sec-ozofagus} 
 ```
 
-```{asis, echo = (language == "TR")}
-
-## Özofagusta Granüler Hücreli Tümör {#sec-ozofagus-granuler-hucreli-tumor} 
-
-```
 
 ```{asis, echo = (language == "EN")}
-
 # Esophagus {#sec-esophagus} 
+```
 
+
+```{asis, echo = (language == "TR")}
+## Özofagusta Granüler Hücreli Tümör {#sec-ozofagus-granuler-hucreli-tumor} 
 ```
 
 ```{asis, echo = (language == "EN")}
-
 ## Granular Cell Tumor in Esophagus {#sec-esophagus-granular-cell-tumor} 
-
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if(!file.exists("./screenshots/granular-cell-tumor_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(
   url = "https://images.patolojiatlasi.com/granular-cell-tumor/HE.html",
-  file = "./screenshots/granular-cell-tumor_screenshot.png"
+  file = "./screenshots/granular-cell-tumor_screenshot.png",
+  delay = 10
 )  
 }
 
