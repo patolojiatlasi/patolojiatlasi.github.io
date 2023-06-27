@@ -1,0 +1,20 @@
+{
+  "hash": "0893c169ec1dba2cfe979dfe85af1765",
+  "result": {
+    "markdown": "::: {.cell}\n\n:::\n\n\n\n# Heterotopi Ektopi {#sec-heterotopi-ektopi}\n\n## Intrapancreatic Spleen, Heterotopia {#sec-intrapancreatic-spleen}\n\n\n\n\n\n\n\n[![Tam Ekran Görmek İçin Resmi\nTıklayın](./screenshots/template_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/template/HE.html)\n[Tam Ekran Görmek İçin Resmi\nTıklayın](https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html)\n\n-   ```\n\n\n\n\n::: {.cell}\n\n:::\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n## Ectopic adrenal tissue in paratubal adnexal region {#sec-ectopic-adrenal-tissue-paratubal-adnexial-tissue} \n:::\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n```{=html}\n<iframe src=\"https://images.patolojiatlasi.com/ectopic-adrenal/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n```\n\n::: {.cell}\n\n**Ectopic adrenal tissue in paratubal adnexal region**\n\n\n[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html)\n:::\n\n::: {.cell}\n\n:::\n\n```{=html}\n<iframe src=\"https://images.patolojiatlasi.com/ectopic-adrenal/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n```\n\n\nknitr::include_url\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nknitr::include_url(url = \"https://images.patolojiatlasi.com/ectopic-adrenal/HE.html\")\n```\n\n::: {.cell-output-display}\n[![](heterotopi_files/figure-epub/unnamed-chunk-10-1.png)](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html)\n:::\n:::\n",
+    "supporting": [
+      "heterotopi_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}

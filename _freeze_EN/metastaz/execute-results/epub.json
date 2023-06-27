@@ -1,0 +1,20 @@
+{
+  "hash": "bdbcce1c063ecd046c7ac09cb6802649",
+  "result": {
+    "markdown": "::: {.cell}\n\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nprint(\"repeating content\")\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] \"repeating content\"\n```\n:::\n:::\n\n\n\n\n# Metastaz {#sec-metastaz}\n\n## Karaciğerde Sarkom Metastazı {#sec-karaciger-sarkom-metastaz}\n\n\n\n\n\n\n\n[![Tam Ekran Görmek İçin Resmi\nTıklayın](./screenshots/template_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/template/HE.html)\n[Tam Ekran Görmek İçin Resmi\nTıklayın](https://images.patolojiatlasi.com/metastaticsarcoma/HE.html)\n\n```\n\n\n::: {.cell}\n\n:::\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n## Insidious lymph node metastasis {#sec-insidious-lymph-node-metastasis} \n:::\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n**insidious lymph node metastasis HE**\n\n\n[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html)\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "metastaz_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}
