@@ -327,11 +327,11 @@ format:
           <script src="webpages.js"></script>
       - file: "./header1.html"
 
-  # epub:
-  #   toc: true
-  #   epub-cover-image: images/cover.png
-  #   execute:
-  #     warning: false
+  epub:
+    toc: true
+    epub-cover-image: images/cover.png
+    execute:
+      warning: false
 #   pdf:
 #     documentclass: scrreprt
 #     toc: true
