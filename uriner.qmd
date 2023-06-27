@@ -1,1 +1,12 @@
+```{r language uriner, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+```{asis, echo = (language == "TR")}
 # Uriner Sistem Patolojisi {#sec-uriner-sistem-patolojisi}
+```
+
+```{asis, echo = (language == "EN")}
+# Pathology of the Urinary System {#sec-urinary-system-pathology}
+```

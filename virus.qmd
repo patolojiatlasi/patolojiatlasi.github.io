@@ -5,11 +5,28 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
+```{asis, echo = (language == "TR")}
 # Viruslar {#sec-viruslar}
+```
 
+```{asis, echo = (language == "EN")}
+# Virus {#sec-virus}
+```
+
+
+```{asis}
 ## Herpes Simplex Virus (HSV) {#sec-herpes-simplex-virus}
+```
 
+```{asis, echo = (language == "EN")}
 ### Herpes Esophagatis {#sec-herpes-esophagatis}
+```
+
+
+```{asis, echo = (language == "EN")}
+### Herpes Özofajiti {#sec-herpes-ozofajiti}
+```
+
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/herpesesophagitis_screenshot.png")) {
@@ -18,8 +35,11 @@ webshot2::webshot(delay=10,
   file = "./screenshots/herpesesophagitis_screenshot.png"
 )
 }
-
 ```
+
+
+
+```{asis, echo = (language == "TR")}
 
 [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/herpesesophagitis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html)
@@ -29,6 +49,16 @@ Tıklayın](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.ht
 ```
 
 
+```{asis, echo = (language == "EN")}
+
+[![Click for Full Screen WSI](./screenshots/herpesesophagitis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html)
+[Click for Full Screen WSI](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html)
+
+```
+
+
+
+
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
 Mikroskopik görüntüleri inceleyin:
@@ -36,6 +66,8 @@ Mikroskopik görüntüleri inceleyin:
 <iframe src="https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html" style="height:600px;width:100%;" data-external="1">
 
 </iframe>
+```
+
 
 ```{r language molluscum-contagiosum, echo=FALSE, include=TRUE}
 source("./R/language.R")

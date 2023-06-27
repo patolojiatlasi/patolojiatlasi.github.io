@@ -16,7 +16,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "EN")}
 
-# Gallbladder  {#sec-gallbladder} 
+# Gallbladder {#sec-gallbladder} 
 ```
 
 ```{asis, echo = (language == "EN")}

@@ -20,19 +20,19 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-# if (!file.exists("./screenshots/enterobius-vermicularis_screenshot.png")) {
-# webshot2::webshot(delay=10,
-#   url = "https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html",
-#   file = "./screenshots/enterobius-vermicularis_screenshot.png"
-# )
-# }
+if (!file.exists("./screenshots/enterobius-vermicularis_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html",
+  file = "./screenshots/enterobius-vermicularis_screenshot.png",
+  delay = 10
+)
+}
 ```
 
 
 ```{asis, echo = (language == "TR")}
 
 **Enterobius vermicularis**
-
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/enterobius-vermicularis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html)
 
@@ -50,7 +50,6 @@ Mikroskopik görüntüleri inceleyin:
 ```{asis, echo = (language == "EN")}
 
 **Enterobius vermicularis**
-
 
 [![Click for Full Screen WSI](./screenshots/enterobius-vermicularis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html)
 

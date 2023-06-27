@@ -1,9 +1,17 @@
-# Plasenta {#sec-plasenta}
-
 ```{r chorioamnionitis, include=FALSE}
 source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
+
+
+```{asis, echo = (language == "TR")}
+# Plasenta {#sec-plasenta}
+```
+
+```{asis, echo = (language == "TR")}
+# Placenta {#sec-placenta}
+```
+
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/chorioamnionitis_screenshot.png")) {
@@ -16,7 +24,7 @@ webshot2::webshot(delay=10,
 
 ```{asis, echo = language == "EN"}
 
-## chorioamnionitis {#sec-chorioamnionitis} 
+## Chorioamnionitis {#sec-chorioamnionitis} 
 
 [![Click for Full Screen WSI](./screenshots/chorioamnionitis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/chorioamnionitis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/chorioamnionitis/HE.html)
 
