@@ -1,3 +1,0 @@
-# Akut İnflamasyon
-Serdar Balcı
-
