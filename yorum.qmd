@@ -1,3 +1,35 @@
+```{r language yorum, echo=FALSE, include=TRUE}
 
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
+```{asis, echo = (language == "TR")}
+<center><strong>Lütfen, her sayfanın altında bulunan yorum kısmını kullanarak atlasın geliştirilmesine katılın.</strong></center>
+```
+
+
+```{asis, echo = (language == "EN")}
+<center><strong>Please participate in the development of the atlas by using the comment section at the bottom of each page.</strong></center>
+
+```
+
+
+```{asis, echo = (output_type=="html")}
+
+{{< video https://www.youtube.com/embed/ONeGf4nYdPc >}}
+
+```
+
+```{asis, echo = (output_type!="html")}
+
+[https://www.youtube.com/watch?v=ONeGf4nYdPc](https://www.youtube.com/watch?v=ONeGf4nYdPc)
+
+```
+
+
+```{comment}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ONeGf4nYdPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```
 

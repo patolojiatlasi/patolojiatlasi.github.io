@@ -56,9 +56,12 @@ For social media based pathology notes [click here](https://www.patolojinotlari.
 ```
 
 
+```{asis, echo = (output_type=="html")}
 
 ::: {.iframeContainer}
 <h3 id="heading"></h3>
 <iframe id="randomIframe"></iframe>
 :::
+
+```
 
