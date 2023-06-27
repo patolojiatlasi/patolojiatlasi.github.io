@@ -5,19 +5,53 @@ source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
+
+```{asis, echo = (language == "TR")}
 ## Kolesterol Polibi {#sec-kolesterol-polibi}
+```
+
+
+```{asis, echo = (language == "EN")}
+## Cholesterol Polyp {#sec-cholesterol-polyp}
+```
+
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(delay=10,
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+if (!file.exists("./screenshots/cholesterolpolyp_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/cholesterolpolyp/HE.html",
+  file = "./screenshots/cholesterolpolyp_screenshot.png",
+  delay = 10
 )
 }
 ```
 
-[Full
-Screen](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html)
+
+```{asis, echo = (language == "TR")}
+
+**Kolesterol Polibi**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/cholesterolpolyp_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html)
+
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/cholesterolpolyp/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+**Cholesterol Polyp**
+
+[![Click for Full Screen WSI](./screenshots/cholesterolpolyp_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html)
+
+```
 
 
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
@@ -30,27 +64,41 @@ See Microscopy with viewer:
 
 ```
 
+
+
+```{asis, echo = (language == "TR")}
 ## Glikojen Depo Hastalığı {#sec-glikojen-depo-hastaligi}
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+## Glycogen Storage Disease {#sec-glycogen-storage-disease}
+```
+
+
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/glycogenstorage-HE_screenshot.png")) {
 webshot2::webshot(delay=10,
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/glycogenstorage/HE.html",
+  file = "./screenshots/glycogenstorage-HE_screenshot.png"
 )
 }
 ```
 
-Karaciğer İğnde Biyopsisinde glikojen depo hastalığı
+
+
+**Karaciğer İğnde Biyopsisinde glikojen depo hastalığı**
 
 **Hematoksilen Eozin**
 
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/HE.html)
 
-```
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -60,14 +108,15 @@ Mikroskopik görüntüleri inceleyin:
 <iframe src="https://images.patolojiatlasi.com/glycogenstorage/HE.html" style="height:600px;width:100%;" data-external="1">
 
 </iframe>
+```
 
 **PAS**
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/glycogenstorage-PAS_screenshot.png")) {
 webshot2::webshot(delay=10,
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/glycogenstorage/PAS.html",
+  file = "./screenshots/glycogenstorage-PAS_screenshot.png"
 )
 }
 ```
@@ -77,7 +126,6 @@ Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/PAS.html)
 
-```
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -87,6 +135,7 @@ Mikroskopik görüntüleri inceleyin:
 <iframe src="https://images.patolojiatlasi.com/glycogenstorage/PAS.html" style="height:600px;width:100%;" data-external="1">
 
 </iframe>
+```
 
 **PASD**
 
@@ -104,7 +153,6 @@ Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/PASD.html)
 
-```
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -114,6 +162,7 @@ Mikroskopik görüntüleri inceleyin:
 <iframe src="https://images.patolojiatlasi.com/glycogenstorage/PASD.html" style="height:600px;width:100%;" data-external="1">
 
 </iframe>
+```
 
 ## Antrakoz, Antrakotik Pigment {#sec-antrakoz-antrakotik-pigment}
 
@@ -133,7 +182,6 @@ WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patoloj
 [Click for Full Screen
 WSI](https://images.patolojiatlasi.com/anthracosis/HE.html)
 
-```
 
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
@@ -142,13 +190,14 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/anthracosis/HE.html" style="height:600px;width:100%;" data-external="1">
 
 </iframe>
+```
 
 [![Click for Full Screen
 WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
 [Click for Full Screen
 WSI](https://images.patolojiatlasi.com/anthracosis/HE2.html)
 
-```
+
 
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
@@ -157,6 +206,7 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/anthracosis/HE2.html" style="height:600px;width:100%;" data-external="1">
 
 </iframe>
+```
 
 ## Melanosis Coli {#sec-melanosis-coli}
 
