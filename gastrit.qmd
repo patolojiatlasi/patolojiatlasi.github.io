@@ -149,12 +149,12 @@ asis, echo = (language == "TR")
 
 [![İşaretlenmiş mikroskopik görüntüleri Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/lymphocytic-gastritis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/HE_annotated.html) [İşaretlenmiş mikroskopik görüntüleri Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/HE_annotated.html)
 
-İşaretlenmiş ```
+```
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
-Mikroskopik görüntüleri inceleyin:
+İşaretlenmiş Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/lymphocytic-gastritis/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
 

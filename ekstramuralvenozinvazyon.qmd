@@ -121,12 +121,12 @@ asis, echo = (language == "TR")
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/extramural-venous-invasion_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/extramural-venous-invasion/HE_annotated.html)
 
-İşaretlenmiş ```
+```
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
-Mikroskopik görüntüleri inceleyin:
+İşaretlenmiş Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/extramural-venous-invasion/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
 

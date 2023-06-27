@@ -1,29 +1,24 @@
 ```{r language pancreas-undifferentiated-osteoclast, echo=FALSE, include=TRUE}
-
 source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
-
 ```
 
 ```{asis, echo = (language == "TR")}
-
 # Pankreas Tümörleri {#sec-pankreas-tumorleri} 
-
 ```
 
 ```{asis, echo = (language == "EN")}
-
 # Tumors of the Pancreas {#sec-tumors-of-pancreas} 
-
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-# if (!file.exists("./screenshots/pancreas-undifferentiated-osteoclast_screenshot.png")) {
-# webshot2::webshot(delay=10,
-#   url = "https://images.patolojiatlasi.com/pancreas-undifferentiated-osteoclast/HE.html",
-#   file = "./screenshots/pancreas-undifferentiated-osteoclast_screenshot.png"
-# )
-# }
+if (!file.exists("./screenshots/pancreas-undifferentiated-osteoclast_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/pancreas-undifferentiated-osteoclast/HE.html",
+  file = "./screenshots/pancreas-undifferentiated-osteoclast_screenshot.png",
+  delay = 10
+)
+}
 ```
 
 ```{asis, echo = (language == "TR")}
