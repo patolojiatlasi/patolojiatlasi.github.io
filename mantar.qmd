@@ -1,3 +1,10 @@
+```{r language mantar, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
 ## Mantarlar {#sec-mantarlar}
 
 ## Candida *albicans* in cervicovaginal smear {#sec-candida-albicans-in-cervicovaginal-smear}
@@ -18,6 +25,10 @@ Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html)
 
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html" style="height:600px;width:100%;" data-external="1">
@@ -27,6 +38,7 @@ Mikroskopik görüntüleri inceleyin:
 ```{r language brain-mucormycosis, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
@@ -38,7 +50,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## brain mucormycosis {#sec-brain-mucormycosis} 
+## Brain mucormycosis {#sec-brain-mucormycosis} 
 
 ```
 
@@ -58,6 +70,11 @@ webshot2::webshot(
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html)
 
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/brain-mucormycosis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
@@ -70,6 +87,10 @@ Mikroskopik görüntüleri inceleyin:
 
 
 [![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 See Microscopy with viewer: 
 
@@ -93,6 +114,11 @@ webshot2::webshot(
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html)
 
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html" style="height:600px;width:100%;" data-external="1"></iframe>
@@ -105,6 +131,10 @@ Mikroskopik görüntüleri inceleyin:
 
 
 [![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 See Microscopy with viewer: 
 

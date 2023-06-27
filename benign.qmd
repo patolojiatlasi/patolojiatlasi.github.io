@@ -1,5 +1,6 @@
 ```{r language benign, echo=FALSE, include=TRUE}
 source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{asis, echo = (language == "TR")}
@@ -47,6 +48,11 @@ webshot2::webshot(
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/tubularadenoma-flat_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html)
 
 
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
@@ -64,6 +70,11 @@ webshot2::webshot(
 ```{asis, echo = (language == "TR")}
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/tubularadenoma-flat2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html)
 
+
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -103,6 +114,11 @@ stalk](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-sta
 ```
 
 ```{asis, echo = (language == "TR")}
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 [Tam

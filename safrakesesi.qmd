@@ -1,6 +1,7 @@
 ```{r language gallbladder-adenomyoma, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
@@ -24,10 +25,10 @@ source("./R/language.R")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/gallbladder-adenomyoma_screenshot.png")) {
 webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html",
+  file = "./screenshots/gallbladder-adenomyoma_screenshot.png"
 )
 }
 ```
@@ -37,7 +38,12 @@ webshot2::webshot(
 **Safra Kesesi Adenomyom**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/gallbladder-adenomyoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html)
+
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -50,7 +56,11 @@ Mikroskopik görüntüleri inceleyin:
 **Gallbladder Adenomyoma**
 
 
-[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html)
+[![Click for Full Screen WSI](./screenshots/gallbladder-adenomyoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 See Microscopy with viewer: 
 
@@ -61,6 +71,7 @@ See Microscopy with viewer:
 ```{r language ischemia-gangrenous-cholecystitis, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
@@ -94,6 +105,11 @@ webshot2::webshot(
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/ischemia-gangrenous-cholecystitis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html)
 
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
@@ -108,7 +124,12 @@ asis, echo = (language == "TR")
 
 [![İşaretlenmiş mikroskopik görüntüleri Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/ischemia-gangrenous-cholecystitis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE_annotated.html) [İşaretlenmiş mikroskopik görüntüleri Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE_annotated.html)
 
-İşaretlenmiş mikroskopik görüntüleri inceleyin:
+İşaretlenmiş ```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
@@ -150,6 +171,10 @@ asis, echo = (language == "TR")
 **ischemia in gangrenous cholecystitis**
 
 [![Click for Full Screen WSI](./screenshots/ischemia-gangrenous-cholecystitis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 See Microscopy with viewer: 
 

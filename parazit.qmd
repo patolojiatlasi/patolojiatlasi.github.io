@@ -1,5 +1,6 @@
 ```{r, echo=FALSE, include=TRUE}
 source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{asis, echo = (language == "TR")}
@@ -19,20 +20,26 @@ source("./R/language.R")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/enterobius-vermicularis_screenshot.png")) {
 webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html",
+  file = "./screenshots/enterobius-vermicularis_screenshot.png"
 )
 }
 ```
+
 
 ```{asis, echo = (language == "TR")}
 
 **Enterobius vermicularis**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/enterobius-vermicularis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html)
+
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -45,7 +52,11 @@ Mikroskopik görüntüleri inceleyin:
 **Enterobius vermicularis**
 
 
-[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html)
+[![Click for Full Screen WSI](./screenshots/enterobius-vermicularis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 See Microscopy with viewer: 
 

@@ -5,6 +5,7 @@
 ```{r language lymphocytic-gastritis, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
@@ -75,6 +76,11 @@ webshot2::webshot(
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/lymphocytic-gastritis_screenshotHE.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html)
 
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
@@ -87,6 +93,11 @@ Mikroskopik görüntüleri inceleyin:
 
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/lymphocytic-gastritisCD3_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD3.html)
+
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -101,6 +112,11 @@ Mikroskopik görüntüleri inceleyin:
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/lymphocytic-gastritis_screenshotCD8.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD8.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD8.html)
 
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/lymphocytic-gastritis/CD8.html" style="height:600px;width:100%;" data-external="1"></iframe>
@@ -113,6 +129,11 @@ Mikroskopik görüntüleri inceleyin:
 
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/lymphocytic-gastritisCD20_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD20.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD20.html)
+
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -128,7 +149,12 @@ asis, echo = (language == "TR")
 
 [![İşaretlenmiş mikroskopik görüntüleri Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/lymphocytic-gastritis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/HE_annotated.html) [İşaretlenmiş mikroskopik görüntüleri Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/HE_annotated.html)
 
-İşaretlenmiş mikroskopik görüntüleri inceleyin:
+İşaretlenmiş ```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/lymphocytic-gastritis/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
@@ -170,6 +196,10 @@ asis, echo = (language == "TR")
 **lymphocytic gastritis**
 
 [![Click for Full Screen WSI](./screenshots/lymphocytic-gastritis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 See Microscopy with viewer: 
 

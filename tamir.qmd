@@ -1,3 +1,10 @@
+```{r language repair, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
 # Tamir Mekanizmaları {#sec-tamir-mekanizmalari}
 
 Bu sayfadaki görüntülere artırılmış gerçeklik (augmented reality) ile de
@@ -36,11 +43,15 @@ Tıklayın](./screenshots/fibrosis_screenshot.png){width="25%"}](https://images.
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/fibrosis/HE.html)
 
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/fibrosis/HE.html" style="height:600px;width:100%;" data-external="1">
 
 </iframe>
+```
 
 ## Keloid - Skar {#sec-keloid-skar}
 
@@ -60,8 +71,14 @@ Tıklayın](./screenshots/keloid-scar_screenshot.png){width="25%"}](https://imag
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/keloid-scar/HE.html)
 
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/keloid-scar/HE.html" style="height:600px;width:100%;" data-external="1">
 
 </iframe>
+
+```
+

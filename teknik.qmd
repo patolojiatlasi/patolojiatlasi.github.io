@@ -1,5 +1,6 @@
 ```{r language teknik, echo=FALSE, include=TRUE}
 source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{asis, echo = (language == "TR")}
@@ -48,6 +49,11 @@ webshot2::webshot(
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/mucicarmine_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/mucin/mucicarmine.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/mucin/mucicarmine.html)
 
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/mucin/mucicarmine.html" style="height:600px;width:100%;" data-external="1"></iframe>
@@ -62,7 +68,12 @@ asis, echo = (language == "TR")
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/mucin/HE_annotated.html)
 
-İşaretlenmiş mikroskopik görüntüleri inceleyin:
+İşaretlenmiş ```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/mucin/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
@@ -103,6 +114,10 @@ asis, echo = (language == "TR")
 
 
 [![Click for Full Screen WSI](./screenshots/mucicarmine_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/mucin/mucicarmine.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mucin/mucicarmine.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 See Microscopy with viewer: 
 
@@ -184,6 +199,11 @@ webshot2::webshot(
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/cish_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/her2-cish/cish.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/her2-cish/cish.html)
 
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/her2-cish/cish.html" style="height:600px;width:100%;" data-external="1"></iframe>
@@ -198,7 +218,12 @@ asis, echo = (language == "TR")
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/her2-cish/cish_annotated.html)
 
-İşaretlenmiş mikroskopik görüntüleri inceleyin:
+İşaretlenmiş ```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/her2-cish/cish_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
@@ -241,6 +266,10 @@ asis, echo = (language == "TR")
 
 
 [![Click for Full Screen WSI](./screenshots/cish_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/her-cish/cish.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/her2-cish/cish.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 See Microscopy with viewer: 
 

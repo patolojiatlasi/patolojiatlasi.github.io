@@ -9,6 +9,7 @@ page-layout: full
 
 ```{r language ischemic-colitis, echo=FALSE, include=TRUE}
 source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{asis, echo = (language == "TR")}
@@ -35,6 +36,11 @@ webshot2::webshot(
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ischemic-colitis/HE.html)
 
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/ischemic-colitis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
@@ -47,6 +53,10 @@ Mikroskopik görüntüleri inceleyin:
 
 
 [![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ischemic-colitis/HE.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 See Microscopy with viewer: 
 
@@ -74,6 +84,11 @@ Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html)
 
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html" style="height:600px;width:100%;" data-external="1">
@@ -84,6 +99,11 @@ Mikroskopik görüntüleri inceleyin:
 Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html)
+
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -117,6 +137,11 @@ webshot2::webshot(
 [tubular adenoma with a
 stalk](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk.jpeg)
 
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 [![Tam Ekran Görmek İçin Resmi
@@ -146,6 +171,11 @@ Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html)
 
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html" style="height:600px;width:100%;" data-external="1">
@@ -167,6 +197,11 @@ webshot2::webshot(
 Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
+
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -190,6 +225,11 @@ Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html)
 
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html" style="height:600px;width:100%;" data-external="1">
@@ -199,6 +239,7 @@ Mikroskopik görüntüleri inceleyin:
 ```{r language colon-submucosal-lipoma, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
@@ -230,6 +271,11 @@ webshot2::webshot(
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html)
 
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
@@ -243,6 +289,10 @@ Mikroskopik görüntüleri inceleyin:
 
 [![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html)
 
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
 See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
@@ -252,6 +302,7 @@ See Microscopy with viewer:
 ```{r language mucinous-adenocarcinoma-colon, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
@@ -283,6 +334,11 @@ webshot2::webshot(
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html)
 
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
@@ -298,6 +354,10 @@ Mikroskopik görüntüleri inceleyin:
 
 [![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html)
 
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
 See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
@@ -307,6 +367,7 @@ See Microscopy with viewer:
 ```{r language colon-adenocarcinoma, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
@@ -338,6 +399,11 @@ webshot2::webshot(
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html)
 
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
@@ -350,6 +416,10 @@ Mikroskopik görüntüleri inceleyin:
 
 
 [![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 See Microscopy with viewer: 
 
@@ -373,6 +443,11 @@ webshot2::webshot(
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html)
 
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html" style="height:600px;width:100%;"></iframe>
@@ -385,6 +460,10 @@ Mikroskopik görüntüleri inceleyin:
 
 
 [![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 See Microscopy with viewer: 
 
@@ -399,6 +478,11 @@ See Microscopy with viewer:
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html)
 
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html" style="height:600px;width:100%;"></iframe>
@@ -411,6 +495,10 @@ Mikroskopik görüntüleri inceleyin:
 
 
 [![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 See Microscopy with viewer: 
 

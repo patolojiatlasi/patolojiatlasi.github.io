@@ -1,5 +1,6 @@
 ```{r language extramuralvenousinvasion, echo=FALSE, include=TRUE}
 source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{asis, echo = (language == "TR")}
@@ -26,6 +27,11 @@ webshot2::webshot(
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/extramuralvenousinvasion_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/extramuralvenousinvasion/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/extramuralvenousinvasion/HE.html)
 
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/extramuralvenousinvasion/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
@@ -33,6 +39,11 @@ Mikroskopik görüntüleri inceleyin:
 
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/extramuralvenousinvasion_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/extramuralvenousinvasion/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/extramuralvenousinvasion/HE2.html)
+
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -47,12 +58,20 @@ Mikroskopik görüntüleri inceleyin:
 
 [![Click for Full Screen WSI](./screenshots/extramuralvenousinvasion_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/extramuralvenousinvasion/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/extramuralvenousinvasion/HE.html)
 
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
 See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/extramuralvenousinvasion/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 
 [![Click for Full Screen WSI](./screenshots/extramuralvenousinvasion_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/extramuralvenousinvasion/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/extramuralvenousinvasion/HE2.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 See Microscopy with viewer: 
 
@@ -63,6 +82,7 @@ See Microscopy with viewer:
 ```{r language extramural-venous-invasion, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
@@ -82,6 +102,11 @@ webshot2::webshot(
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/extramural-venous-invasion_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html)
 
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
@@ -96,7 +121,12 @@ asis, echo = (language == "TR")
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/extramural-venous-invasion_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/extramural-venous-invasion/HE_annotated.html)
 
-İşaretlenmiş mikroskopik görüntüleri inceleyin:
+İşaretlenmiş ```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/extramural-venous-invasion/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
@@ -139,6 +169,10 @@ asis, echo = (language == "TR")
 
 
 [![Click for Full Screen WSI](./screenshots/extramural-venous-invasion_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 See Microscopy with viewer: 
 

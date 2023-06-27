@@ -2,21 +2,15 @@
 
 ```{r language, echo=FALSE, include=TRUE}
 source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
-<!-- [GBDAtlas](/GBD/)  -->
 
 ```{asis, echo = (language == "TR")}
 
 For English [click here](/EN/).  
 
-
-
-
-
 Sosyal medyadan derlenen görüntülerden oluşan patoloji notları için [tıklayınız](https://www.patolojinotlari.com/).  
-
-
 
 ```
 
@@ -29,6 +23,8 @@ For social media based pathology notes [click here](https://www.patolojinotlari.
 
 ```
 
+
+```{asis, echo = (output_type=="html")}
 <br><br>
 
 
@@ -37,6 +33,11 @@ For social media based pathology notes [click here](https://www.patolojinotlari.
 <hr>
 
 <br><br>
+
+
+
+```
+
 
 | Atıf için (Citation)                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------|
@@ -48,8 +49,13 @@ For social media based pathology notes [click here](https://www.patolojinotlari.
 | <a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fwww.patolojinotlari.com%2F%20@patolojinotlari%20@serdarbalci%20"><img src="https://img.shields.io/twitter/url?label=Patoloji%20Notlar%C4%B1&amp;style=social&amp;url=https%3A%2F%2Fwww.patolojinotlari.com%2F" alt="Twitter"/></a> |
 
 
+```{asis, echo = (output_type=="html")}
 
 <br><hr><br>
+
+```
+
+
 
 ::: {.iframeContainer}
 <h3 id="heading"></h3>

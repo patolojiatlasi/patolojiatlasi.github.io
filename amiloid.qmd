@@ -1,6 +1,17 @@
-# Amiloidoz (Amiloid Birikimi) {#sec-amiloidoz}
+```{r language amiloid, echo=FALSE, include=TRUE}
 
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
+```{asis, echo = (language == "TR")}
+# Amiloidoz (Amiloid Birikimi) {#sec-amiloidoz}
+```
+
+```{asis, echo = (language == "TR")}
 ## Kristal Viyole {#sec-amiloidoz-kristal-viyole}
+```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/crystalviolet_screenshot.png")) {
@@ -11,20 +22,29 @@ webshot2::webshot(
 }
 ```
 
-Damar duvarlarında amiloid birikimi
+```{asis, echo = (language == "TR")}
+**Damar duvarlarında amiloid birikimi**
 
 [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/crystalviolet_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/amyloid/crystalviolet.html" style="height:600px;width:100%;" data-external="1">
 
 </iframe>
+```
+
+```{asis, echo = (language == "TR")}
 
 ## Congo Red {#sec-amiloidoz-congo-red}
+```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE}
 if (!file.exists("./screenshots/congored_screenshot.png")) {
@@ -35,22 +55,62 @@ webshot2::webshot(
 }
 ```
 
-Congo Red stain for amyloidosis
+```{asis, echo = (language == "EN")}
+
+**Congo Red stain for amyloidosis**
 
 [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/congored_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/congored/congored.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/congored/congored.html)
 
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
 See Microscopy with viewer:
 
 <iframe src="https://images.patolojiatlasi.com/congored/congored.html" style="height:600px;width:100%;" data-external="1">
 
 </iframe>
+```
 
+
+```{asis, echo = (language == "EN")}
 ## Congo Red Birefringence {#sec-amiloidoz-congo-red-birefringence}
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
 {{< video https://www.youtube.com/embed/U9glkfQLTm4 >}}
+
+```
+
+```{asis, echo = ((language=="TR") & (output_type!="html"))}
+
+[https://www.youtube.com/watch?v=](https://www.youtube.com/watch?v=U9glkfQLTm4)
+
+```
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+{{< video https://www.youtube.com/embed/U9glkfQLTm4 >}}
+
+```
+
+```{asis, echo = ((language=="EN") & (output_type!="html"))}
+
+[https://www.youtube.com/watch?v=](https://www.youtube.com/watch?v=U9glkfQLTm4)
+
+```
+
+
+```{comment}
+{{< video https://www.youtube.com/embed/U9glkfQLTm4 >}}
+```
+
 
 ```{=html}
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/U9glkfQLTm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>

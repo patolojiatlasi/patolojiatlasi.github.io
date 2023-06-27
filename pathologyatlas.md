@@ -61,6 +61,10 @@ Anthracosis Anthracotic pigment in a thoracic lymph node
 
 [https://images.patolojiatlasi.com/anthracosis/HE.html](https://images.patolojiatlasi.com/anthracosis/HE.html)
 
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
 See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/anthracosis/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
@@ -70,7 +74,11 @@ See Microscopy with viewer:
 
 - [https://images.patolojiatlasi.com/cholesterolpolyp/HE.html](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/cholesterolpolyp/HE.html" width="100%" height="400px"></iframe>
 
@@ -82,7 +90,11 @@ See Microscopy with viewer:
 
 - [https://images.patolojiatlasi.com/glycogenstorage/HE.html](https://images.patolojiatlasi.com/glycogenstorage/HE.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/glycogenstorage/HE.html" width="100%" height="400px"></iframe>
 
@@ -90,7 +102,11 @@ See Microscopy with viewer:
 
 - [https://images.patolojiatlasi.com/glycogenstorage/PAS.html](https://images.patolojiatlasi.com/glycogenstorage/PAS.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/glycogenstorage/PAS.html" width="100%" height="400px"></iframe>
 
@@ -98,7 +114,11 @@ See Microscopy with viewer:
 
 - [https://images.patolojiatlasi.com/glycogenstorage/PASD.html](https://images.patolojiatlasi.com/glycogenstorage/PASD.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/glycogenstorage/PASD.html" width="100%" height="400px"></iframe>
 
@@ -120,7 +140,11 @@ Histopathology of fat necrosis and saponification in adipose tissue
 
 - [https://images.patolojiatlasi.com/fat-necrosis/HE.html](https://images.patolojiatlasi.com/fat-necrosis/HE.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/fat-necrosis/HE.html" width="100%" height="400px"></iframe>
 
@@ -136,7 +160,11 @@ Histopathology of a developing firosis in a cholecystitis
 
 - [https://images.patolojiatlasi.com/fibrosis/HE.html](https://images.patolojiatlasi.com/fibrosis/HE.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/fibrosis/HE.html" width="100%" height="400px"></iframe>
 
@@ -146,7 +174,11 @@ Histopathology of Keloid Scar Formation
 
 - [https://images.patolojiatlasi.com/keloid-scar/HE.html](https://images.patolojiatlasi.com/keloid-scar/HE.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/keloid-scar/HE.html" width="100%" height="400px"></iframe>
 
@@ -175,7 +207,11 @@ Crystal violet stain of amyloid accumulation in vessel wall
 
 - [https://images.patolojiatlasi.com/amyloid/crystalviolet.html](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/amyloid/crystalviolet.html" width="100%" height="400px"></iframe>
 
@@ -189,7 +225,11 @@ Crystal violet stain of amyloid accumulation in vessel wall
 
 - [https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html](https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html" width="100%" height="400px"></iframe>
 
@@ -202,7 +242,11 @@ Crystal violet stain of amyloid accumulation in vessel wall
 
 - [https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html" width="100%" height="400px"></iframe>
 
@@ -214,6 +258,10 @@ Crystal violet stain of amyloid accumulation in vessel wall
 #### Warthin Starry Slide
 
 [https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html](https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 See Microscopy with viewer: 
 
@@ -247,14 +295,22 @@ See Microscopy with viewer:
 
 - [https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html](https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html" width="100%" height="400px"></iframe>
 
 
 - [https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html](https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html" width="100%" height="400px"></iframe>
 
@@ -273,7 +329,11 @@ See Microscopy with viewer:
 
 ![tubular adenoma with a stalk](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk.jpeg)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 [https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html)
 
@@ -312,7 +372,11 @@ See Microscopy with viewer:
 
 - [https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html](https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html" width="100%" height="400px"></iframe>
 
@@ -323,7 +387,11 @@ See Microscopy with viewer:
 
 - [https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html" width="100%" height="400px"></iframe>
 
@@ -333,7 +401,11 @@ See Microscopy with viewer:
 
 - [https://images.patolojiatlasi.com/metastaticsarcoma/HE.html](https://images.patolojiatlasi.com/metastaticsarcoma/HE.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/metastaticsarcoma/HE.html" width="100%" height="400px"></iframe>
 
@@ -462,7 +534,11 @@ See Microscopy with viewer:
 
 - [https://images.patolojiatlasi.com/kidneyoncocytoma/HE.html](https://images.patolojiatlasi.com/kidneyoncocytoma/HE.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/kidneyoncocytoma/HE.html" width="100%" height="400px"></iframe>
 
@@ -506,7 +582,11 @@ See Microscopy with viewer:
 
 - [https://images.patolojiatlasi.com/ovarianserousmicropapillary/HE.html](https://images.patolojiatlasi.com/ovarianserousmicropapillary/HE.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/ovarianserousmicropapillary/HE.html" width="100%" height="400px"></iframe>
 
@@ -560,14 +640,22 @@ See Microscopy with viewer:
 
 - [https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html](https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html" width="100%" height="400px"></iframe>
 
 
 - [https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html](https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html" width="100%" height="400px"></iframe>
 
@@ -586,7 +674,11 @@ See Microscopy with viewer:
 
 ![tubular adenoma with a stalk](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk.jpeg)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 [https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html)
 
@@ -604,7 +696,11 @@ See Microscopy with viewer:
 
 [https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html](https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 
 <iframe src="https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html" width="100%" height="400px"></iframe>
@@ -614,7 +710,11 @@ See Microscopy with viewer:
 
 - [https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html" width="100%" height="400px"></iframe>
 
@@ -676,7 +776,11 @@ See Microscopy with viewer:
 
 - [https://images.patolojiatlasi.com/hepatocellularcarcinoma/HCC/viewer_z0.html](https://images.patolojiatlasi.com/hepatocellularcarcinoma/HCC/viewer_z0.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/hepatocellularcarcinoma/HCC/viewer_z0.html" width="100%" height="400px"></iframe>
 
@@ -723,7 +827,11 @@ See Microscopy with viewer:
 
 - [https://images.patolojiatlasi.com/cholesteatoma/cholesteatoma.html](https://images.patolojiatlasi.com/cholesteatoma/cholesteatoma.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/cholesteatoma/cholesteatoma.html" width="100%" height="400px"></iframe>
 
@@ -769,21 +877,33 @@ See Microscopy with viewer:
 
 - [https://images.patolojiatlasi.com/exostosis/oc.html](https://images.patolojiatlasi.com/exostosis/oc.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/exostosis/oc.html" width="100%" height="400px"></iframe>
 
 
 - [https://images.patolojiatlasi.com/exostosis/oc001.html](https://images.patolojiatlasi.com/exostosis/oc001.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/exostosis/oc001.html" width="100%" height="400px"></iframe>
 
 
 - [https://images.patolojiatlasi.com/exostosis/oc002.html](https://images.patolojiatlasi.com/exostosis/oc002.html)
 
-- See Microscopy with viewer: 
+- ```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/exostosis/oc002.html" width="100%" height="400px"></iframe>
 

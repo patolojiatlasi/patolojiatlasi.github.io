@@ -1,6 +1,7 @@
 ```{r language ampullary-adenocarcinoma, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
@@ -43,6 +44,11 @@ webshot2::webshot(
 
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/ampullary-adenocarcinoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html)
+
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -87,6 +93,10 @@ asis, echo = (language == "TR")
 
 
 [![Click for Full Screen WSI](./screenshots/ampullary-adenocarcinoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 See Microscopy with viewer: 
 
