@@ -30,6 +30,22 @@ jobs:
 
       - uses: r-lib/actions/setup-renv@v2
 
+
+      - uses: r-lib/actions/setup-tinytex@v2
+      - run: tlmgr --version
+
+      - name: Install additional LaTeX packages
+        run: |
+          tlmgr install titlesec
+          tlmgr install svg
+          tlmgr install transparent
+          tlmgr install tikzfill
+          tlmgr install sidenotes
+          tlmgr install marginnote
+          tlmgr install changepage
+          tlmgr list --only-installed
+
+
       - name: Restore R package cache
         uses: actions/cache@v3
         with:

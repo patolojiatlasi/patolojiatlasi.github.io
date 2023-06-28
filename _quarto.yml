@@ -17,7 +17,7 @@ project:
 
 
 execute:
-  freeze: false
+  freeze: auto
 
 lang: tr
 
@@ -351,27 +351,28 @@ format:
     epub-cover-image: images/cover.png
     execute:
       warning: false
-  # pdf:
-  #   documentclass: scrreprt
-  #   toc: true
-  #   toc-depth: 3
-  #   toc-title: "İçindekiler"
-  #   number-sections: true
-  #   number-depth: 3
-  #   colorlinks: true
-  #   highlight-style: github
-  #   execute:
-  #     warning: false
-  # docx:
-  #   toc: true
-  #   section-numbers: true
-  #   highlight-style: github
-  #   toc-depth: 3
-  #   toc-title: "İçindekiler"
-  #   number-sections: true
-  #   number-depth: 3
-  #   execute:
-  #     warning: false
+  pdf:
+    documentclass: scrreprt
+    toc: true
+    toc-depth: 3
+    toc-title: "İçindekiler"
+    number-sections: true
+    number-depth: 3
+    colorlinks: true
+    highlight-style: github
+    execute:
+      warning: false
+  docx:
+    toc: true
+    section-numbers: true
+    highlight-style: github
+    toc-depth: 3
+    toc-title: "İçindekiler"
+    number-sections: true
+    number-depth: 3
+    execute:
+      warning: false
+
 
 citation:
     type: webpage
