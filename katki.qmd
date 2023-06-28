@@ -1,3 +1,9 @@
+```{r language katki, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
 # Katkıda Bulunmak İçin {#sec-katki}
 
 H&E ya da özel boyalı preparatlarınızı bize elden ya da kargo ile
