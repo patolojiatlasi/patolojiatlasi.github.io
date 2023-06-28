@@ -1,0 +1,20 @@
+{
+  "hash": "e23d86c72d4733aaa77a2e6624f321cb",
+  "result": {
+    "markdown": "::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# References {.unnumbered}\n:::\n\n\n\n\n::: {#refs}\n:::\n",
+    "supporting": [
+      "referanslar_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}

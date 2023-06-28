@@ -1,0 +1,20 @@
+{
+  "hash": "8c2a9347855f76698ee61d1f38108a4a",
+  "result": {
+    "markdown": "::: {.cell}\n\n:::\n\n\n\n## Kulak {#sec-kulak}\n\n### Kolesteatom {#sec-kolesteatom}\n\n\n\n\n\n\n\n[![Tam Ekran Görmek İçin Resmi\nTıklayın](./screenshots/template_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/template/HE.html)\n[Tam Ekran Görmek İçin Resmi\nTıklayın](https://images.patolojiatlasi.com/cholesteatoma/cholesteatoma.html)\n\n```\n\n\n::: {.cell}\n\n:::",
+    "supporting": [
+      "kulak_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}
