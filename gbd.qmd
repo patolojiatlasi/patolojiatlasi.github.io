@@ -8,14 +8,14 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-<center><strong>Bu sayfadaki vakalar Prof. Dr. Gülen Bülbül Doğusoy'un kolleksiyonundan alınmıştır.</strong></center>
+**Bu sayfadaki vakalar Prof. Dr. Gülen Bülbül Doğusoy'un kolleksiyonundan alınmıştır.**
 
 ```
 
 
 ```{asis, echo = (language == "EN")}
 
-<center><strong>These cases are from the collections of Gulen Bulbul Dogusoy MD.</strong></center>
+**These cases are from the collections of Gulen Bulbul Dogusoy MD.**
 
 ```
 
