@@ -364,15 +364,13 @@ format:
       warning: false
     include-in-header:
       - text: |
-          \usepackage{eplain}
-          \usepackage{easy-todo}
-          \usepackage{titlesec}
-          \usepackage{svg}
-          \usepackage{transparent}
-          \usepackage{tikzfill}
-          \usepackage{sidenotes}
-          \usepackage{marginnote}
-          \usepackage{changepage}
+        \usepackage{titlesec}
+        \usepackage{svg}
+        \usepackage{transparent}
+        \usepackage{tikzfill}
+        \usepackage{sidenotes}
+        \usepackage{marginnote}
+        \usepackage{changepage}
 
 
 
