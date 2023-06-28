@@ -351,6 +351,7 @@ format:
     epub-cover-image: images/cover.png
     execute:
       warning: false
+
   pdf:
     documentclass: scrreprt
     toc: true
@@ -364,15 +365,13 @@ format:
       warning: false
     include-in-header:
       - text: |
-        \usepackage{titlesec}
-        \usepackage{svg}
-        \usepackage{transparent}
-        \usepackage{tikzfill}
-        \usepackage{sidenotes}
-        \usepackage{marginnote}
-        \usepackage{changepage}
-
-
+          \usepackage{titlesec}
+          \usepackage{svg}
+          \usepackage{transparent}
+          \usepackage{tikzfill}
+          \usepackage{sidenotes}
+          \usepackage{marginnote}
+          \usepackage{changepage}
 
   docx:
     toc: true
