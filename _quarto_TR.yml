@@ -372,12 +372,7 @@ format:
     number-depth: 3
     execute:
       warning: false
-  textile:
-    toc: true
-  docbook: default
-  fb2:
-    toc: true
-  markua: default
+
 
 citation:
     type: webpage
