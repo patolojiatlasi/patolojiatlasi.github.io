@@ -5,8 +5,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
-{{< include _content-to-repeat-1.qmd >}}
-
 # Metastaz {#sec-metastaz}
 
 ## Karaciğerde Sarkom Metastazı {#sec-karaciger-sarkom-metastaz}
@@ -25,8 +23,6 @@ Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/metastaticsarcoma/HE.html)
 
-```
-
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
@@ -35,6 +31,8 @@ Mikroskopik görüntüleri inceleyin:
 <iframe src="https://images.patolojiatlasi.com/metastaticsarcoma/HE.html" style="height:600px;width:100%;" data-external="1">
 
 </iframe>
+```
+
 
 ```{r language insidious-lymph-node-metastasis, echo=FALSE, include=TRUE}
 
@@ -42,6 +40,7 @@ source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
+
 
 ```{asis, echo = (language == "TR")}
 
@@ -80,14 +79,13 @@ Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
-
+```
 
 **Sinsi bir lenf nodu metastazı OSKAR panCK**
 
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/OSKARCK.html)
 
-```
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -96,15 +94,12 @@ Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/OSKARCK.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
-
-
-
 ```
+
 
 ```{asis, echo = (language == "EN")}
 
 **insidious lymph node metastasis HE**
-
 
 [![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html)
 
@@ -115,7 +110,9 @@ Mikroskopik görüntüleri inceleyin:
 See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+```
 
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 **insidious lymph node metastasis OSKAR panCK**
 
@@ -128,7 +125,5 @@ See Microscopy with viewer:
 See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/OSKARCK.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-
 
 ```

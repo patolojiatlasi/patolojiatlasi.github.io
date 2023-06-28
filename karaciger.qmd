@@ -183,13 +183,11 @@ See Microscopy with viewer:
 See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE3.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-<hr>
+```
 
 
 [![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE4.html)
 
-```
 
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
