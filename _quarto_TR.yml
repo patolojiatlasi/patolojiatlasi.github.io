@@ -267,8 +267,6 @@ book:
       chapters:
         - plasenta.qmd
     - part: "---"
-    - referanslar.qmd
-    - part: "---"
     - part: "Özel Kolleksiyonlar"
       chapters:
         - text: "Önerilen Sayfalar"
@@ -281,6 +279,8 @@ book:
           href: bs.qmd
         - text: "ICEtlas"
           href: ice.qmd
+    - part: "---"
+    - referanslar.qmd
     - part: "---"
   appendices:
     - yonetim-gelistirme.md
@@ -347,6 +347,7 @@ format:
 
   epub:
     toc: true
+    toc-title: "İçindekiler"
     epub-cover-image: images/cover.png
     execute:
       warning: false

@@ -26,7 +26,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/nasopharynx-nonkeratinizing-scc-HE_screenshot.png")) {
 webshot2::webshot(delay=10,
-  url = "https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc-HE/HE.html",
+  url = "https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/HE.html",
   file = "./screenshots/nasopharynx-nonkeratinizing-scc-HE_screenshot.png"
 )
 }

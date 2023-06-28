@@ -251,8 +251,6 @@ book:
       chapters:
         - plasenta.qmd
     - part: "---"
-    - referanslar.qmd
-    - part: "---"
     - part: "Special Collections"
       chapters:
         - text: "Recommended Websites"
@@ -265,6 +263,8 @@ book:
           href: bs.qmd
         - text: "ICEtlas"
           href: ice.qmd
+    - part: "---"
+    - references.qmd
     - part: "---"
   appendices:
     - yonetim-gelistirme.md

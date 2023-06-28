@@ -1,1 +1,22 @@
+```{r language gbd, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
+
+```{asis, echo = (language == "TR")}
+
+<center><strong>Bu sayfadaki vakalar Prof. Dr. İpek Çoban Elbeği'nin kolleksiyonundan alınmıştır.</strong></center>
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+<center><strong>These cases are from the collections of Ipek Coban Elbegi MD.</strong></center>
+
+```
+
 

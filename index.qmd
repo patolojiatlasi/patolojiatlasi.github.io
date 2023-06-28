@@ -8,7 +8,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-For English [click here](/EN/).  
+For English [click here](https://www.patolojiatlasi.com/EN/).  
 
 Sosyal medyadan derlenen görüntülerden oluşan patoloji notları için [tıklayınız](https://www.patolojinotlari.com/).  
 
