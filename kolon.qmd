@@ -71,16 +71,27 @@ See Microscopy with viewer:
 #### Sesil Polip, Flat (Düz) Tübüler Adenom {#sec-kolon-sesil-polip}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/tubularadenoma-flat1_screenshot.png")) {
 webshot2::webshot(delay=10,
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html",
+  file = "./screenshots/tubularadenoma-flat1_screenshot.png"
 )
 }
 ```
 
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/tubularadenoma-flat2_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html",
+  file = "./screenshots/tubularadenoma-flat2_screenshot.png",
+  delay = 10
+)
+}
+```
+
+
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+Tıklayın](./screenshots/tubularadenoma-flat1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html)
 
@@ -96,7 +107,7 @@ Mikroskopik görüntüleri inceleyin:
 ```
 
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+Tıklayın](./screenshots/tubularadenoma-flat2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html)
 

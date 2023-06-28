@@ -36,6 +36,8 @@ jobs:
 
       - name: Install additional LaTeX packages
         run: |
+          tlmgr install eplain
+          tlmgr install easy-todo
           tlmgr install titlesec
           tlmgr install svg
           tlmgr install transparent

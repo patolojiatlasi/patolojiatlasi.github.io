@@ -362,6 +362,20 @@ format:
     highlight-style: github
     execute:
       warning: false
+    include-in-header:
+      - text: |
+          \usepackage{eplain}
+          \usepackage{easy-todo}
+          \usepackage{titlesec}
+          \usepackage{svg}
+          \usepackage{transparent}
+          \usepackage{tikzfill}
+          \usepackage{sidenotes}
+          \usepackage{marginnote}
+          \usepackage{changepage}
+
+
+
   docx:
     toc: true
     section-numbers: true
