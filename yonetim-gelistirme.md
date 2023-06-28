@@ -318,12 +318,15 @@ foreach ($repository in $repositories) {
 ## alternative embedding
 
 
-```{=html}
+```html
+=html
 <iframe src="https://images.patolojiatlasi.com/ectopic-adrenal/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 ```
+
 knitr::include_url
 
-```{r}
+```r
+r
 knitr::include_url(url = "https://images.patolojiatlasi.com/ectopic-adrenal/HE.html")
 ```
 
