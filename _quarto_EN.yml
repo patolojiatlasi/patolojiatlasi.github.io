@@ -16,7 +16,7 @@ project:
 
 
 execute:
-  freeze: false
+  freeze: true
 
 lang: en
 
@@ -332,15 +332,14 @@ format:
     epub-cover-image: images/cover.png
     execute:
       warning: false
-  pdf:
-    documentclass: scrreprt
-    toc: true
-    toc-depth: 3
-    # toc-title: "İçindekiler"
-    number-sections: true
-    number-depth: 3
-    colorlinks: true
-    highlight-style: github
+#  pdf:
+#    documentclass: scrreprt
+#    toc: true
+#    toc-depth: 3
+#    number-sections: true
+#    number-depth: 3
+#    colorlinks: true
+#    highlight-style: github
   docx:
     toc: true
     section-numbers: true
