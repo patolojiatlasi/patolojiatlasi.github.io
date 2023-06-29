@@ -1,27 +1,30 @@
 ```{r language abdominal-mesothelioma, echo=FALSE, include=TRUE}
-
 source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
-
 ```
 
 ```{asis, echo = (language == "TR")}
-
-# Abdominal mezotelyoma {#sec-abdominal-mezotelyoma} 
-
+# Mezotel {#sec-mezotel} 
 ```
 
 ```{asis, echo = (language == "EN")}
+# Mesothelium {#sec-mesothelium} 
+```
 
-# Abdominal mesothelioma {#sec-abdominal-mesothelioma} 
 
+```{asis, echo = (language == "TR")}
+## Abdominal mezotelyoma {#sec-abdominal-mezotelyoma} 
+```
+
+```{asis, echo = (language == "EN")}
+## Abdominal mesothelioma {#sec-abdominal-mesothelioma} 
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/abdominal-mezotelyoma_screenshot.png")) {
 webshot2::webshot(delay=10,
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/abdominal-mezotelyoma/HE.html",
+  file = "./screenshots/abdominal-mezotelyoma_screenshot.png"
 )
 }
 ```
@@ -31,7 +34,7 @@ webshot2::webshot(delay=10,
 **Abdominal mezotelyoma**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/abdominal-mezotelyoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/abdominal-mezotelyoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html)
 
 ```
 
@@ -49,7 +52,7 @@ Mikroskopik görüntüleri inceleyin:
 **Abdominal mesothelioma**
 
 
-[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html)
+[![Click for Full Screen WSI](./screenshots/abdominal-mezotelyoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/abdominal-mezotelyoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html)
 
 ```
 

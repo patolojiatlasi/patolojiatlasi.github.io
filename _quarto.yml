@@ -273,8 +273,8 @@ book:
           href: wsi.qmd
         - text: "GBDAtlas"
           href: gbd.qmd
-        - text: "Hacettepe Ayın Vakası"
-          href: hacettepecom.qmd
+        # - text: "Hacettepe Ayın Vakası"
+        #   href: hacettepecom.qmd
         - text: "BSAtlas"
           href: bs.qmd
         - text: "ICEtlas"
@@ -283,7 +283,7 @@ book:
     - referanslar.qmd
     - part: "---"
   appendices:
-    - yonetim-gelistirme.md
+    # - yonetim-gelistirme.md
     - text: "Katkıda bulunun"
       href: katki.qmd
     - text: "Yorum ekleyin"
@@ -362,6 +362,15 @@ format:
     highlight-style: github
     execute:
       warning: false
+    # include-in-header:
+    #   - text: |
+    #       \usepackage{titlesec}
+    #       \usepackage{svg}
+    #       \usepackage{transparent}
+    #       \usepackage{tikzfill}
+    #       \usepackage{sidenotes}
+    #       \usepackage{marginnote}
+    #       \usepackage{changepage}
   docx:
     toc: true
     section-numbers: true
