@@ -1,6 +1,6 @@
 project:
   type: book
-  output-dir: docs
+  output-dir: docs2
   resources:
     - "CITATION.cff"
     - lecture-notes
@@ -17,7 +17,7 @@ project:
 
 
 execute:
-  freeze: auto
+  freeze: false
 
 lang: tr
 
