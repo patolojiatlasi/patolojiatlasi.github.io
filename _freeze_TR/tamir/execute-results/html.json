@@ -1,0 +1,14 @@
+{
+  "hash": "37420c5442e935f2fd9819ac96d3067c",
+  "result": {
+    "markdown": "::: {.cell}\n\n:::\n\n\n# Tamir Mekanizmaları {#sec-tamir-mekanizmalari}\n\nBu sayfadaki görüntülere artırılmış gerçeklik (augmented reality) ile de\nulaşabilirsiniz[^tamir-1].\n\n[^tamir-1]: [Tarık Atmaca](https://github.com/veterinarypathology3d)\n    tarafından <https://veterinarypathology3d.com/> geliştirilmiştir.\n\nKarekodu cep telefonunuza okutun:\n\n![](images/AR-tamir.jpeg){fig-align=\"left\" width=\"100\"}\n\nLink ile açılan sayfaya ve kamera erişimine izin verin. Sonra kamerayı\nbu sayfadaki patoloji resimlerine tutun. Tanılar cep telefonunuzda\ngörünecektir.\n\n\n\n::: {.cell}\n\n{{< video https://www.youtube.com/embed/76bOJIiT29Y >}}\n:::\n\n::: {.cell}\n\n:::\n\n\n\n\n\n\n## Fibrozis {#sec-fibrozis}\n\nKolesistit spesmeninde gelişmekte olan genç fibrozis\n\n\n\n\n\n[![Tam Ekran Görmek İçin Resmi\nTıklayın](./screenshots/fibrosis_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/fibrosis/HE.html)\n[Tam Ekran Görmek İçin Resmi\nTıklayın](https://images.patolojiatlasi.com/fibrosis/HE.html)\n\n\n\n::: {.cell}\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/fibrosis/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\">\n\n</iframe>\n:::\n\n\n## Keloid - Skar {#sec-keloid-skar}\n\n\n\n\n\nKeloid Skar oluşumu\n\n[![Tam Ekran Görmek İçin Resmi\nTıklayın](./screenshots/keloid-scar_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/keloid-scar/HE.html)\n[Tam Ekran Görmek İçin Resmi\nTıklayın](https://images.patolojiatlasi.com/keloid-scar/HE.html)\n\n\n\n::: {.cell}\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/keloid-scar/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\">\n\n</iframe>\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

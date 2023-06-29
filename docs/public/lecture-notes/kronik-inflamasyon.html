@@ -1,0 +1,1323 @@
+<!DOCTYPE html>
+<html lang="tr"><head>
+<script src="kronik-inflamasyon_files/libs/clipboard/clipboard.min.js"></script>
+<script src="kronik-inflamasyon_files/libs/quarto-html/tabby.min.js"></script>
+<script src="kronik-inflamasyon_files/libs/quarto-html/popper.min.js"></script>
+<script src="kronik-inflamasyon_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="kronik-inflamasyon_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="kronik-inflamasyon_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="kronik-inflamasyon_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="kronik-inflamasyon_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.3.340">
+
+  <meta name="author" content="Serdar Balcı">
+  <title>Title</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="kronik-inflamasyon_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="kronik-inflamasyon_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="kronik-inflamasyon_files/libs/revealjs/dist/theme/quarto.css" id="theme">
+  <link href="kronik-inflamasyon_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="kronik-inflamasyon_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="kronik-inflamasyon_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="kronik-inflamasyon_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+
+  .callout {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+    border-radius: .25rem;
+  }
+
+  .callout.callout-style-simple { 
+    padding: 0em 0.5em;
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    display: flex;
+  }
+
+  .callout.callout-style-default {
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+  }
+
+  .callout .callout-body-container {
+    flex-grow: 1;
+  }
+
+  .callout.callout-style-simple .callout-body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-style-default .callout-body {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-titled.callout-style-simple .callout-body {
+    margin-top: 0.2em;
+  }
+
+  .callout:not(.callout-titled) .callout-body {
+      display: flex;
+  }
+
+  .callout:not(.no-icon).callout-titled.callout-style-simple .callout-content {
+    padding-left: 1.6em;
+  }
+
+  .callout.callout-titled .callout-header {
+    padding-top: 0.2em;
+    margin-bottom: -0.2em;
+  }
+
+  .callout.callout-titled .callout-title  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+    
+  .callout.callout-titled.callout-style-simple .callout-content  p {
+    margin-top: 0;
+  }
+
+  .callout.callout-titled.callout-style-default .callout-content  p {
+    margin-top: 0.7em;
+  }
+
+  .callout.callout-style-simple div.callout-title {
+    border-bottom: none;
+    font-size: .9rem;
+    font-weight: 600;
+    opacity: 75%;
+  }
+
+  .callout.callout-style-default  div.callout-title {
+    border-bottom: none;
+    font-weight: 600;
+    opacity: 85%;
+    font-size: 0.9rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-default div.callout-content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-simple .callout-icon::before {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
+
+  .callout.callout-style-default .callout-icon::before {
+    height: 0.9rem;
+    width: 0.9rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+  }
+
+  .callout-title {
+    display: flex
+  }
+    
+  .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  .callout.no-icon::before {
+    display: none !important;
+  }
+
+  .callout.callout-titled .callout-body > .callout-content > :last-child {
+    margin-bottom: 0.5rem;
+  }
+
+  .callout.callout-titled .callout-icon::before {
+    margin-top: .5rem;
+    padding-right: .5rem;
+  }
+
+  .callout:not(.callout-titled) .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  /* Callout Types */
+
+  div.callout-note {
+    border-left-color: #4582ec !important;
+  }
+
+  div.callout-note .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
+  }
+
+  div.callout-note.callout-style-default .callout-title {
+    background-color: #dae6fb
+  }
+
+  div.callout-important {
+    border-left-color: #d9534f !important;
+  }
+
+  div.callout-important .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-important.callout-style-default .callout-title {
+    background-color: #f7dddc
+  }
+
+  div.callout-warning {
+    border-left-color: #f0ad4e !important;
+  }
+
+  div.callout-warning .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-warning.callout-style-default .callout-title {
+    background-color: #fcefdc
+  }
+
+  div.callout-tip {
+    border-left-color: #02b875 !important;
+  }
+
+  div.callout-tip .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-tip.callout-style-default .callout-title {
+    background-color: #ccf1e3
+  }
+
+  div.callout-caution {
+    border-left-color: #fd7e14 !important;
+  }
+
+  div.callout-caution .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
+  }
+
+  div.callout-caution.callout-style-default .callout-title {
+    background-color: #ffe5d0
+  }
+
+  </style>
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Title</h1>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Serdar Balcı 
+</div>
+</div>
+</div>
+
+</section>
+<section class="slide level2">
+
+
+<img data-src="img%5CKronik-inflamasyon0.jpg" class="r-stretch"></section>
+<section id="kronik-inflamasyon" class="title-slide slide level1 center">
+<h1>Kronik İnflamasyon</h1>
+
+</section>
+
+<section id="dr.-serdar-balci" class="title-slide slide level1 center">
+<h1>Dr.&nbsp;Serdar BALCI</h1>
+<p><img data-src="img%5CKronik-inflamasyon1.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon2.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon3.png"></p>
+<p><strong>Kronik inflamatuar hücreler</strong></p>
+<p><strong>Akciğerde kronik inflamasyon</strong></p>
+<p><strong>Alveollerde nötrofiller</strong></p>
+<p><strong>Akciğerde akut inflamasyon, akut bronkopnömoni</strong></p>
+<p><strong>Damarlar konjesyone</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+
+<section id="kronik-inflamasyon-1" class="title-slide slide level1 center">
+<h1>Kronik İnflamasyon</h1>
+<ul>
+<li><strong>Uzun süreli inflamasyon (haftalar-yıllar)</strong></li>
+<li><strong>Devam eden inflamasyon</strong></li>
+<li><strong>Doku hasarı</strong></li>
+<li><strong>Tamir</strong>
+<ul>
+<li><strong>Genelde fibrozisle</strong></li>
+</ul></li>
+<li><strong>Momonükleer hücre infiltrasyonu</strong>
+<ul>
+<li><strong>Makrofajlar, lenfositler ve plazma hücreleri</strong></li>
+</ul></li>
+<li><strong>Doku harabiyeti</strong>
+<ul>
+<li><strong>Inflamatuar hücrelerin ürünleri</strong></li>
+</ul></li>
+<li><strong>Tamir</strong>
+<ul>
+<li><strong>Yeni damar oluşumu (anjiogenez) ve fibrozis</strong></li>
+</ul></li>
+</ul>
+</section>
+
+<section id="kronik-inflamasyon-ne-zaman-olur-1-akut-inflamasyondan-sonra" class="title-slide slide level1 center">
+<h1>Kronik inflamasyon ne zaman olur?1) Akut inflamasyondan sonra</h1>
+<ul>
+<li><strong>Akut cevap sonlandırılamazsa</strong>
+<ul>
+<li><strong>Hasara neden olan ajanın varlığının devam etmesi</strong></li>
+<li><strong>Normal iyileşme süreçlerindeki aksaklıklar</strong></li>
+</ul></li>
+</ul>
+</section>
+
+<section id="kronik-inflamasyon-ne-zaman-olur-2-yok-edilmesi-zor-mikroorganizmalar" class="title-slide slide level1 center">
+<h1>Kronik inflamasyon ne zaman olur?2) Yok edilmesi zor mikroorganizmalar</h1>
+<ul>
+<li><strong>Mycobacterium tuberculosis</strong></li>
+<li><strong>Treponema pallidum</strong>
+<ul>
+<li><strong>Sifilis</strong></li>
+</ul></li>
+<li><strong>Bazı virüs ve mantarlar</strong></li>
+<li><strong>Süregiden enfeksşyon oluşturmaya yatkındırlar</strong></li>
+<li><strong>T lenfosit ilişkili immün yanıt</strong></li>
+<li><strong>Gecikmiş hipersensitivite</strong></li>
+</ul>
+</section>
+
+<section id="kronik-inflamasyon-ne-zaman-olur-3-immün-sistem-hastalıkları" class="title-slide slide level1 center">
+<h1>Kronik inflamasyon ne zaman olur?3) İmmün sistem hastalıkları</h1>
+<ul>
+<li><strong>Immün sistemin fazla ve uygunsuz aktivasyonu</strong></li>
+<li><strong>Otoimmün hastalıklar</strong>
+<ul>
+<li><strong>Romatoid artrit, inflamatuar barsak hastalıkları ve psöriazis</strong></li>
+</ul></li>
+<li><strong>Allerjik hastalıklar</strong>
+<ul>
+<li><strong>Astma</strong></li>
+</ul></li>
+</ul>
+</section>
+
+<section id="kronik-inflamasyon-ne-zaman-olur-4-toksik-ajan-maruziyetinde" class="title-slide slide level1 center">
+<h1>Kronik inflamasyon ne zaman olur?4) Toksik ajan maruziyetinde</h1>
+<ul>
+<li><strong>Yıkılamayan eksojen materyaller</strong>
+<ul>
+<li><strong>silika</strong></li>
+</ul></li>
+<li><strong>Endojen ajanlar</strong>
+<ul>
+<li><strong>Kolesterol kristalleri, ateroskleroz</strong></li>
+</ul></li>
+</ul>
+
+<img data-src="img%5CKronik-inflamasyon4.png" class="r-stretch"></section>
+
+<section id="bunlar-inflamatuar-hastalık-mı-henüz-daha-nihayi-karar-verilemedi" class="title-slide slide level1 center">
+<h1>Bunlar inflamatuar hastalık mı?Henüz daha nihayi karar verilemedi</h1>
+<ul>
+<li><strong>Nörodejeneratif hastalıklar</strong>
+<ul>
+<li><strong>Alzheimer</strong></li>
+</ul></li>
+<li><strong>Atheroskleroz</strong></li>
+<li><strong>Metabolik sendrom</strong></li>
+<li><strong>Tip 2 diyabet</strong></li>
+<li><strong>Bazı kanser çeşitleri</strong></li>
+</ul>
+</section>
+
+<section id="akut-ve-kronik-inflamasyon-immün-sistem-hastalıklarında-birlikte-görülebilir" class="title-slide slide level1 center">
+<h1>Akut ve kronik inflamasyon immün sistem hastalıklarında birlikte görülebilir</h1>
+<p><strong>Tekrarlayan akut dönemler</strong></p>
+<p><strong>Altta yatan inflamasyonun alevlenmesi</strong></p>
+</section>
+
+<section id="çoğu-kronik-inflamasyonda-bol-miktarda-nötrofil-görülebilir" class="title-slide slide level1 center">
+<h1>Çoğu kronik inflamasyonda bol miktarda nötrofil görülebilir</h1>
+<ul>
+<li><strong>Hala var olan mikroorganizmalar veya nekrotik hücreler</strong></li>
+<li><strong>Makrofaj kaynaklı mediatörler</strong></li>
+<li><strong>Tanısal olarak şu şekilde de isimlendirilirler:</strong>
+<ul>
+<li><strong>Akut ve kronik osteomyelit</strong></li>
+<li><strong>Aktif kronik gastrit</strong></li>
+</ul></li>
+</ul>
+</section>
+
+<section id="kronik-inflamasyon-için-bazı-örnekler" class="title-slide slide level1 center">
+<h1>Kronik inflamasyon için bazı örnekler</h1>
+<p><img data-src="img%5CKronik-inflamasyon5.jpg"></p>
+<p><strong>Tekrarlayan akut kolesistit atakları sonrası safra kesesinde kronik inflamasyon</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon6.jpg"></p>
+<p><strong>Safra kesesi, kronik inflamasyon, kronik kolesistit</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon7.jpg"></p>
+<p><strong>Mide, kronik peptik ülser</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon8.jpg"></p>
+<p><img data-src="img%5CKronik-inflamasyon9.png"></p>
+<p><strong>Pathology - The Big Picture</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon10.jpg"></p>
+<p><strong>Pulmoner Fibrozis (idiopatik) </strong></p>
+<p><img data-src="img%5CKronik-inflamasyon11.jpg"></p>
+<p><strong>Böbrek Transplant rejeksiyonu</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon12.jpg"></p>
+<p><img data-src="img%5CKronik-inflamasyon13.jpg"></p>
+<p><strong>Ksantogranülamatöz inflamasyon ve lipogranülom</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon14.jpg"></p>
+<p><strong>Pilonidal sinüs </strong></p>
+<p><img data-src="img%5CKronik-inflamasyon15.png"></p>
+<p><strong>Inflammation</strong></p>
+<p><strong>Stephenson, Timothy J., Underwood’s Pathology: A Clinical Approach, 9, 165-182</strong></p>
+</section>
+
+<section id="kronik-inflamatuar-hücreler-ve-mediatörler" class="title-slide slide level1 center">
+<h1>Kronik inflamatuar hücreler ve mediatörler</h1>
+<p><strong>Makrofajlar</strong></p>
+<p><strong>Lenfositler</strong></p>
+<p><strong>Eozinofiller</strong></p>
+<p><strong>Mast hücreleri</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon16.jpg"></p>
+<p><strong>Inflammation</strong></p>
+<p><strong>Stephenson, Timothy J., Underwood’s Pathology: A Clinical Approach, 9, 165-182</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon17.png"></p>
+<p><strong>Robbins and Cotran Pathologic Basis of Disease</strong></p>
+</section>
+
+<section id="makrofajlar" class="title-slide slide level1 center">
+<h1>Makrofajlar</h1>
+<p><strong>Kronik inflamasyonun baskın hücresi</strong></p>
+<p><strong>Dolaşımdaki monositlerin dokuya geçmesinden oluşurlar</strong></p>
+<p><strong>Normalde de çoğu bağ doku ve organda dağınık olarak bulunurlar</strong></p>
+<p><strong>Karaciğer → Kupffer hücreleri</strong></p>
+<p><strong>Dalak ve lenf nodu hilusları → histiyositler</strong></p>
+<p><strong>Santral sinir sistemi → microglial hücreler</strong></p>
+<p><strong>Akciğerler → Alveolar makrofajlar</strong></p>
+<p><strong>Mononükleer fagositik sistem</strong></p>
+<p><strong>Retiküloendotelyal sistem</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon18.jpg"></p>
+<p><strong>Inflammation</strong></p>
+<p><strong>Stephenson, Timothy J., Underwood’s Pathology: A Clinical Approach, 9, 165-182</strong></p>
+<p><strong>Adhezyon molekülleri, kemokinler</strong></p>
+<p><strong>Akut inflamasyondan 24-48 saat sonra dokuya geçerler</strong></p>
+<p><strong>Makrofaja dönüşüm</strong></p>
+<p><strong>Daha iri, daha uzun yaşam süresi, artmış fagosisitk kapasite</strong></p>
+<p><strong>Kanda yaklaşık 1 gün dolaşırlar</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon19.png"></p>
+<p><strong>Robbins and Cotran’s Pathological Basis of Diseases</strong></p>
+</section>
+
+<section id="makrofaj-aktivasyonu" class="title-slide slide level1 center">
+<h1>Makrofaj aktivasyonu</h1>
+
+<img data-src="img%5CKronik-inflamasyon20.png" class="r-stretch"><p><strong>Robbins Basic Pathology</strong></p>
+</section>
+
+<section id="klasik-makrofaj-aktivasyonu" class="title-slide slide level1 center">
+<h1>Klasik makrofaj aktivasyonu</h1>
+
+<img data-src="img%5CKronik-inflamasyon21.png" class="r-stretch"><ul>
+<li><strong>Mikroorganizma ürünleri ile indüklenir</strong>
+<ul>
+<li><strong>endotoksinler</strong></li>
+</ul></li>
+<li><strong>T hüce kökenli sinyaller</strong>
+<ul>
+<li><strong>Sitokin, IFN-γ</strong></li>
+</ul></li>
+<li><strong>Yabancı cisimler</strong>
+<ul>
+<li><strong>kristaller, partiküller</strong></li>
+</ul></li>
+<li><strong>Lizozomal enzimler, NO, and rekatif oksijen türevleri üretirler</strong>
+<ul>
+<li><strong>Fagosite edilmiş organizmaları daha iyi isndirmek</strong></li>
+</ul></li>
+<li><strong>Sitokin sekrete eder</strong>
+<ul>
+<li><strong>Inflamasyonu stimule etmek</strong></li>
+</ul></li>
+</ul>
+</section>
+
+<section id="alternatif-makrofaj-aktivasyonu" class="title-slide slide level1 center">
+<h1>Alternatif makrofaj aktivasyonu</h1>
+<p><img data-src="img%5CKronik-inflamasyon22.png"></p>
+<ul>
+<li><strong>IL-4 ve IL-13 ile indüklenir</strong>
+<ul>
+<li><strong>T hücreleri, Mast hücreleri ve eozinofiller</strong></li>
+</ul></li>
+<li><strong>Aktif olarak mikroorgnizma öldürücü değiller</strong></li>
+<li><strong>Asıl görev doku tamirinde</strong></li>
+<li><strong>Büyüme faktörleri salgılarlar</strong>
+<ul>
+<li><strong>Anjiogenez</strong></li>
+<li><strong>Fibroblast aktivasyonu</strong></li>
+<li><strong>Kollojen sentezinin uyarılmaıs</strong></li>
+</ul></li>
+</ul>
+<p><img data-src="img%5CKronik-inflamasyon23.png"></p>
+<p><strong>Robbins and Cotran’s Pathological Basis of Diseases</strong></p>
+</section>
+
+<section id="makrofajlar-1" class="title-slide slide level1 center">
+<h1>Makrofajlar</h1>
+<ul>
+<li><strong>Bütün inflamatuar reaksiyonların başlangıç ve devamında merkezde</strong></li>
+<li><strong>Nötrofiller gibi, mikroorganizma ve ölü dokunun sindirilmesi ve ortadan kaldırılması</strong></li>
+<li><strong>Doku tamiri sürecini başlatır</strong>
+<ul>
+<li><strong>Skar oluşumu ve fibrozis</strong></li>
+</ul></li>
+<li><strong>Inflamasyon mediatörlerini salgılar</strong>
+<ul>
+<li><strong>sitokinler (TNF, IL-1, kemokinler)</strong></li>
+<li><strong>eikozanoidler</strong></li>
+</ul></li>
+<li><strong>T hücre aracılı adaptif immün yanıtın en önemli fagosit kolu</strong>
+<ul>
+<li><strong>T lenfositlere antijen sunumu</strong></li>
+<li><strong>T hücrelerinden gelen sinyallere cevap verme</strong></li>
+</ul></li>
+</ul>
+</section>
+
+<section id="inflamasyondan-sonra" class="title-slide slide level1 center">
+<h1>İnflamasyondan sonra</h1>
+<p><strong>Inflamasyonu başlatan uyaran ortadan kalktığında</strong></p>
+<p><strong>Makrofajlar ölürler</strong></p>
+<p><strong>Lenfatiklere geçerler</strong></p>
+<p><strong>Kronik inflamatuar süreçlerde</strong></p>
+<p><strong>Makrofaj birikimi devam eder</strong></p>
+<p><strong>Kandan yeni gelenler, proliferasyon</strong></p>
+<p><strong>IFN-γ etkisi ile birleşip, çok çekirdekli iri dev hücrelere dönüşürler</strong></p>
+
+<img data-src="img%5CKronik-inflamasyon24.png" class="r-stretch"><p><strong>RUBINS PATHOLOGY Clinicopathologic Foundations of Medicine</strong></p>
+</section>
+
+<section id="lenfositler" class="title-slide slide level1 center">
+<h1>Lenfositler</h1>
+<ul>
+<li><strong>Spesifik immün uyaran</strong>
+<ul>
+<li><strong>infeksiyonlar</strong></li>
+</ul></li>
+<li><strong>İmmünite harici inflamasyonlar</strong>
+<ul>
+<li><strong>Iskemik nekroz, travma</strong></li>
+</ul></li>
+<li><strong>Otoimmün ve diğer kronik inflamatuar hastalıklar</strong></li>
+<li><strong>İnfeksiyon ve immünolojik hastalıklardaki adaptif immün yanıtın bir parçası</strong></li>
+</ul>
+
+<img data-src="img%5CKronik-inflamasyon25.png" class="r-stretch"><p><strong>Pathology - The Big Picture</strong></p>
+</section>
+
+<section id="yardımcı-t-hücreleri" class="title-slide slide level1 center">
+<h1>Yardımcı T hücreleri</h1>
+<ul>
+<li><strong>T</strong> <strong>H</strong> <strong>1 hücreleri IFN-γ üretir</strong>
+<ul>
+<li><strong>Makrofajları klasik yoldan aktive eder</strong></li>
+</ul></li>
+<li><strong>T</strong> <strong>H</strong> <strong>2 hücreleri IL-4, IL-5 ve IL-13 üretir</strong>
+<ul>
+<li><strong>Eozinofillerin aktivasyonu ve çağrılması</strong></li>
+<li><strong>Makrofajların alternatif yol için aktivasyonu</strong></li>
+</ul></li>
+<li><strong>T</strong> <strong>H</strong> <strong>17 hücreleri IL-17 ve diğer sitokinleri üretir</strong>
+<ul>
+<li><strong>Kemikin skresyonunun uyarılması</strong></li>
+<li><strong>Nötrofil ve monositlerin çağrılması</strong></li>
+</ul></li>
+<li><strong>T</strong> <strong>H</strong> <strong>1 ve T</strong> <strong>H</strong> <strong>17</strong>
+<ul>
+<li><strong>Bakteri, virüs, otoimmün hastalıklar</strong></li>
+</ul></li>
+<li><strong>T</strong> <strong>H</strong> <strong>2</strong>
+<ul>
+<li><strong>Helmintler, parazitler</strong></li>
+<li><strong>Allerjik inflamatuar yanıtlar</strong></li>
+</ul></li>
+</ul>
+
+<img data-src="img%5CKronik-inflamasyon26.png" class="r-stretch"><p><strong>Robbins Basic Pathology</strong></p>
+</section>
+
+<section id="iki-yönlü-iletişim" class="title-slide slide level1 center">
+<h1>İki yönlü iletişim</h1>
+
+<img data-src="img%5CKronik-inflamasyon27.png" class="r-stretch"><p><strong>Robbins and Cotran’s Pathological Basis of Diseases</strong></p>
+</section>
+
+<section id="aktive-b-lenfositler-ve-antikor-üreten-plazma-hücreleri" class="title-slide slide level1 center">
+<h1>Aktive B lenfositler ve antikor üreten plazma hücreleri</h1>
+<ul>
+<li><strong>Çoğunlukla kronik inflamasyon sahasında görülür</strong></li>
+<li><strong>Antikorlar</strong>
+<ul>
+<li><strong>Kalıcı yabancı antijen</strong></li>
+<li><strong>İnflamasyon sahasındaki ya da değişmiş doku ürünlerine karşı, otoantikor</strong></li>
+</ul></li>
+</ul>
+</section>
+
+<section id="eozinofiller" class="title-slide slide level1 center">
+<h1>Eozinofiller</h1>
+<ul>
+<li><strong>Karakteristik olarak</strong>
+<ul>
+<li><strong>Paraziter infeksiyonların çevresinde</strong></li>
+<li><strong>IgE ilişkili immün cevaplar, allerjiler</strong></li>
+</ul></li>
+<li><strong>Ortama çağıran etkiler</strong>
+<ul>
+<li><strong>Nötrofillere benzer şekilde adhezyon molekülleri</strong></li>
+<li><strong>Lökosit ve epitel hücrelerinde üretilen spesifik kemokinler (eotaxin)</strong></li>
+</ul></li>
+<li><strong>Eozinofil granüllerinde Major bazik protein</strong>
+<ul>
+<li><strong>Ileri derecede katyonik protein</strong></li>
+<li><strong>Parazitler için toksik</strong></li>
+<li><strong>Epitel hücre nekrozu da yapar</strong></li>
+</ul></li>
+</ul>
+
+<img data-src="img%5CKronik-inflamasyon28.png" class="r-stretch"><p><strong>Robbins and Cotran’s Pathological Basis of Diseases</strong></p>
+</section>
+
+<section id="mast-hücreleri" class="title-slide slide level1 center">
+<h1>Mast hücreleri</h1>
+<ul>
+<li><strong>Bekçi hücreler</strong></li>
+<li><strong>Tüm vücutta bağ doku içinde yaygın olarak bulunur</strong></li>
+<li><strong>Akut ve kronik inflamatuar yanıtlara katılır</strong></li>
+<li><strong>Atopik kişilerde (allerjiye yatkın)</strong>
+<ul>
+<li><strong>Yüzeylerinde çevresel antijenlere özgü spesifik IgE’ler bulunur</strong></li>
+<li><strong>Bu antijenlerle karşılaşıldığında mast hücreleri histamin ve AA metabolitlerini salgılar</strong></li>
+<li><strong>Akut inflamasyondaki erken vasküler değişiklikler</strong></li>
+<li><strong>Allerjik reaksiyonlar</strong>
+<ul>
+<li><strong>Anaflaktik şok</strong></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><img data-src="img%5CKronik-inflamasyon29.jpg"></p>
+<p><strong>Chronic peptic ulcer   (a) Entire ulcer (LP)  (b) Surface layers of ulcer (MP)  (c) Deep layers of ulcer (MP) ( illustrations opposite ) A common example, which illustrates the principles of non-specific chronic inflammation, is the localised chronic ulceration of the stomach or duodenum, most often in individuals infected by Helicobacter pylori ( H. pylori ); such lesions are collectively referred to as chronic peptic ulcers. By definition, an ulcer extends through the full thickness of the mucosa; an erosion is a lesion involving only the superficial mucosa. Ulceration is caused by an imbalance between damaging factors (gastric acid and peptic enzymes) and protective factors (gastric mucus secretion, local secretion of alkali). H. pylori does not invade the tissues but inhabits the protective mucus layer which covers the surface of the mucosa (see Fig. 13.8 ). It has a unique ability to survive the acid environment of the stomach because of a bacter ial enzyme, urease . This allows it to produce ammonia by splitting urea, raising pH in the immediate vicinity of the organism. It typically colonises the antrum and, by producing a localised alkaline environment here, H. pylori interferes with normal physiological control of gastric acid secretion. The falsely high antral pH stimulates secretion of gastrin by the antral G cells, which acts upon the oxyntic cells in the corpus to increase acid production still further. This excess acid production overwhelms normal mucosal defence mechanisms, leading to the formation of an acute ulcer. If the process proceeds unchecked, the ulcer can burrow through the full thickness of the stomach or duodenal wall, leading to perforation and escape of gut contents into the peritoneal cavity (see Fig. 13.8 ). Often, the destructive process is arrested by an acute inflammatory response. Tissue repair then begins with the formation of granulation tissue; if conditions are favourable repair may be effective, leaving a fibrous scar. If tissue destruction continues, the concurrent organisation and repair result in chronic inflammation. A chronic peptic ulcer reflects this dynamic balance between tissue destruction and repair. A section through a chronic ulcer is shown in image (a). The ulcerated surface is covered in a slough Sl, composed of a pink-staining layer of necrotic debris combined with the fibrin and neutrophils of an acute inflammator y exudate. Beneath the slough is a zone of vascular granulation tissue V ; these features are seen at a higher magnification in micrograph (b). The next layer is a zone of fibrous granulation tissue F , seen in detail in micrograph (c). Deeper still in the ulcer base, is a fibrous scar Sc . In this deep ulcer, the muscular wall M is completely replaced by the ulcer crater, granulation tissue and scar. If a large blood vessel is present in the ulcer base, erosion into the vessel leads to bleeding into the stomach, giving rise to haematemesis (vomiting blood) or melaena (black, tar-like faeces composed of altered blood). The outcome of chronic peptic ulceration depends on whether conditions favour ongoing tissue damage or repair. If healing is favoured, fibrous tissue gradually repairs the ulcer crater and mucosa regenerates from the ulcer margins to cover the epithelial defect and protect the fibrous tissue from further damage. A healed peptic ulcer thus consists of an area of fibrous scarring replacing all or part of the thickness of the stomach wall. Internally, the regenerated mucosa is usually puckered because of contraction of the underlying scarred wall.</strong></p>
+<p><strong>Chronic inflammation</strong></p>
+<p><strong>Young, Barbara, BSc Med Sci (Hons), PhD, MB BChir, MRCP, FRCPA, Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology, 3, 27-36</strong></p>
+<p><strong>Copyright © 2011 © 2011, Elsevier Limited</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon30.jpg"></p>
+<p><strong>Pulmonary fibrosis (idiopathic)   (a) LP  (b) HP Idiopathic pulmonary fibrosis (or cryptogenic fibrosing alveolitis ) is a good example of a chronic inflammatory condition which in its earliest phases has a chronic inflammatory infiltrate. At this early stage, it may be called interstitial pneumonitis (or usual interstitial pneumonia ), where an unknown damaging agent repeatedly triggers the inflammation of the alveolar walls leading to extensive fibrosis as part of the healing process. Idiopathic pulmonary fibrosis is one of a group of disorders known as interstitial pneumonias. The later stages of this process are well illustrated in these micrographs where the alveolar walls are thickened because of the deposition of dense fibrous tissue F . The thickened alveolar walls are distorted and less permeable to gases. In the final stages, there may be great distortion of alveoli, giving rise to greatly enlarged alveolar spaces A , known as honeycomb lung (see Fig. 12.11 ). In addition, there is damage to the alveolar lining cells and these are replaced by hyperplastic or regenerating type II pneumocytes. In micrograph (b), the inflammatory infiltrate of lymphocytes and plasma cells is readily seen, as well as type 2 pneumocyte hyperplasia P. The usual presentation of cryptogenic fibrosing alveolitis is of insidious onset of breathlessness associated with finger clubbing. However, a histologically identical picture may arise as an end stage of diffuse alveolar damage owing to oxygen toxicity in premature infants, i.e. hyaline membrane disease (see Fig. 12.10 ) and acute viral pneumonitis. The condition may also follow a range of other conditions such as extrinsic allergic alveolitis, drug toxicity, miliary tuberculosis, connective tissue disorders and sarcoidosis. Some of these disorders are associated with granulomatous inflammation in the early stages and this may still be apparent at the end stage.</strong></p>
+<p><strong>Chronic inflammation</strong></p>
+<p><strong>Young, Barbara, BSc Med Sci (Hons), PhD, MB BChir, MRCP, FRCPA, Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology, 3, 27-36</strong></p>
+<p><strong>Copyright © 2011 © 2011, Elsevier Limited</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon31.jpg"></p>
+<p><strong>Transplant rejection: kidney (LP) Organ transplantation introduces non-self antigens into the recipient. Specifically, the HLA antigens (human leukocyte antigens) of the donor are very rarely identical to those of the recipient, except in the case of transplantation of organs between identical twins. The HLA antigens of the donor excite both antibody- and cell-mediated immune responses in the recipient in an attempt to rid the body of the foreign material by killing donor cells. This is, of course, a gross simplification of the many and complex faces of transplant rejection, which are dealt with in more detail in Chapter 15 . This micrograph illustrates a cell-mediated immune response to a transplanted kidney. There is an infiltrate of lymphocytes, most of which are T cells, in the interstitium I of the kidney. The tubules are atrophic and widely separated. Lymphocytes L can be seen within the tubular basement membrane between the tubular epithelial cells ( tubulitis ). These lymphocytes are attacking the tubular epithelial cells, causing tubular damage and eventual loss of tubules. Loss of any part of the nephron leads to loss of the entire nephron so that the transplanted kidney is unable to function. As in many cases of chronic inflammation, tissue damage is caused primarily by the inflammatory infiltrate. The transplanted kidney makes no attack on the recipient and, if left alone by the immune system, does nothing but good. Various combinations of immunosuppressant drugs are used to suppress the cell-mediated immune response to the transplanted kidney to allow it to function, thus freeing the recipient from a life of dialysis.</strong></p>
+<p><strong>Chronic inflammation</strong></p>
+<p><strong>Young, Barbara, BSc Med Sci (Hons), PhD, MB BChir, MRCP, FRCPA, Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology, 3, 27-36</strong></p>
+<p><strong>Copyright © 2011 © 2011, Elsevier Limited</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon32.jpg"></p>
+<p><strong>Foreign body reaction   (a) Foreign body granuloma (LP)  (b) Giant cell with inclusion (HP) The presence of certain non-soluble foreign materials in tissues may excite a chronic granulomatous inflammatory response, with or without discrete granuloma formation. Common examples of such foreign body reactions are those produced by suture material, wood or other vegetable matter, metal or glass splinters, and inorganic materials such as silica and beryllium, inhaled deep into the lungs during industrial dust exposure. Inhaled materials are of particular clinical importance because of their tendency to produce progressive pulmonary fibrosis, similar to that which may occur in idiopathic pulmonary fibrosis. Many of these foreign bodies are refractile when viewed with polarised light and can thus be identified within the granulomas or giant cells. At low magnification, micrograph (a) shows plant material P , derived from faeces, that has become embedded in the wall of the colon in a patient with diverticulitis . Diverticular disease is a condition where the mucosa of the bowel herniates through the muscular wall, forming a pouch or diverticulum in which faecal material may become impacted, leading to inflammation and sometimes perforation (see Ch. 13 ). The pale, incompletely digested plant material is surrounded by aggregates of foreign body giant cells F and epithelioid macrophages M as well as other inflammatory cells. At high power in micrograph (b), a fragment of plant material P can be easily seen within the cytoplasm of a Langhans’ type giant cell.</strong></p>
+<p><strong>Chronic inflammation</strong></p>
+<p><strong>Young, Barbara, BSc Med Sci (Hons), PhD, MB BChir, MRCP, FRCPA, Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology, 3, 27-36</strong></p>
+<p><strong>Copyright © 2011 © 2011, Elsevier Limited</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon33.jpg"></p>
+<p><strong>Bronchiectasis (LP) Bronchiectasis is a chronic inflammation of the bronchi associated with des truction of the wall and permanent dilatation. In most cases, repeated episodes of infection and obstruction lead to progressive destruction of the normal elastic and muscular components of the airway wall. Obstruction may be due to foreign bodies in bronchi, tumour, structural abnormalities or stasis of secretions, perhaps related to ciliary malfunction or cystic fibrosis. The elastic and muscular components of the bronchial wall are replaced by granulation tissue and later by fibrous tissue. This process weakens the wall, leading to dilatation of the airway, which in turn predisposes to stagnation of secretions and further episodes of bacterial infection, creating a vicious cycle. In this micrograph, two abnormal bronchi are seen, each with the lumen filled with pus P . The wall of each affected bronchus is formed of fibrovascular granulation tissue G , in which there is a heavy infiltrate of dark-staining cells, just visible at this magnification; these cells are a mixture of plasma cells and lymphocytes. Bronchiectasis exemplifies the concept of coexisting tissue damage and attempts at repair, which are the hallmarks of chronic inflammation.</strong></p>
+<p><strong>Chronic inflammation</strong></p>
+<p><strong>Young, Barbara, BSc Med Sci (Hons), PhD, MB BChir, MRCP, FRCPA, Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology, 3, 27-36</strong></p>
+<p><strong>Copyright © 2011 © 2011, Elsevier Limited</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon34.jpg"></p>
+<p><strong>Xanthogranulomatous inflammation and lipogranuloma   (a) Xanthogranulomatous cholecystitis (MP)  (b) Lipogranuloma in fat necrosis (HP) Xanthogranulomatous inflammation is a rare condition most often seen in the kidney or the gallbladder. Although rare, these are important lesions as they may form a mass that can be mistaken for a malignant tumour. Micrograph (a) shows xanthogranulomatous inflammation in the gallbladder at medium power. The lesion consists of sheets of m acrophages whose cytoplasm is loaded with droplets of lipid, thus giving it a foamy appearance. The lipid in the macrophage gives the lesion an orange-yellow appearance macroscopically. Interspersed among the foamy macrophages are lymphocytes, plasma cells, eosinophils and, sometimes, a few neutrophils. Older lesions are often very fibrotic and the gallbladder may become shrunken and thick walled. Xanthogranulomatous pyelonephritis tends to occur in patients with Proteus urinary tract infection and has similar histological appearances. Another much more common appearance is the accumulation of lipid-laden macrophages in areas where fat is released from adipocytes, often in areas of fat necrosis. Micrograph (b) shows such an area where necrotic fat cells are easily identified by their lack of nuclei. Interspersed among the fat cells are sheets of foamy macrophages, often with very few other inflammatory cells. Occasional lipogranulomas L may be seen, consisting of a droplet of lipid surrounded by foamy macrophages.</strong></p>
+<p><strong>Chronic inflammation</strong></p>
+<p><strong>Young, Barbara, BSc Med Sci (Hons), PhD, MB BChir, MRCP, FRCPA, Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology, 3, 27-36</strong></p>
+<p><strong>Copyright © 2011 © 2011, Elsevier Limited</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon35.jpg"></p>
+<p><strong>Giant cells   (a) Foreign body giant cell (HP)  (b) Langhans’ giant cell (HP) As described in the introduction, multinucleate giant cells are formed by the fusion of epithelioid macrophages and are a highly characteristic, though not universal, feature of chronic granulomatous inflammation. These micrographs illustrate typical appearances of giant cells. Micrograph (a) is a good example of a foreign body-type giant cell , which is characterised by a central group of nuclei similar to those seen in adjacent epithelioid macrophages E . These cells may be found in association with implanted foreign material, for example a remnant of a surgical suture or a rose thorn in the skin (see Fig. 3.10 ). These cells are usually found in association with epithelioid macrophages, although they may not form the discrete granulomas seen in other types of granulomatous inflammation. The second important form of giant cell is the Langhans’ giant cell , said to be characteristic of tuberculosis. As shown in micrograph (b), the multiple nuclei of Langhans’ giant cells are arranged in a horseshoe formation around the periphery. Again, epithelioid macrophages E are seen in the surrounding tissues. Both epithelioid macrophages and giant cells are specialised secretory cells, rather than phagocytic cells. The plentiful eosinophilic cytoplasm seen in both cell types is indicative of abundant rough endoplasmic reticulum, as opposed to the pale foamy cytoplasm of phagocytic macrophages. Although Langhans’ giant cells and foreign body cells are said to be more or less specific for different types of granulomatous inflammation, in practice this is not so.</strong></p>
+<p><strong>Chronic inflammation</strong></p>
+<p><strong>Young, Barbara, BSc Med Sci (Hons), PhD, MB BChir, MRCP, FRCPA, Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology, 3, 27-36</strong></p>
+<p><strong>Copyright © 2011 © 2011, Elsevier Limited</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon36.jpg"></p>
+<p><strong>Sarcoidosis   (a) Sarcoidosis in a lymph node (MP)  (b) Sarcoid granulomas (HP) Sarcoidosis is a chronic granulomatous disease of unknown aetiology, characterised by the formation of multiple discrete granulomas in many tissues. In marked distinction to classical tuberculous granulomas (see Ch. 4 ), those of sarcoidosis do not typically undergo central caseous necrosis, although small foci of necrosis may be seen in large granulomas. Sarcoidosis may occur in any organ or tissue, notably the spleen, liver, skin and lymph nodes, but frequently also involves the lungs which may be peppered with numerous granulomas. In most cases of pulmonary sarcoidosis, the hi lar lymph nodes are also grossly enlarged by masses of granulomas; such massive nodes are a useful diagnostic feature when visible on chest imaging. Micrograph (a) illustrates part of a typical lymph node. Note the scattered non-caseating granulomas G . Since there is no central mass of caseation, the sarcoid granuloma differs from the tuberculous granuloma by having a much broader zone of epithelioid macrophages. As in tuberculosis, sarcoid granulomas are surrounded by a zone of lymphocytes, although this feature is much less obvious in sarcoid lesions. In tissues other than lymph nodes, the granulomas are described as being </strong> <strong>’</strong> <strong>naked</strong> <strong>’</strong> <strong>, i.e. lacking a rim of lymphocytes and fibroblasts. Micrograph (b) shows a typical sarcoid granuloma at high magnification. Note the epithelioid macrophages M . Multinucleate giant cells are a feature of most of the granulomas. The cytoplasm of sarcoid giant cells may contain inclusion bodies of two types: eosinophilic star-shaped asteroid bodies A or small, laminated calcified concretions called Schaumann bodies S . In practice, these inclusion bodies are rare. Although characteristic of sarcoid giant cells, such inclusion bodies are not pathognomonic of sarcoidosis (i.e. not exclusive to sarcoidosis) and are occasionally found in other chronic inflammatory granulomas. Sarcoidosis has many possible clinical presentations, including no clinical symptoms; in persistent cases, the granulomas undergo progressive fibrosis, although some giant cells still remain. In the lungs, this may culminate in pulmonary fibrosis and honeycomb lung (see Fig. 3.6 ) and may lead to chronic respiratory failure.</strong></p>
+<p><strong>Chronic inflammation</strong></p>
+<p><strong>Young, Barbara, BSc Med Sci (Hons), PhD, MB BChir, MRCP, FRCPA, Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology, 3, 27-36</strong></p>
+<p><strong>Copyright © 2011 © 2011, Elsevier Limited</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon37.jpg"></p>
+<p><strong>Cells in chronic inflammation (HP) In chronic inflammation the major infiltrating cells types are macrophages , lymphocytes and plasma cells (sometimes collectively called </strong> <strong>’</strong> __ mononuclear cells __ <strong>’</strong> __ ) as well as eosinophils , mast cells and some neutrophils . These cells may be derived from resident tissue populations and/or migrate into the tissue from the circulating blood. As well as killing and disposing of infective organisms, inflammatory cells secrete a wide variety of soluble factors that regulate the inflammatory and healing processes. In this micrograp h, plasma cells P are identified by their amphophilic (purple) cytoplasm and eccentric __ <strong>’</strong> <strong>clock face</strong> <strong>’</strong> __ nuclei. Plasma cells are differentiated B lymphocytes that are committed to antibody production. Lymphocytes L are seen as dark, rounded nuclei with a thin, almost invisible, rim of basophilic cytoplasm. These are the effector cells of the specific immune response and include both helper and cytotoxic T cells as well as B cells. Macrophages Ma are recognised by their oval or kidney-bean-shaped nuclei and pale cytoplasm. Eosinophils E have bilobed nuclei and brightly eosinophilic granules in their cytoplasm. When stimulated, eosinophils release their granule contents, including major basic protein, a substance that is effective in killing parasites. Some neutrophils and many active fibroblasts Fi are commonly also found in chronic inflammation. Fibroblasts secrete the components of the extracellular matrix including collagen. When the damaging stimulus has been removed and repair is completed, often after weeks or months, these cells progressively disappear from the tissue.__</p>
+<p><strong>Chronic inflammation</strong></p>
+<p><strong>Young, Barbara, BSc Med Sci (Hons), PhD, MB BChir, MRCP, FRCPA, Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology, 3, 27-36</strong></p>
+<p><strong>Copyright © 2011 © 2011, Elsevier Limited</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon38.jpg"></p>
+<p><strong>Pilonidal sinus (LP) A common example of a chronic abscess is the pilonidal sinus. In this condition, a chronic subcutaneous abscess forms, most commonly in the sacrococcygeal area. Hair shafts H , derived from locally destroyed follicles and shed body hair, are present in the abscess and act as a focus for chronic inflammation. Successful healing and repair are hindered by the persistence of the hairs which are resistant to phagocytosis. Secondary infection may further complicate the process. As part of the attempt at healing, surface epithelium proliferates and comes to line the tract leading down into the abscess cavity (not seen in this micrograph); such a tract is known as a sinus. In this micrograph, note the subcutaneous abscess cavity A , the wall of which is formed by granulation tissue G , heavily infiltrated by lymphocytes and plasma cells. There is surrounding fibrosis F in the dermis as a result of previous attempts at fibrous repair. A pilonidal sinus, like any other chronic inflammatory lesion, will only heal if the source of persistent irritation is removed; surgical excision or laying open the complex of sinuses and abscess cavities is usually the only satisfactory method in this situation.</strong></p>
+<p><strong>Chronic inflammation</strong></p>
+<p><strong>Young, Barbara, BSc Med Sci (Hons), PhD, MB BChir, MRCP, FRCPA, Wheater’s Basic Pathology: A Text, Atlas and Review of Histopathology, 3, 27-36</strong></p>
+<p><strong>Copyright © 2011 © 2011, Elsevier Limited</strong></p>
+</section>
+
+<section id="granülamatöz-inflamasyon" class="title-slide slide level1 center">
+<h1>Granülamatöz inflamasyon</h1>
+<ul>
+<li><strong>Karakteristik özellikleri</strong></li>
+<li><strong>Aktive makrofaj kümeleri</strong></li>
+<li><strong>Ve araya serpiştirilmiş lenfositler</strong></li>
+<li><strong>1) Bazı mikroorganizmalara karşı süren kalıcı T hücre cevabı</strong>
+<ul>
+<li><strong>Mycobacterium tuberculosis, T. pallidum, mantar</strong></li>
+<li><strong>Kronik makrofaj aktivasyonundan sitokinler sorumluur</strong></li>
+<li><strong>Tüberküloz granülamatöz hastalıkların prototipidir</strong></li>
+<li><strong>Ve granülom görüldüğünde mutlaka ekarte edilmelidir</strong></li>
+</ul></li>
+<li><strong>2) İmmün inflamatuar hastalıklar</strong>
+<ul>
+<li><strong>Crohn</strong></li>
+<li><strong>Inflamatuar barsak hastalıkları</strong></li>
+</ul></li>
+<li><strong>3) Sarkoidoz</strong></li>
+</ul>
+<p><img data-src="img%5CKronik-inflamasyon39.png"></p>
+<p><strong>RUBINS PATHOLOGY Clinicopathologic Foundations of Medicine</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon40.png"></p>
+<p><strong>Robbins and Cotran’s Pathological Basis of Diseases</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon41.png"></p>
+<p><strong>Granülomlardaki aktive makrofajlar</strong></p>
+<p><strong>Pembe granüler sitoplazma</strong></p>
+<p><strong>Belirsiz hücre sınırları</strong></p>
+<p><strong>Epiteloid makrofaj kümelerini çevreleyen lenfosit agregatları by lymphocytes</strong></p>
+<p><strong>Sıklıkla 40-50 μm boyutta çok çekirdekli dev hücreler</strong></p>
+<p><strong>Çok sayıda aktive makrofajın birleşmesiyle oluşur</strong></p>
+<p><strong>Robbins and Cotran’s Pathological Basis of Diseases</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon42.png"></p>
+<p><strong>Granülomlardaki aktive makrofajlar</strong></p>
+<p><strong>Pembe granüler sitoplazma</strong></p>
+<p><strong>Belirsiz hücre sınırları</strong></p>
+<p><strong>Pathology - The Big Picture</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon43.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon44.png"></p>
+<p><strong>Hipoksi ve serbest radikal hasarı ile merkezde nekroz zonu oluşur</strong></p>
+<p><strong>Eozinofilik, amorf, yapısız, granüler çöküntü, hücresel detay tümüyle kayıp</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon45.png"></p>
+<p><strong>Granüler ve peynirimsi görünüm nedeniyle kazeifikasyon nekrozu</strong></p>
+<p><strong>Eski ve iyileşmekte olan granülomların çevresinde fibroblast ve bağ dokudan oluşan bir sınırlayıcı doku bulunur</strong></p>
+<p><strong>Autopsy Pathology: A Manual and Atlas</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon46.png"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon47.png"></p>
+<p><strong>RUBINS PATHOLOGY Clinicopathologic Foundations of Medicine</strong></p>
+</section>
+
+<section id="mycobacterium-tuberculosis-acid-fast-ziehl-neelsen-stain-magnified-1000x." class="title-slide slide level1 center">
+<h1>Mycobacterium tuberculosisacid-fast Ziehl-Neelsen stain; Magnified 1000X.</h1>
+<p><img data-src="img%5CKronik-inflamasyon48.jpg"></p>
+<p><strong>http://phil.cdc.gov/</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon49.png"></p>
+<p><strong>RUBINS PATHOLOGY Clinicopathologic Foundations of Medicine</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon50.jpg"></p>
+<p><strong>Foreign body reaction </strong></p>
+<p><img data-src="img%5CKronik-inflamasyon51.jpg"></p>
+<p><strong>Foreign body reaction </strong></p>
+<p><img data-src="img%5CKronik-inflamasyon52.jpg"></p>
+<p><img data-src="img%5CKronik-inflamasyon53.jpg"></p>
+<p><img data-src="img%5CKronik-inflamasyon54.png"></p>
+<p><strong>RUBINS PATHOLOGY Clinicopathologic Foundations of Medicine</strong></p>
+<p><strong>The granulomas associated with Crohn disease, sarcoidosis, and foreign body reactions</strong></p>
+<p><strong>Do not have necrotic centers</strong></p>
+<p><strong>Noncaseating </strong></p>
+<p><img data-src="img%5CKronik-inflamasyon55.png"></p>
+<p><strong>Robbins and Cotran’s Pathological Basis of Diseases</strong></p>
+<p><img data-src="img%5CKronik-inflamasyon56.jpg"></p>
+<p><em>“Asistanlardan biri, Fransızca anlamadığıma hükmederek;”Tumeur blanche’ların ekseriya bol akıntılarla ciğer veremi tevlit edebileceğini anlatıyor. Mithat Bey ona susmasını ihtar etti.“</em></p>
+<p><strong>Peyami Safa - Dokuzuncu Hariciye Koğuşu</strong></p>
+</section>
+
+<section id="inflamayonun-sistemik-etkileri-akut-faz-reaksiyonu" class="title-slide slide level1 center">
+<h1>İnflamayonun sistemik etkileriAkut faz reaksiyonu</h1>
+<p><strong>Sitokinler, TNF, IL-1 ve IL-6 ile kontrol edilir</strong></p>
+</section>
+
+<section id="ateş-vücut-ısısının-artması" class="title-slide slide level1 center">
+<h1>Ateş, vücut ısısının artması</h1>
+<ul>
+<li><strong>Pirojenler hipotalamustaki vasküler ve perivasküler hücrelerde prostaglandin sentezini uyarır</strong></li>
+<li><strong>Bakteriel ürünler, lipopolisakkaritler (eksojen pirojenler)</strong>
+<ul>
+<li><strong>Lökositleri uyarır</strong></li>
+<li><strong>Sitokinler salınır (IL-1, TNF endojen pirojenler)</strong></li>
+<li><strong>Siklooksijenaz seviyeleri artar</strong></li>
+<li><strong>AA, prostoglandinlere çevrilir</strong></li>
+<li><strong>PGE 2 hipotalamus üzerinde etki eder</strong></li>
+<li><strong>Nörotransmitterler salınır</strong></li>
+<li><strong>ısı düzenleem noktası daha yüksek deviyeye ayarlanır</strong></li>
+</ul></li>
+<li><strong>NSAID (aspirin), siklooksijenazı inhibe eder</strong></li>
+</ul>
+</section>
+
+<section id="akut-faz-proteinlerinin-plazma-seviyeleri-artar" class="title-slide slide level1 center">
+<h1>Akut faz proteinlerinin plazma seviyeleri artar</h1>
+<p><strong>Çoğunlukla karaciğerde sentezlenir (IL-6)</strong></p>
+<p><strong>Akut inflamasyonda konsantrasyonları yüzlerce kat artar</strong></p>
+<p><strong>C-reactive protein (CRP)</strong></p>
+<p><strong>Fibrinojen</strong></p>
+<p><strong>Serum amyloid A (SAA) protein</strong></p>
+</section>
+
+<section id="akut-faz-proteinleri" class="title-slide slide level1 center">
+<h1>Akut faz proteinleri</h1>
+<ul>
+<li><strong>CRP ve SAA</strong>
+<ul>
+<li><strong>Mikrobiyal hücre duvarlarına bağlanır</strong></li>
+<li><strong>Opsonin olarak görev yapar</strong></li>
+<li><strong>Komplemanları sabitler</strong></li>
+</ul></li>
+<li><strong>Fibrinojen</strong>
+<ul>
+<li><strong>Eritrositlere bağlanır</strong></li>
+<li><strong>Kümeler oluşturur (rouleaux/ rulo)</strong></li>
+<li><strong>Çökme hızı tek tek eritrositlere göre daha yüksek</strong></li>
+<li><strong>Eritrosit sedimentasyon hızı (ESR)</strong></li>
+</ul></li>
+<li><strong>Klinikte ESR ve CRP takip edilerek inflamatuar yanıt takip eidlir </strong>
+<ul>
+<li><strong>romatoid artrit gibi hastalıklarda</strong></li>
+</ul></li>
+</ul>
+</section>
+
+<section id="lökositoz" class="title-slide slide level1 center">
+<h1>Lökositoz</h1>
+<ul>
+<li><strong>Ilk başta kemik iliğinden dışarıya hızlı çıkış</strong>
+<ul>
+<li><strong>sitokinler, TNF ve IL-1</strong></li>
+<li><strong>Hem matür hem immatür nötrofiller görülür</strong></li>
+<li><strong>Sola kayma</strong></li>
+</ul></li>
+<li><strong>Uzamış infeksiyonda</strong>
+<ul>
+<li><strong>Koloni uyarıcı faktörler (CSFs)</strong></li>
+<li><strong>Kemik iliğinde lökosit üretimini artırır</strong></li>
+<li><strong>Inflamatuar yanıtta tüketim yerine konur</strong></li>
+</ul></li>
+<li><strong>Çoğu bakteriyal infeksiyonda → Nötrofili</strong></li>
+<li><strong>Viral infeksiyonlar → Lenfositoz</strong></li>
+<li><strong>Bronşial astma, allerjik ateş, parazit → eozinofili</strong></li>
+<li><strong>Tifo, bazı virüsler, riketsia, bazı protozoa → lökopeni</strong></li>
+</ul>
+</section>
+
+<section id="akut-faz-cevabının-diğer-bulguları" class="title-slide slide level1 center">
+<h1>Akut faz cevabının diğer bulguları</h1>
+<ul>
+<li><strong>Kalp hızı ve basıncında artış</strong></li>
+<li><strong>Terlemede azalma</strong></li>
+<li><strong>Titreme</strong></li>
+<li><strong>Üşüme hissi</strong></li>
+<li><strong>Anoreksi</strong></li>
+<li><strong>Uykusuzluk</strong></li>
+<li><strong>Halsizlik</strong></li>
+<li><strong>TNF</strong>
+<ul>
+<li><strong>Dissemine intravasküler koagülasyon (DIC)</strong></li>
+<li><strong>Asidoz</strong></li>
+<li><strong>Hipotensif şok</strong></li>
+</ul></li>
+</ul>
+
+<img data-src="img%5CKronik-inflamasyon57.jpg" class="r-stretch"><div class="footer footer-default">
+
+</div>
+</section>
+    </div>
+  </div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="kronik-inflamasyon_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="kronik-inflamasyon_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="kronik-inflamasyon_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="kronik-inflamasyon_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="kronik-inflamasyon_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="kronik-inflamasyon_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="kronik-inflamasyon_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="kronik-inflamasyon_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="kronik-inflamasyon_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="kronik-inflamasyon_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'smaller': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button', {
+        text: function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+      });
+      clipboard.on('success', function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Kopyalandı");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Kopyalandı");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      });
+      function tippyHover(el, contentFn) {
+        const config = {
+          allowHTML: true,
+          content: contentFn,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start'
+        };
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          return note.innerHTML;
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    
+
+</body></html>
