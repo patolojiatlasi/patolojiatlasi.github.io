@@ -52,7 +52,7 @@ book:
 #  repo-branch: main
 #  repo-actions: [edit, issue, source]
   sharing: [twitter, facebook, linkedin]
-  downloads: epub # [pdf, epub]
+  downloads: [epub, pdf, docx]
   search:
     location: navbar
     type: overlay
@@ -257,8 +257,8 @@ book:
           href: wsi.qmd
         - text: "GBDAtlas"
           href: gbd.qmd
-        - text: "Hacettepe Case of Month"
-          href: hacettepecom.qmd
+        # - text: "Hacettepe Case of Month"
+        #   href: hacettepecom.qmd
         - text: "BSAtlas"
           href: bs.qmd
         - text: "ICEtlas"
@@ -267,7 +267,7 @@ book:
     - references.qmd
     - part: "---"
   appendices:
-    - yonetim-gelistirme.md
+    # - yonetim-gelistirme.md
     - text: "Contributions are welcome"
       href: katki.qmd
     - text: "Comments are welcome"
@@ -332,23 +332,23 @@ format:
     epub-cover-image: images/cover.png
     execute:
       warning: false
-#   pdf:
-#     documentclass: scrreprt
-#     toc: true
-#     toc-depth: 3
-#     toc-title: "İçindekiler"
-#     number-sections: true
-#     number-depth: 3
-#     colorlinks: true
-#     highlight-style: github
-#   docx:
-#     toc: true
-#     section-numbers: true
-#     highlight-style: github
-#     toc-depth: 3
-#     toc-title: "İçindekiler"
-#     number-sections: true
-#     number-depth: 3
+  pdf:
+    documentclass: scrreprt
+    toc: true
+    toc-depth: 3
+    # toc-title: "İçindekiler"
+    number-sections: true
+    number-depth: 3
+    colorlinks: true
+    highlight-style: github
+  docx:
+    toc: true
+    section-numbers: true
+    highlight-style: github
+    toc-depth: 3
+    # toc-title: "İçindekiler"
+    number-sections: true
+    number-depth: 3
 
 
 citation:
