@@ -352,17 +352,17 @@ format:
     execute:
       warning: false
 
-  pdf:
-    documentclass: scrreprt
-    toc: true
-    toc-depth: 3
-    toc-title: "İçindekiler"
-    number-sections: true
-    number-depth: 3
-    colorlinks: true
-    highlight-style: github
-    execute:
-      warning: false
+#  pdf:
+#    documentclass: scrreprt
+#    toc: true
+#    toc-depth: 3
+#    toc-title: "İçindekiler"
+#    number-sections: true
+#    number-depth: 3
+#    colorlinks: true
+#    highlight-style: github
+#    execute:
+#      warning: false
     # include-in-header:
     #   - text: |
     #       \usepackage{titlesec}
