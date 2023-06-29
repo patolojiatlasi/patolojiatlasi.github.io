@@ -4,7 +4,7 @@
 # ./git_push2.sh
 
 files=( $(find ./ -type f) )   # Find all files in the current directory and subdirectories
-batch_size=2000                 # Define the batch size
+batch_size=1000                 # Define the batch size
 total_files=${#files[@]}       # Get total number of files
 batches=$((($total_files + $batch_size - 1) / $batch_size))
 
@@ -29,5 +29,13 @@ do
   echo "Push start after adding files from $start to $end"
   git push origin
   echo "Pushed files from $start to $end"
-  sleep 10
+  sleep 20
 done
+
+
+# git add *.qmd
+# git commit -m "qmd files"
+# git add *.yml
+# git commit -m "yml files"
+# git push origin
+

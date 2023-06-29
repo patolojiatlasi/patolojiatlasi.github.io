@@ -356,6 +356,17 @@ webshot2::webshot(
 }
 ```
 
+```{r case 4-2 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/hacettepe-com-case-4-2_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/hacettepe-com-case-4/HE2.html",
+  file = "./screenshots/hacettepe-com-case-4-2_screenshot.png",
+  delay = 10
+)
+}
+```
+
+
 -   [case 4](https://www.youtube.com/watch?v=Akp6H3myCIo&ab_channel=KemalKosemehmetoglu)
 
 {{< video https://www.youtube.com/embed/Akp6H3myCIo >}}
@@ -1095,7 +1106,7 @@ See Microscopy with viewer:
 
 ```
 
-```{rcase 11 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{r case 11 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-11_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-11/HE.html",
