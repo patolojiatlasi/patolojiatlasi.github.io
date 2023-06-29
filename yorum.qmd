@@ -6,13 +6,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{asis, echo = (language == "TR")}
-<center><strong>Lütfen, her sayfanın altında bulunan yorum kısmını kullanarak atlasın geliştirilmesine katılın.</strong></center>
+Lütfen, her sayfanın altında bulunan yorum kısmını kullanarak atlasın geliştirilmesine katılın.
 ```
 
 
 ```{asis, echo = (language == "EN")}
-<center><strong>Please participate in the development of the atlas by using the comment section at the bottom of each page.</strong></center>
-
+Please participate in the development of the atlas by using the comment section at the bottom of each page.
 ```
 
 
