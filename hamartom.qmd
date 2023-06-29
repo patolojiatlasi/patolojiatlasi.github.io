@@ -10,10 +10,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ## Hamartomatöz Polip {#sec-hamartomatoz-polip}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/hamartomatouspolyp_screenshot.png")) {
 webshot2::webshot(delay=10,
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html",
+  file = "./screenshots/hamartomatouspolyp_screenshot.png"
 )
 }
 ```
@@ -38,10 +38,10 @@ Mikroskopik görüntüleri inceleyin:
 ## Schwann Cell Hamartoma in a Colon Polyp {#sec-schwann-cell-hamartoma-colon-polyp}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/schwanncellhamartoma_screenshot.png")) {
 webshot2::webshot(delay=10,
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html",
+  file = "./screenshots/schwanncellhamartoma_screenshot.png"
 )
 }
 ```

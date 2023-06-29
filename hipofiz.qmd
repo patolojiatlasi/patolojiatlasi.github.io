@@ -18,10 +18,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/pituitary-adenoma_screenshot.png")) {
 webshot2::webshot(delay=10,
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/pituitary-adenoma/HE.html",
+  file = "./screenshots/pituitary-adenoma_screenshot.png"
 )
 }
 ```
@@ -31,7 +31,7 @@ webshot2::webshot(delay=10,
 **Hipofiz Adenomu**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pituitary-adenoma/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/pituitary-adenoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/pituitary-adenoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pituitary-adenoma/HE.html)
 
 ```
 
@@ -49,7 +49,7 @@ Mikroskopik görüntüleri inceleyin:
 **Pituitary Adenoma**
 
 
-[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pituitary-adenoma/HE.html)
+[![Click for Full Screen WSI](./screenshots/pituitary-adenoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/pituitary-adenoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pituitary-adenoma/HE.html)
 
 ```
 
