@@ -5,11 +5,11 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
-```{asis, echo = (language == "TR")}
+```{asis viruslar, echo = (language == "TR")}
 # Viruslar {#sec-viruslar}
 ```
 
-```{asis, echo = (language == "EN")}
+```{asis virus, echo = (language == "EN")}
 # Virus {#sec-virus}
 ```
 
@@ -59,7 +59,7 @@ Tıklayın](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.ht
 
 
 
-```{asis, echo = ((language=="TR") & (output_type=="html"))}
+```{asis herpesesophagitis iframe, echo = ((language=="TR") & (output_type=="html"))}
 
 Mikroskopik görüntüleri inceleyin:
 
