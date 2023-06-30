@@ -39,11 +39,19 @@ if (file.exists("./EN/CNAME")){
   fs::file_delete(path = "./EN/CNAME")
 }
 
+if (dir.exists(paths = "./EN/public")) {
+  fs::dir_delete(path = "./EN/public")
+}
 
+if (dir.exists(paths = "./EN/docs")) {
+  fs::dir_delete(path = "./EN/docs")
+}
+
+if (dir.exists(paths = "./_freeze")) {
 fs::dir_copy(path = "./_freeze",
              new_path = "./_freeze_EN",
              overwrite = TRUE)
-
+}
 
 # prepare TR ----
 
@@ -74,12 +82,25 @@ quarto::quarto_render(".", as_job = FALSE)
 
 Sys.sleep(2)
 
+if (dir.exists(paths = "./_freeze")) {
 fs::dir_copy(path = "./_freeze",
              new_path = "./_freeze_TR",
              overwrite = TRUE)
+}
 
 Sys.sleep(2)
 
+if (dir.exists(paths = "./docs/public")) {
+  fs::dir_delete(path = "./docs/public")
+}
+
+if (dir.exists(paths = "./docs/EN")) {
+  fs::dir_delete(path = "./docs/EN")
+}
+
+if (dir.exists(paths = "./public")) {
+  fs::dir_delete(path = "./public")
+}
 
 fs::dir_copy(path = "./docs", new_path = "./public", overwrite = TRUE)
 

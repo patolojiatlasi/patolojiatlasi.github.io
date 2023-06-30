@@ -1,3 +1,0 @@
-# Amiloidoz
-Serdar Balcı
-
