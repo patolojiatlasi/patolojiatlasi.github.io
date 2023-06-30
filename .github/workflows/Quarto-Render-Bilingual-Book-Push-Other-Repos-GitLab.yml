@@ -134,6 +134,7 @@ jobs:
         shell: Rscript {0}
         run: |
           if (file.exists("./EN/CNAME")){fs::file_delete(path = "./EN/CNAME")}
+          if (dir.exists(paths = "./EN/public")) {fs::dir_delete(path = "./EN/public")}
           # prepare TR
           if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
           if (dir.exists(paths = "./_freeze_TR")) { fs::dir_copy(path = "./_freeze_TR", new_path = "./_freeze", overwrite = TRUE) }
@@ -148,7 +149,7 @@ jobs:
           if (file.exists("./public/CNAME")){fs::file_delete(path = "./public/CNAME")}
           if (dir.exists(paths = "./docs/EN/lecture-notes")) { fs::dir_delete(path = "./docs/EN/lecture-notes") }
           if (dir.exists(paths = "./docs/EN")) { fs::dir_delete(path = "./docs/EN") }
-
+          if (dir.exists(paths = "./docs/public")) {fs::dir_delete(path = "./docs/public")}
 
 #      - name: "render TR"
 #        run: |
