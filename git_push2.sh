@@ -3,6 +3,10 @@
 # chmod +x git_push2.sh
 # ./git_push2.sh
 
+git lfs track "*.pdf"
+git lfs track "*.docx"
+git lfs track "*.epub"
+
 files=( $(find ./ -type f) )   # Find all files in the current directory and subdirectories
 batch_size=1000                 # Define the batch size
 total_files=${#files[@]}       # Get total number of files
