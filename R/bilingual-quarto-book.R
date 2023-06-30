@@ -25,10 +25,11 @@ if (dir.exists(paths = "./_freeze")) {
   fs::dir_delete(path = "./_freeze")
 }
 
+if (dir.exists(paths = "./_freeze_EN")) {
 fs::dir_copy(path = "./_freeze_EN",
              new_path = "./_freeze",
              overwrite = TRUE)
-
+}
 
 # render EN ----
 
@@ -68,9 +69,11 @@ if (dir.exists(paths = "./_freeze")) {
   fs::dir_delete(path = "./_freeze")
 }
 
+if (dir.exists(paths = "./_freeze_TR")) {
 fs::dir_copy(path = "./_freeze_TR",
              new_path = "./_freeze",
              overwrite = TRUE)
+}
 
 
 # render TR ----
