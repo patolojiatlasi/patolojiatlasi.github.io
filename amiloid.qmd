@@ -118,10 +118,19 @@ See Microscopy with viewer:
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/congoredvideo_screenshot.png")) {
 webshot2::webshot(
-  url = "https://www.youtube.com/embed/U9glkfQLTm4",
+  url = "https://www.youtube.com/watch?v=U9glkfQLTm4",
   file = "./screenshots/congoredvideo_screenshot.png",
-  delay = 10
+  delay = 20
 )
+}
+```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/congoredvideo_screenshot.png")) {
+
+url <- "https://img.youtube.com/vi/U9glkfQLTm4/maxresdefault.jpg"
+download.file(url, destfile = "./screenshots/congoredvideo_screenshot.png", mode = "wb")
 }
 ```
 
