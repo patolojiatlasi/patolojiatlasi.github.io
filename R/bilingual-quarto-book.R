@@ -11,6 +11,14 @@ if (!requireNamespace("fs", quietly = TRUE)) {
   install.packages("fs")
 }
 
+if (!requireNamespace("tinytex", quietly = TRUE)) {
+  install.packages("tinytex")
+}
+
+if (!tinytex::is_tinytex()) {
+  tinytex::install_tinytex()
+}
+
 # prepare EN ----
 
 fs::file_copy(path = "./_quarto_EN.yml",
@@ -92,6 +100,11 @@ fs::dir_copy(path = "./_freeze",
 }
 
 Sys.sleep(2)
+
+if (dir.exists(paths = "./_freeze")) {
+  fs::dir_delete(path = "./_freeze")
+}
+
 
 if (dir.exists(paths = "./docs/public")) {
   fs::dir_delete(path = "./docs/public")
