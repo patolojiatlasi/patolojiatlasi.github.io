@@ -59,7 +59,7 @@ book:
 #  repo-branch: main
 #  repo-actions: [edit, issue, source]
   sharing: [twitter, facebook, linkedin]
-  downloads: [epub, pdf, docx]
+#   downloads: [epub, pdf, docx]
   search:
     location: navbar
     type: overlay
@@ -345,14 +345,14 @@ format:
           <script src="webpages.js"></script>
       - file: "./header1.html"
 
-  epub:
-    toc: true
-    toc-title: "İçindekiler"
-    epub-cover-image: images/cover.png
-    execute:
-      warning: false
-    css:
-      epub.css
+#   epub:
+#     toc: true
+#     toc-title: "İçindekiler"
+#     epub-cover-image: images/cover.png
+#     execute:
+#       warning: false
+#     css:
+#       epub.css
 
 #   pdf:
 #     keep-tex: true
@@ -393,16 +393,16 @@ format:
 #         }
 #     fig-pos: 'H'
 
-  docx:
-    toc: true
-    section-numbers: true
-    highlight-style: github
-    toc-depth: 3
-    toc-title: "İçindekiler"
-    number-sections: true
-    number-depth: 3
-    execute:
-      warning: false
+#   docx:
+#     toc: true
+#     section-numbers: true
+#     highlight-style: github
+#     toc-depth: 3
+#     toc-title: "İçindekiler"
+#     number-sections: true
+#     number-depth: 3
+#     execute:
+#       warning: false
 
 
 citation:
