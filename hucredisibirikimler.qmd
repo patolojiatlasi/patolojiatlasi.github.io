@@ -14,10 +14,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/ochronosis_screenshot.png")) {
 webshot2::webshot(delay=10,
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/ochronosis/HE.html",
+  file = "./screenshots/ochronosis_screenshot.png"
 )
 }
 ```
@@ -27,7 +27,7 @@ webshot2::webshot(delay=10,
 **Okronozis**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ochronosis/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/ochronosis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ochronosis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ochronosis/HE.html)
 
 ```
 
@@ -45,7 +45,7 @@ Mikroskopik görüntüleri inceleyin:
 **Ochronosis**
 
 
-[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ochronosis/HE.html)
+[![Click for Full Screen WSI](./screenshots/ochronosis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ochronosis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ochronosis/HE.html)
 
 ```
 

@@ -282,16 +282,27 @@ Mikroskopik görüntüleri inceleyin:
 Torakal bölge lenf nodunda antrakotik pigment
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/anthracosis1_screenshot.png")) {
 webshot2::webshot(delay=10,
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/anthracosis/HE.html",
+  file = "./screenshots/anthracosis1_screenshot.png"
 )
 }
 ```
 
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/anthracosis2_screenshot.png")) {
+webshot2::webshot(delay=10,
+  url = "https://images.patolojiatlasi.com/anthracosis/HE.html",
+  file = "./screenshots/anthracosis2_screenshot.png"
+)
+}
+```
+
+
 [![Click for Full Screen
-WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+WSI](./screenshots/anthracosis1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/anthracosis/HE.html)
 [Click for Full Screen
 WSI](https://images.patolojiatlasi.com/anthracosis/HE.html)
 
@@ -306,7 +317,7 @@ See Microscopy with viewer:
 ```
 
 [![Click for Full Screen
-WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+WSI](./screenshots/anthracosis2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/anthracosis/HE2.html)
 [Click for Full Screen
 WSI](https://images.patolojiatlasi.com/anthracosis/HE2.html)
 
@@ -324,10 +335,10 @@ See Microscopy with viewer:
 ## Melanosis Coli {#sec-melanosis-coli}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/melanosiscoli-HE_screenshot.png")) {
 webshot2::webshot(delay=10,
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/melanosiscoli/HE.html",
+  file = "./screenshots/melanosiscoli-HE_screenshot.png"
 )
 }
 ```
@@ -336,7 +347,7 @@ webshot2::webshot(delay=10,
 
 **Melanozis Koli**
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/melanosiscoli/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/melanosiscoli-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/melanosiscoli/HE.html)
 
 ```
 
@@ -366,10 +377,10 @@ See Microscopy with viewer:
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/melanosiscoli-PAS_screenshot.png")) {
 webshot2::webshot(delay=10,
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/melanosiscoli/PAS.html",
+  file = "./screenshots/melanosiscoli-PAS_screenshot.png"
 )
 }
 ```
@@ -378,7 +389,7 @@ webshot2::webshot(delay=10,
 
 **Melanozis Koli PAS**
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/melanosiscoli/PAS.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/melanosiscoli-PAS_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/PAS.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/melanosiscoli/PAS.html)
 
 ```
 
@@ -395,7 +406,7 @@ Mikroskopik görüntüleri inceleyin:
 
 **Melanosis Coli PAS**
 
-[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/melanosiscoli/PAS.html)
+[![Click for Full Screen WSI](./screenshots/melanosiscoli-PAS_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/PAS.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/melanosiscoli/PAS.html)
 
 ```
 

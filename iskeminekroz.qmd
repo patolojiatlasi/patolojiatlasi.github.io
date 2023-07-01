@@ -23,10 +23,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 **Yağ dokuda yağ nekrozu ve sabunlaşma**
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/fat-necrosis_screenshot.png")) {
 webshot2::webshot(delay=10,
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/fat-necrosis/HE.html",
+  file = "./screenshots/fat-necrosis_screenshot.png"
 )
 }
 ```
@@ -34,7 +34,7 @@ webshot2::webshot(delay=10,
 
 ```{asis, echo = (language == "TR")}
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+Tıklayın](./screenshots/fat-necrosis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/fat-necrosis/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/fat-necrosis/HE.html)
 ```

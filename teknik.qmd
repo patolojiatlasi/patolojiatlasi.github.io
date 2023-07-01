@@ -72,7 +72,8 @@ asis, echo = (language == "TR")
 ```
 
 
-```{asis, echo = ((language=="TR") & (output_type=="html"))}
+```{comment}
+  asis, echo = ((language=="TR") & (output_type=="html"))
 
 İşaretlenmiş Mikroskopik görüntüleri inceleyin:
 
@@ -223,7 +224,8 @@ asis, echo = (language == "TR")
 ```
 
 
-```{asis, echo = ((language=="TR") & (output_type=="html"))}
+```{comment}
+  asis, echo = ((language=="TR") & (output_type=="html"))
 
 İşaretlenmiş Mikroskopik görüntüleri inceleyin:
 
