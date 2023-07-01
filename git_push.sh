@@ -10,9 +10,17 @@
 # git push origin
 
 
-git lfs track "*.pdf"
-git lfs track "*.docx"
-git lfs track "*.epub"
+# git lfs track "*.pdf"
+# git lfs track "*.docx"
+# git lfs track "*.epub"
+
+# git lfs track
+
+# git lfs untrack "*.pdf"
+# git lfs untrack "*.docx"
+# git lfs untrack "*.epub"
+
+
 
 files=( $(find ./ -type f) )   # Find all files in the current directory and subdirectories
 # files=( $(find ./CD3_files -type f) )
