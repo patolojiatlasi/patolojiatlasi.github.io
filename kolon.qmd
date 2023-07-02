@@ -1,17 +1,24 @@
-```{r language ischemic-colitis, echo=FALSE, include=TRUE}
-source("./R/language.R")
-output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
-```
-```{asis, echo = (language == "TR")}
 ---
-title: "Kolon Patolojisi"
 description: "Kalın barsak benign ve malign hastalıkları"
-author: "Serdar Balcı"
 date: last-modified
 categories: [kolon, tumor]
 page-layout: full
 ---
+
+```{r language ischemic-colitis, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
+
+
+```{asis, echo = (language == "TR")}
+# Kolon Patolojisi {#sec-kolon-patolojisi} 
+```
+
+```{asis, echo = (language == "EN")}
+# Pathology of Colon {#sec-pathology-of-colon} 
+```
+
 
 ```{asis, echo = (language == "TR")}
 ## İskemik Kolit {#sec-iskemik-kolit} 
@@ -23,9 +30,10 @@ page-layout: full
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  file = "./screenshots/template_screenshot.png",
+  delay = 10
 )
 }
 ```
