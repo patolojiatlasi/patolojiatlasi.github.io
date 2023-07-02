@@ -1,6 +1,13 @@
-# lymphocytic-gastritis
+---
+description: |
+    TemplateEN
+    TemplateTR
+date: last-modified
+categories: [template]
+page-layout: full
+bibliography: references.bib
+---
 
-**lymphocytic-gastritis for pathology atlas repositories**
 
 ```{r language lymphocytic-gastritis, echo=FALSE, include=TRUE}
 
@@ -8,6 +15,19 @@ source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
+
+```{asis, echo = (language == "TR")}
+
+# Gastrit {#sec-gastrit}
+
+```
+
+```{asis, echo = (language == "EN")}
+
+# Gastritis {#sec-gastritis}
+
+```
+
 
 ```{asis, echo = (language == "TR")}
 

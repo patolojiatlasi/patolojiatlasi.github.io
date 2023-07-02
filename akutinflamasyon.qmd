@@ -1,3 +1,13 @@
+---
+description: |
+    TemplateEN
+    TemplateTR
+date: last-modified
+categories: [template]
+page-layout: full
+bibliography: references.bib
+---
+
 ```{r language acute-appendicitis, echo=FALSE, include=TRUE}
 
 source("./R/language.R")

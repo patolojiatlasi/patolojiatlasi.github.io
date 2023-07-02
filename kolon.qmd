@@ -3,7 +3,9 @@ description: "Kalın barsak benign ve malign hastalıkları"
 date: last-modified
 categories: [kolon, tumor]
 page-layout: full
+bibliography: references.bib
 ---
+
 
 ```{r language ischemic-colitis, echo=FALSE, include=TRUE}
 source("./R/language.R")
