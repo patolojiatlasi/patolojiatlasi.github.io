@@ -1,3 +1,8 @@
+```{r language ischemic-colitis, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+```{asis, echo = (language == "TR")}
 ---
 title: "Kolon Patolojisi"
 description: "Kalın barsak benign ve malign hastalıkları"
@@ -6,10 +11,6 @@ date: last-modified
 categories: [kolon, tumor]
 page-layout: full
 ---
-
-```{r language ischemic-colitis, echo=FALSE, include=TRUE}
-source("./R/language.R")
-output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{asis, echo = (language == "TR")}

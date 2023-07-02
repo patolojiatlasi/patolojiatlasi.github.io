@@ -21,6 +21,19 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
+
+```{r, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/lymphocytic-gastritis-all_screenshot.png")) {
+webshot2::webshot(delay=10,
+  url = "https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html",
+  file = "./screenshots/lymphocytic-gastritis-all_screenshot.png"
+)
+}
+
+
+```
+
+
 ```{r, eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/lymphocytic-gastritisHE_screenshot.png")) {
 webshot2::webshot(delay=10,
@@ -62,6 +75,17 @@ webshot2::webshot(delay=10,
 )
 }
 
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+**lenfositik gastrit**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/lymphocytic-gastritis-all_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html)
 
 ```
 

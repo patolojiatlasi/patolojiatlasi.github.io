@@ -37,9 +37,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/tubularadenoma-flat1_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(
   url = "https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html",
-  file = "./screenshots/tubularadenoma-flat1_screenshot.png"
+  file = "./screenshots/tubularadenoma-flat1_screenshot.png",
+  delay = 10
 )
 }
 ```
