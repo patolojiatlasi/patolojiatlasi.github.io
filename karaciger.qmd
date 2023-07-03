@@ -1,7 +1,11 @@
 ---
-description: | 
+description: |
     Karaciğer Hastalıkları
     Karaciğer Tümörleri
+date: last-modified
+categories: [template]
+page-layout: full
+bibliography: references.bib
 ---
 
 ```{r language karaciger, echo=FALSE, include=TRUE}

@@ -1,3 +1,11 @@
+---
+description: "TemplateEN, TemplateTR, patoloji, atlas, pathology, whole slide image templateTR"
+date: last-modified
+categories: [template]
+page-layout: full
+bibliography: references.bib
+---
+
 ```{r language gastritis-cystica-profunda, echo=FALSE, include=TRUE}
 source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")

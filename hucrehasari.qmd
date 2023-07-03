@@ -1,3 +1,13 @@
+---
+description: |
+    TemplateEN, TemplateTR, patoloji, atlas, pathology, whole slide image
+    TemplateTR
+date: last-modified
+categories: [template]
+page-layout: full
+bibliography: references.bib
+---
+
 ```{r language reactive-atypia, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
@@ -20,10 +30,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/reactive-atypia_screenshot.png")) {
 webshot2::webshot(delay=10,
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/reactive-atypia/HE.html",
+  file = "./screenshots/reactive-atypia_screenshot.png"
 )
 }
 ```
@@ -33,7 +43,7 @@ webshot2::webshot(delay=10,
 **Reaktif Atipi, ülsere kolon polibi**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/reactive-atypia/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/reactive-atypia_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/reactive-atypia/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/reactive-atypia/HE.html)
 
 ```
 
@@ -51,7 +61,7 @@ Mikroskopik görüntüleri inceleyin:
 **Reactive atypia in an ulcerated colon polyp**
 
 
-[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/reactive-atypia/HE.html)
+[![Click for Full Screen WSI](./screenshots/reactive-atypia_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/reactive-atypia/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/reactive-atypia/HE.html)
 
 ```
 

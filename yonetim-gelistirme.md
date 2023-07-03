@@ -331,3 +331,40 @@ knitr::include_url(url = "https://images.patolojiatlasi.com/ectopic-adrenal/HE.h
 ```
 
 
+
+This is how you can show verbatim code chunks in the output. This is using
+a `{verbatim}` chunk (check the source `index.qmd`):
+
+````{verbatim}
+```{r}
+a very long line of R code that wraps in html, epub and PDF! In a pdf especially this is needed
+```
+````
+
+If you want to show the triple backticks inline, you can also do so, like this:
+```` ```{r} ```` to start an R chunk and ```` ``` ```` to end it. Check the source.
+
+## Figures
+
+Use `knitr::include_graphics()` to include images. Check the source for how to add
+labels and captions:
+
+```{r}
+#| label: fig-gosling
+#| fig-cap: "Ryan Gosling looking angry."
+knitr::include_graphics("images/gosling.jpg")
+```
+
+See @fig-gosling for a meme.
+
+## Conditional content
+
+The block below does not appear in the PDF, only on the website and Epub:
+
+::: {.content-hidden when-format="pdf"}
+Hello, I won't appear in the PDF!
+:::
+
+::: {.content-visible when-format="pdf"}
+But this text here, will only appear in the PDF!
+:::

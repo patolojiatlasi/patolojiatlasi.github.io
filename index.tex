@@ -5,8 +5,11 @@
 %
 \documentclass[
   letterpaper,
-  DIV=11,
-  numbers=noendperiod]{scrreprt}
+  paper=6in:9in,
+  pagesize=pdftex,
+  headinclude=on,
+  footinclude=on,
+  12pt]{scrbook}
 
 \usepackage{amsmath,amssymb}
 \usepackage{iftex}
@@ -139,7 +142,9 @@
 \newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
-\KOMAoption{captions}{tableheading}
+\usepackage{fvextra}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+\areaset[0.50in]{4.5in}{8in}
 \makeatletter
 \makeatother
 \makeatletter
@@ -149,36 +154,36 @@
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
 \ifdefined\contentsname
-  \renewcommand*\contentsname{Içindekiler}
+  \renewcommand*\contentsname{Table of contents}
 \else
-  \newcommand\contentsname{Içindekiler}
+  \newcommand\contentsname{Table of contents}
 \fi
 \ifdefined\listfigurename
-  \renewcommand*\listfigurename{Şekil Listesi}
+  \renewcommand*\listfigurename{List of Figures}
 \else
-  \newcommand\listfigurename{Şekil Listesi}
+  \newcommand\listfigurename{List of Figures}
 \fi
 \ifdefined\listtablename
-  \renewcommand*\listtablename{Tablo Listesi}
+  \renewcommand*\listtablename{List of Tables}
 \else
-  \newcommand\listtablename{Tablo Listesi}
+  \newcommand\listtablename{List of Tables}
 \fi
 \ifdefined\figurename
-  \renewcommand*\figurename{Figür}
+  \renewcommand*\figurename{Figure}
 \else
-  \newcommand\figurename{Figür}
+  \newcommand\figurename{Figure}
 \fi
 \ifdefined\tablename
-  \renewcommand*\tablename{Tablo}
+  \renewcommand*\tablename{Table}
 \else
-  \newcommand\tablename{Tablo}
+  \newcommand\tablename{Table}
 \fi
 }
 \@ifpackageloaded{float}{}{\usepackage{float}}
 \floatstyle{ruled}
 \@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
-\floatname{codelisting}{Listeleme}
-\newcommand*\listoflistings{\listof{codelisting}{İlan Listesi}}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
 \makeatother
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
@@ -199,7 +204,7 @@
 \else
 \usepackage[bidi=default]{babel}
 \fi
-\babelprovide[main,import]{turkish}
+\babelprovide[main,import]{english}
 % get rid of language-specific shorthands (see #6817):
 \let\LanguageShortHands\languageshorthands
 \def\languageshorthands#1{}
@@ -210,39 +215,46 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
-  pdftitle={Patoloji Atlası},
-  pdfauthor={Serdar Balcı; Patoloji Hekim ve Teknikerleri},
-  pdflang={tr},
+  pdftitle={Pathology Atlas},
+  pdfauthor={Serdar Balcı; Pathologists, Assistants and Technicians},
+  pdflang={en},
   colorlinks=true,
-  linkcolor={blue},
+  linkcolor={Maroon},
   filecolor={Maroon},
   citecolor={Blue},
   urlcolor={Blue},
   pdfcreator={LaTeX via pandoc}}
 
-\title{Patoloji Atlası}
+\title{Pathology Atlas}
 \usepackage{etoolbox}
 \makeatletter
 \providecommand{\subtitle}[1]{% add subtitle to \maketitle
   \apptocmd{\@title}{\par {\large #1 \par}}{}{}
 }
 \makeatother
-\subtitle{Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri
-İçin Patoloji Laboratuvar Notları: Görerek Öğrenin}
-\author{Serdar Balcı \and Patoloji Hekim ve Teknikerleri}
-\date{2023-06-30}
+\subtitle{Pathology Atlas and Notes for Medical Students: See and Learn}
+\author{Serdar Balcı \and Pathologists, Assistants and Technicians}
+\date{2023-07-01}
 
 \begin{document}
+\frontmatter
 \maketitle
 \begin{abstract}
-Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin
-Patoloji Laboratuvar Notları. Görerek Öğrenin. Patoloji Atlası Memorial
-Patoloji arşivinden derlenen vakalardan ve diğer kurumlardan katkı yapan
-meslektaşlarımızın kolleksiyonlarından oluşmaktadır. Katkı yapmak ve
-kendi vakalarınız ekletmek için lütfen
-\href{https://www.patolojiatlasi.com/katki.html}{iletişime geçin}.
+Pathology Atlas and Notes for Medical Students: See and Learn Pathology
+Lecture Notes and Pathology Atlas is being prepared from Memorial
+Pathology Archive and collaborators from other institutions. If you want
+to contribute, please
+\href{https://www.patolojiatlasi.com/katki.html}{contact us}.
 \end{abstract}
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, borderline west={3pt}{0pt}{shadecolor}, sharp corners, enhanced, boxrule=0pt, frame hidden, breakable]}{\end{tcolorbox}}\fi
+\RecustomVerbatimEnvironment{verbatim}{Verbatim}{
+   showspaces = false,
+   showtabs = false,
+   breaksymbolleft={},
+   breaklines
+   % Note: setting commandchars=\\\{\} here will cause an error
+}
+
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, enhanced, sharp corners, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, frame hidden, interior hidden]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{İçindekiler}
 {
@@ -250,6 +262,7 @@ kendi vakalarınız ekletmek için lütfen
 \setcounter{tocdepth}{2}
 \tableofcontents
 }
+\mainmatter
 \bookmarksetup{startatroot}
 
 \hypertarget{sec-patoloji-atlasi}{%
@@ -258,10 +271,10 @@ kendi vakalarınız ekletmek için lütfen
 
 \markboth{Patoloji Atlası}{Patoloji Atlası}
 
-For English \href{https://www.patolojiatlasi.com/EN/}{click here}.
+\href{https://www.patolojiatlasi.com/}{Türkçe Atlas için tıklayın}
 
-Sosyal medyadan derlenen görüntülerden oluşan patoloji notları için
-\href{https://www.patolojinotlari.com/}{tıklayınız}.
+For social media based pathology notes
+\href{https://www.patolojinotlari.com/}{click here}
 
 \bookmarksetup{startatroot}
 
@@ -277,7 +290,7 @@ yapan meslektaşlarımızın kolleksiyonlarından oluşmaktadır.\\
 \href{https://www.patolojiatlasi.com/katki.html}{Katkı yapmak ve kendi
 vakalarınız ekletmek için lütfen iletişime geçin}.
 
-Son güncelleme zamanı: 2023-06-29 23:04:41.851715
+Son güncelleme zamanı: 2023-07-01 14:46:02.54757
 
 Sosyal medyadan derlenen görüntülerden oluşan
 \href{https://www.patolojinotlari.com/}{patoloji notları için
@@ -285,19 +298,17 @@ tıklayınız}.
 
 \bookmarksetup{startatroot}
 
-\hypertarget{sec-yazarlar-katkida-bulunanlar}{%
-\chapter*{Yazarlar ve Katkıda
-Bulunanlar}\label{sec-yazarlar-katkida-bulunanlar}}
-\addcontentsline{toc}{chapter}{Yazarlar ve Katkıda Bulunanlar}
+\hypertarget{sec-authors-contributors}{%
+\chapter*{Authors and Contributors}\label{sec-authors-contributors}}
+\addcontentsline{toc}{chapter}{Authors and Contributors}
 
-\markboth{Yazarlar ve Katkıda Bulunanlar}{Yazarlar ve Katkıda
-Bulunanlar}
+\markboth{Authors and Contributors}{Authors and Contributors}
 
-\hypertarget{sec-derleyen}{%
-\section*{Derleyen:}\label{sec-derleyen}}
-\addcontentsline{toc}{section}{Derleyen:}
+\hypertarget{sec-editor}{%
+\section*{Editor:}\label{sec-editor}}
+\addcontentsline{toc}{section}{Editor:}
 
-\markright{Derleyen:}
+\markright{Editor:}
 
 \begin{itemize}
 \tightlist
@@ -305,14 +316,14 @@ Bulunanlar}
   \href{https://www.serdarbalci.com}{Serdar Balcı}
 \end{itemize}
 
-\hypertarget{sec-katkida-bulunanlar}{%
-\section*{Katkıda Bulunanlar:}\label{sec-katkida-bulunanlar}}
-\addcontentsline{toc}{section}{Katkıda Bulunanlar:}
+\hypertarget{sec-contributors}{%
+\section*{Contributors:}\label{sec-contributors}}
+\addcontentsline{toc}{section}{Contributors:}
 
-\markright{Katkıda Bulunanlar:}
+\markright{Contributors:}
 
-\href{https://patoloji.memorial.com.tr/}{\textbf{Memorial Patoloji}}
-\textbf{Hekimleri}
+\href{https://patoloji.memorial.com.tr/}{\textbf{Memorial Pathology}}
+\textbf{Physicians}
 
 \begin{itemize}
 \item
@@ -364,8 +375,8 @@ Bulunanlar}
   Pehlivanoğlu}
 \end{itemize}
 
-\href{https://patoloji.memorial.com.tr/}{\textbf{Memorial Patoloji}}
-\textbf{Teknikerleri}
+\href{https://patoloji.memorial.com.tr/}{\textbf{Memorial Pathology}}
+\textbf{Pathology Assistants}
 
 \begin{itemize}
 \item
@@ -387,12 +398,12 @@ Bulunanlar}
   {[}Talha Akbaş{]}
 \end{itemize}
 
-\hypertarget{sec-diger-kurumlardan-katkida-bulunanlar}{%
-\section*{Diğer Kurumlardan Katkıda
-Bulunanlar}\label{sec-diger-kurumlardan-katkida-bulunanlar}}
-\addcontentsline{toc}{section}{Diğer Kurumlardan Katkıda Bulunanlar}
+\hypertarget{sec-contributors-from-other-institutions}{%
+\section*{Contributors from Other
+Institutions}\label{sec-contributors-from-other-institutions}}
+\addcontentsline{toc}{section}{Contributors from Other Institutions}
 
-\markright{Diğer Kurumlardan Katkıda Bulunanlar}
+\markright{Contributors from Other Institutions}
 
 \begin{itemize}
 \item
@@ -412,27 +423,27 @@ Bulunanlar}\label{sec-diger-kurumlardan-katkida-bulunanlar}}
 
 \part{---}
 
-\part{Genel Patoloji}
+\part{General Pathology}
 
-\hypertarget{sec-patolojide-kullanilan-teknikler}{%
-\chapter{Patolojide Kullanılan
-Teknikler}\label{sec-patolojide-kullanilan-teknikler}}
+\hypertarget{sec-techniques-used-in-pathology}{%
+\chapter{Techniques Used in
+Pathology}\label{sec-techniques-used-in-pathology}}
 
-\hypertarget{sec-histokimya}{%
-\section{Histokimya}\label{sec-histokimya}}
+\hypertarget{sec-histochemistry}{%
+\section{Histochemistry}\label{sec-histochemistry}}
 
-\hypertarget{sec-musin}{%
-\subsection{Müsin}\label{sec-musin}}
+\hypertarget{sec-mucin}{%
+\subsection{Mucin}\label{sec-mucin}}
 
 \hypertarget{sec-mucicarmine}{%
 \subsubsection{Mucicarmine}\label{sec-mucicarmine}}
 
-\textbf{normal kolon mukozasında intrasitoplazmik müsini gösteren
-mucicarmine (müsikarmen) histokimyası}
+\textbf{mucicarmine histochemistry stain showing intracellular mucin in
+a normal colon}
 
 \href{https://images.patolojiatlasi.com/mucin/mucicarmine.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/mucicarmine_screenshot.png}}
-\href{https://images.patolojiatlasi.com/mucin/mucicarmine.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/mucin/mucicarmine.html}{Click
+for Full Screen WSI}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -442,24 +453,24 @@ Ekran Görmek İçin Resmi Tıklayın}
 
 \textbf{Chromogenic in situ hybridization (CISH)}
 
-\href{https://images.patolojiatlasi.com/her2-cish/cish.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/cish_screenshot.png}}
-\href{https://images.patolojiatlasi.com/her2-cish/cish.html}{Tam Ekran
-Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/her-cish/cish.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/cish_screenshot.png}}
+\href{https://images.patolojiatlasi.com/her2-cish/cish.html}{Click for
+Full Screen WSI}
 
 \hypertarget{sec-hucre-ici-birikimler}{%
 \chapter{Hücre İçi Birikimler}\label{sec-hucre-ici-birikimler}}
 
-\hypertarget{sec-kolesterol-polibi}{%
-\section{Kolesterol Polibi}\label{sec-kolesterol-polibi}}
+\hypertarget{sec-cholesterol-polyp}{%
+\section{Cholesterol Polyp}\label{sec-cholesterol-polyp}}
 
-\textbf{Kolesterol Polibi}
+\textbf{Cholesterol Polyp}
 
 \href{https://images.patolojiatlasi.com/cholesterolpolyp/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/cholesterolpolyp_screenshot.png}}
-\href{https://images.patolojiatlasi.com/cholesterolpolyp/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/cholesterolpolyp/HE.html}{Click
+for Full Screen WSI}
 
-\hypertarget{sec-glikojen-depo-hastaligi}{%
-\section{Glikojen Depo Hastalığı}\label{sec-glikojen-depo-hastaligi}}
+\hypertarget{sec-glycogen-storage-disease}{%
+\section{Glycogen Storage Disease}\label{sec-glycogen-storage-disease}}
 
 \textbf{Karaciğer İğnde Biyopsisinde glikojen depo hastalığı}
 
@@ -498,78 +509,68 @@ Full Screen WSI}
 \hypertarget{sec-melanosis-coli}{%
 \section{Melanosis Coli}\label{sec-melanosis-coli}}
 
-\textbf{Melanozis Koli}
+\textbf{Melanosis Coli}
 
 \href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/melanosiscoli/HE.html}{Tam Ekran
-Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/melanosiscoli/HE.html}{Click for
+Full Screen WSI}
 
-\textbf{Melanozis Koli PAS}
+\textbf{Melanosis Coli PAS}
 
 \href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/melanosiscoli/PAS.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/melanosiscoli/PAS.html}{Click
+for Full Screen WSI}
 
 \hypertarget{sec-hucre-disi-birikimler}{%
 \chapter{Hücre Dışı Birikimler}\label{sec-hucre-disi-birikimler}}
 
-\hypertarget{sec-okronozis}{%
-\section{Okronozis}\label{sec-okronozis}}
+\hypertarget{sec-ochronosis}{%
+\section{Ochronosis}\label{sec-ochronosis}}
 
-\textbf{Okronozis}
-
-\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/ochronosis/HE.html}{Tam Ekran
-Görmek İçin Resmi Tıklayın}
-
-\hypertarget{sec-hucre-hasari}{%
-\chapter{Hücre Hasarı}\label{sec-hucre-hasari}}
-
-\hypertarget{sec-reaktif-atipi}{%
-\section{Reaktif Atipi, ülsere kolon polibi}\label{sec-reaktif-atipi}}
-
-\textbf{Reaktif Atipi, ülsere kolon polibi}
+\textbf{Ochronosis}
 
 \href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/reactive-atypia/HE.html}{Tam
+\href{https://images.patolojiatlasi.com/ochronosis/HE.html}{Click for
+Full Screen WSI}
+
+\hypertarget{sec-cellular-injury}{%
+\chapter{Cellular Injury}\label{sec-cellular-injury}}
+
+\hypertarget{sec-reactive-atypia}{%
+\section{Reactive atypia in an ulcerated colon
+polyp}\label{sec-reactive-atypia}}
+
+\textbf{Reactive atypia in an ulcerated colon polyp}
+
+\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
+\href{https://images.patolojiatlasi.com/reactive-atypia/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{section-1}{%
+\chapter{}\label{section-1}}
+
+\hypertarget{sec-inflamasyon}{%
+\chapter{İnflamasyon}\label{sec-inflamasyon}}
+
+\hypertarget{sec-amiloidoz-congo-red}{%
+\chapter{Congo Red}\label{sec-amiloidoz-congo-red}}
+
+\textbf{Congo Red stain for amyloidosis}
+
+\href{https://images.patolojiatlasi.com/congored/congored.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/congored_screenshot.png}}
+\href{https://images.patolojiatlasi.com/congored/congored.html}{Tam
 Ekran Görmek İçin Resmi Tıklayın}
 
-\hypertarget{sec-hemodinamik-bozukluklar}{%
-\chapter{Hemodinamik Bozukluklar}\label{sec-hemodinamik-bozukluklar}}
-
-\hypertarget{sec-iskemi-ve-nekroz}{%
-\section{İskemi ve Nekroz}\label{sec-iskemi-ve-nekroz}}
-
-\hypertarget{sec-yag-nekrozu-sabunlasma}{%
-\subsection{Yağ nekrozu ve
-Sabunlaşma}\label{sec-yag-nekrozu-sabunlasma}}
-
-\textbf{Yağ dokuda yağ nekrozu ve sabunlaşma}
-
-\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/fat-necrosis/HE.html}{Tam Ekran
-Görmek İçin Resmi Tıklayın}
-
-\hypertarget{sec-amiloidoz}{%
-\chapter{Amiloidoz (Amiloid Birikimi)}\label{sec-amiloidoz}}
-
-\hypertarget{sec-amiloidoz-kristal-viyole}{%
-\section{Kristal Viyole}\label{sec-amiloidoz-kristal-viyole}}
-
-\textbf{Damar duvarlarında amiloid birikimi}
-
-\href{https://images.patolojiatlasi.com/amyloid/crystalviolet.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/crystalviolet_screenshot.png}}
-\href{https://images.patolojiatlasi.com/amyloid/crystalviolet.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
-
-\hypertarget{sec-amiloidoz-kongo-kirmizisi}{%
-\section{Kongo Kırmızısı}\label{sec-amiloidoz-kongo-kirmizisi}}
-
-\hypertarget{sec-amiloidoz-kongo-kirmizisi-cift-kiricilik}{%
-\section{Kongo Kırmızısı Çift
-Kırıcılık}\label{sec-amiloidoz-kongo-kirmizisi-cift-kiricilik}}
+\hypertarget{sec-amiloidoz-congo-red-birefringence}{%
+\section{Congo Red
+Birefringence}\label{sec-amiloidoz-congo-red-birefringence}}
 
 \url{https://www.youtube.com/watch?v=U9glkfQLTm4}
+
+\textbf{Congo Red Birefringence}
+
+\href{https://www.youtube.com/watch?v=U9glkfQLTm4}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/congoredvideo_screenshot.png}}
+\href{https://www.youtube.com/watch?v=U9glkfQLTm4}{Video İçin Tıklayın}
 
 \hypertarget{sec-tamir-mekanizmalari}{%
 \chapter{Tamir Mekanizmaları}\label{sec-tamir-mekanizmalari}}
@@ -581,7 +582,7 @@ ulaşabilirsiniz\footnote{\href{https://github.com/veterinarypathology3d}{Tarık
 
 Karekodu cep telefonunuza okutun:
 
-\begin{figure}
+\begin{figure}[H]
 
 \includegraphics[width=1.04167in,height=\textheight]{images/AR-tamir.jpeg} \hfill{}
 
@@ -611,78 +612,86 @@ Keloid Skar oluşumu
 \href{https://images.patolojiatlasi.com/keloid-scar/HE.html}{Tam Ekran
 Görmek İçin Resmi Tıklayın}
 
-\hypertarget{sec-erozyon}{%
-\chapter{Erozyon}\label{sec-erozyon}}
+\hypertarget{sec-erosion}{%
+\chapter{Erosion}\label{sec-erosion}}
 
-\hypertarget{sec-mide-mukozasinda-erozyon}{%
-\section{Mide mukozasında erozyon}\label{sec-mide-mukozasinda-erozyon}}
+\hypertarget{sec-erosion-in-gastric-mucosa}{%
+\section{Erosion in Gastric
+Mucosa}\label{sec-erosion-in-gastric-mucosa}}
 
-\textbf{Mide mukozasında erozyon}
+\textbf{Erosion in Gastric Mucosa}
 
 \href{https://images.patolojiatlasi.com/erosion/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/erosion_screenshot.png}}
-\href{https://images.patolojiatlasi.com/erosion/HE.html}{Tam Ekran
-Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/erosion/HE.html}{Click for Full
+Screen WSI}
 
-\part{İnflamasyon}
+\part{Inflamation}
 
-\hypertarget{sec-akut-inflamasyon}{%
-\chapter{Akut İnflamasyon}\label{sec-akut-inflamasyon}}
+\hypertarget{sec-acute-inflammation}{%
+\chapter{Acute Inflammation}\label{sec-acute-inflammation}}
 
-\hypertarget{sec-akut-appendisit}{%
-\section{Akut Appendisit}\label{sec-akut-appendisit}}
+\hypertarget{sec-acute-appendicitis}{%
+\section{Acute Appendicitis}\label{sec-acute-appendicitis}}
 
-\textbf{Akut appendisit}
+\textbf{Acute appendicitis}
 
 \href{https://images.patolojiatlasi.com/acute-appendicitis/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/acute-appendicitis_screenshot.png}}
-\href{https://images.patolojiatlasi.com/acute-appendicitis/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/acute-appendicitis/HE.html}{Click
+for Full Screen WSI}
 
-\hypertarget{sec-kronik-inflamasyon}{%
-\chapter{Kronik İnflamasyon}\label{sec-kronik-inflamasyon}}
+\hypertarget{sec-chronic-inflammation}{%
+\chapter{Chronic Inflammation}\label{sec-chronic-inflammation}}
 
-\hypertarget{sec-hidronefroz-kronik-pyelonefrit}{%
-\section{Hidronefroz ve Kronik
-Pyelonefrit}\label{sec-hidronefroz-kronik-pyelonefrit}}
+\hypertarget{sec-hydronephrosis-chronic-pyelonephritis}{%
+\section{Hydronephrosis and Chronic
+Pyelonephritis}\label{sec-hydronephrosis-chronic-pyelonephritis}}
 
-\textbf{Hidronefroz ve Kronik Pyelonefrit}
-
-\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/chronicpyelonephritis/HE1.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
-
-\hypertarget{sec-kronik-pyelonefrit}{%
-\section{Kronik Pyelonefrit}\label{sec-kronik-pyelonefrit}}
-
-\textbf{Kronik Pyelonefrit}
+\textbf{Hydronephrosis and Chronic Pyelonephritis}
 
 \href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/chronic-pyelonephritis/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/chronicpyelonephritis/HE1.html}{Click
+for Full Screen WSI}
 
-\hypertarget{sec-granulamatoz-inflamasyon}{%
-\chapter{Granülamatöz İnflamasyon}\label{sec-granulamatoz-inflamasyon}}
+\hypertarget{sec-chronic-pyelonephritis}{%
+\section{Chronic Pyelonephritis}\label{sec-chronic-pyelonephritis}}
 
-\hypertarget{sec-nekrotizan-granulamatoz-inflamasyon}{%
-\section{Nekrotizan Granülamatöz
-İnflamasyon}\label{sec-nekrotizan-granulamatoz-inflamasyon}}
+\textbf{Chronic Pyelonephritis}
 
-\textbf{Karaciğer dokusunda nekrotizan granülamatöz inflamasyon}
+\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
+\href{https://images.patolojiatlasi.com/chronic-pyelonephritis/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-granulamatous-inflammation}{%
+\chapter{Granulomatous
+Inflammation}\label{sec-granulamatous-inflammation}}
+
+\hypertarget{sec-necrotising-granulamatoz-inflamation}{%
+\section{Necrotising Granulomatous
+Inflammation}\label{sec-necrotising-granulamatoz-inflamation}}
+
+\textbf{Necrotising Granulomatous Inflammation in Liver}
 
 \href{https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/necrotisinggranuloma_screenshot.png}}
-\href{https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html}{Click
+for Full Screen WSI}
 
-\part{İnfeksiyöz Hastalıkların Patolojisi}
+\part{Infectious Diseases}
 
-\hypertarget{sec-viruslar}{%
-\chapter{Viruslar}\label{sec-viruslar}}
+\hypertarget{sec-virus}{%
+\chapter{Virus}\label{sec-virus}}
 
 \hypertarget{sec-herpes-simplex-virus}{%
 \section{Herpes Simplex Virus (HSV)}\label{sec-herpes-simplex-virus}}
 
+\hypertarget{sec-herpes-esophagatis}{%
+\subsection{Herpes Esophagatis}\label{sec-herpes-esophagatis}}
+
+\hypertarget{sec-herpes-ozofajiti}{%
+\subsection{Herpes Özofajiti}\label{sec-herpes-ozofajiti}}
+
 \href{https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/herpesesophagitis_screenshot.png}}
-\href{https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html}{Click
+for Full Screen WSI}
 
 \hypertarget{sec-molluscum-contagiosum}{%
 \section{Molluscum contagiosum}\label{sec-molluscum-contagiosum}}
@@ -690,39 +699,40 @@ Ekran Görmek İçin Resmi Tıklayın}
 \textbf{Molluscum contagiosum}
 
 \href{https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/molluscum-contagiosum_screenshot.png}}
-\href{https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html}{Click
+for Full Screen WSI}
 
-\hypertarget{sec-bakteriler}{%
-\chapter{Bakteriler}\label{sec-bakteriler}}
+\hypertarget{sec-bacteria}{%
+\chapter{Bacteria}\label{sec-bacteria}}
 
 \hypertarget{sec-helicobacter-pylori}{%
 \section{Helicobacter pylori}\label{sec-helicobacter-pylori}}
 
-\textbf{Mide'de Helicobacter pylori (H. pylori) HE}
+\textbf{Helicobacter pylori (H. pylori) in stomach HE Slide}
 
 \href{https://images.patolojiatlasi.com/helicobacterpylori/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/helicobacterpylori_screenshot.png}}
-\href{https://images.patolojiatlasi.com/helicobacterpylori/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/helicobacterpylori/HE.html}{Click
+for Full Screen WSI}
 
-\textbf{Mide'de Helicobacter pylori (H. pylori) Warthin Starry
-Histokimyası}
+\textbf{Helicobacter pylori (H. pylori) in stomach Warthin Starry
+Histochemistry Slide}
 
 \href{https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/helicobacterpyloriWS_screenshot.png}}
-\href{https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html}{Click
+for Full Screen WSI}
 
-\textbf{Mide'de Helicobacter pylori (H. pylori) Giemsa Histokimyası}
+\textbf{Helicobacter pylori (H. pylori) in stomach Giemsa Histochemistry
+Slide}
 
 \href{https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/helicobacterpyloriGiemsa_screenshot.png}}
-\href{https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html}{Click
+for Full Screen WSI}
 
-\textbf{Mide'de Helicobacter pylori (H. pylori) İmmünohistokimyası}
+\textbf{Helicobacter pylori (H. pylori) immunohistochemistry in stomach}
 
 \href{https://images.patolojiatlasi.com/helicobacterpylori/IHC.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/helicobacterpyloriIHC_screenshot.png}}
-\href{https://images.patolojiatlasi.com/helicobacterpylori/IHC.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/helicobacterpylori/IHC.html}{Click
+for Full Screen WSI}
 
 \hypertarget{sec-mantarlar}{%
 \chapter{Mantarlar}\label{sec-mantarlar}}
@@ -745,23 +755,23 @@ smear}{Candida albicans in cervicovaginal smear}}\label{sec-candida-albicans-in-
 \href{https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html}{Tam
 Ekran Görmek İçin Resmi Tıklayın}
 
-\hypertarget{sec-beyin-mukormikozis}{%
-\section{Beyin mukormikozis}\label{sec-beyin-mukormikozis}}
+\hypertarget{sec-brain-mucormycosis}{%
+\section{Brain mucormycosis}\label{sec-brain-mucormycosis}}
 
-\textbf{Beyin mukormikozis HE}
-
-\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/brain-mucormycosis/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
-
-\textbf{Beyin mukormikozis GMS}
+\textbf{brain mucormycosis HE}
 
 \href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/brain-mucormycosis/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/brain-mucormycosis/HE.html}{Click
+for Full Screen WSI}
 
-\hypertarget{sec-parazitler}{%
-\chapter{Parazitler}\label{sec-parazitler}}
+\textbf{brain mucormycosis GMS}
+
+\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
+\href{https://images.patolojiatlasi.com/brain-mucormycosis/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-parasites}{%
+\chapter{Parasites}\label{sec-parasites}}
 
 \hypertarget{sec-enterobius-vermicularis}{%
 \section{Enterobius vermicularis}\label{sec-enterobius-vermicularis}}
@@ -769,34 +779,36 @@ Ekran Görmek İçin Resmi Tıklayın}
 \textbf{Enterobius vermicularis}
 
 \href{https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/enterobius-vermicularis_screenshot.png}}
-\href{https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html}{Click
+for Full Screen WSI}
 
-\part{Temel Tümör Patolojisi}
+\part{Neoplasia, Tumor Pathology Basics}
 
-\hypertarget{sec-benign-tumorler}{%
-\chapter{Benign Tümörler}\label{sec-benign-tumorler}}
+\hypertarget{sec-benign-tumors}{%
+\chapter{Benign Tumors}\label{sec-benign-tumors}}
 
-\hypertarget{sec-adenomlar}{%
-\section{Adenomlar}\label{sec-adenomlar}}
+\hypertarget{sec-adenoma}{%
+\section{Adenoma}\label{sec-adenoma}}
 
-\hypertarget{sec-tubuler-adenom}{%
-\subsection{Tübüler Adenom}\label{sec-tubuler-adenom}}
+\hypertarget{sec-tubular-adenoma}{%
+\subsection{Tubular Adenoma}\label{sec-tubular-adenoma}}
 
-\hypertarget{sec-sesil-polip}{%
-\subsubsection{Sesil Polip, Flat (Düz) Tübüler
-Adenom}\label{sec-sesil-polip}}
+\hypertarget{sec-sesile-polyp}{%
+\subsubsection{Sesile Polyp, Flat Tubular
+Adenoma}\label{sec-sesile-polyp}}
 
-\href{https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/tubularadenoma-flat1_screenshot.png}}
-\href{https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\hypertarget{sec-polyp-with-stalk}{%
+\subsubsection{Polyp with Stalk}\label{sec-polyp-with-stalk}}
 
-\href{https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/tubularadenoma-flat2_screenshot.png}}
-\href{https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+Macroscopy
 
-\hypertarget{sec-sapli-polip}{%
-\subsubsection{Saplı Polip}\label{sec-sapli-polip}}
+\href{https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg}{tubular
+adenoma with a stalk macroscopy}
+
+Microscopy
+
+\href{https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk.jpeg}{tubular
+adenoma with a stalk}
 
 \hypertarget{sec-hamartom}{%
 \chapter{Hamartom}\label{sec-hamartom}}
@@ -827,53 +839,53 @@ Heterotopia}\label{sec-intrapancreatic-spleen}}
 \href{https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html}{Tam
 Ekran Görmek İçin Resmi Tıklayın}
 
-\hypertarget{sec-paratubal-adneksiyal-bolgede-ektopik-adrenal}{%
-\section{Paratubal adneksiyal bölgede ektopik adrenal
-dokusu}\label{sec-paratubal-adneksiyal-bolgede-ektopik-adrenal}}
+\hypertarget{sec-ectopic-adrenal-tissue-paratubal-adnexial-tissue}{%
+\section{Ectopic adrenal tissue in paratubal adnexal
+region}\label{sec-ectopic-adrenal-tissue-paratubal-adnexial-tissue}}
 
-\textbf{Paratubal adneksiyal bölgede ektopik adrenal dokusu}
-
-\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/ectopic-adrenal/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
-
-\hypertarget{sec-metaplazi}{%
-\chapter{Metaplazi}\label{sec-metaplazi}}
-
-\hypertarget{sec-pankreatik-asiner-metaplazi}{%
-\section{Pankreatik Asiner Metaplazi,
-Mide}\label{sec-pankreatik-asiner-metaplazi}}
-
-\textbf{Pankreatik Asiner Metaplazi, Mide}
+\textbf{Ectopic adrenal tissue in paratubal adnexal region}
 
 \href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/metaplasia/HE.html}{Tam Ekran
-Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/ectopic-adrenal/HE.html}{Click
+for Full Screen WSI}
 
-\hypertarget{sec-karsinogenez}{%
-\chapter{Karsinogenez}\label{sec-karsinogenez}}
+\hypertarget{sec-metaplasia}{%
+\chapter{Metaplasia}\label{sec-metaplasia}}
 
-\hypertarget{sec-mepaplazi-displazi-karsinom}{%
-\section{metaplazi, displazi,
-karsinom}\label{sec-mepaplazi-displazi-karsinom}}
+\hypertarget{sec-pancreatic-acinar-metaplasia}{%
+\section{Pancreatic Acinar Metaplasia,
+Stomach}\label{sec-pancreatic-acinar-metaplasia}}
 
-\textbf{metaplazi, displazi, karsinom}
-
-\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/carcinogenesis/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
-
-\hypertarget{sec-malign-tumor-ozellikleri}{%
-\chapter{Malign Tümör Özellikleri}\label{sec-malign-tumor-ozellikleri}}
-
-\hypertarget{sec-pleomorfizm}{%
-\section{Pleomorfizm}\label{sec-pleomorfizm}}
-
-\textbf{Pleomorfizm}
+\textbf{Pancreatic Acinar Metaplasia, Stomach}
 
 \href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/pleomorphism/HE.html}{Tam Ekran
-Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/metaplasia/HE.html}{Click for
+Full Screen WSI}
+
+\hypertarget{sec-carcinogenesis}{%
+\chapter{Carcinogenesis}\label{sec-carcinogenesis}}
+
+\hypertarget{sec-metaplasia-dysplasia-carcinoma}{%
+\section{metaplasia, dysplasia,
+carcinoma}\label{sec-metaplasia-dysplasia-carcinoma}}
+
+\textbf{metaplasia, dysplasia, carcinoma}
+
+\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
+\href{https://images.patolojiatlasi.com/carcinogenesis/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-features-of-malignancy}{%
+\chapter{Features of Malignancy}\label{sec-features-of-malignancy}}
+
+\hypertarget{sec-pleomorphism}{%
+\section{Pleomorphism}\label{sec-pleomorphism}}
+
+\textbf{Pleomorphism}
+
+\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
+\href{https://images.patolojiatlasi.com/pleomorphism/HE.html}{Click for
+Full Screen WSI}
 
 \hypertarget{sec-metastaz}{%
 \chapter{Metastaz}\label{sec-metastaz}}
@@ -886,15 +898,9 @@ Metastazı}\label{sec-karaciger-sarkom-metastaz}}
 \href{https://images.patolojiatlasi.com/metastaticsarcoma/HE.html}{Tam
 Ekran Görmek İçin Resmi Tıklayın}
 
-\hypertarget{sec-sinsi-lenf-nodu-metastazi}{%
-\section{Sinsi bir lenf nodu
-metastazı}\label{sec-sinsi-lenf-nodu-metastazi}}
-
-\textbf{Sinsi bir lenf nodu metastazı HE}
-
-\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\hypertarget{sec-insidious-lymph-node-metastasis}{%
+\section{Insidious lymph node
+metastasis}\label{sec-insidious-lymph-node-metastasis}}
 
 \textbf{Sinsi bir lenf nodu metastazı OSKAR panCK}
 
@@ -902,108 +908,114 @@ Ekran Görmek İçin Resmi Tıklayın}
 \href{https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/OSKARCK.html}{Tam
 Ekran Görmek İçin Resmi Tıklayın}
 
-\hypertarget{sec-baska-organlara-tumor-yayilimi}{%
-\chapter{Başka Organlara Tümör
-Yayılımı}\label{sec-baska-organlara-tumor-yayilimi}}
-
-\hypertarget{sec-servikse-kolon-tumor-yayilimi}{%
-\section{Servikse kolon tümörü
-yayılımı}\label{sec-servikse-kolon-tumor-yayilimi}}
-
-\textbf{Servikse kolon tümörü yayılımı}
-
-\href{https://images.patolojiatlasi.com/tumor-spread/HE-cervix.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/tumor-spread-cervix_screenshot.png}}
-\href{https://images.patolojiatlasi.com/tumor-spread/HE-cervix.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
-
-\hypertarget{sec-endometriuma-kolon-tumor-yayilimi}{%
-\section{Endometriuma kolon tümörü
-yayılımı}\label{sec-endometriuma-kolon-tumor-yayilimi}}
-
-\textbf{Endometriuma kolon tümörü yayılımı}
-
-\href{https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/tumor-spread-endometrium_screenshot.png}}
-\href{https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
-
-\hypertarget{sec-overe-kolon-tumor-yayilimi}{%
-\section{Overe kolon tümörü
-yayılımı}\label{sec-overe-kolon-tumor-yayilimi}}
-
-\textbf{Overe kolon tümörü yayılımı}
-
-\href{https://images.patolojiatlasi.com/tumor-spread/HE-over.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/tumor-spread-over_screenshot.png}}
-\href{https://images.patolojiatlasi.com/tumor-spread/HE-over.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
-
-\hypertarget{sec-ince-barsak-kolon-tumor-yayilimi}{%
-\section{İnce barsağa kolon tümörü
-yayılımı}\label{sec-ince-barsak-kolon-tumor-yayilimi}}
-
-\textbf{İnce barsağa kolon tümörü yayılımı}
-
-\href{https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/tumor-spread-small-intestine_screenshot.png}}
-\href{https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
-
-\part{Tümörlerdeki Prognostik Morfolojik Özellikler}
-
-\hypertarget{sec-venoz-invazyon}{%
-\chapter{Venöz invazyon}\label{sec-venoz-invazyon}}
-
-\textbf{Venöz invazyon}
-
-\href{https://images.patolojiatlasi.com/venous-invasion/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/venous-invasion_screenshot.png}}
-\href{https://images.patolojiatlasi.com/venous-invasion/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
-
-\hypertarget{sec-adenokarsinomda-ekstramural-venoz-invazyon}{%
-\chapter{Adenokarsinomda Ekstramural Venöz
-İnvazyon}\label{sec-adenokarsinomda-ekstramural-venoz-invazyon}}
-
-\textbf{Adenokarsinomda Ekstramural Venöz İnvazyon}
-
-\href{https://images.patolojiatlasi.com/extramuralvenousinvasion/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/extramuralvenousinvasion_screenshot.png}}
-\href{https://images.patolojiatlasi.com/extramuralvenousinvasion/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
-
-\textbf{ekstramural venöz invazyon}
-
-\href{https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/extramural-venous-invasion_screenshot.png}}
-\href{https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
-
-\part{Hematopatoloji}
-
-\hypertarget{sec-hodgkin-lenfoma}{%
-\chapter{Hodgkin Lenfoma}\label{sec-hodgkin-lenfoma}}
-
-\textbf{Hodgkin Lenfoma}
+\textbf{insidious lymph node metastasis HE}
 
 \href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/hodgkin/HE.html}{Tam Ekran
-Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html}{Click
+for Full Screen WSI}
 
-\part{Gastrointestinal Sistem Patolojisi}
+\hypertarget{sec-tumor-spread-to-other-organs}{%
+\chapter{Tumor Spread to Other
+Organs}\label{sec-tumor-spread-to-other-organs}}
 
-\hypertarget{sec-gastrointestinal-sistem}{%
-\chapter{Gastrointestinal Sistem}\label{sec-gastrointestinal-sistem}}
+\hypertarget{sec-colon-tumor-spread-to-cervix}{%
+\section{Colon tumor spread to
+cervix}\label{sec-colon-tumor-spread-to-cervix}}
 
-\hypertarget{sec-ozofagus}{%
-\chapter{Özofagus}\label{sec-ozofagus}}
+\textbf{Colon tumor spread to cervix}
 
-\hypertarget{sec-ozofagus-granuler-hucreli-tumor}{%
-\section{Özofagusta Granüler Hücreli
-Tümör}\label{sec-ozofagus-granuler-hucreli-tumor}}
+\href{https://images.patolojiatlasi.com/tumor-spread/HE-cervix.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/tumor-spread-cervix_screenshot.png}}
+\href{https://images.patolojiatlasi.com/tumor-spread/HE-cervix.html}{Click
+for Full Screen WSI}
 
-\textbf{Özofagusta Granüler Hücreli Tümör}
+\hypertarget{sec-colon-tumor-spread-to-endometrium}{%
+\section{Colon tumor spread to
+endometrium}\label{sec-colon-tumor-spread-to-endometrium}}
 
-\href{https://images.patolojiatlasi.com/granular-cell-tumor/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/granular-cell-tumor_screenshot.png}}
-\href{https://images.patolojiatlasi.com/granular-cell-tumor/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\textbf{Colon tumor spread to endometrium}
 
-\hypertarget{sec-mide-patolojisi}{%
-\chapter{Mide Patolojisi}\label{sec-mide-patolojisi}}
+\href{https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/tumor-spread-endometrium_screenshot.png}}
+\href{https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-colon-tumor-spread-to-over}{%
+\section{Colon tumor spread to
+over}\label{sec-colon-tumor-spread-to-over}}
+
+\textbf{Colon tumor spread to over}
+
+\href{https://images.patolojiatlasi.com/tumor-spread/HE-over.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/tumor-spread-over_screenshot.png}}
+\href{https://images.patolojiatlasi.com/tumor-spread/HE-over.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-colon-tumor-spread-to-small-intestine}{%
+\section{Colon tumor spread to small
+intestine}\label{sec-colon-tumor-spread-to-small-intestine}}
+
+\textbf{Colon tumor spread to small intestine}
+
+\href{https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/tumor-spread-small-intestine_screenshot.png}}
+\href{https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html}{Click
+for Full Screen WSI}
+
+\part{Prognostic Morphologic Features of Neoplasms}
+
+\hypertarget{sec-venous-invasion}{%
+\chapter{Venous invasion}\label{sec-venous-invasion}}
+
+\textbf{Venous invasion}
+
+\href{https://images.patolojiatlasi.com/venous-invasion/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/venous-invasion_screenshot.png}}
+\href{https://images.patolojiatlasi.com/venous-invasion/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-extramural-venoz-invazyon-in-adenocarcinoma}{%
+\chapter{Extramural Venous Invasion in
+Adenocarcinoma}\label{sec-extramural-venoz-invazyon-in-adenocarcinoma}}
+
+\textbf{Extramural Venous Invasion in Adenocarcinoma}
+
+\href{https://images.patolojiatlasi.com/extramuralvenousinvasion/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/extramuralvenousinvasion_screenshot.png}}
+\href{https://images.patolojiatlasi.com/extramuralvenousinvasion/HE.html}{Click
+for Full Screen WSI}
+
+\textbf{extramural venous invasion}
+
+\href{https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/extramural-venous-invasion_screenshot.png}}
+\href{https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html}{Click
+for Full Screen WSI}
+
+\part{Hematopathology}
+
+\hypertarget{sec-hodgkin-lymphoma}{%
+\chapter{Hodgkin Lymphoma}\label{sec-hodgkin-lymphoma}}
+
+\textbf{Hodgkin Lymphoma}
+
+\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hodgkin/HE.html}{Click for Full
+Screen WSI}
+
+\part{Gastrointestinal System}
+
+\hypertarget{sec-gastrointestinal-system}{%
+\chapter{Gastrointestinal System}\label{sec-gastrointestinal-system}}
+
+\hypertarget{sec-esophagus}{%
+\chapter{Esophagus}\label{sec-esophagus}}
+
+\hypertarget{sec-esophagus-granular-cell-tumor}{%
+\section{Granular Cell Tumor in
+Esophagus}\label{sec-esophagus-granular-cell-tumor}}
+
+\textbf{Granular Cell Tumor in Esophagus}
+
+\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
+\href{https://images.patolojiatlasi.com/granular-cell-tumor/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-pathology-of-stomach}{%
+\chapter{Pathology of Stomach}\label{sec-pathology-of-stomach}}
 
 \hypertarget{sec-gastritis-cystica-profunda}{%
 \section{Gastritis Cystica
@@ -1012,8 +1024,8 @@ Profunda}\label{sec-gastritis-cystica-profunda}}
 \textbf{Gastritis Cystica Profunda}
 
 \href{https://images.patolojiatlasi.com/gastritis-cystica-profunda/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/gastritis-cystica-profunda_screenshot.png}}
-\href{https://images.patolojiatlasi.com/gastritis-cystica-profunda/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/gastritis-cystica-profunda/HE.html}{Click
+for Full Screen WSI}
 
 \hypertarget{lymphocytic-gastritis}{%
 \chapter{lymphocytic-gastritis}\label{lymphocytic-gastritis}}
@@ -1021,55 +1033,37 @@ Ekran Görmek İçin Resmi Tıklayın}
 \textbf{lymphocytic-gastritis for pathology atlas repositories}
 
 \hypertarget{sec-lymphocytic-gastritis}{%
-\section{lenfositik gastrit}\label{sec-lymphocytic-gastritis}}
+\section{lymphocytic gastritis}\label{sec-lymphocytic-gastritis}}
 
-\textbf{lenfositik gastrit HE}
+\textbf{lymphocytic gastritis}
 
 \href{https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/lymphocytic-gastritisHE_screenshot.png}}
-\href{https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
-
-\textbf{lenfositik gastrit CD3}
-
-\href{https://images.patolojiatlasi.com/lymphocytic-gastritis/CD3.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/lymphocytic-gastritisCD3_screenshot.png}}
-\href{https://images.patolojiatlasi.com/lymphocytic-gastritis/CD3.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
-
-\textbf{lenfositik gastrit CD8}
-
-\href{https://images.patolojiatlasi.com/lymphocytic-gastritis/CD8.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/lymphocytic-gastritisCD8_screenshot.png}}
-\href{https://images.patolojiatlasi.com/lymphocytic-gastritis/CD8.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
-
-\textbf{lenfositik gastrit CD20}
-
-\href{https://images.patolojiatlasi.com/lymphocytic-gastritis/CD20.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/lymphocytic-gastritisCD20_screenshot.png}}
-\href{https://images.patolojiatlasi.com/lymphocytic-gastritis/CD20.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html}{Click
+for Full Screen WSI}
 
 \hypertarget{sec-duodenum}{%
 \chapter{Duodenum}\label{sec-duodenum}}
 
-\hypertarget{sec-colyak-hastaligi}{%
-\section{Çölyak Hastalığı}\label{sec-colyak-hastaligi}}
+\hypertarget{sec-celiac-disease}{%
+\section{Celiac Disease}\label{sec-celiac-disease}}
 
-\textbf{Çölyak Hastalığı}
+\textbf{Celiac Disease}
 
 \href{https://images.patolojiatlasi.com/celiac-disease/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/celiac-disease_screenshot.png}}
-\href{https://images.patolojiatlasi.com/celiac-disease/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/celiac-disease/HE.html}{Click
+for Full Screen WSI}
 
 \hypertarget{kolon-patolojisi}{%
 \chapter{Kolon Patolojisi}\label{kolon-patolojisi}}
 
-\hypertarget{sec-iskemik-kolit}{%
-\section{İskemik Kolit}\label{sec-iskemik-kolit}}
+\hypertarget{sec-ischemic-colitis}{%
+\section{Ischemic Colitis}\label{sec-ischemic-colitis}}
 
-\textbf{İskemik Kolit}
+\textbf{Ischemic Colitis}
 
 \href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/ischemic-colitis/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/ischemic-colitis/HE.html}{Click
+for Full Screen WSI}
 
 \hypertarget{sec-kolon-benign-tumorler}{%
 \section{Benign Tümörler}\label{sec-kolon-benign-tumorler}}
@@ -1097,7 +1091,7 @@ Macroscopy
 \href{https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg}{tubular
 adenoma with a stalk macroscopy}
 
-\begin{figure}
+\begin{figure}[H]
 
 {\centering \includegraphics{index_files/mediabag/tubular-adenoma-with.jpg}
 
@@ -1136,50 +1130,50 @@ Polyp}\label{sec-colon-schwann-cell-hamartoma}}
 \href{https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html}{Tam
 Ekran Görmek İçin Resmi Tıklayın}
 
-\hypertarget{sec-kolon-intramukozal-lipom}{%
-\chapter{Kolon submukozal lipom}\label{sec-kolon-intramukozal-lipom}}
+\hypertarget{sec-colon-submucosal-lipoma}{%
+\chapter{Colon submucosal lipoma}\label{sec-colon-submucosal-lipoma}}
 
-\textbf{Kolon submukozal lipom}
-
-\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
-
-\hypertarget{sec-tubulovilloz-adenom-zemininde-adenokarsinom}{%
-\chapter{Tübülövillöz adenom zemininde gelişmiş Müsinöz adenokarsinom,
-kolon}\label{sec-tubulovilloz-adenom-zemininde-adenokarsinom}}
-
-\textbf{Tübülövillöz adenom zemininde gelişmiş Müsinöz adenokarsinom,
-kolon}
+\textbf{Colon submucosal lipoma}
 
 \href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-adenocarcinoma-arising-tubulovillous-adenoma}{%
+\chapter{Mucinous adenocarcinoma of colon arising from tubulovillus
+adenoma}\label{sec-adenocarcinoma-arising-tubulovillous-adenoma}}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\hypertarget{sec-kolon-adenokarsinomu}{%
-\chapter{Kolon Adenokarsinomu}\label{sec-kolon-adenokarsinomu}}
-
-\textbf{Kolon Adenokarsinomu}
+\textbf{Mucinous adenocarcinoma of colon arising from tubulovillus
+adenoma}
 
 \href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html}{Click
+for Full Screen WSI}
 
-\textbf{Kolon Adenokarsinomu}
+\hypertarget{sec-colon-adenocarcinoma}{%
+\chapter{Colon Adenocarcinoma}\label{sec-colon-adenocarcinoma}}
 
-\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
-
-\textbf{Kolon Adenokarsinomu pT4a}
+\textbf{Colon Adenocarcinoma}
 
 \href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html}{Click
+for Full Screen WSI}
 
-\part{Karaciğer Patolojisi}
+\textbf{Colon Adenocarcinoma}
+
+\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
+\href{https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html}{Click
+for Full Screen WSI}
+
+\textbf{Colon Adenocarcinoma pT4a}
+
+\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
+\href{https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html}{Click
+for Full Screen WSI}
+
+\part{Liver}
 
 \hypertarget{sec-karaciger-tumorleri}{%
 \chapter{Karaciğer Tümörleri}\label{sec-karaciger-tumorleri}}
@@ -1191,170 +1185,158 @@ Ekran Görmek İçin Resmi Tıklayın}
 \href{https://images.patolojiatlasi.com/hepatocellularcarcinoma/HCC/viewer_z0.html}{Tam
 Ekran Görmek İçin Resmi Tıklayın}
 
-\hypertarget{sec-hepatoseluler-karsinom-fibrolamellar}{%
-\section{Hepatoselüler karsinom,
-fibrolamellar}\label{sec-hepatoseluler-karsinom-fibrolamellar}}
+\hypertarget{sec-hepatocellular-carcinoma-fibrolamellar}{%
+\section{Hepatocellular carcinoma,
+fibrolamellar}\label{sec-hepatocellular-carcinoma-fibrolamellar}}
 
-\textbf{Hepatoselüler karsinom, fibrolamellar}
+\textbf{Hepatocellular carcinoma, fibrolamellar}
 
 \href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE1.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE1.html}{Click
+for Full Screen WSI}
 
 \href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
 \href{https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE4.html}{Click
 for Full Screen WSI}
 
-\hypertarget{sec-benign-karaciger-tumorleri}{%
-\chapter{Benign Karaciğer
-Tümörleri}\label{sec-benign-karaciger-tumorleri}}
+\hypertarget{sec-benign-liver-tumors}{%
+\chapter{Benign Liver Tumors}\label{sec-benign-liver-tumors}}
 
-\hypertarget{sec-karaciger-hemanjiom}{%
-\section{Karaciğer Hemanjiom}\label{sec-karaciger-hemanjiom}}
+\hypertarget{sec-liver-hemangioma}{%
+\section{Liver Hemangioma}\label{sec-liver-hemangioma}}
 
-\textbf{Karaciğer Hemanjiom}
+\textbf{Liver Hemangioma}
 
 \href{https://images.patolojiatlasi.com/liver-hemangioma/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/liver-hemangioma_screenshot.png}}
-\href{https://images.patolojiatlasi.com/liver-hemangioma/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/liver-hemangioma/HE.html}{Click
+for Full Screen WSI}
 
-\part{Pankreatobilier Sistem Patolojisi}
+\part{Pancreatobiliary system}
 
-\hypertarget{sec-pankreas-tumorleri}{%
-\chapter{Pankreas Tümörleri}\label{sec-pankreas-tumorleri}}
+\hypertarget{sec-tumors-of-pancreas}{%
+\chapter{Tumors of the Pancreas}\label{sec-tumors-of-pancreas}}
 
-\hypertarget{sec-pankreas-musinous-adenokarsinom-osteoklast}{%
-\section{pankreas, müsinöz adenokarsinom zemininde gelişmiş, osteoklast
-benzeri dev hücreler içeren indiferansiye
-karsinom}\label{sec-pankreas-musinous-adenokarsinom-osteoklast}}
+\hypertarget{sec-pancreas-musinous-adenocarcinoma-osteoclastic}{%
+\section{pancreas, undifferentiated carcinoma with osteoclast-like giant
+cells, arising within a mucinous
+adenocarcinoma}\label{sec-pancreas-musinous-adenocarcinoma-osteoclastic}}
 
-\textbf{pankreas, müsinöz adenokarsinom zemininde gelişmiş, osteoklast
-benzeri dev hücreler içeren indiferansiye karsinom}
+\textbf{pancreas, undifferentiated carcinoma with osteoclast-like giant
+cells, arising within a mucinous adenocarcinoma}
 
 \href{https://images.patolojiatlasi.com/pancreas-undifferentiated-osteoclast/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/pancreas-undifferentiated-osteoclast_screenshot.png}}
-\href{https://images.patolojiatlasi.com/pancreas-undifferentiated-osteoclast/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/pancreas-undifferentiated-osteoclast/HE.html}{Click
+for Full Screen WSI}
 
-\hypertarget{sec-safra-kesesi}{%
-\chapter{Safra Kesesi}\label{sec-safra-kesesi}}
+\hypertarget{sec-gallbladder}{%
+\chapter{Gallbladder}\label{sec-gallbladder}}
 
-\hypertarget{sec-safra-kesesi-adenomyom}{%
-\section{Safra Kesesi Adenomyom}\label{sec-safra-kesesi-adenomyom}}
+\hypertarget{sec-gallbladder-adenomyoma}{%
+\section{Gallbladder Adenomyoma}\label{sec-gallbladder-adenomyoma}}
 
-\textbf{Safra Kesesi Adenomyom}
+\textbf{Gallbladder Adenomyoma}
 
 \href{https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/gallbladder-adenomyoma_screenshot.png}}
-\href{https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html}{Click
+for Full Screen WSI}
 
 \hypertarget{sec-ischemia-gangrenous-cholecystitis}{%
-\section{iskemi gangrenöz
-kolesistit}\label{sec-ischemia-gangrenous-cholecystitis}}
+\section{ischemia in gangrenous
+cholecystitis}\label{sec-ischemia-gangrenous-cholecystitis}}
 
-\textbf{iskemi gangrenöz kolesistit}
+\textbf{ischemia in gangrenous cholecystitis}
 
 \href{https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/ischemia-gangrenous-cholecystitis_screenshot.png}}
-\href{https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html}{Click
+for Full Screen WSI}
 
-\hypertarget{sec-ampulla-vater}{%
-\chapter{Ampulla Vater}\label{sec-ampulla-vater}}
+\hypertarget{sec-ampulla-of-vater}{%
+\chapter{Ampulla of Vater}\label{sec-ampulla-of-vater}}
 
-\hypertarget{sec-ampulla-vater-adenokarsinomu}{%
-\section{Ampulla Vater
-Adenokarsinomu}\label{sec-ampulla-vater-adenokarsinomu}}
+\hypertarget{sec-adenocarcinoma-of-ampulla-of-vater}{%
+\section{Adenocarcinoma of Ampulla of
+Vater}\label{sec-adenocarcinoma-of-ampulla-of-vater}}
 
-\textbf{Ampulla Vater Adenokarsinomu}
+\textbf{Adenocarcinoma of Ampulla of Vater}
 
 \href{https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/ampullary-adenocarcinoma_screenshot.png}}
-\href{https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html}{Click
+for Full Screen WSI}
 
-\part{Akciğer Patolojisi}
+\part{Lung}
 
-\hypertarget{sec-noroendokrin-tumorler}{%
-\chapter{Nöroendokrin Tümörler}\label{sec-noroendokrin-tumorler}}
+\hypertarget{sec-neuroendocrine-tumors}{%
+\chapter{Neuroendocrine Tumors}\label{sec-neuroendocrine-tumors}}
 
-\hypertarget{sec-noroendokrin-tumor-sitolojisi-giemsa}{%
-\section{Nöroendokrin Tümör Sitolojisi
-Giemsa}\label{sec-noroendokrin-tumor-sitolojisi-giemsa}}
+\hypertarget{sec-neuroendocrine-tumor-cytology-giemsa}{%
+\section{Neuroendocrine Tumor Cytology
+Giemsa}\label{sec-neuroendocrine-tumor-cytology-giemsa}}
 
-\textbf{Nöroendokrin Tümör Sitolojisi Giemsa}
+\textbf{Neuroendocrine Tumor Cytology Giemsa}
 
-\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/neuroendocrine-cytology-giemsa_screenshot.png}}
-\href{https://images.patolojiatlasi.com/neuroendocrine-cytology/giemsa.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
+\href{https://images.patolojiatlasi.com/neuroendocrine-cytology/giemsa.html}{Click
+for Full Screen WSI}
 
 \part{Mezotel}
 
-\hypertarget{sec-mezotel}{%
-\chapter{Mezotel}\label{sec-mezotel}}
+\hypertarget{sec-mesothelium}{%
+\chapter{Mesothelium}\label{sec-mesothelium}}
 
-\hypertarget{sec-abdominal-mezotelyoma}{%
-\section{Abdominal mezotelyoma}\label{sec-abdominal-mezotelyoma}}
+\hypertarget{sec-abdominal-mesothelioma}{%
+\section{Abdominal mesothelioma}\label{sec-abdominal-mesothelioma}}
 
-\textbf{Abdominal mezotelyoma}
+\textbf{Abdominal mesothelioma}
 
 \href{https://images.patolojiatlasi.com/abdominal-mezotelyoma/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/abdominal-mezotelyoma_screenshot.png}}
-\href{https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html}{Click
+for Full Screen WSI}
 
-\part{Jinekolojik Patoloji}
+\part{Gynecopathology}
 
-\hypertarget{sec-jinekopatoloji}{%
-\chapter{Jinekopatoloji}\label{sec-jinekopatoloji}}
-
-\hypertarget{sec-over}{%
-\section{Over}\label{sec-over}}
-
-\hypertarget{sec-ovary-serous-borderline-micropapillary}{%
-\subsection{Ovary, Serous borderline tumor, micropapillary
-variant}\label{sec-ovary-serous-borderline-micropapillary}}
-
-\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/ovarianserousmicropapillary/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\hypertarget{section-2}{%
+\chapter{}\label{section-2}}
 
 \hypertarget{sec-genital-sistem-patolojisi}{%
 \chapter{Genital Sistem
 Patolojisi}\label{sec-genital-sistem-patolojisi}}
 
-\hypertarget{sec-serviks}{%
-\chapter{Serviks}\label{sec-serviks}}
+\hypertarget{sec-cervix}{%
+\chapter{Cervix}\label{sec-cervix}}
 
-\hypertarget{sec-serviks-skuamoz-hucreli-karsinom}{%
-\section{Serviks Skuamöz Hücreli
-Karsinom}\label{sec-serviks-skuamoz-hucreli-karsinom}}
+\hypertarget{sec-cervix-squamous-cell-carcinoma}{%
+\section{Cervix Squamous Cell
+Carcinoma}\label{sec-cervix-squamous-cell-carcinoma}}
 
-\textbf{Serviks Skuamöz Hücreli Karsinom}
+\textbf{Cervix Squamous Cell Carcinoma}
 
 \href{https://images.patolojiatlasi.com/cervix-SCC/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/cervix-SCC_screenshot.png}}
-\href{https://images.patolojiatlasi.com/cervix-SCC/HE.html}{Tam Ekran
-Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/cervix-SCC/HE.html}{Click for
+Full Screen WSI}
 
-\hypertarget{sec-endometrial-polip}{%
-\chapter{Endometrial Polip}\label{sec-endometrial-polip}}
+\hypertarget{sec-endometrial-polyp}{%
+\chapter{Endometrial Polyp}\label{sec-endometrial-polyp}}
 
-\textbf{Endometrial Polip}
+\textbf{Endometrial Polyp}
 
 \href{https://images.patolojiatlasi.com/endometrial-polyp/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/endometrial-polyp_screenshot.png}}
-\href{https://images.patolojiatlasi.com/endometrial-polyp/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/endometrial-polyp/HE.html}{Click
+for Full Screen WSI}
 
-\hypertarget{sec-endometriozis}{%
-\chapter{Endometriozis}\label{sec-endometriozis}}
+\hypertarget{sec-endometriosis}{%
+\chapter{Endometriosis}\label{sec-endometriosis}}
 
-\textbf{İnce barsak duvarında endometriozis, loop yapışıklık ve
-obstrüksiyon}
+\textbf{Endometriosis in small intestine wall, causing loop obstruction}
 
 \href{https://images.patolojiatlasi.com/endometriosis/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/endometriosis_screenshot.png}}
-\href{https://images.patolojiatlasi.com/endometriosis/HE.html}{Tam Ekran
-Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/endometriosis/HE.html}{Click for
+Full Screen WSI}
 
-\part{Üriner Sistem Patolojisi}
+\part{Uropathology}
 
-\hypertarget{sec-uriner-sistem-patolojisi}{%
-\chapter{Uriner Sistem Patolojisi}\label{sec-uriner-sistem-patolojisi}}
+\hypertarget{sec-urinary-system-pathology}{%
+\chapter{Pathology of the Urinary
+System}\label{sec-urinary-system-pathology}}
 
 \hypertarget{sec-bobrek-tumorleri}{%
 \chapter{Böbrek Tümörleri}\label{sec-bobrek-tumorleri}}
@@ -1366,34 +1348,34 @@ Görmek İçin Resmi Tıklayın}
 \href{https://images.patolojiatlasi.com/kidneyoncocytoma/HE.html}{Tam
 Ekran Görmek İçin Resmi Tıklayın}
 
-\hypertarget{sec-prostat}{%
-\chapter{Prostat}\label{sec-prostat}}
+\hypertarget{sec-prostate}{%
+\chapter{Prostate}\label{sec-prostate}}
 
-\hypertarget{sec-benign-prostat-hiperplazisi}{%
-\section{benign prostat
-hiperplazisi}\label{sec-benign-prostat-hiperplazisi}}
+\hypertarget{sec-benign-prostate-hyperplasia}{%
+\section{benign prostate
+hyperplasia}\label{sec-benign-prostate-hyperplasia}}
 
-\textbf{benign prostat hiperplazisi}
+\textbf{benign prostate hyperplasia}
 
 \href{https://images.patolojiatlasi.com/benign-prostate-hyperplasia/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/benign-prostate-hyperplasia_screenshot.png}}
-\href{https://images.patolojiatlasi.com/benign-prostate-hyperplasia/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/benign-prostate-hyperplasia/HE.html}{Click
+for Full Screen WSI}
 
-\part{Endokrin Sistem Patolojisi}
+\part{Endocrine System}
 
-\hypertarget{sec-hipofiz-adenomu}{%
-\chapter{Hipofiz Adenomu}\label{sec-hipofiz-adenomu}}
+\hypertarget{sec-pituitary-adenoma}{%
+\chapter{Pituitary Adenoma}\label{sec-pituitary-adenoma}}
 
-\textbf{Hipofiz Adenomu}
+\textbf{Pituitary Adenoma}
 
 \href{https://images.patolojiatlasi.com/pituitary-adenoma/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/pituitary-adenoma_screenshot.png}}
-\href{https://images.patolojiatlasi.com/pituitary-adenoma/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/pituitary-adenoma/HE.html}{Click
+for Full Screen WSI}
 
-\part{Meme Patolojisi}
+\part{Breast}
 
-\hypertarget{meme-patolojisi-1}{%
-\chapter*{Meme Patolojisi}\label{meme-patolojisi-1}}
+\hypertarget{meme-patolojisi}{%
+\chapter*{Meme Patolojisi}\label{meme-patolojisi}}
 \addcontentsline{toc}{chapter}{Meme Patolojisi}
 
 \markboth{Meme Patolojisi}{Meme Patolojisi}
@@ -1407,32 +1389,32 @@ Ekran Görmek İçin Resmi Tıklayın}
 See extended list of Breast Pathology cases here
 \url{https://images.patolojiatlasi.com/breast/}
 
-\part{Baş Boyun Patolojisi}
+\part{Head and Neck}
 
-\hypertarget{sec-nazofarenks}{%
-\chapter{Nazofarenks}\label{sec-nazofarenks}}
+\hypertarget{sec-nasopharynx}{%
+\chapter{Nasopharynx}\label{sec-nasopharynx}}
 
-\hypertarget{sec-nazofarenks-karsinomu-nonkeratinize-skuamoz-hucreli-karsinom}{%
-\section{Nazofarenks Karsinomu, nonkeratinize skuamöz hücreli
-karsinom}\label{sec-nazofarenks-karsinomu-nonkeratinize-skuamoz-hucreli-karsinom}}
+\hypertarget{sec-nasopharyngial-carcinoma-nonkeratinizing-squamous-cell-carcinoma}{%
+\section{Nasopharyngeal carcinoma, nonkeratinizing squamous cell
+carcinoma}\label{sec-nasopharyngial-carcinoma-nonkeratinizing-squamous-cell-carcinoma}}
 
-\textbf{Nazofarenks Karsinomu, nonkeratinize skuamöz hücreli karsinom}
+** Nasopharyngeal carcinoma, nonkeratinizing squamous cell carcinoma**
 
 \href{https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/nasopharynx-nonkeratinizing-scc-HE_screenshot.png}}
-\href{https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/HE.html}{Click
+for Full Screen WSI}
 
-\href{https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/panCK.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/nasopharynx-nonkeratinizing-scc-panCK_screenshot.png}}
-\href{https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/panCK.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/nasopharynx-nonkeratinizing-scc-HE_screenshot.png}}
+\href{https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/panCK.html}{Click
+for Full Screen WSI}
 
-\href{https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/p63.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/nasopharynx-nonkeratinizing-scc-p63_screenshot.png}}
-\href{https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/p63.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/nasopharynx-nonkeratinizing-scc-HE_screenshot.png}}
+\href{https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/p63.html}{Click
+for Full Screen WSI}
 
-\href{https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/EBER.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/nasopharynx-nonkeratinizing-scc-EBER_screenshot.png}}
-\href{https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/EBER.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/nasopharynx-nonkeratinizing-scc-HE_screenshot.png}}
+\href{https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/EBER.html}{Click
+for Full Screen WSI}
 
 \hypertarget{sec-kulak}{%
 \chapter{Kulak}\label{sec-kulak}}
@@ -1444,81 +1426,66 @@ Ekran Görmek İçin Resmi Tıklayın}
 \href{https://images.patolojiatlasi.com/cholesteatoma/cholesteatoma.html}{Tam
 Ekran Görmek İçin Resmi Tıklayın}
 
-\hypertarget{sec-tukuruk-bezi-tumorleri}{%
-\chapter{Tükürük Bezi Tümörleri}\label{sec-tukuruk-bezi-tumorleri}}
+\hypertarget{sec-salivary-gland-tumors}{%
+\chapter{Tumors of Salivary Gland}\label{sec-salivary-gland-tumors}}
 
-\hypertarget{tuxfckuxfcruxfck-bezinin-meme-benzeri-sekretuar-karsinomu}{%
-\section{Tükürük bezinin meme benzeri sekretuar
-karsinomu}\label{tuxfckuxfcruxfck-bezinin-meme-benzeri-sekretuar-karsinomu}}
+\hypertarget{mammary-analogue-secretory-carcinoma-of-salivary-gland}{%
+\section{mammary analogue secretory carcinoma of salivary
+gland}\label{mammary-analogue-secretory-carcinoma-of-salivary-gland}}
 
-\textbf{Tükürük bezinin meme benzeri sekretuar karsinomu}
-
-Tükürük bezinin sekretuar karsinomu ETV6 gen yeniden düzenlemesi ile
-karakterize nadir görülen primer tükürük bezi karsinomudur. İnterkalar
-duktus epitelinden köken alır. Aynı zamanda memenin sekretuar
-karsinomunun analoğudur. Major tükürük bezlerinde daha sık görülür. Bir
-tükürük bezi tümörüne bakarken papiller benzeri alanlar ve tiroid
-follükülüne benzer alanlar görüyorsak tükürük bezinin sekretuar
-karsinomu akla gelmelidir. Tübüler, papiller, mikrokistik ve solid
-büyüme paterni görülebilir. Luminal pembe (kolloid benzeri) materyal
-görülür. Tümör hücrelerinde belirgin santral nükleolus görülür.
-İmmünohistokimyasal olarak S100, mamaglobulin ve GCDFP-15 pozitiftir.
-Tükürük bezinin sekretuar karsinomunda bazı alanlar asinik hücreli
-karsinoma benzeyebilir. Tükürük bezinin sekretuar karsinomu, asinik
-hücreli karsinoma göre metastaz potansiyeli daha yüksektir.\\
-\emph{Dr.~Zeynep Bayramoğlu}
+** mammary analogue secretory carcinoma of salivary gland**
 
 \href{https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/mammary-analogue-secretory-carcinoma1_screenshot.png}}
-\href{https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html}{Click
+for Full Screen WSI}
 
-\part{Santral Sinir Sistem Patolojisi}
+\part{Central Nervous System}
 
-\hypertarget{sec-yuksek-dereceli-gliom-yayma-preparat}{%
-\chapter{Yüksek Dereceli Gliom Yayma
-Preparat}\label{sec-yuksek-dereceli-gliom-yayma-preparat}}
+\hypertarget{sec-high-grade-glioma-squash-slide}{%
+\chapter{High Grade Glioma Squash
+Slide}\label{sec-high-grade-glioma-squash-slide}}
 
-\textbf{Yüksek Dereceli Gliom Yayma Preparat}
+\textbf{High Grade Glioma Squash Slide}
 
 \href{https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/high-grade-glioma-squash_screenshot.png}}
-\href{https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html}{Click
+for Full Screen WSI}
 
-\hypertarget{sec-beyin-invazyonu-gosteren-meningiom}{%
-\chapter{Beyin İnvazyonu Gösteren
-Meningiom}\label{sec-beyin-invazyonu-gosteren-meningiom}}
+\hypertarget{sec-brain-invasive-meningioma}{%
+\chapter{Brain Invasive
+Meningioma}\label{sec-brain-invasive-meningioma}}
 
-\textbf{Beyin İnvazyonu Gösteren Meningiom}
-
-\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
-
-\hypertarget{sec-kemik-infiltrasyonu-gosteren-meningiom}{%
-\chapter{Meningiom Kemik
-İnfiltrasyonu}\label{sec-kemik-infiltrasyonu-gosteren-meningiom}}
-
-\textbf{Meningiom Kemik İnfiltrasyonu}
+\textbf{Brain Invasive Meningioma}
 
 \href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
-\href{https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html}{Click
+for Full Screen WSI}
 
-\hypertarget{sec-santral-sinir-sistemi-vaskuler}{%
-\chapter{Santral Sinir Sistemi Vasküler
-Lezyonlar}\label{sec-santral-sinir-sistemi-vaskuler}}
+\hypertarget{sec-meningioma-invading-bone}{%
+\chapter{Meningioma Bone
+Infiltration}\label{sec-meningioma-invading-bone}}
 
-\hypertarget{sec-beyin-arteriovenoz-malformasyon}{%
-\section{Beyin arteriovenöz
-malformasyon}\label{sec-beyin-arteriovenoz-malformasyon}}
+\textbf{Meningioma Bone Infiltration}
 
-\textbf{beyin arteriovenöz malformasyon}
+\href{https://images.patolojiatlasi.com/template/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/template_screenshot.png}}
+\href{https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-central-nervous-system-vascular}{%
+\chapter{Central Nervous System Vascular
+Lesions}\label{sec-central-nervous-system-vascular}}
+
+\hypertarget{sec-brain-arteriovenous-malformation}{%
+\section{Brain arteriovenous
+malformation}\label{sec-brain-arteriovenous-malformation}}
+
+\textbf{brain arteriovenous malformation}
 
 \href{https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/brain-arteriovenous-malformation_screenshot.png}}
-\href{https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html}{Click
+for Full Screen WSI}
 
-\part{Kemik Patolojisi}
+\part{Bone}
 
 \hypertarget{sec-kemik-tumorleri}{%
 \chapter{Kemik Tümörleri}\label{sec-kemik-tumorleri}}
@@ -1541,39 +1508,39 @@ Görmek İçin Resmi Tıklayın}
 \href{https://images.patolojiatlasi.com/exostosis/oc002.html}{Tam Ekran
 Görmek İçin Resmi Tıklayın}
 
-\part{Yumuşak Doku Patolojisi}
+\part{Soft Tissue}
 
-\hypertarget{sec-adipoz-doku}{%
-\chapter{Adipoz Doku}\label{sec-adipoz-doku}}
+\hypertarget{sec-adipose-tissue}{%
+\chapter{Adipose Tissue}\label{sec-adipose-tissue}}
 
-\hypertarget{sec-miksoid-liposarkom}{%
-\section{Miksoid Liposarkom}\label{sec-miksoid-liposarkom}}
+\hypertarget{sec-myxoid-liposarcoma}{%
+\section{Myxoid Liposarcoma}\label{sec-myxoid-liposarcoma}}
 
-\textbf{Miksoid Liposarkom}
+\textbf{Myxoid Liposarcoma}
 
 \href{https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/myxoidliposarcoma_screenshot.png}}
-\href{https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html}{Click
+for Full Screen WSI}
 
-\part{Pediatrik ve Perinatal Patoloji}
+\part{Pediatric and Perinatal}
 
-\hypertarget{sec-plasenta}{%
-\chapter{Plasenta}\label{sec-plasenta}}
+\hypertarget{sec-placenta}{%
+\chapter{Placenta}\label{sec-placenta}}
 
-\hypertarget{sec-koryoamniyonit}{%
-\section{Koryoamniyonit}\label{sec-koryoamniyonit}}
+\hypertarget{sec-chorioamnionitis}{%
+\section{Chorioamnionitis}\label{sec-chorioamnionitis}}
 
 \href{https://images.patolojiatlasi.com/chorioamnionitis/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/chorioamnionitis_screenshot.png}}
-\href{https://images.patolojiatlasi.com/chorioamnionitis/HE.html}{Tam
-Ekran Görmek İçin Resmi Tıklayın}
+\href{https://images.patolojiatlasi.com/chorioamnionitis/HE.html}{Click
+for Full Screen WSI}
 
 \part{---}
 
-\part{Özel Kolleksiyonlar}
+\part{Special Collections}
 
-\hypertarget{sec-wsi-sayfalari}{%
-\chapter{Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide
-Image) Sayfaları}\label{sec-wsi-sayfalari}}
+\hypertarget{sec-wsi-pages}{%
+\chapter{Pages Containing Whole Slide Images for Pathology
+Education}\label{sec-wsi-pages}}
 
 \hypertarget{sec-rosai-collection}{%
 \section{Rosai Collection}\label{sec-rosai-collection}}
@@ -1605,33 +1572,1028 @@ PMC10203758.
 https://www.sciencedirect.com/science/article/pii/S2666328723000159
 {[}@Mukosera2023{]}
 
-\hypertarget{section-2}{%
-\chapter{}\label{section-2}}
-
-\textbf{Bu sayfadaki vakalar Prof.~Dr.~Gülen Bülbül Doğusoy'un
-kolleksiyonundan alınmıştır.}
-
-\hypertarget{section-3}{%
-\chapter{}\label{section-3}}
-
-\textbf{Bu sayfadaki vakalar Doç. Dr.~Burcu Saka'nın kolleksiyonundan
-alınmıştır.}
-
 \hypertarget{section-4}{%
 \chapter{}\label{section-4}}
 
-\textbf{Bu sayfadaki vakalar Prof.~Dr.~İpek Çoban Elbeği'nin
-kolleksiyonundan alınmıştır.}
+\textbf{These cases are from the collections of Gulen Bulbul Dogusoy
+MD.}
+
+\hypertarget{sec-hacettepe-case-of-the-month}{%
+\chapter{\texorpdfstring{\href{https://hacettepepathology.com/}{Hacettepe
+Case Of the Month
+(COM)}}{Hacettepe Case Of the Month (COM)}}\label{sec-hacettepe-case-of-the-month}}
+
+\textbf{These cases are from the collections of Kemal Kosemehmetoglu MD
+and Arzu Saglam MD.}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-1}{%
+\section{Case-1}\label{sec-hacettepe-case-of-the-month-case-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=nfFtViUXHqU\&ab_channel=KemalKosemehmetoglu}{Case-1}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/nfFtViUXHqU}
+
+\textbf{hacettepe-com-case-1}
+
+Show the Diagnosis
+
+\hypertarget{answer}{}
+Intradermal Nodular Fasciitis
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-2}{%
+\section{Case-2}\label{sec-hacettepe-case-of-the-month-case-2}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=xHQihI19L5g\&ab_channel=KemalKosemehmetoglu}{case
+  2}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/xHQihI19L5g}
+
+\textbf{hacettepe-com-case-2}
+
+Show the Diagnosis
+
+\hypertarget{answer2}{}
+Sarcoma with INI1 loss, previously diagnosed as yolk sac tumor
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-2/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-2_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-2/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-3}{%
+\section{Case-3}\label{sec-hacettepe-case-of-the-month-case-3}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=JGDsmznBqZM\&ab_channel=KemalKosemehmetoglu}{case
+  3}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/JGDsmznBqZM}
+
+\href{https://www.youtube.com/watch?v=yKnEyGE4oD4\&ab_channel=KemalKosemehmetoglu}{case
+3, scopy}
+
+\url{https://www.youtube.com/embed/yKnEyGE4oD4}
+
+\textbf{hacettepe-com-case-3}
+
+Show the Diagnosis
+
+\hypertarget{answer3}{}
+Rhabdomyosarcoma of Bladder
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-3/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-3_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-3/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-4}{%
+\section{Case-4}\label{sec-hacettepe-case-of-the-month-case-4}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=Akp6H3myCIo\&ab_channel=KemalKosemehmetoglu}{case
+  4}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/Akp6H3myCIo}
+
+\textbf{hacettepe-com-case-4}
+
+Show the Diagnosis
+
+\hypertarget{answer4}{}
+Liposarcoma, inflammatory variant
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-4/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-4_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-4/HE1.html}{Click
+for Full Screen WSI}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-4/HE2.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-4-2_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-4/HE2.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-5}{%
+\section{Case-5}\label{sec-hacettepe-case-of-the-month-case-5}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=o13qcP56mqg\&ab_channel=KemalKosemehmetoglu}{case
+  5}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/o13qcP56mqg}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-5/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-5_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-5/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\textbf{hacettepe-com-case-5}
+
+Show the Diagnosis
+
+\hypertarget{answer5}{}
+Malignant peripheral nerve sheath tumor, perineural differantiation
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-5/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-5_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-5/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-6}{%
+\section{Case-6}\label{sec-hacettepe-case-of-the-month-case-6}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=ipjRs0h1PnY\&ab_channel=KemalKosemehmetoglu}{case
+  6}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/ipjRs0h1PnY}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-6/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-6_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-6/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\textbf{hacettepe-com-case-6}
+
+Show the Diagnosis
+
+\hypertarget{answer6}{}
+Hybrid hemosiderotic fibrolipomatous tumor - myxoinflammatory
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-6/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-6_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-6/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-7}{%
+\section{Case-7}\label{sec-hacettepe-case-of-the-month-case-7}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=FU-Fv7kQPdE\&ab_channel=KemalKosemehmetoglu}{case
+  7}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/FU-Fv7kQPdE}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-7/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-7_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-7/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-7/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-7_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-7/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-8}{%
+\section{Case-8}\label{sec-hacettepe-case-of-the-month-case-8}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=c8pDBHRO7t8\&ab_channel=KemalKosemehmetoglu}{case
+  8}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/c8pDBHRO7t8}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-9}{%
+\section{Case-9}\label{sec-hacettepe-case-of-the-month-case-9}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=9OxpsDNCHWk\&ab_channel=KemalKosemehmetoglu}{case
+  9}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/9OxpsDNCHWk}
+
+\textbf{hacettepe-com-case-9}
+
+Show the Diagnosis
+
+\hypertarget{answer9}{}
+angiomatoid fibrous histiocytoma
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-9/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-9_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-9/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-10}{%
+\section{Case-10}\label{sec-hacettepe-case-of-the-month-case-10}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=0vNcCaTYstU\&ab_channel=KemalKosemehmetoglu}{case
+  10}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/0vNcCaTYstU}
+
+\textbf{hacettepe-com-case-10}
+
+Show the Diagnosis
+
+\hypertarget{answer10}{}
+myxoinflammatory fibroblastic sarcoma, psoas
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-10/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-10_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-10/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-11}{%
+\section{Case-11}\label{sec-hacettepe-case-of-the-month-case-11}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=A5XO1Kp11Zk\&ab_channel=KemalKosemehmetoglu}{case
+  11}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/A5XO1Kp11Zk}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-11/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-11/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-12}{%
+\section{Case-12}\label{sec-hacettepe-case-of-the-month-case-12}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=2TwT4sE9XmM\&ab_channel=KemalKosemehmetoglu}{case
+  12}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/2TwT4sE9XmM}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-12/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\textbf{hacettepe-com-case-12}
+
+Show the Diagnosis
+
+\hypertarget{answer12}{}
+myelolipoma, periprostatic
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-12/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-13}{%
+\section{Case-13}\label{sec-hacettepe-case-of-the-month-case-13}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=TLRJ0pBrwxA\&ab_channel=KemalKosemehmetoglu}{case
+  13}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/TLRJ0pBrwxA}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-13/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\textbf{hacettepe-com-case-13}
+
+Show the Diagnosis
+
+\hypertarget{answer13}{}
+intranodal pallisading myofibroblastoma
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-13/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-14}{%
+\section{Case-14}\label{sec-hacettepe-case-of-the-month-case-14}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=MVZntjhry6g\&ab_channel=KemalKosemehmetoglu}{case
+  14}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/MVZntjhry6g}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-14/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\textbf{hacettepe-com-case-14}
+
+Show the Diagnosis
+
+\hypertarget{answer14}{}
+DSRCT
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-14/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-15}{%
+\section{Case-15}\label{sec-hacettepe-case-of-the-month-case-15}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=3lmx9hYGcG8\&ab_channel=KemalKosemehmetoglu}{case
+  15}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/3lmx9hYGcG8}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-16}{%
+\section{Case-16}\label{sec-hacettepe-case-of-the-month-case-16}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=Tkempcd59I0\&ab_channel=KemalKosemehmetoglu}{case
+  16}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/Tkempcd59I0}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-17}{%
+\section{Case-17}\label{sec-hacettepe-case-of-the-month-case-17}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=zlewGuN0BBY\&ab_channel=KemalKosemehmetoglu}{case
+  17}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/zlewGuN0BBY}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-17/HE1.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\textbf{hacettepe-com-case-17}
+
+Show the Diagnosis
+
+\hypertarget{answer17}{}
+IMT bladder
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-17/HE1.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-18}{%
+\section{Case-18}\label{sec-hacettepe-case-of-the-month-case-18}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=5c_5A4z6tro\&ab_channel=KemalKosemehmetoglu}{case
+  18}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/5c_5A4z6tro}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-18/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\textbf{hacettepe-com-case-18}
+
+Show the Diagnosis
+
+\hypertarget{answer18}{}
+myxoid LPS, paratesticular
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-18/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-19}{%
+\section{Case-19}\label{sec-hacettepe-case-of-the-month-case-19}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=SaNDCvKzQ6M\&ab_channel=KemalKosemehmetoglu}{case
+  19}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/SaNDCvKzQ6M}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-19/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\textbf{hacettepe-com-case-19}
+
+Show the Diagnosis
+
+\hypertarget{answer19}{}
+clear cell sarcoma
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-19/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-20}{%
+\section{Case-20}\label{sec-hacettepe-case-of-the-month-case-20}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=f8nE-6oR5VI\&ab_channel=KemalKosemehmetoglu}{case
+  20}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/f8nE-6oR5VI}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-21}{%
+\section{Case-21}\label{sec-hacettepe-case-of-the-month-case-21}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=Uith4SvB2_Q\&ab_channel=KemalKosemehmetoglu}{case
+  21}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/Uith4SvB2_Q}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-21/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\textbf{hacettepe-com-case-21}
+
+Show the Diagnosis
+
+\hypertarget{answer21}{}
+solitary fibrous tumor
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-21/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-22}{%
+\section{Case-22}\label{sec-hacettepe-case-of-the-month-case-22}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=wo6N0q5EiWc\&ab_channel=KemalKosemehmetoglu}{case
+  22}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/wo6N0q5EiWc}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-23}{%
+\section{Case-23}\label{sec-hacettepe-case-of-the-month-case-23}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=2j0ER0ShVR0\&ab_channel=KemalKosemehmetoglu}{case
+  23}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/2j0ER0ShVR0}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-23/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\textbf{hacettepe-com-case-23}
+
+Show the Diagnosis
+
+\hypertarget{answer23}{}
+chromophobe RCC
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-23/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-24}{%
+\section{Case-24}\label{sec-hacettepe-case-of-the-month-case-24}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=-S0_Hr6sNZ8\&ab_channel=KemalKosemehmetoglu}{case
+  24}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/-S0_Hr6sNZ8}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-24/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\textbf{hacettepe-com-case-24}
+
+Show the Diagnosis
+
+\hypertarget{answer24}{}
+neuroendocrine tumor of breast, bx tract seeding
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-24/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-25}{%
+\section{Case-25}\label{sec-hacettepe-case-of-the-month-case-25}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=tcmQKs38A14\&ab_channel=KemalKosemehmetoglu}{case
+  25}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/tcmQKs38A14}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-25/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\textbf{hacettepe-com-case-25}
+
+Show the Diagnosis
+
+\hypertarget{answer25}{}
+schwannoma, intraabdominal
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-25/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-26}{%
+\section{Case-26}\label{sec-hacettepe-case-of-the-month-case-26}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=UHadS40tpkY\&ab_channel=KemalKosemehmetoglu}{case
+  26}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/UHadS40tpkY}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-27}{%
+\section{Case-27}\label{sec-hacettepe-case-of-the-month-case-27}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=c2ePAdTH00g\&ab_channel=KemalKosemehmetoglu}{case
+  27}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/c2ePAdTH00g}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-27/HE1.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\textbf{hacettepe-com-case-27}
+
+Show the Diagnosis
+
+\hypertarget{answe27}{}
+monophasic synovial sarcoma vs nodular fasciitis
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-27/HE1.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-28}{%
+\section{Case-28}\label{sec-hacettepe-case-of-the-month-case-28}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=yUrabUzw3RI\&ab_channel=KemalKosemehmetoglu}{case
+  28}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/yUrabUzw3RI}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-28/HE1.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\textbf{hacettepe-com-case-28}
+
+Show the Diagnosis
+
+\hypertarget{answer28}{}
+ANNUBP
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-28/HE1.html}{Click
+for Full Screen WSI}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-28/HE2.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-29}{%
+\section{Case-29}\label{sec-hacettepe-case-of-the-month-case-29}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=GkGz7NV7JmM\&ab_channel=KemalKosemehmetoglu}{case
+  29}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/GkGz7NV7JmM}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-30}{%
+\section{Case-30}\label{sec-hacettepe-case-of-the-month-case-30}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=az6Fk7bYsQ8\&ab_channel=KemalKosemehmetoglu}{case
+  30}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-31}{%
+\section{Case-31}\label{sec-hacettepe-case-of-the-month-case-31}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=KHM2yQkRIV8\&ab_channel=KemalKosemehmetoglu}{case
+  31}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/KHM2yQkRIV8}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-31/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\textbf{hacettepe-com-case-31}
+
+Show the Diagnosis
+
+\hypertarget{answer31}{}
+angiosarcoma met, primary adrenal?, syn positive
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-31/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-32}{%
+\section{Case-32}\label{sec-hacettepe-case-of-the-month-case-32}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=mnLIi1sNnlQ\&ab_channel=KemalKosemehmetoglu}{case
+  32}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/mnLIi1sNnlQ}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-32/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\textbf{hacettepe-com-case-32}
+
+Show the Diagnosis
+
+\hypertarget{answer32}{}
+melanoma, not CCS
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-32/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-33}{%
+\section{Case-33}\label{sec-hacettepe-case-of-the-month-case-33}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=iWDCr1XysLk\&ab_channel=KemalKosemehmetoglu}{case
+  33}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/iWDCr1XysLk}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-33/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\textbf{hacettepe-com-case-33}
+
+Show the Diagnosis
+
+\hypertarget{answer33}{}
+secondary chondrosarcoma hand mafucci
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-33/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-34}{%
+\section{Case-34}\label{sec-hacettepe-case-of-the-month-case-34}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=bcIvt60vba0\&ab_channel=KemalKosemehmetoglu}{case
+  34}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/bcIvt60vba0}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-35}{%
+\section{Case-35}\label{sec-hacettepe-case-of-the-month-case-35}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=f_rdB9xqpiw\&ab_channel=KemalKosemehmetoglu}{case
+  35}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/f_rdB9xqpiw}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-36}{%
+\section{Case-36}\label{sec-hacettepe-case-of-the-month-case-36}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=ga7KjbH3U1s\&ab_channel=KemalKosemehmetoglu}{case
+  36}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/ga7KjbH3U1s}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-37}{%
+\section{Case-37}\label{sec-hacettepe-case-of-the-month-case-37}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=H8cnZqL29eI\&ab_channel=KemalKosemehmetoglu}{case
+  37}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/H8cnZqL29eI}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-38}{%
+\section{Case-38}\label{sec-hacettepe-case-of-the-month-case-38}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=hhO5QsqIPFg\&ab_channel=KemalKosemehmetoglu}{case
+  38}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/hhO5QsqIPFg}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-38/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\textbf{hacettepe-com-case-38}
+
+Show the Diagnosis
+
+\hypertarget{answer38}{}
+nipple duct adenoma
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-38/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-39}{%
+\section{Case-39}\label{sec-hacettepe-case-of-the-month-case-39}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=q4nuIBROlZI\&ab_channel=KemalKosemehmetoglu}{case
+  39}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/q4nuIBROlZI}
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-39/HE.html}{Tam
+Ekran Görmek İçin Resmi Tıklayın}
+
+\textbf{hacettepe-com-case-39}
+
+Show the Diagnosis
+
+\hypertarget{answer39}{}
+dx
+
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/hacettepe-com-case-1_screenshot.png}}
+\href{https://images.patolojiatlasi.com/hacettepe-com-case-39/HE.html}{Click
+for Full Screen WSI}
+
+\hypertarget{sec-hacettepe-case-of-the-month-case-}{%
+\section{Case-40}\label{sec-hacettepe-case-of-the-month-case-}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=In97sPfT9w4\&ab_channel=KemalKosemehmetoglu}{case
+  40}
+\end{itemize}
+
+\url{https://www.youtube.com/embed/In97sPfT9w4}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{itemize}
+\tightlist
+\item
+  Hacettepepathology.BOM - BUGS of the Month! Two exemplary cases with
+  outstanding morphology!
+\end{itemize}
+
+https://www.youtube.com/watch?v=hF7jSmHiiYQ\&ab\_channel=KemalKosemehmetoglu
+
+\url{https://www.youtube.com/embed/hF7jSmHiiYQ}
+
+\begin{itemize}
+\tightlist
+\item
+  HacettepePathology.COM - BOM - BUGS Of the Month! A stunning case of
+  cerebral toxoplasmosis!
+\end{itemize}
+
+https://www.youtube.com/watch?v=7JOOmePPtXI\&ab\_channel=KemalKosemehmetoglu
+
+\url{https://www.youtube.com/embed/7JOOmePPtXI}
+
+BOM-1-10-2020- aspergillus- E. histolytica BOM-2-3-2021- toxoplasma
+
+\hypertarget{section-5}{%
+\chapter{}\label{section-5}}
+
+\textbf{These cases are from the collections of Burcu Saka MD.}
+
+\hypertarget{sec-ICE1-WDNET-duodenum}{%
+\chapter{Duodenum WDNET}\label{sec-ICE1-WDNET-duodenum}}
+
+\textbf{These cases are from the collections of Ipek Coban Elbegi MD.}
+
+\begin{figure}[H]
+
+{\centering 
+
+\href{https://images.patolojiatlasi.com/ICE1-WDNET-duodenum/HE.html}{\includegraphics{ice_files/figure-pdf/unnamed-chunk-5-1.pdf}}
+
+}
+
+\end{figure}
+
+\textbf{Duodenum WDNET}
+
+\href{https://images.patolojiatlasi.com/ICE1-WDNET-duodenum/HE.html}{\includegraphics[width=0.25\textwidth,height=\textheight]{./screenshots/ICE1-WDNET-duodenum_screenshot.png}}
+\href{https://images.patolojiatlasi.com/ICE1-WDNET-duodenum/HE.html}{Click
+for Full Screen WSI}
 
 \part{---}
 
 \bookmarksetup{startatroot}
 
-\hypertarget{referanslar}{%
-\chapter*{Referanslar}\label{referanslar}}
-\addcontentsline{toc}{chapter}{Referanslar}
+\hypertarget{references}{%
+\chapter*{References}\label{references}}
+\addcontentsline{toc}{chapter}{References}
 
-\markboth{Referanslar}{Referanslar}
+\markboth{References}{References}
 
 \hypertarget{refs}{}
 \begin{CSLReferences}{0}{0}
@@ -1641,7 +2603,7 @@ kolleksiyonundan alınmıştır.}
 
 \cleardoublepage
 \phantomsection
-\addcontentsline{toc}{part}{Ekler}
+\addcontentsline{toc}{part}{Appendices}
 \appendix
 
 \hypertarget{sec-katki}{%
@@ -1673,27 +2635,23 @@ Adres: Doç.Dr.Serdar Balcı Memorial Patoloji Laboratuvarı, Ortadoğu
 Plaza Kat:14, Kaptanpaşa Mah. Piyalepaşa Bulvarı, Okmeydanı Cd No:73,
 34384 Şişli/İstanbul
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{knitr}\SpecialCharTok{::}\FunctionTok{include\_url}\NormalTok{(}\AttributeTok{url =} \StringTok{"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12033.28963318435!2d28.9735333!3d41.0619447!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0\%3A0x5b15447cefe51a4e!2sMemorial\%20Patoloji\%20Laboratuvar\%C4\%B1!5e0!3m2!1sen!2str!4v1646745650518!5m2!1sen!2str"}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
-
 \begin{figure}[H]
 
 {\centering 
 
-\href{https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12033.28963318435!2d28.9735333!3d41.0619447!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0\%3A0x5b15447cefe51a4e!2sMemorial\%20Patoloji\%20Laboratuvar\%C4\%B1!5e0!3m2!1sen!2str!4v1646745650518!5m2!1sen!2str}{\includegraphics{katki_files/figure-pdf/unnamed-chunk-2-1.pdf}}
+\href{https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12033.28963318435!2d28.9735333!3d41.0619447!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0\%3A0x5b15447cefe51a4e!2sMemorial\%20Patoloji\%20Laboratuvar\%C4\%B1!5e0!3m2!1sen!2str!4v1646745650518!5m2!1sen!2str}{\includegraphics[width=0.5\textwidth,height=\textheight]{./screenshots/katki_screenshot.png}}
 
 }
 
+\caption{Adres}
+
 \end{figure}
 
-\hypertarget{section-7}{%
-\chapter{}\label{section-7}}
+\hypertarget{section-8}{%
+\chapter{}\label{section-8}}
 
-Lütfen, her sayfanın altında bulunan yorum kısmını kullanarak atlasın
-geliştirilmesine katılın.
+Please participate in the development of the atlas by using the comment
+section at the bottom of each page.
 
 \url{https://www.youtube.com/watch?v=ONeGf4nYdPc}
 
@@ -1704,5 +2662,6 @@ geliştirilmesine katılın.
 \chapter{List}\label{list-1}}
 
 
+\backmatter
 
 \end{document}

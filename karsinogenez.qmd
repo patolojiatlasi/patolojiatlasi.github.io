@@ -1,3 +1,11 @@
+---
+description: "TemplateEN, TemplateTR, patoloji, atlas, pathology, whole slide image templateTR"
+date: last-modified
+categories: [template]
+page-layout: full
+bibliography: references.bib
+---
+
 ```{r language carcinogenesis, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
@@ -20,10 +28,11 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
-webshot2::webshot(delay=10,
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+if (!file.exists("./screenshots/carcinogenesis_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/carcinogenesis/HE.html",
+  file = "./screenshots/carcinogenesis_screenshot.png",
+  delay = 10
 )
 }
 ```
@@ -33,7 +42,7 @@ webshot2::webshot(delay=10,
 **metaplazi, displazi, karsinom**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/carcinogenesis/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/carcinogenesis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/carcinogenesis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/carcinogenesis/HE.html)
 
 ```
 
@@ -51,7 +60,7 @@ Mikroskopik görüntüleri inceleyin:
 **metaplasia, dysplasia, carcinoma**
 
 
-[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/carcinogenesis/HE.html)
+[![Click for Full Screen WSI](./screenshots/carcinogenesis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/carcinogenesis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/carcinogenesis/HE.html)
 
 ```
 

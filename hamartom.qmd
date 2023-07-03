@@ -1,3 +1,13 @@
+---
+description: |
+    TemplateEN, TemplateTR, patoloji, atlas, pathology, whole slide image
+    TemplateTR
+date: last-modified
+categories: [template]
+page-layout: full
+bibliography: references.bib
+---
+
 ```{r language hamartom, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
@@ -19,8 +29,7 @@ webshot2::webshot(delay=10,
 ```
 
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
-[Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/hamartomatouspolyp_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html) [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
 
 
@@ -47,8 +56,7 @@ webshot2::webshot(delay=10,
 ```
 
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
-[Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/schwanncellhamartoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html) [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html)
 
 

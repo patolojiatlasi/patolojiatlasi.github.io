@@ -1,3 +1,20 @@
+---
+description: |
+    yorum
+    comment
+    katkı
+    contribution
+    patoloji
+    atlas
+    pathology
+    whole slide image
+date: last-modified
+categories: [yorum, katkı, comment, contribution]
+page-layout: full
+bibliography: references.bib
+---
+
+
 ```{r language yorum, echo=FALSE, include=TRUE}
 
 source("./R/language.R")

@@ -59,7 +59,7 @@ book:
 #  repo-branch: main
 #  repo-actions: [edit, issue, source]
   sharing: [twitter, facebook, linkedin]
-  downloads: [epub, pdf, docx]
+#   downloads: [epub, pdf, docx]
   search:
     location: navbar
     type: overlay
@@ -345,45 +345,64 @@ format:
           <script src="webpages.js"></script>
       - file: "./header1.html"
 
-  epub:
-    toc: true
-    toc-title: "İçindekiler"
-    epub-cover-image: images/cover.png
-    execute:
-      warning: false
+#   epub:
+#     toc: true
+#     toc-title: "İçindekiler"
+#     epub-cover-image: images/cover.png
+#     execute:
+#       warning: false
+#     css:
+#       epub.css
 
-#  pdf:
-#    documentclass: scrreprt
-#    toc: true
-#    toc-depth: 3
-#    toc-title: "İçindekiler"
-#    number-sections: true
-#    number-depth: 3
-#    colorlinks: true
-#    highlight-style: github
-#    execute:
-#      warning: false
-    # include-in-header:
-    #   - text: |
-    #       \usepackage{titlesec}
-    #       \usepackage{svg}
-    #       \usepackage{transparent}
-    #       \usepackage{tikzfill}
-    #       \usepackage{sidenotes}
-    #       \usepackage{marginnote}
-    #       \usepackage{changepage}
-    #       \usepackage{titlesec}
+#   pdf:
+#     keep-tex: true
+#     documentclass: scrbook
+#     classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,12pt]
+#
+# #    documentclass: scrreprt
+#     toc: true
+#     toc-depth: 3
+#     toc-title: "İçindekiler"
+#     number-sections: true
+#     number-depth: 3
+#     colorlinks: true
+#     highlight-style: github
+#     execute:
+#       warning: false
+#     include-in-header:
+#       text: |
+#         \usepackage{fvextra}
+#         \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+#         \areaset[0.50in]{4.5in}{8in}
+#         \usepackage{titlesec}
+#         \usepackage{svg}
+#         \usepackage{transparent}
+#         \usepackage{tikzfill}
+#         \usepackage{sidenotes}
+#         \usepackage{marginnote}
+#         \usepackage{changepage}
+#
+#     include-before-body:
+#       text: |
+#         \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
+#            showspaces = false,
+#            showtabs = false,
+#            breaksymbolleft={},
+#            breaklines
+#            % Note: setting commandchars=\\\{\} here will cause an error
+#         }
+#     fig-pos: 'H'
 
-  docx:
-    toc: true
-    section-numbers: true
-    highlight-style: github
-    toc-depth: 3
-    toc-title: "İçindekiler"
-    number-sections: true
-    number-depth: 3
-    execute:
-      warning: false
+#   docx:
+#     toc: true
+#     section-numbers: true
+#     highlight-style: github
+#     toc-depth: 3
+#     toc-title: "İçindekiler"
+#     number-sections: true
+#     number-depth: 3
+#     execute:
+#       warning: false
 
 
 citation:

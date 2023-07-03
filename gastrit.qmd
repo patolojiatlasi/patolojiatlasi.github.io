@@ -1,6 +1,13 @@
-# lymphocytic-gastritis
+---
+description: |
+    TemplateEN, TemplateTR, patoloji, atlas, pathology, whole slide image
+    TemplateTR
+date: last-modified
+categories: [template]
+page-layout: full
+bibliography: references.bib
+---
 
-**lymphocytic-gastritis for pathology atlas repositories**
 
 ```{r language lymphocytic-gastritis, echo=FALSE, include=TRUE}
 
@@ -8,6 +15,19 @@ source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
+
+```{asis, echo = (language == "TR")}
+
+# Gastrit {#sec-gastrit}
+
+```
+
+```{asis, echo = (language == "EN")}
+
+# Gastritis {#sec-gastritis}
+
+```
+
 
 ```{asis, echo = (language == "TR")}
 
@@ -20,6 +40,19 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ## lymphocytic gastritis {#sec-lymphocytic-gastritis}
 
 ```
+
+
+```{r, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/lymphocytic-gastritis-all_screenshot.png")) {
+webshot2::webshot(delay=10,
+  url = "https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html",
+  file = "./screenshots/lymphocytic-gastritis-all_screenshot.png"
+)
+}
+
+
+```
+
 
 ```{r, eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/lymphocytic-gastritisHE_screenshot.png")) {
@@ -62,6 +95,17 @@ webshot2::webshot(delay=10,
 )
 }
 
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+**lenfositik gastrit**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/lymphocytic-gastritis-all_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html)
 
 ```
 

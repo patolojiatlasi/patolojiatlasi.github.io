@@ -1,3 +1,13 @@
+---
+description: |
+    TemplateEN, TemplateTR, patoloji, atlas, pathology, whole slide image
+    TemplateTR
+date: last-modified
+categories: [template]
+page-layout: full
+bibliography: references.bib
+---
+
 ```{r language amiloid, echo=FALSE, include=TRUE}
 source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
@@ -115,14 +125,13 @@ See Microscopy with viewer:
 ```
 
 
+
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-# if (!file.exists("./screenshots/congoredvideo_screenshot.png")) {
-# webshot2::webshot(
-#   url = "https://www.youtube.com/embed/U9glkfQLTm4",
-#   file = "./screenshots/congoredvideo_screenshot.png",
-#   delay = 10
-# )
-# }
+if (!file.exists("./screenshots/congoredvideo_screenshot.png")) {
+
+url <- "https://img.youtube.com/vi/U9glkfQLTm4/maxresdefault.jpg"
+download.file(url, destfile = "./screenshots/congoredvideo_screenshot.png", mode = "wb")
+}
 ```
 
 
