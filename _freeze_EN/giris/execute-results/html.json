@@ -1,8 +1,10 @@
 {
-  "hash": "62aed323948fd9edba4e55eed3fb6f50",
+  "hash": "72f8b80f00014c619b2998629fe23264",
   "result": {
-    "markdown": "# Giriş {#sec-giris .unnumbered}\n\nPatoloji Atlası Memorial Patoloji arşivinden ve diğer kurumlardan katkı\nyapan meslektaşlarımızın kolleksiyonlarından oluşmaktadır.\\\n\n[Katkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime\ngeçin](https://www.patolojiatlasi.com/katki.html).\n\n\n::: {.cell}\n\n:::\n\n\nSon güncelleme zamanı: 2023-07-01 16:48:53.077399\n\n\n\n\n\nSosyal medyadan derlenen görüntülerden oluşan [patoloji notları için\ntıklayınız](https://www.patolojinotlari.com/).\n",
-    "supporting": [],
+    "markdown": "---\ndescription: |\n    TemplateEN, TemplateTR, patoloji, atlas, pathology, whole slide image\n    TemplateTR\ndate: last-modified\ncategories: [template]\npage-layout: full\nbibliography: references.bib\n---\n\n\n# Giriş {#sec-giris .unnumbered}\n\nPatoloji Atlası Memorial Patoloji arşivinden ve diğer kurumlardan katkı\nyapan meslektaşlarımızın kolleksiyonlarından oluşmaktadır.\\\n\n[Katkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime\ngeçin](https://www.patolojiatlasi.com/katki.html).\n\n\n::: {.cell}\n\n:::\n\n\nSon güncelleme zamanı: 2023-07-04 16:22:24.283662\n\n\n\n\n\nSosyal medyadan derlenen görüntülerden oluşan [patoloji notları için\ntıklayınız](https://www.patolojinotlari.com/).\n",
+    "supporting": [
+      "giris_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

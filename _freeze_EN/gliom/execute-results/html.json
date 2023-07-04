@@ -1,8 +1,10 @@
 {
-  "hash": "b8295e0bbf62000228016268a0ae489a",
+  "hash": "33a4d48788d27f7642aabeb0262867d6",
   "result": {
-    "markdown": "::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# High Grade Glioma Squash Slide {#sec-high-grade-glioma-squash-slide}\n:::\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n**High Grade Glioma Squash Slide**\n\n\n[![Click for Full Screen WSI](./screenshots/high-grade-glioma-squash_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html)\n:::\n\n::: {.cell}\n\nSee Microscopy with viewer: \n\n<iframe src=\"https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n",
-    "supporting": [],
+    "markdown": "---\ndescription: |\n    TemplateEN, TemplateTR, patoloji, atlas, pathology, whole slide image\n    TemplateTR\ndate: last-modified\ncategories: [template]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# High Grade Glioma Squash Slide {#sec-high-grade-glioma-squash-slide}\n:::\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n**High Grade Glioma Squash Slide**\n\n\n[![Click for Full Screen WSI](./screenshots/high-grade-glioma-squash_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html)\n:::\n\n::: {.cell}\n\nSee Microscopy with viewer: \n\n<iframe src=\"https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n",
+    "supporting": [
+      "gliom_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

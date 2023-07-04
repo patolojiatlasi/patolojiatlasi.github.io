@@ -1,8 +1,10 @@
 {
-  "hash": "a209cab2b6b444df8245e0fb1c97c890",
+  "hash": "566e8bc43f741c99d07eaa38521e8ac4",
   "result": {
-    "markdown": "::: {.cell}\n\n:::\n\n::: {.cell}\n\n## Endometrial Polip {#sec-endometrial-polip}\n:::\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n\n**Endometrial Polip**\n\n\n[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/endometrial-polyp_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/endometrial-polyp/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/endometrial-polyp/HE.html)\n:::\n\n::: {.cell}\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/endometrial-polyp/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n",
-    "supporting": [],
+    "markdown": "---\ndescription: |\n    TemplateEN, TemplateTR, patoloji, atlas, pathology, whole slide image\n    TemplateTR\ndate: last-modified\ncategories: [template]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n## Endometrial Polip {#sec-endometrial-polip}\n:::\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n\n**Endometrial Polip**\n\n\n[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/endometrial-polyp_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/endometrial-polyp/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/endometrial-polyp/HE.html)\n:::\n\n::: {.cell}\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/endometrial-polyp/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "endometrium_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

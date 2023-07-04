@@ -1,8 +1,10 @@
 {
-  "hash": "5bb946216e65c7412d986ae482b22dca",
+  "hash": "c11e79bc05d83951e15a1998aeb895d8",
   "result": {
-    "markdown": "::: {.cell}\n\n:::\n\n::: {.cell}\n\n**Bu sayfadaki vakalar Prof. Dr. Gülen Bülbül Doğusoy'un kolleksiyonundan alınmıştır.**\n:::\n\n::: {.cell}\n\n:::\n",
-    "supporting": [],
+    "markdown": "---\ndescription: |\n    TemplateEN, TemplateTR, patoloji, atlas, pathology, whole slide image\n    TemplateTR\ndate: last-modified\ncategories: [template]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n**Bu sayfadaki vakalar Prof. Dr. Gülen Bülbül Doğusoy'un kolleksiyonundan alınmıştır.**\n:::\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "gbd_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
