@@ -8,13 +8,6 @@ page-layout: full
 bibliography: references.bib
 ---
 
-# congestion-spleen
-
-
-
-**congestion-spleen for pathology atlas repositories**
-
-
 
 ```{r language congestion-spleen, echo=FALSE, include=TRUE}
 source("./R/language.R")
@@ -43,19 +36,18 @@ webshot2::webshot(
 }
 ```
 
-```{r, echo=FALSE, include=TRUE, eval=TRUE}
+```{r, echo=FALSE, include=FALSE, eval=FALSE}
 knitr::include_url(url = "https://images.patolojiatlasi.com/congestion-spleen/HE.html")
 ```
 
-```{r, echo=FALSE, include=TRUE, eval=TRUE}
+```{r, echo=FALSE, include=FALSE, eval=FALSE}
 #| label: congestion-spleen_screenshot
 #| fig-cap: "dalak konjesyon"
 knitr::include_graphics("./screenshots/congestion-spleen_screenshot.png")
 ```
 
-See @congestion-spleen_screenshot for dalak konjesyon.
 
-::: {.content-hidden when-format="pdf"}
+::: {.content-hidden when-format="html"}
 dalak konjesyon
 :::
 
