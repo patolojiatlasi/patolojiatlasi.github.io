@@ -27,7 +27,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ## Rosai Collection {#sec-rosai-collection}
 
-
 ```{asis, echo = (output_type=="html")}
 
 <https://www.rosaicollection.org/>
@@ -43,7 +42,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
-
 ## Atlas of Medical Foreign Bodies {#sec-atlas-of-medical-foreign-bodies}
 
 ```{asis, echo = (output_type=="html")}
@@ -57,8 +55,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
-
-
 ## Patoloji Dernekleri Federasyonu Olgu Sayfası
 
 ```{asis, echo = (output_type=="html")}
@@ -69,10 +65,13 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 <https://www.turkpath.org.tr/case.list.php>
 ```
 
-
 ## Dermatopathology Collection
 
-A collection of online dermatopathology resources for residents and fellows. [JAAD Int. 2023 Jan 30;12:12-14.](https://www.jaadinternational.org/article/S2666-3287(23)00015-9/fulltext) doi: 10.1016/j.jdin.2022.12.007. PMID: [37228363](https://pubmed.ncbi.nlm.nih.gov/37228363/); PMCID: PMC10203758. https://www.sciencedirect.com/science/article/pii/S2666328723000159 [@Mukosera2023]
+A collection of online dermatopathology resources for residents and fellows.
+[JAAD Int. 2023 Jan 30;12:12-14.](https://www.jaadinternational.org/article/S2666-3287(23)00015-9/fulltext)
+doi: 10.1016/j.jdin.2022.12.007.
+PMID: [37228363](https://pubmed.ncbi.nlm.nih.gov/37228363/); PMCID: PMC10203758.
+https://www.sciencedirect.com/science/article/pii/S2666328723000159 [@Mukosera2023]
 
 ```{asis, echo = (output_type=="html")}
 
@@ -80,3 +79,14 @@ A collection of online dermatopathology resources for residents and fellows. [JA
 
 ```
 
+## PathoDiscovery
+
+Buma AIG, Simmer F, den Braber-Ymker M, Groenen PJTA. Appraisal of the PathoDiscovery: an interactive web-based educational tool for teaching pathophysiology and histopathology.
+APMIS.
+2023 Jul 7.
+doi: 10.1111/apm.13337.
+Epub ahead of print.
+PMID: [37418280](https://pubmed.ncbi.nlm.nih.gov/37418280/).
+[@Buma2023]
+
+<https://radboudumc.bkcacademy.nl/module/19/extern>
