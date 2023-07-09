@@ -128,7 +128,11 @@ book:
         - text: "Hücre Hasarı"
           href: hucrehasari.qmd
         - text: "Hemodinamik Bozukluklar"
-          href: iskeminekroz.qmd
+#           href: hemodinamik-bozukluklar.qmd
+#         - text: "İskemi ve Nekroz"
+          href: iskemi-nekroz.qmd
+        - text: "Konjesyon"
+          href: konjesyon.qmd
         - text: "Amiloid birikimi"
           href: amiloid.qmd
         - text: "Tamir Mekanizmaları"
@@ -199,6 +203,8 @@ book:
       chapters:
         - text: "Pankreas"
           href: pankreas.qmd
+        - text: "Pankreas Duktal Adenokarsinom"
+          href: pdac.qmd
         - text: "Safra Kesesi"
           href: safrakesesi.qmd
         - text: "Ampulla Vater"
