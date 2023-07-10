@@ -215,6 +215,20 @@ jobs:
           target-branch: main
 
 
+
+      - name: Pushes to histopathologyatlas
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'EN'
+          destination-github-username: 'histopathologyatlas'
+          destination-repository-name: 'histopathologyatlas.github.io'
+          user-email: drserdarbalci@gmail.com
+          target-branch: main
+
+
+
       - name: Pushes to atlas
         uses: cpina/github-action-push-to-another-repository@main
         env:
