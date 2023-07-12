@@ -144,16 +144,22 @@ book:
           href: parazit.qmd
     - part: "Neoplasia, Tumor Pathology Basics"
       chapters:
-        - benign.qmd
-        - hamartom.qmd
-        - heterotopi.qmd
-        - text: "Metaplazi"
+        - text: "Benign Tumors"
+          href: benign.qmd
+        - text: "Hamartoma"
+          href: hamartom.qmd
+        - text: "Heterotopia"
+          href: heterotopi.qmd
+        - text: "Metaplasia"
           href: metaplazi.qmd
         - text: "Carcinogenesis"
           href: karsinogenez.qmd
-        - malign.qmd
-        - metastaz.qmd
-        - tumoryayilim.qmd
+        - text: "The properties of Malignant Tumors"
+          href: malign.qmd
+        - text: "Metastasis"
+          href: metastaz.qmd
+        - text: "Tumor Spread to Other Organs"
+          href: tumoryayilim.qmd
     - part: "Prognostic Morphologic Features of Neoplasms"
       chapters:
         - text: "Venous Invasion"
@@ -163,7 +169,8 @@ book:
     - part: "Hematopathology"
       chapters:
 #        - hematopatoloji.qmd
-        - hodgkin.qmd
+        - text: "Hodgkin Lymphoma"
+          href: hodgkin.qmd
     - part: "Gastrointestinal System"
       chapters:
         - gastro.qmd
@@ -257,7 +264,8 @@ book:
           href: adipoz.qmd
     - part: "Pediatric and Perinatal"
       chapters:
-        - plasenta.qmd
+        - text: "Placenta"
+          href: plasenta.qmd
     - part: "---"
     - part: "Special Collections"
       chapters:
