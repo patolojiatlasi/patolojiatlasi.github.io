@@ -151,12 +151,17 @@ jobs:
 #        run: |
 #          quarto render
 
-      - name: "Render Book From TR"
+      - name: "Post Render Book From EN"
         shell: Rscript {0}
         run: |
           if (file.exists("./EN/CNAME")){fs::file_delete(path = "./EN/CNAME")}
+          fs::file_copy(path = "./CNAME-histopathologyatlas", new_path = "./EN/CNAME", overwrite = TRUE)
           if (dir.exists(paths = "./EN/public")) {fs::dir_delete(path = "./EN/public")}
           if (dir.exists(paths = "./EN/docs")) {fs::dir_delete(path = "./EN/docs")}
+          
+      - name: "Render Book From TR"
+        shell: Rscript {0}
+        run: |          
           # prepare TR
           if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
           if (dir.exists(paths = "./_freeze_TR")) { fs::dir_copy(path = "./_freeze_TR", new_path = "./_freeze", overwrite = TRUE) }
@@ -213,6 +218,20 @@ jobs:
           destination-repository-name: 'EN'
           user-email: drserdarbalci@gmail.com
           target-branch: main
+
+
+
+      - name: Pushes to histopathologyatlas
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'EN'
+          destination-github-username: 'histopathologyatlas'
+          destination-repository-name: 'histopathologyatlas.github.io'
+          user-email: drserdarbalci@gmail.com
+          target-branch: main
+
 
 
       - name: Pushes to atlas
