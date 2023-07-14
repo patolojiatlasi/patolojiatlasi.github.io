@@ -352,9 +352,10 @@ See Microscopy with viewer:
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/melanosiscoli-HE_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(
   url = "https://images.patolojiatlasi.com/melanosiscoli/HE.html",
-  file = "./screenshots/melanosiscoli-HE_screenshot.png"
+  file = "./screenshots/melanosiscoli-HE_screenshot.png",
+  delay = 20
 )
 }
 ```
