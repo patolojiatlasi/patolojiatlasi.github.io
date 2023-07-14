@@ -344,6 +344,12 @@ See Microscopy with viewer:
 
 ## Melanosis Coli {#sec-melanosis-coli}
 
+::: panel-tabset
+
+#### HE
+
+
+
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/melanosiscoli-HE_screenshot.png")) {
 webshot2::webshot(delay=10,
@@ -386,6 +392,10 @@ See Microscopy with viewer:
 
 ```
 
+
+#### PAS
+
+
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/melanosiscoli-PAS_screenshot.png")) {
 webshot2::webshot(delay=10,
@@ -427,3 +437,6 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/melanosiscoli/PAS.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
+
+:::
+

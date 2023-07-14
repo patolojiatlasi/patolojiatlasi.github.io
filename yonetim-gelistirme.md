@@ -368,3 +368,15 @@ Hello, I won't appear in the PDF!
 ::: {.content-visible when-format="pdf"}
 But this text here, will only appear in the PDF!
 :::
+
+
+---
+
+Increase the HTTP buffer size: Sometimes, increasing Git's HTTP buffer can help with this issue. You can do this with the following command: 
+```
+git config --global http.postBuffer 524288000
+```
+
+This increases the buffer size to 500 MB. Adjust the size as needed for your specific situation.
+
+---
