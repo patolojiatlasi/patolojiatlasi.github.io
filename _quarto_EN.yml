@@ -22,8 +22,8 @@ lang: en
 
 book:
   # engine: knitr
-  title: "Pathology Atlas"
-  subtitle: "Pathology Atlas and Notes for Medical Students: See and Learn"
+  title: "Histopathology Atlas"
+  subtitle: "Atlas of Pathology with Whole Slide Images"
   author:
    - name: "Serdar Balcı"
      url: "https://www.serdarbalci.com"
@@ -34,13 +34,15 @@ book:
      affiliation: "Memorial Pathology & Other Institutions"
      affiliation-url: "https://www.patolojiatlasi.com/EN/yazarlar.html"
   description: |
-    Pathology Atlas and Notes for Medical Students: See and Learn
-    Atlas of Pathology
+    Atlas of Pathology with Whole Slide Images
+    Histopathology Atlas and Notes for Medical Students: See and Learn
+    Atlas of Histopathology
     Notes for Pathology
-    Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Pathology Archive and collaborators from other institutions.
+    Pathology Lecture Notes and Histopathology Atlas is being prepared from Memorial Pathology Archive and collaborators from other institutions.
   abstract: |
-    Pathology Atlas and Notes for Medical Students: See and Learn
-    Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Pathology Archive and collaborators from other institutions.
+    Atlas of Pathology with Whole Slide Images
+    Histopathology Atlas and Notes for Medical Students: See and Learn
+    Pathology Lecture Notes and Histopathology Atlas is being prepared from Memorial Pathology Archive and collaborators from other institutions.
     If you want to contribute, please [contact us](https://www.patolojiatlasi.com/katki.html).
   date: last-modified
   image: images/coverEN.png
@@ -144,16 +146,22 @@ book:
           href: parazit.qmd
     - part: "Neoplasia, Tumor Pathology Basics"
       chapters:
-        - benign.qmd
-        - hamartom.qmd
-        - heterotopi.qmd
-        - text: "Metaplazi"
+        - text: "Benign Tumors"
+          href: benign.qmd
+        - text: "Hamartoma"
+          href: hamartom.qmd
+        - text: "Heterotopia"
+          href: heterotopi.qmd
+        - text: "Metaplasia"
           href: metaplazi.qmd
         - text: "Carcinogenesis"
           href: karsinogenez.qmd
-        - malign.qmd
-        - metastaz.qmd
-        - tumoryayilim.qmd
+        - text: "The properties of Malignant Tumors"
+          href: malign.qmd
+        - text: "Metastasis"
+          href: metastaz.qmd
+        - text: "Tumor Spread to Other Organs"
+          href: tumoryayilim.qmd
     - part: "Prognostic Morphologic Features of Neoplasms"
       chapters:
         - text: "Venous Invasion"
@@ -163,7 +171,8 @@ book:
     - part: "Hematopathology"
       chapters:
 #        - hematopatoloji.qmd
-        - hodgkin.qmd
+        - text: "Hodgkin Lymphoma"
+          href: hodgkin.qmd
     - part: "Gastrointestinal System"
       chapters:
         - gastro.qmd
@@ -177,6 +186,8 @@ book:
           href: duodenum.qmd
         - text: "Colon"
           href: kolon.qmd
+        - text: "Crohn's Disease"
+          href: crohn.qmd
     - part: "Liver"
       chapters:
         - text: "Liver Tumors"
@@ -255,7 +266,8 @@ book:
           href: adipoz.qmd
     - part: "Pediatric and Perinatal"
       chapters:
-        - plasenta.qmd
+        - text: "Placenta"
+          href: plasenta.qmd
     - part: "---"
     - part: "Special Collections"
       chapters:

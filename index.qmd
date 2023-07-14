@@ -1,4 +1,3 @@
-# Patoloji Atlası {#sec-patoloji-atlasi .unnumbered}
 
 ```{r language, echo=FALSE, include=TRUE}
 source("./R/language.R")
@@ -7,18 +6,27 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "TR")}
+# Patoloji Atlası {#sec-patoloji-atlasi .unnumbered}
+```
 
-For English [click here](https://www.patolojiatlasi.com/EN/).  
+```{asis, echo = (language == "EN")}
+# Histopathology Atlas {#sec-histopathology-atlas .unnumbered}
+```
 
-Sosyal medyadan derlenen görüntülerden oluşan patoloji notları için [tıklayınız](https://www.patolojinotlari.com/).  
+
+```{asis, echo = (language == "TR")}
+
+- For English [click here](https://www.histopathologyatlas.com/).  
+
+- Sosyal medyadan derlenen görüntülerden oluşan patoloji notları için [tıklayınız](https://www.patolojinotlari.com/).  
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-[Türkçe Atlas için tıklayın](https://www.patolojiatlasi.com/)  
+- [Türkçe Atlas için tıklayın](https://www.patolojiatlasi.com/)  
 
-For social media based pathology notes [click here](https://www.patolojinotlari.com/)  
+- For social media based pathology notes [click here](https://www.patolojinotlari.com/)  
 
 
 ```
