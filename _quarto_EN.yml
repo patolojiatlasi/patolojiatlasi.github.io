@@ -271,8 +271,6 @@ book:
     - part: "---"
     - part: "Special Collections"
       chapters:
-        - text: "Recommended Websites"
-          href: wsi.qmd
         - text: "GBDAtlas"
           href: gbd.qmd
         - text: "Hacettepe Case of Month"
@@ -281,6 +279,8 @@ book:
           href: bs.qmd
         - text: "ICEtlas"
           href: ice.qmd
+        - text: "Similar Websites"
+          href: wsi.qmd
     - part: "---"
     - references.qmd
     - part: "---"
