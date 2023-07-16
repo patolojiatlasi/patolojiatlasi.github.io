@@ -29,9 +29,9 @@
     },
     "MASS": {
       "Package": "MASS",
-      "Version": "7.3-58.4",
+      "Version": "7.3-60",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "grDevices",
@@ -40,7 +40,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "a3142b2a022b8174ca675bc8b80cdc4e"
+      "Hash": "a56a6365b3fa73293ea8d084be0d9bb0"
     },
     "Matrix": {
       "Package": "Matrix",
