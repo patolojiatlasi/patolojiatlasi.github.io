@@ -1,9 +1,9 @@
 name: Post Wordpress Random Cases
 on:
   workflow_dispatch:
-#  push:
-  # schedule:
-  #   - cron: '5 20 * * 4'
+  push:
+  schedule:
+    - cron: '0 20 * * *'
 
 jobs:
   post-wordpress-random-cases-from-patolojiatlasi:
@@ -79,10 +79,10 @@ jobs:
         names(WordpressLogin) <- WP_USER_NAME
         options(WordpressLogin = WordpressLogin)
         options(knitr.knit2wp.warning = FALSE)
-        source('./R/tweet-random-cases.R')
-        inputWP <- "./tweetstring.txt"
-        titleWP <- readLines("./tweetstring.txt")
-        knitr::knit2wp(input = inputWP, title = titleWP, shortcode = TRUE, categories = c('patolojiatlasi'), action = "newPost", publish = TRUE)
+        source('./R/extract-html-links.R')
+        inputWP <- "./wp_string.txt"
+        titleWP <- readLines("./wp_string.txt")
+        knitr::knit2wp(input = inputWP, title = titleWP, shortcode = TRUE, categories = c('patolojiatlasi', 'histopathologyatlas'), action = "newPost", publish = TRUE)
       shell: Rscript {0}
 
 
