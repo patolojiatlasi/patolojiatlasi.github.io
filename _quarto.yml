@@ -59,7 +59,7 @@ book:
 #  repo-branch: main
 #  repo-actions: [edit, issue, source]
   sharing: [twitter, facebook, linkedin]
-#   downloads: [epub, pdf, docx]
+  downloads: [epub] #, pdf, docx]
   search:
     location: navbar
     type: overlay
