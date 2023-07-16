@@ -164,7 +164,7 @@ texts <- stringr::str_replace_all(string = texts,
 
 texts <- data.frame(texts = texts)
 
-wp_string <- sample_n(texts, 1)
+wp_string <- dplyr::sample_n(texts, 1)
 
 writeLines(text = wp_string$texts[1], "./wp_string.txt")
 
