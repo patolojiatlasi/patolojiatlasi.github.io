@@ -63,7 +63,7 @@ jobs:
       shell: Rscript {0}
 
 
-    - name: generate and post tweetstring
+    - name: generate and post wp_string
       env:
           WP_USER_NAME: ${{ secrets.WP_USER_NAME }}
           WP_USER_SECRET: ${{ secrets.WP_USER_SECRET }}
