@@ -52,7 +52,7 @@ book:
   date: last-modified
   image: images/coverTR.png
   output-file: "Patoloji-Atlasi"
-  cover-image: images/cover.png
+  cover-image: images/coverTR.png
   site-url: https://patolojiatlasi.com/
 #  repo-url: https://github.com/patolojiatlasi/patolojiatlasi.github.io
   google-analytics: "G-7BT7Q4FLT9"
@@ -72,7 +72,7 @@ book:
     pinned: true
 #   navbar:
 #     title: "Patoloji Atlası"
-#     logo: images/cover.png
+#     logo: images/coverTR.png
 #     search: true
 #     pinned: false
 #     collapse: true
@@ -327,7 +327,7 @@ format:
       body-width: 1800px # default 900px
       # margin-width: 300px
       # gutter-width: 1.5rem
-    cover-image: images/cover.png
+    cover-image: images/coverTR.png
 #    code-link: true
 #    code-fold: true
 #    code-tools: true
@@ -356,7 +356,7 @@ format:
 #   epub:
 #     toc: true
 #     toc-title: "İçindekiler"
-#     epub-cover-image: images/cover.png
+#     epub-cover-image: images/coverTR.png
 #     execute:
 #       warning: false
 #     css:
