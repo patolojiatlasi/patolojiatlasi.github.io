@@ -11,7 +11,7 @@ lines <- str_split(md_text, "\n") %>% unlist()
 current_heading <- NA
 current_png <- NA
 current_url <- NA
-data <- tibble(heading = character(), png = character(), url = character())
+data_extracted <- tibble(heading = character(), png = character(), url = character())
 
 # Iterate through lines
 for (line in lines) {
@@ -32,11 +32,11 @@ for (line in lines) {
     # Extract url
     current_url <- str_extract(line, "\\(.*\\.html\\)") %>% str_replace_all(c("\\(" = "", "\\)" = ""))
       }
-  # If line is blank or end of file, add data to the tibble
+  # If line is blank or end of file, add data_extracted to the tibble
   if (line == "" | identical(line, tail(lines, n = 1))) {
-    data <- data %>% add_row(heading = current_heading, png = current_png, url = current_url)
+    data_extracted <- data_extracted %>% add_row(heading = current_heading, png = current_png, url = current_url)
   }
 }
 
-# View data
-print(data)
+# View data_extracted
+print(data_extracted)

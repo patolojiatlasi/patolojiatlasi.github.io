@@ -46,7 +46,6 @@ jobs:
 
     - name: Install R dependencies
       run: |
-        if (!requireNamespace("MASS", quietly = TRUE)) {install.packages("MASS", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
         if (!requireNamespace("remotes", quietly = TRUE)) {install.packages("remotes", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
         # remotes::install_deps(dependencies = TRUE)
         if (!requireNamespace("renv", quietly = TRUE)) {install.packages("renv")}
