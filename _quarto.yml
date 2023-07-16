@@ -277,8 +277,6 @@ book:
     - part: "---"
     - part: "Özel Kolleksiyonlar"
       chapters:
-        - text: "Önerilen Sayfalar"
-          href: wsi.qmd
         - text: "GBDAtlas"
           href: gbd.qmd
         - text: "Hacettepe Ayın Vakası"
@@ -287,6 +285,8 @@ book:
           href: bs.qmd
         - text: "ICEtlas"
           href: ice.qmd
+        - text: "Benzer Sayfalar"
+          href: wsi.qmd
     - part: "---"
     - referanslar.qmd
     - part: "---"
