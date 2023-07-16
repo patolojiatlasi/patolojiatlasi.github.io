@@ -80,7 +80,7 @@ jobs:
         options(WordpressLogin = WordpressLogin)
         options(knitr.knit2wp.warning = FALSE)
         source('./R/extract-html-links.R')
-        inputWP <- "./wp_string.txt"
+        inputWP <- ""
         titleWP <- readLines("./wp_string.txt")
         knitr::knit2wp(input = inputWP, title = titleWP, shortcode = TRUE, categories = c('patolojiatlasi', 'histopathologyatlas'), action = "newPost", publish = TRUE)
       shell: Rscript {0}
