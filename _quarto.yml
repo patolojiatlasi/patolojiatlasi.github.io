@@ -353,14 +353,14 @@ format:
           <script src="webpages.js"></script>
       - file: "./header1.html"
 
-#   epub:
-#     toc: true
-#     toc-title: "İçindekiler"
-#     epub-cover-image: images/coverTR.png
-#     execute:
-#       warning: false
-#     css:
-#       epub.css
+  epub:
+    toc: true
+    toc-title: "İçindekiler"
+    epub-cover-image: images/coverTR.png
+    execute:
+      warning: false
+    css:
+      epub.css
 
 #   pdf:
 #     keep-tex: true
