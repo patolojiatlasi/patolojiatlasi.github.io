@@ -1,0 +1,16 @@
+{
+  "hash": "85a773395889df3ca7a6bbbb55397eed",
+  "result": {
+    "markdown": "---\ndescription: |\n    TemplateEN, TemplateTR, patoloji, atlas, pathology, whole slide image\n    TemplateTR\ndate: last-modified\ncategories: [template]\npage-layout: full\nbibliography: references.bib\n---\n\n\n# Hücre Dışı Birikimler {#sec-hucre-disi-birikimler}\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n## Okronozis {#sec-okronozis} \n:::\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n\n**Okronozis**\n\n\n[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/ochronosis_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/ochronosis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ochronosis/HE.html)\n:::\n\n::: {.cell}\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/ochronosis/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "hucredisibirikimler_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

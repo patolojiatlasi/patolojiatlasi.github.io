@@ -44,7 +44,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{r, eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/lymphocytic-gastritis-all_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html",
   file = "./screenshots/lymphocytic-gastritis-all_screenshot.png"
 )
@@ -56,7 +56,7 @@ webshot2::webshot(delay=10,
 
 ```{r, eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/lymphocytic-gastritisHE_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html",
   file = "./screenshots/lymphocytic-gastritisHE_screenshot.png"
 )
@@ -67,7 +67,7 @@ webshot2::webshot(delay=10,
 
 ```{r, eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/lymphocytic-gastritisCD3_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/lymphocytic-gastritis/CD3.html",
   file = "./screenshots/lymphocytic-gastritisCD3_screenshot.png"
 )
@@ -78,7 +78,7 @@ webshot2::webshot(delay=10,
 
 ```{r, eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/lymphocytic-gastritisCD8_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/lymphocytic-gastritis/CD8.html",
   file = "./screenshots/lymphocytic-gastritisCD8_screenshot.png"
 )
@@ -89,7 +89,7 @@ webshot2::webshot(delay=10,
 
 ```{r, eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/lymphocytic-gastritisCD20_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/lymphocytic-gastritis/CD20.html",
   file = "./screenshots/lymphocytic-gastritisCD20_screenshot.png"
 )

@@ -46,9 +46,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/ampullary-adenocarcinoma_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(
   url = "https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html",
-  file = "./screenshots/ampullary-adenocarcinoma_screenshot.png"
+  file = "./screenshots/ampullary-adenocarcinoma_screenshot.png",
+  delay = 20
 )
 }
 ```
@@ -170,12 +171,13 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 if (!file.exists("./screenshots/WDNET-ampulla_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/WDNET-ampulla/HE.html",
-  file = "./screenshots/WDNET-ampulla_screenshot.png"
+  file = "./screenshots/WDNET-ampulla_screenshot.png",
+  delay = 20
 )
 }
 ```
 
-```{r, echo=FALSE, include=TRUE, eval=TRUE}
+```{r, echo=FALSE, include=TRUE, eval=FALSE}
 knitr::include_url(url = "https://images.patolojiatlasi.com/WDNET-ampulla/HE.html")
 ```
 

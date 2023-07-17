@@ -1,0 +1,20 @@
+{
+  "hash": "f02094db6ac437a63f6f33d152b8ccef",
+  "result": {
+    "markdown": "---\ndescription: \"TemplateEN, TemplateTR, patoloji, atlas, pathology, whole slide image templateTR\"\ndate: last-modified\ncategories: [template]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# Karsinogenez  {#sec-karsinogenez} \n\n## metaplazi, displazi, karsinom  {#sec-mepaplazi-displazi-karsinom} \n:::\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n\n**metaplazi, displazi, karsinom**\n\n\n[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/carcinogenesis_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/carcinogenesis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/carcinogenesis/HE.html)\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "karsinogenez_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}

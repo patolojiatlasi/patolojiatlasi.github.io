@@ -50,7 +50,7 @@ if (!file.exists("./screenshots/tubularadenoma-flat1_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html",
   file = "./screenshots/tubularadenoma-flat1_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -100,7 +100,7 @@ if (!file.exists("./screenshots/tubularadenoma-flat2_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html",
   file = "./screenshots/tubularadenoma-flat2_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -158,7 +158,7 @@ if (!file.exists("./screenshots/tubular-adenoma-with-stalk_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html",
   file = "./screenshots/tubular-adenoma-with-stalk_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```

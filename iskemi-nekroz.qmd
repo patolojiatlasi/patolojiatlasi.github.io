@@ -30,7 +30,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/fat-necrosis_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/fat-necrosis/HE.html",
   file = "./screenshots/fat-necrosis_screenshot.png"
 )
@@ -69,7 +69,7 @@ Mikroskopik görüntüleri inceleyin:
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/fat-necrosis_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/fat-necrosis/HE.html",
   file = "./screenshots/fat-necrosis_screenshot.png"
 )

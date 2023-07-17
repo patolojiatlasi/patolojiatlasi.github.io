@@ -25,7 +25,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/ochronosis_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/ochronosis/HE.html",
   file = "./screenshots/ochronosis_screenshot.png"
 )

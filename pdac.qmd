@@ -31,7 +31,8 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 if (!file.exists("./screenshots/PDAC-tru-cut-1_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html",
-  file = "./screenshots/PDAC-tru-cut_screenshot-1.png"
+  file = "./screenshots/PDAC-tru-cut-1_screenshot.png",
+  delay = 20
 )
 }
 ```
@@ -40,7 +41,8 @@ webshot2::webshot(
 if (!file.exists("./screenshots/PDAC-tru-cut-2_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html",
-  file = "./screenshots/PDAC-tru-cut_screenshot-2.png"
+  file = "./screenshots/PDAC-tru-cut-2_screenshot.png",
+  delay = 20
 )
 }
 ```
@@ -50,7 +52,8 @@ webshot2::webshot(
 if (!file.exists("./screenshots/PDAC-tru-cut-3_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html",
-  file = "./screenshots/PDAC-tru-cut_screenshot-3.png"
+  file = "./screenshots/PDAC-tru-cut-3_screenshot.png",
+  delay = 20
 )
 }
 ```

@@ -48,8 +48,8 @@ book:
   image: images/coverEN.png
   output-file: "HistoPatology-Atlas"
   cover-image: images/coverEN.png
-  site-url: https://patolojiatlasi.com/
-#  repo-url: https://github.com/patolojiatlasi/patolojiatlasi.github.io
+  site-url: https://histopathologyatlas.com/
+  repo-url: https://github.com/histopathologyatlas/histopathologyatlas.github.io
 #  google-analytics: "G-7BT7Q4FLT9"
 #  repo-branch: main
 #  repo-actions: [edit, issue, source]
@@ -75,8 +75,8 @@ book:
   # locale: tr_TR
   # site-name: Pathology Atlas
   twitter-card:
-    creator: "@serdarbalci"
-    site: "@patolojinotlari"
+    creator: "%40serdarbalci"
+    site: "%40patolojinotlari"
   page-navigation: true
   page-footer:
     border: true

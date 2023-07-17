@@ -31,9 +31,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/helicobacterpylori_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(
   url = "https://images.patolojiatlasi.com/helicobacterpylori/HE.html",
-  file = "./screenshots/helicobacterpylori_screenshot.png"
+  file = "./screenshots/helicobacterpylori_screenshot.png",
+  delay = 20
 )
 }
 ```
@@ -76,9 +77,10 @@ See Microscopy with viewer:
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/helicobacterpyloriWS_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(
   url = "https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html",
-  file = "./screenshots/helicobacterpyloriWS_screenshot.png"
+  file = "./screenshots/helicobacterpyloriWS_screenshot.png",
+  delay = 20
 )
 }
 ```
@@ -121,9 +123,10 @@ See Microscopy with viewer:
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/helicobacterpyloriGiemsa_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(
   url = "https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html",
-  file = "./screenshots/helicobacterpyloriGiemsa_screenshot.png"
+  file = "./screenshots/helicobacterpyloriGiemsa_screenshot.png",
+  delay = 20
 )
 }
 ```
@@ -166,9 +169,10 @@ See Microscopy with viewer:
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/helicobacterpyloriIHC_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(
   url = "https://images.patolojiatlasi.com/helicobacterpylori/IHC.html",
-  file = "./screenshots/helicobacterpyloriIHC_screenshot.png"
+  file = "./screenshots/helicobacterpyloriIHC_screenshot.png",
+  delay = 20
 )
 }
 ```

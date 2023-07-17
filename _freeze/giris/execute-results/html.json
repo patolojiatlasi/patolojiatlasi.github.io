@@ -1,0 +1,14 @@
+{
+  "hash": "72f8b80f00014c619b2998629fe23264",
+  "result": {
+    "markdown": "---\ndescription: |\n    TemplateEN, TemplateTR, patoloji, atlas, pathology, whole slide image\n    TemplateTR\ndate: last-modified\ncategories: [template]\npage-layout: full\nbibliography: references.bib\n---\n\n\n# Giriş {#sec-giris .unnumbered}\n\nPatoloji Atlası Memorial Patoloji arşivinden ve diğer kurumlardan katkı\nyapan meslektaşlarımızın kolleksiyonlarından oluşmaktadır.\\\n\n[Katkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime\ngeçin](https://www.patolojiatlasi.com/katki.html).\n\n\n::: {.cell}\n\n:::\n\n\nSon güncelleme zamanı: 2023-07-17 14:31:12.045221\n\n\n\n\n\nSosyal medyadan derlenen görüntülerden oluşan [patoloji notları için\ntıklayınız](https://www.patolojinotlari.com/).\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

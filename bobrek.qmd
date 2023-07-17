@@ -21,9 +21,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/kidneyoncocytoma_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(
   url = "https://images.patolojiatlasi.com/kidneyoncocytoma/HE.html",
-  file = "./screenshots/kidneyoncocytoma_screenshot.png"
+  file = "./screenshots/kidneyoncocytoma_screenshot.png",
+  delay = 20
 )
 }
 ```

@@ -23,9 +23,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/extramuralvenousinvasion_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(
   url = "https://images.patolojiatlasi.com/extramuralvenousinvasion/HE.html",
-  file = "./screenshots/extramuralvenousinvasion_screenshot.png"
+  file = "./screenshots/extramuralvenousinvasion_screenshot.png",
+  delay = 20
 )
 }
 ```
@@ -98,9 +99,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/extramural-venous-invasion_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(
   url = "https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html",
-  file = "./screenshots/extramural-venous-invasion_screenshot.png"
+  file = "./screenshots/extramural-venous-invasion_screenshot.png",
+  delay = 20
 )
 }
 ```

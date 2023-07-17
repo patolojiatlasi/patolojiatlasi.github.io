@@ -94,7 +94,7 @@ if (!file.exists("./screenshots/glycogenstorage-HE_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/glycogenstorage/HE.html",
   file = "./screenshots/glycogenstorage-HE_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -167,7 +167,7 @@ Mikroskopik görüntüleri inceleyin:
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/glycogenstorage-PAS_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/glycogenstorage/PAS.html",
   file = "./screenshots/glycogenstorage-PAS_screenshot.png"
 )
@@ -234,7 +234,7 @@ Mikroskopik görüntüleri inceleyin:
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/glycogenstorage-PASD_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/glycogenstorage/PASD.html",
   file = "./screenshots/glycogenstorage-PASD_screenshot.png"
 )
@@ -293,7 +293,7 @@ Torakal bölge lenf nodunda antrakotik pigment
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/anthracosis1_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/anthracosis/HE.html",
   file = "./screenshots/anthracosis1_screenshot.png"
 )
@@ -303,7 +303,7 @@ webshot2::webshot(delay=10,
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/anthracosis2_screenshot.png")) {
-webshot2::webshot(delay=10,
+webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/anthracosis/HE.html",
   file = "./screenshots/anthracosis2_screenshot.png"
 )
@@ -369,9 +369,9 @@ webshot2::webshot(
 
 
 
-::: panel-tabset {.content-visible when-format="html"}
+:::: {.panel-tabset .content-visible when-format="html"}
 
-#### HE
+### HE
 
 
 ```{asis, echo = (language == "TR")}
@@ -408,7 +408,7 @@ See Microscopy with viewer:
 ```
 
 
-#### PAS
+### PAS
 
 
 ```{asis, echo = (language == "TR")}
@@ -444,12 +444,17 @@ See Microscopy with viewer:
 
 ```
 
-:::
+::::
 
 
-::: panel-tabset {.content-visible when-format="epub"}
+
+
+:::: {.panel-tabset .content-hidden when-format="html"}
+
+
 
 #### HE
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -472,6 +477,8 @@ See Microscopy with viewer:
 
 #### PAS
 
+
+
 ```{asis, echo = (language == "TR")}
 
 **Melanozis Koli PAS**
@@ -488,4 +495,4 @@ See Microscopy with viewer:
 
 ```
 
-:::
+::::

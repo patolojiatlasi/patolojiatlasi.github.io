@@ -1,0 +1,20 @@
+{
+  "hash": "cf36a7f5f175e54b9200fb917a255dbf",
+  "result": {
+    "markdown": "---\ndescription: \"TemplateEN, TemplateTR, patoloji, atlas, pathology, whole slide image templateTR\"\ndate: last-modified\ncategories: [template]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# Uriner Sistem Patolojisi {#sec-uriner-sistem-patolojisi}\n:::\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "uriner_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}
