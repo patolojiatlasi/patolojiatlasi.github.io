@@ -1,7 +1,7 @@
 ---
-description: "TemplateEN, TemplateTR, patoloji, atlas, pathology, whole slide image templateTR"
+description: "exostosisEN, exostosisTR, patoloji, atlas, pathology, whole slide image exostosisTR"
 date: last-modified
-categories: [template]
+categories: [exostosis]
 page-layout: full
 bibliography: references.bib
 ---
@@ -20,16 +20,16 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ### Ekzostoz (Osteokondrom) {#sec-ekzostoz}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/exostosis-1_screenshot.png")) {
 webshot2::webshot(delay = 20,
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/exostosis/oc.html",
+  file = "./screenshots/exostosis-1_screenshot.png"
 )
 }
 ```
 
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+Tıklayın](./screenshots/exostosis-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/exostosis/oc.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/exostosis/oc.html)
 
@@ -46,16 +46,16 @@ Mikroskopik görüntüleri inceleyin:
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/exostosis-2_screenshot.png")) {
 webshot2::webshot(delay = 20,
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/exostosis/oc001.html",
+  file = "./screenshots/exostosis-2_screenshot.png"
 )
 }
 ```
 
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+Tıklayın](./screenshots/exostosis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/exostosis/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/exostosis/oc001.html)
 
@@ -72,16 +72,16 @@ Mikroskopik görüntüleri inceleyin:
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/exostosis-3_screenshot.png")) {
 webshot2::webshot(delay = 20,
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/exostosis/oc002.html",
+  file = "./screenshots/exostosis-3_screenshot.png"
 )
 }
 ```
 
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+Tıklayın](./screenshots/exostosis-3_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/exostosis/oc002.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/exostosis/oc002.html)
 

@@ -1,7 +1,7 @@
 ---
-description: "TemplateEN, TemplateTR, patoloji, atlas, pathology, whole slide image templateTR"
+description: "cholesteatomaEN, cholesteatomaTR, patoloji, atlas, pathology, whole slide image cholesteatomaTR"
 date: last-modified
-categories: [template]
+categories: [cholesteatoma]
 page-layout: full
 bibliography: references.bib
 ---
@@ -18,16 +18,16 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ### Kolesteatom {#sec-kolesteatom}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/cholesteatoma_screenshot.png")) {
 webshot2::webshot(delay = 20,
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/cholesteatoma/cholesteatoma.html",
+  file = "./screenshots/cholesteatoma_screenshot.png"
 )
 }
 ```
 
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+Tıklayın](./screenshots/cholesteatoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/cholesteatoma/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/cholesteatoma/cholesteatoma.html)
 

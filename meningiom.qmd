@@ -20,10 +20,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/brain-invasive-meningioma_screenshot.png")) {
 webshot2::webshot(delay = 20,
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html",
+  file = "./screenshots/brain-invasive-meningioma_screenshot.png"
 )
 }
 ```
@@ -33,7 +33,7 @@ webshot2::webshot(delay = 20,
 **Beyin İnvazyonu Gösteren Meningiom**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/brain-invasive-meningioma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html)
 
 ```
 
@@ -51,7 +51,7 @@ Mikroskopik görüntüleri inceleyin:
 **Brain Invasive Meningioma**
 
 
-[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html)
+[![Click for Full Screen WSI](./screenshots/brain-invasive-meningioma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html)
 
 ```
 
@@ -77,10 +77,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/meningioma-bone-infiltration_screenshot.png")) {
 webshot2::webshot(delay = 20,
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html",
+  file = "./screenshots/meningioma-bone-infiltration_screenshot.png"
 )
 }
 ```
@@ -90,7 +90,7 @@ webshot2::webshot(delay = 20,
 **Meningiom Kemik İnfiltrasyonu**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/meningioma-bone-infiltration_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html)
 
 ```
 
@@ -108,7 +108,7 @@ Mikroskopik görüntüleri inceleyin:
 **Meningioma Bone Infiltration**
 
 
-[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html)
+[![Click for Full Screen WSI](./screenshots/meningioma-bone-infiltration_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html)
 
 ```
 
