@@ -67,7 +67,7 @@ if (!file.exists("./screenshots/insidious-lymph-node-metastasis_screenshot.png")
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html",
   file = "./screenshots/insidious-lymph-node-metastasis_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -98,7 +98,7 @@ if (!file.exists("./screenshots/insidious-lymph-node-metastasis-OSKARCK_screensh
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/OSKARCK.html",
   file = "./screenshots/insidious-lymph-node-metastasis-OSKARCK_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```

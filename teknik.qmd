@@ -48,7 +48,7 @@ if (!file.exists("./screenshots/mucicarmine_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/mucin/mucicarmine.html",
   file = "./screenshots/mucicarmine_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -69,55 +69,6 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-```{comment}
-asis, echo = (language == "TR")
-
-**mucicarmine**
-
-
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/mucin/HE_annotated.html)
-
-```
-
-
-```{comment}
-  asis, echo = ((language=="TR") & (output_type=="html"))
-
-İşaretlenmiş Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/mucin/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-```{comment}
-asis, echo = (language == "TR")
-
-<button id="tani-case-mucin-btn">Tanıyı Göster</button>
-<div id="answer-mucin" style="display: none;">mucicarmine</div>
-
-<script>
-  const showAnswer-mucinBtn = document.getElementById('tani-case-mucin-btn');
-  const answer-mucin = document.getElementById('answer-mucin');
-
-  showAnswer-mucinBtn.addEventListener('click', () => {
-    if (answer-mucin.style.display === 'none') {
-      answer-mucin.style.display = 'block';
-      showAnswer-mucinBtn.textContent = 'Tanıyı Gizle';
-    } else {
-      answer-mucin.style.display = 'none';
-      showAnswer-mucinBtn.textContent = 'Tanıyı Göster';
-    }
-  });
-</script>
-
-
-
-{{< video https://www.youtube.com/embed/ >}}
-
-
-
-```
-
 ```{asis, echo = (language == "EN")}
 
 **mucicarmine histochemistry stain showing intracellular mucin in a normal colon**
@@ -135,51 +86,6 @@ See Microscopy with viewer:
 
 ```
 
-```{comment}
-asis, echo = (language == "EN")
-
-**mucicarmine**
-
-
-[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mucin/HE_annotated.html)
-
-See Annotated Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/mucin/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-
-
-```
-
-```{comment}
-asis, echo = (language == "EN")
-
-<button id="dx-case-mucin-btn">Show the Diagnosis</button>
-<div id="answer-mucin" style="display: none;">mucicarmine</div>
-
-<script>
-  const showAnswer-mucinBtn = document.getElementById('dx-case-mucin-btn');
-  const answer-mucin = document.getElementById('answer-mucin');
-
-  showAnswer-mucinBtn.addEventListener('click', () => {
-    if (answer-mucin.style.display === 'none') {
-      answer-mucin.style.display = 'block';
-      showAnswer-mucinBtn.textContent = 'Hide the Diagnosis';
-    } else {
-      answer-mucin.style.display = 'none';
-      showAnswer-mucinBtn.textContent = 'Show the Diagnosis';
-    }
-  });
-</script>
-
-
-{{< video https://www.youtube.com/embed/ >}}
-
-
-
-```
-
-------------------------------------------------------------------------
 
 ```{asis, echo = (language == "TR")}
 
@@ -198,7 +104,7 @@ if (!file.exists("./screenshots/cish_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/her2-cish/cish.html",
   file = "./screenshots/cish_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -221,56 +127,7 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-```{comment}
-asis, echo = (language == "TR")
 
-**Chromogenic in situ hybridization (CISH)**
-
-
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/her2-cish/cish_annotated.html)
-
-```
-
-
-```{comment}
-  asis, echo = ((language=="TR") & (output_type=="html"))
-
-İşaretlenmiş Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/her2-cish/cish_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-```{comment}
-asis, echo = (language == "TR")
-
-
-
-<button id="tani-case-her2-cish-btn">Tanıyı Göster</button>
-<div id="answer-her2-cish" style="display: none;">Chromogenic in situ hybridization (CISH)</div>
-
-<script>
-  const showAnswer-her2-cishBtn = document.getElementById('tani-case-her2-cish-btn');
-  const answer-her2-cish = document.getElementById('answer-her2-cish');
-
-  showAnswer-her2-cishBtn.addEventListener('click', () => {
-    if (answer-her2-cish.style.display === 'none') {
-      answer-her2-cish.style.display = 'block';
-      showAnswer-her2-cishBtn.textContent = 'Tanıyı Gizle';
-    } else {
-      answer-her2-cish.style.display = 'none';
-      showAnswer-her2-cishBtn.textContent = 'Tanıyı Göster';
-    }
-  });
-</script>
-
-
-
-{{< video https://www.youtube.com/embed/ >}}
-
-
-
-```
 
 ```{asis, echo = (language == "EN")}
 
@@ -289,46 +146,3 @@ See Microscopy with viewer:
 
 ```
 
-```{comment}
-asis, echo = (language == "EN")
-
-**Chromogenic in situ hybridization (CISH)**
-
-
-[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/her2-cish/cish_annotated.html)
-
-See Annotated Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/her2-cish/cish_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-
-
-```
-
-```{comment}
-asis, echo = (language == "EN")
-
-<button id="dx-case-her2-cish-btn">Show the Diagnosis</button>
-<div id="answer-her2-cish" style="display: none;">Chromogenic in situ hybridization (CISH)</div>
-
-<script>
-  const showAnswer-her2-cishBtn = document.getElementById('dx-case-her2-cish-btn');
-  const answer-her2-cish = document.getElementById('answer-her2-cish');
-
-  showAnswer-her2-cishBtn.addEventListener('click', () => {
-    if (answer-her2-cish.style.display === 'none') {
-      answer-her2-cish.style.display = 'block';
-      showAnswer-her2-cishBtn.textContent = 'Hide the Diagnosis';
-    } else {
-      answer-her2-cish.style.display = 'none';
-      showAnswer-her2-cishBtn.textContent = 'Show the Diagnosis';
-    }
-  });
-</script>
-
-
-{{< video https://www.youtube.com/embed/ >}}
-
-
-
-```

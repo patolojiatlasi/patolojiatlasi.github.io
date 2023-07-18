@@ -36,7 +36,7 @@ if(!file.exists("./screenshots/granular-cell-tumor_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/granular-cell-tumor/HE.html",
   file = "./screenshots/granular-cell-tumor_screenshot.png",
-  delay = 10
+  delay = 20
 )  
 }
 
@@ -64,7 +64,7 @@ Mikroskopik görüntüleri inceleyin:
 
 **Granular Cell Tumor in Esophagus**
 
-[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/granular-cell-tumor/HE.html)
+[![Click for Full Screen WSI](./screenshots/granular-cell-tumor_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/granular-cell-tumor/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/granular-cell-tumor/HE.html)
 
 ```
 

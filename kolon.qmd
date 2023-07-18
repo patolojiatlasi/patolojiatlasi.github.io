@@ -35,7 +35,7 @@ if (!file.exists("./screenshots/ischemic-colitis_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/ischemic-colitis/HE.html",
   file = "./screenshots/ischemic-colitis_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -95,7 +95,7 @@ if (!file.exists("./screenshots/tubularadenoma-flat2_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html",
   file = "./screenshots/tubularadenoma-flat2_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```

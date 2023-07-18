@@ -31,7 +31,7 @@ if (!file.exists("./screenshots/cholesterolpolyp_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/cholesterolpolyp/HE.html",
   file = "./screenshots/cholesterolpolyp_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```

@@ -49,7 +49,7 @@ if (!file.exists("./screenshots/mammary-analogue-secretory-carcinoma1_screenshot
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html",
   file = "./screenshots/mammary-analogue-secretory-carcinoma1_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -60,7 +60,7 @@ if (!file.exists("./screenshots/mammary-analogue-secretory-carcinoma2_screenshot
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html",
   file = "./screenshots/mammary-analogue-secretory-carcinoma2_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```

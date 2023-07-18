@@ -21,16 +21,16 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ## Hepatoselüler Karsinom {#sec-hepatoseluler-karsinom}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/hepatocellularcarcinoma_screenshot.png")) {
 webshot2::webshot(delay = 20,
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/hepatocellularcarcinoma/HCC/viewer_z0.html",
+  file = "./screenshots/hepatocellularcarcinoma_screenshot.png"
 )
 }
 ```
 
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html)
+Tıklayın](./screenshots/hepatocellularcarcinoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hepatocellularcarcinoma/HCC/viewer_z0.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/hepatocellularcarcinoma/HCC/viewer_z0.html)
 

@@ -32,7 +32,7 @@ if (!file.exists("./screenshots/enterobius-vermicularis_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html",
   file = "./screenshots/enterobius-vermicularis_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```

@@ -44,7 +44,7 @@ if (!file.exists("./screenshots/liver-hemangioma_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/liver-hemangioma/HE.html",
   file = "./screenshots/liver-hemangioma_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```

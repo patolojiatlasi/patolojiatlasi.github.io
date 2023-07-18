@@ -42,7 +42,7 @@ if (!file.exists("./screenshots/pleomorphism_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/pleomorphism/HE.html",
   file = "./screenshots/pleomorphism_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```

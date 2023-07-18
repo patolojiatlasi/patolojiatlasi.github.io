@@ -47,7 +47,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-1_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html",
   file = "./screenshots/hacettepe-com-case-1_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -156,7 +156,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-2_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-2/HE.html",
   file = "./screenshots/hacettepe-com-case-2_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -255,7 +255,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-3_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-3/HE.html",
   file = "./screenshots/hacettepe-com-case-3_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -361,7 +361,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-4_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-4/HE.html",
   file = "./screenshots/hacettepe-com-case-4_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -371,7 +371,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-4-2_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-4/HE2.html",
   file = "./screenshots/hacettepe-com-case-4-2_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -508,7 +508,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-5_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-5/HE.html",
   file = "./screenshots/hacettepe-com-case-5_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -613,7 +613,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-6_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-6/HE.html",
   file = "./screenshots/hacettepe-com-case-6_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -718,7 +718,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-7_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-7/HE.html",
   file = "./screenshots/hacettepe-com-case-7_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -821,7 +821,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-8_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-8/HE.html",
   file = "./screenshots/hacettepe-com-case-8_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -921,7 +921,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-9_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-9/HE.html",
   file = "./screenshots/hacettepe-com-case-9_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -1019,7 +1019,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-10_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-10/HE.html",
   file = "./screenshots/hacettepe-com-case-10_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -1121,7 +1121,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-11_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-11/HE.html",
   file = "./screenshots/hacettepe-com-case-11_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -1224,7 +1224,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-12_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-12/HE.html",
   file = "./screenshots/hacettepe-com-case-12_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -1329,7 +1329,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-13_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-13/HE.html",
   file = "./screenshots/hacettepe-com-case-13_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -1434,7 +1434,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-14_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-14/HE.html",
   file = "./screenshots/hacettepe-com-case-14_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -1539,7 +1539,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-15_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-15/HE.html",
   file = "./screenshots/hacettepe-com-case-15_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -1642,7 +1642,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-16_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-16/HE.html",
   file = "./screenshots/hacettepe-com-case-16_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -1749,7 +1749,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-17_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-17/HE.html",
   file = "./screenshots/hacettepe-com-case-17_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -1874,7 +1874,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-18_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-18/HE.html",
   file = "./screenshots/hacettepe-com-case-18_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -1979,7 +1979,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-19_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-19/HE.html",
   file = "./screenshots/hacettepe-com-case-19_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -2084,7 +2084,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-20_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-20/HE.html",
   file = "./screenshots/hacettepe-com-case-20_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -2191,7 +2191,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-21_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-21/HE.html",
   file = "./screenshots/hacettepe-com-case-21_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -2296,7 +2296,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-22_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-22/HE.html",
   file = "./screenshots/hacettepe-com-case-22_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -2403,7 +2403,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-23_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-23/HE.html",
   file = "./screenshots/hacettepe-com-case-23_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -2508,7 +2508,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-24_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-24/HE.html",
   file = "./screenshots/hacettepe-com-case-24_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -2613,7 +2613,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-25_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-25/HE.html",
   file = "./screenshots/hacettepe-com-case-25_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -2718,7 +2718,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-26_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-26/HE.html",
   file = "./screenshots/hacettepe-com-case-26_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -2825,7 +2825,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-27_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-27/HE.html",
   file = "./screenshots/hacettepe-com-case-27_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -2955,7 +2955,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-28_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-28/HE.html",
   file = "./screenshots/hacettepe-com-case-28_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -3085,7 +3085,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-29_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-29/HE.html",
   file = "./screenshots/hacettepe-com-case-29_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -3192,7 +3192,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-30_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-30/HE.html",
   file = "./screenshots/hacettepe-com-case-30_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -3299,7 +3299,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-31_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-31/HE.html",
   file = "./screenshots/hacettepe-com-case-31_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -3404,7 +3404,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-32_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-32/HE.html",
   file = "./screenshots/hacettepe-com-case-32_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -3509,7 +3509,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-33_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-33/HE.html",
   file = "./screenshots/hacettepe-com-case-33_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -3614,7 +3614,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-34_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-34/HE.html",
   file = "./screenshots/hacettepe-com-case-34_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -3721,7 +3721,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-35_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-35/HE.html",
   file = "./screenshots/hacettepe-com-case-35_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -3828,7 +3828,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-36_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-36/HE.html",
   file = "./screenshots/hacettepe-com-case-36_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -3935,7 +3935,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-37_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-37/HE.html",
   file = "./screenshots/hacettepe-com-case-37_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -4042,7 +4042,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-38_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-38/HE.html",
   file = "./screenshots/hacettepe-com-case-38_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -4147,7 +4147,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-39_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-39/HE.html",
   file = "./screenshots/hacettepe-com-case-39_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
@@ -4252,7 +4252,7 @@ if (!file.exists("./screenshots/hacettepe-com-case-40_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-40/HE.html",
   file = "./screenshots/hacettepe-com-case-40_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```

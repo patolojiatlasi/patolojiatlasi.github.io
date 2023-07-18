@@ -32,7 +32,7 @@ if (!file.exists("./screenshots/hodgkin_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hodgkin/HE.html",
   file = "./screenshots/hodgkin_screenshot.png",
-  delay = 10
+  delay = 20
 )
 }
 ```
