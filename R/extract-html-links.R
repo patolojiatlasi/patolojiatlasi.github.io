@@ -166,5 +166,13 @@ texts <- data.frame(texts = texts)
 
 wp_string <- dplyr::sample_n(texts, 1)
 
-writeLines(text = wp_string$texts[1], "./wp_string.txt")
+wp_string <- wp_string$texts[1]
+
+wp_string <- paste0(wp_string,
+                    " #dijitalpatoloji #WSI ",
+                    " #patolojiatlasi #patolojinotlari ",
+                    " #histopathologyatlas #memorialpatoloji ",
+                          .sep ="")
+
+writeLines(text = wp_string, "./wp_string.txt")
 

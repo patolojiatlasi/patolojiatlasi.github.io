@@ -1,9 +1,8 @@
 ---
 description: |
-    TemplateEN, TemplateTR, patoloji, atlas, pathology, whole slide image
-    TemplateTR
+    introduction, giriş, patoloji, atlas, pathology, whole slide image
 date: last-modified
-categories: [template]
+categories: [introduction, giris]
 page-layout: full
 bibliography: references.bib
 ---
@@ -16,7 +15,7 @@ yapan meslektaşlarımızın kolleksiyonlarından oluşmaktadır.\
 [Katkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime
 geçin](https://www.patolojiatlasi.com/katki.html).
 
-```{r songuncelleme, echo=FALSE}
+```{r songuncelleme, echo=FALSE, cache=FALSE}
 songuncelleme <- Sys.time() 
 ```
 
