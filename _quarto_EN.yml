@@ -236,10 +236,10 @@ book:
       chapters:
         - text: "Pituitary Adenoma"
           href: hipofiz.qmd
-    - part: "Breast"
-      chapters:
-        - text: "Breast Tumors"
-          href: meme.md
+    # - part: "Breast"
+    #   chapters:
+    #     - text: "Breast Tumors"
+    #       href: meme.md
     - part: "Head and Neck"
       chapters:
         - text: "Nazopharynx"
