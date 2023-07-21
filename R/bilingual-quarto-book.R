@@ -11,6 +11,10 @@ if (!requireNamespace("fs", quietly = TRUE)) {
   install.packages("fs")
 }
 
+if (!requireNamespace("readxl", quietly = TRUE)) {
+  install.packages("readxl")
+}
+
 if (!requireNamespace("tinytex", quietly = TRUE)) {
   install.packages("tinytex")
 }
@@ -20,6 +24,7 @@ if (!tinytex::is_tinytex()) {
 }
 
 # prepare EN ----
+
 
 fs::file_copy(path = "./_quarto_EN.yml",
               new_path = "./_quarto.yml",
@@ -38,6 +43,21 @@ fs::dir_copy(path = "./_freeze_EN",
              new_path = "./_freeze",
              overwrite = TRUE)
 }
+
+# https://chat.openai.com/share/20462a5b-e72e-4e0c-a5bc-aff81517b40a
+
+patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx")
+
+patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_chapter_qmd")]
+
+patolojiatlasi_histopathologyatlas$TR_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_chapter_qmd, ".qmd")
+
+patolojiatlasi_histopathologyatlas$EN_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$EN_chapter_qmd, ".qmd")
+
+
+fs::file_copy(path = patolojiatlasi_histopathologyatlas$TR_chapter_qmd,
+              new_path = patolojiatlasi_histopathologyatlas$EN_chapter_qmd,
+              overwrite = TRUE)
 
 # render EN ----
 
@@ -61,6 +81,9 @@ fs::dir_copy(path = "./_freeze",
              new_path = "./_freeze_EN",
              overwrite = TRUE)
 }
+
+fs::file_delete(path = patolojiatlasi_histopathologyatlas$EN_chapter_qmd)
+
 
 # prepare TR ----
 

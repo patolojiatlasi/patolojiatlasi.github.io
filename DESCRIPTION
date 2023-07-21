@@ -38,7 +38,8 @@ Imports:
     xfun,
     glue,
     purrr,
-    webshot2
+    webshot2,
+    readxl
 Remotes:
     duncantl/XMLRPC,
     duncantl/RWordPress

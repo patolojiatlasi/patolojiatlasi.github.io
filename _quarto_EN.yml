@@ -97,14 +97,14 @@ book:
     - text: "Home Page"
       href: index.qmd
     - text: "Introduction"
-      href: giris.qmd
+      href: introduction.qmd
     - text: "Authors and Contributors"
-      href: yazarlar.qmd
+      href: authors.qmd
     - part: "---"
     - part: "General Pathology"
       chapters:
         - text: "Techniques Used in Pathology"
-          href: teknik.qmd
+          href: technique.qmd
         - text: "Intracellular Accumulations"
           href: hucreicibirikimler.qmd
         - text: "Extracellular Accumulations"

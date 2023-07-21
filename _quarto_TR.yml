@@ -122,11 +122,11 @@ book:
         - text: "Patolojide Kullanılan Teknikler"
           href: teknik.qmd
         - text: "Hücre İçi Birikimler"
-          href: hucreicibirikimler.qmd
+          href: hucre-ici-birikimler.qmd
         - text: "Hücre Dışı Birikimler"
-          href: hucredisibirikimler.qmd
+          href: hucre-disi-birikimler.qmd
         - text: "Hücre Hasarı"
-          href: hucrehasari.qmd
+          href: hucre-hasari.qmd
         - text: "Hemodinamik Bozukluklar"
 #           href: hemodinamik-bozukluklar.qmd
 #         - text: "İskemi ve Nekroz"
@@ -142,9 +142,9 @@ book:
     - part: "İnflamasyon"
       chapters:
         - text: "Akut inflamasyon"
-          href: akutinflamasyon.qmd
+          href: akut-inflamasyon.qmd
         - text: "Kronik inflamasyon"
-          href: kronikinflamasyon.qmd
+          href: kronik-inflamasyon.qmd
         - text: "Granülamatöz İnflamasyon"
           href: granulom.qmd
         # - inflamasyon.qmd
@@ -169,13 +169,13 @@ book:
           href: karsinogenez.qmd
         - malign.qmd
         - metastaz.qmd
-        - tumoryayilim.qmd
+        - tumor-yayilimi.qmd
     - part: "Tümörlerdeki Prognostik Morfolojik Özellikler"
       chapters:
         - text: "Venöz İnvazyon"
-          href: venozinvazyon.qmd
+          href: venoz-invazyon.qmd
         - text: "Ekstramural Venöz İnvazyon"
-          href: ekstramuralvenozinvazyon.qmd
+          href: ekstramural-venoz-invazyon.qmd
     - part: "Hematopatoloji"
       chapters:
 #        - hematopatoloji.qmd
@@ -208,7 +208,7 @@ book:
         - text: "Pankreas Duktal Adenokarsinom"
           href: pdac.qmd
         - text: "Safra Kesesi"
-          href: safrakesesi.qmd
+          href: safra-kesesi.qmd
         - text: "Ampulla Vater"
           href: ampulla-vater.qmd
     - part: "Akciğer Patolojisi"
