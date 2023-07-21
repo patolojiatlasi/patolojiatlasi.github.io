@@ -106,11 +106,11 @@ book:
         - text: "Techniques Used in Pathology"
           href: technique.qmd
         - text: "Intracellular Accumulations"
-          href: hucreicibirikimler.qmd
+          href: hucre-ici-birikimler.qmd
         - text: "Extracellular Accumulations"
-          href: hucredisibirikimler.qmd
+          href: hucre-disi-birikimler.qmd
         - text: "Cellular Injury"
-          href: hucrehasari.qmd
+          href: hucre-hasari.qmd
 #         - text: "Hemodynamic Disorders"
 #           href: hemodinamik-bozukluklar.qmd
         - text: "Ischemia and Necrosis"
@@ -128,9 +128,9 @@ book:
     - part: "Inflamation"
       chapters:
         - text: "Acute inflamation"
-          href: akutinflamasyon.qmd
+          href: akut-inflamasyon.qmd
         - text: "Chronic inflamation"
-          href: kronikinflamasyon.qmd
+          href: kronik-inflamasyon.qmd
         - text: "Granulamatous inflammation"
           href: granulom.qmd
         # - inflamasyon.qmd
@@ -161,13 +161,13 @@ book:
         - text: "Metastasis"
           href: metastaz.qmd
         - text: "Tumor Spread to Other Organs"
-          href: tumoryayilim.qmd
+          href: tumor-yayilimi.qmd
     - part: "Prognostic Morphologic Features of Neoplasms"
       chapters:
         - text: "Venous Invasion"
-          href: venozinvazyon.qmd
+          href: venoz-invazyon.qmd
         - text: "Extramural Venous Invaasion"
-          href: ekstramuralvenozinvazyon.qmd
+          href: ekstramural-venoz-invazyon.qmd
     - part: "Hematopathology"
       chapters:
 #        - hematopatoloji.qmd
