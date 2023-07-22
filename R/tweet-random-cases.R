@@ -17,9 +17,10 @@ searchcontent$section <- trimws(gsub(pattern = "\\d|.\\d", replacement = "", x =
 searchcontent <- sample_n(searchcontent, 1)
 
 tweetstring <- glue::glue("#Patoloji atlası {searchcontent$title} bölümünden bir vaka: {searchcontent$section} https://www.patolojiatlasi.com/{searchcontent$href} #dijitalpatoloji #WSI #preparat",
-                          " #patolojiatlasi #patolojinotlari ",
-                          " #memorialsaglik #memorialpatoloji ",
+                          " #patolojiatlasi #patolojinotlari #histopathologyatlas",
+                          " #memorialsaglik #memorialpatoloji",
                           .sep ="")
+
 tweetstring <- trimws(tweetstring)
 
-writeLines(text = tweetstring, "tweetstring.txt")
+writeLines(text = tweetstring, "./tweetstring.txt")

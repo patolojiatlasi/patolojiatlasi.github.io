@@ -106,68 +106,68 @@ book:
         - text: "Techniques Used in Pathology"
           href: technique.qmd
         - text: "Intracellular Accumulations"
-          href: hucre-ici-birikimler.qmd
+          href: intracellular-accumulations.qmd
         - text: "Extracellular Accumulations"
-          href: hucre-disi-birikimler.qmd
+          href: extracellular-accumulations.qmd
         - text: "Cellular Injury"
-          href: hucre-hasari.qmd
+          href: cell-injury.qmd
 #         - text: "Hemodynamic Disorders"
 #           href: hemodinamik-bozukluklar.qmd
         - text: "Ischemia and Necrosis"
-          href: iskemi-nekroz.qmd
+          href: ischemia-necrosis.qmd
         - text: "Congestion"
-          href: konjesyon.qmd
-        - text: "Inflammation"
-          href: inflamasyon.qmd
+          href: congestion.qmd
+        # - text: "Inflammation"
+        #   href: inflamasyon.qmd
         - text: "Amyloidosis"
-          href: amiloid.qmd
+          href: amyloidosis.qmd
         - text: "Repair Mechanisms"
-          href: tamir.qmd
+          href: repair.qmd
         - text: "Erosion"
-          href: erozyon.qmd
+          href: erosion.qmd
     - part: "Inflamation"
       chapters:
-        - text: "Acute inflamation"
-          href: akut-inflamasyon.qmd
-        - text: "Chronic inflamation"
-          href: kronik-inflamasyon.qmd
+        - text: "Acute inflammation"
+          href: acute-inflammation.qmd
+        - text: "Chronic inflammation"
+          href: chronic-inflammation.qmd
         - text: "Granulamatous inflammation"
-          href: granulom.qmd
+          href: granulamatous-inflammation.qmd
         # - inflamasyon.qmd
     - part: "Infectious Diseases"
       chapters:
         - text: "Viruses"
           href: virus.qmd
         - text: "Bacteria"
-          href: bakteri.qmd
+          href: bacteria.qmd
         - text: "Fungi"
-          href: mantar.qmd
+          href: fungi.qmd
         - text: "Parasites"
-          href: parazit.qmd
+          href: parasites.qmd
     - part: "Neoplasia, Tumor Pathology Basics"
       chapters:
         - text: "Benign Tumors"
           href: benign.qmd
         - text: "Hamartoma"
-          href: hamartom.qmd
+          href: hamartoma.qmd
         - text: "Heterotopia"
-          href: heterotopi.qmd
+          href: heterotopia.qmd
         - text: "Metaplasia"
-          href: metaplazi.qmd
+          href: metaplasia.qmd
         - text: "Carcinogenesis"
-          href: karsinogenez.qmd
+          href: carcinogenesis.qmd
         - text: "The properties of Malignant Tumors"
-          href: malign.qmd
+          href: malignant.qmd
         - text: "Metastasis"
-          href: metastaz.qmd
+          href: metastasis.qmd
         - text: "Tumor Spread to Other Organs"
-          href: tumor-yayilimi.qmd
+          href: tumor-spread.qmd
     - part: "Prognostic Morphologic Features of Neoplasms"
       chapters:
         - text: "Venous Invasion"
-          href: venoz-invazyon.qmd
+          href: venous-invasion.qmd
         - text: "Extramural Venous Invaasion"
-          href: ekstramural-venoz-invazyon.qmd
+          href: extramural-venous-invasion.qmd
     - part: "Hematopathology"
       chapters:
 #        - hematopatoloji.qmd
@@ -177,49 +177,49 @@ book:
       chapters:
         - gastro.qmd
         - text: "Esophagus"
-          href: ozofagus.qmd
+          href: esophagus.qmd
         - text: "Stomach"
-          href: mide.qmd
+          href: stomach.qmd
         - text: "Gastritis"
-          href: gastrit.qmd
+          href: gastritis.qmd
         - text: "Duodenum"
           href: duodenum.qmd
         - text: "Colon"
-          href: kolon.qmd
+          href: colon.qmd
         - text: "Crohn's Disease"
           href: crohn.qmd
     - part: "Liver"
       chapters:
         - text: "Liver Tumors"
-          href: karaciger.qmd
+          href: liver.qmd
         - text: "Benign Liver Tumors"
-          href: karaciger-benign.qmd
+          href: benign-liver-tumors.qmd
     - part: "Pancreatobiliary system"
       chapters:
         - text: "Pancreas"
-          href: pankreas.qmd
+          href: pancreas.qmd
         - text: "Pancreas Ductal Adenocarcinoma"
           href: pdac.qmd
         - text: "Gallbladder"
-          href: safra-kesesi.qmd
+          href: gallbladder.qmd
         - text: "Ampulla of Vater"
           href: ampulla-vater.qmd
     - part: "Lung"
       chapters:
         - text: "Neuroendocrine"
-          href: noroendokrin.qmd
+          href: neuroendocrine.qmd
     - part: "Mezotel"
       chapters:
         - text: "Abdomen"
-          href: mezotel.qmd
+          href: mesothelial.qmd
     - part: "Gynecopathology"
       chapters:
         - text: "Gynecopathology"
-          href: jineko.qmd
+          href: gynecologic.qmd
         - text: "Genital System"
           href: genital.qmd
         - text: "Cervix"
-          href: serviks.qmd
+          href: cervix.qmd
         - text: "Endometrium"
           href: endometrium.qmd
         - text: "Endometriosis"
@@ -227,47 +227,47 @@ book:
     - part: "Uropathology"
       chapters:
         - text: "Uropathology"
-          href: uriner.qmd
+          href: urinary.qmd
         - text: "Kidney Tumors / Renal Tumors"
-          href: bobrek.qmd
+          href: kidney.qmd
         - text: "Prostate"
-          href: prostat.qmd
+          href: prostate.qmd
     - part: "Endocrine System"
       chapters:
         - text: "Pituitary Adenoma"
-          href: hipofiz.qmd
+          href: pituitary.qmd
     # - part: "Breast"
     #   chapters:
     #     - text: "Breast Tumors"
     #       href: meme.md
     - part: "Head and Neck"
       chapters:
-        - text: "Nazopharynx"
-          href: nazofarenks.qmd
+        - text: "Nasopharynx"
+          href: nasopharynx.qmd
         - text: "Ear"
-          href: kulak.qmd
+          href: ear.qmd
         - text: "Salivary Gland"
-          href: tukuruk.qmd
+          href: salivary.qmd
     - part: "Central Nervous System"
       chapters:
         - text: "Glioma"
-          href: gliom.qmd
+          href: glioma.qmd
         - text: "Meningioma"
-          href: meningiom.qmd
+          href: meningioma.qmd
         - text: "Vascular Lesions"
-          href: sss-vaskuler.qmd
+          href: cns-vascular.qmd
     - part: "Bone"
       chapters:
         - text: "Bone Tumors"
-          href: kemik.qmd
+          href: bone.qmd
     - part: "Soft Tissue"
       chapters:
         - text: "Adipose Tissue"
-          href: adipoz.qmd
+          href: adipose.qmd
     - part: "Pediatric and Perinatal"
       chapters:
         - text: "Placenta"
-          href: plasenta.qmd
+          href: placenta.qmd
     - part: "---"
     - part: "Special Collections"
       chapters:
@@ -287,9 +287,9 @@ book:
   appendices:
     # - yonetim-gelistirme.md
     - text: "Contributions are welcome"
-      href: katki.qmd
+      href: contributions.qmd
     - text: "Comments are welcome"
-      href: yorum.qmd
+      href: comments.qmd
     - text: "List"
       href: listing.qmd
     - listing2.qmd

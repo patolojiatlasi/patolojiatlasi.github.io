@@ -181,7 +181,7 @@ wp_text <- gsub(pattern = "https://www.patolojiatlasi.com/screenshots/",
                 x = wp_text)
 
 wp_text <- gsub(pattern = "_screenshot.png",
-                replacement = "_screenshot.png'>",
+                replacement = "_screenshot.jpg'>",
                 x = wp_text)
 
 writeLines(text = wp_text, "./wp_text.txt")
