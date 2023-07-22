@@ -1,13 +1,13 @@
 name: Post Wordpress Random Cases
 on:
   workflow_dispatch:
-  # push:
+  push:
   schedule:
     - cron: '0 20 * * 3'
 
 jobs:
   post-wordpress-random-cases-from-patolojiatlasi:
-    if: "!contains(github.event.head_commit.message, 'WIP')"
+    if: "!contains(github.event.head_commit.message, 'WIP') && contains(github.event.head_commit.message, 'press') "
     runs-on: macos-latest
     # runs-on: ubuntu-latest
 
@@ -80,9 +80,16 @@ jobs:
         options(WordpressLogin = WordpressLogin)
         options(knitr.knit2wp.warning = FALSE)
         source('./R/extract-html-links.R')
-        inputWP <- "./wp_string.txt"
         titleWP <- readLines("./wp_string.txt")
-        knitr::knit2wp(input = inputWP, title = titleWP, shortcode = TRUE, categories = c('patolojiatlasi', 'histopathologyatlas'), action = "newPost", publish = TRUE)
+        RWordPress::newPost(content = list(title = titleWP,
+                                 description = paste0('<p>',
+                                                      titleWP,
+                                                      '</p>'),
+                                 categories = c('patolojiatlasi', 'histopathologyatlas')),
+                  publish = TRUE)
+        # inputWP <- "./wp_string.txt"
+        # titleWP <- readLines("./wp_string.txt")
+        # knitr::knit2wp(input = inputWP, title = titleWP, shortcode = TRUE, categories = c('patolojiatlasi', 'histopathologyatlas'), action = "newPost", publish = TRUE)
       shell: Rscript {0}
 
 
