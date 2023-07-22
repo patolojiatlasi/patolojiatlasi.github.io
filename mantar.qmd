@@ -114,7 +114,7 @@ See Microscopy with viewer:
 if (!file.exists("./screenshots/brain-mucormycosis-GMS_screenshot.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html",
-  file = "./screenshots/brain-mucormycosis_screenshot.png"
+  file = "./screenshots/brain-mucormycosis-GMS_screenshot.png"
 )
 }
 ```
@@ -124,7 +124,7 @@ webshot2::webshot(delay = 20,
 **Beyin mukormikozis GMS**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/brain-mucormycosis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/brain-mucormycosis-GMS_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html)
 
 ```
 
@@ -142,7 +142,7 @@ Mikroskopik görüntüleri inceleyin:
 **brain mucormycosis GMS**
 
 
-[![Click for Full Screen WSI](./screenshots/brain-mucormycosis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html)
+[![Click for Full Screen WSI](./screenshots/brain-mucormycosis-GMS_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html)
 
 ```
 
