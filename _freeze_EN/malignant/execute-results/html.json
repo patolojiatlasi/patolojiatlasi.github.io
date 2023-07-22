@@ -1,0 +1,14 @@
+{
+  "hash": "f1c1189d152c1cdf982a9f7a653156b4",
+  "result": {
+    "markdown": "---\ndescription: \"malign, patoloji, atlas, pathology, whole slide image\"\ndate: last-modified\ncategories: [malign]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n# Features of Malignancy  {#sec-features-of-malignancy} \n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n## Pleomorphism {#sec-pleomorphism} \n:::\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n**Pleomorphism**\n\n\n[![Click for Full Screen WSI](./screenshots/pleomorphism_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/pleomorphism/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pleomorphism/HE.html)\n:::\n\n::: {.cell}\n\nSee Microscopy with viewer: \n\n<iframe src=\"https://images.patolojiatlasi.com/pleomorphism/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
