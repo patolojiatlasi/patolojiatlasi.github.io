@@ -104,7 +104,7 @@ book:
     - part: "General Pathology"
       chapters:
         - text: "Techniques Used in Pathology"
-          href: technique.qmd
+          href: techniques.qmd
         - text: "Intracellular Accumulations"
           href: intracellular-accumulations.qmd
         - text: "Extracellular Accumulations"
