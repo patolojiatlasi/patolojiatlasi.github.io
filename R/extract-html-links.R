@@ -168,11 +168,33 @@ wp_string <- dplyr::sample_n(texts, 1)
 
 wp_string <- wp_string$texts[1]
 
-wp_string <- paste0(wp_string,
+
+wp_text <- paste0(wp_string,
+                  " #dijitalpatoloji #WSI ",
+                  " #patolojiatlasi #patolojinotlari ",
+                  " #histopathologyatlas #memorialpatoloji ",
+                  .sep ="")
+
+
+wp_text <- gsub(pattern = "https://www.patolojiatlasi.com/screenshots/",
+                replacement = "<img src='https://www.patolojiatlasi.com/screenshots/",
+                x = wp_text)
+
+wp_text <- gsub(pattern = "_screenshot.png",
+                replacement = "_screenshot.png'>",
+                x = wp_text)
+
+writeLines(text = wp_text, "./wp_text.txt")
+
+wp_heading <- paste0(wp_string,
                     " #dijitalpatoloji #WSI ",
                     " #patolojiatlasi #patolojinotlari ",
                     " #histopathologyatlas #memorialpatoloji ",
                           .sep ="")
 
-writeLines(text = wp_string, "./wp_string.txt")
+wp_heading <- gsub(pattern = "https?://[^ ]+\\.png",
+                   replacement = "",
+                   x = wp_heading)
+
+writeLines(text = wp_heading, "./wp_heading.txt")
 

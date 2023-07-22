@@ -80,10 +80,11 @@ jobs:
         options(WordpressLogin = WordpressLogin)
         options(knitr.knit2wp.warning = FALSE)
         source('./R/extract-html-links.R')
+        textWP <- readLines("./wp_text.txt")
         titleWP <- readLines("./wp_string.txt")
         RWordPress::newPost(content = list(title = titleWP,
                                  description = paste0('<p>',
-                                                      titleWP,
+                                                      textWP,
                                                       '</p>'),
                                  categories = c('patolojiatlasi', 'histopathologyatlas')),
                   publish = TRUE)
