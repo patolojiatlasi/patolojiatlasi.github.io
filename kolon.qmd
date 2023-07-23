@@ -114,6 +114,22 @@ Mikroskopik görüntüleri inceleyin:
 </iframe>
 ```
 
+
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+
+
+
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/tubularadenoma-flat2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html)
 
 
@@ -126,6 +142,23 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 ```
+
+
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+
+
+
 
 #### Saplı Polip {#sec-kolon-sapli-polip}
 
@@ -161,12 +194,37 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
+
+
+```{asis, echo = (language=="EN")}
+
+Mikroskopik görüntüleri inceleyin:
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/tubular-adenoma-with-stalk_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html)
+
+```
+
+
+
+
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
 <iframe src="https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html" style="height:600px;width:100%;" data-external="1">
 
 </iframe>
 ```
+
+
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+<iframe src="https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
 
 
 :::::
@@ -199,6 +257,19 @@ Mikroskopik görüntüleri inceleyin:
 </iframe>
 ```
 
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+
 ### Hamartomatöz Polip {#sec-kolon-hamartomatoz-polip}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
@@ -223,6 +294,20 @@ Mikroskopik görüntüleri inceleyin:
 </iframe>
 ```
 
+
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+
 #### Schwann Cell Hamartoma in a Colon Polyp {#sec-colon-schwann-cell-hamartoma}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
@@ -246,6 +331,20 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 ```
+
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+
 
 ```{r language colon-submucosal-lipoma, echo=FALSE, include=TRUE}
 
@@ -356,7 +455,6 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-------------------------------------------------------------------------
 
 ```{asis, echo = (language == "EN")}
 

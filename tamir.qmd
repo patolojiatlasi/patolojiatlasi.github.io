@@ -74,6 +74,19 @@ Mikroskopik görüntüleri inceleyin:
 </iframe>
 ```
 
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/fibrosis/HE.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+
+
 ## Keloid - Skar {#sec-keloid-skar}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
@@ -94,6 +107,17 @@ Tıklayın](https://images.patolojiatlasi.com/keloid-scar/HE.html)
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/keloid-scar/HE.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+
+```
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
 
 Mikroskopik görüntüleri inceleyin:
 

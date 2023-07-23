@@ -162,8 +162,17 @@ webshot2::webshot(
 }
 ```
 
+
+
+::::: panel-tabset
+
+
+
+### Macroscopy
+
+
 ```{asis, echo = (language == "EN")}
-Macroscopy
+
 
 [tubular adenoma with a stalk
 macroscopy](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg)
@@ -179,11 +188,17 @@ stalk](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-sta
 
 
 ```{asis, echo = (language == "TR")}
-Mikroskopi
+
 
 [tubular adenoma with a stalk
 macroscopy](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg)
 ```
+
+
+
+
+### Mikroskopi
+
 
 ```{asis, echo = (language == "TR")}
 Mikroskopi
@@ -237,4 +252,7 @@ Ekran](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-sta
 
 </iframe>
 ```
+
+
+:::::
 

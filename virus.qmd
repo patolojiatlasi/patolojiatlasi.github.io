@@ -77,6 +77,17 @@ Mikroskopik görüntüleri inceleyin:
 ```
 
 
+
+```{asis herpesesophagitis iframe, echo = ((language=="EN") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
 ```{r language molluscum-contagiosum, echo=FALSE, include=TRUE}
 source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")

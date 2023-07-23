@@ -20,13 +20,34 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
+```{asis, echo = (language == "EN")}
+# Jinekopatoloji {#sec-jinekopatoloji}
+```
+
+
+
+
 ```{asis, echo = (language == "TR")}
 ## Over {#sec-over}
 ```
 
+
+```{asis, echo = (language == "EN")}
+## Over {#sec-over}
+```
+
+
 ```{asis, echo = (language == "TR")}
 ### Ovary, Serous borderline tumor, micropapillary variant {#sec-ovary-serous-borderline-micropapillary}
 ```
+
+
+
+```{asis, echo = (language == "EN")}
+### Ovary, Serous borderline tumor, micropapillary variant {#sec-ovary-serous-borderline-micropapillary}
+```
+
+
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/ovarianserousmicropapillary_screenshot.png")) {
@@ -47,6 +68,17 @@ Tıklayın](https://images.patolojiatlasi.com/ovarianserousmicropapillary/HE.htm
 ```
 
 
+
+```{asis, echo = (language == "EN")}
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/ovarianserousmicropapillary_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ovarianserousmicropapillary/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/ovarianserousmicropapillary/HE.html)
+
+```
+
+
+
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
 Mikroskopik görüntüleri inceleyin:
@@ -55,5 +87,17 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 ```
+
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/ovarianserousmicropapillary/HE.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
 
 

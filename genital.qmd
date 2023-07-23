@@ -7,4 +7,13 @@ page-layout: full
 bibliography: references.bib
 ---
 
+
+```{asis, echo = (language == "TR")}
 # Genital Sistem Patolojisi {#sec-genital-sistem-patolojisi}
+```
+
+
+```{asis, echo = (language == "EN")}
+# Genital Sistem Patolojisi {#sec-genital-sistem-patolojisi}
+```
+

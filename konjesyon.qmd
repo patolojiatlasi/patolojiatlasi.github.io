@@ -3,7 +3,7 @@ description: |
     congestion in spleen
     dalak konjesyon
 date: last-modified
-categories: [congestion-spleen]
+categories: [congestion, spleen]
 page-layout: full
 bibliography: references.bib
 ---
@@ -18,12 +18,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "TR")}
-## dalak konjesyon {#sec-congestion-spleen}
+## Dalak konjesyon {#sec-congestion-spleen}
 ```
 
 
 ```{asis, echo = (language == "EN")}
-## congestion in spleen {#sec-congestion-spleen}
+## Congestion in spleen {#sec-congestion-spleen}
 ```
 
 
@@ -47,19 +47,11 @@ knitr::include_graphics("./screenshots/congestion-spleen_screenshot.png")
 ```
 
 
-::: {.content-hidden when-format="html"}
-dalak konjesyon
-:::
-
-::: {.content-visible when-format="pdf"}
-dalak konjesyon
-:::
-
 
 
 ```{asis, echo = (language == "TR")}
 
-**dalak konjesyon**
+**Dalak konjesyon**
 
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/congestion-spleen_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/congestion-spleen/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/congestion-spleen/HE.html)
@@ -136,7 +128,7 @@ asis, echo = ((language=="TR") & (output_type!="html"))
 
 ```{asis, echo = (language == "EN")}
 
-**congestion in spleen**
+**Congestion in spleen**
 
 [![Click for Full Screen WSI](./screenshots/congestion-spleen_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/congestion-spleen/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/congestion-spleen/HE.html)
 

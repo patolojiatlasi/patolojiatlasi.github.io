@@ -44,6 +44,23 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 
+```
+
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+
+```
+
+
+
+
 ```{r language ectopic-adrenal, echo=FALSE, include=TRUE}
 source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
@@ -93,6 +110,7 @@ Mikroskopik görüntüleri inceleyin:
 [![Click for Full Screen WSI](./screenshots/ectopic-adrenal_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html)
 
 ```
+
 
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
