@@ -67,7 +67,7 @@ Tıklayın](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.ht
 
 
 
-```{asis herpesesophagitis iframe, echo = ((language=="TR") & (output_type=="html"))}
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -78,7 +78,7 @@ Mikroskopik görüntüleri inceleyin:
 
 
 
-```{asis herpesesophagitis iframe, echo = ((language=="EN") & (output_type=="html"))}
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
 
 Mikroskopik görüntüleri inceleyin:
 
