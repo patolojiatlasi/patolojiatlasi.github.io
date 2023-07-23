@@ -69,6 +69,18 @@ webshot2::webshot(
 ```
 
 
+
+```{asis, echo = (language == "TR")}
+
+**Congo Red stain for amyloidosis**
+
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/congored_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/congored/congored.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/congored/congored.html)
+
+```
+
 ```{asis, echo = (language == "EN")}
 
 **Congo Red stain for amyloidosis**
@@ -79,6 +91,19 @@ Tıklayın](./screenshots/congored_screenshot.png){width="25%"}](https://images.
 Tıklayın](https://images.patolojiatlasi.com/congored/congored.html)
 
 ```
+
+
+
+```{asis, echo = ((language == "TR") & (output_type=="html"))} 
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/congored/congored.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
 
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 

@@ -468,7 +468,7 @@ webshot2::webshot(
 
 
 
-:::: {.panel-tabset .content-visible when-format="html"}
+::: {.panel-tabset}
 
 ### HE
 
@@ -540,58 +540,64 @@ Mikroskopik görüntüleri inceleyin:
 See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/melanosiscoli/PAS.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-::::
-
-
-
-
-::: {.panel-tabset .content-hidden when-format="html"}
-
-
-
-### HE
-
-
-
-```{asis, echo = (language == "TR")}
-
-**Melanozis Koli**
-
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/melanosiscoli-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/melanosiscoli/HE.html)
-
-```
-
-
-```{asis, echo = (language == "EN")}
-
-**Melanosis Coli**
-
-[![Click for Full Screen WSI](./screenshots/melanosiscoli-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/melanosiscoli/HE.html)
-
-```
-
-
-### PAS
-
-
-
-```{asis, echo = (language == "TR")}
-
-**Melanozis Koli PAS**
-
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/melanosiscoli-PAS_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/PAS.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/melanosiscoli/PAS.html)
-
-```
-
-```{asis, echo = (language == "EN")}
-
-**Melanosis Coli PAS**
-
-[![Click for Full Screen WSI](./screenshots/melanosiscoli-PAS_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/PAS.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/melanosiscoli/PAS.html)
 
 ```
 
 :::
+
+
+
+
+::::: {.content-hidden unless-format="epub"}
+
+
+::: {.panel-tabset}
+
+
+### HE
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Melanozis Koli**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/melanosiscoli-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/melanosiscoli/HE.html)
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+**Melanosis Coli**
+
+[![Click for Full Screen WSI](./screenshots/melanosiscoli-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/melanosiscoli/HE.html)
+
+```
+
+
+### PAS
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Melanozis Koli PAS**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/melanosiscoli-PAS_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/PAS.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/melanosiscoli/PAS.html)
+
+```
+
+```{asis, echo = (language == "EN")}
+
+**Melanosis Coli PAS**
+
+[![Click for Full Screen WSI](./screenshots/melanosiscoli-PAS_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/PAS.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/melanosiscoli/PAS.html)
+
+```
+
+
+:::
+
+
+:::::
