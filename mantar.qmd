@@ -66,6 +66,14 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
+
+::::: panel-tabset
+
+
+
+### HE
+
+
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/brain-mucormycosis_screenshot.png")) {
 webshot2::webshot(delay = 20,
@@ -110,6 +118,10 @@ See Microscopy with viewer:
 
 ```
 
+
+### GMS
+
+
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/brain-mucormycosis-GMS_screenshot.png")) {
 webshot2::webshot(delay = 20,
@@ -153,3 +165,8 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
+
+
+
+:::::
+

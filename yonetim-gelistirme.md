@@ -380,3 +380,15 @@ git config --global http.postBuffer 524288000
 This increases the buffer size to 500 MB. Adjust the size as needed for your specific situation.
 
 ---
+
+
+https://quarto.org/docs/authoring/conditional.html
+
+---
+
+https://quarto.org/docs/authoring/markdown-basics.html#divs-and-spans
+
+
+---
+
+

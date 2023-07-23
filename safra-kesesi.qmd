@@ -106,6 +106,12 @@ webshot2::webshot(delay = 20,
 
 ```
 
+
+::::: panel-tabset
+
+### HE
+
+
 ```{asis, echo = (language == "TR")}
 
 **iskemi gangrenöz kolesistit**
@@ -123,6 +129,27 @@ Mikroskopik görüntüleri inceleyin:
 <iframe src="https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
+
+
+```{asis, echo = (language == "EN")}
+
+**ischemia in gangrenous cholecystitis**
+
+[![Click for Full Screen WSI](./screenshots/ischemia-gangrenous-cholecystitis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+### HE - annotated
+
 
 ```{comment}
 asis, echo = (language == "TR")
@@ -143,52 +170,6 @@ asis, echo = (language == "TR")
 
 ```
 
-```{comment}
-asis, echo = (language == "TR")
-
-
-
-<button id="tani-case-ischemia-gangrenous-cholecystitis-btn">Tanıyı Göster</button>
-<div id="answer-ischemia-gangrenous-cholecystitis" style="display: none;">iskemi gangrenöz kolesistit</div>
-
-<script>
-  const showAnswer-ischemia-gangrenous-cholecystitisBtn = document.getElementById('tani-case-ischemia-gangrenous-cholecystitis-btn');
-  const answer-ischemia-gangrenous-cholecystitis = document.getElementById('answer-ischemia-gangrenous-cholecystitis');
-
-  showAnswer-ischemia-gangrenous-cholecystitisBtn.addEventListener('click', () => {
-    if (answer-ischemia-gangrenous-cholecystitis.style.display === 'none') {
-      answer-ischemia-gangrenous-cholecystitis.style.display = 'block';
-      showAnswer-ischemia-gangrenous-cholecystitisBtn.textContent = 'Tanıyı Gizle';
-    } else {
-      answer-ischemia-gangrenous-cholecystitis.style.display = 'none';
-      showAnswer-ischemia-gangrenous-cholecystitisBtn.textContent = 'Tanıyı Göster';
-    }
-  });
-</script>
-
-
-
-{{< video https://www.youtube.com/embed/ >}}
-
-
-
-```
-
-```{asis, echo = (language == "EN")}
-
-**ischemia in gangrenous cholecystitis**
-
-[![Click for Full Screen WSI](./screenshots/ischemia-gangrenous-cholecystitis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html)
-
-```
-
-```{asis, echo = ((language == "EN") & (output_type=="html"))} 
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
 
 ```{comment}
 asis, echo = (language == "EN")
@@ -197,6 +178,10 @@ asis, echo = (language == "EN")
 
 [![Click for Full Screen Annotated WSI](./screenshots/ischemia-gangrenous-cholecystitis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE_annotated.html) [Click for Full Screen Annotated WSI](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE_annotated.html)
 
+```
+
+
+```{comment}
 
 See Annotated Microscopy with viewer: 
 
@@ -206,30 +191,3 @@ See Annotated Microscopy with viewer:
 
 ```
 
-```{comment}
-asis, echo = (language == "EN")
-
-<button id="dx-case-ischemia-gangrenous-cholecystitis-btn">Show the Diagnosis</button>
-<div id="answer-ischemia-gangrenous-cholecystitis" style="display: none;">ischemia in gangrenous cholecystitis</div>
-
-<script>
-  const showAnswer-ischemia-gangrenous-cholecystitisBtn = document.getElementById('dx-case-ischemia-gangrenous-cholecystitis-btn');
-  const answer-ischemia-gangrenous-cholecystitis = document.getElementById('answer-ischemia-gangrenous-cholecystitis');
-
-  showAnswer-ischemia-gangrenous-cholecystitisBtn.addEventListener('click', () => {
-    if (answer-ischemia-gangrenous-cholecystitis.style.display === 'none') {
-      answer-ischemia-gangrenous-cholecystitis.style.display = 'block';
-      showAnswer-ischemia-gangrenous-cholecystitisBtn.textContent = 'Hide the Diagnosis';
-    } else {
-      answer-ischemia-gangrenous-cholecystitis.style.display = 'none';
-      showAnswer-ischemia-gangrenous-cholecystitisBtn.textContent = 'Show the Diagnosis';
-    }
-  });
-</script>
-
-
-{{< video https://www.youtube.com/embed/ >}}
-
-
-
-```

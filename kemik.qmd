@@ -19,6 +19,11 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ### Ekzostoz (Osteokondrom) {#sec-ekzostoz}
 
+
+::::: panel-tabset
+
+### HE - 1
+
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/exostosis-1_screenshot.png")) {
 webshot2::webshot(delay = 20,
@@ -28,11 +33,13 @@ webshot2::webshot(delay = 20,
 }
 ```
 
+```{asis, echo = (language == "TR")}
+
 [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/exostosis-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/exostosis/oc.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/exostosis/oc.html)
-
+```
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -45,6 +52,29 @@ Mikroskopik görüntüleri inceleyin:
 ```
 
 
+
+```{asis, echo = (language == "EN")}
+
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/exostosis-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/exostosis/oc.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/exostosis/oc.html)
+```
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/exostosis/oc.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+
+### HE - 2
+
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/exostosis-2_screenshot.png")) {
 webshot2::webshot(delay = 20,
@@ -54,11 +84,14 @@ webshot2::webshot(delay = 20,
 }
 ```
 
+
+```{asis, echo = (language == "TR")}
+
 [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/exostosis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/exostosis/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/exostosis/oc001.html)
-
+```
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -71,6 +104,30 @@ Mikroskopik görüntüleri inceleyin:
 ```
 
 
+
+```{asis, echo = (language == "EN")}
+
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/exostosis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/exostosis/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/exostosis/oc001.html)
+```
+
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/exostosis/oc001.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+
+### HE - 3
+
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/exostosis-3_screenshot.png")) {
 webshot2::webshot(delay = 20,
@@ -80,11 +137,13 @@ webshot2::webshot(delay = 20,
 }
 ```
 
+```{asis, echo = (language == "TR")}
+
 [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/exostosis-3_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/exostosis/oc002.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/exostosis/oc002.html)
-
+```
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -95,3 +154,28 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 ```
+
+
+```{asis, echo = (language == "EN")}
+
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/exostosis-3_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/exostosis/oc002.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/exostosis/oc002.html)
+```
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/exostosis/oc002.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+
+:::::
+
+

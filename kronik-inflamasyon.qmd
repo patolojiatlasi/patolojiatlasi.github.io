@@ -32,6 +32,9 @@ webshot2::webshot(delay = 20,
 
 ```{asis, echo = (language == "EN")}
 ## Hydronephrosis and Chronic Pyelonephritis {#sec-hydronephrosis-chronic-pyelonephritis} 
+```
+
+```{asis, echo = (language == "EN")}
 
 **Hydronephrosis and Chronic Pyelonephritis**
 
@@ -45,21 +48,13 @@ See Microscopy with viewer:
 
 <iframe src="https://images.patolojiatlasi.com/chronicpyelonephritis/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
-[![Click for Full Screen WSI](./screenshots/chronicpyelonephritis-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/chronicpyelonephritis/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/chronicpyelonephritis/HE1.html)
-
 ```
-
-```{asis, echo = ((language == "EN") & (output_type=="html"))} 
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/chronicpyelonephritis/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
 
 ```{asis, echo = (language == "TR")}
 ## Hidronefroz ve Kronik Pyelonefrit {#sec-hidronefroz-kronik-pyelonefrit} 
+````
+
+```{asis, echo = (language == "TR")}
 
 **Hidronefroz ve Kronik Pyelonefrit**
 
@@ -73,8 +68,6 @@ See Microscopy with viewer:
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/chronicpyelonephritis/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/chronicpyelonephritis-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/chronicpyelonephritis/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/chronicpyelonephritis/HE1.html)
 
 ```
 
@@ -115,16 +108,6 @@ See Microscopy with viewer:
 
 <iframe src="https://images.patolojiatlasi.com/chronicpyelonephritis/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
-[![Click for Full Screen WSI](./screenshots/chronicpyelonephritis-2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/chronicpyelonephritis/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/chronicpyelonephritis/HE2.html)
-
-```
-
-```{asis, echo = ((language == "EN") & (output_type=="html"))} 
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/chronicpyelonephritis/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
 ```
 
 
@@ -143,31 +126,7 @@ Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/chronicpyelonephritis/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/chronicpyelonephritis-2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/chronicpyelonephritis/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/chronicpyelonephritis/HE2.html)
-
 ```
-
-
-```{asis, echo = ((language=="TR") & (output_type=="html"))}
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/chronicpyelonephritis/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ```{asis, echo = (language == "TR")}

@@ -30,9 +30,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/abdominal-mezotelyoma_screenshot.png")) {
-webshot2::webshot(delay = 20,
+webshot2::webshot(
   url = "https://images.patolojiatlasi.com/abdominal-mezotelyoma/HE.html",
-  file = "./screenshots/abdominal-mezotelyoma_screenshot.png"
+  file = "./screenshots/abdominal-mezotelyoma_screenshot.png",
+  delay = 20
 )
 }
 ```

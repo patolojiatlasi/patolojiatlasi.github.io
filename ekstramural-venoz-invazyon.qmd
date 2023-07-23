@@ -126,6 +126,10 @@ webshot2::webshot(
 }
 ```
 
+::::: panel-tabset
+
+### HE
+
 ```{asis, echo = (language == "TR")}
 
 **ekstramural venöz invazyon**
@@ -143,6 +147,29 @@ Mikroskopik görüntüleri inceleyin:
 <iframe src="https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
+
+
+```{asis, echo = (language == "EN")}
+
+**extramural venous invasion**
+
+
+[![Click for Full Screen WSI](./screenshots/extramural-venous-invasion_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+### HE - annotated
+
 
 ```{comment}
 asis, echo = (language == "TR")
@@ -163,53 +190,6 @@ asis, echo = (language == "TR")
 
 ```
 
-```{comment}
-asis, echo = (language == "TR")
-
-
-
-<button id="tani-case-extramural-venous-invasion-btn">Tanıyı Göster</button>
-<div id="answer-extramural-venous-invasion" style="display: none;">ekstramural venöz invazyon</div>
-
-<script>
-  const showAnswer-extramural-venous-invasionBtn = document.getElementById('tani-case-extramural-venous-invasion-btn');
-  const answer-extramural-venous-invasion = document.getElementById('answer-extramural-venous-invasion');
-
-  showAnswer-extramural-venous-invasionBtn.addEventListener('click', () => {
-    if (answer-extramural-venous-invasion.style.display === 'none') {
-      answer-extramural-venous-invasion.style.display = 'block';
-      showAnswer-extramural-venous-invasionBtn.textContent = 'Tanıyı Gizle';
-    } else {
-      answer-extramural-venous-invasion.style.display = 'none';
-      showAnswer-extramural-venous-invasionBtn.textContent = 'Tanıyı Göster';
-    }
-  });
-</script>
-
-
-
-{{< video https://www.youtube.com/embed/ >}}
-
-
-
-```
-
-```{asis, echo = (language == "EN")}
-
-**extramural venous invasion**
-
-
-[![Click for Full Screen WSI](./screenshots/extramural-venous-invasion_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html)
-
-```
-
-```{asis, echo = ((language == "EN") & (output_type=="html"))} 
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
 
 ```{comment}
 asis, echo = (language == "EN")
@@ -219,6 +199,7 @@ asis, echo = (language == "EN")
 
 [![Click for Full Screen WSI](./screenshots/extramural-venous-invasion_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/extramural-venous-invasion/HE_annotated.html)
 
+
 See Annotated Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/extramural-venous-invasion/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
@@ -227,30 +208,7 @@ See Annotated Microscopy with viewer:
 
 ```
 
-```{comment}
-asis, echo = (language == "EN")
-
-<button id="dx-case-extramural-venous-invasion-btn">Show the Diagnosis</button>
-<div id="answer-extramural-venous-invasion" style="display: none;">extramural venous invasion</div>
-
-<script>
-  const showAnswer-extramural-venous-invasionBtn = document.getElementById('dx-case-extramural-venous-invasion-btn');
-  const answer-extramural-venous-invasion = document.getElementById('answer-extramural-venous-invasion');
-
-  showAnswer-extramural-venous-invasionBtn.addEventListener('click', () => {
-    if (answer-extramural-venous-invasion.style.display === 'none') {
-      answer-extramural-venous-invasion.style.display = 'block';
-      showAnswer-extramural-venous-invasionBtn.textContent = 'Hide the Diagnosis';
-    } else {
-      answer-extramural-venous-invasion.style.display = 'none';
-      showAnswer-extramural-venous-invasionBtn.textContent = 'Show the Diagnosis';
-    }
-  });
-</script>
 
 
-{{< video https://www.youtube.com/embed/ >}}
+:::::
 
-
-
-```

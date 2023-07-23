@@ -129,15 +129,17 @@ Mikroskopik görüntüleri inceleyin:
 
 #### Saplı Polip {#sec-kolon-sapli-polip}
 
-Macroscopy
+::::: panel-tabset
+
+##### Macroscopy
 
 [tubular adenoma with a stalk macroscopy](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg)
 
 ![saplı polip](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg)
 
-<img src="https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk-macroscopy.jpg"/></img>
 
-Microscopy
+
+##### Microscopy
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/tubular-adenoma-with-stalk_screenshot.png")) {
@@ -165,6 +167,12 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 ```
+
+
+:::::
+
+
+
 
 ### Hiperplastik Polip {#sec-kolon-hiperplastik-polip}
 

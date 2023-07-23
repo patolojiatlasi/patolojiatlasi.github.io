@@ -73,7 +73,9 @@ webshot2::webshot(delay = 20,
 }
 ```
 
+::::: panel-tabset
 
+### HE
 
 ```{asis, echo = (language == "TR")}
 
@@ -95,53 +97,6 @@ Mikroskopik görüntüleri inceleyin:
 
 
 
-```{asis, echo = (language == "TR")}
-
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/nasopharynx-nonkeratinizing-scc-panCK_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/panCK.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/panCK.html)
-
-```
-
-
-```{asis, echo = ((language=="TR") & (output_type=="html"))}
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/panCK.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-
-
-```{asis, echo = (language == "TR")}
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/nasopharynx-nonkeratinizing-scc-p63_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/p63.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/p63.html)
-
-```
-
-
-```{asis, echo = ((language=="TR") & (output_type=="html"))}
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/p63.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-
-
-```{asis, echo = (language == "TR")}
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/nasopharynx-nonkeratinizing-scc-EBER_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/EBER.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/EBER.html)
-
-```
-
-
-```{asis, echo = ((language=="TR") & (output_type=="html"))}
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/EBER.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
 ```{asis, echo = (language == "EN")}
 
 ** Nasopharyngeal carcinoma, nonkeratinizing squamous cell carcinoma**
@@ -159,9 +114,32 @@ See Microscopy with viewer:
 
 ```
 
+
+
+
+### PanCK
+
+
+```{asis, echo = (language == "TR")}
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/nasopharynx-nonkeratinizing-scc-panCK_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/panCK.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/panCK.html)
+
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/panCK.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
 ```{asis, echo = (language == "EN")}
 
-[![Click for Full Screen WSI](./screenshots/nasopharynx-nonkeratinizing-scc-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/panCK.html)
+[![Click for Full Screen WSI](./screenshots/nasopharynx-nonkeratinizing-scc-panCK_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/panCK.html)
 
 ```
 
@@ -173,9 +151,29 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/panCK.html" style="height:600px;width:100%;" data-external="1"></iframe>
 ```
 
+
+
+### p63
+
+
+```{asis, echo = (language == "TR")}
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/nasopharynx-nonkeratinizing-scc-p63_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/p63.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/p63.html)
+
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/p63.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
 ```{asis, echo = (language == "EN")}
 
-[![Click for Full Screen WSI](./screenshots/nasopharynx-nonkeratinizing-scc-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/p63.html)
+[![Click for Full Screen WSI](./screenshots/nasopharynx-nonkeratinizing-scc-p63_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/p63.html)
 
 ```
 
@@ -187,9 +185,28 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/p63.html" style="height:600px;width:100%;" data-external="1"></iframe>
 ```
 
+
+
+### EBER - CISH
+
+```{asis, echo = (language == "TR")}
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/nasopharynx-nonkeratinizing-scc-EBER_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/EBER.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/EBER.html)
+
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/EBER.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
 ```{asis, echo = (language == "EN")}
 
-[![Click for Full Screen WSI](./screenshots/nasopharynx-nonkeratinizing-scc-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/EBER.html)
+[![Click for Full Screen WSI](./screenshots/nasopharynx-nonkeratinizing-scc-EBER_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/EBER.html)
 
 ```
 
@@ -201,3 +218,6 @@ See Microscopy with viewer:
 
 
 ```
+
+:::::
+

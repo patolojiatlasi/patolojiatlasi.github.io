@@ -28,6 +28,15 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ## Helicobacter pylori {#sec-helicobacter-pylori}
 ```
 
+
+::::: panel-tabset
+
+
+
+### HE
+
+
+
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/helicobacterpylori_screenshot.png")) {
 webshot2::webshot(
@@ -73,6 +82,10 @@ See Microscopy with viewer:
 
 
 ```
+
+
+### Warthin-Starry
+
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/helicobacterpyloriWS_screenshot.png")) {
@@ -120,6 +133,10 @@ See Microscopy with viewer:
 
 ```
 
+
+### Giemsa
+
+
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/helicobacterpyloriGiemsa_screenshot.png")) {
 webshot2::webshot(
@@ -166,6 +183,10 @@ See Microscopy with viewer:
 
 ```
 
+
+### IHC
+
+
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/helicobacterpyloriIHC_screenshot.png")) {
 webshot2::webshot(
@@ -211,3 +232,7 @@ See Microscopy with viewer:
 
 
 ```
+
+
+:::::
+
