@@ -55,7 +55,7 @@ webshot2::webshot(
 ```
 
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-1-video_screenshot.png")) {
 
 url <- "https://img.youtube.com/vi/nfFtViUXHqU/maxresdefault.jpg"
@@ -211,7 +211,7 @@ webshot2::webshot(
 
 
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-2-video_screenshot.png")) {
 
 url <- "https://img.youtube.com/vi/xHQihI19L5g/maxresdefault.jpg"
