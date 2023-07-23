@@ -30,6 +30,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 # [Hacettepe Case Of the Month (COM)](https://hacettepepathology.com/)  {#sec-hacettepe-case-of-the-month}
 ```
 
+
+
+
 ```{asis, echo = (language == "TR")}
 ## Case-1 {#sec-hacettepe-case-of-the-month-case-1}
 ```
@@ -40,7 +43,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 -   [Case-1](https://www.youtube.com/watch?v=nfFtViUXHqU&ab_channel=KemalKosemehmetoglu)
 
-{{< video https://www.youtube.com/embed/nfFtViUXHqU >}}
 
 ```{r case 1 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-1_screenshot.png")) {
@@ -51,6 +53,65 @@ webshot2::webshot(
 )
 }
 ```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/hacettepe-com-case-1-video_screenshot.png")) {
+
+url <- "https://img.youtube.com/vi/nfFtViUXHqU/maxresdefault.jpg"
+download.file(url, destfile = "./screenshots/hacettepe-com-case-1-video_screenshot.png", mode = "wb")
+}
+```
+
+
+
+::: panel-tabset
+
+
+### WSI
+
+
+
+```{asis, echo = (language == "TR")}
+
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
+```
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+
+```
+
+```{asis, echo = (language == "EN")}
+
+[![Click for Full Screen
+WSI](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
+[Click for Full Screen
+WSI](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
+
+```
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+### Answer
+
 
 ```{asis, echo = (language == "TR")}
 
@@ -74,25 +135,6 @@ webshot2::webshot(
     }
   });
 </script>
-
-[![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Tam Ekran Görmek İçin Resmi
-Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-```
-
-
-```{asis, echo = ((language=="TR") & (output_type=="html"))}
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-
-
-
-
-
 ```
 
 ```{asis, echo = (language == "EN")}
@@ -117,23 +159,28 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
-[![Click for Full Screen
-WSI](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Click for Full Screen
-WSI](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
+```
 
+### Video
+
+{{< video https://www.youtube.com/embed/nfFtViUXHqU >}}
+
+
+
+
+```{asis, echo = (output_type=="html")}
+
+[![Video İçin Tıklayın](./screenshots/hacettepe-com-case-1-video_screenshot.png){width="25%"}](https://www.youtube.com/watch?v=nfFtViUXHqU) [Video İçin Tıklayın](https://www.youtube.com/watch?v=nfFtViUXHqU)
 
 ```
 
-```{asis, echo = ((language == "EN") & (output_type=="html"))}
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 
 
-```
+:::
+
+
+
 
 ```{asis, echo = (language == "TR")}
 
@@ -151,7 +198,7 @@ See Microscopy with viewer:
 
 {{< video https://www.youtube.com/embed/xHQihI19L5g >}}
 
-```{r case 2 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment case 2 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-2_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-2/HE.html",
@@ -183,6 +230,10 @@ webshot2::webshot(
     }
   });
 </script>
+
+```
+
+```{asis, echo = (language == "TR")}
 
 [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/hacettepe-com-case-2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-2/HE.html)
@@ -222,6 +273,9 @@ Mikroskopik görüntüleri inceleyin:
   });
 </script>
 
+```
+
+```{asis, echo = (language == "EN")}
 
 [![Click for Full Screen
 WSI](./screenshots/hacettepe-com-case-2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-2/HE.html)
@@ -250,7 +304,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r case 3 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment case 3 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-3_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-3/HE.html",
@@ -268,7 +322,7 @@ webshot2::webshot(
 
 {{< video https://www.youtube.com/embed/yKnEyGE4oD4 >}}
 
-```{asis, echo = (language == "TR")}
+```{comment, echo = (language == "TR")}
 
 **hacettepe-com-case-3**
 
@@ -290,6 +344,9 @@ webshot2::webshot(
     }
   });
 </script>
+```
+
+```{comment, echo = (language == "TR")}
 
 [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/hacettepe-com-case-3_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-3/HE.html)
@@ -298,7 +355,7 @@ Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-3/HE.html)
 ```
 
 
-```{asis, echo = ((language=="TR") & (output_type=="html"))}
+```{comment, echo = ((language=="TR") & (output_type=="html"))}
 
 Mikroskopik görüntüleri inceleyin:
 
@@ -306,7 +363,7 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-```{asis, echo = (language == "EN")}
+```{comment, echo = (language == "EN")}
 
 **hacettepe-com-case-3**
 
@@ -336,7 +393,7 @@ WSI](https://images.patolojiatlasi.com/hacettepe-com-case-3/HE.html)
 
 
 
-```{asis, echo = ((language == "EN") & (output_type=="html"))}
+```{comment, echo = ((language == "EN") & (output_type=="html"))}
 
 See Microscopy with viewer: 
 
@@ -356,17 +413,17 @@ See Microscopy with viewer:
 
 ```
 
-```{r case 4 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hacettepe-com-case-4_screenshot.png")) {
+```{comment case 4 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/hacettepe-com-case-4-1_screenshot.png")) {
 webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/hacettepe-com-case-4/HE.html",
-  file = "./screenshots/hacettepe-com-case-4_screenshot.png",
+  url = "https://images.patolojiatlasi.com/hacettepe-com-case-4/HE1.html",
+  file = "./screenshots/hacettepe-com-case-4-1_screenshot.png",
   delay = 20
 )
 }
 ```
 
-```{r case 4-2 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment case 4-2 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-4-2_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-4/HE2.html",
@@ -403,6 +460,10 @@ webshot2::webshot(
     }
   });
 </script>
+```
+
+
+```{asis, echo = (language == "TR")}
 
 [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/hacettepe-com-case-4_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-4/HE.html) [Tam Ekran Görmek İçin Resmi
@@ -434,10 +495,6 @@ Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-4/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
-
-
-
-
 ```
 
 ```{asis, echo = (language == "EN")}
@@ -461,6 +518,10 @@ Mikroskopik görüntüleri inceleyin:
     }
   });
 </script>
+```
+
+
+```{asis, echo = (language == "EN")}
 
 
 [![Click for Full Screen WSI](./screenshots/hacettepe-com-case-4_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-4/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-4/HE1.html)
@@ -503,7 +564,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r case 5 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment case 5 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-5_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-5/HE.html",
@@ -513,8 +574,7 @@ webshot2::webshot(
 }
 ```
 
--   [case
-    5](https://www.youtube.com/watch?v=o13qcP56mqg&ab_channel=KemalKosemehmetoglu)
+-   [case 5](https://www.youtube.com/watch?v=o13qcP56mqg&ab_channel=KemalKosemehmetoglu)
 
 {{< video https://www.youtube.com/embed/o13qcP56mqg >}}
 
@@ -608,7 +668,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r case 6 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment case 6 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-6_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-6/HE.html",
@@ -713,7 +773,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r case 7 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment case 7 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-7_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-7/HE.html",
@@ -816,7 +876,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r case 8 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment case 8 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-8_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-8/HE.html",
@@ -916,7 +976,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r case 9 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment case 9 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-9_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-9/HE.html",
@@ -1014,7 +1074,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r case 10 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment case 10 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-10_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-10/HE.html",
@@ -1116,7 +1176,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r case 11 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment case 11 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-11_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-11/HE.html",
@@ -1219,7 +1279,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-12_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-12/HE.html",
@@ -1324,7 +1384,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-13_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-13/HE.html",
@@ -1429,7 +1489,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-14_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-14/HE.html",
@@ -1534,7 +1594,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-15_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-15/HE.html",
@@ -1637,7 +1697,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-16_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-16/HE.html",
@@ -1744,7 +1804,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-17_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-17/HE.html",
@@ -1869,7 +1929,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-18_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-18/HE.html",
@@ -1974,7 +2034,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-19_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-19/HE.html",
@@ -2079,7 +2139,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-20_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-20/HE.html",
@@ -2186,7 +2246,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-21_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-21/HE.html",
@@ -2291,7 +2351,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-22_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-22/HE.html",
@@ -2398,7 +2458,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-23_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-23/HE.html",
@@ -2503,7 +2563,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-24_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-24/HE.html",
@@ -2608,7 +2668,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-25_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-25/HE.html",
@@ -2713,7 +2773,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-26_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-26/HE.html",
@@ -2820,7 +2880,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-27_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-27/HE.html",
@@ -2950,7 +3010,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-28_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-28/HE.html",
@@ -3080,7 +3140,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-29_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-29/HE.html",
@@ -3187,7 +3247,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-30_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-30/HE.html",
@@ -3294,7 +3354,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-31_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-31/HE.html",
@@ -3399,7 +3459,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-32_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-32/HE.html",
@@ -3504,7 +3564,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-33_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-33/HE.html",
@@ -3609,7 +3669,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-34_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-34/HE.html",
@@ -3716,7 +3776,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-35_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-35/HE.html",
@@ -3823,7 +3883,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-36_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-36/HE.html",
@@ -3930,7 +3990,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-37_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-37/HE.html",
@@ -4037,7 +4097,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-38_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-38/HE.html",
@@ -4142,7 +4202,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-39_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-39/HE.html",
@@ -4247,7 +4307,7 @@ See Microscopy with viewer:
 
 ```
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-40_screenshot.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-40/HE.html",

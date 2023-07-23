@@ -13,6 +13,7 @@ project:
     - "script.js"
     - "webpages.js"
     - "webpages.txt"
+    - "headerEN.html"
 
 
 execute:
@@ -405,8 +406,8 @@ format:
 
 citation:
     type: webpage
-    container-title: Patoloji Atlası
-    url: "https://www.patolojiatlasi.com/"
+    container-title: Histopathology Atlas Atlas of Pathology with Whole Slide Images
+    url: "https://www.histopathologyatlas.com/"
 
 
 editor: source
