@@ -19,3 +19,19 @@ window.addEventListener('DOMContentLoaded', function() {
   const heading = document.getElementById('heading');
   heading.appendChild(headingLink);
 });
+
+
+// Your unique key
+const key = "patolojiatlasi_com_home";
+
+// Fetch the current count
+fetch(`https://api.countapi.xyz/get/${key}`)
+    .then(response => response.json())
+    .then(data => {
+        const count = data.value;
+        document.getElementById("visitorCount").innerText = count;
+
+        // Increment the count for the next visitor
+        fetch(`https://api.countapi.xyz/hit/${key}`);
+    })
+    .catch(console.error);
