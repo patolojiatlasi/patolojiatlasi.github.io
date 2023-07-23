@@ -87,7 +87,8 @@ patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histo
 patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_chapter_qmd")]
 
 patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas %>%
-  dplyr::distinct()
+  dplyr::distinct() %>%
+  dplyr::filter(TR_chapter_qmd != EN_chapter_qmd)
 
 patolojiatlasi_histopathologyatlas$EN_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$EN_chapter_qmd, ".qmd")
 
