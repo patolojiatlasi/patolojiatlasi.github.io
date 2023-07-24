@@ -21,14 +21,14 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "TR")}
-
+# GBD Kolleksiyonu
 **Bu sayfadaki vakalar Prof. Dr. Gülen Bülbül Doğusoy'un kolleksiyonundan alınmıştır.**
 
 ```
 
 
 ```{asis, echo = (language == "EN")}
-
+# GBD Collection
 **These cases are from the collections of Gulen Bulbul Dogusoy MD.**
 
 ```
