@@ -1,8 +1,10 @@
 {
-  "hash": "1a576bef00f27679ddbcb56d92eb4baf",
+  "hash": "c783aac160076ff6ee8cef572704bfd0",
   "result": {
-    "markdown": "---\ndescription: |\n    hasar, tamir,\n    patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [hasar, tamir]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# Cellular Injury {#sec-cellular-injury} \n\n## Reactive atypia in an ulcerated colon polyp {#sec-reactive-atypia} \n:::\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n**Reactive atypia in an ulcerated colon polyp**\n\n\n[![Click for Full Screen WSI](./screenshots/reactive-atypia_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/reactive-atypia/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/reactive-atypia/HE.html)\n:::\n\n::: {.cell}\n\nSee Microscopy with viewer: \n\n<iframe src=\"https://images.patolojiatlasi.com/reactive-atypia/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n",
-    "supporting": [],
+    "markdown": "---\ndescription: |\n    hasar, tamir,\n    patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [hasar, tamir, injury, repair, reactive changes, atypia]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# Cellular Injury {#sec-cellular-injury} \n\n## Reactive atypia in an ulcerated colon polyp {#sec-reactive-atypia} \n:::\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n**Reactive atypia in an ulcerated colon polyp**\n\n\n[![Click for Full Screen WSI](./screenshots/reactive-atypia_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/reactive-atypia/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/reactive-atypia/HE.html)\n:::\n\n::: {.cell}\n\nSee Microscopy with viewer: \n\n<iframe src=\"https://images.patolojiatlasi.com/reactive-atypia/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n",
+    "supporting": [
+      "cell-injury_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

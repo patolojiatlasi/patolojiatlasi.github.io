@@ -1,8 +1,10 @@
 {
-  "hash": "3c4f22d3828170c8a9347c2f133150e0",
+  "hash": "9de1116f8a1c90c7bc97dd82e240684c",
   "result": {
-    "markdown": "---\ndescription: |\n    hamartom,\n    patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [hamartom]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n\n# Hamartom {#sec-hamartom}\n\n## Hamartomatöz Polip {#sec-hamartomatoz-polip}\n\n\n\n\n\n[![Tam Ekran Görmek İçin Resmi\nTıklayın](./screenshots/hamartomatouspolyp_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html) [Tam Ekran Görmek İçin Resmi\nTıklayın](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\n## Schwann Cell Hamartoma in a Colon Polyp {#sec-schwann-cell-hamartoma-colon-polyp}\n\n\n\n\n\n[![Tam Ekran Görmek İçin Resmi\nTıklayın](./screenshots/schwanncellhamartoma_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html) [Tam Ekran Görmek İçin Resmi\nTıklayın](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html)\n\n\n\n\n\n::: {.cell}\n\n:::\n",
-    "supporting": [],
+    "markdown": "---\ndescription: |\n    hamartom,\n    patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [hamartom]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n\n# Hamartom {#sec-hamartom}\n\n## Hamartomatöz Polip {#sec-hamartomatoz-polip}\n\n\n\n\n\n[![Tam Ekran Görmek İçin Resmi\nTıklayın](./screenshots/hamartomatouspolyp_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html) [Tam Ekran Görmek İçin Resmi\nTıklayın](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)\n\n\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\">\n\n</iframe>\n:::\n\n\n\n\n\n## Schwann Cell Hamartoma in a Colon Polyp {#sec-schwann-cell-hamartoma-colon-polyp}\n\n\n\n\n\n[![Tam Ekran Görmek İçin Resmi\nTıklayın](./screenshots/schwanncellhamartoma_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html) [Tam Ekran Görmek İçin Resmi\nTıklayın](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html)\n\n\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\">\n\n</iframe>\n:::\n",
+    "supporting": [
+      "hamartoma_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
