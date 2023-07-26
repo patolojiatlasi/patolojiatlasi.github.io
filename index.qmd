@@ -61,7 +61,8 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
-```{asis, echo = (output_type=="html")}
+```{comment}
+echo = (output_type=="html")
 
 <p>Visitor Count: <span id="visitorCount"></span></p>
 

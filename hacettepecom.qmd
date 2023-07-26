@@ -55,7 +55,7 @@ webshot2::webshot(
 ```
 
 
-```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-1-video_screenshot.png")) {
 
 url <- "https://img.youtube.com/vi/nfFtViUXHqU/maxresdefault.jpg"
@@ -68,7 +68,7 @@ download.file(url, destfile = "./screenshots/hacettepe-com-case-1-video_screensh
 ::: panel-tabset
 
 
-### WSI
+### WSI - Link
 
 
 
@@ -81,16 +81,6 @@ Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
 ```
 
 
-
-```{asis, echo = ((language=="TR") & (output_type=="html"))}
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-
-```
-
 ```{asis, echo = (language == "EN")}
 
 [![Click for Full Screen
@@ -100,6 +90,18 @@ WSI](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
 
 ```
 
+
+
+### WSI 
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+
+```
 
 
 ```{asis, echo = ((language == "EN") & (output_type=="html"))}
@@ -112,16 +114,7 @@ See Microscopy with viewer:
 
 
 
-```{asis, echo = (language == "TR")}
-### Tanı
-```
-
-
-```{asis, echo = (language == "EN")}
-### Diagnosis
-```
-
-
+### Diagnosis / Tanı 
 
 
 
@@ -130,12 +123,10 @@ See Microscopy with viewer:
 **hacettepe-com-case-1**
 
 ::: {.callout-tip collapse="false" appearance="default" icon="true"}
-### Optional caption (tip)
+### Tanı için tıklayın
 
--   Make expandable with 'collapse=true'
--   Remove 'collapse' to prevent expandability
--   Set appearance to 'default', 'simple' or 'minimal'
--   Remove icon with 'icon=false'
+İntradermal Nodüler Fasciitis
+
 :::
 
 
