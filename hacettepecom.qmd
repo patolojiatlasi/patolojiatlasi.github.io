@@ -65,7 +65,7 @@ download.file(url, destfile = "./screenshots/hacettepe-com-case-1-video_screensh
 
 
 
-::: panel-tabset
+:::: panel-tabset
 
 
 ### WSI - Link
@@ -154,6 +154,14 @@ See Microscopy with viewer:
 
 **hacettepe-com-case-1**
 
+::: {.callout-tip collapse="false" appearance="default" icon="true"}
+### Click for Diagnosis
+
+Intradermal Nodular Fasciitis
+
+:::
+
+
 <button id="dx-case1-btn">Show the Diagnosis</button>
 <div id="answer" style="display: none;">Intradermal Nodular Fasciitis</div>
 
@@ -174,14 +182,7 @@ See Microscopy with viewer:
 
 ```
 
-### Video
-
-
-::: {.content-visible when-format="html"}
-
-{{< video https://www.youtube.com/embed/nfFtViUXHqU >}}
-
-:::
+### Video - Link 
 
 
 ```{asis, echo = (language == "TR")}
@@ -191,9 +192,17 @@ See Microscopy with viewer:
 ```
 
 
+### Video 
 
+::: {.content-visible when-format="html"}
+
+{{< video https://www.youtube.com/embed/nfFtViUXHqU >}}
 
 :::
+
+
+
+::::
 
 
 
