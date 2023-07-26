@@ -55,28 +55,6 @@ webshot2::webshot(
 ```
 
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hacettepe-com-case-1-video_screenshot.png")) {
-
-url <- "https://img.youtube.com/vi/nfFtViUXHqU/maxresdefault.jpg"
-
-tryCatch(
-  {
-download.file(url, destfile = "./screenshots/hacettepe-com-case-1-video_screenshot.png", mode = "wb")
-
-  },
-  error = function(error_message) {
-    message(error_message)
-    message("\n")
-    return(NA)
-  }
-)
-
-}
-```
-
-
-
 :::: panel-tabset
 
 
@@ -194,17 +172,15 @@ Intradermal Nodular Fasciitis
 
 ```
 
-### Video - Link 
+### Video
 
 
 ```{asis, echo = (language == "TR")}
 
-[![Video İçin Tıklayın](./screenshots/hacettepe-com-case-1-video_screenshot.png){width="25%"}](https://www.youtube.com/watch?v=nfFtViUXHqU) [Video İçin Tıklayın](https://www.youtube.com/watch?v=nfFtViUXHqU)
+[Video İçin Tıklayın](https://www.youtube.com/watch?v=nfFtViUXHqU)
 
 ```
 
-
-### Video 
 
 ::: {.content-visible when-format="html"}
 
