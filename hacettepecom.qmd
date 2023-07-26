@@ -58,44 +58,19 @@ webshot2::webshot(
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/hacettepe-com-case-1-video_screenshot.png")) {
 
-# url <- "https://img.youtube.com/vi/nfFtViUXHqU/maxresdefault.jpg"
-# download.file(url, destfile = "./screenshots/hacettepe-com-case-1-video_screenshot.png", mode = "wb")
+url <- "https://img.youtube.com/vi/nfFtViUXHqU/maxresdefault.jpg"
 
-# Define the video ID and possible thumbnails
-video_id <- "nfFtViUXHqU"
-base_url <- paste0("https://img.youtube.com/vi/", video_id, "/")
-thumbnails <- c("maxresdefault.jpg", "sddefault.jpg", "hqdefault.jpg", "mqdefault.jpg", "default.jpg")
+tryCatch(
+  {
+download.file(url, destfile = "./screenshots/hacettepe-com-case-1-video_screenshot.png", mode = "wb")
 
-# Function to check if a URL exists (returns TRUE if it does, FALSE otherwise)
-check_url_exists <- function(url) {
-  con <- url(url, "rb")
-  status <- tryCatch({
-    open(con)
-    TRUE
-  }, warning = function(w) {
-    return(FALSE)
-  }, error = function(e) {
-    return(FALSE)
-  }, finally = {
-    close(con)
-  })
-  
-  return(status)
-}
-
-# Iterate over thumbnails and download the first available one
-for (thumbnail in thumbnails) {
-  url <- paste0(base_url, thumbnail)
-  
-  if (check_url_exists(url)) {
-    download.file(url, destfile = "./screenshots/hacettepe-com-case-1-video_screenshot.png", mode = "wb")
-    cat(paste("Downloaded", thumbnail))
-    break
+  },
+  error = function(error_message) {
+    message(error_message)
+    message("\n")
+    return(NA)
   }
-}
-
-
-
+)
 
 }
 ```
