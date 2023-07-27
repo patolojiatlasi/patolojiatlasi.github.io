@@ -14,7 +14,6 @@ project:
     - "script.js"
     - "webpages.js"
     - "webpages.txt"
-    - "headerTR.html"
 
 
 execute:
@@ -51,16 +50,16 @@ book:
     Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan ve diğer kurumlardan katkı yapan meslektaşlarımızın kolleksiyonlarından oluşmaktadır.
     Katkı yapmak ve kendi vakalarınız ekletmek için lütfen [iletişime geçin](https://www.patolojiatlasi.com/katki.html).
   date: last-modified
-  image: images/coverTR.png
+  image: images/cover.png
   output-file: "Patoloji-Atlasi"
-  cover-image: images/coverTR.png
+  cover-image: images/cover.png
   site-url: https://patolojiatlasi.com/
 #  repo-url: https://github.com/patolojiatlasi/patolojiatlasi.github.io
   google-analytics: "G-7BT7Q4FLT9"
 #  repo-branch: main
 #  repo-actions: [edit, issue, source]
   sharing: [twitter, facebook, linkedin]
-  downloads: [epub] #, pdf, docx]
+#   downloads: [epub, pdf, docx]
   search:
     location: navbar
     type: overlay
@@ -73,7 +72,7 @@ book:
     pinned: true
 #   navbar:
 #     title: "Patoloji Atlası"
-#     logo: images/coverTR.png
+#     logo: images/cover.png
 #     search: true
 #     pinned: false
 #     collapse: true
@@ -84,8 +83,8 @@ book:
     locale: tr_TR
     site-name: Patoloji Atlası
   twitter-card:
-    creator: "%40serdarbalci"
-    site: "%40patolojinotlari"
+    creator: "@serdarbalci"
+    site: "@patolojinotlari"
   page-navigation: true
   page-footer:
     border: true
@@ -123,11 +122,11 @@ book:
         - text: "Patolojide Kullanılan Teknikler"
           href: teknik.qmd
         - text: "Hücre İçi Birikimler"
-          href: hucre-ici-birikimler.qmd
+          href: hucreicibirikimler.qmd
         - text: "Hücre Dışı Birikimler"
-          href: hucre-disi-birikimler.qmd
+          href: hucredisibirikimler.qmd
         - text: "Hücre Hasarı"
-          href: hucre-hasari.qmd
+          href: hucrehasari.qmd
         - text: "Hemodinamik Bozukluklar"
 #           href: hemodinamik-bozukluklar.qmd
 #         - text: "İskemi ve Nekroz"
@@ -143,9 +142,9 @@ book:
     - part: "İnflamasyon"
       chapters:
         - text: "Akut inflamasyon"
-          href: akut-inflamasyon.qmd
+          href: akutinflamasyon.qmd
         - text: "Kronik inflamasyon"
-          href: kronik-inflamasyon.qmd
+          href: kronikinflamasyon.qmd
         - text: "Granülamatöz İnflamasyon"
           href: granulom.qmd
         # - inflamasyon.qmd
@@ -170,13 +169,13 @@ book:
           href: karsinogenez.qmd
         - malign.qmd
         - metastaz.qmd
-        - tumor-yayilimi.qmd
+        - tumoryayilim.qmd
     - part: "Tümörlerdeki Prognostik Morfolojik Özellikler"
       chapters:
         - text: "Venöz İnvazyon"
-          href: venoz-invazyon.qmd
+          href: venozinvazyon.qmd
         - text: "Ekstramural Venöz İnvazyon"
-          href: ekstramural-venoz-invazyon.qmd
+          href: ekstramuralvenozinvazyon.qmd
     - part: "Hematopatoloji"
       chapters:
 #        - hematopatoloji.qmd
@@ -209,7 +208,7 @@ book:
         - text: "Pankreas Duktal Adenokarsinom"
           href: pdac.qmd
         - text: "Safra Kesesi"
-          href: safra-kesesi.qmd
+          href: safrakesesi.qmd
         - text: "Ampulla Vater"
           href: ampulla-vater.qmd
     - part: "Akciğer Patolojisi"
@@ -244,10 +243,10 @@ book:
       chapters:
         - text: "Hipofiz Adenomu"
           href: hipofiz.qmd
-    # - part: "Meme Patolojisi"
-    #   chapters:
-    #     - text: "Meme Tümörleri"
-    #       href: meme.qmd
+    - part: "Meme Patolojisi"
+      chapters:
+        - text: "Meme Tümörleri"
+          href: meme.md
     - part: "Baş Boyun Patolojisi"
       chapters:
         - text: "Nazofarenks"
@@ -278,6 +277,8 @@ book:
     - part: "---"
     - part: "Özel Kolleksiyonlar"
       chapters:
+        - text: "Önerilen Sayfalar"
+          href: wsi.qmd
         - text: "GBDAtlas"
           href: gbd.qmd
         - text: "Hacettepe Ayın Vakası"
@@ -286,8 +287,6 @@ book:
           href: bs.qmd
         - text: "ICEtlas"
           href: ice.qmd
-        - text: "Benzer Sayfalar"
-          href: wsi.qmd
     - part: "---"
     - referanslar.qmd
     - part: "---"
@@ -328,7 +327,7 @@ format:
       body-width: 1800px # default 900px
       # margin-width: 300px
       # gutter-width: 1.5rem
-    cover-image: images/coverTR.png
+    cover-image: images/cover.png
 #    code-link: true
 #    code-fold: true
 #    code-tools: true
@@ -343,7 +342,7 @@ format:
     anchor-sections: true
     link-external-icon: true
     link-external-newwindow: true
-    link-external-filter: '(^(?:http:|https:)\/\/www\.histopathologyatlas\.com\/)|(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/images.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/pathologyatlas\.github\.io\/)|(^(?:http:|https:)\/\/patolojiatlasi\.github\.io\/)'
+    link-external-filter: '(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/pathologyatlas\.github\.io\/)'
     citations-hover: true
     footnotes-hover: true
     number-depth: 3
@@ -352,16 +351,16 @@ format:
       - text: |
           <script src="script.js"></script>
           <script src="webpages.js"></script>
-      - file: "./headerTR.html"
+      - file: "./header1.html"
 
-  epub:
-    toc: true
-    toc-title: "İçindekiler"
-    epub-cover-image: images/coverTR.png
-    execute:
-      warning: false
-    css:
-      epub.css
+#   epub:
+#     toc: true
+#     toc-title: "İçindekiler"
+#     epub-cover-image: images/cover.png
+#     execute:
+#       warning: false
+#     css:
+#       epub.css
 
 #   pdf:
 #     keep-tex: true

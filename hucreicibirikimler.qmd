@@ -1,0 +1,443 @@
+---
+description: |
+    TemplateEN, TemplateTR, patoloji, atlas, pathology, whole slide image
+    TemplateTR
+date: last-modified
+categories: [template]
+page-layout: full
+bibliography: references.bib
+---
+
+# Hücre İçi Birikimler {#sec-hucre-ici-birikimler}
+
+```{r language, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis, echo = (language == "TR")}
+## Kolesterol Polibi {#sec-kolesterol-polibi}
+```
+
+
+```{asis, echo = (language == "EN")}
+## Cholesterol Polyp {#sec-cholesterol-polyp}
+```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/cholesterolpolyp_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/cholesterolpolyp/HE.html",
+  file = "./screenshots/cholesterolpolyp_screenshot.png",
+  delay = 10
+)
+}
+```
+
+
+```{asis, echo = (language == "TR")}
+
+**Kolesterol Polibi**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/cholesterolpolyp_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html)
+
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/cholesterolpolyp/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+**Cholesterol Polyp**
+
+[![Click for Full Screen WSI](./screenshots/cholesterolpolyp_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html)
+
+```
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/cholesterolpolyp/HE.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+## Glikojen Depo Hastalığı {#sec-glikojen-depo-hastaligi}
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+## Glycogen Storage Disease {#sec-glycogen-storage-disease}
+```
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/glycogenstorage-HE_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/glycogenstorage/HE.html",
+  file = "./screenshots/glycogenstorage-HE_screenshot.png",
+  delay = 10
+)
+}
+```
+
+
+
+```{asis, echo = (language == "TR")}
+**Karaciğer İğnde Biyopsisinde glikojen depo hastalığı**
+
+**Hematoksilen Eozin**
+
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/glycogenstorage-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/HE.html)
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+**Karaciğer İğnde Biyopsisinde glikojen depo hastalığı**
+
+**Hematoksilen Eozin**
+
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/glycogenstorage-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/HE.html)
+
+```
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/glycogenstorage/HE.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/glycogenstorage/HE.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+
+```{asis, echo = (language == "TR")}
+**PAS**
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+**PAS**
+```
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/glycogenstorage-PAS_screenshot.png")) {
+webshot2::webshot(delay=10,
+  url = "https://images.patolojiatlasi.com/glycogenstorage/PAS.html",
+  file = "./screenshots/glycogenstorage-PAS_screenshot.png"
+)
+}
+```
+
+
+
+```{asis, echo = (language == "TR")}
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/glycogenstorage-PAS_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/PAS.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/PAS.html)
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/glycogenstorage-PAS_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/PAS.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/PAS.html)
+
+```
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/glycogenstorage/PAS.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/glycogenstorage/PAS.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+
+```{asis, echo = (language == "TR")}
+**PASD**
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+**PASD**
+```
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/glycogenstorage-PASD_screenshot.png")) {
+webshot2::webshot(delay=10,
+  url = "https://images.patolojiatlasi.com/glycogenstorage/PASD.html",
+  file = "./screenshots/glycogenstorage-PASD_screenshot.png"
+)
+}
+```
+
+
+
+```{asis, echo = (language == "TR")}
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/glycogenstorage-PASD_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/PASD.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/PASD.html)
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/glycogenstorage-PASD_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/PASD.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/PASD.html)
+
+```
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/glycogenstorage/PASD.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/glycogenstorage/PASD.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+
+
+## Antrakoz, Antrakotik Pigment {#sec-antrakoz-antrakotik-pigment}
+
+Torakal bölge lenf nodunda antrakotik pigment
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/anthracosis1_screenshot.png")) {
+webshot2::webshot(delay=10,
+  url = "https://images.patolojiatlasi.com/anthracosis/HE.html",
+  file = "./screenshots/anthracosis1_screenshot.png"
+)
+}
+```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/anthracosis2_screenshot.png")) {
+webshot2::webshot(delay=10,
+  url = "https://images.patolojiatlasi.com/anthracosis/HE.html",
+  file = "./screenshots/anthracosis2_screenshot.png"
+)
+}
+```
+
+
+[![Click for Full Screen
+WSI](./screenshots/anthracosis1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/anthracosis/HE.html)
+[Click for Full Screen
+WSI](https://images.patolojiatlasi.com/anthracosis/HE.html)
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/anthracosis/HE.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+[![Click for Full Screen
+WSI](./screenshots/anthracosis2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/anthracosis/HE2.html)
+[Click for Full Screen
+WSI](https://images.patolojiatlasi.com/anthracosis/HE2.html)
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/anthracosis/HE2.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+## Melanosis Coli {#sec-melanosis-coli}
+
+::: panel-tabset
+
+#### HE
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/melanosiscoli-HE_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/melanosiscoli/HE.html",
+  file = "./screenshots/melanosiscoli-HE_screenshot.png",
+  delay = 20
+)
+}
+```
+
+```{asis, echo = (language == "TR")}
+
+**Melanozis Koli**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/melanosiscoli-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/melanosiscoli/HE.html)
+
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/melanosiscoli/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+```{asis, echo = (language == "EN")}
+
+**Melanosis Coli**
+
+[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/melanosiscoli/HE.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/melanosiscoli/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+#### PAS
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/melanosiscoli-PAS_screenshot.png")) {
+webshot2::webshot(delay=10,
+  url = "https://images.patolojiatlasi.com/melanosiscoli/PAS.html",
+  file = "./screenshots/melanosiscoli-PAS_screenshot.png"
+)
+}
+```
+
+```{asis, echo = (language == "TR")}
+
+**Melanozis Koli PAS**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/melanosiscoli-PAS_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/PAS.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/melanosiscoli/PAS.html)
+
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/melanosiscoli/PAS.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+```{asis, echo = (language == "EN")}
+
+**Melanosis Coli PAS**
+
+[![Click for Full Screen WSI](./screenshots/melanosiscoli-PAS_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/PAS.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/melanosiscoli/PAS.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/melanosiscoli/PAS.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+:::
+
