@@ -123,7 +123,7 @@ See Microscopy with viewer:
 
 ```
 
-```{comment, echo = (language == "EN")}
+```{asis, echo = (language == "EN")}
 
 **hacettepe-com-case-1**
 
@@ -215,7 +215,7 @@ Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-2/HE.html)
 
 
 
-```{comment, echo = (language == "EN")}
+```{asis, echo = (language == "EN")}
 
 [![Click for Full Screen
 WSI](./screenshots/hacettepe-com-case-2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-2/HE.html) [Click for Full Screen
@@ -238,7 +238,7 @@ Mikroskopik görüntüleri inceleyin:
 ```
 
 
-```{comment, echo = ((language == "EN") & (output_type=="html"))}
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
 
 See Microscopy with viewer: 
 
@@ -327,17 +327,6 @@ Sarcoma with INI1 loss, previously diagnosed as yolk sac tumor
 ```
 
 
-```{comment case 3 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hacettepe-com-case-3_screenshot.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/hacettepe-com-case-3/HE.html",
-  file = "./screenshots/hacettepe-com-case-3_screenshot.png",
-  delay = 20
-)
-}
-```
-
-
 
 -   [case 3](https://www.youtube.com/watch?v=JGDsmznBqZM&ab_channel=KemalKosemehmetoglu) [case 3, scopy](https://www.youtube.com/watch?v=yKnEyGE4oD4&ab_channel=KemalKosemehmetoglu)
 
@@ -348,50 +337,6 @@ webshot2::webshot(
 
 
 
-
-
-```{comment, echo = (language == "TR")}
-### WSI - Link
-
-[![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/hacettepe-com-case-3_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-3/HE.html) [Tam Ekran Görmek İçin Resmi
-Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-3/HE.html)
-```
-
-
-
-```{comment, echo = (language == "EN")}
-  
-[![Click for Full Screen
-WSI](./screenshots/hacettepe-com-case-3_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-3/HE.html) [Click for Full Screen
-WSI](https://images.patolojiatlasi.com/hacettepe-com-case-3/HE.html)
-
-```
-
-
-
-
-
-
-
-```{comment, echo = ((language=="TR") & (output_type=="html"))}
-### WSI
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-3/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-
-
-```{comment, echo = ((language == "EN") & (output_type=="html"))}
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-3/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
 
 
 
@@ -943,16 +888,6 @@ Hybrid hemosiderotic fibrolipomatous tumor - myxoinflammatory
 
 ```
 
-```{comment case 7 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hacettepe-com-case-7_screenshot.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/hacettepe-com-case-7/HE.html",
-  file = "./screenshots/hacettepe-com-case-7_screenshot.png",
-  delay = 20
-)
-}
-```
-
 -   [case 7](https://www.youtube.com/watch?v=FU-Fv7kQPdE&ab_channel=KemalKosemehmetoglu)
 
 
@@ -963,50 +898,6 @@ webshot2::webshot(
 
 
 
-
-
-```{comment, echo = (language == "TR")}
-### WSI - Link
-
-[![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/hacettepe-com-case-7_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-7/HE.html)
-[Tam Ekran Görmek İçin Resmi
-Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-7/HE.html)
-
-```
-
-
-```{comment, echo = (language == "EN")}
-
-[![Click for Full Screen WSI](./screenshots/hacettepe-com-case-7_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-7/HE.html)
-[Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-7/HE.html)
-
-```
-
-
-
-
-
-
-
-
-```{comment, echo = ((language=="TR") & (output_type=="html"))}
-### WSI
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-7/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-
-```{comment, echo = ((language == "EN") & (output_type=="html"))}
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-7/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
 
 
 
@@ -1093,48 +984,8 @@ Kappa Light Chain tubulopathy with crystals
 
 ```
 
-```{comment case 8 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hacettepe-com-case-8_screenshot.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/hacettepe-com-case-8/HE.html",
-  file = "./screenshots/hacettepe-com-case-8_screenshot.png",
-  delay = 20
-)
-}
-```
 
 -   [case 8](https://www.youtube.com/watch?v=c8pDBHRO7t8&ab_channel=KemalKosemehmetoglu)
-
-
-
-```{comment, echo = (language == "TR")}
-
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/hacettepe-com-case-8_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-8/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-8/HE.html)
-
-```
-
-```{comment, echo = ((language=="TR") & (output_type=="html"))}
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-8/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-
-```{comment, echo = (language == "EN")}
-
-[![Click for Full Screen WSI](./screenshots/hacettepe-com-case-8_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-8/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-8/HE.html)
-
-```
-
-```{comment, echo = ((language == "EN") & (output_type=="html"))}
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-8/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
 
 
 
@@ -1521,15 +1372,6 @@ myxoinflammatory fibroblastic sarcoma, psoas
 
 ```
 
-```{asis case 11 screenshot, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hacettepe-com-case-11_screenshot.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/hacettepe-com-case-11/HE.html",
-  file = "./screenshots/hacettepe-com-case-11_screenshot.png",
-  delay = 20
-)
-}
-```
 
 -   [case
     11](https://www.youtube.com/watch?v=A5XO1Kp11Zk&ab_channel=KemalKosemehmetoglu)
@@ -1537,56 +1379,6 @@ webshot2::webshot(
 
 
 ::::: panel-tabset
-
-
-
-
-
-
-```{comment, echo = (language == "TR")}
-### WSI - Link
-
-[![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Tam Ekran Görmek İçin Resmi
-Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-11/HE.html)
-````
-
-
-
-```{comment, echo = (language == "EN")}
-
-[![Click for Full Screen
-WSI](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Click for Full Screen
-WSI](https://images.patolojiatlasi.com/hacettepe-com-case-11/HE.html)
-```
-
-
-
-```{comment, echo = ((language=="TR") & (output_type=="html"))}
-### WSI
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-11/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-
-```
-
-
-
-
-```{comment, echo = ((language == "EN") & (output_type=="html"))}
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-11/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-
-
 
 
 
@@ -2125,73 +1917,12 @@ DSRCT
 
 ```
 
-```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hacettepe-com-case-15_screenshot.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/hacettepe-com-case-15/HE.html",
-  file = "./screenshots/hacettepe-com-case-15_screenshot.png",
-  delay = 20
-)
-}
-```
-
 -   [case
     15](https://www.youtube.com/watch?v=3lmx9hYGcG8&ab_channel=KemalKosemehmetoglu)
 
 
 
 ::::: panel-tabset
-
-
-
-
-
-
-
-```{comment}
-### WSI - Link
-
-
-
-### WSI
-```
-
-
-
-```{comment, echo = (language == "TR")}
-
-[![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Tam Ekran Görmek İçin Resmi
-Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
-
-```{asis, echo = ((language=="TR") & (output_type=="html"))}
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-
-```
-
-```{comment, echo = (language == "EN")}
-
-[![Click for Full Screen
-WSI](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Click for Full Screen
-WSI](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
-
-```{asis, echo = ((language == "EN") & (output_type=="html"))}
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-
-
-
 
 
 
@@ -2277,15 +2008,6 @@ hepatosplenic T cell lymphoma
 
 ```
 
-```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hacettepe-com-case-16_screenshot.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/hacettepe-com-case-16/HE.html",
-  file = "./screenshots/hacettepe-com-case-16_screenshot.png",
-  delay = 20
-)
-}
-```
 
 -   [case
     16](https://www.youtube.com/watch?v=Tkempcd59I0&ab_channel=KemalKosemehmetoglu)
@@ -2293,53 +2015,6 @@ webshot2::webshot(
 
 
 ::::: panel-tabset
-
-
-
-
-
-```{comment, echo = (language == "TR")}
-
-
-### WSI - Link
-
-
-
-### WSI
-
-[![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Tam Ekran Görmek İçin Resmi
-Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
-
-```{asis, echo = ((language=="TR") & (output_type=="html"))}
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-
-
-
-
-
-```
-
-
-```{comment, echo = (language == "EN")}
-
-[![Click for Full Screen
-WSI](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Click for Full Screen
-WSI](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
-
-```{asis, echo = ((language == "EN") & (output_type=="html"))}
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
 
 
 
@@ -2428,15 +2103,6 @@ AML M3
 
 ```
 
-```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hacettepe-com-case-17_screenshot.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/hacettepe-com-case-17/HE.html",
-  file = "./screenshots/hacettepe-com-case-17_screenshot.png",
-  delay = 20
-)
-}
-```
 
 -   [case
     17](https://www.youtube.com/watch?v=zlewGuN0BBY&ab_channel=KemalKosemehmetoglu)
@@ -2445,81 +2111,6 @@ webshot2::webshot(
 
 ::::: panel-tabset
 
-
-
-
-
-
-
-```{comment, echo = (language == "TR")}
-### WSI - Link
-
-
-
-### WSI
-
-[![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Tam Ekran Görmek İçin Resmi
-Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-17/HE1.html)
-```
-
-```{comment, echo = ((language=="TR") & (output_type=="html"))}
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-17/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
-```
-
-```{comment, echo = (language == "TR")}
-
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-17/HE2.html)
-
-```
-
-```{comment, echo = ((language=="TR") & (output_type=="html"))}
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-17/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-
-
-
-```
-
-
-
-
-
-```{comment, echo = (language == "EN")}
-
-[![Click for Full Screen
-WSI](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Click for Full Screen
-WSI](https://images.patolojiatlasi.com/hacettepe-com-case-17/HE1.html)
-
-```{asis, echo = ((language == "EN") & (output_type=="html"))}
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-17/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
-```
-
-```{comment, echo = (language == "EN")}
-
-[![Click for Full Screen WSI](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hacettepe-com-case-17/HE2.html)
-
-```
-
-```{comment, echo = ((language == "EN") & (output_type=="html"))}
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-17/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-
-```
 
 
 
@@ -2911,15 +2502,6 @@ clear cell sarcoma
 
 ```
 
-```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hacettepe-com-case-20_screenshot.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/hacettepe-com-case-20/HE.html",
-  file = "./screenshots/hacettepe-com-case-20_screenshot.png",
-  delay = 20
-)
-}
-```
 
 -   [case
     20](https://www.youtube.com/watch?v=f8nE-6oR5VI&ab_channel=KemalKosemehmetoglu)
@@ -2930,48 +2512,6 @@ webshot2::webshot(
 
 
 
-
-
-
-```{comment, echo = (language == "TR")}
-### WSI - Link
-
-[![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/hacettepe-com-case-19_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-19/HE.html)
-[Tam Ekran Görmek İçin Resmi
-Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-19/HE.html)
-```
-
-
-```{comment, echo = (language == "EN")}
-
-[![Click for Full Screen
-WSI](./screenshots/hacettepe-com-case-19_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-19/HE.html)
-[Click for Full Screen
-WSI](https://images.patolojiatlasi.com/hacettepe-com-case-19/HE.html)
-```
-
-
-
-
-```{comment, echo = ((language=="TR") & (output_type=="html"))}
-### WSI
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-
-```
-
-
-```{comment, echo = ((language == "EN") & (output_type=="html"))}
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
 
 
 ### Diagnosis
@@ -3210,15 +2750,6 @@ solitary fibrous tumor
 
 ```
 
-```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hacettepe-com-case-22_screenshot.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/hacettepe-com-case-22/HE.html",
-  file = "./screenshots/hacettepe-com-case-22_screenshot.png",
-  delay = 20
-)
-}
-```
 
 -   [case
     22](https://www.youtube.com/watch?v=wo6N0q5EiWc&ab_channel=KemalKosemehmetoglu)
@@ -3226,55 +2757,6 @@ webshot2::webshot(
 
 
 ::::: panel-tabset
-
-
-
-
-
-
-
-```{comment, echo = (language == "TR")}
-### WSI - Link
-
-[![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Tam Ekran Görmek İçin Resmi
-Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
-```
-
-
-
-```{comment, echo = (language == "EN")}
-
-[![Click for Full Screen
-WSI](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Click for Full Screen
-WSI](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
-```
-
-
-
-
-```{comment, echo = ((language=="TR") & (output_type=="html"))}
-### WSI
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-
-
-
-```{comment, echo = ((language == "EN") & (output_type=="html"))}
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
 
 
 
@@ -3810,15 +3292,7 @@ schwannoma, intraabdominal
 
 ```
 
-```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hacettepe-com-case-26_screenshot.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/hacettepe-com-case-26/HE.html",
-  file = "./screenshots/hacettepe-com-case-26_screenshot.png",
-  delay = 20
-)
-}
-```
+
 
 -   [case
     26](https://www.youtube.com/watch?v=UHadS40tpkY&ab_channel=KemalKosemehmetoglu)
@@ -3826,65 +3300,6 @@ webshot2::webshot(
 
 
 ::::: panel-tabset
-
-
-
-
-```{comment, echo = (language == "TR")}
-### WSI - Link
-
-[![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Tam Ekran Görmek İçin Resmi
-Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
-```
-
-
-
-
-```{comment, echo = (language == "EN")}
-
-[![Click for Full Screen
-WSI](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Click for Full Screen
-WSI](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
-```
-
-
-
-
-
-
-
-
-
-
-
-```{comment, echo = ((language=="TR") & (output_type=="html"))}
-### WSI
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-
-
-
-
-
-```
-
-
-
-
-```{comment, echo = ((language == "EN") & (output_type=="html"))}
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
 
 
 
@@ -4370,15 +3785,7 @@ ANNUBP
 
 ```
 
-```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hacettepe-com-case-29_screenshot.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/hacettepe-com-case-29/HE.html",
-  file = "./screenshots/hacettepe-com-case-29_screenshot.png",
-  delay = 20
-)
-}
-```
+
 
 -   [case
     29](https://www.youtube.com/watch?v=GkGz7NV7JmM&ab_channel=KemalKosemehmetoglu)
@@ -4390,50 +3797,6 @@ webshot2::webshot(
 
 
 
-
-
-
-
-
-
-```{comment, echo = (language == "TR")}
-### WSI - Link
-
-[![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Tam Ekran Görmek İçin Resmi
-Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
-````
-
-
-```{comment, echo = (language == "EN")}
-
-[![Click for Full Screen
-WSI](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Click for Full Screen
-WSI](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
-```
-
-
-
-```{comment, echo = ((language=="TR") & (output_type=="html"))}
-### WSI
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-
-
-```{comment, echo = ((language == "EN") & (output_type=="html"))}
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
 
 
 
@@ -4518,15 +3881,6 @@ parosteal OGS
 
 ```
 
-```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hacettepe-com-case-30_screenshot.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/hacettepe-com-case-30/HE.html",
-  file = "./screenshots/hacettepe-com-case-30_screenshot.png",
-  delay = 20
-)
-}
-```
 
 -   [case
     30](https://www.youtube.com/watch?v=az6Fk7bYsQ8&ab_channel=KemalKosemehmetoglu)
@@ -4536,53 +3890,6 @@ webshot2::webshot(
 ::::: panel-tabset
 
 
-
-
-
-```{comment, echo = (language == "TR")}
-### WSI - Link
-
-[![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Tam Ekran Görmek İçin Resmi
-Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
-```
-
-
-
-```{comment, echo = (language == "EN")}
-
-[![Click for Full Screen
-WSI](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Click for Full Screen
-WSI](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
-```
-
-
-
-
-
-```{comment, echo = ((language=="TR") & (output_type=="html"))}
-### WSI
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-
-```
-
-
-
-
-
-```{comment, echo = ((language == "EN") & (output_type=="html"))}
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
 
 
 
@@ -5156,15 +4463,7 @@ secondary chondrosarcoma hand mafucci
 
 ```
 
-```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hacettepe-com-case-34_screenshot.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/hacettepe-com-case-34/HE.html",
-  file = "./screenshots/hacettepe-com-case-34_screenshot.png",
-  delay = 20
-)
-}
-```
+
 
 -   [case
     34](https://www.youtube.com/watch?v=bcIvt60vba0&ab_channel=KemalKosemehmetoglu)
@@ -5172,53 +4471,6 @@ webshot2::webshot(
 
 
 ::::: panel-tabset
-
-
-
-
-```{comment, echo = (language == "TR")}
-
-### WSI - Link
-
-[![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Tam Ekran Görmek İçin Resmi
-Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
-```
-
-
-
-```{comment, echo = (language == "EN")}
-
-[![Click for Full Screen
-WSI](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Click for Full Screen
-WSI](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
-```
-
-
-
-```{comment, echo = ((language=="TR") & (output_type=="html"))}
-
-### WSI
-
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-
-```
-
-
-```{comment, echo = ((language == "EN") & (output_type=="html"))}
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
 
 
 
@@ -5247,12 +4499,9 @@ FSGS
 ```
 
 
-```{comment}
-asis, echo = (language == "EN")
+```{asis, echo = (language == "EN")}
 
 **hacettepe-com-case-34**
-
-  
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
@@ -5311,16 +4560,6 @@ FSGS
 
 ```
 
-```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hacettepe-com-case-35_screenshot.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/hacettepe-com-case-35/HE.html",
-  file = "./screenshots/hacettepe-com-case-35_screenshot.png",
-  delay = 20
-)
-}
-```
-
 -   [case
     35](https://www.youtube.com/watch?v=f_rdB9xqpiw&ab_channel=KemalKosemehmetoglu)
 
@@ -5329,56 +4568,6 @@ webshot2::webshot(
 ::::: panel-tabset
 
 
-
-
-
-
-```{comment, echo = (language == "TR")}
-### WSI - Link
-
-[![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Tam Ekran Görmek İçin Resmi
-Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
-```
-
-
-
-```{comment, echo = (language == "EN")}
-
-[![Click for Full Screen
-WSI](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Click for Full Screen
-WSI](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
-```
-
-
-
-
-```{comment, echo = ((language=="TR") & (output_type=="html"))}
-### WSI
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-
-
-
-
-
-```
-
-
-
-
-```{comment, echo = ((language == "EN") & (output_type=="html"))}
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
 
 
 
@@ -5466,15 +4655,6 @@ Plasmodium
 
 ```
 
-```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hacettepe-com-case-36_screenshot.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/hacettepe-com-case-36/HE.html",
-  file = "./screenshots/hacettepe-com-case-36_screenshot.png",
-  delay = 20
-)
-}
-```
 
 -   [case
     36](https://www.youtube.com/watch?v=ga7KjbH3U1s&ab_channel=KemalKosemehmetoglu)
@@ -5483,53 +4663,6 @@ webshot2::webshot(
 
 ::::: panel-tabset
 
-
-
-
-
-
-```{comment, echo = (language == "TR")}
-### WSI - Link
-
-[![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Tam Ekran Görmek İçin Resmi
-Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
-```
-
-
-
-```{comment, echo = (language == "EN")}
-
-[![Click for Full Screen
-WSI](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Click for Full Screen
-WSI](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
-```
-
-
-
-```{comment, echo = ((language=="TR") & (output_type=="html"))}
-### WSI
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-
-```
-
-
-
-
-
-```{comment, echo = ((language == "EN") & (output_type=="html"))}
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
 
 
 
@@ -5629,15 +4762,7 @@ sclerosing and epitheloid RMS, EWSR1::TFCP2
 
 ```
 
-```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hacettepe-com-case-37_screenshot.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/hacettepe-com-case-37/HE.html",
-  file = "./screenshots/hacettepe-com-case-37_screenshot.png",
-  delay = 20
-)
-}
-```
+
 
 -   [case
     37](https://www.youtube.com/watch?v=H8cnZqL29eI&ab_channel=KemalKosemehmetoglu)
@@ -5645,55 +4770,6 @@ webshot2::webshot(
 
 
 ::::: panel-tabset
-
-
-
-
-
-
-
-```{comment, echo = (language == "TR")}
-### WSI - Link
-
-[![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Tam Ekran Görmek İçin Resmi
-Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
-```
-
-
-
-```{comment, echo = (language == "EN")}
-
-[![Click for Full Screen
-WSI](./screenshots/hacettepe-com-case-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
-[Click for Full Screen
-WSI](https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html)
-```
-
-
-
-
-```{comment, echo = ((language=="TR") & (output_type=="html"))}
-### WSI
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-
-```
-
-
-
-```{comment, echo = ((language == "EN") & (output_type=="html"))}
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
 
 
 
@@ -6016,39 +5092,6 @@ See Microscopy with viewer:
 
 
 
-```{comment, echo = (language == "TR")}
-### Diagnosis
-
-**hacettepe-com-case-39**
-
-
-
-::: {.callout-tip collapse="true" appearance="default" icon="true"}
-
-### Tanı için tıklayın
-
-
-:::
-
-```
-
-
-```{comment, echo = (language == "EN")}
-
-**hacettepe-com-case-39**
-
-
-::: {.callout-tip collapse="true" appearance="default" icon="true"}
-
-### Click for Diagnosis
-
-
-
-:::
-
-
-```
-
 
 ### Video
 
@@ -6095,38 +5138,12 @@ See Microscopy with viewer:
 
 ```
 
-```{comment, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hacettepe-com-case-40_screenshot.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/hacettepe-com-case-40/HE.html",
-  file = "./screenshots/hacettepe-com-case-40_screenshot.png",
-  delay = 20
-)
-}
-```
 
 -   [case
     40](https://www.youtube.com/watch?v=In97sPfT9w4&ab_channel=KemalKosemehmetoglu)
 
 
 ::::: panel-tabset
-
-
-
-
-```{comment}
-### WSI - Link
-
-
-
-### WSI
-
-
-
-
-### Diagnosis
-
-```
 
 
 
@@ -6190,29 +5207,6 @@ webshot2::webshot(
 
 
 
-```{comment}
-
-### WSI - Link
-
-
-
-### WSI
-
-
-
-
-
-
-
-
-
-
-
-
-### Diagnosis
-```
-
-
 
 
 
@@ -6272,23 +5266,6 @@ webshot2::webshot(
 
 ::::: panel-tabset
 
-
-```{comment}
-
-
-### WSI - Link
-
-
-
-### WSI
-
-
-
-
-
-### Diagnosis
-
-```
 
 
 
