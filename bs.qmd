@@ -27,6 +27,26 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
+
+```{asis, echo = (language == "TR")}
+
+# BS Atlas
+
+```
+
+```{asis, echo = (language == "EN")}
+
+# BS Atlas
+
+```
+
+
+
+
+
+<hr>
+
+
 ```{r language BS1, echo=FALSE, include=TRUE}
 source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
