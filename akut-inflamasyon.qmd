@@ -41,7 +41,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ::::: panel-tabset
 
-#### HE
+### HE
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
@@ -75,7 +75,7 @@ webshot2::webshot(
 
 
 
-#### WSI
+### WSI
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 

@@ -44,7 +44,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-<hr>
+
 
 
 ```{r language BS1, echo=FALSE, include=TRUE}
@@ -235,7 +235,7 @@ angiosarcoma, spleen, liver
 
 :::::
 
-<hr>
+
 
 
 
@@ -374,7 +374,7 @@ peliosis in cirrhotic nodule
 
 :::::
 
-<hr>
+
 
 
 
@@ -515,7 +515,7 @@ macrovesicular and microvesicular steatosis, lipogranuloma, liver
 
 :::::
 
-<hr>
+
 
 
 
@@ -717,7 +717,7 @@ brown fat
 
 :::::
 
-<hr>
+
 
 
 
@@ -859,7 +859,7 @@ lymphocytic gastritis
 
 :::::
 
-<hr>
+
 
 
 

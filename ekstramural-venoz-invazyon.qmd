@@ -14,12 +14,24 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{asis, echo = (language == "TR")}
+# Ekstramural Venöz İnvazyon {#sec-ekstramural-venoz-invazyon}
+```
+
+```{asis, echo = (language == "EN")}
+# Extramural Venous Invasion {#sec-extramural-venoz-invazyon}
+```
+
+
+
+```{asis, echo = (language == "TR")}
 # Adenokarsinomda Ekstramural Venöz İnvazyon {#sec-adenokarsinomda-ekstramural-venoz-invazyon}
 ```
 
 ```{asis, echo = (language == "EN")}
 # Extramural Venous Invasion in Adenocarcinoma {#sec-extramural-venoz-invazyon-in-adenocarcinoma}
 ```
+
+
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/extramuralvenousinvasion_screenshot.png")) {

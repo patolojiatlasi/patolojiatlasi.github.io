@@ -45,6 +45,30 @@ xfun::gsub_files(files = qmd_epub_TR_files,
                  replacement = "")
 
 
+xfun::gsub_files(files = qmd_epub_TR_files,
+                 pattern = "### WSI - Link",
+                 replacement = "")
+
+xfun::gsub_files(files = qmd_epub_TR_files,
+                 pattern = "### WSI",
+                 replacement = "")
+
+xfun::gsub_files(files = qmd_epub_TR_files,
+                 pattern = "### Diagnosis",
+                 replacement = "")
+
+# xfun::gsub_files(files = qmd_epub_TR_files,
+#                  pattern = '::: {.callout-tip collapse="true" appearance="default" icon="true"}',
+#                  replacement = "")
+
+xfun::gsub_files(files = qmd_epub_TR_files,
+                 pattern = "### Tanı için tıklayın",
+                 replacement = "### Tanı")
+
+# xfun::gsub_files(files = qmd_epub_TR_files,
+#                  pattern = ":::",
+#                  replacement = "")
+
 
 # render TR epub ----
 
