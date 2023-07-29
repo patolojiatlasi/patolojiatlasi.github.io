@@ -3,7 +3,6 @@ project:
   output-dir: _docs
   resources:
     - "CITATION.cff"
-    - lecture-notes
     - images
     - img
     - screenshots

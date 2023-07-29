@@ -1,16 +1,11 @@
 project:
   type: book
-  output-dir: _docs
+  output-dir: _epub_TR
   resources:
     - "CITATION.cff"
-    - lecture-notes
     - images
-    - img
     - screenshots
-    - openseadragon
-    - annotorious
     - files
-    - CNAME
     - "script.js"
     - "webpages.js"
     - "webpages.txt"
@@ -28,7 +23,6 @@ language:
   title-block-affiliation-plural: "Kurum"
 
 book:
-  # engine: knitr
   title: "Patoloji Atlası"
   subtitle: "Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları: Görerek Öğrenin"
   author:
@@ -57,10 +51,7 @@ book:
   site-url: https://patolojiatlasi.com/
 #  repo-url: https://github.com/patolojiatlasi/patolojiatlasi.github.io
   google-analytics: "G-7BT7Q4FLT9"
-#  repo-branch: main
-#  repo-actions: [edit, issue, source]
   sharing: [twitter, facebook, linkedin]
-  # downloads: [epub] #, pdf, docx]
   search:
     location: navbar
     type: overlay
@@ -71,15 +62,6 @@ book:
     search: true
     collapsed-level: 1
     pinned: true
-#   navbar:
-#     title: "Patoloji Atlası"
-#     logo: images/coverTR.png
-#     search: true
-#     pinned: false
-#     collapse: true
-#     right:
-#       - icon: github
-#         href: https://github.com/patolojiatlasi
   open-graph:
     locale: tr_TR
     site-name: Patoloji Atlası
@@ -112,202 +94,196 @@ book:
     - text: "Anasayfa"
       href: index.qmd
     - text: "Giriş"
-      href: giris.qmd
+      href: giris_epub_TR.qmd
     - text: "Yazarlar ve Katkıda Bulunanlar"
-      href: yazarlar.qmd
+      href: yazarlar_epub_TR.qmd
       target: _blank
       # target: _blank
     - part: "---"
     - part: "Genel Patoloji"
       chapters:
         - text: "Patolojide Kullanılan Teknikler"
-          href: teknik.qmd
+          href: teknik_epub_TR.qmd
         - text: "Hücre İçi Birikimler"
-          href: hucre-ici-birikimler.qmd
+          href: hucre-ici-birikimler_epub_TR.qmd
         - text: "Hücre Dışı Birikimler"
-          href: hucre-disi-birikimler.qmd
+          href: hucre-disi-birikimler_epub_TR.qmd
         - text: "Hücre Hasarı"
-          href: hucre-hasari.qmd
+          href: hucre-hasari_epub_TR.qmd
         - text: "Hemodinamik Bozukluklar"
-#           href: hemodinamik-bozukluklar.qmd
+#           href: hemodinamik-bozukluklar_epub_TR.qmd
 #         - text: "İskemi ve Nekroz"
-          href: iskemi-nekroz.qmd
+          href: iskemi-nekroz_epub_TR.qmd
         - text: "Konjesyon"
-          href: konjesyon.qmd
+          href: konjesyon_epub_TR.qmd
         - text: "Amiloid birikimi"
-          href: amiloid.qmd
+          href: amiloid_epub_TR.qmd
         - text: "Tamir Mekanizmaları"
-          href: tamir.qmd
+          href: tamir_epub_TR.qmd
         - text: "Erozyon"
-          href: erozyon.qmd
+          href: erozyon_epub_TR.qmd
     - part: "İnflamasyon"
       chapters:
         - text: "Akut inflamasyon"
-          href: akut-inflamasyon.qmd
+          href: akut-inflamasyon_epub_TR.qmd
         - text: "Kronik inflamasyon"
-          href: kronik-inflamasyon.qmd
+          href: kronik-inflamasyon_epub_TR.qmd
         - text: "Granülamatöz İnflamasyon"
-          href: granulom.qmd
-        # - inflamasyon.qmd
+          href: granulom_epub_TR.qmd
+        # - inflamasyon_epub_TR.qmd
     - part: "İnfeksiyöz Hastalıkların Patolojisi"
       chapters:
         - text: "Viruslar"
-          href: virus.qmd
+          href: virus_epub_TR.qmd
         - text: "Bakteriler"
-          href: bakteri.qmd
+          href: bakteri_epub_TR.qmd
         - text: "Mantarlar"
-          href: mantar.qmd
+          href: mantar_epub_TR.qmd
         - text: "Parazitler"
-          href: parazit.qmd
+          href: parazit_epub_TR.qmd
     - part: "Temel Tümör Patolojisi"
       chapters:
-        - benign.qmd
-        - hamartom.qmd
-        - heterotopi.qmd
+        - benign_epub_TR.qmd
+        - hamartom_epub_TR.qmd
+        - heterotopi_epub_TR.qmd
         - text: "Metaplazi"
-          href: metaplazi.qmd
+          href: metaplazi_epub_TR.qmd
         - text: "Karsinogenez"
-          href: karsinogenez.qmd
-        - malign.qmd
-        - metastaz.qmd
-        - tumor-yayilimi.qmd
+          href: karsinogenez_epub_TR.qmd
+        - malign_epub_TR.qmd
+        - metastaz_epub_TR.qmd
+        - tumor-yayilimi_epub_TR.qmd
     - part: "Tümörlerdeki Prognostik Morfolojik Özellikler"
       chapters:
         - text: "Venöz İnvazyon"
-          href: venoz-invazyon.qmd
+          href: venoz-invazyon_epub_TR.qmd
         - text: "Ekstramural Venöz İnvazyon"
-          href: ekstramural-venoz-invazyon.qmd
+          href: ekstramural-venoz-invazyon_epub_TR.qmd
     - part: "Hematopatoloji"
       chapters:
-#        - hematopatoloji.qmd
-        - hodgkin.qmd
+#        - hematopatoloji_epub_TR.qmd
+        - hodgkin_epub_TR.qmd
     - part: "Gastrointestinal Sistem Patolojisi"
       chapters:
-        - gastro.qmd
+        - gastro_epub_TR.qmd
         - text: "Özofagus"
-          href: ozofagus.qmd
+          href: ozofagus_epub_TR.qmd
         - text: "Mide Patolojisi"
-          href: mide.qmd
+          href: mide_epub_TR.qmd
         - text: "Gastrit"
-          href: gastrit.qmd
+          href: gastrit_epub_TR.qmd
         - text: "Duodenum Patolojisi"
-          href: duodenum.qmd
+          href: duodenum_epub_TR.qmd
         - text: "Kolon Patolojisi"
-          href: kolon.qmd
+          href: kolon_epub_TR.qmd
         - text: "Crohn Hastalığı"
-          href: crohn.qmd
+          href: crohn_epub_TR.qmd
     - part: "Karaciğer Patolojisi"
       chapters:
         - text: "Karaciğer Tümörleri"
-          href: karaciger.qmd
+          href: karaciger_epub_TR.qmd
         - text: "Benign Karaciğer Tümörleri"
-          href: karaciger-benign.qmd
+          href: karaciger-benign_epub_TR.qmd
     - part: "Pankreatobilier Sistem Patolojisi"
       chapters:
         - text: "Pankreas"
-          href: pankreas.qmd
+          href: pankreas_epub_TR.qmd
         - text: "Pankreas Duktal Adenokarsinom"
-          href: pdac.qmd
+          href: pdac_epub_TR.qmd
         - text: "Safra Kesesi"
-          href: safra-kesesi.qmd
+          href: safra-kesesi_epub_TR.qmd
         - text: "Ampulla Vater"
-          href: ampulla-vater.qmd
+          href: ampulla-vater_epub_TR.qmd
     - part: "Akciğer Patolojisi"
       chapters:
         - text: "Nöroendokrin"
-          href: noroendokrin.qmd
+          href: noroendokrin_epub_TR.qmd
     - part: "Mezotel"
       chapters:
         - text: "Abdomen"
-          href: mezotel.qmd
+          href: mezotel_epub_TR.qmd
     - part: "Jinekolojik Patoloji"
       chapters:
         - text: "Jinekolojik Patoloji"
-          href: jineko.qmd
+          href: jineko_epub_TR.qmd
         - text: "Genital Sistem Patolojisi"
-          href: genital.qmd
+          href: genital_epub_TR.qmd
         - text: "Serviks"
-          href: serviks.qmd
+          href: serviks_epub_TR.qmd
         - text: "Endometrium"
-          href: endometrium.qmd
+          href: endometrium_epub_TR.qmd
         - text: "Endometriozis"
-          href: endometriosis.qmd
+          href: endometriosis_epub_TR.qmd
     - part: "Üriner Sistem Patolojisi"
       chapters:
         - text: "Üropatoloji"
-          href: uriner.qmd
+          href: uriner_epub_TR.qmd
         - text: "Böbrek Tümörleri / Renal Tümörler"
-          href: bobrek.qmd
+          href: bobrek_epub_TR.qmd
         - text: "Prostat"
-          href: prostat.qmd
+          href: prostat_epub_TR.qmd
     - part: "Endokrin Sistem Patolojisi"
       chapters:
         - text: "Hipofiz Adenomu"
-          href: hipofiz.qmd
+          href: hipofiz_epub_TR.qmd
     # - part: "Meme Patolojisi"
     #   chapters:
     #     - text: "Meme Tümörleri"
-    #       href: meme.qmd
+    #       href: meme_epub_TR.qmd
     - part: "Baş Boyun Patolojisi"
       chapters:
         - text: "Nazofarenks"
-          href: nazofarenks.qmd
+          href: nazofarenks_epub_TR.qmd
         - text: "Kulak"
-          href: kulak.qmd
+          href: kulak_epub_TR.qmd
         - text: "Tükürük Bezi"
-          href: tukuruk.qmd
+          href: tukuruk_epub_TR.qmd
     - part: "Santral Sinir Sistem Patolojisi"
       chapters:
         - text: "Gliomlar"
-          href: gliom.qmd
+          href: gliom_epub_TR.qmd
         - text: "Meningiom"
-          href: meningiom.qmd
+          href: meningiom_epub_TR.qmd
         - text: "Vasküler Lezyonlar"
-          href: sss-vaskuler.qmd
+          href: sss-vaskuler_epub_TR.qmd
     - part: "Kemik Patolojisi"
       chapters:
         - text: "Kemik Tümörleri"
-          href: kemik.qmd
+          href: kemik_epub_TR.qmd
     - part: "Yumuşak Doku Patolojisi"
       chapters:
         - text: "Adipöz Doku Patolojisi"
-          href: adipoz.qmd
+          href: adipoz_epub_TR.qmd
     - part: "Pediatrik ve Perinatal Patoloji"
       chapters:
-        - plasenta.qmd
+        - plasenta_epub_TR.qmd
     - part: "---"
     - part: "Özel Kolleksiyonlar"
       chapters:
         - text: "GBDAtlas"
-          href: gbd.qmd
+          href: gbd_epub_TR.qmd
         - text: "Hacettepe Ayın Vakası"
-          href: hacettepecom.qmd
+          href: hacettepecom_epub_TR.qmd
         - text: "BSAtlas"
-          href: bs.qmd
+          href: bs_epub_TR.qmd
         - text: "ICEtlas"
-          href: ice.qmd
+          href: ice_epub_TR.qmd
         - text: "Benzer Sayfalar"
-          href: wsi.qmd
+          href: wsi_epub_TR.qmd
     - part: "---"
-    - referanslar.qmd
+    - referanslar_epub_TR.qmd
     - part: "---"
   appendices:
     # - yonetim-gelistirme.md
     - text: "Katkıda bulunun"
-      href: katki.qmd
+      href: katki_epub_TR.qmd
     - text: "Yorum ekleyin"
-      href: yorum.qmd
+      href: yorum_epub_TR.qmd
     - text: "Liste"
-      href: listing.qmd
-    - listing2.qmd
-    # - feature-trials.qmd
+      href: listing_epub_TR.qmd
+    - listing2_epub_TR.qmd
 
 
-
-# before_chapter_script: "./R/language.R"
-
-# bibliography: references.bib
-# # csl: citestyle.csl
 highlight-style: pygments
 
 
@@ -315,103 +291,52 @@ comments:
   hypothesis: true
   utterances:
     repo: patolojiatlasi/patolojiatlasi.github.io
-#   giscus:
-#     repo: patolojiatlasi/patolojiatlasi.github.io
-format:
-  html:
-    theme:
-      light: flatly
-      dark: darkly # cosmo
-    page-layout: full
-    grid:
-      # sidebar-width: 300px
-      body-width: 1800px # default 900px
-      # margin-width: 300px
-      # gutter-width: 1.5rem
-    cover-image: images/coverTR.png
-#    code-link: true
-#    code-fold: true
-#    code-tools: true
-#    code-copy: true
 
-#    fig-width: 8
-#    fig-height: 4
+format:
+#   html:
+#     theme:
+#       light: flatly
+#       dark: darkly # cosmo
+#     page-layout: full
+#     grid:
+#       # sidebar-width: 300px
+#       body-width: 1800px # default 900px
+#       # margin-width: 300px
+#       # gutter-width: 1.5rem
+#     cover-image: images/coverTR.png
+# #    code-link: true
+# #    code-fold: true
+# #    code-tools: true
+# #    code-copy: true
+
+# #    fig-width: 8
+# #    fig-height: 4
+#     execute:
+#       warning: false
+#     css: styles.css
+#     self-contained: false
+#     anchor-sections: true
+#     link-external-icon: true
+#     link-external-newwindow: true
+#     link-external-filter: '(^(?:http:|https:)\/\/www\.histopathologyatlas\.com\/)|(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/images.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/pathologyatlas\.github\.io\/)|(^(?:http:|https:)\/\/patolojiatlasi\.github\.io\/)'
+#     citations-hover: true
+#     footnotes-hover: true
+#     number-depth: 3
+#     toc-title: "İçindekiler"
+#     include-in-header:
+#       - text: |
+#           <script src="script.js"></script>
+#           <script src="webpages.js"></script>
+#       - file: "./headerTR.html"
+
+  epub:
+    toc: true
+    toc-title: "İçindekiler"
+    epub-cover-image: images/coverTR.png
     execute:
       warning: false
-    css: styles.css
-    self-contained: false
-    anchor-sections: true
-    link-external-icon: true
-    link-external-newwindow: true
-    link-external-filter: '(^(?:http:|https:)\/\/www\.histopathologyatlas\.com\/)|(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/images.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/pathologyatlas\.github\.io\/)|(^(?:http:|https:)\/\/patolojiatlasi\.github\.io\/)'
-    citations-hover: true
-    footnotes-hover: true
-    number-depth: 3
-    toc-title: "İçindekiler"
-    include-in-header:
-      - text: |
-          <script src="script.js"></script>
-          <script src="webpages.js"></script>
-      - file: "./headerTR.html"
-
-  # epub:
-  #   toc: true
-  #   toc-title: "İçindekiler"
-  #   epub-cover-image: images/coverTR.png
-  #   execute:
-  #     warning: false
-  #   css:
-  #     epub.css
-
-#   pdf:
-#     keep-tex: true
-#     documentclass: scrbook
-#     classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,12pt]
-#
-# #    documentclass: scrreprt
-#     toc: true
-#     toc-depth: 3
-#     toc-title: "İçindekiler"
-#     number-sections: true
-#     number-depth: 3
-#     colorlinks: true
-#     highlight-style: github
-#     execute:
-#       warning: false
-#     include-in-header:
-#       text: |
-#         \usepackage{fvextra}
-#         \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
-#         \areaset[0.50in]{4.5in}{8in}
-#         \usepackage{titlesec}
-#         \usepackage{svg}
-#         \usepackage{transparent}
-#         \usepackage{tikzfill}
-#         \usepackage{sidenotes}
-#         \usepackage{marginnote}
-#         \usepackage{changepage}
-#
-#     include-before-body:
-#       text: |
-#         \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
-#            showspaces = false,
-#            showtabs = false,
-#            breaksymbolleft={},
-#            breaklines
-#            % Note: setting commandchars=\\\{\} here will cause an error
-#         }
-#     fig-pos: 'H'
-
-#   docx:
-#     toc: true
-#     section-numbers: true
-#     highlight-style: github
-#     toc-depth: 3
-#     toc-title: "İçindekiler"
-#     number-sections: true
-#     number-depth: 3
-#     execute:
-#       warning: false
+    css:
+      epub.css
 
 
 citation:
@@ -421,13 +346,4 @@ citation:
 
 
 editor: source
-
-# https://github.com/quarto-dev/quarto-cli/discussions/2283
-
-# function Link (link)
-#   if link.target:match '^https?%:' then
-#     link.attributes.target = '_blank'
-#     return link
-#   end
-# end
 
