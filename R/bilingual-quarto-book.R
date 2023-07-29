@@ -25,6 +25,14 @@ if (!tinytex::is_tinytex()) {
 
 # prepare EN ----
 
+
+folders_to_delete <- fs::dir_ls(path = ".",
+                                recurse = FALSE, regexp = "_files$")
+
+fs::dir_delete(folders_to_delete)
+
+
+
 if (dir.exists(paths = "./public")) {
   fs::dir_delete(path = "./public")
 }
@@ -161,10 +169,17 @@ if (dir.exists(paths = "./_docs/public")) {
   fs::dir_delete(path = "./_docs/public")
 }
 
+if (dir.exists(paths = "./_docs/_public")) {
+  fs::dir_delete(path = "./_docs/_public")
+}
+
 if (dir.exists(paths = "./_docs/EN")) {
   fs::dir_delete(path = "./_docs/EN")
 }
 
+if (dir.exists(paths = "./_docs/_EN")) {
+  fs::dir_delete(path = "./_docs/_EN")
+}
 
 
 
@@ -182,6 +197,13 @@ fs::dir_copy(path = "./_EN", new_path = "./EN", overwrite = TRUE)
 if (dir.exists(paths = "./_EN")) {
   fs::dir_delete(path = "./_EN")
 }
+
+
+folders_to_delete <- fs::dir_ls(path = ".",
+                                recurse = FALSE, regexp = "_files$")
+
+fs::dir_delete(folders_to_delete)
+
 
 cat("\Ud83E\UdD83")
 

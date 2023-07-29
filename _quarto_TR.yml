@@ -60,7 +60,7 @@ book:
 #  repo-branch: main
 #  repo-actions: [edit, issue, source]
   sharing: [twitter, facebook, linkedin]
-  downloads: [epub] #, pdf, docx]
+  # downloads: [epub] #, pdf, docx]
   search:
     location: navbar
     type: overlay
@@ -354,14 +354,14 @@ format:
           <script src="webpages.js"></script>
       - file: "./headerTR.html"
 
-  epub:
-    toc: true
-    toc-title: "İçindekiler"
-    epub-cover-image: images/coverTR.png
-    execute:
-      warning: false
-    css:
-      epub.css
+  # epub:
+  #   toc: true
+  #   toc-title: "İçindekiler"
+  #   epub-cover-image: images/coverTR.png
+  #   execute:
+  #     warning: false
+  #   css:
+  #     epub.css
 
 #   pdf:
 #     keep-tex: true
