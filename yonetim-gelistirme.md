@@ -283,7 +283,7 @@ deneme smaller {.smaller} deneme smaller
 
 scroll till end {.scrollable} scroll till end
 
-::: panel-tabset
+::::: panel-tabset
 #### Tab A
 
 Content for `Tab A`
@@ -291,7 +291,7 @@ Content for `Tab A`
 #### Tab B
 
 Content for `Tab B`
-:::
+:::::
 
 
 ### get whole repos

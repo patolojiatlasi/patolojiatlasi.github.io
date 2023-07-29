@@ -1,9 +1,9 @@
 project:
   type: book
-  output-dir: EN
+  output-dir: _EN
   resources:
     - "CITATION.cff"
-    - lecture-notes
+    # - lecture-notes
     - images
     - img
     - screenshots

@@ -25,6 +25,19 @@ if (!tinytex::is_tinytex()) {
 
 # prepare EN ----
 
+if (dir.exists(paths = "./public")) {
+  fs::dir_delete(path = "./public")
+}
+
+if (dir.exists(paths = "./EN")) {
+  fs::dir_delete(path = "./EN")
+}
+
+if (dir.exists(paths = "./docs")) {
+  fs::dir_delete(path = "./docs")
+}
+
+
 
 fs::file_copy(path = "./_quarto_EN.yml",
               new_path = "./_quarto.yml",
@@ -64,16 +77,16 @@ fs::file_copy(path = patolojiatlasi_histopathologyatlas$TR_chapter_qmd,
 quarto::quarto_render(".", as_job = FALSE)
 
 
-if (file.exists("./EN/CNAME")){
-  fs::file_delete(path = "./EN/CNAME")
+if (file.exists("./_EN/CNAME")){
+  fs::file_delete(path = "./_EN/CNAME")
 }
 
-if (dir.exists(paths = "./EN/public")) {
-  fs::dir_delete(path = "./EN/public")
+if (dir.exists(paths = "./_EN/public")) {
+  fs::dir_delete(path = "./_EN/public")
 }
 
-if (dir.exists(paths = "./EN/docs")) {
-  fs::dir_delete(path = "./EN/docs")
+if (dir.exists(paths = "./_EN/docs")) {
+  fs::dir_delete(path = "./_EN/docs")
 }
 
 if (dir.exists(paths = "./_freeze")) {
@@ -86,6 +99,8 @@ patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histo
 
 patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_chapter_qmd")]
 
+'%>%' <- magrittr:::`%>%`
+
 patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas %>%
   dplyr::distinct() %>%
   dplyr::filter(TR_chapter_qmd != EN_chapter_qmd)
@@ -93,6 +108,9 @@ patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas %>%
 patolojiatlasi_histopathologyatlas$EN_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$EN_chapter_qmd, ".qmd")
 
 fs::file_delete(path = patolojiatlasi_histopathologyatlas$EN_chapter_qmd)
+
+
+
 
 
 # prepare TR ----
@@ -139,20 +157,31 @@ if (dir.exists(paths = "./_freeze")) {
 }
 
 
-if (dir.exists(paths = "./docs/public")) {
-  fs::dir_delete(path = "./docs/public")
+if (dir.exists(paths = "./_docs/public")) {
+  fs::dir_delete(path = "./_docs/public")
 }
 
-if (dir.exists(paths = "./docs/EN")) {
-  fs::dir_delete(path = "./docs/EN")
+if (dir.exists(paths = "./_docs/EN")) {
+  fs::dir_delete(path = "./_docs/EN")
 }
 
-if (dir.exists(paths = "./public")) {
-  fs::dir_delete(path = "./public")
+
+
+
+fs::dir_copy(path = "./_docs", new_path = "./public", overwrite = TRUE)
+
+fs::dir_copy(path = "./_docs", new_path = "./docs", overwrite = TRUE)
+
+if (dir.exists(paths = "./_docs")) {
+  fs::dir_delete(path = "./_docs")
 }
 
-fs::dir_copy(path = "./docs", new_path = "./public", overwrite = TRUE)
 
+fs::dir_copy(path = "./_EN", new_path = "./EN", overwrite = TRUE)
+
+if (dir.exists(paths = "./_EN")) {
+  fs::dir_delete(path = "./_EN")
+}
 
 cat("\Ud83E\UdD83")
 

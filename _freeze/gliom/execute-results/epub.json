@@ -1,0 +1,20 @@
+{
+  "hash": "502b789f570cc011498604489df62c07",
+  "result": {
+    "markdown": "---\ndescription: |\n    SSS, CNS, gliom, tumor,\n    patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [SSS, CNS, gliom, tumor]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# Yüksek Dereceli Gliom Yayma Preparat {#sec-yuksek-dereceli-gliom-yayma-preparat}\n:::\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n\n**Yüksek Dereceli Gliom Yayma Preparat**\n\n\n[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/high-grade-glioma-squash_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html)\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "gliom_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}

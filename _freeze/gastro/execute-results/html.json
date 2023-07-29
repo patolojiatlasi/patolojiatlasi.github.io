@@ -1,0 +1,16 @@
+{
+  "hash": "91a5bef93e70f3452e284b673805d903",
+  "result": {
+    "markdown": "---\ndescription: |\n    gastrointestinal,\n    patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [gastrointestinal]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n# Gastrointestinal Sistem {#sec-gastrointestinal-sistem}\n:::\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "gastro_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

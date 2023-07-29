@@ -1,0 +1,16 @@
+{
+  "hash": "344bb321269a62daa639ddae9332c4c8",
+  "result": {
+    "markdown": "---\ndescription: \"prostat, patoloji, atlas, pathology, whole slide image\"\ndate: last-modified\ncategories: [prostat]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# Prostat  {#sec-prostat} \n\n## benign prostat hiperplazisi {#sec-benign-prostat-hiperplazisi} \n:::\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n\n**benign prostat hiperplazisi**\n\n\n[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/benign-prostate-hyperplasia_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/benign-prostate-hyperplasia/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/benign-prostate-hyperplasia/HE.html)\n:::\n\n::: {.cell}\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/benign-prostate-hyperplasia/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "prostat_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

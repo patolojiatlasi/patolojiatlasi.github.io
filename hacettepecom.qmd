@@ -30,7 +30,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 # [Hacettepe Case Of the Month (COM)](https://hacettepepathology.com/)  {#sec-hacettepe-case-of-the-month}
 ```
 
-<hr>
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -2737,7 +2739,9 @@ solitary fibrous tumor
 :::::
 
 
-<hr>
+
+
+
 
 
 
@@ -2976,7 +2980,9 @@ chromophobe RCC
 :::::
 
 
-<hr>
+
+
+
 
 
 
@@ -3129,7 +3135,9 @@ neuroendocrine tumor of breast, bx tract seeding
 
 :::::
 
-<hr>
+
+
+
 
 
 
@@ -3280,7 +3288,9 @@ schwannoma, intraabdominal
 :::::
 
 
-<hr>
+
+
+
 
 
 
@@ -3375,7 +3385,9 @@ leiomyoma of lip
 :::::
 
 
-<hr>
+
+
+
 
 
 
@@ -3576,7 +3588,9 @@ monophasic synovial sarcoma vs nodular fasciitis
 :::::
 
 
-<hr>
+
+
+
 
 
 
@@ -3774,7 +3788,9 @@ ANNUBP
 :::::
 
 
-<hr>
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -3869,7 +3885,9 @@ parosteal OGS
 :::::
 
 
-<hr>
+
+
+
 
 
 
@@ -3968,7 +3986,9 @@ BCOR sarcoma, tibia, BCOR-CCNB3 positive
 :::::
 
 
-<hr>
+
+
+
 
 
 
@@ -4145,7 +4165,9 @@ angiosarcoma met, primary adrenal?, syn positive
 :::::
 
 
-<hr>
+
+
+
 
 
 
@@ -4292,7 +4314,9 @@ melanoma, not CCS
 :::::
 
 
-<hr>
+
+
+
 
 
 
@@ -4450,7 +4474,9 @@ secondary chondrosarcoma hand mafucci
 :::::
 
 
-<hr>
+
+
+
 
 
 
@@ -4547,7 +4573,9 @@ FSGS
 :::::
 
 
-<hr>
+
+
+
 
 
 
@@ -4641,7 +4669,9 @@ Plasmodium
 
 :::::
 
-<hr>
+
+
+
 
 
 
@@ -4746,7 +4776,9 @@ sclerosing and epitheloid RMS, EWSR1::TFCP2
 :::::
 
 
-<hr>
+
+
+
 
 
 
@@ -4845,7 +4877,9 @@ epitheloid MPNST
 
 :::::
 
-<hr>
+
+
+
 
 
 
@@ -5003,7 +5037,9 @@ nipple duct adenoma
 
 :::::
 
-<hr>
+
+
+
 
 
 
@@ -5125,7 +5161,9 @@ See Microscopy with viewer:
 :::::
 
 
-<hr>
+
+
+
 
 
 
@@ -5183,7 +5221,9 @@ See Microscopy with viewer:
 
 
 
-<hr>
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -5307,7 +5347,9 @@ See Microscopy with viewer:
 
 
 
-<hr>
+
+
+
 
 ```{asis, echo = (language == "TR")}
 
@@ -5325,7 +5367,9 @@ See Microscopy with viewer:
 
 
 
-<hr>
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -5343,4 +5387,6 @@ See Microscopy with viewer:
 
 
 
-<hr>
+
+
+

@@ -1,0 +1,349 @@
+project:
+  type: book
+  output-dir: _epub_TR
+  resources:
+    - "CITATION.cff"
+    - images
+    - screenshots
+    - files
+    - "script.js"
+    - "webpages.js"
+    - "webpages.txt"
+    - "headerTR.html"
+
+
+execute:
+  freeze: auto
+
+lang: tr
+
+language:
+  title-block-author-single: "Derleyen"
+  title-block-author-plural: "Katkıda Bulunanlar"
+  title-block-affiliation-plural: "Kurum"
+
+book:
+  title: "Patoloji Atlası"
+  subtitle: "Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları: Görerek Öğrenin"
+  author:
+   - name: "Serdar Balcı"
+     url: "https://www.serdarbalci.com"
+     affiliation: "Memorial Patoloji"
+     affiliation-url: "https://patoloji.memorial.com.tr/"
+     orcid: "0000-0002-7852-3851"
+   - name: Patoloji Hekim ve Teknikerleri
+     affiliation: "Memorial Patoloji ve Diğer Kurumlar"
+     affiliation-url: "https://www.patolojiatlasi.com/yazarlar.html"
+  description: |
+    Tanıtım: Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları. Görerek Öğrenin.
+    Patoloji Atlas
+    Patoloji Notu
+    Patoloji Ders Notları ve Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan ve diğer kurumlardan katkı yapan meslektaşlarımızın kolleksiyonlarından oluşmaktadır.
+  abstract: |
+    Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları.
+    Görerek Öğrenin.
+    Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan ve diğer kurumlardan katkı yapan meslektaşlarımızın kolleksiyonlarından oluşmaktadır.
+    Katkı yapmak ve kendi vakalarınız ekletmek için lütfen [iletişime geçin](https://www.patolojiatlasi.com/katki.html).
+  date: last-modified
+  image: images/coverTR.png
+  output-file: "Patoloji-Atlasi"
+  cover-image: images/coverTR.png
+  site-url: https://patolojiatlasi.com/
+#  repo-url: https://github.com/patolojiatlasi/patolojiatlasi.github.io
+  google-analytics: "G-7BT7Q4FLT9"
+  sharing: [twitter, facebook, linkedin]
+  search:
+    location: navbar
+    type: overlay
+    copy-button: true
+  sidebar:
+    style: docked #floating
+    background: light
+    search: true
+    collapsed-level: 1
+    pinned: true
+  open-graph:
+    locale: tr_TR
+    site-name: Patoloji Atlası
+  twitter-card:
+    creator: "%40serdarbalci"
+    site: "%40patolojinotlari"
+  page-navigation: true
+  page-footer:
+    border: true
+    background: light
+    left: "Copyright 2022, [patolojiAI](https://www.patolojiai.com/)"
+    # right:
+    #   - icon: github
+    #     href: https://github.com/patolojiatlasi
+    #     target: _blank
+    #   - icon: github
+    #     href: https://github.com/pathologyatlas
+    #     target: _blank
+    #   - icon: twitter
+    #     href: https://twitter.com/patolojinotlari
+    #     target: _blank
+    #   - icon: globe2
+    #     href: https://www.patolojinotlari.com
+    #     target: _blank
+    #   - icon: globe2
+    #     href: https://www.serdarbalci.com
+    #     target: _blank
+
+  chapters:
+    - text: "Anasayfa"
+      href: index.qmd
+    - text: "Giriş"
+      href: giris_epub_TR.qmd
+    - text: "Yazarlar ve Katkıda Bulunanlar"
+      href: yazarlar_epub_TR.qmd
+      target: _blank
+      # target: _blank
+    - part: "---"
+    - part: "Genel Patoloji"
+      chapters:
+        - text: "Patolojide Kullanılan Teknikler"
+          href: teknik_epub_TR.qmd
+        - text: "Hücre İçi Birikimler"
+          href: hucre-ici-birikimler_epub_TR.qmd
+        - text: "Hücre Dışı Birikimler"
+          href: hucre-disi-birikimler_epub_TR.qmd
+        - text: "Hücre Hasarı"
+          href: hucre-hasari_epub_TR.qmd
+        - text: "Hemodinamik Bozukluklar"
+#           href: hemodinamik-bozukluklar_epub_TR.qmd
+#         - text: "İskemi ve Nekroz"
+          href: iskemi-nekroz_epub_TR.qmd
+        - text: "Konjesyon"
+          href: konjesyon_epub_TR.qmd
+        - text: "Amiloid birikimi"
+          href: amiloid_epub_TR.qmd
+        - text: "Tamir Mekanizmaları"
+          href: tamir_epub_TR.qmd
+        - text: "Erozyon"
+          href: erozyon_epub_TR.qmd
+    - part: "İnflamasyon"
+      chapters:
+        - text: "Akut inflamasyon"
+          href: akut-inflamasyon_epub_TR.qmd
+        - text: "Kronik inflamasyon"
+          href: kronik-inflamasyon_epub_TR.qmd
+        - text: "Granülamatöz İnflamasyon"
+          href: granulom_epub_TR.qmd
+        # - inflamasyon_epub_TR.qmd
+    - part: "İnfeksiyöz Hastalıkların Patolojisi"
+      chapters:
+        - text: "Viruslar"
+          href: virus_epub_TR.qmd
+        - text: "Bakteriler"
+          href: bakteri_epub_TR.qmd
+        - text: "Mantarlar"
+          href: mantar_epub_TR.qmd
+        - text: "Parazitler"
+          href: parazit_epub_TR.qmd
+    - part: "Temel Tümör Patolojisi"
+      chapters:
+        - benign_epub_TR.qmd
+        - hamartom_epub_TR.qmd
+        - heterotopi_epub_TR.qmd
+        - text: "Metaplazi"
+          href: metaplazi_epub_TR.qmd
+        - text: "Karsinogenez"
+          href: karsinogenez_epub_TR.qmd
+        - malign_epub_TR.qmd
+        - metastaz_epub_TR.qmd
+        - tumor-yayilimi_epub_TR.qmd
+    - part: "Tümörlerdeki Prognostik Morfolojik Özellikler"
+      chapters:
+        - text: "Venöz İnvazyon"
+          href: venoz-invazyon_epub_TR.qmd
+        - text: "Ekstramural Venöz İnvazyon"
+          href: ekstramural-venoz-invazyon_epub_TR.qmd
+    - part: "Hematopatoloji"
+      chapters:
+#        - hematopatoloji_epub_TR.qmd
+        - hodgkin_epub_TR.qmd
+    - part: "Gastrointestinal Sistem Patolojisi"
+      chapters:
+        - gastro_epub_TR.qmd
+        - text: "Özofagus"
+          href: ozofagus_epub_TR.qmd
+        - text: "Mide Patolojisi"
+          href: mide_epub_TR.qmd
+        - text: "Gastrit"
+          href: gastrit_epub_TR.qmd
+        - text: "Duodenum Patolojisi"
+          href: duodenum_epub_TR.qmd
+        - text: "Kolon Patolojisi"
+          href: kolon_epub_TR.qmd
+        - text: "Crohn Hastalığı"
+          href: crohn_epub_TR.qmd
+    - part: "Karaciğer Patolojisi"
+      chapters:
+        - text: "Karaciğer Tümörleri"
+          href: karaciger_epub_TR.qmd
+        - text: "Benign Karaciğer Tümörleri"
+          href: karaciger-benign_epub_TR.qmd
+    - part: "Pankreatobilier Sistem Patolojisi"
+      chapters:
+        - text: "Pankreas"
+          href: pankreas_epub_TR.qmd
+        - text: "Pankreas Duktal Adenokarsinom"
+          href: pdac_epub_TR.qmd
+        - text: "Safra Kesesi"
+          href: safra-kesesi_epub_TR.qmd
+        - text: "Ampulla Vater"
+          href: ampulla-vater_epub_TR.qmd
+    - part: "Akciğer Patolojisi"
+      chapters:
+        - text: "Nöroendokrin"
+          href: noroendokrin_epub_TR.qmd
+    - part: "Mezotel"
+      chapters:
+        - text: "Abdomen"
+          href: mezotel_epub_TR.qmd
+    - part: "Jinekolojik Patoloji"
+      chapters:
+        - text: "Jinekolojik Patoloji"
+          href: jineko_epub_TR.qmd
+        - text: "Genital Sistem Patolojisi"
+          href: genital_epub_TR.qmd
+        - text: "Serviks"
+          href: serviks_epub_TR.qmd
+        - text: "Endometrium"
+          href: endometrium_epub_TR.qmd
+        - text: "Endometriozis"
+          href: endometriosis_epub_TR.qmd
+    - part: "Üriner Sistem Patolojisi"
+      chapters:
+        - text: "Üropatoloji"
+          href: uriner_epub_TR.qmd
+        - text: "Böbrek Tümörleri / Renal Tümörler"
+          href: bobrek_epub_TR.qmd
+        - text: "Prostat"
+          href: prostat_epub_TR.qmd
+    - part: "Endokrin Sistem Patolojisi"
+      chapters:
+        - text: "Hipofiz Adenomu"
+          href: hipofiz_epub_TR.qmd
+    # - part: "Meme Patolojisi"
+    #   chapters:
+    #     - text: "Meme Tümörleri"
+    #       href: meme_epub_TR.qmd
+    - part: "Baş Boyun Patolojisi"
+      chapters:
+        - text: "Nazofarenks"
+          href: nazofarenks_epub_TR.qmd
+        - text: "Kulak"
+          href: kulak_epub_TR.qmd
+        - text: "Tükürük Bezi"
+          href: tukuruk_epub_TR.qmd
+    - part: "Santral Sinir Sistem Patolojisi"
+      chapters:
+        - text: "Gliomlar"
+          href: gliom_epub_TR.qmd
+        - text: "Meningiom"
+          href: meningiom_epub_TR.qmd
+        - text: "Vasküler Lezyonlar"
+          href: sss-vaskuler_epub_TR.qmd
+    - part: "Kemik Patolojisi"
+      chapters:
+        - text: "Kemik Tümörleri"
+          href: kemik_epub_TR.qmd
+    - part: "Yumuşak Doku Patolojisi"
+      chapters:
+        - text: "Adipöz Doku Patolojisi"
+          href: adipoz_epub_TR.qmd
+    - part: "Pediatrik ve Perinatal Patoloji"
+      chapters:
+        - plasenta_epub_TR.qmd
+    - part: "---"
+    - part: "Özel Kolleksiyonlar"
+      chapters:
+        - text: "GBDAtlas"
+          href: gbd_epub_TR.qmd
+        - text: "Hacettepe Ayın Vakası"
+          href: hacettepecom_epub_TR.qmd
+        - text: "BSAtlas"
+          href: bs_epub_TR.qmd
+        - text: "ICEtlas"
+          href: ice_epub_TR.qmd
+        - text: "Benzer Sayfalar"
+          href: wsi_epub_TR.qmd
+    - part: "---"
+    - referanslar_epub_TR.qmd
+    - part: "---"
+  appendices:
+    # - yonetim-gelistirme.md
+    - text: "Katkıda bulunun"
+      href: katki_epub_TR.qmd
+    - text: "Yorum ekleyin"
+      href: yorum_epub_TR.qmd
+    - text: "Liste"
+      href: listing_epub_TR.qmd
+    - listing2_epub_TR.qmd
+
+
+highlight-style: pygments
+
+
+comments:
+  hypothesis: true
+  utterances:
+    repo: patolojiatlasi/patolojiatlasi.github.io
+
+format:
+#   html:
+#     theme:
+#       light: flatly
+#       dark: darkly # cosmo
+#     page-layout: full
+#     grid:
+#       # sidebar-width: 300px
+#       body-width: 1800px # default 900px
+#       # margin-width: 300px
+#       # gutter-width: 1.5rem
+#     cover-image: images/coverTR.png
+# #    code-link: true
+# #    code-fold: true
+# #    code-tools: true
+# #    code-copy: true
+
+# #    fig-width: 8
+# #    fig-height: 4
+#     execute:
+#       warning: false
+#     css: styles.css
+#     self-contained: false
+#     anchor-sections: true
+#     link-external-icon: true
+#     link-external-newwindow: true
+#     link-external-filter: '(^(?:http:|https:)\/\/www\.histopathologyatlas\.com\/)|(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/images.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/pathologyatlas\.github\.io\/)|(^(?:http:|https:)\/\/patolojiatlasi\.github\.io\/)'
+#     citations-hover: true
+#     footnotes-hover: true
+#     number-depth: 3
+#     toc-title: "İçindekiler"
+#     include-in-header:
+#       - text: |
+#           <script src="script.js"></script>
+#           <script src="webpages.js"></script>
+#       - file: "./headerTR.html"
+
+  epub:
+    toc: true
+    toc-title: "İçindekiler"
+    epub-cover-image: images/coverTR.png
+    execute:
+      warning: false
+    css:
+      epub.css
+
+
+citation:
+    type: webpage
+    container-title: Patoloji Atlası
+    url: "https://www.patolojiatlasi.com/"
+
+
+editor: source
+
