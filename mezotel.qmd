@@ -21,7 +21,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "TR")}
-## Abdominal mezotelyoma {#sec-abdominal-mezotelyoma} 
+## Abdominal mezotelyoma {#sec-abdominal-mesothelioma} 
 ```
 
 ```{asis, echo = (language == "EN")}
@@ -29,10 +29,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/abdominal-mezotelyoma_screenshot.png")) {
+if (!file.exists("./screenshots/abdominal-mesothelioma_screenshot.png")) {
 webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/abdominal-mezotelyoma/HE.html",
-  file = "./screenshots/abdominal-mezotelyoma_screenshot.png",
+  url = "https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html",
+  file = "./screenshots/abdominal-mesothelioma_screenshot.png",
   delay = 20
 )
 }
@@ -43,7 +43,7 @@ webshot2::webshot(
 **Abdominal mezotelyoma**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/abdominal-mezotelyoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/abdominal-mezotelyoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/abdominal-mesothelioma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html)
 
 ```
 
@@ -61,7 +61,7 @@ Mikroskopik görüntüleri inceleyin:
 **Abdominal mesothelioma**
 
 
-[![Click for Full Screen WSI](./screenshots/abdominal-mezotelyoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/abdominal-mezotelyoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html)
+[![Click for Full Screen WSI](./screenshots/abdominal-mesothelioma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html)
 
 ```
 

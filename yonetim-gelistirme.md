@@ -357,6 +357,8 @@ knitr::include_graphics("images/gosling.jpg")
 
 See @fig-gosling for a meme.
 
+https://quarto.org/docs/authoring/conditional.html
+
 ## Conditional content
 
 The block below does not appear in the PDF, only on the website and Epub:
@@ -368,6 +370,8 @@ Hello, I won't appear in the PDF!
 ::: {.content-visible when-format="pdf"}
 But this text here, will only appear in the PDF!
 :::
+
+https://quarto.org/docs/projects/profiles.html
 
 
 ---

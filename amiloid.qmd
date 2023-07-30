@@ -185,10 +185,10 @@ See Microscopy with viewer:
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/congoredvideo_screenshot.png")) {
+if (!file.exists("./screenshots/congoredvideo_screenshot.jpg")) {
 
 url <- "https://img.youtube.com/vi/U9glkfQLTm4/maxresdefault.jpg"
-download.file(url, destfile = "./screenshots/congoredvideo_screenshot.png", mode = "wb")
+download.file(url, destfile = "./screenshots/congoredvideo_screenshot.jpg", mode = "wb")
 }
 ```
 
@@ -198,6 +198,6 @@ download.file(url, destfile = "./screenshots/congoredvideo_screenshot.png", mode
 
 **Congo Red Birefringence**
 
-[![Video İçin Tıklayın](./screenshots/congoredvideo_screenshot.png){width="25%"}](https://www.youtube.com/watch?v=U9glkfQLTm4) [Video İçin Tıklayın](https://www.youtube.com/watch?v=U9glkfQLTm4)
+[![Video İçin Tıklayın](./screenshots/congoredvideo_screenshot.jpg){width="25%"}](https://www.youtube.com/watch?v=U9glkfQLTm4) [Video İçin Tıklayın](https://www.youtube.com/watch?v=U9glkfQLTm4)
 
 ```

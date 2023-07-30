@@ -181,6 +181,15 @@ if (dir.exists(paths = "./_docs/_EN")) {
   fs::dir_delete(path = "./_docs/_EN")
 }
 
+if (dir.exists(paths = "./_docs/_lecture-notes")) {
+  fs::dir_delete(path = "./_docs/_lecture-notes")
+}
+
+if (dir.exists(paths = "./_docs/lecture-notes")) {
+  fs::dir_delete(path = "./_docs/lecture-notes")
+}
+
+
 
 
 fs::dir_copy(path = "./_docs", new_path = "./public", overwrite = TRUE)

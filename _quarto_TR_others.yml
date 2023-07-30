@@ -1,0 +1,272 @@
+project:
+  type: book
+  output-dir: _others_TR
+  resources:
+    - "CITATION.cff"
+    - images
+    - screenshots
+    - files
+    - "script.js"
+    - "webpages.js"
+    - "webpages.txt"
+    - "headerTR.html"
+
+
+execute:
+  freeze: auto
+
+lang: tr
+
+language:
+  title-block-author-single: "Derleyen"
+  title-block-author-plural: "Katkıda Bulunanlar"
+  title-block-affiliation-plural: "Kurum"
+
+book:
+  title: "Patoloji Atlası"
+  subtitle: "Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları: Görerek Öğrenin"
+  author:
+   - name: "Serdar Balcı"
+     url: "https://www.serdarbalci.com"
+     affiliation: "Memorial Patoloji"
+     affiliation-url: "https://patoloji.memorial.com.tr/"
+     orcid: "0000-0002-7852-3851"
+   - name: Patoloji Hekim ve Teknikerleri
+     affiliation: "Memorial Patoloji ve Diğer Kurumlar"
+     affiliation-url: "https://www.patolojiatlasi.com/yazarlar.html"
+  description: |
+    Tanıtım: Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları. Görerek Öğrenin.
+    Patoloji Atlas
+    Patoloji Notu
+    Patoloji Ders Notları ve Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan ve diğer kurumlardan katkı yapan meslektaşlarımızın kolleksiyonlarından oluşmaktadır.
+  abstract: |
+    Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları.
+    Görerek Öğrenin.
+    Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan ve diğer kurumlardan katkı yapan meslektaşlarımızın kolleksiyonlarından oluşmaktadır.
+    Katkı yapmak ve kendi vakalarınız ekletmek için lütfen [iletişime geçin](https://www.patolojiatlasi.com/katki.html).
+  date: last-modified
+  image: images/coverTR.png
+  output-file: "Patoloji-Atlasi"
+  cover-image: images/coverTR.png
+  site-url: https://patolojiatlasi.com/
+#  repo-url: https://github.com/patolojiatlasi/patolojiatlasi.github.io
+  google-analytics: "G-7BT7Q4FLT9"
+  sharing: [twitter, facebook, linkedin]
+  search:
+    location: navbar
+    type: overlay
+    copy-button: true
+  sidebar:
+    style: docked #floating
+    background: light
+    search: true
+    collapsed-level: 1
+    pinned: true
+  open-graph:
+    locale: tr_TR
+    site-name: Patoloji Atlası
+  twitter-card:
+    creator: "%40serdarbalci"
+    site: "%40patolojinotlari"
+  page-navigation: true
+  page-footer:
+    border: true
+    background: light
+    left: "Copyright 2022, [patolojiAI](https://www.patolojiai.com/)"
+  chapters:
+    - text: "Anasayfa"
+      href: index.qmd
+    - text: "Giriş"
+      href: giris_others_TR.qmd
+    - text: "Yazarlar ve Katkıda Bulunanlar"
+      href: yazarlar_others_TR.qmd
+      target: _blank
+    - part: "---"
+    - part: "Genel Patoloji"
+      chapters:
+        - text: "Patolojide Kullanılan Teknikler"
+          href: teknik_others_TR.qmd
+        - text: "Hücre İçi Birikimler"
+          href: hucre-ici-birikimler_others_TR.qmd
+        - text: "Hücre Dışı Birikimler"
+          href: hucre-disi-birikimler_others_TR.qmd
+        - text: "Hücre Hasarı"
+          href: hucre-hasari_others_TR.qmd
+        - text: "Hemodinamik Bozukluklar"
+          href: iskemi-nekroz_others_TR.qmd
+        - text: "Konjesyon"
+          href: konjesyon_others_TR.qmd
+        - text: "Amiloid birikimi"
+          href: amiloid_others_TR.qmd
+        - text: "Tamir Mekanizmaları"
+          href: tamir_others_TR.qmd
+        - text: "Erozyon"
+          href: erozyon_others_TR.qmd
+    - part: "İnflamasyon"
+      chapters:
+        - text: "Akut inflamasyon"
+          href: akut-inflamasyon_others_TR.qmd
+        - text: "Kronik inflamasyon"
+          href: kronik-inflamasyon_others_TR.qmd
+        - text: "Granülamatöz İnflamasyon"
+          href: granulom_others_TR.qmd
+    - part: "İnfeksiyöz Hastalıkların Patolojisi"
+      chapters:
+        - text: "Viruslar"
+          href: virus_others_TR.qmd
+        - text: "Bakteriler"
+          href: bakteri_others_TR.qmd
+        - text: "Mantarlar"
+          href: mantar_others_TR.qmd
+        - text: "Parazitler"
+          href: parazit_others_TR.qmd
+    - part: "Temel Tümör Patolojisi"
+      chapters:
+        - benign_others_TR.qmd
+        - hamartom_others_TR.qmd
+        - heterotopi_others_TR.qmd
+        - text: "Metaplazi"
+          href: metaplazi_others_TR.qmd
+        - text: "Karsinogenez"
+          href: karsinogenez_others_TR.qmd
+        - malign_others_TR.qmd
+        - metastaz_others_TR.qmd
+        - tumor-yayilimi_others_TR.qmd
+    - part: "Tümörlerdeki Prognostik Morfolojik Özellikler"
+      chapters:
+        - text: "Venöz İnvazyon"
+          href: venoz-invazyon_others_TR.qmd
+        - text: "Ekstramural Venöz İnvazyon"
+          href: ekstramural-venoz-invazyon_others_TR.qmd
+    - part: "Hematopatoloji"
+      chapters:
+        - hodgkin_others_TR.qmd
+    - part: "Gastrointestinal Sistem Patolojisi"
+      chapters:
+        - gastro_others_TR.qmd
+        - text: "Özofagus"
+          href: ozofagus_others_TR.qmd
+        - text: "Mide Patolojisi"
+          href: mide_others_TR.qmd
+        - text: "Gastrit"
+          href: gastrit_others_TR.qmd
+        - text: "Duodenum Patolojisi"
+          href: duodenum_others_TR.qmd
+        - text: "Kolon Patolojisi"
+          href: kolon_others_TR.qmd
+        - text: "Crohn Hastalığı"
+          href: crohn_others_TR.qmd
+    - part: "Karaciğer Patolojisi"
+      chapters:
+        - text: "Karaciğer Tümörleri"
+          href: karaciger_others_TR.qmd
+        - text: "Benign Karaciğer Tümörleri"
+          href: karaciger-benign_others_TR.qmd
+    - part: "Pankreatobilier Sistem Patolojisi"
+      chapters:
+        - text: "Pankreas"
+          href: pankreas_others_TR.qmd
+        - text: "Pankreas Duktal Adenokarsinom"
+          href: pdac_others_TR.qmd
+        - text: "Safra Kesesi"
+          href: safra-kesesi_others_TR.qmd
+        - text: "Ampulla Vater"
+          href: ampulla-vater_others_TR.qmd
+    - part: "Akciğer Patolojisi"
+      chapters:
+        - text: "Nöroendokrin"
+          href: noroendokrin_others_TR.qmd
+    - part: "Mezotel"
+      chapters:
+        - text: "Abdomen"
+          href: mezotel_others_TR.qmd
+    - part: "Jinekolojik Patoloji"
+      chapters:
+        - text: "Jinekolojik Patoloji"
+          href: jineko_others_TR.qmd
+        - text: "Genital Sistem Patolojisi"
+          href: genital_others_TR.qmd
+        - text: "Serviks"
+          href: serviks_others_TR.qmd
+        - text: "Endometrium"
+          href: endometrium_others_TR.qmd
+        - text: "Endometriozis"
+          href: endometriosis_others_TR.qmd
+    - part: "Üriner Sistem Patolojisi"
+      chapters:
+        - text: "Üropatoloji"
+          href: uriner_others_TR.qmd
+        - text: "Böbrek Tümörleri / Renal Tümörler"
+          href: bobrek_others_TR.qmd
+        - text: "Prostat"
+          href: prostat_others_TR.qmd
+    - part: "Endokrin Sistem Patolojisi"
+      chapters:
+        - text: "Hipofiz Adenomu"
+          href: hipofiz_others_TR.qmd
+    - part: "Baş Boyun Patolojisi"
+      chapters:
+        - text: "Nazofarenks"
+          href: nazofarenks_others_TR.qmd
+        - text: "Kulak"
+          href: kulak_others_TR.qmd
+        - text: "Tükürük Bezi"
+          href: tukuruk_others_TR.qmd
+    - part: "Santral Sinir Sistem Patolojisi"
+      chapters:
+        - text: "Gliomlar"
+          href: gliom_others_TR.qmd
+        - text: "Meningiom"
+          href: meningiom_others_TR.qmd
+        - text: "Vasküler Lezyonlar"
+          href: sss-vaskuler_others_TR.qmd
+    - part: "Kemik Patolojisi"
+      chapters:
+        - text: "Kemik Tümörleri"
+          href: kemik_others_TR.qmd
+    - part: "Yumuşak Doku Patolojisi"
+      chapters:
+        - text: "Adipöz Doku Patolojisi"
+          href: adipoz_others_TR.qmd
+    - part: "Pediatrik ve Perinatal Patoloji"
+      chapters:
+        - plasenta_others_TR.qmd
+    - part: "---"
+    - part: "Özel Kolleksiyonlar"
+      chapters:
+        - text: "GBDAtlas"
+          href: gbd_others_TR.qmd
+        - text: "Hacettepe Ayın Vakası"
+          href: hacettepecom_others_TR.qmd
+        - text: "BSAtlas"
+          href: bs_others_TR.qmd
+        - text: "ICEtlas"
+          href: ice_others_TR.qmd
+        - text: "Benzer Sayfalar"
+          href: wsi_others_TR.qmd
+    - part: "---"
+    - referanslar_others_TR.qmd
+    - part: "---"
+  appendices:
+    - text: "Katkıda bulunun"
+      href: katki_others_TR.qmd
+    - text: "Yorum ekleyin"
+      href: yorum_others_TR.qmd
+    - text: "Liste"
+      href: listing_others_TR.qmd
+    - listing2_others_TR.qmd
+
+
+format: asciidoctor
+
+
+
+
+citation:
+    type: webpage
+    container-title: Patoloji Atlası
+    url: "https://www.patolojiatlasi.com/"
+
+
+editor: source
+
