@@ -5224,6 +5224,83 @@ See Microscopy with viewer:
 
 
 
+```{asis  Synovial sarcoma with INI1 loss TR, echo = (language == "TR")}
+## Case-41 {#sec-hacettepe-com-case-41 }
+```
+
+
+```{asis  Synovial sarcoma with INI1 loss EN, echo = (language == "EN")}
+## Case-41 {#sec-hacettepe-com-case-41 }
+```
+
+
+
+
+
+::::: panel-tabset
+
+
+### Diagnosis
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı için tıklayın
+
+ Synovial sarcoma with INI1 loss
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Click for Diagnosis
+
+ Synovial sarcoma with INI1 loss
+
+:::
+
+```
+
+
+
+### Video
+
+
+
+```{asis, echo = (language == "TR")}
+
+[Video İçin Tıklayın](https://www.youtube.com/watch?v=1Qq67jVEfUA)
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+[Click for Video](https://www.youtube.com/watch?v=1Qq67jVEfUA)
+
+```
+
+
+
+::: {.content-visible when-format="html"}
+
+{{< video https://www.youtube.com/embed/1Qq67jVEfUA >}}
+
+:::
+
+
+
+:::::
+
+
 
 
 ```{asis, echo = (language == "TR")}
