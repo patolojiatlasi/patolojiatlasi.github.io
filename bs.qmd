@@ -718,12 +718,6 @@ brown fat
 :::::
 
 
-
-
-
-
-
-
 ```{r language BS5, echo=FALSE, include=TRUE}
 source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
