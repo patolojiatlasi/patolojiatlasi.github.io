@@ -51,6 +51,29 @@ contact: bilgi\@patolojiatlasi.com
 -   https://github.com/quarto-dev/quarto-actions
 
 
+-----
+
+- https://github.com/patolojiatlasi/patolojiatlasi.github.io/releases/latest/download/Patoloji-Atlasi.epub
+
+- https://www.serdarbalci.com/patolojiatlasi/ebook.html
+
+
+-----
+
+- https://itunesconnect.apple.com/
+
+- https://books.apple.com/us/book/patoloji-atlasi/id6456452218
+
+![](https://is1-ssl.mzstatic.com/image/thumb/Publication126/v4/27/11/f0/2711f08c-f668-7ce0-0ebd-0df16be30fd6/4d0d1458-db59-460f-bd62-6f10900fb559_cover_image.png/626x0w.webp)
+
+- https://books.apple.com/us/book/id6456452218
+
+
+
+
+
+
+
 ------------------------------------------------------------------------
 
 
