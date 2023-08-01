@@ -372,7 +372,7 @@ If you want to show the triple backticks inline, you can also do so, like this:
 Use `knitr::include_graphics()` to include images. Check the source for how to add
 labels and captions:
 
-```{r}
+```r
 #| label: fig-gosling
 #| fig-cap: "Ryan Gosling looking angry."
 knitr::include_graphics("images/gosling.jpg")
