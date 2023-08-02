@@ -284,14 +284,6 @@ book:
     - listing2_epub_word_TR.qmd
 
 
-highlight-style: pygments
-
-
-comments:
-  hypothesis: true
-  utterances:
-    repo: patolojiatlasi/patolojiatlasi.github.io
-
 format:
 
   epub:
