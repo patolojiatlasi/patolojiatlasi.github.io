@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.251">
+<meta name="generator" content="quarto-1.4.176">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2023-08-02">
-<meta name="description" content="kolleksiyon, patoloji, atlas, pathology, whole slide image">
+<meta name="description" content="koleksiyon, patoloji, atlas, pathology, whole slide image">
 
 <title>Histopathology Atlas - 63&nbsp; BS Atlas</title>
 <style>
@@ -884,6 +884,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#sec-BS9" id="toc-sec-BS9" class="nav-link" data-scroll-target="#sec-BS9"><span class="header-section-number">63.9</span> BS9 - Giardiasis, Duodenum</a></li>
   <li><a href="#sec-BS10" id="toc-sec-BS10" class="nav-link" data-scroll-target="#sec-BS10"><span class="header-section-number">63.10</span> BS10 - granular cell tumor, colon</a></li>
   <li><a href="#sec-BS11" id="toc-sec-BS11" class="nav-link" data-scroll-target="#sec-BS11"><span class="header-section-number">63.11</span> BS11 - sesile serrated adenoma lesion polyp</a></li>
+  <li><a href="#sec-BS12" id="toc-sec-BS12" class="nav-link" data-scroll-target="#sec-BS12"><span class="header-section-number">63.12</span> BS12 - brain, metastatic hepatoblastoma</a></li>
   </ul>
 </nav>
     </div>
@@ -894,7 +895,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title">
 <h1 class="title"><span class="chapter-number">63</span>&nbsp; <span class="chapter-title">BS Atlas</span></h1>
   <div class="quarto-categories">
-    <div class="quarto-category">kolleksiyon</div>
+    <div class="quarto-category">koleksiyon</div>
   </div>
   </div>
 
@@ -913,7 +914,6 @@ ul.task-list li input[type="checkbox"] {
     
   </div>
   
-
 
 </header>
 
@@ -1356,6 +1356,47 @@ Click for Diagnosis
 </div>
 </div>
 </div>
+<section id="sec-BS12" class="level2 cell" data-number="63.12">
+<h2 data-number="63.12" class="anchored" data-anchor-id="sec-BS12"><span class="header-section-number">63.12</span> BS12 - brain, metastatic hepatoblastoma</h2>
+</section>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-12-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-12-1" role="tab" aria-controls="tabset-12-1" aria-selected="true">WSI - Link</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-12-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-12-2" role="tab" aria-controls="tabset-12-2" aria-selected="false">WSI</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-12-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-12-3" role="tab" aria-controls="tabset-12-3" aria-selected="false">Diagnosis</a></li></ul>
+<div class="tab-content">
+<div id="tabset-12-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-12-1-tab">
+<div class="cell">
+<p><strong>brain, metastatic hepatoblastoma</strong></p>
+<p><a href="https://images.patolojiatlasi.com/BS12/HE.html"><img src="./screenshots/BS12-HE_screenshot.png" class="img-fluid" style="width:25.0%" alt="Click for Full Screen WSI"></a> <a href="https://images.patolojiatlasi.com/BS12/HE.html">Click for Full Screen WSI</a></p>
+</div>
+</div>
+<div id="tabset-12-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-12-2-tab">
+<div class="cell">
+<p>See Microscopy with viewer:</p>
+<iframe src="https://images.patolojiatlasi.com/BS12/HE.html" style="height:600px;width:100%;" data-external="1">
+</iframe>
+</div>
+</div>
+<div id="tabset-12-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-12-3-tab">
+<div class="cell">
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Click for Diagnosis
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>brain, metastatic hepatoblastoma</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 
 
@@ -1622,16 +1663,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
   const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
     if (id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
@@ -1644,11 +1675,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return note.innerHTML;
       }
     } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
       return note.innerHTML;
     }
   }
@@ -1658,39 +1684,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       instance.disable();
       let url = xref.getAttribute('href');
       let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
-          }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
+      try { hash = new URL(url).hash; } catch {}
+      const id = hash.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note !== null) {
+        try {
+          const html = processXRef(id, note);
+          instance.setContent(html);
+        } finally {
+          instance.enable();
+          instance.show();
         }
+      } else {
+        // See if we can fetch this
+        fetch(url.split('#')[0])
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.getElementById(id);
+          if (note !== null) {
+            const html = processXRef(id, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });

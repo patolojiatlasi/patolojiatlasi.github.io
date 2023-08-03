@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="tr" xml:lang="tr"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.251">
+<meta name="generator" content="quarto-1.4.176">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="kolleksiyon, patoloji, atlas, pathology, whole slide image">
+<meta name="description" content="koleksiyon, patoloji, atlas, pathology, whole slide image">
 
 <title>Patoloji Atlası - 62&nbsp; Hacettepe Ayın Vakası - Case Of the Month (COM)</title>
 <style>
@@ -938,7 +938,7 @@ gtag('config', 'G-7BT7Q4FLT9', { 'anonymize_ip': true});
 <div class="quarto-title">
 <h1 class="title"><span id="sec-hacettepe-ayin-vakasi-case-of-the-month" class="quarto-section-identifier"><span class="chapter-number">62</span>&nbsp; <span class="chapter-title"><a href="https://hacettepepathology.com/">Hacettepe Ayın Vakası - Case Of the Month (COM)</a></span></span></h1>
   <div class="quarto-categories">
-    <div class="quarto-category">kolleksiyon</div>
+    <div class="quarto-category">koleksiyon</div>
   </div>
   </div>
 
@@ -958,11 +958,10 @@ gtag('config', 'G-7BT7Q4FLT9', { 'anonymize_ip': true});
   </div>
   
 
-
 </header>
 
 <div class="cell">
-<p><strong>Bu sayfadaki vakalar Doç. Dr.&nbsp;Kemal Kösemehmetoğlu ve Doç. Dr.&nbsp;Arzu Sağlam’ın kolleksiyonundan alınmıştır.</strong></p>
+<p><strong>Bu sayfadaki vakalar Doç. Dr.&nbsp;Kemal Kösemehmetoğlu ve Doç. Dr.&nbsp;Arzu Sağlam’ın koleksiyonundan alınmıştır.</strong></p>
 </div>
 <section id="sec-hacettepe-case-of-the-month-case-1" class="level2 cell" data-number="62.1">
 <h2 data-number="62.1" class="anchored" data-anchor-id="sec-hacettepe-case-of-the-month-case-1"><span class="header-section-number">62.1</span> Case-1</h2>
@@ -3086,16 +3085,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
   const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
     if (id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
@@ -3108,11 +3097,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return note.innerHTML;
       }
     } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
       return note.innerHTML;
     }
   }
@@ -3122,39 +3106,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       instance.disable();
       let url = xref.getAttribute('href');
       let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
-          }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
+      try { hash = new URL(url).hash; } catch {}
+      const id = hash.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note !== null) {
+        try {
+          const html = processXRef(id, note);
+          instance.setContent(html);
+        } finally {
+          instance.enable();
+          instance.show();
         }
+      } else {
+        // See if we can fetch this
+        fetch(url.split('#')[0])
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.getElementById(id);
+          if (note !== null) {
+            const html = processXRef(id, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });

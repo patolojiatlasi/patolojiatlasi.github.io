@@ -1,12 +1,12 @@
 ---
 description: |
-    kolleksiyon, patoloji, atlas, pathology, whole slide image
+    koleksiyon, patoloji, atlas, pathology, whole slide image
     pediatric autopsy, brain
     pediatrik otopsi, beyin
-    Bu sayfadaki vakalar Prof. Dr. Gülen Bülbül Doğusoy'un kolleksiyonundan alınmıştır.
+    Bu sayfadaki vakalar Prof. Dr. Gülen Bülbül Doğusoy'un koleksiyonundan alınmıştır.
     These cases are from the collections of Gulen Bulbul Dogusoy MD, Pathologist. 
 date: last-modified
-categories: [kolleksiyon, GBD, collection, autopsy, brain, pediatric]
+categories: [koleksiyon, GBD, collection, autopsy, brain, pediatric]
 page-layout: full
 bibliography: references.bib
 ---
@@ -21,8 +21,8 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "TR")}
-# GBD Kolleksiyonu
-**Bu sayfadaki vakalar Prof. Dr. Gülen Bülbül Doğusoy'un kolleksiyonundan alınmıştır.**
+# GBD koleksiyonu
+**Bu sayfadaki vakalar Prof. Dr. Gülen Bülbül Doğusoy'un koleksiyonundan alınmıştır.**
 
 ```
 
