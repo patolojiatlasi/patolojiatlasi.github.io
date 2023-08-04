@@ -216,6 +216,12 @@ fs::dir_delete(folders_to_delete)
 
 cat("\Ud83E\UdD83")
 
+source("./R/tweet-random-cases.R")
+
+source("./R/extract-html-links.R")
+
+cat("\Ud83E\UdD83")
+
 ##### ----
 
 

@@ -354,19 +354,6 @@ knitr::include_url(url = "https://images.patolojiatlasi.com/ectopic-adrenal/HE.h
 ```
 
 
-
-This is how you can show verbatim code chunks in the output. This is using
-a `{verbatim}` chunk (check the source `index.qmd`):
-
-````{verbatim}
-```{r}
-a very long line of R code that wraps in html, epub and PDF! In a pdf especially this is needed
-```
-````
-
-If you want to show the triple backticks inline, you can also do so, like this:
-```` ```{r} ```` to start an R chunk and ```` ``` ```` to end it. Check the source.
-
 ## Figures
 
 Use `knitr::include_graphics()` to include images. Check the source for how to add
