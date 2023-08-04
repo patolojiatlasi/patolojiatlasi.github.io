@@ -3165,6 +3165,2105 @@ pseudoinclusion, drug-induced injury, liver, bone marrow transplantation history
 
 
 
+```{r language BS20, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis granülamatöz hepatit, Tbc vs anti-Tbc ilaç etkisi TR , echo = (language == "TR")}
+## BS20 - granülamatöz hepatit, Tbc vs anti-Tbc ilaç etkisi {#sec-BS20 }
+```
+
+
+```{asis granulamatous hepatitis, Tbc vs anti-Tbc drug induced reaction EN , echo = (language == "EN")}
+## BS20 - granulamatous hepatitis, Tbc vs anti-Tbc drug induced reaction {#sec-BS20 }
+```
+
+
+
+
+
+
+```{r BS20 screenshot HE, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS20-HE_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS20/HE.html",
+  file = "./screenshots/BS20-HE_screenshot.png"
+)
+}
+```
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**granülamatöz hepatit, Tbc vs anti-Tbc ilaç etkisi**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS20-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS20/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS20/HE.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**granulamatous hepatitis, Tbc vs anti-Tbc drug induced reaction**
+
+[![Click for Full Screen WSI](./screenshots/BS20-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS20/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS20/HE.html)
+
+```
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS20/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS20/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+### Diagnosis
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı için tıklayın
+
+granülamatöz hepatit, Tbc vs anti-Tbc ilaç etkisi
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Click for Diagnosis
+
+granulamatous hepatitis, Tbc vs anti-Tbc drug induced reaction
+
+:::
+
+```
+
+
+
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r language BS21, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis portal gastropati TR , echo = (language == "TR")}
+## BS21 - portal gastropati {#sec-BS21 }
+```
+
+
+```{asis portal gastropathy EN , echo = (language == "EN")}
+## BS21 - portal gastropathy {#sec-BS21 }
+```
+
+
+
+
+
+
+```{r BS21 screenshot HE, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS21-HE_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS21/HE.html",
+  file = "./screenshots/BS21-HE_screenshot.png"
+)
+}
+```
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**portal gastropati**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS21-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS21/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS21/HE.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**portal gastropathy**
+
+[![Click for Full Screen WSI](./screenshots/BS21-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS21/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS21/HE.html)
+
+```
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS21/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS21/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+### Diagnosis
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı için tıklayın
+
+portal gastropati
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Click for Diagnosis
+
+portal gastropathy
+
+:::
+
+```
+
+
+
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r language BS22, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis ring mitosis, taxane treatment TR , echo = (language == "TR")}
+## BS22 - ring mitosis, taxane treatment {#sec-BS22 }
+```
+
+
+```{asis ring mitosis, taxane treatment EN , echo = (language == "EN")}
+## BS22 - ring mitosis, taxane treatment {#sec-BS22 }
+```
+
+
+
+
+
+
+```{r BS22 screenshot HE, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS22-HE_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS22/HE.html",
+  file = "./screenshots/BS22-HE_screenshot.png"
+)
+}
+```
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**ring mitosis, taxane treatment**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS22-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS22/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS22/HE.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**ring mitosis, taxane treatment**
+
+[![Click for Full Screen WSI](./screenshots/BS22-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS22/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS22/HE.html)
+
+```
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS22/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS22/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+### Diagnosis
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı için tıklayın
+
+ring mitosis, taxane treatment
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Click for Diagnosis
+
+ring mitosis, taxane treatment
+
+:::
+
+```
+
+
+
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r language BS23, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis Crohn hastalığında fistül TR , echo = (language == "TR")}
+## BS23 - Crohn hastalığında fistül {#sec-BS23 }
+```
+
+
+```{asis Crohn disease fistule EN , echo = (language == "EN")}
+## BS23 - Crohn disease fistule {#sec-BS23 }
+```
+
+
+
+
+
+
+```{r BS23 screenshot HE, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS23-HE_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS23/HE.html",
+  file = "./screenshots/BS23-HE_screenshot.png"
+)
+}
+```
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Crohn hastalığında fistül**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS23-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS23/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS23/HE.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**Crohn disease fistule**
+
+[![Click for Full Screen WSI](./screenshots/BS23-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS23/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS23/HE.html)
+
+```
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS23/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS23/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+### Diagnosis
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı için tıklayın
+
+Crohn hastalığında fistül
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Click for Diagnosis
+
+Crohn disease fistule
+
+:::
+
+```
+
+
+
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r language BS24, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis sevalemer, kayekselat, kronik böbrek yetmezliği, gastrointestinal sistem etkisi TR , echo = (language == "TR")}
+## BS24 - sevalemer, kayekselat, kronik böbrek yetmezliği, gastrointestinal sistem etkisi {#sec-BS24 }
+```
+
+
+```{asis Kayexalate, Sevelamer, Gastrointestinal tract injury, chronic kidney failure EN , echo = (language == "EN")}
+## BS24 - Kayexalate, Sevelamer, Gastrointestinal tract injury, chronic kidney failure {#sec-BS24 }
+```
+
+
+
+
+
+
+```{r BS24 screenshot HE, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS24-HE_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS24/HE.html",
+  file = "./screenshots/BS24-HE_screenshot.png"
+)
+}
+```
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**sevalemer, kayekselat, kronik böbrek yetmezliği, gastrointestinal sistem etkisi**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS24-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS24/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS24/HE.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**Kayexalate, Sevelamer, Gastrointestinal tract injury, chronic kidney failure**
+
+[![Click for Full Screen WSI](./screenshots/BS24-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS24/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS24/HE.html)
+
+```
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS24/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS24/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+### Diagnosis
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı için tıklayın
+
+sevalemer, kayekselat, kronik böbrek yetmezliği, gastrointestinal sistem etkisi
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Click for Diagnosis
+
+Kayexalate, Sevelamer, Gastrointestinal tract injury, chronic kidney failure
+
+:::
+
+```
+
+
+
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r language BS25, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis duodenum, NET TR , echo = (language == "TR")}
+## BS25 - duodenum, NET {#sec-BS25 }
+```
+
+
+```{asis duodenum, NET EN , echo = (language == "EN")}
+## BS25 - duodenum, NET {#sec-BS25 }
+```
+
+
+
+
+
+
+```{r BS25 screenshot HE, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS25-HE_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS25/HE.html",
+  file = "./screenshots/BS25-HE_screenshot.png"
+)
+}
+```
+
+
+
+
+
+
+```{r BS25 screenshot CHR, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS25-CHR_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS25/CHR.html",
+  file = "./screenshots/BS25-CHR_screenshot.png"
+)
+}
+```
+
+
+
+
+
+
+```{r BS25 screenshot SYN, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS25-SYN_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS25/SYN.html",
+  file = "./screenshots/BS25-SYN_screenshot.png"
+)
+}
+```
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**duodenum, NET**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS25-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS25/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS25/HE.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**duodenum, NET**
+
+[![Click for Full Screen WSI](./screenshots/BS25-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS25/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS25/HE.html)
+
+```
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**duodenum, NET**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS25-CHR_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS25/CHR.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS25/CHR.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**duodenum, NET**
+
+[![Click for Full Screen WSI](./screenshots/BS25-CHR_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS25/CHR.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS25/CHR.html)
+
+```
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**duodenum, NET**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS25-SYN_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS25/SYN.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS25/SYN.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**duodenum, NET**
+
+[![Click for Full Screen WSI](./screenshots/BS25-SYN_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS25/SYN.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS25/SYN.html)
+
+```
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS25/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS25/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS25/CHR.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS25/CHR.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS25/SYN.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS25/SYN.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+### Diagnosis
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı için tıklayın
+
+duodenum, NET
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Click for Diagnosis
+
+duodenum, NET
+
+:::
+
+```
+
+
+
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r language BS26, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis özofagus, SCC radyoterapi sonrası keratin granülomları TR , echo = (language == "TR")}
+## BS26 - özofagus, SCC radyoterapi sonrası keratin granülomları {#sec-BS26 }
+```
+
+
+```{asis esophagus, keratin granulomas after radiotherapy for SCC EN , echo = (language == "EN")}
+## BS26 - esophagus, keratin granulomas after radiotherapy for SCC {#sec-BS26 }
+```
+
+
+
+
+
+
+```{r BS26 screenshot HE, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS26-HE_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS26/HE.html",
+  file = "./screenshots/BS26-HE_screenshot.png"
+)
+}
+```
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**özofagus, SCC radyoterapi sonrası keratin granülomları**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS26-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS26/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS26/HE.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**esophagus, keratin granulomas after radiotherapy for SCC**
+
+[![Click for Full Screen WSI](./screenshots/BS26-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS26/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS26/HE.html)
+
+```
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS26/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS26/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+### Diagnosis
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı için tıklayın
+
+özofagus, SCC radyoterapi sonrası keratin granülomları
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Click for Diagnosis
+
+esophagus, keratin granulomas after radiotherapy for SCC
+
+:::
+
+```
+
+
+
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+
+```{r language BS27, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis lenfanjiektazi duodenum TR , echo = (language == "TR")}
+## BS27 - lenfanjiektazi duodenum {#sec-BS27 }
+```
+
+
+```{asis lymphangiectasia duodenum EN , echo = (language == "EN")}
+## BS27 - lymphangiectasia duodenum {#sec-BS27 }
+```
+
+
+
+
+
+
+```{r BS27 screenshot HE, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS27-HE_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS27/HE.html",
+  file = "./screenshots/BS27-HE_screenshot.png"
+)
+}
+```
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**lenfanjiektazi duodenum**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS27-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS27/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS27/HE.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**lymphangiectasia duodenum**
+
+[![Click for Full Screen WSI](./screenshots/BS27-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS27/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS27/HE.html)
+
+```
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS27/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS27/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r language BS28, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis PanNET metastazı, karaciğer TR , echo = (language == "TR")}
+## BS28 - PanNET metastazı, karaciğer {#sec-BS28 }
+```
+
+
+```{asis metastatic PanNET, liver EN , echo = (language == "EN")}
+## BS28 - metastatic PanNET, liver {#sec-BS28 }
+```
+
+
+
+
+
+
+```{r BS28 screenshot HE, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS28-HE_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS28/HE.html",
+  file = "./screenshots/BS28-HE_screenshot.png"
+)
+}
+```
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**PanNET metastazı, karaciğer**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS28-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS28/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS28/HE.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**metastatic PanNET, liver**
+
+[![Click for Full Screen WSI](./screenshots/BS28-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS28/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS28/HE.html)
+
+```
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS28/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS28/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+### Diagnosis
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı için tıklayın
+
+PanNET metastazı, karaciğer
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Click for Diagnosis
+
+metastatic PanNET, liver
+
+:::
+
+```
+
+
+
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r language BS29, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis iskemik kolit TR , echo = (language == "TR")}
+## BS29 - iskemik kolit {#sec-BS29 }
+```
+
+
+```{asis ischemic colitis EN , echo = (language == "EN")}
+## BS29 - ischemic colitis {#sec-BS29 }
+```
+
+
+
+
+
+
+```{r BS29 screenshot HE, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS29-HE_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS29/HE.html",
+  file = "./screenshots/BS29-HE_screenshot.png"
+)
+}
+```
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**iskemik kolit**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS29-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS29/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS29/HE.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**ischemic colitis**
+
+[![Click for Full Screen WSI](./screenshots/BS29-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS29/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS29/HE.html)
+
+```
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS29/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS29/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r language BS30, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis embolizan mikrosferül TR , echo = (language == "TR")}
+## BS30 - embolizan mikrosferül {#sec-BS30 }
+```
+
+
+```{asis embolisation microspheres EN , echo = (language == "EN")}
+## BS30 - embolisation microspheres {#sec-BS30 }
+```
+
+
+
+
+
+
+```{r BS30 screenshot HE, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS30-HE_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS30/HE.html",
+  file = "./screenshots/BS30-HE_screenshot.png"
+)
+}
+```
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**embolizan mikrosferül**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS30-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS30/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS30/HE.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**embolisation microspheres**
+
+[![Click for Full Screen WSI](./screenshots/BS30-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS30/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS30/HE.html)
+
+```
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS30/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS30/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+### Diagnosis
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı için tıklayın
+
+embolizan mikrosferül
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Click for Diagnosis
+
+embolisation microspheres
+
+:::
+
+```
+
+
+
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r language BS31, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis cryptosporidium TR , echo = (language == "TR")}
+## BS31 - cryptosporidium {#sec-BS31 }
+```
+
+
+```{asis cryptosporidium EN , echo = (language == "EN")}
+## BS31 - cryptosporidium {#sec-BS31 }
+```
+
+
+
+
+
+
+```{r BS31 screenshot HE1, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS31-HE1_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS31/HE1.html",
+  file = "./screenshots/BS31-HE1_screenshot.png"
+)
+}
+```
+
+
+
+
+
+
+```{r BS31 screenshot HE2, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS31-HE2_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS31/HE2.html",
+  file = "./screenshots/BS31-HE2_screenshot.png"
+)
+}
+```
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**cryptosporidium**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS31-HE1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS31/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS31/HE1.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**cryptosporidium**
+
+[![Click for Full Screen WSI](./screenshots/BS31-HE1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS31/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS31/HE1.html)
+
+```
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**cryptosporidium**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS31-HE2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS31/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS31/HE2.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**cryptosporidium**
+
+[![Click for Full Screen WSI](./screenshots/BS31-HE2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS31/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS31/HE2.html)
+
+```
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS31/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS31/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS31/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS31/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+### Diagnosis
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı için tıklayın
+
+cryptosporidium
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Click for Diagnosis
+
+cryptosporidium
+
+:::
+
+```
+
+
+
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r language BS32, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis isospora TR , echo = (language == "TR")}
+## BS32 - isospora {#sec-BS32 }
+```
+
+
+```{asis isospora EN , echo = (language == "EN")}
+## BS32 - isospora {#sec-BS32 }
+```
+
+
+
+
+
+
+```{r BS32 screenshot HE1, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS32-HE1_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS32/HE1.html",
+  file = "./screenshots/BS32-HE1_screenshot.png"
+)
+}
+```
+
+
+
+
+
+
+```{r BS32 screenshot HE2, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS32-HE2_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS32/HE2.html",
+  file = "./screenshots/BS32-HE2_screenshot.png"
+)
+}
+```
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**isospora**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS32-HE1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS32/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS32/HE1.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**isospora**
+
+[![Click for Full Screen WSI](./screenshots/BS32-HE1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS32/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS32/HE1.html)
+
+```
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**isospora**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS32-HE2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS32/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS32/HE2.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**isospora**
+
+[![Click for Full Screen WSI](./screenshots/BS32-HE2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS32/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS32/HE2.html)
+
+```
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS32/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS32/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS32/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS32/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+### Diagnosis
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı için tıklayın
+
+isospora
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Click for Diagnosis
+
+isospora
+
+:::
+
+```
+
+
+
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
