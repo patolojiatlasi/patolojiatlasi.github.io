@@ -2095,6 +2095,1081 @@ lipopeliosis
 
 
 
+```{r language BS14, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis miksoid adenoma, karaciğer TR , echo = (language == "TR")}
+## BS14 - miksoid adenoma, karaciğer {#sec-BS14 }
+```
+
+
+```{asis myxoid adenomatosis, liver EN , echo = (language == "EN")}
+## BS14 - myxoid adenomatosis, liver {#sec-BS14 }
+```
+
+
+
+
+
+
+```{r BS14 screenshot HE, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS14-HE_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS14/HE.html",
+  file = "./screenshots/BS14-HE_screenshot.png"
+)
+}
+```
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**miksoid adenoma, karaciğer**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS14-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS14/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS14/HE.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**myxoid adenomatosis, liver**
+
+[![Click for Full Screen WSI](./screenshots/BS14-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS14/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS14/HE.html)
+
+```
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS14/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS14/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+### Diagnosis
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı için tıklayın
+
+miksoid adenoma, karaciğer
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Click for Diagnosis
+
+myxoid adenomatosis, liver
+
+:::
+
+```
+
+
+
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r language BS15, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis endometriozis, kolon duvarı TR , echo = (language == "TR")}
+## BS15 - endometriozis, kolon duvarı {#sec-BS15 }
+```
+
+
+```{asis endometriosis, colon wall EN , echo = (language == "EN")}
+## BS15 - endometriosis, colon wall {#sec-BS15 }
+```
+
+
+
+
+
+
+```{r BS15 screenshot HE, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS15-HE_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS15/HE.html",
+  file = "./screenshots/BS15-HE_screenshot.png"
+)
+}
+```
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**endometriozis, kolon duvarı**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS15-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS15/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS15/HE.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**endometriosis, colon wall**
+
+[![Click for Full Screen WSI](./screenshots/BS15-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS15/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS15/HE.html)
+
+```
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS15/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS15/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+### Diagnosis
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı için tıklayın
+
+endometriozis, kolon duvarı
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Click for Diagnosis
+
+endometriosis, colon wall
+
+:::
+
+```
+
+
+
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r language BS16, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis metastatik karsinom, omentum TR , echo = (language == "TR")}
+## BS16 - metastatik karsinom, omentum {#sec-BS16 }
+```
+
+
+```{asis metastatic carcinoma, omentum EN , echo = (language == "EN")}
+## BS16 - metastatic carcinoma, omentum {#sec-BS16 }
+```
+
+
+
+
+
+
+```{r BS16 screenshot HE, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS16-HE_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS16/HE.html",
+  file = "./screenshots/BS16-HE_screenshot.png"
+)
+}
+```
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**metastatik karsinom, omentum**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS16-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS16/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS16/HE.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**metastatic carcinoma, omentum**
+
+[![Click for Full Screen WSI](./screenshots/BS16-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS16/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS16/HE.html)
+
+```
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS16/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS16/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+### Diagnosis
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı için tıklayın
+
+metastatik karsinom, omentum
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Click for Diagnosis
+
+metastatic carcinoma, omentum
+
+:::
+
+```
+
+
+
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+```{r language BS17, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis CMV hepatiti, karaciğer TR , echo = (language == "TR")}
+## BS17 - CMV hepatiti, karaciğer {#sec-BS17 }
+```
+
+
+```{asis CMV hepatitis, liver EN , echo = (language == "EN")}
+## BS17 - CMV hepatitis, liver {#sec-BS17 }
+```
+
+
+
+
+
+
+```{r BS17 screenshot HE, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS17-HE_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS17/HE.html",
+  file = "./screenshots/BS17-HE_screenshot.png"
+)
+}
+```
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**CMV hepatiti, karaciğer**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS17-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS17/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS17/HE.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**CMV hepatitis, liver**
+
+[![Click for Full Screen WSI](./screenshots/BS17-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS17/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS17/HE.html)
+
+```
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS17/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS17/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+### Diagnosis
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı için tıklayın
+
+CMV hepatiti, karaciğer
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Click for Diagnosis
+
+CMV hepatitis, liver
+
+:::
+
+```
+
+
+
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r language BS18, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis kistik fibrozis, sinüzoidal obstrüksiyon, karaciğer TR , echo = (language == "TR")}
+## BS18 - kistik fibrozis, sinüzoidal obstrüksiyon, karaciğer {#sec-BS18 }
+```
+
+
+```{asis cystic fibrosis, sinusoidal obstruction, liver EN , echo = (language == "EN")}
+## BS18 - cystic fibrosis, sinusoidal obstruction, liver {#sec-BS18 }
+```
+
+
+
+
+
+
+```{r BS18 screenshot HE1, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS18-HE1_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS18/HE1.html",
+  file = "./screenshots/BS18-HE1_screenshot.png"
+)
+}
+```
+
+
+
+
+
+
+```{r BS18 screenshot HE2, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS18-HE2_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS18/HE2.html",
+  file = "./screenshots/BS18-HE2_screenshot.png"
+)
+}
+```
+
+
+
+
+
+
+```{r BS18 screenshot PAS, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS18-PAS_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS18/PAS.html",
+  file = "./screenshots/BS18-PAS_screenshot.png"
+)
+}
+```
+
+
+
+
+
+
+```{r BS18 screenshot PASD, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS18-PASD_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS18/PASD.html",
+  file = "./screenshots/BS18-PASD_screenshot.png"
+)
+}
+```
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**kistik fibrozis, sinüzoidal obstrüksiyon, karaciğer**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS18-HE1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS18/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS18/HE1.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**cystic fibrosis, sinusoidal obstruction, liver**
+
+[![Click for Full Screen WSI](./screenshots/BS18-HE1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS18/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS18/HE1.html)
+
+```
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**kistik fibrozis, sinüzoidal obstrüksiyon, karaciğer**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS18-HE2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS18/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS18/HE2.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**cystic fibrosis, sinusoidal obstruction, liver**
+
+[![Click for Full Screen WSI](./screenshots/BS18-HE2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS18/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS18/HE2.html)
+
+```
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**kistik fibrozis, sinüzoidal obstrüksiyon, karaciğer**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS18-PAS_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS18/PAS.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS18/PAS.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**cystic fibrosis, sinusoidal obstruction, liver**
+
+[![Click for Full Screen WSI](./screenshots/BS18-PAS_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS18/PAS.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS18/PAS.html)
+
+```
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**kistik fibrozis, sinüzoidal obstrüksiyon, karaciğer**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS18-PASD_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS18/PASD.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS18/PASD.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**cystic fibrosis, sinusoidal obstruction, liver**
+
+[![Click for Full Screen WSI](./screenshots/BS18-PASD_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS18/PASD.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS18/PASD.html)
+
+```
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS18/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS18/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS18/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS18/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS18/PAS.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS18/PAS.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS18/PASD.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS18/PASD.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+### Diagnosis
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı için tıklayın
+
+kistik fibrozis, sinüzoidal obstrüksiyon, karaciğer
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Click for Diagnosis
+
+cystic fibrosis, sinusoidal obstruction, liver
+
+:::
+
+```
+
+
+
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r language BS19, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis psödoinklüzyon, ilaç etkisi, karaciğer, KİT hastası TR , echo = (language == "TR")}
+## BS19 - psödoinklüzyon, ilaç etkisi, karaciğer, KİT hastası {#sec-BS19 }
+```
+
+
+```{asis pseudoinclusion, drug-induced injury, liver, bone marrow transplantation history EN , echo = (language == "EN")}
+## BS19 - pseudoinclusion, drug-induced injury, liver, bone marrow transplantation history {#sec-BS19 }
+```
+
+
+
+
+
+
+```{r BS19 screenshot HE, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS19-HE_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS19/HE.html",
+  file = "./screenshots/BS19-HE_screenshot.png"
+)
+}
+```
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**psödoinklüzyon, ilaç etkisi, karaciğer, KİT hastası**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS19-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS19/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS19/HE.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**pseudoinclusion, drug-induced injury, liver, bone marrow transplantation history**
+
+[![Click for Full Screen WSI](./screenshots/BS19-HE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS19/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS19/HE.html)
+
+```
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS19/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS19/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+### Diagnosis
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı için tıklayın
+
+psödoinklüzyon, ilaç etkisi, karaciğer, KİT hastası
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Click for Diagnosis
+
+pseudoinclusion, drug-induced injury, liver, bone marrow transplantation history
+
+:::
+
+```
+
+
+
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

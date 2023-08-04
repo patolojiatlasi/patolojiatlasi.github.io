@@ -49,6 +49,8 @@ webpages <- df_links %>%
 
 write(x = webpages, file = "./webpages.txt")
 
+
+
 js_array <- paste0('var webPages = [', paste0('"', webpages, '"', collapse = ", "), '];')
 
 js_file <- "webpages.js"
@@ -60,59 +62,24 @@ writeLines(js_array, js_file)
 
 
 
-markdown <- qmd_content
-
-# Extract headings
-headings <- stringr::str_extract(markdown, "^#+\\s.+")
-headings <- stringr::str_replace_all(headings, "^#+\\s", "") # Remove the hash symbols and leading spaces
-headings <- stringr::str_replace_all(headings, "\\{.*?\\}", "")
-headings <- stringr::str_trim(headings)
-
-
-# Extract links
-# links <- stringr::str_extract_all(markdown, "\\[(.*?)\\]\\((https://images.patolojiatlasi.com/.*?\\.html)\\)")
-links <- stringr::str_extract_all(markdown, "https://images.patolojiatlasi.com/.*?\\.html")
-
-images <- stringr::str_extract_all(markdown, "./screenshots/.*?\\_screenshot.png")
-
-
-
-
-# Output the results
-output <- character()
-
-for (i in seq_along(headings)) {
-  output <- c(output, paste("Heading:", headings[i]))
-
-  if (length(links) >= i && length(links[[i]]) > 0) {
-    output <- c(output, "Links:")
-    output <- c(output, links[[i]])
-  } else {
-    output <- c(output, "No links found.")
-  }
-
-  # Extract images
-
-
-    if (length(images) >= i && length(images[[i]]) > 0) {
-    output <- c(output, "Images:")
-    output <- c(output, images[[i]])
-  } else {
-    output <- c(output, "No images found.")
-  }
-
-  output <- c(output, "") # Add an empty line between sections
-}
-
-# Convert output to data frame
-df_output <- data.frame(Info = output, stringsAsFactors = FALSE)
-
-
-
-
-
-
-
+# markdown <- qmd_content
+#
+# # Extract headings
+# headings <- stringr::str_extract(markdown, "^#+\\s.+")
+# headings <- stringr::str_replace_all(headings, "^#+\\s", "") # Remove the hash symbols and leading spaces
+# headings <- stringr::str_replace_all(headings, "\\{.*?\\}", "")
+# headings <- stringr::str_trim(headings)
+#
+#
+# # Extract links
+# # links <- stringr::str_extract_all(markdown, "\\[(.*?)\\]\\((https://images.patolojiatlasi.com/.*?\\.html)\\)")
+# links <- stringr::str_extract_all(markdown, "https://images.patolojiatlasi.com/.*?\\.html")
+#
+# images <- stringr::str_extract_all(markdown, "./screenshots/.*?\\_screenshot.png")
+#
+#
+#
+#
 # # Output the results
 # output <- character()
 #
@@ -126,75 +93,110 @@ df_output <- data.frame(Info = output, stringsAsFactors = FALSE)
 #     output <- c(output, "No links found.")
 #   }
 #
+#   # Extract images
+#
+#
+#     if (length(images) >= i && length(images[[i]]) > 0) {
+#     output <- c(output, "Images:")
+#     output <- c(output, images[[i]])
+#   } else {
+#     output <- c(output, "No images found.")
+#   }
+#
 #   output <- c(output, "") # Add an empty line between sections
 # }
 #
 # # Convert output to data frame
-# df <- data.frame(Info = output, stringsAsFactors = FALSE)
-
-
-df_output_2 <- df_output %>%
-  dplyr::distinct() %>%
-  dplyr::filter(!is.na(Info)) %>%
-  dplyr::filter(!(Info == "")) %>%
-  dplyr::filter(!(Info == "No links found.")) %>%
-  dplyr::filter(!(Info == "Heading: NA")) %>%
-  dplyr::filter(!(Info == "Links:")) %>%
-  dplyr::filter(!(Info == "No images found.")) %>%
-  dplyr::filter(!(Info == "Images:"))
-
-
-
-
-texts <- paste0(df_output_2$Info, collapse = " ")
-
-texts <- stringr::str_extract_all(string = texts,
-                     pattern = "Heading: .*?\\.html")
-
-texts <- unlist(texts)
-
-texts <- stringr::str_replace_all(string = texts,
-                                  pattern = "Heading: ",
-                                  replacement = "")
-
-
-texts <- stringr::str_replace_all(string = texts,
-                                  pattern = "./screenshots/",
-                                  replacement = "https://www.patolojiatlasi.com/screenshots/")
-
-texts <- data.frame(texts = texts)
-
-wp_string <- dplyr::sample_n(texts, 1)
-
-wp_string <- wp_string$texts[1]
-
-
-wp_text <- paste0(wp_string,
-                  " #dijitalpatoloji #WSI ",
-                  " #patolojiatlasi #patolojinotlari ",
-                  " #histopathologyatlas #memorialpatoloji ",
-                  .sep ="")
-
-
-wp_text <- gsub(pattern = "https://www.patolojiatlasi.com/screenshots/",
-                replacement = "<img src='https://www.patolojiatlasi.com/screenshots/",
-                x = wp_text)
-
-wp_text <- gsub(pattern = "_screenshot.png",
-                replacement = "_screenshot.jpg'>",
-                x = wp_text)
-
-writeLines(text = wp_text, "./wp_text.txt")
-
-wp_heading <- paste0(wp_string,
-                    " #dijitalpatoloji #WSI ",
-                    " #patolojiatlasi #patolojinotlari ",
-                    " #histopathologyatlas #memorialpatoloji ",
-                          .sep ="")
-
-wp_heading <- gsub(pattern = "https?://[^ ]+\\.png",
-                   replacement = "",
-                   x = wp_heading)
-
-writeLines(text = wp_heading, "./wp_heading.txt")
+# df_output <- data.frame(Info = output, stringsAsFactors = FALSE)
+#
+#
+#
+#
+#
+#
+#
+# # # Output the results
+# # output <- character()
+# #
+# # for (i in seq_along(headings)) {
+# #   output <- c(output, paste("Heading:", headings[i]))
+# #
+# #   if (length(links) >= i && length(links[[i]]) > 0) {
+# #     output <- c(output, "Links:")
+# #     output <- c(output, links[[i]])
+# #   } else {
+# #     output <- c(output, "No links found.")
+# #   }
+# #
+# #   output <- c(output, "") # Add an empty line between sections
+# # }
+# #
+# # # Convert output to data frame
+# # df <- data.frame(Info = output, stringsAsFactors = FALSE)
+#
+#
+# df_output_2 <- df_output %>%
+#   dplyr::distinct() %>%
+#   dplyr::filter(!is.na(Info)) %>%
+#   dplyr::filter(!(Info == "")) %>%
+#   dplyr::filter(!(Info == "No links found.")) %>%
+#   dplyr::filter(!(Info == "Heading: NA")) %>%
+#   dplyr::filter(!(Info == "Links:")) %>%
+#   dplyr::filter(!(Info == "No images found.")) %>%
+#   dplyr::filter(!(Info == "Images:"))
+#
+#
+#
+#
+# texts <- paste0(df_output_2$Info, collapse = " ")
+#
+# texts <- stringr::str_extract_all(string = texts,
+#                      pattern = "Heading: .*?\\.html")
+#
+# texts <- unlist(texts)
+#
+# texts <- stringr::str_replace_all(string = texts,
+#                                   pattern = "Heading: ",
+#                                   replacement = "")
+#
+#
+# texts <- stringr::str_replace_all(string = texts,
+#                                   pattern = "./screenshots/",
+#                                   replacement = "https://www.patolojiatlasi.com/screenshots/")
+#
+# texts <- data.frame(texts = texts)
+#
+# wp_string <- dplyr::sample_n(texts, 1)
+#
+# wp_string <- wp_string$texts[1]
+#
+#
+# wp_text <- paste0(wp_string,
+#                   " #dijitalpatoloji #WSI ",
+#                   " #patolojiatlasi #patolojinotlari ",
+#                   " #histopathologyatlas #memorialpatoloji ",
+#                   .sep ="")
+#
+#
+# wp_text <- gsub(pattern = "https://www.patolojiatlasi.com/screenshots/",
+#                 replacement = "<img src='https://www.patolojiatlasi.com/screenshots/",
+#                 x = wp_text)
+#
+# wp_text <- gsub(pattern = "_screenshot.png",
+#                 replacement = "_screenshot.jpg'>",
+#                 x = wp_text)
+#
+# writeLines(text = wp_text, "./wp_text.txt")
+#
+# wp_heading <- paste0(wp_string,
+#                     " #dijitalpatoloji #WSI ",
+#                     " #patolojiatlasi #patolojinotlari ",
+#                     " #histopathologyatlas #memorialpatoloji ",
+#                           .sep ="")
+#
+# wp_heading <- gsub(pattern = "https?://[^ ]+\\.png",
+#                    replacement = "",
+#                    x = wp_heading)
+#
+# writeLines(text = wp_heading, "./wp_heading.txt")
 

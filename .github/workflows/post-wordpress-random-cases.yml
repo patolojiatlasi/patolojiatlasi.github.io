@@ -79,7 +79,7 @@ jobs:
         names(WordpressLogin) <- WP_USER_NAME
         options(WordpressLogin = WordpressLogin)
         options(knitr.knit2wp.warning = FALSE)
-        # source('./R/extract-html-links.R')
+        source('./R/extract-html-links.R')
         source('./R/tweet-random-cases.R')
         # textWP <- readLines("./wp_text.txt")
         textWP <- readLines("./tweetstring.txt")
