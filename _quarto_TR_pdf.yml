@@ -293,18 +293,29 @@ comments:
     repo: patolojiatlasi/patolojiatlasi.github.io
 
 format:
-  pdf: default
+  pdf:
+    documentclass: scrbook
+    include-in-header:
+      text: |
+        \usepackage{makeidx}
+        \makeindex
+    include-after-body:
+      text: |
+        \printindex
+    toc: true
+    toc-depth: 3
+    toc-title: "İçindekiler"
+    number-sections: true
+    number-depth: 3
+    colorlinks: true
+
+
+#
     # keep-tex: true
     # documentclass: scrbook
 #     classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,12pt]
 #
 # #    documentclass: scrreprt
-#     toc: true
-#     toc-depth: 3
-#     toc-title: "İçindekiler"
-#     number-sections: true
-#     number-depth: 3
-#     colorlinks: true
 #     highlight-style: github
 #     execute:
 #       warning: false
@@ -334,6 +345,9 @@ format:
 
 
 # https://quarto.org/docs/reference/formats/pdf.html
+
+# https://www.memorial.com.tr/doktorlar/zeynep-pehlivanoglu-k
+
 
 
 citation:
