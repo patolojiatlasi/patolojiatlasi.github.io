@@ -31,6 +31,10 @@ df_links <- df_links %>%
   dplyr::filter(!is.na(links))
 
 
+df_links <- dplyr::sample_n(df_links, 1)
+
+
+
 df_links <- df_links %>%
   dplyr::mutate(
     images = stringr::str_extract(string = links,
@@ -63,11 +67,10 @@ df_links <- df_links %>%
   )
 
 
-random_df_link <- dplyr::sample_n(df_links, 1)
 
-web_link <- random_df_link$web[1]
+web_link <- df_links$web[1]
 
-img_link <- random_df_link$images[1]
+img_link <- df_links$images[1]
 
 text_heading <- paste0("View this #wholeslideimage in #HistopathologyAtlas ",
                   web_link,
@@ -81,7 +84,7 @@ text_body <- paste0("View this #wholeslideimage in #HistopathologyAtlas ",
                   " #digitalpathology #WSI #preparat",
                   " #patolojiatlasi #patolojinotlari #histopathologyatlas",
                   " #memorialsaglik #memorialpatoloji",
-                  "<br><img src='", img_link, "'></img><br>"
+                  "<br><img src='", img_link, "'></img><br>",
                   .sep ="")
 
 
