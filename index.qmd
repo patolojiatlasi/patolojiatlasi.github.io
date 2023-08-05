@@ -33,28 +33,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-```{comment}
-
-[![](./images/TR_Apple_Books_Badge_Get_RGB_080618.svg)](https://books.apple.com/us/book/id6456452218)
-
-https://books.apple.com/us/book/patoloji-atlas%C4%B1/id6456452218?itsct=books_box_link&itscg=30200&ls=1
-
-https://apple.co/44WLy11
-
-<a href="https://books.apple.com/us/book/patoloji-atlas%C4%B1/id6456452218?itscg=30200&amp;itsct=books_box_appicon&amp;ls=1" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 83px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/app-icon-books-new/standard/en-us?size=83x83&amp;releaseDate=1690848000" alt="App Icon Apple Books" style="border-radius: 13px; width: 83px; height: 83px;"></a>
-
-```
-
-
-
-```{asis, echo = (output_type=="html")}
-
-<a href="https://books.apple.com/us/book/patoloji-atlas%C4%B1/id6456452218?itscg=30200&amp;itsct=books_box_badge&amp;ls=1" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/get-it-on-apple-books/badge/tr-tr?size=250x83&amp;releaseDate=1690848000" alt="Get it on Apple Books" style="border-radius: 13px; width: 250px; height: 83px;"></img></a>
-
-
-```
-
-
 ```{asis, echo = (output_type=="html")}
 
 <iframe width='160' height='400' src='https://leanpub.com/patolojiatlasi/embed' frameborder='0' allowtransparency='true'></iframe>
@@ -77,6 +55,35 @@ https://books.google.com.tr/books/about?id=um5jEAAAQBAJ
 
 
 ```
+
+
+
+
+
+```{asis, echo = (output_type=="html")}
+
+<a href="https://books.apple.com/us/book/patoloji-atlas%C4%B1/id6456452218?itscg=30200&amp;itsct=books_box_badge&amp;ls=1" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/get-it-on-apple-books/badge/tr-tr?size=250x83&amp;releaseDate=1690848000" alt="Get it on Apple Books" style="border-radius: 13px; width: 250px; height: 83px;"></img></a>
+
+
+```
+
+
+
+
+```{comment}
+
+[![](./images/TR_Apple_Books_Badge_Get_RGB_080618.svg)](https://books.apple.com/us/book/id6456452218)
+
+https://books.apple.com/us/book/patoloji-atlas%C4%B1/id6456452218?itsct=books_box_link&itscg=30200&ls=1
+
+https://apple.co/44WLy11
+
+<a href="https://books.apple.com/us/book/patoloji-atlas%C4%B1/id6456452218?itscg=30200&amp;itsct=books_box_appicon&amp;ls=1" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 83px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/app-icon-books-new/standard/en-us?size=83x83&amp;releaseDate=1690848000" alt="App Icon Apple Books" style="border-radius: 13px; width: 83px; height: 83px;"></a>
+
+```
+
+
+
 
 
 

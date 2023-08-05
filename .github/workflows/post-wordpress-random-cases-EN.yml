@@ -1,7 +1,7 @@
 name: Post Wordpress Random Cases EN
 on:
   workflow_dispatch:
-  push:
+  # push:
   schedule:
     - cron: '0 18 * * 1'
 
