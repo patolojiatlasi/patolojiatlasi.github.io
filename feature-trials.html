@@ -1,0 +1,1701 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="tr" xml:lang="tr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.176">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Serdar Balcı">
+<meta name="dcterms.date" content="2023-08-05">
+<meta name="description" content="gelistirme, yonetim, development, patoloji, atlas, pathology, whole slide image, patolojiatlasi, histopathologyatlas, wsi">
+
+<title>feature-trials</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="feature-trials_files/libs/clipboard/clipboard.min.js"></script>
+<script src="feature-trials_files/libs/quarto-html/quarto.js"></script>
+<script src="feature-trials_files/libs/quarto-html/popper.min.js"></script>
+<script src="feature-trials_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="feature-trials_files/libs/quarto-html/anchor.min.js"></script>
+<link href="feature-trials_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="feature-trials_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="feature-trials_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="feature-trials_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="feature-trials_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="feature-trials_files/libs/quarto-contrib/collapse-social-embeds-1.0.0/collapse.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-full">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+</div>
+<main class="content page-columns page-full column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Alt GIS Tümörleri</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">gelistirme</div>
+    <div class="quarto-category">yonetim</div>
+    <div class="quarto-category">development</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    <p>gelistirme, yonetim, development, patoloji, atlas, pathology, whole slide image, patolojiatlasi, histopathologyatlas, wsi</p>
+  </div>
+</div>
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 5, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p>🔬🔬🔬🔬 UNDER CONSTRUCTION 🛠⛔️⚠️🔩</p>
+<div class="youtube">
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div id="youtube-frame" style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0;"><iframe width="100%" height="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/7JOOmePPtXI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</div>
+</div>
+</div>
+</div>
+<iframe class="slide-deck" src="./_lecture-notes/alt-gis-tumorleri.html" width="100%" height="475px"></iframe>
+<p><img src="./img/Alt-GIS-Tumorleri-sunum0.jpg" class="img-fluid"></p>
+<section id="alt-gis-tümörleri" class="level2">
+<h2 class="anchored" data-anchor-id="alt-gis-tümörleri">Alt GIS tümörleri</h2>
+</section>
+<section id="dr.-serdar-balci" class="level2">
+<h2 class="anchored" data-anchor-id="dr.-serdar-balci">Dr.&nbsp;Serdar BALCI</h2>
+<p>https://sites.google.com/view/drserdarbalci/ https://www.serdarbalci.com/</p>
+</section>
+<section id="polipler" class="level2">
+<h2 class="anchored" data-anchor-id="polipler">Polipler</h2>
+<ul>
+<li><strong>En sık kolonda</strong></li>
+<li><strong>Özefagus, mide, ince barsakta da olabilir</strong></li>
+<li><strong>Sapsız olanlara sesil polip denir</strong></li>
+<li><strong>En sık görülen neoplastik polip adenom</strong></li>
+<li><strong>Non-neoplastik kolon polipleri</strong>
+<ul>
+<li><strong>Inflamatuar, hamartomatöz, hiperplastik</strong></li>
+</ul></li>
+</ul>
+</section>
+<section id="polyps" class="level2">
+<h2 class="anchored" data-anchor-id="polyps">Polyps</h2>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum1.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum2.jpg" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum3.jpg" class="img-fluid"></p>
+</section>
+<section id="inflamatuar-polipler" class="level2">
+<h2 class="anchored" data-anchor-id="inflamatuar-polipler">İnflamatuar polipler</h2>
+<ul>
+<li><strong>Kronik hasar ve tamir sonucu inflame, rekatif mukozadan oluşurlar</strong></li>
+<li><strong>Soliter rektal ülse sendromu sonrası oluşan polip</strong>
+<ul>
+<li><strong>Rektal kanama, mukus akıntısı, anterior duvarda inflamasyon</strong></li>
+<li><strong>Anorektal sfinkterde relaksasyon sorunu</strong></li>
+</ul></li>
+</ul>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum4.png" class="img-fluid"></p>
+<p><strong>Robbins and Cotran Pathologic Basis of Disease</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum5.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum6.png" class="img-fluid"></p>
+</section>
+<section id="hamartomatöz-polipler" class="level2">
+<h2 class="anchored" data-anchor-id="hamartomatöz-polipler">Hamartomatöz polipler</h2>
+<p><strong>Sporadik</strong></p>
+<p><strong>Genetik, akkiz sendromlarla ilişkili</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum7.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="juvenil-polipler" class="level2">
+<h2 class="anchored" data-anchor-id="juvenil-polipler">Juvenil Polipler</h2>
+<ul>
+<li><strong>En sık görülen hamartomatöz polip</strong></li>
+<li><strong>&lt;5 yaş</strong></li>
+<li><strong>Rektum</strong></li>
+<li><strong>Rektal kanama, prolaps</strong></li>
+<li><strong>Sporadik olanlar soliter</strong></li>
+<li><strong>Autosomal dominant juvenil polypo zis sendromu 3-100 polip</strong>
+<ul>
+<li><strong>Kolektomi</strong></li>
+</ul></li>
+<li><strong>Displazi küçük ibr kısmında olur (sendrom ilişkili)</strong>
+<ul>
+<li><strong>Sendrom adenokarsinom gelişimi açısından riskli</strong></li>
+</ul></li>
+<li><strong>Mukozadaki hiperplazi, transforming growth factor-β (TGF-β) yolağı ile ilişkili</strong></li>
+</ul>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum8.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum9.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum10.png" class="img-fluid"></p>
+<p><strong>SAplı, düzgün yüzeyli, kırmızı lezyonlar</strong></p>
+<p><strong>&lt;3 cm</strong></p>
+<p><strong>Kesit yüzünde kistik</strong></p>
+<p><strong>Müsin ve inflamasyon kalıntısından oluşan debri</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="peutz-jeghers-sendromu" class="level2">
+<h2 class="anchored" data-anchor-id="peutz-jeghers-sendromu">Peutz-Jeghers Sendromu</h2>
+<ul>
+<li><strong>Nadir otozomal dominant</strong></li>
+<li><strong>Multiple GIS polipleri ve mukokütenöz pigmentasyon</strong></li>
+<li><strong>Malignite riskinde artış: kolon, pankreas, meme, akciğer, over, uterus, testis</strong></li>
+<li><strong>LKB1/STK11 fonksiyon kaybına neden olan mutasyon, germline heterozigot ve sporadik vakalarda var</strong></li>
+<li><strong>Polipler çoğunlukla ince barsakta</strong>
+<ul>
+<li><strong>mide, kolon, mesane, akciğerde de olabiliyor</strong></li>
+</ul></li>
+</ul>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum11.png" class="img-fluid"></p>
+<p><strong>İri ve saplı</strong></p>
+<p><strong>Lobüle kontur</strong></p>
+<p><strong>Dallanan yumuşak doku, düz kas, lamina propria ve bezler</strong></p>
+<p><strong>Epitel normal</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum12.png" class="img-fluid"></p>
+<p><strong>Peutz-Jeghers polyp</strong></p>
+<p><strong>Kompleks yapı ve düz kas demetleri ile ayrılır</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="hiperplastik-polipler" class="level2">
+<h2 class="anchored" data-anchor-id="hiperplastik-polipler">Hiperplastik polipler</h2>
+<p><strong>Sık görülen epitelyal proliferasyonlar</strong></p>
+<p><strong>6-7 dekad</strong></p>
+<p><strong>Epitel hücre döngüsünde azalma, yüzeyden epitel dökülmesinde azalma, goblet hücrelerinde birikme</strong></p>
+<p><strong>Malign potansiyeli yok, sesil serrated adenomlardan ayrılmalı</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum13.png" class="img-fluid"></p>
+<p><strong>Sol kolon</strong></p>
+<p><strong>&lt;5mm</strong></p>
+<p><strong>Düzgün sınırlı, nodüler mukoza kabarıklığı</strong></p>
+<p><strong>Multipl, sigmoid ve rektum</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum14.png" class="img-fluid"></p>
+<p><strong>İrregüler birikim gösteren epitel hücreleri</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum15.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><strong>Tufting results from epithelial overcrowding</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum16.png" class="img-fluid"></p>
+<p><strong>Epitel kalabalıklaşması testere benzeri serrated görünüm verir</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum17.png" class="img-fluid"></p>
+</section>
+<section id="adenom" class="level2">
+<h2 class="anchored" data-anchor-id="adenom">Adenom</h2>
+<p><strong>GIS neoplastik kitle lezyonu</strong></p>
+<p><strong>Mukozal çıkıntı, polip oluştururlar</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="adenomlar" class="level2">
+<h2 class="anchored" data-anchor-id="adenomlar">Adenomlar</h2>
+<p><strong>Epitel displazisi</strong></p>
+<p><strong>Küçük, saplı ya da büyük sesil</strong></p>
+<p><strong>Cinsiyetler arası fark yok</strong></p>
+<p><strong>Batı dünyasında 50 yaş üstü yetişkinlerin %50’sinde</strong></p>
+<p><strong>Kolorektal kanser öncülleri</strong></p>
+<p><strong>Takip kolonoskopi</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum18.png" class="img-fluid"></p>
+<p><strong>fibromuscular stalk</strong></p>
+<p><strong>Robbins and Cotran Pathologic Basis of Disease</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum19.png" class="img-fluid"></p>
+<p><strong>Tübüler adenom, düzgün yüzey, yuvarlak glandüler yapılar</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum20.png" class="img-fluid"></p>
+<p><strong>Villöz adenom</strong></p>
+<p><strong>Uzun, ince çıkıntılar, ince barsak villuslarına benzer</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum21.png" class="img-fluid"></p>
+<p><strong>Nükleer hiperkromazi, elongasyon, sıralanma artışı</strong></p>
+<p><strong>Değişiklikler yüzeyde daha belirgi, kriptten ayrıldıkça diferasnsiayasyon kaybı oluyor</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum22.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum23.png" class="img-fluid"></p>
+<p><strong>Sessile serrated adenoma:</strong></p>
+<p><strong>Goblet hücreleri ile döşeli</strong></p>
+<p><strong>Belirign displazi yok</strong></p>
+<p><strong>Hiperplastik polipten değişikliklerin derine kadar (kripte kadar) inmesi ile ayrılır</strong></p>
+<p><strong>Sağ kolon, malignite potansiyeli var</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum24.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum25.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum26.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum27.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum28.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="familial-adenomatous-polyposis" class="level2">
+<h2 class="anchored" data-anchor-id="familial-adenomatous-polyposis">Familial Adenomatous Polyposis</h2>
+<p><strong>Otozomal dominant</strong></p>
+<p><strong>Çok sayıda adenom genç yaşta gelişir</strong></p>
+<p><strong>APC geninde mutasyon</strong></p>
+<p><strong>&gt;100 polip tanı için şart, binlerce polip olabilir</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum29.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum30.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><strong>Poliplerin sayısı fazla ama morfolojik olarak sporadik adenomlardan farkı yok</strong></p>
+<p><strong>Kolorektal kanser 30 yaş altında %100 gelişir</strong></p>
+<p><strong>Profilaktik kolektomi</strong></p>
+<p><strong>Başka neoplazilerle de ilişkisi var</strong></p>
+<ul>
+<li><strong>Gardner sendromu</strong>
+<ul>
+<li><strong>Osteom, mandibula, kafa kemiği ve uzun kemikler</strong></li>
+<li><strong>Epidermal kist</strong></li>
+<li><strong>Dezmoid ve tiroid tümörleri</strong></li>
+<li><strong>Diş anomalileri, çıkmamış ve artmış sayıda diş</strong></li>
+</ul></li>
+<li><strong>Turcot sendromu</strong>
+<ul>
+<li><strong>Daha nadir</strong></li>
+<li><strong>CNS tümörleri</strong></li>
+<li><strong>2/3 medulloblastom, APC gen mutasyonu var</strong></li>
+<li><strong>1/3 glioblastom, DNA tamir genlerinde mutasyon var</strong></li>
+</ul></li>
+<li><strong>FAP olup APC kaybı olmayan olgular</strong>
+<ul>
+<li><strong>Base excision repair gene MUTYH mutasyonu var</strong></li>
+</ul></li>
+</ul>
+</section>
+<section id="hereditary-nonpolyposis-colorectal-cancer" class="level2">
+<h2 class="anchored" data-anchor-id="hereditary-nonpolyposis-colorectal-cancer">Hereditary Nonpolyposis Colorectal Cancer</h2>
+<ul>
+<li><strong>Lynch sendromu</strong></li>
+<li><strong>Kolorektal, endometrium, mide, over, üreter, beyin, ince barsak, hepatobilier sistem, der,</strong></li>
+<li><strong>Daha genç yaşlarda ve sağ kolonda</strong></li>
+<li><strong>DNA tamir genlerinde germline mutasyon</strong>
+<ul>
+<li><strong>MSH2 veya MLH1</strong></li>
+<li><strong>HNPCC sendromunda bir mutant bir normal alle var</strong></li>
+<li><strong>İkinci vuruş olduğunda mutasyon birikim hızı 1000 kat artar</strong>
+<ul>
+<li><strong>Mutasyon ya da genetik defekt</strong></li>
+</ul></li>
+<li><strong>Kısa tekrarların olduğu DNA sekanslarındaki hasar daha belirgin hale gelir ki bu durum klibikte mikrosatellit instabilte oalrak adalandırılır ve sendrom tanısında kullanılır</strong></li>
+</ul></li>
+</ul>
+</section>
+<section id="adenokarsinom" class="level2">
+<h2 class="anchored" data-anchor-id="adenokarsinom">Adenokarsinom</h2>
+<ul>
+<li><strong>Gastrointestinal sistein en sık tümörü</strong></li>
+<li><strong>Moribidite ve mortalite nedeni</strong></li>
+<li><strong>Kanser ilişkili ölümlerin %15’I, akciğerden sonra ikinci sırada</strong></li>
+<li><strong>İnce barsak GIS’in %75’ini tutmasına rağmen tümörlerin çok azı burada oluyor</strong></li>
+<li><strong>İnsidans</strong>
+<ul>
+<li><strong>60-70 yaş arası pik yapıyor, &lt;50 yaş %20</strong></li>
+<li><strong>Erkeklerde daha sık</strong></li>
+<li><strong>ABD, Kanada, .. Gibi gelişmiş ülkelerde daha sık</strong></li>
+<li><strong>Hindistan, Güney Amerika ve Afrika’da 30x daha az</strong></li>
+<li><strong>Japon insidansı giderek artıyor</strong></li>
+</ul></li>
+<li><strong>Lifli yiyeceklerin az, karbonhidrat ve yağların fazla tüketilmesi</strong></li>
+<li><strong>NSAID koruyucu etkisi olabilir</strong></li>
+</ul>
+</section>
+<section id="apcβ-catenin-yolağı" class="level2">
+<h2 class="anchored" data-anchor-id="apcβ-catenin-yolağı">APC/β-catenin yolağı</h2>
+<p><strong>Klasik multistep adenom-karsinom dizisi</strong></p>
+<p><strong>Sporadik tümörlerin %80’i</strong></p>
+<p><strong>APC mutasyonu erken bsamakta oluyor</strong></p>
+<p><strong>Her iki allelde inaktif olmalı ki adenom gelişsin</strong></p>
+<p><strong>APC yok</strong></p>
+<p><strong>β-Catenin aktif</strong></p>
+<p><strong>WNT durumundan bağımsız</strong></p>
+<p><strong>WNT sinyali APC’yi inhibe eder</strong></p>
+<p><strong>β-Catenin çekirdeğe girer</strong></p>
+<p><strong>APC aktif</strong></p>
+<p><strong>β-Catenin yıkılır</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum31.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><strong>β-Catenin nükleusta aktif</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum32.png" class="img-fluid"></p>
+<p><strong>cyclin D1 ve MYC transkripsiyonu, proliferasyona neden olur</strong></p>
+<p><strong>TWIST ve SLUG eksorese olur</strong></p>
+<p><strong>E-cadherin ekspresyonu baskılanır</strong></p>
+<p><strong>Kontakt inhibisyon azalır</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><strong>TP53 kolon tümörlerinin %70-80’inde mutant ancak adenomlarda yok</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum33.png" class="img-fluid"></p>
+<p><strong>KRAS</strong></p>
+<p><strong>10% &lt;1cm</strong></p>
+<p><strong>50% &gt;1cm</strong></p>
+<p><strong>50% adenokarsinom</strong></p>
+<p><strong>SMAD2 ve SMAD4, TGF-β signaling effektörleri, normalde hücre siklusunu inhibe eder</strong></p>
+<p><strong>TP53 ve diğerlerindeki fonksiyon kaybı kromozomal delesyonlarla olur</strong></p>
+<p><strong>Bu yolakta kromozomal instabilite daha fazla</strong></p>
+<p><strong>Epigenetiğin de rolü var</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="mikrosatellit-instabilite-yolağı" class="level2">
+<h2 class="anchored" data-anchor-id="mikrosatellit-instabilite-yolağı">Mikrosatellit instabilite yolağı</h2>
+<p><strong>DNA mismatch tamir eksikliği</strong></p>
+<p><strong>Mutasyonlar birikir → mikrosatellit dengesizliğine neden olur</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum34.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum35.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum36.png" class="img-fluid"></p>
+</section>
+<section id="the-microsatellite-instability-pathway" class="level2">
+<h2 class="anchored" data-anchor-id="the-microsatellite-instability-pathway">The microsatellite instability pathway</h2>
+<ul>
+<li><strong>Mutations accumulate in microsatellite repeats → microsatellite instability</strong>
+<ul>
+<li><strong>Microsatellites typically are located in noncoding regions</strong></li>
+<li><strong>Microsatellite sequences located in the coding or promoter regions of genes involved in regulation of cell growth</strong>
+<ul>
+<li><strong>type II TGF-β receptor, uncontrolled growth</strong></li>
+<li><strong>pro-apoptotic protein BAX, survival of abnormal clones</strong></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum37.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum38.png" class="img-fluid"></p>
+<p><strong>BRAF mutasyonu ve epigenetik susturulması</strong></p>
+<p><strong>KRAS ve TP53 mutant değil</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="adenokarsinom-dağılımı" class="level2">
+<h2 class="anchored" data-anchor-id="adenokarsinom-dağılımı">Adenokarsinom dağılımı</h2>
+<ul>
+<li><strong>Kolon boyunca dağılım gösterir</strong></li>
+<li><strong>Proksimal kolon</strong>
+<ul>
+<li><strong>Polipoid, egzofitik</strong></li>
+<li><strong>Obstrüksiyona neden olmaz</strong></li>
+</ul></li>
+<li><strong>Distal kolon</strong>
+<ul>
+<li><strong>annular lezyonlar</strong></li>
+<li><strong>Luminal daralma</strong></li>
+<li><strong>obstrüksiyon</strong></li>
+</ul></li>
+</ul>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum39.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum40.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum41.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum42.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum43.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum44.png" class="img-fluid"></p>
+<p><strong>A: Well-differentiated adenocarcinoma. Note the elongated, hyperchromatic nuclei. Necrotic debris, present in the gland lumen, is typical.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum45.png" class="img-fluid"></p>
+<p><strong>Poorly differentiated adenocarcinoma forms a few glands but is largely composed of infiltrating nests of tumor cells.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum46.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum47.png" class="img-fluid"></p>
+<p><strong>Mucinous adenocarcinoma with signet ring cells and extracellular mucin pools</strong></p>
+<p><strong>Poor prognosis</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum48.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum49.png" class="img-fluid"></p>
+<p><strong>A: Lymph node metastasis</strong></p>
+<p><strong>Glandular structures within the subcapsular sinus.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum50.png" class="img-fluid"></p>
+<p><strong>B: Solitary subpleural nodule of colorectal carcinoma metastatic to the lung.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum51.png" class="img-fluid"></p>
+<p><strong>C: Liver containing two large and many smaller metastases. Note the central necrosis within metastases.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum52.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum53.jpg" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum54.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum55.png" class="img-fluid"></p>
+<p><strong>Autopsy Pathology: A Manual and Atlas</strong></p>
+</section>
+<section id="appendiks-tümörleri" class="level2">
+<h2 class="anchored" data-anchor-id="appendiks-tümörleri">Appendiks tümörleri</h2>
+<ul>
+<li><strong>NET (Karsinoid)</strong>
+<ul>
+<li><strong>En sık görülen tümör</strong></li>
+<li><strong>İnsidental olarak bulunuyor</strong></li>
+<li><strong>Daha çok appendiksin tip kısmında</strong></li>
+</ul></li>
+<li><strong>Düşük dereceli appendiks musinöz neoplazmları</strong>
+<ul>
+<li><strong>Mukosel</strong>
+<ul>
+<li><strong>Obstrükte appendiks içinde müsin göllenmesi</strong></li>
+</ul></li>
+<li><strong>Müsinöz adenom, müsinöz karsinom</strong></li>
+<li><strong>Psödokimsoma peritonei</strong></li>
+<li><strong>Primer over tümörünü taklit eden metastaz</strong></li>
+</ul></li>
+</ul>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum56.jpg" class="img-fluid"></p>
+</section>
+<section id="tumors-of-lower-gi-tract" class="level2">
+<h2 class="anchored" data-anchor-id="tumors-of-lower-gi-tract">Tumors of Lower GI Tract</h2>
+</section>
+<section id="serdar-balci-md" class="level2">
+<h2 class="anchored" data-anchor-id="serdar-balci-md">Serdar BALCI, MD</h2>
+</section>
+<section id="polyps-1" class="level2">
+<h2 class="anchored" data-anchor-id="polyps-1">Polyps</h2>
+<ul>
+<li><strong>Most common in the colon</strong></li>
+<li><strong>May occur in the esophagus, stomach, or small intestine</strong></li>
+<li><strong>Most common neoplastic polyp is the adenoma</strong></li>
+<li><strong>Non-neoplastic colonic polyps</strong>
+<ul>
+<li><strong>inflammatory, hamartomatous, hyperplastic</strong></li>
+</ul></li>
+</ul>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum57.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum58.jpg" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum59.jpg" class="img-fluid"></p>
+<p><strong>Those without stalks are referred to as sessile</strong></p>
+<p><strong>As sessile polyps enlarge, proliferation of cells adjacent to the polyp and the effects of traction on the luminal protrusion, may combine to create a stalk</strong></p>
+<p><strong>Polyps with stalks are termed pedunculated</strong></p>
+</section>
+<section id="inflammatory-polyps" class="level2">
+<h2 class="anchored" data-anchor-id="inflammatory-polyps">Inflammatory Polyps</h2>
+<ul>
+<li><strong>Chronic cycles of injury and healing produce a polypoid mass made up of inflamed and reactive mucosal tissue</strong></li>
+<li><strong>Polyp that forms as part of the solitary rectal ulcer syndrome</strong>
+<ul>
+<li><strong>Clinical triad of rectal bleeding, mucus discharge, and an inflammatory lesion of the anterior rectal wall</strong></li>
+<li><strong>Impaired relaxation of the anorectal sphincter</strong></li>
+</ul></li>
+</ul>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum60.png" class="img-fluid"></p>
+<p><strong>Robbins and Cotran Pathologic Basis of Disease</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum61.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum62.png" class="img-fluid"></p>
+</section>
+<section id="hamartomatous-polyps" class="level2">
+<h2 class="anchored" data-anchor-id="hamartomatous-polyps">Hamartomatous Polyps</h2>
+<p><strong>Occur sporadically</strong></p>
+<p><strong>Components of various genetically determined or acquired syndromes</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum63.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="juvenile-polyps" class="level2">
+<h2 class="anchored" data-anchor-id="juvenile-polyps">Juvenile Polyps</h2>
+<ul>
+<li><strong>Most common type of hamartomatous polyp</strong></li>
+<li><strong>Children &lt;5 years of age</strong></li>
+<li><strong>Located in the rectum</strong></li>
+<li><strong>Rectal bleeding, prolapse</strong></li>
+<li><strong>Sporadic juvenile polyps are usually solitary</strong></li>
+<li><strong>Autosomal dominant syndrome of juvenile polyposis 3-100 polyps</strong></li>
+<li><strong>Colectomy may be required</strong></li>
+<li><strong>Dysplasia occurs in a small proportion (mostly syndrome-associated)</strong>
+<ul>
+<li><strong>Juvenile polyposis syndrome is associated with increased risk for the development of colonic adenocarcinoma</strong></li>
+</ul></li>
+<li><strong>Mucosal hyperplasia, transforming growth factor-β (TGF-β)</strong></li>
+</ul>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum64.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum65.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum66.png" class="img-fluid"></p>
+<p><strong>Pedunculated, smooth-surfaced, reddish lesions</strong></p>
+<p><strong>&lt;3 cm</strong></p>
+<p><strong>Cystic spaces on cut sections</strong></p>
+<p><strong>Dilated glands filled with mucin and inflammatory debris</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="peutz-jeghers-syndrome" class="level2">
+<h2 class="anchored" data-anchor-id="peutz-jeghers-syndrome">Peutz-Jeghers Syndrome</h2>
+<p><strong>Rare autosomal dominant disorder</strong></p>
+<p><strong>Presence of multiple gastrointestinal hamartomatous polyps and mucocutaneous hyperpigmentation</strong></p>
+<p><strong>Increased risk of several malignancies, colon, pancreas, breast, lung, ovaries, uterus, and testes</strong></p>
+<p><strong>Germ line heterozygous loss-of-function mutations in the gene LKB1/STK11 are present in approximately half of the patients with the familial and subset of sporadic form</strong></p>
+<p><strong>Intestinal polyps are most common in the small intestine, may also occur in the stomach and colon, rarely, in the bladder and lungs</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum67.png" class="img-fluid"></p>
+<p><strong>Large and pedunculated</strong></p>
+<p><strong>Lobulated contour</strong></p>
+<p><strong>Arborizing network of connective tissue, smooth muscle, lamina propria, and glands lined by normal-appearing intestinal epithelium</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum68.png" class="img-fluid"></p>
+<p><strong>Peutz-Jeghers polyp. Complex glandular architecture and bundles of smooth muscle help to distinguish Peutz-Jeghers polyps from juvenile polyps.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="hyperplastic-polyps" class="level2">
+<h2 class="anchored" data-anchor-id="hyperplastic-polyps">Hyperplastic Polyps</h2>
+<p><strong>Common epithelial proliferations</strong></p>
+<p><strong>Sixth and seventh decades of life</strong></p>
+<p><strong>Decreased epithelial cell turnover and delayed shedding of surface epithelial cells, leading to a “pileup” of goblet cells</strong></p>
+<p><strong>No malignant potential, must be distinguished from sessile serrated adenomas</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum69.png" class="img-fluid"></p>
+<p><strong>Most commonly found in the left colon</strong></p>
+<p><strong>Less than 5 mm in diameter</strong></p>
+<p><strong>Smooth, nodular protrusions of the mucosa</strong></p>
+<p><strong>Frequently multiple, in the sigmoid colon and rectum</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum70.png" class="img-fluid"></p>
+<p><strong>Polyp surface with irregular tufting of epithelial cells</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum71.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><strong>Tufting results from epithelial overcrowding</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum72.png" class="img-fluid"></p>
+<p><strong>Epithelial crowding produces a serrated architecture when glands are cut in cross-section</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum73.png" class="img-fluid"></p>
+</section>
+<section id="adenoma" class="level2">
+<h2 class="anchored" data-anchor-id="adenoma">Adenoma</h2>
+<p><strong>Neoplastic mass lesion in the GI tract</strong></p>
+<p><strong>Produce a mucosal protrusion, or polyp</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><strong>Epithelial dysplasia</strong></p>
+<p><strong>Small, often pedunculated polyps to large sessile lesions</strong></p>
+<p><strong>No gender predilection</strong></p>
+<p><strong>50% of adults living in the Western world beginning age 50</strong></p>
+<p><strong>Precursors to colorectal cancer</strong></p>
+<p><strong>Surveillance colonoscopy</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum74.png" class="img-fluid"></p>
+<p><strong>fibromuscular stalk</strong></p>
+<p><strong>Robbins and Cotran Pathologic Basis of Disease</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum75.png" class="img-fluid"></p>
+<p><strong>Tubular adenoma with a smooth surface and rounded glands</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum76.jpg" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum77.png" class="img-fluid"></p>
+<p><strong>Villous adenoma with long, slender projections that are reminiscent of small intestinal villi</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum78.png" class="img-fluid"></p>
+<p><strong>The cytologic hallmark of epithelial dysplasia is nuclear hyperchromasia, elongation, and stratification</strong></p>
+<p><strong>Changes are most easily appreciated at the surface of the adenoma, because the epithelium fails to mature as cells migrate out of the crypt</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum79.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum80.png" class="img-fluid"></p>
+<p><strong>Sessile serrated adenoma</strong></p>
+<p><strong>Lined by goblet cells without typical cytologic features of dysplasia. This lesion is distinguished from a hyperplastic polyp by involvement of the crypts</strong></p>
+<p><strong>Most common in the right colon</strong></p>
+<p><strong>Have a malignant potential similar to that of traditional adenomas</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum81.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum82.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum83.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum84.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum85.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="familial-adenomatous-polyps" class="level2">
+<h2 class="anchored" data-anchor-id="familial-adenomatous-polyps">Familial Adenomatous Polyps</h2>
+<p><strong>Autosomal dominant disorder</strong></p>
+<p><strong>Numerous colorectal adenomas by the teenage years</strong></p>
+<p><strong>Mutations of the adenomatous polyposis coli gene ( APC )</strong></p>
+<p><strong>&gt;100 polyps is necessary for a diagnosis of classic FAP, and as many as several thousand may be present</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum86.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum87.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><strong>Except for their remarkable numbers, these growths are morphologically indistinguishable from sporadic adenomas</strong></p>
+<p><strong>Colorectal adenocarcinoma develops in 100% of patients with untreated FAP, often before age 30</strong></p>
+<p><strong>Prophylactic colectomy</strong></p>
+<p><strong>Neoplasia at other sites</strong></p>
+<ul>
+<li><strong>Gardner syndrome</strong>
+<ul>
+<li><strong>osteomas of mandible, skull, and long bones</strong></li>
+<li><strong>epidermal cysts</strong></li>
+<li><strong>desmoid and thyroid tumors</strong></li>
+<li><strong>dental abnormalities, including unerupted and supernumerary teeth</strong></li>
+</ul></li>
+<li><strong>Turcot syndrome</strong>
+<ul>
+<li><strong>rarer</strong></li>
+<li><strong>intestinal adenomas and tumors of the central nervous system</strong></li>
+<li><strong>Two thirds of patients with Turcot syndrome have APC gene mutations and develop medulloblastomas</strong></li>
+<li><strong>One third have mutations in one of several genes involved in DNA repair and develop glioblastomas</strong></li>
+</ul></li>
+<li><strong>Patients who have FAP without APC loss have mutations of the base excision repair gene MUTYH</strong></li>
+</ul>
+</section>
+<section id="hereditary-nonpolyposis-colorectal-cancer-1" class="level2">
+<h2 class="anchored" data-anchor-id="hereditary-nonpolyposis-colorectal-cancer-1">Hereditary Nonpolyposis Colorectal Cancer</h2>
+<ul>
+<li><strong>Lynch syndrome</strong></li>
+<li><strong>Familial clustering of cancers at several sites including the colorectum, endometrium, stomach, ovary, ureters, brain, small bowel, hepatobiliary tract, and skin</strong></li>
+<li><strong>Colon cancers tend to occur at younger ages than for sporadic colon cancers and often are located in the right colon</strong></li>
+<li><strong>Inherited germline mutations in DNA mismatch repair genes</strong>
+<ul>
+<li><strong>MSH2 or MLH1</strong></li>
+<li><strong>HNPCC inherit one mutated DNA repair gene and one normal allele</strong></li>
+<li><strong>When the second copy is lost through mutation or epigenetic silencing, defects in mismatch repair lead to the accumulation of mutations at rates up to 1000 times higher than normal</strong></li>
+<li><strong>Regions containing short repeating DNA sequences referred to as microsatellite DNA</strong></li>
+</ul></li>
+</ul>
+</section>
+<section id="adenocarcinoma-of-colon" class="level2">
+<h2 class="anchored" data-anchor-id="adenocarcinoma-of-colon">Adenocarcinoma of Colon</h2>
+<ul>
+<li><strong>Most common malignancy of the gastrointestinal tract</strong></li>
+<li><strong>Major contributor to morbidity and mortality worldwide</strong></li>
+<li><strong>Small intestine, which accounts for 75% of the overall length of the gastrointestinal tract, is an uncommon site for benign and malignant tumors. Nearly 15% of all cancer-related deaths, second only to lung cancer</strong></li>
+<li><strong>Incidence</strong>
+<ul>
+<li><strong>Peaks at 60 to 70 years of age, and less than 20% of cases occur before age 50</strong></li>
+<li><strong>Males are affected slightly more often than females</strong></li>
+<li><strong>Most prevalent in the United States, Canada, Australia, New Zealand, Denmark, Sweden, and other developed countries</strong></li>
+<li><strong>30x lower in India, South America, and Africa</strong></li>
+<li><strong>Japan incidence is increasing</strong></li>
+</ul></li>
+<li><strong>Low intake of unabsorbable vegetable fiber and high intake of refined carbohydrates and fat</strong></li>
+<li><strong>NSAID may have a protective effect</strong></li>
+</ul>
+</section>
+<section id="the-apcβ-catenin-pathway" class="level2">
+<h2 class="anchored" data-anchor-id="the-apcβ-catenin-pathway">The APC/β-catenin pathway</h2>
+<p><strong>The classic adenoma-carcinoma sequence</strong></p>
+<p><strong>80% of sporadic colon tumors</strong></p>
+<p><strong>Involves mutation of the APC tumor suppressor early in the neoplastic process</strong></p>
+<p><strong>Both copies of the APC gene must be functionally inactivated, either by mutation or epigenetic events, for adenomas to develop</strong></p>
+<p><strong>No APC is present</strong></p>
+<p><strong>β-Catenin is active independent of WNT status</strong></p>
+<p><strong>WNT signal inhibits APC</strong></p>
+<p><strong>β-Catenin enters nucleus</strong></p>
+<p><strong>APC is active</strong></p>
+<p><strong>β-Catenin is dectructed</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum88.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><strong>β-Catenin is active in the nucleus</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum89.png" class="img-fluid"></p>
+<p><strong>cyclin D1 and MYC transcribed for proliferation</strong></p>
+<p><strong>TWIST and SLUG are expressed</strong></p>
+<p><strong>They repress E-cadherin expression</strong></p>
+<p><strong>Reduce contact inhibition</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><strong>TP53 ?? 70% to 80% of colon cancers but is uncommonly affected in adenomas</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum90.png" class="img-fluid"></p>
+<p><strong>KRAS</strong></p>
+<p><strong>10% in &lt;1cm</strong></p>
+<p><strong>50% &gt;1cm</strong></p>
+<p><strong>50% in adenocarcinoma</strong></p>
+<p><strong>SMAD2 and SMAD4, which are effectors of TGF-β signaling, normally inhibits cell cycle</strong></p>
+<p><strong>Loss of function TP53 and others caused by chromosomal deletions, chromosomal instability in this pathway</strong></p>
+<p><strong>Epigenetics</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+</section>
+<section id="the-microsatellite-instability-pathway-1" class="level2">
+<h2 class="anchored" data-anchor-id="the-microsatellite-instability-pathway-1">The microsatellite instability pathway</h2>
+<p><strong>DNA mismatch repair deficiency</strong></p>
+<p><strong>Due to loss of mismatch repair genes</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum91.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum92.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum93.png" class="img-fluid"></p>
+<ul>
+<li><strong>Mutations accumulate in microsatellite repeats → microsatellite instability</strong>
+<ul>
+<li><strong>Microsatellites typically are located in noncoding regions</strong></li>
+<li><strong>Microsatellite sequences located in the coding or promoter regions of genes involved in regulation of cell growth</strong>
+<ul>
+<li><strong>type II TGF-β receptor, uncontrolled growth</strong></li>
+<li><strong>pro-apoptotic protein BAX, survival of abnormal clones</strong></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum94.png" class="img-fluid"></p>
+<p><strong>Mutations in the oncogene BRAF and silencing of distinct groups of genes due to CpG island hypermethylation also are common in cancers that develop through DNA mismatch repair defects.</strong></p>
+<p><strong>KRAS and TP53 typically are not mutated.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum95.png" class="img-fluid"></p>
+</section>
+<section id="adenocarcinoma-distribution" class="level2">
+<h2 class="anchored" data-anchor-id="adenocarcinoma-distribution">Adenocarcinoma distribution</h2>
+<ul>
+<li><strong>Distributed approximately equally over the entire length of the colon</strong></li>
+<li><strong>Proximal colon</strong>
+<ul>
+<li><strong>polypoid, exophytic masses</strong></li>
+<li><strong>that extend along one wall of the large-caliber cecum and ascending colon</strong></li>
+<li><strong>rarely cause obstruction</strong></li>
+</ul></li>
+<li><strong>Distal colon</strong>
+<ul>
+<li><strong>annular lesions that produce “napkin ring” constrictions and luminal narrowing</strong></li>
+<li><strong>point of obstruction</strong></li>
+</ul></li>
+</ul>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum96.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum97.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum98.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum99.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum100.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum101.png" class="img-fluid"></p>
+<p><strong>A: Well-differentiated adenocarcinoma. Note the elongated, hyperchromatic nuclei. Necrotic debris, present in the gland lumen, is typical.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum102.png" class="img-fluid"></p>
+<p><strong>Poorly differentiated adenocarcinoma forms a few glands but is largely composed of infiltrating nests of tumor cells.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum103.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum104.png" class="img-fluid"></p>
+<p><strong>Mucinous adenocarcinoma with signet ring cells and extracellular mucin pools</strong></p>
+<p><strong>Poor prognosis</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum105.png" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum106.png" class="img-fluid"></p>
+<p><strong>Lymph node metastasis</strong></p>
+<p><strong>Glandular structures within the subcapsular sinus.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum107.png" class="img-fluid"></p>
+<p><strong>B: Solitary subpleural nodule of colorectal carcinoma metastatic to the lung.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum108.png" class="img-fluid"></p>
+<p><strong>C: Liver containing two large and many smaller metastases. Note the central necrosis within metastases.</strong></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum109.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum110.jpg" class="img-fluid"></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum111.png" class="img-fluid"></p>
+<p><strong>Robbins Basic Pathology</strong></p>
+<p><img src="./img-local/Alt-GIS-Tumorleri-sunum112.png" class="img-fluid"></p>
+<p><strong>Autopsy Pathology: A Manual and Atlas</strong></p>
+</section>
+<section id="tumors-of-the-appendix" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="tumors-of-the-appendix">Tumors of the Appendix</h2>
+<ul>
+<li><strong>NET (Carcinoid)</strong>
+<ul>
+<li><strong>Most common tumor</strong></li>
+<li><strong>Usually discovered incidentally</strong></li>
+<li><strong>Distal tip of the appendix</strong></li>
+</ul></li>
+<li><strong>Low grade appendicial mucinous neoplasm</strong>
+<ul>
+<li><strong>Mucocele</strong></li>
+<li><strong>consequence of mucinous cystadenoma or mucinous cystadenocarcinoma</strong></li>
+<li><strong>Invasion through the appendiceal wall can lead to intraperitoneal seeding and spread. In women, the resulting peritoneal implants may be mistaken for mucinous ovarian tumors</strong></li>
+<li><strong>Pseudomyxoma peritonei</strong></li>
+</ul></li>
+</ul>
+<hr>
+<section id="examples-for-future-uploads" class="level3">
+<h3 class="anchored" data-anchor-id="examples-for-future-uploads">Examples for future uploads</h3>
+<section id="pancreas-ductal-adenocarcinoma" class="level4">
+<h4 class="anchored" data-anchor-id="pancreas-ductal-adenocarcinoma">Pancreas Ductal Adenocarcinoma</h4>
+<p><a href="https://images.patolojiatlasi.com/pancreaticadenocarcinoma/" class="uri">https://images.patolojiatlasi.com/pancreaticadenocarcinoma/</a></p>
+<section id="case-1" class="level5">
+<h5 class="anchored" data-anchor-id="case-1">Case 1</h5>
+<p><a href="https://images.patolojiatlasi.com/pancreaticadenocarcinoma/case1-histopathology/viewer_z0.html">histopathology</a></p>
+</section>
+</section>
+<section id="neoplazinin-klinikopatolojik-özellikleri-ve-epidemiyoloji" class="level4">
+<h4 class="anchored" data-anchor-id="neoplazinin-klinikopatolojik-özellikleri-ve-epidemiyoloji">Neoplazinin Klinikopatolojik Özellikleri ve Epidemiyoloji</h4>
+<p><a href="https://images.patolojiatlasi.com/lecture1/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.html" class="uri">https://images.patolojiatlasi.com/lecture1/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.html</a></p>
+<hr>
+</section>
+</section>
+<section id="adding-submodule" class="level3">
+<h3 class="anchored" data-anchor-id="adding-submodule">adding submodule</h3>
+<p>https://github.blog/2016-02-01-working-with-submodules/</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> submodule add https://github.com/pathologyatlas/pancreaticadenocarcinoma pancreaticadenocarcinoma</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="removing-submodule" class="level3">
+<h3 class="anchored" data-anchor-id="removing-submodule">removing submodule</h3>
+<div class="sourceCode" id="cb2"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> submodule deinit <span class="at">-f</span> <span class="at">--all</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span> <span class="at">-rf</span> .git/modules/</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> rm <span class="at">-f</span> pancreaticadenocarcinoma</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="making-wsi" class="level3">
+<h3 class="anchored" data-anchor-id="making-wsi">making WSI</h3>
+<p>see: <a href="https://github.com/pathologyatlas/make-html-WSI#convert-svs-to-dzi-and-publish-as-or-embed-in-a-web-page">Convert .svs to .dzi and publish as or embed in a web page</a></p>
+</section>
+<section id="using-templates-for-new-repositories" class="level3">
+<h3 class="anchored" data-anchor-id="using-templates-for-new-repositories">using templates for new repositories</h3>
+<p>see: <a href="https://github.com/pathologyatlas/template">Using templates for new repositories</a></p>
+</section>
+<section id="todo" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="todo">TODO</h3>
+<section id="yönlendirme" class="level4">
+<h4 class="anchored" data-anchor-id="yönlendirme">Yönlendirme</h4>
+<ul>
+<li>development ve wsi to html repolarının adreslerini güncelle ve detaylandır</li>
+<li>https://quarto.org/docs/websites/website-navigation.html#pages-404</li>
+<li>Yönlendirme örneği: https://github.com/patolojiatlasi/GBD</li>
+</ul>
+</section>
+<section id="gbdatlas" class="level4">
+<h4 class="anchored" data-anchor-id="gbdatlas">GBDAtlas</h4>
+<ul>
+<li>GBDAtlas ilk grubu ekle</li>
+</ul>
+</section>
+<section id="language" class="level4">
+<h4 class="anchored" data-anchor-id="language">Language</h4>
+<ul>
+<li>https://statnmap.com/2017-04-04-format-text-conditionally-with-rmarkdown-chunks-complete-iframed-article/</li>
+<li>https://statnmap.com/2017-10-06-translation-rmarkdown-documents-using-data-frame/</li>
+<li>https://statnmap.com/2017-03-11-rmarkdown-conditional-chunks-to-create-multilingual-pdf-and-html-with-images/</li>
+<li>https://bookdown.org/yihui/rmarkdown-cookbook/eng-asis.html</li>
+<li>https://quarto.org/docs/authoring/create-citeable-articles.html</li>
+<li>https://github.com/maelle/multilingual-book</li>
+<li>https://github.com/patolojiatlasi/multilingual-book</li>
+</ul>
+</section>
+<section id="github-actions" class="level4">
+<h4 class="anchored" data-anchor-id="github-actions">GitHub Actions</h4>
+<ul>
+<li>https://github.com/quarto-dev/quarto-actions</li>
+<li>https://github.com/pommevilla/quarto-render</li>
+<li>https://github.com/pommevilla/friendly-dollop</li>
+<li>https://pommevilla.github.io/friendly-dollop/</li>
+<li>https://github.com/dicook/github-action-push-to-another-repository</li>
+<li>https://github.com/marketplace?page=1&amp;q=another+repo&amp;query=another+repo+&amp;type=actions</li>
+<li>https://github.com/marketplace/actions/file-changes-action</li>
+</ul>
+</section>
+<section id="tweeting-with-update" class="level4">
+<h4 class="anchored" data-anchor-id="tweeting-with-update">tweeting with update</h4>
+<ul>
+<li>https://github.com/and-computers/HowToTweetEveryCommit</li>
+<li>https://www.daveabrock.com/2020/04/19/posting-to-twitter-from-gh-actions/</li>
+<li>https://gitweet.io/</li>
+<li>https://joshuaiz.com/words/using-github-actions-to-post-to-twitter-on-commit</li>
+</ul>
+</section>
+<section id="ders-notlarını-ve-ppt-ekle" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="ders-notlarını-ve-ppt-ekle">Ders Notlarını ve PPT ekle</h4>
+<pre><code>&lt;iframe src="https://www.serdarbalci.com/makalesaati/ISO-accreditation-digital-pathology.html" width="100%" height="475px"&gt;&lt;/iframe&gt;</code></pre>
+<pre><code>{=html}
+&lt;iframe class="slide-deck" src="/dokuman/ISO-accreditation-digital-pathology.html" width="100%" height="475px"&gt;&lt;/iframe&gt;</code></pre>
+<pre><code></code></pre>
+<hr>
+<div class="sourceCode" id="cb6"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">--allow-empty</span> <span class="at">-m</span> <span class="st">"Empty-Commit"</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+<ul>
+<li>https://www.w3schools.com/howto/howto_css_responsive_iframes.asp</li>
+</ul>
+<hr>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Note that there are five types of callouts, including: <code>note</code>, <code>tip</code>, <code>warning</code>, <code>caution</code>, and <code>important</code>.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip With Caption
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is an example of a callout with a caption.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Expand To Learn About Collapse
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>This is an example of a ‘folded’ caution callout that can be expanded by the user. You can use <code>collapse="true"</code> to collapse it by default or <code>collapse="false"</code> to make a collapsible callout that is expanded by default.</p>
+</div>
+</div>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Some additional commentary of more peripheral interest.</p>
+</div></div><div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Optional caption (note)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Make expandable with ‘collapse=true’</li>
+<li>Remove ‘collapse’ to prevent expandability</li>
+<li>Set appearance to ‘default’, ‘simple’ or ‘minimal’</li>
+<li>Remove icon with ‘icon=false’</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Optional caption (warning)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Make expandable with ‘collapse=true’</li>
+<li>Remove ‘collapse’ to prevent expandability</li>
+<li>Set appearance to ‘default’, ‘simple’ or ‘minimal’</li>
+<li>Remove icon with ‘icon=false’</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Optional caption (important)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Make expandable with ‘collapse=true’</li>
+<li>Remove ‘collapse’ to prevent expandability</li>
+<li>Set appearance to ‘default’, ‘simple’ or ‘minimal’</li>
+<li>Remove icon with ‘icon=false’</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Optional caption (tip)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Make expandable with ‘collapse=true’</li>
+<li>Remove ‘collapse’ to prevent expandability</li>
+<li>Set appearance to ‘default’, ‘simple’ or ‘minimal’</li>
+<li>Remove icon with ‘icon=false’</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Optional caption (caution)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Make expandable with ‘collapse=true’</li>
+<li>Remove ‘collapse’ to prevent expandability</li>
+<li>Set appearance to ‘default’, ‘simple’ or ‘minimal’</li>
+<li>Remove icon with ‘icon=false’</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p>Left column</p>
+</div><div class="column" style="width:60%;">
+<p>Right column</p>
+</div>
+</div>
+<hr>
+<div class="footer">
+<p>Custom footer text</p>
+</div>
+<p>footnote<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<div class="incremental">
+<ul class="incremental">
+<li>Eat spaghetti</li>
+<li>Drink wine</li>
+</ul>
+</div>
+<div class="nonincremental">
+<ul>
+<li>Eat spaghetti</li>
+<li>Drink wine</li>
+</ul>
+</div>
+<p>. . .</p>
+<div class="notes">
+<p>Speaker notes go here.</p>
+</div>
+<p>deneme smaller {.smaller} deneme smaller</p>
+<p>scroll till end {.scrollable} scroll till end</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Tab A</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Tab B</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>Content for <code>Tab A</code></p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>Content for <code>Tab B</code></p>
+</div>
+</div>
+</div>
+</section>
+<section id="get-whole-repos" class="level4">
+<h4 class="anchored" data-anchor-id="get-whole-repos">get whole repos</h4>
+<p>https://chat.openai.com/share/09291b04-532c-4c5c-adae-017538f447b6</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Invoke-RestMethod</span> <span class="op">-</span>Uri <span class="st">"https://api.github.com/users/pathologyatlas/repos?per_page=100"</span> <span class="op">|</span> <span class="fu">ForEach-Object</span> <span class="op">{</span> <span class="va">$_</span><span class="op">.</span><span class="fu">clone_url</span> <span class="op">}</span> <span class="op">&gt;</span> repositories<span class="op">.</span><span class="fu">txt</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="va">$apiUrl</span> <span class="op">=</span> <span class="st">"https://api.github.com/users/pathologyatlas/repos?per_page=100"</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="va">$repositories</span> <span class="op">=</span> <span class="fu">Invoke-RestMethod</span> <span class="op">-</span>Uri <span class="va">$apiUrl</span> <span class="op">|</span> <span class="fu">Select-Object</span> <span class="op">-</span>ExpandProperty clone_url</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="kw">foreach</span> <span class="op">(</span><span class="va">$repository</span> <span class="kw">in</span> <span class="va">$repositories</span><span class="op">)</span> <span class="op">{</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>    git clone <span class="va">$repository</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
+<section id="alternative-embedding" class="level3">
+<h3 class="anchored" data-anchor-id="alternative-embedding">alternative embedding</h3>
+<div class="sourceCode" id="cb9"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>=html</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;iframe</span> <span class="er">src</span><span class="ot">=</span><span class="st">"https://images.patolojiatlasi.com/ectopic-adrenal/HE.html"</span> <span class="er">style</span><span class="ot">=</span><span class="st">"height:600px;width:100%;"</span> <span class="er">data-external</span><span class="ot">=</span><span class="st">"1"</span><span class="kw">&gt;&lt;/iframe&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>knitr::include_url</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>r</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_url</span>(<span class="at">url =</span> <span class="st">"https://images.patolojiatlasi.com/ectopic-adrenal/HE.html"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="figures" class="level3">
+<h3 class="anchored" data-anchor-id="figures">Figures</h3>
+<p>Use <code>knitr::include_graphics()</code> to include images. Check the source for how to add labels and captions:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: fig-gosling</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-cap: "Ryan Gosling looking angry."</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"images/gosling.jpg"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>See <strong>?@fig-gosling</strong> for a meme.</p>
+<p>https://quarto.org/docs/authoring/conditional.html</p>
+</section>
+<section id="conditional-content" class="level3">
+<h3 class="anchored" data-anchor-id="conditional-content">Conditional content</h3>
+<p>The block below does not appear in the PDF, only on the website and Epub:</p>
+<p>Hello, I won’t appear in the PDF!</p>
+<p>https://quarto.org/docs/projects/profiles.html</p>
+<hr>
+<p>Increase the HTTP buffer size: Sometimes, increasing Git’s HTTP buffer can help with this issue. You can do this with the following command:</p>
+<pre><code>git config --global http.postBuffer 524288000</code></pre>
+<p>This increases the buffer size to 500 MB. Adjust the size as needed for your specific situation.</p>
+<hr>
+</section>
+</section>
+<section id="sec-patoloji-atlasi" class="level1 unnumbered cell">
+<h1 class="unnumbered">Patoloji Atlası</h1>
+</section>
+<div class="cell">
+<ul>
+<li><p>For English <a href="https://www.histopathologyatlas.com/">click here</a>.</p></li>
+<li><p>Sosyal medyadan derlenen görüntülerden oluşan patoloji notları için <a href="https://www.patolojinotlari.com/">tıklayınız</a>.<br>
+</p></li>
+</ul>
+</div>
+<div class="cell">
+<p><a href="https://books.apple.com/us/book/patoloji-atlas%C4%B1/id6456452218?itscg=30200&amp;itsct=books_box_badge&amp;ls=1" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/get-it-on-apple-books/badge/tr-tr?size=250x83&amp;releaseDate=1690848000" alt="Get it on Apple Books" style="border-radius: 13px; width: 250px; height: 83px;"></a></p>
+</div>
+<div class="cell">
+<iframe width="160" height="400" src="https://leanpub.com/patolojiatlasi/embed" frameborder="0" allowtransparency="true">
+</iframe>
+</div>
+<div class="cell">
+<p><a href="https://play.google.com/store/books/details?id=um5jEAAAQBAJ&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Google Play'den alın" src="https://play.google.com/intl/en_us/badges/static/images/badges/tr_badge_web_generic.png" style="width: 250px;"></a></p>
+</div>
+<div class="cell">
+<table class="table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th>Atıf için (Citation)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="https://zenodo.org/badge/latestdoi/452585667"><img src="https://zenodo.org/badge/452585667.svg" class="img-fluid"></a></td>
+</tr>
+<tr class="even">
+<td><a href="https://osf.io/6w5k8/">Open Science Framework DOI: 10.17605/OSF.IO/6W5K8</a></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/patolojiatlasi/patolojiatlasi.github.io/issues"><img src="https://img.shields.io/github/issues/patolojiatlasi/patolojiatlasi.github.io" class="img-fluid"></a></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/patolojiatlasi/patolojiatlasi.github.io/blob/main/LICENSE"><img src="https://img.shields.io/github/license/patolojiatlasi/patolojiatlasi.github.io" class="img-fluid"></a></td>
+</tr>
+<tr class="odd">
+<td><a href="https://twitter.com/intent/tweet?text=Wow:&amp;url=https%3A%2F%2Fwww.patolojiatlasi.com%2F%20@patolojinotlari%20@serdarbalci%20"><img src="https://img.shields.io/twitter/url?label=Patoloji%20Atlas%C4%B1&amp;style=social&amp;url=https%3A%2F%2Fwww.patolojiatlasi.com%2F" alt="Twitter"></a></td>
+</tr>
+<tr class="even">
+<td><a href="https://twitter.com/intent/tweet?text=Wow:&amp;url=https%3A%2F%2Fwww.patolojinotlari.com%2F%20@patolojinotlari%20@serdarbalci%20"><img src="https://img.shields.io/twitter/url?label=Patoloji%20Notlar%C4%B1&amp;style=social&amp;url=https%3A%2F%2Fwww.patolojinotlari.com%2F" alt="Twitter"></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell">
+<div class="iframeContainer">
+<h3 id="heading" class="anchored">
+</h3>
+<iframe id="randomIframe">
+</iframe>
+</div>
+</div>
+<div class="sidebar-section custom">
+<h3 class="anchored">
+Hakkımda
+</h3>
+<b>Serdar Balcı</b><br> <em>Türk Hekim ve Araştırmacı. Patoloji Uzmanı.</em><br> 2005 yılında Hacettepe Üniversitesi Tıp (İng) Fakültesi’nden mezun oldu. Aynı yıl patoloji asistanlığına başladı. 2010 yılında patoloji uzmanı oldu. 2009 ve 2013-2014 arasında ABD’de Emory Üniversitesi’nde pankreatobilier sistem tümörleri üzerinde araştırmalar yaptı. Katıldığı çalışmalar ışığında tümör sınıflama ve kılavuzlarında güncellemeler oldu. 2016 yılında doçent oldu. İlgi alanları arasında tümör sınıflandırılması, tümör evrelemesi, patolojide kalite kontrol uygulamaları, anatomik patolojide istatistik uygulamaları ve R-project yer almaktadır.
+<hr>
+<p><a href="../patolojinotlari/"><img src="../img/patoloji-notlari.png" width="200px"></a></p>
+<hr>
+<a href="../patoloji-ders-notlari/">
+<h3 class="anchored">
+Patoloji Ders Notları
+</h3>
+</a><p><a href="../patoloji-ders-notlari/"></a></p>
+<hr>
+<a href="../posts/molekuler-patoloji-hakkinda/">
+<h3 class="anchored">
+Moleküler Patoloji Hakkında
+</h3>
+</a><p><a href="../posts/molekuler-patoloji-hakkinda/"></a></p>
+<hr>
+<a href="../posts/dijital-patoloji-hakkinda/">
+<h3 class="anchored">
+Dijital Patoloji Hakkında
+</h3>
+</a><p><a href="../posts/dijital-patoloji-hakkinda/"></a></p>
+<hr>
+<p><a href="../patolojiatlasi/"><img src="../img/patoloji-atlasi.png" width="200px"></a></p>
+<hr>
+<p><a href="../histopathologyatlas/"><img src="../img/histopathology-atlas-whole-slide-images.png" width="200px"></a></p>
+<hr>
+<div id="iframeContainer">
+<pre><code>&lt;h3 id="heading"&gt;&lt;/h3&gt;
+&lt;iframe id="randomIframe"&gt;&lt;/iframe&gt;</code></pre>
+</div>
+<script src="https://www.patolojiatlasi.com/webpages.js"></script>
+<script src="https://www.patolojiatlasi.com/script.js"></script>
+<hr>
+<a href="../patolojiatlasi/">
+<h3 class="anchored">
+Patoloji Atlası
+</h3>
+</a><p><a href="../patolojiatlasi/"></a></p>
+<iframe width="160" height="400" src="https://leanpub.com/patolojiatlasi/embed" frameborder="0" allowtransparency="true">
+</iframe>
+<hr>
+<p><a href="https://books.apple.com/us/book/patoloji-atlas%C4%B1/id6456452218?itscg=30200&amp;itsct=books_box_badge&amp;ls=1" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/get-it-on-apple-books/badge/tr-tr?size=250x83&amp;releaseDate=1690848000" alt="Get it on Apple Books" style="border-radius: 13px; width: 250px; height: 83px;"></a></p>
+<hr>
+<p><a href="https://play.google.com/store/books/details?id=um5jEAAAQBAJ&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Google Play'den alın" src="https://play.google.com/intl/en_us/badges/static/images/badges/tr_badge_web_generic.png" style="width: 250px;"></a></p>
+<hr>
+<a href="../patoloji-ve-bilisim/">
+<h3 class="anchored">
+Patoloji ve Bilişim
+</h3>
+</a><p><a href="../patoloji-ve-bilisim/"></a></p>
+<p><a href="https://www.ankaranobel.com/patoloji-ve-laboratuvarini-anlama-kilavuzu" target="_blank"><img src="https://percdn.com/f/108382/cG96WmFtNG0vcUp3ZUdGcEg4OG5icmdQYmNFPQ/images/urunler/patoloji-ve-patoloji-laboratuvarini-anlama-kilavuzu-2-baski-202569.webp" width="160"> </a></p>
+<p><br></p>
+<p><b>Prof.&nbsp;Dr.&nbsp;Alp Usubütün</b> editörlüğünde hazırlanan <a href="https://www.ankaranobel.com/patoloji-ve-laboratuvarini-anlama-kilavuzu" target="_blank"><b>Sağlık Bilimleri İçin Patoloji ve Patoloji Laboratuvarını Anlama Kılavuzu 2. Baskı - Ekim 2022 Ankara Nobel Tıp Kitabevleri ISBN: 978-625-7564-70-0</b></a> adlı kitaptaki <b>8. Bölüm: Patolojide Yeni Yöntemler ve Gelecek</b> adlı bölümün güncellenen içeriği için <a href="https://www.serdarbalci.com/posts/patolojide-bilisim/"><b>tıklayınız</b></a>.</p>
+<hr>
+<h3 class="anchored">
+Beyin Hasarı Sonrası Yaşam: Kurtulanların Öyküleri
+</h3>
+<p><a href="https://www.nobelyayin.com/beyin-hasari-sonrasi-yasam-kurtulanlarin-oykuleri-17456.html" target="_blank"><img src="./img/Beyin-Hasari-Sonrasi-Yasam-Kurtulanlarin-Oykuleri.png" width="160"> </a></p>
+<hr>
+<h3 class="anchored">
+List of Projects
+</h3>
+<p><a href="https://github.com/patolojiAI/LOP"> http://lop.patolojiAI.com</a></p>
+<hr>
+<h3 class="anchored">
+List For My Daily Visits
+</h3>
+<details>
+<summary>
+Educational
+</summary>
+<a href="http://www.cbioportal.org/" target="_blank">cBioPortal</a> <br> <a href="https://www.coursera.org/learn/data-genes-medicine/" target="_blank">Data Genes Medicine</a> <br> <a href="https://learning.edx.org/course/course-v1:HarvardX+PH525.5x+2T2018/home" target="_blank">Bioconductor</a> <br> <a href="https://www.coursera.org/learn/galaxy-project/home/welcome" target="_blank">Galaxy</a> <br> <a href="https://www.coursera.org/learn/dna-analysis/home/welcome" target="_blank">Bioinformatics and Computational Biology</a> <br> <a href="https://learning.edx.org/course/course-v1:UCSanDiegoX+CSE181.1x+1T2017/block-v1:UCSanDiegoX+CSE181.1x+1T2017+type@sequential+block@ac6339babf6c462dae4af6ace76aad28/block-v1:UCSanDiegoX+CSE181.1x+1T2017+type@vertical+block@ece64430a491452386214aad3802467b" target="_blank">Genomic Data Science</a> <br> <a href="https://learning.edx.org/course/course-v1:USMx+BIF003x+3T2016/home" target="_blank">Statistical Analysis in Bioinformatics</a> <br> <a href="https://learning.edx.org/course/course-v1:EPFLx+IPA4LSx+3T2018/home" target="_blank">Image Processing</a> <br> <a href="https://learning.edx.org/course/course-v1:EPFLx+NiC1.0x+3T2016/home" target="_blank">Biology in JavaScript</a> <br> <a href="https://qupath.readthedocs.io/en/stable/" target="_blank">QuPath</a> <br> <a href="https://orangedatamining.com/docs/" target="_blank">Orange</a> <br> <a href="https://digitalpathologysociety.org/" target="_blank">DPS</a> <br> <a href="https://digitalpathologyassociation.org/past-webinar-presentations" target="_blank">DPA-Webinars</a> <br> <a href="https://elearning.uscap.org/" target="_blank">USCAP-Courses</a> <br> <a href="https://www.esp-pathology.org/educational-portal.html" target="_blank">ESP</a>
+</details>
+<details>
+<summary>
+Ongoing Projects
+</summary>
+<!-- <a href="https://memorialpath.github.io/" target="_blank"
+      >Memorial Patoloji İstatistikler</a
+    >
+    <br /> -->
+<a href="/patolojinotlari/" target="_blank">Patoloji Notları</a> <br> <a href="/parapathology/" target="_blank">(Para)Pathology</a> <br> <a href="https://github.com/sbalci/MyRCodesForDataAnalysis" target="_blank">MyRCodes</a> <br> <a href="https://github.com/PathologyWeb" target="_blank">PathologyWeb</a> <br> <a href="https://pathologyweb.github.io/patolojiraporlari/" target="_blank">Patoloji Raporlari</a>
+</details>
+<details>
+<summary>
+Pathology
+</summary>
+<a href="https://tumourclassification.iarc.who.int/welcome/" target="_blank">WHO Blue Books</a> <br> <a href="https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates" target="_blank">CAP Cancer Protocol</a> <br> <a href="https://journals.lww.com/ajsp/pages/default.aspx" target="_blank">AJSP</a> <br> <a href="https://www.nature.com/modpathol/" target="_blank">Modern Pathology</a> <br> <a href="https://www.nature.com/labinvest/" target="_blank">Laboratory Investigation</a> <br> <a href="https://www.sciencedirect.com/journal/seminars-in-diagnostic-pathology" target="_blank">Seminars in Diagnostic Pathology</a> <br> <a href="https://www.sciencedirect.com/journal/surgical-pathology-clinics" target="_blank">Surgical Pathology Clinics</a>
+</details>
+<details>
+<summary>
+Digital Pathology
+</summary>
+<a href="https://digitalpathologyassociation.org/" target="_blank">Digital Pathology Association</a> <br> <a href="https://digitalpathologysociety.org/" target="_blank">Digital Pathology Society</a> <br> <a href="https://qupath.github.io/" target="_blank">QuPath</a> <br> <a href="https://imagej.github.io/" target="_blank">ImageJ</a>
+</details>
+<details>
+<summary>
+R-project
+</summary>
+<a href="https://github.com/sbalci/MyRCodesForDataAnalysis" target="_blank">MyRCodes</a> <br> <a href="https://www.r-bloggers.com/" target="_blank">R-bloggers</a> <br> <a href="https://rweekly.org/" target="_blank">R-weekly</a>
+</details>
+<details>
+<summary>
+jamovi
+</summary>
+<a href="https://www.jamovi.org/download.html" target="_blank">releases</a> <br> <a href="https://forum.jamovi.org/" target="_blank">forum</a> <br> <a href="https://dev.jamovi.org/tuts0101-getting-started.html" target="_blank">development</a> <br> <a href="https://www.jamovi.org/downloads/jamovi-unsigned.zip" target="_blank">dev version</a>
+</details>
+<details>
+<summary>
+Pages
+</summary>
+<a href="https://www.patolojiai.com/" target="_blank">patolojiAI</a> <br> <a href="https://pbpath.org/" target="_blank">PBPath</a> <br> <a href="https://www.drozlembalci.com/" target="_blank">drozlembalci</a> <br> <!--
+    <a href="https://memorialpath.github.io/" target="_blank"
+      >Memorial Patoloji İstatistikler</a
+    >
+    <br /> --> <a href="/patolojinotlari/" target="_blank">Patoloji Notları</a> <br> <a href="/parapathology/" target="_blank">(Para)Pathology</a>
+</details>
+<hr>
+</div>
+<div itemscope="" itemtype="https://schema.org/Person">
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Serdar Balcı",
+      "url": "https://www.serdarbalci.com/",
+      "jobTitle": "MD, Pathologist",
+      "sameAs": [
+        "https://www.facebook.com/serdarbalcimd",
+        "https://www.facebook.com/serdarbalcimdpathologist/",
+        "https://www.instagram.com/balciserdar/",
+        "https://www.linkedin.com/in/serdar-balci-md-pathologist/",
+        "https://twitter.com/serdarbalci",
+        "https://mastodon.social/@serdarbalci",
+        "https://github.com/sbalci",
+        "https://www.parapathology.com",
+        "https://www.patolojinotlari.com",
+        "https://www.patolojiai.com/",
+        "https://www.memorial.com.tr/doktorlar/serdar-balci",
+        "https://www.google.com/search?kgmid=/g/11fkbdq2jb"
+      ]
+    }
+  </script>
+</div>
+
+
+<div id="quarto-appendix" class="default"><aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>A footnote<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</aside></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    if (id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        return container.innerHTML
+      } else {
+        return note.innerHTML;
+      }
+    } else {
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      try { hash = new URL(url).hash; } catch {}
+      const id = hash.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note !== null) {
+        try {
+          const html = processXRef(id, note);
+          instance.setContent(html);
+        } finally {
+          instance.enable();
+          instance.show();
+        }
+      } else {
+        // See if we can fetch this
+        fetch(url.split('#')[0])
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.getElementById(id);
+          if (note !== null) {
+            const html = processXRef(id, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

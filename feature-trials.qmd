@@ -1,15 +1,798 @@
+---
+description: |
+    gelistirme, yonetim, development, patoloji, atlas, pathology, whole slide image, patolojiatlasi, histopathologyatlas, wsi
+date: last-modified
+categories: [gelistirme, yonetim, development]
+page-layout: full
+bibliography: references.bib
+filters:
+  - collapse-social-embeds
+---
+
+
+🔬🔬🔬🔬 UNDER CONSTRUCTION 🛠⛔️⚠️🔩
+
+
+```{r language, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
 
 
 
 ```{=html}
-<iframe class="slide-deck" src="/lecture-notes/alt-gis-tumorleri-sunum-2.html" width="100%" height="475px"></iframe>
+<iframe class="slide-deck" src="./_lecture-notes/alt-gis-tumorleri.html" width="100%" height="475px"></iframe>
 ```
 
 
 
 
 
-{{< include ./lecture-notes/_alt-gis-tumorleri-sunum-2.qmd >}}
+{{< include ./_lecture-notes/alt-gis-tumorleri.qmd >}}
+
+
+
+
+
+---
+
+
+### Examples for future uploads
+
+#### Pancreas Ductal Adenocarcinoma
+
+<https://images.patolojiatlasi.com/pancreaticadenocarcinoma/>
+
+##### Case 1
+
+[histopathology](https://images.patolojiatlasi.com/pancreaticadenocarcinoma/case1-histopathology/viewer_z0.html)
+
+#### Neoplazinin Klinikopatolojik Özellikleri ve Epidemiyoloji
+
+<https://images.patolojiatlasi.com/lecture1/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.html>
+
+------------------------------------------------------------------------
+
+### adding submodule
+
+https://github.blog/2016-02-01-working-with-submodules/
+
+``` zsh
+git submodule add https://github.com/pathologyatlas/pancreaticadenocarcinoma pancreaticadenocarcinoma
+```
+
+### removing submodule
+
+``` zsh
+git submodule deinit -f --all
+rm -rf .git/modules/
+git rm -f pancreaticadenocarcinoma
+```
+
+### making WSI
+
+see: [Convert .svs to .dzi and publish as or embed in a web page](https://github.com/pathologyatlas/make-html-WSI#convert-svs-to-dzi-and-publish-as-or-embed-in-a-web-page)
+
+### using templates for new repositories
+
+see: [Using templates for new repositories](https://github.com/pathologyatlas/template)
+
+
+### TODO
+
+#### Yönlendirme
+
+-   development ve wsi to html repolarının adreslerini güncelle ve detaylandır
+-   https://quarto.org/docs/websites/website-navigation.html#pages-404
+-   Yönlendirme örneği: https://github.com/patolojiatlasi/GBD
+
+#### GBDAtlas
+
+-   GBDAtlas ilk grubu ekle
+
+#### Language
+
+-   https://statnmap.com/2017-04-04-format-text-conditionally-with-rmarkdown-chunks-complete-iframed-article/
+-   https://statnmap.com/2017-10-06-translation-rmarkdown-documents-using-data-frame/
+-   https://statnmap.com/2017-03-11-rmarkdown-conditional-chunks-to-create-multilingual-pdf-and-html-with-images/
+-   https://bookdown.org/yihui/rmarkdown-cookbook/eng-asis.html
+-   https://quarto.org/docs/authoring/create-citeable-articles.html
+-   https://github.com/maelle/multilingual-book
+-   https://github.com/patolojiatlasi/multilingual-book
+
+#### GitHub Actions
+
+-   https://github.com/quarto-dev/quarto-actions
+-   https://github.com/pommevilla/quarto-render
+-   https://github.com/pommevilla/friendly-dollop
+-   https://pommevilla.github.io/friendly-dollop/
+-   https://github.com/dicook/github-action-push-to-another-repository
+-   https://github.com/marketplace?page=1&q=another+repo&query=another+repo+&type=actions
+-   https://github.com/marketplace/actions/file-changes-action
+
+#### tweeting with update
+
+-   https://github.com/and-computers/HowToTweetEveryCommit
+-   https://www.daveabrock.com/2020/04/19/posting-to-twitter-from-gh-actions/
+-   https://gitweet.io/
+-   https://joshuaiz.com/words/using-github-actions-to-post-to-twitter-on-commit
+
+#### Ders Notlarını ve PPT ekle
+
+```         
+<iframe src="https://www.serdarbalci.com/makalesaati/ISO-accreditation-digital-pathology.html" width="100%" height="475px"></iframe>
+```
+
+```         
+{=html}
+<iframe class="slide-deck" src="/dokuman/ISO-accreditation-digital-pathology.html" width="100%" height="475px"></iframe>
+```
+
+```         
+{{< include ./dokuman/_ISO-accreditation-digital-pathology.qmd >}}
+```
+
+------------------------------------------------------------------------
+
+``` zsh
+git commit --allow-empty -m "Empty-Commit"
+git push origin main
+```
+
+------------------------------------------------------------------------
+
+-   https://www.w3schools.com/howto/howto_css_responsive_iframes.asp
+
+------------------------------------------------------------------------
+
+::: callout-note
+Note that there are five types of callouts, including: `note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+::: callout-tip
+#### Tip With Caption
+
+This is an example of a callout with a caption.
+:::
+
+::: {.callout-caution collapse="true"}
+#### Expand To Learn About Collapse
+
+This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+:::
+
+::: aside
+Some additional commentary of more peripheral interest.
+:::
+
+::: {.callout-note collapse="false" appearance="default" icon="true"}
+#### Optional caption (note)
+
+-   Make expandable with 'collapse=true'
+-   Remove 'collapse' to prevent expandability
+-   Set appearance to 'default', 'simple' or 'minimal'
+-   Remove icon with 'icon=false'
+:::
+
+::: {.callout-warning collapse="false" appearance="default" icon="true"}
+#### Optional caption (warning)
+
+-   Make expandable with 'collapse=true'
+-   Remove 'collapse' to prevent expandability
+-   Set appearance to 'default', 'simple' or 'minimal'
+-   Remove icon with 'icon=false'
+:::
+
+::: {.callout-important collapse="false" appearance="default" icon="true"}
+#### Optional caption (important)
+
+-   Make expandable with 'collapse=true'
+-   Remove 'collapse' to prevent expandability
+-   Set appearance to 'default', 'simple' or 'minimal'
+-   Remove icon with 'icon=false'
+:::
+
+::: {.callout-tip collapse="false" appearance="default" icon="true"}
+#### Optional caption (tip)
+
+-   Make expandable with 'collapse=true'
+-   Remove 'collapse' to prevent expandability
+-   Set appearance to 'default', 'simple' or 'minimal'
+-   Remove icon with 'icon=false'
+:::
+
+::: {.callout-caution collapse="false" appearance="default" icon="true"}
+#### Optional caption (caution)
+
+-   Make expandable with 'collapse=true'
+-   Remove 'collapse' to prevent expandability
+-   Set appearance to 'default', 'simple' or 'minimal'
+-   Remove icon with 'icon=false'
+:::
+
+::: columns
+::: {.column width="40%"}
+Left column
+:::
+
+::: {.column width="60%"}
+Right column
+:::
+:::
+
+
+
+
+::: {.youtube video_id=7JOOmePPtXI }
+### youtube videosu
+:::
+
+
+
+
+------------------------------------------------------------------------
+
+::: footer
+Custom footer text
+:::
+
+footnote[^yonetim-gelistirme-1]
+
+[^yonetim-gelistirme-1]: A footnote
+
+::: incremental
+-   Eat spaghetti
+-   Drink wine
+:::
+
+::: nonincremental
+-   Eat spaghetti
+-   Drink wine
+:::
+
+. . .
+
+::: notes
+Speaker notes go here.
+:::
+
+deneme smaller {.smaller} deneme smaller
+
+scroll till end {.scrollable} scroll till end
+
+::::: panel-tabset
+##### Tab A
+
+Content for `Tab A`
+
+##### Tab B
+
+Content for `Tab B`
+:::::
+
+
+#### get whole repos
+
+
+https://chat.openai.com/share/09291b04-532c-4c5c-adae-017538f447b6
+
+
+```powershell
+Invoke-RestMethod -Uri "https://api.github.com/users/pathologyatlas/repos?per_page=100" | ForEach-Object { $_.clone_url } > repositories.txt
+
+```
+
+```powershell
+$apiUrl = "https://api.github.com/users/pathologyatlas/repos?per_page=100"
+$repositories = Invoke-RestMethod -Uri $apiUrl | Select-Object -ExpandProperty clone_url
+
+foreach ($repository in $repositories) {
+    git clone $repository
+}
+```
+
+
+### alternative embedding
+
+
+```html
+=html
+<iframe src="https://images.patolojiatlasi.com/ectopic-adrenal/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+```
+
+knitr::include_url
+
+```r
+r
+knitr::include_url(url = "https://images.patolojiatlasi.com/ectopic-adrenal/HE.html")
+```
+
+
+### Figures
+
+Use `knitr::include_graphics()` to include images. Check the source for how to add
+labels and captions:
+
+```r
+#| label: fig-gosling
+#| fig-cap: "Ryan Gosling looking angry."
+knitr::include_graphics("images/gosling.jpg")
+```
+
+See @fig-gosling for a meme.
+
+https://quarto.org/docs/authoring/conditional.html
+
+### Conditional content
+
+The block below does not appear in the PDF, only on the website and Epub:
+
+::: {.content-hidden when-format="pdf"}
+Hello, I won't appear in the PDF!
+:::
+
+::: {.content-visible when-format="pdf"}
+But this text here, will only appear in the PDF!
+:::
+
+https://quarto.org/docs/projects/profiles.html
+
+
+---
+
+Increase the HTTP buffer size: Sometimes, increasing Git's HTTP buffer can help with this issue. You can do this with the following command: 
+```
+git config --global http.postBuffer 524288000
+```
+
+This increases the buffer size to 500 MB. Adjust the size as needed for your specific situation.
+
+---
+
+
+
+
+```{asis, echo = (language == "TR")}
+# Patoloji Atlası {#sec-patoloji-atlasi .unnumbered}
+```
+
+```{asis, echo = (language == "EN")}
+# Histopathology Atlas {#sec-histopathology-atlas .unnumbered}
+```
+
+
+```{asis, echo = (language == "TR")}
+
+- For English [click here](https://www.histopathologyatlas.com/).  
+
+- Sosyal medyadan derlenen görüntülerden oluşan patoloji notları için [tıklayınız](https://www.patolojinotlari.com/).  
+
+```
+
+```{asis, echo = (language == "EN")}
+
+- [Türkçe Atlas için tıklayın](https://www.patolojiatlasi.com/)  
+
+- For social media based pathology notes [click here](https://www.patolojinotlari.com/)  
+
+
+```
+
+
+
+```{comment}
+
+[![](./images/TR_Apple_Books_Badge_Get_RGB_080618.svg)](https://books.apple.com/us/book/id6456452218)
+
+https://books.apple.com/us/book/patoloji-atlas%C4%B1/id6456452218?itsct=books_box_link&itscg=30200&ls=1
+
+https://apple.co/44WLy11
+
+<a href="https://books.apple.com/us/book/patoloji-atlas%C4%B1/id6456452218?itscg=30200&amp;itsct=books_box_appicon&amp;ls=1" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 83px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/app-icon-books-new/standard/en-us?size=83x83&amp;releaseDate=1690848000" alt="App Icon Apple Books" style="border-radius: 13px; width: 83px; height: 83px;"></a>
+
+```
+
+
+
+```{asis, echo = (output_type=="html")}
+
+<a href="https://books.apple.com/us/book/patoloji-atlas%C4%B1/id6456452218?itscg=30200&amp;itsct=books_box_badge&amp;ls=1" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/get-it-on-apple-books/badge/tr-tr?size=250x83&amp;releaseDate=1690848000" alt="Get it on Apple Books" style="border-radius: 13px; width: 250px; height: 83px;"></img></a>
+
+
+```
+
+
+```{asis, echo = (output_type=="html")}
+
+<iframe width='160' height='400' src='https://leanpub.com/patolojiatlasi/embed' frameborder='0' allowtransparency='true'></iframe>
+
+```
+
+
+```{asis, echo = (output_type=="html")}
+
+<a href="https://play.google.com/store/books/details?id=um5jEAAAQBAJ&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Google Play'den alın" src="https://play.google.com/intl/en_us/badges/static/images/badges/tr_badge_web_generic.png" style="width: 250px;"></img></a>
+
+```
+
+
+```{comment}
+
+https://play.google.com/store/books/details?id=um5jEAAAQBAJ
+
+https://books.google.com.tr/books/about?id=um5jEAAAQBAJ
+
+
+```
+
+
+
+
+
+```{asis, echo = (output_type=="html")}
+
+
+| Atıf için (Citation)                                                                                                                                                                                                                                                                                     |
+|------------------------------------------------------------------------|
+| [![](https://zenodo.org/badge/452585667.svg)](https://zenodo.org/badge/latestdoi/452585667)                                                                                                                                                                                                              |
+| [Open Science Framework DOI: 10.17605/OSF.IO/6W5K8](https://osf.io/6w5k8/)                                                                                                                                                                                                                               |
+| [![](https://img.shields.io/github/issues/patolojiatlasi/patolojiatlasi.github.io)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/issues)                                                                                                                                                   |
+| [![](https://img.shields.io/github/license/patolojiatlasi/patolojiatlasi.github.io)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/blob/main/LICENSE)                                                                                                                                       |
+| <a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fwww.patolojiatlasi.com%2F%20@patolojinotlari%20@serdarbalci%20"><img src="https://img.shields.io/twitter/url?label=Patoloji%20Atlas%C4%B1&amp;style=social&amp;url=https%3A%2F%2Fwww.patolojiatlasi.com%2F" alt="Twitter"/></a>    |
+| <a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fwww.patolojinotlari.com%2F%20@patolojinotlari%20@serdarbalci%20"><img src="https://img.shields.io/twitter/url?label=Patoloji%20Notlar%C4%B1&amp;style=social&amp;url=https%3A%2F%2Fwww.patolojinotlari.com%2F" alt="Twitter"/></a> |
+
+
+
+
+
+```
+
+
+```{asis, echo = (output_type=="html")}
+
+::: {.iframeContainer}
+<h3 id="heading"></h3>
+<iframe id="randomIframe"></iframe>
+:::
+
+```
+
+```{comment}
+echo = (output_type=="html")
+
+<p>Visitor Count: <span id="visitorCount"></span></p>
+
+```
+
+
+
+
+
+
+<div class="sidebar-section custom">
+  <h3>Hakkımda</h3>
+  <b>Serdar Balcı</b><br />
+  <em>Türk Hekim ve Araştırmacı. Patoloji Uzmanı.</em><br />
+2005 yılında Hacettepe Üniversitesi Tıp (İng) Fakültesi'nden mezun oldu. Aynı yıl patoloji asistanlığına başladı. 2010 yılında patoloji uzmanı oldu. 2009 ve 2013-2014 arasında ABD'de Emory Üniversitesi'nde pankreatobilier sistem tümörleri üzerinde araştırmalar yaptı. Katıldığı çalışmalar ışığında tümör sınıflama ve kılavuzlarında güncellemeler oldu. 2016 yılında doçent oldu. İlgi  alanları arasında tümör sınıflandırılması, tümör evrelemesi, patolojide kalite  kontrol uygulamaları, anatomik patolojide istatistik uygulamaları ve R-project yer almaktadır.
+  <hr />
+
+
+<a href="../patolojinotlari/"><img src = "../img/patoloji-notlari.png" width="200px"></a>
+
+
+<hr/>
+
+
+<a href="../patoloji-ders-notlari/"><h3>Patoloji Ders Notları</h3></a>
+
+
+<hr/>
+
+<a href="../posts/molekuler-patoloji-hakkinda/"><h3>Moleküler Patoloji Hakkında</h3></a>
+
+
+<hr/>
+
+<a href="../posts/dijital-patoloji-hakkinda/"><h3>Dijital Patoloji Hakkında</h3></a>
+
+
+<hr/>
+
+<a href="../patolojiatlasi/"><img src = "../img/patoloji-atlasi.png" width="200px"></a>
+
+<hr/>
+
+<a href="../histopathologyatlas/"><img src = "../img/histopathology-atlas-whole-slide-images.png" width="200px"></a>
+
+
+<hr/>
+
+  <div id="iframeContainer">
+    <h3 id="heading"></h3>
+    <iframe id="randomIframe"></iframe>
+  </div>
+
+  <script src="https://www.patolojiatlasi.com/webpages.js"></script>
+  <script src="https://www.patolojiatlasi.com/script.js"></script>
+  
+  
+<hr/>
+  
+
+<a href = "../patolojiatlasi/"><h3>Patoloji Atlası</h3></a>
+
+<iframe width='160' height='400' src='https://leanpub.com/patolojiatlasi/embed' frameborder='0' allowtransparency='true'></iframe>
+
+<hr/>
+
+<a href="https://books.apple.com/us/book/patoloji-atlas%C4%B1/id6456452218?itscg=30200&amp;itsct=books_box_badge&amp;ls=1" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/get-it-on-apple-books/badge/tr-tr?size=250x83&amp;releaseDate=1690848000" alt="Get it on Apple Books" style="border-radius: 13px; width: 250px; height: 83px;"></a>
+
+
+<hr/>
+
+<a href="https://play.google.com/store/books/details?id=um5jEAAAQBAJ&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Google Play'den alın" src="https://play.google.com/intl/en_us/badges/static/images/badges/tr_badge_web_generic.png" style="width: 250px;"></img></a>
+
+<hr/>
+
+
+
+<a href="../patoloji-ve-bilisim/"><h3>Patoloji ve Bilişim</h3></a>
+
+
+<a href="https://www.ankaranobel.com/patoloji-ve-laboratuvarini-anlama-kilavuzu" target="_blank"><img src="https://percdn.com/f/108382/cG96WmFtNG0vcUp3ZUdGcEg4OG5icmdQYmNFPQ/images/urunler/patoloji-ve-patoloji-laboratuvarini-anlama-kilavuzu-2-baski-202569.webp" width="160" >  </a>
+
+<br>
+
+<b>Prof. Dr. Alp Usubütün</b> editörlüğünde hazırlanan <a href="https://www.ankaranobel.com/patoloji-ve-laboratuvarini-anlama-kilavuzu" target="_blank"><b>Sağlık Bilimleri İçin Patoloji ve Patoloji Laboratuvarını Anlama Kılavuzu 2. Baskı - Ekim 2022 Ankara Nobel Tıp Kitabevleri ISBN: 978-625-7564-70-0</b></a> adlı kitaptaki <b>8. Bölüm: Patolojide Yeni Yöntemler ve Gelecek</b> adlı bölümün güncellenen içeriği için <a href="https://www.serdarbalci.com/posts/patolojide-bilisim/"><b>tıklayınız</b></a>.
+
+<hr/>
+
+<h3>Beyin Hasarı Sonrası Yaşam: Kurtulanların Öyküleri</h3>
+
+
+<a href="https://www.nobelyayin.com/beyin-hasari-sonrasi-yasam-kurtulanlarin-oykuleri-17456.html" target="_blank"><img src="./img/Beyin-Hasari-Sonrasi-Yasam-Kurtulanlarin-Oykuleri.png" width="160" >  </a>
+
+
+<hr/>
+
+
+  <h3>List of Projects</h3>
+<a href="https://github.com/patolojiAI/LOP"> http://lop.patolojiAI.com</a>
+
+
+<hr/>
+
+
+
+  <h3>List For My Daily Visits</h3>
+
+  <details>
+    <summary>Educational</summary>
+    <a href="http://www.cbioportal.org/" target="_blank">cBioPortal</a>
+    <br />
+    <a
+      href="https://www.coursera.org/learn/data-genes-medicine/"
+      target="_blank"
+      >Data Genes Medicine</a
+    >
+    <br />
+    <a
+      href="https://learning.edx.org/course/course-v1:HarvardX+PH525.5x+2T2018/home"
+      target="_blank"
+      >Bioconductor</a
+    >
+    <br />
+    <a
+      href="https://www.coursera.org/learn/galaxy-project/home/welcome"
+      target="_blank"
+      >Galaxy</a
+    >
+    <br />
+    <a
+      href="https://www.coursera.org/learn/dna-analysis/home/welcome"
+      target="_blank"
+      >Bioinformatics and Computational Biology</a
+    >
+    <br />
+    <a
+      href="https://learning.edx.org/course/course-v1:UCSanDiegoX+CSE181.1x+1T2017/block-v1:UCSanDiegoX+CSE181.1x+1T2017+type@sequential+block@ac6339babf6c462dae4af6ace76aad28/block-v1:UCSanDiegoX+CSE181.1x+1T2017+type@vertical+block@ece64430a491452386214aad3802467b"
+      target="_blank"
+      >Genomic Data Science</a
+    >
+    <br />
+    <a
+      href="https://learning.edx.org/course/course-v1:USMx+BIF003x+3T2016/home"
+      target="_blank"
+      >Statistical Analysis in Bioinformatics</a
+    >
+    <br />
+    <a
+      href="https://learning.edx.org/course/course-v1:EPFLx+IPA4LSx+3T2018/home"
+      target="_blank"
+      >Image Processing</a
+    >
+    <br />
+    <a
+      href="https://learning.edx.org/course/course-v1:EPFLx+NiC1.0x+3T2016/home"
+      target="_blank"
+      >Biology in JavaScript</a
+    >
+    <br />
+    <a href="https://qupath.readthedocs.io/en/stable/" target="_blank"
+      >QuPath</a
+    >
+    <br />
+    <a href="https://orangedatamining.com/docs/" target="_blank">Orange</a>
+    <br />
+    <a href="https://digitalpathologysociety.org/" target="_blank">DPS</a>
+    <br />
+    <a
+      href="https://digitalpathologyassociation.org/past-webinar-presentations"
+      target="_blank"
+      >DPA-Webinars</a
+    >
+    <br />
+    <a href="https://elearning.uscap.org/" target="_blank">USCAP-Courses</a>
+    <br />
+    <a
+      href="https://www.esp-pathology.org/educational-portal.html"
+      target="_blank"
+      >ESP</a
+    >
+  </details>
+
+  <details>
+    <summary>Ongoing Projects</summary>
+    <!-- <a href="https://memorialpath.github.io/" target="_blank"
+      >Memorial Patoloji İstatistikler</a
+    >
+    <br /> -->
+    <a href="/patolojinotlari/" target="_blank"
+      >Patoloji Notları</a
+    >
+    <br />
+    <a href="/parapathology/" target="_blank">(Para)Pathology</a>
+    <br />
+    <a href="https://github.com/sbalci/MyRCodesForDataAnalysis" target="_blank"
+      >MyRCodes</a
+    >
+    <br />
+    <a href="https://github.com/PathologyWeb" target="_blank">PathologyWeb</a>
+    <br />
+    <a href="https://pathologyweb.github.io/patolojiraporlari/" target="_blank"
+      >Patoloji Raporlari</a
+    >
+  </details>
+
+  <details>
+    <summary>Pathology</summary>
+    <a href="https://tumourclassification.iarc.who.int/welcome/" target="_blank"
+      >WHO Blue Books</a
+    >
+    <br />
+    <a
+      href="https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates"
+      target="_blank"
+      >CAP Cancer Protocol</a
+    >
+    <br />
+    <a href="https://journals.lww.com/ajsp/pages/default.aspx" target="_blank"
+      >AJSP</a
+    >
+    <br />
+    <a href="https://www.nature.com/modpathol/" target="_blank"
+      >Modern Pathology</a
+    >
+    <br />
+    <a href="https://www.nature.com/labinvest/" target="_blank"
+      >Laboratory Investigation</a
+    >
+    <br />
+    <a
+      href="https://www.sciencedirect.com/journal/seminars-in-diagnostic-pathology"
+      target="_blank"
+      >Seminars in Diagnostic Pathology</a
+    >
+    <br />
+    <a
+      href="https://www.sciencedirect.com/journal/surgical-pathology-clinics"
+      target="_blank"
+      >Surgical Pathology Clinics</a
+    >
+  </details>
+
+  <details>
+    <summary>Digital Pathology</summary>
+    <a href="https://digitalpathologyassociation.org/" target="_blank"
+      >Digital Pathology Association</a
+    >
+    <br />
+    <a href="https://digitalpathologysociety.org/" target="_blank"
+      >Digital Pathology Society</a
+    >
+    <br />
+    <a href="https://qupath.github.io/" target="_blank">QuPath</a>
+    <br />
+    <a href="https://imagej.github.io/" target="_blank">ImageJ</a>
+  </details>
+
+  <details>
+    <summary>R-project</summary>
+    <a href="https://github.com/sbalci/MyRCodesForDataAnalysis" target="_blank"
+      >MyRCodes</a
+    >
+    <br />
+    <a href="https://www.r-bloggers.com/" target="_blank">R-bloggers</a>
+    <br />
+    <a href="https://rweekly.org/" target="_blank">R-weekly</a>
+  </details>
+
+  <details>
+    <summary>jamovi</summary>
+    <a href="https://www.jamovi.org/download.html" target="_blank">releases</a>
+    <br />
+    <a href="https://forum.jamovi.org/" target="_blank">forum</a>
+    <br />
+    <a
+      href="https://dev.jamovi.org/tuts0101-getting-started.html"
+      target="_blank"
+      >development</a
+    >
+    <br />
+    <a
+      href="https://www.jamovi.org/downloads/jamovi-unsigned.zip"
+      target="_blank"
+      >dev version</a
+    >
+  </details>
+
+  <details>
+    <summary>Pages</summary>
+    <a href="https://www.patolojiai.com/" target="_blank">patolojiAI</a>
+    <br />
+    <a href="https://pbpath.org/" target="_blank">PBPath</a>
+    <br />
+    <a href="https://www.drozlembalci.com/" target="_blank">drozlembalci</a>
+    <br />
+    <!--
+    <a href="https://memorialpath.github.io/" target="_blank"
+      >Memorial Patoloji İstatistikler</a
+    >
+    <br /> -->
+    <a href="/patolojinotlari/" target="_blank"
+      >Patoloji Notları</a
+    >
+    <br />
+    <a href="/parapathology/" target="_blank">(Para)Pathology</a>
+  </details>
+  <hr />
+</div>
+<div itemscope="" itemtype="https://schema.org/Person">
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Serdar Balcı",
+      "url": "https://www.serdarbalci.com/",
+      "jobTitle": "MD, Pathologist",
+      "sameAs": [
+        "https://www.facebook.com/serdarbalcimd",
+        "https://www.facebook.com/serdarbalcimdpathologist/",
+        "https://www.instagram.com/balciserdar/",
+        "https://www.linkedin.com/in/serdar-balci-md-pathologist/",
+        "https://twitter.com/serdarbalci",
+        "https://mastodon.social/@serdarbalci",
+        "https://github.com/sbalci",
+        "https://www.parapathology.com",
+        "https://www.patolojinotlari.com",
+        "https://www.patolojiai.com/",
+        "https://www.memorial.com.tr/doktorlar/serdar-balci",
+        "https://www.google.com/search?kgmid=/g/11fkbdq2jb"
+      ]
+    }
+  </script>
+</div>
+
 
 
 

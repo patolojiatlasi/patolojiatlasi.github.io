@@ -291,7 +291,6 @@ book:
     - referanslar.qmd
     - part: "---"
   appendices:
-    # - yonetim-gelistirme.md
     - text: "Katkıda bulunun"
       href: katki.qmd
     - text: "Yorum ekleyin"
@@ -300,7 +299,7 @@ book:
       href: listing.qmd
     - listing2.qmd
     # - feature-trials.qmd
-
+    # - yonetim-gelistirme.md
 
 
 # before_chapter_script: "./R/language.R"
@@ -352,7 +351,8 @@ format:
           <script src="script.js"></script>
           <script src="webpages.js"></script>
       - file: "./headerTR.html"
-
+    filters:
+      - collapse-social-embeds
 
 citation:
     type: webpage

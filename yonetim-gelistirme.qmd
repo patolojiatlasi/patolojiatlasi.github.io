@@ -1,0 +1,281 @@
+---
+description: |
+    gelistirme, yonetim, development, patoloji, atlas, pathology, whole slide image, patolojiatlasi, histopathologyatlas, wsi
+date: last-modified
+categories: [gelistirme, yonetim, development]
+page-layout: full
+bibliography: references.bib
+---
+
+
+🔬🔬🔬🔬 UNDER CONSTRUCTION 🛠⛔️⚠️🔩
+
+
+
+```{r language, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis, echo = (language == "TR")}
+
+# Patoloji Atlası Nasıl Geliştiriliyor? {#sec-atlas-gelistirme .unnumbered}
+
+```
+
+
+```{asis, echo = (language == "TR")}
+
+## Vakaların Seçilmesi {#sec-}
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+### Memorial Patoloji {#sec-}
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+### Diğer Kurumlar {#sec-}
+
+```
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Dijital Görüntülerin Oluşturulması {#sec-}
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+### Memorial Patoloji {#sec-}
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+### Diğer Kurumlar {#sec-}
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+### Görüntülerin Taranması {#sec-}
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+### `svs` dosyalarının elde edilmesi {#sec-}
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+### Anonimleştirme {#sec-}
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+### görüntülerin `html` haline dönüştürülmesi {#sec-}
+
+```
+
+
+```{asis, echo = (language == "TR")}
+
+### `openseagradon` {#sec-}
+
+```
+
+
+
+https://github.com/pathologyatlas/make-html-WSI
+
+```{asis, echo = (language == "TR")}
+
+### `vips` kullanarak {#sec-}
+
+```
+
+```{asis, echo = (language == "TR")}
+
+### `micaia` programı ile {#sec-}
+
+```
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+## `html` düzenlenmesi {#sec-}
+
+```
+
+https://github.com/pathologyatlas/template
+
+
+```{asis, echo = (language == "TR")}
+
+## `html` webe aktarımı {#sec-}
+
+```
+
+```{asis, echo = (language == "TR")}
+
+## patoloji atlası web sayfasının hazırlanması {#sec-}
+
+```
+
+https://github.com/patolojiatlasi/patolojiatlasi.github.io
+
+```{asis, echo = (language == "TR")}
+
+## Quarto ile çok dilli kitap oluşturma {#sec-}
+
+```
+
+```{asis, echo = (language == "TR")}
+
+## epub, word ve pdf formatları {#sec-}
+
+```
+
+```{asis, echo = (language == "TR")}
+
+## Apple Books, Google Play Books, LeanPub, GitHub paylaşımları {#sec-}
+
+```
+
+
+```{asis, echo = (language == "TR")}
+
+### GitHub Actions
+
+```
+
+
+```{asis, echo = (language == "TR")}
+
+## GitHub Durumu {#sec-}
+
+```
+
+
+## Yönetim ve Geliştirme
+
+[Patoloji Atlası](https://www.patolojiatlasi.com/)
+
+[![Quarto Render Bilingual Book Push Other Repos GitLab](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/Quarto-Render-Bilingual-Book-Push-Other-Repos-GitLab.yml/badge.svg)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/Quarto-Render-Bilingual-Book-Push-Other-Repos-GitLab.yml)
+
+[![Lecture Notes Quarto Render Bilingual Book Push Other Repos and GitLab](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/lecture-notes.yml/badge.svg)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/lecture-notes.yml)
+
+[![pages-build-deployment](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/pages/pages-build-deployment)
+
+[![Post Wordpress Random Cases](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/post-wordpress-random-cases.yml/badge.svg)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/post-wordpress-random-cases.yml)
+
+------------------------------------------------------------------------
+
+[pathologyatlas.github.io](https://images.patolojiatlasi.com/)
+
+[lab.patolojinotlari.com](https://lab.patolojinotlari.com)
+
+[patolojinotlari.com](https://patolojinotlari.com)
+
+[parapathology.com](https://parapathology.com)
+
+[twitter](https://twitter.com/patolojinotlari)
+
+[linkedin](https://www.linkedin.com/company/patoloji-notlari)
+
+<https://leanpub.com/patolojiatlasi/>
+
+[development & WIP](https://images.patolojiatlasi.com/development.md)
+
+-   <https://github.com/pathologyatlas>
+
+-   <https://github.com/pathologyatlas/TODO>
+
+-   <https://github.com/pathologyatlas/pathologyatlas.github.io>
+
+-   <https://github.com/pathologyatlas/template>
+
+-   <https://github.com/pathologyatlas/make-html-WSI>
+
+contact: info\@patolojinotlari.com
+
+contact: bilgi\@patolojiatlasi.com
+
+<iframe width="160" height="400" src="https://leanpub.com/patolojiatlasi/embed" frameborder="0" allowtransparency="true">
+
+</iframe>
+
+-   https://github.com/marketplace/actions/quarto-render
+
+-   https://github.com/quarto-dev/quarto-actions
+
+
+-----
+
+- https://github.com/patolojiatlasi/patolojiatlasi.github.io/releases/latest/download/Patoloji-Atlasi.epub
+
+- https://www.serdarbalci.com/patolojiatlasi/ebook.html
+
+
+-----
+
+- https://itunesconnect.apple.com/
+
+- https://books.apple.com/us/book/patoloji-atlasi/id6456452218
+
+![](https://is1-ssl.mzstatic.com/image/thumb/Publication126/v4/27/11/f0/2711f08c-f668-7ce0-0ebd-0df16be30fd6/4d0d1458-db59-460f-bd62-6f10900fb559_cover_image.png/626x0w.webp)
+
+- https://books.apple.com/us/book/id6456452218
+
+
+
+
+
+
+
+------------------------------------------------------------------------
+
+
+[![](./images/patoloji-atlasi-openseadragon-example)](https://openseadragon.github.io/examples/in-the-wild/#science)
+
+
+[![](./images/patoloji-atlasi-quarto-example)](https://github.com/quarto-dev/quarto-actions/tree/main/examples)
+
+
+
+
+
+
+
+
