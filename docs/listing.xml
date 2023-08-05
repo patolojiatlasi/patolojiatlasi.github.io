@@ -21,7 +21,7 @@ Patoloji Ders Notları ve Patoloji Atlası Memorial Patoloji arşivinden derlene
 <width>144</width>
 </image>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Sat, 05 Aug 2023 17:17:27 GMT</lastBuildDate>
+<lastBuildDate>Sat, 05 Aug 2023 19:29:36 GMT</lastBuildDate>
 <item>
   <title>24  Başka Organlara Tümör Yayılımı</title>
   <link>https://patolojiatlasi.com/tumor-yayilimi.html</link>
@@ -85,7 +85,154 @@ Patoloji Ders Notları ve Patoloji Atlası Memorial Patoloji arşivinden derlene
   <category>metastaz</category>
   <category>invazyon</category>
   <guid>https://patolojiatlasi.com/tumor-yayilimi.html</guid>
-  <pubDate>Sat, 05 Aug 2023 17:17:27 GMT</pubDate>
+  <pubDate>Sat, 05 Aug 2023 19:29:36 GMT</pubDate>
+</item>
+<item>
+  <title>Patoloji Atlası Nasıl Geliştiriliyor?</title>
+  <link>https://patolojiatlasi.com/yonetim-gelistirme.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>🔬🔬🔬🔬 UNDER CONSTRUCTION 🛠⛔️⚠️🔩</p>
+<section id="sec-" class="level2 cell">
+<h2 class="anchored" data-anchor-id="sec-">Vakaların Seçilmesi</h2>
+</section>
+<section id="sec-" class="level3 cell">
+<h3 class="anchored" data-anchor-id="sec-">Memorial Patoloji</h3>
+</section>
+<section id="sec-" class="level3 cell">
+<h3 class="anchored" data-anchor-id="sec-">Diğer Kurumlar</h3>
+</section>
+<section id="sec-" class="level2 cell">
+<h2 class="anchored" data-anchor-id="sec-">Dijital Görüntülerin Oluşturulması</h2>
+</section>
+<section id="sec-" class="level3 cell">
+<h3 class="anchored" data-anchor-id="sec-">Memorial Patoloji</h3>
+</section>
+<section id="sec-" class="level3 cell">
+<h3 class="anchored" data-anchor-id="sec-">Diğer Kurumlar</h3>
+</section>
+<section id="sec-" class="level3 cell">
+<h3 class="anchored" data-anchor-id="sec-">Görüntülerin Taranması</h3>
+</section>
+<section id="sec-" class="level3 cell">
+<h3 class="anchored" data-anchor-id="sec-"><code>svs</code> dosyalarının elde edilmesi</h3>
+</section>
+<section id="sec-" class="level3 cell">
+<h3 class="anchored" data-anchor-id="sec-">Anonimleştirme</h3>
+</section>
+<section id="sec-" class="level3 cell">
+<h3 class="anchored" data-anchor-id="sec-">görüntülerin <code>html</code> haline dönüştürülmesi</h3>
+</section>
+<section id="sec-" class="level3 cell">
+<h3 class="anchored" data-anchor-id="sec-"><code>openseagradon</code></h3>
+</section>
+<p>https://github.com/pathologyatlas/make-html-WSI</p>
+<section id="sec-" class="level3 cell">
+<h3 class="anchored" data-anchor-id="sec-"><code>vips</code> kullanarak</h3>
+</section>
+<section id="sec-" class="level3 cell">
+<h3 class="anchored" data-anchor-id="sec-"><code>micaia</code> programı ile</h3>
+</section>
+<section id="sec-" class="level2 cell">
+<h2 class="anchored" data-anchor-id="sec-"><code>html</code> düzenlenmesi</h2>
+</section>
+<p>https://github.com/pathologyatlas/template</p>
+<section id="sec-" class="level2 cell">
+<h2 class="anchored" data-anchor-id="sec-"><code>html</code> webe aktarımı</h2>
+</section>
+<section id="sec-" class="level2 cell">
+<h2 class="anchored" data-anchor-id="sec-">patoloji atlası web sayfasının hazırlanması</h2>
+</section>
+<p>https://github.com/patolojiatlasi/patolojiatlasi.github.io</p>
+<section id="sec-" class="level2 cell">
+<h2 class="anchored" data-anchor-id="sec-">Quarto ile çok dilli kitap oluşturma</h2>
+</section>
+<section id="sec-" class="level2 cell">
+<h2 class="anchored" data-anchor-id="sec-">epub, word ve pdf formatları</h2>
+</section>
+<section id="sec-" class="level2 cell">
+<h2 class="anchored" data-anchor-id="sec-">Apple Books, Google Play Books, LeanPub, GitHub paylaşımları</h2>
+</section>
+<section id="github-actions" class="level3 cell">
+<h3 class="anchored" data-anchor-id="github-actions">GitHub Actions</h3>
+</section>
+<section id="sec-" class="level2 cell">
+<h2 class="anchored" data-anchor-id="sec-">GitHub Durumu</h2>
+</section>
+<p><a href="https://www.patolojiatlasi.com/">Patoloji Atlası</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/Quarto-Render-Bilingual-Book-Push-Other-Repos-GitLab.yml"><img src="https:/github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/Quarto-Render-Bilingual-Book-Push-Other-Repos-GitLab.yml/badge.svg" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Quarto Render Bilingual Book Push Other Repos GitLab</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/lecture-notes.yml"><img src="https:/github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/lecture-notes.yml/badge.svg" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Lecture Notes Quarto Render Bilingual Book Push Other Repos and GitLab</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/pages/pages-build-deployment"><img src="https:/github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/pages/pages-build-deployment/badge.svg" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">pages-build-deployment</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/post-wordpress-random-cases.yml"><img src="https:/github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/post-wordpress-random-cases.yml/badge.svg" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Post Wordpress Random Cases</figcaption>
+</figure>
+</div>
+<p><a href="https://leanpub.com/patolojiatlasi/" class="uri">https://leanpub.com/patolojiatlasi/</a></p>
+<p><a href="https://images.patolojiatlasi.com/development.md">development &amp; WIP</a></p>
+<ul>
+<li><p><a href="https://github.com/pathologyatlas/template" class="uri">https://github.com/pathologyatlas/template</a></p></li>
+<li><p><a href="https://github.com/pathologyatlas/make-html-WSI" class="uri">https://github.com/pathologyatlas/make-html-WSI</a></p></li>
+</ul>
+<p>contact: info@patolojinotlari.com</p>
+<p>contact: bilgi@patolojiatlasi.com</p>
+<iframe width="160" height="400" src="https://leanpub.com/patolojiatlasi/embed" frameborder="0" allowtransparency="true">
+</iframe>
+<ul>
+<li><p>https://github.com/marketplace/actions/quarto-render</p></li>
+<li><p>https://github.com/quarto-dev/quarto-actions</p></li>
+</ul>
+<hr>
+<ul>
+<li><p>https://github.com/patolojiatlasi/patolojiatlasi.github.io/releases/latest/download/Patoloji-Atlasi.epub</p></li>
+<li><p>https://www.serdarbalci.com/patolojiatlasi/ebook.html</p></li>
+</ul>
+<hr>
+<ul>
+<li><p>https://itunesconnect.apple.com/</p></li>
+<li><p>https://books.apple.com/us/book/patoloji-atlasi/id6456452218</p></li>
+</ul>
+<p><img src="https:/is1-ssl.mzstatic.com/image/thumb/Publication126/v4/27/11/f0/2711f08c-f668-7ce0-0ebd-0df16be30fd6/4d0d1458-db59-460f-bd62-6f10900fb559_cover_image.png/626x0w.webp" class="img-fluid"></p>
+<ul>
+<li>https://books.apple.com/us/book/id6456452218</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://openseadragon.github.io/examples/in-the-wild/#science"><img src="https://patolojiatlasi.com/images/patoloji-atlasi-openseadragon-example.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://github.com/quarto-dev/quarto-actions/tree/main/examples"><img src="https://patolojiatlasi.com/images/patoloji-atlasi-quarto-example.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+
+
+
+ ]]></description>
+  <category>gelistirme</category>
+  <category>yonetim</category>
+  <category>development</category>
+  <guid>https://patolojiatlasi.com/yonetim-gelistirme.html</guid>
+  <pubDate>Sat, 05 Aug 2023 19:29:36 GMT</pubDate>
 </item>
 <item>
   <title>65  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları</title>
@@ -158,7 +305,7 @@ Mukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston, Rajendra S
   <category>wsi</category>
   <category>atlas</category>
   <guid>https://patolojiatlasi.com/wsi.html</guid>
-  <pubDate>Sat, 05 Aug 2023 17:17:27 GMT</pubDate>
+  <pubDate>Sat, 05 Aug 2023 19:29:36 GMT</pubDate>
 </item>
 <item>
   <title>1  Patolojide Kullanılan Teknikler</title>
@@ -206,61 +353,7 @@ Mukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston, Rajendra S
   <category>histochemistry</category>
   <category>CISH</category>
   <guid>https://patolojiatlasi.com/teknik.html</guid>
-  <pubDate>Sat, 05 Aug 2023 17:17:27 GMT</pubDate>
-</item>
-<item>
-  <title>39  Safra Kesesi</title>
-  <link>https://patolojiatlasi.com/safra-kesesi.html</link>
-  <description><![CDATA[ 
-
-
-
-<section id="sec-safra-kesesi-adenomyom" class="level2 cell" data-number="39.1">
-<h2 data-number="39.1" class="anchored" data-anchor-id="sec-safra-kesesi-adenomyom"><span class="header-section-number">39.1</span> Safra Kesesi Adenomyom</h2>
-</section>
-<div class="cell">
-<p><strong>Safra Kesesi Adenomyom</strong></p>
-<p><a href="https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html"><img src="https://patolojiatlasi.com/screenshots/gallbladder-adenomyoma_screenshot.png" class="img-fluid" style="width:25.0%" alt="Tam Ekran Görmek İçin Resmi Tıklayın"></a> <a href="https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html">Tam Ekran Görmek İçin Resmi Tıklayın</a></p>
-</div>
-<div class="cell">
-<p>Mikroskopik görüntüleri inceleyin:</p>
-<iframe src="https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html" style="height:600px;width:100%;" data-external="1">
-</iframe>
-</div>
-<section id="sec-ischemia-gangrenous-cholecystitis" class="level2 cell" data-number="39.2">
-<h2 data-number="39.2" class="anchored" data-anchor-id="sec-ischemia-gangrenous-cholecystitis"><span class="header-section-number">39.2</span> iskemi gangrenöz kolesistit</h2>
-</section>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">HE</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false">HE - annotated</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
-<div class="cell">
-<p><strong>iskemi gangrenöz kolesistit</strong></p>
-<p><a href="https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html"><img src="https://patolojiatlasi.com/screenshots/ischemia-gangrenous-cholecystitis_screenshot.png" class="img-fluid" style="width:25.0%" alt="Tam Ekran Görmek İçin Resmi Tıklayın"></a> <a href="https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html">Tam Ekran Görmek İçin Resmi Tıklayın</a></p>
-</div>
-<div class="cell">
-<p>Mikroskopik görüntüleri inceleyin:</p>
-<iframe src="https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html" style="height:600px;width:100%;" data-external="1">
-</iframe>
-</div>
-</div>
-<div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
-<div class="cell">
-<p>İşaretlenmiş Mikroskopik görüntüleri inceleyin:</p>
-<iframe src="https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE_annotated.html" style="height:600px;width:100%;" data-external="1">
-</iframe>
-</div>
-</div>
-</div>
-</div>
-
-
-
- ]]></description>
-  <category>safra kesesi</category>
-  <category>gallbladder</category>
-  <guid>https://patolojiatlasi.com/safra-kesesi.html</guid>
-  <pubDate>Sat, 05 Aug 2023 17:17:27 GMT</pubDate>
+  <pubDate>Sat, 05 Aug 2023 19:29:36 GMT</pubDate>
 </item>
 <item>
   <title>57  Santral Sinir Sistemi Vasküler Lezyonlar</title>
@@ -290,7 +383,7 @@ Mukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston, Rajendra S
   <category>damar</category>
   <category>vasküler</category>
   <guid>https://patolojiatlasi.com/sss-vaskuler.html</guid>
-  <pubDate>Sat, 05 Aug 2023 17:17:27 GMT</pubDate>
+  <pubDate>Sat, 05 Aug 2023 19:29:36 GMT</pubDate>
 </item>
 <item>
   <title>45  Serviks</title>
@@ -318,7 +411,7 @@ Mukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston, Rajendra S
   <category>serviks</category>
   <category>cervix</category>
   <guid>https://patolojiatlasi.com/serviks.html</guid>
-  <pubDate>Sat, 05 Aug 2023 17:17:27 GMT</pubDate>
+  <pubDate>Sat, 05 Aug 2023 19:29:36 GMT</pubDate>
 </item>
 <item>
   <title>8  Tamir Mekanizmaları</title>
@@ -371,7 +464,7 @@ Mukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston, Rajendra S
   <category>hasar</category>
   <category>tamir</category>
   <guid>https://patolojiatlasi.com/tamir.html</guid>
-  <pubDate>Sat, 05 Aug 2023 17:17:27 GMT</pubDate>
+  <pubDate>Sat, 05 Aug 2023 19:29:36 GMT</pubDate>
 </item>
 <item>
   <title>54  Tükürük Bezi Tümörleri</title>
@@ -435,7 +528,7 @@ Mukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston, Rajendra S
   <category>tukuruk</category>
   <category>salivary</category>
   <guid>https://patolojiatlasi.com/tukuruk.html</guid>
-  <pubDate>Sat, 05 Aug 2023 17:17:27 GMT</pubDate>
+  <pubDate>Sat, 05 Aug 2023 19:29:36 GMT</pubDate>
 </item>
 <item>
   <title>48  Uriner Sistem Patolojisi</title>
@@ -451,7 +544,7 @@ Mukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston, Rajendra S
   <category>uriner</category>
   <category>urinary</category>
   <guid>https://patolojiatlasi.com/uriner.html</guid>
-  <pubDate>Sat, 05 Aug 2023 17:17:27 GMT</pubDate>
+  <pubDate>Sat, 05 Aug 2023 19:29:36 GMT</pubDate>
 </item>
 <item>
   <title>25  Venöz invazyon</title>
@@ -479,7 +572,7 @@ Mukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston, Rajendra S
   <category>venous invasion</category>
   <category>venöz invazyon</category>
   <guid>https://patolojiatlasi.com/venoz-invazyon.html</guid>
-  <pubDate>Sat, 05 Aug 2023 17:17:27 GMT</pubDate>
+  <pubDate>Sat, 05 Aug 2023 19:29:36 GMT</pubDate>
 </item>
 <item>
   <title>13  Viruslar</title>
@@ -519,7 +612,7 @@ Mukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston, Rajendra S
   <category>HSV</category>
   <category>molluscum</category>
   <guid>https://patolojiatlasi.com/virus.html</guid>
-  <pubDate>Sat, 05 Aug 2023 17:17:27 GMT</pubDate>
+  <pubDate>Sat, 05 Aug 2023 19:29:36 GMT</pubDate>
 </item>
 <item>
   <title>Yazarlar ve Katkıda Bulunanlar</title>
@@ -544,17 +637,18 @@ Mukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston, Rajendra S
 <li><p><a href="https://www.memorial.com.tr/doktorlar/fatma-aktepe">Fatma Aktepe</a></p></li>
 <li><p><a href="https://www.memorial.com.tr/doktorlar/turkan-atasever-rezanko">Türkan Atasever Rezanko</a></p></li>
 <li><p><a href="https://www.memorial.com.tr/doktorlar/pembe-gul-gunes">Pembe Gül Güneş</a></p></li>
-<li><p><a href="https://www.memorial.com.tr/doktorlar/semsi-yildiz">Şemsi Yıldız</a></p></li>
+<li><p><a href="https://www.memorial.com.tr/doktorlar/semsi-yildiz-1">Şemsi Yıldız</a></p></li>
 <li><p><a href="https://www.memorial.com.tr/doktorlar/serdar-balci-k">Serdar Balcı</a></p></li>
 <li><p><a href="https://www.memorial.com.tr/doktorlar/sezen-kocarslan">Sezen Koçarslan</a></p></li>
-<li><p><a href="https://www.memorial.com.tr/doktorlar/yildirim-karslioglu">Yıldırım Karslıoğlu</a></p></li>
-<li><p><a href="https://www.memorial.com.tr/doktorlar/mehtat-uz-unlu">Mehtat Uz Ünlü</a></p></li>
+<li><p><a href="https://www.memorial.com.tr/doktorlar/yildirim-karslioglu-k">Yıldırım Karslıoğlu</a></p></li>
+<li><p><a href="https://www.memorial.com.tr/doktorlar/mehtat-uz-unlu-k">Mehtat Uz Ünlü</a></p></li>
 <li><p><a href="https://www.memorial.com.tr/doktorlar/murat-oktay">Murat Oktay</a></p></li>
-<li><p><a href="https://www.memorial.com.tr/doktorlar/deniz-baycelebi">Deniz Bayçelebi</a></p></li>
+<li><p>Deniz Bayçelebi</p></li>
 <li><p><a href="https://www.memorial.com.tr/doktorlar/emre-karakok">Emre Karakök</a></p></li>
-<li><p><a href="https://www.memorial.com.tr/doktorlar/zuhal-kus-silav">Zuhal Kuş Sılav</a></p></li>
-<li><p><a href="https://www.memorial.com.tr/doktorlar/fatma-gulgun-sade-kocak">Fatma Gülgün Sade Koçak</a></p></li>
-<li><p><a href="https://www.memorial.com.tr/doktorlar/zeynep-pehlivanoglu">Zeynep Pehlivanoğlu</a></p></li>
+<li><p>Zuhal Kuş Sılav</p></li>
+<li><p><a href="https://www.memorial.com.tr/doktorlar/fatma-gulgun-sade-kocak-k">Fatma Gülgün Sade Koçak</a></p></li>
+<li><p><a href="https://www.memorial.com.tr/doktorlar/zeynep-pehlivanoglu-k">Zeynep Pehlivanoğlu</a></p></li>
+<li><p><a href="https://www.memorial.com.tr/doktorlar/fadime-gul-salman">Fadime Gül Salman</a></p></li>
 </ul>
 <div class="cell">
 <p><a href="https://patoloji.memorial.com.tr/"><strong>Memorial Patoloji</strong></a> <strong>Teknikerleri</strong></p>
@@ -588,7 +682,7 @@ Mukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston, Rajendra S
   <category>editors</category>
   <category>contributors</category>
   <guid>https://patolojiatlasi.com/yazarlar.html</guid>
-  <pubDate>Sat, 05 Aug 2023 17:17:27 GMT</pubDate>
+  <pubDate>Sat, 05 Aug 2023 19:29:36 GMT</pubDate>
 </item>
 <item>
   <title>36  Benign Karaciğer Tümörleri</title>
@@ -617,7 +711,7 @@ Mukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston, Rajendra S
   <category>benign</category>
   <category>liver</category>
   <guid>https://patolojiatlasi.com/karaciger-benign.html</guid>
-  <pubDate>Sat, 05 Aug 2023 17:17:26 GMT</pubDate>
+  <pubDate>Sat, 05 Aug 2023 19:29:35 GMT</pubDate>
 </item>
 <item>
   <title>56  Beyin İnvazyonu Gösteren Meningiom</title>
@@ -653,7 +747,7 @@ Mukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston, Rajendra S
  ]]></description>
   <category>meningioma</category>
   <guid>https://patolojiatlasi.com/meningiom.html</guid>
-  <pubDate>Sat, 05 Aug 2023 17:17:26 GMT</pubDate>
+  <pubDate>Sat, 05 Aug 2023 19:29:35 GMT</pubDate>
 </item>
 <item>
   <title>6  Dalak konjesyon</title>
@@ -678,7 +772,7 @@ Mukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston, Rajendra S
   <category>congestion</category>
   <category>spleen</category>
   <guid>https://patolojiatlasi.com/konjesyon.html</guid>
-  <pubDate>Sat, 05 Aug 2023 17:17:26 GMT</pubDate>
+  <pubDate>Sat, 05 Aug 2023 19:29:35 GMT</pubDate>
 </item>
 <item>
   <title>32  Duodenum</title>
@@ -709,7 +803,7 @@ Mukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston, Rajendra S
   <category>gluten</category>
   <category>enteropati</category>
   <guid>https://patolojiatlasi.com/duodenum.html</guid>
-  <pubDate>Sat, 05 Aug 2023 17:17:26 GMT</pubDate>
+  <pubDate>Sat, 05 Aug 2023 19:29:35 GMT</pubDate>
 </item>
 <item>
   <title>26  Ekstramural Venöz İnvazyon</title>
@@ -764,7 +858,7 @@ Mukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston, Rajendra S
   <category>venöz invazyon</category>
   <category>ekstramural</category>
   <guid>https://patolojiatlasi.com/ekstramural-venoz-invazyon.html</guid>
-  <pubDate>Sat, 05 Aug 2023 17:17:26 GMT</pubDate>
+  <pubDate>Sat, 05 Aug 2023 19:29:35 GMT</pubDate>
 </item>
 <item>
   <title>46  Endometrial Polip</title>
@@ -789,7 +883,7 @@ Mukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston, Rajendra S
   <category>endometrium</category>
   <category>polip</category>
   <guid>https://patolojiatlasi.com/endometrium.html</guid>
-  <pubDate>Sat, 05 Aug 2023 17:17:26 GMT</pubDate>
+  <pubDate>Sat, 05 Aug 2023 19:29:35 GMT</pubDate>
 </item>
 <item>
   <title>47  Endometriozis</title>
@@ -813,7 +907,7 @@ Mukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston, Rajendra S
  ]]></description>
   <category>endometriozis</category>
   <guid>https://patolojiatlasi.com/endometriosis.html</guid>
-  <pubDate>Sat, 05 Aug 2023 17:17:26 GMT</pubDate>
+  <pubDate>Sat, 05 Aug 2023 19:29:35 GMT</pubDate>
 </item>
 <item>
   <title>9  Erozyon</title>
@@ -841,7 +935,7 @@ Mukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston, Rajendra S
   <category>mukoza</category>
   <category>erozyon</category>
   <guid>https://patolojiatlasi.com/erozyon.html</guid>
-  <pubDate>Sat, 05 Aug 2023 17:17:26 GMT</pubDate>
+  <pubDate>Sat, 05 Aug 2023 19:29:35 GMT</pubDate>
 </item>
 </channel>
 </rss>
