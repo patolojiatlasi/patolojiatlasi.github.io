@@ -1,4 +1,4 @@
-name: Post Wordpress Random Cases
+name: Post Wordpress Random Cases EN
 on:
   workflow_dispatch:
   push:
@@ -6,7 +6,7 @@ on:
     - cron: '0 18 * * 1'
 
 jobs:
-  post-wordpress-random-cases-from-patolojiatlasi:
+  post-wordpress-random-cases-from-histopathologyatlas:
     if: "!contains(github.event.head_commit.message, 'WIP')"
     runs-on: macos-latest
     # runs-on: ubuntu-latest
