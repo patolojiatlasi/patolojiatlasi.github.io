@@ -1,0 +1,14 @@
+{
+  "hash": "aa0fc0c3f2b82294eca38ae5328afe78",
+  "result": {
+    "markdown": "---\ndescription: |\n    Acute Inflammation, Akut İnflamasyon, patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [acute inflammation, akut inflamasyon, acute appendicitis, akut appendisit]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n# Acute Inflammation {#sec-acute-inflammation}\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n## Acute Appendicitis {#sec-acute-appendicitis}\n:::\n\n\n\n::::: panel-tabset\n\n### HE\n\n\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n**Acute appendicitis**\n\n\n[![Click for Full Screen WSI](./screenshots/acute-appendicitis_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/acute-appendicitis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/acute-appendicitis/HE.html)\n:::\n\n\n\n\n### WSI\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\nSee Microscopy with viewer: \n\n<iframe src=\"https://images.patolojiatlasi.com/acute-appendicitis/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n\n::::: \n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

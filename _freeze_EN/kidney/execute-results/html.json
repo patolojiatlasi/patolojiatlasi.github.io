@@ -1,0 +1,14 @@
+{
+  "hash": "80ac5f9c34fb7f8e84271a448168d705",
+  "result": {
+    "markdown": "---\ndescription: |\n    kidney, bobrek, oncocytoma, onkositom, patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [kidney, bobrek, oncocytoma, onkositom]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n\n# Böbrek Tümörleri {#sec-bobrek-tumorleri}\n\n## Onkositom {#sec-bobrek-onkositom}\n\n\n\n\n\n[![Tam Ekran Görmek İçin Resmi\nTıklayın](./screenshots/kidneyoncocytoma_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/kidneyoncocytoma/HE.html)\n[Tam Ekran Görmek İçin Resmi\nTıklayın](https://images.patolojiatlasi.com/kidneyoncocytoma/HE.html)\n\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/kidneyoncocytoma/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\">\n\n</iframe>\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
