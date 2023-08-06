@@ -1,0 +1,342 @@
+
+
+```{comment}
+---
+description: |
+    {{TemplateTR}}, {{TemplateEN}}, patoloji, atlas, pathology, whole slide image
+date: last-modified
+categories: [{{TemplateTR}}, {{TemplateEN}}]
+page-layout: full
+bibliography: references.bib
+---
+```
+
+
+
+
+
+
+
+```{r language BS18, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis kistik fibrozis, sinüzoidal obstrüksiyon, karaciğer TR , echo = (language == "TR")}
+## BS18 - kistik fibrozis, sinüzoidal obstrüksiyon, karaciğer {#sec-BS18 }
+```
+
+
+```{asis cystic fibrosis, sinusoidal obstruction, liver EN , echo = (language == "EN")}
+## BS18 - cystic fibrosis, sinusoidal obstruction, liver {#sec-BS18 }
+```
+
+
+
+
+
+
+```{r BS18 screenshot HE1, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS18-HE1_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS18/HE1.html",
+  file = "./screenshots/BS18-HE1_screenshot.png"
+)
+}
+```
+
+
+
+
+
+
+```{r BS18 screenshot HE2, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS18-HE2_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS18/HE2.html",
+  file = "./screenshots/BS18-HE2_screenshot.png"
+)
+}
+```
+
+
+
+
+
+
+```{r BS18 screenshot PAS, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS18-PAS_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS18/PAS.html",
+  file = "./screenshots/BS18-PAS_screenshot.png"
+)
+}
+```
+
+
+
+
+
+
+```{r BS18 screenshot PASD, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/BS18-PASD_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS18/PASD.html",
+  file = "./screenshots/BS18-PASD_screenshot.png"
+)
+}
+```
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**kistik fibrozis, sinüzoidal obstrüksiyon, karaciğer**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS18-HE1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS18/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS18/HE1.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**cystic fibrosis, sinusoidal obstruction, liver**
+
+[![Click for Full Screen WSI](./screenshots/BS18-HE1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS18/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS18/HE1.html)
+
+```
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**kistik fibrozis, sinüzoidal obstrüksiyon, karaciğer**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS18-HE2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS18/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS18/HE2.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**cystic fibrosis, sinusoidal obstruction, liver**
+
+[![Click for Full Screen WSI](./screenshots/BS18-HE2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS18/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS18/HE2.html)
+
+```
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**kistik fibrozis, sinüzoidal obstrüksiyon, karaciğer**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS18-PAS_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS18/PAS.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS18/PAS.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**cystic fibrosis, sinusoidal obstruction, liver**
+
+[![Click for Full Screen WSI](./screenshots/BS18-PAS_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS18/PAS.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS18/PAS.html)
+
+```
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**kistik fibrozis, sinüzoidal obstrüksiyon, karaciğer**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS18-PASD_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS18/PASD.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS18/PASD.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**cystic fibrosis, sinusoidal obstruction, liver**
+
+[![Click for Full Screen WSI](./screenshots/BS18-PASD_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS18/PASD.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS18/PASD.html)
+
+```
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS18/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS18/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS18/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS18/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS18/PAS.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS18/PAS.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS18/PASD.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS18/PASD.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+### Diagnosis
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı için tıklayın
+
+kistik fibrozis, sinüzoidal obstrüksiyon, karaciğer
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Click for Diagnosis
+
+cystic fibrosis, sinusoidal obstruction, liver
+
+:::
+
+```
+
+
+
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+

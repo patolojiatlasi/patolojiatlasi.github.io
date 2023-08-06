@@ -160,9 +160,9 @@ fs::dir_copy(path = "./_freeze",
 
 Sys.sleep(2)
 
-# if (dir.exists(paths = "./_freeze")) {
-#   fs::dir_delete(path = "./_freeze")
-# }
+if (dir.exists(paths = "./_freeze")) {
+  fs::dir_delete(path = "./_freeze")
+}
 
 
 if (dir.exists(paths = "./_docs/public")) {
