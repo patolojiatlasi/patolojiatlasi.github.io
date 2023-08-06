@@ -1,15 +1,16 @@
 Package: patolojiatlasi
 Title: Pathology Atlas and Notes for Medical Students: See and Learn
-Version: 0.0.0.9002
+Version: 0.0.0.9003
 Description: | 
     Atlas of Pathology
     Notes for Pathology
+    Histopathology Atlas with Whole Slide Images from daily routine practice
     Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Pathology Archive and collaborators from other institutions.
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
-Date: 2023-07-15
+Date: 2023-08-06
 Authors@R: 
     person(given = "Serdar",
            family = "Balci",
@@ -39,7 +40,8 @@ Imports:
     glue,
     purrr,
     webshot2,
-    readxl
+    readxl,
+    qrcode
 Remotes:
     duncantl/XMLRPC,
     duncantl/RWordPress

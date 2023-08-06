@@ -53,10 +53,25 @@ webshot2::webshot(
 }
 ```
 
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/mucicarmine_qrcode.svg")) {
+  
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/mucin/mucicarmine.html")
+  
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/mucicarmine_qrcode.svg",
+                       show = FALSE) 
+}
+```
+
+
+
+
 ```{asis, echo = (language == "TR")}
 **Normal kolon mukozasında intrasitoplazmik müsini gösteren mucicarmine (müsikarmen) histokimyası**
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/mucicarmine_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/mucin/mucicarmine.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/mucin/mucicarmine.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/mucicarmine_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/mucin/mucicarmine.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/mucin/mucicarmine.html) ![](./qrcodes/mucicarmine_qrcode.svg){width="15%"}
 
 ```
 
@@ -74,7 +89,7 @@ Mikroskopik görüntüleri inceleyin:
 **Mucicarmine histochemistry stain showing intracellular mucin in a normal colon**
 
 
-[![Click for Full Screen WSI](./screenshots/mucicarmine_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/mucin/mucicarmine.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mucin/mucicarmine.html)
+[![Click for Full Screen WSI](./screenshots/mucicarmine_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/mucin/mucicarmine.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mucin/mucicarmine.html) ![](./qrcodes/mucicarmine_qrcode.svg){width="15%"}
 
 ```
 
@@ -85,6 +100,9 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/mucin/mucicarmine.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
