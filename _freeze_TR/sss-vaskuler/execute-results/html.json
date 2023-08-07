@@ -1,8 +1,10 @@
 {
-  "hash": "a02cc061049a0ab367f51e36b694a54c",
+  "hash": "10011e9d7d93ebe3a7fd2975e6d33fcb",
   "result": {
-    "markdown": "---\ndescription: \"SSS, CNS, damar, vasküler, patoloji, atlas, pathology, whole slide image\"\ndate: last-modified\ncategories: [SSS, CNS, damar, vasküler]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n# Santral Sinir Sistemi Vasküler Lezyonlar {#sec-santral-sinir-sistemi-vaskuler} \n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n## Beyin arteriovenöz malformasyon {#sec-beyin-arteriovenoz-malformasyon} \n:::\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n\n**beyin arteriovenöz malformasyon**\n\n\n[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/brain-arteriovenous-malformation_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html)\n:::\n\n::: {.cell}\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n",
-    "supporting": [],
+    "markdown": "---\ndescription: \"SSS, CNS, damar, vasküler, patoloji, atlas, pathology, whole slide image\"\ndate: last-modified\ncategories: [SSS, CNS, damar, vasküler]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n# Santral Sinir Sistemi Vasküler Lezyonlar {#sec-santral-sinir-sistemi-vaskuler} \n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n## Beyin arteriovenöz malformasyon {#sec-beyin-arteriovenoz-malformasyon} \n:::\n\n::: {.cell}\n\n:::\n\n\n\n\n\n::: {.cell}\n\n**beyin arteriovenöz malformasyon**\n\n\n![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width=\"15%\"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_brain-arteriovenous-malformation.png){width=\"25%\"}](https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html)\n:::\n\n::: {.cell}\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "sss-vaskuler_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

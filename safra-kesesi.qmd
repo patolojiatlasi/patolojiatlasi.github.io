@@ -33,20 +33,33 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/gallbladder-adenomyoma_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_gallbladder-adenomyoma.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html",
-  file = "./screenshots/gallbladder-adenomyoma_screenshot.png"
+  file = "./screenshots/thumbnail_gallbladder-adenomyoma.png"
 )
 }
 ```
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
 
 ```{asis, echo = (language == "TR")}
 
 **Safra Kesesi Adenomyom**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/gallbladder-adenomyoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_gallbladder-adenomyoma.png){width="25%"}](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html)
 
 ```
 
@@ -64,7 +77,7 @@ Mikroskopik görüntüleri inceleyin:
 **Gallbladder Adenomyoma**
 
 
-[![Click for Full Screen WSI](./screenshots/gallbladder-adenomyoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_gallbladder-adenomyoma.png){width="25%"}](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html)
 
 ```
 
@@ -96,14 +109,27 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, include=FALSE}
-if (!file.exists("./screenshots/ischemia-gangrenous-cholecystitis_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_ischemia-gangrenous-cholecystitis.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html",
-  file = "./screenshots/ischemia-gangrenous-cholecystitis_screenshot.png"
+  file = "./screenshots/thumbnail_ischemia-gangrenous-cholecystitis.png"
 )
 }
 
 
+```
+
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
 ```
 
 
@@ -117,7 +143,7 @@ webshot2::webshot(delay = 20,
 **iskemi gangrenöz kolesistit**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/ischemia-gangrenous-cholecystitis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_ischemia-gangrenous-cholecystitis.png){width="25%"}](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html)
 
 ```
 
@@ -135,7 +161,7 @@ Mikroskopik görüntüleri inceleyin:
 
 **ischemia in gangrenous cholecystitis**
 
-[![Click for Full Screen WSI](./screenshots/ischemia-gangrenous-cholecystitis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_ischemia-gangrenous-cholecystitis.png){width="25%"}](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html)
 
 ```
 
@@ -157,7 +183,7 @@ asis, echo = (language == "TR")
 **iskemi gangrenöz kolesistit**
 
 
-[![İşaretlenmiş mikroskopik görüntüleri Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/ischemia-gangrenous-cholecystitis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE_annotated.html) [İşaretlenmiş mikroskopik görüntüleri Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE_annotated.html)
+[![İşaretlenmiş mikroskopik görüntüleri Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_ischemia-gangrenous-cholecystitis.png){width="25%"}](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE_annotated.html) [İşaretlenmiş mikroskopik görüntüleri Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE_annotated.html)
 
 ```
 
@@ -176,7 +202,7 @@ asis, echo = (language == "EN")
 
 **ischemia in gangrenous cholecystitis**
 
-[![Click for Full Screen Annotated WSI](./screenshots/ischemia-gangrenous-cholecystitis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE_annotated.html) [Click for Full Screen Annotated WSI](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE_annotated.html)
+[![Click for Full Screen Annotated WSI](./screenshots/thumbnail_ischemia-gangrenous-cholecystitis.png){width="25%"}](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE_annotated.html) [Click for Full Screen Annotated WSI](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE_annotated.html)
 
 ```
 

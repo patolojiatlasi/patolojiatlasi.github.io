@@ -19,17 +19,31 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ## Onkositom {#sec-bobrek-onkositom}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/kidneyoncocytoma_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_kidneyoncocytoma.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/kidneyoncocytoma/HE.html",
-  file = "./screenshots/kidneyoncocytoma_screenshot.png",
+  file = "./screenshots/thumbnail_kidneyoncocytoma.png",
   delay = 20
 )
 }
 ```
 
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/kidneyoncocytoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/kidneyoncocytoma/HE.html)
+Tıklayın](./screenshots/thumbnail_kidneyoncocytoma.png){width="25%"}](https://images.patolojiatlasi.com/kidneyoncocytoma/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/kidneyoncocytoma/HE.html)
 

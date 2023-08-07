@@ -29,28 +29,54 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{r BS32 screenshot HE1, eval=TRUE, include=FALSE}
-if (!file.exists("./screenshots/BS32-HE1_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_BS32-HE1.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/BS32/HE1.html",
-  file = "./screenshots/BS32-HE1_screenshot.png"
+  file = "./screenshots/thumbnail_BS32-HE1.png"
 )
 }
 ```
 
+
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
 
 
 
 
 
 ```{r BS32 screenshot HE2, eval=TRUE, include=FALSE}
-if (!file.exists("./screenshots/BS32-HE2_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_BS32-HE2.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/BS32/HE2.html",
-  file = "./screenshots/BS32-HE2_screenshot.png"
+  file = "./screenshots/thumbnail_BS32-HE2.png"
 )
 }
 ```
 
+
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
 
 
 
@@ -71,14 +97,14 @@ webshot2::webshot(
 **isospora**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS32-HE1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS32/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS32/HE1.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS32-HE1.png){width="25%"}](https://images.patolojiatlasi.com/BS32/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS32/HE1.html)
 ```
 
 ```{asis, echo = (language == "EN")}
 
 **isospora**
 
-[![Click for Full Screen WSI](./screenshots/BS32-HE1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS32/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS32/HE1.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_BS32-HE1.png){width="25%"}](https://images.patolojiatlasi.com/BS32/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS32/HE1.html)
 
 ```
 
@@ -92,14 +118,14 @@ webshot2::webshot(
 **isospora**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/BS32-HE2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS32/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS32/HE2.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS32-HE2.png){width="25%"}](https://images.patolojiatlasi.com/BS32/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS32/HE2.html)
 ```
 
 ```{asis, echo = (language == "EN")}
 
 **isospora**
 
-[![Click for Full Screen WSI](./screenshots/BS32-HE2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/BS32/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS32/HE2.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_BS32-HE2.png){width="25%"}](https://images.patolojiatlasi.com/BS32/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS32/HE2.html)
 
 ```
 

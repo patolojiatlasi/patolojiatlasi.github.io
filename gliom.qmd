@@ -22,20 +22,32 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/high-grade-glioma-squash_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_high-grade-glioma-squash.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html",
-  file = "./screenshots/high-grade-glioma-squash_screenshot.png"
+  file = "./screenshots/thumbnail_high-grade-glioma-squash.png"
 )
 }
 ```
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
 
 ```{asis, echo = (language == "TR")}
 
 **Yüksek Dereceli Gliom Yayma Preparat**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/high-grade-glioma-squash_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_high-grade-glioma-squash.png){width="25%"}](https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html)
 
 ```
 
@@ -53,7 +65,7 @@ Mikroskopik görüntüleri inceleyin:
 **High Grade Glioma Squash Slide**
 
 
-[![Click for Full Screen WSI](./screenshots/high-grade-glioma-squash_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_high-grade-glioma-squash.png){width="25%"}](https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html)
 
 ```
 

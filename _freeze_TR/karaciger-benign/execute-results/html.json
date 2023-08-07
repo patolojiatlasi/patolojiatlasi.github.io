@@ -1,8 +1,10 @@
 {
-  "hash": "b6d909d0a3abefff4b360d6c9dfdab08",
+  "hash": "d9555e58b94a6f58e58f43714529e54a",
   "result": {
-    "markdown": "---\ndescription: |\n    karaciğer, benign, liver,\n    patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [karaciğer, benign, liver]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n# Benign Karaciğer Tümörleri {#sec-benign-karaciger-tumorleri} \n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n## Karaciğer Hemanjiom {#sec-karaciger-hemanjiom} \n:::\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n\n**Karaciğer Hemanjiom**\n\n\n[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/liver-hemangioma_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/liver-hemangioma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/liver-hemangioma/HE.html)\n:::\n\n::: {.cell}\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/liver-hemangioma/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n",
-    "supporting": [],
+    "markdown": "---\ndescription: |\n    karaciğer, benign, liver,\n    patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [karaciğer, benign, liver]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n# Benign Karaciğer Tümörleri {#sec-benign-karaciger-tumorleri} \n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n## Karaciğer Hemanjiom {#sec-karaciger-hemanjiom} \n:::\n\n::: {.cell}\n\n:::\n\n\n\n\n\n::: {.cell}\n\n**Karaciğer Hemanjiom**\n\n\n![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width=\"15%\"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_liver-hemangioma.png){width=\"25%\"}](https://images.patolojiatlasi.com/liver-hemangioma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/liver-hemangioma/HE.html)\n:::\n\n::: {.cell}\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/liver-hemangioma/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "karaciger-benign_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

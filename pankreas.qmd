@@ -20,14 +20,27 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/pancreas-undifferentiated-osteoclast_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_pancreas-undifferentiated-osteoclast.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/pancreas-undifferentiated-osteoclast/HE.html",
-  file = "./screenshots/pancreas-undifferentiated-osteoclast_screenshot.png",
+  file = "./screenshots/thumbnail_pancreas-undifferentiated-osteoclast.png",
   delay = 20
 )
 }
 ```
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
 
 ```{asis, echo = (language == "TR")}
 
@@ -46,7 +59,7 @@ webshot2::webshot(
 **pankreas, müsinöz adenokarsinom zemininde gelişmiş, osteoklast benzeri dev hücreler içeren indiferansiye karsinom**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/pancreas-undifferentiated-osteoclast_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-undifferentiated-osteoclast/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pancreas-undifferentiated-osteoclast/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_pancreas-undifferentiated-osteoclast.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-undifferentiated-osteoclast/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pancreas-undifferentiated-osteoclast/HE.html)
 
 ```
 
@@ -64,7 +77,7 @@ Mikroskopik görüntüleri inceleyin:
 **pancreas, undifferentiated carcinoma with osteoclast-like giant cells, arising within a mucinous adenocarcinoma**
 
 
-[![Click for Full Screen WSI](./screenshots/pancreas-undifferentiated-osteoclast_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-undifferentiated-osteoclast/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pancreas-undifferentiated-osteoclast/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_pancreas-undifferentiated-osteoclast.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-undifferentiated-osteoclast/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pancreas-undifferentiated-osteoclast/HE.html)
 
 ```
 

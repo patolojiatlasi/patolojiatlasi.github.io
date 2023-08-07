@@ -298,8 +298,10 @@ book:
     - text: "Liste"
       href: listing.qmd
     - listing2.qmd
-    # - feature-trials.qmd
-    # - yonetim-gelistirme.qmd
+    - listing3.qmd
+    - listing4.qmd
+    - feature-trials.qmd
+    - yonetim-gelistirme.qmd
 
 
 # before_chapter_script: "./R/language.R"

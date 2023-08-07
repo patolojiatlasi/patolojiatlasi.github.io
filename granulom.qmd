@@ -30,20 +30,32 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/necrotisinggranuloma_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_necrotisinggranuloma.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html",
-  file = "./screenshots/necrotisinggranuloma_screenshot.png"
+  file = "./screenshots/thumbnail_necrotisinggranuloma.png"
 )
 }
 ```
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
 
 ```{asis, echo = (language == "TR")}
 
 **Karaciğer dokusunda nekrotizan granülamatöz inflamasyon**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/necrotisinggranuloma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_necrotisinggranuloma.png){width="25%"}](https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html)
 
 ```
 
@@ -61,7 +73,7 @@ Mikroskopik görüntüleri inceleyin:
 **Necrotising Granulomatous Inflammation in Liver**
 
 
-[![Click for Full Screen WSI](./screenshots/necrotisinggranuloma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_necrotisinggranuloma.png){width="25%"}](https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html)
 
 ```
 

@@ -1,8 +1,10 @@
 {
-  "hash": "51ca0bbbd12864aa2d0b3e0772b46ced",
+  "hash": "552384560353385f997dab7f57a8c8d5",
   "result": {
-    "markdown": "---\ndescription: \"ozofagus, patoloji, atlas, pathology, whole slide image\"\ndate: last-modified\ncategories: [ozofagus]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# Özofagus {#sec-ozofagus} \n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n## Özofagusta Granüler Hücreli Tümör {#sec-ozofagus-granuler-hucreli-tumor} \n:::\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n\n**Özofagusta Granüler Hücreli Tümör**\n\n[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/granular-cell-tumor_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/granular-cell-tumor/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/granular-cell-tumor/HE.html)\n:::\n\n::: {.cell}\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/granular-cell-tumor/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n",
-    "supporting": [],
+    "markdown": "---\ndescription: \"ozofagus, patoloji, atlas, pathology, whole slide image\"\ndate: last-modified\ncategories: [ozofagus]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# Özofagus {#sec-ozofagus} \n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n## Özofagusta Granüler Hücreli Tümör {#sec-ozofagus-granuler-hucreli-tumor} \n:::\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n\n**Özofagusta Granüler Hücreli Tümör**\n\n![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width=\"15%\"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_granular-cell-tumor.png){width=\"25%\"}](https://images.patolojiatlasi.com/granular-cell-tumor/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/granular-cell-tumor/HE.html)\n:::\n\n::: {.cell}\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/granular-cell-tumor/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "ozofagus_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

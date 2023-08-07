@@ -50,18 +50,31 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/ovarianserousmicropapillary_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_ovarianserousmicropapillary.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/ovarianserousmicropapillary/HE.html",
-  file = "./screenshots/ovarianserousmicropapillary_screenshot.png"
+  file = "./screenshots/thumbnail_ovarianserousmicropapillary.png"
 )
 }
 ```
 
 
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
 ```{asis, echo = (language == "TR")}
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/ovarianserousmicropapillary_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ovarianserousmicropapillary/HE.html)
+Tıklayın](./screenshots/thumbnail_ovarianserousmicropapillary.png){width="25%"}](https://images.patolojiatlasi.com/ovarianserousmicropapillary/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/ovarianserousmicropapillary/HE.html)
 
@@ -71,7 +84,7 @@ Tıklayın](https://images.patolojiatlasi.com/ovarianserousmicropapillary/HE.htm
 
 ```{asis, echo = (language == "EN")}
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/ovarianserousmicropapillary_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ovarianserousmicropapillary/HE.html)
+Tıklayın](./screenshots/thumbnail_ovarianserousmicropapillary.png){width="25%"}](https://images.patolojiatlasi.com/ovarianserousmicropapillary/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/ovarianserousmicropapillary/HE.html)
 

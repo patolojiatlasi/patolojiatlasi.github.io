@@ -70,6 +70,15 @@ xfun::gsub_files(files = qmd_pdf_TR_files,
 #                  replacement = "")
 
 
+xfun::gsub_files(files = qmd_pdf_TR_files,
+                 pattern = '![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"}',
+                 replacement = "")
+
+
+
+
+
+
 # render TR epub ----
 
 Sys.sleep(2)

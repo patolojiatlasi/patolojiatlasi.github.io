@@ -18,16 +18,29 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ### Kolesteatom {#sec-kolesteatom}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/cholesteatoma_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_cholesteatoma.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/cholesteatoma/cholesteatoma.html",
-  file = "./screenshots/cholesteatoma_screenshot.png"
+  file = "./screenshots/thumbnail_cholesteatoma.png"
 )
 }
 ```
 
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/cholesteatoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/cholesteatoma/HE.html)
+Tıklayın](./screenshots/thumbnail_cholesteatoma.png){width="25%"}](https://images.patolojiatlasi.com/cholesteatoma/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/cholesteatoma/cholesteatoma.html)
 

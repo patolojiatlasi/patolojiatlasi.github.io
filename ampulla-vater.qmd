@@ -45,21 +45,33 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/ampullary-adenocarcinoma_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_ampullary-adenocarcinoma.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html",
-  file = "./screenshots/ampullary-adenocarcinoma_screenshot.png",
+  file = "./screenshots/thumbnail_ampullary-adenocarcinoma.png",
   delay = 20
 )
 }
 ```
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
 
 ```{asis, echo = (language == "TR")}
 
 **Ampulla Vater Adenokarsinomu**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/ampullary-adenocarcinoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_ampullary-adenocarcinoma.png){width="25%"}](https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html)
 
 ```
 
@@ -72,43 +84,12 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-```{comment}
-asis, echo = (language == "TR")
-
-
-
-<button id="tani-case-ampullary-adenocarcinoma-btn">Tanıyı Göster</button>
-<div id="answer-ampullary-adenocarcinoma" style="display: none;">Ampulla Vater Adenokarsinomu</div>
-
-<script>
-  const showAnswer-ampullary-adenocarcinomaBtn = document.getElementById('tani-case-ampullary-adenocarcinoma-btn');
-  const answer-ampullary-adenocarcinoma = document.getElementById('answer-ampullary-adenocarcinoma');
-
-  showAnswer-ampullary-adenocarcinomaBtn.addEventListener('click', () => {
-    if (answer-ampullary-adenocarcinoma.style.display === 'none') {
-      answer-ampullary-adenocarcinoma.style.display = 'block';
-      showAnswer-ampullary-adenocarcinomaBtn.textContent = 'Tanıyı Gizle';
-    } else {
-      answer-ampullary-adenocarcinoma.style.display = 'none';
-      showAnswer-ampullary-adenocarcinomaBtn.textContent = 'Tanıyı Göster';
-    }
-  });
-</script>
-
-
-
-{{< video https://www.youtube.com/embed/ >}}
-
-
-
-```
-
 ```{asis, echo = (language == "EN")}
 
 **Adenocarcinoma of Ampulla of Vater**
 
 
-[![Click for Full Screen WSI](./screenshots/ampullary-adenocarcinoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_ampullary-adenocarcinoma.png){width="25%"}](https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html)
 
 ```
 
@@ -117,34 +98,6 @@ asis, echo = (language == "TR")
 See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-```{comment}
-asis, echo = (language == "EN")
-
-<button id="dx-case-ampullary-adenocarcinoma-btn">Show the Diagnosis</button>
-<div id="answer-ampullary-adenocarcinoma" style="display: none;">Adenocarcinoma of Ampulla of Vater</div>
-
-<script>
-  const showAnswer-ampullary-adenocarcinomaBtn = document.getElementById('dx-case-ampullary-adenocarcinoma-btn');
-  const answer-ampullary-adenocarcinoma = document.getElementById('answer-ampullary-adenocarcinoma');
-
-  showAnswer-ampullary-adenocarcinomaBtn.addEventListener('click', () => {
-    if (answer-ampullary-adenocarcinoma.style.display === 'none') {
-      answer-ampullary-adenocarcinoma.style.display = 'block';
-      showAnswer-ampullary-adenocarcinomaBtn.textContent = 'Hide the Diagnosis';
-    } else {
-      answer-ampullary-adenocarcinoma.style.display = 'none';
-      showAnswer-ampullary-adenocarcinomaBtn.textContent = 'Show the Diagnosis';
-    }
-  });
-</script>
-
-
-{{< video https://www.youtube.com/embed/ >}}
-
-
 
 ```
 
@@ -168,14 +121,29 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{r WDNET-ampulla screenshot, eval=TRUE, include=FALSE}
-if (!file.exists("./screenshots/WDNET-ampulla_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_WDNET-ampulla.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/WDNET-ampulla/HE.html",
-  file = "./screenshots/WDNET-ampulla_screenshot.png",
+  file = "./screenshots/thumbnail_WDNET-ampulla.png",
   delay = 20
 )
 }
 ```
+
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
 
 ```{r, echo=FALSE, include=TRUE, eval=FALSE}
 knitr::include_url(url = "https://images.patolojiatlasi.com/WDNET-ampulla/HE.html")
@@ -187,7 +155,7 @@ knitr::include_url(url = "https://images.patolojiatlasi.com/WDNET-ampulla/HE.htm
 **ampulla WDNET iyi diferansiye nöroendokrin tümör**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/WDNET-ampulla_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/WDNET-ampulla/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/WDNET-ampulla/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_WDNET-ampulla.png){width="25%"}](https://images.patolojiatlasi.com/WDNET-ampulla/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/WDNET-ampulla/HE.html)
 ```
 
 
@@ -205,7 +173,7 @@ Mikroskopik görüntüleri inceleyin:
 
 **ampulla WDNET well differantiated neuroendocrine tumor**
 
-[![Click for Full Screen WSI](./screenshots/WDNET-ampulla_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/WDNET-ampulla/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/WDNET-ampulla/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_WDNET-ampulla.png){width="25%"}](https://images.patolojiatlasi.com/WDNET-ampulla/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/WDNET-ampulla/HE.html)
 
 
 ```

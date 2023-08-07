@@ -32,12 +32,25 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/neuroendocrine-cytology-giemsa_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_neuroendocrine-cytology-giemsa.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/neuroendocrine-cytology/giemsa.html",
-  file = "./screenshots/neuroendocrine-cytology-giemsa_screenshot.png",
+  file = "./screenshots/thumbnail_neuroendocrine-cytology-giemsa.png",
   delay = 20
 )
+}
+```
+
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
 }
 ```
 
@@ -47,7 +60,7 @@ webshot2::webshot(
 **Nöroendokrin Tümör Sitolojisi Giemsa**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/neuroendocrine-cytology-giemsa_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/neuroendocrine-cytology/giemsa.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/neuroendocrine-cytology/giemsa.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_neuroendocrine-cytology-giemsa.png){width="25%"}](https://images.patolojiatlasi.com/neuroendocrine-cytology/giemsa.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/neuroendocrine-cytology/giemsa.html)
 
 ```
 
@@ -65,7 +78,7 @@ Mikroskopik görüntüleri inceleyin:
 **Neuroendocrine Tumor Cytology Giemsa**
 
 
-[![Click for Full Screen WSI](./screenshots/neuroendocrine-cytology-giemsa_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/neuroendocrine-cytology/giemsa.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/neuroendocrine-cytology/giemsa.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_neuroendocrine-cytology-giemsa.png){width="25%"}](https://images.patolojiatlasi.com/neuroendocrine-cytology/giemsa.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/neuroendocrine-cytology/giemsa.html)
 
 ```
 

@@ -51,16 +51,29 @@ görünecektir.
 Kolesistit spesmeninde gelişmekte olan genç fibrozis
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/fibrosis_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_fibrosis.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/fibrosis/HE.html",
-  file = "./screenshots/fibrosis_screenshot.png"
+  file = "./screenshots/thumbnail_fibrosis.png"
 )
 }
 ```
 
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/fibrosis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/fibrosis/HE.html)
+Tıklayın](./screenshots/thumbnail_fibrosis.png){width="25%"}](https://images.patolojiatlasi.com/fibrosis/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/fibrosis/HE.html)
 
@@ -90,18 +103,31 @@ Mikroskopik görüntüleri inceleyin:
 ## Keloid - Skar {#sec-keloid-skar}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/keloid-scar_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_keloid-scar.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/keloid-scar/HE.html",
-  file = "./screenshots/keloid-scar_screenshot.png"
+  file = "./screenshots/thumbnail_keloid-scar.png"
 )
 }
 ```
 
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
 Keloid Skar oluşumu
 
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/keloid-scar_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/keloid-scar/HE.html)
+Tıklayın](./screenshots/thumbnail_keloid-scar.png){width="25%"}](https://images.patolojiatlasi.com/keloid-scar/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/keloid-scar/HE.html)
 

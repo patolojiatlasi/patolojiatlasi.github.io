@@ -20,16 +20,30 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ## Hamartomatöz Polip {#sec-hamartomatoz-polip}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hamartomatouspolyp_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_hamartomatouspolyp.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html",
-  file = "./screenshots/hamartomatouspolyp_screenshot.png"
+  file = "./screenshots/thumbnail_hamartomatouspolyp.png"
 )
 }
 ```
 
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/hamartomatouspolyp_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html) [Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_hamartomatouspolyp.png){width="25%"}](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html) [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
 
 
@@ -61,16 +75,31 @@ Mikroskopik görüntüleri inceleyin:
 ## Schwann Cell Hamartoma in a Colon Polyp {#sec-schwann-cell-hamartoma-colon-polyp}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/schwanncellhamartoma_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_schwanncellhamartoma.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html",
-  file = "./screenshots/schwanncellhamartoma_screenshot.png"
+  file = "./screenshots/thumbnail_schwanncellhamartoma.png"
 )
 }
 ```
 
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/schwanncellhamartoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html) [Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_schwanncellhamartoma.png){width="25%"}](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html) [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html)
 
 

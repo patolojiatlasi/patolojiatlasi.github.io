@@ -1,8 +1,10 @@
 {
-  "hash": "47ef39f29089826ca049d7bac61a03e3",
+  "hash": "ceb3ad42e36d0589c062dca1bc2bde4b",
   "result": {
-    "markdown": "---\ndescription: |\n    duodenum, celiac, çölyak, gluten, enteropati, patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [duodenum, celiac, çölyak, gluten, enteropati]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# Duodenum {#sec-duodenum}\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n## Celiac Disease {#sec-celiac-disease}\n:::\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n**Celiac Disease**\n\n\n[![Click for Full Screen WSI](./screenshots/celiac-disease_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/celiac-disease/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/celiac-disease/HE.html)\n:::\n\n::: {.cell}\n\nSee Microscopy with viewer: \n\n<iframe src=\"https://images.patolojiatlasi.com/celiac-disease/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n",
-    "supporting": [],
+    "markdown": "---\ndescription: |\n    duodenum, celiac, çölyak, gluten, enteropati, patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [duodenum, celiac, çölyak, gluten, enteropati]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# Duodenum {#sec-duodenum}\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n## Celiac Disease {#sec-celiac-disease}\n:::\n\n\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n**Celiac Disease**\n\n\n![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width=\"15%\"} [![Click for Full Screen WSI](./screenshots/thumbnail_celiac-disease.png){width=\"25%\"}](https://images.patolojiatlasi.com/celiac-disease/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/celiac-disease/HE.html)\n:::\n\n::: {.cell}\n\nSee Microscopy with viewer: \n\n<iframe src=\"https://images.patolojiatlasi.com/celiac-disease/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n",
+    "supporting": [
+      "duodenum_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

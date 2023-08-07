@@ -1,8 +1,10 @@
 {
-  "hash": "f2a0fef6e1cb5b4207e0ee24eba293b6",
+  "hash": "24c39e0b0a4ae2ead221739f424be185",
   "result": {
-    "markdown": "---\ndescription: |\n    birikim,\n    patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [birikim,accumulations]\npage-layout: full\nbibliography: references.bib\n---\n\n\n# Hücre Dışı Birikimler {#sec-hucre-disi-birikimler}\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n## Ochronosis {#sec-ochronosis} \n:::\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n**Ochronosis**\n\n\n[![Click for Full Screen WSI](./screenshots/ochronosis_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/ochronosis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ochronosis/HE.html)\n:::\n\n::: {.cell}\n\nSee Microscopy with viewer: \n\n<iframe src=\"https://images.patolojiatlasi.com/ochronosis/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n",
-    "supporting": [],
+    "markdown": "---\ndescription: |\n    birikim,\n    patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [birikim,accumulations]\npage-layout: full\nbibliography: references.bib\n---\n\n\n# Hücre Dışı Birikimler {#sec-hucre-disi-birikimler}\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n## Ochronosis {#sec-ochronosis} \n:::\n\n\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n**Ochronosis**\n\n\n![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width=\"15%\"} [![Click for Full Screen WSI](./screenshots/thumbnail_ochronosis.png){width=\"25%\"}](https://images.patolojiatlasi.com/ochronosis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ochronosis/HE.html)\n:::\n\n::: {.cell}\n\nSee Microscopy with viewer: \n\n<iframe src=\"https://images.patolojiatlasi.com/ochronosis/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n",
+    "supporting": [
+      "extracellular-accumulations_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

@@ -104,182 +104,182 @@ book:
           href: teknik_pdf_TR.qmd
         - text: "Hücre İçi Birikimler"
           href: hucre-ici-birikimler_pdf_TR.qmd
-        - text: "Hücre Dışı Birikimler"
-          href: hucre-disi-birikimler_pdf_TR.qmd
-        - text: "Hücre Hasarı"
-          href: hucre-hasari_pdf_TR.qmd
-        - text: "Hemodinamik Bozukluklar"
-#           href: hemodinamik-bozukluklar_pdf_TR.qmd
-#         - text: "İskemi ve Nekroz"
-          href: iskemi-nekroz_pdf_TR.qmd
-        - text: "Konjesyon"
-          href: konjesyon_pdf_TR.qmd
-        - text: "Amiloid birikimi"
-          href: amiloid_pdf_TR.qmd
-        - text: "Tamir Mekanizmaları"
-          href: tamir_pdf_TR.qmd
-        - text: "Erozyon"
-          href: erozyon_pdf_TR.qmd
-    - part: "İnflamasyon"
-      chapters:
-        - text: "Akut inflamasyon"
-          href: akut-inflamasyon_pdf_TR.qmd
-        - text: "Kronik inflamasyon"
-          href: kronik-inflamasyon_pdf_TR.qmd
-        - text: "Granülamatöz İnflamasyon"
-          href: granulom_pdf_TR.qmd
-        # - inflamasyon_pdf_TR.qmd
-    - part: "İnfeksiyöz Hastalıkların Patolojisi"
-      chapters:
-        - text: "Viruslar"
-          href: virus_pdf_TR.qmd
-        - text: "Bakteriler"
-          href: bakteri_pdf_TR.qmd
-        - text: "Mantarlar"
-          href: mantar_pdf_TR.qmd
-        - text: "Parazitler"
-          href: parazit_pdf_TR.qmd
-    - part: "Temel Tümör Patolojisi"
-      chapters:
-        - benign_pdf_TR.qmd
-        - hamartom_pdf_TR.qmd
-        - heterotopi_pdf_TR.qmd
-        - text: "Metaplazi"
-          href: metaplazi_pdf_TR.qmd
-        - text: "Karsinogenez"
-          href: karsinogenez_pdf_TR.qmd
-        - malign_pdf_TR.qmd
-        - metastaz_pdf_TR.qmd
-        - tumor-yayilimi_pdf_TR.qmd
-    - part: "Tümörlerdeki Prognostik Morfolojik Özellikler"
-      chapters:
-        - text: "Venöz İnvazyon"
-          href: venoz-invazyon_pdf_TR.qmd
-        - text: "Ekstramural Venöz İnvazyon"
-          href: ekstramural-venoz-invazyon_pdf_TR.qmd
-    - part: "Hematopatoloji"
-      chapters:
-#        - hematopatoloji_pdf_TR.qmd
-        - hodgkin_pdf_TR.qmd
-    - part: "Gastrointestinal Sistem Patolojisi"
-      chapters:
-        - gastro_pdf_TR.qmd
-        - text: "Özofagus"
-          href: ozofagus_pdf_TR.qmd
-        - text: "Mide Patolojisi"
-          href: mide_pdf_TR.qmd
-        - text: "Gastrit"
-          href: gastrit_pdf_TR.qmd
-        - text: "Duodenum Patolojisi"
-          href: duodenum_pdf_TR.qmd
-        - text: "Kolon Patolojisi"
-          href: kolon_pdf_TR.qmd
-        - text: "Crohn Hastalığı"
-          href: crohn_pdf_TR.qmd
-    - part: "Karaciğer Patolojisi"
-      chapters:
-        - text: "Karaciğer Tümörleri"
-          href: karaciger_pdf_TR.qmd
-        - text: "Benign Karaciğer Tümörleri"
-          href: karaciger-benign_pdf_TR.qmd
-    - part: "Pankreatobilier Sistem Patolojisi"
-      chapters:
-        - text: "Pankreas"
-          href: pankreas_pdf_TR.qmd
-        - text: "Pankreas Duktal Adenokarsinom"
-          href: pdac_pdf_TR.qmd
-        - text: "Safra Kesesi"
-          href: safra-kesesi_pdf_TR.qmd
-        - text: "Ampulla Vater"
-          href: ampulla-vater_pdf_TR.qmd
-    - part: "Akciğer Patolojisi"
-      chapters:
-        - text: "Nöroendokrin"
-          href: noroendokrin_pdf_TR.qmd
-    - part: "Mezotel"
-      chapters:
-        - text: "Abdomen"
-          href: mezotel_pdf_TR.qmd
-    - part: "Jinekolojik Patoloji"
-      chapters:
-        - text: "Jinekolojik Patoloji"
-          href: jineko_pdf_TR.qmd
-        - text: "Genital Sistem Patolojisi"
-          href: genital_pdf_TR.qmd
-        - text: "Serviks"
-          href: serviks_pdf_TR.qmd
-        - text: "Endometrium"
-          href: endometrium_pdf_TR.qmd
-        - text: "Endometriozis"
-          href: endometriosis_pdf_TR.qmd
-    - part: "Üriner Sistem Patolojisi"
-      chapters:
-        - text: "Üropatoloji"
-          href: uriner_pdf_TR.qmd
-        - text: "Böbrek Tümörleri / Renal Tümörler"
-          href: bobrek_pdf_TR.qmd
-        - text: "Prostat"
-          href: prostat_pdf_TR.qmd
-    - part: "Endokrin Sistem Patolojisi"
-      chapters:
-        - text: "Hipofiz Adenomu"
-          href: hipofiz_pdf_TR.qmd
-    # - part: "Meme Patolojisi"
-    #   chapters:
-    #     - text: "Meme Tümörleri"
-    #       href: meme_pdf_TR.qmd
-    - part: "Baş Boyun Patolojisi"
-      chapters:
-        - text: "Nazofarenks"
-          href: nazofarenks_pdf_TR.qmd
-        - text: "Kulak"
-          href: kulak_pdf_TR.qmd
-        - text: "Tükürük Bezi"
-          href: tukuruk_pdf_TR.qmd
-    - part: "Santral Sinir Sistem Patolojisi"
-      chapters:
-        - text: "Gliomlar"
-          href: gliom_pdf_TR.qmd
-        - text: "Meningiom"
-          href: meningiom_pdf_TR.qmd
-        - text: "Vasküler Lezyonlar"
-          href: sss-vaskuler_pdf_TR.qmd
-    - part: "Kemik Patolojisi"
-      chapters:
-        - text: "Kemik Tümörleri"
-          href: kemik_pdf_TR.qmd
-    - part: "Yumuşak Doku Patolojisi"
-      chapters:
-        - text: "Adipöz Doku Patolojisi"
-          href: adipoz_pdf_TR.qmd
-    - part: "Pediatrik ve Perinatal Patoloji"
-      chapters:
-        - plasenta_pdf_TR.qmd
-    - part: "Özel Kolleksiyonlar"
-      chapters:
-        - text: "GBDAtlas"
-          href: gbd_pdf_TR.qmd
-        - text: "Hacettepe Ayın Vakası"
-          href: hacettepecom_pdf_TR.qmd
-        - text: "BSAtlas"
-          href: bs_pdf_TR.qmd
-        - text: "ICEtlas"
-          href: ice_pdf_TR.qmd
-        - text: "Benzer Sayfalar"
-          href: wsi_pdf_TR.qmd
-    - referanslar_pdf_TR.qmd
-  appendices:
-    # - yonetim-gelistirme.md
-    - text: "Katkıda bulunun"
-      href: katki_pdf_TR.qmd
-    - text: "Yorum ekleyin"
-      href: yorum_pdf_TR.qmd
-    # - text: "Liste"
-    #   href: listing_pdf_TR.qmd
-    # - listing2_pdf_TR.qmd
+#         - text: "Hücre Dışı Birikimler"
+#           href: hucre-disi-birikimler_pdf_TR.qmd
+#         - text: "Hücre Hasarı"
+#           href: hucre-hasari_pdf_TR.qmd
+#         - text: "Hemodinamik Bozukluklar"
+# #           href: hemodinamik-bozukluklar_pdf_TR.qmd
+# #         - text: "İskemi ve Nekroz"
+#           href: iskemi-nekroz_pdf_TR.qmd
+#         - text: "Konjesyon"
+#           href: konjesyon_pdf_TR.qmd
+#         - text: "Amiloid birikimi"
+#           href: amiloid_pdf_TR.qmd
+#         - text: "Tamir Mekanizmaları"
+#           href: tamir_pdf_TR.qmd
+#         - text: "Erozyon"
+#           href: erozyon_pdf_TR.qmd
+#     - part: "İnflamasyon"
+#       chapters:
+#         - text: "Akut inflamasyon"
+#           href: akut-inflamasyon_pdf_TR.qmd
+#         - text: "Kronik inflamasyon"
+#           href: kronik-inflamasyon_pdf_TR.qmd
+#         - text: "Granülamatöz İnflamasyon"
+#           href: granulom_pdf_TR.qmd
+#         # - inflamasyon_pdf_TR.qmd
+#     - part: "İnfeksiyöz Hastalıkların Patolojisi"
+#       chapters:
+#         - text: "Viruslar"
+#           href: virus_pdf_TR.qmd
+#         - text: "Bakteriler"
+#           href: bakteri_pdf_TR.qmd
+#         - text: "Mantarlar"
+#           href: mantar_pdf_TR.qmd
+#         - text: "Parazitler"
+#           href: parazit_pdf_TR.qmd
+#     - part: "Temel Tümör Patolojisi"
+#       chapters:
+#         - benign_pdf_TR.qmd
+#         - hamartom_pdf_TR.qmd
+#         - heterotopi_pdf_TR.qmd
+#         - text: "Metaplazi"
+#           href: metaplazi_pdf_TR.qmd
+#         - text: "Karsinogenez"
+#           href: karsinogenez_pdf_TR.qmd
+#         - malign_pdf_TR.qmd
+#         - metastaz_pdf_TR.qmd
+#         - tumor-yayilimi_pdf_TR.qmd
+#     - part: "Tümörlerdeki Prognostik Morfolojik Özellikler"
+#       chapters:
+#         - text: "Venöz İnvazyon"
+#           href: venoz-invazyon_pdf_TR.qmd
+#         - text: "Ekstramural Venöz İnvazyon"
+#           href: ekstramural-venoz-invazyon_pdf_TR.qmd
+#     - part: "Hematopatoloji"
+#       chapters:
+# #        - hematopatoloji_pdf_TR.qmd
+#         - hodgkin_pdf_TR.qmd
+#     - part: "Gastrointestinal Sistem Patolojisi"
+#       chapters:
+#         - gastro_pdf_TR.qmd
+#         - text: "Özofagus"
+#           href: ozofagus_pdf_TR.qmd
+#         - text: "Mide Patolojisi"
+#           href: mide_pdf_TR.qmd
+#         - text: "Gastrit"
+#           href: gastrit_pdf_TR.qmd
+#         - text: "Duodenum Patolojisi"
+#           href: duodenum_pdf_TR.qmd
+#         - text: "Kolon Patolojisi"
+#           href: kolon_pdf_TR.qmd
+#         - text: "Crohn Hastalığı"
+#           href: crohn_pdf_TR.qmd
+#     - part: "Karaciğer Patolojisi"
+#       chapters:
+#         - text: "Karaciğer Tümörleri"
+#           href: karaciger_pdf_TR.qmd
+#         - text: "Benign Karaciğer Tümörleri"
+#           href: karaciger-benign_pdf_TR.qmd
+#     - part: "Pankreatobilier Sistem Patolojisi"
+#       chapters:
+#         - text: "Pankreas"
+#           href: pankreas_pdf_TR.qmd
+#         - text: "Pankreas Duktal Adenokarsinom"
+#           href: pdac_pdf_TR.qmd
+#         - text: "Safra Kesesi"
+#           href: safra-kesesi_pdf_TR.qmd
+#         - text: "Ampulla Vater"
+#           href: ampulla-vater_pdf_TR.qmd
+#     - part: "Akciğer Patolojisi"
+#       chapters:
+#         - text: "Nöroendokrin"
+#           href: noroendokrin_pdf_TR.qmd
+#     - part: "Mezotel"
+#       chapters:
+#         - text: "Abdomen"
+#           href: mezotel_pdf_TR.qmd
+#     - part: "Jinekolojik Patoloji"
+#       chapters:
+#         - text: "Jinekolojik Patoloji"
+#           href: jineko_pdf_TR.qmd
+#         - text: "Genital Sistem Patolojisi"
+#           href: genital_pdf_TR.qmd
+#         - text: "Serviks"
+#           href: serviks_pdf_TR.qmd
+#         - text: "Endometrium"
+#           href: endometrium_pdf_TR.qmd
+#         - text: "Endometriozis"
+#           href: endometriosis_pdf_TR.qmd
+#     - part: "Üriner Sistem Patolojisi"
+#       chapters:
+#         - text: "Üropatoloji"
+#           href: uriner_pdf_TR.qmd
+#         - text: "Böbrek Tümörleri / Renal Tümörler"
+#           href: bobrek_pdf_TR.qmd
+#         - text: "Prostat"
+#           href: prostat_pdf_TR.qmd
+#     - part: "Endokrin Sistem Patolojisi"
+#       chapters:
+#         - text: "Hipofiz Adenomu"
+#           href: hipofiz_pdf_TR.qmd
+#     # - part: "Meme Patolojisi"
+#     #   chapters:
+#     #     - text: "Meme Tümörleri"
+#     #       href: meme_pdf_TR.qmd
+#     - part: "Baş Boyun Patolojisi"
+#       chapters:
+#         - text: "Nazofarenks"
+#           href: nazofarenks_pdf_TR.qmd
+#         - text: "Kulak"
+#           href: kulak_pdf_TR.qmd
+#         - text: "Tükürük Bezi"
+#           href: tukuruk_pdf_TR.qmd
+#     - part: "Santral Sinir Sistem Patolojisi"
+#       chapters:
+#         - text: "Gliomlar"
+#           href: gliom_pdf_TR.qmd
+#         - text: "Meningiom"
+#           href: meningiom_pdf_TR.qmd
+#         - text: "Vasküler Lezyonlar"
+#           href: sss-vaskuler_pdf_TR.qmd
+#     - part: "Kemik Patolojisi"
+#       chapters:
+#         - text: "Kemik Tümörleri"
+#           href: kemik_pdf_TR.qmd
+#     - part: "Yumuşak Doku Patolojisi"
+#       chapters:
+#         - text: "Adipöz Doku Patolojisi"
+#           href: adipoz_pdf_TR.qmd
+#     - part: "Pediatrik ve Perinatal Patoloji"
+#       chapters:
+#         - plasenta_pdf_TR.qmd
+#     - part: "Özel Kolleksiyonlar"
+#       chapters:
+#         - text: "GBDAtlas"
+#           href: gbd_pdf_TR.qmd
+#         - text: "Hacettepe Ayın Vakası"
+#           href: hacettepecom_pdf_TR.qmd
+#         - text: "BSAtlas"
+#           href: bs_pdf_TR.qmd
+#         - text: "ICEtlas"
+#           href: ice_pdf_TR.qmd
+#         - text: "Benzer Sayfalar"
+#           href: wsi_pdf_TR.qmd
+#     - referanslar_pdf_TR.qmd
+#   appendices:
+#     # - yonetim-gelistirme.md
+#     - text: "Katkıda bulunun"
+#       href: katki_pdf_TR.qmd
+#     - text: "Yorum ekleyin"
+#       href: yorum_pdf_TR.qmd
+#     # - text: "Liste"
+#     #   href: listing_pdf_TR.qmd
+#     # - listing2_pdf_TR.qmd
 
 
-highlight-style: pygments
+# highlight-style: pygments
 
 
 # comments:
@@ -290,7 +290,7 @@ highlight-style: pygments
 format:
   pdf:
     toc: true
-    toc-depth: 3
+    toc-depth: 2
     # lof: true
     # lot: true
     toc-title: "İçindekiler"

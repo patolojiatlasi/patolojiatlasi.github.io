@@ -21,16 +21,29 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ## Hepatoselüler Karsinom {#sec-hepatoseluler-karsinom}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hepatocellularcarcinoma_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_hepatocellularcarcinoma.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/hepatocellularcarcinoma/HCC/viewer_z0.html",
-  file = "./screenshots/hepatocellularcarcinoma_screenshot.png"
+  file = "./screenshots/thumbnail_hepatocellularcarcinoma.png"
 )
 }
 ```
 
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/hepatocellularcarcinoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hepatocellularcarcinoma/HCC/viewer_z0.html)
+Tıklayın](./screenshots/thumbnail_hepatocellularcarcinoma.png){width="25%"}](https://images.patolojiatlasi.com/hepatocellularcarcinoma/HCC/viewer_z0.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/hepatocellularcarcinoma/HCC/viewer_z0.html)
 
@@ -64,40 +77,92 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/fibrolamellar-hepatocellular-carcinoma-1_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_fibrolamellar-hepatocellular-carcinoma-1.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE1.html",
-  file = "./screenshots/fibrolamellar-hepatocellular-carcinoma-1_screenshot.png"
+  file = "./screenshots/thumbnail_fibrolamellar-hepatocellular-carcinoma-1.png"
 )
 }
 ```
 
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/fibrolamellar-hepatocellular-carcinoma-2_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_fibrolamellar-hepatocellular-carcinoma-2.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE2.html",
-  file = "./screenshots/fibrolamellar-hepatocellular-carcinoma-2_screenshot.png"
+  file = "./screenshots/thumbnail_fibrolamellar-hepatocellular-carcinoma-2.png"
 )
 }
 ```
 
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/fibrolamellar-hepatocellular-carcinoma-3_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_fibrolamellar-hepatocellular-carcinoma-3.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE3.html",
-  file = "./screenshots/fibrolamellar-hepatocellular-carcinoma-3_screenshot.png"
+  file = "./screenshots/thumbnail_fibrolamellar-hepatocellular-carcinoma-3.png"
 )
 }
 ```
 
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/fibrolamellar-hepatocellular-carcinoma-4_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_fibrolamellar-hepatocellular-carcinoma-4.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE4.html",
-  file = "./screenshots/fibrolamellar-hepatocellular-carcinoma-4_screenshot.png"
+  file = "./screenshots/thumbnail_fibrolamellar-hepatocellular-carcinoma-4.png"
 )
 }
 ```
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
 
 
 ::::: panel-tabset
@@ -110,7 +175,7 @@ webshot2::webshot(delay = 20,
 **Hepatoselüler karsinom, fibrolamellar**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/fibrolamellar-hepatocellular-carcinoma-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE1.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_fibrolamellar-hepatocellular-carcinoma-1.png){width="25%"}](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE1.html)
 
 ```
 
@@ -130,7 +195,7 @@ Mikroskopik görüntüleri inceleyin:
 **Hepatocellular carcinoma, fibrolamellar**
 
 
-[![Click for Full Screen WSI](./screenshots/fibrolamellar-hepatocellular-carcinoma-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE1.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_fibrolamellar-hepatocellular-carcinoma-1.png){width="25%"}](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE1.html)
 
 ```
 
@@ -149,7 +214,7 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language=="TR")}
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/fibrolamellar-hepatocellular-carcinoma-2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE2.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_fibrolamellar-hepatocellular-carcinoma-2.png){width="25%"}](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE2.html)
 
 ```
 
@@ -166,7 +231,7 @@ Mikroskopik görüntüleri inceleyin:
 
 ```{asis, echo = (language == "EN")}
 
-[![Click for Full Screen WSI](./screenshots/fibrolamellar-hepatocellular-carcinoma-2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE2.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_fibrolamellar-hepatocellular-carcinoma-2.png){width="25%"}](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE2.html)
 
 ```
 
@@ -187,7 +252,7 @@ See Microscopy with viewer:
 ```{asis, echo = (language == "TR")}
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/fibrolamellar-hepatocellular-carcinoma-3_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE3.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_fibrolamellar-hepatocellular-carcinoma-3.png){width="25%"}](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE3.html)
 
 ```
 
@@ -202,7 +267,7 @@ Mikroskopik görüntüleri inceleyin:
 
 ```{asis, echo = (language == "EN")}
 
-[![Click for Full Screen WSI](./screenshots/fibrolamellar-hepatocellular-carcinoma-3_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE3.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE3.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_fibrolamellar-hepatocellular-carcinoma-3.png){width="25%"}](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE3.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE3.html)
 
 ```
 
@@ -221,7 +286,7 @@ See Microscopy with viewer:
 
 ```{asis, echo = (language == "TR")}
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/fibrolamellar-hepatocellular-carcinoma-4_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE4.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE4.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_fibrolamellar-hepatocellular-carcinoma-4.png){width="25%"}](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE4.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE4.html)
 
 ```
 
@@ -239,7 +304,7 @@ Mikroskopik görüntüleri inceleyin:
 
 ```{asis, echo = (language == "EN")}
 
-[![Click for Full Screen WSI](./screenshots/fibrolamellar-hepatocellular-carcinoma-4_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE4.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE4.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_fibrolamellar-hepatocellular-carcinoma-4.png){width="25%"}](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE4.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE4.html)
 
 ```
 

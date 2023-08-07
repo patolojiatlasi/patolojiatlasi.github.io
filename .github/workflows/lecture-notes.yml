@@ -1,12 +1,10 @@
-name: Lecture Notes Quarto Render Bilingual Book Push Other Repos and GitLab
+name: Lecture Notes Render
 
 on:
   workflow_dispatch:
   push:
 
-
 jobs:
-
 
   lecture-notes:
     if: "contains(github.event.head_commit.message, 'lecture') && !contains(github.event.head_commit.message, 'merge') && !contains(github.event.head_commit.message, 'WIP')"

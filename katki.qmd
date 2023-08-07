@@ -51,17 +51,30 @@ Plaza Kat:14, Kaptanpaşa Mah. Piyalepaşa Bulvarı, Okmeydanı Cd No:73,
 
 
 ```{comment screenshot katki, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/katki_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_katki.png")) {
 webshot2::webshot(
   url = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12033.28963318435!2d28.9735333!3d41.0619447!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5b15447cefe51a4e!2sMemorial%20Patoloji%20Laboratuvar%C4%B1!5e0!3m2!1sen!2str!4v1646745650518!5m2!1sen!2str",
-  file = "./screenshots/katki_screenshot.png",
+  file = "./screenshots/thumbnail_katki.png",
   delay = 20
 )
 }
 ```
 
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
 ```{asis, echo = (output_type!="html")}
 
-[![Adres](./screenshots/katki_screenshot.png){width="50%"}](https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12033.28963318435!2d28.9735333!3d41.0619447!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5b15447cefe51a4e!2sMemorial%20Patoloji%20Laboratuvar%C4%B1!5e0!3m2!1sen!2str!4v1646745650518!5m2!1sen!2str)
+[![Adres](./screenshots/thumbnail_katki.png){width="50%"}](https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12033.28963318435!2d28.9735333!3d41.0619447!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5b15447cefe51a4e!2sMemorial%20Patoloji%20Laboratuvar%C4%B1!5e0!3m2!1sen!2str!4v1646745650518!5m2!1sen!2str)
 
 ```

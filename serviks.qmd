@@ -22,13 +22,26 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/cervix-SCC_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_cervix-SCC.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/cervix-SCC/HE.html",
-  file = "./screenshots/cervix-SCC_screenshot.png"
+  file = "./screenshots/thumbnail_cervix-SCC.png"
 )
 }
 ```
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -36,7 +49,7 @@ webshot2::webshot(delay = 20,
 **Serviks Skuamöz Hücreli Karsinom**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/cervix-SCC_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/cervix-SCC/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/cervix-SCC/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_cervix-SCC.png){width="25%"}](https://images.patolojiatlasi.com/cervix-SCC/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/cervix-SCC/HE.html)
 ```
 
 
@@ -54,7 +67,7 @@ Mikroskopik görüntüleri inceleyin:
 **Cervix Squamous Cell Carcinoma**
 
 
-[![Click for Full Screen WSI](./screenshots/cervix-SCC_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/cervix-SCC/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/cervix-SCC/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_cervix-SCC.png){width="25%"}](https://images.patolojiatlasi.com/cervix-SCC/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/cervix-SCC/HE.html)
 
 ```
 

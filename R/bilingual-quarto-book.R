@@ -200,8 +200,9 @@ if (dir.exists(paths = "./_docs")) {
   fs::dir_delete(path = "./_docs")
 }
 
-
+if (dir.exists(paths = "./_EN")) {
 fs::dir_copy(path = "./_EN", new_path = "./EN", overwrite = TRUE)
+}
 
 if (dir.exists(paths = "./_EN")) {
   fs::dir_delete(path = "./_EN")

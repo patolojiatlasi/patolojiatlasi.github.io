@@ -6,4 +6,6 @@ listing:
   fields: [image, date, title, subtitle, categories, description]
   sort-ui: [title, date]
   filter-ui: true
+  max-items: 3
+  categories: numbered
 ---

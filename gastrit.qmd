@@ -43,10 +43,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{r, eval=TRUE, include=FALSE}
-if (!file.exists("./screenshots/lymphocytic-gastritis-all_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_lymphocytic-gastritis-all.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html",
-  file = "./screenshots/lymphocytic-gastritis-all_screenshot.png"
+  file = "./screenshots/thumbnail_lymphocytic-gastritis-all.png"
 )
 }
 
@@ -54,48 +54,118 @@ webshot2::webshot(delay = 20,
 ```
 
 
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
 ```{r, eval=TRUE, include=FALSE}
-if (!file.exists("./screenshots/lymphocytic-gastritisHE_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_lymphocytic-gastritisHE.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html",
-  file = "./screenshots/lymphocytic-gastritisHE_screenshot.png"
+  file = "./screenshots/thumbnail_lymphocytic-gastritisHE.png"
 )
 }
 
 
 ```
 
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
 ```{r, eval=TRUE, include=FALSE}
-if (!file.exists("./screenshots/lymphocytic-gastritisCD3_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_lymphocytic-gastritisCD3.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/lymphocytic-gastritis/CD3.html",
-  file = "./screenshots/lymphocytic-gastritisCD3_screenshot.png"
+  file = "./screenshots/thumbnail_lymphocytic-gastritisCD3.png"
 )
 }
 
 
 ```
 
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
 ```{r, eval=TRUE, include=FALSE}
-if (!file.exists("./screenshots/lymphocytic-gastritisCD8_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_lymphocytic-gastritisCD8.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/lymphocytic-gastritis/CD8.html",
-  file = "./screenshots/lymphocytic-gastritisCD8_screenshot.png"
+  file = "./screenshots/thumbnail_lymphocytic-gastritisCD8.png"
 )
 }
 
 
 ```
 
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
 ```{r, eval=TRUE, include=FALSE}
-if (!file.exists("./screenshots/lymphocytic-gastritisCD20_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_lymphocytic-gastritisCD20.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/lymphocytic-gastritis/CD20.html",
-  file = "./screenshots/lymphocytic-gastritisCD20_screenshot.png"
+  file = "./screenshots/thumbnail_lymphocytic-gastritisCD20.png"
 )
 }
 
 
+```
+
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
 ```
 
 
@@ -105,7 +175,7 @@ webshot2::webshot(delay = 20,
 **lenfositik gastrit**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/lymphocytic-gastritis-all_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_lymphocytic-gastritis-all.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html)
 
 ```
 
@@ -116,7 +186,7 @@ webshot2::webshot(delay = 20,
 **lenfositik gastrit**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/lymphocytic-gastritis-all_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_lymphocytic-gastritis-all.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html)
 
 ```
 
@@ -156,7 +226,7 @@ webshot2::webshot(delay = 20,
 **lenfositik gastrit HE**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/lymphocytic-gastritisHE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_lymphocytic-gastritisHE.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html)
 
 ```
 
@@ -173,7 +243,7 @@ Mikroskopik görüntüleri inceleyin:
 
 **lymphocytic gastritis**
 
-[![Click for Full Screen WSI](./screenshots/lymphocytic-gastritisHE_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_lymphocytic-gastritisHE.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html)
 
 ```
 
@@ -193,7 +263,7 @@ See Microscopy with viewer:
 **lenfositik gastrit CD3**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/lymphocytic-gastritisCD3_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD3.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_lymphocytic-gastritisCD3.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD3.html)
 
 ```
 
@@ -212,7 +282,7 @@ Mikroskopik görüntüleri inceleyin:
 **lenfositik gastrit CD3**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/lymphocytic-gastritisCD3_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD3.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_lymphocytic-gastritisCD3.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD3.html)
 
 ```
 
@@ -233,7 +303,7 @@ Mikroskopik görüntüleri inceleyin:
 **lenfositik gastrit CD8**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/lymphocytic-gastritisCD8_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD8.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD8.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_lymphocytic-gastritisCD8.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD8.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD8.html)
 
 ```
 
@@ -254,7 +324,7 @@ Mikroskopik görüntüleri inceleyin:
 **lenfositik gastrit CD8**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/lymphocytic-gastritisCD8_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD8.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD8.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_lymphocytic-gastritisCD8.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD8.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD8.html)
 
 ```
 
@@ -277,7 +347,7 @@ Mikroskopik görüntüleri inceleyin:
 **lenfositik gastrit CD20**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/lymphocytic-gastritisCD20_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD20.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD20.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_lymphocytic-gastritisCD20.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD20.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD20.html)
 
 ```
 
@@ -298,7 +368,7 @@ Mikroskopik görüntüleri inceleyin:
 **lenfositik gastrit CD20**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/lymphocytic-gastritisCD20_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD20.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD20.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_lymphocytic-gastritisCD20.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD20.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/CD20.html)
 
 ```
 

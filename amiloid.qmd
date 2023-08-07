@@ -31,20 +31,34 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/crystalviolet_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_crystalviolet.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/amyloid/crystalviolet.html",
-  file = "./screenshots/crystalviolet_screenshot.png",
+  file = "./screenshots/thumbnail_crystalviolet.png",
   delay = 20
 )
 }
 ```
 
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
 ```{asis, echo = (language == "TR")}
 **Damar duvarlarında amiloid birikimi**
 
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/crystalviolet_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
+Tıklayın](./screenshots/thumbnail_crystalviolet.png){width="25%"}](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
 ```
@@ -65,7 +79,7 @@ Mikroskopik görüntüleri inceleyin:
 **Damar duvarlarında amiloid birikimi**
 
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/crystalviolet_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
+Tıklayın](./screenshots/thumbnail_crystalviolet.png){width="25%"}](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
 ```
@@ -91,12 +105,24 @@ Mikroskopik görüntüleri inceleyin:
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/congored_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_congored.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/congored/congored.html",
-  file = "./screenshots/congored_screenshot.png",
+  file = "./screenshots/thumbnail_congored.png",
   delay = 20
 )
+}
+```
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
 }
 ```
 
@@ -107,7 +133,7 @@ webshot2::webshot(
 **Congo Red stain for amyloidosis**
 
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/congored_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/congored/congored.html)
+Tıklayın](./screenshots/thumbnail_congored.png){width="25%"}](https://images.patolojiatlasi.com/congored/congored.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/congored/congored.html)
 
@@ -118,7 +144,7 @@ Tıklayın](https://images.patolojiatlasi.com/congored/congored.html)
 **Congo Red stain for amyloidosis**
 
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/congored_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/congored/congored.html)
+Tıklayın](./screenshots/thumbnail_congored.png){width="25%"}](https://images.patolojiatlasi.com/congored/congored.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/congored/congored.html)
 
@@ -185,10 +211,23 @@ See Microscopy with viewer:
 
 
 ```{r, eval=(output_type=="html"), echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/congoredvideo_screenshot.jpg")) {
+if (!file.exists("./screenshots/thumbnail_congoredvideo_screenshot.jpg")) {
 
 url <- "https://img.youtube.com/vi/U9glkfQLTm4/maxresdefault.jpg"
-download.file(url, destfile = "./screenshots/congoredvideo_screenshot.jpg", mode = "wb")
+download.file(url, destfile = "./screenshots/thumbnail_congoredvideo_screenshot.jpg", mode = "wb")
+}
+```
+
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
 }
 ```
 
@@ -198,6 +237,6 @@ download.file(url, destfile = "./screenshots/congoredvideo_screenshot.jpg", mode
 
 **Congo Red Birefringence**
 
-[![Video İçin Tıklayın](./screenshots/congored_video_screenshot.png){width="25%"}](https://www.youtube.com/watch?v=U9glkfQLTm4) [Video İçin Tıklayın](https://www.youtube.com/watch?v=U9glkfQLTm4)
+[![Video İçin Tıklayın](./screenshots/thumbnail_congored_video.png){width="25%"}](https://www.youtube.com/watch?v=U9glkfQLTm4) [Video İçin Tıklayın](https://www.youtube.com/watch?v=U9glkfQLTm4)
 
 ```

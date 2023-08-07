@@ -1,8 +1,10 @@
 {
-  "hash": "e31b374cc77e20f685aa29d035ff6ab3",
+  "hash": "9149e9bd718147406d6e9ea9265c9ed3",
   "result": {
-    "markdown": "---\ndescription: \"noroendokrin, NET, WDNET, patoloji, atlas, pathology, whole slide image\"\ndate: last-modified\ncategories: [noroendokrin, NET, WDNET]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# Nöroendokrin Tümörler {#sec-noroendokrin-tumorler} \n:::\n\n::: {.cell}\n## Nöroendokrin Tümör Sitolojisi Giemsa  {#sec-noroendokrin-tumor-sitolojisi-giemsa} \n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n\n**Nöroendokrin Tümör Sitolojisi Giemsa**\n\n\n[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/neuroendocrine-cytology-giemsa_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/neuroendocrine-cytology/giemsa.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/neuroendocrine-cytology/giemsa.html)\n:::\n\n::: {.cell}\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/neuroendocrine-cytology/giemsa.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n",
-    "supporting": [],
+    "markdown": "---\ndescription: \"noroendokrin, NET, WDNET, patoloji, atlas, pathology, whole slide image\"\ndate: last-modified\ncategories: [noroendokrin, NET, WDNET]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# Nöroendokrin Tümörler {#sec-noroendokrin-tumorler} \n:::\n\n::: {.cell}\n## Nöroendokrin Tümör Sitolojisi Giemsa  {#sec-noroendokrin-tumor-sitolojisi-giemsa} \n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n\n\n\n\n::: {.cell}\n\n**Nöroendokrin Tümör Sitolojisi Giemsa**\n\n\n![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width=\"15%\"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_neuroendocrine-cytology-giemsa.png){width=\"25%\"}](https://images.patolojiatlasi.com/neuroendocrine-cytology/giemsa.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/neuroendocrine-cytology/giemsa.html)\n:::\n\n::: {.cell}\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/neuroendocrine-cytology/giemsa.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "noroendokrin_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

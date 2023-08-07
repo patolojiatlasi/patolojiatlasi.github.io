@@ -37,11 +37,24 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/herpesesophagitis_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_herpesesophagitis.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html",
-  file = "./screenshots/herpesesophagitis_screenshot.png"
+  file = "./screenshots/thumbnail_herpesesophagitis.png"
 )
+}
+```
+
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
 }
 ```
 
@@ -50,7 +63,7 @@ webshot2::webshot(delay = 20,
 ```{asis, echo = (language == "TR")}
 
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/herpesesophagitis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html)
+Tıklayın](./screenshots/thumbnail_herpesesophagitis.png){width="25%"}](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html)
 
@@ -59,7 +72,7 @@ Tıklayın](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.ht
 
 ```{asis, echo = (language == "EN")}
 
-[![Click for Full Screen WSI](./screenshots/herpesesophagitis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_herpesesophagitis.png){width="25%"}](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html)
 [Click for Full Screen WSI](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html)
 
 ```
@@ -102,20 +115,33 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/molluscum-contagiosum_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_molluscum-contagiosum.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html",
-  file = "./screenshots/molluscum-contagiosum_screenshot.png"
+  file = "./screenshots/thumbnail_molluscum-contagiosum.png"
 )
 }
 ```
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
 
 ```{asis, echo = (language == "TR")}
 
 **Molluscum contagiosum**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/molluscum-contagiosum_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_molluscum-contagiosum.png){width="25%"}](https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html)
 
 ```
 
@@ -133,7 +159,7 @@ Mikroskopik görüntüleri inceleyin:
 **Molluscum contagiosum**
 
 
-[![Click for Full Screen WSI](./screenshots/molluscum-contagiosum_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_molluscum-contagiosum.png){width="25%"}](https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html)
 
 ```
 

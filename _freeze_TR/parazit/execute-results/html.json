@@ -1,8 +1,10 @@
 {
-  "hash": "e7708b720f5fa4f9c372c06f67ec1bcb",
+  "hash": "e336849506dbc071c81f39b6d765f96e",
   "result": {
-    "markdown": "---\ndescription: \"parazit, enfeksiyon, patoloji, atlas, pathology, whole slide image\"\ndate: last-modified\ncategories: [parazit, enfeksiyon]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# Parazitler {#sec-parazitler} \n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n## Enterobius vermicularis {#sec-enterobius-vermicularis} \n:::\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n\n**Enterobius vermicularis**\n\n[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/enterobius-vermicularis_screenshot.png){width=\"25%\"}](https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html)\n:::\n\n::: {.cell}\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n",
-    "supporting": [],
+    "markdown": "---\ndescription: \"parazit, enfeksiyon, patoloji, atlas, pathology, whole slide image\"\ndate: last-modified\ncategories: [parazit, enfeksiyon]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# Parazitler {#sec-parazitler} \n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n## Enterobius vermicularis {#sec-enterobius-vermicularis} \n:::\n\n::: {.cell}\n\n:::\n\n\n\n\n\n::: {.cell}\n\n**Enterobius vermicularis**\n\n![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width=\"15%\"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_enterobius-vermicularis.png){width=\"25%\"}](https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html)\n:::\n\n::: {.cell}\n\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "parazit_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

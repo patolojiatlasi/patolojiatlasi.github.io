@@ -24,20 +24,33 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/ochronosis_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_ochronosis.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/ochronosis/HE.html",
-  file = "./screenshots/ochronosis_screenshot.png"
+  file = "./screenshots/thumbnail_ochronosis.png"
 )
 }
 ```
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
 
 ```{asis, echo = (language == "TR")}
 
 **Okronozis**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/ochronosis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ochronosis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ochronosis/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_ochronosis.png){width="25%"}](https://images.patolojiatlasi.com/ochronosis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ochronosis/HE.html)
 
 ```
 
@@ -55,7 +68,7 @@ Mikroskopik görüntüleri inceleyin:
 **Ochronosis**
 
 
-[![Click for Full Screen WSI](./screenshots/ochronosis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ochronosis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ochronosis/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_ochronosis.png){width="25%"}](https://images.patolojiatlasi.com/ochronosis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ochronosis/HE.html)
 
 ```
 

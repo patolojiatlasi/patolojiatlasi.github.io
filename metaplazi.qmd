@@ -42,11 +42,24 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ### HE
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/metaplasia_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_metaplasia.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/metaplasia/HE.html",
-  file = "./screenshots/metaplasia_screenshot.png"
+  file = "./screenshots/thumbnail_metaplasia.png"
 )
+}
+```
+
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
 }
 ```
 
@@ -57,7 +70,7 @@ webshot2::webshot(delay = 20,
 **Pankreatik Asiner Metaplazi, Mide**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/metaplasia_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/metaplasia/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/metaplasia/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_metaplasia.png){width="25%"}](https://images.patolojiatlasi.com/metaplasia/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/metaplasia/HE.html)
 
 ```
 
@@ -76,7 +89,7 @@ Mikroskopik görüntüleri inceleyin:
 **Pancreatic Acinar Metaplasia, Stomach**
 
 
-[![Click for Full Screen WSI](./screenshots/metaplasia_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/metaplasia/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/metaplasia/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_metaplasia.png){width="25%"}](https://images.patolojiatlasi.com/metaplasia/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/metaplasia/HE.html)
 
 ```
 
@@ -94,18 +107,31 @@ See Microscopy with viewer:
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/metaplasia-annotated_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_metaplasia-annotated.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/metaplasia/HE_annotated.html",
-  file = "./screenshots/metaplasia-annotated_screenshot.png"
+  file = "./screenshots/thumbnail_metaplasia-annotated.png"
 )
+}
+```
+
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
 }
 ```
 
 
 ```{asis, echo = (language == "TR")}
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/metaplasia_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/metaplasia/HE_annotated.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/metaplasia/HE_annotated.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_metaplasia.png){width="25%"}](https://images.patolojiatlasi.com/metaplasia/HE_annotated.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/metaplasia/HE_annotated.html)
 ```
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -119,7 +145,7 @@ webshot2::webshot(delay = 20,
 
 ```{asis, echo = (language == "EN")}
 
-[![Click for Full Screen WSI](./screenshots/metaplasia-annotated_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/metaplasia/HE_annotated.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/metaplasia/HE_annotated.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_metaplasia-annotated.png){width="25%"}](https://images.patolojiatlasi.com/metaplasia/HE_annotated.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/metaplasia/HE_annotated.html)
 ```
 
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
@@ -136,11 +162,24 @@ See Annotated Microscopy with viewer:
 ### Trypsin
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/metaplasia-trypsin_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_metaplasia-trypsin.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/metaplasia/trypsin.html",
-  file = "./screenshots/metaplasia-trypsin_screenshot.png"
+  file = "./screenshots/thumbnail_metaplasia-trypsin.png"
 )
+}
+```
+
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
 }
 ```
 
@@ -148,7 +187,7 @@ webshot2::webshot(delay = 20,
 ```{asis, echo = (language == "TR")}
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/metaplasia-trypsin_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/metaplasia/trypsin.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/metaplasia/trypsin.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_metaplasia-trypsin.png){width="25%"}](https://images.patolojiatlasi.com/metaplasia/trypsin.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/metaplasia/trypsin.html)
 
 ```
 
@@ -168,7 +207,7 @@ Mikroskopik görüntüleri inceleyin:
 
 ```{asis, echo = (language == "EN")}
 
-[![Click for Full Screen WSI](./screenshots/metaplasia-trypsin_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/metaplasia/trypsin.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/metaplasia/trypsin.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_metaplasia-trypsin.png){width="25%"}](https://images.patolojiatlasi.com/metaplasia/trypsin.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/metaplasia/trypsin.html)
 
 ```
 

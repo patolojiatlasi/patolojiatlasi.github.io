@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.176">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -53,6 +53,9 @@ ul.task-list li input[type="checkbox"] {
   "panel-placement": "end",
   "type": "overlay",
   "limit": 20,
+  "keyboard-shortcut": [
+    null
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -79,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       page: 25,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -97,6 +100,11 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 <script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
 <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon_EN.png">
 <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32_EN.png">
 <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16_EN.png">
@@ -127,14 +135,20 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="alternate" type="application/rss+xml" title="Histopathology Atlas" href="listing.xml"><meta property="og:title" content="Histopathology Atlas - Appendix C — List">
+<link rel="alternate" type="application/rss+xml" title="Histopathology Atlas" href="listing.xml" data-external="1"><meta property="og:title" content="Histopathology Atlas - Appendix C — List">
 <meta property="og:description" content="Atlas of Pathology with Whole Slide Images Histopathology Atlas and Notes for Medical Students: See and Learn Atlas of Histopathology Notes for Pathology Pathology Lecture Notes and Histopathology Atlas is being prepared from Memorial Pathology Archive and collaborators from other institutions.">
-<meta property="og:site-name" content="Histopathology Atlas">
+<meta property="og:image" content="https://histopathologyatlas.com/images/coverEN.png">
+<meta property="og:site_name" content="Histopathology Atlas">
+<meta property="og:image:height" content="794">
+<meta property="og:image:width" content="1268">
 <meta name="twitter:title" content="Histopathology Atlas - Appendix C — List">
 <meta name="twitter:description" content="Atlas of Pathology with Whole Slide Images Histopathology Atlas and Notes for Medical Students: See and Learn Atlas of Histopathology Notes for Pathology Pathology Lecture Notes and Histopathology Atlas is being prepared from Memorial Pathology Archive and collaborators from other institutions.">
+<meta name="twitter:image" content="https://histopathologyatlas.com/images/coverEN.png">
 <meta name="twitter:creator" content="%40serdarbalci">
 <meta name="twitter:site" content="%40patolojinotlari">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image-height" content="794">
+<meta name="twitter:image-width" content="1268">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-sidebar floating">
@@ -146,9 +160,9 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./contributions.html">Appendices</a></li><li class="breadcrumb-item"><a href="./listing.html"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">List</span></a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./contributions.html">Appendices</a></li><li class="breadcrumb-item"><a href="./listing.html"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">List</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -887,20 +901,20 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(72)</span></div><div class="category" data-category="Birefringence">Birefringence <span class="quarto-category-count">(1)</span></div><div class="category" data-category="CISH">CISH <span class="quarto-category-count">(1)</span></div><div class="category" data-category="CNS">CNS <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Congo Red">Congo Red <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Crohn">Crohn <span class="quarto-category-count">(1)</span></div><div class="category" data-category="GBD">GBD <span class="quarto-category-count">(1)</span></div><div class="category" data-category="H.pylori">H.pylori <span class="quarto-category-count">(1)</span></div><div class="category" data-category="HSV">HSV <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Inflammatory Bowel Disease">Inflammatory Bowel Disease <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Kongo Kırmızısı">Kongo Kırmızısı <span class="quarto-category-count">(1)</span></div><div class="category" data-category="NET">NET <span class="quarto-category-count">(2)</span></div><div class="category" data-category="PDAC">PDAC <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SSS">SSS <span class="quarto-category-count">(2)</span></div><div class="category" data-category="WDNET">WDNET <span class="quarto-category-count">(2)</span></div><div class="category" data-category="accumulations">accumulations <span class="quarto-category-count">(2)</span></div><div class="category" data-category="acute appendicitis">acute appendicitis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="acute inflammation">acute inflammation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="adenocarcinoma">adenocarcinoma <span class="quarto-category-count">(2)</span></div><div class="category" data-category="adenokarsinom">adenokarsinom <span class="quarto-category-count">(2)</span></div><div class="category" data-category="adipose">adipose <span class="quarto-category-count">(1)</span></div><div class="category" data-category="adipöz">adipöz <span class="quarto-category-count">(1)</span></div><div class="category" data-category="akut appendisit">akut appendisit <span class="quarto-category-count">(1)</span></div><div class="category" data-category="akut inflamasyon">akut inflamasyon <span class="quarto-category-count">(1)</span></div><div class="category" data-category="amiloidoz">amiloidoz <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ampulla">ampulla <span class="quarto-category-count">(1)</span></div><div class="category" data-category="amyloidosis">amyloidosis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="atlas">atlas <span class="quarto-category-count">(1)</span></div><div class="category" data-category="atypia">atypia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="authors">authors <span class="quarto-category-count">(2)</span></div><div class="category" data-category="autopsy">autopsy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bacteria">bacteria <span class="quarto-category-count">(1)</span></div><div class="category" data-category="benign">benign <span class="quarto-category-count">(2)</span></div><div class="category" data-category="birikim">birikim <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bobrek">bobrek <span class="quarto-category-count">(1)</span></div><div class="category" data-category="brain">brain <span class="quarto-category-count">(1)</span></div><div class="category" data-category="celiac">celiac <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cervix">cervix <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cholesteatoma">cholesteatoma <span class="quarto-category-count">(1)</span></div><div class="category" data-category="collection">collection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="comment">comment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="congestion">congestion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="contribution">contribution <span class="quarto-category-count">(1)</span></div><div class="category" data-category="contributors">contributors <span class="quarto-category-count">(2)</span></div><div class="category" data-category="crystal violet">crystal violet <span class="quarto-category-count">(1)</span></div><div class="category" data-category="damar">damar <span class="quarto-category-count">(1)</span></div><div class="category" data-category="depo hastalığı">depo hastalığı <span class="quarto-category-count">(1)</span></div><div class="category" data-category="depot disease">depot disease <span class="quarto-category-count">(1)</span></div><div class="category" data-category="duodenum">duodenum <span class="quarto-category-count">(1)</span></div><div class="category" data-category="editors">editors <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ekstramural">ekstramural <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ekstraselüler birikim">ekstraselüler birikim <span class="quarto-category-count">(1)</span></div><div class="category" data-category="endometriozis">endometriozis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="endometrium">endometrium <span class="quarto-category-count">(1)</span></div><div class="category" data-category="enfeksiyon">enfeksiyon <span class="quarto-category-count">(2)</span></div><div class="category" data-category="enteropati">enteropati <span class="quarto-category-count">(1)</span></div><div class="category" data-category="erozyon">erozyon <span class="quarto-category-count">(1)</span></div><div class="category" data-category="exostosis">exostosis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="extracellular accumulation">extracellular accumulation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="fibrolamellar-hepatocellular-carcinoma">fibrolamellar-hepatocellular-carcinoma <span class="quarto-category-count">(1)</span></div><div class="category" data-category="fungus">fungus <span class="quarto-category-count">(1)</span></div><div class="category" data-category="gallbladder">gallbladder <span class="quarto-category-count">(1)</span></div><div class="category" data-category="gastrit">gastrit <span class="quarto-category-count">(1)</span></div><div class="category" data-category="gastrointestinal">gastrointestinal <span class="quarto-category-count">(1)</span></div><div class="category" data-category="genital">genital <span class="quarto-category-count">(1)</span></div><div class="category" data-category="giris">giris <span class="quarto-category-count">(1)</span></div><div class="category" data-category="gliom">gliom <span class="quarto-category-count">(1)</span></div><div class="category" data-category="gluten">gluten <span class="quarto-category-count">(1)</span></div><div class="category" data-category="granulom">granulom <span class="quarto-category-count">(1)</span></div><div class="category" data-category="hamartom">hamartom <span class="quarto-category-count">(1)</span></div><div class="category" data-category="hasar">hasar <span class="quarto-category-count">(2)</span></div><div class="category" data-category="heterotopi">heterotopi <span class="quarto-category-count">(1)</span></div><div class="category" data-category="hipofiz">hipofiz <span class="quarto-category-count">(1)</span></div><div class="category" data-category="histochemistry">histochemistry <span class="quarto-category-count">(2)</span></div><div class="category" data-category="hodgkin">hodgkin <span class="quarto-category-count">(1)</span></div><div class="category" data-category="immunohistochemistry">immunohistochemistry <span class="quarto-category-count">(1)</span></div><div class="category" data-category="inflamasyon">inflamasyon <span class="quarto-category-count">(1)</span></div><div class="category" data-category="injury">injury <span class="quarto-category-count">(1)</span></div><div class="category" data-category="introduction">introduction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="invazyon">invazyon <span class="quarto-category-count">(1)</span></div><div class="category" data-category="iskemi">iskemi <span class="quarto-category-count">(1)</span></div><div class="category" data-category="iyi diferansiye nöroendokrin tümör">iyi diferansiye nöroendokrin tümör <span class="quarto-category-count">(1)</span></div><div class="category" data-category="karaciğer">karaciğer <span class="quarto-category-count">(1)</span></div><div class="category" data-category="karsinogenez">karsinogenez <span class="quarto-category-count">(1)</span></div><div class="category" data-category="katkı">katkı <span class="quarto-category-count">(3)</span></div><div class="category" data-category="kidney">kidney <span class="quarto-category-count">(1)</span></div><div class="category" data-category="koleksiyon">koleksiyon <span class="quarto-category-count">(4)</span></div><div class="category" data-category="kolon">kolon <span class="quarto-category-count">(1)</span></div><div class="category" data-category="kristal viyole">kristal viyole <span class="quarto-category-count">(1)</span></div><div class="category" data-category="kronik">kronik <span class="quarto-category-count">(1)</span></div><div class="category" data-category="lenfoma">lenfoma <span class="quarto-category-count">(1)</span></div><div class="category" data-category="liver">liver <span class="quarto-category-count">(1)</span></div><div class="category" data-category="malign">malign <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mantar">mantar <span class="quarto-category-count">(1)</span></div><div class="category" data-category="meningioma">meningioma <span class="quarto-category-count">(1)</span></div><div class="category" data-category="metaplasia">metaplasia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="metastaz">metastaz <span class="quarto-category-count">(2)</span></div><div class="category" data-category="mezotel">mezotel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="micropapillary">micropapillary <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mide">mide <span class="quarto-category-count">(2)</span></div><div class="category" data-category="molluscum">molluscum <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mukoza">mukoza <span class="quarto-category-count">(1)</span></div><div class="category" data-category="nasopharynx">nasopharynx <span class="quarto-category-count">(1)</span></div><div class="category" data-category="nekroz">nekroz <span class="quarto-category-count">(1)</span></div><div class="category" data-category="neuroendocrine">neuroendocrine <span class="quarto-category-count">(1)</span></div><div class="category" data-category="noroendokrin">noroendokrin <span class="quarto-category-count">(1)</span></div><div class="category" data-category="nöroendokrin">nöroendokrin <span class="quarto-category-count">(1)</span></div><div class="category" data-category="oncocytoma">oncocytoma <span class="quarto-category-count">(1)</span></div><div class="category" data-category="onkositom">onkositom <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ovary">ovary <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ozofagus">ozofagus <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pancreas">pancreas <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pankreas">pankreas <span class="quarto-category-count">(2)</span></div><div class="category" data-category="parazit">parazit <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pediatric">pediatric <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pituitary">pituitary <span class="quarto-category-count">(1)</span></div><div class="category" data-category="plasenta">plasenta <span class="quarto-category-count">(1)</span></div><div class="category" data-category="polip">polip <span class="quarto-category-count">(1)</span></div><div class="category" data-category="prostat">prostat <span class="quarto-category-count">(1)</span></div><div class="category" data-category="reactive changes">reactive changes <span class="quarto-category-count">(1)</span></div><div class="category" data-category="repair">repair <span class="quarto-category-count">(1)</span></div><div class="category" data-category="reproductive">reproductive <span class="quarto-category-count">(1)</span></div><div class="category" data-category="safra kesesi">safra kesesi <span class="quarto-category-count">(1)</span></div><div class="category" data-category="salivary">salivary <span class="quarto-category-count">(1)</span></div><div class="category" data-category="serous">serous <span class="quarto-category-count">(1)</span></div><div class="category" data-category="serviks">serviks <span class="quarto-category-count">(1)</span></div><div class="category" data-category="spleen">spleen <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tamir">tamir <span class="quarto-category-count">(2)</span></div><div class="category" data-category="technique">technique <span class="quarto-category-count">(1)</span></div><div class="category" data-category="teknik">teknik <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tru-cut">tru-cut <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tukuruk">tukuruk <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tumor">tumor <span class="quarto-category-count">(6)</span></div><div class="category" data-category="urinary">urinary <span class="quarto-category-count">(1)</span></div><div class="category" data-category="uriner">uriner <span class="quarto-category-count">(1)</span></div><div class="category" data-category="vasküler">vasküler <span class="quarto-category-count">(1)</span></div><div class="category" data-category="vein">vein <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ven">ven <span class="quarto-category-count">(1)</span></div><div class="category" data-category="venous invasion">venous invasion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="venöz invazyon">venöz invazyon <span class="quarto-category-count">(2)</span></div><div class="category" data-category="virus">virus <span class="quarto-category-count">(1)</span></div><div class="category" data-category="well differantiated neuroendocrine tumor">well differantiated neuroendocrine tumor <span class="quarto-category-count">(1)</span></div><div class="category" data-category="wsi">wsi <span class="quarto-category-count">(1)</span></div><div class="category" data-category="yazar">yazar <span class="quarto-category-count">(2)</span></div><div class="category" data-category="yağ">yağ <span class="quarto-category-count">(1)</span></div><div class="category" data-category="yorum">yorum <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Çİft Kırıcılık">Çİft Kırıcılık <span class="quarto-category-count">(1)</span></div><div class="category" data-category="çölyak">çölyak <span class="quarto-category-count">(1)</span></div><div class="category" data-category="İnflamatuar Barsak Hastalığı">İnflamatuar Barsak Hastalığı <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./contributions.html">Appendices</a></li><li class="breadcrumb-item"><a href="./listing.html"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">List</span></a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Appendix C — List</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-body">
 
     
   
@@ -938,9 +952,9 @@ ul.task-list li input[type="checkbox"] {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="adipose,adipöz,yağ" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="0" data-categories="adipose,adipöz,yağ" data-listing-date-sort="1691420633000" data-listing-file-modified-sort="1691420633354" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
-<p><a href="./adipose.html"> <p class="card-img-top"><img src="screenshots/myxoidliposarcoma_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./adipose.html"> <p class="card-img-top"><img src="screenshots/thumbnail_myxoidliposarcoma.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="./adipose.html">
@@ -971,14 +985,14 @@ yağ
 <div class="metadata">
 <a href="./adipose.html">
 <div class="listing-date">
-Aug 6, 2023
+Aug 7, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="acute inflammation,akut inflamasyon,acute appendicitis,akut appendisit" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="1" data-categories="acute inflammation,akut inflamasyon,acute appendicitis,akut appendisit" data-listing-date-sort="1691420633000" data-listing-file-modified-sort="1691420633340" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
-<p><a href="./acute-inflammation.html"> <p class="card-img-top"><img src="screenshots/acute-appendicitis_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./acute-inflammation.html"> <p class="card-img-top"><img src="screenshots/thumbnail_acute-appendicitis.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="./acute-inflammation.html">
@@ -1012,14 +1026,14 @@ akut appendisit
 <div class="metadata">
 <a href="./acute-inflammation.html">
 <div class="listing-date">
-Aug 6, 2023
+Aug 7, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="amyloidosis,amiloidoz,crystal violet,kristal viyole,Congo Red,Kongo Kırmızısı,Birefringence,Çİft Kırıcılık,ekstraselüler birikim,extracellular accumulation" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="2" data-categories="amyloidosis,amiloidoz,crystal violet,kristal viyole,Congo Red,Kongo Kırmızısı,Birefringence,Çİft Kırıcılık,ekstraselüler birikim,extracellular accumulation" data-listing-date-sort="1691420633000" data-listing-file-modified-sort="1691420633339" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="thumbnail">
-<p><a href="./amyloidosis.html"> <p class="card-img-top"><img src="screenshots/crystalviolet_screenshot.png" alt="Tam Ekran Görmek İçin Resmi Tıklayın"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./amyloidosis.html"> <p class="card-img-top"><img src="screenshots/thumbnail_crystalviolet.png" alt="Tam Ekran Görmek İçin Resmi Tıklayın"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="./amyloidosis.html">
@@ -1071,2469 +1085,7 @@ extracellular accumulation
 <div class="metadata">
 <a href="./amyloidosis.html">
 <div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="ampulla,adenocarcinoma,adenokarsinom,nöroendokrin,neuroendocrine,NET,WDNET,iyi diferansiye nöroendokrin tümör,well differantiated neuroendocrine tumor" data-listing-date-sort="1691337699000" data-listing-file-modified-sort="1691337699111" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<div class="thumbnail">
-<p><a href="./ampulla-vater.html"> <p class="card-img-top"><img src="screenshots/ampullary-adenocarcinoma_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./ampulla-vater.html">
-<h3 class="no-anchor listing-title">
-Ampulla Vater
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('ampulla'); return false;">
-ampulla
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('adenocarcinoma'); return false;">
-adenocarcinoma
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('adenokarsinom'); return false;">
-adenokarsinom
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('nöroendokrin'); return false;">
-nöroendokrin
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('neuroendocrine'); return false;">
-neuroendocrine
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('NET'); return false;">
-NET
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('WDNET'); return false;">
-WDNET
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('iyi diferansiye nöroendokrin tümör'); return false;">
-iyi diferansiye nöroendokrin tümör
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('well differantiated neuroendocrine tumor'); return false;">
-well differantiated neuroendocrine tumor
-</div>
-</div>
-<a href="./ampulla-vater.html">
-<div class="listing-description">
-<p>Ampulla of Vater Ampulla Vater Ampulla Vater Adenokarsinomu Adenocarcinoma of Ampulla of Vater patoloji atlası pathology atlas whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./ampulla-vater.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="koleksiyon" data-listing-date-sort="1691337699000" data-listing-file-modified-sort="1691337699123" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./bs.html"> <p class="card-img-top"><img src="screenshots/BS1-HE1_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./bs.html">
-<h3 class="no-anchor listing-title">
-BS Atlas
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('koleksiyon'); return false;">
-koleksiyon
-</div>
-</div>
-<a href="./bs.html">
-<div class="listing-description">
-<p>koleksiyon, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./bs.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="bacteria,H.pylori,histochemistry,immunohistochemistry" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./bacteria.html"> <p class="card-img-top"><img src="screenshots/helicobacterpylori_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./bacteria.html">
-<h3 class="no-anchor listing-title">
-Bakteriler
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('bacteria'); return false;">
-bacteria
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('H.pylori'); return false;">
-H.pylori
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('histochemistry'); return false;">
-histochemistry
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('immunohistochemistry'); return false;">
-immunohistochemistry
-</div>
-</div>
-<a href="./bacteria.html">
-<div class="listing-description">
-<p>bacteria, H.pylori, histochemistry, immunohistochemistry, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./bacteria.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="tumor,metastaz,invazyon" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<div class="thumbnail">
-<p><a href="./tumor-spread.html"> <p class="card-img-top"><img src="screenshots/tumor-spread-cervix_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./tumor-spread.html">
-<h3 class="no-anchor listing-title">
-Başka Organlara Tümör Yayılımı
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('tumor'); return false;">
-tumor
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('metastaz'); return false;">
-metastaz
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('invazyon'); return false;">
-invazyon
-</div>
-</div>
-<a href="./tumor-spread.html">
-<div class="listing-description">
-<p>tumor, metastaz, invazyon, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./tumor-spread.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="karaciğer,benign,liver" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./benign-liver-tumors.html"> <p class="card-img-top"><img src="screenshots/liver-hemangioma_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./benign-liver-tumors.html">
-<h3 class="no-anchor listing-title">
-Benign Karaciğer Tümörleri
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('karaciğer'); return false;">
-karaciğer
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('benign'); return false;">
-benign
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('liver'); return false;">
-liver
-</div>
-</div>
-<a href="./benign-liver-tumors.html">
-<div class="listing-description">
-<p>karaciğer, benign, liver, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./benign-liver-tumors.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="benign,tumor" data-listing-date-sort="1691337699000" data-listing-file-modified-sort="1691337699123" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./benign.html"> <p class="card-img-top"><img src="screenshots/tubularadenoma-flat1_screenshot.png" alt="Tam Ekran Görmek İçin Resmi Tıklayın"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./benign.html">
-<h3 class="no-anchor listing-title">
-Benign Tümörler
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('benign'); return false;">
-benign
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('tumor'); return false;">
-tumor
-</div>
-</div>
-<a href="./benign.html">
-<div class="listing-description">
-<p>Benign Tumor, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./benign.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-categories="meningioma" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./meningioma.html"> <p class="card-img-top"><img src="screenshots/brain-invasive-meningioma_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./meningioma.html">
-<h3 class="no-anchor listing-title">
-Beyin İnvazyonu Gösteren Meningiom
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('meningioma'); return false;">
-meningioma
-</div>
-</div>
-<a href="./meningioma.html">
-<div class="listing-description">
-<p>meningioma, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./meningioma.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="10" data-categories="kidney,bobrek,oncocytoma,onkositom" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./kidney.html"> <p class="card-img-top"><img src="screenshots/kidneyoncocytoma_screenshot.png" alt="Tam Ekran Görmek İçin Resmi Tıklayın"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./kidney.html">
-<h3 class="no-anchor listing-title">
-Böbrek Tümörleri
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('kidney'); return false;">
-kidney
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('bobrek'); return false;">
-bobrek
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('oncocytoma'); return false;">
-oncocytoma
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('onkositom'); return false;">
-onkositom
-</div>
-</div>
-<a href="./kidney.html">
-<div class="listing-description">
-<p>kidney, bobrek, oncocytoma, onkositom, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./kidney.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="11" data-categories="Crohn,Inflammatory Bowel Disease,İnflamatuar Barsak Hastalığı" data-listing-date-sort="1691337699000" data-listing-file-modified-sort="1691337699123" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./crohn.html"> <p class="card-img-top"><img src="screenshots/crohn-colonoscopic-biopsy-all_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./crohn.html">
-<h3 class="no-anchor listing-title">
-Crohn Hastalığı Kolonoskopik Biyopsi
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Crohn'); return false;">
-Crohn
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Inflammatory Bowel Disease'); return false;">
-Inflammatory Bowel Disease
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('İnflamatuar Barsak Hastalığı'); return false;">
-İnflamatuar Barsak Hastalığı
-</div>
-</div>
-<a href="./crohn.html">
-<div class="listing-description">
-<p>Crohn’s Disease Crohn Hastalığı Inflammatory Bowel Disease İnflamatuar Barsak Hastalığı</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./crohn.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="12" data-categories="congestion,spleen" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./congestion.html"> <p class="card-img-top"><img src="screenshots/congestion-spleen_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./congestion.html">
-<h3 class="no-anchor listing-title">
-Dalak konjesyon
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('congestion'); return false;">
-congestion
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('spleen'); return false;">
-spleen
-</div>
-</div>
-<a href="./congestion.html">
-<div class="listing-description">
-<p>congestion in spleen dalak konjesyon</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./congestion.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="13" data-categories="duodenum,celiac,çölyak,gluten,enteropati" data-listing-date-sort="1691337703000" data-listing-file-modified-sort="1691337703975" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./duodenum.html"> <p class="card-img-top"><img src="screenshots/celiac-disease_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./duodenum.html">
-<h3 class="no-anchor listing-title">
-Duodenum
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('duodenum'); return false;">
-duodenum
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('celiac'); return false;">
-celiac
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('çölyak'); return false;">
-çölyak
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('gluten'); return false;">
-gluten
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('enteropati'); return false;">
-enteropati
-</div>
-</div>
-<a href="./duodenum.html">
-<div class="listing-description">
-<p>duodenum, celiac, çölyak, gluten, enteropati, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./duodenum.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="14" data-categories="tumor,venöz invazyon,ekstramural" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./extramural-venous-invasion.html"> <p class="card-img-top"><img src="screenshots/extramuralvenousinvasion_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./extramural-venous-invasion.html">
-<h3 class="no-anchor listing-title">
-Ekstramural Venöz İnvazyon
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('tumor'); return false;">
-tumor
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('venöz invazyon'); return false;">
-venöz invazyon
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ekstramural'); return false;">
-ekstramural
-</div>
-</div>
-<a href="./extramural-venous-invasion.html">
-<div class="listing-description">
-<p>tumor, venöz invazyon, ekstramural, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./extramural-venous-invasion.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="15" data-categories="endometrium,polip" data-listing-date-sort="1691337703000" data-listing-file-modified-sort="1691337703975" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./endometrium.html"> <p class="card-img-top"><img src="screenshots/endometrial-polyp_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./endometrium.html">
-<h3 class="no-anchor listing-title">
-Endometrial Polip
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('endometrium'); return false;">
-endometrium
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('polip'); return false;">
-polip
-</div>
-</div>
-<a href="./endometrium.html">
-<div class="listing-description">
-<p>endometrium, polip, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./endometrium.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="16" data-categories="endometriozis" data-listing-date-sort="1691337703000" data-listing-file-modified-sort="1691337703975" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./endometriosis.html"> <p class="card-img-top"><img src="screenshots/endometriosis_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./endometriosis.html">
-<h3 class="no-anchor listing-title">
-Endometriozis
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('endometriozis'); return false;">
-endometriozis
-</div>
-</div>
-<a href="./endometriosis.html">
-<div class="listing-description">
-<p>endometriozis, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./endometriosis.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="17" data-categories="mukoza,erozyon" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./erosion.html"> <p class="card-img-top"><img src="screenshots/erosion_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./erosion.html">
-<h3 class="no-anchor listing-title">
-Erozyon
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('mukoza'); return false;">
-mukoza
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('erozyon'); return false;">
-erozyon
-</div>
-</div>
-<a href="./erosion.html">
-<div class="listing-description">
-<p>mukoza, erozyon, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./erosion.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="18" data-categories="koleksiyon,GBD,collection,autopsy,brain,pediatric" data-listing-date-sort="1691337703000" data-listing-file-modified-sort="1691337703979" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./gbd.html"> <p class="card-img-top"><img src="screenshots/GBD1_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./gbd.html">
-<h3 class="no-anchor listing-title">
-GBD koleksiyonu
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('koleksiyon'); return false;">
-koleksiyon
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('GBD'); return false;">
-GBD
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('collection'); return false;">
-collection
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('autopsy'); return false;">
-autopsy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('brain'); return false;">
-brain
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('pediatric'); return false;">
-pediatric
-</div>
-</div>
-<a href="./gbd.html">
-<div class="listing-description">
-<p>koleksiyon, patoloji, atlas, pathology, whole slide image pediatric autopsy, brain pediatrik otopsi, beyin Bu sayfadaki vakalar Prof.&nbsp;Dr.&nbsp;Gülen Bülbül Doğusoy’un koleksiyonundan alınmıştır. These cases are from the collections of Gulen Bulbul Dogusoy MD, Pathologist.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./gbd.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="19" data-categories="mide,gastrit" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./gastritis.html"> <p class="card-img-top"><img src="screenshots/lymphocytic-gastritis-all_screenshot.png" alt="Tam Ekran Görmek İçin Resmi Tıklayın"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./gastritis.html">
-<h3 class="no-anchor listing-title">
-Gastrit
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('mide'); return false;">
-mide
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('gastrit'); return false;">
-gastrit
-</div>
-</div>
-<a href="./gastritis.html">
-<div class="listing-description">
-<p>mide, gastrit, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./gastritis.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="20" data-categories="gastrointestinal" data-listing-date-sort="1691337703000" data-listing-file-modified-sort="1691337703979" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./gastro.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./gastro.html">
-<h3 class="no-anchor listing-title">
-Gastrointestinal Sistem
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('gastrointestinal'); return false;">
-gastrointestinal
-</div>
-</div>
-<a href="./gastro.html">
-<div class="listing-description">
-<p>gastrointestinal, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./gastro.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="21" data-categories="genital,reproductive" data-listing-date-sort="1691337703000" data-listing-file-modified-sort="1691337703979" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./genital.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./genital.html">
-<h3 class="no-anchor listing-title">
-Genital Sistem Patolojisi
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('genital'); return false;">
-genital
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('reproductive'); return false;">
-reproductive
-</div>
-</div>
-<a href="./genital.html">
-<div class="listing-description">
-<p>genital, reproductive, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./genital.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="22" data-categories="introduction,giris" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./introduction.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./introduction.html">
-<h3 class="no-anchor listing-title">
-Giriş
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('introduction'); return false;">
-introduction
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('giris'); return false;">
-giris
-</div>
-</div>
-<a href="./introduction.html">
-<div class="listing-description">
-<p>introduction, giriş, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./introduction.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="23" data-categories="granulom" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./granulamatous-inflammation.html"> <p class="card-img-top"><img src="screenshots/necrotisinggranuloma_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./granulamatous-inflammation.html">
-<h3 class="no-anchor listing-title">
-Granülamatöz İnflamasyon
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('granulom'); return false;">
-granulom
-</div>
-</div>
-<a href="./granulamatous-inflammation.html">
-<div class="listing-description">
-<p>granulom, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./granulamatous-inflammation.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="24" data-categories="hamartom" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./hamartoma.html"> <p class="card-img-top"><img src="screenshots/hamartomatouspolyp_screenshot.png" alt="Tam Ekran Görmek İçin Resmi Tıklayın"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./hamartoma.html">
-<h3 class="no-anchor listing-title">
-Hamartom
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('hamartom'); return false;">
-hamartom
-</div>
-</div>
-<a href="./hamartoma.html">
-<div class="listing-description">
-<p>hamartom, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./hamartoma.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="25" data-categories="heterotopi" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./heterotopia.html"> <p class="card-img-top"><img data-src="screenshots/intrapancreaticspleen_screenshot.png" alt="Tam Ekran Görmek İçin Resmi Tıklayın"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./heterotopia.html">
-<h3 class="no-anchor listing-title">
-Heterotopi Ektopi
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('heterotopi'); return false;">
-heterotopi
-</div>
-</div>
-<a href="./heterotopia.html">
-<div class="listing-description">
-<p>heterotopi, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./heterotopia.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="26" data-categories="hipofiz,pituitary" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./pituitary.html"> <p class="card-img-top"><img data-src="screenshots/pituitary-adenoma_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./pituitary.html">
-<h3 class="no-anchor listing-title">
-Hipofiz Adenomu
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('hipofiz'); return false;">
-hipofiz
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('pituitary'); return false;">
-pituitary
-</div>
-</div>
-<a href="./pituitary.html">
-<div class="listing-description">
-<p>hipofiz, pituitary, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./pituitary.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="27" data-categories="hodgkin,lenfoma" data-listing-date-sort="1691337703000" data-listing-file-modified-sort="1691337703979" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./hodgkin.html"> <p class="card-img-top"><img data-src="screenshots/hodgkin_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./hodgkin.html">
-<h3 class="no-anchor listing-title">
-Hodgkin Lenfoma
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('hodgkin'); return false;">
-hodgkin
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('lenfoma'); return false;">
-lenfoma
-</div>
-</div>
-<a href="./hodgkin.html">
-<div class="listing-description">
-<p>hodgkin, lenfoma patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./hodgkin.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="28" data-categories="birikim,accumulations" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./extracellular-accumulations.html"> <p class="card-img-top"><img data-src="screenshots/ochronosis_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./extracellular-accumulations.html">
-<h3 class="no-anchor listing-title">
-Hücre Dışı Birikimler
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('birikim'); return false;">
-birikim
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('accumulations'); return false;">
-accumulations
-</div>
-</div>
-<a href="./extracellular-accumulations.html">
-<div class="listing-description">
-<p>birikim, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./extracellular-accumulations.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="29" data-categories="hasar,tamir,injury,repair,reactive changes,atypia" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./cell-injury.html"> <p class="card-img-top"><img data-src="screenshots/reactive-atypia_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./cell-injury.html">
-<h3 class="no-anchor listing-title">
-Hücre Hasarı
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('hasar'); return false;">
-hasar
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('tamir'); return false;">
-tamir
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('injury'); return false;">
-injury
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('repair'); return false;">
-repair
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('reactive changes'); return false;">
-reactive changes
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('atypia'); return false;">
-atypia
-</div>
-</div>
-<a href="./cell-injury.html">
-<div class="listing-description">
-<p>hasar, tamir, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./cell-injury.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="30" data-categories="birikim,depo hastalığı,depot disease,accumulations" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
-<div class="thumbnail">
-<p><a href="./intracellular-accumulations.html"> <p class="card-img-top"><img data-src="screenshots/cholesterolpolyp_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./intracellular-accumulations.html">
-<h3 class="no-anchor listing-title">
-Hücre İçi Birikimler
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('birikim'); return false;">
-birikim
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('depo hastalığı'); return false;">
-depo hastalığı
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('depot disease'); return false;">
-depot disease
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('accumulations'); return false;">
-accumulations
-</div>
-</div>
-<a href="./intracellular-accumulations.html">
-<div class="listing-description">
-<p>birikim, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./intracellular-accumulations.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="31" data-categories="koleksiyon" data-listing-date-sort="1691337703000" data-listing-file-modified-sort="1691337703979" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./ice.html"> <p class="card-img-top"><img data-src="screenshots/ICE1-WDNET-duodenum-HE_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./ice.html">
-<h3 class="no-anchor listing-title">
-ICE Atlas
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('koleksiyon'); return false;">
-koleksiyon
-</div>
-</div>
-<a href="./ice.html">
-<div class="listing-description">
-<p>koleksiyon, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./ice.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="32" data-categories="ovary,serous,micropapillary" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./gynecologic.html"> <p class="card-img-top"><img data-src="screenshots/ovarianserousmicropapillary_screenshot.png" alt="Tam Ekran Görmek İçin Resmi Tıklayın"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./gynecologic.html">
-<h3 class="no-anchor listing-title">
-Jinekopatoloji
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('ovary'); return false;">
-ovary
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('serous'); return false;">
-serous
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('micropapillary'); return false;">
-micropapillary
-</div>
-</div>
-<a href="./gynecologic.html">
-<div class="listing-description">
-<p>ovarian serous micropapillary carcinoma, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./gynecologic.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="33" data-categories="fibrolamellar-hepatocellular-carcinoma" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./liver.html"> <p class="card-img-top"><img data-src="screenshots/hepatocellularcarcinoma_screenshot.png" alt="Tam Ekran Görmek İçin Resmi Tıklayın"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./liver.html">
-<h3 class="no-anchor listing-title">
-Karaciğer Tümörleri
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fibrolamellar-hepatocellular-carcinoma'); return false;">
-fibrolamellar-hepatocellular-carcinoma
-</div>
-</div>
-<a href="./liver.html">
-<div class="listing-description">
-<p>Karaciğer Hastalıkları Karaciğer Tümörleri</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./liver.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="34" data-categories="karsinogenez" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./carcinogenesis.html"> <p class="card-img-top"><img data-src="screenshots/carcinogenesis_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./carcinogenesis.html">
-<h3 class="no-anchor listing-title">
-Karsinogenez
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('karsinogenez'); return false;">
-karsinogenez
-</div>
-</div>
-<a href="./carcinogenesis.html">
-<div class="listing-description">
-<p>karsinogenez, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./carcinogenesis.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="35" data-categories="yazar,katkı,authors,editors,contributors" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./contributions.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./contributions.html">
-<h3 class="no-anchor listing-title">
-Katkıda Bulunmak İçin
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('yazar'); return false;">
-yazar
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('katkı'); return false;">
-katkı
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('authors'); return false;">
-authors
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('editors'); return false;">
-editors
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('contributors'); return false;">
-contributors
-</div>
-</div>
-<a href="./contributions.html">
-<div class="listing-description">
-<p>yazar, katkı, authors, editors, contributors, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./contributions.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="36" data-categories="exostosis" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./bone.html"> <p class="card-img-top"><img data-src="screenshots/exostosis-1_screenshot.png" alt="Tam Ekran Görmek İçin Resmi Tıklayın"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./bone.html">
-<h3 class="no-anchor listing-title">
-Kemik Tümörleri
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('exostosis'); return false;">
-exostosis
-</div>
-</div>
-<a href="./bone.html">
-<div class="listing-description">
-<p>exostosisEN, exostosisTR, patoloji, atlas, pathology, whole slide image exostosisTR</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./bone.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="37" data-categories="kolon,tumor" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
-<div class="thumbnail">
-<p><a href="./colon.html"> <p class="card-img-top"><img data-src="screenshots/ischemic-colitis_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./colon.html">
-<h3 class="no-anchor listing-title">
-Kolon Patolojisi
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('kolon'); return false;">
-kolon
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('tumor'); return false;">
-tumor
-</div>
-</div>
-<a href="./colon.html">
-<div class="listing-description">
-<p>Kalın barsak benign ve malign hastalıkları</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./colon.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="38" data-categories="kronik,inflamasyon" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./chronic-inflammation.html"> <p class="card-img-top"><img data-src="screenshots/chronicpyelonephritis-1_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./chronic-inflammation.html">
-<h3 class="no-anchor listing-title">
-Kronik İnflamasyon
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('kronik'); return false;">
-kronik
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('inflamasyon'); return false;">
-inflamasyon
-</div>
-</div>
-<a href="./chronic-inflammation.html">
-<div class="listing-description">
-<p>kronik, inflamasyon, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./chronic-inflammation.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="39" data-categories="cholesteatoma" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./ear.html"> <p class="card-img-top"><img data-src="screenshots/cholesteatoma_screenshot.png" alt="Tam Ekran Görmek İçin Resmi Tıklayın"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./ear.html">
-<h3 class="no-anchor listing-title">
-Kulak
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('cholesteatoma'); return false;">
-cholesteatoma
-</div>
-</div>
-<a href="./ear.html">
-<div class="listing-description">
-<p>cholesteatomaEN, cholesteatomaTR, patoloji, atlas, pathology, whole slide image cholesteatomaTR</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./ear.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="40" data-listing-file-modified-sort="1691337704019" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./listing2.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./listing2.html">
-<h3 class="no-anchor listing-title">
-List
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
- <p class="card-img-top"><img src="screenshots/myxoidliposarcoma_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> 
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./listing2.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="41" data-categories="malign" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./malignant.html"> <p class="card-img-top"><img data-src="screenshots/pleomorphism_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./malignant.html">
-<h3 class="no-anchor listing-title">
-Malign Tümör Özellikleri
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('malign'); return false;">
-malign
-</div>
-</div>
-<a href="./malignant.html">
-<div class="listing-description">
-<p>malign, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./malignant.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="42" data-categories="mantar,fungus,enfeksiyon" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./fungi.html"> <p class="card-img-top"><img data-src="screenshots/candidaalbicans_screenshot.png" alt="Tam Ekran Görmek İçin Resmi Tıklayın"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./fungi.html">
-<h3 class="no-anchor listing-title">
-Mantarlar
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('mantar'); return false;">
-mantar
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('fungus'); return false;">
-fungus
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('enfeksiyon'); return false;">
-enfeksiyon
-</div>
-</div>
-<a href="./fungi.html">
-<div class="listing-description">
-<p>mantar, fungus, enfeksiyon, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./fungi.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="43" data-categories="metaplasia" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./metaplasia.html"> <p class="card-img-top"><img data-src="screenshots/metaplasia_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./metaplasia.html">
-<h3 class="no-anchor listing-title">
-Metaplazi
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('metaplasia'); return false;">
-metaplasia
-</div>
-</div>
-<a href="./metaplasia.html">
-<div class="listing-description">
-<p>metaplasia, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./metaplasia.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="44" data-categories="metastaz" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./metastasis.html"> <p class="card-img-top"><img data-src="screenshots/metastaticsarcoma_screenshot.png" alt="Tam Ekran Görmek İçin Resmi Tıklayın"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./metastasis.html">
-<h3 class="no-anchor listing-title">
-Metastaz
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('metastaz'); return false;">
-metastaz
-</div>
-</div>
-<a href="./metastasis.html">
-<div class="listing-description">
-<p>metastaz, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./metastasis.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="45" data-categories="mezotel" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./mesothelial.html"> <p class="card-img-top"><img data-src="screenshots/abdominal-mesothelioma_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./mesothelial.html">
-<h3 class="no-anchor listing-title">
-Mezotel
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('mezotel'); return false;">
-mezotel
-</div>
-</div>
-<a href="./mesothelial.html">
-<div class="listing-description">
-<p>mezotel, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./mesothelial.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="46" data-categories="mide" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./stomach.html"> <p class="card-img-top"><img data-src="screenshots/gastritis-cystica-profunda_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./stomach.html">
-<h3 class="no-anchor listing-title">
-Mide Patolojisi
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('mide'); return false;">
-mide
-</div>
-</div>
-<a href="./stomach.html">
-<div class="listing-description">
-<p>mide, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./stomach.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="47" data-categories="nasopharynx" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./nasopharynx.html"> <p class="card-img-top"><img data-src="screenshots/nasopharynx-nonkeratinizing-scc-HE_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./nasopharynx.html">
-<h3 class="no-anchor listing-title">
-Nazofarenks
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('nasopharynx'); return false;">
-nasopharynx
-</div>
-</div>
-<a href="./nasopharynx.html">
-<div class="listing-description">
-<p>nasopharynx, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./nasopharynx.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="48" data-categories="noroendokrin,NET,WDNET" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./neuroendocrine.html"> <p class="card-img-top"><img data-src="screenshots/neuroendocrine-cytology-giemsa_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./neuroendocrine.html">
-<h3 class="no-anchor listing-title">
-Nöroendokrin Tümörler
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('noroendokrin'); return false;">
-noroendokrin
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('NET'); return false;">
-NET
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('WDNET'); return false;">
-WDNET
-</div>
-</div>
-<a href="./neuroendocrine.html">
-<div class="listing-description">
-<p>noroendokrin, NET, WDNET, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./neuroendocrine.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="49" data-categories="pankreas" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./pancreas.html"> <p class="card-img-top"><img data-src="screenshots/pancreas-undifferentiated-osteoclast_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./pancreas.html">
-<h3 class="no-anchor listing-title">
-Pankreas Tümörleri
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('pankreas'); return false;">
-pankreas
-</div>
-</div>
-<a href="./pancreas.html">
-<div class="listing-description">
-<p>pankreas, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./pancreas.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="50" data-categories="parazit,enfeksiyon" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./parasites.html"> <p class="card-img-top"><img data-src="screenshots/enterobius-vermicularis_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./parasites.html">
-<h3 class="no-anchor listing-title">
-Parazitler
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('parazit'); return false;">
-parazit
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('enfeksiyon'); return false;">
-enfeksiyon
-</div>
-</div>
-<a href="./parasites.html">
-<div class="listing-description">
-<p>parazit, enfeksiyon, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./parasites.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="51" data-listing-file-modified-sort="1691337704019" data-listing-reading-time-sort="6">
-<div class="thumbnail">
-<p><a href="./index.html"> <p class="card-img-top"><img data-src="images/coverEN.png" title="Histopathology Atlas" class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./index.html">
-<h3 class="no-anchor listing-title">
-Patoloji Atlası
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-Türkçe Atlas için tıklayın
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="52" data-categories="wsi,atlas" data-listing-date-sort="1691337705000" data-listing-file-modified-sort="1691337705403" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./wsi.html"> <p class="card-img-top"><img data-src="https://live.staticflickr.com/65535/52497202833_7dcdb50371_z.jpg"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./wsi.html">
-<h3 class="no-anchor listing-title">
-Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('wsi'); return false;">
-wsi
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('atlas'); return false;">
-atlas
-</div>
-</div>
-<a href="./wsi.html">
-<div class="listing-description">
-<p>patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./wsi.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="53" data-categories="technique,teknik,histochemistry,CISH" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./techniques.html"> <p class="card-img-top"><img data-src="screenshots/mucicarmine_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./techniques.html">
-<h3 class="no-anchor listing-title">
-Patolojide Kullanılan Teknikler
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('technique'); return false;">
-technique
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('teknik'); return false;">
-teknik
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('histochemistry'); return false;">
-histochemistry
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('CISH'); return false;">
-CISH
-</div>
-</div>
-<a href="./techniques.html">
-<div class="listing-description">
-<p>technique, teknik, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./techniques.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="54" data-categories="plasenta" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./placenta.html"> <p class="card-img-top"><img data-src="screenshots/chorioamnionitis_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./placenta.html">
-<h3 class="no-anchor listing-title">
-Plasenta
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('plasenta'); return false;">
-plasenta
-</div>
-</div>
-<a href="./placenta.html">
-<div class="listing-description">
-<p>plasenta, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./placenta.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="55" data-categories="prostat" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./prostate.html"> <p class="card-img-top"><img data-src="screenshots/benign-prostate-hyperplasia_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./prostate.html">
-<h3 class="no-anchor listing-title">
-Prostat
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('prostat'); return false;">
-prostat
-</div>
-</div>
-<a href="./prostate.html">
-<div class="listing-description">
-<p>prostat, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./prostate.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="56" data-listing-file-modified-sort="1691337963006" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./references.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./references.html">
-<h3 class="no-anchor listing-title">
-Referanslar
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./references.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="57" data-categories="safra kesesi,gallbladder" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./gallbladder.html"> <p class="card-img-top"><img data-src="screenshots/gallbladder-adenomyoma_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./gallbladder.html">
-<h3 class="no-anchor listing-title">
-Safra Kesesi
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('safra kesesi'); return false;">
-safra kesesi
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('gallbladder'); return false;">
-gallbladder
-</div>
-</div>
-<a href="./gallbladder.html">
-<div class="listing-description">
-<p>safra kesesi, gallbladder, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./gallbladder.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="58" data-categories="SSS,CNS,damar,vasküler" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./cns-vascular.html"> <p class="card-img-top"><img data-src="screenshots/brain-arteriovenous-malformation_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./cns-vascular.html">
-<h3 class="no-anchor listing-title">
-Santral Sinir Sistemi Vasküler Lezyonlar
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('SSS'); return false;">
-SSS
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('CNS'); return false;">
-CNS
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('damar'); return false;">
-damar
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('vasküler'); return false;">
-vasküler
-</div>
-</div>
-<a href="./cns-vascular.html">
-<div class="listing-description">
-<p>SSS, CNS, damar, vasküler, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./cns-vascular.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="59" data-categories="serviks,cervix" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./cervix.html"> <p class="card-img-top"><img data-src="screenshots/cervix-SCC_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./cervix.html">
-<h3 class="no-anchor listing-title">
-Serviks
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('serviks'); return false;">
-serviks
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cervix'); return false;">
-cervix
-</div>
-</div>
-<a href="./cervix.html">
-<div class="listing-description">
-<p>serviks, cervix, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./cervix.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="60" data-categories="hasar,tamir" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./repair.html"> <p class="card-img-top"><img data-src="images/AR-tamir.jpeg"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./repair.html">
-<h3 class="no-anchor listing-title">
-Tamir Mekanizmaları
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('hasar'); return false;">
-hasar
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('tamir'); return false;">
-tamir
-</div>
-</div>
-<a href="./repair.html">
-<div class="listing-description">
-<p>hasar, tamir, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./repair.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="61" data-categories="tukuruk,salivary" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./salivary.html"> <p class="card-img-top"><img data-src="screenshots/mammary-analogue-secretory-carcinoma1_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./salivary.html">
-<h3 class="no-anchor listing-title">
-Tükürük Bezi Tümörleri
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('tukuruk'); return false;">
-tukuruk
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('salivary'); return false;">
-salivary
-</div>
-</div>
-<a href="./salivary.html">
-<div class="listing-description">
-<p>tukuruk, salivary, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./salivary.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="62" data-categories="uriner,urinary" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./urinary.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./urinary.html">
-<h3 class="no-anchor listing-title">
-Uriner Sistem Patolojisi
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('uriner'); return false;">
-uriner
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('urinary'); return false;">
-urinary
-</div>
-</div>
-<a href="./urinary.html">
-<div class="listing-description">
-<p>uriner sistem, urinary system, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./urinary.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="63" data-categories="tumor,ven,vein,venous invasion,venöz invazyon" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./venous-invasion.html"> <p class="card-img-top"><img data-src="screenshots/venous-invasion_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./venous-invasion.html">
-<h3 class="no-anchor listing-title">
-Venöz invazyon
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('tumor'); return false;">
-tumor
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ven'); return false;">
-ven
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('vein'); return false;">
-vein
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('venous invasion'); return false;">
-venous invasion
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('venöz invazyon'); return false;">
-venöz invazyon
-</div>
-</div>
-<a href="./venous-invasion.html">
-<div class="listing-description">
-<p>tumor, ven, vein, venous invasion, venöz invazyon, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./venous-invasion.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="64" data-categories="virus,HSV,molluscum" data-listing-date-sort="1691337705000" data-listing-file-modified-sort="1691337705403" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./virus.html"> <p class="card-img-top"><img data-src="screenshots/herpesesophagitis_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./virus.html">
-<h3 class="no-anchor listing-title">
-Viruslar
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('virus'); return false;">
-virus
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('HSV'); return false;">
-HSV
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('molluscum'); return false;">
-molluscum
-</div>
-</div>
-<a href="./virus.html">
-<div class="listing-description">
-<p>virus, HSV, molluscum, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./virus.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="65" data-categories="yazar,katkı,authors,editors,contributors" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./authors.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./authors.html">
-<h3 class="no-anchor listing-title">
-Yazarlar ve Katkıda Bulunanlar
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('yazar'); return false;">
-yazar
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('katkı'); return false;">
-katkı
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('authors'); return false;">
-authors
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('editors'); return false;">
-editors
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('contributors'); return false;">
-contributors
-</div>
-</div>
-<a href="./authors.html">
-<div class="listing-description">
-<p>Patoloji Atlası Memorial Patoloji Hekim ve Teknikerleri yanısıra diğer kurumlardan koleksiyonlarını paylaşan patologların katkılarıyla hazırlanmaktadır. patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./authors.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="66" data-categories="SSS,CNS,gliom,tumor" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./glioma.html"> <p class="card-img-top"><img data-src="screenshots/high-grade-glioma-squash_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./glioma.html">
-<h3 class="no-anchor listing-title">
-Yüksek Dereceli Gliom Yayma Preparat
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('SSS'); return false;">
-SSS
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('CNS'); return false;">
-CNS
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('gliom'); return false;">
-gliom
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('tumor'); return false;">
-tumor
-</div>
-</div>
-<a href="./glioma.html">
-<div class="listing-description">
-<p>SSS, CNS, gliom, tumor, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./glioma.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="67" data-categories="koleksiyon" data-listing-date-sort="1691337703000" data-listing-file-modified-sort="1691337703979" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="26">
-<div class="thumbnail">
-<p><a href="./hacettepecom.html"> <p class="card-img-top"><img data-src="screenshots/hacettepe-com-case-1_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./hacettepecom.html">
-</a><h3 class="no-anchor listing-title"><a href="./hacettepecom.html">
-</a><a href="https://hacettepepathology.com/">Hacettepe Ayın Vakası - Case Of the Month (COM)</a>
-</h3>
-<div class="listing-subtitle">
-
-</div>
-
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('koleksiyon'); return false;">
-koleksiyon
-</div>
-</div>
-<a href="./hacettepecom.html">
-<div class="listing-description">
-<p>koleksiyon, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./hacettepecom.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="68" data-categories="PDAC,tru-cut,pankreas,pancreas,adenokarsinom,adenocarcinoma" data-listing-date-sort="1691337704000" data-listing-file-modified-sort="1691337704031" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./pdac.html"> <p class="card-img-top"><img data-src="screenshots/PDAC-tru-cut-1_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./pdac.html">
-<h3 class="no-anchor listing-title">
-pankreas, pankreatik duktal adenokarsinom
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('PDAC'); return false;">
-PDAC
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('tru-cut'); return false;">
-tru-cut
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('pankreas'); return false;">
-pankreas
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('pancreas'); return false;">
-pancreas
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('adenokarsinom'); return false;">
-adenokarsinom
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('adenocarcinoma'); return false;">
-adenocarcinoma
-</div>
-</div>
-<a href="./pdac.html">
-<div class="listing-description">
-<p>pancreas pancreatic ductal adenocarcinoma pankreas, pankreatik duktal adenokarsinom</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./pdac.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="69" data-categories="ozofagus" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./esophagus.html"> <p class="card-img-top"><img data-src="screenshots/granular-cell-tumor_screenshot.png" alt="Click for Full Screen WSI"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./esophagus.html">
-<h3 class="no-anchor listing-title">
-Özofagus
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('ozofagus'); return false;">
-ozofagus
-</div>
-</div>
-<a href="./esophagus.html">
-<div class="listing-description">
-<p>ozofagus, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./esophagus.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="70" data-categories="iskemi,nekroz" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./ischemia-necrosis.html"> <p class="card-img-top"><img data-src="screenshots/fat-necrosis_screenshot.png" alt="Tam Ekran Görmek İçin Resmi Tıklayın"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./ischemia-necrosis.html">
-<h3 class="no-anchor listing-title">
-İskemi ve Nekroz
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('iskemi'); return false;">
-iskemi
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('nekroz'); return false;">
-nekroz
-</div>
-</div>
-<a href="./ischemia-necrosis.html">
-<div class="listing-description">
-<p>iskemi, nekroz, patoloji, atlas, pathology, whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./ischemia-necrosis.html">
-<div class="listing-date">
-Aug 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="71" data-categories="yorum,katkı,comment,contribution" data-listing-date-sort="1691337963000" data-listing-file-modified-sort="1691337963006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./comments.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./comments.html">
-<h3 class="no-anchor listing-title">
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('yorum'); return false;">
-yorum
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('katkı'); return false;">
-katkı
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('comment'); return false;">
-comment
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('contribution'); return false;">
-contribution
-</div>
-</div>
-<a href="./comments.html">
-<div class="listing-description">
-<p>yorum comment katkı contribution patoloji atlas pathology whole slide image</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./comments.html">
-<div class="listing-date">
-Aug 6, 2023
+Aug 7, 2023
 </div>
 </a>
 </div>
@@ -3587,6 +1139,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -3655,13 +1234,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -3740,10 +1321,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -3753,8 +1333,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -3767,6 +1356,60 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    if (id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        return container.innerHTML
+      } else {
+        return note.innerHTML;
+      }
+    } else {
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      try { hash = new URL(url).hash; } catch {}
+      const id = hash.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note !== null) {
+        try {
+          const html = processXRef(id, note);
+          instance.setContent(html);
+        } finally {
+          instance.enable();
+          instance.show();
+        }
+      } else {
+        // See if we can fetch this
+        fetch(url.split('#')[0])
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.getElementById(id);
+          if (note !== null) {
+            const html = processXRef(id, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -3810,6 +1453,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -3912,7 +1556,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <script src="https://utteranc.es/client.js" repo="patolojiatlasi/patolojiatlasi.github.io" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
 </script>
-<nav class="page-navigation column-page-right">
+<nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
       <a href="./comments.html" class="pagination-link">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Comments are welcome</span></span>
@@ -3927,7 +1571,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Copyright 2022, patolojiAI</div>   
+    <div class="nav-footer-left">
+<p>Copyright 2022, patolojiAI</p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
@@ -3936,6 +1582,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 

@@ -31,21 +31,34 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/ischemic-colitis_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_ischemic-colitis.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/ischemic-colitis/HE.html",
-  file = "./screenshots/ischemic-colitis_screenshot.png",
+  file = "./screenshots/thumbnail_ischemic-colitis.png",
   delay = 20
 )
 }
 ```
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
 
 ```{asis, echo = (language == "TR")}
 
 **İskemik Kolit**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/ischemic-colitis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ischemic-colitis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ischemic-colitis/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_ischemic-colitis.png){width="25%"}](https://images.patolojiatlasi.com/ischemic-colitis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ischemic-colitis/HE.html)
 
 ```
 
@@ -63,7 +76,7 @@ Mikroskopik görüntüleri inceleyin:
 **Ischemic Colitis**
 
 
-[![Click for Full Screen WSI](./screenshots/ischemic-colitis_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/ischemic-colitis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ischemic-colitis/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_ischemic-colitis.png){width="25%"}](https://images.patolojiatlasi.com/ischemic-colitis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ischemic-colitis/HE.html)
 
 ```
 
@@ -82,26 +95,52 @@ See Microscopy with viewer:
 #### Sesil Polip, Flat (Düz) Tübüler Adenom {#sec-kolon-sesil-polip}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/tubularadenoma-flat1_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_tubularadenoma-flat1.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html",
-  file = "./screenshots/tubularadenoma-flat1_screenshot.png"
+  file = "./screenshots/thumbnail_tubularadenoma-flat1.png"
 )
 }
 ```
 
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/tubularadenoma-flat2_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_tubularadenoma-flat2.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html",
-  file = "./screenshots/tubularadenoma-flat2_screenshot.png",
+  file = "./screenshots/thumbnail_tubularadenoma-flat2.png",
   delay = 20
 )
 }
 ```
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/tubularadenoma-flat1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html)
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_tubularadenoma-flat1.png){width="25%"}](https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html)
 
 
 
@@ -130,7 +169,7 @@ Mikroskopik görüntüleri inceleyin:
 
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/tubularadenoma-flat2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_tubularadenoma-flat2.png){width="25%"}](https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html)
 
 
 
@@ -183,13 +222,26 @@ Mikroskopik görüntüleri inceleyin:
 ##### Microscopy
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/tubular-adenoma-with-stalk_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_tubular-adenoma-with-stalk.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html",
-  file = "./screenshots/tubular-adenoma-with-stalk_screenshot.png"
+  file = "./screenshots/thumbnail_tubular-adenoma-with-stalk.png"
 )
 }
 ```
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
 
 [tubular adenoma with a stalk](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk.jpeg)
 
@@ -198,7 +250,7 @@ webshot2::webshot(delay = 20,
 
 Mikroskopik görüntüleri inceleyin:
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/tubular-adenoma-with-stalk_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_tubular-adenoma-with-stalk.png){width="25%"}](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html)
 
 ```
 
@@ -208,7 +260,7 @@ Mikroskopik görüntüleri inceleyin:
 
 Mikroskopik görüntüleri inceleyin:
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/tubular-adenoma-with-stalk_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_tubular-adenoma-with-stalk.png){width="25%"}](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html)
 
 ```
 
@@ -245,15 +297,28 @@ Mikroskopik görüntüleri inceleyin:
 Mikroskopi
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hyperplasticpolyp-1_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_hyperplasticpolyp-1.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html",
-  file = "./screenshots/hyperplasticpolyp-1_screenshot.png"
+  file = "./screenshots/thumbnail_hyperplasticpolyp-1.png"
 )
 }
 ```
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/hyperplasticpolyp-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html)
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_hyperplasticpolyp-1.png){width="25%"}](https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html)
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -281,15 +346,28 @@ Mikroskopik görüntüleri inceleyin:
 ### Hamartomatöz Polip {#sec-kolon-hamartomatoz-polip}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/hamartomatouspolyp_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_hamartomatouspolyp.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html",
-  file = "./screenshots/hamartomatouspolyp_screenshot.png"
+  file = "./screenshots/thumbnail_hamartomatouspolyp.png"
 )
 }
 ```
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/hamartomatouspolyp_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_hamartomatouspolyp.png){width="25%"}](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
 
 
 
@@ -319,15 +397,28 @@ Mikroskopik görüntüleri inceleyin:
 #### Schwann Cell Hamartoma in a Colon Polyp {#sec-colon-schwann-cell-hamartoma}
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/schwanncellhamartoma_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_schwanncellhamartoma.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html",
-  file = "./screenshots/schwanncellhamartoma_screenshot.png"
+  file = "./screenshots/thumbnail_schwanncellhamartoma.png"
 )
 }
 ```
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/schwanncellhamartoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html)
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_schwanncellhamartoma.png){width="25%"}](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html)
 
 
 
@@ -374,20 +465,33 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/colon-submucosal-lipoma_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_colon-submucosal-lipoma.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html",
-  file = "./screenshots/colon-submucosal-lipoma_screenshot.png"
+  file = "./screenshots/thumbnail_colon-submucosal-lipoma.png"
 )
 }
 ```
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
 
 ```{asis, echo = (language == "TR")}
 
 **Kolon submukozal lipom**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/colon-submucosal-lipoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_colon-submucosal-lipoma.png){width="25%"}](https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html)
 
 ```
 
@@ -405,7 +509,7 @@ Mikroskopik görüntüleri inceleyin:
 **Colon submucosal lipoma**
 
 
-[![Click for Full Screen WSI](./screenshots/colon-submucosal-lipoma_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_colon-submucosal-lipoma.png){width="25%"}](https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html)
 
 ```
 
@@ -437,20 +541,33 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/mucinous-adenocarcinoma-colon_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_mucinous-adenocarcinoma-colon.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html",
-  file = "./screenshots/mucinous-adenocarcinoma-colon_screenshot.png"
+  file = "./screenshots/thumbnail_mucinous-adenocarcinoma-colon.png"
 )
 }
 ```
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
 
 ```{asis, echo = (language == "TR")}
 
 **Tübülövillöz adenom zemininde gelişmiş Müsinöz adenokarsinom, kolon**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/mucinous-adenocarcinoma-colon_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_mucinous-adenocarcinoma-colon.png){width="25%"}](https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html)
 
 ```
 
@@ -469,7 +586,7 @@ Mikroskopik görüntüleri inceleyin:
 **Mucinous adenocarcinoma of colon arising from tubulovillus adenoma**
 
 
-[![Click for Full Screen WSI](./screenshots/mucinous-adenocarcinoma-colon_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_mucinous-adenocarcinoma-colon.png){width="25%"}](https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html)
 
 ```
 
@@ -501,20 +618,33 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/colon-adenocarcinoma-1_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_colon-adenocarcinoma-1.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html",
-  file = "./screenshots/colon-adenocarcinoma-1_screenshot.png"
+  file = "./screenshots/thumbnail_colon-adenocarcinoma-1.png"
 )
 }
 ```
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
 
 ```{asis, echo = (language == "TR")}
 
 **Kolon Adenokarsinomu**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/colon-adenocarcinoma-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_colon-adenocarcinoma-1.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html)
 
 ```
 
@@ -532,7 +662,7 @@ Mikroskopik görüntüleri inceleyin:
 **Colon Adenocarcinoma**
 
 
-[![Click for Full Screen WSI](./screenshots/colon-adenocarcinoma-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_colon-adenocarcinoma-1.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html)
 
 ```
 
@@ -545,20 +675,33 @@ See Microscopy with viewer:
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/colon-adenocarcinoma-2_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_colon-adenocarcinoma-2.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html",
-  file = "./screenshots/colon-adenocarcinoma-2_screenshot.png"
+  file = "./screenshots/thumbnail_colon-adenocarcinoma-2.png"
 )
 }
 ```
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
 
 ```{asis, echo = (language == "TR")}
 
 **Kolon Adenokarsinomu**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/colon-adenocarcinoma-2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_colon-adenocarcinoma-2.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html)
 
 ```
 
@@ -576,7 +719,7 @@ Mikroskopik görüntüleri inceleyin:
 **Colon Adenocarcinoma**
 
 
-[![Click for Full Screen WSI](./screenshots/colon-adenocarcinoma-2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_colon-adenocarcinoma-2.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html)
 
 ```
 
@@ -591,13 +734,27 @@ See Microscopy with viewer:
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/colon-adenocarcinoma-3_screenshot.png")) {
+if (!file.exists("./screenshots/thumbnail_colon-adenocarcinoma-3.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html",
-  file = "./screenshots/colon-adenocarcinoma-3_screenshot.png"
+  file = "./screenshots/thumbnail_colon-adenocarcinoma-3.png"
 )
 }
 ```
+
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -605,7 +762,7 @@ webshot2::webshot(delay = 20,
 **Kolon Adenokarsinomu pT4a**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/colon-adenocarcinoma-3_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_colon-adenocarcinoma-3.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html)
 
 ```
 
@@ -623,7 +780,7 @@ Mikroskopik görüntüleri inceleyin:
 **Colon Adenocarcinoma pT4a**
 
 
-[![Click for Full Screen WSI](./screenshots/colon-adenocarcinoma-3_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html)
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_colon-adenocarcinoma-3.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html)
 
 ```
 
