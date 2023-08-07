@@ -42,7 +42,7 @@ if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
 ```
 
 
-[![Tam Ekran Görmek İçin Resmi
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_hepatocellularcarcinoma.png){width="25%"}](https://images.patolojiatlasi.com/hepatocellularcarcinoma/HCC/viewer_z0.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/hepatocellularcarcinoma/HCC/viewer_z0.html)

@@ -39,7 +39,7 @@ if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
 ```
 
 
-[![Tam Ekran Görmek İçin Resmi
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_metastaticsarcoma.png){width="25%"}](https://images.patolojiatlasi.com/metastaticsarcoma/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/metastaticsarcoma/HE.html)

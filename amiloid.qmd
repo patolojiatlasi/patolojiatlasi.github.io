@@ -57,7 +57,7 @@ if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
 ```{asis, echo = (language == "TR")}
 **Damar duvarlarında amiloid birikimi**
 
-[![Tam Ekran Görmek İçin Resmi
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_crystalviolet.png){width="25%"}](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
@@ -78,7 +78,7 @@ Mikroskopik görüntüleri inceleyin:
 ```{asis, echo = (language == "EN")}
 **Damar duvarlarında amiloid birikimi**
 
-[![Tam Ekran Görmek İçin Resmi
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_crystalviolet.png){width="25%"}](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
@@ -132,7 +132,7 @@ if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
 
 **Congo Red stain for amyloidosis**
 
-[![Tam Ekran Görmek İçin Resmi
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_congored.png){width="25%"}](https://images.patolojiatlasi.com/congored/congored.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/congored/congored.html)
@@ -143,7 +143,7 @@ Tıklayın](https://images.patolojiatlasi.com/congored/congored.html)
 
 **Congo Red stain for amyloidosis**
 
-[![Tam Ekran Görmek İçin Resmi
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_congored.png){width="25%"}](https://images.patolojiatlasi.com/congored/congored.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/congored/congored.html)
