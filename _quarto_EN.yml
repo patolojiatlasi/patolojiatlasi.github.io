@@ -336,7 +336,7 @@ format:
     link-external-filter: '(^(?:http:|https:)\/\/www\.histopathologyatlas\.com\/)|(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/images.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/pathologyatlas\.github\.io\/)|(^(?:http:|https:)\/\/patolojiatlasi\.github\.io\/)'
     citations-hover: true
     footnotes-hover: true
-    number-depth: 3
+    number-depth: 2
     # toc-title: "İçindekiler"
     include-in-header:
       - text: |
@@ -360,10 +360,10 @@ format:
 #
 # #    documentclass: scrreprt
 #     toc: true
-#     toc-depth: 3
+#     toc-depth: 2
 #     toc-title: "İçindekiler"
 #     number-sections: true
-#     number-depth: 3
+#     number-depth: 2
 #     colorlinks: true
 #     highlight-style: github
 #     execute:
@@ -396,10 +396,10 @@ format:
 #     toc: true
 #     section-numbers: true
 #     highlight-style: github
-#     toc-depth: 3
+#     toc-depth: 2
 #     # toc-title: "İçindekiler"
 #     number-sections: true
-#     number-depth: 3
+#     number-depth: 2
 
 
 citation:

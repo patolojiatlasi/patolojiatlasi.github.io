@@ -41,12 +41,12 @@ webshot2::webshot(
 
 
 ```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/myxoidliposarcoma-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/myxoidliposarcoma-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -63,7 +63,7 @@ if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
 **Miksoid Liposarkom**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_myxoidliposarcoma.png){width="25%"}](https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html)
+![](./qrcodes//myxoidliposarcoma-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_myxoidliposarcoma.png){width="25%"}](https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html)
 
 ```
 
@@ -73,7 +73,7 @@ if (!file.exists("./qrcodes/{{stain}}_qrcode.svg")) {
 **Myxoid Liposarcoma**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_myxoidliposarcoma.png){width="25%"}](https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html)
+![](./qrcodes//myxoidliposarcoma-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_myxoidliposarcoma.png){width="25%"}](https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html)
 
 ```
 

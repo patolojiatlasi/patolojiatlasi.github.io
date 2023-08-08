@@ -71,7 +71,7 @@ xfun::gsub_files(files = qmd_pdf_TR_files,
 
 
 xfun::gsub_files(files = qmd_pdf_TR_files,
-                 pattern = '![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"}',
+                 pattern = '\\!\\[\\]\\(\\.\\/qrcodes\\/\\{\\{template\\}\\}-\\{\\{stain\\}\\}_qrcode.svg\\)\\{width="15%"\\}',
                  replacement = "")
 
 
