@@ -27,7 +27,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-## Vakaların Seçilmesi {#sec-}
+## Vakaların Seçilmesi {#sec-vaka-secimi}
 
 ```
 
@@ -35,7 +35,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-### Memorial Patoloji {#sec-}
+### Memorial Patoloji {#sec-memorial-patoloji-vakalari}
 
 ```
 
@@ -43,7 +43,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-### Diğer Kurumlar {#sec-}
+### Diğer Kurumlar ve Özel Koleksiyonlar {#sec-ozel-koleksiyonlar}
 
 ```
 
@@ -52,7 +52,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-## Dijital Görüntülerin Oluşturulması {#sec-}
+## Dijital Görüntülerin Oluşturulması {#sec-dijital-goruntu-olusturma}
 
 ```
 
@@ -60,7 +60,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-### Memorial Patoloji {#sec-}
+### Memorial Patoloji {#sec-memorial-patoloji-dijital-vakalari}
 
 ```
 
@@ -68,7 +68,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-### Diğer Kurumlar {#sec-}
+### Diğer Kurumlar {#sec-atlas-icin-gelen-vakalarin-taranmasi}
 
 ```
 
@@ -76,7 +76,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-### Görüntülerin Taranması {#sec-}
+### Görüntülerin Taranması {#sec-tarama-islemi}
 
 ```
 
@@ -84,7 +84,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-### `svs` dosyalarının elde edilmesi {#sec-}
+### `svs` dosyalarının elde edilmesi {#sec-svs-dosyalarini-elde-etme}
 
 ```
 
@@ -92,7 +92,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-### Anonimleştirme {#sec-}
+### Anonimleştirme {#sec-anonimlestirme}
 
 ```
 
@@ -100,14 +100,14 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-### görüntülerin `html` haline dönüştürülmesi {#sec-}
+### görüntülerin `html` haline dönüştürülmesi {#sec-svs-html-donusumu}
 
 ```
 
 
 ```{asis, echo = (language == "TR")}
 
-### `openseagradon` {#sec-}
+### `openseagradon` {#sec-openseadragon}
 
 ```
 
@@ -117,13 +117,13 @@ https://github.com/pathologyatlas/make-html-WSI
 
 ```{asis, echo = (language == "TR")}
 
-### `vips` kullanarak {#sec-}
+### `vips` kullanarak {#sec-vips}
 
 ```
 
 ```{asis, echo = (language == "TR")}
 
-### `micaia` programı ile {#sec-}
+### `micaia` programı ile {#sec-micaia}
 
 ```
 
@@ -134,7 +134,7 @@ https://github.com/pathologyatlas/make-html-WSI
 
 ```{asis, echo = (language == "TR")}
 
-## `html` düzenlenmesi {#sec-}
+## `html` düzenlenmesi {#sec-html-duzenlenmesi}
 
 ```
 
@@ -143,13 +143,13 @@ https://github.com/pathologyatlas/template
 
 ```{asis, echo = (language == "TR")}
 
-## `html` webe aktarımı {#sec-}
+## `html` webe aktarımı {#sec-web-aktarim}
 
 ```
 
 ```{asis, echo = (language == "TR")}
 
-## patoloji atlası web sayfasının hazırlanması {#sec-}
+## patoloji atlası web sayfasının hazırlanması {#sec-web-sayfasi}
 
 ```
 
@@ -157,33 +157,33 @@ https://github.com/patolojiatlasi/patolojiatlasi.github.io
 
 ```{asis, echo = (language == "TR")}
 
-## Quarto ile çok dilli kitap oluşturma {#sec-}
+## Quarto ile çok dilli kitap oluşturma {#sec-quarto}
 
 ```
 
 ```{asis, echo = (language == "TR")}
 
-## epub, word ve pdf formatları {#sec-}
+## epub, word ve pdf formatları {#sec-quarto-formatlari}
 
 ```
 
 ```{asis, echo = (language == "TR")}
 
-## Apple Books, Google Play Books, LeanPub, GitHub paylaşımları {#sec-}
-
-```
-
-
-```{asis, echo = (language == "TR")}
-
-### GitHub Actions
+## Ekitap (Apple Books, Google Play Books, LeanPub, GitHub) paylaşımları {#sec-ekitap}
 
 ```
 
 
 ```{asis, echo = (language == "TR")}
 
-## GitHub Durumu {#sec-}
+### GitHub Actions {#sec-github-actions}
+
+```
+
+
+```{asis, echo = (language == "TR")}
+
+## GitHub Durumu {#sec-github-status}
 
 ```
 
