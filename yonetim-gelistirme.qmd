@@ -111,6 +111,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
+-   <https://github.com/pathologyatlas/make-html-WSI>
 
 
 https://github.com/pathologyatlas/make-html-WSI
@@ -138,6 +139,7 @@ https://github.com/pathologyatlas/make-html-WSI
 
 ```
 
+
 https://github.com/pathologyatlas/template
 
 
@@ -146,6 +148,9 @@ https://github.com/pathologyatlas/template
 ## `html` webe aktarımı {#sec-web-aktarim}
 
 ```
+
+-   <https://github.com/pathologyatlas/template>
+
 
 ```{asis, echo = (language == "TR")}
 
@@ -173,6 +178,8 @@ https://github.com/patolojiatlasi/patolojiatlasi.github.io
 
 ```
 
+<https://leanpub.com/patolojiatlasi/>
+
 
 ```{asis, echo = (language == "TR")}
 
@@ -188,26 +195,23 @@ https://github.com/patolojiatlasi/patolojiatlasi.github.io
 ```
 
 
-[Patoloji Atlası](https://www.patolojiatlasi.com/)
+- [![Quarto Render Bilingual Book Push Other Repos GitLab](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/Quarto-Render-Bilingual-Book-Push-Other-Repos-GitLab.yml/badge.svg)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/Quarto-Render-Bilingual-Book-Push-Other-Repos-GitLab.yml)
 
-[![Quarto Render Bilingual Book Push Other Repos GitLab](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/Quarto-Render-Bilingual-Book-Push-Other-Repos-GitLab.yml/badge.svg)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/Quarto-Render-Bilingual-Book-Push-Other-Repos-GitLab.yml)
+- [![Lecture Notes Quarto Render Bilingual Book Push Other Repos and GitLab](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/lecture-notes.yml/badge.svg)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/lecture-notes.yml)
 
-[![Lecture Notes Quarto Render Bilingual Book Push Other Repos and GitLab](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/lecture-notes.yml/badge.svg)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/lecture-notes.yml)
+- [![pages-build-deployment](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/pages/pages-build-deployment)
 
-[![pages-build-deployment](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/pages/pages-build-deployment)
-
-[![Post Wordpress Random Cases](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/post-wordpress-random-cases.yml/badge.svg)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/post-wordpress-random-cases.yml)
-
-
-<https://leanpub.com/patolojiatlasi/>
-
-[development & WIP](https://images.patolojiatlasi.com/development.md)
+- [![Post Wordpress Random Cases](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/post-wordpress-random-cases.yml/badge.svg)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/post-wordpress-random-cases.yml)
 
 
 
--   <https://github.com/pathologyatlas/template>
 
--   <https://github.com/pathologyatlas/make-html-WSI>
+
+---
+
+
+
+
 
 contact: info\@patolojinotlari.com
 
@@ -242,8 +246,6 @@ contact: bilgi\@patolojiatlasi.com
 -----
 
 - https://itunesconnect.apple.com/
-
-- https://books.apple.com/us/book/patoloji-atlasi/id6456452218
 
 ![](https://is1-ssl.mzstatic.com/image/thumb/Publication126/v4/27/11/f0/2711f08c-f668-7ce0-0ebd-0df16be30fd6/4d0d1458-db59-460f-bd62-6f10900fb559_cover_image.png/626x0w.webp)
 

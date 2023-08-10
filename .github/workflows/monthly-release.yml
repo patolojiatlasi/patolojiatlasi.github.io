@@ -1,0 +1,194 @@
+name: Monthly Release
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 1 * *'
+
+jobs:
+  monthly-release:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    env:
+      RENV_PATHS_ROOT: ~/.local/share/renv
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+
+      - name: Setup renv
+        uses: r-lib/actions/setup-renv@v2
+
+      - name: Restore R package cache
+        uses: actions/cache@v3
+        with:
+          path: ${{ env.R_LIBS_USER }}
+          key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
+          restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
+
+      - name: Install R dependencies
+        run: |
+            if (!requireNamespace("remotes", quietly = TRUE)) {install.packages("remotes", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
+            remotes::install_deps(dependencies = TRUE)
+            if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv", dependencies = TRUE, quiet = TRUE, verbose = FALSE)
+            renv::restore()
+            if (!requireNamespace("fs", quietly = TRUE)) install.packages("fs", dependencies = TRUE, quiet = TRUE, verbose = FALSE)
+            if (!requireNamespace("quarto", quietly = TRUE)) install.packages("quarto", dependencies = TRUE, quiet = TRUE, verbose = FALSE)
+            if (!requireNamespace("xfun", quietly = TRUE)) {install.packages("xfun", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
+            if (!requireNamespace("readxl", quietly = TRUE)) {install.packages("readxl", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
+            if (!requireNamespace("tinytex", quietly = TRUE)) {install.packages("tinytex, dependencies = TRUE, quiet = TRUE, verbose = FALSE")}
+            if (!tinytex::is_tinytex()) {tinytex::install_tinytex()}
+            saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
+            writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
+        shell: Rscript {0}
+
+      - name: "Prepare Render Epub Word"
+        shell: Rscript {0}
+        run: |
+            fs::file_copy(path = "./_quarto_TR_epub_word.yml", new_path = "./_quarto.yml", overwrite = TRUE)
+            fs::file_copy(path = "./R/languageTR.R", new_path = "./R/language.R", overwrite = TRUE)
+            if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
+            if (dir.exists(paths = "./_freeze_TR_epub_word")) { fs::dir_copy(path = "./_freeze_TR_epub_word", new_path = "./_freeze", overwrite = TRUE) }
+            patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx")
+            patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "TR_epub_word_chapter_qmd")]
+            patolojiatlasi_histopathologyatlas$TR_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_chapter_qmd, ".qmd")
+            patolojiatlasi_histopathologyatlas$TR_epub_word_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_epub_word_chapter_qmd, ".qmd")
+            fs::file_copy(path = patolojiatlasi_histopathologyatlas$TR_chapter_qmd,
+              new_path = patolojiatlasi_histopathologyatlas$TR_epub_word_chapter_qmd,
+              overwrite = TRUE)
+            qmd_epub_word_TR_files <- list.files(path = ".", pattern = "./*_epub_word_TR.qmd", recursive = FALSE)
+            xfun::gsub_files(files = qmd_epub_word_TR_files,
+                 pattern = "panel-tabset",
+                 replacement = "")
+            xfun::gsub_files(files = qmd_epub_word_TR_files,
+                 pattern = ":::::",
+                 replacement = "")
+            xfun::gsub_files(files = qmd_epub_word_TR_files,
+                 pattern = "### WSI - Link",
+                 replacement = "")
+            xfun::gsub_files(files = qmd_epub_word_TR_files,
+                 pattern = "### WSI",
+                 replacement = "")
+            xfun::gsub_files(files = qmd_epub_word_TR_files,
+                 pattern = "### Diagnosis",
+                 replacement = "")
+            xfun::gsub_files(files = qmd_epub_word_TR_files,
+                 pattern = "### Tanı için tıklayın",
+                 replacement = "### Tanı")
+            xfun::gsub_files(files = qmd_epub_word_TR_files,
+                 pattern = '\\!\\[\\]\\(\\.\\/qrcodes\\/\\{\\{template\\}\\}-\\{\\{stain\\}\\}_qrcode.svg\\)\\{width="15%"\\}',
+                 replacement = "")
+
+      - name: "Render Book Epub Word"
+        shell: Rscript {0}
+        run: |
+          quarto::quarto_render(".", as_job = FALSE)
+
+      - name: "Post Render Book Epub Word"
+        shell: Rscript {0}
+        run: |
+          if (dir.exists(paths = "./_freeze")) { fs::dir_copy(path = "./_freeze",
+               new_path = "./_freeze_TR_epub_word",
+               overwrite = TRUE) }
+          if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
+          patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx")
+          patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "TR_epub_word_chapter_qmd")]
+          '%>%' <- magrittr:::`%>%`
+          patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas %>%
+              dplyr::distinct() %>%
+              dplyr::filter(TR_chapter_qmd != TR_epub_word_chapter_qmd)
+          patolojiatlasi_histopathologyatlas$TR_epub_word_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_epub_word_chapter_qmd, ".qmd")
+          fs::file_delete(path = patolojiatlasi_histopathologyatlas$TR_epub_word_chapter_qmd)
+
+      - name: Create Release and Upload PDF
+        uses: gh-actions/create-release@v1.1.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag_name: release-${{ steps.current_date.outputs.date }}
+          release_name: Release for ${{ steps.current_date.outputs.date }}
+          body: |
+            Epub and Word Generated ${{ steps.current_date.outputs.date }}
+          draft: false
+          prerelease: false
+          files: |
+            ./epub_word_TR/Patoloji-Atlasi.docx
+            ./epub_word_TR/Patoloji-Atlasi.epub
+
+      - name: Get current date
+        id: current_date
+        run: echo "::set-output name=date::$(date +'%Y-%m')"
+
+
+# name: Create Release and Upload Epub
+#
+# on:
+#   push:
+#     tags:
+#       - '*'
+#
+# # git tag v0.0.0.1
+# # git push origin v0.0.0.1
+#
+#
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v2
+#
+#       # - name: Set up Python
+#       #   uses: actions/setup-python@v2
+#       #   with:
+#       #     python-version: '3.x'
+#       #
+#       # - name: Install dependencies
+#       #   run: |
+#       #     python -m pip install --upgrade pip
+#       #     if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+#       #
+#       # - name: Generate epub file
+#       #   run: |
+#       #     # Replace with the command you use to generate your epub file
+#       #     python generate_epub.py
+#
+#       - name: Create Release
+#         id: create_release
+#         uses: actions/create-release@v1
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions
+#         with:
+#           tag_name: ${{ github.ref }}
+#           release_name: Release ${{ github.ref }}
+#           draft: false
+#           prerelease: false
+#
+#       - name: Upload Patoloji-Atlasi.epub
+#         id: upload-patoloji-atlasi
+#         uses: actions/upload-release-asset@v1
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#         with:
+#           upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps
+#           asset_path: ./docs/Patoloji-Atlasi.epub
+#           asset_name: Patoloji-Atlasi.epub
+#           asset_content_type: application/epub+zip
+#
+#       - name: Upload Pathology-Atlas.epub
+#         id: upload-pathology-atlas
+#         uses: actions/upload-release-asset@v1
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#         with:
+#           upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps
+#           asset_path: ./EN/Pathology-Atlas.epub
+#           asset_name: Pathology-Atlas.epub
+#           asset_content_type: application/epub+zip

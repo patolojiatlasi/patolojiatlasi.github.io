@@ -66,14 +66,31 @@ if (!file.exists("./qrcodes/mucicarmine_qrcode.svg")) {
 ```
 
 
-
+:::: {.content-hidden when-format="pdf"}
 
 ```{asis, echo = (language == "TR")}
+**Normal kolon mukozasında intrasitoplazmik müsini gösteren mucicarmine (müsikarmen) histokimyası**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_mucicarmine.png){width="25%"}](https://images.patolojiatlasi.com/mucin/mucicarmine.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/mucin/mucicarmine.html)
+
+```
+
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+```{asis, echo = ((language == "TR") & (output_type=="pdf"))}
 **Normal kolon mukozasında intrasitoplazmik müsini gösteren mucicarmine (müsikarmen) histokimyası**
 
 ![](./qrcodes/mucicarmine_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_mucicarmine.png){width="25%"}](https://images.patolojiatlasi.com/mucin/mucicarmine.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/mucin/mucicarmine.html)
 
 ```
+
+
+::::
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
