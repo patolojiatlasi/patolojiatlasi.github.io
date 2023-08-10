@@ -108,21 +108,19 @@ jobs:
           fs::file_delete(path = patolojiatlasi_histopathologyatlas$TR_epub_word_chapter_qmd)
 
 
+
       - name: Get current date
         id: current_date
-        run: echo "::set-output name=date::$(date +'%Y-%m')"
-
+        run: echo "DATE=$(date +'%Y-%m')" >> $GITHUB_ENV
 
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: release-${{ steps.current_date.outputs.date }}
-          # tag_name: ${{ github.ref }}
           release_name: Release for ${{ steps.current_date.outputs.date }}
-          # release_name: Release ${{ github.ref }}
           body: |
             Epub and Word Generated for the month of ${{ steps.current_date.outputs.date }}
           draft: false
@@ -135,8 +133,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps
-          asset_path: ./epub_word_TR/Patoloji-Atlasi.epub
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./_epub_word_TR/Patoloji-Atlasi.epub
           asset_name: Patoloji-Atlasi.epub
           asset_content_type: application/epub+zip
 
