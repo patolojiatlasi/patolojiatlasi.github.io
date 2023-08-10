@@ -119,10 +119,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: release-${{ steps.current_date.outputs.date }}
-          release_name: Release for ${{ steps.current_date.outputs.date }}
+          tag_name: release-${{ env.DATE }}
+          release_name: Release for ${{ env.DATE }}
           body: |
-            Epub and Word Generated for the month of ${{ steps.current_date.outputs.date }}
+            Epub and Word Generated for the month of ${{ env.DATE }}
           draft: false
           prerelease: false
 
