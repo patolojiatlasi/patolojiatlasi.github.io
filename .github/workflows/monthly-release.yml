@@ -108,6 +108,9 @@ jobs:
           fs::file_delete(path = patolojiatlasi_histopathologyatlas$TR_epub_word_chapter_qmd)
 
 
+      - name: Get current date
+        id: current_date
+        run: echo "::set-output name=date::$(date +'%Y-%m')"
 
 
       - name: Create Release
