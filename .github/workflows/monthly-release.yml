@@ -139,6 +139,33 @@ jobs:
           asset_content_type: application/epub+zip
 
 
+      - name: Upload Patoloji-Atlasi.epub
+        id: upload-patoloji-atlasi.epub
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./_epub_word_TR/Patoloji-Atlasi.epub
+          asset_name: Patoloji-Atlasi.epub
+          asset_content_type: application/epub+zip
+
+
+
+      - name: Upload Patoloji-Atlasi.docx
+        id: upload-patoloji-atlasi.docx
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./_epub_word_TR/Patoloji-Atlasi.docx
+          asset_name: Patoloji-Atlasi.docx
+          asset_content_type: application/docx+zip
+
+
+
+
 
 ###
 
