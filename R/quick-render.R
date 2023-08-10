@@ -1,3 +1,10 @@
+source(./R/render_epub_word_TR)
+source(./R/render_pdf_TR)
+source(./R/render_epub_word_EN)
+source(./R/render_pdf_EN)
+
+
+
 # prepare TR ----
 
 fs::file_copy(path = "./_quarto_TR.yml",

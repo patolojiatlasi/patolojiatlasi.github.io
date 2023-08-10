@@ -64,11 +64,10 @@ jobs:
         run: |
           source(./R/render_epub_word_EN)
 
-##
-      # - name: "pdf EN"
-      #   shell: Rscript {0}
-      #   run: |
-      #     source(./R/render_pdf_EN)
+      - name: "pdf EN"
+        shell: Rscript {0}
+        run: |
+          source(./R/render_pdf_EN)
 
 
       - name: Get current date
@@ -90,7 +89,5 @@ jobs:
             ./_pdf_TR/Patoloji-Atlasi.pdf
             ./_epub_word_EN/HistoPatology-Atlas.epub
             ./_epub_word_EN/HistoPatology-Atlas.docx
-
-#
-# ./_pdf_EN/HistoPatology-Atlas.pdf
+            ./_pdf_EN/HistoPatology-Atlas.pdf
 
