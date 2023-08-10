@@ -107,48 +107,64 @@ jobs:
           patolojiatlasi_histopathologyatlas$TR_epub_word_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_epub_word_chapter_qmd, ".qmd")
           fs::file_delete(path = patolojiatlasi_histopathologyatlas$TR_epub_word_chapter_qmd)
 
-      - name: Create Release and Upload PDF
+
+
+
+      - name: Create Release
+        id: create_release
         uses: actions/create-release@v1
-        # env:
-        #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           tag_name: release-${{ steps.current_date.outputs.date }}
+          # tag_name: ${{ github.ref }}
           release_name: Release for ${{ steps.current_date.outputs.date }}
+          # release_name: Release ${{ github.ref }}
           body: |
-            Epub and Word Generated ${{ steps.current_date.outputs.date }}
+            Epub and Word Generated for the month of ${{ steps.current_date.outputs.date }}
           draft: false
           prerelease: false
-          files: |
-            ./epub_word_TR/Patoloji-Atlasi.docx
-            ./epub_word_TR/Patoloji-Atlasi.epub
-
-      - name: Get current date
-        id: current_date
-        run: echo "::set-output name=date::$(date +'%Y-%m')"
 
 
-#       - name: Create Release
-#         id: create_release
-#         uses: actions/create-release@v1
-#         env:
-#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions
-#         with:
-#           tag_name: ${{ github.ref }}
-#           release_name: Release ${{ github.ref }}
-#           draft: false
-#           prerelease: false
+      - name: Upload Patoloji-Atlasi.epub
+        id: upload-patoloji-atlasi
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps
+          asset_path: ./epub_word_TR/Patoloji-Atlasi.epub
+          asset_name: Patoloji-Atlasi.epub
+          asset_content_type: application/epub+zip
+
+
+
+###
+
+      # - name: Create Release and Upload PDF
+      #   uses: actions/create-release@v1
+      #   # env:
+      #   #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     token: ${{ secrets.GITHUB_TOKEN }}
+      #     tag_name: release-${{ steps.current_date.outputs.date }}
+      #     release_name: Release for ${{ steps.current_date.outputs.date }}
+      #     body: |
+      #       Epub and Word Generated for the month of ${{ steps.current_date.outputs.date }}
+      #     draft: false
+      #     prerelease: false
+      #     files: |
+      #       ./epub_word_TR/Patoloji-Atlasi.docx
+      #       ./epub_word_TR/Patoloji-Atlasi.epub
+
+
 #
-#       - name: Upload Patoloji-Atlasi.epub
-#         id: upload-patoloji-atlasi
-#         uses: actions/upload-release-asset@v1
-#         env:
-#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#         with:
-#           upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps
-#           asset_path: ./docs/Patoloji-Atlasi.epub
-#           asset_name: Patoloji-Atlasi.epub
-#           asset_content_type: application/epub+zip
+      # - name: Get current date
+      #   id: current_date
+      #   run: echo "::set-output name=date::$(date +'%Y-%m')"
+
+
+
 #
 #       - name: Upload Pathology-Atlas.epub
 #         id: upload-pathology-atlas
