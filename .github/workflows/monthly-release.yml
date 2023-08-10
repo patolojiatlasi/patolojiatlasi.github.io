@@ -107,61 +107,75 @@ jobs:
           patolojiatlasi_histopathologyatlas$TR_epub_word_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_epub_word_chapter_qmd, ".qmd")
           fs::file_delete(path = patolojiatlasi_histopathologyatlas$TR_epub_word_chapter_qmd)
 
-
-
       - name: Get current date
         id: current_date
         run: echo "DATE=$(date +'%Y-%m')" >> $GITHUB_ENV
 
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Release
+        uses: softprops/action-gh-release@v1
         with:
           tag_name: release-${{ env.DATE }}
           release_name: Release for ${{ env.DATE }}
-          body: |
-            Epub and Word Generated for the month of ${{ env.DATE }}
           draft: false
           prerelease: false
-
-
-      - name: Upload Patoloji-Atlasi.epub
-        id: upload-patoloji-atlasi
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./_epub_word_TR/Patoloji-Atlasi.epub
-          asset_name: Patoloji-Atlasi.epub
-          asset_content_type: application/epub+zip
-
-
-      - name: Upload Patoloji-Atlasi.epub
-        id: upload-patoloji-atlasi-epub
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./_epub_word_TR/Patoloji-Atlasi.epub
-          asset_name: Patoloji-Atlasi.epub
-          asset_content_type: application/epub+zip
+          body: |
+            Epub and Word Generated for the month of ${{ env.DATE }}
+          files: |
+            ./_epub_word_TR/Patoloji-Atlasi.epub
+            ./_epub_word_TR/Patoloji-Atlasi.docx
 
 
 
-      - name: Upload Patoloji-Atlasi.docx
-        id: upload-patoloji-atlasi-docx
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./_epub_word_TR/Patoloji-Atlasi.docx
-          asset_name: Patoloji-Atlasi.docx
-          asset_content_type: application/docx+zip
+#
+      # - name: Create Release
+      #   id: create_release
+      #   uses: actions/create-release@v1
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     tag_name: release-${{ env.DATE }}
+      #     release_name: Release for ${{ env.DATE }}
+      #     body: |
+      #       Epub and Word Generated for the month of ${{ env.DATE }}
+      #     draft: false
+      #     prerelease: false
+
+
+      # - name: Upload Patoloji-Atlasi.epub
+      #   id: upload-patoloji-atlasi
+      #   uses: actions/upload-release-asset@v1
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     upload_url: ${{ steps.create_release.outputs.upload_url }}
+      #     asset_path: ./_epub_word_TR/Patoloji-Atlasi.epub
+      #     asset_name: Patoloji-Atlasi.epub
+      #     asset_content_type: application/epub+zip
+
+
+      # - name: Upload Patoloji-Atlasi.epub
+      #   id: upload-patoloji-atlasi-epub
+      #   uses: actions/upload-release-asset@v1
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     upload_url: ${{ steps.create_release.outputs.upload_url }}
+      #     asset_path: ./_epub_word_TR/Patoloji-Atlasi.epub
+      #     asset_name: Patoloji-Atlasi.epub
+      #     asset_content_type: application/epub+zip
+
+
+
+      # - name: Upload Patoloji-Atlasi.docx
+      #   id: upload-patoloji-atlasi-docx
+      #   uses: actions/upload-release-asset@v1
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     upload_url: ${{ steps.create_release.outputs.upload_url }}
+      #     asset_path: ./_epub_word_TR/Patoloji-Atlasi.docx
+      #     asset_name: Patoloji-Atlasi.docx
+      #     asset_content_type: application/docx+zip
 
 
 
