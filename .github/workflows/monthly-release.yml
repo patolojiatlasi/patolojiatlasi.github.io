@@ -49,216 +49,26 @@ jobs:
             writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
         shell: Rscript {0}
 
-      - name: "Epub Word"
+      - name: "epub word TR"
         shell: Rscript {0}
         run: |
-            fs::file_copy(path = "./_quarto_TR_epub_word.yml", new_path = "./_quarto.yml", overwrite = TRUE)
-            fs::file_copy(path = "./R/languageTR.R", new_path = "./R/language.R", overwrite = TRUE)
-            if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
-            if (dir.exists(paths = "./_freeze_TR_epub_word")) { fs::dir_copy(path = "./_freeze_TR_epub_word", new_path = "./_freeze", overwrite = TRUE) }
-            patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx")
-            patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "TR_epub_word_chapter_qmd")]
-            patolojiatlasi_histopathologyatlas$TR_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_chapter_qmd, ".qmd")
-            patolojiatlasi_histopathologyatlas$TR_epub_word_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_epub_word_chapter_qmd, ".qmd")
-            fs::file_copy(path = patolojiatlasi_histopathologyatlas$TR_chapter_qmd,
-              new_path = patolojiatlasi_histopathologyatlas$TR_epub_word_chapter_qmd,
-              overwrite = TRUE)
-            qmd_epub_word_TR_files <- list.files(path = ".", pattern = "./*_epub_word_TR.qmd", recursive = FALSE)
-            xfun::gsub_files(files = qmd_epub_word_TR_files,
-                 pattern = "panel-tabset",
-                 replacement = "")
-            xfun::gsub_files(files = qmd_epub_word_TR_files,
-                 pattern = ":::::",
-                 replacement = "")
-            xfun::gsub_files(files = qmd_epub_word_TR_files,
-                 pattern = "### WSI - Link",
-                 replacement = "")
-            xfun::gsub_files(files = qmd_epub_word_TR_files,
-                 pattern = "### WSI",
-                 replacement = "")
-            xfun::gsub_files(files = qmd_epub_word_TR_files,
-                 pattern = "### Diagnosis",
-                 replacement = "")
-            xfun::gsub_files(files = qmd_epub_word_TR_files,
-                 pattern = "### Tanı için tıklayın",
-                 replacement = "### Tanı")
-            xfun::gsub_files(files = qmd_epub_word_TR_files,
-                 pattern = '\\!\\[\\]\\(\\.\\/qrcodes\\/\\{\\{template\\}\\}-\\{\\{stain\\}\\}_qrcode.svg\\)\\{width="15%"\\}',
-                 replacement = "")
+          source(./R/render_epub_word_TR)
 
-      - name: "Render Book Epub Word"
+      - name: "pdf TR"
         shell: Rscript {0}
         run: |
-          quarto::quarto_render(".", as_job = FALSE)
+          source(./R/render_pdf_TR)
 
-      - name: "Post Render Book Epub Word"
+      - name: "epub word EN"
         shell: Rscript {0}
         run: |
-          if (dir.exists(paths = "./_freeze")) { fs::dir_copy(path = "./_freeze",
-               new_path = "./_freeze_TR_epub_word",
-               overwrite = TRUE) }
-          if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
-          patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx")
-          patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "TR_epub_word_chapter_qmd")]
-          '%>%' <- magrittr:::`%>%`
-          patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas %>%
-              dplyr::distinct() %>%
-              dplyr::filter(TR_chapter_qmd != TR_epub_word_chapter_qmd)
-          patolojiatlasi_histopathologyatlas$TR_epub_word_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_epub_word_chapter_qmd, ".qmd")
-          fs::file_delete(path = patolojiatlasi_histopathologyatlas$TR_epub_word_chapter_qmd)
+          source(./R/render_epub_word_EN)
 
-
-
-
-
-      - name: "Prepare Render pdf TR"
-        shell: Rscript {0}
-        run: |
-          fs::file_copy(path = "./_quarto_TR_pdf.yml",
-              new_path = "./_quarto.yml",
-              overwrite = TRUE)
-          fs::file_copy(path = "./R/languageTR.R",
-              new_path = "./R/language.R",
-              overwrite = TRUE)
-          if (dir.exists(paths = "./_freeze")) {fs::dir_delete(path = "./_freeze")}
-          if (dir.exists(paths = "./_freeze_TR_pdf")) {
-              fs::dir_copy(path = "./_freeze_TR_pdf",
-               new_path = "./_freeze",
-               overwrite = TRUE) }
-          patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx")
-          patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "TR_pdf_chapter_qmd")]
-          patolojiatlasi_histopathologyatlas$TR_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_chapter_qmd, ".qmd")
-          patolojiatlasi_histopathologyatlas$TR_pdf_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_pdf_chapter_qmd, ".qmd")
-          fs::file_copy(path = patolojiatlasi_histopathologyatlas$TR_chapter_qmd,
-              new_path = patolojiatlasi_histopathologyatlas$TR_pdf_chapter_qmd,
-              overwrite = TRUE)
-          qmd_pdf_TR_files <- list.files(path = ".", pattern = "./*_pdf_TR.qmd", recursive = FALSE)
-          xfun::gsub_files(files = qmd_pdf_TR_files,
-                 pattern = "panel-tabset",
-                 replacement = "")
-          xfun::gsub_files(files = qmd_pdf_TR_files,
-                 pattern = ":::::",
-                 replacement = "")
-          xfun::gsub_files(files = qmd_pdf_TR_files,
-                 pattern = "### WSI - Link",
-                 replacement = "")
-          xfun::gsub_files(files = qmd_pdf_TR_files,
-                 pattern = "### WSI",
-                 replacement = "")
-          xfun::gsub_files(files = qmd_pdf_TR_files,
-                 pattern = "### Diagnosis",
-                 replacement = "")
-          xfun::gsub_files(files = qmd_pdf_TR_files,
-                 pattern = "### Tanı için tıklayın",
-                 replacement = "### Tanı")
-          xfun::gsub_files(files = qmd_pdf_TR_files,
-                 pattern = '\\!\\[\\]\\(\\.\\/qrcodes\\/\\{\\{template\\}\\}-\\{\\{stain\\}\\}_qrcode.svg\\)\\{width="15%"\\}',
-                 replacement = "")
-
-      - name: "Render Book pdf TR"
-        shell: Rscript {0}
-        run: |
-          quarto::quarto_render(".", as_job = FALSE)
-
-      - name: "Post Render Book pdf TR"
-        shell: Rscript {0}
-        run: |
-          if (dir.exists(paths = "./_freeze")) {
-            fs::dir_copy(path = "./_freeze",
-                         new_path = "./_freeze_TR_pdf",
-               overwrite = TRUE) }
-          if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
-          patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx")
-          patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "TR_pdf_chapter_qmd")]
-          '%>%' <- magrittr:::`%>%`
-          patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas %>%
-            dplyr::distinct() %>%
-            dplyr::filter(TR_chapter_qmd != TR_pdf_chapter_qmd)
-            patolojiatlasi_histopathologyatlas$TR_pdf_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_pdf_chapter_qmd, ".qmd")
-            fs::file_delete(path = patolojiatlasi_histopathologyatlas$TR_pdf_chapter_qmd)
-
-
-      - name: "Prepare Render Epub Word EN"
-        shell: Rscript {0}
-        run: |
-          fs::file_copy(path = "./_quarto_EN_epub_word.yml",
-              new_path = "./_quarto.yml",
-              overwrite = TRUE)
-          fs::file_copy(path = "./R/languageEN.R",
-              new_path = "./R/language.R",
-              overwrite = TRUE)
-          if (dir.exists(paths = "./_freeze")) {fs::dir_delete(path = "./_freeze") }
-          if (dir.exists(paths = "./_freeze_EN_epub_word")) {
-          fs::dir_copy(path = "./_freeze_EN_epub_word",
-               new_path = "./_freeze",
-               overwrite = TRUE) }
-          patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx")
-          patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_epub_word_chapter_qmd")]
-          patolojiatlasi_histopathologyatlas$TR_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_chapter_qmd, ".qmd")
-          patolojiatlasi_histopathologyatlas$EN_epub_word_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$EN_epub_word_chapter_qmd, ".qmd")
-          fs::file_copy(path = patolojiatlasi_histopathologyatlas$TR_chapter_qmd,
-              new_path = patolojiatlasi_histopathologyatlas$EN_epub_word_chapter_qmd,
-              overwrite = TRUE)
-          qmd_epub_word_EN_files <- list.files(path = ".", pattern = "./*_epub_word_EN.qmd", recursive = FALSE)
-          xfun::gsub_files(files = qmd_epub_word_EN_files,
-                 pattern = "panel-tabset",
-                 replacement = "")
-          xfun::gsub_files(files = qmd_epub_word_EN_files,
-                 pattern = ":::::",
-                 replacement = "")
-          xfun::gsub_files(files = qmd_epub_word_EN_files,
-                 pattern = "### WSI - Link",
-                 replacement = "")
-          xfun::gsub_files(files = qmd_epub_word_EN_files,
-                 pattern = "### WSI",
-                 replacement = "")
-          xfun::gsub_files(files = qmd_epub_word_EN_files,
-                 pattern = "### Diagnosis",
-                 replacement = "")
-          xfun::gsub_files(files = qmd_epub_word_EN_files,
-                 pattern = "### Click for Diagnosis",
-                 replacement = "### Diagnosis")
-
-      - name: "Render Book Epub Word EN"
-        shell: Rscript {0}
-        run: |
-          quarto::quarto_render(".", as_job = FALSE)
-
-      - name: "Post Render Book Epub Word EN"
-        shell: Rscript {0}
-        run: |
-          if (dir.exists(paths = "./_freeze")) { fs::dir_copy(path = "./_freeze",
-               new_path = "./_freeze_EN_epub_word",
-               overwrite = TRUE) }
-          if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
-          patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx")
-          patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_epub_word_chapter_qmd")]
-          '%>%' <- magrittr:::`%>%`
-          patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas %>%
-            dplyr::distinct() %>%
-            dplyr::filter(TR_chapter_qmd != EN_epub_word_chapter_qmd)
-          patolojiatlasi_histopathologyatlas$EN_epub_word_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$EN_epub_word_chapter_qmd, ".qmd")
-          fs::file_delete(path = patolojiatlasi_histopathologyatlas$EN_epub_word_chapter_qmd)
-
-
-      - name: "Prepare Render pdf EN"
-        shell: Rscript {0}
-        run: |
-
-
-      - name: "Render Book pdf EN"
-        shell: Rscript {0}
-        run: |
-          quarto::quarto_render(".", as_job = FALSE)
-
-
-      - name: "Post Render Book pdf EN"
-        shell: Rscript {0}
-        run: |
-
-
-
-
+##
+      # - name: "pdf EN"
+      #   shell: Rscript {0}
+      #   run: |
+      #     source(./R/render_pdf_EN)
 
 
       - name: Get current date
