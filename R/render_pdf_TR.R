@@ -1,5 +1,5 @@
 
-# prepare TR epub ----
+# prepare TR pdf ----
 
 fs::file_copy(path = "./_quarto_TR_pdf.yml",
               new_path = "./_quarto.yml",
@@ -79,7 +79,7 @@ xfun::gsub_files(files = qmd_pdf_TR_files,
 
 
 
-# render TR epub ----
+# render TR pdf ----
 
 Sys.sleep(2)
 
