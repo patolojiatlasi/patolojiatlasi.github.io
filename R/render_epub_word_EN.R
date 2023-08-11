@@ -72,12 +72,12 @@ xfun::gsub_files(files = qmd_epub_word_EN_files,
 
 # render EN epub ----
 
-Sys.sleep(2)
 
 quarto::quarto_render(".", as_job = FALSE)
 
 
-Sys.sleep(2)
+# post render EN epub ----
+
 
 if (dir.exists(paths = "./_freeze")) {
   fs::dir_copy(path = "./_freeze",

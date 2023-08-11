@@ -1,11 +1,11 @@
-source("./R/render_epub_word_TR.R")
-source("./R/render_pdf_TR.R")
-source("./R/render_epub_word_EN.R")
-source("./R/render_pdf_EN.R")
+# source("./R/render_epub_word_TR.R")
+# source("./R/render_pdf_TR.R")
+# source("./R/render_epub_word_EN.R")
+# source("./R/render_pdf_EN.R")
 
 
 
-# prepare TR ----
+# prepare TR Web ----
 
 fs::file_copy(path = "./_quarto_TR.yml",
               new_path = "./_quarto.yml",
@@ -36,9 +36,14 @@ if (dir.exists(paths = "./public")) {
 
 
 
-# render TR ----
+# render TR Web ----
 
 quarto::quarto_render(".", as_job = FALSE)
+
+
+# post-render TR Web ----
+
+
 
 if (dir.exists(paths = "./_freeze")) {
 fs::dir_copy(path = "./_freeze",

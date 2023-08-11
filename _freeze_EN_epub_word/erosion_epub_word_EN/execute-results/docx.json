@@ -1,0 +1,20 @@
+{
+  "hash": "fa1aa84a7dc468bf2a38d8bedf352955",
+  "result": {
+    "markdown": "---\ndescription: |\n    mukoza, erozyon,\n    patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [mukoza, erozyon]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n# Erosion {#sec-erosion}\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n## Erosion in Gastric Mucosa {#sec-erosion-in-gastric-mucosa}\n:::\n\n\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n**Erosion in Gastric Mucosa**\n\n\n![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width=\"15%\"} [![Click for Full Screen WSI](./screenshots/thumbnail_erosion.png){width=\"25%\"}](https://images.patolojiatlasi.com/erosion/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/erosion/HE.html)\n:::\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "erosion_epub_word_EN_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}

@@ -22,14 +22,14 @@ if (dir.exists(paths = "./_freeze_EN_pdf")) {
 
 patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx")
 
-patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("EN_chapter_qmd", "EN_pdf_chapter_qmd")]
+patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_pdf_chapter_qmd")]
 
-patolojiatlasi_histopathologyatlas$EN_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$EN_chapter_qmd, ".qmd")
+patolojiatlasi_histopathologyatlas$TR_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_chapter_qmd, ".qmd")
 
 patolojiatlasi_histopathologyatlas$EN_pdf_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$EN_pdf_chapter_qmd, ".qmd")
 
 
-fs::file_copy(path = patolojiatlasi_histopathologyatlas$EN_chapter_qmd,
+fs::file_copy(path = patolojiatlasi_histopathologyatlas$TR_chapter_qmd,
               new_path = patolojiatlasi_histopathologyatlas$EN_pdf_chapter_qmd,
               overwrite = TRUE)
 
@@ -57,36 +57,23 @@ xfun::gsub_files(files = qmd_pdf_EN_files,
                  pattern = "### Diagnosis",
                  replacement = "")
 
-# xfun::gsub_files(files = qmd_pdf_EN_files,
-#                  pattern = '::: {.callout-tip collapse="true" appearance="default" icon="true"}',
-#                  replacement = "")
-
 xfun::gsub_files(files = qmd_pdf_EN_files,
                  pattern = "### Click for Diagnosis",
                  replacement = "### Diagnosis")
-
-# xfun::gsub_files(files = qmd_pdf_EN_files,
-#                  pattern = ":::",
-#                  replacement = "")
-
 
 xfun::gsub_files(files = qmd_pdf_EN_files,
                  pattern = '\\!\\[\\]\\(\\.\\/qrcodes\\/\\{\\{template\\}\\}-\\{\\{stain\\}\\}_qrcode.svg\\)\\{width="15%"\\}',
                  replacement = "")
 
 
-
-
-
-
 # render EN pdf ----
-
-Sys.sleep(2)
 
 quarto::quarto_render(".", as_job = FALSE)
 
 
-Sys.sleep(2)
+
+# post render EN pdf ----
+
 
 if (dir.exists(paths = "./_freeze")) {
   fs::dir_copy(path = "./_freeze",
@@ -94,7 +81,7 @@ if (dir.exists(paths = "./_freeze")) {
                overwrite = TRUE)
 }
 
-Sys.sleep(2)
+
 
 if (dir.exists(paths = "./_freeze")) {
   fs::dir_delete(path = "./_freeze")
@@ -105,13 +92,13 @@ if (dir.exists(paths = "./_freeze")) {
 
 patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx")
 
-patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("EN_chapter_qmd", "EN_pdf_chapter_qmd")]
+patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_pdf_chapter_qmd")]
 
 '%>%' <- magrittr:::`%>%`
 
 patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas %>%
   dplyr::distinct() %>%
-  dplyr::filter(EN_chapter_qmd != EN_pdf_chapter_qmd)
+  dplyr::filter(TR_chapter_qmd != EN_pdf_chapter_qmd)
 
 patolojiatlasi_histopathologyatlas$EN_pdf_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$EN_pdf_chapter_qmd, ".qmd")
 

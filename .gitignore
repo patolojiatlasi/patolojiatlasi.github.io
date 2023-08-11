@@ -95,8 +95,8 @@ docs/lecture-notes/img*
 lecture-notes/img-local/
 lecture-notes/img*
 _epub_word_EN
-_freeze_EN_pdf
-_freeze_EN_epub_word
+# _freeze_EN_pdf
+# _freeze_EN_epub_word
 _docs
 .luarc.json
 *.tex
