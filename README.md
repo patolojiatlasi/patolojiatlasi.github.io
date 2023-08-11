@@ -9,3 +9,6 @@
 [![pages-build-deployment](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/pages/pages-build-deployment)
 
 [![Post Wordpress Random Cases](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/post-wordpress-random-cases.yml/badge.svg)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/post-wordpress-random-cases.yml)
+
+[![Monthly Release](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/monthly-release.yml/badge.svg)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/actions/workflows/monthly-release.yml)
+
