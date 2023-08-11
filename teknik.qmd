@@ -105,7 +105,7 @@ Mikroskopik görüntüleri inceleyin:
 
 **Mucicarmine histochemistry stain showing intracellular mucin in a normal colon**
 
-![](./qrcodes/mucicarmine_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_mucicarmine.png){width="25%"}](https://images.patolojiatlasi.com/mucin/mucicarmine.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mucin/mucicarmine.html)
+[![Click for Full Screen WSI](./screenshots/thumbnail_mucicarmine.png){width="25%"}](https://images.patolojiatlasi.com/mucin/mucicarmine.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mucin/mucicarmine.html)
 
 ```
 
@@ -161,7 +161,7 @@ if (!file.exists("./qrcodes/cish_qrcode.svg")) {
 **Chromogenic in situ hybridization (CISH)**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_cish.png){width="25%"}](https://images.patolojiatlasi.com/her2-cish/cish.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/her2-cish/cish.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_cish.png){width="25%"}](https://images.patolojiatlasi.com/her2-cish/cish.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/her2-cish/cish.html)
 
 ```
 
@@ -180,7 +180,7 @@ Mikroskopik görüntüleri inceleyin:
 
 **Chromogenic in situ hybridization (CISH)**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_cish.png){width="25%"}](https://images.patolojiatlasi.com/her2-cish/cish.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/her2-cish/cish.html)
+[![Click for Full Screen WSI](./screenshots/thumbnail_cish.png){width="25%"}](https://images.patolojiatlasi.com/her2-cish/cish.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/her2-cish/cish.html)
 
 ```
 

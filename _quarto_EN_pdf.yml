@@ -95,8 +95,8 @@ book:
       chapters:
         - text: "Techniques Used in Pathology"
           href: techniques_pdf_EN.qmd
-        - text: "Intracellular Accumulations"
-          href: intracellular-accumulations_pdf_EN.qmd
+        # - text: "Intracellular Accumulations"
+        #   href: intracellular-accumulations_pdf_EN.qmd
 #         - text: "Extracellular Accumulations"
 #           href: extracellular-accumulations_pdf_EN.qmd
 #         - text: "Cellular Injury"
