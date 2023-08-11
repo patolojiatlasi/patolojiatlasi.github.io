@@ -1,4 +1,4 @@
-name: Lecture Notes Render
+name: Lecture Notes
 
 on:
   workflow_dispatch:
@@ -107,4 +107,3 @@ jobs:
           destination-repository-name: 'patoloji-ders-notlari'
           user-email: drserdarbalci@gmail.com
           target-branch: main
-          force: true
