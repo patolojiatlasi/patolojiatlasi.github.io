@@ -50,7 +50,6 @@ book:
   cover-image: images/coverTR.png
   site-url: https://patolojiatlasi.com/
 #  repo-url: https://github.com/patolojiatlasi/patolojiatlasi.github.io
-  google-analytics: "G-7BT7Q4FLT9"
   sharing: [twitter, facebook, linkedin]
   search:
     location: navbar
@@ -278,14 +277,6 @@ book:
 #     #   href: listing_pdf_TR.qmd
 #     # - listing2_pdf_TR.qmd
 
-
-# highlight-style: pygments
-
-
-# comments:
-#   hypothesis: true
-#   utterances:
-#     repo: patolojiatlasi/patolojiatlasi.github.io
 
 format:
   pdf:

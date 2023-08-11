@@ -45,7 +45,6 @@ book:
   output-file: "Histopathology-Atlas"
   cover-image: images/Histopathology-Atlas-ebook-cover.png
   site-url: https://histopathologyatlas.com/
-  sharing: [twitter, facebook, linkedin]
   search:
     location: navbar
     type: overlay
@@ -57,8 +56,8 @@ book:
     collapsed-level: 1
     pinned: true
   open-graph:
-    locale: tr_EN
-    site-name: Patoloji Atlası
+    locale: en_EN
+    site-name: Histopathology Atlas
   twitter-card:
     creator: "%40serdarbalci"
     site: "%40patolojinotlari"
@@ -98,24 +97,24 @@ book:
           href: techniques_pdf_EN.qmd
         - text: "Intracellular Accumulations"
           href: intracellular-accumulations_pdf_EN.qmd
-        - text: "Extracellular Accumulations"
-          href: extracellular-accumulations_pdf_EN.qmd
-        - text: "Cellular Injury"
-          href: cell-injury_pdf_EN.qmd
-#         - text: "Hemodynamic Disorders"
-#           href: hemodinamik-bozukluklar_pdf_EN.qmd
-        - text: "Ischemia and Necrosis"
-          href: ischemia-necrosis_pdf_EN.qmd
-        - text: "Congestion"
-          href: congestion_pdf_EN.qmd
-        # - text: "Inflammation"
-        #   href: inflamasyon_pdf_EN.qmd
-        - text: "Amyloidosis"
-          href: amyloidosis_pdf_EN.qmd
-        - text: "Repair Mechanisms"
-          href: repair_pdf_EN.qmd
-        - text: "Erosion"
-          href: erosion_pdf_EN.qmd
+#         - text: "Extracellular Accumulations"
+#           href: extracellular-accumulations_pdf_EN.qmd
+#         - text: "Cellular Injury"
+#           href: cell-injury_pdf_EN.qmd
+# #         - text: "Hemodynamic Disorders"
+# #           href: hemodinamik-bozukluklar_pdf_EN.qmd
+#         - text: "Ischemia and Necrosis"
+#           href: ischemia-necrosis_pdf_EN.qmd
+#         - text: "Congestion"
+#           href: congestion_pdf_EN.qmd
+#         # - text: "Inflammation"
+#         #   href: inflamasyon_pdf_EN.qmd
+#         - text: "Amyloidosis"
+#           href: amyloidosis_pdf_EN.qmd
+#         - text: "Repair Mechanisms"
+#           href: repair_pdf_EN.qmd
+#         - text: "Erosion"
+#           href: erosion_pdf_EN.qmd
     # - part: "Inflamation"
     #   chapters:
     #     - text: "Acute inflammation"
