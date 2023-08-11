@@ -52,22 +52,22 @@ jobs:
       - name: "epub word TR"
         shell: Rscript {0}
         run: |
-          source(./R/render_epub_word_TR)
+          source("./R/render_epub_word_TR.R")
 
       - name: "pdf TR"
         shell: Rscript {0}
         run: |
-          source(./R/render_pdf_TR)
+          source("./R/render_pdf_TR.R")
 
       - name: "epub word EN"
         shell: Rscript {0}
         run: |
-          source(./R/render_epub_word_EN)
+          source("./R/render_epub_word_EN.R")
 
       - name: "pdf EN"
         shell: Rscript {0}
         run: |
-          source(./R/render_pdf_EN)
+          source("./R/render_pdf_EN.R")
 
 
       - name: Get current date
@@ -82,7 +82,7 @@ jobs:
           draft: false
           prerelease: false
           body: |
-            Epub and Word Generated for the month of ${{ env.DATE }}
+            Epub, Word & Pdf generated for the month of ${{ env.DATE }}
           files: |
             ./_epub_word_TR/Patoloji-Atlasi.epub
             ./_epub_word_TR/Patoloji-Atlasi.docx

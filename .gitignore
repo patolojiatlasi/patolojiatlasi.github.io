@@ -83,7 +83,7 @@ Patoloji-Atlasi_KC
 _epub_word_TR
 # _freeze_TR_epub_word
 _freeze_TR_others
-_freeze_TR_pdf
+# _freeze_TR_pdf
 _freeze
 _EN
 _pdf_TR
@@ -95,6 +95,8 @@ docs/lecture-notes/img*
 lecture-notes/img-local/
 lecture-notes/img*
 _epub_word_EN
+_freeze_EN_pdf
 _freeze_EN_epub_word
 _docs
 .luarc.json
+*.tex
