@@ -77,38 +77,7 @@ jobs:
       - name: "Render lecture-notes"
         shell: Rscript {0}
         run: |
-          # filestorender <- list.files(path = "./lecture-notes", pattern = ".qmd", full.names = TRUE, recursive = TRUE)
-          # purrr::map(.x = filestorender, .f= quarto::quarto_render, output_format = 'gfm')
-          # purrr::map(.x = filestorender, .f= quarto::quarto_render, output_format = 'revealjs')
-          # purrr::map(.x = filestorender, .f= quarto::quarto_render, output_format = 'all')
-          quarto::quarto_render(input = "./lecture-notes/*.qmd", as_job = FALSE, quiet = TRUE)
-          # quarto::quarto_render(input = filestorender, output_format = 'gfm', as_job = FALSE, quiet = TRUE)
-          # quarto::quarto_render(input = filestorender, output_format = 'revealjs', as_job = FALSE, quiet = TRUE)
-          # quarto::quarto_render(input = filestorender, output_format = 'all', as_job = FALSE)
-
-      - name: "Prepare lecture-notes readme"
-        shell: Rscript {0}
-        run: |
-          md_files <- list.files(path = './lecture-notes/', pattern = '*\\.md', full.names = FALSE, recursive = TRUE)
-          md_files <- md_files[!grepl(pattern = 'README', x = md_files)]
-          md_files <- gsub(pattern = '\\.md', replacement = '', x = md_files)
-          md_files_list <- purrr::map(.x = md_files, .f = ~ paste0('[', .x , '](./', .x , '.md)\n'))
-          readme_text <- paste0(unlist(md_files_list), collapse = "\n\n")
-          timestamp_text <- as.character(Sys.time())
-          readme_text <- paste0('# Patoloji Ders Notları \n\n', timestamp_text, '\n\n', readme_text)
-          if (file.exists('./lecture-notes/README.md')){fs::file_delete(path = './lecture-notes/README.md')}
-          writeLines(text = readme_text, con = './lecture-notes/README.md')
-
-
-#       - name: "Prepare patoloji-ders-notlari"
-#         shell: Rscript {0}
-#         run: |
-#           # if (dir.exists(paths = "./lecture-notes")) { fs::dir_copy(path = "./lecture-notes", new_path = "./ders-notlari", overwrite = TRUE) }
-#           # filestorender2 <- list.files(path = "./ders-notlari", pattern = ".qmd", full.names = TRUE, recursive = TRUE)
-#           # quarto::quarto_render(input = filestorender2, output_format = 'revealjs', as_job = FALSE, quiet = TRUE)
-#           # md_files2 <- list.files(path = './lecture-notes', pattern = '\\.md', full.names = TRUE)
-#           # fs::file_copy(path = md_files2, new_path = "./ders-notlari/", overwrite = TRUE)
-
+            source("./R/update-lecture-notes.R")
 
 
       - name: Commit results to main branch
@@ -127,13 +96,15 @@ jobs:
           # WORKFLOW_GITHUB_TOKEN
           force: true
 
+
       - name: Pushes to patoloji-ders-notlari
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-directory: 'lecture-notes'
+          source-directory: 'ders-notlari'
           destination-github-username: 'sbalci'
           destination-repository-name: 'patoloji-ders-notlari'
           user-email: drserdarbalci@gmail.com
           target-branch: main
+          force: true

@@ -8,7 +8,7 @@
 <link href="lab2_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="lab2_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="lab2_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.340">
+  <meta name="generator" content="quarto-1.4.274">
 
   <meta name="author" content="Serdar Balcı">
   <title>Title</title>
@@ -30,7 +30,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="lab2_files/libs/revealjs/dist/theme/quarto.css" id="theme">
+  <link rel="stylesheet" href="lab2_files/libs/revealjs/dist/theme/quarto.css">
   <link href="lab2_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="lab2_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="lab2_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -156,7 +156,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -374,7 +375,7 @@ Serdar Balcı
 <h1>LIQUEFACTIVE NECROSIS, BRAIN</h1>
 <p><span style="color:#3333FF"> <strong>CASEOUS NECROSIS, TB</strong> </span></p>
 
-<img data-src="img%5CLab20.png" class="r-stretch"><p><span style="color:#3333FF"> <strong>FIBRINOID NECROSIS</strong> </span></p>
+<img data-src="./img-local/Lab20.png" class="r-stretch"><p><span style="color:#3333FF"> <strong>FIBRINOID NECROSIS</strong> </span></p>
 </section>
 
 <section id="wet-gangrene" class="title-slide slide level1 center">
@@ -414,7 +415,6 @@ Serdar Balcı
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -675,10 +675,9 @@ Serdar Balcı
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn) {
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -688,8 +687,17 @@ Serdar Balcı
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
