@@ -1,7 +1,11 @@
 # list.files(path = "./_lecture-notes", pattern = ".qmd")
 
+# Render Lecture Notes ----
+
 quarto::quarto_render(input = "./_lecture-notes/*.qmd", as_job = FALSE, quiet = TRUE)
 
+
+# Prepare md files ----
 
 if (file.exists('./_lecture-notes/README.md')){fs::file_delete(path = './_lecture-notes/README.md')}
 md_files <- list.files(path = './_lecture-notes/', pattern = '*\\.md', full.names = FALSE, recursive = TRUE)
@@ -21,6 +25,9 @@ if (dir.exists(paths = "./ders-notlari")) {
 
 dir.create("./ders-notlari")
 
+
+# Move md files ----
+
 fs::file_move(path = paste0("./_lecture-notes/", md_files), new_path = paste0("./ders-notlari/", md_files))
 
 
@@ -28,6 +35,8 @@ if (!dir.exists(paths = "./ders-sunumlari")) {
   fs::dir_create(path = "./ders-sunumlari")
 }
 
+
+# prepare presentations ----
 
 lecturenames <- list.files(path = "./_lecture-notes", pattern = ".qmd")
 lecturenames <- gsub(pattern = '\\.qmd', replacement = '', x = lecturenames)
@@ -43,6 +52,9 @@ selected_lectures$lecture_files <- paste0(selected_lectures$lectures, "_files")
 
 lecture_html <- selected_lectures$lecture_html
 lecture_files <- selected_lectures$lecture_files
+
+
+# move presenttaions ----
 
 fs::file_move(path = paste0("./_lecture-notes/", lecture_html), new_path = paste0("./ders-sunumlari/", lecture_html))
 fs::file_move(path = paste0("./_lecture-notes/", lecture_files), new_path = paste0("./ders-sunumlari/", lecture_files))
