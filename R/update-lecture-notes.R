@@ -21,5 +21,30 @@ if (dir.exists(paths = "./ders-notlari")) {
 
 dir.create("./ders-notlari")
 
-fs::file_copy(path = paste0("./_lecture-notes/", md_files), new_path = paste0("./ders-notlari/", md_files))
+fs::file_move(path = paste0("./_lecture-notes/", md_files), new_path = paste0("./ders-notlari/", md_files))
+
+
+if (!dir.exists(paths = "./ders-sunumlari")) {
+  fs::dir_create(path = "./ders-sunumlari")
+}
+
+
+lecturenames <- list.files(path = "./_lecture-notes", pattern = ".qmd")
+lecturenames <- gsub(pattern = '\\.qmd', replacement = '', x = lecturenames)
+
+lecturenames <- data.frame(lectures = lecturenames)
+
+rio::export(x = lecturenames, file = "./_lecture-notes/lecturenames.xlsx")
+
+selected_lectures <- readxl::read_excel("./_lecture-notes/selected_lectures.xlsx")
+
+selected_lectures$lecture_html <- paste0(selected_lectures$lectures, ".html")
+selected_lectures$lecture_files <- paste0(selected_lectures$lectures, "_files")
+
+lecture_html <- selected_lectures$lecture_html
+lecture_files <- selected_lectures$lecture_files
+
+fs::file_move(path = paste0("./_lecture-notes/", lecture_html), new_path = paste0("./ders-sunumlari/", lecture_html))
+fs::file_move(path = paste0("./_lecture-notes/", lecture_files), new_path = paste0("./ders-sunumlari/", lecture_files))
+
 

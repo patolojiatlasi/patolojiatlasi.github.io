@@ -1,3 +1,0 @@
-# Ateroskleroz Patolojisi
-Serdar Balcı
-

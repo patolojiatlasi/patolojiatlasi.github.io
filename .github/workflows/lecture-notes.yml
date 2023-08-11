@@ -107,3 +107,15 @@ jobs:
           destination-repository-name: 'patoloji-ders-notlari'
           user-email: drserdarbalci@gmail.com
           target-branch: main
+
+
+      - name: Pushes to patoloji-ders-sunumlari
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'ders-sunumlari'
+          destination-github-username: 'sbalci'
+          destination-repository-name: 'patoloji-ders-sunumlari'
+          user-email: drserdarbalci@gmail.com
+          target-branch: main
