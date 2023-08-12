@@ -194,8 +194,11 @@ jobs:
           if (dir.exists(paths = "./_freeze_TR")) { fs::dir_copy(path = "./_freeze_TR", new_path = "./_freeze", overwrite = TRUE) }
           fs::file_copy(path = "./_quarto_TR.yml", new_path = "./_quarto.yml", overwrite = TRUE)
           fs::file_copy(path = "./R/languageTR.R", new_path = "./R/language.R", overwrite = TRUE)
+          if (dir.exists(paths = "./docs")) { fs::dir_delete(path = "./docs") }
+          if (dir.exists(paths = "./public")) { fs::dir_delete(path = "./public") }
           # render TR
           quarto::quarto_render(".", as_job = FALSE)
+          # post render TR
           if (dir.exists(paths = "./_freeze")) { fs::dir_copy(path = "./_freeze", new_path = "./_freeze_TR", overwrite = TRUE) }
           if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
           if (dir.exists(paths = "./_docs/public")) { fs::dir_delete(path = "./_docs/public") }

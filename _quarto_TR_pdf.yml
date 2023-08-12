@@ -5,12 +5,8 @@ project:
     - "CITATION.cff"
     - images
     - screenshots
+    - qrcodes
     - files
-    - "script.js"
-    - "webpages.js"
-    - "webpages.txt"
-    - "headerTR.html"
-
 
 execute:
   freeze: auto

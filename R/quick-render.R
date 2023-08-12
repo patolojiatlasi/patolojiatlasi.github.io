@@ -1,5 +1,5 @@
 # source("./R/render_epub_word_TR.R")
-# source("./R/render_pdf_TR.R")
+source("./R/render_pdf_TR.R")
 # source("./R/render_epub_word_EN.R")
 # source("./R/render_pdf_EN.R")
 
@@ -42,7 +42,6 @@ quarto::quarto_render(".", as_job = FALSE)
 
 
 # post-render TR Web ----
-
 
 
 if (dir.exists(paths = "./_freeze")) {
@@ -93,9 +92,18 @@ if (dir.exists(paths = "./_docs")) {
   fs::dir_delete(path = "./_docs")
 }
 
+if (file.exists("./public/CNAME")){fs::file_delete(path = "./public/CNAME")}
+
+if (dir.exists(paths = "./docs/EN/lecture-notes")) { fs::dir_delete(path = "./docs/EN/lecture-notes") }
+
+if (dir.exists(paths = "./docs/EN")) { fs::dir_delete(path = "./docs/EN") }
+
+if (dir.exists(paths = "./docs/public")) {fs::dir_delete(path = "./docs/public")}
 
 folders_to_delete <- fs::dir_ls(path = ".",
                                 recurse = FALSE, regexp = "_files$")
 
 fs::dir_delete(folders_to_delete)
+
+
 
