@@ -1,4 +1,3 @@
-
 # prepare TR pdf ----
 
 fs::file_copy(path = "./_quarto_TR_pdf.yml",
@@ -36,6 +35,12 @@ fs::file_copy(path = patolojiatlasi_histopathologyatlas$TR_chapter_qmd,
 
 qmd_pdf_TR_files <- list.files(path = ".", pattern = "./*_pdf_TR.qmd", recursive = FALSE)
 
+subchapter_files <- list.files(path = "./_subchapters", pattern = "_pdf_TR.qmd", recursive = FALSE)
+
+subchapter_files <- paste0("./_subchapters/", subchapter_files)
+
+qmd_pdf_TR_files <- c(qmd_pdf_TR_files, subchapter_files)
+
 xfun::gsub_files(files = qmd_pdf_TR_files,
                  pattern = "panel-tabset",
                  replacement = "")
@@ -57,27 +62,18 @@ xfun::gsub_files(files = qmd_pdf_TR_files,
                  pattern = "### Diagnosis",
                  replacement = "")
 
-# xfun::gsub_files(files = qmd_pdf_TR_files,
-#                  pattern = '::: {.callout-tip collapse="true" appearance="default" icon="true"}',
-#                  replacement = "")
-
 xfun::gsub_files(files = qmd_pdf_TR_files,
                  pattern = "### Tanı için tıklayın",
                  replacement = "### Tanı")
-
-# xfun::gsub_files(files = qmd_pdf_TR_files,
-#                  pattern = ":::",
-#                  replacement = "")
-
 
 xfun::gsub_files(files = qmd_pdf_TR_files,
                  pattern = '\\!\\[\\]\\(\\.\\/qrcodes\\/\\{\\{template\\}\\}-\\{\\{stain\\}\\}_qrcode.svg\\)\\{width="15%"\\}',
                  replacement = "")
 
-
-
-
-
+xfun::gsub_files(files = "./bs_pdf_EN.qmd",
+                 pattern = ".qmd",
+                 replacement = "_pdf_EN.qmd"
+                 )
 
 # render TR pdf ----
 

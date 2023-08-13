@@ -72,6 +72,10 @@ jobs:
       #   env:
       #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
 
+
+      - uses: r-lib/actions/setup-r-dependencies@v2
+
+
       - name: Restore R package cache
         uses: actions/cache@v3
         with:

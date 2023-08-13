@@ -9,6 +9,7 @@ filters:
   - collapse-social-embeds
 ---
 
+# Feature Trials {.unnumbered .unlisted}
 
 🔬🔬🔬🔬 UNDER CONSTRUCTION 🛠⛔️⚠️🔩
 
@@ -17,6 +18,19 @@ filters:
 source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
+
+
+```{comment}
+
+
+{{< include ./deneme1/BS1.qmd >}}
+
+
+{{< include ./deneme1/BS2.qmd >}}
+
+```
+
+
 
 
 
@@ -34,7 +48,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
----
+
 
 
 ### Examples for future uploads

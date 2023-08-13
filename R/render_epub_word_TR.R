@@ -36,6 +36,13 @@ fs::file_copy(path = patolojiatlasi_histopathologyatlas$TR_chapter_qmd,
 
 qmd_epub_word_TR_files <- list.files(path = ".", pattern = "./*_epub_word_TR.qmd", recursive = FALSE)
 
+subchapter_files <- list.files(path = "./_subchapters", pattern = "*.qmd", recursive = FALSE)
+
+subchapter_files <- paste0("./_subchapters/", subchapter_files)
+
+qmd_epub_word_TR_files <- c(qmd_epub_word_TR_files, subchapter_files)
+
+
 xfun::gsub_files(files = qmd_epub_word_TR_files,
                  pattern = "panel-tabset",
                  replacement = "")
@@ -76,6 +83,10 @@ xfun::gsub_files(files = qmd_epub_word_TR_files,
                  pattern = '\\!\\[\\]\\(\\.\\/qrcodes\\/\\{\\{template\\}\\}-\\{\\{stain\\}\\}_qrcode.svg\\)\\{width="15%"\\}',
                  replacement = "")
 
+xfun::gsub_files(files = "./bs_epub_word_TR.qmd",
+                 pattern = ".qmd",
+                 replacement = "_epub_word_TR.qmd"
+)
 
 
 

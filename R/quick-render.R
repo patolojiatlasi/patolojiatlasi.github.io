@@ -1,5 +1,5 @@
 # source("./R/render_epub_word_TR.R")
-source("./R/render_pdf_TR.R")
+# source("./R/render_pdf_TR.R")
 # source("./R/render_epub_word_EN.R")
 # source("./R/render_pdf_EN.R")
 
@@ -81,6 +81,67 @@ if (dir.exists(paths = "./_docs/_lecture-notes")) {
 
 if (dir.exists(paths = "./_docs/lecture-notes")) {
   fs::dir_delete(path = "./_docs/lecture-notes")
+}
+
+if (dir.exists(paths = "./_docs/_pdf_TR")) {
+  fs::dir_delete(path = "./_docs/_pdf_TR")
+}
+
+if (dir.exists(paths = "./_docs/_pdf_EN")) {
+  fs::dir_delete(path = "./_docs/_pdf_EN")
+}
+
+if (dir.exists(paths = "./_docs/_epub_word_EN")) {
+  fs::dir_delete(path = "./_docs/_epub_word_EN")
+}
+
+
+if (dir.exists(paths = "./_docs/_epub_word_TR")) {
+  fs::dir_delete(path = "./_docs/_epub_word_TR")
+}
+
+if (dir.exists(paths = "./_docs/_freeze_EN")) {
+  fs::dir_delete(path = "./_docs/_freeze_EN")
+}
+
+if (dir.exists(paths = "./_docs/_freeze_EN_epub_word")) {
+  fs::dir_delete(path = "./_docs/_freeze_EN_epub_word")
+}
+
+if (dir.exists(paths = "./_docs/_freeze_EN_pdf")) {
+  fs::dir_delete(path = "./_docs/_freeze_EN_pdf")
+}
+
+if (dir.exists(paths = "./_docs/_freeze_TR")) {
+  fs::dir_delete(path = "./_docs/_freeze_TR")
+}
+
+if (dir.exists(paths = "./_docs/_freeze_TR_epub_word")) {
+  fs::dir_delete(path = "./_docs/_freeze_TR_epub_word")
+}
+
+if (dir.exists(paths = "./_docs/_freeze_TR_others")) {
+  fs::dir_delete(path = "./_docs/_freeze_TR_others")
+}
+
+if (dir.exists(paths = "./_docs/_freeze_TR_pdf")) {
+  fs::dir_delete(path = "./_docs/_freeze_TR_pdf")
+}
+
+if (dir.exists(paths = "./_docs/_lecture1")) {
+  fs::dir_delete(path = "./_docs/_lecture1")
+}
+
+if (dir.exists(paths = "./_docs/_others_TR")) {
+  fs::dir_delete(path = "./_docs/_others_TR")
+}
+
+if (dir.exists(paths = "./_docs/_pdf_EN")) {
+  fs::dir_delete(path = "./_docs/_pdf_EN")
+}
+
+if (dir.exists(paths = "./_docs/_pdf_TR")) {
+  fs::dir_delete(path = "./_docs/_pdf_TR")
 }
 
 
