@@ -18,6 +18,31 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
 ```{asis, echo = (language == "TR")}
 ## Crohn Hastalığı Kolonoskopik Biyopsi {#sec-crohn-colonoscopic-biopsy }
 ```
@@ -53,6 +78,31 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 }
 ```
 
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
 
 
 ```{asis, echo = (language == "TR")}
@@ -121,6 +171,31 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
 ```{asis, echo = (language == "TR")}
 
 **Crohn Hastalığı**
@@ -184,6 +259,31 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 }
 ```
 
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
 
 
 ```{asis, echo = (language == "TR")}
@@ -251,6 +351,31 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
 ```{asis, echo = (language == "TR")}
 
 **Crohn Hastalığı**
@@ -314,6 +439,31 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 }
 ```
 
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
 
 
 ```{asis, echo = (language == "TR")}

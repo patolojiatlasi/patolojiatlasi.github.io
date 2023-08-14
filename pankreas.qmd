@@ -11,6 +11,31 @@ source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
 ```{asis, echo = (language == "TR")}
 # Pankreas Tümörleri {#sec-pankreas-tumorleri} 
 ```
@@ -42,6 +67,31 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 ```
 
 
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
 ```{asis, echo = (language == "TR")}
 
 ## pankreas, müsinöz adenokarsinom zemininde gelişmiş, osteoklast benzeri dev hücreler içeren indiferansiye karsinom {#sec-pankreas-musinous-adenokarsinom-osteoklast} 
@@ -53,6 +103,31 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 ## pancreas, undifferentiated carcinoma with osteoclast-like giant cells, arising within a mucinous adenocarcinoma {#sec-pancreas-musinous-adenocarcinoma-osteoclastic} 
 
 ```
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
 
 ```{asis, echo = (language == "TR")}
 

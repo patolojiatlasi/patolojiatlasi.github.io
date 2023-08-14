@@ -17,6 +17,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
+
+
+
+
+
+
 ```{asis, echo = (language == "TR")}
 # Yazarlar ve Katkıda Bulunanlar {#sec-yazarlar-katkida-bulunanlar .unnumbered}
 ```
@@ -25,6 +31,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```{asis, echo = (language == "EN")}
 # Authors and Contributors {#sec-authors-contributors .unnumbered}
 ```
+
+
+
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -37,6 +49,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 -   [Serdar Balcı](https://www.serdarbalci.com)
+
+
+
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -87,6 +105,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 -   [Fadime Gül Salman](https://www.memorial.com.tr/doktorlar/fadime-gul-salman)
 
 
+
+
+
+
+
+
 ```{asis, echo = (language == "TR")}
 [**Memorial Patoloji**](https://patoloji.memorial.com.tr/) **Teknikerleri**
 ```
@@ -109,6 +133,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 -   Baha Erdoğan
 
 -   Talha Akbaş
+
+
+
+
+
+
 
 
 

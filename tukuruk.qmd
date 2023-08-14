@@ -13,6 +13,31 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
 ```{asis, echo = (language == "TR")}
 
 # Tükürük Bezi Tümörleri {#sec-tukuruk-bezi-tumorleri} 
@@ -31,6 +56,31 @@ source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
 
 ```{asis, echo = (language == "TR")}
 
@@ -99,6 +149,31 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 ### HE - 1
 
 
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
 ```{asis, echo = (language == "TR")}
 
 ![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_mammary-analogue-secretory-carcinoma1.png){width="25%"}](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html)
@@ -135,6 +210,31 @@ See Microscopy with viewer:
 
 
 ### HE - 2
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
 
 
 ```{asis, echo = (language == "TR")}
@@ -236,6 +336,31 @@ asis, echo = (language == "TR")
 
 
 
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
 
 
 ```{asis, echo = (language == "TR")}

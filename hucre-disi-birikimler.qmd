@@ -15,6 +15,31 @@ source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
 ```{asis, echo = (language == "TR")}
 ## Okronozis {#sec-okronozis} 
 ```
@@ -43,6 +68,31 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
                        show = FALSE)
 }
 ```
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
 
 
 ```{asis, echo = (language == "TR")}

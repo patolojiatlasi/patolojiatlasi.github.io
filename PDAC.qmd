@@ -17,6 +17,31 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
 ```{asis, echo = (language == "TR")}
 ## pankreas, pankreatik duktal adenokarsinom {#sec-PDAC-tru-cut}
 ```
@@ -114,6 +139,31 @@ knitr::include_graphics("./screenshots/thumbnail_PDAC-tru-cut-1.png")
 ### HE - 1
 
 
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
 ```{asis, echo = (language == "TR")}
 
 **pankreas, pankreatik duktal adenokarsinom**
@@ -159,6 +209,31 @@ See Microscopy with viewer:
 ### HE - 2
 
 
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
 ```{asis, echo = (language == "TR")}
 
 **pankreas, pankreatik duktal adenokarsinom**
@@ -202,6 +277,31 @@ See Microscopy with viewer:
 
 
 ### HE - 3
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
 
 ```{asis, echo = (language == "TR")}
 

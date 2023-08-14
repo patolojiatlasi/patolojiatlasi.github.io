@@ -76,6 +76,31 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
 ```{asis, echo = (language == "TR")}
 
 **metastatik karsinom, omentum**
@@ -93,6 +118,31 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 ```
 
 
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
 
 
 
@@ -129,6 +179,31 @@ See Microscopy with viewer:
 
 
 ### Diagnosis
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
 
 
 ```{asis, echo = (language == "TR")}

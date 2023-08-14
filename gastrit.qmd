@@ -16,6 +16,31 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
 ```{asis, echo = (language == "TR")}
 
 # Gastrit {#sec-gastrit}
@@ -27,6 +52,31 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 # Gastritis {#sec-gastritis}
 
 ```
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
 
 
 ```{asis, echo = (language == "TR")}
@@ -170,6 +220,31 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
 ```{asis, echo = (language == "TR")}
 
 **lenfositik gastrit**
@@ -221,6 +296,31 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 ### HE
 
 
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
 ```{asis, echo = (language == "TR")}
 
 **lenfositik gastrit HE**
@@ -256,6 +356,31 @@ See Microscopy with viewer:
 ```
 
 ### CD3
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
 
 
 ```{asis, echo = (language == "TR")}
@@ -296,6 +421,31 @@ Mikroskopik görüntüleri inceleyin:
 ```
 
 ### CD8
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
 
 
 ```{asis, echo = (language == "TR")}
@@ -340,6 +490,31 @@ Mikroskopik görüntüleri inceleyin:
 
 ### CD20
 
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
 
 
 ```{asis, echo = (language == "TR")}

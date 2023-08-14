@@ -13,6 +13,31 @@ source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
 ```{asis, echo = (language == "TR")}
 # Granülamatöz İnflamasyon {#sec-granulamatoz-inflamasyon}
 ```
@@ -20,6 +45,31 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```{asis, echo = (language == "EN")}
 # Granulomatous Inflammation {#sec-granulamatous-inflammation}
 ```
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
 
 ```{asis, echo = (language == "TR")}
 ## Nekrotizan Granülamatöz İnflamasyon {#sec-nekrotizan-granulamatoz-inflamasyon}
@@ -48,6 +98,31 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
                        show = FALSE)
 }
 ```
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
 
 
 ```{asis, echo = (language == "TR")}

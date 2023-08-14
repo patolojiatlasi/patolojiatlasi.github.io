@@ -11,6 +11,31 @@ source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
 ```{asis, echo = (language == "TR")}
 # Mide Patolojisi {#sec-mide-patolojisi} 
 ```
@@ -18,6 +43,31 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```{asis, echo = (language == "EN")}
 # Pathology of Stomach {#sec-pathology-of-stomach} 
 ```
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
 
 ```{asis, echo = (language == "TR")}
 ## Gastritis Cystica Profunda {#sec-gastritis-cystica-profunda} 
@@ -47,6 +97,31 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
                        show = FALSE)
 }
 ```
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
 
 
 ```{asis, echo = (language == "TR")}

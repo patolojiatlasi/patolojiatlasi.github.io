@@ -12,6 +12,9 @@ source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
+
+
+
 ```{asis, echo = (language == "TR")}
 # Adipoz Doku {#sec-adipoz-doku}
 ```
@@ -19,6 +22,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```{asis, echo = (language == "EN")}
 # Adipose Tissue {#sec-adipose-tissue}
 ```
+
+
+
+
 
 ```{asis, echo = (language == "TR")}
 ## Miksoid Liposarkom {#sec-miksoid-liposarkom}
@@ -55,17 +62,58 @@ if (!file.exists("./qrcodes/myxoidliposarcoma-HE_qrcode.svg")) {
 
 ::::: panel-tabset
 
-#### HE
+### HE
+
+:::: {.content-hidden when-format="pdf"}
+
 
 
 ```{asis, echo = (language == "TR")}
 
 **Miksoid Liposarkom**
 
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_myxoidliposarcoma.png){width="25%"}](https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html)
+
+```
+
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Miksoid Liposarkom**
 
 ![](./qrcodes//myxoidliposarcoma-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_myxoidliposarcoma.png){width="25%"}](https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html)
 
 ```
+
+
+
+
+::::
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Myxoid Liposarcoma**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_myxoidliposarcoma.png){width="25%"}](https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
 
 
 ```{asis, echo = (language == "EN")}
@@ -77,9 +125,12 @@ if (!file.exists("./qrcodes/myxoidliposarcoma-HE_qrcode.svg")) {
 
 ```
 
+::::
 
 
-#### WSI
+
+
+### WSI
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 

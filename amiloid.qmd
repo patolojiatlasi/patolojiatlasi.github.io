@@ -12,6 +12,10 @@ source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
+
+
+
+
 ```{asis, echo = (language == "TR")}
 # Amiloidoz (Amiloid Birikimi) {#sec-amiloidoz}
 ```
@@ -19,6 +23,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```{asis, echo = (language == "EN")}
 # Amiloidoz (Amiloid Birikimi) {#sec-amiloidoz}
 ```
+
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -42,26 +50,103 @@ webshot2::webshot(
 
 
 ```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/amyloid-crystalviolet_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/amyloid/crystalviolet.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/amyloid-crystalviolet_qrcode.svg",
                        show = FALSE)
 }
 ```
 
 
 
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
 ```{asis, echo = (language == "TR")}
 **Damar duvarlarında amiloid birikimi**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+[![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_crystalviolet.png){width="25%"}](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
 ```
+
+::::
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+**Damar duvarlarında amiloid birikimi**
+
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_crystalviolet.png){width="25%"}](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
+```
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+**Damar duvarlarında amiloid birikimi**
+
+![](./qrcodes/amyloid-crystalviolet_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_crystalviolet.png){width="25%"}](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
+```
+
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+**Damar duvarlarında amiloid birikimi**
+
+![](./qrcodes/amyloid-crystalviolet_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_crystalviolet.png){width="25%"}](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
+```
+
+
+
+
+::::
+
+
+
+
+
+
+
+
+### WSI
+
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -75,14 +160,6 @@ Mikroskopik görüntüleri inceleyin:
 
 
 
-```{asis, echo = (language == "EN")}
-**Damar duvarlarında amiloid birikimi**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/thumbnail_crystalviolet.png){width="25%"}](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
-[Tam Ekran Görmek İçin Resmi
-Tıklayın](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
-```
 
 
 ```{asis, echo = ((language=="EN") & (output_type=="html"))}
@@ -93,6 +170,12 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 ```
+
+
+:::::
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -116,40 +199,124 @@ webshot2::webshot(
 
 
 ```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/congored-congored_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/congored/congored.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/congored-congored_qrcode.svg",
                        show = FALSE)
 }
 ```
 
 
 
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
 ```{asis, echo = (language == "TR")}
 
 **Congo Red stain for amyloidosis**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+[![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_congored.png){width="25%"}](https://images.patolojiatlasi.com/congored/congored.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/congored/congored.html)
 
 ```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**Congo Red stain for amyloidosis**
+
+![](./qrcodes/congored-congored_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_congored.png){width="25%"}](https://images.patolojiatlasi.com/congored/congored.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/congored/congored.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
 
 ```{asis, echo = (language == "EN")}
 
 **Congo Red stain for amyloidosis**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+[![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_congored.png){width="25%"}](https://images.patolojiatlasi.com/congored/congored.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/congored/congored.html)
 
 ```
 
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Congo Red stain for amyloidosis**
+
+![](./qrcodes/congored-congored_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_congored.png){width="25%"}](https://images.patolojiatlasi.com/congored/congored.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/congored/congored.html)
+
+```
+
+
+
+
+
+::::
+  
+  
+
+
+
+
+
+### WSI
 
 
 ```{asis, echo = ((language == "TR") & (output_type=="html"))} 
@@ -173,23 +340,22 @@ See Microscopy with viewer:
 ```
 
 
-```{asis, echo = (language == "TR")}
-## Kongo Kırmızısı Çift Kırıcılık {#sec-amiloidoz-kongo-kirmizisi-cift-kiricilik}
-```
 
+### Video
 
-```{asis, echo = (language == "EN")}
-## Congo Red Birefringence {#sec-amiloidoz-congo-red-birefringence}
-```
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+**Kongo Kırmızısı Çift Kırıcılık**
 
 {{< video https://www.youtube.com/embed/U9glkfQLTm4 >}}
 
 ```
 
 ```{asis, echo = ((language=="TR") & (output_type!="html"))}
+
+**Kongo Kırmızısı Çift Kırıcılık**
 
 [https://www.youtube.com/watch?v=U9glkfQLTm4](https://www.youtube.com/watch?v=U9glkfQLTm4)
 
@@ -198,11 +364,15 @@ See Microscopy with viewer:
 
 ```{asis, echo = ((language=="EN") & (output_type=="html"))}
 
+**Congo Red Birefringence**
+
 {{< video https://www.youtube.com/embed/U9glkfQLTm4 >}}
 
 ```
 
 ```{asis, echo = ((language=="EN") & (output_type!="html"))}
+
+**Congo Red Birefringence**
 
 [https://www.youtube.com/watch?v=U9glkfQLTm4](https://www.youtube.com/watch?v=U9glkfQLTm4)
 
@@ -240,3 +410,8 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 [![Video İçin Tıklayın](./screenshots/thumbnail_congored_video.png){width="25%"}](https://www.youtube.com/watch?v=U9glkfQLTm4) [Video İçin Tıklayın](https://www.youtube.com/watch?v=U9glkfQLTm4)
 
 ```
+
+
+:::::
+
+

@@ -60,6 +60,38 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+::::: panel-tabset
+
+
+### WSI
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")}
+
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_herpesesophagitis.png){width="25%"}](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
 ```{asis, echo = (language == "TR")}
 
 ![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
@@ -70,6 +102,41 @@ Tıklayın](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.ht
 ```
 
 
+
+
+
+::::
+
+
+
+### WSI - Link
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_herpesesophagitis.png){width="25%"}](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html)
+[Click for Full Screen WSI](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html)
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
 ```{asis, echo = (language == "EN")}
 
 ![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_herpesesophagitis.png){width="25%"}](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html)
@@ -78,6 +145,12 @@ Tıklayın](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.ht
 ```
 
 
+
+
+::::
+
+
+### WSI
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -101,10 +174,17 @@ Mikroskopik görüntüleri inceleyin:
 ```
 
 
+:::::
+
+
+
 ```{r language molluscum-contagiosum, echo=FALSE, include=TRUE}
 source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
+
+
+
 
 ```{asis, echo = (language == "TR")}
 ## Molluscum contagiosum {#sec-molluscum-contagiosum} 
@@ -136,6 +216,14 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 ```
 
 
+
+::::: panel-tabset
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 **Molluscum contagiosum**
@@ -146,13 +234,34 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 ```
 
 
-```{asis, echo = ((language=="TR") & (output_type=="html"))}
+::::
 
-Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Molluscum contagiosum**
+
+
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_molluscum-contagiosum.png){width="25%"}](https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html)
 
 ```
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
 
 ```{asis, echo = (language == "EN")}
 
@@ -163,6 +272,50 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Molluscum contagiosum**
+
+
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_molluscum-contagiosum.png){width="25%"}](https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html)
+
+```
+
+
+
+
+
+::::
+  
+  
+  
+
+
+
+
+
+### WSI - Link
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 See Microscopy with viewer: 
@@ -170,3 +323,5 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
+
+:::::

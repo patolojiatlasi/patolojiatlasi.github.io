@@ -14,6 +14,8 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
+
+
 ```{asis, echo = (language == "TR")}
 
 # Akut İnflamasyon {#sec-akut-inflamasyon}
@@ -25,6 +27,8 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 # Acute Inflammation {#sec-acute-inflammation}
 
 ```
+
+
 
 ```{asis, echo = (language == "TR")}
 
@@ -68,6 +72,33 @@ if (!file.exists("./qrcodes/acute-appendicitis-HE_qrcode.svg")) {
 
 
 
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**Akut appendisit**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_acute-appendicitis.png){width="25%"}](https://images.patolojiatlasi.com/acute-appendicitis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/acute-appendicitis/HE.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
 ```{asis, echo = (language == "TR")}
 
 **Akut appendisit**
@@ -75,6 +106,41 @@ if (!file.exists("./qrcodes/acute-appendicitis-HE_qrcode.svg")) {
 ![](./qrcodes/acute-appendicitis-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_acute-appendicitis.png){width="25%"}](https://images.patolojiatlasi.com/acute-appendicitis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/acute-appendicitis/HE.html)
 
 ```
+
+
+
+
+::::
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Acute appendicitis**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_acute-appendicitis.png){width="25%"}](https://images.patolojiatlasi.com/acute-appendicitis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/acute-appendicitis/HE.html)
+
+```
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
 
 
 
@@ -89,7 +155,14 @@ if (!file.exists("./qrcodes/acute-appendicitis-HE_qrcode.svg")) {
 
 
 
+
+
+::::
+
+
+
 ### WSI
+
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 

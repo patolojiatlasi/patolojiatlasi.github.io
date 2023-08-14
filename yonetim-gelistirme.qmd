@@ -17,7 +17,6 @@ source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
-
 ```{asis, echo = (language == "TR")}
 
 # Patoloji Atlası Nasıl Geliştiriliyor? {#sec-atlas-gelistirme .unnumbered}
@@ -33,11 +32,23 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
+
+
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 ### Memorial Patoloji {#sec-memorial-patoloji-vakalari}
 
 ```
+
+
+
+
+
+
 
 
 
@@ -50,11 +61,23 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
+
+
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 ## Dijital Görüntülerin Oluşturulması {#sec-dijital-goruntu-olusturma}
 
 ```
+
+
+
+
+
+
 
 
 
@@ -66,11 +89,23 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
+
+
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 ### Diğer Kurumlar {#sec-atlas-icin-gelen-vakalarin-taranmasi}
 
 ```
+
+
+
+
+
+
 
 
 
@@ -82,11 +117,23 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
+
+
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 ### `svs` dosyalarının elde edilmesi {#sec-svs-dosyalarini-elde-etme}
 
 ```
+
+
+
+
+
+
 
 
 
@@ -98,11 +145,23 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
+
+
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 ### görüntülerin `html` haline dönüştürülmesi {#sec-svs-html-donusumu}
 
 ```
+
+
+
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -116,17 +175,35 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 https://github.com/pathologyatlas/make-html-WSI
 
+
+
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 ### `vips` kullanarak {#sec-vips}
 
 ```
 
+
+
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 ### `micaia` programı ile {#sec-micaia}
 
 ```
+
+
+
+
+
+
 
 
 
@@ -143,6 +220,12 @@ https://github.com/pathologyatlas/make-html-WSI
 https://github.com/pathologyatlas/template
 
 
+
+
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 ## `html` webe aktarımı {#sec-web-aktarim}
@@ -150,6 +233,12 @@ https://github.com/pathologyatlas/template
 ```
 
 -   <https://github.com/pathologyatlas/template>
+
+
+
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -160,17 +249,35 @@ https://github.com/pathologyatlas/template
 
 https://github.com/patolojiatlasi/patolojiatlasi.github.io
 
+
+
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 ## Quarto ile çok dilli kitap oluşturma {#sec-quarto}
 
 ```
 
+
+
+
+
+
+
 ```{asis, echo = (language == "TR")}
 
 ## epub, word ve pdf formatları {#sec-quarto-formatlari}
 
 ```
+
+
+
+
+
+
 
 ```{asis, echo = (language == "TR")}
 
@@ -179,6 +286,12 @@ https://github.com/patolojiatlasi/patolojiatlasi.github.io
 ```
 
 <https://leanpub.com/patolojiatlasi/>
+
+
+
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -205,6 +318,12 @@ https://github.com/patolojiatlasi/patolojiatlasi.github.io
 
 
 <https://github.com/patolojiatlasi/patolojiatlasi.github.io/releases/latest/download/Patoloji-Atlasi.docx>
+
+
+
+
+
+
 
 
 

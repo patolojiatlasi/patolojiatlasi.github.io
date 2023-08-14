@@ -366,6 +366,31 @@ This increases the buffer size to 500 MB. Adjust the size as needed for your spe
 
 
 
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
 ```{asis, echo = (language == "TR")}
 # Patoloji Atlası {#sec-patoloji-atlasi .unnumbered}
 ```
@@ -373,6 +398,31 @@ This increases the buffer size to 500 MB. Adjust the size as needed for your spe
 ```{asis, echo = (language == "EN")}
 # Histopathology Atlas {#sec-histopathology-atlas .unnumbered}
 ```
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
 
 
 ```{asis, echo = (language == "TR")}
