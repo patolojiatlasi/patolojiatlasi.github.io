@@ -15,68 +15,31 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
 ```{asis, echo = (language == "TR")}
-# Granülamatöz İnflamasyon {#sec-granulamatoz-inflamasyon}
+# Granülom {#sec-granulom}
 ```
 
 ```{asis, echo = (language == "EN")}
-# Granulomatous Inflammation {#sec-granulamatous-inflammation}
+# Granuloma {#sec-granuloma}
 ```
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
 
 
 ```{asis, echo = (language == "TR")}
-## Nekrotizan Granülamatöz İnflamasyon {#sec-nekrotizan-granulamatoz-inflamasyon}
+## Granülomatöz İnflamasyon {#sec-granulomatoz-inflamasyon}
 ```
 
 ```{asis, echo = (language == "EN")}
-## Necrotising Granulomatous Inflammation {#sec-necrotising-granulamatoz-inflamation}
+## Granulomatous Inflammation {#sec-granulomatous-inflammation}
+```
+
+
+
+```{asis, echo = (language == "TR")}
+### Nekrotizan Granülamatöz İnflamasyon {#sec-nekrotizan-granulamatoz-inflamasyon}
+```
+
+```{asis, echo = (language == "EN")}
+### Necrotising Granulomatous Inflammation {#sec-necrotising-granulamatoz-inflamation}
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}

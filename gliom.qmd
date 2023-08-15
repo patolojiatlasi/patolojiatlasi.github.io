@@ -15,35 +15,21 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
 ```{asis, echo = (language == "TR")}
-# Yüksek Dereceli Gliom Yayma Preparat {#sec-yuksek-dereceli-gliom-yayma-preparat}
+# Gliom {#sec-gliom}
 ```
 
 ```{asis, echo = (language == "EN")}
-# High Grade Glioma Squash Slide {#sec-high-grade-glioma-squash-slide}
+# Glioma {#sec-glioma}
+```
+
+
+```{asis, echo = (language == "TR")}
+## Yüksek Dereceli Gliom Yayma Preparat {#sec-yuksek-dereceli-gliom-yayma-preparat}
+```
+
+```{asis, echo = (language == "EN")}
+## High Grade Glioma Squash Slide {#sec-high-grade-glioma-squash-slide}
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}

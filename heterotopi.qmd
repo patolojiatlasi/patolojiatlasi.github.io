@@ -15,9 +15,17 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
+```{asis, echo = (language == "TR")}
+
 # Heterotopi Ektopi {#sec-heterotopi-ektopi}
+```
+
+```{asis, echo = (language == "TR")}
 
 ## Intrapancreatic Spleen, Heterotopia {#sec-intrapancreatic-spleen}
+```
+
+
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/thumbnail_intrapancreaticspleen.png")) {

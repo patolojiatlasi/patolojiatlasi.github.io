@@ -9,15 +9,31 @@ bibliography: references.bib
 ---
 
 ```{r language hamartom, echo=FALSE, include=TRUE}
-
 source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
-
 ```
 
-# Hamartom {#sec-hamartom}
 
+```{asis, echo = (language == "TR")}
+# Hamartom {#sec-hamartom}
+```
+
+
+
+```{asis, echo = (language == "EN")}
+# Hamartom {#sec-hamartom}
+```
+
+
+
+```{asis, echo = (language == "TR")}
 ## Hamartomatöz Polip {#sec-hamartomatoz-polip}
+```
+
+```{asis, echo = (language == "EN")}
+## Hamartomatöz Polip {#sec-hamartomatoz-polip}
+```
+
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/thumbnail_hamartomatouspolyp.png")) {
