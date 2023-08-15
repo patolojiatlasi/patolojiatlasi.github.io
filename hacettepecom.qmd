@@ -15,30 +15,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
 ```{asis, echo = (language == "TR")}
 **Bu sayfadaki vakalar Doç. Dr. Kemal Kösemehmetoğlu ve Doç. Dr. Arzu Sağlam'ın koleksiyonundan alınmıştır.**
 ```
@@ -47,29 +23,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 **These cases are from the collections of Kemal Kosemehmetoglu MD and Arzu Saglam MD.**
 ```
 
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
 
 
 ```{asis, echo = (language == "TR")}
@@ -81,33 +34,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
-
-
-
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
 
 
 ```{asis, echo = (language == "TR")}

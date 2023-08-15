@@ -1,3 +1,6 @@
+
+```{comment}
+
 ---
 description: |
     infections, isospora, patoloji, atlas, pathology, whole slide image
@@ -7,6 +10,7 @@ page-layout: full
 bibliography: references.bib
 ---
 
+```
 
 ```{r language BS32, echo=FALSE, include=TRUE}
 source("./R/language.R")
