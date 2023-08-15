@@ -16,29 +16,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
 ```{asis, echo = (language == "TR")}
 
 **Bu sayfadaki vakalar Doç. Dr. Burcu Saka'nın koleksiyonundan alınmıştır.**
@@ -51,31 +28,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
-
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
 
 
 ```{asis, echo = (language == "TR")}

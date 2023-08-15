@@ -33,12 +33,12 @@ webshot2::webshot(delay = 20,
 
 
 ```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/venous-invasion-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/venous-invasion/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/venous-invasion-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -59,8 +59,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 **Venöz invazyon**
 
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_venous-invasion.png){width="25%"}](https://images.patolojiatlasi.com/venous-invasion/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/venous-invasion/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_venous-invasion.png){width="25%"}](https://images.patolojiatlasi.com/venous-invasion/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/venous-invasion/HE.html)
 
 ```
 
@@ -82,7 +81,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **Venöz invazyon**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_venous-invasion.png){width="25%"}](https://images.patolojiatlasi.com/venous-invasion/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/venous-invasion/HE.html)
+![](./qrcodes/venous-invasion-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_venous-invasion.png){width="25%"}](https://images.patolojiatlasi.com/venous-invasion/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/venous-invasion/HE.html)
 
 ```
 
@@ -101,7 +100,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **Venous invasion**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_venous-invasion.png){width="25%"}](https://images.patolojiatlasi.com/venous-invasion/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/venous-invasion/HE.html)
+![](./qrcodes/venous-invasion-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_venous-invasion.png){width="25%"}](https://images.patolojiatlasi.com/venous-invasion/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/venous-invasion/HE.html)
 
 ```
 
@@ -124,7 +123,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **Venous invasion**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_venous-invasion.png){width="25%"}](https://images.patolojiatlasi.com/venous-invasion/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/venous-invasion/HE.html)
+![](./qrcodes/venous-invasion-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_venous-invasion.png){width="25%"}](https://images.patolojiatlasi.com/venous-invasion/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/venous-invasion/HE.html)
 
 ```
 

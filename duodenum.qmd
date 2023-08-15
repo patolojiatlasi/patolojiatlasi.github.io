@@ -14,29 +14,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
 ```{asis, echo = (language == "TR")}
 # Duodenum {#sec-duodenum}
 ```
@@ -44,30 +21,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```{asis, echo = (language == "EN")}
 # Duodenum {#sec-duodenum}
 ```
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
 
 
 ```{asis, echo = (language == "TR")}
@@ -93,23 +46,36 @@ webshot2::webshot(
 ```
 
 ```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/celiac-disease-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/celiac-disease/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/celiac-disease-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
 
 
 
+::::: panel-tabset
+
+
+### WSI - Link
 
 
 :::: {.content-hidden when-format="pdf"}
 
 
+
+
+```{asis, echo = (language == "TR")}
+
+**Çölyak Hastalığı**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_celiac-disease.png){width="25%"}](https://images.patolojiatlasi.com/celiac-disease/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/celiac-disease/HE.html)
+
+```
 
 
 
@@ -123,36 +89,68 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+```{asis, echo = (language == "TR")}
+
+**Çölyak Hastalığı**
+
+
+![](./qrcodes/celiac-disease-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_celiac-disease.png){width="25%"}](https://images.patolojiatlasi.com/celiac-disease/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/celiac-disease/HE.html)
+
+```
+
+
 
 
 
 ::::
 
 
-```{asis, echo = (language == "TR")}
-
-**Çölyak Hastalığı**
+:::: {.content-hidden when-format="pdf"}
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_celiac-disease.png){width="25%"}](https://images.patolojiatlasi.com/celiac-disease/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/celiac-disease/HE.html)
+```{asis, echo = (language == "EN")}
 
-```
+**Celiac Disease**
 
-
-```{asis, echo = ((language=="TR") & (output_type=="html"))}
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/celiac-disease/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+[![Click for Full Screen WSI](./screenshots/thumbnail_celiac-disease.png){width="25%"}](https://images.patolojiatlasi.com/celiac-disease/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/celiac-disease/HE.html)
 
 ```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
 
 ```{asis, echo = (language == "EN")}
 
 **Celiac Disease**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_celiac-disease.png){width="25%"}](https://images.patolojiatlasi.com/celiac-disease/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/celiac-disease/HE.html)
+![](./qrcodes/celiac-disease-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_celiac-disease.png){width="25%"}](https://images.patolojiatlasi.com/celiac-disease/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/celiac-disease/HE.html)
+
+```
+
+
+
+
+
+::::
+
+
+### WSI
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/celiac-disease/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -163,3 +161,5 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/celiac-disease/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
+
+:::::
