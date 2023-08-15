@@ -1,8 +1,10 @@
 {
-  "hash": "91a5bef93e70f3452e284b673805d903",
+  "hash": "ea40595b56e9973f3524960601856f08",
   "result": {
-    "markdown": "---\ndescription: |\n    gastrointestinal,\n    patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [gastrointestinal]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n# Gastrointestinal System  {#sec-gastrointestinal-system}\n:::\n",
-    "supporting": [],
+    "markdown": "---\ndescription: |\n    gastrointestinal,\n    patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [gastrointestinal]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n\n\n\n\n\n\n\n:::: {.content-hidden when-format=\"pdf\"}\n\n\n\n\n\n::::\n\n\n\n\n\n:::: {.content-visible when-format=\"pdf\"}\n\n\n\n\n\n\n::::\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n# Gastrointestinal System  {#sec-gastrointestinal-system}\n:::\n",
+    "supporting": [
+      "gastro_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

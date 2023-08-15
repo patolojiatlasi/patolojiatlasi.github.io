@@ -1,8 +1,10 @@
 {
-  "hash": "b3d8b7c0435651ab378ecb1314dd660f",
+  "hash": "5325c8c60d2a8d109a68b640b65ad2c6",
   "result": {
-    "markdown": "---\ndescription: \"uriner sistem, urinary system, patoloji, atlas, pathology, whole slide image\"\ndate: last-modified\ncategories: [uriner, urinary]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# Pathology of the Urinary System {#sec-urinary-system-pathology}\n:::\n",
-    "supporting": [],
+    "markdown": "---\ndescription: \"uriner sistem, urinary system, patoloji, atlas, pathology, whole slide image\"\ndate: last-modified\ncategories: [uriner, urinary]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n\n\n\n\n:::: {.content-hidden when-format=\"pdf\"}\n\n\n\n\n\n::::\n\n\n\n\n\n:::: {.content-visible when-format=\"pdf\"}\n\n\n\n\n\n\n::::\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# Pathology of the Urinary System {#sec-urinary-system-pathology}\n:::\n",
+    "supporting": [
+      "urinary_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
