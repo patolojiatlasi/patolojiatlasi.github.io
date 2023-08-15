@@ -63,11 +63,24 @@ if (!file.exists("./qrcodes/endometrial-polyp-HE_qrcode.svg")) {
 ```
 
 
+::::: panel-tabset
+
+
+### WSI - Link
 
 
 
 :::: {.content-hidden when-format="pdf"}
 
+
+
+```{asis, echo = (language == "TR")}
+
+**Endometrial Polip**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_endometrial-polyp.png){width="25%"}](https://images.patolojiatlasi.com/endometrial-polyp/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/endometrial-polyp/HE.html)
+
+```
 
 
 
@@ -81,13 +94,6 @@ if (!file.exists("./qrcodes/endometrial-polyp-HE_qrcode.svg")) {
 :::: {.content-visible when-format="pdf"}
 
 
-
-
-
-
-::::
-
-
 ```{asis, echo = (language == "TR")}
 
 **Endometrial Polip**
@@ -98,13 +104,36 @@ if (!file.exists("./qrcodes/endometrial-polyp-HE_qrcode.svg")) {
 ```
 
 
-```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
-Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/endometrial-polyp/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+
+::::
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Endometrial Polyp**
+
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_endometrial-polyp.png){width="25%"}](https://images.patolojiatlasi.com/endometrial-polyp/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/endometrial-polyp/HE.html)
 
 ```
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
 
 ```{asis, echo = (language == "EN")}
 
@@ -115,6 +144,23 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
+
+
+::::
+
+
+### WSI
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/endometrial-polyp/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 See Microscopy with viewer: 
@@ -122,3 +168,9 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/endometrial-polyp/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
+
+
+:::::
+
+
+
