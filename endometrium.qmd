@@ -17,27 +17,17 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
+```{asis, echo = (language == "TR")}
 
-:::: {.content-hidden when-format="pdf"}
+## Endometrium {#sec-endometrium}
 
+```
 
+```{asis, echo = (language == "EN")}
 
+## Endometrium {#sec-endometrium}
 
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
+```
 
 
 ```{asis, echo = (language == "TR")}
@@ -62,12 +52,12 @@ webshot2::webshot(delay = 20,
 ```
 
 ```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/endometrial-polyp-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/endometrial-polyp/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/endometrial-polyp-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -103,7 +93,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **Endometrial Polip**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_endometrial-polyp.png){width="25%"}](https://images.patolojiatlasi.com/endometrial-polyp/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/endometrial-polyp/HE.html)
+![](./qrcodes/endometrial-polyp-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_endometrial-polyp.png){width="25%"}](https://images.patolojiatlasi.com/endometrial-polyp/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/endometrial-polyp/HE.html)
 
 ```
 
@@ -121,7 +111,7 @@ Mikroskopik görüntüleri inceleyin:
 **Endometrial Polyp**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_endometrial-polyp.png){width="25%"}](https://images.patolojiatlasi.com/endometrial-polyp/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/endometrial-polyp/HE.html)
+![](./qrcodes/endometrial-polyp-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_endometrial-polyp.png){width="25%"}](https://images.patolojiatlasi.com/endometrial-polyp/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/endometrial-polyp/HE.html)
 
 ```
 
