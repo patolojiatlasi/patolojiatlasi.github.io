@@ -1,0 +1,459 @@
+ICD-O coding of CNS tumours 
+ICD-O topographical coding of central nervous system tumours
+The ICD-O topography codes for the main anatomical sites covered in this volume are as follows [[Fritz A, Percy C, Jack A, et al., editors. International classification of diseases for oncology (ICD-O). 3rd ed. 1st rev. Geneva (Switzerland): World Health Organization; 2013.]]:
+
+ 
+
+C70 Meninges
+
+     C70.0 Cerebral meninges
+
+     C70.1 Spinal meninges
+
+     C70.9 Meninges, NOS
+
+ 
+
+C71 Brain
+
+     C71.0 Cerebrum
+
+     C71.1 Frontal lobe
+
+     C71.2 Temporal lobe
+
+     C71.3 Parietal lobe
+
+     C71.4 Occipital lobe
+
+     C71.5 Ventricle, NOS
+
+     C71.6 Cerebellum, NOS
+
+     C71.7 Brain stem
+
+     C71.8 Overlapping lesion of brain
+
+     C71.9 Brain, NOS
+
+ 
+
+C72 Spinal cord, cranial nerves, and other parts of central nervous system
+
+     C72.0 Spinal cord
+
+     C72.1 Cauda equina
+
+     C72.2 Olfactory nerve
+
+     C72.3 Optic nerve
+
+     C72.4 Acoustic nerve
+
+     C72.5 Cranial nerve, NOS
+
+     C72.8 Overlapping lesion of brain and central nervous system
+
+     C72.9 Nervous system, NOS
+
+ 
+
+C75 Other endocrine glands and related structures
+
+     C75.1 Pituitary gland
+
+     C75.2 Craniopharyngeal duct
+
+     C75.3 Pineal gland
+
+ 
+
+ICD-O morphological coding: Introduction
+The ICD-O coding system uses a topography (T) code and a morphology (M) code together, but these are presented in separate lists for ease of use. Behaviour is coded /0 for benign tumours; /1 for unspecified, borderline, or uncertain behaviour; /2 for carcinoma in situ and grade III intraepithelial neoplasia; /3 for malignant tumours, primary site; and /6 for malignant tumours, metastatic site. Behaviour code /6 is not generally used by cancer registries. For various reasons, the ICD-O morphology terms may not always be identical to the entity names used in the WHO classification, but they should be sufficiently similar to avoid confusion. The designation “NOS” (“not otherwise specified”) is provided to make coding possible when subtypes exist but exact classification may not be possible in small biopsies or certain other scenarios. Therefore, it is usual to have “NOS” even when a more specific alternative term is listed in ICD-O.
+
+ 
+
+ 
+
+ICD-O coding of central nervous system tumours
+ICD-O-3.2    ICD-O label (subtypes are indicated in grey text, with the label indented);
+
+                     Please note that the WHO classification of tumour types is more readily reflected in the table of contents
+
+Gliomas, glioneuronal tumours, and neuronal tumours
+
+Adult-type diffuse gliomas
+
+                     Astrocytoma, IDH-mutant
+
+9400/3                Astrocytoma, IDH-mutant, grade 2
+
+9401/3                Astrocytoma, IDH-mutant, grade 3
+
+9445/3                Astrocytoma, IDH-mutant, grade 4
+
+                     Oligodendroglioma, IDH-mutant and 1p/19q-codeleted
+
+9450/3                Oligodendroglioma, IDH-mutant and 1p/19q-codeleted, grade 2
+
+9451/3                Oligodendroglioma, IDH-mutant and 1p/19q-codeleted, grade 3
+
+9440/3          Glioblastoma, IDH-wildtype
+
+ 
+
+Paediatric-type diffuse low-grade gliomas
+
+9421/1          Diffuse astrocytoma, MYB- or MYBL1-altered†
+
+9431/1          Angiocentric glioma
+
+9413/0          Polymorphous low-grade neuroepithelial tumour of the young†
+
+9421/1          Diffuse low-grade glioma, MAPK pathway–altered†
+
+ 
+
+Paediatric-type diffuse high-grade gliomas
+
+9385/3          Diffuse midline glioma, H3 K27–altered†
+
+9385/3          Diffuse hemispheric glioma, H3 G34–mutant†
+
+9385/3          Diffuse paediatric-type high-grade glioma, H3-wildtype and IDH-wildtype†
+
+9385/3          Infant-type hemispheric glioma†
+
+ 
+
+Circumscribed astrocytic gliomas
+
+9421/1          Pilocytic astrocytoma
+
+9421/3*        High-grade astrocytoma with piloid features
+
+9424/3          Pleomorphic xanthoastrocytoma
+
+9384/1          Subependymal giant cell astrocytoma
+
+9444/1          Chordoid glioma
+
+9430/3          Astroblastoma, MN1-altered†
+
+ 
+
+Glioneuronal and neuronal tumours
+
+9505/1          Ganglioglioma
+
+9492/0          Gangliocytoma
+
+9412/1          Desmoplastic infantile ganglioglioma
+
+9412/1          Desmoplastic infantile astrocytoma
+
+9413/0          Dysembryoplastic neuroepithelial tumour
+
+n/a                 Diffuse glioneuronal tumour with oligodendroglioma-like features and nuclear clusters (provisional entity)
+
+9509/1          Papillary glioneuronal tumour
+
+9509/1          Rosette-forming glioneuronal tumour
+
+9509/1          Myxoid glioneuronal tumour†
+
+9509/3*        Diffuse leptomeningeal glioneuronal tumour
+
+9509/0*        Multinodular and vacuolating neuronal tumour
+
+9493/0          Dysplastic cerebellar gangliocytoma (Lhermitte–Duclos disease)
+
+9506/1          Central neurocytoma
+
+9506/1          Extraventricular neurocytoma
+
+9506/1          Cerebellar liponeurocytoma
+
+ 
+
+Ependymal tumours
+
+9391/3          Supratentorial ependymoma, NOS†
+
+9396/3          Supratentorial ependymoma, ZFTA fusion–positive†
+
+9396/3          Supratentorial ependymoma, YAP1 fusion–positive†
+
+9391/3          Posterior fossa ependymoma, NOS†
+
+9396/3          Posterior fossa group A (PFA) ependymoma†
+
+9396/3          Posterior fossa group B (PFB) ependymoma†
+
+9391/3          Spinal ependymoma, NOS†
+
+9396/3          Spinal ependymoma, MYCN-amplified†
+
+9394/1          Myxopapillary ependymoma
+
+9383/1          Subependymoma
+
+ 
+
+Choroid plexus tumours
+
+9390/0          Choroid plexus papilloma
+
+9390/1          Atypical choroid plexus papilloma
+
+9390/3          Choroid plexus carcinoma
+
+ 
+
+Embryonal tumours
+
+Medulloblastomas, molecularly defined
+
+9475/3          Medulloblastoma, WNT-activated
+
+9471/3          Medulloblastoma, SHH-activated and TP53-wildtype
+
+9476/3          Medulloblastoma, SHH-activated and TP53-mutant
+
+9477/3          Medulloblastoma, non-WNT/non-SHH
+
+ 
+
+Medulloblastomas, histologically defined
+
+9470/3          Medulloblastoma, histologically defined
+
+9471/3                Desmoplastic nodular medulloblastoma
+
+9471/3                Medulloblastoma with extensive nodularity
+
+9474/3                Large cell medulloblastoma
+
+9474/3                Anaplastic medulloblastoma
+
+ 
+
+Other CNS embryonal tumours
+
+9508/3          Atypical teratoid/rhabdoid tumour
+
+n/a                 Cribriform neuroepithelial tumour (provisional entity)
+
+9478/3          Embryonal tumour with multilayered rosettes
+
+9500/3          CNS neuroblastoma, FOXR2-activated†
+
+9500/3          CNS tumour with BCOR internal tandem duplication†
+
+9473/3          CNS embryonal tumour, NEC/NOS
+
+ 
+
+Pineal tumours
+
+9361/1          Pineocytoma
+
+9362/3          Pineal parenchymal tumour of intermediate differentiation
+
+9362/3          Pineoblastoma
+
+9395/3          Papillary tumour of the pineal region
+
+n/a                 Desmoplastic myxoid tumour of the pineal region, SMARCB1-mutant (provisional entity)
+
+ 
+
+Cranial and paraspinal nerve tumours
+
+9560/0          Schwannoma
+
+9540/0          Neurofibroma
+
+9550/0                Plexiform neurofibroma
+
+9571/0          Perineurioma
+
+9563/0          Hybrid nerve sheath tumour
+
+9540/3          Malignant melanotic nerve sheath tumour
+
+9540/3          Malignant peripheral nerve sheath tumour
+
+8693/3          Cauda equina neuroendocrine tumour (previously paraganglioma)
+
+ 
+
+Meningioma
+
+9530/0          Meningioma
+
+ 
+
+Mesenchymal, non-meningothelial tumours involving the CNS
+
+Fibroblastic and myofibroblastic tumours
+
+8815/1          Solitary fibrous tumour
+
+ 
+
+Vascular tumours
+
+9121/0          Cavernous haemangioma
+
+9131/0          Capillary haemangioma
+
+9123/0          Arteriovenous malformation
+
+9161/1          Haemangioblastoma
+
+ 
+
+Skeletal muscle tumours
+
+8910/3          Embryonal rhabdomyosarcoma
+
+8920/3          Alveolar rhabdomyosarcoma
+
+8901/3          Rhabdomyosarcoma, pleomorphic-type
+
+8912/3          Spindle cell rhabdomyosarcoma
+
+ 
+
+Tumours of uncertain differentiation
+
+n/a                 Intracranial mesenchymal tumour, FET::CREB fusion–positive (provisional entity)
+
+9367/3          CIC-rearranged sarcoma
+
+9480/3          Primary intracranial sarcoma, DICER1-mutant†
+
+9364/3          Ewing sarcoma
+
+ 
+
+Chondrogenic tumours
+
+9240/3          Mesenchymal chondrosarcoma
+
+9220/3          Chondrosarcoma
+
+9243/3          Dedifferentiated chondrosarcoma
+
+ 
+
+Notochordal tumours
+
+9370/3          Chordoma
+
+ 
+
+Melanocytic tumours
+
+Diffuse meningeal melanocytic neoplasms
+
+8728/0          Meningeal melanocytosis
+
+8728/3          Meningeal melanomatosis
+
+ 
+
+Circumscribed meningeal melanocytic neoplasms
+
+8728/1          Meningeal melanocytoma
+
+8720/3          Meningeal melanoma
+
+ 
+
+Haematolymphoid tumours involving the CNS
+
+CNS lymphomas
+
+9680/3          Primary diffuse large B-cell lymphoma of the CNS
+
+9766/1          Lymphomatoid granulomatosis
+
+9766/1                Lymphomatoid granulomatosis, grade 1
+
+9766/1                Lymphomatoid granulomatosis, grade 2
+
+9766/3                Lymphomatoid granulomatosis, grade 3
+
+9712/3          Intravascular large B-cell lymphoma
+
+ 
+
+Miscellaneous rare lymphomas in the CNS
+
+9699/3          MALT lymphoma of the dura
+
+9671/3          Lymphoplasmacytic lymphoma
+
+9690/3          Follicular lymphoma
+
+9714/3          Anaplastic large cell lymphoma (ALK+/ALK−)
+
+9702/3          T-cell lymphoma
+
+9719/3          NK/T-cell lymphoma
+
+ 
+
+Histiocytic tumours
+
+9749/3          Erdheim–Chester disease
+
+9749/3          Rosai–Dorfman disease†
+
+9749/1          Juvenile xanthogranuloma†
+
+9751/1          Langerhans cell histiocytosis
+
+9755/3          Histiocytic sarcoma
+
+ 
+
+Germ cell tumours
+
+9080/0          Mature teratoma
+
+9080/3          Immature teratoma
+
+9084/3          Teratoma with somatic-type malignancy
+
+9064/3          Germinoma
+
+9070/3          Embryonal carcinoma
+
+9071/3          Yolk sac tumour
+
+9100/3          Choriocarcinoma
+
+9085/3          Mixed germ cell tumour
+
+ 
+
+Tumours of the sellar region
+
+9351/1          Adamantinomatous craniopharyngioma
+
+9352/1          Papillary craniopharyngioma
+
+9432/1          Pituicytoma
+
+9582/0          Granular cell tumour of the sellar region
+
+8290/0          Spindle cell oncocytoma
+
+8272/3          Pituitary adenoma / pituitary neuroendocrine tumour (PitNET)†
+
+8273/3          Pituitary blastoma
+
+ 

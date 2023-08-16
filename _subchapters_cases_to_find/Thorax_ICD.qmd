@@ -1,0 +1,719 @@
+ICD-O coding of thoracic tumours 
+ICD-O topographical coding of thoracic tumours
+The ICD-O topography codes for the main anatomical sites covered in this volume are as follows [[Fritz A, Percy C, Jack A, et al., editors. International classification of diseases for oncology (ICD-O). 3rd ed. 1st rev. Geneva (Switzerland): World Health Organization; 2013.]]:
+
+ 
+
+C33 Trachea
+
+      C33.9 Trachea
+
+ 
+
+C34 Bronchus and lung
+
+      C34.0 Main bronchus
+
+      C34.1 Upper lobe, lung
+
+      C34.2 Middle lobe, lung
+
+      C34.3 Lower lobe, lung
+
+      C34.8 Overlapping lesion of lung
+
+      C34.9 Lung NOS
+
+ 
+
+C37 Thymus
+
+      C37.9 Thymus
+
+ 
+
+C38 Heart, mediastinum, and pleura
+
+      C38.0 Heart
+
+      C38.1 Anterior mediastinum
+
+      C38.2 Posterior mediastinum
+
+      C38.3 Mediastinum NOS
+
+      C38.4 Pleura NOS
+
+      C38.8 Overlapping lesion of heart, mediastinum, and pleura
+
+ 
+
+C39 Other and ill-defined sites within respiratory system and intrathoracic organs
+
+      C39.0 Upper respiratory tract NOS
+
+      C39.8 Overlapping lesion of respiratory system and intrathoracic organs
+
+      C39.9 Ill-defined sites within respiratory system
+
+ 
+
+C76 Other and ill-defined sites
+
+      C76.1 Thorax NOS
+
+ 
+
+C77 Lymph nodes
+
+      C77.1 Intrathoracic lymph nodes
+
+ 
+
+ 
+
+ICD-O morphological coding: Introduction
+The ICD-O coding system uses a topography (T) code and a morphology (M) code together, but these are presented in separate lists for ease of use. Behaviour is coded /0 for benign tumours; /1 for unspecified, borderline, or uncertain behaviour; /2 for carcinoma in situ and grade III intraepithelial neoplasia; /3 for malignant tumours, primary site; and /6 for malignant tumours, metastatic site. Behaviour code /6 is not generally used by cancer registries. For various reasons, the ICD-O morphology terms may not always be identical to the entity names used in the WHO classification, but they should be sufficiently similar to avoid confusion. The designation “NOS” (“not otherwise specified”) is provided to make coding possible when subtypes exist but exact classification may not be possible in small biopsies or certain other scenarios. Therefore, it is usual to have “NOS” even when a more specific alternative term is listed in ICD-O. 
+
+ 
+
+ICD-O coding of tumours of the lung
+Epithelial tumours
+
+Papillomas
+
+8052/0 Squamous cell papilloma, NOS
+
+8053/0 Squamous cell papilloma, inverted
+
+8260/0 Glandular papilloma
+
+8560/0 Mixed squamous cell and glandular papilloma
+
+ 
+
+Adenomas
+
+8832/0 Sclerosing pneumocytoma
+
+8251/0 Alveolar adenoma
+
+8260/0 Papillary adenoma
+
+8140/0 Bronchiolar adenoma / ciliated muconodular papillary tumour†
+
+8470/0 Mucinous cystadenoma
+
+8480/0 Mucous gland adenoma
+
+ 
+
+Precursor glandular lesions
+
+8250/0 Atypical adenomatous hyperplasia
+
+Adenocarcinoma in situ
+
+      8250/2 Adenocarcinoma in situ, non-mucinous
+
+      8253/2 Adenocarcinoma in situ, mucinous
+
+ 
+
+Adenocarcinomas
+
+Minimally invasive adenocarcinoma
+
+      8256/3 Minimally invasive adenocarcinoma, non-mucinous
+
+      8257/3 Minimally invasive adenocarcinoma, mucinous
+
+Invasive non-mucinous adenocarcinoma
+
+      8250/3 Lepidic adenocarcinoma
+
+      8551/3 Acinar adenocarcinoma
+
+      8260/3 Papillary adenocarcinoma
+
+      8265/3 Micropapillary adenocarcinoma
+
+      8230/3 Solid adenocarcinoma
+
+8253/3 Invasive mucinous adenocarcinoma
+
+      8254/3 Mixed invasive mucinous and non-mucinous adenocarcinoma
+
+8480/3 Colloid adenocarcinoma
+
+8333/3 Fetal adenocarcinoma
+
+8144/3 Adenocarcinoma, enteric-type
+
+8140/3 Adenocarcinoma, NOS
+
+ 
+
+Squamous precursor lesions
+
+8070/2 Squamous cell carcinoma in situ
+
+8077/0 Mild squamous dysplasia
+
+8077/2 Moderate squamous dysplasia
+
+8077/2 Severe squamous dysplasia
+
+ 
+
+Squamous cell carcinomas
+
+8070/3 Squamous cell carcinoma, NOS
+
+      8071/3 Squamous cell carcinoma, keratinizing
+
+      8072/3 Squamous cell carcinoma, non-keratinizing
+
+      8083/3 Basaloid squamous cell carcinoma
+
+8082/3 Lymphoepithelial carcinoma
+
+ 
+
+Large cell carcinomas
+
+8012/3 Large cell carcinoma
+
+ 
+
+Adenosquamous carcinomas
+
+8560/3 Adenosquamous carcinoma
+
+ 
+
+Sarcomatoid carcinomas
+
+8022/3 Pleomorphic carcinoma
+
+      8031/3 Giant cell carcinoma
+
+      8032/3 Spindle cell carcinoma
+
+8972/3 Pulmonary blastoma
+
+8980/3 Carcinosarcoma
+
+ 
+
+Other epithelial tumours
+
+8023/3 NUT carcinoma
+
+8044/3 Thoracic SMARCA4-deficient undifferentiated tumour†
+
+ 
+
+Salivary gland–type tumours
+
+8940/0 Pleomorphic adenoma
+
+8200/3 Adenoid cystic carcinoma
+
+8562/3 Epithelial-myoepithelial carcinoma
+
+8430/3 Mucoepidermoid carcinoma
+
+8310/3 Hyalinizing clear cell carcinoma†
+
+8982/0 Myoepithelioma
+
+8982/3 Myoepithelial carcinoma
+
+ 
+
+Lung neuroendocrine neoplasms
+
+Precursor lesion
+
+8040/0 Diffuse idiopathic neuroendocrine cell hyperplasia
+
+ 
+
+Neuroendocrine tumours
+
+8240/3 Carcinoid tumour, NOS / neuroendocrine tumour, NOS
+
+      8240/3 Typical carcinoid / neuroendocrine tumour, grade 1
+
+      8249/3 Atypical carcinoid / neuroendocrine tumour, grade 2
+
+ 
+
+Neuroendocrine carcinomas
+
+8041/3 Small cell carcinoma
+
+      8045/3 Combined small cell carcinoma
+
+8013/3 Large cell neuroendocrine carcinoma
+
+      8013/3 Combined large cell neuroendocrine carcinoma
+
+ 
+
+Tumours of ectopic tissues
+
+8720/3 Melanoma
+
+9530/0 Meningioma
+
+ 
+
+Mesenchymal tumours specific to the lung
+
+8992/0 Pulmonary hamartoma
+
+9220/0 Chondroma
+
+9170/3 Diffuse lymphangiomatosis†
+
+8973/3 Pleuropulmonary blastoma
+
+9137/3 Intimal sarcoma
+
+8827/1 Congenital peribronchial myofibroblastic tumour
+
+8842/3 Pulmonary myxoid sarcoma with EWSR1-CREB1 fusion
+
+ 
+
+PEComatous tumours
+
+9174/3* Lymphangioleiomyomatosis
+
+8714/0 PEComa, benign
+
+8714/3 PEComa, malignant
+
+ 
+
+Haematolymphoid tumours
+
+9699/3 MALT lymphoma
+
+9680/3 Diffuse large B-cell lymphoma, NOS
+
+9766/1 Lymphomatoid granulomatosis, NOS
+
+      9766/1 Lymphomatoid granulomatosis, grade 1
+
+      9766/1 Lymphomatoid granulomatosis, grade 2
+
+      9766/3 Lymphomatoid granulomatosis, grade 3
+
+9712/3 Intravascular large B-cell lymphoma
+
+9751/1 Langerhans cell histiocytosis
+
+9749/3 Erdheim–Chester disease
+
+ 
+
+ 
+
+ICD-O coding of tumours of the pleura and pericardium
+Mesothelial tumours
+
+Benign and preinvasive mesothelial tumours
+
+9054/0 Adenomatoid tumour
+
+9052/1 Well-differentiated papillary mesothelial tumour†
+
+9050/2* Mesothelioma in situ
+
+ 
+
+Mesothelioma
+
+9050/3 Localized mesothelioma†
+
+9050/3 Diffuse mesothelioma, NOS†
+
+      9051/3 Sarcomatoid mesothelioma
+
+      9052/3 Epithelioid mesothelioma
+
+      9053/3 Mesothelioma, biphasic
+
+ 
+
+Haematolymphoid tumours
+
+9678/3 Primary effusion lymphoma
+
+9680/3 Diffuse large B-cell lymphoma associated with chronic inflammation
+
+ 
+
+ 
+
+ICD-O coding of tumours of the heart
+Benign tumours
+
+8820/0 Papillary fibroelastoma†
+
+8840/0 Myxoma, NOS
+
+8810/0 Fibroma, NOS
+
+8900/0 Rhabdomyoma, NOS
+
+8904/0 Adult cellular rhabdomyoma
+
+8850/0 Lipoma, NOS
+
+Lipomatous hamartoma of atrioventricular valve
+
+Hamartoma of mature cardiac myocytes
+
+Mesenchymal cardiac hamartoma
+
+9120/0 Haemangioma, NOS
+
+9122/0 Venous haemangioma
+
+9131/0 Capillary haemangioma
+
+9123/0 Arteriovenous haemangioma
+
+9121/0 Cavernous haemangioma
+
+Conduction system hamartoma
+
+8454/0 Cystic tumour of atrioventricular node
+
+ 
+
+Malignant tumours
+
+9120/3 Angiosarcoma
+
+8890/3 Leiomyosarcoma, NOS
+
+8802/3 Pleomorphic sarcoma
+
+ 
+
+Haematolymphoid tumours
+
+9680/3 Diffuse large B-cell lymphoma, NOS
+
+9680/3 Fibrin-associated diffuse large B-cell lymphoma†
+
+ 
+
+ 
+
+ICD-O coding of mesenchymal tumours of the thorax
+Adipocytic tumours
+
+8850/0 Lipoma, NOS
+
+8850/0 Thymolipoma
+
+8850/3 Liposarcoma, NOS
+
+8851/3 Liposarcoma, well differentiated
+
+8852/3 Myxoid liposarcoma
+
+8854/3 Pleomorphic liposarcoma
+
+8858/3 Dedifferentiated liposarcoma
+
+ 
+
+Fibroblastic and myofibroblastic tumours
+
+8821/1 Desmoid-type fibromatosis
+
+8815/1 Solitary fibrous tumour, NOS
+
+8817/0 Calcifying fibrous tumour
+
+8825/1 Inflammatory myofibroblastic tumour
+
+8811/3 Myxofibrosarcoma
+
+ 
+
+Vascular tumours
+
+9120/0 Haemangioma, NOS
+
+9121/0 Cavernous haemangioma
+
+9122/0 Venous haemangioma
+
+9132/0 Intramuscular haemangioma
+
+9123/0 Arteriovenous haemangioma
+
+9170/0 Lymphangioma, NOS
+
+9173/0 Cystic lymphangioma
+
+9133/3 Epithelioid haemangioendothelioma
+
+9120/3 Angiosarcoma
+
+ 
+
+Skeletal muscle tumours
+
+8900/3 Rhabdomyosarcoma, NOS
+
+8910/3 Embryonal rhabdomyosarcoma
+
+8912/3 Spindle cell rhabdomyosarcoma
+
+8920/3 Alveolar rhabdomyosarcoma
+
+8901/3 Pleomorphic rhabdomyosarcoma
+
+ 
+
+Peripheral nerve sheath and neural tumours
+
+8693/3 Extra-adrenal paraganglioma
+
+9580/0 Granular cell tumour
+
+9580/3 Granular cell tumour, malignant
+
+9560/0 Schwannoma
+
+9540/3 Malignant peripheral nerve sheath tumour
+
+9490/0 Ganglioneuroma
+
+9490/3 Ganglioneuroblastoma
+
+9500/3 Neuroblastoma
+
+ 
+
+Tumours of uncertain differentiation
+
+9040/3 Synovial sarcoma, NOS
+
+      9041/3 Synovial sarcoma, spindle cell
+
+      9042/3 Synovial sarcoma, epithelioid cell
+
+      9043/3 Synovial sarcoma, biphasic
+
+9364/3 Ewing sarcoma
+
+9367/3* CIC-rearranged sarcoma
+
+9368/3* Sarcoma with BCOR genetic alterations
+
+9366/3* Round cell sarcoma with EWSR1–non-ETS fusions
+
+ 
+
+ 
+
+ICD-O coding of tumours of the thymus
+Epithelial tumours
+
+Thymomas
+
+8580/3 Thymoma, NOS
+
+8581/3 Thymoma, type A
+
+8582/3 Thymoma, type AB
+
+8583/3 Thymoma, type B1
+
+8584/3 Thymoma, type B2
+
+8585/3 Thymoma, type B3
+
+8580/1 Micronodular thymoma with lymphoid stroma
+
+8580/3 Metaplastic thymoma
+
+9010/0 Lipofibroadenoma
+
+ 
+
+Squamous carcinomas
+
+8070/3 Squamous cell carcinoma, NOS
+
+8123/3 Basaloid carcinoma
+
+8082/3 Lymphoepithelial carcinoma
+
+ 
+
+Adenocarcinomas
+
+8140/3 Adenocarcinoma, NOS
+
+8260/3 Low-grade papillary adenocarcinoma†
+
+8200/3 Thymic carcinoma with adenoid cystic carcinoma–like features
+
+8144/3 Adenocarcinoma, enteric-type
+
+ 
+
+Adenosquamous carcinomas
+
+8560/3 Adenosquamous carcinoma
+
+ 
+
+NUT carcinomas
+
+8023/3 NUT carcinoma
+
+ 
+
+Salivary gland–like carcinomas
+
+8430/3 Mucoepidermoid carcinoma
+
+8310/3 Clear cell carcinoma
+
+8033/3 Sarcomatoid carcinoma
+
+8980/3 Carcinosarcoma
+
+ 
+
+Undifferentiated carcinomas
+
+8020/3 Carcinoma, undifferentiated, NOS
+
+ 
+
+Thymic carcinomas
+
+8586/3 Thymic carcinoma, NOS
+
+ 
+
+Thymic neuroendocrine neoplasms
+
+Neuroendocrine tumours
+
+8240/3 Carcinoid tumour, NOS / neuroendocrine tumour, NOS
+
+      8240/3 Typical carcinoid / neuroendocrine tumour, grade 1
+
+      8249/3 Atypical carcinoid / neuroendocrine tumour, grade 2
+
+ 
+
+Neuroendocrine carcinomas
+
+8041/3 Small cell carcinoma
+
+      8045/3 Combined small cell carcinoma
+
+8013/3 Large cell neuroendocrine carcinoma
+
+ 
+
+ 
+
+ICD-O coding of germ cell tumours of the mediastinum
+9061/3 Seminoma
+
+9070/3 Embryonal carcinoma
+
+9071/3 Yolk sac tumour
+
+9100/3 Choriocarcinoma
+
+9080/0 Mature teratoma
+
+9080/1 Immature teratoma of the thymus
+
+9085/3 Mixed germ cell tumour
+
+9084/3 Teratoma with somatic-type malignancies
+
+9086/3 Germ cell tumour with associated haematological malignancy
+
+ 
+
+ 
+
+ICD-O coding of haematolymphoid tumours of the mediastinum
+9679/3 Mediastinal large B-cell lymphoma
+
+9699/3 MALT lymphoma
+
+9837/3 T-lymphoblastic leukaemia/lymphoma
+
+9650/3 Classic Hodgkin lymphoma, NOS†
+
+      9663/3 Classic Hodgkin lymphoma, nodular sclerosis
+
+      9652/3 Classic Hodgkin lymphoma, mixed cellularity
+
+      9651/3 Classic Hodgkin lymphoma, lymphocyte-rich
+
+      9653/3 Classic Hodgkin lymphoma, lymphocyte depletion
+
+9596/3 Grey zone lymphoma†
+
+9758/3 Follicular dendritic cell sarcoma
+
+9930/3 Myeloid sarcoma
+
+ 
+
+ 
+
+ICD-O coding of ectopic tumours of thyroid and parathyroid origin
+Thyroid neoplasms
+
+8260/3 Papillary carcinoma of thyroid
+
+8330/0 Follicular adenoma
+
+8330/3 Follicular carcinoma
+
+8345/3 Medullary thyroid carcinoma
+
+ 
+
+Parathyroid neoplasms
+
+8140/0 Parathyroid adenoma
+
+8140/3 Parathyroid carcinom
+
+ 
+
+Notes
+These morphology codes are from the International Classification of Diseases for Oncology, third edition, second revision (ICD-O-3.2) [[International Association of Cancer Registries (IACR) [Internet]. Lyon (France): International Agency for Research on Cancer; 2019. ICD-O-3.2; updated 2019 Apr 23. Available from: http://www.iacr.com.fr/index.php?option=com_content&view=article&id=149:icd-o-3-2&catid=80&Itemid=545.]]. Behaviour is coded /0 for benign tumours; /1 for unspecified, borderline, or uncertain behaviour; /2 for carcinoma in situ and grade III intraepithelial neoplasia; /3 for malignant tumours, primary site; and /6 for malignant tumours, metastatic site. Behaviour code /6 is not generally used by cancer registries.
+
+This classification is modified from the previous WHO classification, taking into account changes in our understanding of these lesions.
+
+Subtype labels are indented.
+
+* Codes marked with an asterisk were approved by the IARC/WHO Committee for ICD-O at its meeting in October 2020.
+
+† Labels marked with a dagger have undergone a change in terminology of a previous code.
+
+ 
