@@ -1,0 +1,621 @@
+
+
+
+
+
+
+
+
+
+```{comment}
+---
+description: |
+    TemplateTR, TemplateEN, patoloji, atlas, pathology, whole slide image
+date: last-modified
+categories: [TemplateTR, TemplateEN]
+page-layout: full
+bibliography: references.bib
+---
+```
+
+
+
+```{r , echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis, echo = (language == "TR")}
+
+## Case-24 {#sec-hacettepe-case-of-the-month-case-24}
+
+```
+
+```{asis, echo = (language == "EN")}
+
+## Case-24 {#sec-hacettepe-case-of-the-month-case-24}
+
+```
+
+```{asis, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_hacettepe-com-case-24.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/hacettepe-com-case-24/HE.html",
+  file = "./screenshots/thumbnail_hacettepe-com-case-24.png",
+  delay = 20
+)
+}
+```
+
+
+
+
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+-   [case
+    24](https://www.youtube.com/watch?v=-S0_Hr6sNZ8&ab_channel=KemalKosemehmetoglu)
+
+
+
+::::: panel-tabset
+
+
+
+
+### WSI - Link
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+```{asis, echo = (language == "TR")}
+
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_hacettepe-com-case-24.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-24/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-24/HE.html)
+```
+
+
+
+```{asis, echo = (language == "EN")}
+
+![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen
+WSI](./screenshots/thumbnail_hacettepe-com-case-24.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-24/HE.html)
+[Click for Full Screen
+WSI](https://images.patolojiatlasi.com/hacettepe-com-case-24/HE.html)
+```
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+### WSI
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-24/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+
+```
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/hacettepe-com-case-24/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+
+
+
+### Diagnosis
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+```{asis, echo = (language == "TR")}
+
+**hacettepe-com-case-24**
+
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+
+### Tanı için tıklayın
+
+neuroendocrine tumor of breast, bx tract seeding
+
+:::
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+**hacettepe-com-case-24**
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+
+### Click for Diagnosis
+
+neuroendocrine tumor of breast, bx tract seeding
+
+:::
+
+
+```
+
+### Video
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+```{asis, echo = (language == "TR")}
+
+[Video İçin Tıklayın](https://www.youtube.com/watch?v=-S0_Hr6sNZ8)
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+[Click for Video](https://www.youtube.com/watch?v=-S0_Hr6sNZ8)
+
+```
+
+
+
+::: {.content-visible when-format="html"}
+
+{{< video https://www.youtube.com/embed/-S0_Hr6sNZ8 >}}
+
+:::
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+```{asis  , echo = (language == "TR")}
+## template - TemplateTR {#sec-template }
+```
+
+
+```{asis  , echo = (language == "EN")}
+## template - TemplateEN {#sec-template }
+```
+
+
+
+
+
+
+```{r , eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_template-HE1.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE1.html",
+  file = "./screenshots/thumbnail_template-HE1.png"
+)
+}
+```
+
+
+
+```{r , eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/template-HE1_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/template/HE1.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/template-HE1_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+```{r , eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_template-HE2.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/template/HE2.html",
+  file = "./screenshots/thumbnail_template-HE2.png"
+)
+}
+```
+
+
+
+```{r , eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/template-HE2_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/template/HE2.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/template-HE2_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**TemplateTR**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_template-HE1.png){width="25%"}](https://images.patolojiatlasi.com/template/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/template/HE1.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "TR")}
+
+**TemplateTR**
+
+![](./qrcodes/template-HE1_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_template-HE1.png){width="25%"}](https://images.patolojiatlasi.com/template/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/template/HE1.html)
+
+```
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**TemplateEN**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_template-HE1.png){width="25%"}](https://images.patolojiatlasi.com/template/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/template/HE1.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "EN")}
+
+**TemplateEN**
+
+![](./qrcodes/template-HE1_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_template-HE1.png){width="25%"}](https://images.patolojiatlasi.com/template/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/template/HE1.html)
+
+```
+
+
+::::
+
+
+
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**TemplateTR**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_template-HE2.png){width="25%"}](https://images.patolojiatlasi.com/template/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/template/HE2.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "TR")}
+
+**TemplateTR**
+
+![](./qrcodes/template-HE2_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_template-HE2.png){width="25%"}](https://images.patolojiatlasi.com/template/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/template/HE2.html)
+
+```
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**TemplateEN**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_template-HE2.png){width="25%"}](https://images.patolojiatlasi.com/template/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/template/HE2.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "EN")}
+
+**TemplateEN**
+
+![](./qrcodes/template-HE2_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_template-HE2.png){width="25%"}](https://images.patolojiatlasi.com/template/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/template/HE2.html)
+
+```
+
+
+::::
+
+
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/template/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/template/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/template/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/template/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
