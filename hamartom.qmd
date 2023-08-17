@@ -31,7 +31,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{asis, echo = (language == "EN")}
-## Hamartomatöz Polip {#sec-hamartomatoz-polip}
+## Hamartomatous Polyp {#sec-hamartomatous-polyp}
 ```
 
 
@@ -47,23 +47,88 @@ webshot2::webshot(delay = 20,
 
 
 ```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/hamartomatouspolyp-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/hamartomatouspolyp-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+::::: panel-tabset
+
+
+### WSI - Link
+
+:::: {.content-visible when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+![](./qrcodes/hamartomatouspolyp-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_hamartomatouspolyp.png){width="25%"}](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html) [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
+```
 
 
 
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_hamartomatouspolyp.png){width="25%"}](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html) [Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
+```
+
+
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+![](./qrcodes/hamartomatouspolyp-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_hamartomatouspolyp.png){width="25%"}](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
+```
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_hamartomatouspolyp.png){width="25%"}](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
+```
+
+
+
+::::
+
+
+
+
+
+
+
+### WSI
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
@@ -86,9 +151,23 @@ Mikroskopik görüntüleri inceleyin:
 ```
 
 
+:::::
 
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Kolon polibinde Schwann hücreli hamartom {#sec-schwann-hucreli-hamartom-kolon-polibi}
+```
+
+
+```{asis, echo = (language == "EN")}
 
 ## Schwann Cell Hamartoma in a Colon Polyp {#sec-schwann-cell-hamartoma-colon-polyp}
+```
+
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/thumbnail_schwanncellhamartoma.png")) {
@@ -102,23 +181,81 @@ webshot2::webshot(delay = 20,
 
 
 ```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/schwanncellhamartoma-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/schwanncellhamartoma-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
 
 
+::::: panel-tabset
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+
+### WSI - Link
+
+:::: {.content-visible when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+
+![](./qrcodes/schwanncellhamartoma-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_schwanncellhamartoma.png){width="25%"}](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html) [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html)
+```
 
 
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_schwanncellhamartoma.png){width="25%"}](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html) [Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html)
+```
+
+::::
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+
+![](./qrcodes/schwanncellhamartoma-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_schwanncellhamartoma.png){width="25%"}](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html)
+```
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_schwanncellhamartoma.png){width="25%"}](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html)
+```
+
+
+::::
+
+
+### WSI
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -140,3 +277,5 @@ Mikroskopik görüntüleri inceleyin:
 </iframe>
 ```
 
+
+:::::

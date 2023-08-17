@@ -269,34 +269,14 @@ See Microscopy with viewer:
 
 
 
+
+
+
+
+
+```{comment}
 ### HE - annotated
 
-
-
-
-```{comment}
-asis, echo = (language == "EN")
-
-** mammary analogue secretory carcinoma of salivary gland**
-
-
-[https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1_annotated.html](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1_annotated.html)
-
-See Annotated Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1_annotated.html" style="height:400px;width:100%;" data-external="1"></iframe>
-
-[https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html)
-
-See Annotated Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html" style="height:400px;width:100%;" data-external="1"></iframe>
-
-```
-
-
-
-```{comment}
 asis, echo = (language == "TR")
 
 **Tükürük bezinin meme benzeri sekretuar karsinomu**
@@ -304,10 +284,8 @@ asis, echo = (language == "TR")
 
 [https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1_annotated.html](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1_annotated.html)
 
-```
 
-
-```{asis, echo = ((language=="TR") & (output_type=="html"))}
+{asis, echo = ((language=="TR") & (output_type=="html"))}
 
 İşaretlenmiş Mikroskopik görüntüleri inceleyin:
 
@@ -316,10 +294,8 @@ asis, echo = (language == "TR")
 
 [https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html)
 
-```
 
-
-```{asis, echo = ((language=="TR") & (output_type=="html"))}
+{asis, echo = ((language=="TR") & (output_type=="html"))}
 
 İşaretlenmiş Mikroskopik görüntüleri inceleyin:
 

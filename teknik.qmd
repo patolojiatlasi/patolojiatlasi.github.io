@@ -13,29 +13,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
 ```{asis, echo = (language == "TR")}
 # Patolojide Kullanılan Teknikler {#sec-patolojide-kullanilan-teknikler} 
 ```
@@ -44,29 +21,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 # Techniques Used in Pathology {#sec-techniques-used-in-pathology} 
 ```
 
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
 
 
 ```{asis, echo = (language == "TR")}
@@ -79,29 +33,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
 ```{asis, echo = (language == "TR")}
 ### Müsin {#sec-musin}
 ```
@@ -110,29 +41,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ### Mucin {#sec-mucin}
 ```
 
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
 
 
 ```{asis, echo = (language == "TR")}
@@ -165,32 +73,15 @@ if (!file.exists("./qrcodes/mucicarmine_qrcode.svg")) {
 }
 ```
 
+::::: panel-tabset
+
+
+### WSI - Link
+
+
 
 :::: {.content-hidden when-format="pdf"}
 
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
 
 
 ```{asis, echo = (language == "TR")}
@@ -201,18 +92,6 @@ if (!file.exists("./qrcodes/mucicarmine_qrcode.svg")) {
 ```
 
 
-::::
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
 
 
 
@@ -225,11 +104,6 @@ if (!file.exists("./qrcodes/mucicarmine_qrcode.svg")) {
 :::: {.content-visible when-format="pdf"}
 
 
-
-
-
-
-::::
 
 
 ```{asis, echo = (language == "TR")}
@@ -240,7 +114,56 @@ if (!file.exists("./qrcodes/mucicarmine_qrcode.svg")) {
 ```
 
 
+
+
 ::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Mucicarmine histochemistry stain showing intracellular mucin in a normal colon**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_mucicarmine.png){width="25%"}](https://images.patolojiatlasi.com/mucin/mucicarmine.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mucin/mucicarmine.html)
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Mucicarmine histochemistry stain showing intracellular mucin in a normal colon**
+
+![](./qrcodes/mucicarmine_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_mucicarmine.png){width="25%"}](https://images.patolojiatlasi.com/mucin/mucicarmine.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mucin/mucicarmine.html)
+
+```
+
+
+
+
+::::
+
+
+
+### WSI 
+
+
+
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -248,14 +171,6 @@ if (!file.exists("./qrcodes/mucicarmine_qrcode.svg")) {
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/mucin/mucicarmine.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-```{asis, echo = (language == "EN")}
-
-**Mucicarmine histochemistry stain showing intracellular mucin in a normal colon**
-
-[![Click for Full Screen WSI](./screenshots/thumbnail_mucicarmine.png){width="25%"}](https://images.patolojiatlasi.com/mucin/mucicarmine.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mucin/mucicarmine.html)
 
 ```
 
@@ -268,32 +183,10 @@ See Microscopy with viewer:
 ```
 
 
+:::::
 
 
 
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
 
 
 ```{asis, echo = (language == "TR")}
@@ -331,12 +224,62 @@ if (!file.exists("./qrcodes/cish_qrcode.svg")) {
 ```
 
 
+::::: panel-tabset
+
+
+### WSI - Link
+
 
 
 
 :::: {.content-hidden when-format="pdf"}
 
 
+```{asis, echo = (language == "TR")}
+
+**Chromogenic in situ hybridization (CISH)**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_cish.png){width="25%"}](https://images.patolojiatlasi.com/her2-cish/cish.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/her2-cish/cish.html)
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**Chromogenic in situ hybridization (CISH)**
+
+![](./qrcodes/cish_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_cish.png){width="25%"}](https://images.patolojiatlasi.com/her2-cish/cish.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/her2-cish/cish.html)
+
+```
+
+
+
+
+::::
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Chromogenic in situ hybridization (CISH)**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_cish.png){width="25%"}](https://images.patolojiatlasi.com/her2-cish/cish.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/her2-cish/cish.html)
+
+```
 
 
 
@@ -350,20 +293,23 @@ if (!file.exists("./qrcodes/cish_qrcode.svg")) {
 
 
 
+```{asis, echo = (language == "EN")}
+
+**Chromogenic in situ hybridization (CISH)**
+
+![](./qrcodes/cish_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_cish.png){width="25%"}](https://images.patolojiatlasi.com/her2-cish/cish.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/her2-cish/cish.html)
+
+```
 
 
 
 ::::
 
 
-```{asis, echo = (language == "TR")}
-
-**Chromogenic in situ hybridization (CISH)**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_cish.png){width="25%"}](https://images.patolojiatlasi.com/her2-cish/cish.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/her2-cish/cish.html)
 
-```
+### WSI
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -376,13 +322,6 @@ Mikroskopik görüntüleri inceleyin:
 
 
 
-```{asis, echo = (language == "EN")}
-
-**Chromogenic in situ hybridization (CISH)**
-
-[![Click for Full Screen WSI](./screenshots/thumbnail_cish.png){width="25%"}](https://images.patolojiatlasi.com/her2-cish/cish.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/her2-cish/cish.html)
-
-```
 
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
@@ -392,3 +331,7 @@ See Microscopy with viewer:
 
 ```
 
+
+
+
+:::::

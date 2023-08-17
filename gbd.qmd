@@ -58,23 +58,34 @@ webshot2::webshot(
 
 
 ```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/GBD1-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/GBD1/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/GBD1-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
 
 
 
+::::: panel-tabset
 
+
+### WSI - Link
 
 
 :::: {.content-hidden when-format="pdf"}
 
+
+
+```{asis, echo = (language == "TR")}
+
+**pediatrik otopsi, beyin**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_GBD1.png){width="25%"}](https://images.patolojiatlasi.com/GBD1/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/GBD1/HE.html)
+```
 
 
 
@@ -88,6 +99,53 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 :::: {.content-visible when-format="pdf"}
 
 
+```{asis, echo = (language == "TR")}
+
+**pediatrik otopsi, beyin**
+
+![](./qrcodes/GBD1-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_GBD1.png){width="25%"}](https://images.patolojiatlasi.com/GBD1/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/GBD1/HE.html)
+```
+
+
+
+
+
+
+::::
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**pediatric autopsy, brain**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_GBD1.png){width="25%"}](https://images.patolojiatlasi.com/GBD1/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/GBD1/HE.html)
+
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**pediatric autopsy, brain**
+
+![](./qrcodes/GBD1-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_GBD1.png){width="25%"}](https://images.patolojiatlasi.com/GBD1/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/GBD1/HE.html)
+
+
+```
 
 
 
@@ -95,12 +153,8 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 ::::
 
 
-```{asis, echo = (language == "TR")}
 
-**pediatrik otopsi, beyin**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_GBD1.png){width="25%"}](https://images.patolojiatlasi.com/GBD1/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/GBD1/HE.html)
-```
+### WSI
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -112,15 +166,6 @@ Mikroskopik görüntüleri inceleyin:
 
 
 
-```{asis, echo = (language == "EN")}
-
-**pediatric autopsy, brain**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_GBD1.png){width="25%"}](https://images.patolojiatlasi.com/GBD1/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/GBD1/HE.html)
-
-
-```
-
 
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
@@ -131,7 +176,7 @@ See Microscopy with viewer:
 ```
 
 
-
+:::::
 
 
 
@@ -140,30 +185,6 @@ source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
 
 
 ```{asis, echo = (language == "TR")}
@@ -188,21 +209,73 @@ webshot2::webshot(
 
 
 ```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/GBD2-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/GBD/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/GBD2-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
 
 
 
+::::: panel-tabset
+
+
+### WSI - Link
 
 
 :::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**pediatrik otopsi**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_GBD2.png){width="25%"}](https://images.patolojiatlasi.com/GBD2/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/GBD2/HE.html)
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**pediatrik otopsi**
+
+
+![](./qrcodes/GBD2-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_GBD2.png){width="25%"}](https://images.patolojiatlasi.com/GBD2/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/GBD2/HE.html)
+```
+
+
+
+
+
+::::
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**pediatric autopsy**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_GBD2.png){width="25%"}](https://images.patolojiatlasi.com/GBD2/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/GBD2/HE.html)
+
+
+```
 
 
 
@@ -219,18 +292,23 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+```{asis, echo = (language == "EN")}
+
+**pediatric autopsy**
+
+![](./qrcodes/GBD2-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_GBD2.png){width="25%"}](https://images.patolojiatlasi.com/GBD2/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/GBD2/HE.html)
+
+
+```
+
+
+
 
 
 ::::
 
 
-```{asis, echo = (language == "TR")}
-
-**pediatrik otopsi**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_GBD2.png){width="25%"}](https://images.patolojiatlasi.com/GBD2/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/GBD2/HE.html)
-```
+### WSI
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -243,17 +321,6 @@ Mikroskopik görüntüleri inceleyin:
 
 
 
-```{asis, echo = (language == "EN")}
-
-**pediatric autopsy**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_GBD2.png){width="25%"}](https://images.patolojiatlasi.com/GBD2/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/GBD2/HE.html)
-
-
-```
-
-
-
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 See Microscopy with viewer: 
@@ -261,6 +328,9 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/GBD2/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
+
+:::::
+
 
 
 
@@ -271,30 +341,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
 
 
 ```{asis, echo = (language == "TR")}
@@ -319,12 +365,12 @@ webshot2::webshot(
 
 
 ```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/GBD3-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/GBD/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/GBD3-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -332,9 +378,66 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
 
 
 :::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**GBD3**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_GBD3.png){width="25%"}](https://images.patolojiatlasi.com/GBD3/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/GBD3/HE.html)
+```
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**GBD3**
+
+![](./qrcodes/GBD3-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_GBD3.png){width="25%"}](https://images.patolojiatlasi.com/GBD3/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/GBD3/HE.html)
+```
+
+
+
+
+
+
+::::
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**GBD3**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_GBD3.png){width="25%"}](https://images.patolojiatlasi.com/GBD3/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/GBD3/HE.html)
+
+
+```
 
 
 
@@ -350,18 +453,25 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+```{asis, echo = (language == "EN")}
+
+**GBD3**
+
+![](./qrcodes/GBD3-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_GBD3.png){width="25%"}](https://images.patolojiatlasi.com/GBD3/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/GBD3/HE.html)
+
+
+```
+
+
 
 
 
 ::::
 
 
-```{asis, echo = (language == "TR")}
 
-**GBD3**
+### WSI
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_GBD3.png){width="25%"}](https://images.patolojiatlasi.com/GBD3/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/GBD3/HE.html)
-```
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -374,16 +484,6 @@ Mikroskopik görüntüleri inceleyin:
 
 
 
-```{asis, echo = (language == "EN")}
-
-**GBD3**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_GBD3.png){width="25%"}](https://images.patolojiatlasi.com/GBD3/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/GBD3/HE.html)
-
-
-```
-
-
 
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
@@ -392,4 +492,7 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/GBD3/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
+
+
+:::::
 
