@@ -39,22 +39,112 @@ webshot2::webshot(delay = 20,
 
 
 ```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/intrapancreaticspleen-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/intrapancreaticspleen-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
 
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")}
+
+[![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_intrapancreaticspleen.png){width="25%"}](https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html)
+```
+
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")}
+
+![](./qrcodes/intrapancreaticspleen-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_intrapancreaticspleen.png){width="25%"}](https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html)
+```
+
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_intrapancreaticspleen.png){width="25%"}](https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html)
+[Click for Full Screen WSI](https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html)
+```
+
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+![](./qrcodes/intrapancreaticspleen-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_intrapancreaticspleen.png){width="25%"}](https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html)
+[Click for Full Screen WSI](https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html)
+```
+
+
+
+
+
+
+::::
+
+
+### WSI
 
 
 
@@ -83,35 +173,19 @@ Mikroskopik görüntüleri inceleyin:
 
 
 
+:::::
+
+
+
+
+
+
 
 ```{r language ectopic-adrenal, echo=FALSE, include=TRUE}
 source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
 
 
 ```{asis, echo = (language == "TR")}
@@ -133,12 +207,12 @@ webshot2::webshot(delay = 20,
 
 
 ```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/ectopic-adrenal-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/ectopic-adrenal/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/ectopic-adrenal-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -146,9 +220,24 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+::::: panel-tabset
+
+
+### WSI - Link
+
+
 
 :::: {.content-hidden when-format="pdf"}
 
+
+
+```{asis, echo = (language == "TR")}
+
+**Paratubal adneksiyal bölgede ektopik adrenal dokusu**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_ectopic-adrenal.png){width="25%"}](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html)
+
+```
 
 
 
@@ -163,20 +252,68 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+```{asis, echo = (language == "TR")}
+
+**Paratubal adneksiyal bölgede ektopik adrenal dokusu**
+
+
+![](./qrcodes/ectopic-adrenal-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_ectopic-adrenal.png){width="25%"}](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html)
+
+```
+
+
 
 
 
 ::::
 
 
-```{asis, echo = (language == "TR")}
-
-**Paratubal adneksiyal bölgede ektopik adrenal dokusu**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_ectopic-adrenal.png){width="25%"}](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html)
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Ectopic adrenal tissue in paratubal adnexal region**
+
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_ectopic-adrenal.png){width="25%"}](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html)
 
 ```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Ectopic adrenal tissue in paratubal adnexal region**
+
+
+![](./qrcodes/ectopic-adrenal-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_ectopic-adrenal.png){width="25%"}](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html)
+
+```
+
+
+
+
+
+::::
+
+
+### WSI
+
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -188,15 +325,6 @@ Mikroskopik görüntüleri inceleyin:
 ```
 
 
-```{asis, echo = (language == "EN")}
-
-**Ectopic adrenal tissue in paratubal adnexal region**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_ectopic-adrenal.png){width="25%"}](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html)
-
-```
-
 
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
@@ -205,3 +333,11 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/ectopic-adrenal/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
+
+
+
+:::::
+
+
+
+

@@ -18,27 +18,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -64,12 +43,12 @@ webshot2::webshot(
 
 
 ```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/hodgkin-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/hodgkin/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/hodgkin-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -77,10 +56,26 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+::::: panel-tabset
+
+
+### WSI - Link
+
+
 
 :::: {.content-hidden when-format="pdf"}
 
 
+
+
+```{asis, echo = (language == "TR")}
+
+**Hodgkin Lenfoma**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_hodgkin.png){width="25%"}](https://images.patolojiatlasi.com/hodgkin/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hodgkin/HE.html)
+
+```
 
 
 
@@ -94,20 +89,65 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+```{asis, echo = (language == "TR")}
+
+**Hodgkin Lenfoma**
+
+
+![](./qrcodes/hodgkin-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_hodgkin.png){width="25%"}](https://images.patolojiatlasi.com/hodgkin/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hodgkin/HE.html)
+
+```
+
+
 
 
 
 ::::
 
 
-```{asis, echo = (language == "TR")}
-
-**Hodgkin Lenfoma**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_hodgkin.png){width="25%"}](https://images.patolojiatlasi.com/hodgkin/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hodgkin/HE.html)
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Hodgkin Lymphoma**
+
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_hodgkin.png){width="25%"}](https://images.patolojiatlasi.com/hodgkin/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hodgkin/HE.html)
 
 ```
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Hodgkin Lymphoma**
+
+
+![](./qrcodes/hodgkin-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_hodgkin.png){width="25%"}](https://images.patolojiatlasi.com/hodgkin/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hodgkin/HE.html)
+
+```
+
+
+::::
+
+
+### WSI
+
+
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -118,14 +158,6 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-```{asis, echo = (language == "EN")}
-
-**Hodgkin Lymphoma**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_hodgkin.png){width="25%"}](https://images.patolojiatlasi.com/hodgkin/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hodgkin/HE.html)
-
-```
 
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
@@ -134,3 +166,10 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/hodgkin/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
+
+
+
+:::::
+
+
+
