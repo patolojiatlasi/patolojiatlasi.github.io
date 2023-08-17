@@ -18,29 +18,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
 ```{asis, echo = (language == "TR")}
 
 **Bu sayfadaki vakalar Prof. Dr. İpek Çoban Elbeği'nin koleksiyonundan alınmıştır.**
@@ -54,30 +31,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
 
 
 ```{asis, echo = (language == "TR")}
@@ -127,12 +80,12 @@ webshot2::webshot(
 
 
 ```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/ICE1-WDNET-duodenum-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/ICE1-WDNET-duodenum/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/ICE1-WDNET-duodenum-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -147,17 +100,17 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-
-
-
-
-
-
-
 :::: {.content-hidden when-format="pdf"}
 
 
 
+
+```{asis, echo = (language == "TR")}
+
+**Duodenum WDNET**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_ICE1-WDNET-duodenum-HE.png){width="25%"}](https://images.patolojiatlasi.com/ICE1-WDNET-duodenum/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ICE1-WDNET-duodenum/HE.html)
+```
 
 
 ::::
@@ -169,11 +122,6 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 :::: {.content-visible when-format="pdf"}
 
 
-
-
-
-
-::::
 
 
 ```{asis, echo = (language == "TR")}
@@ -181,25 +129,26 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **Duodenum WDNET**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_ICE1-WDNET-duodenum-HE.png){width="25%"}](https://images.patolojiatlasi.com/ICE1-WDNET-duodenum/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ICE1-WDNET-duodenum/HE.html)
-```
-
-```{asis, echo = (language == "EN")}
-
-**Duodenum WDNET**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_ICE1-WDNET-duodenum-HE.png){width="25%"}](https://images.patolojiatlasi.com/ICE1-WDNET-duodenum/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ICE1-WDNET-duodenum/HE.html)
-
+![](./qrcodes/ICE1-WDNET-duodenum-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_ICE1-WDNET-duodenum-HE.png){width="25%"}](https://images.patolojiatlasi.com/ICE1-WDNET-duodenum/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ICE1-WDNET-duodenum/HE.html)
 ```
 
 
 
+::::
 
 
 
 
 :::: {.content-hidden when-format="pdf"}
 
+
+```{asis, echo = (language == "EN")}
+
+**Duodenum WDNET**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_ICE1-WDNET-duodenum-HE.png){width="25%"}](https://images.patolojiatlasi.com/ICE1-WDNET-duodenum/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ICE1-WDNET-duodenum/HE.html)
+
+```
 
 
 
@@ -213,11 +162,23 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 :::: {.content-visible when-format="pdf"}
 
 
+```{asis, echo = (language == "EN")}
+
+**Duodenum WDNET**
+
+![](./qrcodes/ICE1-WDNET-duodenum-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_ICE1-WDNET-duodenum-HE.png){width="25%"}](https://images.patolojiatlasi.com/ICE1-WDNET-duodenum/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ICE1-WDNET-duodenum/HE.html)
+
+```
+
 
 
 
 
 ::::
+
+
+
+
 
 
 
@@ -256,29 +217,6 @@ See Microscopy with viewer:
 ### Diagnosis
 
 
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
 
 
 ```{asis, echo = (language == "TR")}

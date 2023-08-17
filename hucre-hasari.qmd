@@ -18,28 +18,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
 ```{asis, echo = (language == "TR")}
 # Hücre Hasarı {#sec-hucre-hasari} 
 
@@ -65,12 +43,12 @@ webshot2::webshot(delay = 20,
 
 
 ```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/reactive-atypia-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/reactive-atypia/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/reactive-atypia-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -78,9 +56,24 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+::::: panel-tabset
+
+
+### WSI - Link
+
+
 
 :::: {.content-hidden when-format="pdf"}
 
+
+
+```{asis, echo = (language == "TR")}
+
+**Reaktif Atipi, ülsere kolon polibi**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_reactive-atypia.png){width="25%"}](https://images.patolojiatlasi.com/reactive-atypia/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/reactive-atypia/HE.html)
+
+```
 
 
 
@@ -96,19 +89,66 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-
-
-::::
-
-
 ```{asis, echo = (language == "TR")}
 
 **Reaktif Atipi, ülsere kolon polibi**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_reactive-atypia.png){width="25%"}](https://images.patolojiatlasi.com/reactive-atypia/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/reactive-atypia/HE.html)
+![](./qrcodes/reactive-atypia-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_reactive-atypia.png){width="25%"}](https://images.patolojiatlasi.com/reactive-atypia/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/reactive-atypia/HE.html)
 
 ```
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Reactive atypia in an ulcerated colon polyp**
+
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_reactive-atypia.png){width="25%"}](https://images.patolojiatlasi.com/reactive-atypia/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/reactive-atypia/HE.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Reactive atypia in an ulcerated colon polyp**
+
+
+![](./qrcodes/reactive-atypia-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_reactive-atypia.png){width="25%"}](https://images.patolojiatlasi.com/reactive-atypia/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/reactive-atypia/HE.html)
+
+```
+
+
+
+
+::::
+
+
+### WSI
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -119,14 +159,6 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-```{asis, echo = (language == "EN")}
-
-**Reactive atypia in an ulcerated colon polyp**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_reactive-atypia.png){width="25%"}](https://images.patolojiatlasi.com/reactive-atypia/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/reactive-atypia/HE.html)
-
-```
 
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
@@ -135,3 +167,10 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/reactive-atypia/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
+
+
+:::::
+
+
+
+
