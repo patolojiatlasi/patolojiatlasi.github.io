@@ -19,7 +19,9 @@ if (dir.exists(paths = "./_freeze_TR_pdf")) {
                overwrite = TRUE)
 }
 
-patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx")
+patolojiatlasi_histopathologyatlas <- readxl::read_excel(
+  path = "./patolojiatlasi_histopathologyatlas.xlsx",
+  sheet = "chapters")
 
 patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "TR_pdf_chapter_qmd")]
 
@@ -70,10 +72,23 @@ xfun::gsub_files(files = qmd_pdf_TR_files,
                  pattern = '\\!\\[\\]\\(\\.\\/qrcodes\\/\\{\\{template\\}\\}-\\{\\{stain\\}\\}_qrcode.svg\\)\\{width="15%"\\}',
                  replacement = "")
 
-xfun::gsub_files(files = "./bs_pdf_EN.qmd",
-                 pattern = ".qmd",
-                 replacement = "_pdf_EN.qmd"
-                 )
+
+# gsub_file_names <- readxl::read_excel(
+#   path = "patolojiatlasi_histopathologyatlas.xlsx",
+#   sheet = "file_names")
+
+
+# xfun::gsub_files(files = gsub_file_names$gsub_files_pdf_TR,
+#                  pattern = ".qmd",
+#                  replacement = "_pdf_TR.qmd"
+#                  )
+
+xfun::gsub_files(files = qmd_pdf_TR_files,
+                 pattern = ".qmd >}}",
+                 replacement = "_pdf_TR.qmd >}}"
+)
+
+
 
 # render TR pdf ----
 
@@ -97,9 +112,9 @@ if (dir.exists(paths = "./_freeze")) {
 }
 
 
-
-
-patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx")
+patolojiatlasi_histopathologyatlas <- readxl::read_excel(
+  path = "./patolojiatlasi_histopathologyatlas.xlsx",
+  sheet = "chapters")
 
 patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "TR_pdf_chapter_qmd")]
 

@@ -67,7 +67,8 @@ fs::dir_copy(path = "./_freeze_EN",
 
 # https://chat.openai.com/share/20462a5b-e72e-4e0c-a5bc-aff81517b40a
 
-patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx")
+patolojiatlasi_histopathologyatlas <- readxl::read_excel(path = "./patolojiatlasi_histopathologyatlas.xlsx",
+                                                         sheet = "chapters")
 
 patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_chapter_qmd")]
 
@@ -103,7 +104,7 @@ fs::dir_copy(path = "./_freeze",
              overwrite = TRUE)
 }
 
-patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx")
+patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx", sheet = "chapters")
 
 patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_chapter_qmd")]
 

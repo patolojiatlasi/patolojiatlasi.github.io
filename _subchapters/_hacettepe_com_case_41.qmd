@@ -157,14 +157,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-```{asis  , echo = (language == "TR")}
-## template - TemplateTR {#sec-template }
-```
 
 
-```{asis  , echo = (language == "EN")}
-## template - TemplateEN {#sec-template }
-```
+
+
 
 
 
