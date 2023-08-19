@@ -43,7 +43,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 -   [case 3](https://www.youtube.com/watch?v=JGDsmznBqZM&ab_channel=KemalKosemehmetoglu) [case 3, scopy](https://www.youtube.com/watch?v=yKnEyGE4oD4&ab_channel=KemalKosemehmetoglu)
 
 
-::::: panel-tabset
+ 
 
 
 
@@ -53,7 +53,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-### Diagnosis
+
 
 
 
@@ -87,7 +87,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 **hacettepe-com-case-3**
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
-### Tanı için tıklayın
+### Tanı
 
 Rhabdomyosarcoma of Bladder
 
@@ -102,7 +102,7 @@ Rhabdomyosarcoma of Bladder
 **hacettepe-com-case-3**
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
-### Click for Diagnosis
+
 
 Rhabdomyosarcoma of Bladder
 
@@ -173,7 +173,7 @@ Rhabdomyosarcoma of Bladder
 
 
 
-:::::
+
 
 
 
@@ -276,10 +276,10 @@ if (!file.exists("./qrcodes/template-HE2_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -420,7 +420,7 @@ if (!file.exists("./qrcodes/template-HE2_qrcode.svg")) {
 
 
 
-### WSI
+
 
 
 
@@ -478,7 +478,7 @@ See Microscopy with viewer:
 
 
 
-:::::
+
 
 
 

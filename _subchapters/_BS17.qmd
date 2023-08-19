@@ -61,10 +61,10 @@ if (!file.exists("./qrcodes/BS17-HE_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -163,7 +163,7 @@ if (!file.exists("./qrcodes/BS17-HE_qrcode.svg")) {
 
 
 
-### WSI
+
 
 
 
@@ -195,7 +195,7 @@ See Microscopy with viewer:
 
 
 
-### Diagnosis
+
 
 
 
@@ -227,7 +227,7 @@ See Microscopy with viewer:
 
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
-### Tanı için tıklayın
+### Tanı
 
 CMV hepatiti, karaciğer
 
@@ -241,7 +241,7 @@ CMV hepatiti, karaciğer
 
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
-### Click for Diagnosis
+
 
 CMV hepatitis, liver
 
@@ -257,7 +257,7 @@ CMV hepatitis, liver
 
 
 
-:::::
+
 
 
 

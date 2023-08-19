@@ -84,57 +84,11 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-::::: panel-tabset
-
-
-### WSI - Link
+ 
 
 
 
 
-
-
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-```{asis, echo = (language == "TR")}
-
-**cryptosporidium**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS31-HE1.png){width="25%"}](https://images.patolojiatlasi.com/BS31/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS31/HE1.html)
-```
-
-```{asis, echo = (language == "EN")}
-
-**cryptosporidium**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_BS31-HE1.png){width="25%"}](https://images.patolojiatlasi.com/BS31/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS31/HE1.html)
-
-```
 
 
 
@@ -171,14 +125,60 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **cryptosporidium**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS31-HE2.png){width="25%"}](https://images.patolojiatlasi.com/BS31/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS31/HE2.html)
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS31-HE1.png){width="25%"}](https://images.patolojiatlasi.com/BS31/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS31/HE1.html)
 ```
 
 ```{asis, echo = (language == "EN")}
 
 **cryptosporidium**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_BS31-HE2.png){width="25%"}](https://images.patolojiatlasi.com/BS31/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS31/HE2.html)
+ [![Click for Full Screen WSI](./screenshots/thumbnail_BS31-HE1.png){width="25%"}](https://images.patolojiatlasi.com/BS31/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS31/HE1.html)
+
+```
+
+
+
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+```{asis, echo = (language == "TR")}
+
+**cryptosporidium**
+
+
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS31-HE2.png){width="25%"}](https://images.patolojiatlasi.com/BS31/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS31/HE2.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**cryptosporidium**
+
+ [![Click for Full Screen WSI](./screenshots/thumbnail_BS31-HE2.png){width="25%"}](https://images.patolojiatlasi.com/BS31/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS31/HE2.html)
 
 ```
 
@@ -211,7 +211,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-### WSI
+
 
 
 
@@ -268,7 +268,7 @@ See Microscopy with viewer:
 
 
 
-### Diagnosis
+
 
 
 
@@ -300,7 +300,7 @@ See Microscopy with viewer:
 
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
-### Tanı için tıklayın
+### Tanı
 
 cryptosporidium
 
@@ -314,7 +314,7 @@ cryptosporidium
 
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
-### Click for Diagnosis
+
 
 cryptosporidium
 
@@ -330,7 +330,7 @@ cryptosporidium
 
 
 
-:::::
+
 
 
 

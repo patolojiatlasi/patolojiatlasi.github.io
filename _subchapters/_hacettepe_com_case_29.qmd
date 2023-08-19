@@ -46,7 +46,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-::::: panel-tabset
+ 
 
 
 
@@ -56,7 +56,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-### Diagnosis
+
 
 
 
@@ -90,7 +90,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
-### Tanı için tıklayın
+### Tanı
 
 parosteal OGS
 
@@ -107,7 +107,7 @@ parosteal OGS
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
-### Click for Diagnosis
+
 
 parosteal OGS
 
@@ -166,7 +166,7 @@ parosteal OGS
 :::
 
 
-:::::
+
 
 
 
@@ -275,10 +275,10 @@ if (!file.exists("./qrcodes/template-HE2_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -419,7 +419,7 @@ if (!file.exists("./qrcodes/template-HE2_qrcode.svg")) {
 
 
 
-### WSI
+
 
 
 
@@ -477,7 +477,7 @@ See Microscopy with viewer:
 
 
 
-:::::
+
 
 
 

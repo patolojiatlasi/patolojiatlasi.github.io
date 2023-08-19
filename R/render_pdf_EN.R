@@ -53,19 +53,19 @@ xfun::gsub_files(files = qmd_pdf_EN_files,
 
 
 xfun::gsub_files(files = qmd_pdf_EN_files,
-                 pattern = "### WSI - Link",
+                 pattern = "#+\\s*WSI - Link",
                  replacement = "")
 
 xfun::gsub_files(files = qmd_pdf_EN_files,
-                 pattern = "### WSI",
+                 pattern = "#+\\s*WSI",
                  replacement = "")
 
 xfun::gsub_files(files = qmd_pdf_EN_files,
-                 pattern = "### Diagnosis",
+                 pattern = "#+\\s*Diagnosis",
                  replacement = "")
 
 xfun::gsub_files(files = qmd_pdf_EN_files,
-                 pattern = "### Click for Diagnosis",
+                 pattern = "#+\\s*Click for Diagnosis",
                  replacement = "### Diagnosis")
 
 xfun::gsub_files(files = qmd_pdf_EN_files,
@@ -73,10 +73,18 @@ xfun::gsub_files(files = qmd_pdf_EN_files,
                  replacement = "")
 
 
-xfun::gsub_files(files = "./bs_pdf_TR.qmd",
-                 pattern = ".qmd",
-                 replacement = "_pdf_TR.qmd"
+# xfun::gsub_files(files = "./bs_pdf_TR.qmd",
+#                  pattern = ".qmd",
+#                  replacement = "_pdf_TR.qmd"
+# )
+
+
+xfun::gsub_files(files = qmd_pdf_EN_files,
+                 pattern = ".qmd >}}",
+                 replacement = "_pdf_EN.qmd >}}"
 )
+
+
 
 
 # render EN pdf ----

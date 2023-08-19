@@ -43,7 +43,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
     40](https://www.youtube.com/watch?v=In97sPfT9w4&ab_channel=KemalKosemehmetoglu)
 
 
-::::: panel-tabset
+ 
 
 
 
@@ -100,7 +100,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 :::
 
 
-:::::
+
 
 
 
@@ -182,10 +182,10 @@ if (!file.exists("./qrcodes/template-HE2_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -326,7 +326,7 @@ if (!file.exists("./qrcodes/template-HE2_qrcode.svg")) {
 
 
 
-### WSI
+
 
 
 
@@ -384,7 +384,7 @@ See Microscopy with viewer:
 
 
 
-:::::
+
 
 
 

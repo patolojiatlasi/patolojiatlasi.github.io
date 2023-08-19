@@ -61,10 +61,10 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -102,14 +102,14 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **lenfanjiektazi duodenum**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS27-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS27/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS27/HE.html)
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS27-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS27/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS27/HE.html)
 ```
 
 ```{asis, echo = (language == "EN")}
 
 **lymphangiectasia duodenum**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_BS27-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS27/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS27/HE.html)
+ [![Click for Full Screen WSI](./screenshots/thumbnail_BS27-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS27/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS27/HE.html)
 
 ```
 
@@ -142,7 +142,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-### WSI
+
 
 
 
@@ -175,7 +175,7 @@ See Microscopy with viewer:
 
 
 
-:::::
+
 
 
 

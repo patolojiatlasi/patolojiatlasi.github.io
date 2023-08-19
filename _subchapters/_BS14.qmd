@@ -61,10 +61,10 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -102,14 +102,14 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **miksoid adenoma, karaciğer**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS14-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS14/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS14/HE.html)
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS14-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS14/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS14/HE.html)
 ```
 
 ```{asis, echo = (language == "EN")}
 
 **myxoid adenomatosis, liver**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_BS14-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS14/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS14/HE.html)
+ [![Click for Full Screen WSI](./screenshots/thumbnail_BS14-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS14/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS14/HE.html)
 
 ```
 
@@ -142,7 +142,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-### WSI
+
 
 
 
@@ -174,7 +174,7 @@ See Microscopy with viewer:
 
 
 
-### Diagnosis
+
 
 
 
@@ -206,7 +206,7 @@ See Microscopy with viewer:
 
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
-### Tanı için tıklayın
+### Tanı
 
 miksoid adenoma, karaciğer
 
@@ -220,7 +220,7 @@ miksoid adenoma, karaciğer
 
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
-### Click for Diagnosis
+
 
 myxoid adenomatosis, liver
 
@@ -236,7 +236,7 @@ myxoid adenomatosis, liver
 
 
 
-:::::
+
 
 
 

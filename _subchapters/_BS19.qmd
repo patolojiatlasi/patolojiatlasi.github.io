@@ -62,10 +62,10 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -103,14 +103,14 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **psödoinklüzyon, ilaç etkisi, karaciğer, KİT hastası**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS19-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS19/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS19/HE.html)
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS19-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS19/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS19/HE.html)
 ```
 
 ```{asis, echo = (language == "EN")}
 
 **pseudoinclusion, drug-induced injury, liver, bone marrow transplantation history**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_BS19-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS19/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS19/HE.html)
+ [![Click for Full Screen WSI](./screenshots/thumbnail_BS19-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS19/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS19/HE.html)
 
 ```
 
@@ -143,7 +143,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-### WSI
+
 
 
 
@@ -175,7 +175,7 @@ See Microscopy with viewer:
 
 
 
-### Diagnosis
+
 
 
 
@@ -207,7 +207,7 @@ See Microscopy with viewer:
 
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
-### Tanı için tıklayın
+### Tanı
 
 psödoinklüzyon, ilaç etkisi, karaciğer, KİT hastası
 
@@ -221,7 +221,7 @@ psödoinklüzyon, ilaç etkisi, karaciğer, KİT hastası
 
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
-### Click for Diagnosis
+
 
 pseudoinclusion, drug-induced injury, liver, bone marrow transplantation history
 
@@ -237,7 +237,7 @@ pseudoinclusion, drug-induced injury, liver, bone marrow transplantation history
 
 
 
-:::::
+
 
 
 

@@ -66,10 +66,10 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -107,14 +107,14 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **nekrotizan sialometaplazi, SCC sonrası radyoterapi**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS7-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS7/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS7/HE.html)
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS7-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS7/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS7/HE.html)
 ```
 
 ```{asis, echo = (language == "EN")}
 
 **necrotising sialometaplasia, radiotherapy after SCC**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_BS7-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS7/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS7/HE.html)
+ [![Click for Full Screen WSI](./screenshots/thumbnail_BS7-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS7/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS7/HE.html)
 
 ```
 
@@ -147,7 +147,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-### WSI
+
 
 
 
@@ -180,7 +180,7 @@ See Microscopy with viewer:
 
 
 
-:::::
+
 
 
 

@@ -68,10 +68,10 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -100,14 +100,14 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+ [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_hacettepe-com-case-6.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-6/HE.html) [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-6/HE.html) 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen
+ [![Click for Full Screen
 WSI](./screenshots/thumbnail_hacettepe-com-case-6.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-6/HE.html)
 [Click for Full Screen
 WSI](https://images.patolojiatlasi.com/hacettepe-com-case-6/HE.html)
@@ -138,7 +138,7 @@ WSI](https://images.patolojiatlasi.com/hacettepe-com-case-6/HE.html)
 
 
 
-### WSI
+
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -159,7 +159,7 @@ See Microscopy with viewer:
 
 ```
 
-### Diagnosis
+
 
 
 
@@ -192,7 +192,7 @@ See Microscopy with viewer:
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
-### Tanı için tıklayın
+### Tanı
 
 Hybrid hemosiderotic fibrolipomatous tumor - myxoinflammatory
 
@@ -209,7 +209,7 @@ Hybrid hemosiderotic fibrolipomatous tumor - myxoinflammatory
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
-### Tanı için tıklayın
+### Tanı
 
 Hybrid hemosiderotic fibrolipomatous tumor - myxoinflammatory
 
@@ -272,7 +272,7 @@ Hybrid hemosiderotic fibrolipomatous tumor - myxoinflammatory
 :::
 
 
-:::::
+
 
 
 
@@ -377,10 +377,10 @@ if (!file.exists("./qrcodes/template-HE2_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -521,7 +521,7 @@ if (!file.exists("./qrcodes/template-HE2_qrcode.svg")) {
 
 
 
-### WSI
+
 
 
 
@@ -579,7 +579,7 @@ See Microscopy with viewer:
 
 
 
-:::::
+
 
 
 

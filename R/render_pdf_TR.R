@@ -53,19 +53,19 @@ xfun::gsub_files(files = qmd_pdf_TR_files,
 
 
 xfun::gsub_files(files = qmd_pdf_TR_files,
-                 pattern = "### WSI - Link",
+                 pattern = "#+\\s*WSI - Link",
                  replacement = "")
 
 xfun::gsub_files(files = qmd_pdf_TR_files,
-                 pattern = "### WSI",
+                 pattern = "#+\\s*WSI",
                  replacement = "")
 
 xfun::gsub_files(files = qmd_pdf_TR_files,
-                 pattern = "### Diagnosis",
+                 pattern = "#+\\s*Diagnosis",
                  replacement = "")
 
 xfun::gsub_files(files = qmd_pdf_TR_files,
-                 pattern = "### Tanı için tıklayın",
+                 pattern = "#+\\s*Tanı için tıklayın",
                  replacement = "### Tanı")
 
 xfun::gsub_files(files = qmd_pdf_TR_files,
