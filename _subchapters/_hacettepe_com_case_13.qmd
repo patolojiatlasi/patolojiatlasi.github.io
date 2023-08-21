@@ -80,6 +80,15 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
 :::: {.content-hidden when-format="pdf"}
 
 
@@ -100,6 +109,42 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 ::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+:::::
+
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -125,6 +170,15 @@ WSI](https://images.patolojiatlasi.com/hacettepe-com-case-13/HE.html)
 
 
 
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
 :::: {.content-hidden when-format="pdf"}
 
 
@@ -145,6 +199,42 @@ WSI](https://images.patolojiatlasi.com/hacettepe-com-case-13/HE.html)
 
 
 ::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+:::::
+
+
+
+
 
 
 
@@ -182,6 +272,15 @@ See Microscopy with viewer:
 
 
 
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
 :::: {.content-hidden when-format="pdf"}
 
 
@@ -202,6 +301,42 @@ See Microscopy with viewer:
 
 
 ::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+:::::
+
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -243,6 +378,15 @@ intranodal pallisading myofibroblastoma
 
 
 
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
 :::: {.content-hidden when-format="pdf"}
 
 
@@ -263,6 +407,42 @@ intranodal pallisading myofibroblastoma
 
 
 ::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+:::::
+
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -297,6 +477,15 @@ intranodal pallisading myofibroblastoma
 
 
 
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
 :::: {.content-hidden when-format="pdf"}
 
 
@@ -317,6 +506,42 @@ intranodal pallisading myofibroblastoma
 
 
 ::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+:::::
+
+
+
+
 
 
 

@@ -60,6 +60,15 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
 :::: {.content-hidden when-format="pdf"}
 
 
@@ -80,6 +89,42 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+:::::
+
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -122,6 +167,15 @@ AML M3
 
 
 
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
 :::: {.content-hidden when-format="pdf"}
 
 
@@ -142,6 +196,42 @@ AML M3
 
 
 ::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+:::::
+
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -174,6 +264,15 @@ AML M3
 
 
 
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
 :::: {.content-hidden when-format="pdf"}
 
 
@@ -194,6 +293,42 @@ AML M3
 
 
 ::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+:::::
+
+
+
+
 
 
 ```{asis  , echo = (language == "TR")}

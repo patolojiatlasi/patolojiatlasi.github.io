@@ -130,6 +130,15 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
 :::: {.content-hidden when-format="pdf"}
 
 
@@ -150,6 +159,42 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 ::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+:::::
+
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -176,6 +221,15 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
 :::: {.content-hidden when-format="pdf"}
 
 
@@ -196,6 +250,42 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 ::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+:::::
+
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -222,6 +312,15 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
 :::: {.content-hidden when-format="pdf"}
 
 
@@ -242,6 +341,42 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 ::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+:::::
+
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -266,6 +401,15 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
 :::: {.content-hidden when-format="pdf"}
 
 
@@ -286,6 +430,42 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 ::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+:::::
+
+
+
+
 
 
 
@@ -377,6 +557,15 @@ See Microscopy with viewer:
 
 
 
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
 :::: {.content-hidden when-format="pdf"}
 
 
@@ -397,6 +586,42 @@ See Microscopy with viewer:
 
 
 ::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+:::::
+
+
+
+
 
 
 ```{asis, echo = (language == "TR")}

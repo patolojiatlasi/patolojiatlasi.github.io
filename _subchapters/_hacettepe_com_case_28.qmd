@@ -103,6 +103,15 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
 :::: {.content-hidden when-format="pdf"}
 
 
@@ -123,6 +132,42 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 ::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+:::::
+
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -138,6 +183,15 @@ Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE1.html)
 
 
 
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
 :::: {.content-hidden when-format="pdf"}
 
 
@@ -158,6 +212,42 @@ Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE1.html)
 
 
 ::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+:::::
+
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -189,6 +279,15 @@ WSI](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE2.html)
 
 
 
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
 :::: {.content-hidden when-format="pdf"}
 
 
@@ -209,6 +308,42 @@ WSI](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE2.html)
 
 
 ::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+:::::
+
+
+
+
 
 
 
@@ -263,6 +398,15 @@ See Microscopy with viewer:
 
 
 
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
 :::: {.content-hidden when-format="pdf"}
 
 
@@ -283,6 +427,42 @@ See Microscopy with viewer:
 
 
 ::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+:::::
+
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -321,6 +501,15 @@ ANNUBP
 
 
 
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
 :::: {.content-hidden when-format="pdf"}
 
 
@@ -341,6 +530,42 @@ ANNUBP
 
 
 ::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+:::::
+
+
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -377,6 +602,15 @@ ANNUBP
 
 
 
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
 :::: {.content-hidden when-format="pdf"}
 
 
@@ -397,6 +631,42 @@ ANNUBP
 
 
 ::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+:::::
+
+
+
+
 
 ```{asis  , echo = (language == "TR")}
 ## template - TemplateTR {#sec-template }
