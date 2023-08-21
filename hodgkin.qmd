@@ -42,7 +42,7 @@ webshot2::webshot(
 ```
 
 
-```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/hodgkin-HE_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/hodgkin/HE.html")

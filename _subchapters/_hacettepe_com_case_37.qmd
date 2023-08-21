@@ -44,13 +44,13 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-::::: panel-tabset
+ 
 
 
 
 
 
-### Diagnosis
+
 
 
 
@@ -131,7 +131,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
-### Tanı için tıklayın
+### Tanı
 
 epitheloid MPNST
 
@@ -149,7 +149,7 @@ epitheloid MPNST
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
-### Click for Diagnosis
+
 
 epitheloid MPNST
 
@@ -254,7 +254,7 @@ epitheloid MPNST
 :::
 
 
-:::::
+
 
 
 
@@ -339,9 +339,8 @@ epitheloid MPNST
 ```
 
 
-```{asis  , echo = (language == "EN")}
-## template - TemplateEN {#sec-template }
-```
+
+
 
 
 
@@ -413,10 +412,10 @@ if (!file.exists("./qrcodes/template-HE2_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -557,7 +556,7 @@ if (!file.exists("./qrcodes/template-HE2_qrcode.svg")) {
 
 
 
-### WSI
+
 
 
 
@@ -615,7 +614,7 @@ See Microscopy with viewer:
 
 
 
-:::::
+
 
 
 

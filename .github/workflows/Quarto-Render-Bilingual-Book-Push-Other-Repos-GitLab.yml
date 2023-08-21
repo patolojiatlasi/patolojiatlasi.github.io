@@ -155,7 +155,7 @@ jobs:
           fs::file_copy(path = "./_quarto_EN.yml", new_path = "./_quarto.yml", overwrite = TRUE)
           fs::file_copy(path = "./R/languageEN.R", new_path = "./R/language.R",overwrite = TRUE)
           # EN qmd
-          patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx")
+          patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx", sheet = "chapters")
           patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_chapter_qmd")]
           patolojiatlasi_histopathologyatlas$TR_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_chapter_qmd, ".qmd")
           patolojiatlasi_histopathologyatlas$EN_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$EN_chapter_qmd, ".qmd")
@@ -181,7 +181,7 @@ jobs:
           fs::file_copy(path = "./CNAME-histopathologyatlas", new_path = "./_EN/CNAME", overwrite = TRUE)
           if (dir.exists(paths = "./_EN/public")) {fs::dir_delete(path = "./_EN/public")}
           if (dir.exists(paths = "./_EN/docs")) {fs::dir_delete(path = "./_EN/docs")}
-          patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx")
+          patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx", sheet = "chapters")
           patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_chapter_qmd")]
           `%>%` <- magrittr::`%>%`
           patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas %>%

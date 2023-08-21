@@ -57,7 +57,7 @@ webshot2::webshot(
 
 
 
-```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/GBD1-HE_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/GBD1/HE.html")
@@ -208,7 +208,7 @@ webshot2::webshot(
 
 
 
-```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/GBD2-HE_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/GBD/HE.html")
@@ -364,7 +364,7 @@ webshot2::webshot(
 
 
 
-```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/GBD3-HE_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/GBD/HE.html")

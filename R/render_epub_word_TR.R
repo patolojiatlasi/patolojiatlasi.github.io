@@ -20,7 +20,7 @@ if (dir.exists(paths = "./_freeze_TR_epub_word")) {
                overwrite = TRUE)
 }
 
-patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx")
+patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx", sheet = "chapters")
 
 patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "TR_epub_word_chapter_qmd")]
 
@@ -53,15 +53,15 @@ xfun::gsub_files(files = qmd_epub_word_TR_files,
 
 
 xfun::gsub_files(files = qmd_epub_word_TR_files,
-                 pattern = "### WSI - Link",
+                 pattern = "#+\\s*WSI - Link",
                  replacement = "")
 
 xfun::gsub_files(files = qmd_epub_word_TR_files,
-                 pattern = "### WSI",
+                 pattern = "#+\\s*WSI",
                  replacement = "")
 
 xfun::gsub_files(files = qmd_epub_word_TR_files,
-                 pattern = "### Diagnosis",
+                 pattern = "#+\\s*Diagnosis",
                  replacement = "")
 
 # xfun::gsub_files(files = qmd_epub_word_TR_files,
@@ -69,7 +69,7 @@ xfun::gsub_files(files = qmd_epub_word_TR_files,
 #                  replacement = "")
 
 xfun::gsub_files(files = qmd_epub_word_TR_files,
-                 pattern = "### Tanı için tıklayın",
+                 pattern = "#+\\s*Tanı için tıklayın",
                  replacement = "### Tanı")
 
 # xfun::gsub_files(files = qmd_epub_word_TR_files,
@@ -83,9 +83,10 @@ xfun::gsub_files(files = qmd_epub_word_TR_files,
                  pattern = '\\!\\[\\]\\(\\.\\/qrcodes\\/\\{\\{template\\}\\}-\\{\\{stain\\}\\}_qrcode.svg\\)\\{width="15%"\\}',
                  replacement = "")
 
-xfun::gsub_files(files = "./bs_epub_word_TR.qmd",
-                 pattern = ".qmd",
-                 replacement = "_epub_word_TR.qmd"
+
+xfun::gsub_files(files = qmd_epub_word_TR_files,
+                 pattern = ".qmd >}}",
+                 replacement = "_epub_word_TR.qmd >}}"
 )
 
 
@@ -114,7 +115,7 @@ if (dir.exists(paths = "./_freeze")) {
 
 
 
-patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx")
+patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx", sheet = "chapters")
 
 patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "TR_epub_word_chapter_qmd")]
 

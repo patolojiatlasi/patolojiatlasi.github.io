@@ -46,7 +46,7 @@ webshot2::webshot(
 
 
 
-```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
@@ -73,7 +73,7 @@ webshot2::webshot(
 
 
 
-```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
@@ -87,102 +87,11 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
 
 
-
-
-
-
-
-
-
-
-
-
-::::: panel-tabset
-
-
-### WSI - Link
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-### WSI
-
-
-
-
-:::::
-
-
-
-
-
-
-```{asis, echo = (language == "TR")}
-
-**granüler hücreli tümör, kolon**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS10-HE1.png){width="25%"}](https://images.patolojiatlasi.com/BS10/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS10/HE1.html)
-```
-
-```{asis, echo = (language == "EN")}
-
-**granular cell tumor, colon**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_BS10-HE1.png){width="25%"}](https://images.patolojiatlasi.com/BS10/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS10/HE1.html)
-
-```
 
 
 
@@ -264,14 +173,105 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **granüler hücreli tümör, kolon**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS10-HE2.png){width="25%"}](https://images.patolojiatlasi.com/BS10/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS10/HE2.html)
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS10-HE1.png){width="25%"}](https://images.patolojiatlasi.com/BS10/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS10/HE1.html)
 ```
 
 ```{asis, echo = (language == "EN")}
 
 **granular cell tumor, colon**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_BS10-HE2.png){width="25%"}](https://images.patolojiatlasi.com/BS10/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS10/HE2.html)
+ [![Click for Full Screen WSI](./screenshots/thumbnail_BS10-HE1.png){width="25%"}](https://images.patolojiatlasi.com/BS10/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS10/HE1.html)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+:::::
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**granüler hücreli tümör, kolon**
+
+
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS10-HE2.png){width="25%"}](https://images.patolojiatlasi.com/BS10/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS10/HE2.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**granular cell tumor, colon**
+
+ [![Click for Full Screen WSI](./screenshots/thumbnail_BS10-HE2.png){width="25%"}](https://images.patolojiatlasi.com/BS10/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS10/HE2.html)
 
 ```
 
@@ -406,7 +406,7 @@ See Microscopy with viewer:
 
 
 
-### Diagnosis
+
 
 
 
@@ -483,7 +483,7 @@ See Microscopy with viewer:
 
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
-### Tanı için tıklayın
+### Tanı
 
 granüler hücreli tümör, kolon
 
@@ -497,7 +497,7 @@ granüler hücreli tümör, kolon
 
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
-### Click for Diagnosis
+
 
 granular cell tumor, colon
 
@@ -513,7 +513,7 @@ granular cell tumor, colon
 
 
 
-:::::
+
 
 
 

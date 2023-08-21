@@ -57,7 +57,7 @@ webshot2::webshot(delay = 20,
 
 
 
-```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/lymphocytic-gastritis-all_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html")
@@ -221,7 +221,7 @@ webshot2::webshot(delay = 20,
 
 
 
-```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/lymphocytic-gastritis-HE_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html")
@@ -246,7 +246,7 @@ webshot2::webshot(delay = 20,
 
 
 
-```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/lymphocytic-gastritis-CD3_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/lymphocytic-gastritis/CD3.html")
@@ -272,7 +272,7 @@ webshot2::webshot(delay = 20,
 
 
 
-```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/lymphocytic-gastritis-CD8_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/lymphocytic-gastritis/CD8.html")
@@ -297,7 +297,7 @@ webshot2::webshot(delay = 20,
 
 
 
-```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/lymphocytic-gastritis-CD20_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/lymphocytic-gastritis/CD20.html")

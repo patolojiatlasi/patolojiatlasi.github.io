@@ -50,7 +50,7 @@ webshot2::webshot(
 
 
 
-```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
@@ -75,7 +75,7 @@ webshot2::webshot(
 
 
 
-```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
@@ -92,12 +92,12 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
 
 
-### WSI - Link
+
 
 
 
@@ -172,7 +172,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+ [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_hacettepe-com-case-28-1.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE1.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE1.html)
@@ -252,7 +252,7 @@ Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE1.html)
 
 ```{asis, echo = (language == "TR")}
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_hacettepe-com-case-28-2.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE2.html)
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_hacettepe-com-case-28-2.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE2.html)
 
 ```
 
@@ -260,7 +260,7 @@ Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE1.html)
 
 ```{asis, echo = (language == "EN")}
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen
+ [![Click for Full Screen
 WSI](./screenshots/thumbnail_hacettepe-com-case-28-1.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE1.html)
 [Click for Full Screen
 WSI](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE1.html)
@@ -270,7 +270,7 @@ WSI](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE1.html)
 
 ```{asis, echo = (language == "EN")}
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen
+ [![Click for Full Screen
 WSI](./screenshots/thumbnail_hacettepe-com-case-28-2.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE2.html)
 [Click for Full Screen
 WSI](https://images.patolojiatlasi.com/hacettepe-com-case-28/HE2.html)
@@ -392,7 +392,7 @@ See Microscopy with viewer:
 
 
 
-### Diagnosis
+
 
 
 
@@ -471,7 +471,7 @@ See Microscopy with viewer:
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
-### Tanı için tıklayın
+### Tanı
 
 ANNUMP
 
@@ -486,7 +486,7 @@ ANNUMP
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
-### Click for Diagnosis
+
 
 ANNUBP
 
@@ -591,7 +591,7 @@ ANNUBP
 
 
 
-:::::
+
 
 
 
@@ -673,9 +673,8 @@ ANNUBP
 ```
 
 
-```{asis  , echo = (language == "EN")}
-## template - TemplateEN {#sec-template }
-```
+
+
 
 
 
@@ -747,10 +746,10 @@ if (!file.exists("./qrcodes/template-HE2_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -891,7 +890,7 @@ if (!file.exists("./qrcodes/template-HE2_qrcode.svg")) {
 
 
 
-### WSI
+
 
 
 
@@ -949,7 +948,7 @@ See Microscopy with viewer:
 
 
 
-:::::
+
 
 
 

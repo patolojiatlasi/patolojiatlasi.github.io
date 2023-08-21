@@ -1,16 +1,18 @@
 Package: patolojiatlasi
-Title: Pathology Atlas and Notes for Medical Students: See and Learn
-Version: 0.0.0.9003
+Title: Histopathology Atlas with Whole Slide Images from daily routine practice
+Version: 0.0.0.9004
 Description: | 
+    Histopathology Atlas
     Atlas of Pathology
     Notes for Pathology
     Histopathology Atlas with Whole Slide Images from daily routine practice
+    Pathology Atlas and Notes for Medical Students See and Learn
     Pathology Lecture Notes and Pathology Atlas is being prepared from Memorial Pathology Archive and collaborators from other institutions.
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
-Date: 2023-08-06
+Date: 2023-08-19
 Authors@R: 
     person(given = "Serdar",
            family = "Balci",

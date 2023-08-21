@@ -46,7 +46,7 @@ webshot2::webshot(
 
 
 
-```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
@@ -61,10 +61,10 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -147,14 +147,14 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **Crohn hastalığında fistül**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS23-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS23/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS23/HE.html)
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS23-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS23/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS23/HE.html)
 ```
 
 ```{asis, echo = (language == "EN")}
 
 **Crohn disease fistule**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_BS23-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS23/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS23/HE.html)
+ [![Click for Full Screen WSI](./screenshots/thumbnail_BS23-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS23/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS23/HE.html)
 
 ```
 
@@ -264,7 +264,7 @@ See Microscopy with viewer:
 
 
 
-### Diagnosis
+
 
 
 
@@ -341,7 +341,7 @@ See Microscopy with viewer:
 
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
-### Tanı için tıklayın
+### Tanı
 
 Crohn hastalığında fistül
 
@@ -355,7 +355,7 @@ Crohn hastalığında fistül
 
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
-### Click for Diagnosis
+
 
 Crohn disease fistule
 
@@ -371,7 +371,7 @@ Crohn disease fistule
 
 
 
-:::::
+
 
 
 

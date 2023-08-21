@@ -45,7 +45,7 @@ lecturenames <- data.frame(lectures = lecturenames)
 
 rio::export(x = lecturenames, file = "./_lecture-notes/lecturenames.xlsx")
 
-selected_lectures <- readxl::read_excel("./_lecture-notes/selected_lectures.xlsx")
+selected_lectures <- readxl::read_excel("./_lecture-notes/selected_lectures.xlsx", sheet = "lectures")
 
 selected_lectures$lecture_html <- paste0(selected_lectures$lectures, ".html")
 selected_lectures$lecture_files <- paste0(selected_lectures$lectures, "_files")

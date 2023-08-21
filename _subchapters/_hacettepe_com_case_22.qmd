@@ -38,7 +38,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-::::: panel-tabset
+ 
 
 
 
@@ -46,7 +46,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-### Diagnosis
+
 
 
 
@@ -125,7 +125,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
-### Tanı için tıklayın
+### Tanı
 
 TMA due to anti-VEGF
 
@@ -141,7 +141,7 @@ TMA due to anti-VEGF
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
-### Click for Diagnosis
+
 
 TMA due to anti-VEGF
 
@@ -246,7 +246,7 @@ TMA due to anti-VEGF
 :::
 
 
-:::::
+
 
 
 
@@ -321,7 +321,7 @@ TMA due to anti-VEGF
 
 
 ```{asis TemplateTR TR , echo = (language == "TR")}
-## template - TemplateTR {#sec-template }
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 ```
 
 
@@ -399,10 +399,10 @@ if (!file.exists("./qrcodes/template-HE2_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -543,7 +543,7 @@ if (!file.exists("./qrcodes/template-HE2_qrcode.svg")) {
 
 
 
-### WSI
+
 
 
 
@@ -601,7 +601,7 @@ See Microscopy with viewer:
 
 
 
-:::::
+
 
 
 

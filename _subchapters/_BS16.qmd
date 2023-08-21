@@ -51,7 +51,7 @@ webshot2::webshot(
 
 
 
-```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
@@ -65,10 +65,10 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -151,14 +151,14 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **metastatik karsinom, omentum**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS16-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS16/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS16/HE.html)
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS16-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS16/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS16/HE.html)
 ```
 
 ```{asis, echo = (language == "EN")}
 
 **metastatic carcinoma, omentum**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_BS16-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS16/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS16/HE.html)
+ [![Click for Full Screen WSI](./screenshots/thumbnail_BS16-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS16/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS16/HE.html)
 
 ```
 
@@ -268,7 +268,7 @@ See Microscopy with viewer:
 
 
 
-### Diagnosis
+
 
 
 
@@ -345,7 +345,7 @@ See Microscopy with viewer:
 
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
-### Tanı için tıklayın
+### Tanı
 
 metastatik karsinom, omentum
 
@@ -359,7 +359,7 @@ metastatik karsinom, omentum
 
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
-### Click for Diagnosis
+
 
 metastatic carcinoma, omentum
 
@@ -375,7 +375,7 @@ metastatic carcinoma, omentum
 
 
 
-:::::
+
 
 
 

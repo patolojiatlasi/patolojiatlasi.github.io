@@ -45,7 +45,7 @@ webshot2::webshot(
 
 
 
-```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
@@ -71,7 +71,7 @@ webshot2::webshot(
 
 
 
-```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
@@ -86,102 +86,11 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
 
 
-
-
-
-
-
-
-
-
-
-
-::::: panel-tabset
-
-
-### WSI - Link
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-### WSI
-
-
-
-
-:::::
-
-
-
-
-
-
-```{asis, echo = (language == "TR")}
-
-**kahverengi yağ doku**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS4-HE1.png){width="25%"}](https://images.patolojiatlasi.com/BS4/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS4/HE1.html)
-```
-
-```{asis, echo = (language == "EN")}
-
-**brown fat**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_BS4-HE1.png){width="25%"}](https://images.patolojiatlasi.com/BS4/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS4/HE1.html)
-
-```
 
 
 
@@ -263,14 +172,105 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **kahverengi yağ doku**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS4-HE2.png){width="25%"}](https://images.patolojiatlasi.com/BS4/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS4/HE2.html)
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS4-HE1.png){width="25%"}](https://images.patolojiatlasi.com/BS4/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS4/HE1.html)
 ```
 
 ```{asis, echo = (language == "EN")}
 
 **brown fat**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_BS4-HE2.png){width="25%"}](https://images.patolojiatlasi.com/BS4/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS4/HE2.html)
+ [![Click for Full Screen WSI](./screenshots/thumbnail_BS4-HE1.png){width="25%"}](https://images.patolojiatlasi.com/BS4/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS4/HE1.html)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+:::::
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**kahverengi yağ doku**
+
+
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS4-HE2.png){width="25%"}](https://images.patolojiatlasi.com/BS4/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS4/HE2.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**brown fat**
+
+ [![Click for Full Screen WSI](./screenshots/thumbnail_BS4-HE2.png){width="25%"}](https://images.patolojiatlasi.com/BS4/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS4/HE2.html)
 
 ```
 
@@ -405,7 +405,7 @@ See Microscopy with viewer:
 
 
 
-### Diagnosis
+
 
 
 
@@ -482,7 +482,7 @@ See Microscopy with viewer:
 
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
-### Tanı için tıklayın
+### Tanı
 
 kahverengi yağ doku
 
@@ -496,7 +496,7 @@ kahverengi yağ doku
 
 
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
-### Click for Diagnosis
+
 
 brown fat
 
@@ -512,5 +512,5 @@ brown fat
 
 
 
-:::::
+
 

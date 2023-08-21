@@ -20,7 +20,7 @@ if (dir.exists(paths = "./_freeze_EN_epub_word")) {
                overwrite = TRUE)
 }
 
-patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx")
+patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx", sheet = "chapters")
 
 patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_epub_word_chapter_qmd")]
 
@@ -53,15 +53,15 @@ xfun::gsub_files(files = qmd_epub_word_EN_files,
 
 
 xfun::gsub_files(files = qmd_epub_word_EN_files,
-                 pattern = "### WSI - Link",
+                 pattern = "#+\\s*WSI - Link",
                  replacement = "")
 
 xfun::gsub_files(files = qmd_epub_word_EN_files,
-                 pattern = "### WSI",
+                 pattern = "#+\\s*WSI",
                  replacement = "")
 
 xfun::gsub_files(files = qmd_epub_word_EN_files,
-                 pattern = "### Diagnosis",
+                 pattern = "#+\\s*Diagnosis",
                  replacement = "")
 
 # xfun::gsub_files(files = qmd_epub_word_EN_files,
@@ -69,7 +69,7 @@ xfun::gsub_files(files = qmd_epub_word_EN_files,
 #                  replacement = "")
 
 xfun::gsub_files(files = qmd_epub_word_EN_files,
-                 pattern = "### Click for Diagnosis",
+                 pattern = "#+\\s*Click for Diagnosis",
                  replacement = "### Diagnosis")
 
 # xfun::gsub_files(files = qmd_epub_word_EN_files,
@@ -77,11 +77,10 @@ xfun::gsub_files(files = qmd_epub_word_EN_files,
 #                  replacement = "")
 
 
-xfun::gsub_files(files = "./bs_epub_word_EN.qmd",
-                 pattern = ".qmd",
-                 replacement = "_epub_word_EN.qmd"
+xfun::gsub_files(files = qmd_epub_word_EN_files,
+                 pattern = ".qmd >}}",
+                 replacement = "_epub_word_EN.qmd >}}"
 )
-
 
 
 # render EN epub ----
@@ -108,7 +107,7 @@ if (dir.exists(paths = "./_freeze")) {
 
 
 
-patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx")
+patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx", sheet = "chapters")
 
 patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_epub_word_chapter_qmd")]
 
