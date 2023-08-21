@@ -18,73 +18,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-
-
-::::: panel-tabset
-
-
-### WSI - Link
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-### WSI
-
-
-
-
-:::::
-
-
-
-
-
-
 ```{asis, echo = (language == "TR")}
 
 # Benign Karaciğer Tümörleri {#sec-benign-karaciger-tumorleri} 
@@ -96,75 +29,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 # Benign Liver Tumors {#sec-benign-liver-tumors} 
 
 ```
-
-
-
-
-
-
-::::: panel-tabset
-
-
-### WSI - Link
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-### WSI
-
-
-
-
-:::::
-
-
-
-
 
 
 ```{asis, echo = (language == "TR")}
@@ -191,12 +55,12 @@ webshot2::webshot(
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/liver-hemangioma-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/liver-hemangioma/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/liver-hemangioma-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -219,6 +83,16 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+```{asis, echo = (language == "TR")}
+
+**Karaciğer Hemanjiom**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_liver-hemangioma.png){width="25%"}](https://images.patolojiatlasi.com/liver-hemangioma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/liver-hemangioma/HE.html)
+
+```
+
+
 
 ::::
 
@@ -229,6 +103,16 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 :::: {.content-visible when-format="pdf"}
 
 
+
+
+```{asis, echo = (language == "TR")}
+
+**Karaciğer Hemanjiom**
+
+
+![](./qrcodes/liver-hemangioma-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_liver-hemangioma.png){width="25%"}](https://images.patolojiatlasi.com/liver-hemangioma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/liver-hemangioma/HE.html)
+
+```
 
 
 
@@ -242,6 +126,15 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+```{asis, echo = (language == "EN")}
+
+**Liver Hemangioma**
+
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_liver-hemangioma.png){width="25%"}](https://images.patolojiatlasi.com/liver-hemangioma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/liver-hemangioma/HE.html)
+
+```
+
 
 
 ::::
@@ -255,6 +148,15 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+```{asis, echo = (language == "EN")}
+
+**Liver Hemangioma**
+
+
+![](./qrcodes/liver-hemangioma-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_liver-hemangioma.png){width="25%"}](https://images.patolojiatlasi.com/liver-hemangioma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/liver-hemangioma/HE.html)
+
+```
+
 
 
 ::::
@@ -262,24 +164,6 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ### WSI
 
-
-
-
-:::::
-
-
-
-
-
-
-```{asis, echo = (language == "TR")}
-
-**Karaciğer Hemanjiom**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_liver-hemangioma.png){width="25%"}](https://images.patolojiatlasi.com/liver-hemangioma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/liver-hemangioma/HE.html)
-
-```
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -290,14 +174,8 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-```{asis, echo = (language == "EN")}
-
-**Liver Hemangioma**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_liver-hemangioma.png){width="25%"}](https://images.patolojiatlasi.com/liver-hemangioma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/liver-hemangioma/HE.html)
-
-```
 
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
@@ -306,3 +184,9 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/liver-hemangioma/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
+
+
+:::::
+
+
+
