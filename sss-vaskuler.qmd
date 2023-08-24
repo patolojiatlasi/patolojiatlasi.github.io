@@ -7,6 +7,17 @@ bibliography: references.bib
 ---
 
 
+
+
+```{r language central-nervous-system-vascular, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
+
+
 ```{asis, echo = (language == "TR")}
 
 # Santral Sinir Sistemi Vasküler Lezyonlar {#sec-santral-sinir-sistemi-vaskuler} 
@@ -16,15 +27,6 @@ bibliography: references.bib
 ```{asis, echo = (language == "EN")}
 
 # Central Nervous System Vascular Lesions {#sec-central-nervous-system-vascular} 
-
-```
-
-
-
-```{r language brain-arteriovenous-malformation, echo=FALSE, include=TRUE}
-
-source("./R/language.R")
-output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 

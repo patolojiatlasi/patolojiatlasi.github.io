@@ -19,7 +19,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-# Patoloji Atlası Nasıl Geliştiriliyor? {#sec-atlas-gelistirme .unnumbered}
+# Patoloji Atlası Nasıl Geliştiriliyor? {#sec-atlas-gelistirme}
 
 ```
 

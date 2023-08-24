@@ -24,12 +24,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "TR")}
-# Yazarlar ve Katkıda Bulunanlar {#sec-yazarlar-katkida-bulunanlar .unnumbered}
+# Yazarlar ve Katkıda Bulunanlar {#sec-yazarlar-katkida-bulunanlar}
 ```
 
 
 ```{asis, echo = (language == "EN")}
-# Authors and Contributors {#sec-authors-contributors .unnumbered}
+# Authors and Contributors {#sec-authors-contributors}
 ```
 
 
