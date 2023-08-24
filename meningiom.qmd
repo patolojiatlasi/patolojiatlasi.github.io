@@ -13,35 +13,21 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
 ```{asis, echo = (language == "TR")}
-# Beyin İnvazyonu Gösteren Meningiom {#sec-beyin-invazyonu-gosteren-meningiom} 
+# Meningiom {#sec-meningiom} 
 ```
 
 ```{asis, echo = (language == "EN")}
-# Brain Invasive Meningioma {#sec-brain-invasive-meningioma} 
+# Meningioma {#sec-meningioma} 
+```
+
+
+```{asis, echo = (language == "TR")}
+## Beyin İnvazyonu Gösteren Meningiom {#sec-beyin-invazyonu-gosteren-meningiom} 
+```
+
+```{asis, echo = (language == "EN")}
+## Brain Invasive Meningioma {#sec-brain-invasive-meningioma} 
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
@@ -55,12 +41,12 @@ webshot2::webshot(delay = 20,
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/brain-invasive-meningioma}-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/brain-invasive-meningioma}/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/brain-invasive-meningioma}-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -69,9 +55,27 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
 :::: {.content-hidden when-format="pdf"}
 
 
+
+
+```{asis, echo = (language == "TR")}
+
+**Beyin İnvazyonu Gösteren Meningiom**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_brain-invasive-meningioma.png){width="25%"}](https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html)
+
+```
 
 
 
@@ -86,19 +90,67 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-
-
-::::
-
-
 ```{asis, echo = (language == "TR")}
 
 **Beyin İnvazyonu Gösteren Meningiom**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_brain-invasive-meningioma.png){width="25%"}](https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html)
+![](./qrcodes/brain-invasive-meningioma}-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_brain-invasive-meningioma.png){width="25%"}](https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html)
 
 ```
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Brain Invasive Meningioma**
+
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_brain-invasive-meningioma.png){width="25%"}](https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html)
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Brain Invasive Meningioma**
+
+
+![](./qrcodes/brain-invasive-meningioma}-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_brain-invasive-meningioma.png){width="25%"}](https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html)
+
+```
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -106,15 +158,6 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-```{asis, echo = (language == "EN")}
-
-**Brain Invasive Meningioma**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_brain-invasive-meningioma.png){width="25%"}](https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html)
 
 ```
 
@@ -126,42 +169,24 @@ See Microscopy with viewer:
 
 ```
 
+
+
+:::::
+
+
+
 ```{r language meningioma-bone-infiltration, echo=FALSE, include=TRUE}
 source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
 ```{asis, echo = (language == "TR")}
-# Meningiom Kemik İnfiltrasyonu {#sec-kemik-infiltrasyonu-gosteren-meningiom} 
+## Meningiom Kemik İnfiltrasyonu {#sec-kemik-infiltrasyonu-gosteren-meningiom} 
 ```
 
 ```{asis, echo = (language == "EN")}
-# Meningioma Bone Infiltration {#sec-meningioma-invading-bone} 
+## Meningioma Bone Infiltration {#sec-meningioma-invading-bone} 
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
@@ -175,12 +200,12 @@ webshot2::webshot(delay = 20,
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/meningioma-bone-infiltration}-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/meningioma-bone-infiltration}/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/meningioma-bone-infiltration}-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -189,9 +214,28 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
 :::: {.content-hidden when-format="pdf"}
 
 
+
+
+```{asis, echo = (language == "TR")}
+
+**Meningiom Kemik İnfiltrasyonu**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_meningioma-bone-infiltration.png){width="25%"}](https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html)
+
+```
 
 
 
@@ -206,19 +250,64 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-
-
-::::
-
-
 ```{asis, echo = (language == "TR")}
 
 **Meningiom Kemik İnfiltrasyonu**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_meningioma-bone-infiltration.png){width="25%"}](https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html)
+![](./qrcodes/meningioma-bone-infiltration}-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_meningioma-bone-infiltration.png){width="25%"}](https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html)
 
 ```
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Meningioma Bone Infiltration**
+
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_meningioma-bone-infiltration.png){width="25%"}](https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html)
+
+```
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Meningioma Bone Infiltration**
+
+
+![](./qrcodes/meningioma-bone-infiltration}-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_meningioma-bone-infiltration.png){width="25%"}](https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html)
+
+```
+
+
+
+::::
+
+
+### WSI
+
+
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -229,14 +318,6 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-```{asis, echo = (language == "EN")}
-
-**Meningioma Bone Infiltration**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_meningioma-bone-infiltration.png){width="25%"}](https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html)
-
-```
 
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
@@ -245,3 +326,10 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
+
+
+:::::
+
+
+
+

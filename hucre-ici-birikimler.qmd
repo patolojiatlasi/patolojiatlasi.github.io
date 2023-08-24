@@ -17,30 +17,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
 ```{asis, echo = (language == "TR")}
 ## Kolesterol Polibi {#sec-kolesterol-polibi}
 ```
@@ -63,12 +39,12 @@ webshot2::webshot(
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/cholesterolpolyp-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/cholesterolpolyp/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/cholesterolpolyp-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -78,7 +54,27 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
 :::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Kolesterol Polibi**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_cholesterolpolyp.png){width="25%"}](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html)
+
+```
 
 
 
@@ -96,17 +92,67 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-
-::::
-
-
 ```{asis, echo = (language == "TR")}
 
 **Kolesterol Polibi**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_cholesterolpolyp.png){width="25%"}](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_cholesterolpolyp.png){width="25%"}](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html)
 
 ```
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Cholesterol Polyp**
+
+![](./qrcodes/cholesterolpolyp-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_cholesterolpolyp.png){width="25%"}](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html)
+
+```
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Cholesterol Polyp**
+
+![](./qrcodes/cholesterolpolyp-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_cholesterolpolyp.png){width="25%"}](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html)
+
+```
+
+
+
+
+
+::::
+
+
+### WSI
+
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -114,15 +160,6 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/cholesterolpolyp/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-
-```{asis, echo = (language == "EN")}
-
-**Cholesterol Polyp**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_cholesterolpolyp.png){width="25%"}](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html)
 
 ```
 
@@ -138,30 +175,14 @@ See Microscopy with viewer:
 ```
 
 
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
+:::::
 
 
 
 
 
 
-::::
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -190,12 +211,12 @@ webshot2::webshot(
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/glycogenstorage-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/glycogenstorage/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/glycogenstorage-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -213,7 +234,29 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+#### WSI - Link
+
+
+
+
+
 :::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "TR")}
+**Karaciğer İğnde Biyopsisinde glikojen depo hastalığı**
+
+**Hematoksilen Eozin**
+
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_glycogenstorage-HE.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/HE.html)
+
+```
+
 
 
 
@@ -230,22 +273,30 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-
-
-::::
-
-
 ```{asis, echo = (language == "TR")}
 **Karaciğer İğnde Biyopsisinde glikojen depo hastalığı**
 
 **Hematoksilen Eozin**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+![](./qrcodes/glycogenstorage-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_glycogenstorage-HE.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/HE.html)
 
 ```
+
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
 
 
 
@@ -255,12 +306,48 @@ Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/HE.html)
 
 **Hematoksilen Eozin**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+[![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_glycogenstorage-HE.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/HE.html)
 
 ```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")}
+**Karaciğer İğnde Biyopsisinde glikojen depo hastalığı**
+
+**Hematoksilen Eozin**
+
+![](./qrcodes/glycogenstorage-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_glycogenstorage-HE.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/HE.html)
+
+```
+
+
+
+
+
+::::
+
+
+#### WSI
+
 
 
 
@@ -286,32 +373,13 @@ Mikroskopik görüntüleri inceleyin:
 
 
 
+
+
+
 ### PAS
 
 
 
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
 
 
 ```{asis, echo = (language == "TR")}
@@ -339,12 +407,12 @@ webshot2::webshot(delay = 20,
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/glycogenstorage-PAS_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/glycogenstorage/PAS.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/glycogenstorage-PAS_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -352,9 +420,22 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+#### WSI - Link
+
 
 
 :::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")}
+
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_glycogenstorage-PAS.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/PAS.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/PAS.html)
+
+```
 
 
 
@@ -371,29 +452,67 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+```{asis, echo = (language == "TR")}
+![](./qrcodes/glycogenstorage-PAS_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_glycogenstorage-PAS.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/PAS.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/PAS.html)
+
+```
+
+
+
 
 
 ::::
 
 
-```{asis, echo = (language == "TR")}
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+[![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_glycogenstorage-PAS.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/PAS.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/PAS.html)
 
 ```
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
 
 
 
 
 ```{asis, echo = (language == "EN")}
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+![](./qrcodes/glycogenstorage-PAS_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_glycogenstorage-PAS.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/PAS.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/PAS.html)
 
 ```
+
+
+
+
+
+::::
+
+
+#### WSI
 
 
 
@@ -419,32 +538,10 @@ Mikroskopik görüntüleri inceleyin:
 
 
 
+
 ### PASD
 
 
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
 
 
 ```{asis, echo = (language == "TR")}
@@ -472,12 +569,12 @@ webshot2::webshot(delay = 20,
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/glycogenstorage-PASD_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/glycogenstorage/PASD.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/glycogenstorage-PASD_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -485,9 +582,68 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+#### WSI - Link
+
 
 
 :::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_glycogenstorage-PASD.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/PASD.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/PASD.html)
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")}
+![](./qrcodes/glycogenstorage-PASD_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_glycogenstorage-PASD.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/PASD.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/PASD.html)
+
+```
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_glycogenstorage-PASD.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/PASD.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/PASD.html)
+
+```
+
 
 
 
@@ -505,29 +661,24 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+```{asis, echo = (language == "EN")}
+![](./qrcodes/glycogenstorage-PASD_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_glycogenstorage-PASD.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/PASD.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/PASD.html)
+
+```
+
+
+
+
+
+
 
 ::::
 
 
-```{asis, echo = (language == "TR")}
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/thumbnail_glycogenstorage-PASD.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/PASD.html)
-[Tam Ekran Görmek İçin Resmi
-Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/PASD.html)
-
-```
-
-
-
-
-```{asis, echo = (language == "EN")}
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/thumbnail_glycogenstorage-PASD.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/PASD.html)
-[Tam Ekran Görmek İçin Resmi
-Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/PASD.html)
-
-```
-
+#### WSI
 
 
 
@@ -552,8 +703,11 @@ Mikroskopik görüntüleri inceleyin:
 
 
 
-
 :::::
+
+
+
+
 
 
 
@@ -576,12 +730,12 @@ webshot2::webshot(delay = 20,
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/anthracosis-HE1_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/anthracosis/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/anthracosis-HE1_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -600,12 +754,12 @@ webshot2::webshot(delay = 20,
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/anthracosis-HE2_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/anthracosis/HE2.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/anthracosis-HE2_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -615,14 +769,159 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 ::::: panel-tabset
 
 
+### WSI - Link
 
-### HE1
 
+#### HE-1
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")} 
+
+[![Click for Full Screen
+WSI](./screenshots/thumbnail_anthracosis1.png){width="25%"}](https://images.patolojiatlasi.com/anthracosis/HE.html)
+[Click for Full Screen
+WSI](https://images.patolojiatlasi.com/anthracosis/HE.html)
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "TR")} 
+
+![](./qrcodes/anthracosis-HE1_qrcode.svg){width="15%"} [![Click for Full Screen
+WSI](./screenshots/thumbnail_anthracosis1.png){width="25%"}](https://images.patolojiatlasi.com/anthracosis/HE.html)
+[Click for Full Screen
+WSI](https://images.patolojiatlasi.com/anthracosis/HE.html)
+```
+
+
+
+
+::::
 
 
 
 
 :::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")} 
+
+[![Click for Full Screen
+WSI](./screenshots/thumbnail_anthracosis1.png){width="25%"}](https://images.patolojiatlasi.com/anthracosis/HE.html)
+[Click for Full Screen
+WSI](https://images.patolojiatlasi.com/anthracosis/HE.html)
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")} 
+
+![](./qrcodes/anthracosis-HE_qrcode.svg){width="15%"} [![Click for Full Screen
+WSI](./screenshots/thumbnail_anthracosis1.png){width="25%"}](https://images.patolojiatlasi.com/anthracosis/HE.html)
+[Click for Full Screen
+WSI](https://images.patolojiatlasi.com/anthracosis/HE.html)
+```
+
+
+
+
+
+::::
+
+
+
+
+
+#### HE-2
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")} 
+
+[![Click for Full Screen
+WSI](./screenshots/thumbnail_anthracosis2.png){width="25%"}](https://images.patolojiatlasi.com/anthracosis/HE2.html)
+[Click for Full Screen
+WSI](https://images.patolojiatlasi.com/anthracosis/HE2.html)
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "TR")} 
+
+![](./qrcodes/anthracosis-HE2_qrcode.svg){width="15%"} [![Click for Full Screen
+WSI](./screenshots/thumbnail_anthracosis2.png){width="25%"}](https://images.patolojiatlasi.com/anthracosis/HE2.html)
+[Click for Full Screen
+WSI](https://images.patolojiatlasi.com/anthracosis/HE2.html)
+```
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+```{asis, echo = (language == "EN")} 
+
+[![Click for Full Screen
+WSI](./screenshots/thumbnail_anthracosis2.png){width="25%"}](https://images.patolojiatlasi.com/anthracosis/HE2.html)
+[Click for Full Screen
+WSI](https://images.patolojiatlasi.com/anthracosis/HE2.html)
+```
 
 
 
@@ -640,17 +939,31 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+```{asis, echo = (language == "EN")} 
+
+![](./qrcodes/anthracosis-HE2_qrcode.svg){width="15%"} [![Click for Full Screen
+WSI](./screenshots/thumbnail_anthracosis2.png){width="25%"}](https://images.patolojiatlasi.com/anthracosis/HE2.html)
+[Click for Full Screen
+WSI](https://images.patolojiatlasi.com/anthracosis/HE2.html)
+```
+
+
+
+
+
 
 ::::
 
 
-```{asis, echo = (language == "TR")} 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen
-WSI](./screenshots/thumbnail_anthracosis1.png){width="25%"}](https://images.patolojiatlasi.com/anthracosis/HE.html)
-[Click for Full Screen
-WSI](https://images.patolojiatlasi.com/anthracosis/HE.html)
-```
+
+
+### WSI
+
+
+#### HE-1
+
+
 
 
 ```{asis, echo = ((language == "TR") & (output_type=="html"))} 
@@ -664,15 +977,6 @@ See Microscopy with viewer:
 
 
 
-```{asis, echo = (language == "EN")} 
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen
-WSI](./screenshots/thumbnail_anthracosis1.png){width="25%"}](https://images.patolojiatlasi.com/anthracosis/HE.html)
-[Click for Full Screen
-WSI](https://images.patolojiatlasi.com/anthracosis/HE.html)
-```
-
-
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 See Microscopy with viewer:
@@ -682,43 +986,11 @@ See Microscopy with viewer:
 </iframe>
 ```
 
-### HE2
+
+#### HE-2
 
 
 
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-```{asis, echo = (language == "TR")} 
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen
-WSI](./screenshots/thumbnail_anthracosis2.png){width="25%"}](https://images.patolojiatlasi.com/anthracosis/HE2.html)
-[Click for Full Screen
-WSI](https://images.patolojiatlasi.com/anthracosis/HE2.html)
-```
 
 
 ```{asis, echo = ((language == "TR") & (output_type=="html"))} 
@@ -733,16 +1005,6 @@ See Microscopy with viewer:
 
 
 
-
-```{asis, echo = (language == "EN")} 
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen
-WSI](./screenshots/thumbnail_anthracosis2.png){width="25%"}](https://images.patolojiatlasi.com/anthracosis/HE2.html)
-[Click for Full Screen
-WSI](https://images.patolojiatlasi.com/anthracosis/HE2.html)
-```
-
-
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 See Microscopy with viewer:
@@ -751,14 +1013,12 @@ See Microscopy with viewer:
 
 </iframe>
 ```
+
+
 
 
 
 :::::
-
-
-
-
 
 
 
@@ -785,12 +1045,12 @@ webshot2::webshot(
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/melanosiscoli-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/melanosiscoli/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/melanosiscoli-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -810,12 +1070,12 @@ webshot2::webshot(
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/melanosiscoli-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/melanosiscoli/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/melanosiscoli-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -827,12 +1087,22 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 ### HE
 
 
+#### WSI - Link
 
 
 
 :::: {.content-hidden when-format="pdf"}
 
 
+
+
+```{asis, echo = (language == "TR")}
+
+**Melanozis Koli**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_melanosiscoli-HE.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/melanosiscoli/HE.html)
+
+```
 
 
 
@@ -847,18 +1117,64 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+```{asis, echo = (language == "TR")}
+
+**Melanozis Koli**
+
+![](./qrcodes/melanosiscoli-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_melanosiscoli-HE.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/melanosiscoli/HE.html)
+
+```
+
+
 
 
 ::::
 
 
-```{asis, echo = (language == "TR")}
 
-**Melanozis Koli**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_melanosiscoli-HE.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/melanosiscoli/HE.html)
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Melanosis Coli**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_melanosiscoli-HE.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/melanosiscoli/HE.html)
 
 ```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Melanosis Coli**
+
+![](./qrcodes/melanosiscoli-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_melanosiscoli-HE.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/melanosiscoli/HE.html)
+
+```
+
+
+
+
+::::
+
+
+#### WSI
+
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -869,13 +1185,8 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-```{asis, echo = (language == "EN")}
 
-**Melanosis Coli**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_melanosiscoli-HE.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/melanosiscoli/HE.html)
-
-```
 
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
@@ -886,8 +1197,53 @@ See Microscopy with viewer:
 ```
 
 
+
 ### PAS
 
+
+
+
+
+#### WSI - Link
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Melanozis Koli PAS**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_melanosiscoli-PAS.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/PAS.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/melanosiscoli/PAS.html)
+
+```
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Melanozis Koli PAS**
+
+![](./qrcodes/melanosiscoli-PAS_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_melanosiscoli-PAS.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/PAS.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/melanosiscoli/PAS.html)
+
+```
+
+
+
+::::
 
 
 
@@ -895,6 +1251,16 @@ See Microscopy with viewer:
 :::: {.content-hidden when-format="pdf"}
 
 
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Melanosis Coli PAS**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_melanosiscoli-PAS.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/PAS.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/melanosiscoli/PAS.html)
+
+```
 
 
 
@@ -910,17 +1276,27 @@ See Microscopy with viewer:
 
 
 
+```{asis, echo = (language == "EN")}
+
+**Melanosis Coli PAS**
+
+![](./qrcodes/melanosiscoli-PAS_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_melanosiscoli-PAS.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/PAS.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/melanosiscoli/PAS.html)
+
+```
+
+
+
 
 ::::
 
 
-```{asis, echo = (language == "TR")}
+#### WSI
 
-**Melanozis Koli PAS**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_melanosiscoli-PAS.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/PAS.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/melanosiscoli/PAS.html)
 
-```
+
+
+
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -931,13 +1307,11 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-```{asis, echo = (language == "EN")}
 
-**Melanosis Coli PAS**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_melanosiscoli-PAS.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/PAS.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/melanosiscoli/PAS.html)
 
-```
+
+
 
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
@@ -947,111 +1321,24 @@ See Microscopy with viewer:
 
 ```
 
-:::
 
 
 
 
-::::: {.content-hidden unless-format="epub"}
 
 
-::: {.panel-tabset}
 
 
-### HE
 
 
 
 
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-```{asis, echo = (language == "TR")}
-
-**Melanozis Koli**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_melanosiscoli-HE.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/melanosiscoli/HE.html)
-
-```
-
-
-```{asis, echo = (language == "EN")}
-
-**Melanosis Coli**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_melanosiscoli-HE.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/melanosiscoli/HE.html)
-
-```
-
-
-### PAS
-
-
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-```{asis, echo = (language == "TR")}
-
-**Melanozis Koli PAS**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_melanosiscoli-PAS.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/PAS.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/melanosiscoli/PAS.html)
-
-```
-
-```{asis, echo = (language == "EN")}
-
-**Melanosis Coli PAS**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_melanosiscoli-PAS.png){width="25%"}](https://images.patolojiatlasi.com/melanosiscoli/PAS.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/melanosiscoli/PAS.html)
-
-```
-
-
-:::
 
 
 :::::
+
+
+
+
+
+
