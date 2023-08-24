@@ -113,10 +113,6 @@ book:
       href: index.qmd
     - text: "Giriş"
       href: giris.qmd
-    - text: "Yazarlar ve Katkıda Bulunanlar"
-      href: yazarlar.qmd
-      target: _blank
-      # target: _blank
     - part: "---"
     - part: "Genel Patoloji"
       chapters:
@@ -292,6 +288,9 @@ book:
     - referanslar.qmd
     - part: "---"
   appendices:
+    - text: "Yazarlar ve Katkıda Bulunanlar"
+      href: yazarlar.qmd
+      target: _blank
     - text: "Katkıda bulunun"
       href: katki.qmd
     - text: "Yorum ekleyin"
