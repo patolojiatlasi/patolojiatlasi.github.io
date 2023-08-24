@@ -13,7 +13,20 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
+
+```{asis, echo = (language == "TR")}
 # Tamir Mekanizmaları {#sec-tamir-mekanizmalari}
+```
+
+
+
+```{asis, echo = (language == "EN")}
+# Repair Mechanisms {#sec-repair-mechanisms}
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
 
 Bu sayfadaki görüntülere artırılmış gerçeklik (augmented reality) ile de
 ulaşabilirsiniz[^tamir-1].
@@ -30,18 +43,10 @@ bu sayfadaki patoloji resimlerine tutun. Tanılar cep telefonunuzda
 görünecektir.
 
 
-```{asis, echo = (output_type=="html")}
 
 {{< video https://www.youtube.com/embed/76bOJIiT29Y >}}
 
 ```
-
-```{asis, echo = (output_type!="html")}
-
-[https://www.youtube.com/watch?v=76bOJIiT29Y](https://www.youtube.com/watch?v=76bOJIiT29Y)
-
-```
-
 
 
 
@@ -61,18 +66,18 @@ webshot2::webshot(delay = 20,
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/fibrosis-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/fibrosis/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/fibrosis-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+![](./qrcodes/fibrosis-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_fibrosis.png){width="25%"}](https://images.patolojiatlasi.com/fibrosis/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/fibrosis/HE.html)
@@ -113,12 +118,12 @@ webshot2::webshot(delay = 20,
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/keloid-scar-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/keloid-scar/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/keloid-scar-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -126,7 +131,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 Keloid Skar oluşumu
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+![](./qrcodes/keloid-scar-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_keloid-scar.png){width="25%"}](https://images.patolojiatlasi.com/keloid-scar/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/keloid-scar/HE.html)

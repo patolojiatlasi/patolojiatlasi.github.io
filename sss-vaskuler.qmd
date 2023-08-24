@@ -6,82 +6,6 @@ page-layout: full
 bibliography: references.bib
 ---
 
-```{r language brain-arteriovenous-malformation, echo=FALSE, include=TRUE}
-
-source("./R/language.R")
-output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
-
-```
-
-
-
-
-
-
-::::: panel-tabset
-
-
-### WSI - Link
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-### WSI
-
-
-
-
-:::::
-
-
-
-
-
 
 ```{asis, echo = (language == "TR")}
 
@@ -97,70 +21,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
+```{r language brain-arteriovenous-malformation, echo=FALSE, include=TRUE}
 
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
-
-::::: panel-tabset
-
-
-### WSI - Link
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-### WSI
-
-
-
-
-:::::
-
-
+```
 
 
 
@@ -188,15 +54,16 @@ webshot2::webshot(delay = 20,
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/brain-arteriovenous-malformation-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/brain-arteriovenous-malformation-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
+
 
 
 
@@ -215,6 +82,16 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+```{asis, echo = (language == "TR")}
+
+**beyin arteriovenöz malformasyon**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_brain-arteriovenous-malformation.png){width="25%"}](https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html)
+
+```
+
+
 
 
 ::::
@@ -226,6 +103,16 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 :::: {.content-visible when-format="pdf"}
 
 
+
+
+```{asis, echo = (language == "TR")}
+
+**beyin arteriovenöz malformasyon**
+
+
+![](./qrcodes/brain-arteriovenous-malformation-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_brain-arteriovenous-malformation.png){width="25%"}](https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html)
+
+```
 
 
 
@@ -239,6 +126,15 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+```{asis, echo = (language == "EN")}
+
+**brain arteriovenous malformation**
+
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_brain-arteriovenous-malformation.png){width="25%"}](https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html)
+
+```
+
 
 
 ::::
@@ -251,6 +147,15 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+```{asis, echo = (language == "EN")}
+
+**brain arteriovenous malformation**
+
+
+![](./qrcodes/brain-arteriovenous-malformation-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_brain-arteriovenous-malformation.png){width="25%"}](https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html)
+
+```
+
 
 
 
@@ -261,38 +166,11 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-
-:::::
-
-
-
-
-
-
-```{asis, echo = (language == "TR")}
-
-**beyin arteriovenöz malformasyon**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_brain-arteriovenous-malformation.png){width="25%"}](https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html)
-
-```
-
-
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-```{asis, echo = (language == "EN")}
-
-**brain arteriovenous malformation**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_brain-arteriovenous-malformation.png){width="25%"}](https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html)
 
 ```
 
@@ -303,3 +181,12 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
+
+
+
+:::::
+
+
+
+
+
