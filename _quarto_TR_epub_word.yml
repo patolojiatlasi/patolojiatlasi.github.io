@@ -95,10 +95,6 @@ book:
       href: index.qmd
     - text: "Giriş"
       href: giris_epub_word_TR.qmd
-    - text: "Yazarlar ve Katkıda Bulunanlar"
-      href: yazarlar_epub_word_TR.qmd
-      target: _blank
-      # target: _blank
     - part: "---"
     - part: "Genel Patoloji"
       chapters:
@@ -274,6 +270,9 @@ book:
     - referanslar_epub_word_TR.qmd
     - part: "---"
   appendices:
+    - text: "Yazarlar ve Katkıda Bulunanlar"
+      href: yazarlar_epub_word_TR.qmd
+      target: _blank
     # - yonetim-gelistirme.md
     - text: "Katkıda bulunun"
       href: katki_epub_word_TR.qmd

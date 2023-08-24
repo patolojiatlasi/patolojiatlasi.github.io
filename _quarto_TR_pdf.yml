@@ -90,9 +90,6 @@ book:
       href: index.qmd
     - text: "Giriş"
       href: giris_pdf_TR.qmd
-    - text: "Yazarlar ve Katkıda Bulunanlar"
-      href: yazarlar_pdf_TR.qmd
-      target: _blank
     - part: "Genel Patoloji"
       chapters:
         - text: "Patolojide Kullanılan Teknikler"
@@ -263,15 +260,18 @@ book:
 #         - text: "Benzer Sayfalar"
 #           href: wsi_pdf_TR.qmd
 #     - referanslar_pdf_TR.qmd
-#   appendices:
-#     # - yonetim-gelistirme.qmd
-#     - text: "Katkıda bulunun"
-#       href: katki_pdf_TR.qmd
-#     - text: "Yorum ekleyin"
-#       href: yorum_pdf_TR.qmd
-#     # - text: "Liste"
-#     #   href: listing_pdf_TR.qmd
-#     # - listing2_pdf_TR.qmd
+  appendices:
+    - text: "Yazarlar ve Katkıda Bulunanlar"
+      href: yazarlar_pdf_TR.qmd
+      target: _blank
+    # - yonetim-gelistirme.qmd
+    - text: "Katkıda bulunun"
+      href: katki_pdf_TR.qmd
+    - text: "Yorum ekleyin"
+      href: yorum_pdf_TR.qmd
+    # - text: "Liste"
+    #   href: listing_pdf_TR.qmd
+    # - listing2_pdf_TR.qmd
 
 
 format:

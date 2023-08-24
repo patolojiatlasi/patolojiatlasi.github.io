@@ -88,8 +88,6 @@ book:
       href: index.qmd
     - text: "Introduction"
       href: introduction_pdf_EN.qmd
-    - text: "Authors and Contributors"
-      href: authors_pdf_EN.qmd
     - part: "---"
     - part: "General Pathology"
       chapters:
@@ -271,18 +269,20 @@ book:
 #           href: ice_pdf_EN.qmd
 #         - text: "Similar Websites"
 #           href: wsi_pdf_EN.qmd
-#     - part: "---"
-#     - references_pdf_EN.qmd
-#     - part: "---"
-#   appendices:
-#     # - yonetim-gelistirme.md
-#     - text: "Contributions are welcome"
-#       href: contributions_pdf_EN.qmd
-#     - text: "Comments are welcome"
-#       href: comments_pdf_EN.qmd
-#     - text: "List"
-#       href: listing_pdf_EN.qmd
-#     - listing2_pdf_EN.qmd
+    - part: "---"
+    - references_pdf_EN.qmd
+    - part: "---"
+  appendices:
+    - text: "Authors and Contributors"
+      href: authors_pdf_EN.qmd
+    # - yonetim-gelistirme.md
+    - text: "Contributions are welcome"
+      href: contributions_pdf_EN.qmd
+    - text: "Comments are welcome"
+      href: comments_pdf_EN.qmd
+    # - text: "List"
+    #   href: listing_pdf_EN.qmd
+    # - listing2_pdf_EN.qmd
 
 
 
