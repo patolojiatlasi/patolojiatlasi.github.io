@@ -285,37 +285,44 @@ format:
     number-depth: 1
     colorlinks: true
     keep-tex: true
+
+    # documentclass: scrbook
+    # classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,12pt]
+
     include-in-header:
       text: |
         \usepackage{makeidx}
         \makeindex
-#         \usepackage{fvextra}
-#         \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
-#         \areaset[0.50in]{4.5in}{8in}
-#         \usepackage{titlesec}
-#         \usepackage{svg}
-#         \usepackage{transparent}
-#         \usepackage{tikzfill}
-#         \usepackage{sidenotes}
-#         \usepackage{marginnote}
-#         \usepackage{changepage}
-#     include-before-body:
-#       text: |
-#         \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
-#            showspaces = false,
-#            showtabs = false,
-#            breaksymbolleft={},
-#            breaklines
-#            % Note: setting commandchars=\\\{\} here will cause an error
-#         }
+
+#
+      # \usepackage{fvextra}
+      # \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+      # \areaset[0.50in]{4.5in}{8in}
+
+    # include-before-body:
+    #   text: |
+    #     \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
+    #        showspaces = false,
+    #        showtabs = false,
+    #        breaksymbolleft={},
+    #        breaklines
+    #        % Note: setting commandchars=\\\{\} here will cause an error
+    #     }
+
     include-after-body:
       text: |
         \printindex
+
+    fig-pos: 'H'
+
     execute:
       warning: false
 
-#    # documentclass: scrbook
-#    # classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,12pt]
+
+
+
+# https://www.brodrigues.co/blog/2023-06-29-book_quarto/
+# https://github.com/b-rodrigues/kdp_quarto/blob/main/_quarto.yml
 
 
 # https://quarto.org/docs/reference/formats/pdf.html
