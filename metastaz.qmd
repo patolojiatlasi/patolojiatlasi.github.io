@@ -13,9 +13,33 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
-# Metastaz {#sec-metastaz}
 
+
+
+```{asis, echo = (language == "TR")}
+# Metastaz {#sec-metastaz}
+```
+
+
+
+```{asis, echo = (language == "EN")}
+# Metastasis {#sec-metastasis}
+```
+
+
+
+```{asis, echo = (language == "TR")}
 ## Karaciğerde Sarkom Metastazı {#sec-karaciger-sarkom-metastaz}
+```
+
+
+
+```{asis, echo = (language == "EN")}
+## Metastatic Sarcoma in Liver {#sec-metastatic-sarcoma-liver}
+```
+
+
+
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/thumbnail_metastaticsarcoma.png")) {
@@ -28,21 +52,113 @@ webshot2::webshot(delay = 20,
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/metastaticsarcoma-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/metastaticsarcoma/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/metastaticsarcoma-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+[![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_metastaticsarcoma.png){width="25%"}](https://images.patolojiatlasi.com/metastaticsarcoma/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/metastaticsarcoma/HE.html)
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+![](./qrcodes/metastaticsarcoma-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_metastaticsarcoma.png){width="25%"}](https://images.patolojiatlasi.com/metastaticsarcoma/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/metastaticsarcoma/HE.html)
+```
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_metastaticsarcoma.png){width="25%"}](https://images.patolojiatlasi.com/metastaticsarcoma/HE.html)
+[Click for Full Screen WSI](https://images.patolojiatlasi.com/metastaticsarcoma/HE.html)
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+![](./qrcodes/metastaticsarcoma-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_metastaticsarcoma.png){width="25%"}](https://images.patolojiatlasi.com/metastaticsarcoma/HE.html)
+[Click for Full Screen WSI](https://images.patolojiatlasi.com/metastaticsarcoma/HE.html)
+```
+
+
+
+
+
+::::
+
+
+### WSI
+
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -58,12 +174,22 @@ Mikroskopik görüntüleri inceleyin:
 
 ```{asis, echo = ((language=="EN") & (output_type=="html"))}
 
-Mikroskopik görüntüleri inceleyin:
+See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/metastaticsarcoma/HE.html" style="height:600px;width:100%;" data-external="1">
 
 </iframe>
 ```
+
+
+
+
+
+:::::
+
+
+
+
 
 
 
@@ -74,44 +200,6 @@ source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
-
-
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
-
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
-
-  qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
-                       show = FALSE)
-}
-```
-
-
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
 
 
 ```{asis, echo = (language == "TR")}
@@ -127,10 +215,6 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 ```
 
 
-::::: panel-tabset
-
-### HE
-
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/thumbnail_insidious-lymph-node-metastasis.png")) {
 webshot2::webshot(
@@ -143,81 +227,17 @@ webshot2::webshot(
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/insidious-lymph-node-metastasis-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/insidious-lymph-node-metastasis-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
 
 
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-```{asis, echo = (language == "TR")}
-
-**Sinsi bir lenf nodu metastazı HE**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_insidious-lymph-node-metastasis.png){width="25%"}](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html)
-
-```
-
-
-```{asis, echo = ((language=="TR") & (output_type=="html"))}
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-
-
-```{asis, echo = (language == "EN")}
-
-**insidious lymph node metastasis HE**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_insidious-lymph-node-metastasis.png){width="25%"}](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html)
-
-```
-
-```{asis, echo = ((language == "EN") & (output_type=="html"))} 
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-```
-
-
-### IHC
-
-**Sinsi bir lenf nodu metastazı OSKAR panCK**
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
@@ -232,12 +252,12 @@ webshot2::webshot(
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/insidious-lymph-node-metastasis-OSKARCK_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/OSKARCK.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/insidious-lymph-node-metastasis-OSKARCK_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -247,8 +267,116 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+#### HE 
+
 :::: {.content-hidden when-format="pdf"}
 
+
+
+```{asis, echo = (language == "TR")}
+
+**Sinsi bir lenf nodu metastazı HE**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_insidious-lymph-node-metastasis.png){width="25%"}](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Sinsi bir lenf nodu metastazı HE**
+
+
+![](./qrcodes/insidious-lymph-node-metastasis-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_insidious-lymph-node-metastasis.png){width="25%"}](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**insidious lymph node metastasis HE**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_insidious-lymph-node-metastasis.png){width="25%"}](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**insidious lymph node metastasis HE**
+
+![](./qrcodes/insidious-lymph-node-metastasis-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_insidious-lymph-node-metastasis.png){width="25%"}](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+#### OSKAR 
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Sinsi bir lenf nodu metastazı OSKAR panCK**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_insidious-lymph-node-metastasis-OSKARCK.png){width="25%"}](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/OSKARCK.html)
+
+```
 
 
 
@@ -265,15 +393,96 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+```{asis, echo = (language == "TR")}
+
+**Sinsi bir lenf nodu metastazı OSKAR panCK**
+
+![](./qrcodes/insidious-lymph-node-metastasis-OSKARCK_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_insidious-lymph-node-metastasis-OSKARCK.png){width="25%"}](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/OSKARCK.html)
+
+```
+
+
+
+
+
 
 ::::
 
 
-```{asis, echo = (language == "TR")}
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_insidious-lymph-node-metastasis-OSKARCK.png){width="25%"}](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/OSKARCK.html)
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+**insidious lymph node metastasis OSKAR panCK**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_insidious-lymph-node-metastasis-OSKARCK.png){width="25%"}](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/OSKARCK.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/OSKARCK.html)
 
 ```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+**insidious lymph node metastasis OSKAR panCK**
+
+![](./qrcodes/insidious-lymph-node-metastasis-OSKARCK_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_insidious-lymph-node-metastasis-OSKARCK.png){width="25%"}](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/OSKARCK.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/OSKARCK.html)
+
+```
+
+
+
+
+
+::::
+
+
+### WSI
+
+#### HE
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+```
+
+
+
+#### OSKAR 
+
+
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -287,19 +496,19 @@ Mikroskopik görüntüleri inceleyin:
 
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
-**insidious lymph node metastasis OSKAR panCK**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_insidious-lymph-node-metastasis-OSKARCK.png){width="25%"}](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/OSKARCK.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/OSKARCK.html)
-
-```
-
-```{asis, echo = ((language == "EN") & (output_type=="html"))} 
-
 See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/OSKARCK.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
+
+
+
+
 :::::
+
+
+
+
 

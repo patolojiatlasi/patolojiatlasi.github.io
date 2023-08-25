@@ -98,8 +98,6 @@ book:
       href: index.qmd
     - text: "Introduction"
       href: introduction.qmd
-    - text: "Authors and Contributors"
-      href: authors.qmd
     - part: "---"
     - part: "General Pathology"
       chapters:
@@ -285,6 +283,8 @@ book:
     - references.qmd
     - part: "---"
   appendices:
+    - text: "Authors and Contributors"
+      href: authors.qmd
     - text: "Contributions are welcome"
       href: contributions.qmd
     - text: "Comments are welcome"

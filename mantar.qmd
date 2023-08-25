@@ -13,13 +13,23 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
-## Mantarlar {#sec-mantarlar}
+```{asis, echo = (language == "TR")}
+# Mantarlar {#sec-mantarlar}
+```
 
+
+```{asis, echo = (language == "EN")}
+# Fungi {#sec-fungi}
+```
+
+
+```{asis, echo = (language == "TR")}
+## Servikovajinal yaymada Candida *albicans*  {#sec-servikovajinal-yaymada-candida-albicans}
+```
+
+
+```{asis, echo = (language == "EN")}
 ## Candida *albicans* in cervicovaginal smear {#sec-candida-albicans-in-cervicovaginal-smear}
-
-
-```{comment}
-{{< include _content-to-repeat-1.qmd >}}
 ```
 
 
@@ -34,21 +44,92 @@ webshot2::webshot(
 ```
 
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/cervicovaginalsmear-candida-PAP_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/cervicovaginalsmear-candida-PAP_qrcode.svg",
                        show = FALSE)
 }
 ```
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/thumbnail_candidaalbicans.png){width="25%"}](https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html) [Tam Ekran Görmek İçin Resmi
-Tıklayın](https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html)
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+```{asis, echo = (language == "TR")}
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_candidaalbicans.png){width="25%"}](https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html)
+
+```
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "TR")}
+
+
+
+![](./qrcodes/cervicovaginalsmear-candida-PAP_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_candidaalbicans.png){width="25%"}](https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html)
+
+```
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_candidaalbicans.png){width="25%"}](https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html)
+
+```
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "EN")}
+
+
+
+![](./qrcodes/cervicovaginalsmear-candida-PAP_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_candidaalbicans.png){width="25%"}](https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html)
+
+```
+
+
+
+::::
+
+
+### WSI
 
 
 
@@ -60,6 +141,35 @@ Mikroskopik görüntüleri inceleyin:
 
 </iframe>
 
+
+```
+
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+
+
+```
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
 ```{r language brain-mucormycosis, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
@@ -68,28 +178,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
 
 
 ```{asis, echo = (language == "TR")}
@@ -105,12 +193,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
-::::: panel-tabset
-
-
-
-### HE
-
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/thumbnail_brain-mucormycosis.png")) {
@@ -122,80 +204,17 @@ webshot2::webshot(delay = 20,
 ```
 
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/brain-mucormycosis-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/brain-mucormycosis/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/brain-mucormycosis-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
 
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-```{asis, echo = (language == "TR")}
-
-**Beyin mukormikozis HE**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_brain-mucormycosis.png){width="25%"}](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html)
-
-```
-
-
-```{asis, echo = ((language=="TR") & (output_type=="html"))}
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/brain-mucormycosis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-```{asis, echo = (language == "EN")}
-
-**brain mucormycosis HE**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_brain-mucormycosis.png){width="25%"}](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html)
-
-```
-
-```{asis, echo = ((language == "EN") & (output_type=="html"))} 
-
-See Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/brain-mucormycosis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-
-### GMS
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
@@ -208,13 +227,13 @@ webshot2::webshot(delay = 20,
 ```
 
 
-```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+```{r, eval=FALSE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/brain-mucormycosis-GMS_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/brain-mucormycosis-GMS_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -222,9 +241,25 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+::::: panel-tabset
+
+
+### WSI - Link
+
+#### HE
 
 :::: {.content-hidden when-format="pdf"}
 
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Beyin mukormikozis HE**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_brain-mucormycosis.png){width="25%"}](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html)
+
+```
 
 
 
@@ -239,10 +274,70 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+```{asis, echo = (language == "TR")}
+
+**Beyin mukormikozis HE**
+
+
+![](./qrcodes/brain-mucormycosis-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_brain-mucormycosis.png){width="25%"}](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html)
+
+```
+
+
+
 
 
 
 ::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**brain mucormycosis HE**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_brain-mucormycosis.png){width="25%"}](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html)
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**brain mucormycosis HE**
+
+
+![](./qrcodes/brain-mucormycosis-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_brain-mucormycosis.png){width="25%"}](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/brain-mucormycosis/HE.html)
+
+```
+
+
+
+
+::::
+
+
+
+#### GMS
+
+:::: {.content-hidden when-format="pdf"}
+
+
 
 
 ```{asis, echo = (language == "TR")}
@@ -250,9 +345,105 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **Beyin mukormikozis GMS**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_brain-mucormycosis-GMS.png){width="25%"}](https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_brain-mucormycosis-GMS.png){width="25%"}](https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html)
 
 ```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Beyin mukormikozis GMS**
+
+
+![](./qrcodes/brain-mucormycosis-GMS_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_brain-mucormycosis-GMS.png){width="25%"}](https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html)
+
+```
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**brain mucormycosis GMS**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_brain-mucormycosis-GMS.png){width="25%"}](https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**brain mucormycosis GMS**
+
+
+![](./qrcodes/brain-mucormycosis-GMS_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_brain-mucormycosis-GMS.png){width="25%"}](https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html)
+
+```
+
+
+
+
+
+::::
+
+### WSI
+
+#### HE
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/brain-mucormycosis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/brain-mucormycosis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+#### GMS
+
+
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -263,15 +454,6 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-```{asis, echo = (language == "EN")}
-
-**brain mucormycosis GMS**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_brain-mucormycosis-GMS.png){width="25%"}](https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html)
-
-```
-
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
 See Microscopy with viewer: 
@@ -279,6 +461,7 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
+
 
 
 

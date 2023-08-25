@@ -22,6 +22,20 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
+
+
+
+
+```{asis, echo = (language == "TR")}
+# Yorum Ekleyin {#sec-yorum}
+```
+
+
+```{asis, echo = (language == "EN")}
+# Add Comments {#sec-comments}
+```
+
+
 ```{asis, echo = (language == "TR")}
 Lütfen, her sayfanın altında bulunan yorum kısmını kullanarak atlasın geliştirilmesine katılın.
 ```
