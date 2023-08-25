@@ -15,6 +15,24 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
+```{asis, echo = (language == "TR")}
+# Plasenta {#sec-plasenta}
+```
+
+```{asis, echo = (language == "EN")}
+# Placenta {#sec-placenta}
+```
+
+```{asis, echo = language == "TR"}
+## Koryoamniyonit {#sec-koryoamniyonit} 
+```
+
+```{asis, echo = language == "EN"}
+## Chorioamnionitis {#sec-chorioamnionitis} 
+```
+
+
+
 
 
 ::::: panel-tabset
@@ -79,24 +97,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-
-
-
-```{asis, echo = (language == "TR")}
-# Plasenta {#sec-plasenta}
-```
-
-```{asis, echo = (language == "EN")}
-# Placenta {#sec-placenta}
-```
-
-```{asis, echo = language == "TR"}
-## Koryoamniyonit {#sec-koryoamniyonit} 
-```
-
-```{asis, echo = language == "EN"}
-## Chorioamnionitis {#sec-chorioamnionitis} 
-```
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
