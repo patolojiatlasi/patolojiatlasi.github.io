@@ -260,15 +260,15 @@ book:
 #         - text: "Benzer Sayfalar"
 #           href: wsi_pdf_TR.qmd
 #     - referanslar_pdf_TR.qmd
-  appendices:
-    - text: "Yazarlar ve Katkıda Bulunanlar"
-      href: yazarlar_pdf_TR.qmd
-      target: _blank
-    # - yonetim-gelistirme.qmd
-    - text: "Katkıda bulunun"
-      href: katki_pdf_TR.qmd
-    - text: "Yorum ekleyin"
-      href: yorum_pdf_TR.qmd
+  # appendices:
+  #   - text: "Yazarlar ve Katkıda Bulunanlar"
+  #     href: yazarlar_pdf_TR.qmd
+  #     target: _blank
+  #   # - yonetim-gelistirme.qmd
+  #   - text: "Katkıda bulunun"
+  #     href: katki_pdf_TR.qmd
+  #   - text: "Yorum ekleyin"
+  #     href: yorum_pdf_TR.qmd
     # - text: "Liste"
     #   href: listing_pdf_TR.qmd
     # - listing2_pdf_TR.qmd
@@ -289,10 +289,10 @@ format:
     # documentclass: scrbook
     # classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,12pt]
 
-    include-in-header:
-      text: |
-        \usepackage{makeidx}
-        \makeindex
+    # include-in-header:
+    #   text: |
+    #     \usepackage{makeidx}
+    #     \makeindex
 
 #
       # \usepackage{fvextra}
@@ -308,12 +308,12 @@ format:
     #        breaklines
     #        % Note: setting commandchars=\\\{\} here will cause an error
     #     }
-
-    include-after-body:
-      text: |
-        \printindex
-
-    fig-pos: 'H'
+#
+#     include-after-body:
+#       text: |
+#         \printindex
+#
+#     fig-pos: 'H'
 
     execute:
       warning: false

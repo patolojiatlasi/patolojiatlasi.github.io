@@ -1,0 +1,172 @@
+---
+description: |
+    granulom,
+    patoloji, atlas, pathology, whole slide image
+date: last-modified
+categories: [granulom]
+page-layout: full
+bibliography: references.bib
+---
+
+```{r language, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+
+```{asis, echo = (language == "TR")}
+# Granülom {#sec-granulom}
+```
+
+```{asis, echo = (language == "EN")}
+# Granuloma {#sec-granuloma}
+```
+
+
+```{asis, echo = (language == "TR")}
+## Granülomatöz İnflamasyon {#sec-granulomatoz-inflamasyon}
+```
+
+```{asis, echo = (language == "EN")}
+## Granulomatous Inflammation {#sec-granulomatous-inflammation}
+```
+
+
+
+```{asis, echo = (language == "TR")}
+### Nekrotizan Granülamatöz İnflamasyon {#sec-nekrotizan-granulamatoz-inflamasyon}
+```
+
+```{asis, echo = (language == "EN")}
+### Necrotising Granulomatous Inflammation {#sec-necrotising-granulamatoz-inflamation}
+```
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_necrotisinggranuloma.png")) {
+webshot2::webshot(delay = 20,
+  url = "https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html",
+  file = "./screenshots/thumbnail_necrotisinggranuloma.png"
+)
+}
+```
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/necrotisinggranuloma-HE_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/necrotisinggranuloma-HE_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+ 
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Karaciğer dokusunda nekrotizan granülamatöz inflamasyon**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_necrotisinggranuloma.png){width="25%"}](https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html)
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**Karaciğer dokusunda nekrotizan granülamatöz inflamasyon**
+
+
+![](./qrcodes/necrotisinggranuloma-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_necrotisinggranuloma.png){width="25%"}](https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html)
+
+```
+
+
+
+
+
+::::
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Necrotising Granulomatous Inflammation in Liver**
+
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_necrotisinggranuloma.png){width="25%"}](https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html)
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Necrotising Granulomatous Inflammation in Liver**
+
+
+![](./qrcodes/necrotisinggranuloma-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_necrotisinggranuloma.png){width="25%"}](https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+

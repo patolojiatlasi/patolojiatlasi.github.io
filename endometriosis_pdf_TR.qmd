@@ -1,0 +1,167 @@
+---
+description: |
+    endometriozis, 
+    patoloji, atlas, pathology, whole slide image
+date: last-modified
+categories: [endometriozis]
+page-layout: full
+bibliography: references.bib
+---
+
+```{r language endometriosis, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Endometriozis {#sec-endometriozis}
+
+```
+
+```{asis, echo = (language == "EN")}
+
+## Endometriosis {#sec-endometriosis}
+
+```
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_endometriosis.png")) {
+webshot2::webshot(delay = 20,
+  url = "https://images.patolojiatlasi.com/endometriosis/HE.html",
+  file = "./screenshots/thumbnail_endometriosis.png"
+)
+}
+```
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/endometriosis-HE_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/endometriosis/HE.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/endometriosis-HE_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**İnce barsak duvarında endometriozis, loop yapışıklık ve obstrüksiyon**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_endometriosis.png){width="25%"}](https://images.patolojiatlasi.com/endometriosis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/endometriosis/HE.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**İnce barsak duvarında endometriozis, loop yapışıklık ve obstrüksiyon**
+
+
+![](./qrcodes/endometriosis-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_endometriosis.png){width="25%"}](https://images.patolojiatlasi.com/endometriosis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/endometriosis/HE.html)
+
+```
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Endometriosis in small intestine wall, causing loop obstruction**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_endometriosis.png){width="25%"}](https://images.patolojiatlasi.com/endometriosis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/endometriosis/HE.html)
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Endometriosis in small intestine wall, causing loop obstruction**
+
+
+![](./qrcodes/endometriosis-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_endometriosis.png){width="25%"}](https://images.patolojiatlasi.com/endometriosis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/endometriosis/HE.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/endometriosis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/endometriosis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+::::
+

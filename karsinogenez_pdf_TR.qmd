@@ -1,0 +1,189 @@
+---
+description: "karsinogenez, patoloji, atlas, pathology, whole slide image"
+date: last-modified
+categories: [karsinogenez]
+page-layout: full
+bibliography: references.bib
+---
+
+```{r language carcinogenesis, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+# Karsinogenez  {#sec-karsinogenez} 
+```
+
+```{asis, echo = (language == "TR")}
+
+## metaplazi, displazi, karsinom  {#sec-mepaplazi-displazi-karsinom} 
+
+```
+
+```{asis, echo = (language == "EN")}
+# Carcinogenesis {#sec-carcinogenesis} 
+```
+
+```{asis, echo = (language == "EN")}
+## metaplasia, dysplasia, carcinoma {#sec-metaplasia-dysplasia-carcinoma} 
+
+```
+
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_carcinogenesis.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/carcinogenesis/HE.html",
+  file = "./screenshots/thumbnail_carcinogenesis.png",
+  delay = 20
+)
+}
+```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/carcinogenesis-HE_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/carcinogenesis/HE.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/carcinogenesis-HE_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**metaplazi, displazi, karsinom**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_carcinogenesis.png){width="25%"}](https://images.patolojiatlasi.com/carcinogenesis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/carcinogenesis/HE.html)
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**metaplazi, displazi, karsinom**
+
+
+![](./qrcodes/carcinogenesis-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_carcinogenesis.png){width="25%"}](https://images.patolojiatlasi.com/carcinogenesis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/carcinogenesis/HE.html)
+
+```
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**metaplasia, dysplasia, carcinoma**
+
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_carcinogenesis.png){width="25%"}](https://images.patolojiatlasi.com/carcinogenesis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/carcinogenesis/HE.html)
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**metaplasia, dysplasia, carcinoma**
+
+
+![](./qrcodes/carcinogenesis-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_carcinogenesis.png){width="25%"}](https://images.patolojiatlasi.com/carcinogenesis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/carcinogenesis/HE.html)
+
+```
+
+
+
+::::
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/carcinogenesis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/carcinogenesis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+

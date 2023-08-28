@@ -14,162 +14,22 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
-
-
-
-
-::::: panel-tabset
-
-
-### WSI - Link
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-### WSI
-
-
-
-
-:::::
-
-
-
-
-
-
 ```{asis, echo = (language == "TR")}
-# Safra Kesesi  {#sec-safra-kesesi} 
-```
-
-
-
-
-
-
-::::: panel-tabset
-
-
-### WSI - Link
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-### WSI
-
-
-
-
-:::::
-
-
-
-
-
-
-```{asis, echo = (language == "TR")}
-## Safra Kesesi Adenomyom {#sec-safra-kesesi-adenomyom} 
-
+# Safra Kesesi  {#sec-safra-kesesi}
 ```
 
 ```{asis, echo = (language == "EN")}
-
-# Gallbladder {#sec-gallbladder} 
+# Gallbladder {#sec-gallbladder}
 ```
 
-```{asis, echo = (language == "EN")}
-## Gallbladder Adenomyoma {#sec-gallbladder-adenomyoma} 
 
+```{asis, echo = (language == "TR")}
+## Safra Kesesi Adenomyom {#sec-safra-kesesi-adenomyom}
+```
+
+
+```{asis, echo = (language == "EN")}
+## Gallbladder Adenomyoma {#sec-gallbladder-adenomyoma}
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
@@ -183,12 +43,12 @@ webshot2::webshot(delay = 20,
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/gallbladder-adenomyoma-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/gallbladder-adenomyoma-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -211,6 +71,17 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
+```{asis, echo = (language == "TR")}
+
+**Safra Kesesi Adenomyom**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_gallbladder-adenomyoma.png){width="25%"}](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html)
+
+```
+
+
+
 
 ::::
 
@@ -220,6 +91,17 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 :::: {.content-visible when-format="pdf"}
 
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Safra Kesesi Adenomyom**
+
+
+![](./qrcodes/gallbladder-adenomyoma-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_gallbladder-adenomyoma.png){width="25%"}](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html)
+
+```
 
 
 
@@ -233,6 +115,15 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 :::: {.content-hidden when-format="pdf"}
 
 
+```{asis, echo = (language == "EN")}
+
+**Gallbladder Adenomyoma**
+
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_gallbladder-adenomyoma.png){width="25%"}](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html)
+
+```
+
 
 
 
@@ -245,6 +136,15 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 :::: {.content-visible when-format="pdf"}
 
 
+```{asis, echo = (language == "EN")}
+
+**Gallbladder Adenomyoma**
+
+
+![](./qrcodes/gallbladder-adenomyoma-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_gallbladder-adenomyoma.png){width="25%"}](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html)
+
+```
+
 
 
 
@@ -255,39 +155,11 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 ### WSI
 
 
-
-
-:::::
-
-
-
-
-
-
-```{asis, echo = (language == "TR")}
-
-**Safra Kesesi Adenomyom**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_gallbladder-adenomyoma.png){width="25%"}](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html)
-
-```
-
-
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
 Mikroskopik görüntüleri inceleyin:
 
 <iframe src="https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-```{asis, echo = (language == "EN")}
-
-**Gallbladder Adenomyoma**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_gallbladder-adenomyoma.png){width="25%"}](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html)
 
 ```
 
@@ -299,6 +171,14 @@ See Microscopy with viewer:
 
 ```
 
+
+
+:::::
+
+
+
+
+
 ```{r language ischemia-gangrenous-cholecystitis, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
@@ -308,84 +188,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-
-
-
-::::: panel-tabset
-
-
-### WSI - Link
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-### WSI
-
-
-
-
-:::::
-
-
-
-
-
-
 ```{asis, echo = (language == "TR")}
-
 ## iskemi gangrenöz kolesistit {#sec-ischemia-gangrenous-cholecystitis}
-
 ```
 
 ```{asis, echo = (language == "EN")}
-
 ## ischemia in gangrenous cholecystitis {#sec-ischemia-gangrenous-cholecystitis}
-
 ```
 
 ```{r, eval=TRUE, include=FALSE}
@@ -399,25 +207,16 @@ webshot2::webshot(delay = 20,
 
 ```
 
-
-
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/ischemia-gangrenous-cholecystitis-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/ischemia-gangrenous-cholecystitis-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
-
-
-::::: panel-tabset
-
-### HE
-
-
 
 
 
@@ -433,6 +232,16 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 :::: {.content-hidden when-format="pdf"}
 
 
+```{asis, echo = (language == "TR")}
+
+**iskemi gangrenöz kolesistit**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_ischemia-gangrenous-cholecystitis.png){width="25%"}](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html)
+
+```
+
+
 
 
 
@@ -444,6 +253,16 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 :::: {.content-visible when-format="pdf"}
 
+
+
+```{asis, echo = (language == "TR")}
+
+**iskemi gangrenöz kolesistit**
+
+
+![](./qrcodes/ischemia-gangrenous-cholecystitis-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_ischemia-gangrenous-cholecystitis.png){width="25%"}](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html)
+
+```
 
 
 
@@ -457,6 +276,14 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 :::: {.content-hidden when-format="pdf"}
 
 
+```{asis, echo = (language == "EN")}
+
+**ischemia in gangrenous cholecystitis**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_ischemia-gangrenous-cholecystitis.png){width="25%"}](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html)
+
+```
+
 
 
 
@@ -469,6 +296,14 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 :::: {.content-visible when-format="pdf"}
 
 
+```{asis, echo = (language == "EN")}
+
+**ischemia in gangrenous cholecystitis**
+
+![](./qrcodes/ischemia-gangrenous-cholecystitis-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_ischemia-gangrenous-cholecystitis.png){width="25%"}](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html)
+
+```
+
 
 
 
@@ -480,24 +315,6 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-
-:::::
-
-
-
-
-
-
-```{asis, echo = (language == "TR")}
-
-**iskemi gangrenöz kolesistit**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_ischemia-gangrenous-cholecystitis.png){width="25%"}](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html)
-
-```
-
-
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
 Mikroskopik görüntüleri inceleyin:
@@ -506,14 +323,6 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-
-```{asis, echo = (language == "EN")}
-
-**ischemia in gangrenous cholecystitis**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_ischemia-gangrenous-cholecystitis.png){width="25%"}](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html)
-
-```
 
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
 
@@ -524,52 +333,9 @@ See Microscopy with viewer:
 ```
 
 
-### HE - annotated
-
-
-```{comment}
-asis, echo = (language == "TR")
-
-**iskemi gangrenöz kolesistit**
-
-
-[![İşaretlenmiş mikroskopik görüntüleri Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_ischemia-gangrenous-cholecystitis.png){width="25%"}](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE_annotated.html) [İşaretlenmiş mikroskopik görüntüleri Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE_annotated.html)
-
-```
-
-
-```{asis, echo = ((language=="TR") & (output_type=="html"))}
-
-İşaretlenmiş Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-
-```{comment}
-asis, echo = (language == "EN")
-
-**ischemia in gangrenous cholecystitis**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen Annotated WSI](./screenshots/thumbnail_ischemia-gangrenous-cholecystitis.png){width="25%"}](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE_annotated.html) [Click for Full Screen Annotated WSI](https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE_annotated.html)
-
-```
-
-
-```{comment}
-
-See Annotated Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-
-
-```
-
-
 
 :::::
+
 
 
 

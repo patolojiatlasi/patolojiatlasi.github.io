@@ -1,0 +1,590 @@
+---
+description: |
+    bacteria, H.pylori, histochemistry, immunohistochemistry, patoloji, atlas, pathology, whole slide image
+date: last-modified
+categories: [bacteria, H.pylori, histochemistry, immunohistochemistry]
+page-layout: full
+bibliography: references.bib
+---
+
+```{r language, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+```{asis, echo = language == "TR"}
+# Bakteriler {#sec-bakteriler}
+```
+
+```{asis, echo = language == "EN"}
+# Bacteria {#sec-bacteria}
+```
+
+```{asis, echo = language == "TR"}
+## Helicobacter pylori {#sec-helicobacter-pylori}
+```
+
+```{asis, echo = language == "EN"}
+## Helicobacter pylori {#sec-helicobacter-pylori}
+```
+
+
+ 
+
+
+
+### HE
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_helicobacterpylori.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/helicobacterpylori/HE.html",
+  file = "./screenshots/thumbnail_helicobacterpylori.png",
+  delay = 20
+)
+}
+```
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/helicobacterpylori-HE_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/helicobacterpylori/HE.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/helicobacterpylori-HE_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+ 
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = language == "TR"}
+
+**Mide'de Helicobacter pylori (H. pylori) HE**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_helicobacterpylori.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/helicobacterpylori/HE.html)
+
+
+```
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = language == "TR"}
+
+**Mide'de Helicobacter pylori (H. pylori) HE**
+
+![](./qrcodes/helicobacterpylori-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_helicobacterpylori.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/helicobacterpylori/HE.html)
+
+
+```
+
+
+
+
+
+
+::::
+  
+  
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = language == "EN"}
+
+**Helicobacter pylori (H. pylori) in stomach HE Slide**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_helicobacterpylori.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/helicobacterpylori/HE.html)
+
+
+```
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = language == "EN"}
+
+**Helicobacter pylori (H. pylori) in stomach HE Slide**
+
+![](./qrcodes/helicobacterpylori-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_helicobacterpylori.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/helicobacterpylori/HE.html)
+
+
+```
+
+
+
+::::
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/helicobacterpylori/HE.html" width="100%" height="400px"></iframe>
+
+```
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/helicobacterpylori/HE.html" width="100%" height="400px"></iframe>
+
+
+```
+
+
+### Warthin-Starry
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_helicobacterpyloriWS.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html",
+  file = "./screenshots/thumbnail_helicobacterpyloriWS.png",
+  delay = 20
+)
+}
+```
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/helicobacterpylori-WS_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/helicobacterpylori-WS_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = language == "TR"}
+
+**Mide'de Helicobacter pylori (H. pylori) Warthin Starry Histokimyası**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_helicobacterpyloriWS.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html)
+
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = language == "TR"}
+
+**Mide'de Helicobacter pylori (H. pylori) Warthin Starry Histokimyası**
+
+![](./qrcodes/helicobacterpylori-WS_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_helicobacterpyloriWS.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html)
+
+
+```
+
+
+
+
+
+::::
+  
+  
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = language == "EN"}
+
+**Helicobacter pylori (H. pylori) in stomach Warthin Starry Histochemistry Slide**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_helicobacterpyloriWS.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html)
+
+
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = language == "EN"}
+
+**Helicobacter pylori (H. pylori) in stomach Warthin Starry Histochemistry Slide**
+
+![](./qrcodes/helicobacterpylori-WS_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_helicobacterpyloriWS.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html)
+
+
+```
+
+
+
+
+::::
+  
+  
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html" width="100%" height="400px"></iframe>
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html" width="100%" height="400px"></iframe>
+
+
+```
+
+
+### Giemsa
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_helicobacterpyloriGiemsa.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html",
+  file = "./screenshots/thumbnail_helicobacterpyloriGiemsa.png",
+  delay = 20
+)
+}
+```
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/helicobacterpylori-giemsa_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/helicobacterpylori-giemsa_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = language == "TR"}
+
+**Mide'de Helicobacter pylori (H. pylori) Giemsa Histokimyası**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_helicobacterpyloriGiemsa.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html)
+
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = language == "TR"}
+
+**Mide'de Helicobacter pylori (H. pylori) Giemsa Histokimyası**
+
+![](./qrcodes/helicobacterpylori-giemsa_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_helicobacterpyloriGiemsa.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html)
+
+
+```
+
+
+
+
+::::
+  
+  
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = language == "EN"}
+
+**Helicobacter pylori (H. pylori) in stomach Giemsa Histochemistry Slide**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_helicobacterpyloriGiemsa.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html)
+
+
+```
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = language == "EN"}
+
+**Helicobacter pylori (H. pylori) in stomach Giemsa Histochemistry Slide**
+
+![](./qrcodes/helicobacterpylori-giemsa_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_helicobacterpyloriGiemsa.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html)
+
+
+```
+
+
+
+
+::::
+  
+  
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html" width="100%" height="400px"></iframe>
+
+```
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html" width="100%" height="400px"></iframe>
+
+
+```
+
+
+
+
+
+### IHC
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_helicobacterpyloriIHC.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/helicobacterpylori/IHC.html",
+  file = "./screenshots/thumbnail_helicobacterpyloriIHC.png",
+  delay = 20
+)
+}
+```
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/helicobacterpylori-IHC_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/helicobacterpylori/IHC.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/helicobacterpylori-IHC_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = language == "TR"}
+
+**Mide'de Helicobacter pylori (H. pylori) İmmünohistokimyası**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_helicobacterpyloriIHC.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/IHC.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/helicobacterpylori/IHC.html)
+
+
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = language == "TR"}
+
+**Mide'de Helicobacter pylori (H. pylori) İmmünohistokimyası**
+
+![](./qrcodes/helicobacterpylori-IHC_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_helicobacterpyloriIHC.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/IHC.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/helicobacterpylori/IHC.html)
+
+
+```
+
+
+
+
+
+::::
+  
+  
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = language == "EN"}
+
+**Helicobacter pylori (H. pylori) immunohistochemistry in stomach**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_helicobacterpyloriIHC.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/IHC.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/helicobacterpylori/IHC.html)
+
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = language == "EN"}
+
+**Helicobacter pylori (H. pylori) immunohistochemistry in stomach**
+
+![](./qrcodes/helicobacterpylori-IHC_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_helicobacterpyloriIHC.png){width="25%"}](https://images.patolojiatlasi.com/helicobacterpylori/IHC.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/helicobacterpylori/IHC.html)
+
+
+```
+
+
+
+::::
+  
+  
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/helicobacterpylori/IHC.html" width="100%" height="400px"></iframe>
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/helicobacterpylori/IHC.html" width="100%" height="400px"></iframe>
+
+
+```
+
+
+
+

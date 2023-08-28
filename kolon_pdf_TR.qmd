@@ -1,0 +1,884 @@
+---
+description: "Kalın barsak benign ve malign hastalıkları"
+date: last-modified
+categories: [kolon, tumor]
+page-layout: full
+bibliography: references.bib
+---
+
+
+```{r language ischemic-colitis, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+```{asis, echo = (language == "TR")}
+# Kolon Patolojisi {#sec-kolon-patolojisi} 
+```
+
+```{asis, echo = (language == "EN")}
+# Pathology of Colon {#sec-pathology-of-colon} 
+```
+
+
+{{< include ./_subchapters/_ischemic-colitis_pdf_TR.qmd >}}
+
+
+
+
+```{asis, echo = (language == "TR")}
+## Benign Kolon Tümörleri {#sec-benign-kolon-tumor}
+```
+
+```{asis, echo = (language == "EN")}
+## Benign Colon Tumors {#sec-benign-colon-tumor}
+```
+
+
+
+{{< include ./_subchapters/_tubular-adenoma-flat_pdf_TR.qmd >}}
+
+
+{{< include ./_subchapters/_tubular-adenoma-with-stalk_pdf_TR.qmd >}}
+
+
+{{< include ./_subchapters/_colon-hyperplasticpolyp_pdf_TR.qmd >}}
+
+
+{{< include ./_subchapters/_colon-hamartomatouspolyp_pdf_TR.qmd >}}
+
+
+{{< include ./_subchapters/_colon-schwanncellhamartoma_pdf_TR.qmd >}}
+
+
+
+```{asis, echo = (language == "TR")}
+
+# Kolon submukozal lipom {#sec-kolon-intramukozal-lipom} 
+
+```
+
+```{asis, echo = (language == "EN")}
+
+# Colon submucosal lipoma {#sec-colon-submucosal-lipoma} 
+
+```
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_colon-submucosal-lipoma.png")) {
+webshot2::webshot(delay = 20,
+  url = "https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html",
+  file = "./screenshots/thumbnail_colon-submucosal-lipoma.png"
+)
+}
+```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Kolon submukozal lipom**
+
+
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_colon-submucosal-lipoma.png){width="25%"}](https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html)
+
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+```{asis, echo = (language == "EN")}
+
+**Colon submucosal lipoma**
+
+
+ [![Click for Full Screen WSI](./screenshots/thumbnail_colon-submucosal-lipoma.png){width="25%"}](https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+```{r language mucinous-adenocarcinoma-colon, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+# Tübülövillöz adenom zemininde gelişmiş Müsinöz adenokarsinom, kolon {#sec-tubulovilloz-adenom-zemininde-adenokarsinom} 
+
+```
+
+```{asis, echo = (language == "EN")}
+
+# Mucinous adenocarcinoma of colon arising from tubulovillus adenoma {#sec-adenocarcinoma-arising-tubulovillous-adenoma} 
+
+```
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_mucinous-adenocarcinoma-colon.png")) {
+webshot2::webshot(delay = 20,
+  url = "https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html",
+  file = "./screenshots/thumbnail_mucinous-adenocarcinoma-colon.png"
+)
+}
+```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Tübülövillöz adenom zemininde gelişmiş Müsinöz adenokarsinom, kolon**
+
+
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_mucinous-adenocarcinoma-colon.png){width="25%"}](https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html)
+
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+**Mucinous adenocarcinoma of colon arising from tubulovillus adenoma**
+
+
+ [![Click for Full Screen WSI](./screenshots/thumbnail_mucinous-adenocarcinoma-colon.png){width="25%"}](https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+```{r language colon-adenocarcinoma, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+# Kolon Adenokarsinomu {#sec-kolon-adenokarsinomu} 
+
+```
+
+```{asis, echo = (language == "EN")}
+
+# Colon Adenocarcinoma {#sec-colon-adenocarcinoma} 
+
+```
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_colon-adenocarcinoma-1.png")) {
+webshot2::webshot(delay = 20,
+  url = "https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html",
+  file = "./screenshots/thumbnail_colon-adenocarcinoma-1.png"
+)
+}
+```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Kolon Adenokarsinomu**
+
+
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_colon-adenocarcinoma-1.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html)
+
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+```{asis, echo = (language == "EN")}
+
+**Colon Adenocarcinoma**
+
+
+ [![Click for Full Screen WSI](./screenshots/thumbnail_colon-adenocarcinoma-1.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_colon-adenocarcinoma-2.png")) {
+webshot2::webshot(delay = 20,
+  url = "https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html",
+  file = "./screenshots/thumbnail_colon-adenocarcinoma-2.png"
+)
+}
+```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Kolon Adenokarsinomu**
+
+
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_colon-adenocarcinoma-2.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html)
+
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html" style="height:600px;width:100%;"></iframe>
+
+```
+
+```{asis, echo = (language == "EN")}
+
+**Colon Adenocarcinoma**
+
+
+ [![Click for Full Screen WSI](./screenshots/thumbnail_colon-adenocarcinoma-2.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html" style="height:600px;width:100%;"></iframe>
+
+```
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_colon-adenocarcinoma-3.png")) {
+webshot2::webshot(delay = 20,
+  url = "https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html",
+  file = "./screenshots/thumbnail_colon-adenocarcinoma-3.png"
+)
+}
+```
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Kolon Adenokarsinomu pT4a**
+
+
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_colon-adenocarcinoma-3.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html)
+
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html" style="height:600px;width:100%;"></iframe>
+
+```
+
+```{asis, echo = (language == "EN")}
+
+**Colon Adenocarcinoma pT4a**
+
+
+ [![Click for Full Screen WSI](./screenshots/thumbnail_colon-adenocarcinoma-3.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html)
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html" style="height:600px;width:100%;"></iframe>
+
+```
+

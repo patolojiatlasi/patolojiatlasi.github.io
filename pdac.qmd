@@ -18,75 +18,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-
-
-
-
-::::: panel-tabset
-
-
-### WSI - Link
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-### WSI
-
-
-
-
-:::::
-
-
-
-
-
-
 ```{asis, echo = (language == "TR")}
 ## pankreas, pankreatik duktal adenokarsinom {#sec-PDAC-tru-cut}
 ```
@@ -109,15 +40,21 @@ webshot2::webshot(
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/PDAC-tru-cut-HE1_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/PDAC-tru-cut-HE1_qrcode.svg",
                        show = FALSE)
 }
 ```
+
+
+
+
+
+
 
 
 ```{r PDAC-tru-cut-2 screenshot, eval=TRUE, include=FALSE}
@@ -132,12 +69,12 @@ webshot2::webshot(
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/PDAC-tru-cut-HE2_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/PDAC-tru-cut-HE2_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -156,12 +93,12 @@ webshot2::webshot(
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/PDAC-tru-cut-HE3_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/PDAC-tru-cut-HE3_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -179,13 +116,6 @@ knitr::include_graphics("./screenshots/thumbnail_PDAC-tru-cut-1.png")
 ```
 
 
-::::: panel-tabset
-
-### HE - 1
-
-
-
-
 
 
 
@@ -195,9 +125,65 @@ knitr::include_graphics("./screenshots/thumbnail_PDAC-tru-cut-1.png")
 ### WSI - Link
 
 
+#### HE-1
+
 
 :::: {.content-hidden when-format="pdf"}
 
+
+
+```{asis, echo = (language == "TR")}
+
+**pankreas, pankreatik duktal adenokarsinom**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_PDAC-tru-cut-1.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html)
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**pankreas, pankreatik duktal adenokarsinom**
+
+
+![](./qrcodes/PDAC-tru-cut-HE1_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_PDAC-tru-cut-1.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html)
+```
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**pancreas pancreatic ductal adenocarcinoma**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_PDAC-tru-cut-1.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html)
+
+
+```
 
 
 
@@ -215,12 +201,36 @@ knitr::include_graphics("./screenshots/thumbnail_PDAC-tru-cut-1.png")
 
 
 
+```{asis, echo = (language == "EN")}
+
+**pancreas pancreatic ductal adenocarcinoma**
+
+![](./qrcodes/PDAC-tru-cut-HE1_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_PDAC-tru-cut-1.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html)
+
+
+```
+
+
+
+
 ::::
 
 
+#### HE-2
 
 
 :::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**pankreas, pankreatik duktal adenokarsinom**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_PDAC-tru-cut-2.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html)
+```
 
 
 
@@ -234,6 +244,153 @@ knitr::include_graphics("./screenshots/thumbnail_PDAC-tru-cut-1.png")
 
 :::: {.content-visible when-format="pdf"}
 
+
+
+
+```{asis, echo = (language == "TR")}
+
+**pankreas, pankreatik duktal adenokarsinom**
+
+
+![](./qrcodes/PDAC-tru-cut-HE2_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_PDAC-tru-cut-2.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html)
+```
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**pancreas pancreatic ductal adenocarcinoma**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_PDAC-tru-cut-2.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html)
+
+
+```
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**pancreas pancreatic ductal adenocarcinoma**
+
+![](./qrcodes/PDAC-tru-cut-HE2_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_PDAC-tru-cut-2.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html)
+
+
+```
+
+
+
+
+
+
+
+::::
+
+
+#### HE-3
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")}
+
+**pankreas, pankreatik duktal adenokarsinom**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_PDAC-tru-cut-3.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html)
+```
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**pankreas, pankreatik duktal adenokarsinom**
+
+
+![](./qrcodes/PDAC-tru-cut-HE3_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_PDAC-tru-cut-3.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html)
+```
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**pancreas pancreatic ductal adenocarcinoma**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_PDAC-tru-cut-3.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html)
+
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**pancreas pancreatic ductal adenocarcinoma**
+
+![](./qrcodes/PDAC-tru-cut-HE3_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_PDAC-tru-cut-3.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html)
+
+
+```
 
 
 
@@ -245,22 +402,7 @@ knitr::include_graphics("./screenshots/thumbnail_PDAC-tru-cut-1.png")
 ### WSI
 
 
-
-
-:::::
-
-
-
-
-
-
-```{asis, echo = (language == "TR")}
-
-**pankreas, pankreatik duktal adenokarsinom**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_PDAC-tru-cut-1.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html)
-```
+#### HE-1
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -269,19 +411,6 @@ Mikroskopik görüntüleri inceleyin:
 <iframe src="https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
-
-
-
-
-```{asis, echo = (language == "EN")}
-
-**pancreas pancreatic ductal adenocarcinoma**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_PDAC-tru-cut-1.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html)
-
-
-```
-
 
 
 ```{asis, echo = ((language == "EN") & (output_type=="html"))} 
@@ -296,87 +425,7 @@ See Microscopy with viewer:
 
 
 
-### HE - 2
-
-
-
-
-
-
-
-::::: panel-tabset
-
-
-### WSI - Link
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-### WSI
-
-
-
-
-:::::
-
-
-
-
-
-
-```{asis, echo = (language == "TR")}
-
-**pankreas, pankreatik duktal adenokarsinom**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_PDAC-tru-cut-2.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html)
-```
-
+#### HE-2
 
 
 
@@ -387,16 +436,6 @@ Mikroskopik görüntüleri inceleyin:
 
 ```
 
-
-
-```{asis, echo = (language == "EN")}
-
-**pancreas pancreatic ductal adenocarcinoma**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_PDAC-tru-cut-2.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html)
-
-
-```
 
 
 
@@ -411,86 +450,8 @@ See Microscopy with viewer:
 
 
 
-### HE - 3
 
-
-
-
-
-
-::::: panel-tabset
-
-
-### WSI - Link
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-### WSI
-
-
-
-
-:::::
-
-
-
-
-
-
-```{asis, echo = (language == "TR")}
-
-**pankreas, pankreatik duktal adenokarsinom**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_PDAC-tru-cut-3.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html)
-```
-
+#### HE-3
 
 
 
@@ -502,16 +463,6 @@ Mikroskopik görüntüleri inceleyin:
 ```
 
 
-
-
-```{asis, echo = (language == "EN")}
-
-**pancreas pancreatic ductal adenocarcinoma**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_PDAC-tru-cut-3.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html)
-
-
-```
 
 
 

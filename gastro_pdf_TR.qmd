@@ -1,0 +1,36 @@
+---
+description: |
+    gastrointestinal,
+    patoloji, atlas, pathology, whole slide image
+date: last-modified
+categories: [gastrointestinal]
+page-layout: full
+bibliography: references.bib
+---
+
+```{r language gastro, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+# Gastrointestinal Sistem {#sec-gastrointestinal-sistem}
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+# Gastrointestinal System  {#sec-gastrointestinal-system}
+
+```
+
+
+

@@ -1,0 +1,202 @@
+---
+description: |
+    koleksiyon,
+    patoloji, atlas, pathology, whole slide image
+date: last-modified
+categories: [koleksiyon]
+page-layout: full
+bibliography: references.bib
+---
+
+```{r language hacettepe-com-case, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+
+```{asis, echo = (language == "TR")}
+**Bu sayfadaki vakalar Doç. Dr. Kemal Kösemehmetoğlu ve Doç. Dr. Arzu Sağlam'ın koleksiyonundan alınmıştır.**
+```
+
+```{asis, echo = (language == "EN")}
+**These cases are from the collections of Kemal Kosemehmetoglu MD and Arzu Saglam MD.**
+```
+
+
+
+```{asis, echo = (language == "TR")}
+# [Hacettepe Ayın Vakası - Case Of the Month (COM)](https://hacettepepathology.com/)  {#sec-hacettepe-ayin-vakasi-case-of-the-month}
+```
+
+```{asis, echo = (language == "EN")}
+# [Hacettepe Case Of the Month (COM)](https://hacettepepathology.com/)  {#sec-hacettepe-case-of-the-month}
+```
+
+
+{{< include ./_subchapters/_hacettepe_com_case_1_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_2_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_3_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_4_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_5_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_6_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_7_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_8_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_9_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_10_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_11_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_12_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_13_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_14_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_15_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_16_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_17_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_18_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_19_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_20_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_21_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_22_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_23_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_24_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_25_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_26_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_27_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_28_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_29_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_30_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_31_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_32_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_33_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_34_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_35_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_36_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_37_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_38_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_39_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_40_pdf_TR.qmd >}}
+
+
+
+{{< include ./_subchapters/_hacettepe_com_case_41_pdf_TR.qmd >}}
+
+
+
+
+

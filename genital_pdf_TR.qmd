@@ -1,0 +1,28 @@
+---
+description: |
+    genital, reproductive, patoloji, atlas, pathology, whole slide image
+date: last-modified
+categories: [genital, reproductive]
+page-layout: full
+bibliography: references.bib
+---
+
+
+```{r language genital, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+# Genital Sistem Patolojisi {#sec-genital-sistem-patolojisi}
+```
+
+
+```{asis, echo = (language == "EN")}
+# Genital Sistem Patolojisi {#sec-genital-sistem-patolojisi}
+```
+

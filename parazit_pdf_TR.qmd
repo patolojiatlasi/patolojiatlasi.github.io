@@ -1,0 +1,182 @@
+---
+description: "parazit, enfeksiyon, patoloji, atlas, pathology, whole slide image"
+date: last-modified
+categories: [parazit, enfeksiyon]
+page-layout: full
+bibliography: references.bib
+---
+
+```{r language parazit, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis, echo = (language == "TR")}
+# Parazitler {#sec-parazitler} 
+```
+
+```{asis, echo = (language == "EN")}
+# Parasites {#sec-parasites} 
+```
+
+
+{{< include ./_subchapters/_giardia_pdf_TR.qmd >}}
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+## Enterobius vermicularis {#sec-enterobius-vermicularis} 
+```
+
+```{asis, echo = (language == "EN")}
+## Enterobius vermicularis {#sec-enterobius-vermicularis} 
+```
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_enterobius-vermicularis.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html",
+  file = "./screenshots/thumbnail_enterobius-vermicularis.png",
+  delay = 20
+)
+}
+```
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/enterobius-vermicularis-HE_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/enterobius-vermicularis-HE_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Enterobius vermicularis**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_enterobius-vermicularis.png){width="25%"}](https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html)
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Enterobius vermicularis**
+
+![](./qrcodes/enterobius-vermicularis-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_enterobius-vermicularis.png){width="25%"}](https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html)
+
+```
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Enterobius vermicularis**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_enterobius-vermicularis.png){width="25%"}](https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html)
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Enterobius vermicularis**
+
+![](./qrcodes/enterobius-vermicularis-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_enterobius-vermicularis.png){width="25%"}](https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+
+

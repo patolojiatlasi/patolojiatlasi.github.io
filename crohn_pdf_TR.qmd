@@ -1,0 +1,777 @@
+---
+description: |
+    Crohn's Disease 
+    Crohn Hastalığı
+    Inflammatory Bowel Disease
+    İnflamatuar Barsak Hastalığı
+date: last-modified
+categories: [Crohn, Inflammatory Bowel Disease, İnflamatuar Barsak Hastalığı]
+page-layout: full
+bibliography: references.bib
+---
+
+
+
+```{r language crohn-colonoscopic-biopsy, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+## Crohn Hastalığı Kolonoskopik Biyopsi {#sec-crohn-colonoscopic-biopsy }
+```
+
+
+```{asis, echo = (language == "EN")}
+## Crohn's Disease Colonoscopic Biopsy {#sec-crohn-colonoscopic-biopsy }
+```
+
+
+
+
+
+```{r crohn-colonoscopic-biopsy screenshot all, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_crohn-colonoscopic-biopsy-all.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/all.html",
+  file = "./screenshots/thumbnail_crohn-colonoscopic-biopsy-all.png"
+)
+}
+```
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Crohn Hastalığı**
+
+
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_crohn-colonoscopic-biopsy-all.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/all.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/all.html)
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/all.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+**Crohn's Disease**
+
+ [![Click for Full Screen WSI](./screenshots/thumbnail_crohn-colonoscopic-biopsy-all.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/all.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/all.html)
+
+```
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/all.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+ 
+
+### HE - 1
+
+
+```{r crohn-colonoscopic-biopsy screenshot HE1, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE1.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE1.html",
+  file = "./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE1.png"
+)
+}
+```
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Crohn Hastalığı**
+
+
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE1.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE1.html)
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+**Crohn's Disease**
+
+ [![Click for Full Screen WSI](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE1.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE1.html)
+
+```
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+### HE - 2
+
+
+
+```{r crohn-colonoscopic-biopsy screenshot HE2, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE2.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE2.html",
+  file = "./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE2.png"
+)
+}
+```
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Crohn Hastalığı**
+
+
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE2.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE2.html)
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+**Crohn's Disease**
+
+ [![Click for Full Screen WSI](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE2.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE2.html)
+
+```
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+### HE - 3
+
+
+
+```{r crohn-colonoscopic-biopsy screenshot HE3, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE3.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE3.html",
+  file = "./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE3.png"
+)
+}
+```
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Crohn Hastalığı**
+
+
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE3.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE3.html)
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE3.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+**Crohn's Disease**
+
+ [![Click for Full Screen WSI](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE3.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE3.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE3.html)
+
+```
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE3.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+### HE - 4
+
+
+
+```{r crohn-colonoscopic-biopsy screenshot HE4, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE4.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE4.html",
+  file = "./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE4.png"
+)
+}
+```
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Crohn Hastalığı**
+
+
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE4.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE4.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE4.html)
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE4.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+**Crohn's Disease**
+
+ [![Click for Full Screen WSI](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE4.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE4.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE4.html)
+
+```
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE4.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+

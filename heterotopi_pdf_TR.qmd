@@ -1,0 +1,343 @@
+---
+description: |
+    heterotopi,
+    patoloji, atlas, pathology, whole slide image
+date: last-modified
+categories: [heterotopi]
+page-layout: full
+bibliography: references.bib
+---
+
+```{r language heterotopi, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
+```{asis, echo = (language == "TR")}
+
+# Heterotopi Ektopi {#sec-heterotopi-ektopi}
+```
+
+```{asis, echo = (language == "TR")}
+
+## Intrapancreatic Spleen, Heterotopia {#sec-intrapancreatic-spleen}
+```
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_intrapancreaticspleen.png")) {
+webshot2::webshot(delay = 20,
+  url = "https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html",
+  file = "./screenshots/thumbnail_intrapancreaticspleen.png"
+)
+}
+```
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/intrapancreaticspleen-HE_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/intrapancreaticspleen-HE_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")}
+
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_intrapancreaticspleen.png){width="25%"}](https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html)
+```
+
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")}
+
+![](./qrcodes/intrapancreaticspleen-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_intrapancreaticspleen.png){width="25%"}](https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html)
+```
+
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_intrapancreaticspleen.png){width="25%"}](https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html)
+[Click for Full Screen WSI](https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html)
+```
+
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+![](./qrcodes/intrapancreaticspleen-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_intrapancreaticspleen.png){width="25%"}](https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html)
+[Click for Full Screen WSI](https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html)
+```
+
+
+
+
+
+
+::::
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+
+```
+
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+
+```
+
+
+
+
+
+
+
+
+
+
+
+```{r language ectopic-adrenal, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+
+```{asis, echo = (language == "TR")}
+## Paratubal adneksiyal bölgede ektopik adrenal dokusu {#sec-paratubal-adneksiyal-bolgede-ektopik-adrenal} 
+```
+
+```{asis, echo = (language == "EN")}
+## Ectopic adrenal tissue in paratubal adnexal region {#sec-ectopic-adrenal-tissue-paratubal-adnexial-tissue} 
+```
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_ectopic-adrenal.png")) {
+webshot2::webshot(delay = 20,
+  url = "https://images.patolojiatlasi.com/ectopic-adrenal/HE.html",
+  file = "./screenshots/thumbnail_ectopic-adrenal.png"
+)
+}
+```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/ectopic-adrenal-HE_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/ectopic-adrenal/HE.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/ectopic-adrenal-HE_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Paratubal adneksiyal bölgede ektopik adrenal dokusu**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_ectopic-adrenal.png){width="25%"}](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Paratubal adneksiyal bölgede ektopik adrenal dokusu**
+
+
+![](./qrcodes/ectopic-adrenal-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_ectopic-adrenal.png){width="25%"}](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html)
+
+```
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Ectopic adrenal tissue in paratubal adnexal region**
+
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_ectopic-adrenal.png){width="25%"}](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html)
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Ectopic adrenal tissue in paratubal adnexal region**
+
+
+![](./qrcodes/ectopic-adrenal-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_ectopic-adrenal.png){width="25%"}](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html)
+
+```
+
+
+
+
+
+::::
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/ectopic-adrenal/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/ectopic-adrenal/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+
+

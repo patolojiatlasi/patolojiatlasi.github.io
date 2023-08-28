@@ -1,0 +1,361 @@
+---
+description: "tukuruk, salivary, patoloji, atlas, pathology, whole slide image"
+date: last-modified
+categories: [tukuruk, salivary]
+page-layout: full
+bibliography: references.bib
+---
+
+```{r language tukuruk bezi, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+# Tükürük Bezi Tümörleri {#sec-tukuruk-bezi-tumorleri} 
+
+```
+
+```{asis, echo = (language == "EN")}
+
+# Tumors of Salivary Gland {#sec-salivary-gland-tumors} 
+
+```
+
+```{r language mammary-analogue-secretory-carcinoma, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
+
+```{asis, echo = (language == "TR")}
+
+## Tükürük bezinin meme benzeri sekretuar karsinomu
+
+```
+
+```{asis, echo = (language == "EN")}
+
+##  Mammary analogue secretory carcinoma of salivary gland
+
+```
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_mammary-analogue-secretory-carcinoma1.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html",
+  file = "./screenshots/thumbnail_mammary-analogue-secretory-carcinoma1.png",
+  delay = 20
+)
+}
+```
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/mammary-analogue-secretory-carcinoma-HE1_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/mammary-analogue-secretory-carcinoma-HE1_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_mammary-analogue-secretory-carcinoma2.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html",
+  file = "./screenshots/thumbnail_mammary-analogue-secretory-carcinoma2.png",
+  delay = 20
+)
+}
+```
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/mammary-analogue-secretory-carcinoma-HE2_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/mammary-analogue-secretory-carcinoma-HE2_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+ 
+
+
+
+
+#### HE-1
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_mammary-analogue-secretory-carcinoma1.png){width="25%"}](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+![](./qrcodes/mammary-analogue-secretory-carcinoma-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_mammary-analogue-secretory-carcinoma1.png){width="25%"}](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html)
+
+```
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+** mammary analogue secretory carcinoma of salivary gland**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_mammary-analogue-secretory-carcinoma1.png){width="25%"}](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+** mammary analogue secretory carcinoma of salivary gland**
+
+![](./qrcodes/mammary-analogue-secretory-carcinoma-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_mammary-analogue-secretory-carcinoma1.png){width="25%"}](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html)
+
+```
+
+
+
+
+::::
+
+
+#### HE-2
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_mammary-analogue-secretory-carcinoma2.png){width="25%"}](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+![](./qrcodes/mammary-analogue-secretory-carcinoma-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_mammary-analogue-secretory-carcinoma2.png){width="25%"}](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html)
+
+```
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_mammary-analogue-secretory-carcinoma2.png){width="25%"}](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html)
+
+```
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+![](./qrcodes/mammary-analogue-secretory-carcinoma-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_mammary-analogue-secretory-carcinoma2.png){width="25%"}](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html)
+
+```
+
+
+
+
+
+::::
+
+
+
+
+
+
+#### HE-1
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html" style="height:400px;width:100%;" data-external="1"></iframe>
+```
+
+
+
+#### HE-2
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+```
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı
+
+
+**Tükürük bezinin meme benzeri sekretuar karsinomu**
+
+Tükürük bezinin sekretuar karsinomu ETV6 gen yeniden düzenlemesi ile karakterize nadir görülen primer tükürük bezi karsinomudur. İnterkalar duktus epitelinden köken alır. Aynı zamanda memenin sekretuar karsinomunun analoğudur. Major tükürük bezlerinde daha sık görülür. Bir tükürük bezi tümörüne bakarken papiller benzeri alanlar ve tiroid follükülüne benzer alanlar görüyorsak tükürük bezinin sekretuar karsinomu akla gelmelidir. Tübüler, papiller, mikrokistik ve solid büyüme paterni görülebilir. Luminal pembe (kolloid benzeri) materyal görülür. Tümör hücrelerinde belirgin santral nükleolus görülür.  İmmünohistokimyasal olarak S100, mamaglobulin ve GCDFP-15 pozitiftir. Tükürük bezinin sekretuar karsinomunda bazı alanlar asinik hücreli karsinoma benzeyebilir. Tükürük bezinin sekretuar karsinomu, asinik hücreli karsinoma göre metastaz potansiyeli daha yüksektir.  
+*Dr. Zeynep Bayramoğlu*
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Click for Diagnosis
+
+
+
+:::
+
+```
+
+
+
+
+
+
+
+

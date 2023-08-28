@@ -16,77 +16,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-
-
-
-
-
-
-::::: panel-tabset
-
-
-### WSI - Link
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-### WSI
-
-
-
-
-:::::
-
-
-
-
-
-
 ```{asis, echo = (language == "TR")}
 ## Dalak konjesyon {#sec-congestion-spleen}
 ```
@@ -108,31 +37,15 @@ webshot2::webshot(
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/congestion-spleen-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/congestion-spleen/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/congestion-spleen-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
-
-
-```{r, echo=FALSE, include=FALSE, eval=FALSE}
-knitr::include_url(url = "https://images.patolojiatlasi.com/congestion-spleen/HE.html")
-```
-
-```{r, echo=FALSE, include=FALSE, eval=FALSE}
-#| label: congestion-spleen_screenshot
-#| fig-cap: "dalak konjesyon"
-knitr::include_graphics("./screenshots/thumbnail_congestion-spleen.png")
-```
-
-
-
-
-
 
 
 
@@ -148,6 +61,14 @@ knitr::include_graphics("./screenshots/thumbnail_congestion-spleen.png")
 
 
 
+```{asis, echo = (language == "TR")}
+
+**Dalak konjesyon**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_congestion-spleen.png){width="25%"}](https://images.patolojiatlasi.com/congestion-spleen/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/congestion-spleen/HE.html)
+```
+
 
 
 ::::
@@ -160,6 +81,14 @@ knitr::include_graphics("./screenshots/thumbnail_congestion-spleen.png")
 
 
 
+
+```{asis, echo = (language == "TR")}
+
+**Dalak konjesyon**
+
+
+![](./qrcodes/congestion-spleen-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_congestion-spleen.png){width="25%"}](https://images.patolojiatlasi.com/congestion-spleen/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/congestion-spleen/HE.html)
+```
 
 
 
@@ -172,6 +101,17 @@ knitr::include_graphics("./screenshots/thumbnail_congestion-spleen.png")
 
 
 
+```{asis, echo = (language == "EN")}
+
+**Congestion in spleen**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_congestion-spleen.png){width="25%"}](https://images.patolojiatlasi.com/congestion-spleen/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/congestion-spleen/HE.html)
+
+
+```
+
+
+
 
 
 ::::
@@ -181,6 +121,17 @@ knitr::include_graphics("./screenshots/thumbnail_congestion-spleen.png")
 
 
 :::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Congestion in spleen**
+
+![](./qrcodes/congestion-spleen-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_congestion-spleen.png){width="25%"}](https://images.patolojiatlasi.com/congestion-spleen/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/congestion-spleen/HE.html)
+
+
+```
 
 
 
@@ -194,23 +145,6 @@ knitr::include_graphics("./screenshots/thumbnail_congestion-spleen.png")
 
 
 
-
-:::::
-
-
-
-
-
-
-```{asis, echo = (language == "TR")}
-
-**Dalak konjesyon**
-
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_congestion-spleen.png){width="25%"}](https://images.patolojiatlasi.com/congestion-spleen/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/congestion-spleen/HE.html)
-```
-
-
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 Mikroskopik görüntüleri inceleyin:
 
@@ -219,74 +153,6 @@ Mikroskopik görüntüleri inceleyin:
 ```
 
 
-
-```{comment} 
-asis, echo = (language == "TR")
-
-**dalak konjesyon**
-
-
-[![İşaretlenmiş mikroskopik görüntüleri Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_congestion-spleen.png){width="25%"}](https://images.patolojiatlasi.com/congestion-spleen/HE_annotated.html) [İşaretlenmiş mikroskopik görüntüleri Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/congestion-spleen/HE_annotated.html)
-
-İşaretlenmiş mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/congestion-spleen/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-```
-
-
-
-```{comment}
-asis, echo = (language == "TR")
-
-
-
-<button id="tani-case-congestion-spleen-btn">Tanıyı Göster</button>
-<div id="answer-congestion-spleen" style="display: none;">dalak konjesyon</div>
-
-<script>
-  const showAnswer-congestion-spleenBtn = document.getElementById('tani-case-congestion-spleen-btn');
-  const answer-congestion-spleen = document.getElementById('answer-congestion-spleen');
-
-  showAnswer-congestion-spleenBtn.addEventListener('click', () => {
-    if (answer-congestion-spleen.style.display === 'none') {
-      answer-congestion-spleen.style.display = 'block';
-      showAnswer-congestion-spleenBtn.textContent = 'Tanıyı Gizle';
-    } else {
-      answer-congestion-spleen.style.display = 'none';
-      showAnswer-congestion-spleenBtn.textContent = 'Tanıyı Göster';
-    }
-  });
-</script>
-
-```
-
-```{comment}
-asis, echo = ((language=="TR") & (output_type=="html"))
-
-{{< video https://www.youtube.com/embed/ >}}
-
-```
-
-```{comment}
-asis, echo = ((language=="TR") & (output_type!="html"))
-
-[https://www.youtube.com/watch?v=](https://www.youtube.com/watch?v=)
-
-```
-
-
-
-
-
-```{asis, echo = (language == "EN")}
-
-**Congestion in spleen**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_congestion-spleen.png){width="25%"}](https://images.patolojiatlasi.com/congestion-spleen/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/congestion-spleen/HE.html)
-
-
-```
 
 
 
@@ -299,63 +165,9 @@ See Microscopy with viewer:
 ```
 
 
-```{comment}
-asis, echo = (language == "EN")
-
-**congestion in spleen**
-
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen Annotated WSI](./screenshots/thumbnail_congestion-spleen.png){width="25%"}](https://images.patolojiatlasi.com/congestion-spleen/HE_annotated.html) [Click for Full Screen Annotated WSI](https://images.patolojiatlasi.com/congestion-spleen/HE_annotated.html)
-
-
-See Annotated Microscopy with viewer: 
-
-<iframe src="https://images.patolojiatlasi.com/congestion-spleen/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
+:::::
 
 
 
-```
-
-```{comment}
-asis, echo = (language == "EN")
-
-<button id="dx-case-congestion-spleen-btn">Show the Diagnosis</button>
-<div id="answer-congestion-spleen" style="display: none;">congestion in spleen</div>
-
-<script>
-  const showAnswer-congestion-spleenBtn = document.getElementById('dx-case-congestion-spleen-btn');
-  const answer-congestion-spleen = document.getElementById('answer-congestion-spleen');
-
-  showAnswer-congestion-spleenBtn.addEventListener('click', () => {
-    if (answer-congestion-spleen.style.display === 'none') {
-      answer-congestion-spleen.style.display = 'block';
-      showAnswer-congestion-spleenBtn.textContent = 'Hide the Diagnosis';
-    } else {
-      answer-congestion-spleen.style.display = 'none';
-      showAnswer-congestion-spleenBtn.textContent = 'Show the Diagnosis';
-    }
-  });
-</script>
-
-```
 
 
-
-```{comment}
-asis, echo = ((language=="EN") & (output_type=="html"))
-
-{{< video https://www.youtube.com/embed/ >}}
-
-```
-
-```{comment}
-asis, echo = ((language=="EN") & (output_type!="html"))
-
-[https://www.youtube.com/watch?v=](https://www.youtube.com/watch?v=)
-
-```
-
-
-```{comment}
-=html
-<iframe src="https://images.patolojiatlasi.com/congestion-spleen/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
-```

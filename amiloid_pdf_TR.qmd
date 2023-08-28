@@ -1,0 +1,417 @@
+---
+description: |
+    Amyloidosis, Amiloidoz, patoloji, atlas, pathology, whole slide image
+date: last-modified
+categories: [amyloidosis, amiloidoz, crystal violet, kristal viyole, Congo Red, Kongo Kırmızısı, Birefringence, Çİft Kırıcılık, ekstraselüler birikim, extracellular accumulation]
+page-layout: full
+bibliography: references.bib
+---
+
+```{r language amiloid, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+# Amiloidoz (Amiloid Birikimi) {#sec-amiloidoz}
+```
+
+```{asis, echo = (language == "EN")}
+# Amiloidoz (Amiloid Birikimi) {#sec-amiloidoz}
+```
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+## Kristal Viyole {#sec-amiloidoz-kristal-viyole}
+```
+
+
+```{asis, echo = (language == "EN")}
+## Kristal Viyole {#sec-amiloidoz-kristal-viyole}
+```
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_crystalviolet.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/amyloid/crystalviolet.html",
+  file = "./screenshots/thumbnail_crystalviolet.png",
+  delay = 20
+)
+}
+```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/amyloid-crystalviolet_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/amyloid/crystalviolet.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/amyloid-crystalviolet_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+ 
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")}
+**Damar duvarlarında amiloid birikimi**
+
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_crystalviolet.png){width="25%"}](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
+```
+
+::::
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+**Damar duvarlarında amiloid birikimi**
+
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_crystalviolet.png){width="25%"}](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
+```
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+**Damar duvarlarında amiloid birikimi**
+
+![](./qrcodes/amyloid-crystalviolet_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_crystalviolet.png){width="25%"}](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
+```
+
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+**Damar duvarlarında amiloid birikimi**
+
+![](./qrcodes/amyloid-crystalviolet_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_crystalviolet.png){width="25%"}](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/amyloid/crystalviolet.html)
+```
+
+
+
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/amyloid/crystalviolet.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/amyloid/crystalviolet.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+## Kongo Kırmızısı {#sec-amiloidoz-kongo-kirmizisi}
+```
+
+```{asis, echo = (language == "EN")}
+## Congo Red {#sec-amiloidoz-congo-red}
+```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_congored.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/congored/congored.html",
+  file = "./screenshots/thumbnail_congored.png",
+  delay = 20
+)
+}
+```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/congored-congored_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/congored/congored.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/congored-congored_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+ 
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**Congo Red stain for amyloidosis**
+
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_congored.png){width="25%"}](https://images.patolojiatlasi.com/congored/congored.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/congored/congored.html)
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**Congo Red stain for amyloidosis**
+
+![](./qrcodes/congored-congored_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_congored.png){width="25%"}](https://images.patolojiatlasi.com/congored/congored.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/congored/congored.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Congo Red stain for amyloidosis**
+
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_congored.png){width="25%"}](https://images.patolojiatlasi.com/congored/congored.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/congored/congored.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Congo Red stain for amyloidosis**
+
+![](./qrcodes/congored-congored_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_congored.png){width="25%"}](https://images.patolojiatlasi.com/congored/congored.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/congored/congored.html)
+
+```
+
+
+
+
+
+::::
+  
+  
+
+
+
+
+
+
+
+
+```{asis, echo = ((language == "TR") & (output_type=="html"))} 
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/congored/congored.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/congored/congored.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+
+### Video
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+**Kongo Kırmızısı Çift Kırıcılık**
+
+{{< video https://www.youtube.com/embed/U9glkfQLTm4 >}}
+
+```
+
+```{asis, echo = ((language=="TR") & (output_type!="html"))}
+
+**Kongo Kırmızısı Çift Kırıcılık**
+
+[https://www.youtube.com/watch?v=U9glkfQLTm4](https://www.youtube.com/watch?v=U9glkfQLTm4)
+
+```
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+**Congo Red Birefringence**
+
+{{< video https://www.youtube.com/embed/U9glkfQLTm4 >}}
+
+```
+
+```{asis, echo = ((language=="EN") & (output_type!="html"))}
+
+**Congo Red Birefringence**
+
+[https://www.youtube.com/watch?v=U9glkfQLTm4](https://www.youtube.com/watch?v=U9glkfQLTm4)
+
+```
+
+
+
+```{r, eval=(output_type=="html"), echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_congoredvideo_screenshot.jpg")) {
+
+url <- "https://img.youtube.com/vi/U9glkfQLTm4/maxresdefault.jpg"
+download.file(url, destfile = "./screenshots/thumbnail_congoredvideo_screenshot.jpg", mode = "wb")
+}
+```
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+```{asis}
+
+**Congo Red Birefringence**
+
+[![Video İçin Tıklayın](./screenshots/thumbnail_congored_video.png){width="25%"}](https://www.youtube.com/watch?v=U9glkfQLTm4) [Video İçin Tıklayın](https://www.youtube.com/watch?v=U9glkfQLTm4)
+
+```
+
+
+
+
+
