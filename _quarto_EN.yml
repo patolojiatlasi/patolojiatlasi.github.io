@@ -21,7 +21,7 @@ execute:
 lang: en
 
 book:
-  # engine: knitr
+
   title: "Histopathology Atlas"
   subtitle: "Atlas of Pathology with Whole Slide Images"
   author:
@@ -32,7 +32,7 @@ book:
      orcid: "0000-0002-7852-3851"
    - name: Pathologists, Assistants and Technicians
      affiliation: "Memorial Pathology & Other Institutions"
-     affiliation-url: "https://www.histopathologyatlas.com/yazarlar.html"
+     affiliation-url: "https://www.histopathologyatlas.com/authors.html"
   description: |
     Atlas of Pathology with Whole Slide Images
     Histopathology Atlas and Notes for Medical Students: See and Learn
@@ -43,7 +43,7 @@ book:
     Atlas of Pathology with Whole Slide Images
     Histopathology Atlas and Notes for Medical Students: See and Learn
     Pathology Lecture Notes and Histopathology Atlas is being prepared from Memorial Pathology Archive and collaborators from other institutions.
-    If you want to contribute, please [contact us](https://www.patolojiatlasi.com/katki.html).
+    If you want to contribute, please [contact us](https://www.patolojiatlasi.com/contributions.html).
   date: last-modified
   image: images/coverEN.png
   output-file: "HistoPatology-Atlas"
