@@ -46,15 +46,26 @@ Please participate in the development of the atlas by using the comment section 
 ```
 
 
+:::: {.content-hidden when-format="pdf"}
+
 ```{asis, echo = (output_type=="html")}
 
 {{< video https://www.youtube.com/embed/ONeGf4nYdPc >}}
 
 ```
 
+
+
+
+::::
+
+
+
+
 ```{asis, echo = (output_type!="html")}
 
 [https://www.youtube.com/watch?v=ONeGf4nYdPc](https://www.youtube.com/watch?v=ONeGf4nYdPc)
 
 ```
+
 

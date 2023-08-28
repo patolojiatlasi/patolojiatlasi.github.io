@@ -1,8 +1,10 @@
 {
-  "hash": "9c72fdaceb9918bb1f877a0f9e2ce6a6",
+  "hash": "322200900aab56cf71725607367e4a2f",
   "result": {
-    "markdown": "---\ndescription: |\n    yorum\n    comment\n    katkı\n    contribution\n    patoloji\n    atlas\n    pathology\n    whole slide image\ndate: last-modified\ncategories: [yorum, katkı, comment, contribution]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\nPlease participate in the development of the atlas by using the comment section at the bottom of each page.\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n[https://www.youtube.com/watch?v=ONeGf4nYdPc](https://www.youtube.com/watch?v=ONeGf4nYdPc)\n:::\n",
-    "supporting": [],
+    "markdown": "---\ndescription: |\n    yorum\n    comment\n    katkı\n    contribution\n    patoloji\n    atlas\n    pathology\n    whole slide image\ndate: last-modified\ncategories: [yorum, katkı, comment, contribution]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# Add Comments {#sec-comments}\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\nPlease participate in the development of the atlas by using the comment section at the bottom of each page.\n:::\n\n\n\n:::: {.content-hidden when-format=\"pdf\"}\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n::::\n\n\n\n\n\n::: {.cell}\n\n[https://www.youtube.com/watch?v=ONeGf4nYdPc](https://www.youtube.com/watch?v=ONeGf4nYdPc)\n:::\n",
+    "supporting": [
+      "comments_epub_word_EN_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

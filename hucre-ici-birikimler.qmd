@@ -1070,12 +1070,12 @@ webshot2::webshot(
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/melanosiscoli-HE_qrcode.svg")) {
+if (!file.exists("./qrcodes/melanosiscoli-PAS_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/melanosiscoli/HE.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/melanosiscoli/PAS.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/melanosiscoli-HE_qrcode.svg",
+                       filename = "./qrcodes/melanosiscoli-PAS_qrcode.svg",
                        show = FALSE)
 }
 ```

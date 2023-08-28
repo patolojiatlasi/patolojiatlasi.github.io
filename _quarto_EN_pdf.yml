@@ -296,10 +296,10 @@ format:
     number-depth: 2
     colorlinks: true
     keep-tex: true
-    include-in-header:
-      text: |
-        \usepackage{makeidx}
-        \makeindex
+    # include-in-header:
+    #   text: |
+    #     \usepackage{makeidx}
+    #     \makeindex
 #         \usepackage{fvextra}
 #         \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
 #         \areaset[0.50in]{4.5in}{8in}
@@ -319,9 +319,9 @@ format:
 #            breaklines
 #            % Note: setting commandchars=\\\{\} here will cause an error
 #         }
-    include-after-body:
-      text: |
-        \printindex
+    # include-after-body:
+    #   text: |
+    #     \printindex
     execute:
       warning: false
 
