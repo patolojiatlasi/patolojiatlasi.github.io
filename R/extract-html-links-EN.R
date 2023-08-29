@@ -47,13 +47,13 @@ df_links <- df_links %>%
                                pattern = "https:\\/\\/images\\.patolojiatlasi\\.com\\/.*?\\.html")
   )
 
-df_links <- df_links %>%
-  dplyr::mutate(
-    web = gsub(pattern = "patolojiatlasi",
-               replacement = "histopathologyatlas",
-               x = web,
-               fixed = TRUE)
-  )
+# df_links <- df_links %>%
+#   dplyr::mutate(
+#     web = gsub(pattern = "patolojiatlasi",
+#                replacement = "histopathologyatlas",
+#                x = web,
+#                fixed = TRUE)
+#   )
 
 
 df_links <- df_links %>%
