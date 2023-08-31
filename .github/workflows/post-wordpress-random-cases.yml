@@ -2,8 +2,8 @@ name: Post Wordpress Random Cases
 on:
   workflow_dispatch:
   # push:
-  schedule:
-    - cron: '0 18 * * 3'
+  # schedule:
+  #   - cron: '0 18 * * 3'
 
 jobs:
   post-wordpress-random-cases-from-patolojiatlasi:

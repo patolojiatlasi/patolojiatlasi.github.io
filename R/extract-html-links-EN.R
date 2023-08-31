@@ -72,16 +72,16 @@ web_link <- df_links$web[1]
 
 img_link <- df_links$images[1]
 
-text_heading <- paste0("View this #wholeslideimage in #HistopathologyAtlas ",
+text_heading <- paste0("View this whole slide image in Histopathology Atlas ",
                   web_link,
-                  " #digitalpathology #WSI #preparat",
+                  " #wholeslideimage #digitalpathology #WSI #preparat",
                           " #patolojiatlasi #patolojinotlari #histopathologyatlas",
                           " #memorialsaglik #memorialpatoloji",
                           .sep ="")
 
-text_body <- paste0("View this #wholeslideimage in #HistopathologyAtlas ",
+text_body <- paste0("View this whole slide image in Histopathology Atlas ",
                   web_link,
-                  " #digitalpathology #WSI #preparat",
+                  " #wholeslideimage #digitalpathology #WSI #preparat",
                   " #patolojiatlasi #patolojinotlari #histopathologyatlas",
                   " #memorialsaglik #memorialpatoloji",
                   "<br><img src='", img_link, "'></img><br>",
