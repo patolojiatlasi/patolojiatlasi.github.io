@@ -448,8 +448,9 @@ jobs:
         git config --global user.email "action@github.com"
         git remote add gitlab "https://oauth2:${{ secrets.GITLAB_PASSWORD }}@gitlab.com/patolojiatlasi/patolojiatlasi.gitlab.io.git"
         git fetch --unshallow
-        git push --force gitlab main  # or the branch you want
+        git push --force gitlab main --no-tags
 
+#
   # build-to-gitlab2:
   #   needs: quarto-render-and-deploy
   #   runs-on: ubuntu-latest
