@@ -441,6 +441,20 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+      with:
+        lfs: true
+
+
+    - name: Setup Git LFS
+      run: |
+        sudo apt-get install git-lfs
+        git lfs install
+
+    - name: Push LFS objects to GitLab
+      run: |
+        git lfs push --all "https://oauth2:${{ secrets.GITLAB_PASSWORD }}@gitlab.com/patolojiatlasi/patolojiatlasi.gitlab.io.git"
+
+
 
     - name: Push to GitLab
       run: |
