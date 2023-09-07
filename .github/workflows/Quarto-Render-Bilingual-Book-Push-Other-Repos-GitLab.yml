@@ -451,7 +451,6 @@ jobs:
         git push --force gitlab main --no-tags
 
 
-
 #
   # build-to-gitlab2:
   #   needs: quarto-render-and-deploy
