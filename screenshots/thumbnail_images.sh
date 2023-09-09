@@ -7,5 +7,5 @@
 
 # vips
 # brew install vips
-for file in *.png; do vips copy "$file" "${file%.png}.jpg"; done
+for file in ./screenshots/*.png; do vips copy "$file" "${file%.png}.jpg"; done
 

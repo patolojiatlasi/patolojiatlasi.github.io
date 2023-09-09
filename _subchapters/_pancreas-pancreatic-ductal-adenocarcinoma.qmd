@@ -34,10 +34,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{r PDAC screenshot HE, eval=TRUE, include=FALSE}
-if (!file.exists("./screenshots/thumbnail_PDAC-HE.png")) {
+if (!file.exists("../screenshots/thumbnail_PDAC-HE.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/PDAC/HE.html",
-  file = "./screenshots/thumbnail_PDAC-HE.png"
+  file = "../screenshots/thumbnail_PDAC-HE.png"
 )
 }
 ```
@@ -45,12 +45,12 @@ webshot2::webshot(
 
 
 ```{r PDAC qrcode HE, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/PDAC-HE_qrcode.svg")) {
+if (!file.exists("../qrcodes/PDAC-HE_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/PDAC/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/PDAC-HE_qrcode.svg",
+                       filename = "../qrcodes/PDAC-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -85,7 +85,7 @@ if (!file.exists("./qrcodes/PDAC-HE_qrcode.svg")) {
 **pankreas duktal adenokarsinom**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_PDAC-HE.png){width="25%"}](https://images.patolojiatlasi.com/PDAC/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/PDAC/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](../screenshots/thumbnail_PDAC-HE.png){width="25%"}](https://images.patolojiatlasi.com/PDAC/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/PDAC/HE.html)
 
 ```
 
@@ -98,7 +98,7 @@ if (!file.exists("./qrcodes/PDAC-HE_qrcode.svg")) {
 
 **pankreas duktal adenokarsinom**
 
-![](./qrcodes/PDAC-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_PDAC-HE.png){width="25%"}](https://images.patolojiatlasi.com/PDAC/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/PDAC/HE.html)
+![](../qrcodes/PDAC-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](../screenshots/thumbnail_PDAC-HE.png){width="25%"}](https://images.patolojiatlasi.com/PDAC/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/PDAC/HE.html)
 
 ```
 
@@ -116,7 +116,7 @@ if (!file.exists("./qrcodes/PDAC-HE_qrcode.svg")) {
 
 **pancreatic ductal adenocarcinoma**
 
-[![Click for Full Screen WSI](./screenshots/thumbnail_PDAC-HE.png){width="25%"}](https://images.patolojiatlasi.com/PDAC/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/PDAC/HE.html)
+[![Click for Full Screen WSI](../screenshots/thumbnail_PDAC-HE.png){width="25%"}](https://images.patolojiatlasi.com/PDAC/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/PDAC/HE.html)
 
 ```
 
@@ -129,7 +129,7 @@ if (!file.exists("./qrcodes/PDAC-HE_qrcode.svg")) {
 
 **pancreatic ductal adenocarcinoma**
 
-![](./qrcodes/PDAC-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_PDAC-HE.png){width="25%"}](https://images.patolojiatlasi.com/PDAC/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/PDAC/HE.html)
+![](../qrcodes/PDAC-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](../screenshots/thumbnail_PDAC-HE.png){width="25%"}](https://images.patolojiatlasi.com/PDAC/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/PDAC/HE.html)
 
 ```
 

@@ -10,10 +10,10 @@
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./screenshots/thumbnail_hamartomatouspolyp.png")) {
+if (!file.exists("../screenshots/thumbnail_hamartomatouspolyp.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html",
-  file = "./screenshots/thumbnail_hamartomatouspolyp.png"
+  file = "../screenshots/thumbnail_hamartomatouspolyp.png"
 )
 }
 ```
@@ -21,12 +21,12 @@ webshot2::webshot(delay = 20,
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/hamartomatouspolyp-HE_qrcode.svg")) {
+if (!file.exists("../qrcodes/hamartomatouspolyp-HE_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/hamartomatouspolyp-HE_qrcode.svg",
+                       filename = "../qrcodes/hamartomatouspolyp-HE_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -42,8 +42,8 @@ if (!file.exists("./qrcodes/hamartomatouspolyp-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-![](./qrcodes/hamartomatouspolyp-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/thumbnail_hamartomatouspolyp.png){width="25%"}](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html) [Tam Ekran Görmek İçin Resmi
+![](../qrcodes/hamartomatouspolyp-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+Tıklayın](../screenshots/thumbnail_hamartomatouspolyp.png){width="25%"}](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html) [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
 ```
 
@@ -60,7 +60,7 @@ Tıklayın](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
 ```{asis, echo = (language == "TR")}
 
 [![Tam Ekran Görmek İçin Resmi
-Tıklayın](./screenshots/thumbnail_hamartomatouspolyp.png){width="25%"}](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html) [Tam Ekran Görmek İçin Resmi
+Tıklayın](../screenshots/thumbnail_hamartomatouspolyp.png){width="25%"}](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html) [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
 ```
 
@@ -74,7 +74,7 @@ Tıklayın](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
 
 ```{asis, echo = (language == "EN")}
 
-![](./qrcodes/hamartomatouspolyp-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_hamartomatouspolyp.png){width="25%"}](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
+![](../qrcodes/hamartomatouspolyp-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](../screenshots/thumbnail_hamartomatouspolyp.png){width="25%"}](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
 ```
 
 
@@ -89,7 +89,7 @@ Tıklayın](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
 
 ```{asis, echo = (language == "EN")}
 
-[![Click for Full Screen WSI](./screenshots/thumbnail_hamartomatouspolyp.png){width="25%"}](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
+[![Click for Full Screen WSI](../screenshots/thumbnail_hamartomatouspolyp.png){width="25%"}](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html)
 ```
 
 

@@ -21,6 +21,14 @@ jobs:
       # - name: "Setup pandoc"
       #   uses: r-lib/actions/setup-pandoc@v2
 
+
+      - name: Install VIPS
+        run: sudo apt-get install -y libvips-tools
+
+      - name: Convert Images
+        run: |
+          for file in ./screenshots/*.png; do vips copy "$file" "${file%.png}.jpg"; done
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         # with:
@@ -82,9 +90,6 @@ jobs:
           path: ${{ env.R_LIBS_USER }}
           key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
           restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
-
-
-
 
 #       - name: "Install R Packages: Cache packages"
       #   uses: actions/cache@v3
@@ -210,6 +215,16 @@ jobs:
           if (dir.exists(paths = "./_docs/_EN")) { fs::dir_delete(path = "./_docs/_EN") }
           if (dir.exists(paths = "./_docs/_lecture-notes")) { fs::dir_delete(path = "./_docs/_lecture-notes") }
           if (dir.exists(paths = "./_docs/lecture-notes")) { fs::dir_delete(path = "./_docs/lecture-notes") }
+          if (dir.exists(paths = "./_docs/public")) { fs::dir_delete(path = "./_docs/public") }
+          if (dir.exists(paths = "./_docs/gitlab_atlas")) { fs::dir_delete(path = "./_docs/gitlab_atlas") }
+          folders_to_delete <- fs::dir_ls(path = "./_docs", recurse = FALSE, regexp = "_files$")
+          fs::dir_delete(folders_to_delete)
+          folders_to_delete <- fs::dir_ls(path = "./_docs", recurse = FALSE, regexp = "_pdf_")
+          fs::dir_delete(folders_to_delete)
+          folders_to_delete <- fs::dir_ls(path = "./_docs", recurse = FALSE, regexp = "_epub_")
+          fs::dir_delete(folders_to_delete)
+          folders_to_delete <- fs::dir_ls(path = "./_docs", recurse = FALSE, regexp = "_freeze")
+          fs::dir_delete(folders_to_delete)
           fs::dir_copy(path = "./_docs", new_path = "./gitlab_atlas/public", overwrite = TRUE)
           fs::dir_copy(path = "./_docs", new_path = "./docs", overwrite = TRUE)
           if (dir.exists(paths = "./_docs")) { fs::dir_delete(path = "./_docs") }
