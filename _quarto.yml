@@ -16,6 +16,11 @@ project:
     - "webpages.txt"
     - "headerTR.html"
 
+  pre-render:
+    - ./R/prerender_TR.R
+  post-render:
+    - ./R/postrender_TR.R
+
 
 execute:
   freeze: auto
