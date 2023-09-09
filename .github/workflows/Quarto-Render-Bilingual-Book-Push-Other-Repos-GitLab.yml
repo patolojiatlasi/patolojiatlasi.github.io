@@ -142,7 +142,7 @@ jobs:
         run: |
           folders_to_delete <- fs::dir_ls(path = ".", recurse = FALSE, regexp = "_files$")
           fs::dir_delete(folders_to_delete)
-          if (dir.exists(paths = "./public-atlas/public-atlas")) { fs::dir_delete(path = "./public-atlas/public-atlas") }
+          if (dir.exists(paths = "./gitlab_atlas/gitlab_atlas")) { fs::dir_delete(path = "./gitlab_atlas/gitlab_atlas") }
           if (dir.exists(paths = "./EN")) { fs::dir_delete(path = "./EN") }
           if (dir.exists(paths = "./docs")) { fs::dir_delete(path = "./docs") }
           if (dir.exists(paths = "./_freeze")) {fs::dir_delete(path = "./_freeze")}
@@ -179,7 +179,7 @@ jobs:
           if (dir.exists(paths = "./_freeze")) { fs::dir_copy(path = "./_freeze", new_path = "./_freeze_EN", overwrite = TRUE) }
           if (file.exists("./_EN/CNAME")){fs::file_delete(path = "./_EN/CNAME")}
           fs::file_copy(path = "./CNAME-histopathologyatlas", new_path = "./_EN/CNAME", overwrite = TRUE)
-          if (dir.exists(paths = "./_EN/public-atlas")) {fs::dir_delete(path = "./_EN/public-atlas")}
+          if (dir.exists(paths = "./_EN/gitlab_atlas")) {fs::dir_delete(path = "./_EN/gitlab_atlas")}
           if (dir.exists(paths = "./_EN/docs")) {fs::dir_delete(path = "./_EN/docs")}
           patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx", sheet = "chapters")
           patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_chapter_qmd")]
@@ -199,27 +199,27 @@ jobs:
           fs::file_copy(path = "./_quarto_TR.yml", new_path = "./_quarto.yml", overwrite = TRUE)
           fs::file_copy(path = "./R/languageTR.R", new_path = "./R/language.R", overwrite = TRUE)
           if (dir.exists(paths = "./docs")) { fs::dir_delete(path = "./docs") }
-          if (dir.exists(paths = "./public-atlas/public-atlas")) { fs::dir_delete(path = "./public-atlas/public-atlas") }
+          if (dir.exists(paths = "./gitlab_atlas/gitlab_atlas")) { fs::dir_delete(path = "./gitlab_atlas/gitlab_atlas") }
           # render TR
           quarto::quarto_render(".", as_job = FALSE)
           # post render TR
           if (dir.exists(paths = "./_freeze")) { fs::dir_copy(path = "./_freeze", new_path = "./_freeze_TR", overwrite = TRUE) }
           if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
-          if (dir.exists(paths = "./_docs/public-atlas")) { fs::dir_delete(path = "./_docs/public-atlas") }
+          if (dir.exists(paths = "./_docs/gitlab_atlas")) { fs::dir_delete(path = "./_docs/gitlab_atlas") }
           if (dir.exists(paths = "./_docs/EN")) { fs::dir_delete(path = "./_docs/EN") }
           if (dir.exists(paths = "./_docs/_EN")) { fs::dir_delete(path = "./_docs/_EN") }
           if (dir.exists(paths = "./_docs/_lecture-notes")) { fs::dir_delete(path = "./_docs/_lecture-notes") }
           if (dir.exists(paths = "./_docs/lecture-notes")) { fs::dir_delete(path = "./_docs/lecture-notes") }
-          fs::dir_copy(path = "./_docs", new_path = "./public-atlas/public", overwrite = TRUE)
+          fs::dir_copy(path = "./_docs", new_path = "./gitlab_atlas/public", overwrite = TRUE)
           fs::dir_copy(path = "./_docs", new_path = "./docs", overwrite = TRUE)
           if (dir.exists(paths = "./_docs")) { fs::dir_delete(path = "./_docs") }
           fs::dir_copy(path = "./_EN", new_path = "./EN", overwrite = TRUE)
           if (dir.exists(paths = "./_EN")) { fs::dir_delete(path = "./_EN") }
-          if (file.exists("./public-atlas/public/CNAME")){fs::file_delete(path = "./public-atlas/public/CNAME")}
+          if (file.exists("./gitlab_atlas/public/CNAME")){fs::file_delete(path = "./gitlab_atlas/public/CNAME")}
           if (dir.exists(paths = "./docs/EN/lecture-notes")) { fs::dir_delete(path = "./docs/EN/lecture-notes") }
           if (dir.exists(paths = "./docs/EN")) { fs::dir_delete(path = "./docs/EN") }
           if (dir.exists(paths = "./docs/public")) {fs::dir_delete(path = "./docs/public")}
-          if (dir.exists(paths = "./docs/public-atlas")) {fs::dir_delete(path = "./docs/public-atlas")}
+          if (dir.exists(paths = "./docs/gitlab_atlas")) {fs::dir_delete(path = "./docs/gitlab_atlas")}
           folders_to_delete <- fs::dir_ls(path = "./EN", recurse = FALSE, regexp = "_freeze")
           fs::dir_delete(folders_to_delete)
           folders_to_delete <- fs::dir_ls(path = "./docs", recurse = FALSE, regexp = "_freeze")
@@ -291,7 +291,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-           source-directory: 'public-atlas'
+           source-directory: 'gitlab_atlas'
            destination-github-username: 'sbalci'
            destination-repository-name: 'atlas'
            user-email: drserdarbalci@gmail.com
