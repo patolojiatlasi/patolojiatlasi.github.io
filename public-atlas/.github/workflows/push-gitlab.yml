@@ -1,0 +1,32 @@
+name: Push GitLab
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  push-to-gitlab:
+    needs: quarto-render-and-deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      # with:
+      #   lfs: true
+
+    # - name: Setup Git LFS
+    #   run: |
+    #     sudo apt-get install git-lfs
+    #     git lfs install
+
+    # - name: Push LFS objects to GitLab
+    #   run: |
+    #     git lfs push --all "https://oauth2:${{ secrets.GITLAB_PASSWORD }}@gitlab.com/patolojiatlasi/patolojiatlasi.gitlab.io.git"
+
+    - name: Push to GitLab
+      run: |
+        git config --global user.name "GitHub Action"
+        git config --global user.email "action@github.com"
+        git remote add gitlab "https://oauth2:${{ secrets.GITLAB_PASSWORD }}@gitlab.com/patolojiatlasi/patolojiatlasi.gitlab.io.git"
+        git fetch --unshallow
+        git push --force gitlab main --no-tags
