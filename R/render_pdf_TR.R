@@ -1,3 +1,4 @@
+
 # prepare TR pdf ----
 
 fs::file_copy(path = "./_quarto_TR_pdf.yml",
@@ -19,71 +20,61 @@ if (dir.exists(paths = "./_freeze_TR_pdf")) {
                overwrite = TRUE)
 }
 
-patolojiatlasi_histopathologyatlas <- readxl::read_excel(
-  path = "./patolojiatlasi_histopathologyatlas.xlsx",
-  sheet = "chapters")
-
-patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "TR_pdf_chapter_qmd")]
-
-patolojiatlasi_histopathologyatlas$TR_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_chapter_qmd, ".qmd")
-
-patolojiatlasi_histopathologyatlas$TR_pdf_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_pdf_chapter_qmd, ".qmd")
 
 
-fs::file_copy(path = patolojiatlasi_histopathologyatlas$TR_chapter_qmd,
-              new_path = patolojiatlasi_histopathologyatlas$TR_pdf_chapter_qmd,
+chapters <- list.files(path = ".", pattern = ".qmd", recursive = FALSE)
+
+chapters <- paste0("./", chapters)
+
+chapters_pdf_TR <- gsub(pattern = ".qmd", replacement = "_pdf_TR.qmd", x = chapters)
+
+subchapters <- list.files(path = "./_subchapters", pattern = ".qmd", recursive = FALSE)
+
+subchapters <- paste0("./_subchapters/", subchapters)
+
+subchapters_pdf_TR <- gsub(pattern = ".qmd", replacement = "_pdf_TR.qmd", x = subchapters)
+
+all_chapters <- c(chapters, subchapters)
+
+all_chapters_pdf_TR <- c(chapters_pdf_TR, subchapters_pdf_TR)
+
+
+fs::file_copy(path = all_chapters,
+              new_path = all_chapters_pdf_TR,
               overwrite = TRUE)
 
 
-qmd_pdf_TR_files <- list.files(path = ".", pattern = "./*_pdf_TR.qmd", recursive = FALSE)
-
-subchapter_files <- list.files(path = "./_subchapters", pattern = "_pdf_TR.qmd", recursive = FALSE)
-
-subchapter_files <- paste0("./_subchapters/", subchapter_files)
-
-qmd_pdf_TR_files <- c(qmd_pdf_TR_files, subchapter_files)
-
-xfun::gsub_files(files = qmd_pdf_TR_files,
+xfun::gsub_files(files = all_chapters_pdf_TR,
                  pattern = "panel-tabset",
                  replacement = "")
 
-xfun::gsub_files(files = qmd_pdf_TR_files,
+xfun::gsub_files(files = all_chapters_pdf_TR,
                  pattern = ":::::",
                  replacement = "")
 
 
-xfun::gsub_files(files = qmd_pdf_TR_files,
+xfun::gsub_files(files = all_chapters_pdf_TR,
                  pattern = "#+\\s*WSI - Link",
                  replacement = "")
 
-xfun::gsub_files(files = qmd_pdf_TR_files,
+xfun::gsub_files(files = all_chapters_pdf_TR,
                  pattern = "#+\\s*WSI",
                  replacement = "")
 
-xfun::gsub_files(files = qmd_pdf_TR_files,
+xfun::gsub_files(files = all_chapters_pdf_TR,
                  pattern = "#+\\s*Diagnosis",
                  replacement = "")
 
-xfun::gsub_files(files = qmd_pdf_TR_files,
+xfun::gsub_files(files = all_chapters_pdf_TR,
                  pattern = "#+\\s*Tanı için tıklayın",
                  replacement = "### Tanı")
 
-xfun::gsub_files(files = qmd_pdf_TR_files,
+xfun::gsub_files(files = all_chapters_pdf_TR,
                  pattern = '\\!\\[\\]\\(\\.\\/qrcodes\\/\\{\\{template\\}\\}-\\{\\{stain\\}\\}_qrcode.svg\\)\\{width="15%"\\}',
                  replacement = "")
 
 
-# gsub_file_names <- readxl::read_excel(
-#   path = "patolojiatlasi_histopathologyatlas.xlsx",
-#   sheet = "file_names")
-
-
-# xfun::gsub_files(files = gsub_file_names$gsub_files_pdf_TR,
-#                  pattern = ".qmd",
-#                  replacement = "_pdf_TR.qmd"
-#                  )
-
-xfun::gsub_files(files = qmd_pdf_TR_files,
+xfun::gsub_files(files = all_chapters_pdf_TR,
                  pattern = ".qmd >}}",
                  replacement = "_pdf_TR.qmd >}}"
 )
@@ -99,6 +90,9 @@ quarto::quarto_render(".", as_job = FALSE)
 
 Sys.sleep(2)
 
+# postrender TR pdf ----
+
+
 if (dir.exists(paths = "./_freeze")) {
   fs::dir_copy(path = "./_freeze",
                new_path = "./_freeze_TR_pdf",
@@ -112,20 +106,11 @@ if (dir.exists(paths = "./_freeze")) {
 }
 
 
-patolojiatlasi_histopathologyatlas <- readxl::read_excel(
-  path = "./patolojiatlasi_histopathologyatlas.xlsx",
-  sheet = "chapters")
+fs::file_copy(path = "./_quarto_TR.yml",
+              new_path = "./_quarto.yml",
+              overwrite = TRUE)
 
-patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "TR_pdf_chapter_qmd")]
 
-'%>%' <- magrittr:::`%>%`
-
-patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas %>%
-  dplyr::distinct() %>%
-  dplyr::filter(TR_chapter_qmd != TR_pdf_chapter_qmd)
-
-patolojiatlasi_histopathologyatlas$TR_pdf_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_pdf_chapter_qmd, ".qmd")
-
-fs::file_delete(path = patolojiatlasi_histopathologyatlas$TR_pdf_chapter_qmd)
+fs::file_delete(path = all_chapters_pdf_TR)
 
 
