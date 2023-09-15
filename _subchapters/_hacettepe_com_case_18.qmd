@@ -39,10 +39,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{asis, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("../screenshots/thumbnail_hacettepe-com-case-18.png")) {
+if (!file.exists("./screenshots/thumbnail_hacettepe-com-case-18.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/hacettepe-com-case-18/HE.html",
-  file = "../screenshots/thumbnail_hacettepe-com-case-18.png",
+  file = "./screenshots/thumbnail_hacettepe-com-case-18.png",
   delay = 20
 )
 }
@@ -51,12 +51,12 @@ webshot2::webshot(
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("../qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "../qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -148,7 +148,7 @@ if (!file.exists("../qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 ```{asis, echo = (language == "TR")}
 
  [![Tam Ekran Görmek İçin Resmi
-Tıklayın](../screenshots/thumbnail_hacettepe-com-case-18.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
+Tıklayın](./screenshots/thumbnail_hacettepe-com-case-18.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
 [Tam Ekran Görmek İçin Resmi
 Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-18/HE.html)
 ```
@@ -157,7 +157,7 @@ Tıklayın](https://images.patolojiatlasi.com/hacettepe-com-case-18/HE.html)
 ```{asis, echo = (language == "EN")}
 
  [![Click for Full Screen
-WSI](../screenshots/thumbnail_hacettepe-com-case-18.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
+WSI](./screenshots/thumbnail_hacettepe-com-case-18.png){width="25%"}](https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html)
 [Click for Full Screen
 WSI](https://images.patolojiatlasi.com/hacettepe-com-case-18/HE.html)
 ```
@@ -557,10 +557,10 @@ myxoid LPS, paratesticular
 
 
 ```{r , eval=TRUE, include=FALSE}
-if (!file.exists("../screenshots/thumbnail_template-HE1.png")) {
+if (!file.exists("./screenshots/thumbnail_template-HE1.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE1.html",
-  file = "../screenshots/thumbnail_template-HE1.png"
+  file = "./screenshots/thumbnail_template-HE1.png"
 )
 }
 ```
@@ -568,12 +568,12 @@ webshot2::webshot(
 
 
 ```{r , eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("../qrcodes/template-HE1_qrcode.svg")) {
+if (!file.exists("./qrcodes/template-HE1_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/template/HE1.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "../qrcodes/template-HE1_qrcode.svg",
+                       filename = "./qrcodes/template-HE1_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -590,10 +590,10 @@ if (!file.exists("../qrcodes/template-HE1_qrcode.svg")) {
 
 
 ```{r , eval=TRUE, include=FALSE}
-if (!file.exists("../screenshots/thumbnail_template-HE2.png")) {
+if (!file.exists("./screenshots/thumbnail_template-HE2.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/template/HE2.html",
-  file = "../screenshots/thumbnail_template-HE2.png"
+  file = "./screenshots/thumbnail_template-HE2.png"
 )
 }
 ```
@@ -601,12 +601,12 @@ webshot2::webshot(
 
 
 ```{r , eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("../qrcodes/template-HE2_qrcode.svg")) {
+if (!file.exists("./qrcodes/template-HE2_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/template/HE2.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "../qrcodes/template-HE2_qrcode.svg",
+                       filename = "./qrcodes/template-HE2_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -641,7 +641,7 @@ if (!file.exists("../qrcodes/template-HE2_qrcode.svg")) {
 **TemplateTR**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](../screenshots/thumbnail_template-HE1.png){width="25%"}](https://images.patolojiatlasi.com/template/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/template/HE1.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_template-HE1.png){width="25%"}](https://images.patolojiatlasi.com/template/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/template/HE1.html)
 
 ```
 
@@ -654,7 +654,7 @@ if (!file.exists("../qrcodes/template-HE2_qrcode.svg")) {
 
 **TemplateTR**
 
-![](../qrcodes/template-HE1_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](../screenshots/thumbnail_template-HE1.png){width="25%"}](https://images.patolojiatlasi.com/template/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/template/HE1.html)
+![](./qrcodes/template-HE1_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_template-HE1.png){width="25%"}](https://images.patolojiatlasi.com/template/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/template/HE1.html)
 
 ```
 
@@ -672,7 +672,7 @@ if (!file.exists("../qrcodes/template-HE2_qrcode.svg")) {
 
 **TemplateEN**
 
-[![Click for Full Screen WSI](../screenshots/thumbnail_template-HE1.png){width="25%"}](https://images.patolojiatlasi.com/template/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/template/HE1.html)
+[![Click for Full Screen WSI](./screenshots/thumbnail_template-HE1.png){width="25%"}](https://images.patolojiatlasi.com/template/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/template/HE1.html)
 
 ```
 
@@ -685,7 +685,7 @@ if (!file.exists("../qrcodes/template-HE2_qrcode.svg")) {
 
 **TemplateEN**
 
-![](../qrcodes/template-HE1_qrcode.svg){width="15%"} [![Click for Full Screen WSI](../screenshots/thumbnail_template-HE1.png){width="25%"}](https://images.patolojiatlasi.com/template/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/template/HE1.html)
+![](./qrcodes/template-HE1_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_template-HE1.png){width="25%"}](https://images.patolojiatlasi.com/template/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/template/HE1.html)
 
 ```
 
@@ -708,7 +708,7 @@ if (!file.exists("../qrcodes/template-HE2_qrcode.svg")) {
 **TemplateTR**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](../screenshots/thumbnail_template-HE2.png){width="25%"}](https://images.patolojiatlasi.com/template/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/template/HE2.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_template-HE2.png){width="25%"}](https://images.patolojiatlasi.com/template/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/template/HE2.html)
 
 ```
 
@@ -721,7 +721,7 @@ if (!file.exists("../qrcodes/template-HE2_qrcode.svg")) {
 
 **TemplateTR**
 
-![](../qrcodes/template-HE2_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](../screenshots/thumbnail_template-HE2.png){width="25%"}](https://images.patolojiatlasi.com/template/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/template/HE2.html)
+![](./qrcodes/template-HE2_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_template-HE2.png){width="25%"}](https://images.patolojiatlasi.com/template/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/template/HE2.html)
 
 ```
 
@@ -739,7 +739,7 @@ if (!file.exists("../qrcodes/template-HE2_qrcode.svg")) {
 
 **TemplateEN**
 
-[![Click for Full Screen WSI](../screenshots/thumbnail_template-HE2.png){width="25%"}](https://images.patolojiatlasi.com/template/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/template/HE2.html)
+[![Click for Full Screen WSI](./screenshots/thumbnail_template-HE2.png){width="25%"}](https://images.patolojiatlasi.com/template/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/template/HE2.html)
 
 ```
 
@@ -752,7 +752,7 @@ if (!file.exists("../qrcodes/template-HE2_qrcode.svg")) {
 
 **TemplateEN**
 
-![](../qrcodes/template-HE2_qrcode.svg){width="15%"} [![Click for Full Screen WSI](../screenshots/thumbnail_template-HE2.png){width="25%"}](https://images.patolojiatlasi.com/template/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/template/HE2.html)
+![](./qrcodes/template-HE2_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_template-HE2.png){width="25%"}](https://images.patolojiatlasi.com/template/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/template/HE2.html)
 
 ```
 

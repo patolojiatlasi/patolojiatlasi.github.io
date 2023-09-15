@@ -35,10 +35,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{r BS9 screenshot HE1, eval=TRUE, include=FALSE}
-if (!file.exists("../screenshots/thumbnail_BS9-HE1.png")) {
+if (!file.exists("./screenshots/thumbnail_BS9-HE1.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/BS9/HE1.html",
-  file = "../screenshots/thumbnail_BS9-HE1.png"
+  file = "./screenshots/thumbnail_BS9-HE1.png"
 )
 }
 ```
@@ -46,12 +46,12 @@ webshot2::webshot(
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("../qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "../qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -62,10 +62,10 @@ if (!file.exists("../qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 ```{r BS9 screenshot HE2, eval=TRUE, include=FALSE}
-if (!file.exists("../screenshots/thumbnail_BS9-HE2.png")) {
+if (!file.exists("./screenshots/thumbnail_BS9-HE2.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/BS9/HE2.html",
-  file = "../screenshots/thumbnail_BS9-HE2.png"
+  file = "./screenshots/thumbnail_BS9-HE2.png"
 )
 }
 ```
@@ -74,12 +74,12 @@ webshot2::webshot(
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("../qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "../qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -173,14 +173,14 @@ if (!file.exists("../qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **Giardiasis, Duodenum**
 
 
- [![Tam Ekran Görmek İçin Resmi Tıklayın](../screenshots/thumbnail_BS9-HE1.png){width="25%"}](https://images.patolojiatlasi.com/BS9/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS9/HE1.html)
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS9-HE1.png){width="25%"}](https://images.patolojiatlasi.com/BS9/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS9/HE1.html)
 ```
 
 ```{asis, echo = (language == "EN")}
 
 **Giardiasis, Duodenum**
 
- [![Click for Full Screen WSI](../screenshots/thumbnail_BS9-HE1.png){width="25%"}](https://images.patolojiatlasi.com/BS9/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS9/HE1.html)
+ [![Click for Full Screen WSI](./screenshots/thumbnail_BS9-HE1.png){width="25%"}](https://images.patolojiatlasi.com/BS9/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS9/HE1.html)
 
 ```
 
@@ -264,14 +264,14 @@ if (!file.exists("../qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **Giardiasis, Duodenum**
 
 
- [![Tam Ekran Görmek İçin Resmi Tıklayın](../screenshots/thumbnail_BS9-HE2.png){width="25%"}](https://images.patolojiatlasi.com/BS9/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS9/HE2.html)
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS9-HE2.png){width="25%"}](https://images.patolojiatlasi.com/BS9/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS9/HE2.html)
 ```
 
 ```{asis, echo = (language == "EN")}
 
 **Giardiasis, Duodenum**
 
- [![Click for Full Screen WSI](../screenshots/thumbnail_BS9-HE2.png){width="25%"}](https://images.patolojiatlasi.com/BS9/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS9/HE2.html)
+ [![Click for Full Screen WSI](./screenshots/thumbnail_BS9-HE2.png){width="25%"}](https://images.patolojiatlasi.com/BS9/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS9/HE2.html)
 
 ```
 
