@@ -1,93 +1,79 @@
 project:
   type: book
-  output-dir: _docs
+  output-dir: _EN
   resources:
     - "CITATION.cff"
     - images
     - img
     - screenshots
-    - qrcodes
     - openseadragon
     - annotorious
     - files
-    - CNAME
     - "script.js"
     - "webpages.js"
     - "webpages.txt"
-    - "headerTR.html"
-
-  pre-render:
-    - ./R/prerender_TR.R
-  post-render:
-    - ./R/postrender_TR.R
+    - "headerEN.html"
 
 
 execute:
   freeze: auto
 
-lang: tr
-
-language:
-  title-block-author-single: "Derleyen"
-  title-block-author-plural: "Katkıda Bulunanlar"
-  title-block-affiliation-plural: "Kurum"
+lang: en
 
 book:
-  # engine: knitr
-  title: "Patoloji Atlası"
-  subtitle: "Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları: Görerek Öğrenin"
+
+  title: "Histopathology Atlas"
+  subtitle: "Atlas of Pathology with Whole Slide Images"
   author:
    - name: "Serdar Balcı"
      url: "https://www.serdarbalci.com"
-     affiliation: "Memorial Patoloji"
+     affiliation: "Memorial Pathology"
      affiliation-url: "https://patoloji.memorial.com.tr/"
      orcid: "0000-0002-7852-3851"
-   - name: Patoloji Hekim ve Teknikerleri
-     affiliation: "Memorial Patoloji ve Diğer Kurumlar"
-     affiliation-url: "https://www.patolojiatlasi.com/yazarlar.html"
+   - name: Pathologists, Assistants and Technicians
+     affiliation: "Memorial Pathology & Other Institutions"
+     affiliation-url: "https://www.histopathologyatlas.com/authors.html"
   description: |
-    Tanıtım: Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları. Görerek Öğrenin.
-    Patoloji Atlas
-    Patoloji Notu
-    Patoloji Ders Notları ve Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan ve diğer kurumlardan katkı yapan meslektaşlarımızın kolleksiyonlarından oluşmaktadır.
+    Atlas of Pathology with Whole Slide Images
+    Histopathology Atlas and Notes for Medical Students: See and Learn
+    Atlas of Histopathology
+    Notes for Pathology
+    Pathology Lecture Notes and Histopathology Atlas is being prepared from Memorial Pathology Archive and collaborators from other institutions.
   abstract: |
-    Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları.
-    Görerek Öğrenin.
-    Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan ve diğer kurumlardan katkı yapan meslektaşlarımızın kolleksiyonlarından oluşmaktadır.
-    Katkı yapmak ve kendi vakalarınız ekletmek için lütfen [iletişime geçin](https://www.patolojiatlasi.com/katki.html).
+    Atlas of Pathology with Whole Slide Images
+    Histopathology Atlas and Notes for Medical Students: See and Learn
+    Pathology Lecture Notes and Histopathology Atlas is being prepared from Memorial Pathology Archive and collaborators from other institutions.
+    If you want to contribute, please [contact us](https://www.patolojiatlasi.com/contributions.html).
   date: last-modified
-  image: images/coverTR.png
-  output-file: "Patoloji-Atlasi"
-  cover-image: images/coverTR.png
-  site-url: https://patolojiatlasi.com/
-#  repo-url: https://github.com/patolojiatlasi/patolojiatlasi.github.io
-  google-analytics: "G-7BT7Q4FLT9"
+  image: images/coverEN.png
+  output-file: "HistoPatology-Atlas"
+  cover-image: images/coverEN.png
+  site-url: https://histopathologyatlas.com/
+  # repo-url: https://github.com/histopathologyatlas/histopathologyatlas.github.io
+#  google-analytics: "G-7BT7Q4FLT9"
 #  repo-branch: main
 #  repo-actions: [edit, issue, source]
   sharing: [twitter, facebook, linkedin]
-  # downloads: [epub] #, pdf, docx]
+#   downloads: [epub, pdf, docx]
   search:
     location: navbar
     type: overlay
     copy-button: true
   sidebar:
-    style: docked #floating
-    background: light
+    style: floating
     search: true
-    collapsed-level: 1
-    pinned: true
 #   navbar:
-#     title: "Patoloji Atlası"
-#     logo: images/coverTR.png
+#     title: "Pathology Atlas"
+#     logo: images/coverEN.png
 #     search: true
 #     pinned: false
 #     collapse: true
 #     right:
 #       - icon: github
 #         href: https://github.com/patolojiatlasi
-  open-graph:
-    locale: tr_TR
-    site-name: Patoloji Atlası
+  open-graph: true
+  # locale: tr_TR
+  # site-name: Pathology Atlas
   twitter-card:
     creator: "%40serdarbalci"
     site: "%40patolojinotlari"
@@ -95,220 +81,222 @@ book:
   page-footer:
     border: true
     background: light
-    left: "Copyright 2022, [patolojiAI](https://www.patolojiai.com/)"
+    left: "Copyright 2022, patolojiAI"
     # right:
     #   - icon: github
     #     href: https://github.com/patolojiatlasi
-    #     target: _blank
     #   - icon: github
     #     href: https://github.com/pathologyatlas
-    #     target: _blank
     #   - icon: twitter
     #     href: https://twitter.com/patolojinotlari
-    #     target: _blank
     #   - icon: globe2
     #     href: https://www.patolojinotlari.com
-    #     target: _blank
     #   - icon: globe2
-    #     href: https://www.serdarbalci.com
-    #     target: _blank
-
+    #     href: https://serdarbalci.com
   chapters:
-    - text: "Anasayfa"
+    - text: "Home Page"
       href: index.qmd
-    - text: "Giriş"
-      href: giris.qmd
+    - text: "Introduction"
+      href: introduction.qmd
     - part: "---"
-    - part: "Genel Patoloji"
+    - part: "General Pathology"
       chapters:
-        - text: "Patolojide Kullanılan Teknikler"
-          href: teknik.qmd
-        - text: "Hücre İçi Birikimler"
-          href: hucre-ici-birikimler.qmd
-        - text: "Hücre Dışı Birikimler"
-          href: hucre-disi-birikimler.qmd
-        - text: "Hücre Hasarı"
-          href: hucre-hasari.qmd
-        - text: "Hemodinamik Bozukluklar"
-          href: hemodinamik-bozukluklar.qmd
-        - text: "İskemi ve Nekroz"
-          href: iskemi-nekroz.qmd
-        - text: "Konjesyon"
-          href: konjesyon.qmd
-        - text: "Amiloid birikimi"
-          href: amiloid.qmd
-        - text: "Tamir Mekanizmaları"
-          href: tamir.qmd
-        - text: "Erozyon"
-          href: erozyon.qmd
-    - part: "İnflamasyon"
+        - text: "Techniques Used in Pathology"
+          href: techniques.qmd
+        - text: "Intracellular Accumulations"
+          href: intracellular-accumulations.qmd
+        - text: "Extracellular Accumulations"
+          href: extracellular-accumulations.qmd
+        - text: "Cellular Injury"
+          href: cell-injury.qmd
+#         - text: "Hemodynamic Disorders"
+#           href: hemodinamik-bozukluklar.qmd
+        - text: "Ischemia and Necrosis"
+          href: ischemia-necrosis.qmd
+        - text: "Congestion"
+          href: congestion.qmd
+        # - text: "Inflammation"
+        #   href: inflamasyon.qmd
+        - text: "Amyloidosis"
+          href: amyloidosis.qmd
+        - text: "Repair Mechanisms"
+          href: repair.qmd
+        - text: "Erosion"
+          href: erosion.qmd
+    - part: "Inflamation"
       chapters:
-        - text: "Akut inflamasyon"
-          href: akut-inflamasyon.qmd
-        - text: "Kronik inflamasyon"
-          href: kronik-inflamasyon.qmd
-        - text: "Granülamatöz İnflamasyon"
-          href: granulom.qmd
+        - text: "Acute inflammation"
+          href: acute-inflammation.qmd
+        - text: "Chronic inflammation"
+          href: chronic-inflammation.qmd
+        - text: "Granulamatous inflammation"
+          href: granulamatous-inflammation.qmd
         # - inflamasyon.qmd
-    - part: "İnfeksiyöz Hastalıkların Patolojisi"
+    - part: "Infectious Diseases"
       chapters:
-        - text: "Viruslar"
+        - text: "Viruses"
           href: virus.qmd
-        - text: "Bakteriler"
-          href: bakteri.qmd
-        - text: "Mantarlar"
-          href: mantar.qmd
-        - text: "Parazitler"
-          href: parazit.qmd
-    - part: "Temel Tümör Patolojisi"
+        - text: "Bacteria"
+          href: bacteria.qmd
+        - text: "Fungi"
+          href: fungi.qmd
+        - text: "Parasites"
+          href: parasites.qmd
+    - part: "Neoplasia, Tumor Pathology Basics"
       chapters:
-        - benign.qmd
-        - hamartom.qmd
-        - heterotopi.qmd
-        - text: "Metaplazi"
-          href: metaplazi.qmd
-        - text: "Karsinogenez"
-          href: karsinogenez.qmd
-        - malign.qmd
-        - metastaz.qmd
-        - tumor-yayilimi.qmd
-    - part: "Tümörlerdeki Prognostik Morfolojik Özellikler"
+        - text: "Benign Tumors"
+          href: benign.qmd
+        - text: "Hamartoma"
+          href: hamartoma.qmd
+        - text: "Heterotopia"
+          href: heterotopia.qmd
+        - text: "Metaplasia"
+          href: metaplasia.qmd
+        - text: "Carcinogenesis"
+          href: carcinogenesis.qmd
+        - text: "The properties of Malignant Tumors"
+          href: malignant.qmd
+        - text: "Metastasis"
+          href: metastasis.qmd
+        - text: "Tumor Spread to Other Organs"
+          href: tumor-spread.qmd
+    - part: "Prognostic Morphologic Features of Neoplasms"
       chapters:
-        - text: "Venöz İnvazyon"
-          href: venoz-invazyon.qmd
-        - text: "Ekstramural Venöz İnvazyon"
-          href: ekstramural-venoz-invazyon.qmd
-    - part: "Hematopatoloji"
+        - text: "Venous Invasion"
+          href: venous-invasion.qmd
+        - text: "Extramural Venous Invaasion"
+          href: extramural-venous-invasion.qmd
+    - part: "Hematopathology"
       chapters:
 #        - hematopatoloji.qmd
-        - hodgkin.qmd
-    - part: "Gastrointestinal Sistem Patolojisi"
+        - text: "Hodgkin Lymphoma"
+          href: hodgkin.qmd
+    - part: "Gastrointestinal System"
       chapters:
         - gastro.qmd
-        - text: "Özofagus"
-          href: ozofagus.qmd
-        - text: "Mide Patolojisi"
-          href: mide.qmd
-        - text: "Gastrit"
-          href: gastrit.qmd
-        - text: "Duodenum Patolojisi"
+        - text: "Esophagus"
+          href: esophagus.qmd
+        - text: "Stomach"
+          href: stomach.qmd
+        - text: "Gastritis"
+          href: gastritis.qmd
+        - text: "Duodenum"
           href: duodenum.qmd
-        - text: "Kolon Patolojisi"
-          href: kolon.qmd
-        - text: "Crohn Hastalığı"
+        - text: "Colon"
+          href: colon.qmd
+        - text: "Crohn's Disease"
           href: crohn.qmd
-    - part: "Karaciğer Patolojisi"
+    - part: "Liver"
       chapters:
-        - text: "Karaciğer Tümörleri"
-          href: karaciger.qmd
-        - text: "Benign Karaciğer Tümörleri"
-          href: karaciger-benign.qmd
-    - part: "Pankreatobilier Sistem Patolojisi"
+        - text: "Liver Tumors"
+          href: liver.qmd
+        - text: "Benign Liver Tumors"
+          href: benign-liver-tumors.qmd
+    - part: "Pancreatobiliary system"
       chapters:
-        - text: "Pankreas"
-          href: pankreas.qmd
-        - text: "Pankreas Duktal Adenokarsinom"
+        - text: "Pancreas"
+          href: pancreas.qmd
+        - text: "Pancreas Ductal Adenocarcinoma"
           href: pdac.qmd
-        - text: "Safra Kesesi"
-          href: safra-kesesi.qmd
-        - text: "Ampulla Vater"
+        - text: "Gallbladder"
+          href: gallbladder.qmd
+        - text: "Ampulla of Vater"
           href: ampulla-vater.qmd
-    - part: "Akciğer Patolojisi"
+    - part: "Lung"
       chapters:
-        - text: "Nöroendokrin"
-          href: noroendokrin.qmd
+        - text: "Neuroendocrine"
+          href: neuroendocrine.qmd
     - part: "Mezotel"
       chapters:
         - text: "Abdomen"
-          href: mezotel.qmd
-    - part: "Jinekolojik Patoloji"
+          href: mesothelial.qmd
+    - part: "Gynecopathology"
       chapters:
-        - text: "Jinekolojik Patoloji"
-          href: jineko.qmd
-        - text: "Genital Sistem Patolojisi"
+        - text: "Gynecopathology"
+          href: gynecologic.qmd
+        - text: "Genital System"
           href: genital.qmd
-        - text: "Serviks"
-          href: serviks.qmd
+        - text: "Cervix"
+          href: cervix.qmd
         - text: "Endometrium"
           href: endometrium.qmd
-        - text: "Endometriozis"
+        - text: "Endometriosis"
           href: endometriosis.qmd
-    - part: "Üriner Sistem Patolojisi"
+    - part: "Uropathology"
       chapters:
-        - text: "Üropatoloji"
-          href: uriner.qmd
-        - text: "Böbrek Tümörleri / Renal Tümörler"
-          href: bobrek.qmd
-        - text: "Prostat"
-          href: prostat.qmd
-    - part: "Endokrin Sistem Patolojisi"
+        - text: "Uropathology"
+          href: urinary.qmd
+        - text: "Kidney Tumors / Renal Tumors"
+          href: kidney.qmd
+        - text: "Prostate"
+          href: prostate.qmd
+    - part: "Endocrine System"
       chapters:
-        - text: "Hipofiz Adenomu"
-          href: hipofiz.qmd
-    - part: "Meme Patolojisi"
-      # chapters:
-      #   - text: "Meme Tümörleri"
-      #     href: meme.qmd
-    - part: "Baş Boyun Patolojisi"
+        - text: "Pituitary Adenoma"
+          href: pituitary.qmd
+    # - part: "Breast"
+    #   chapters:
+    #     - text: "Breast Tumors"
+    #       href: meme.md
+    - part: "Head and Neck"
       chapters:
-        - text: "Nazofarenks"
-          href: nazofarenks.qmd
-        - text: "Kulak"
-          href: kulak.qmd
-        - text: "Tükürük Bezi"
-          href: tukuruk.qmd
-    - part: "Santral Sinir Sistem Patolojisi"
+        - text: "Nasopharynx"
+          href: nasopharynx.qmd
+        - text: "Ear"
+          href: ear.qmd
+        - text: "Salivary Gland"
+          href: salivary.qmd
+    - part: "Central Nervous System"
       chapters:
-        - text: "Gliomlar"
-          href: gliom.qmd
-        - text: "Meningiom"
-          href: meningiom.qmd
-        - text: "Vasküler Lezyonlar"
-          href: sss-vaskuler.qmd
-    - part: "Kemik Patolojisi"
+        - text: "Glioma"
+          href: glioma.qmd
+        - text: "Meningioma"
+          href: meningioma.qmd
+        - text: "Vascular Lesions"
+          href: cns-vascular.qmd
+    - part: "Bone"
       chapters:
-        - text: "Kemik Tümörleri"
-          href: kemik.qmd
-    - part: "Yumuşak Doku Patolojisi"
+        - text: "Bone Tumors"
+          href: bone.qmd
+    - part: "Soft Tissue"
       chapters:
-        - text: "Adipöz Doku Patolojisi"
-          href: adipoz.qmd
-    - part: "Pediatrik ve Perinatal Patoloji"
+        - text: "Adipose Tissue"
+          href: adipose.qmd
+    - part: "Pediatric and Perinatal"
       chapters:
-        - plasenta.qmd
+        - text: "Placenta"
+          href: placenta.qmd
     - part: "---"
-    - part: "Özel Kolleksiyonlar"
+    - part: "Special Collections"
       chapters:
         - text: "GBDAtlas"
           href: gbd.qmd
-        - text: "Hacettepe Ayın Vakası"
+        - text: "Hacettepe Case of Month"
           href: hacettepecom.qmd
         - text: "BSAtlas"
           href: bs.qmd
         - text: "ICEtlas"
           href: ice.qmd
-        - text: "Benzer Sayfalar"
+        - text: "Similar Websites"
           href: wsi.qmd
     - part: "---"
-    - referanslar.qmd
+    - references.qmd
     - part: "---"
   appendices:
-    - text: "Yazarlar ve Katkıda Bulunanlar"
-      href: yazarlar.qmd
-      target: _blank
-    - text: "Katkıda bulunun"
-      href: katki.qmd
-    - text: "Yorum ekleyin"
-      href: yorum.qmd
-    - yonetim-gelistirme.qmd
-    - text: "Liste"
+    - text: "Authors and Contributors"
+      href: authors.qmd
+    - text: "Contributions are welcome"
+      href: contributions.qmd
+    - text: "Comments are welcome"
+      href: comments.qmd
+    - text: "List"
       href: listing.qmd
     - listing2.qmd
-    # - listing3.qmd
-    # - listing4.qmd
-    # - feature-trials.qmd
 
-bibliography: references.bib
+
+# before_chapter_script: "./R/language.R"
+
+# bibliography: references.bib
 # # csl: citestyle.csl
 highlight-style: pygments
 
@@ -330,7 +318,7 @@ format:
       body-width: 1800px # default 900px
       # margin-width: 300px
       # gutter-width: 1.5rem
-    cover-image: images/coverTR.png
+    cover-image: images/coverEN.png
 #    code-link: true
 #    code-fold: true
 #    code-tools: true
@@ -340,7 +328,7 @@ format:
 #    fig-height: 4
     execute:
       warning: false
-    css: styles.css
+#    css: styles.css
     self-contained: false
     anchor-sections: true
     link-external-icon: true
@@ -349,20 +337,77 @@ format:
     citations-hover: true
     footnotes-hover: true
     number-depth: 2
-    toc-title: "İçindekiler"
+    # toc-title: "İçindekiler"
     include-in-header:
       - text: |
           <script src="script.js"></script>
           <script src="webpages.js"></script>
-      - file: "./headerTR.html"
-    filters:
-      - collapse-social-embeds
+      - file: "./headerEN.html"
+
+#   epub:
+#     toc: true
+#     epub-cover-image: images/coverEN.png
+#     execute:
+#       warning: false
+#     css:
+#       epub.css
+
+
+#   pdf:
+#     keep-tex: true
+#     documentclass: scrbook
+#     classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,12pt]
+#
+# #    documentclass: scrreprt
+#     toc: true
+#     toc-depth: 2
+#     toc-title: "İçindekiler"
+#     number-sections: true
+#     number-depth: 2
+#     colorlinks: true
+#     highlight-style: github
+#     execute:
+#       warning: false
+#     include-in-header:
+#       text: |
+#         \usepackage{fvextra}
+#         \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+#         \areaset[0.50in]{4.5in}{8in}
+#         \usepackage{titlesec}
+#         \usepackage{svg}
+#         \usepackage{transparent}
+#         \usepackage{tikzfill}
+#         \usepackage{sidenotes}
+#         \usepackage{marginnote}
+#         \usepackage{changepage}
+#
+#     include-before-body:
+#       text: |
+#         \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
+#            showspaces = false,
+#            showtabs = false,
+#            breaksymbolleft={},
+#            breaklines
+#            % Note: setting commandchars=\\\{\} here will cause an error
+#         }
+#     fig-pos: 'H'
+
+#   docx:
+#     toc: true
+#     section-numbers: true
+#     highlight-style: github
+#     toc-depth: 2
+#     # toc-title: "İçindekiler"
+#     number-sections: true
+#     number-depth: 2
+
 
 citation:
     type: webpage
-    container-title: Patoloji Atlası
-    url: "https://www.patolojiatlasi.com/"
+    container-title: Histopathology Atlas Atlas of Pathology with Whole Slide Images
+    url: "https://www.histopathologyatlas.com/"
 
 
 editor: source
+
 

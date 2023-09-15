@@ -171,3 +171,5 @@ folders_to_delete <- fs::dir_ls(path = ".",
                                 regexp = "_files$")
 
 fs::dir_delete(folders_to_delete)
+
+rm(list=ls())

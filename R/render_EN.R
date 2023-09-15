@@ -86,5 +86,29 @@ xfun::gsub_files(files = files_to_revert,
                  replacement = ".qmd >}}"
 )
 
+
+if (file.exists("./_EN/CNAME")){
+  fs::file_delete(path = "./_EN/CNAME")
+}
+
+
+if (dir.exists(paths = "./_EN/docs")) {
+  fs::dir_delete(path = "./_EN/docs")
+}
+
+if (dir.exists(paths = "./_EN/public")) {
+  fs::dir_delete(path = "./_EN/public")
+}
+
+if (dir.exists(paths = "./_EN")) {
+  fs::dir_copy(path = "./_EN", new_path = "./EN", overwrite = TRUE)
+}
+
+if (dir.exists(paths = "./_EN")) {
+  fs::dir_delete(path = "./_EN")
+}
+
+
+
 rm(list=ls())
 
