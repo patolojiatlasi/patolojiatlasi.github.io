@@ -233,6 +233,12 @@ if (dir.exists(paths = "./_docs/lecture-notes")) {
 
 fs::dir_copy(path = "./_docs", new_path = "./public", overwrite = TRUE)
 
+if (file.exists("./public/CNAME")){
+  fs::file_delete(path = "./public/CNAME")
+}
+
+
+
 fs::dir_copy(path = "./_docs", new_path = "./docs", overwrite = TRUE)
 
 if (dir.exists(paths = "./_docs")) {

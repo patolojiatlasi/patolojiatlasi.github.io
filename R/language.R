@@ -1,1 +1,1 @@
-language <- "EN"
+language <- "TR"
