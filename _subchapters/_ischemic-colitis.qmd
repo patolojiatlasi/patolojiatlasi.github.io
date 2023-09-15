@@ -11,10 +11,10 @@
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("../screenshots/thumbnail_ischemic-colitis.png")) {
+if (!file.exists("./screenshots/thumbnail_ischemic-colitis.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/ischemic-colitis/HE.html",
-  file = "../screenshots/thumbnail_ischemic-colitis.png",
+  file = "./screenshots/thumbnail_ischemic-colitis.png",
   delay = 20
 )
 }
@@ -108,7 +108,7 @@ if (!file.exists("../qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **İskemik Kolit**
 
 
- [![Tam Ekran Görmek İçin Resmi Tıklayın](../screenshots/thumbnail_ischemic-colitis.png){width="25%"}](https://images.patolojiatlasi.com/ischemic-colitis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ischemic-colitis/HE.html)
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_ischemic-colitis.png){width="25%"}](https://images.patolojiatlasi.com/ischemic-colitis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ischemic-colitis/HE.html)
 
 ```
 
@@ -126,7 +126,7 @@ Mikroskopik görüntüleri inceleyin:
 **Ischemic Colitis**
 
 
- [![Click for Full Screen WSI](../screenshots/thumbnail_ischemic-colitis.png){width="25%"}](https://images.patolojiatlasi.com/ischemic-colitis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ischemic-colitis/HE.html)
+ [![Click for Full Screen WSI](./screenshots/thumbnail_ischemic-colitis.png){width="25%"}](https://images.patolojiatlasi.com/ischemic-colitis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ischemic-colitis/HE.html)
 
 ```
 

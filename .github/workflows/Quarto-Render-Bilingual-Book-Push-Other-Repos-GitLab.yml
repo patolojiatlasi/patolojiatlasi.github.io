@@ -160,13 +160,16 @@ jobs:
           fs::file_copy(path = "./_quarto_EN.yml", new_path = "./_quarto.yml", overwrite = TRUE)
           fs::file_copy(path = "./R/languageEN.R", new_path = "./R/language.R",overwrite = TRUE)
           # EN qmd
-          patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx", sheet = "chapters")
-          patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_chapter_qmd")]
-          patolojiatlasi_histopathologyatlas$TR_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_chapter_qmd, ".qmd")
-          patolojiatlasi_histopathologyatlas$EN_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$EN_chapter_qmd, ".qmd")
-          fs::file_copy(path = patolojiatlasi_histopathologyatlas$TR_chapter_qmd,
-              new_path = patolojiatlasi_histopathologyatlas$EN_chapter_qmd,
-              overwrite = TRUE)
+          chapters <- list.files(path = ".", pattern = ".qmd", recursive = FALSE)
+          chapters <- paste0("./", chapters)
+          chapters_EN <- gsub(pattern = ".qmd", replacement = "_EN.qmd", x = chapters)
+          subchapters <- list.files(path = "./_subchapters", pattern = ".qmd", recursive = FALSE)
+          subchapters <- paste0("./_subchapters/", subchapters)
+          subchapters_EN <- gsub(pattern = ".qmd", replacement = "_EN.qmd", x = subchapters)
+          all_chapters <- c(chapters, subchapters)
+          all_chapters_EN <- c(chapters_EN, subchapters_EN)
+          fs::file_copy(path = all_chapters, new_path = all_chapters_EN, overwrite = TRUE)
+          xfun::gsub_files(files = all_chapters_EN, pattern = ".qmd >}}", replacement = "_EN.qmd >}}")
 
       - name: "Render Book EN"
         shell: Rscript {0}
@@ -186,14 +189,14 @@ jobs:
           fs::file_copy(path = "./CNAME-histopathologyatlas", new_path = "./_EN/CNAME", overwrite = TRUE)
           if (dir.exists(paths = "./_EN/gitlab_atlas")) {fs::dir_delete(path = "./_EN/gitlab_atlas")}
           if (dir.exists(paths = "./_EN/docs")) {fs::dir_delete(path = "./_EN/docs")}
-          patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx", sheet = "chapters")
-          patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_chapter_qmd")]
-          `%>%` <- magrittr::`%>%`
-          patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas %>%
-              dplyr::distinct() %>% dplyr::filter(TR_chapter_qmd != EN_chapter_qmd)
-          patolojiatlasi_histopathologyatlas$EN_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$EN_chapter_qmd, ".qmd")
-          fs::file_delete(path = patolojiatlasi_histopathologyatlas$EN_chapter_qmd)
 
+          # EN qmd
+          chapters_EN <- list.files(path = ".", pattern = "_EN.qmd", recursive = FALSE)
+          chapters_EN <- paste0("./", chapters_EN)
+          subchapters_EN <- list.files(path = "./_subchapters", pattern = "_EN.qmd", recursive = FALSE)
+          subchapters_EN <- paste0("./_subchapters/", subchapters_EN)
+          all_chapters_EN <- c(chapters_EN, subchapters_EN)
+          fs::file_delete(path = all_chapters_EN)
 
       - name: "Render Book From TR"
         shell: Rscript {0}

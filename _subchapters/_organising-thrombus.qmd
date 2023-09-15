@@ -33,10 +33,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{r organising-thrombus screenshot HE, eval=TRUE, include=FALSE}
-if (!file.exists("../screenshots/thumbnail_organising-thrombus-HE.png")) {
+if (!file.exists("./screenshots/thumbnail_organising-thrombus-HE.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/organising-thrombus/HE.html",
-  file = "../screenshots/thumbnail_organising-thrombus-HE.png"
+  file = "./screenshots/thumbnail_organising-thrombus-HE.png"
 )
 }
 ```
@@ -84,7 +84,7 @@ if (!file.exists("../qrcodes/organising-thrombus-HE_qrcode.svg")) {
 **Organize Trombus**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](../screenshots/thumbnail_organising-thrombus-HE.png){width="25%"}](https://images.patolojiatlasi.com/organising-thrombus/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/organising-thrombus/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_organising-thrombus-HE.png){width="25%"}](https://images.patolojiatlasi.com/organising-thrombus/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/organising-thrombus/HE.html)
 
 ```
 
@@ -97,7 +97,7 @@ if (!file.exists("../qrcodes/organising-thrombus-HE_qrcode.svg")) {
 
 **Organize Trombus**
 
-![](../qrcodes/organising-thrombus-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](../screenshots/thumbnail_organising-thrombus-HE.png){width="25%"}](https://images.patolojiatlasi.com/organising-thrombus/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/organising-thrombus/HE.html)
+![](../qrcodes/organising-thrombus-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_organising-thrombus-HE.png){width="25%"}](https://images.patolojiatlasi.com/organising-thrombus/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/organising-thrombus/HE.html)
 
 ```
 
@@ -115,7 +115,7 @@ if (!file.exists("../qrcodes/organising-thrombus-HE_qrcode.svg")) {
 
 **Organising Thrombus**
 
-[![Click for Full Screen WSI](../screenshots/thumbnail_organising-thrombus-HE.png){width="25%"}](https://images.patolojiatlasi.com/organising-thrombus/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/organising-thrombus/HE.html)
+[![Click for Full Screen WSI](./screenshots/thumbnail_organising-thrombus-HE.png){width="25%"}](https://images.patolojiatlasi.com/organising-thrombus/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/organising-thrombus/HE.html)
 
 ```
 
@@ -128,7 +128,7 @@ if (!file.exists("../qrcodes/organising-thrombus-HE_qrcode.svg")) {
 
 **Organising Thrombus**
 
-![](../qrcodes/organising-thrombus-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](../screenshots/thumbnail_organising-thrombus-HE.png){width="25%"}](https://images.patolojiatlasi.com/organising-thrombus/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/organising-thrombus/HE.html)
+![](../qrcodes/organising-thrombus-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_organising-thrombus-HE.png){width="25%"}](https://images.patolojiatlasi.com/organising-thrombus/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/organising-thrombus/HE.html)
 
 ```
 
