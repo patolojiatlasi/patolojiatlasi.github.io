@@ -1,6 +1,6 @@
 project:
   type: book
-  output-dir: _epub_word_EN
+  output-dir: _pdf_EN
   resources:
     - "CITATION.cff"
     - images
@@ -42,34 +42,22 @@ book:
     If you want to contribute, please [contact us](https://www.histopathologyatlas.com/contributions.html).
   date: last-modified
   image: images/coverEN.png
-  output-file: "HistoPatology-Atlas"
+  output-file: "HistoPathology-Atlas"
   cover-image: images/Histopathology-Atlas-ebook-cover.png
   site-url: https://histopathologyatlas.com/
-  # repo-url: https://github.com/histopathologyatlas/histopathologyatlas.github.io
-#  google-analytics: "G-7BT7Q4FLT9"
-#  repo-branch: main
-#  repo-actions: [edit, issue, source]
-  sharing: [twitter, facebook, linkedin]
-#   downloads: [epub, pdf, docx]
   search:
     location: navbar
     type: overlay
     copy-button: true
   sidebar:
-    style: floating
+    style: docked #floating
+    background: light
     search: true
-#   navbar:
-#     title: "Pathology Atlas"
-#     logo: images/coverEN.png
-#     search: true
-#     pinned: false
-#     collapse: true
-#     right:
-#       - icon: github
-#         href: https://github.com/patolojiatlasi
-  open-graph: true
-  # locale: tr_TR
-  # site-name: Pathology Atlas
+    collapsed-level: 1
+    pinned: true
+  open-graph:
+    locale: en_EN
+    site-name: Histopathology Atlas
   twitter-card:
     creator: "%40serdarbalci"
     site: "%40patolojinotlari"
@@ -77,159 +65,165 @@ book:
   page-footer:
     border: true
     background: light
-    left: "Copyright 2022, patolojiAI"
+    left: "Copyright 2022, [patolojiAI](https://www.patolojiai.com/)"
     # right:
     #   - icon: github
     #     href: https://github.com/patolojiatlasi
+    #     target: _blank
     #   - icon: github
     #     href: https://github.com/pathologyatlas
+    #     target: _blank
     #   - icon: twitter
     #     href: https://twitter.com/patolojinotlari
+    #     target: _blank
     #   - icon: globe2
     #     href: https://www.patolojinotlari.com
+    #     target: _blank
     #   - icon: globe2
-    #     href: https://serdarbalci.com
+    #     href: https://www.serdarbalci.com
+    #     target: _blank
+
   chapters:
     - text: "Home Page"
       href: index.qmd
     - text: "Introduction"
-      href: introduction_epub_word_EN.qmd
+      href: introduction_pdf_EN.qmd
     - part: "---"
     - part: "General Pathology"
       chapters:
         - text: "Techniques Used in Pathology"
-          href: techniques_epub_word_EN.qmd
-        - text: "Intracellular Accumulations"
-          href: intracellular-accumulations_epub_word_EN.qmd
-        - text: "Extracellular Accumulations"
-          href: extracellular-accumulations_epub_word_EN.qmd
-        - text: "Cellular Injury"
-          href: cell-injury_epub_word_EN.qmd
-#         - text: "Hemodynamic Disorders"
-#           href: hemodinamik-bozukluklar_epub_word_EN.qmd
-        - text: "Ischemia and Necrosis"
-          href: ischemia-necrosis_epub_word_EN.qmd
-        - text: "Congestion"
-          href: congestion_epub_word_EN.qmd
-        # - text: "Inflammation"
-        #   href: inflamasyon_epub_word_EN.qmd
-        - text: "Amyloidosis"
-          href: amyloidosis_epub_word_EN.qmd
-        - text: "Repair Mechanisms"
-          href: repair_epub_word_EN.qmd
-        - text: "Erosion"
-          href: erosion_epub_word_EN.qmd
-    - part: "Inflamation"
-      chapters:
-        - text: "Acute inflammation"
-          href: acute-inflammation_epub_word_EN.qmd
-        - text: "Chronic inflammation"
-          href: chronic-inflammation_epub_word_EN.qmd
-        - text: "Granulamatous inflammation"
-          href: granulamatous-inflammation_epub_word_EN.qmd
-        # - inflamasyon_epub_word_EN.qmd
+          href: techniques_pdf_EN.qmd
+        # - text: "Intracellular Accumulations"
+        #   href: intracellular-accumulations_pdf_EN.qmd
+#         - text: "Extracellular Accumulations"
+#           href: extracellular-accumulations_pdf_EN.qmd
+#         - text: "Cellular Injury"
+#           href: cell-injury_pdf_EN.qmd
+# #         - text: "Hemodynamic Disorders"
+# #           href: hemodinamik-bozukluklar_pdf_EN.qmd
+#         - text: "Ischemia and Necrosis"
+#           href: ischemia-necrosis_pdf_EN.qmd
+#         - text: "Congestion"
+#           href: congestion_pdf_EN.qmd
+#         # - text: "Inflammation"
+#         #   href: inflamasyon_pdf_EN.qmd
+#         - text: "Amyloidosis"
+#           href: amyloidosis_pdf_EN.qmd
+#         - text: "Repair Mechanisms"
+#           href: repair_pdf_EN.qmd
+#         - text: "Erosion"
+#           href: erosion_pdf_EN.qmd
+    # - part: "Inflamation"
+    #   chapters:
+    #     - text: "Acute inflammation"
+    #       href: acute-inflammation_pdf_EN.qmd
+    #     - text: "Chronic inflammation"
+    #       href: chronic-inflammation_pdf_EN.qmd
+    #     - text: "Granulamatous inflammation"
+    #       href: granulamatous-inflammation_pdf_EN.qmd
+        # - inflamasyon_pdf_EN.qmd
 #     - part: "Infectious Diseases"
 #       chapters:
 #         - text: "Viruses"
-#           href: virus_epub_word_EN.qmd
+#           href: virus_pdf_EN.qmd
 #         - text: "Bacteria"
-#           href: bacteria_epub_word_EN.qmd
+#           href: bacteria_pdf_EN.qmd
 #         - text: "Fungi"
-#           href: fungi_epub_word_EN.qmd
+#           href: fungi_pdf_EN.qmd
 #         - text: "Parasites"
-#           href: parasites_epub_word_EN.qmd
+#           href: parasites_pdf_EN.qmd
 #     - part: "Neoplasia, Tumor Pathology Basics"
 #       chapters:
 #         - text: "Benign Tumors"
-#           href: benign_epub_word_EN.qmd
+#           href: benign_pdf_EN.qmd
 #         - text: "Hamartoma"
-#           href: hamartoma_epub_word_EN.qmd
+#           href: hamartoma_pdf_EN.qmd
 #         - text: "Heterotopia"
-#           href: heterotopia_epub_word_EN.qmd
+#           href: heterotopia_pdf_EN.qmd
 #         - text: "Metaplasia"
-#           href: metaplasia_epub_word_EN.qmd
+#           href: metaplasia_pdf_EN.qmd
 #         - text: "Carcinogenesis"
-#           href: carcinogenesis_epub_word_EN.qmd
+#           href: carcinogenesis_pdf_EN.qmd
 #         - text: "The properties of Malignant Tumors"
-#           href: malignant_epub_word_EN.qmd
+#           href: malignant_pdf_EN.qmd
 #         - text: "Metastasis"
-#           href: metastasis_epub_word_EN.qmd
+#           href: metastasis_pdf_EN.qmd
 #         - text: "Tumor Spread to Other Organs"
-#           href: tumor-spread_epub_word_EN.qmd
+#           href: tumor-spread_pdf_EN.qmd
 #     - part: "Prognostic Morphologic Features of Neoplasms"
 #       chapters:
 #         - text: "Venous Invasion"
-#           href: venous-invasion_epub_word_EN.qmd
+#           href: venous-invasion_pdf_EN.qmd
 #         - text: "Extramural Venous Invaasion"
-#           href: extramural-venous-invasion_epub_word_EN.qmd
+#           href: extramural-venous-invasion_pdf_EN.qmd
 #     - part: "Hematopathology"
 #       chapters:
-# #        - hematopatoloji_epub_word_EN.qmd
+# #        - hematopatoloji_pdf_EN.qmd
 #         - text: "Hodgkin Lymphoma"
-#           href: hodgkin_epub_word_EN.qmd
+#           href: hodgkin_pdf_EN.qmd
 #     - part: "Gastrointestinal System"
 #       chapters:
-#         - gastro_epub_word_EN.qmd
+#         - gastro_pdf_EN.qmd
 #         - text: "Esophagus"
-#           href: esophagus_epub_word_EN.qmd
+#           href: esophagus_pdf_EN.qmd
 #         - text: "Stomach"
-#           href: stomach_epub_word_EN.qmd
+#           href: stomach_pdf_EN.qmd
 #         - text: "Gastritis"
-#           href: gastritis_epub_word_EN.qmd
+#           href: gastritis_pdf_EN.qmd
 #         - text: "Duodenum"
-#           href: duodenum_epub_word_EN.qmd
+#           href: duodenum_pdf_EN.qmd
 #         - text: "Colon"
-#           href: colon_epub_word_EN.qmd
+#           href: colon_pdf_EN.qmd
 #         - text: "Crohn's Disease"
-#           href: crohn_epub_word_EN.qmd
+#           href: crohn_pdf_EN.qmd
 #     - part: "Liver"
 #       chapters:
 #         - text: "Liver Tumors"
-#           href: liver_epub_word_EN.qmd
+#           href: liver_pdf_EN.qmd
 #         - text: "Benign Liver Tumors"
-#           href: benign-liver-tumors_epub_word_EN.qmd
+#           href: benign-liver-tumors_pdf_EN.qmd
 #     - part: "Pancreatobiliary system"
 #       chapters:
 #         - text: "Pancreas"
-#           href: pancreas_epub_word_EN.qmd
+#           href: pancreas_pdf_EN.qmd
 #         - text: "Pancreas Ductal Adenocarcinoma"
-#           href: pdac_epub_word_EN.qmd
+#           href: pdac_pdf_EN.qmd
 #         - text: "Gallbladder"
-#           href: gallbladder_epub_word_EN.qmd
+#           href: gallbladder_pdf_EN.qmd
 #         - text: "Ampulla of Vater"
-#           href: ampulla-vater_epub_word_EN.qmd
+#           href: ampulla-vater_pdf_EN.qmd
 #     - part: "Lung"
 #       chapters:
 #         - text: "Neuroendocrine"
-#           href: neuroendocrine_epub_word_EN.qmd
+#           href: neuroendocrine_pdf_EN.qmd
 #     - part: "Mezotel"
 #       chapters:
 #         - text: "Abdomen"
-#           href: mesothelial_epub_word_EN.qmd
+#           href: mesothelial_pdf_EN.qmd
 #     - part: "Gynecopathology"
 #       chapters:
 #         - text: "Gynecopathology"
-#           href: gynecologic_epub_word_EN.qmd
+#           href: gynecologic_pdf_EN.qmd
 #         - text: "Genital System"
-#           href: genital_epub_word_EN.qmd
+#           href: genital_pdf_EN.qmd
 #         - text: "Cervix"
-#           href: cervix_epub_word_EN.qmd
+#           href: cervix_pdf_EN.qmd
 #         - text: "Endometrium"
-#           href: endometrium_epub_word_EN.qmd
+#           href: endometrium_pdf_EN.qmd
 #         - text: "Endometriosis"
-#           href: endometriosis_epub_word_EN.qmd
+#           href: endometriosis_pdf_EN.qmd
 #     - part: "Uropathology"
 #       chapters:
 #         - text: "Uropathology"
-#           href: urinary_epub_word_EN.qmd
+#           href: urinary_pdf_EN.qmd
 #         - text: "Kidney Tumors / Renal Tumors"
-#           href: kidney_epub_word_EN.qmd
+#           href: kidney_pdf_EN.qmd
 #         - text: "Prostate"
-#           href: prostate_epub_word_EN.qmd
+#           href: prostate_pdf_EN.qmd
 #     - part: "Endocrine System"
 #       chapters:
 #         - text: "Pituitary Adenoma"
-#           href: pituitary_epub_word_EN.qmd
+#           href: pituitary_pdf_EN.qmd
 #     # - part: "Breast"
 #     #   chapters:
 #     #     - text: "Breast Tumors"
@@ -237,128 +231,105 @@ book:
 #     - part: "Head and Neck"
 #       chapters:
 #         - text: "Nasopharynx"
-#           href: nasopharynx_epub_word_EN.qmd
+#           href: nasopharynx_pdf_EN.qmd
 #         - text: "Ear"
-#           href: ear_epub_word_EN.qmd
+#           href: ear_pdf_EN.qmd
 #         - text: "Salivary Gland"
-#           href: salivary_epub_word_EN.qmd
+#           href: salivary_pdf_EN.qmd
 #     - part: "Central Nervous System"
 #       chapters:
 #         - text: "Glioma"
-#           href: glioma_epub_word_EN.qmd
+#           href: glioma_pdf_EN.qmd
 #         - text: "Meningioma"
-#           href: meningioma_epub_word_EN.qmd
+#           href: meningioma_pdf_EN.qmd
 #         - text: "Vascular Lesions"
-#           href: cns-vascular_epub_word_EN.qmd
+#           href: cns-vascular_pdf_EN.qmd
 #     - part: "Bone"
 #       chapters:
 #         - text: "Bone Tumors"
-#           href: bone_epub_word_EN.qmd
+#           href: bone_pdf_EN.qmd
 #     - part: "Soft Tissue"
 #       chapters:
 #         - text: "Adipose Tissue"
-#           href: adipose_epub_word_EN.qmd
+#           href: adipose_pdf_EN.qmd
 #     - part: "Pediatric and Perinatal"
 #       chapters:
 #         - text: "Placenta"
-#           href: placenta_epub_word_EN.qmd
+#           href: placenta_pdf_EN.qmd
 #     - part: "---"
 #     - part: "Special Collections"
 #       chapters:
 #         - text: "GBDAtlas"
-#           href: gbd_epub_word_EN.qmd
+#           href: gbd_pdf_EN.qmd
 #         - text: "Hacettepe Case of Month"
-#           href: hacettepecom_epub_word_EN.qmd
+#           href: hacettepecom_pdf_EN.qmd
 #         - text: "BSAtlas"
-#           href: bs_epub_word_EN.qmd
+#           href: bs_pdf_EN.qmd
 #         - text: "ICEtlas"
-#           href: ice_epub_word_EN.qmd
+#           href: ice_pdf_EN.qmd
 #         - text: "Similar Websites"
-#           href: wsi_epub_word_EN.qmd
+#           href: wsi_pdf_EN.qmd
     - part: "---"
-    - references_epub_word_EN.qmd
+    - references_pdf_EN.qmd
     - part: "---"
   appendices:
     - text: "Authors and Contributors"
-      href: authors_epub_word_EN.qmd
+      href: authors_pdf_EN.qmd
     # - yonetim-gelistirme.md
     - text: "Contributions are welcome"
-      href: contributions_epub_word_EN.qmd
+      href: contributions_pdf_EN.qmd
     - text: "Comments are welcome"
-      href: comments_epub_word_EN.qmd
+      href: comments_pdf_EN.qmd
     # - text: "List"
-    #   href: listing_epub_word_EN.qmd
-    # - listing2_epub_word_EN.qmd
+    #   href: listing_pdf_EN.qmd
+    # - listing2_pdf_EN.qmd
+
+
 
 format:
-
-  epub:
+  pdf:
     toc: true
-    epub-cover-image: images/coverEN.png
-    execute:
-      warning: false
-    css:
-      epub.css
-    theme:
-      light: flatly
-      dark: darkly
-    page-layout: full
-    # grid:
-    #   body-width: 1800px # default 900px
-    # self-contained: false
-    # anchor-sections: true
-    # link-external-icon: true
-    # link-external-newwindow: true
-    # link-external-filter: '(^(?:http:|https:)\/\/www\.histopathologyatlas\.com\/)|(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/images.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/pathologyatlas\.github\.io\/)|(^(?:http:|https:)\/\/patolojiatlasi\.github\.io\/)'
-    # citations-hover: true
-    # footnotes-hover: true
-    # number-depth: 2
-    # include-in-header:
-    #   - text: |
-    #       <script src="script.js"></script>
-    #       <script src="webpages.js"></script>
-    #   - file: "./headerTR.html"
-
-
-
-# https://quarto.org/docs/reference/formats/epub.html
-
-
-
-  docx:
-    toc: true
-    section-numbers: true
-    highlight-style: github
     toc-depth: 2
-    toc-title: "İçindekiler"
+    # lof: true
+    # lot: true
     number-sections: true
     number-depth: 2
+    colorlinks: true
+    keep-tex: true
+    # include-in-header:
+    #   text: |
+    #     \usepackage{makeidx}
+    #     \makeindex
+#         \usepackage{fvextra}
+#         \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+#         \areaset[0.50in]{4.5in}{8in}
+#         \usepackage{titlesec}
+#         \usepackage{svg}
+#         \usepackage{transparent}
+#         \usepackage{tikzfill}
+#         \usepackage{sidenotes}
+#         \usepackage{marginnote}
+#         \usepackage{changepage}
+#     include-before-body:
+#       text: |
+#         \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
+#            showspaces = false,
+#            showtabs = false,
+#            breaksymbolleft={},
+#            breaklines
+#            % Note: setting commandchars=\\\{\} here will cause an error
+#         }
+    # include-after-body:
+    #   text: |
+    #     \printindex
     execute:
       warning: false
-    # theme:
-    #   light: flatly
-    #   dark: darkly
-    # page-layout: full
-    # grid:
-    #   body-width: 1800px # default 900px
-    # cover-image: images/coverTR.png
-    # css: styles.css
-    # self-contained: false
-    # anchor-sections: true
-    # link-external-icon: true
-    # link-external-newwindow: true
-    # link-external-filter: '(^(?:http:|https:)\/\/www\.histopathologyatlas\.com\/)|(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/images.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/pathologyatlas\.github\.io\/)|(^(?:http:|https:)\/\/patolojiatlasi\.github\.io\/)'
-    # citations-hover: true
-    # footnotes-hover: true
-    # include-in-header:
-    #   - text: |
-    #       <script src="script.js"></script>
-    #       <script src="webpages.js"></script>
-    #   - file: "./headerTR.html"
 
-# https://quarto.org/docs/output-formats/ms-word.html
-# https://quarto.org/docs/reference/formats/docx.html
+#    # documentclass: scrbook
+#    # classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,12pt]
 
+
+# https://quarto.org/docs/reference/formats/pdf.html
 
 
 citation:
