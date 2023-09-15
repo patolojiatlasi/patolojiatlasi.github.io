@@ -1,0 +1,29 @@
+/* css styles */
+h1 {
+  text-align: center;
+}
+
+h2, h3 {
+  text-align: left;
+}
+
+.slide-deck {
+  border: 3px solid #dde2e6;
+  width: 100%;
+  height: 475px;
+}
+
+@media only screen and (max-width: 600px) {
+  .slide-deck {
+    height: 400px;
+  }
+}
+
+/* CSS for the iframe and border */
+#randomIframe {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+}
+
