@@ -1,0 +1,18 @@
+{
+  "hash": "322200900aab56cf71725607367e4a2f",
+  "result": {
+    "markdown": "---\ndescription: |\n    yorum\n    comment\n    katkı\n    contribution\n    patoloji\n    atlas\n    pathology\n    whole slide image\ndate: last-modified\ncategories: [yorum, katkı, comment, contribution]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# Yorum Ekleyin {#sec-yorum}\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\nLütfen, her sayfanın altında bulunan yorum kısmını kullanarak atlasın geliştirilmesine katılın.\n:::\n\n::: {.cell}\n\n:::\n\n\n\n:::: {.content-hidden when-format=\"pdf\"}\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n::::\n\n\n\n\n\n::: {.cell}\n\n[https://www.youtube.com/watch?v=ONeGf4nYdPc](https://www.youtube.com/watch?v=ONeGf4nYdPc)\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}
