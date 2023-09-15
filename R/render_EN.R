@@ -1,4 +1,3 @@
-
 # prepare EN  ----
 
 fs::file_copy(path = "./_quarto_EN.yml",
@@ -20,46 +19,44 @@ if (dir.exists(paths = "./_freeze_EN")) {
                overwrite = TRUE)
 }
 
+patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx", sheet = "chapters")
 
+patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_chapter_qmd")]
 
-chapters <- list.files(path = ".", pattern = ".qmd", recursive = FALSE)
+TR_chapter_qmd <- paste0("./", patolojiatlasi_histopathologyatlas$TR_chapter_qmd, ".qmd")
 
-chapters <- paste0("./", chapters)
+EN_chapter_qmd <- paste0("./", patolojiatlasi_histopathologyatlas$EN_chapter_qmd, ".qmd")
 
-chapters_EN <- gsub(pattern = ".qmd", replacement = "_EN.qmd", x = chapters)
+subchapter_files <- list.files(path = "./_subchapters", pattern = "*.qmd", recursive = FALSE)
 
-subchapters <- list.files(path = "./_subchapters", pattern = ".qmd", recursive = FALSE)
+subchapter_files  <- paste0("./_subchapters/", subchapter_files)
 
-subchapters <- paste0("./_subchapters/", subchapters)
+subchapter_files_EN <- gsub(pattern = ".qmd", replacement = "_EN.qmd", x = subchapter_files)
 
-subchapters_EN <- gsub(pattern = ".qmd", replacement = "_EN.qmd", x = subchapters)
+TR_chapter_qmd <- c(TR_chapter_qmd, subchapter_files)
 
-all_chapters <- c(chapters, subchapters)
+EN_chapter_qmd <- c(EN_chapter_qmd, subchapter_files_EN)
 
-all_chapters_EN <- c(chapters_EN, subchapters_EN)
-
-
-fs::file_copy(path = all_chapters,
-              new_path = all_chapters_EN,
+fs::file_copy(path = TR_chapter_qmd,
+              new_path = EN_chapter_qmd,
               overwrite = TRUE)
 
-xfun::gsub_files(files = all_chapters_EN,
+
+xfun::gsub_files(files = EN_chapter_qmd,
                  pattern = ".qmd >}}",
                  replacement = "_EN.qmd >}}"
 )
 
 
 
-# render EN  ----
 
-Sys.sleep(2)
+# render EN  ----
 
 quarto::quarto_render(".", as_job = FALSE)
 
 
-Sys.sleep(2)
 
-# postrender EN  ----
+# post render EN  ----
 
 
 if (dir.exists(paths = "./_freeze")) {
@@ -68,12 +65,26 @@ if (dir.exists(paths = "./_freeze")) {
                overwrite = TRUE)
 }
 
-Sys.sleep(2)
+
 
 if (dir.exists(paths = "./_freeze")) {
   fs::dir_delete(path = "./_freeze")
 }
 
-fs::file_delete(path = all_chapters_EN)
 
+
+files_to_delete <- EN_chapter_qmd[!(EN_chapter_qmd %in% TR_chapter_qmd)]
+
+fs::file_delete(path = files_to_delete)
+
+
+files_to_revert <- EN_chapter_qmd[EN_chapter_qmd %in% TR_chapter_qmd]
+
+
+xfun::gsub_files(files = files_to_revert,
+                 pattern = "_EN.qmd >}}",
+                 replacement = ".qmd >}}"
+)
+
+rm(list=ls())
 

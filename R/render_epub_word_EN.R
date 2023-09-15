@@ -1,4 +1,3 @@
-
 # prepare EN epub_word ----
 
 fs::file_copy(path = "./_quarto_EN_epub_word.yml",
@@ -20,77 +19,76 @@ if (dir.exists(paths = "./_freeze_EN_epub_word")) {
                overwrite = TRUE)
 }
 
+patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx", sheet = "chapters")
 
+patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_epub_word_chapter_qmd")]
 
-chapters <- list.files(path = ".", pattern = ".qmd", recursive = FALSE)
+TR_chapter_qmd <- paste0("./", patolojiatlasi_histopathologyatlas$TR_chapter_qmd, ".qmd")
 
-chapters <- paste0("./", chapters)
+EN_epub_word_chapter_qmd <- paste0("./", patolojiatlasi_histopathologyatlas$EN_epub_word_chapter_qmd, ".qmd")
 
-chapters_epub_word_EN <- gsub(pattern = ".qmd", replacement = "_epub_word_EN.qmd", x = chapters)
+subchapter_files <- list.files(path = "./_subchapters", pattern = "*.qmd", recursive = FALSE)
 
-subchapters <- list.files(path = "./_subchapters", pattern = ".qmd", recursive = FALSE)
+subchapter_files  <- paste0("./_subchapters/", subchapter_files)
 
-subchapters <- paste0("./_subchapters/", subchapters)
+subchapter_files_epub_word_EN <- gsub(pattern = ".qmd", replacement = "_epub_word_EN.qmd", x = subchapter_files)
 
-subchapters_epub_word_EN <- gsub(pattern = ".qmd", replacement = "_epub_word_EN.qmd", x = subchapters)
+TR_chapter_qmd <- c(TR_chapter_qmd, subchapter_files)
 
-all_chapters <- c(chapters, subchapters)
+epub_word_EN_chapter_qmd <- c(EN_epub_word_chapter_qmd, subchapter_files_epub_word_EN)
 
-all_chapters_epub_word_EN <- c(chapters_epub_word_EN, subchapters_epub_word_EN)
-
-
-fs::file_copy(path = all_chapters,
-              new_path = all_chapters_epub_word_EN,
+fs::file_copy(path = TR_chapter_qmd,
+              new_path = epub_word_EN_chapter_qmd,
               overwrite = TRUE)
 
 
-xfun::gsub_files(files = all_chapters_epub_word_EN,
+
+xfun::gsub_files(files = epub_word_EN_chapter_qmd,
                  pattern = "panel-tabset",
                  replacement = "")
 
-xfun::gsub_files(files = all_chapters_epub_word_EN,
+xfun::gsub_files(files = epub_word_EN_chapter_qmd,
                  pattern = ":::::",
                  replacement = "")
 
 
-xfun::gsub_files(files = all_chapters_epub_word_EN,
+xfun::gsub_files(files = epub_word_EN_chapter_qmd,
                  pattern = "#+\\s*WSI - Link",
                  replacement = "")
 
-xfun::gsub_files(files = all_chapters_epub_word_EN,
+xfun::gsub_files(files = epub_word_EN_chapter_qmd,
                  pattern = "#+\\s*WSI",
                  replacement = "")
 
-xfun::gsub_files(files = all_chapters_epub_word_EN,
+xfun::gsub_files(files = epub_word_EN_chapter_qmd,
                  pattern = "#+\\s*Diagnosis",
                  replacement = "")
 
-xfun::gsub_files(files = all_chapters_epub_word_EN,
-                 pattern = "#+\\s*Tanı için tıklayın",
-                 replacement = "### Tanı")
+xfun::gsub_files(files = epub_word_EN_chapter_qmd,
+                 pattern = "#+\\s*Click for Diagnosis",
+                 replacement = "### Diagnosis")
 
-xfun::gsub_files(files = all_chapters_epub_word_EN,
+xfun::gsub_files(files = epub_word_EN_chapter_qmd,
                  pattern = '\\!\\[\\]\\(\\.\\/qrcodes\\/\\{\\{template\\}\\}-\\{\\{stain\\}\\}_qrcode.svg\\)\\{width="15%"\\}',
                  replacement = "")
 
 
-xfun::gsub_files(files = all_chapters_epub_word_EN,
+
+xfun::gsub_files(files = epub_word_EN_chapter_qmd,
                  pattern = ".qmd >}}",
                  replacement = "_epub_word_EN.qmd >}}"
 )
 
 
 
-# render EN epub_word ----
 
-Sys.sleep(2)
+# render EN epub_word ----
 
 quarto::quarto_render(".", as_job = FALSE)
 
 
-Sys.sleep(2)
 
-# postrender EN epub_word ----
+# post render EN epub_word ----
 
 
 if (dir.exists(paths = "./_freeze")) {
@@ -99,18 +97,17 @@ if (dir.exists(paths = "./_freeze")) {
                overwrite = TRUE)
 }
 
-Sys.sleep(2)
+
 
 if (dir.exists(paths = "./_freeze")) {
   fs::dir_delete(path = "./_freeze")
 }
 
 
-fs::file_copy(path = "./_quarto_EN.yml",
-              new_path = "./_quarto.yml",
-              overwrite = TRUE)
 
+epub_word_EN_chapter_qmd <- epub_word_EN_chapter_qmd[!(epub_word_EN_chapter_qmd %in% TR_chapter_qmd)]
 
-fs::file_delete(path = all_chapters_epub_word_EN)
+fs::file_delete(path = epub_word_EN_chapter_qmd)
 
+rm(list=ls())
 

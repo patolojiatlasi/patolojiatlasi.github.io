@@ -23,10 +23,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -76,12 +76,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ::::
 
 
-### WSI
 
 
 
 
-:::::
+
+
 
 
 
@@ -130,10 +130,10 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -183,12 +183,12 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 ::::
 
 
-### WSI
 
 
 
 
-:::::
+
+
 
 
 
@@ -200,7 +200,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **Crohn Hastalığı**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_crohn-colonoscopic-biopsy-all.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/all.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/all.html)
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_crohn-colonoscopic-biopsy-all.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/all.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/all.html)
 ```
 
 
@@ -216,7 +216,7 @@ Mikroskopik görüntüleri inceleyin:
 
 **Crohn's Disease**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_crohn-colonoscopic-biopsy-all.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/all.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/all.html)
+ [![Click for Full Screen WSI](./screenshots/thumbnail_crohn-colonoscopic-biopsy-all.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/all.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/all.html)
 
 ```
 
@@ -232,7 +232,7 @@ See Microscopy with viewer:
 
 
 
-::::: panel-tabset
+ 
 
 ### HE - 1
 
@@ -266,10 +266,10 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -319,12 +319,12 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 ::::
 
 
-### WSI
 
 
 
 
-:::::
+
+
 
 
 
@@ -336,7 +336,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **Crohn Hastalığı**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE1.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE1.html)
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE1.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE1.html)
 ```
 
 
@@ -352,7 +352,7 @@ Mikroskopik görüntüleri inceleyin:
 
 **Crohn's Disease**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE1.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE1.html)
+ [![Click for Full Screen WSI](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE1.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE1.html)
 
 ```
 
@@ -401,10 +401,10 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -454,12 +454,12 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 ::::
 
 
-### WSI
 
 
 
 
-:::::
+
+
 
 
 
@@ -471,7 +471,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **Crohn Hastalığı**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE2.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE2.html)
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE2.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE2.html)
 ```
 
 
@@ -487,7 +487,7 @@ Mikroskopik görüntüleri inceleyin:
 
 **Crohn's Disease**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE2.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE2.html)
+ [![Click for Full Screen WSI](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE2.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE2.html)
 
 ```
 
@@ -536,10 +536,10 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -589,12 +589,12 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 ::::
 
 
-### WSI
 
 
 
 
-:::::
+
+
 
 
 
@@ -606,7 +606,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **Crohn Hastalığı**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE3.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE3.html)
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE3.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE3.html)
 ```
 
 
@@ -622,7 +622,7 @@ Mikroskopik görüntüleri inceleyin:
 
 **Crohn's Disease**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE3.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE3.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE3.html)
+ [![Click for Full Screen WSI](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE3.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE3.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE3.html)
 
 ```
 
@@ -671,10 +671,10 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -724,12 +724,12 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 ::::
 
 
-### WSI
 
 
 
 
-:::::
+
+
 
 
 
@@ -741,7 +741,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **Crohn Hastalığı**
 
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE4.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE4.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE4.html)
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE4.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE4.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE4.html)
 ```
 
 
@@ -757,7 +757,7 @@ Mikroskopik görüntüleri inceleyin:
 
 **Crohn's Disease**
 
-![](./qrcodes/{{template}}-{{stain}}_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE4.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE4.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE4.html)
+ [![Click for Full Screen WSI](./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE4.png){width="25%"}](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE4.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE4.html)
 
 ```
 
@@ -772,6 +772,6 @@ See Microscopy with viewer:
 ```
 
 
-:::::
+
 
 

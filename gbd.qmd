@@ -70,10 +70,10 @@ if (!file.exists("./qrcodes/GBD1-HE_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 :::: {.content-hidden when-format="pdf"}
@@ -154,7 +154,7 @@ if (!file.exists("./qrcodes/GBD1-HE_qrcode.svg")) {
 
 
 
-### WSI
+
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -176,7 +176,7 @@ See Microscopy with viewer:
 ```
 
 
-:::::
+
 
 
 
@@ -221,10 +221,10 @@ if (!file.exists("./qrcodes/GBD2-HE_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 :::: {.content-hidden when-format="pdf"}
@@ -308,7 +308,7 @@ if (!file.exists("./qrcodes/GBD2-HE_qrcode.svg")) {
 ::::
 
 
-### WSI
+
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -329,7 +329,7 @@ See Microscopy with viewer:
 
 ```
 
-:::::
+
 
 
 
@@ -378,10 +378,10 @@ if (!file.exists("./qrcodes/GBD3-HE_qrcode.svg")) {
 
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -470,7 +470,7 @@ if (!file.exists("./qrcodes/GBD3-HE_qrcode.svg")) {
 
 
 
-### WSI
+
 
 
 
@@ -494,5 +494,5 @@ See Microscopy with viewer:
 ```
 
 
-:::::
+
 

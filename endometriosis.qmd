@@ -50,10 +50,10 @@ if (!file.exists("./qrcodes/endometriosis-HE_qrcode.svg")) {
 ```
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -139,7 +139,7 @@ if (!file.exists("./qrcodes/endometriosis-HE_qrcode.svg")) {
 
 
 
-### WSI
+
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
