@@ -200,10 +200,12 @@ jobs:
           subchapter_files_EN <- gsub(pattern = ".qmd", replacement = "_EN.qmd", x = subchapter_files)
           TR_chapter_qmd <- c(TR_chapter_qmd, subchapter_files)
           EN_chapter_qmd <- c(EN_chapter_qmd, subchapter_files_EN)
-          files_to_delete <- EN_chapter_qmd[!(EN_chapter_qmd %in% TR_chapter_qmd)]
-          fs::file_delete(path = files_to_delete)
           files_to_revert <- EN_chapter_qmd[EN_chapter_qmd %in% TR_chapter_qmd]
           xfun::gsub_files(files = files_to_revert, pattern = "_EN.qmd >}}", replacement = ".qmd >}}")
+          files_to_delete <- list.files(path = "./", pattern = "_EN.qmd", recursive = FALSE)
+          fs::file_delete(path = files_to_delete)
+          files_to_delete <- list.files(path = "./_subchapters", pattern = "_EN.qmd", recursive = FALSE)
+          fs::file_delete(path = files_to_delete)
 
       - name: "Render Book From TR"
         shell: Rscript {0}
