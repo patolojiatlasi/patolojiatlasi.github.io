@@ -204,17 +204,9 @@ jobs:
           xfun::gsub_files(files = files_to_revert, pattern = "_EN.qmd >}}", replacement = ".qmd >}}")
           files_to_delete <- list.files(path = "./", pattern = "_EN.qmd", recursive = FALSE)
           fs::file_delete(path = files_to_delete)
-          # Print the current working directory
-          cat("Current working directory:", getwd(), "\n")
-          # Identify the files to delete
           files_to_delete <- list.files(path = "./_subchapters", pattern = "_EN.qmd", recursive = FALSE)
-          # Print the files identified for deletion
-          cat("Files to delete:\n", paste(files_to_delete, collapse = "\n"), "\n")
-          # Attempt to delete the files
+          files_to_delete  <- paste0("./_subchapters/", files_to_delete)
           fs::file_delete(path = files_to_delete)
-
-          # files_to_delete <- list.files(path = "./_subchapters", pattern = "_EN.qmd", recursive = FALSE)
-          # fs::file_delete(path = files_to_delete)
 
       - name: "Render Book From TR"
         shell: Rscript {0}
