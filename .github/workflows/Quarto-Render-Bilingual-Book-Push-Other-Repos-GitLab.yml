@@ -8,7 +8,7 @@ jobs:
   quarto-render-and-deploy:
     if: "!contains(github.event.head_commit.message, 'WIP') && !contains(github.event.head_commit.message, 'merge') && !contains(github.event.head_commit.message, 'lecture')"
     runs-on: ubuntu-latest
-    continue-on-error: true
+    # continue-on-error: true
     env:
       RENV_PATHS_ROOT: ~/.local/share/renv
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -85,6 +85,7 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
           restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
 
+#
 #       - name: "Install R Packages: Cache packages"
       #   uses: actions/cache@v3
       #   with:
@@ -180,6 +181,7 @@ jobs:
       - name: "Post Render Book From EN"
         shell: Rscript {0}
         run: |
+          # remove unnecessary files and folders
           if (dir.exists(paths = "./_freeze")) { fs::dir_copy(path = "./_freeze", new_path = "./_freeze_EN", overwrite = TRUE) }
           if (file.exists("./_EN/CNAME")){fs::file_delete(path = "./_EN/CNAME")}
           fs::file_copy(path = "./CNAME-histopathologyatlas", new_path = "./_EN/CNAME", overwrite = TRUE)
@@ -188,6 +190,16 @@ jobs:
           if (dir.exists(paths = "./_EN/gitlab_atlas")) { fs::dir_delete(path = "./_EN/gitlab_atlas") }
           if (dir.exists(paths = "./_EN/docs")) { fs::dir_delete(path = "./_EN/docs") }
           if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
+          # files to delete and revert
+          patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx", sheet = "chapters")
+          patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_chapter_qmd")]
+          TR_chapter_qmd <- paste0("./", patolojiatlasi_histopathologyatlas$TR_chapter_qmd, ".qmd")
+          EN_chapter_qmd <- paste0("./", patolojiatlasi_histopathologyatlas$EN_chapter_qmd, ".qmd")
+          subchapter_files <- list.files(path = "./_subchapters", pattern = "*.qmd", recursive = FALSE)
+          subchapter_files  <- paste0("./_subchapters/", subchapter_files)
+          subchapter_files_EN <- gsub(pattern = ".qmd", replacement = "_EN.qmd", x = subchapter_files)
+          TR_chapter_qmd <- c(TR_chapter_qmd, subchapter_files)
+          EN_chapter_qmd <- c(EN_chapter_qmd, subchapter_files_EN)
           files_to_delete <- EN_chapter_qmd[!(EN_chapter_qmd %in% TR_chapter_qmd)]
           fs::file_delete(path = files_to_delete)
           files_to_revert <- EN_chapter_qmd[EN_chapter_qmd %in% TR_chapter_qmd]
