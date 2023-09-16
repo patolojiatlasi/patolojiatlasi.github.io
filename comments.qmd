@@ -1,0 +1,71 @@
+---
+description: |
+    yorum
+    comment
+    katkı
+    contribution
+    patoloji
+    atlas
+    pathology
+    whole slide image
+date: last-modified
+categories: [yorum, katkı, comment, contribution]
+page-layout: full
+bibliography: references.bib
+---
+
+
+```{r language yorum, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+# Yorum Ekleyin {#sec-yorum}
+```
+
+
+```{asis, echo = (language == "EN")}
+# Add Comments {#sec-comments}
+```
+
+
+```{asis, echo = (language == "TR")}
+Lütfen, her sayfanın altında bulunan yorum kısmını kullanarak atlasın geliştirilmesine katılın.
+```
+
+
+```{asis, echo = (language == "EN")}
+Please participate in the development of the atlas by using the comment section at the bottom of each page.
+```
+
+
+:::: {.content-hidden when-format="pdf"}
+
+```{asis, echo = (output_type=="html")}
+
+{{< video https://www.youtube.com/embed/ONeGf4nYdPc >}}
+
+```
+
+
+
+
+::::
+
+
+
+
+```{asis, echo = (output_type!="html")}
+
+[https://www.youtube.com/watch?v=ONeGf4nYdPc](https://www.youtube.com/watch?v=ONeGf4nYdPc)
+
+```
+
+
