@@ -1,4 +1,3 @@
-
 # prepare EN pdf ----
 
 fs::file_copy(path = "./_quarto_EN_pdf.yml",
@@ -24,62 +23,58 @@ patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histo
 
 patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_pdf_chapter_qmd")]
 
-patolojiatlasi_histopathologyatlas$TR_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_chapter_qmd, ".qmd")
+TR_chapter_qmd <- paste0("./", patolojiatlasi_histopathologyatlas$TR_chapter_qmd, ".qmd")
 
-patolojiatlasi_histopathologyatlas$EN_pdf_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$EN_pdf_chapter_qmd, ".qmd")
-
-
-fs::file_copy(path = patolojiatlasi_histopathologyatlas$TR_chapter_qmd,
-              new_path = patolojiatlasi_histopathologyatlas$EN_pdf_chapter_qmd,
-              overwrite = TRUE)
-
-
-qmd_pdf_EN_files <- list.files(path = ".", pattern = "./*_pdf_EN.qmd", recursive = FALSE)
+EN_pdf_chapter_qmd <- paste0("./", patolojiatlasi_histopathologyatlas$EN_pdf_chapter_qmd, ".qmd")
 
 subchapter_files <- list.files(path = "./_subchapters", pattern = "*.qmd", recursive = FALSE)
 
-subchapter_files <- paste0("./_subchapters/", subchapter_files)
+subchapter_files  <- paste0("./_subchapters/", subchapter_files)
 
-qmd_pdf_EN_files <- c(qmd_pdf_EN_files, subchapter_files)
+subchapter_files_pdf_EN <- gsub(pattern = ".qmd", replacement = "_pdf_EN.qmd", x = subchapter_files)
+
+TR_chapter_qmd <- c(TR_chapter_qmd, subchapter_files)
+
+pdf_EN_chapter_qmd <- c(EN_pdf_chapter_qmd, subchapter_files_pdf_EN)
+
+fs::file_copy(path = TR_chapter_qmd,
+              new_path = pdf_EN_chapter_qmd,
+              overwrite = TRUE)
 
 
-xfun::gsub_files(files = qmd_pdf_EN_files,
+
+xfun::gsub_files(files = pdf_EN_chapter_qmd,
                  pattern = "panel-tabset",
                  replacement = "")
 
-xfun::gsub_files(files = qmd_pdf_EN_files,
+xfun::gsub_files(files = pdf_EN_chapter_qmd,
                  pattern = ":::::",
                  replacement = "")
 
 
-xfun::gsub_files(files = qmd_pdf_EN_files,
+xfun::gsub_files(files = pdf_EN_chapter_qmd,
                  pattern = "#+\\s*WSI - Link",
                  replacement = "")
 
-xfun::gsub_files(files = qmd_pdf_EN_files,
+xfun::gsub_files(files = pdf_EN_chapter_qmd,
                  pattern = "#+\\s*WSI",
                  replacement = "")
 
-xfun::gsub_files(files = qmd_pdf_EN_files,
+xfun::gsub_files(files = pdf_EN_chapter_qmd,
                  pattern = "#+\\s*Diagnosis",
                  replacement = "")
 
-xfun::gsub_files(files = qmd_pdf_EN_files,
+xfun::gsub_files(files = pdf_EN_chapter_qmd,
                  pattern = "#+\\s*Click for Diagnosis",
                  replacement = "### Diagnosis")
 
-xfun::gsub_files(files = qmd_pdf_EN_files,
+xfun::gsub_files(files = pdf_EN_chapter_qmd,
                  pattern = '\\!\\[\\]\\(\\.\\/qrcodes\\/\\{\\{template\\}\\}-\\{\\{stain\\}\\}_qrcode.svg\\)\\{width="15%"\\}',
                  replacement = "")
 
 
-# xfun::gsub_files(files = "./bs_pdf_TR.qmd",
-#                  pattern = ".qmd",
-#                  replacement = "_pdf_TR.qmd"
-# )
 
-
-xfun::gsub_files(files = qmd_pdf_EN_files,
+xfun::gsub_files(files = pdf_EN_chapter_qmd,
                  pattern = ".qmd >}}",
                  replacement = "_pdf_EN.qmd >}}"
 )
@@ -110,19 +105,9 @@ if (dir.exists(paths = "./_freeze")) {
 
 
 
+pdf_EN_chapter_qmd <- pdf_EN_chapter_qmd[!(pdf_EN_chapter_qmd %in% TR_chapter_qmd)]
 
-patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx", sheet = "chapters")
+fs::file_delete(path = pdf_EN_chapter_qmd)
 
-patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_pdf_chapter_qmd")]
-
-'%>%' <- magrittr:::`%>%`
-
-patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas %>%
-  dplyr::distinct() %>%
-  dplyr::filter(TR_chapter_qmd != EN_pdf_chapter_qmd)
-
-patolojiatlasi_histopathologyatlas$EN_pdf_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$EN_pdf_chapter_qmd, ".qmd")
-
-fs::file_delete(path = patolojiatlasi_histopathologyatlas$EN_pdf_chapter_qmd)
-
+rm(list=ls())
 

@@ -4,28 +4,28 @@
 Mikroskopi
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("../screenshots/thumbnail_hyperplasticpolyp-1.png")) {
+if (!file.exists("./screenshots/thumbnail_hyperplasticpolyp-1.png")) {
 webshot2::webshot(delay = 20,
   url = "https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html",
-  file = "../screenshots/thumbnail_hyperplasticpolyp-1.png"
+  file = "./screenshots/thumbnail_hyperplasticpolyp-1.png"
 )
 }
 ```
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("../qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "../qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
                        show = FALSE)
 }
 ```
 
 
- [![Tam Ekran Görmek İçin Resmi Tıklayın](../screenshots/thumbnail_hyperplasticpolyp-1.png){width="25%"}](https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html)
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_hyperplasticpolyp-1.png){width="25%"}](https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html)
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}

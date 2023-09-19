@@ -70,16 +70,34 @@ fs::dir_copy(path = "./_freeze_EN",
 patolojiatlasi_histopathologyatlas <- readxl::read_excel(path = "./patolojiatlasi_histopathologyatlas.xlsx",
                                                          sheet = "chapters")
 
+
 patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_chapter_qmd")]
 
-patolojiatlasi_histopathologyatlas$TR_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_chapter_qmd, ".qmd")
+TR_chapter_qmd <- paste0("./", patolojiatlasi_histopathologyatlas$TR_chapter_qmd, ".qmd")
 
-patolojiatlasi_histopathologyatlas$EN_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$EN_chapter_qmd, ".qmd")
+EN_chapter_qmd <- paste0("./", patolojiatlasi_histopathologyatlas$EN_chapter_qmd, ".qmd")
 
+subchapter_files <- list.files(path = "./_subchapters", pattern = "*.qmd", recursive = FALSE)
 
-fs::file_copy(path = patolojiatlasi_histopathologyatlas$TR_chapter_qmd,
-              new_path = patolojiatlasi_histopathologyatlas$EN_chapter_qmd,
+subchapter_files  <- paste0("./_subchapters/", subchapter_files)
+
+subchapter_files_EN <- gsub(pattern = ".qmd", replacement = "_EN.qmd", x = subchapter_files)
+
+TR_chapter_qmd <- c(TR_chapter_qmd, subchapter_files)
+
+EN_chapter_qmd <- c(EN_chapter_qmd, subchapter_files_EN)
+
+fs::file_copy(path = TR_chapter_qmd,
+              new_path = EN_chapter_qmd,
               overwrite = TRUE)
+
+
+xfun::gsub_files(files = EN_chapter_qmd,
+                 pattern = ".qmd >}}",
+                 replacement = "_EN.qmd >}}"
+)
+
+
 
 # render EN ----
 
@@ -104,19 +122,39 @@ fs::dir_copy(path = "./_freeze",
              overwrite = TRUE)
 }
 
-patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx", sheet = "chapters")
 
-patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_chapter_qmd")]
 
-'%>%' <- magrittr:::`%>%`
+if (dir.exists(paths = "./_freeze")) {
+  fs::dir_copy(path = "./_freeze",
+               new_path = "./_freeze_EN",
+               overwrite = TRUE)
+}
 
-patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas %>%
-  dplyr::distinct() %>%
-  dplyr::filter(TR_chapter_qmd != EN_chapter_qmd)
 
-patolojiatlasi_histopathologyatlas$EN_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$EN_chapter_qmd, ".qmd")
 
-fs::file_delete(path = patolojiatlasi_histopathologyatlas$EN_chapter_qmd)
+if (dir.exists(paths = "./_freeze")) {
+  fs::dir_delete(path = "./_freeze")
+}
+
+
+
+
+files_to_delete <- EN_chapter_qmd[!(EN_chapter_qmd %in% TR_chapter_qmd)]
+
+fs::file_delete(path = files_to_delete)
+
+
+files_to_revert <- EN_chapter_qmd[EN_chapter_qmd %in% TR_chapter_qmd]
+
+
+
+xfun::gsub_files(files = files_to_revert,
+                 pattern = "_EN.qmd >}}",
+                 replacement = ".qmd >}}"
+)
+
+
+rm(list=ls())
 
 
 
@@ -195,6 +233,12 @@ if (dir.exists(paths = "./_docs/lecture-notes")) {
 
 fs::dir_copy(path = "./_docs", new_path = "./public", overwrite = TRUE)
 
+if (file.exists("./public/CNAME")){
+  fs::file_delete(path = "./public/CNAME")
+}
+
+
+
 fs::dir_copy(path = "./_docs", new_path = "./docs", overwrite = TRUE)
 
 if (dir.exists(paths = "./_docs")) {
@@ -261,5 +305,10 @@ cat("\Ud83E\UdD83")
 # xfun::gsub_files(files = qmdfiles,
 #                  "https://pathologyatlas.github.io", "."
 # )
+
+
+rm(list=ls())
+
+
 
 

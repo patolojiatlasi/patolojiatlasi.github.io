@@ -1,0 +1,679 @@
+---
+description: "tumor, metastaz, invazyon, patoloji, atlas, pathology, whole slide image"
+date: last-modified
+categories: [tumor, metastaz, invazyon]
+page-layout: full
+bibliography: references.bib
+---
+
+```{r language tumor spread, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+# Başka Organlara Tümör Yayılımı {#sec-baska-organlara-tumor-yayilimi} 
+
+```
+
+```{asis, echo = (language == "EN")}
+
+# Tumor Spread to Other Organs {#sec-tumor-spread-to-other-organs} 
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Servikse kolon tümörü yayılımı {#sec-servikse-kolon-tumor-yayilimi} 
+
+```
+
+```{asis, echo = (language == "EN")}
+
+## Colon tumor spread to cervix {#sec-colon-tumor-spread-to-cervix} 
+
+```
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_tumor-spread-cervix.png")) {
+webshot2::webshot(delay = 20,
+  url = "https://images.patolojiatlasi.com/tumor-spread/HE-cervix.html",
+  file = "./screenshots/thumbnail_tumor-spread-cervix.png"
+)
+}
+```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/tumor-spread-HE-cervix_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/tumor-spread/HE-cervix.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/tumor-spread-HE-cervix_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Servikse kolon tümörü yayılımı**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_tumor-spread-cervix.png){width="25%"}](https://images.patolojiatlasi.com/tumor-spread/HE-cervix.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tumor-spread/HE-cervix.html)
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Servikse kolon tümörü yayılımı**
+
+
+![](./qrcodes/tumor-spread-HE-cervix_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_tumor-spread-cervix.png){width="25%"}](https://images.patolojiatlasi.com/tumor-spread/HE-cervix.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tumor-spread/HE-cervix.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Colon tumor spread to cervix**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_tumor-spread-cervix.png){width="25%"}](https://images.patolojiatlasi.com/tumor-spread/HE-cervix.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/tumor-spread/HE-cervix.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Colon tumor spread to cervix**
+
+
+![](./qrcodes/tumor-spread-HE-cervix_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_tumor-spread-cervix.png){width="25%"}](https://images.patolojiatlasi.com/tumor-spread/HE-cervix.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/tumor-spread/HE-cervix.html)
+
+```
+
+
+
+::::
+
+
+### WSI
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/tumor-spread/HE-cervix.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/tumor-spread/HE-cervix.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Endometriuma kolon tümörü yayılımı {#sec-endometriuma-kolon-tumor-yayilimi} 
+
+```
+
+```{asis, echo = (language == "EN")}
+
+## Colon tumor spread to endometrium {#sec-colon-tumor-spread-to-endometrium} 
+
+```
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_tumor-spread-endometrium.png")) {
+webshot2::webshot(delay = 20,
+  url = "https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html",
+  file = "./screenshots/thumbnail_tumor-spread-endometrium.png"
+)
+}
+```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/tumor-spread-HE-endometrium_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/tumor-spread-HE-endometrium_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Endometriuma kolon tümörü yayılımı**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_tumor-spread-endometrium.png){width="25%"}](https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Endometriuma kolon tümörü yayılımı**
+
+
+![](./qrcodes/tumor-spread-HE-endometrium_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_tumor-spread-endometrium.png){width="25%"}](https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Colon tumor spread to endometrium**
+
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_tumor-spread-endometrium.png){width="25%"}](https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html)
+
+```
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Colon tumor spread to endometrium**
+
+
+![](./qrcodes/tumor-spread-HE-endometrium_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_tumor-spread-endometrium.png){width="25%"}](https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html)
+
+```
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+:::::
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Overe kolon tümörü yayılımı {#sec-overe-kolon-tumor-yayilimi} 
+
+```
+
+```{asis, echo = (language == "EN")}
+
+## Colon tumor spread to over {#sec-colon-tumor-spread-to-over} 
+
+```
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_tumor-spread-over.png")) {
+webshot2::webshot(delay = 20,
+  url = "https://images.patolojiatlasi.com/tumor-spread/HE-over.html",
+  file = "./screenshots/thumbnail_tumor-spread-over.png"
+)
+}
+```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/tumor-spread-HE-over_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/tumor-spread/HE-over.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/tumor-spread-HE-over_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Overe kolon tümörü yayılımı**
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_tumor-spread-over.png){width="25%"}](https://images.patolojiatlasi.com/tumor-spread/HE-over.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tumor-spread/HE-over.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Overe kolon tümörü yayılımı**
+
+
+![](./qrcodes/tumor-spread-HE-over_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_tumor-spread-over.png){width="25%"}](https://images.patolojiatlasi.com/tumor-spread/HE-over.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tumor-spread/HE-over.html)
+
+```
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Colon tumor spread to over**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_tumor-spread-over.png){width="25%"}](https://images.patolojiatlasi.com/tumor-spread/HE-over.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/tumor-spread/HE-over.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Colon tumor spread to over**
+
+
+![](./qrcodes/tumor-spread-HE-over_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_tumor-spread-over.png){width="25%"}](https://images.patolojiatlasi.com/tumor-spread/HE-over.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/tumor-spread/HE-over.html)
+
+```
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/tumor-spread/HE-over.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/tumor-spread/HE-over.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+## İnce barsağa kolon tümörü yayılımı {#sec-ince-barsak-kolon-tumor-yayilimi} 
+
+```
+
+```{asis, echo = (language == "EN")}
+
+## Colon tumor spread to small intestine {#sec-colon-tumor-spread-to-small-intestine} 
+
+```
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_tumor-spread-small-intestine.png")) {
+webshot2::webshot(delay = 20,
+  url = "https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html",
+  file = "./screenshots/thumbnail_tumor-spread-small-intestine.png"
+)
+}
+```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/tumor-spread-HE-small-intestine_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/tumor-spread-HE-small-intestine_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")}
+
+**İnce barsağa kolon tümörü yayılımı**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_tumor-spread-small-intestine.png){width="25%"}](https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**İnce barsağa kolon tümörü yayılımı**
+
+
+![](./qrcodes/tumor-spread-HE-small-intestine_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_tumor-spread-small-intestine.png){width="25%"}](https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html)
+
+```
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Colon tumor spread to small intestine**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_tumor-spread-small-intestine.png){width="25%"}](https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html)
+
+```
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "EN")}
+
+**Colon tumor spread to small intestine**
+
+
+![](./qrcodes/tumor-spread-HE-small-intestine_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_tumor-spread-small-intestine.png){width="25%"}](https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html)
+
+```
+
+
+
+::::
+
+
+### WSI
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+:::::
+
+
+

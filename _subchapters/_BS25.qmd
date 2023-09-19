@@ -37,10 +37,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{r BS25 screenshot HE, eval=TRUE, include=FALSE}
-if (!file.exists("../screenshots/thumbnail_BS25-HE.png")) {
+if (!file.exists("./screenshots/thumbnail_BS25-HE.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/BS25/HE.html",
-  file = "../screenshots/thumbnail_BS25-HE.png"
+  file = "./screenshots/thumbnail_BS25-HE.png"
 )
 }
 ```
@@ -49,12 +49,12 @@ webshot2::webshot(
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("../qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "../qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -64,10 +64,10 @@ if (!file.exists("../qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 ```{r BS25 screenshot CHR, eval=TRUE, include=FALSE}
-if (!file.exists("../screenshots/thumbnail_BS25-CHR.png")) {
+if (!file.exists("./screenshots/thumbnail_BS25-CHR.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/BS25/CHR.html",
-  file = "../screenshots/thumbnail_BS25-CHR.png"
+  file = "./screenshots/thumbnail_BS25-CHR.png"
 )
 }
 ```
@@ -76,12 +76,12 @@ webshot2::webshot(
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("../qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "../qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -91,10 +91,10 @@ if (!file.exists("../qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 
 ```{r BS25 screenshot SYN, eval=TRUE, include=FALSE}
-if (!file.exists("../screenshots/thumbnail_BS25-SYN.png")) {
+if (!file.exists("./screenshots/thumbnail_BS25-SYN.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/BS25/SYN.html",
-  file = "../screenshots/thumbnail_BS25-SYN.png"
+  file = "./screenshots/thumbnail_BS25-SYN.png"
 )
 }
 ```
@@ -103,12 +103,12 @@ webshot2::webshot(
 
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("../qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "../qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -202,14 +202,14 @@ if (!file.exists("../qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **duodenum, NET**
 
 
- [![Tam Ekran Görmek İçin Resmi Tıklayın](../screenshots/thumbnail_BS25-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS25/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS25/HE.html)
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS25-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS25/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS25/HE.html)
 ```
 
 ```{asis, echo = (language == "EN")}
 
 **duodenum, NET**
 
- [![Click for Full Screen WSI](../screenshots/thumbnail_BS25-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS25/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS25/HE.html)
+ [![Click for Full Screen WSI](./screenshots/thumbnail_BS25-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS25/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS25/HE.html)
 
 ```
 
@@ -293,14 +293,14 @@ if (!file.exists("../qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **duodenum, NET**
 
 
- [![Tam Ekran Görmek İçin Resmi Tıklayın](../screenshots/thumbnail_BS25-CHR.png){width="25%"}](https://images.patolojiatlasi.com/BS25/CHR.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS25/CHR.html)
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS25-CHR.png){width="25%"}](https://images.patolojiatlasi.com/BS25/CHR.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS25/CHR.html)
 ```
 
 ```{asis, echo = (language == "EN")}
 
 **duodenum, NET**
 
- [![Click for Full Screen WSI](../screenshots/thumbnail_BS25-CHR.png){width="25%"}](https://images.patolojiatlasi.com/BS25/CHR.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS25/CHR.html)
+ [![Click for Full Screen WSI](./screenshots/thumbnail_BS25-CHR.png){width="25%"}](https://images.patolojiatlasi.com/BS25/CHR.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS25/CHR.html)
 
 ```
 
@@ -384,14 +384,14 @@ if (!file.exists("../qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 **duodenum, NET**
 
 
- [![Tam Ekran Görmek İçin Resmi Tıklayın](../screenshots/thumbnail_BS25-SYN.png){width="25%"}](https://images.patolojiatlasi.com/BS25/SYN.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS25/SYN.html)
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS25-SYN.png){width="25%"}](https://images.patolojiatlasi.com/BS25/SYN.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS25/SYN.html)
 ```
 
 ```{asis, echo = (language == "EN")}
 
 **duodenum, NET**
 
- [![Click for Full Screen WSI](../screenshots/thumbnail_BS25-SYN.png){width="25%"}](https://images.patolojiatlasi.com/BS25/SYN.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS25/SYN.html)
+ [![Click for Full Screen WSI](./screenshots/thumbnail_BS25-SYN.png){width="25%"}](https://images.patolojiatlasi.com/BS25/SYN.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS25/SYN.html)
 
 ```
 

@@ -2,9 +2,7 @@
   "hash": "0b750ab8d1d60861fbc67884b0cc8894",
   "result": {
     "markdown": "---\ndescription: |\n    karaciğer, benign, liver,\n    patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [karaciğer, benign, liver]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n# Benign Liver Tumors {#sec-benign-liver-tumors} \n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n## Liver Hemangioma {#sec-liver-hemangioma} \n:::\n\n\n\n\n\n\n\n\n\n\n\n\n::::: panel-tabset\n\n\n### WSI - Link\n\n\n\n:::: {.content-hidden when-format=\"pdf\"}\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n::::\n\n\n\n\n\n:::: {.content-visible when-format=\"pdf\"}\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n::::\n\n\n\n\n:::: {.content-hidden when-format=\"pdf\"}\n\n\n\n\n::: {.cell}\n\n**Liver Hemangioma**\n\n\n[![Click for Full Screen WSI](./screenshots/thumbnail_liver-hemangioma.png){width=\"25%\"}](https://images.patolojiatlasi.com/liver-hemangioma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/liver-hemangioma/HE.html)\n:::\n\n\n\n\n::::\n\n\n\n\n\n:::: {.content-visible when-format=\"pdf\"}\n\n\n\n\n\n::: {.cell}\n\n**Liver Hemangioma**\n\n\n![](./qrcodes/liver-hemangioma-HE_qrcode.svg){width=\"15%\"} [![Click for Full Screen WSI](./screenshots/thumbnail_liver-hemangioma.png){width=\"25%\"}](https://images.patolojiatlasi.com/liver-hemangioma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/liver-hemangioma/HE.html)\n:::\n\n\n\n\n::::\n\n\n### WSI\n\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\nSee Microscopy with viewer: \n\n<iframe src=\"https://images.patolojiatlasi.com/liver-hemangioma/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n\n\n:::::\n\n\n\n",
-    "supporting": [
-      "benign-liver-tumors_files"
-    ],
+    "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

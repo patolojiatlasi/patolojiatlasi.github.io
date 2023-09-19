@@ -4,12 +4,11 @@ on:
   workflow_dispatch:
   push:
 
-
 jobs:
   quarto-render-and-deploy:
     if: "!contains(github.event.head_commit.message, 'WIP') && !contains(github.event.head_commit.message, 'merge') && !contains(github.event.head_commit.message, 'lecture')"
     runs-on: ubuntu-latest
-    continue-on-error: true
+    # continue-on-error: true
     env:
       RENV_PATHS_ROOT: ~/.local/share/renv
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -20,7 +19,6 @@ jobs:
 
       # - name: "Setup pandoc"
       #   uses: r-lib/actions/setup-pandoc@v2
-
 
       - name: Install VIPS
         run: sudo apt-get install -y libvips-tools
@@ -68,8 +66,6 @@ jobs:
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
 
-      # - uses: r-lib/actions/setup-r-dependencies@v2
-
       # - name: Setup renv
       #   uses: r-lib/actions/setup-renv@v2
 
@@ -80,9 +76,7 @@ jobs:
       #   env:
       #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
 
-
       - uses: r-lib/actions/setup-r-dependencies@v2
-
 
       - name: Restore R package cache
         uses: actions/cache@v3
@@ -91,6 +85,7 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
           restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
 
+#
 #       - name: "Install R Packages: Cache packages"
       #   uses: actions/cache@v3
       #   with:
@@ -150,7 +145,8 @@ jobs:
           if (dir.exists(paths = "./gitlab_atlas/gitlab_atlas")) { fs::dir_delete(path = "./gitlab_atlas/gitlab_atlas") }
           if (dir.exists(paths = "./EN")) { fs::dir_delete(path = "./EN") }
           if (dir.exists(paths = "./docs")) { fs::dir_delete(path = "./docs") }
-          if (dir.exists(paths = "./_freeze")) {fs::dir_delete(path = "./_freeze")}
+          if (dir.exists(paths = "./public")) { fs::dir_delete(path = "./public") }
+          if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
 
       - name: "Prepare Render EN"
         shell: Rscript {0}
@@ -162,11 +158,15 @@ jobs:
           # EN qmd
           patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx", sheet = "chapters")
           patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_chapter_qmd")]
-          patolojiatlasi_histopathologyatlas$TR_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_chapter_qmd, ".qmd")
-          patolojiatlasi_histopathologyatlas$EN_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$EN_chapter_qmd, ".qmd")
-          fs::file_copy(path = patolojiatlasi_histopathologyatlas$TR_chapter_qmd,
-              new_path = patolojiatlasi_histopathologyatlas$EN_chapter_qmd,
-              overwrite = TRUE)
+          TR_chapter_qmd <- paste0("./", patolojiatlasi_histopathologyatlas$TR_chapter_qmd, ".qmd")
+          EN_chapter_qmd <- paste0("./", patolojiatlasi_histopathologyatlas$EN_chapter_qmd, ".qmd")
+          subchapter_files <- list.files(path = "./_subchapters", pattern = "*.qmd", recursive = FALSE)
+          subchapter_files  <- paste0("./_subchapters/", subchapter_files)
+          subchapter_files_EN <- gsub(pattern = ".qmd", replacement = "_EN.qmd", x = subchapter_files)
+          TR_chapter_qmd <- c(TR_chapter_qmd, subchapter_files)
+          EN_chapter_qmd <- c(EN_chapter_qmd, subchapter_files_EN)
+          fs::file_copy(path = TR_chapter_qmd, new_path = EN_chapter_qmd, overwrite = TRUE)
+          xfun::gsub_files(files = EN_chapter_qmd, pattern = ".qmd >}}", replacement = "_EN.qmd >}}")
 
       - name: "Render Book EN"
         shell: Rscript {0}
@@ -181,28 +181,41 @@ jobs:
       - name: "Post Render Book From EN"
         shell: Rscript {0}
         run: |
+          # remove unnecessary files and folders
           if (dir.exists(paths = "./_freeze")) { fs::dir_copy(path = "./_freeze", new_path = "./_freeze_EN", overwrite = TRUE) }
           if (file.exists("./_EN/CNAME")){fs::file_delete(path = "./_EN/CNAME")}
           fs::file_copy(path = "./CNAME-histopathologyatlas", new_path = "./_EN/CNAME", overwrite = TRUE)
-          if (dir.exists(paths = "./_EN/gitlab_atlas")) {fs::dir_delete(path = "./_EN/gitlab_atlas")}
-          if (dir.exists(paths = "./_EN/docs")) {fs::dir_delete(path = "./_EN/docs")}
+          if (dir.exists(paths = "./_EN/public")) { fs::dir_delete(path = "./_EN/public") }
+          if (dir.exists(paths = "./_EN/docs")) { fs::dir_delete(path = "./_EN/docs") }
+          if (dir.exists(paths = "./_EN/gitlab_atlas")) { fs::dir_delete(path = "./_EN/gitlab_atlas") }
+          if (dir.exists(paths = "./_EN/docs")) { fs::dir_delete(path = "./_EN/docs") }
+          if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
+          # files to delete and revert
           patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx", sheet = "chapters")
           patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_chapter_qmd")]
-          `%>%` <- magrittr::`%>%`
-          patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas %>%
-              dplyr::distinct() %>% dplyr::filter(TR_chapter_qmd != EN_chapter_qmd)
-          patolojiatlasi_histopathologyatlas$EN_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$EN_chapter_qmd, ".qmd")
-          fs::file_delete(path = patolojiatlasi_histopathologyatlas$EN_chapter_qmd)
-
+          TR_chapter_qmd <- paste0("./", patolojiatlasi_histopathologyatlas$TR_chapter_qmd, ".qmd")
+          EN_chapter_qmd <- paste0("./", patolojiatlasi_histopathologyatlas$EN_chapter_qmd, ".qmd")
+          subchapter_files <- list.files(path = "./_subchapters", pattern = "*.qmd", recursive = FALSE)
+          subchapter_files  <- paste0("./_subchapters/", subchapter_files)
+          subchapter_files_EN <- gsub(pattern = ".qmd", replacement = "_EN.qmd", x = subchapter_files)
+          TR_chapter_qmd <- c(TR_chapter_qmd, subchapter_files)
+          EN_chapter_qmd <- c(EN_chapter_qmd, subchapter_files_EN)
+          files_to_revert <- EN_chapter_qmd[EN_chapter_qmd %in% TR_chapter_qmd]
+          xfun::gsub_files(files = files_to_revert, pattern = "_EN.qmd >}}", replacement = ".qmd >}}")
+          files_to_delete <- list.files(path = "./", pattern = "_EN.qmd", recursive = FALSE)
+          fs::file_delete(path = files_to_delete)
+          files_to_delete <- list.files(path = "./_subchapters", pattern = "_EN.qmd", recursive = FALSE)
+          files_to_delete  <- paste0("./_subchapters/", files_to_delete)
+          fs::file_delete(path = files_to_delete)
 
       - name: "Render Book From TR"
         shell: Rscript {0}
         run: |
           # prepare TR
-          if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
-          if (dir.exists(paths = "./_freeze_TR")) { fs::dir_copy(path = "./_freeze_TR", new_path = "./_freeze", overwrite = TRUE) }
           fs::file_copy(path = "./_quarto_TR.yml", new_path = "./_quarto.yml", overwrite = TRUE)
           fs::file_copy(path = "./R/languageTR.R", new_path = "./R/language.R", overwrite = TRUE)
+          if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
+          if (dir.exists(paths = "./_freeze_TR")) { fs::dir_copy(path = "./_freeze_TR", new_path = "./_freeze", overwrite = TRUE) }
           if (dir.exists(paths = "./docs")) { fs::dir_delete(path = "./docs") }
           if (dir.exists(paths = "./gitlab_atlas/gitlab_atlas")) { fs::dir_delete(path = "./gitlab_atlas/gitlab_atlas") }
           # render TR
@@ -210,12 +223,12 @@ jobs:
           # post render TR
           if (dir.exists(paths = "./_freeze")) { fs::dir_copy(path = "./_freeze", new_path = "./_freeze_TR", overwrite = TRUE) }
           if (dir.exists(paths = "./_freeze")) { fs::dir_delete(path = "./_freeze") }
-          if (dir.exists(paths = "./_docs/gitlab_atlas")) { fs::dir_delete(path = "./_docs/gitlab_atlas") }
+          if (dir.exists(paths = "./_docs/public")) { fs::dir_delete(path = "./_docs/public") }
+          if (dir.exists(paths = "./_docs/_public")) { fs::dir_delete(path = "./_docs/_public") }
           if (dir.exists(paths = "./_docs/EN")) { fs::dir_delete(path = "./_docs/EN") }
           if (dir.exists(paths = "./_docs/_EN")) { fs::dir_delete(path = "./_docs/_EN") }
           if (dir.exists(paths = "./_docs/_lecture-notes")) { fs::dir_delete(path = "./_docs/_lecture-notes") }
           if (dir.exists(paths = "./_docs/lecture-notes")) { fs::dir_delete(path = "./_docs/lecture-notes") }
-          if (dir.exists(paths = "./_docs/public")) { fs::dir_delete(path = "./_docs/public") }
           if (dir.exists(paths = "./_docs/gitlab_atlas")) { fs::dir_delete(path = "./_docs/gitlab_atlas") }
           folders_to_delete <- fs::dir_ls(path = "./_docs", recurse = FALSE, regexp = "_files$")
           fs::dir_delete(folders_to_delete)
@@ -225,11 +238,15 @@ jobs:
           fs::dir_delete(folders_to_delete)
           folders_to_delete <- fs::dir_ls(path = "./_docs", recurse = FALSE, regexp = "_freeze")
           fs::dir_delete(folders_to_delete)
+          fs::dir_copy(path = "./_docs", new_path = "./public", overwrite = TRUE)
+          if (file.exists("./public/CNAME")){ fs::file_delete(path = "./public/CNAME") }
           fs::dir_copy(path = "./_docs", new_path = "./gitlab_atlas/public", overwrite = TRUE)
           fs::dir_copy(path = "./_docs", new_path = "./docs", overwrite = TRUE)
           if (dir.exists(paths = "./_docs")) { fs::dir_delete(path = "./_docs") }
-          fs::dir_copy(path = "./_EN", new_path = "./EN", overwrite = TRUE)
+          if (dir.exists(paths = "./_EN")) { fs::dir_copy(path = "./_EN", new_path = "./EN", overwrite = TRUE) }
           if (dir.exists(paths = "./_EN")) { fs::dir_delete(path = "./_EN") }
+          folders_to_delete <- fs::dir_ls(path = ".", recurse = FALSE, regexp = "_files$")
+          fs::dir_delete(folders_to_delete)
           if (file.exists("./gitlab_atlas/public/CNAME")){fs::file_delete(path = "./gitlab_atlas/public/CNAME")}
           if (dir.exists(paths = "./docs/EN/lecture-notes")) { fs::dir_delete(path = "./docs/EN/lecture-notes") }
           if (dir.exists(paths = "./docs/EN")) { fs::dir_delete(path = "./docs/EN") }
@@ -241,10 +258,6 @@ jobs:
           fs::dir_delete(folders_to_delete)
           if (dir.exists(paths = "./EN/docs")) {fs::dir_delete(path = "./EN/docs")}
           if (dir.exists(paths = "./EN/_docs")) {fs::dir_delete(path = "./EN/_docs")}
-          folders_to_delete <- fs::dir_ls(path = ".", recurse = FALSE, regexp = "_files$")
-          fs::dir_delete(folders_to_delete)
-
-
 
 
 #      - name: "render TR"

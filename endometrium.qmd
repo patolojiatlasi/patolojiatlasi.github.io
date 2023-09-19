@@ -63,10 +63,10 @@ if (!file.exists("./qrcodes/endometrial-polyp-HE_qrcode.svg")) {
 ```
 
 
-::::: panel-tabset
+ 
 
 
-### WSI - Link
+
 
 
 
@@ -149,7 +149,7 @@ if (!file.exists("./qrcodes/endometrial-polyp-HE_qrcode.svg")) {
 ::::
 
 
-### WSI
+
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -170,7 +170,7 @@ See Microscopy with viewer:
 ```
 
 
-:::::
+
 
 
 
