@@ -21,6 +21,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
+{{< include ./_subchapters/_parasite_EN.qmd >}}
+
+
 {{< include ./_subchapters/_giardia_EN.qmd >}}
 
 

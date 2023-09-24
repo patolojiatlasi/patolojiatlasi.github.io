@@ -24,6 +24,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 {{< include ./_subchapters/_pancreas-pancreatic-ductal-adenocarcinoma_EN.qmd >}}
 
 
+{{< include ./_subchapters/_pdac-large-duct_EN.qmd >}}
+
+
 {{< include ./_subchapters/_pancreas-musinous-adenocarcinoma-osteoclastic_EN.qmd >}}
 
 
