@@ -222,10 +222,10 @@ book:
       chapters:
         - text: "Hipofiz Adenomu"
           href: hipofiz_epub_word_TR.qmd
-    # - part: "Meme Patolojisi"
-    #   chapters:
-    #     - text: "Meme Tümörleri"
-    #       href: meme_epub_word_TR.qmd
+    - part: "Meme Patolojisi"
+      chapters:
+        - text: "Meme Tümörleri"
+          href: meme_epub_word_TR.qmd
     - part: "Baş Boyun Patolojisi"
       chapters:
         - text: "Nazofarenks"
