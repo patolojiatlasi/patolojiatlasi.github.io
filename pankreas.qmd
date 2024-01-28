@@ -30,3 +30,5 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 {{< include ./_subchapters/_pancreas-musinous-adenocarcinoma-osteoclastic.qmd >}}
 
 
+{{< include ./_subchapters/_PDAC-benign-vs-malignant.qmd >}}
+
