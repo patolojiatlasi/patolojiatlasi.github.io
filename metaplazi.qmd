@@ -224,10 +224,10 @@ if (!file.exists("./qrcodes/metaplasia-trypsin_qrcode.svg")) {
 ::::
 
 
-#### HE - annotated 
 
 :::: {.content-hidden when-format="pdf"}
 
+#### HE - annotated 
 
 
 
@@ -241,6 +241,23 @@ if (!file.exists("./qrcodes/metaplasia-trypsin_qrcode.svg")) {
 
 ::::
 
+
+
+:::: {.content-hidden when-format="pdf"}
+
+#### HE - navigation 
+
+
+
+```{asis, echo = (language == "TR")}
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_metaplasia.png){width="25%"}](https://images.patolojiatlasi.com/metaplasia/HE_annotated3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/metaplasia/HE_annotated3.html)
+```
+
+
+
+
+::::
 
 
 

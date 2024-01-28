@@ -65,6 +65,7 @@ rsconnect/
 *.svs
 # Renv
 /renv/
+/env/
 # quarto.deb
 *.deb
 *.deb.*
