@@ -289,9 +289,9 @@ book:
       href: contributions.qmd
     - text: "Comments are welcome"
       href: comments.qmd
-    - text: "List"
-      href: listing.qmd
-    - listing2.qmd
+#    - text: "List"
+#      href: listing.qmd
+#    - listing2.qmd
 
 
 # before_chapter_script: "./R/language.R"

@@ -48,10 +48,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ### Tubular Adenoma {#sec-tubular-adenoma}
 ```
 
-{{< include ./_subchapters/_tubular-adenoma-flat.qmd >}}
+{{< include ./_subchapters/_tubular-adenoma-flat_EN_EN.qmd >}}
 
 
-{{< include ./_subchapters/_tubular-adenoma-with-stalk.qmd >}}
+{{< include ./_subchapters/_tubular-adenoma-with-stalk_EN_EN.qmd >}}
 
 
 
