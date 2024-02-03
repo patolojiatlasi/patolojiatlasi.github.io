@@ -24,6 +24,17 @@
     "href": "teknik.html",
     "title": "1  Patolojide Kullanılan Teknikler",
     "section": "",
+    "text": "2 seed\nseed for pathology atlas repositories",
+    "crumbs": [
+      "Genel Patoloji",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Patolojide Kullanılan Teknikler</span>"
+    ]
+  },
+  {
+    "objectID": "teknik.html#sec-histokimya",
+    "href": "teknik.html#sec-histokimya",
+    "title": "1  Patolojide Kullanılan Teknikler",
+    "section": "1.1 Histokimya",
     "text": "1.1 Histokimya",
     "crumbs": [
       "Genel Patoloji",
@@ -64,10 +75,10 @@
     ]
   },
   {
-    "objectID": "hucre-ici-birikimler.html",
-    "href": "hucre-ici-birikimler.html",
+    "objectID": "hucre-ici-birikimler.html#sec-kolesterol-polibi",
+    "href": "hucre-ici-birikimler.html#sec-kolesterol-polibi",
     "title": "2  Hücre İçi Birikimler",
-    "section": "",
+    "section": "2.1 Kolesterol Polibi",
     "text": "2.1 Kolesterol Polibi",
     "crumbs": [
       "Genel Patoloji",
@@ -108,10 +119,10 @@
     ]
   },
   {
-    "objectID": "hucre-disi-birikimler.html",
-    "href": "hucre-disi-birikimler.html",
+    "objectID": "hucre-disi-birikimler.html#sec-okronozis",
+    "href": "hucre-disi-birikimler.html#sec-okronozis",
     "title": "3  Hücre Dışı Birikimler",
-    "section": "",
+    "section": "3.1 Okronozis",
     "text": "3.1 Okronozis",
     "crumbs": [
       "Genel Patoloji",
@@ -119,10 +130,10 @@
     ]
   },
   {
-    "objectID": "hucre-hasari.html",
-    "href": "hucre-hasari.html",
+    "objectID": "hucre-hasari.html#sec-reaktif-atipi",
+    "href": "hucre-hasari.html#sec-reaktif-atipi",
     "title": "4  Hücre Hasarı",
-    "section": "",
+    "section": "4.1 Reaktif Atipi, ülsere kolon polibi",
     "text": "4.1 Reaktif Atipi, ülsere kolon polibi",
     "crumbs": [
       "Genel Patoloji",
@@ -141,10 +152,10 @@
     ]
   },
   {
-    "objectID": "iskemi-nekroz.html",
-    "href": "iskemi-nekroz.html",
+    "objectID": "iskemi-nekroz.html#sec-yag-nekrozu-sabunlasma",
+    "href": "iskemi-nekroz.html#sec-yag-nekrozu-sabunlasma",
     "title": "6  İskemi ve Nekroz",
-    "section": "",
+    "section": "6.1 Yağ nekrozu ve Sabunlaşma",
     "text": "6.1 Yağ nekrozu ve Sabunlaşma",
     "crumbs": [
       "Genel Patoloji",
@@ -163,10 +174,10 @@
     ]
   },
   {
-    "objectID": "amiloid.html",
-    "href": "amiloid.html",
+    "objectID": "amiloid.html#sec-amiloidoz-kristal-viyole",
+    "href": "amiloid.html#sec-amiloidoz-kristal-viyole",
     "title": "8  Amiloidoz (Amiloid Birikimi)",
-    "section": "",
+    "section": "8.1 Kristal Viyole",
     "text": "8.1 Kristal Viyole",
     "crumbs": [
       "Genel Patoloji",
@@ -185,10 +196,10 @@
     ]
   },
   {
-    "objectID": "tamir.html",
-    "href": "tamir.html",
+    "objectID": "tamir.html#sec-fibrozis",
+    "href": "tamir.html#sec-fibrozis",
     "title": "9  Tamir Mekanizmaları",
-    "section": "",
+    "section": "9.1 Fibrozis",
     "text": "9.1 Fibrozis",
     "crumbs": [
       "Genel Patoloji",
@@ -207,21 +218,10 @@
     ]
   },
   {
-    "objectID": "tamir.html#footnotes",
-    "href": "tamir.html#footnotes",
-    "title": "9  Tamir Mekanizmaları",
-    "section": "",
-    "text": "Tarık Atmaca tarafından https://veterinarypathology3d.com/ geliştirilmiştir.↩︎",
-    "crumbs": [
-      "Genel Patoloji",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Tamir Mekanizmaları</span>"
-    ]
-  },
-  {
-    "objectID": "erozyon.html",
-    "href": "erozyon.html",
+    "objectID": "erozyon.html#sec-mide-mukozasinda-erozyon",
+    "href": "erozyon.html#sec-mide-mukozasinda-erozyon",
     "title": "10  Erozyon",
-    "section": "",
+    "section": "10.1 Mide mukozasında erozyon",
     "text": "10.1 Mide mukozasında erozyon",
     "crumbs": [
       "Genel Patoloji",
@@ -229,10 +229,10 @@
     ]
   },
   {
-    "objectID": "akut-inflamasyon.html",
-    "href": "akut-inflamasyon.html",
+    "objectID": "akut-inflamasyon.html#sec-akut-appendisit",
+    "href": "akut-inflamasyon.html#sec-akut-appendisit",
     "title": "11  Akut İnflamasyon",
-    "section": "",
+    "section": "11.1 Akut Appendisit",
     "text": "11.1 Akut Appendisit",
     "crumbs": [
       "İnflamasyon",
@@ -251,10 +251,10 @@
     ]
   },
   {
-    "objectID": "kronik-inflamasyon.html",
-    "href": "kronik-inflamasyon.html",
+    "objectID": "kronik-inflamasyon.html#sec-hidronefroz-kronik-pyelonefrit",
+    "href": "kronik-inflamasyon.html#sec-hidronefroz-kronik-pyelonefrit",
     "title": "12  Kronik İnflamasyon",
-    "section": "",
+    "section": "12.1 Hidronefroz ve Kronik Pyelonefrit",
     "text": "12.1 Hidronefroz ve Kronik Pyelonefrit",
     "crumbs": [
       "İnflamasyon",
@@ -273,10 +273,10 @@
     ]
   },
   {
-    "objectID": "granulom.html",
-    "href": "granulom.html",
+    "objectID": "granulom.html#sec-granulomatoz-inflamasyon",
+    "href": "granulom.html#sec-granulomatoz-inflamasyon",
     "title": "13  Granülom",
-    "section": "",
+    "section": "13.1 Granülomatöz İnflamasyon",
     "text": "13.1 Granülomatöz İnflamasyon",
     "crumbs": [
       "İnflamasyon",
@@ -284,10 +284,10 @@
     ]
   },
   {
-    "objectID": "virus.html",
-    "href": "virus.html",
+    "objectID": "virus.html#sec-herpes-simplex-virus",
+    "href": "virus.html#sec-herpes-simplex-virus",
     "title": "14  Viruslar",
-    "section": "",
+    "section": "14.1 Herpes Simplex Virus (HSV)",
     "text": "14.1 Herpes Simplex Virus (HSV)",
     "crumbs": [
       "İnfeksiyöz Hastalıkların Patolojisi",
@@ -306,10 +306,10 @@
     ]
   },
   {
-    "objectID": "bakteri.html",
-    "href": "bakteri.html",
+    "objectID": "bakteri.html#sec-helicobacter-pylori",
+    "href": "bakteri.html#sec-helicobacter-pylori",
     "title": "15  Bakteriler",
-    "section": "",
+    "section": "15.1 Helicobacter pylori",
     "text": "15.1 Helicobacter pylori",
     "crumbs": [
       "İnfeksiyöz Hastalıkların Patolojisi",
@@ -317,10 +317,10 @@
     ]
   },
   {
-    "objectID": "mantar.html",
-    "href": "mantar.html",
+    "objectID": "mantar.html#sec-servikovajinal-yaymada-candida-albicans",
+    "href": "mantar.html#sec-servikovajinal-yaymada-candida-albicans",
     "title": "16  Mantarlar",
-    "section": "",
+    "section": "16.1 Servikovajinal yaymada Candida albicans",
     "text": "16.1 Servikovajinal yaymada Candida albicans",
     "crumbs": [
       "İnfeksiyöz Hastalıkların Patolojisi",
@@ -339,10 +339,10 @@
     ]
   },
   {
-    "objectID": "parazit.html",
-    "href": "parazit.html",
+    "objectID": "parazit.html#sec-parasite",
+    "href": "parazit.html#sec-parasite",
     "title": "17  Parazitler",
-    "section": "",
+    "section": "17.1 Parazit",
     "text": "17.1 Parazit",
     "crumbs": [
       "İnfeksiyöz Hastalıkların Patolojisi",
@@ -372,10 +372,10 @@
     ]
   },
   {
-    "objectID": "benign.html",
-    "href": "benign.html",
+    "objectID": "benign.html#sec-adenomlar",
+    "href": "benign.html#sec-adenomlar",
     "title": "18  Benign Tümörler",
-    "section": "",
+    "section": "18.1 Adenomlar",
     "text": "18.1 Adenomlar",
     "crumbs": [
       "Temel Tümör Patolojisi",
@@ -383,10 +383,10 @@
     ]
   },
   {
-    "objectID": "hamartom.html",
-    "href": "hamartom.html",
+    "objectID": "hamartom.html#sec-hamartomatoz-polip",
+    "href": "hamartom.html#sec-hamartomatoz-polip",
     "title": "19  Hamartom",
-    "section": "",
+    "section": "19.1 Hamartomatöz Polip",
     "text": "19.1 Hamartomatöz Polip",
     "crumbs": [
       "Temel Tümör Patolojisi",
@@ -405,10 +405,10 @@
     ]
   },
   {
-    "objectID": "heterotopi.html",
-    "href": "heterotopi.html",
+    "objectID": "heterotopi.html#sec-intrapancreatic-spleen",
+    "href": "heterotopi.html#sec-intrapancreatic-spleen",
     "title": "20  Heterotopi Ektopi",
-    "section": "",
+    "section": "20.1 Intrapancreatic Spleen, Heterotopia",
     "text": "20.1 Intrapancreatic Spleen, Heterotopia",
     "crumbs": [
       "Temel Tümör Patolojisi",
@@ -438,10 +438,10 @@
     ]
   },
   {
-    "objectID": "metaplazi.html",
-    "href": "metaplazi.html",
+    "objectID": "metaplazi.html#sec-pankreatik-asiner-metaplazi",
+    "href": "metaplazi.html#sec-pankreatik-asiner-metaplazi",
     "title": "21  Metaplazi",
-    "section": "",
+    "section": "21.1 Pankreatik Asiner Metaplazi, Mide",
     "text": "21.1 Pankreatik Asiner Metaplazi, Mide",
     "crumbs": [
       "Temel Tümör Patolojisi",
@@ -449,10 +449,10 @@
     ]
   },
   {
-    "objectID": "karsinogenez.html",
-    "href": "karsinogenez.html",
+    "objectID": "karsinogenez.html#sec-mepaplazi-displazi-karsinom",
+    "href": "karsinogenez.html#sec-mepaplazi-displazi-karsinom",
     "title": "22  Karsinogenez",
-    "section": "",
+    "section": "22.1 metaplazi, displazi, karsinom",
     "text": "22.1 metaplazi, displazi, karsinom",
     "crumbs": [
       "Temel Tümör Patolojisi",
@@ -460,10 +460,10 @@
     ]
   },
   {
-    "objectID": "malign.html",
-    "href": "malign.html",
+    "objectID": "malign.html#sec-pleomorfizm",
+    "href": "malign.html#sec-pleomorfizm",
     "title": "23  Malign Tümör Özellikleri",
-    "section": "",
+    "section": "23.1 Pleomorfizm",
     "text": "23.1 Pleomorfizm",
     "crumbs": [
       "Temel Tümör Patolojisi",
@@ -471,10 +471,10 @@
     ]
   },
   {
-    "objectID": "metastaz.html",
-    "href": "metastaz.html",
+    "objectID": "metastaz.html#sec-karaciger-sarkom-metastaz",
+    "href": "metastaz.html#sec-karaciger-sarkom-metastaz",
     "title": "24  Metastaz",
-    "section": "",
+    "section": "24.1 Karaciğerde Sarkom Metastazı",
     "text": "24.1 Karaciğerde Sarkom Metastazı",
     "crumbs": [
       "Temel Tümör Patolojisi",
@@ -493,10 +493,10 @@
     ]
   },
   {
-    "objectID": "tumor-yayilimi.html",
-    "href": "tumor-yayilimi.html",
+    "objectID": "tumor-yayilimi.html#sec-servikse-kolon-tumor-yayilimi",
+    "href": "tumor-yayilimi.html#sec-servikse-kolon-tumor-yayilimi",
     "title": "25  Başka Organlara Tümör Yayılımı",
-    "section": "",
+    "section": "25.1 Servikse kolon tümörü yayılımı",
     "text": "25.1 Servikse kolon tümörü yayılımı",
     "crumbs": [
       "Temel Tümör Patolojisi",
@@ -537,10 +537,10 @@
     ]
   },
   {
-    "objectID": "heterojenite.html",
-    "href": "heterojenite.html",
+    "objectID": "heterojenite.html#sec-HER2-intratumoral-heterogeneity",
+    "href": "heterojenite.html#sec-HER2-intratumoral-heterogeneity",
     "title": "26  Tümör Heterojenitesi",
-    "section": "",
+    "section": "26.1 HER2-intratumoral-heterogeneity - Tümör heterojenliği: Meme tümöründe HER2 immünohistokimyasının heterojen ekspresyonu",
     "text": "26.1 HER2-intratumoral-heterogeneity - Tümör heterojenliği: Meme tümöründe HER2 immünohistokimyasının heterojen ekspresyonu",
     "crumbs": [
       "Temel Tümör Patolojisi",
@@ -559,10 +559,10 @@
     ]
   },
   {
-    "objectID": "ekstramural-venoz-invazyon.html",
-    "href": "ekstramural-venoz-invazyon.html",
+    "objectID": "ekstramural-venoz-invazyon.html#sec-adenokarsinomda-ekstramural-venoz-invazyon",
+    "href": "ekstramural-venoz-invazyon.html#sec-adenokarsinomda-ekstramural-venoz-invazyon",
     "title": "28  Ekstramural Venöz İnvazyon",
-    "section": "",
+    "section": "28.1 Adenokarsinomda Ekstramural Venöz İnvazyon",
     "text": "28.1 Adenokarsinomda Ekstramural Venöz İnvazyon",
     "crumbs": [
       "Tümörlerdeki Prognostik Morfolojik Özellikler",
@@ -581,10 +581,10 @@
     ]
   },
   {
-    "objectID": "ozofagus.html",
-    "href": "ozofagus.html",
+    "objectID": "ozofagus.html#sec-ozofagus-granuler-hucreli-tumor",
+    "href": "ozofagus.html#sec-ozofagus-granuler-hucreli-tumor",
     "title": "31  Özofagus",
-    "section": "",
+    "section": "31.1 Özofagusta Granüler Hücreli Tümör",
     "text": "31.1 Özofagusta Granüler Hücreli Tümör",
     "crumbs": [
       "Gastrointestinal Sistem Patolojisi",
@@ -592,10 +592,10 @@
     ]
   },
   {
-    "objectID": "mide.html",
-    "href": "mide.html",
+    "objectID": "mide.html#sec-gastritis-cystica-profunda",
+    "href": "mide.html#sec-gastritis-cystica-profunda",
     "title": "32  Mide Patolojisi",
-    "section": "",
+    "section": "32.1 Gastritis Cystica Profunda",
     "text": "32.1 Gastritis Cystica Profunda",
     "crumbs": [
       "Gastrointestinal Sistem Patolojisi",
@@ -614,10 +614,10 @@
     ]
   },
   {
-    "objectID": "gastrit.html",
-    "href": "gastrit.html",
+    "objectID": "gastrit.html#sec-lymphocytic-gastritis",
+    "href": "gastrit.html#sec-lymphocytic-gastritis",
     "title": "33  Gastrit",
-    "section": "",
+    "section": "33.1 Lenfositik gastrit",
     "text": "33.1 Lenfositik gastrit",
     "crumbs": [
       "Gastrointestinal Sistem Patolojisi",
@@ -625,10 +625,10 @@
     ]
   },
   {
-    "objectID": "duodenum.html",
-    "href": "duodenum.html",
+    "objectID": "duodenum.html#sec-colyak-hastaligi",
+    "href": "duodenum.html#sec-colyak-hastaligi",
     "title": "34  Duodenum",
-    "section": "",
+    "section": "34.1 Çölyak Hastalığı",
     "text": "34.1 Çölyak Hastalığı",
     "crumbs": [
       "Gastrointestinal Sistem Patolojisi",
@@ -640,6 +640,17 @@
     "href": "kolon.html",
     "title": "35  Kolon Patolojisi",
     "section": "",
+    "text": "36 Kolon submukozal lipom",
+    "crumbs": [
+      "Gastrointestinal Sistem Patolojisi",
+      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Kolon Patolojisi</span>"
+    ]
+  },
+  {
+    "objectID": "kolon.html#sec-iskemik-kolit",
+    "href": "kolon.html#sec-iskemik-kolit",
+    "title": "35  Kolon Patolojisi",
+    "section": "35.1 İskemik Kolit",
     "text": "35.1 İskemik Kolit",
     "crumbs": [
       "Gastrointestinal Sistem Patolojisi",
@@ -691,10 +702,10 @@
     ]
   },
   {
-    "objectID": "karaciger.html",
-    "href": "karaciger.html",
+    "objectID": "karaciger.html#sec-hepatoseluler-karsinom",
+    "href": "karaciger.html#sec-hepatoseluler-karsinom",
     "title": "37  Karaciğer Tümörleri",
-    "section": "",
+    "section": "37.1 Hepatoselüler Karsinom",
     "text": "37.1 Hepatoselüler Karsinom",
     "crumbs": [
       "Karaciğer Patolojisi",
@@ -713,10 +724,10 @@
     ]
   },
   {
-    "objectID": "karaciger-benign.html",
-    "href": "karaciger-benign.html",
+    "objectID": "karaciger-benign.html#sec-karaciger-hemanjiom",
+    "href": "karaciger-benign.html#sec-karaciger-hemanjiom",
     "title": "38  Benign Karaciğer Tümörleri",
-    "section": "",
+    "section": "38.1 Karaciğer Hemanjiom",
     "text": "38.1 Karaciğer Hemanjiom",
     "crumbs": [
       "Karaciğer Patolojisi",
@@ -724,10 +735,10 @@
     ]
   },
   {
-    "objectID": "pankreas.html",
-    "href": "pankreas.html",
+    "objectID": "pankreas.html#sec-PDAC",
+    "href": "pankreas.html#sec-PDAC",
     "title": "39  Pankreas Tümörleri",
-    "section": "",
+    "section": "39.1 PDAC - pankreas duktal adenokarsinom",
     "text": "39.1 PDAC - pankreas duktal adenokarsinom",
     "crumbs": [
       "Pankreatobilier Sistem Patolojisi",
@@ -779,10 +790,10 @@
     ]
   },
   {
-    "objectID": "safra-kesesi.html",
-    "href": "safra-kesesi.html",
+    "objectID": "safra-kesesi.html#sec-safra-kesesi-adenomyom",
+    "href": "safra-kesesi.html#sec-safra-kesesi-adenomyom",
     "title": "41  Safra Kesesi",
-    "section": "",
+    "section": "41.1 Safra Kesesi Adenomyom",
     "text": "41.1 Safra Kesesi Adenomyom",
     "crumbs": [
       "Pankreatobilier Sistem Patolojisi",
@@ -801,10 +812,10 @@
     ]
   },
   {
-    "objectID": "ampulla-vater.html",
-    "href": "ampulla-vater.html",
+    "objectID": "ampulla-vater.html#sec-ampulla-vater-adenokarsinomu",
+    "href": "ampulla-vater.html#sec-ampulla-vater-adenokarsinomu",
     "title": "42  Ampulla Vater",
-    "section": "",
+    "section": "42.1 Ampulla Vater Adenokarsinomu",
     "text": "42.1 Ampulla Vater Adenokarsinomu",
     "crumbs": [
       "Pankreatobilier Sistem Patolojisi",
@@ -823,10 +834,10 @@
     ]
   },
   {
-    "objectID": "noroendokrin.html",
-    "href": "noroendokrin.html",
+    "objectID": "noroendokrin.html#sec-noroendokrin-tumor-sitolojisi-giemsa",
+    "href": "noroendokrin.html#sec-noroendokrin-tumor-sitolojisi-giemsa",
     "title": "43  Nöroendokrin Tümörler",
-    "section": "",
+    "section": "43.1 Nöroendokrin Tümör Sitolojisi Giemsa",
     "text": "43.1 Nöroendokrin Tümör Sitolojisi Giemsa",
     "crumbs": [
       "Akciğer Patolojisi",
@@ -834,10 +845,10 @@
     ]
   },
   {
-    "objectID": "mezotel.html",
-    "href": "mezotel.html",
+    "objectID": "mezotel.html#sec-abdominal-mesothelioma",
+    "href": "mezotel.html#sec-abdominal-mesothelioma",
     "title": "44  Mezotel",
-    "section": "",
+    "section": "44.1 Abdominal mezotelyoma",
     "text": "44.1 Abdominal mezotelyoma",
     "crumbs": [
       "Mezotel",
@@ -845,10 +856,10 @@
     ]
   },
   {
-    "objectID": "jineko.html",
-    "href": "jineko.html",
+    "objectID": "jineko.html#sec-over",
+    "href": "jineko.html#sec-over",
     "title": "45  Jinekopatoloji",
-    "section": "",
+    "section": "45.1 Over",
     "text": "45.1 Over",
     "crumbs": [
       "Jinekolojik Patoloji",
@@ -856,10 +867,10 @@
     ]
   },
   {
-    "objectID": "serviks.html",
-    "href": "serviks.html",
+    "objectID": "serviks.html#sec-serviks-skuamoz-hucreli-karsinom",
+    "href": "serviks.html#sec-serviks-skuamoz-hucreli-karsinom",
     "title": "47  Serviks",
-    "section": "",
+    "section": "47.1 Serviks Skuamöz Hücreli Karsinom",
     "text": "47.1 Serviks Skuamöz Hücreli Karsinom",
     "crumbs": [
       "Jinekolojik Patoloji",
@@ -867,10 +878,10 @@
     ]
   },
   {
-    "objectID": "endometrium.html",
-    "href": "endometrium.html",
+    "objectID": "endometrium.html#sec-endometrial-polip",
+    "href": "endometrium.html#sec-endometrial-polip",
     "title": "48  Endometrium",
-    "section": "",
+    "section": "48.1 Endometrial Polip",
     "text": "48.1 Endometrial Polip",
     "crumbs": [
       "Jinekolojik Patoloji",
@@ -889,10 +900,10 @@
     ]
   },
   {
-    "objectID": "bobrek.html",
-    "href": "bobrek.html",
+    "objectID": "bobrek.html#sec-bobrek-onkositom",
+    "href": "bobrek.html#sec-bobrek-onkositom",
     "title": "51  Böbrek Tümörleri",
-    "section": "",
+    "section": "51.1 Onkositom",
     "text": "51.1 Onkositom",
     "crumbs": [
       "Üriner Sistem Patolojisi",
@@ -900,10 +911,10 @@
     ]
   },
   {
-    "objectID": "prostat.html",
-    "href": "prostat.html",
+    "objectID": "prostat.html#sec-benign-prostat-hiperplazisi",
+    "href": "prostat.html#sec-benign-prostat-hiperplazisi",
     "title": "52  Prostat",
-    "section": "",
+    "section": "52.1 benign prostat hiperplazisi",
     "text": "52.1 benign prostat hiperplazisi",
     "crumbs": [
       "Üriner Sistem Patolojisi",
@@ -911,10 +922,10 @@
     ]
   },
   {
-    "objectID": "hipofiz.html",
-    "href": "hipofiz.html",
+    "objectID": "hipofiz.html#sec-hipofiz-adenomu",
+    "href": "hipofiz.html#sec-hipofiz-adenomu",
     "title": "53  Hipofiz",
-    "section": "",
+    "section": "53.1 Hipofiz Adenomu",
     "text": "53.1 Hipofiz Adenomu",
     "crumbs": [
       "Endokrin Sistem Patolojisi",
@@ -1043,10 +1054,10 @@
     ]
   },
   {
-    "objectID": "nazofarenks.html",
-    "href": "nazofarenks.html",
+    "objectID": "nazofarenks.html#sec-nazofarenks-karsinomu-nonkeratinize-skuamoz-hucreli-karsinom",
+    "href": "nazofarenks.html#sec-nazofarenks-karsinomu-nonkeratinize-skuamoz-hucreli-karsinom",
     "title": "55  Nazofarenks",
-    "section": "",
+    "section": "55.1 Nazofarenks Karsinomu, nonkeratinize skuamöz hücreli karsinom",
     "text": "55.1 Nazofarenks Karsinomu, nonkeratinize skuamöz hücreli karsinom",
     "crumbs": [
       "Baş Boyun Patolojisi",
@@ -1054,10 +1065,10 @@
     ]
   },
   {
-    "objectID": "kulak.html",
-    "href": "kulak.html",
+    "objectID": "kulak.html#sec-kolesteatom",
+    "href": "kulak.html#sec-kolesteatom",
     "title": "56  Kulak",
-    "section": "",
+    "section": "56.1 Kolesteatom",
     "text": "56.1 Kolesteatom",
     "crumbs": [
       "Baş Boyun Patolojisi",
@@ -1065,10 +1076,10 @@
     ]
   },
   {
-    "objectID": "tukuruk.html",
-    "href": "tukuruk.html",
+    "objectID": "tukuruk.html#tükürük-bezinin-meme-benzeri-sekretuar-karsinomu",
+    "href": "tukuruk.html#tükürük-bezinin-meme-benzeri-sekretuar-karsinomu",
     "title": "57  Tükürük Bezi Tümörleri",
-    "section": "",
+    "section": "57.1 Tükürük bezinin meme benzeri sekretuar karsinomu",
     "text": "57.1 Tükürük bezinin meme benzeri sekretuar karsinomu",
     "crumbs": [
       "Baş Boyun Patolojisi",
@@ -1076,10 +1087,10 @@
     ]
   },
   {
-    "objectID": "gliom.html",
-    "href": "gliom.html",
+    "objectID": "gliom.html#sec-yuksek-dereceli-gliom-yayma-preparat",
+    "href": "gliom.html#sec-yuksek-dereceli-gliom-yayma-preparat",
     "title": "58  Gliom",
-    "section": "",
+    "section": "58.1 Yüksek Dereceli Gliom Yayma Preparat",
     "text": "58.1 Yüksek Dereceli Gliom Yayma Preparat",
     "crumbs": [
       "Santral Sinir Sistem Patolojisi",
@@ -1087,10 +1098,10 @@
     ]
   },
   {
-    "objectID": "meningiom.html",
-    "href": "meningiom.html",
+    "objectID": "meningiom.html#sec-beyin-invazyonu-gosteren-meningiom",
+    "href": "meningiom.html#sec-beyin-invazyonu-gosteren-meningiom",
     "title": "59  Meningiom",
-    "section": "",
+    "section": "59.1 Beyin İnvazyonu Gösteren Meningiom",
     "text": "59.1 Beyin İnvazyonu Gösteren Meningiom",
     "crumbs": [
       "Santral Sinir Sistem Patolojisi",
@@ -1109,10 +1120,10 @@
     ]
   },
   {
-    "objectID": "sss-vaskuler.html",
-    "href": "sss-vaskuler.html",
+    "objectID": "sss-vaskuler.html#sec-beyin-arteriovenoz-malformasyon",
+    "href": "sss-vaskuler.html#sec-beyin-arteriovenoz-malformasyon",
     "title": "60  Santral Sinir Sistemi Vasküler Lezyonlar",
-    "section": "",
+    "section": "60.1 Beyin arteriovenöz malformasyon",
     "text": "60.1 Beyin arteriovenöz malformasyon",
     "crumbs": [
       "Santral Sinir Sistem Patolojisi",
@@ -1120,10 +1131,10 @@
     ]
   },
   {
-    "objectID": "kemik.html",
-    "href": "kemik.html",
+    "objectID": "kemik.html#sec-benign-kemik-tumorleri",
+    "href": "kemik.html#sec-benign-kemik-tumorleri",
     "title": "61  Kemik Tümörleri",
-    "section": "",
+    "section": "61.1 Benign Kemik Tümörleri",
     "text": "61.1 Benign Kemik Tümörleri",
     "crumbs": [
       "Kemik Patolojisi",
@@ -1131,10 +1142,10 @@
     ]
   },
   {
-    "objectID": "adipoz.html",
-    "href": "adipoz.html",
+    "objectID": "adipoz.html#sec-miksoid-liposarkom",
+    "href": "adipoz.html#sec-miksoid-liposarkom",
     "title": "62  Adipoz Doku",
-    "section": "",
+    "section": "62.1 Miksoid Liposarkom",
     "text": "62.1 Miksoid Liposarkom",
     "crumbs": [
       "Yumuşak Doku Patolojisi",
@@ -1142,10 +1153,10 @@
     ]
   },
   {
-    "objectID": "plasenta.html",
-    "href": "plasenta.html",
+    "objectID": "plasenta.html#sec-koryoamniyonit",
+    "href": "plasenta.html#sec-koryoamniyonit",
     "title": "63  Plasenta",
-    "section": "",
+    "section": "63.1 Koryoamniyonit",
     "text": "63.1 Koryoamniyonit",
     "crumbs": [
       "Pediatrik ve Perinatal Patoloji",
@@ -1153,10 +1164,10 @@
     ]
   },
   {
-    "objectID": "gbd.html",
-    "href": "gbd.html",
+    "objectID": "gbd.html#sec-GBD1",
+    "href": "gbd.html#sec-GBD1",
     "title": "64  GBD koleksiyonu",
-    "section": "",
+    "section": "64.1 GBD Olgu 1 - pediatrik otopsi, beyin",
     "text": "64.1 GBD Olgu 1 - pediatrik otopsi, beyin",
     "crumbs": [
       "Özel Kolleksiyonlar",
@@ -1186,10 +1197,10 @@
     ]
   },
   {
-    "objectID": "hacettepecom.html",
-    "href": "hacettepecom.html",
+    "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-1",
+    "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-1",
     "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "",
+    "section": "65.1 Case-1",
     "text": "65.1 Case-1",
     "crumbs": [
       "Özel Kolleksiyonlar",
@@ -1637,10 +1648,10 @@
     ]
   },
   {
-    "objectID": "bs.html",
-    "href": "bs.html",
+    "objectID": "bs.html#sec-BS1",
+    "href": "bs.html#sec-BS1",
     "title": "66  BS Atlas",
-    "section": "",
+    "section": "66.1 BS1 anjiosarkom, dalak, karaciğer",
     "text": "66.1 BS1 anjiosarkom, dalak, karaciğer",
     "crumbs": [
       "Özel Kolleksiyonlar",
@@ -1989,10 +2000,10 @@
     ]
   },
   {
-    "objectID": "ice.html",
-    "href": "ice.html",
+    "objectID": "ice.html#sec-ICE1-WDNET-duodenum",
+    "href": "ice.html#sec-ICE1-WDNET-duodenum",
     "title": "67  ICE Atlas",
-    "section": "",
+    "section": "67.1 Duodenum WDNET",
     "text": "67.1 Duodenum WDNET",
     "crumbs": [
       "Özel Kolleksiyonlar",
@@ -2000,11 +2011,11 @@
     ]
   },
   {
-    "objectID": "wsi.html",
-    "href": "wsi.html",
+    "objectID": "wsi.html#sec-rosai-collection",
+    "href": "wsi.html#sec-rosai-collection",
     "title": "68  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
-    "section": "",
-    "text": "68.1 Rosai Collection\nhttps://www.rosaicollection.org/",
+    "section": "68.1 Rosai Collection",
+    "text": "68.1 Rosai Collection\n\nhttps://www.rosaicollection.org/",
     "crumbs": [
       "Özel Kolleksiyonlar",
       "<span class='chapter-number'>68</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
@@ -2015,7 +2026,7 @@
     "href": "wsi.html#virtual-pathology-slide-library",
     "title": "68  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
     "section": "68.2 Virtual Pathology Slide Library",
-    "text": "68.2 Virtual Pathology Slide Library\n\nhttps://www.virtualpathology.leeds.ac.uk/slides/library/\n\n\n\nMicrocystic Serous Cystadenoma",
+    "text": "68.2 Virtual Pathology Slide Library\n\nhttps://www.virtualpathology.leeds.ac.uk/slides/library/",
     "crumbs": [
       "Özel Kolleksiyonlar",
       "<span class='chapter-number'>68</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
@@ -2142,10 +2153,10 @@
     ]
   },
   {
-    "objectID": "yazarlar.html",
-    "href": "yazarlar.html",
+    "objectID": "yazarlar.html#sec-derleyen",
+    "href": "yazarlar.html#sec-derleyen",
     "title": "Ek A — Yazarlar ve Katkıda Bulunanlar",
-    "section": "",
+    "section": "A.1 Derleyen:",
     "text": "A.1 Derleyen:",
     "crumbs": [
       "Ekler",
@@ -2197,10 +2208,10 @@
     ]
   },
   {
-    "objectID": "yonetim-gelistirme.html",
-    "href": "yonetim-gelistirme.html",
+    "objectID": "yonetim-gelistirme.html#sec-vaka-secimi",
+    "href": "yonetim-gelistirme.html#sec-vaka-secimi",
     "title": "Ek D — Patoloji Atlası Nasıl Geliştiriliyor?",
-    "section": "",
+    "section": "D.1 Vakaların Seçilmesi",
     "text": "D.1 Vakaların Seçilmesi",
     "crumbs": [
       "Ekler",
