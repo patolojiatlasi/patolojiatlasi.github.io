@@ -1,0 +1,410 @@
+---
+description: "hasar, tamir, patoloji, atlas, pathology, whole slide image"
+date: last-modified
+categories: [hasar, tamir]
+page-layout: full
+bibliography: references.bib
+---
+
+```{r language repair, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
+
+```{asis, echo = (language == "TR")}
+# Tamir Mekanizmaları {#sec-tamir-mekanizmalari}
+```
+
+
+
+```{asis, echo = (language == "EN")}
+# Repair Mechanisms {#sec-repair-mechanisms}
+```
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+
+Bu sayfadaki görüntülere artırılmış gerçeklik (augmented reality) ile de
+ulaşabilirsiniz[^tamir-1].
+
+[^tamir-1]: [Tarık Atmaca](https://github.com/veterinarypathology3d)
+    tarafından <https://veterinarypathology3d.com/> geliştirilmiştir.
+
+Karekodu cep telefonunuza okutun:
+
+![](images/AR-tamir.jpeg){fig-align="left" width="100"}
+
+Link ile açılan sayfaya ve kamera erişimine izin verin. Sonra kamerayı
+bu sayfadaki patoloji resimlerine tutun. Tanılar cep telefonunuzda
+görünecektir.
+
+
+
+{{< video https://www.youtube.com/embed/76bOJIiT29Y >}}
+
+```
+
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+
+Bu sayfadaki görüntülere artırılmış gerçeklik (augmented reality) ile de
+ulaşabilirsiniz[^tamir-1].
+
+[^tamir-1]: [Tarık Atmaca](https://github.com/veterinarypathology3d)
+    tarafından <https://veterinarypathology3d.com/> geliştirilmiştir.
+
+Karekodu cep telefonunuza okutun:
+
+![](images/AR-tamir.jpeg){fig-align="left" width="100"}
+
+Link ile açılan sayfaya ve kamera erişimine izin verin. Sonra kamerayı
+bu sayfadaki patoloji resimlerine tutun. Tanılar cep telefonunuzda
+görünecektir.
+
+
+
+{{< video https://www.youtube.com/embed/76bOJIiT29Y >}}
+
+```
+
+
+```{asis, echo = (language == "TR")}
+## Fibrozis {#sec-fibrozis}
+```
+
+
+```{asis, echo = (language == "EN")}
+## Fibrosis {#sec-fibrosis}
+```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_fibrosis.png")) {
+webshot2::webshot(delay = 20,
+  url = "https://images.patolojiatlasi.com/fibrosis/HE.html",
+  file = "./screenshots/thumbnail_fibrosis.png"
+)
+}
+```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/fibrosis-HE_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/fibrosis/HE.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/fibrosis-HE_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+Kolesistit spesmeninde gelişmekte olan genç fibrozis
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_fibrosis.png){width="25%"}](https://images.patolojiatlasi.com/fibrosis/HE.html) [Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/fibrosis/HE.html)
+```
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+Kolesistit spesmeninde gelişmekte olan genç fibrozis
+
+![](./qrcodes/fibrosis-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_fibrosis.png){width="25%"}](https://images.patolojiatlasi.com/fibrosis/HE.html) [Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/fibrosis/HE.html)
+```
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+Developing fibrosis in a cholecystitis
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_fibrosis.png){width="25%"}](https://images.patolojiatlasi.com/fibrosis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/fibrosis/HE.html)
+```
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+Developing fibrosis in a cholecystitis
+
+![](./qrcodes/fibrosis-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_fibrosis.png){width="25%"}](https://images.patolojiatlasi.com/fibrosis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/fibrosis/HE.html)
+```
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/fibrosis/HE.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/fibrosis/HE.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+## Keloid - Skar {#sec-keloid-skar}
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./screenshots/thumbnail_keloid-scar.png")) {
+webshot2::webshot(delay = 20,
+  url = "https://images.patolojiatlasi.com/keloid-scar/HE.html",
+  file = "./screenshots/thumbnail_keloid-scar.png"
+)
+}
+```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/keloid-scar-HE_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/keloid-scar/HE.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/keloid-scar-HE_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+
+Keloid Skar oluşumu
+
+[![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_keloid-scar.png){width="25%"}](https://images.patolojiatlasi.com/keloid-scar/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/keloid-scar/HE.html)
+
+```
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+
+Keloid Skar oluşumu
+
+![](./qrcodes/keloid-scar-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
+Tıklayın](./screenshots/thumbnail_keloid-scar.png){width="25%"}](https://images.patolojiatlasi.com/keloid-scar/HE.html)
+[Tam Ekran Görmek İçin Resmi
+Tıklayın](https://images.patolojiatlasi.com/keloid-scar/HE.html)
+
+```
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+
+Keloid Scar
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_keloid-scar.png){width="25%"}](https://images.patolojiatlasi.com/keloid-scar/HE.html)
+[Click for Full Screen WSI](https://images.patolojiatlasi.com/keloid-scar/HE.html)
+
+```
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+
+Keloid Scar
+
+![](./qrcodes/keloid-scar-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_keloid-scar.png){width="25%"}](https://images.patolojiatlasi.com/keloid-scar/HE.html)
+[Click for Full Screen WSI](https://images.patolojiatlasi.com/keloid-scar/HE.html)
+
+```
+
+
+
+
+
+::::
+
+
+### WSI
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/keloid-scar/HE.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+
+```
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/keloid-scar/HE.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+
+```
+
+
+
+
+:::::
+
+
+
+

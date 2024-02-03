@@ -1,0 +1,164 @@
+---
+description: |
+    Patoloji Atlası Memorial Patoloji Hekim ve Teknikerleri yanısıra diğer kurumlardan koleksiyonlarını paylaşan patologların katkılarıyla hazırlanmaktadır.
+    patoloji, atlas, pathology, whole slide image
+date: last-modified
+categories: [yazar, katkı, authors, editors, contributors]
+page-layout: full
+bibliography: references.bib
+---
+
+```{r language yazarlar, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+# Yazarlar ve Katkıda Bulunanlar {#sec-yazarlar-katkida-bulunanlar}
+```
+
+
+```{asis, echo = (language == "EN")}
+# Authors and Contributors {#sec-authors-contributors}
+```
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+## Derleyen: {#sec-derleyen}
+```
+
+```{asis, echo = (language == "EN")}
+## Editor: {#sec-editor}
+```
+
+
+-   [Serdar Balcı](https://www.serdarbalci.com)
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+## Katkıda Bulunanlar: {#sec-katkida-bulunanlar}
+
+[**Memorial Patoloji**](https://patoloji.memorial.com.tr/) **Hekimleri**
+```
+
+```{asis, echo = (language == "EN")}
+## Contributors: {#sec-contributors}
+
+[**Memorial Pathology**](https://patoloji.memorial.com.tr/) **Physicians**
+```
+
+
+-   [İlknur Turkmen](https://www.memorial.com.tr/en/doctors/ilknur-turkmen-1975)
+
+-   [Gülen Bülbül Doğusoy](https://www.memorial.com.tr/doktorlar/gulen-bulbul-dogusoy)
+
+-   [Fatma Aktepe](https://www.memorial.com.tr/doktorlar/fatma-aktepe)
+
+-   [Türkan Atasever Rezanko](https://www.memorial.com.tr/doktorlar/turkan-atasever-rezanko)
+
+-   [Pembe Gül Güneş](https://www.memorial.com.tr/doktorlar/pembe-gul-gunes)
+
+-   [Şemsi Yıldız](https://www.memorial.com.tr/doktorlar/semsi-yildiz-1)
+
+-   [Serdar Balcı](https://www.memorial.com.tr/doktorlar/serdar-balci-k)
+
+-   [Sezen Koçarslan](https://www.memorial.com.tr/doktorlar/sezen-kocarslan)
+
+-   [Yıldırım Karslıoğlu](https://www.memorial.com.tr/doktorlar/yildirim-karslioglu-k)
+
+-   [Mehtat Uz Ünlü](https://www.memorial.com.tr/doktorlar/mehtat-uz-unlu-k)
+
+-   [Murat Oktay](https://www.memorial.com.tr/doktorlar/murat-oktay)
+
+-   Deniz Bayçelebi
+
+-   [Emre Karakök](https://www.memorial.com.tr/doktorlar/emre-karakok)
+
+-   Zuhal Kuş Sılav
+
+-   [Fatma Gülgün Sade Koçak](https://www.memorial.com.tr/doktorlar/fatma-gulgun-sade-kocak-k)
+
+-   [Zeynep Pehlivanoğlu](https://www.memorial.com.tr/doktorlar/zeynep-pehlivanoglu-k)
+
+-   [Fadime Gül Salman](https://www.memorial.com.tr/doktorlar/fadime-gul-salman)
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+[**Memorial Patoloji**](https://patoloji.memorial.com.tr/) **Teknikerleri**
+```
+
+```{asis, echo = (language == "EN")}
+[**Memorial Pathology**](https://patoloji.memorial.com.tr/) **Pathology Assistants**
+```
+
+
+-   Emrah Uça
+
+-   [Şevin Elif Şanioğlu](https://www.linkedin.com/in/%C5%9Fevin-elif-%C5%9Fanio%C4%9Flu-99449a1b0/)
+
+-   [Baset Sığırcı](https://www.linkedin.com/in/baset-s%C4%B1%C4%9F%C4%B1rc%C4%B1-aa2406141/)
+
+-   [Rabia Öztürk](https://www.linkedin.com/in/rabia-%C3%B6zt%C3%BCrk-4989b3151/)
+
+-   Zehra Yaşaroğlu
+
+-   Baha Erdoğan
+
+-   Talha Akbaş
+
+-   Nursen İrem Şermetoğlu
+
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+## Diğer Kurumlardan Katkıda Bulunanlar {#sec-diger-kurumlardan-katkida-bulunanlar}
+```
+
+```{asis, echo = (language == "EN")}
+## Contributors from Other Institutions {#sec-contributors-from-other-institutions}
+```
+
+
+-   [Tarık Atmaca](https://github.com/veterinarypathology3d)
+
+-   [Kemal Kösemehmetoğlu](https://hacettepepathology.com/)
+
+-   [Arzu Sağlam Ayhan](https://www.hastane.hacettepe.edu.tr/115.html?drid=479)
+
+-   [Burcu Saka](https://scholar.google.com.tr/citations?user=9e7r9yQAAAAJ)
+
+-   [İpek Çoban Elbeği](https://www.florence.com.tr/prof-dr-ipek-coban-elbegi)

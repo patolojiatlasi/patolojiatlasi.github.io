@@ -1,0 +1,33 @@
+---
+description: |
+    hamartom,
+    patoloji, atlas, pathology, whole slide image
+date: last-modified
+categories: [hamartom]
+page-layout: full
+bibliography: references.bib
+---
+
+```{r language hamartom, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis, echo = (language == "TR")}
+# Hamartom {#sec-hamartom}
+```
+
+
+
+```{asis, echo = (language == "EN")}
+# Hamartom {#sec-hamartom}
+```
+
+
+{{< include ./_subchapters/_colon-hamartomatouspolyp_EN.qmd >}}
+
+
+{{< include ./_subchapters/_colon-schwanncellhamartoma_EN.qmd >}}
+
+
