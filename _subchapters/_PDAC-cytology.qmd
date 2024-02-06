@@ -1,0 +1,277 @@
+
+
+
+
+# PDAC-cytology
+
+
+**PDAC-cytology for pathology atlas repositories**
+
+
+```
+see [make-html-WSI](https://github.com/pathologyatlas/make-html-WSI) for more information and [TODO](https://github.com/pathologyatlas/TODO) to add cases
+```
+
+```
+update html file heading:
+
+<title>pancreas adenocarcinoma cytology pankreas adenokarsinom sitoloji</title>
+
+<meta name="keywords" content="pancreas adenocarcinoma cytology, pankreas adenokarsinom sitoloji, patoloji, atlas, pathology, whole slide image">
+
+<meta name="description" content="pancreas adenocarcinoma cytology pankreas adenokarsinom sitoloji">
+
+```
+
+
+
+```zsh
+
+vips dzsave HE.svs HE
+
+```
+
+
+```
+update html file to match .dzi file
+
+```
+
+
+> consider using git_push.sh script to upload files to github, since the number of generated files is huge
+
+> after upload complete, do not forget to activate github pages for the new repository
+
+
+
+
+
+
+{{< include ./_subchapters/_PDAC-cytology.qmd >}}
+
+
+
+```{comment}
+---
+description: |
+    pankreas adenokarsinom sitoloji, pancreas adenocarcinoma cytology, patoloji, atlas, pathology, whole slide image
+date: last-modified
+categories: [pankreas adenokarsinom sitoloji, pancreas adenocarcinoma cytology]
+page-layout: full
+bibliography: references.bib
+---
+```
+
+
+
+```{r language PDAC-cytology, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis pankreas adenokarsinom sitoloji TR , echo = (language == "TR")}
+## PDAC-cytology - pankreas adenokarsinom sitoloji {#sec-PDAC-cytology }
+```
+
+
+```{asis pancreas adenocarcinoma cytology EN , echo = (language == "EN")}
+## PDAC-cytology - pancreas adenocarcinoma cytology {#sec-PDAC-cytology }
+```
+
+
+
+
+
+
+```{r PDAC-cytology screenshot DQ, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_PDAC-cytology-DQ.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/PDAC-cytology/DQ.html",
+  file = "./screenshots/thumbnail_PDAC-cytology-DQ.png"
+)
+}
+```
+
+
+
+```{r PDAC-cytology qrcode DQ, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/PDAC-cytology-DQ_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/PDAC-cytology/DQ.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/PDAC-cytology-DQ_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**pankreas adenokarsinom sitoloji**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_PDAC-cytology-DQ.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-cytology/DQ.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/PDAC-cytology/DQ.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "TR")}
+
+**pankreas adenokarsinom sitoloji**
+
+![](./qrcodes/PDAC-cytology-DQ_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_PDAC-cytology-DQ.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-cytology/DQ.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/PDAC-cytology/DQ.html)
+
+```
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**pancreas adenocarcinoma cytology**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_PDAC-cytology-DQ.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-cytology/DQ.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/PDAC-cytology/DQ.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "EN")}
+
+**pancreas adenocarcinoma cytology**
+
+![](./qrcodes/PDAC-cytology-DQ_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_PDAC-cytology-DQ.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-cytology/DQ.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/PDAC-cytology/DQ.html)
+
+```
+
+
+::::
+
+
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/PDAC-cytology/DQ.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/PDAC-cytology/DQ.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+### Diagnosis
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı için tıklayın
+
+pankreas adenokarsinom sitoloji
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Click for Diagnosis
+
+pancreas adenocarcinoma cytology
+
+:::
+
+```
+
+
+
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+
