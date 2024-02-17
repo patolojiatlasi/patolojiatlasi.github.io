@@ -1,0 +1,380 @@
+
+- reponame: mucin
+  titleTR: "Normal kolon mukozasında intrasitoplazmik müsini gösteren mucicarmine (müsikarmen) histokimyası"
+  titleEN: "Mucicarmine histochemistry stain showing intracellular mucin in a normal colon"
+  title: ""
+  type: "published"
+  author:
+    - Serdar Balci
+    - Memorial Patoloji
+  date: 2024-02-15
+  url: https://images.patolojiatlasi.com/mucin/mucicarmine.html
+  status: ""
+  preprint: ""
+  dataverse: ""
+  note: ""
+  categoriesTR:
+    - Histokimya
+    - Patoloji
+    - Gastrointestinal Sistem
+  categoriesEN:
+    - Histochemistry
+    - Pathology
+    - Gastrointestinal System
+
+
+
+- titleEN: "Overt Consequences of Covert Actions: Success, Failure, and Voters’ Preferences for Legislative Oversight"
+  titleTR: "Gizli Eylemlerin Açık Sonuçları: Başarı, Başarısızlık ve Yasama Denetimi İçin Seçmen Tercihleri"
+  type: "published"
+  author:
+    - Caroline Robbins
+    - Alessandro Brunelli
+    - José Castro
+    - Ainsley Coty
+    - Andrew Louis
+    - Bryanna Major
+    - María Alemán Martínez
+    - Yadianis Lara Ojeda
+    - Larissa Pontes
+    - Elke Schumacher
+    - Omer Turkomer
+    - Luzmi Valenzuela
+    - Valeria Veras
+    - Carlisle Rainey
+  date: 2024-01-08
+  status: "published paper"
+  preprint: "https://doi.org/10.31235/osf.io/9p5h8"
+  prereg: "https://osf.io/gjsft/"
+  osf: "https://osf.io/2tf5j/"
+
+- title: "The Dissent Score: Using Events Data to Measure Dissent"
+  type: "published"
+  author:
+    - Carlisle Rainey
+    - Harley Roe
+    - Qing Wang
+    - Nick Dietrich
+  date: 2023-12-23
+  status: "published paper"
+  preprint: "https://osf.io/preprints/socarxiv/dw7np"
+  website: "https://www.carlislerainey.com/dissent-scores/"
+  note: 'The dissent score data set is available on <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CL4CA8">Dataverse</a>.'
+
+
+- title: "Generational Differences in Abortion Attitudes in the United States: Will Dobbs v. Jackson Become Starkly Counter-Majoritarian?"
+  type: "published"
+  author:
+    - Carlisle Rainey
+    - Robert Jackson
+  date: 2023-10-13
+  status: "published paper"
+  preprint: "https://osf.io/preprints/socarxiv/jmz96/"
+  dataverse: "https://doi.org/10.7910/DVN/JFMXDH"
+
+- title: "The Limits of Single-Topic Designs"
+  type: "published"
+  author:
+    - Scott Clifford
+    - Carlisle Rainey
+  date: 2023-10-10
+  status: "published paper"
+  preprint: "https://doi.org/10.31235/osf.io/zaykd"
+
+- title: "Estimators for Topic-Sampling Designs"
+  type: "published"
+  author:
+    - Scott Clifford
+    - Carlisle Rainey
+  date: 2023-12-18
+  status: "Conditionally accepted at <em>Political Analysis</em>"
+  preprint: "https://osf.io/preprints/socarxiv/7ady6/"
+
+- title: "Generation Effects on Americans' Symbolic Ideology and Attitudes Toward the Economic Role of Government"
+  type: "published"
+  author:
+    - Robert Jackson
+    - Carlisle Rainey
+  date: 2023-08-02
+  status: "published paper"
+  preprint: "https://osf.io/preprints/socarxiv/ck7de/"
+  categories:
+    - Age-Period-Cohort
+    - Bayesian Inference
+    - American Politics
+    - Political Behavior
+
+- title: "Hypothesis Tests Under Separation"
+  type: "Forthcoming"
+  author: Carlisle Rainey
+  date: 2023-09-07
+  status: "Forthcoming at <em>Political Analysis</em>"
+  journal: "<em>Political Analysis</em>"
+  pubopen: "https://doi.org/10.1017/pan.2023.28"
+  preprint: "https://osf.io/preprints/socarxiv/bmvnu"
+  osf: "https://osf.io/wn2s4/"
+  dataverse: "https://doi.org/10.7910/DVN/6EYRJG"
+  note: 'See also <a href="https://www.cambridge.org/core/journals/political-analysis">Rainey (2016)</a>'
+  categories:
+    - Hypothesis Testing
+    - Logistic Regression
+    - Separation
+    - Medicaid Expansion
+    - Political Methodology
+
+- title: "Generalizing Survey Experiments Using Topic Sampling: An Application to Party Cues"
+  type: "Forthcoming"
+  author:
+    - Scott Clifford
+    - Thomas Leeper
+    - Carlisle Rainey
+  date: 2023-03-26
+  status: "Forthcoming at <em>Political Behavior</em>"
+  pdf: "../papers/gte.pdf"
+  pubclosed: "https://doi.org/10.1007/s11109-023-09870-1"
+  dataverse: "https://doi.org/10.7910/DVN/NNAVTE"
+  categories:
+    - Topic Sampling
+    - Experimental Design
+    - Hierachical Modeling
+    - Bayesian Inference
+    - Political Behavior
+    - American Politics
+    - Political Methodology
+
+- title: "A Careful Consideration of CLARIFY: Simulation-Induced Bias in Point Estimates of Quantities of Interest"
+  type: "Forthcoming"
+  author:
+    - Carlisle Rainey
+  date: 2023-03-26
+  status: "Forthcoming at <em>Political Science Research and Methods</em>"
+  pdf: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D26D25DE3D7316B92B09614C08FA6772/S2049847023000080a.pdf/a-careful-consideration-of-clarify-simulation-induced-bias-in-point-estimates-of-quantities-of-interest.pdf"
+  pubopen: "https://doi.org/10.1017/psrm.2023.8"
+  dataverse: "https://doi.org/10.7910/DVN/5YKD4S"
+  github: "https://github.com/carlislerainey/unnecessary/"
+  errata: "https://doi.org/10.1017/psrm.2023.25"
+  categories:
+    - Political Methodology
+    - Quantites of Interest
+
+- title: "Estimating Logit Models with Small Samples"
+  type: "Published"
+  author:
+    - Carlisle Rainey
+    - Kelly McCaskey
+  date: 2021-07-01
+  year: 2021
+  journal: "<em>Political Science Research and Methods</em>"
+  pdf: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/712F6039372475B650B123E9A1FE60E6/S2049847021000091a.pdf/estimating-logit-models-with-small-samples.pdf"
+  pubopen: "https://doi.org/10.1017/psrm.2021.9"
+  dataverse: "https://doi.org/10.7910/DVN/6XS8Z1"
+  categories:
+    - Political Methodology
+
+- title: "When BLUE Is Not Best: Non-Normal Errors and the Linear Model"
+  type: "Published"
+  author:
+    - Daniel Baissa
+    - Carlisle Rainey
+  date: 2020-07-01
+  year: 2020
+  journal: "<em>Political Science Research and Methods</em>"
+  pdf: "../papers/heavy-tails.pdf"
+  pubclosed: "https://doi.org/10.1017/psrm.2018.34"
+  dataverse: "https://doi.org/10.7910/DVN/WZSUS3"
+  categories:
+    - Political Methodology
+
+- title: "Unreliable Inferences about Unobservable Processes: A Critique of Partial Observability Models"
+  type: "Published"
+  author:
+    - Carlisle Rainey
+    - Robert Jackson
+  date: 2018-07-01
+  year: 2018
+  journal: "<em>Political Science Research and Methods</em>"
+  pdf: "../papers/unreliable.pdf"
+  pubclosed: "https://doi.org/10.1017/psrm.2017.3"
+  dataverse: "http://dx.doi.org/10.7910/DVN/OQWCZE"
+  categories:
+    - Political Methodology
+
+- title: "Transformation-Induced Bias: Unbiased Coefficients Do Not Imply Unbiased Quantities of Interest"
+  type: "Published"
+  author:
+    - Carlisle Rainey
+  date: 2017-07-01
+  year: 2017
+  journal: "<em>Political Analysis</em>"
+  pdf: "../papers/bias.pdf"
+  pubclosed: "https://doi.org/10.1017/pan.2017.11"
+  dataverse: "https://doi.org/10.7910/DVN/CYXFB8"
+  categories:
+    - Political Methodology
+    - Quantities of Interest
+
+- title: "Dealing with Separation in Logistic Regression Models"
+  type: "Published"
+  author:
+    - Carlisle Rainey
+  date: 2016-06-01
+  year: 2016
+  journal: "<em>Political Analysis</em>"
+  pdf: "../papers/separation.pdf"
+  appendix: "../papers/separation-appendix.pdf"
+  pubclosed: "https://doi.org/10.1093/pan/mpw014"
+  dataverse: "https://doi.org/10.7910/DVN/VW7G2Q"
+  categories:
+    - Political Methodology
+    - Bayesian Inference
+    - Separation
+
+
+- title: "Compression and Conditional Effects: A Product Term Is Essential When Using Logistic Regression to Test for Interaction"
+  type: "Published"
+  author:
+    - Carlisle Rainey
+  date: 2016-11-01
+  year: 2016
+  journal: "<em>Political Science Research and Methods</em>"
+  pdf: "../papers/compress.pdf"
+  appendix: "../papers/compress-appendix.pdf"
+  pubclosed: "https://doi.org/10.1017/psrm.2015.59"
+  dataverse: "https://doi.org/10.7910/DVN/ASSC0Y"
+  categories:
+    - Political Methodology
+    - Hypothesis Testing
+    - Interaction
+
+
+- title: "Does District Magnitude Matter: The Case of Taiwan"
+  type: "Published"
+  author:
+    - Carlisle Rainey
+  date: 2016-03-01
+  year: 2016
+  journal: "<em>Electoral Studies</em>"
+  pdf: "../papers/taiwan.pdf"
+  pubclosed: "https://doi.org/10.1016/j.electstud.2015.08.009"
+  dataverse: "http://dx.doi.org/10.7910/DVN/FMLYTY"
+  categories:
+    - Comparative Politics
+    - Electoral Institutions
+    - Political Parties
+    - Mobilization
+    - Turnout
+    - Bayesian Inference
+    - Hypothesis Testing
+    - Equivalence Testing
+
+
+- title: "Substantive Importance and the Veil of Statistical Significance"
+  type: "Published"
+  author:
+    - Kelly McCaskey
+    - Carlisle Rainey
+  date: 2015-02-01
+  year: 2015
+  journal: "<em>Statistics, Politics, and Policy</em>"
+  pdf: "../papers/meaningful.pdf"
+  pubclosed: "https://doi.org/10.1515/spp-2015-0001"
+  github: "https://github.com/carlislerainey/meaningful-inferences"
+  categories:
+    - Political Methodology
+    - Substantive Significance
+    - Quantities of Interest
+    - Hypothesis Testing
+    - Equivalence Testing
+
+- title: "Moral Concerns and Policy Attitudes: Investigating the Influence of Elite Rhetoric"
+  type: "Published"
+  author:
+    - Scott Clifford
+    - Jennifer Jerit
+    - Carlisle Rainey
+    - Matt Motyl
+  date: 2015-02-01
+  year: 2015
+  journal: "<em>Political Communication</em>"
+  pdf: "../papers/rhetoric.pdf"
+  pubclosed: "https://doi.org/10.1080/10584609.2014.944320"
+  categories:
+    - American Politics
+    - Political Behavior
+
+- title: "Strategic Mobilization: Why Proportional Representation Decreases Voter Mobilization"
+  type: "Published"
+  author:
+    - Carlisle Rainey
+  date: 2015-03-01
+  year: 2015
+  journal: "<em>Electoral Studies</em>"
+  pdf: "../papers/stratmob.pdf"
+  appendix: "../papers/stratmob-appendix.pdf"
+  pubclosed: "https://doi.org/10.1016/j.electstud.2014.10.008"
+  dataverse: "http://dx.doi.org/10.7910/DVN/27666"
+  categories:
+    - Comparative Politics
+    - Electoral Institutions
+    - Political Parties
+    - Mobilization
+    - Hierarchical Modeling
+    - Bayesian Inference
+
+- title: "The Politics of Need: Examining Governors' Decisions to Oppose the 'Obamacare' Medicaid Expansion"
+  type: "Published"
+  author:
+    - Charles Barrillleaux
+    - Carlisle Rainey
+  date: 2014-12-01
+  year: 2014
+  journal: "<em>State Politics and Policy Quarterly</em>"
+  pdf: "../papers/need.pdf"
+  appendix: "../papers/need-appendix.pdf"
+  pubclosed: "https://journals.sagepub.com/doi/full/10.1177/1532440014561644"
+  dataverse: "http://dx.doi.org/10.15139/S3/12130"
+  categories:
+    - American Politics
+    - Public Policy
+    - Medicaid Expansion
+    - Partisanship
+
+- title: "Arguing for a Negligible Effect"
+  type: "Published"
+  author:
+    - Carlisle Rainey
+  date: 2014-03-07
+  year: 2014
+  journal: "<em>American Journal of Political Science</em>"
+  pdf: "../papers/nme.pdf"
+  appendix: "../papers/nme-appendix.pdf"
+  pubclosed: "https://doi.org/10.1111/ajps.12102"
+  dataverse: "https://doi.org/10.7910/DVN/23818"
+  categories:
+    - Political Methodology
+    - Quantites of Interest
+    - Substantive Significance
+    - Equivalence Testing
+    - Hypothesis Testing
+
+- title: "The Question(s) of Political Knowledge"
+  type: "Published"
+  date: 2014-11-20
+  year: 2014
+  pdf: "../papers/quadrants.pdf"
+  pubclosed: "http://dx.doi.org/10.1017/S0003055414000392"
+  journal: "<em>American Political Science Review</em>"
+  dataverse: "http://dx.doi.org/10.7910/DVN/27572"
+  doi: "10.1017/S0003055414000392"
+  author:
+    - Jason Barabas
+    - Jennifer Jerit
+    - William Pollock
+    - Carlisle Rainey
+  categories:
+    - Hierachical Modeling
+    - Political Knowledge
+    - American Politics
+    - Political Behavior
+
+

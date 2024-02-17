@@ -118,190 +118,194 @@ book:
       href: index.qmd
     - text: "Giriş"
       href: giris.qmd
-    - part: "---"
-    - part: "Genel Patoloji"
-      chapters:
-        - text: "Patolojide Kullanılan Teknikler"
-          href: teknik.qmd
-        - text: "Hücre İçi Birikimler"
-          href: hucre-ici-birikimler.qmd
-        - text: "Hücre Dışı Birikimler"
-          href: hucre-disi-birikimler.qmd
-        - text: "Hücre Hasarı"
-          href: hucre-hasari.qmd
-        - text: "Hemodinamik Bozukluklar"
-          href: hemodinamik-bozukluklar.qmd
-        - text: "İskemi ve Nekroz"
-          href: iskemi-nekroz.qmd
-        - text: "Konjesyon"
-          href: konjesyon.qmd
-        - text: "Amiloid birikimi"
-          href: amiloid.qmd
-        - text: "Tamir Mekanizmaları"
-          href: tamir.qmd
-        - text: "Erozyon"
-          href: erozyon.qmd
-    - part: "İnflamasyon"
-      chapters:
-        - text: "Akut inflamasyon"
-          href: akut-inflamasyon.qmd
-        - text: "Kronik inflamasyon"
-          href: kronik-inflamasyon.qmd
-        - text: "Granülamatöz İnflamasyon"
-          href: granulom.qmd
-        # - inflamasyon.qmd
-    - part: "İnfeksiyöz Hastalıkların Patolojisi"
-      chapters:
-        - text: "Viruslar"
-          href: virus.qmd
-        - text: "Bakteriler"
-          href: bakteri.qmd
-        - text: "Mantarlar"
-          href: mantar.qmd
-        - text: "Parazitler"
-          href: parazit.qmd
-    - part: "Temel Tümör Patolojisi"
-      chapters:
-        - benign.qmd
-        - hamartom.qmd
-        - heterotopi.qmd
-        - text: "Metaplazi"
-          href: metaplazi.qmd
-        - text: "Karsinogenez"
-          href: karsinogenez.qmd
-        - malign.qmd
-        - metastaz.qmd
-        - tumor-yayilimi.qmd
-        - heterojenite.qmd
-    - part: "Tümörlerdeki Prognostik Morfolojik Özellikler"
-      chapters:
-        - text: "Venöz İnvazyon"
-          href: venoz-invazyon.qmd
-        - text: "Ekstramural Venöz İnvazyon"
-          href: ekstramural-venoz-invazyon.qmd
-    - part: "Hematopatoloji"
-      chapters:
-#        - hematopatoloji.qmd
-        - hodgkin.qmd
-    - part: "Gastrointestinal Sistem Patolojisi"
-      chapters:
-        - gastro.qmd
-        - text: "Özofagus"
-          href: ozofagus.qmd
-        - text: "Mide Patolojisi"
-          href: mide.qmd
-        - text: "Gastrit"
-          href: gastrit.qmd
-        - text: "Duodenum Patolojisi"
-          href: duodenum.qmd
-        - text: "Kolon Patolojisi"
-          href: kolon.qmd
-        - text: "Crohn Hastalığı"
-          href: crohn.qmd
-    - part: "Karaciğer Patolojisi"
-      chapters:
-        - text: "Karaciğer Tümörleri"
-          href: karaciger.qmd
-        - text: "Benign Karaciğer Tümörleri"
-          href: karaciger-benign.qmd
-    - part: "Pankreatobilier Sistem Patolojisi"
-      chapters:
-        - text: "Pankreas"
-          href: pankreas.qmd
-        - text: "Pankreas Duktal Adenokarsinom"
-          href: pdac.qmd
-        - text: "Safra Kesesi"
-          href: safra-kesesi.qmd
-        - text: "Ampulla Vater"
-          href: ampulla-vater.qmd
-    - part: "Akciğer Patolojisi"
-      chapters:
-        - text: "Nöroendokrin"
-          href: noroendokrin.qmd
-    - part: "Mezotel"
-      chapters:
-        - text: "Abdomen"
-          href: mezotel.qmd
-    - part: "Jinekolojik Patoloji"
-      chapters:
-        - text: "Jinekolojik Patoloji"
-          href: jineko.qmd
-        - text: "Genital Sistem Patolojisi"
-          href: genital.qmd
-        - text: "Serviks"
-          href: serviks.qmd
-        - text: "Endometrium"
-          href: endometrium.qmd
-        - text: "Endometriozis"
-          href: endometriosis.qmd
-    - part: "Üriner Sistem Patolojisi"
-      chapters:
-        - text: "Üropatoloji"
-          href: uriner.qmd
-        - text: "Böbrek Tümörleri / Renal Tümörler"
-          href: bobrek.qmd
-        - text: "Prostat"
-          href: prostat.qmd
-    - part: "Endokrin Sistem Patolojisi"
-      chapters:
-        - text: "Hipofiz Adenomu"
-          href: hipofiz.qmd
-    - part: "Meme Patolojisi"
-      chapters:
-        - text: "Meme Tümörleri"
-          href: meme.qmd
-    - part: "Baş Boyun Patolojisi"
-      chapters:
-        - text: "Nazofarenks"
-          href: nazofarenks.qmd
-        - text: "Kulak"
-          href: kulak.qmd
-        - text: "Tükürük Bezi"
-          href: tukuruk.qmd
-    - part: "Santral Sinir Sistem Patolojisi"
-      chapters:
-        - text: "Gliomlar"
-          href: gliom.qmd
-        - text: "Meningiom"
-          href: meningiom.qmd
-        - text: "Vasküler Lezyonlar"
-          href: sss-vaskuler.qmd
-    - part: "Kemik Patolojisi"
-      chapters:
-        - text: "Kemik Tümörleri"
-          href: kemik.qmd
-    - part: "Yumuşak Doku Patolojisi"
-      chapters:
-        - text: "Adipöz Doku Patolojisi"
-          href: adipoz.qmd
-    - part: "Pediatrik ve Perinatal Patoloji"
-      chapters:
-        - plasenta.qmd
-    - part: "---"
-    - part: "Özel Kolleksiyonlar"
-      chapters:
-        - text: "GBDAtlas"
-          href: gbd.qmd
-        - text: "Hacettepe Ayın Vakası"
-          href: hacettepecom.qmd
-        - text: "BSAtlas"
-          href: bs.qmd
-        - text: "ICEtlas"
-          href: ice.qmd
-        - text: "Benzer Sayfalar"
-          href: wsi.qmd
-    - part: "---"
-    - referanslar.qmd
-    - part: "---"
-  appendices:
-    - text: "Yazarlar ve Katkıda Bulunanlar"
-      href: yazarlar.qmd
-      target: _blank
-    - text: "Katkıda bulunun"
-      href: katki.qmd
-    - text: "Yorum ekleyin"
-      href: yorum.qmd
-    - yonetim-gelistirme.qmd
+#     - part: "---"
+#     - part: "Genel Patoloji"
+#       chapters:
+#         - text: "Patolojide Kullanılan Teknikler"
+#           href: teknik.qmd
+#         - text: "Hücre İçi Birikimler"
+#           href: hucre-ici-birikimler.qmd
+#         - text: "Hücre Dışı Birikimler"
+#           href: hucre-disi-birikimler.qmd
+#         - text: "Hücre Hasarı"
+#           href: hucre-hasari.qmd
+#         - text: "Hemodinamik Bozukluklar"
+#           href: hemodinamik-bozukluklar.qmd
+#         - text: "İskemi ve Nekroz"
+#           href: iskemi-nekroz.qmd
+#         - text: "Konjesyon"
+#           href: konjesyon.qmd
+#         - text: "Amiloid birikimi"
+#           href: amiloid.qmd
+#         - text: "Tamir Mekanizmaları"
+#           href: tamir.qmd
+#         - text: "Erozyon"
+#           href: erozyon.qmd
+#     - part: "İnflamasyon"
+#       chapters:
+#         - text: "Akut inflamasyon"
+#           href: akut-inflamasyon.qmd
+#         - text: "Kronik inflamasyon"
+#           href: kronik-inflamasyon.qmd
+#         - text: "Granülamatöz İnflamasyon"
+#           href: granulom.qmd
+#         # - inflamasyon.qmd
+#     - part: "İnfeksiyöz Hastalıkların Patolojisi"
+#       chapters:
+#         - text: "Viruslar"
+#           href: virus.qmd
+#         - text: "Bakteriler"
+#           href: bakteri.qmd
+#         - text: "Mantarlar"
+#           href: mantar.qmd
+#         - text: "Parazitler"
+#           href: parazit.qmd
+#     - part: "Temel Tümör Patolojisi"
+#       chapters:
+#         - benign.qmd
+#         - hamartom.qmd
+#         - heterotopi.qmd
+#         - text: "Metaplazi"
+#           href: metaplazi.qmd
+#         - text: "Karsinogenez"
+#           href: karsinogenez.qmd
+#         - malign.qmd
+#         - metastaz.qmd
+#         - tumor-yayilimi.qmd
+#         - heterojenite.qmd
+#     - part: "Tümörlerdeki Prognostik Morfolojik Özellikler"
+#       chapters:
+#         - text: "Venöz İnvazyon"
+#           href: venoz-invazyon.qmd
+#         - text: "Ekstramural Venöz İnvazyon"
+#           href: ekstramural-venoz-invazyon.qmd
+#     - part: "Hematopatoloji"
+#       chapters:
+# #        - hematopatoloji.qmd
+#         - hodgkin.qmd
+#     - part: "Gastrointestinal Sistem Patolojisi"
+#       chapters:
+#         - gastro.qmd
+#         - text: "Özofagus"
+#           href: ozofagus.qmd
+#         - text: "Mide Patolojisi"
+#           href: mide.qmd
+#         - text: "Gastrit"
+#           href: gastrit.qmd
+#         - text: "Duodenum Patolojisi"
+#           href: duodenum.qmd
+#         - text: "Kolon Patolojisi"
+#           href: kolon.qmd
+#         - text: "Crohn Hastalığı"
+#           href: crohn.qmd
+#     - part: "Karaciğer Patolojisi"
+#       chapters:
+#         - text: "Karaciğer Tümörleri"
+#           href: karaciger.qmd
+#         - text: "Benign Karaciğer Tümörleri"
+#           href: karaciger-benign.qmd
+#     - part: "Pankreatobilier Sistem Patolojisi"
+#       chapters:
+#         - text: "Pankreas"
+#           href: pankreas.qmd
+#         - text: "Pankreas Duktal Adenokarsinom"
+#           href: pdac.qmd
+#         - text: "Safra Kesesi"
+#           href: safra-kesesi.qmd
+#         - text: "Ampulla Vater"
+#           href: ampulla-vater.qmd
+#     - part: "Akciğer Patolojisi"
+#       chapters:
+#         - text: "Nöroendokrin"
+#           href: noroendokrin.qmd
+#     - part: "Mezotel"
+#       chapters:
+#         - text: "Abdomen"
+#           href: mezotel.qmd
+#     - part: "Jinekolojik Patoloji"
+#       chapters:
+#         - text: "Jinekolojik Patoloji"
+#           href: jineko.qmd
+#         - text: "Genital Sistem Patolojisi"
+#           href: genital.qmd
+#         - text: "Serviks"
+#           href: serviks.qmd
+#         - text: "Endometrium"
+#           href: endometrium.qmd
+#         - text: "Endometriozis"
+#           href: endometriosis.qmd
+#     - part: "Üriner Sistem Patolojisi"
+#       chapters:
+#         - text: "Üropatoloji"
+#           href: uriner.qmd
+#         - text: "Böbrek Tümörleri / Renal Tümörler"
+#           href: bobrek.qmd
+#         - text: "Prostat"
+#           href: prostat.qmd
+#     - part: "Endokrin Sistem Patolojisi"
+#       chapters:
+#         - text: "Hipofiz Adenomu"
+#           href: hipofiz.qmd
+#     - part: "Meme Patolojisi"
+#       chapters:
+#         - text: "Meme Tümörleri"
+#           href: meme.qmd
+#     - part: "Baş Boyun Patolojisi"
+#       chapters:
+#         - text: "Nazofarenks"
+#           href: nazofarenks.qmd
+#         - text: "Kulak"
+#           href: kulak.qmd
+#         - text: "Tükürük Bezi"
+#           href: tukuruk.qmd
+#     - part: "Santral Sinir Sistem Patolojisi"
+#       chapters:
+#         - text: "Gliomlar"
+#           href: gliom.qmd
+#         - text: "Meningiom"
+#           href: meningiom.qmd
+#         - text: "Vasküler Lezyonlar"
+#           href: sss-vaskuler.qmd
+#     - part: "Kemik Patolojisi"
+#       chapters:
+#         - text: "Kemik Tümörleri"
+#           href: kemik.qmd
+#     - part: "Yumuşak Doku Patolojisi"
+#       chapters:
+#         - text: "Adipöz Doku Patolojisi"
+#           href: adipoz.qmd
+#     - part: "Pediatrik ve Perinatal Patoloji"
+#       chapters:
+#         - plasenta.qmd
+#     - part: "---"
+#     - part: "Özel Kolleksiyonlar"
+#       chapters:
+#         - text: "GBDAtlas"
+#           href: gbd.qmd
+#         - text: "Hacettepe Ayın Vakası"
+#           href: hacettepecom.qmd
+#         - text: "BSAtlas"
+#           href: bs.qmd
+#         - text: "ICEtlas"
+#           href: ice.qmd
+#         - text: "Benzer Sayfalar"
+#           href: wsi.qmd
+#     - part: "---"
+#     - referanslar.qmd
+#     - part: "---"
+#   appendices:
+#     - text: "Yazarlar ve Katkıda Bulunanlar"
+#       href: yazarlar.qmd
+#       target: _blank
+#     - text: "Katkıda bulunun"
+#       href: katki.qmd
+#     - text: "Yorum ekleyin"
+#       href: yorum.qmd
+#     - yonetim-gelistirme.qmd
+#     - text: "İletişim"
+#       href: katki.qmd
+    - text: "Vaka Listesi"
+      href: lists/index.qmd
 #    - text: "Liste"
 #      href: listing.qmd
 #    - listing2.qmd

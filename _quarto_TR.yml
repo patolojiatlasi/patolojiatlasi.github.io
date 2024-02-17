@@ -302,6 +302,10 @@ book:
     - text: "Yorum ekleyin"
       href: yorum.qmd
     - yonetim-gelistirme.qmd
+    - text: "İletişim"
+      href: katki.qmd
+    - text: "Vaka Listesi"
+      href: lists/index.qmd
 #    - text: "Liste"
 #      href: listing.qmd
 #    - listing2.qmd

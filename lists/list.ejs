@@ -1,0 +1,41 @@
+```{=html}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+
+<style>
+  .btn-xs {
+    padding: 1px 5px;
+    font-size: 15px;
+  }
+  .ai-lg {
+    font-size: 1.2em;  /* Adjust as needed */
+  }
+</style>
+
+<ul class="list">
+  <% for (const item of items) { %>
+    <li <%= metadataAttrs(item) %>>
+      <%= item.titleTR %>
+      <br/>
+      <%= item.titleEN %>
+      <br/>
+      <%= item.url %>
+      <br/>
+
+      <p>
+      <br/>
+
+      <% if (item.note) { %>
+        <small class="text-secondary">
+          <span class="note"><%= item.note %></span>
+        </small>
+      <% } %>
+      </p>
+
+      <hr>
+    </li>
+  <% } %>
+</ul>
+
+```
+
