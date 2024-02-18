@@ -12,10 +12,11 @@ jobs:
     env:
       RENV_PATHS_ROOT: ~/.local/share/renv
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      R_LIBS_USER: ~/.local/share/R/library
 
     steps:
       - name: "actions checkout"
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # - name: "Setup pandoc"
       #   uses: r-lib/actions/setup-pandoc@v2
@@ -66,8 +67,8 @@ jobs:
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
 
-      # - name: Setup renv
-      #   uses: r-lib/actions/setup-renv@v2
+      - name: Setup renv
+        uses: r-lib/actions/setup-renv@v2
 
       # - name: Publish to GitHub Pages (and render)
       #   uses: quarto-dev/quarto-actions/publish@v2
@@ -79,24 +80,22 @@ jobs:
       - uses: r-lib/actions/setup-r-dependencies@v2
 
 
-      # - name: Restore R package cache
-      #   uses: actions/cache@v3
-      #   with:
-      #     path: ${{ env.R_LIBS_USER }}
-      #     key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
-      #     restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
+      - name: Restore R package cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.R_LIBS_USER }}
+          key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
+          restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
 
 
 
       - name: "Install R Packages: Cache packages"
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ${{ env.RENV_PATHS_ROOT }}
           key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
           restore-keys: |
             ${{ runner.os }}-renv-
-
-
 
 
       - name: "Install R dependencies"
@@ -345,7 +344,7 @@ jobs:
   #   if: "!contains(github.event.head_commit.message, 'WIP') && !contains(github.event.head_commit.message, 'merge')   && !contains(github.event.head_commit.message, 'notweet')"
   #   runs-on: ubuntu-latest
   #   steps:
-  #     - uses: actions/checkout@v3
+  #     - uses: actions/checkout@v4
   #     - name: "Tweet"
   #       id: date
   #       run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
@@ -362,7 +361,7 @@ jobs:
   #   if: "!contains(github.event.head_commit.message, 'WIP') && !contains(github.event.head_commit.message, 'merge')  && !contains(github.event.head_commit.message, 'notweet')"
   #   runs-on: ubuntu-latest
   #   steps:
-  #     - uses: actions/checkout@v3
+  #     - uses: actions/checkout@v4
   #     - name: "Tweet-EN"
   #       id: date
   #       run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
@@ -384,7 +383,7 @@ jobs:
   #     GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
   #   steps:
   #     - name: "actions checkout"
-  #       uses: actions/checkout@v3
+  #       uses: actions/checkout@v4
   #
   #     - name: "Setup Quarto"
   #       uses: quarto-dev/quarto-actions/setup@v2
@@ -400,7 +399,7 @@ jobs:
   #
   #
   #     - name: Restore R package cache
-  #       uses: actions/cache@v3
+  #       uses: actions/cache@v4
   #       with:
   #         path: ${{ env.R_LIBS_USER }}
   #         key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
@@ -459,7 +458,7 @@ jobs:
   #   needs: quarto-render-and-deploy
   #   runs-on: ubuntu-latest
   #   steps:
-  #   - uses: actions/checkout@v3
+  #   - uses: actions/checkout@v4
   #     with:
   #       fetch-depth: 0
   #   - name: Mirror + trigger CI
@@ -480,7 +479,7 @@ jobs:
   #   runs-on: ubuntu-latest
   #   steps:
   #   - name: Checkout repository
-  #     uses: actions/checkout@v3
+  #     uses: actions/checkout@v4
   #     with:
   #       lfs: true
   #
@@ -551,7 +550,7 @@ jobs:
   #   runs-on: ubuntu-latest
   #   steps:
   #     - name: Check out repository
-  #       uses: actions/checkout@v3
+  #       uses: actions/checkout@v4
   #
   #     - name: Set up Quarto
   #       uses: quarto-dev/quarto-actions/setup@v2

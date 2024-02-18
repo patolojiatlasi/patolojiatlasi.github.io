@@ -103,7 +103,10 @@ yaml_data <- lapply(1:nrow(yaml_preparation_file), function(i) {
        note = "",
        categoriesTR = list("", "", "", "patoloji", "atlas", "histopatoloji", "whole slide image"),
        categoriesEN = list("", "", "", "pathology", "atlas", "histopatholohy", "whole slide image"),
-       screenshot = yaml_preparation_file$screenshot[i]
+       screenshot = yaml_preparation_file$screenshot[i],
+       githubrepo = paste0("https:///github.com/pathologyatlas/", yaml_preparation_file$reponame[i]),
+       githubpage = paste0("https:///pathologyatlas.github.io/", yaml_preparation_file$reponame[i]),
+       youtube = "",
        )
 })
 
