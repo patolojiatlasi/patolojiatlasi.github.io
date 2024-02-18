@@ -1,6 +1,6 @@
 ---
+pagetitle: "List"
 title: "list"
-description: "" 
 listing:
   - id: case-list
     include: 
@@ -29,8 +29,11 @@ listing:
   #   sort: "date desc" 
   #   sort-ui: false
   #   #categories: true
-toc: false    
+toc: false
+search: true
 #page-layout: full
+description: |
+  A gallery of example documents, websites, books, and presentations created with Quarto.
 ---
 
 

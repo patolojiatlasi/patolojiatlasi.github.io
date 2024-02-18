@@ -1,18 +1,14 @@
-
-- reponame: mucin
+- stainname: mucin
+  reponame: mucin
   titleTR: "Normal kolon mukozasında intrasitoplazmik müsini gösteren mucicarmine (müsikarmen) histokimyası"
   titleEN: "Mucicarmine histochemistry stain showing intracellular mucin in a normal colon"
-  title: ""
   type: "published"
   author:
     - Serdar Balci
     - Memorial Patoloji
   date: 2024-02-15
   url: https://images.patolojiatlasi.com/mucin/mucicarmine.html
-  status: ""
-  preprint: ""
-  dataverse: ""
-  note: ""
+  note: "Note for mucin stain"
   categoriesTR:
     - Histokimya
     - Patoloji
@@ -23,358 +19,3424 @@
     - Gastrointestinal System
 
 
-
-- titleEN: "Overt Consequences of Covert Actions: Success, Failure, and Voters’ Preferences for Legislative Oversight"
-  titleTR: "Gizli Eylemlerin Açık Sonuçları: Başarı, Başarısızlık ve Yasama Denetimi İçin Seçmen Tercihleri"
-  type: "published"
+- stainname: acute-appendicitis-HE
+  reponame: acute-appendicitis
+  titleTR: ''
+  titleEN: ''
+  type: published
   author:
-    - Caroline Robbins
-    - Alessandro Brunelli
-    - José Castro
-    - Ainsley Coty
-    - Andrew Louis
-    - Bryanna Major
-    - María Alemán Martínez
-    - Yadianis Lara Ojeda
-    - Larissa Pontes
-    - Elke Schumacher
-    - Omer Turkomer
-    - Luzmi Valenzuela
-    - Valeria Veras
-    - Carlisle Rainey
-  date: 2024-01-08
-  status: "published paper"
-  preprint: "https://doi.org/10.31235/osf.io/9p5h8"
-  prereg: "https://osf.io/gjsft/"
-  osf: "https://osf.io/2tf5j/"
-
-- title: "The Dissent Score: Using Events Data to Measure Dissent"
-  type: "published"
+  - Serdar Balci
+  - Memorial Patoloji
+  - deneme
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/acute-appendicitis/HE.html
+  note: 'deneme not'
+  categoriesTR:
+  - 'deneme'
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_acute-appendicitis.png
+- stainname: myxoidliposarcoma
+  reponame: myxoidliposarcoma
+  titleTR: ''
+  titleEN: ''
+  type: published
   author:
-    - Carlisle Rainey
-    - Harley Roe
-    - Qing Wang
-    - Nick Dietrich
-  date: 2023-12-23
-  status: "published paper"
-  preprint: "https://osf.io/preprints/socarxiv/dw7np"
-  website: "https://www.carlislerainey.com/dissent-scores/"
-  note: 'The dissent score data set is available on <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CL4CA8">Dataverse</a>.'
-
-
-- title: "Generational Differences in Abortion Attitudes in the United States: Will Dobbs v. Jackson Become Starkly Counter-Majoritarian?"
-  type: "published"
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - deneme
+  - 'deneme'
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_myxoidliposarcoma.png
+- stainname: amyloid-crystalviolet
+  reponame: amyloid
+  titleTR: ''
+  titleEN: ''
+  type: published
   author:
-    - Carlisle Rainey
-    - Robert Jackson
-  date: 2023-10-13
-  status: "published paper"
-  preprint: "https://osf.io/preprints/socarxiv/jmz96/"
-  dataverse: "https://doi.org/10.7910/DVN/JFMXDH"
-
-- title: "The Limits of Single-Topic Designs"
-  type: "published"
+  - Serdar Balci
+  - Memorial Patoloji
+  - deneme
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/amyloid/crystalviolet.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_amyloid-crystalviolet.png
+- stainname: congored-congored
+  reponame: congored
+  titleTR: ''
+  titleEN: ''
+  type: published
   author:
-    - Scott Clifford
-    - Carlisle Rainey
-  date: 2023-10-10
-  status: "published paper"
-  preprint: "https://doi.org/10.31235/osf.io/zaykd"
-
-- title: "Estimators for Topic-Sampling Designs"
-  type: "published"
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/congored/congored.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_congored-congored.png
+- stainname: '{{template}}-{{stain}}'
+  reponame: '{{template}}'
+  titleTR: ''
+  titleEN: ''
+  type: published
   author:
-    - Scott Clifford
-    - Carlisle Rainey
-  date: 2023-12-18
-  status: "Conditionally accepted at <em>Political Analysis</em>"
-  preprint: "https://osf.io/preprints/socarxiv/7ady6/"
-
-- title: "Generation Effects on Americans' Symbolic Ideology and Attitudes Toward the Economic Role of Government"
-  type: "published"
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/{{template}}/{{stain}}.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_{{template}}-{{stain}}.png
+- stainname: ampullary-adenocarcinoma
+  reponame: ampullary-adenocarcinoma
+  titleTR: ''
+  titleEN: ''
+  type: published
   author:
-    - Robert Jackson
-    - Carlisle Rainey
-  date: 2023-08-02
-  status: "published paper"
-  preprint: "https://osf.io/preprints/socarxiv/ck7de/"
-  categories:
-    - Age-Period-Cohort
-    - Bayesian Inference
-    - American Politics
-    - Political Behavior
-
-- title: "Hypothesis Tests Under Separation"
-  type: "Forthcoming"
-  author: Carlisle Rainey
-  date: 2023-09-07
-  status: "Forthcoming at <em>Political Analysis</em>"
-  journal: "<em>Political Analysis</em>"
-  pubopen: "https://doi.org/10.1017/pan.2023.28"
-  preprint: "https://osf.io/preprints/socarxiv/bmvnu"
-  osf: "https://osf.io/wn2s4/"
-  dataverse: "https://doi.org/10.7910/DVN/6EYRJG"
-  note: 'See also <a href="https://www.cambridge.org/core/journals/political-analysis">Rainey (2016)</a>'
-  categories:
-    - Hypothesis Testing
-    - Logistic Regression
-    - Separation
-    - Medicaid Expansion
-    - Political Methodology
-
-- title: "Generalizing Survey Experiments Using Topic Sampling: An Application to Party Cues"
-  type: "Forthcoming"
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ampullary-adenocarcinoma.png
+- stainname: WDNET-ampulla
+  reponame: WDNET-ampulla
+  titleTR: ''
+  titleEN: ''
+  type: published
   author:
-    - Scott Clifford
-    - Thomas Leeper
-    - Carlisle Rainey
-  date: 2023-03-26
-  status: "Forthcoming at <em>Political Behavior</em>"
-  pdf: "../papers/gte.pdf"
-  pubclosed: "https://doi.org/10.1007/s11109-023-09870-1"
-  dataverse: "https://doi.org/10.7910/DVN/NNAVTE"
-  categories:
-    - Topic Sampling
-    - Experimental Design
-    - Hierachical Modeling
-    - Bayesian Inference
-    - Political Behavior
-    - American Politics
-    - Political Methodology
-
-- title: "A Careful Consideration of CLARIFY: Simulation-Induced Bias in Point Estimates of Quantities of Interest"
-  type: "Forthcoming"
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/WDNET-ampulla/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_WDNET-ampulla.png
+- stainname: helicobacterpylori
+  reponame: helicobacterpylori
+  titleTR: ''
+  titleEN: ''
+  type: published
   author:
-    - Carlisle Rainey
-  date: 2023-03-26
-  status: "Forthcoming at <em>Political Science Research and Methods</em>"
-  pdf: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D26D25DE3D7316B92B09614C08FA6772/S2049847023000080a.pdf/a-careful-consideration-of-clarify-simulation-induced-bias-in-point-estimates-of-quantities-of-interest.pdf"
-  pubopen: "https://doi.org/10.1017/psrm.2023.8"
-  dataverse: "https://doi.org/10.7910/DVN/5YKD4S"
-  github: "https://github.com/carlislerainey/unnecessary/"
-  errata: "https://doi.org/10.1017/psrm.2023.25"
-  categories:
-    - Political Methodology
-    - Quantites of Interest
-
-- title: "Estimating Logit Models with Small Samples"
-  type: "Published"
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/helicobacterpylori/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_helicobacterpylori.png
+- stainname: helicobacterpylori-warthinstarry
+  reponame: helicobacterpylori
+  titleTR: ''
+  titleEN: ''
+  type: published
   author:
-    - Carlisle Rainey
-    - Kelly McCaskey
-  date: 2021-07-01
-  year: 2021
-  journal: "<em>Political Science Research and Methods</em>"
-  pdf: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/712F6039372475B650B123E9A1FE60E6/S2049847021000091a.pdf/estimating-logit-models-with-small-samples.pdf"
-  pubopen: "https://doi.org/10.1017/psrm.2021.9"
-  dataverse: "https://doi.org/10.7910/DVN/6XS8Z1"
-  categories:
-    - Political Methodology
-
-- title: "When BLUE Is Not Best: Non-Normal Errors and the Linear Model"
-  type: "Published"
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_helicobacterpylori-warthinstarry.png
+- stainname: helicobacterpylori-giemsa
+  reponame: helicobacterpylori
+  titleTR: ''
+  titleEN: ''
+  type: published
   author:
-    - Daniel Baissa
-    - Carlisle Rainey
-  date: 2020-07-01
-  year: 2020
-  journal: "<em>Political Science Research and Methods</em>"
-  pdf: "../papers/heavy-tails.pdf"
-  pubclosed: "https://doi.org/10.1017/psrm.2018.34"
-  dataverse: "https://doi.org/10.7910/DVN/WZSUS3"
-  categories:
-    - Political Methodology
-
-- title: "Unreliable Inferences about Unobservable Processes: A Critique of Partial Observability Models"
-  type: "Published"
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_helicobacterpylori-giemsa.png
+- stainname: helicobacterpylori-IHC
+  reponame: helicobacterpylori
+  titleTR: ''
+  titleEN: ''
+  type: published
   author:
-    - Carlisle Rainey
-    - Robert Jackson
-  date: 2018-07-01
-  year: 2018
-  journal: "<em>Political Science Research and Methods</em>"
-  pdf: "../papers/unreliable.pdf"
-  pubclosed: "https://doi.org/10.1017/psrm.2017.3"
-  dataverse: "http://dx.doi.org/10.7910/DVN/OQWCZE"
-  categories:
-    - Political Methodology
-
-- title: "Transformation-Induced Bias: Unbiased Coefficients Do Not Imply Unbiased Quantities of Interest"
-  type: "Published"
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/helicobacterpylori/IHC.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_helicobacterpylori-IHC.png
+- stainname: livermangioma
+  reponame: livermangioma
+  titleTR: ''
+  titleEN: ''
+  type: published
   author:
-    - Carlisle Rainey
-  date: 2017-07-01
-  year: 2017
-  journal: "<em>Political Analysis</em>"
-  pdf: "../papers/bias.pdf"
-  pubclosed: "https://doi.org/10.1017/pan.2017.11"
-  dataverse: "https://doi.org/10.7910/DVN/CYXFB8"
-  categories:
-    - Political Methodology
-    - Quantities of Interest
-
-- title: "Dealing with Separation in Logistic Regression Models"
-  type: "Published"
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/livermangioma/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_livermangioma.png
+- stainname: kidneyoncocytoma
+  reponame: kidneyoncocytoma
+  titleTR: ''
+  titleEN: ''
+  type: published
   author:
-    - Carlisle Rainey
-  date: 2016-06-01
-  year: 2016
-  journal: "<em>Political Analysis</em>"
-  pdf: "../papers/separation.pdf"
-  appendix: "../papers/separation-appendix.pdf"
-  pubclosed: "https://doi.org/10.1093/pan/mpw014"
-  dataverse: "https://doi.org/10.7910/DVN/VW7G2Q"
-  categories:
-    - Political Methodology
-    - Bayesian Inference
-    - Separation
-
-
-- title: "Compression and Conditional Effects: A Product Term Is Essential When Using Logistic Regression to Test for Interaction"
-  type: "Published"
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/kidneyoncocytoma/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_kidneyoncocytoma.png
+- stainname: exostosis-oc
+  reponame: exostosis
+  titleTR: ''
+  titleEN: ''
+  type: published
   author:
-    - Carlisle Rainey
-  date: 2016-11-01
-  year: 2016
-  journal: "<em>Political Science Research and Methods</em>"
-  pdf: "../papers/compress.pdf"
-  appendix: "../papers/compress-appendix.pdf"
-  pubclosed: "https://doi.org/10.1017/psrm.2015.59"
-  dataverse: "https://doi.org/10.7910/DVN/ASSC0Y"
-  categories:
-    - Political Methodology
-    - Hypothesis Testing
-    - Interaction
-
-
-- title: "Does District Magnitude Matter: The Case of Taiwan"
-  type: "Published"
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/exostosis/oc.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_exostosis-oc.png
+- stainname: exostosis-oc001
+  reponame: exostosis
+  titleTR: ''
+  titleEN: ''
+  type: published
   author:
-    - Carlisle Rainey
-  date: 2016-03-01
-  year: 2016
-  journal: "<em>Electoral Studies</em>"
-  pdf: "../papers/taiwan.pdf"
-  pubclosed: "https://doi.org/10.1016/j.electstud.2015.08.009"
-  dataverse: "http://dx.doi.org/10.7910/DVN/FMLYTY"
-  categories:
-    - Comparative Politics
-    - Electoral Institutions
-    - Political Parties
-    - Mobilization
-    - Turnout
-    - Bayesian Inference
-    - Hypothesis Testing
-    - Equivalence Testing
-
-
-- title: "Substantive Importance and the Veil of Statistical Significance"
-  type: "Published"
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/exostosis/oc001.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_exostosis-oc001.png
+- stainname: exostosis-oc002
+  reponame: exostosis
+  titleTR: ''
+  titleEN: ''
+  type: published
   author:
-    - Kelly McCaskey
-    - Carlisle Rainey
-  date: 2015-02-01
-  year: 2015
-  journal: "<em>Statistics, Politics, and Policy</em>"
-  pdf: "../papers/meaningful.pdf"
-  pubclosed: "https://doi.org/10.1515/spp-2015-0001"
-  github: "https://github.com/carlislerainey/meaningful-inferences"
-  categories:
-    - Political Methodology
-    - Substantive Significance
-    - Quantities of Interest
-    - Hypothesis Testing
-    - Equivalence Testing
-
-- title: "Moral Concerns and Policy Attitudes: Investigating the Influence of Elite Rhetoric"
-  type: "Published"
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/exostosis/oc002.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_exostosis-oc002.png
+- stainname: exostosis
+  reponame: exostosis
+  titleTR: ''
+  titleEN: ''
+  type: published
   author:
-    - Scott Clifford
-    - Jennifer Jerit
-    - Carlisle Rainey
-    - Matt Motyl
-  date: 2015-02-01
-  year: 2015
-  journal: "<em>Political Communication</em>"
-  pdf: "../papers/rhetoric.pdf"
-  pubclosed: "https://doi.org/10.1080/10584609.2014.944320"
-  categories:
-    - American Politics
-    - Political Behavior
-
-- title: "Strategic Mobilization: Why Proportional Representation Decreases Voter Mobilization"
-  type: "Published"
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/exostosis/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_exostosis.png
+- stainname: carcinogenesis
+  reponame: carcinogenesis
+  titleTR: ''
+  titleEN: ''
+  type: published
   author:
-    - Carlisle Rainey
-  date: 2015-03-01
-  year: 2015
-  journal: "<em>Electoral Studies</em>"
-  pdf: "../papers/stratmob.pdf"
-  appendix: "../papers/stratmob-appendix.pdf"
-  pubclosed: "https://doi.org/10.1016/j.electstud.2014.10.008"
-  dataverse: "http://dx.doi.org/10.7910/DVN/27666"
-  categories:
-    - Comparative Politics
-    - Electoral Institutions
-    - Political Parties
-    - Mobilization
-    - Hierarchical Modeling
-    - Bayesian Inference
-
-- title: "The Politics of Need: Examining Governors' Decisions to Oppose the 'Obamacare' Medicaid Expansion"
-  type: "Published"
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/carcinogenesis/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_carcinogenesis.png
+- stainname: reactive-atypia
+  reponame: reactive-atypia
+  titleTR: ''
+  titleEN: ''
+  type: published
   author:
-    - Charles Barrillleaux
-    - Carlisle Rainey
-  date: 2014-12-01
-  year: 2014
-  journal: "<em>State Politics and Policy Quarterly</em>"
-  pdf: "../papers/need.pdf"
-  appendix: "../papers/need-appendix.pdf"
-  pubclosed: "https://journals.sagepub.com/doi/full/10.1177/1532440014561644"
-  dataverse: "http://dx.doi.org/10.15139/S3/12130"
-  categories:
-    - American Politics
-    - Public Policy
-    - Medicaid Expansion
-    - Partisanship
-
-- title: "Arguing for a Negligible Effect"
-  type: "Published"
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/reactive-atypia/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_reactive-atypia.png
+- stainname: cervix-SCC
+  reponame: cervix-SCC
+  titleTR: ''
+  titleEN: ''
+  type: published
   author:
-    - Carlisle Rainey
-  date: 2014-03-07
-  year: 2014
-  journal: "<em>American Journal of Political Science</em>"
-  pdf: "../papers/nme.pdf"
-  appendix: "../papers/nme-appendix.pdf"
-  pubclosed: "https://doi.org/10.1111/ajps.12102"
-  dataverse: "https://doi.org/10.7910/DVN/23818"
-  categories:
-    - Political Methodology
-    - Quantites of Interest
-    - Substantive Significance
-    - Equivalence Testing
-    - Hypothesis Testing
-
-- title: "The Question(s) of Political Knowledge"
-  type: "Published"
-  date: 2014-11-20
-  year: 2014
-  pdf: "../papers/quadrants.pdf"
-  pubclosed: "http://dx.doi.org/10.1017/S0003055414000392"
-  journal: "<em>American Political Science Review</em>"
-  dataverse: "http://dx.doi.org/10.7910/DVN/27572"
-  doi: "10.1017/S0003055414000392"
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/cervix-SCC/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cervix-SCC.png
+- stainname: chronicpyelonephritis1
+  reponame: chronicpyelonephritis
+  titleTR: ''
+  titleEN: ''
+  type: published
   author:
-    - Jason Barabas
-    - Jennifer Jerit
-    - William Pollock
-    - Carlisle Rainey
-  categories:
-    - Hierachical Modeling
-    - Political Knowledge
-    - American Politics
-    - Political Behavior
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/chronicpyelonephritis/HE1.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronicpyelonephritis1.png
+- stainname: chronicpyelonephritis2
+  reponame: chronicpyelonephritis
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/chronicpyelonephritis/HE2.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronicpyelonephritis2.png
+- stainname: chronic-pyelonephritis
+  reponame: chronic-pyelonephritis
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/chronic-pyelonephritis/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronic-pyelonephritis.png
+- stainname: brain-arteriovenous-malformation
+  reponame: brain-arteriovenous-malformation
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-arteriovenous-malformation.png
+- stainname: colon-submucosal-lipoma
+  reponame: colon-submucosal-lipoma
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_colon-submucosal-lipoma.png
+- stainname: mucinous-adenocarcinoma-colon
+  reponame: mucinous-adenocarcinoma-colon
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_mucinous-adenocarcinoma-colon.png
+- stainname: colon-adenocarcinoma
+  reponame: colon-adenocarcinoma
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_colon-adenocarcinoma.png
+- stainname: colon-adenocarcinoma2
+  reponame: colon-adenocarcinoma
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_colon-adenocarcinoma2.png
+- stainname: colon-adenocarcinoma3
+  reponame: colon-adenocarcinoma
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_colon-adenocarcinoma3.png
+- stainname: congestion-spleen
+  reponame: congestion-spleen
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/congestion-spleen/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_congestion-spleen.png
+- stainname: crohn-colonoscopic-biopsy-all
+  reponame: crohn-colonoscopic-biopsy
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/all.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_crohn-colonoscopic-biopsy-all.png
+- stainname: crohn-colonoscopic-biopsy1
+  reponame: crohn-colonoscopic-biopsy
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE1.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_crohn-colonoscopic-biopsy1.png
+- stainname: crohn-colonoscopic-biopsy2
+  reponame: crohn-colonoscopic-biopsy
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE2.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_crohn-colonoscopic-biopsy2.png
+- stainname: crohn-colonoscopic-biopsy3
+  reponame: crohn-colonoscopic-biopsy
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE3.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_crohn-colonoscopic-biopsy3.png
+- stainname: crohn-colonoscopic-biopsy4
+  reponame: crohn-colonoscopic-biopsy
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE4.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_crohn-colonoscopic-biopsy4.png
+- stainname: celiac-disease
+  reponame: celiac-disease
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/celiac-disease/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_celiac-disease.png
+- stainname: cholesteatoma-cholesteatoma
+  reponame: cholesteatoma
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/cholesteatoma/cholesteatoma.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cholesteatoma-cholesteatoma.png
+- stainname: cholesteatoma
+  reponame: cholesteatoma
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/cholesteatoma/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cholesteatoma.png
+- stainname: extramuralvenousinvasion
+  reponame: extramuralvenousinvasion
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/extramuralvenousinvasion/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_extramuralvenousinvasion.png
+- stainname: extramuralvenousinvasion2
+  reponame: extramuralvenousinvasion
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/extramuralvenousinvasion/HE2.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_extramuralvenousinvasion2.png
+- stainname: extramural-venous-invasion
+  reponame: extramural-venous-invasion
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_extramural-venous-invasion.png
+- stainname: endometriosis
+  reponame: endometriosis
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/endometriosis/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_endometriosis.png
+- stainname: endometrial-polyp
+  reponame: endometrial-polyp
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/endometrial-polyp/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_endometrial-polyp.png
+- stainname: erosion
+  reponame: erosion
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/erosion/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_erosion.png
+- stainname: granular-cell-tumor
+  reponame: granular-cell-tumor
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/granular-cell-tumor/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_granular-cell-tumor.png
+- stainname: ochronosis
+  reponame: ochronosis
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/ochronosis/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ochronosis.png
+- stainname: pancreaticadenocarcinoma-case1-histopathology/viewer_z0
+  reponame: pancreaticadenocarcinoma
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/pancreaticadenocarcinoma/case1-histopathology/viewer_z0.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_pancreaticadenocarcinoma-case1-histopathology/viewer_z0.png
+- stainname: lecture1-Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji
+  reponame: lecture1
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/lecture1/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lecture1-Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.png
+- stainname: ectopic-adrenal
+  reponame: ectopic-adrenal
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/ectopic-adrenal/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ectopic-adrenal.png
+- stainname: candidaalbicans-cervicovaginalsmear/viewer_z0
+  reponame: candidaalbicans
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_candidaalbicans-cervicovaginalsmear/viewer_z0.png
+- stainname: brain-mucormycosis
+  reponame: brain-mucormycosis
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/brain-mucormycosis/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-mucormycosis.png
+- stainname: brain-mucormycosis-GMS
+  reponame: brain-mucormycosis
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-mucormycosis-GMS.png
+- stainname: gallbladder-adenomyoma
+  reponame: gallbladder-adenomyoma
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_gallbladder-adenomyoma.png
+- stainname: ischemia-gangrenous-cholecystitis
+  reponame: ischemia-gangrenous-cholecystitis
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ischemia-gangrenous-cholecystitis.png
+- stainname: lymphocytic-gastritis-all
+  reponame: lymphocytic-gastritis
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-all.png
+- stainname: lymphocytic-gastritis
+  reponame: lymphocytic-gastritis
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis.png
+- stainname: lymphocytic-gastritis-CD3
+  reponame: lymphocytic-gastritis
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/lymphocytic-gastritis/CD3.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-CD3.png
+- stainname: lymphocytic-gastritis-CD8
+  reponame: lymphocytic-gastritis
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/lymphocytic-gastritis/CD8.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-CD8.png
+- stainname: lymphocytic-gastritis-CD20
+  reponame: lymphocytic-gastritis
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/lymphocytic-gastritis/CD20.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-CD20.png
+- stainname: GBD1
+  reponame: GBD1
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/GBD1/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_GBD1.png
+- stainname: GBD2
+  reponame: GBD2
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/GBD2/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_GBD2.png
+- stainname: GBD
+  reponame: GBD
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/GBD/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_GBD.png
+- stainname: GBD3
+  reponame: GBD3
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/GBD3/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_GBD3.png
+- stainname: high-grade-glioma-squash
+  reponame: high-grade-glioma-squash
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_high-grade-glioma-squash.png
+- stainname: necrotisinggranuloma
+  reponame: necrotisinggranuloma
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_necrotisinggranuloma.png
+- stainname: intrapancreaticspleen
+  reponame: intrapancreaticspleen
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_intrapancreaticspleen.png
+- stainname: pituitary-adenoma
+  reponame: pituitary-adenoma
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/pituitary-adenoma/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_pituitary-adenoma.png
+- stainname: hodgkin
+  reponame: hodgkin
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/hodgkin/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_hodgkin.png
+- stainname: cholesterolpolyp
+  reponame: cholesterolpolyp
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/cholesterolpolyp/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cholesterolpolyp.png
+- stainname: glycogenstorage
+  reponame: glycogenstorage
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/glycogenstorage/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_glycogenstorage.png
+- stainname: glycogenstorage-PAS
+  reponame: glycogenstorage
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/glycogenstorage/PAS.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_glycogenstorage-PAS.png
+- stainname: glycogenstorage-PASD
+  reponame: glycogenstorage
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/glycogenstorage/PASD.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_glycogenstorage-PASD.png
+- stainname: anthracosis
+  reponame: anthracosis
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/anthracosis/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_anthracosis.png
+- stainname: anthracosis2
+  reponame: anthracosis
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/anthracosis/HE2.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_anthracosis2.png
+- stainname: melanosiscoli
+  reponame: melanosiscoli
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/melanosiscoli/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_melanosiscoli.png
+- stainname: melanosiscoli-PAS
+  reponame: melanosiscoli
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/melanosiscoli/PAS.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_melanosiscoli-PAS.png
+- stainname: ICE1-WDNET-duodenum
+  reponame: ICE1-WDNET-duodenum
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/ICE1-WDNET-duodenum/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ICE1-WDNET-duodenum.png
+- stainname: fat-necrosis
+  reponame: fat-necrosis
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/fat-necrosis/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fat-necrosis.png
+- stainname: hepatocellularcarcinoma-HCC/viewer_z0
+  reponame: hepatocellularcarcinoma
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/hepatocellularcarcinoma/HCC/viewer_z0.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_hepatocellularcarcinoma-HCC/viewer_z0.png
+- stainname: fibrolamellarpatocellular-carcinoma1
+  reponame: fibrolamellarpatocellular-carcinoma
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/fibrolamellarpatocellular-carcinoma/HE1.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fibrolamellarpatocellular-carcinoma1.png
+- stainname: fibrolamellarpatocellular-carcinoma2
+  reponame: fibrolamellarpatocellular-carcinoma
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/fibrolamellarpatocellular-carcinoma/HE2.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fibrolamellarpatocellular-carcinoma2.png
+- stainname: fibrolamellarpatocellular-carcinoma3
+  reponame: fibrolamellarpatocellular-carcinoma
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/fibrolamellarpatocellular-carcinoma/HE3.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fibrolamellarpatocellular-carcinoma3.png
+- stainname: fibrolamellarpatocellular-carcinoma4
+  reponame: fibrolamellarpatocellular-carcinoma
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/fibrolamellarpatocellular-carcinoma/HE4.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fibrolamellarpatocellular-carcinoma4.png
+- stainname: pleomorphism
+  reponame: pleomorphism
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/pleomorphism/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_pleomorphism.png
+- stainname: brain-invasive-meningioma
+  reponame: brain-invasive-meningioma
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-invasive-meningioma.png
+- stainname: brain-invasive-meningioma}
+  reponame: brain-invasive-meningioma}
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/brain-invasive-meningioma}/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-invasive-meningioma}.png
+- stainname: meningioma-bone-infiltration
+  reponame: meningioma-bone-infiltration
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_meningioma-bone-infiltration.png
+- stainname: meningioma-bone-infiltration}
+  reponame: meningioma-bone-infiltration}
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/meningioma-bone-infiltration}/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_meningioma-bone-infiltration}.png
+- stainname: abdominal-mesothelioma
+  reponame: abdominal-mesothelioma
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_abdominal-mesothelioma.png
+- stainname: metaplasia
+  reponame: metaplasia
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/metaplasia/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_metaplasia.png
+- stainname: metaplasia_annotated
+  reponame: metaplasia
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/metaplasia/HE_annotated.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_metaplasia_annotated.png
+- stainname: metaplasia-trypsin
+  reponame: metaplasia
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/metaplasia/trypsin.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_metaplasia-trypsin.png
+- stainname: metaplasia_annotated3
+  reponame: metaplasia
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/metaplasia/HE_annotated3.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_metaplasia_annotated3.png
+- stainname: metastaticsarcoma
+  reponame: metastaticsarcoma
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/metastaticsarcoma/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_metastaticsarcoma.png
+- stainname: insidious-lymph-node-metastasis
+  reponame: insidious-lymph-node-metastasis
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_insidious-lymph-node-metastasis.png
+- stainname: insidious-lymph-node-metastasis-OSKARCK
+  reponame: insidious-lymph-node-metastasis
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/OSKARCK.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_insidious-lymph-node-metastasis-OSKARCK.png
+- stainname: gastritis-cystica-profunda
+  reponame: gastritis-cystica-profunda
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/gastritis-cystica-profunda/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_gastritis-cystica-profunda.png
+- stainname: nasopharynx-nonkeratinizing-scc
+  reponame: nasopharynx-nonkeratinizing-scc
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_nasopharynx-nonkeratinizing-scc.png
+- stainname: nasopharynx-nonkeratinizing-scc-panCK
+  reponame: nasopharynx-nonkeratinizing-scc
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/panCK.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_nasopharynx-nonkeratinizing-scc-panCK.png
+- stainname: nasopharynx-nonkeratinizing-scc-p63
+  reponame: nasopharynx-nonkeratinizing-scc
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/p63.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_nasopharynx-nonkeratinizing-scc-p63.png
+- stainname: nasopharynx-nonkeratinizing-scc-EBER
+  reponame: nasopharynx-nonkeratinizing-scc
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/EBER.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_nasopharynx-nonkeratinizing-scc-EBER.png
+- stainname: neuroendocrine-cytology-giemsa
+  reponame: neuroendocrine-cytology
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/neuroendocrine-cytology/giemsa.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_neuroendocrine-cytology-giemsa.png
+- stainname: enterobius-vermicularis
+  reponame: enterobius-vermicularis
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_enterobius-vermicularis.png
+- stainname: PDAC-tru-cut1
+  reponame: PDAC-tru-cut
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_PDAC-tru-cut1.png
+- stainname: PDAC-tru-cut2
+  reponame: PDAC-tru-cut
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_PDAC-tru-cut2.png
+- stainname: PDAC-tru-cut3
+  reponame: PDAC-tru-cut
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_PDAC-tru-cut3.png
+- stainname: chorioamnionitis
+  reponame: chorioamnionitis
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/chorioamnionitis/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chorioamnionitis.png
+- stainname: benign-prostate-hyperplasia
+  reponame: benign-prostate-hyperplasia
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/benign-prostate-hyperplasia/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_benign-prostate-hyperplasia.png
+- stainname: fibrosis
+  reponame: fibrosis
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/fibrosis/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fibrosis.png
+- stainname: keloid-scar
+  reponame: keloid-scar
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/keloid-scar/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_keloid-scar.png
+- stainname: mammary-analogue-secretory-carcinoma1
+  reponame: mammary-analogue-secretory-carcinoma
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_mammary-analogue-secretory-carcinoma1.png
+- stainname: mammary-analogue-secretory-carcinoma
+  reponame: mammary-analogue-secretory-carcinoma
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_mammary-analogue-secretory-carcinoma.png
+- stainname: mammary-analogue-secretory-carcinoma2
+  reponame: mammary-analogue-secretory-carcinoma
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_mammary-analogue-secretory-carcinoma2.png
+- stainname: mucin-mucicarmine
+  reponame: mucin
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/mucin/mucicarmine.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_mucin-mucicarmine.png
+- stainname: her2-cish-cish
+  reponame: her2-cish
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/her2-cish/cish.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_her2-cish-cish.png
+- stainname: tumor-spread-cervix
+  reponame: tumor-spread
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/tumor-spread/HE-cervix.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_tumor-spread-cervix.png
+- stainname: tumor-spread-endometrium
+  reponame: tumor-spread
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_tumor-spread-endometrium.png
+- stainname: tumor-spread-over
+  reponame: tumor-spread
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/tumor-spread/HE-over.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_tumor-spread-over.png
+- stainname: tumor-spread-small-intestine
+  reponame: tumor-spread
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_tumor-spread-small-intestine.png
+- stainname: venous-invasion
+  reponame: venous-invasion
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/venous-invasion/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_venous-invasion.png
+- stainname: HSVrpesesophagitis/viewer_z0
+  reponame: HSV
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_HSVrpesesophagitis/viewer_z0.png
+- stainname: molluscum-contagiosum
+  reponame: molluscum-contagiosum
+  titleTR: ''
+  titleEN: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopatholohy
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_molluscum-contagiosum.png
+
 
 

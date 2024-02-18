@@ -49,6 +49,77 @@ webpages <- df_links %>%
 
 write(x = webpages, file = "./webpages.txt")
 
+yaml_preparation_file <- df_links %>%
+  dplyr::select(links) %>%
+  dplyr::filter(!is.na(links)) %>%
+  dplyr::distinct()
+
+yaml_preparation_file <- yaml_preparation_file %>%
+# remove https://images.patolojiatlasi.com/ from the links
+  dplyr::mutate(
+    repo = stringr::str_replace(string = links,
+                                 pattern = "https://images.patolojiatlasi.com/",
+                                 replacement = "")
+  ) %>%
+  dplyr::mutate(
+    stainname = stringr::str_replace(string = repo,
+                                     pattern = "/",
+                                     replacement = "-")
+  ) %>%
+  dplyr::mutate(
+    stainname = stringr::str_replace(string = stainname,
+                                     pattern = ".html",
+                                     replacement = "")
+  ) %>%
+# extract repo name from the repo up to first forward slash
+  dplyr::mutate(
+    reponame = stringr::str_extract(string = repo,
+                                pattern = ".*?\\/")
+  ) %>%
+  dplyr::mutate(
+    reponame = stringr::str_replace(string = reponame,
+                                 pattern = "/",
+                                 replacement = "")
+  ) %>%
+  dplyr::mutate(
+    screenshot = paste0("https://www.patolojiatlasi.com/screenshots/thumbnail_",
+                        stainname, ".png")
+  )
+
+
+
+
+yaml_data <- lapply(1:nrow(yaml_preparation_file), function(i) {
+  list(stainname = yaml_preparation_file$stainname[i],
+       reponame = yaml_preparation_file$reponame[i],
+       titleTR = "",
+       titleEN = "",
+       organ = "",
+       speciality = "",
+       type = "published",
+       author = list("Serdar Balci", "Memorial Patoloji"),
+       date = as.character(Sys.Date()),
+       url = yaml_preparation_file$links[i],
+       note = "",
+       categoriesTR = list("", "", "", "patoloji", "atlas", "histopatoloji", "whole slide image"),
+       categoriesEN = list("", "", "", "pathology", "atlas", "histopatholohy", "whole slide image"),
+       screenshot = yaml_preparation_file$screenshot[i]
+       )
+})
+
+
+
+
+
+yaml_string <- yaml::as.yaml(yaml_data)
+
+cat(yaml_string)
+
+yaml_file <- "lists/yaml_preparation_file.yaml"
+
+writeLines(yaml_string, yaml_file)
+
+
 
 
 js_array <- paste0('var webPages = [', paste0('"', webpages, '"', collapse = ", "), '];')
