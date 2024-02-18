@@ -77,7 +77,19 @@ jobs:
       #   env:
       #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
 
-      - uses: r-lib/actions/setup-r-dependencies@v2
+
+      - name: "Setup R dependencies"
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages:
+            cran::remotes
+            any::renv
+            any::rmarkdown
+            any::quarto
+            any::fs
+            any::xfun
+            any::tinytex
+            any::readxl
 
 
       - name: Restore R package cache
