@@ -78,24 +78,28 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
 
-      - name: Restore R package cache
-        uses: actions/cache@v3
-        with:
-          path: ${{ env.R_LIBS_USER }}
-          key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
-          restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
 
-#
-#       - name: "Install R Packages: Cache packages"
+      # - name: Restore R package cache
       #   uses: actions/cache@v3
       #   with:
-      #     path: ${{ env.RENV_PATHS_ROOT }}
-      #     key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-renv-
+      #     path: ${{ env.R_LIBS_USER }}
+      #     key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
+      #     restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
 
 
-      - name: Install R dependencies
+
+      - name: "Install R Packages: Cache packages"
+        uses: actions/cache@v3
+        with:
+          path: ${{ env.RENV_PATHS_ROOT }}
+          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-renv-
+
+
+
+
+      - name: "Install R dependencies"
         run: |
             if (!requireNamespace("remotes", quietly = TRUE)) {install.packages("remotes", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
             remotes::install_deps(dependencies = TRUE)
