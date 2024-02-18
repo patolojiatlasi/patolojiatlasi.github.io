@@ -80,17 +80,6 @@ jobs:
 
       - name: "Setup R dependencies"
         uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          packages:
-            cran::remotes
-            # any::renv
-            any::rmarkdown
-            any::quarto
-            any::fs
-            any::xfun
-            any::tinytex
-            any::readxl
-
 
       - name: Restore R package cache
         uses: actions/cache@v4
