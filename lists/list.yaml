@@ -61,8 +61,8 @@
   youtube: ''
 - stainname: amyloid-crystalviolet
   reponame: amyloid
-  titleTR: ''
-  titleEN: ''
+  titleTR: Amiloid (Kristal Violet)
+  titleEN: Amyloid (Crystal Violet)
   type: published
   author:
   - Serdar Balci
@@ -116,34 +116,6 @@
   - histopatholohy
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_congored-congored.png
-- stainname: '{{template}}-{{stain}}'
-  reponame: '{{template}}'
-  titleTR: ''
-  titleEN: ''
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-02-18'
-  url: https://images.patolojiatlasi.com/{{template}}/{{stain}}.html
-  note: ''
-  categoriesTR:
-  - ''
-  - ''
-  - ''
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  categoriesEN:
-  - ''
-  - ''
-  - ''
-  - pathology
-  - atlas
-  - histopatholohy
-  - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_{{template}}-{{stain}}.png
 - stainname: ampullary-adenocarcinoma-HE
   reponame: ampullary-adenocarcinoma
   titleTR: ''

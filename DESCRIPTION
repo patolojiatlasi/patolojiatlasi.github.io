@@ -43,7 +43,8 @@ Imports:
     purrr,
     webshot2,
     readxl,
-    qrcode
+    qrcode,
+    yaml
 Remotes:
     duncantl/XMLRPC,
     duncantl/RWordPress

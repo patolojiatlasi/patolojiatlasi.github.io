@@ -40,6 +40,13 @@ df_links <- data.frame(
   explanation = explanation_list
   )
 
+df_links <- df_links %>%
+  dplyr::filter(
+    !(stringr::str_detect(string = links,
+                        pattern = "template")
+    )
+  )
+
 
 webpages <- df_links %>%
   dplyr::select(links) %>%
