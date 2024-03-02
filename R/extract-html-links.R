@@ -106,23 +106,47 @@ yaml_data <- lapply(1:nrow(yaml_preparation_file), function(i) {
        screenshot = yaml_preparation_file$screenshot[i],
        githubrepo = paste0("https:///github.com/pathologyatlas/", yaml_preparation_file$reponame[i]),
        githubpage = paste0("https:///pathologyatlas.github.io/", yaml_preparation_file$reponame[i]),
-       youtube = "",
+       youtube = ""
        )
 })
 
 
-
-
-
 yaml_string <- yaml::as.yaml(yaml_data)
 
-cat(yaml_string)
+# cat(yaml_string)
 
 yaml_file <- "lists/yaml_preparation_file.yaml"
 
 writeLines(yaml_string, yaml_file)
 
 
+original_content <- yaml::yaml.load_file("lists/yaml_preparation_file.yaml")
+update_content <- yaml::yaml.load_file("lists/list.yaml")
+
+
+update_yaml_entries <- function(original, update) {
+  for (update_entry in update) {
+    matched_index <- NULL
+    for (i in seq_along(original)) {
+      if (original[[i]]$stainname == update_entry$stainname) {
+        matched_index <- i
+        break
+      }
+    }
+    if (!is.null(matched_index)) {
+      # Update the matched entry with the new values
+      original[[matched_index]] <- update_entry
+    } else {
+      # If no match is found, append the new entry to the original list
+      original <- c(original, list(update_entry))
+    }
+  }
+  return(original)
+}
+
+updated_content <- update_yaml_entries(original_content, update_content)
+
+yaml::write_yaml(updated_content, "lists/list.yaml")
 
 
 js_array <- paste0('var webPages = [', paste0('"', webpages, '"', collapse = ", "), '];')
