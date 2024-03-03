@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.5.22">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-03-02">
+<meta name="dcterms.date" content="2024-03-03">
 <meta name="description" content="technique, teknik, patoloji, atlas, pathology, whole slide image">
 
-<title>Histopathology Atlas - 1&nbsp; Techniques Used in Pathology</title>
+<title>Histopathology Atlas – 1&nbsp; Techniques Used in Pathology</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -887,6 +887,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#seed" id="toc-seed" class="nav-link" data-scroll-target="#seed"><span class="header-section-number">2</span> seed</a>
   <ul class="collapse">
   <li><a href="#sec-seed" id="toc-sec-seed" class="nav-link" data-scroll-target="#sec-seed"><span class="header-section-number">2.1</span> seed - seed, food remnant</a></li>
+  <li><a href="#sec-trypsin" id="toc-sec-trypsin" class="nav-link" data-scroll-target="#sec-trypsin"><span class="header-section-number">2.2</span> trypsin - trypsin immunohistochemistry</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -913,7 +914,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 2, 2024</p>
+      <p class="date">March 3, 2024</p>
     </div>
   </div>
   
@@ -1031,6 +1032,47 @@ Click for Diagnosis
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>seed, food remnant</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section id="sec-trypsin" class="level2 cell" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="sec-trypsin"><span class="header-section-number">2.2</span> trypsin - trypsin immunohistochemistry</h2>
+</section>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-5-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-1" role="tab" aria-controls="tabset-5-1" aria-selected="true">WSI - Link</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-2" role="tab" aria-controls="tabset-5-2" aria-selected="false">WSI</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-3" role="tab" aria-controls="tabset-5-3" aria-selected="false">Diagnosis</a></li></ul>
+<div class="tab-content">
+<div id="tabset-5-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-5-1-tab">
+<div class="cell">
+<p><strong>trypsin immunohistochemistry</strong></p>
+<p><a href="https://images.patolojiatlasi.com/trypsin/trypsin.html"><img src="./screenshots/thumbnail_trypsin-trypsin.png" class="img-fluid" style="width:25.0%" alt="Click for Full Screen WSI"></a> <a href="https://images.patolojiatlasi.com/trypsin/trypsin.html">Click for Full Screen WSI</a></p>
+</div>
+</div>
+<div id="tabset-5-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-2-tab">
+<div class="cell">
+<p>See Microscopy with viewer:</p>
+<iframe src="https://images.patolojiatlasi.com/trypsin/trypsin.html" style="height:600px;width:100%;" data-external="1">
+</iframe>
+</div>
+</div>
+<div id="tabset-5-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-3-tab">
+<div class="cell">
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Click for Diagnosis
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>trypsin immunohistochemistry</p>
 </div>
 </div>
 </div>
@@ -1277,6 +1319,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
           // target, if specified
           link.setAttribute("target", "_blank");
           if (link.getAttribute("rel") === null) {
@@ -1320,7 +1367,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
