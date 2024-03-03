@@ -1,3 +1,35 @@
+
+- stainname: trypsin-trypsin
+  reponame: trypsin
+  titleTR: trypsin immünohistokimya
+  titleEN: trypsin immunohistochemistry
+  organ: pancreas
+  speciality: pancreatobiliary
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-03-02'
+  url: https://images.patolojiatlasi.com/trypsin/trypsin.html
+  note: ''
+  categoriesTR:
+  - teknik
+  - immünohistokimya
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - technique
+  - immunohistochemistry
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_trypsin-trypsin.png
+  github: https:///github.com/pathologyatlas/trypsin
+  githubpage: https://pathologyatlas.github.io/trypsin
+  youtube: ''
 - stainname: acute-appendicitis-HE
   reponame: acute-appendicitis
   titleTR: Akut appandisit
@@ -23,7 +55,7 @@
   - inflammation
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_acute-appendicitis.png
 - stainname: myxoidliposarcoma-HE
@@ -53,7 +85,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_myxoidliposarcoma-HE.png
   githubrepo: https:///github.com/pathologyatlas/myxoidliposarcoma
@@ -85,7 +117,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_amyloid-crystalviolet.png
 - stainname: congored-congored
@@ -113,7 +145,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_congored-congored.png
 - stainname: ampullary-adenocarcinoma-HE
@@ -143,7 +175,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ampullary-adenocarcinoma-HE.png
   githubrepo: https:///github.com/pathologyatlas/ampullary-adenocarcinoma
@@ -176,7 +208,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_WDNET-ampulla-HE.png
   githubrepo: https:///github.com/pathologyatlas/WDNET-ampulla
@@ -209,7 +241,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_helicobacterpylori-HE.png
   githubrepo: https:///github.com/pathologyatlas/helicobacterpylori
@@ -240,7 +272,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_helicobacterpylori-warthinstarry.png
 - stainname: helicobacterpylori-giemsa
@@ -268,7 +300,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_helicobacterpylori-giemsa.png
 - stainname: helicobacterpylori-IHC
@@ -296,7 +328,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_helicobacterpylori-IHC.png
 - stainname: liver-hemangioma-HE
@@ -326,7 +358,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_liver-hemangioma-HE.png
   githubrepo: https:///github.com/pathologyatlas/liver-hemangioma
@@ -359,7 +391,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_kidneyoncocytoma-HE.png
   githubrepo: https:///github.com/pathologyatlas/kidneyoncocytoma
@@ -390,7 +422,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_exostosis-oc.png
 - stainname: exostosis-oc001
@@ -418,7 +450,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_exostosis-oc001.png
 - stainname: exostosis-oc002
@@ -446,7 +478,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_exostosis-oc002.png
 - stainname: exostosis-HE
@@ -476,7 +508,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_exostosis-HE.png
   githubrepo: https:///github.com/pathologyatlas/exostosis
@@ -509,7 +541,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_carcinogenesis-HE.png
   githubrepo: https:///github.com/pathologyatlas/carcinogenesis
@@ -542,7 +574,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_reactive-atypia-HE.png
   githubrepo: https:///github.com/pathologyatlas/reactive-atypia
@@ -575,7 +607,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cervix-SCC-HE.png
   githubrepo: https:///github.com/pathologyatlas/cervix-SCC
@@ -608,7 +640,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronicpyelonephritis-HE1.png
   githubrepo: https:///github.com/pathologyatlas/chronicpyelonephritis
@@ -641,7 +673,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronicpyelonephritis-HE2.png
   githubrepo: https:///github.com/pathologyatlas/chronicpyelonephritis
@@ -674,7 +706,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronic-pyelonephritis-HE.png
   githubrepo: https:///github.com/pathologyatlas/chronic-pyelonephritis
@@ -707,7 +739,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-arteriovenous-malformation-HE.png
   githubrepo: https:///github.com/pathologyatlas/brain-arteriovenous-malformation
@@ -740,7 +772,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_colon-submucosal-lipoma-HE.png
   githubrepo: https:///github.com/pathologyatlas/colon-submucosal-lipoma
@@ -773,7 +805,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_mucinous-adenocarcinoma-colon-HE.png
   githubrepo: https:///github.com/pathologyatlas/mucinous-adenocarcinoma-colon
@@ -806,7 +838,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_colon-adenocarcinoma-HE.png
   githubrepo: https:///github.com/pathologyatlas/colon-adenocarcinoma
@@ -839,7 +871,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_colon-adenocarcinoma-HE2.png
   githubrepo: https:///github.com/pathologyatlas/colon-adenocarcinoma
@@ -872,7 +904,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_colon-adenocarcinoma-HE3.png
   githubrepo: https:///github.com/pathologyatlas/colon-adenocarcinoma
@@ -905,7 +937,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_congestion-spleen-HE.png
   githubrepo: https:///github.com/pathologyatlas/congestion-spleen
@@ -936,7 +968,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_crohn-colonoscopic-biopsy-all.png
 - stainname: crohn-colonoscopic-biopsy-HE1
@@ -966,7 +998,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_crohn-colonoscopic-biopsy-HE1.png
   githubrepo: https:///github.com/pathologyatlas/crohn-colonoscopic-biopsy
@@ -999,7 +1031,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_crohn-colonoscopic-biopsy-HE2.png
   githubrepo: https:///github.com/pathologyatlas/crohn-colonoscopic-biopsy
@@ -1032,7 +1064,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_crohn-colonoscopic-biopsy-HE3.png
   githubrepo: https:///github.com/pathologyatlas/crohn-colonoscopic-biopsy
@@ -1065,7 +1097,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_crohn-colonoscopic-biopsy-HE4.png
   githubrepo: https:///github.com/pathologyatlas/crohn-colonoscopic-biopsy
@@ -1098,7 +1130,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_celiac-disease-HE.png
   githubrepo: https:///github.com/pathologyatlas/celiac-disease
@@ -1129,7 +1161,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cholesteatoma-cholesteatoma.png
 - stainname: cholesteatoma-HE
@@ -1159,7 +1191,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cholesteatoma-HE.png
   githubrepo: https:///github.com/pathologyatlas/cholesteatoma
@@ -1192,7 +1224,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_extramuralvenousinvasion-HE.png
   githubrepo: https:///github.com/pathologyatlas/extramuralvenousinvasion
@@ -1225,7 +1257,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_extramuralvenousinvasion-HE2.png
   githubrepo: https:///github.com/pathologyatlas/extramuralvenousinvasion
@@ -1258,7 +1290,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_extramural-venous-invasion-HE.png
   githubrepo: https:///github.com/pathologyatlas/extramural-venous-invasion
@@ -1291,7 +1323,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_endometriosis-HE.png
   githubrepo: https:///github.com/pathologyatlas/endometriosis
@@ -1324,7 +1356,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_endometrial-polyp-HE.png
   githubrepo: https:///github.com/pathologyatlas/endometrial-polyp
@@ -1357,7 +1389,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_erosion-HE.png
   githubrepo: https:///github.com/pathologyatlas/erosion
@@ -1390,7 +1422,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_granular-cell-tumor-HE.png
   githubrepo: https:///github.com/pathologyatlas/granular-cell-tumor
@@ -1423,7 +1455,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ochronosis-HE.png
   githubrepo: https:///github.com/pathologyatlas/ochronosis
@@ -1454,7 +1486,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_pancreaticadenocarcinoma-case1-histopathology/viewer_z0.png
 - stainname: lecture1-Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji
@@ -1482,7 +1514,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lecture1-Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.png
 - stainname: ectopic-adrenal-HE
@@ -1512,7 +1544,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ectopic-adrenal-HE.png
   githubrepo: https:///github.com/pathologyatlas/ectopic-adrenal
@@ -1543,7 +1575,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_candidaalbicans-cervicovaginalsmear/viewer_z0.png
 - stainname: brain-mucormycosis-HE
@@ -1573,7 +1605,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-mucormycosis-HE.png
   githubrepo: https:///github.com/pathologyatlas/brain-mucormycosis
@@ -1604,7 +1636,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-mucormycosis-GMS.png
 - stainname: gallbladder-adenomyoma-HE
@@ -1634,7 +1666,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_gallbladder-adenomyoma-HE.png
   githubrepo: https:///github.com/pathologyatlas/gallbladder-adenomyoma
@@ -1667,7 +1699,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ischemia-gangrenous-cholecystitis-HE.png
   githubrepo: https:///github.com/pathologyatlas/ischemia-gangrenous-cholecystitis
@@ -1698,7 +1730,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-all.png
 - stainname: lymphocytic-gastritis-HE
@@ -1728,7 +1760,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-HE.png
   githubrepo: https:///github.com/pathologyatlas/lymphocytic-gastritis
@@ -1759,7 +1791,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-CD3.png
 - stainname: lymphocytic-gastritis-CD8
@@ -1787,7 +1819,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-CD8.png
 - stainname: lymphocytic-gastritis-CD20
@@ -1815,7 +1847,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-CD20.png
 - stainname: GBD1-HE
@@ -1845,7 +1877,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_GBD1-HE.png
   githubrepo: https:///github.com/pathologyatlas/GBD1
@@ -1878,7 +1910,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_GBD2-HE.png
   githubrepo: https:///github.com/pathologyatlas/GBD2
@@ -1911,7 +1943,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_GBD-HE.png
   githubrepo: https:///github.com/pathologyatlas/GBD
@@ -1944,7 +1976,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_GBD3-HE.png
   githubrepo: https:///github.com/pathologyatlas/GBD3
@@ -1977,7 +2009,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_high-grade-glioma-squash-HE.png
   githubrepo: https:///github.com/pathologyatlas/high-grade-glioma-squash
@@ -2010,7 +2042,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_necrotisinggranuloma-HE.png
   githubrepo: https:///github.com/pathologyatlas/necrotisinggranuloma
@@ -2043,7 +2075,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_intrapancreaticspleen-HE.png
   githubrepo: https:///github.com/pathologyatlas/intrapancreaticspleen
@@ -2076,7 +2108,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_pituitary-adenoma-HE.png
   githubrepo: https:///github.com/pathologyatlas/pituitary-adenoma
@@ -2109,7 +2141,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_hodgkin-HE.png
   githubrepo: https:///github.com/pathologyatlas/hodgkin
@@ -2142,7 +2174,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cholesterolpolyp-HE.png
   githubrepo: https:///github.com/pathologyatlas/cholesterolpolyp
@@ -2175,7 +2207,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_glycogenstorage-HE.png
   githubrepo: https:///github.com/pathologyatlas/glycogenstorage
@@ -2206,7 +2238,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_glycogenstorage-PAS.png
 - stainname: glycogenstorage-PASD
@@ -2234,7 +2266,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_glycogenstorage-PASD.png
 - stainname: anthracosis-HE
@@ -2264,7 +2296,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_anthracosis-HE.png
   githubrepo: https:///github.com/pathologyatlas/anthracosis
@@ -2297,7 +2329,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_anthracosis-HE2.png
   githubrepo: https:///github.com/pathologyatlas/anthracosis
@@ -2330,7 +2362,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_melanosiscoli-HE.png
   githubrepo: https:///github.com/pathologyatlas/melanosiscoli
@@ -2361,7 +2393,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_melanosiscoli-PAS.png
 - stainname: ICE1-WDNET-duodenum-HE
@@ -2391,7 +2423,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ICE1-WDNET-duodenum-HE.png
   githubrepo: https:///github.com/pathologyatlas/ICE1-WDNET-duodenum
@@ -2424,7 +2456,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fat-necrosis-HE.png
   githubrepo: https:///github.com/pathologyatlas/fat-necrosis
@@ -2455,7 +2487,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_hepatocellularcarcinoma-HCC/viewer_z0.png
 - stainname: fibrolamellar-hepatocellular-carcinoma-HE1
@@ -2485,7 +2517,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fibrolamellar-hepatocellular-carcinoma-HE1.png
   githubrepo: https:///github.com/pathologyatlas/fibrolamellar-hepatocellular-carcinoma
@@ -2518,7 +2550,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fibrolamellar-hepatocellular-carcinoma-HE2.png
   githubrepo: https:///github.com/pathologyatlas/fibrolamellar-hepatocellular-carcinoma
@@ -2551,7 +2583,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fibrolamellar-hepatocellular-carcinoma-HE3.png
   githubrepo: https:///github.com/pathologyatlas/fibrolamellar-hepatocellular-carcinoma
@@ -2584,7 +2616,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fibrolamellar-hepatocellular-carcinoma-HE4.png
   githubrepo: https:///github.com/pathologyatlas/fibrolamellar-hepatocellular-carcinoma
@@ -2617,7 +2649,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_pleomorphism-HE.png
   githubrepo: https:///github.com/pathologyatlas/pleomorphism
@@ -2650,7 +2682,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-invasive-meningioma-HE.png
   githubrepo: https:///github.com/pathologyatlas/brain-invasive-meningioma
@@ -2683,7 +2715,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-invasive-meningioma}-HE.png
   githubrepo: https:///github.com/pathologyatlas/brain-invasive-meningioma}
@@ -2716,7 +2748,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_meningioma-bone-infiltration-HE.png
   githubrepo: https:///github.com/pathologyatlas/meningioma-bone-infiltration
@@ -2749,7 +2781,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_meningioma-bone-infiltration}-HE.png
   githubrepo: https:///github.com/pathologyatlas/meningioma-bone-infiltration}
@@ -2782,7 +2814,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_abdominal-mesothelioma-HE.png
   githubrepo: https:///github.com/pathologyatlas/abdominal-mesothelioma
@@ -2815,7 +2847,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_metaplasia-HE.png
   githubrepo: https:///github.com/pathologyatlas/metaplasia
@@ -2848,7 +2880,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_metaplasia-HE_annotated.png
   githubrepo: https:///github.com/pathologyatlas/metaplasia
@@ -2879,7 +2911,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_metaplasia-trypsin.png
 - stainname: metaplasia-HE_annotated3
@@ -2909,7 +2941,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_metaplasia-HE_annotated3.png
   githubrepo: https:///github.com/pathologyatlas/metaplasia
@@ -2942,7 +2974,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_metastaticsarcoma-HE.png
   githubrepo: https:///github.com/pathologyatlas/metastaticsarcoma
@@ -2975,7 +3007,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_insidious-lymph-node-metastasis-HE.png
   githubrepo: https:///github.com/pathologyatlas/insidious-lymph-node-metastasis
@@ -3006,7 +3038,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_insidious-lymph-node-metastasis-OSKARCK.png
 - stainname: gastritis-cystica-profunda-HE
@@ -3036,7 +3068,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_gastritis-cystica-profunda-HE.png
   githubrepo: https:///github.com/pathologyatlas/gastritis-cystica-profunda
@@ -3069,7 +3101,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_nasopharynx-nonkeratinizing-scc-HE.png
   githubrepo: https:///github.com/pathologyatlas/nasopharynx-nonkeratinizing-scc
@@ -3100,7 +3132,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_nasopharynx-nonkeratinizing-scc-panCK.png
 - stainname: nasopharynx-nonkeratinizing-scc-p63
@@ -3128,7 +3160,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_nasopharynx-nonkeratinizing-scc-p63.png
 - stainname: nasopharynx-nonkeratinizing-scc-EBER
@@ -3156,7 +3188,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_nasopharynx-nonkeratinizing-scc-EBER.png
 - stainname: neuroendocrine-cytology-giemsa
@@ -3184,7 +3216,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_neuroendocrine-cytology-giemsa.png
 - stainname: enterobius-vermicularis-HE
@@ -3214,7 +3246,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_enterobius-vermicularis-HE.png
   githubrepo: https:///github.com/pathologyatlas/enterobius-vermicularis
@@ -3247,7 +3279,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_PDAC-tru-cut-HE1.png
   githubrepo: https:///github.com/pathologyatlas/PDAC-tru-cut
@@ -3280,7 +3312,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_PDAC-tru-cut-HE2.png
   githubrepo: https:///github.com/pathologyatlas/PDAC-tru-cut
@@ -3313,7 +3345,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_PDAC-tru-cut-HE3.png
   githubrepo: https:///github.com/pathologyatlas/PDAC-tru-cut
@@ -3346,7 +3378,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chorioamnionitis-HE.png
   githubrepo: https:///github.com/pathologyatlas/chorioamnionitis
@@ -3379,7 +3411,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_benign-prostate-hyperplasia-HE.png
   githubrepo: https:///github.com/pathologyatlas/benign-prostate-hyperplasia
@@ -3412,7 +3444,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fibrosis-HE.png
   githubrepo: https:///github.com/pathologyatlas/fibrosis
@@ -3445,7 +3477,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_keloid-scar-HE.png
   githubrepo: https:///github.com/pathologyatlas/keloid-scar
@@ -3478,7 +3510,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_mammary-analogue-secretory-carcinoma-HE1.png
   githubrepo: https:///github.com/pathologyatlas/mammary-analogue-secretory-carcinoma
@@ -3511,7 +3543,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_mammary-analogue-secretory-carcinoma-HE.png
   githubrepo: https:///github.com/pathologyatlas/mammary-analogue-secretory-carcinoma
@@ -3544,7 +3576,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_mammary-analogue-secretory-carcinoma-HE2.png
   githubrepo: https:///github.com/pathologyatlas/mammary-analogue-secretory-carcinoma
@@ -3575,7 +3607,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_mucin-mucicarmine.png
 - stainname: her2-cish-cish
@@ -3603,7 +3635,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_her2-cish-cish.png
 - stainname: tumor-spread-HE-cervix
@@ -3633,7 +3665,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_tumor-spread-HE-cervix.png
   githubrepo: https:///github.com/pathologyatlas/tumor-spread
@@ -3666,7 +3698,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_tumor-spread-HE-endometrium.png
   githubrepo: https:///github.com/pathologyatlas/tumor-spread
@@ -3699,7 +3731,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_tumor-spread-HE-over.png
   githubrepo: https:///github.com/pathologyatlas/tumor-spread
@@ -3732,7 +3764,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_tumor-spread-HE-small-intestine.png
   githubrepo: https:///github.com/pathologyatlas/tumor-spread
@@ -3765,7 +3797,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_venous-invasion-HE.png
   githubrepo: https:///github.com/pathologyatlas/venous-invasion
@@ -3798,7 +3830,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_HSV-herpesesophagitis/viewer_z0.png
   githubrepo: https:///github.com/pathologyatlas/HSV
@@ -3831,7 +3863,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_molluscum-contagiosum-HE.png
   githubrepo: https:///github.com/pathologyatlas/molluscum-contagiosum
@@ -3883,7 +3915,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_myxoidliposarcoma.png
 - stainname: ampullary-adenocarcinoma
@@ -3911,7 +3943,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ampullary-adenocarcinoma.png
 - stainname: WDNET-ampulla
@@ -3939,7 +3971,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_WDNET-ampulla.png
 - stainname: helicobacterpylori
@@ -3967,7 +3999,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_helicobacterpylori.png
 - stainname: livermangioma
@@ -3995,7 +4027,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_livermangioma.png
 - stainname: kidneyoncocytoma
@@ -4023,7 +4055,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_kidneyoncocytoma.png
 - stainname: exostosis
@@ -4051,7 +4083,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_exostosis.png
 - stainname: carcinogenesis
@@ -4079,7 +4111,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_carcinogenesis.png
 - stainname: reactive-atypia
@@ -4107,7 +4139,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_reactive-atypia.png
 - stainname: cervix-SCC
@@ -4135,7 +4167,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cervix-SCC.png
 - stainname: chronicpyelonephritis1
@@ -4163,7 +4195,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronicpyelonephritis1.png
 - stainname: chronicpyelonephritis2
@@ -4191,7 +4223,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronicpyelonephritis2.png
 - stainname: chronic-pyelonephritis
@@ -4219,7 +4251,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronic-pyelonephritis.png
 - stainname: brain-arteriovenous-malformation
@@ -4247,7 +4279,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-arteriovenous-malformation.png
 - stainname: colon-submucosal-lipoma
@@ -4275,7 +4307,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_colon-submucosal-lipoma.png
 - stainname: mucinous-adenocarcinoma-colon
@@ -4303,7 +4335,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_mucinous-adenocarcinoma-colon.png
 - stainname: colon-adenocarcinoma
@@ -4331,7 +4363,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_colon-adenocarcinoma.png
 - stainname: colon-adenocarcinoma2
@@ -4359,7 +4391,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_colon-adenocarcinoma2.png
 - stainname: colon-adenocarcinoma3
@@ -4387,7 +4419,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_colon-adenocarcinoma3.png
 - stainname: congestion-spleen
@@ -4415,7 +4447,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_congestion-spleen.png
 - stainname: crohn-colonoscopic-biopsy1
@@ -4443,7 +4475,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_crohn-colonoscopic-biopsy1.png
 - stainname: crohn-colonoscopic-biopsy2
@@ -4471,7 +4503,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_crohn-colonoscopic-biopsy2.png
 - stainname: crohn-colonoscopic-biopsy3
@@ -4499,7 +4531,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_crohn-colonoscopic-biopsy3.png
 - stainname: crohn-colonoscopic-biopsy4
@@ -4527,7 +4559,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_crohn-colonoscopic-biopsy4.png
 - stainname: celiac-disease
@@ -4555,7 +4587,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_celiac-disease.png
 - stainname: cholesteatoma
@@ -4583,7 +4615,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cholesteatoma.png
 - stainname: extramuralvenousinvasion
@@ -4611,7 +4643,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_extramuralvenousinvasion.png
 - stainname: extramuralvenousinvasion2
@@ -4639,7 +4671,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_extramuralvenousinvasion2.png
 - stainname: extramural-venous-invasion
@@ -4667,7 +4699,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_extramural-venous-invasion.png
 - stainname: endometriosis
@@ -4695,7 +4727,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_endometriosis.png
 - stainname: endometrial-polyp
@@ -4723,7 +4755,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_endometrial-polyp.png
 - stainname: erosion
@@ -4751,7 +4783,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_erosion.png
 - stainname: granular-cell-tumor
@@ -4779,7 +4811,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_granular-cell-tumor.png
 - stainname: ochronosis
@@ -4807,7 +4839,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ochronosis.png
 - stainname: ectopic-adrenal
@@ -4835,7 +4867,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ectopic-adrenal.png
 - stainname: brain-mucormycosis
@@ -4863,7 +4895,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-mucormycosis.png
 - stainname: gallbladder-adenomyoma
@@ -4891,7 +4923,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_gallbladder-adenomyoma.png
 - stainname: ischemia-gangrenous-cholecystitis
@@ -4919,7 +4951,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ischemia-gangrenous-cholecystitis.png
 - stainname: lymphocytic-gastritis
@@ -4947,7 +4979,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis.png
 - stainname: GBD1
@@ -4975,7 +5007,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_GBD1.png
 - stainname: GBD2
@@ -5003,7 +5035,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_GBD2.png
 - stainname: GBD
@@ -5031,7 +5063,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_GBD.png
 - stainname: GBD3
@@ -5059,7 +5091,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_GBD3.png
 - stainname: high-grade-glioma-squash
@@ -5087,7 +5119,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_high-grade-glioma-squash.png
 - stainname: necrotisinggranuloma
@@ -5115,7 +5147,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_necrotisinggranuloma.png
 - stainname: intrapancreaticspleen
@@ -5143,7 +5175,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_intrapancreaticspleen.png
 - stainname: pituitary-adenoma
@@ -5171,7 +5203,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_pituitary-adenoma.png
 - stainname: hodgkin
@@ -5199,7 +5231,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_hodgkin.png
 - stainname: cholesterolpolyp
@@ -5227,7 +5259,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cholesterolpolyp.png
 - stainname: glycogenstorage
@@ -5255,7 +5287,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_glycogenstorage.png
 - stainname: anthracosis
@@ -5283,7 +5315,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_anthracosis.png
 - stainname: anthracosis2
@@ -5311,7 +5343,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_anthracosis2.png
 - stainname: melanosiscoli
@@ -5339,7 +5371,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_melanosiscoli.png
 - stainname: ICE1-WDNET-duodenum
@@ -5367,7 +5399,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ICE1-WDNET-duodenum.png
 - stainname: fat-necrosis
@@ -5395,7 +5427,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fat-necrosis.png
 - stainname: fibrolamellarpatocellular-carcinoma1
@@ -5423,7 +5455,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fibrolamellarpatocellular-carcinoma1.png
 - stainname: fibrolamellarpatocellular-carcinoma2
@@ -5451,7 +5483,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fibrolamellarpatocellular-carcinoma2.png
 - stainname: fibrolamellarpatocellular-carcinoma3
@@ -5479,7 +5511,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fibrolamellarpatocellular-carcinoma3.png
 - stainname: fibrolamellarpatocellular-carcinoma4
@@ -5507,7 +5539,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fibrolamellarpatocellular-carcinoma4.png
 - stainname: pleomorphism
@@ -5535,7 +5567,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_pleomorphism.png
 - stainname: brain-invasive-meningioma
@@ -5563,7 +5595,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-invasive-meningioma.png
 - stainname: brain-invasive-meningioma}
@@ -5591,7 +5623,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-invasive-meningioma}.png
 - stainname: meningioma-bone-infiltration
@@ -5619,7 +5651,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_meningioma-bone-infiltration.png
 - stainname: meningioma-bone-infiltration}
@@ -5647,7 +5679,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_meningioma-bone-infiltration}.png
 - stainname: abdominal-mesothelioma
@@ -5675,7 +5707,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_abdominal-mesothelioma.png
 - stainname: metaplasia
@@ -5703,7 +5735,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_metaplasia.png
 - stainname: metaplasia_annotated
@@ -5731,7 +5763,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_metaplasia_annotated.png
 - stainname: metaplasia_annotated3
@@ -5759,7 +5791,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_metaplasia_annotated3.png
 - stainname: metastaticsarcoma
@@ -5787,7 +5819,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_metastaticsarcoma.png
 - stainname: insidious-lymph-node-metastasis
@@ -5815,7 +5847,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_insidious-lymph-node-metastasis.png
 - stainname: gastritis-cystica-profunda
@@ -5843,7 +5875,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_gastritis-cystica-profunda.png
 - stainname: nasopharynx-nonkeratinizing-scc
@@ -5871,7 +5903,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_nasopharynx-nonkeratinizing-scc.png
 - stainname: enterobius-vermicularis
@@ -5899,7 +5931,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_enterobius-vermicularis.png
 - stainname: PDAC-tru-cut1
@@ -5927,7 +5959,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_PDAC-tru-cut1.png
 - stainname: PDAC-tru-cut2
@@ -5955,7 +5987,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_PDAC-tru-cut2.png
 - stainname: PDAC-tru-cut3
@@ -5983,7 +6015,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_PDAC-tru-cut3.png
 - stainname: chorioamnionitis
@@ -6011,7 +6043,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chorioamnionitis.png
 - stainname: benign-prostate-hyperplasia
@@ -6039,7 +6071,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_benign-prostate-hyperplasia.png
 - stainname: fibrosis
@@ -6067,7 +6099,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fibrosis.png
 - stainname: keloid-scar
@@ -6095,7 +6127,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_keloid-scar.png
 - stainname: mammary-analogue-secretory-carcinoma1
@@ -6123,7 +6155,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_mammary-analogue-secretory-carcinoma1.png
 - stainname: mammary-analogue-secretory-carcinoma
@@ -6151,7 +6183,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_mammary-analogue-secretory-carcinoma.png
 - stainname: mammary-analogue-secretory-carcinoma2
@@ -6179,7 +6211,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_mammary-analogue-secretory-carcinoma2.png
 - stainname: tumor-spread-cervix
@@ -6207,7 +6239,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_tumor-spread-cervix.png
 - stainname: tumor-spread-endometrium
@@ -6235,7 +6267,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_tumor-spread-endometrium.png
 - stainname: tumor-spread-over
@@ -6263,7 +6295,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_tumor-spread-over.png
 - stainname: tumor-spread-small-intestine
@@ -6291,7 +6323,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_tumor-spread-small-intestine.png
 - stainname: venous-invasion
@@ -6319,7 +6351,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_venous-invasion.png
 - stainname: HSVrpesesophagitis/viewer_z0
@@ -6347,7 +6379,7 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_HSVrpesesophagitis/viewer_z0.png
 - stainname: molluscum-contagiosum
@@ -6375,6 +6407,6 @@
   - ''
   - pathology
   - atlas
-  - histopatholohy
+  - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_molluscum-contagiosum.png
