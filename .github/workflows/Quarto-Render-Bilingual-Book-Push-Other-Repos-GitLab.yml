@@ -8,7 +8,7 @@ jobs:
   quarto-render-and-deploy:
     if: "!contains(github.event.head_commit.message, 'WIP') && !contains(github.event.head_commit.message, 'merge') && !contains(github.event.head_commit.message, 'lecture')"
     runs-on: ubuntu-latest
-    # continue-on-error: true
+    continue-on-error: true
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       R_LIBS_USER: ~/.local/share/R/library
@@ -22,7 +22,10 @@ jobs:
       #   uses: r-lib/actions/setup-pandoc@v2
 
       - name: Install VIPS
-        run: sudo apt-get install -y libvips-tools
+        run: |
+          sudo apt-get update
+          apt-cache search libvips
+          sudo apt-get install -y libvips-tools
 
       - name: Convert Images
         run: |
@@ -30,6 +33,9 @@ jobs:
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: pre-release
+          tinytex: true
         # with:
           # To install LaTeX to build PDF book
           # tinytex: true
