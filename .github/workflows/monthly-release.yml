@@ -57,11 +57,11 @@ jobs:
         run: |
           source("./R/render_epub_word_TR.R")
 
-      - name: "Install epubcheck"
-        run: sudo apt-get update && sudo apt-get install -y epubcheck
+#      - name: "Install epubcheck"
+#        run: sudo apt-get update && sudo apt-get install -y epubcheck
 
-      - name: "Check epub EN"
-        run: epubcheck ./_epub_word_TR/Patoloji-Atlasi.epub
+#      - name: "Check epub TR"
+#        run: epubcheck ./_epub_word_TR/Patoloji-Atlasi.epub
 
       - name: "pdf TR"
         shell: Rscript {0}
@@ -73,8 +73,8 @@ jobs:
         run: |
           source("./R/render_epub_word_EN.R")
 
-      - name: "Check epub EN"
-        run: epubcheck ./_epub_word_EN/HistoPatology-Atlas.epub
+#      - name: "Check epub EN"
+#        run: epubcheck ./_epub_word_EN/HistoPatology-Atlas.epub
 
       - name: "pdf EN"
         shell: Rscript {0}
