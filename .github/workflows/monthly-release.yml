@@ -91,6 +91,7 @@ jobs:
         id: current_date
         run: echo "DATE=$(date +'%Y-%m')" >> $GITHUB_ENV
 
+
       - name: Prepare files list
         id: prep_files
         run: |
@@ -105,10 +106,15 @@ jobs:
               FILES="$FILES$file\n"
             fi
           done
-          echo "::set-output name=files_list::$(echo -e $FILES)"
+          # Use environment file to set the variable
+          echo "FILES_LIST<<EOF" >> $GITHUB_ENV
+          echo -e $FILES >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
 
       - name: Release
         uses: softprops/action-gh-release@v1
+        env:
+          FILES: ${{ env.FILES_LIST }}
         with:
           tag_name: release-${{ env.DATE }}
           release_name: Release for ${{ env.DATE }}
@@ -117,7 +123,7 @@ jobs:
           body: |
             Epub, Word & Pdf generated for the month of ${{ env.DATE }}
           files: |
-            ${{ steps.prep_files.outputs.files_list }}
+            ${{ env.FILES }}
 
 
 #      - name: Release
