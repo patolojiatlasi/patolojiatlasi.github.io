@@ -57,11 +57,12 @@ jobs:
         run: |
           source("./R/render_epub_word_TR.R")
 
-#      - name: "Install epubcheck"
-#        run: sudo apt-get update && sudo apt-get install -y epubcheck
+      - name: "Install epubcheck"
+        run: sudo apt-get update && sudo apt-get install -y epubcheck
 
-#      - name: "Check epub TR"
-#        run: epubcheck ./_epub_word_TR/Patoloji-Atlasi.epub
+      - name: "Check epub TR"
+        run: epubcheck ./_epub_word_TR/Patoloji-Atlasi.epub
+        continue-on-error: true
 
       - name: "pdf TR"
         shell: Rscript {0}
@@ -73,18 +74,34 @@ jobs:
         run: |
           source("./R/render_epub_word_EN.R")
 
-#      - name: "Check epub EN"
-#        run: epubcheck ./_epub_word_EN/HistoPatology-Atlas.epub
+      - name: "Check epub EN"
+        run: epubcheck ./_epub_word_EN/HistoPatology-Atlas.epub
+        continue-on-error: true
 
       - name: "pdf EN"
         shell: Rscript {0}
         run: |
           source("./R/render_pdf_EN.R")
 
-
       - name: Get current date
         id: current_date
         run: echo "DATE=$(date +'%Y-%m')" >> $GITHUB_ENV
+
+      - name: Prepare files list
+        id: prep_files
+        run: |
+          FILES=""
+          for file in ./_epub_word_TR/Patoloji-Atlasi.epub \
+                      ./_epub_word_TR/Patoloji-Atlasi.docx \
+                      ./_pdf_TR/Patoloji-Atlasi.pdf \
+                      ./_epub_word_EN/HistoPatology-Atlas.epub \
+                      ./_epub_word_EN/HistoPatology-Atlas.docx \
+                      ./_pdf_EN/HistoPathology-Atlas.pdf; do
+            if [ -f "$file" ]; then
+              FILES="$FILES$file\n"
+            fi
+          done
+          echo "::set-output name=files_list::$(echo -e $FILES)"
 
       - name: Release
         uses: softprops/action-gh-release@v1
@@ -96,9 +113,23 @@ jobs:
           body: |
             Epub, Word & Pdf generated for the month of ${{ env.DATE }}
           files: |
-            ./_epub_word_TR/Patoloji-Atlasi.epub
-            ./_epub_word_TR/Patoloji-Atlasi.docx
-            ./_pdf_TR/Patoloji-Atlasi.pdf
-            ./_epub_word_EN/HistoPatology-Atlas.epub
-            ./_epub_word_EN/HistoPatology-Atlas.docx
-            ./_pdf_EN/HistoPathology-Atlas.pdf
+            ${{ steps.prep_files.outputs.files_list }}
+
+
+
+#      - name: Release
+#        uses: softprops/action-gh-release@v1
+#        with:
+#          tag_name: release-${{ env.DATE }}
+#          release_name: Release for ${{ env.DATE }}
+#          draft: false
+#          prerelease: false
+#          body: |
+#            Epub, Word & Pdf generated for the month of ${{ env.DATE }}
+#          files: |
+#            ./_epub_word_TR/Patoloji-Atlasi.epub
+#            ./_epub_word_TR/Patoloji-Atlasi.docx
+#            ./_pdf_TR/Patoloji-Atlasi.pdf
+#            ./_epub_word_EN/HistoPatology-Atlas.epub
+#            ./_epub_word_EN/HistoPatology-Atlas.docx
+#            ./_pdf_EN/HistoPathology-Atlas.pdf
