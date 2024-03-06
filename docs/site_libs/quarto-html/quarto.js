@@ -9,7 +9,7 @@ const layoutMarginEls = () => {
   // Find any conflicting margin elements and add margins to the
   // top to prevent overlap
   const marginChildren = window.document.querySelectorAll(
-    ".column-margin.column-container > *, .margin-caption, .aside"
+    ".column-margin.column-container > * "
   );
 
   let lastBottom = 0;
@@ -19,9 +19,7 @@ const layoutMarginEls = () => {
       marginChild.style.marginTop = null;
       const top = marginChild.getBoundingClientRect().top + window.scrollY;
       if (top < lastBottom) {
-        const marginChildStyle = window.getComputedStyle(marginChild);
-        const marginBottom = parseFloat(marginChildStyle["marginBottom"]);
-        const margin = lastBottom - top + marginBottom;
+        const margin = lastBottom - top;
         marginChild.style.marginTop = `${margin}px`;
       }
       const styles = window.getComputedStyle(marginChild);
@@ -35,15 +33,7 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
   // Recompute the position of margin elements anytime the body size changes
   if (window.ResizeObserver) {
     const resizeObserver = new window.ResizeObserver(
-      throttle(() => {
-        layoutMarginEls();
-        if (
-          window.document.body.getBoundingClientRect().width < 990 &&
-          isReaderMode()
-        ) {
-          quartoToggleReader();
-        }
-      }, 50)
+      throttle(layoutMarginEls, 50)
     );
     resizeObserver.observe(window.document.body);
   }
