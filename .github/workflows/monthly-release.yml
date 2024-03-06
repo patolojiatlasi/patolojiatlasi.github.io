@@ -56,6 +56,7 @@ jobs:
         shell: Rscript {0}
         run: |
           source("./R/render_epub_word_TR.R")
+        continue-on-error: true
 
       - name: "Install epubcheck"
         run: sudo apt-get update && sudo apt-get install -y epubcheck
@@ -68,11 +69,13 @@ jobs:
         shell: Rscript {0}
         run: |
           source("./R/render_pdf_TR.R")
+        continue-on-error: true
 
       - name: "epub word EN"
         shell: Rscript {0}
         run: |
           source("./R/render_epub_word_EN.R")
+        continue-on-error: true
 
       - name: "Check epub EN"
         run: epubcheck ./_epub_word_EN/HistoPatology-Atlas.epub
@@ -82,6 +85,7 @@ jobs:
         shell: Rscript {0}
         run: |
           source("./R/render_pdf_EN.R")
+        continue-on-error: true
 
       - name: Get current date
         id: current_date
@@ -116,7 +120,6 @@ jobs:
             ${{ steps.prep_files.outputs.files_list }}
 
 
-
 #      - name: Release
 #        uses: softprops/action-gh-release@v1
 #        with:
@@ -133,3 +136,4 @@ jobs:
 #            ./_epub_word_EN/HistoPatology-Atlas.epub
 #            ./_epub_word_EN/HistoPatology-Atlas.docx
 #            ./_pdf_EN/HistoPathology-Atlas.pdf
+
