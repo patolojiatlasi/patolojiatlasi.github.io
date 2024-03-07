@@ -100,7 +100,8 @@ jobs:
       - name: Prepare and Upload Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG_NAME: ${{ github.ref_name }}
+          TAG_NAME: ${{ env.DATE }}
+#          TAG_NAME: ${{ github.ref_name }}
         run: |
           # Define files to check
           FILES=(
