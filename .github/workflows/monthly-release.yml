@@ -92,38 +92,84 @@ jobs:
         run: echo "DATE=$(date +'%Y-%m')" >> $GITHUB_ENV
 
 
-      - name: Prepare files list
-        id: prep_files
+      - name: Install Dependencies
         run: |
-          FILES=""
-          for file in ./_epub_word_TR/Patoloji-Atlasi.epub \
-                      ./_epub_word_TR/Patoloji-Atlasi.docx \
-                      ./_pdf_TR/Patoloji-Atlasi.pdf \
-                      ./_epub_word_EN/HistoPatology-Atlas.epub \
-                      ./_epub_word_EN/HistoPatology-Atlas.docx \
-                      ./_pdf_EN/HistoPathology-Atlas.pdf; do
-            if [ -f "$file" ]; then
-              FILES="$FILES$file\n"
+          sudo apt-get update
+          sudo apt-get install -y jq curl
+
+      - name: Prepare and Upload Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG_NAME: ${{ github.ref_name }}
+        run: |
+          # Define files to check
+          FILES=(
+            "./_epub_word_TR/Patoloji-Atlasi.epub"
+            "./_epub_word_TR/Patoloji-Atlasi.docx"
+            "./_pdf_TR/Patoloji-Atlasi.pdf"
+            "./_epub_word_EN/HistoPatology-Atlas.epub"
+            "./_epub_word_EN/HistoPatology-Atlas.docx"
+            "./_pdf_EN/HistoPathology-Atlas.pdf"
+          )
+          
+          # Create Release
+          RELEASE_DATA=$(curl -s -X POST -H "Authorization: token $GITHUB_TOKEN" -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/${GITHUB_REPOSITORY}/releases \
+            -d '{
+              "tag_name": "'$TAG_NAME'",
+              "name": "Release for '"$TAG_NAME"'",
+              "body": "Epub, Word & Pdf generated for the month of '"$TAG_NAME"'",
+              "draft": false,
+              "prerelease": false
+            }')
+          UPLOAD_URL=$(echo $RELEASE_DATA | jq -r .upload_url | sed -e "s/{?name,label}//")
+
+          # Upload each existing file
+          for FILE_PATH in "${FILES[@]}"; do
+            if [ -f "$FILE_PATH" ]; then
+              FILE_NAME=$(basename $FILE_PATH)
+              echo "Uploading $FILE_NAME..."
+              curl -s -X POST -H "Authorization: token $GITHUB_TOKEN" -H "Content-Type: application/octet-stream" \
+                -H "Accept: application/vnd.github+json" \
+                --data-binary @"$FILE_PATH" \
+                "${UPLOAD_URL}?name=$(basename $FILE_PATH)"
+            else
+              echo "$FILE_PATH does not exist, skipping."
             fi
           done
-          # Use environment file to set the variable
-          echo "FILES_LIST<<EOF" >> $GITHUB_ENV
-          echo -e $FILES >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
 
-      - name: Release
-        uses: softprops/action-gh-release@v1
-        env:
-          FILES: ${{ env.FILES_LIST }}
-        with:
-          tag_name: release-${{ env.DATE }}
-          release_name: Release for ${{ env.DATE }}
-          draft: false
-          prerelease: false
-          body: |
-            Epub, Word & Pdf generated for the month of ${{ env.DATE }}
-          files: |
-            ${{ env.FILES }}
+#      - name: Prepare files list
+#        id: prep_files
+#        run: |
+#          FILES=""
+#          for file in ./_epub_word_TR/Patoloji-Atlasi.epub \
+#                      ./_epub_word_TR/Patoloji-Atlasi.docx \
+#                      ./_pdf_TR/Patoloji-Atlasi.pdf \
+#                      ./_epub_word_EN/HistoPatology-Atlas.epub \
+#                      ./_epub_word_EN/HistoPatology-Atlas.docx \
+#                      ./_pdf_EN/HistoPathology-Atlas.pdf; do
+#            if [ -f "$file" ]; then
+#              FILES="$FILES$file\n"
+#            fi
+#          done
+#          # Use environment file to set the variable
+#          echo "FILES_LIST<<EOF" >> $GITHUB_ENV
+#          echo -e $FILES >> $GITHUB_ENV
+#          echo "EOF" >> $GITHUB_ENV
+
+#      - name: Release
+#        uses: softprops/action-gh-release@v1
+#        env:
+#          FILES: ${{ env.FILES_LIST }}
+#        with:
+#          tag_name: release-${{ env.DATE }}
+#          release_name: Release for ${{ env.DATE }}
+#          draft: false
+#          prerelease: false
+#          body: |
+#            Epub, Word & Pdf generated for the month of ${{ env.DATE }}
+#          files: |
+#            ${{ env.FILES }}
 
 
 #      - name: Release
