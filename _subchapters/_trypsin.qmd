@@ -19,12 +19,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis trypsin immünohistokimya TR , echo = (language == "TR")}
-## trypsin - trypsin immünohistokimya {#sec-trypsin }
+### trypsin - trypsin immünohistokimya {#sec-trypsin }
 ```
 
 
 ```{asis trypsin immunohistochemistry EN , echo = (language == "EN")}
-## trypsin - trypsin immunohistochemistry {#sec-trypsin }
+### trypsin - trypsin immunohistochemistry {#sec-trypsin }
 ```
 
 
