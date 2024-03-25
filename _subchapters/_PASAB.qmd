@@ -19,12 +19,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis Alcian blue/periodic acid–Schiff TR , echo = (language == "TR")}
-## PASAB - Alcian blue/periodic acid–Schiff {#sec-PASAB }
+#### PASAB - Alcian blue/periodic acid–Schiff {#sec-PASAB }
 ```
 
 
 ```{asis Alcian blue/periodic acid–Schiff EN , echo = (language == "EN")}
-## PASAB - Alcian blue/periodic acid–Schiff {#sec-PASAB }
+#### PASAB - Alcian blue/periodic acid–Schiff {#sec-PASAB }
 ```
 
 

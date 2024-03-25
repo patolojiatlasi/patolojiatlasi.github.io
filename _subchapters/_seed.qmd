@@ -1,15 +1,4 @@
 
-
-
-
-# seed
-
-
-**seed for pathology atlas repositories**
-
-
-
-
 ```{comment}
 ---
 description: |
@@ -30,12 +19,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis bitki tohumu, yiyecek artığı TR , echo = (language == "TR")}
-## seed - bitki tohumu, yiyecek artığı {#sec-seed }
+### seed - bitki tohumu, yiyecek artığı {#sec-seed }
 ```
 
 
 ```{asis seed, food remnant  EN , echo = (language == "EN")}
-## seed - seed, food remnant  {#sec-seed }
+### seed - seed, food remnant  {#sec-seed }
 ```
 
 
