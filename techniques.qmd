@@ -52,6 +52,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
+{{< include ./_subchapters/_cish-her2_EN.qmd >}}
+
+
 
 ```{asis, echo = (language == "TR")}
 
