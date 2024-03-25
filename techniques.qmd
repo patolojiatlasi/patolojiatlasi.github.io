@@ -1,0 +1,86 @@
+---
+description: "technique, teknik, patoloji, atlas, pathology, whole slide image"
+date: last-modified
+categories: [technique, teknik, histochemistry, CISH]
+page-layout: full
+bibliography: references.bib
+---
+
+```{r language teknik, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+
+```{asis, echo = (language == "TR")}
+# Patolojide Kullanılan Teknikler {#sec-patolojide-kullanilan-teknikler} 
+```
+
+```{asis, echo = (language == "EN")}
+# Techniques Used in Pathology {#sec-techniques-used-in-pathology} 
+```
+
+
+
+```{asis, echo = (language == "TR")}
+## Histokimya {#sec-histokimya} 
+```
+
+```{asis, echo = (language == "EN")}
+## Histochemistry {#sec-histochemistry} 
+```
+
+
+{{< include ./_subchapters/_mucin_EN.qmd >}}
+
+{{< include ./_subchapters/_PASAB_EN.qmd >}}
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Chromogenic in situ hybridization (CISH) {#sec-chromogenic-in-situ-hybridization-cish} 
+
+```
+
+```{asis, echo = (language == "EN")}
+
+## Chromogenic in situ hybridization (CISH) {#sec-chromogenic-in-situ-hybridization-cish} 
+
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+## İmmünohistokimya {#sec-immunohistokimya} 
+
+```
+
+```{asis, echo = (language == "EN")}
+
+## Immunohistochemistry {#sec-immunohistochemistry} 
+
+```
+
+
+
+{{< include ./_subchapters/_trypsin_EN.qmd >}}
+
+
+
+```{asis, echo = (language == "TR")}
+
+## Artefaktlar {#sec-artefaktlar} 
+
+```
+
+```{asis, echo = (language == "EN")}
+
+## Artefacts {#sec-artefacts} 
+
+```
+
+{{< include ./_subchapters/_seed_EN.qmd >}}
