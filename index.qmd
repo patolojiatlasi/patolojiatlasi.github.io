@@ -33,6 +33,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
+**Leanpub**
 
 ```{asis, echo = (output_type=="html")}
 
@@ -40,6 +41,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
+**Google Kitaplar - Google Books**
 
 ```{asis, echo = (output_type=="html")}
 
@@ -59,6 +61,7 @@ https://books.google.com.tr/books/about?id=um5jEAAAQBAJ
 
 
 
+**Apple Kitaplar - Apple Books**
 
 
 ```{asis, echo = (output_type=="html")}
@@ -84,6 +87,8 @@ https://apple.co/44WLy11
 ```
 
 
+**Artırılmış gerçeklik (Augmented reality)**
+
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
@@ -102,16 +107,12 @@ Link ile açılan sayfaya ve kamera erişimine izin verin. Sonra kamerayı
 bu sayfadaki patoloji resimlerine tutun. Tanılar cep telefonunuzda
 görünecektir.
 
-
+```
 
 {{< video https://www.youtube.com/embed/76bOJIiT29Y >}}
 
-```
-
-
 
 ```{asis, echo = ((language=="EN") & (output_type=="html"))}
-
 
 Bu sayfadaki görüntülere artırılmış gerçeklik (augmented reality) ile de
 ulaşabilirsiniz[^tamir-1].
@@ -127,15 +128,13 @@ Link ile açılan sayfaya ve kamera erişimine izin verin. Sonra kamerayı
 bu sayfadaki patoloji resimlerine tutun. Tanılar cep telefonunuzda
 görünecektir.
 
-
-
-{{< video https://www.youtube.com/embed/76bOJIiT29Y >}}
-
 ```
 
 
 
+---
 
+**Atıf - Citation**
 
 
 ```{asis, echo = (output_type=="html")}
@@ -155,6 +154,9 @@ görünecektir.
 
 
 ```
+
+
+---
 
 
 ```{asis, echo = (output_type=="html")}
