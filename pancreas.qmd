@@ -32,3 +32,4 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 {{< include ./_subchapters/_PDAC-benign-vs-malignant_EN.qmd >}}
 
+{{< include ./_subchapters/_pancreas-adenosquamous.qmd >}}
