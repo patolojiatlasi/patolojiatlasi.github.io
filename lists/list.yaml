@@ -1,37 +1,3 @@
-- stainname: liver-transplant-acute-rejection-HE
-  reponame: liver-transplant-acute-rejection
-  titleTR: karaciğer transplantasyonu, akut rejeksiyon
-  titleEN: liver transplant, acute rejection
-  organTR: ''
-  organEN: ''
-  speciality: ''
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: 2024-03-08
-  url: https://images.patolojiatlasi.com/liver-transplant-acute-rejection/HE.html
-  note: ''
-  categoriesTR:
-  - ''
-  - ''
-  - ''
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  categoriesEN:
-  - ''
-  - ''
-  - ''
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_liver-transplant-acute-rejection-HE.png
-  github: https:///github.com/pathologyatlas/liver-transplant-acute-rejection
-  githubpage: https://pathologyatlas.github.io/liver-transplant-acute-rejection
-  youtube: ''
 - stainname: myxoidliposarcoma-HE
   reponame: myxoidliposarcoma
   titleTR: Miksoid liposarkom
@@ -153,39 +119,6 @@
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_congored-congored.png
-- stainname: ampullary-adenocarcinoma-HE
-  reponame: ampullary-adenocarcinoma
-  titleTR: ''
-  titleEN: ''
-  organ: ''
-  speciality: ''
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-03-02'
-  url: https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html
-  note: ''
-  categoriesTR:
-  - ''
-  - ''
-  - ''
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  categoriesEN:
-  - ''
-  - ''
-  - ''
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ampullary-adenocarcinoma-HE.png
-  githubrepo: https:///github.com/pathologyatlas/ampullary-adenocarcinoma
-  githubpage: https:///pathologyatlas.github.io/ampullary-adenocarcinoma
-  youtube: ''
 - stainname: WDNET-ampulla-HE
   reponame: WDNET-ampulla
   titleTR: ''
@@ -3874,6 +3807,74 @@
   githubrepo: https:///github.com/pathologyatlas/molluscum-contagiosum
   githubpage: https:///pathologyatlas.github.io/molluscum-contagiosum
   youtube: ''
+- stainname: liver-transplant-acute-rejection-HE
+  reponame: liver-transplant-acute-rejection
+  titleTR: karaciğer transplantasyonu, akut rejeksiyon
+  titleEN: liver transplant, acute rejection
+  organTR: ''
+  organEN: ''
+  speciality: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-03-08'
+  url: https://images.patolojiatlasi.com/liver-transplant-acute-rejection/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_liver-transplant-acute-rejection-HE.png
+  github: https:///github.com/pathologyatlas/liver-transplant-acute-rejection
+  githubpage: https://pathologyatlas.github.io/liver-transplant-acute-rejection
+  youtube: ''
+- stainname: ampullary-adenocarcinoma-HE
+  reponame: ampullary-adenocarcinoma
+  titleTR: Ampulla Vater Adenokarsinomu
+  titleEN: Adenocarcinoma of Ampulla of Vater
+  organTR: ''
+  organEN: ''
+  speciality: ''
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-03-09'
+  url: https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html
+  note: ''
+  categoriesTR:
+  - ''
+  - ''
+  - ''
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - ''
+  - ''
+  - ''
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ampullary-adenocarcinoma-HE.png
+  github: https:///github.com/pathologyatlas/ampullary-adenocarcinoma
+  githubpage: https://pathologyatlas.github.io/ampullary-adenocarcinoma
+  youtube: ''
 - stainname: pilocytic-astrocytoma-HE
   reponame: pilocytic-astrocytoma
   titleTR: pilositik astrositom
@@ -6480,40 +6481,6 @@
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_molluscum-contagiosum.png
-- stainname: ampullary-adenocarcinoma-HE
-  reponame: ampullary-adenocarcinoma
-  titleTR: Ampulla Vater Adenokarsinomu
-  titleEN: Adenocarcinoma of Ampulla of Vater
-  organTR: ''
-  organEN: ''
-  speciality: ''
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: 2024-03-09
-  url: https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html
-  note: ''
-  categoriesTR:
-  - ''
-  - ''
-  - ''
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  categoriesEN:
-  - ''
-  - ''
-  - ''
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ampullary-adenocarcinoma-HE.png
-  github: https:///github.com/pathologyatlas/ampullary-adenocarcinoma
-  githubpage: https://pathologyatlas.github.io/ampullary-adenocarcinoma
-  youtube: ''
 - stainname: ampullary-adenocarcinoma-HE2
   reponame: ampullary-adenocarcinoma
   titleTR: Ampulla Vater Adenokarsinomu
@@ -6525,7 +6492,7 @@
   author:
   - Serdar Balci
   - Memorial Patoloji
-  date: 2024-03-09
+  date: '2024-03-09'
   url: https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE2.html
   note: ''
   categoriesTR:
@@ -6560,7 +6527,7 @@
   - Serdar Balci
   - Turkan Atasever Rezanko
   - Memorial Patoloji
-  date: 2024-03-10
+  date: '2024-03-10'
   url: https://images.patolojiatlasi.com/ganglioneuroma/HE.html
   note: ''
   categoriesTR:
@@ -6594,7 +6561,7 @@
   author:
   - Serdar Balci
   - Memorial Patoloji
-  date: 2024-03-10
+  date: '2024-03-10'
   url: https://images.patolojiatlasi.com/secretory-meningioma/HE1.html
   note: ''
   categoriesTR:
@@ -6630,7 +6597,7 @@
   author:
   - Serdar Balci
   - Memorial Patoloji
-  date: 2024-03-10
+  date: '2024-03-10'
   url: https://images.patolojiatlasi.com/secretory-meningioma/HE2.html
   note: ''
   categoriesTR:
@@ -6666,7 +6633,7 @@
   author:
   - Serdar Balci
   - Memorial Patoloji
-  date: 2024-03-10
+  date: '2024-03-10'
   url: https://images.patolojiatlasi.com/secretory-meningioma/EMA.html
   note: ''
   categoriesTR:
@@ -6702,7 +6669,7 @@
   author:
   - Serdar Balci
   - Memorial Patoloji
-  date: 2024-03-10
+  date: '2024-03-10'
   url: https://images.patolojiatlasi.com/secretory-meningioma/mCEA.html
   note: ''
   categoriesTR:
@@ -6738,7 +6705,7 @@
   author:
   - Serdar Balci
   - Memorial Patoloji
-  date: 2024-03-10
+  date: '2024-03-10'
   url: https://images.patolojiatlasi.com/secretory-meningioma/PAS.html
   note: ''
   categoriesTR:
@@ -6774,7 +6741,7 @@
   author:
   - Serdar Balci
   - Memorial Patoloji
-  date: 2024-03-10
+  date: '2024-03-10'
   url: https://images.patolojiatlasi.com/secretory-meningioma/PR.html
   note: ''
   categoriesTR:
@@ -6810,7 +6777,7 @@
   author:
   - Serdar Balci
   - Memorial Patoloji
-  date: 2024-03-10
+  date: '2024-03-10'
   url: https://images.patolojiatlasi.com/secretory-meningioma/Ki67.html
   note: ''
   categoriesTR:
@@ -6846,7 +6813,7 @@
   author:
   - Serdar Balci
   - Memorial Patoloji
-  date: 2024-03-13
+  date: '2024-03-13'
   url: https://images.patolojiatlasi.com/arachnoid-cyst/HE.html
   note: ''
   categoriesTR:
@@ -6880,7 +6847,7 @@
   author:
   - Serdar Balci
   - Memorial Patoloji
-  date: 2024-03-13
+  date: '2024-03-13'
   url: https://images.patolojiatlasi.com/eosinophilic-esophagitis/HE.html
   note: ''
   categoriesTR:
