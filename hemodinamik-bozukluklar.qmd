@@ -1,1 +1,18 @@
+
+```{r echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis Hemodinamik Bozukluklar TR , echo = (language == "TR")}
+## Hemodinamik Bozukluklar {#sec-organising-thrombus }
+```
+
+
+```{asis Hemodynamic Disorders EN , echo = (language == "EN")}
+## Hemodynamic Disorders {#sec-organising-thrombus }
+```
+
+
 {{< include ./_subchapters/_organising-thrombus.qmd >}}
