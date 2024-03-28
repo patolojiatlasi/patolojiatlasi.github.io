@@ -1,4 +1,3 @@
-
 ```{comment}
 ---
 description: |
@@ -19,12 +18,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis Organize Trombus TR , echo = (language == "TR")}
-## organising-thrombus - Organize Trombus {#sec-organising-thrombus }
+## Organize Trombus {#sec-organising-thrombus }
 ```
 
 
 ```{asis Organising Thrombus EN , echo = (language == "EN")}
-## organising-thrombus - Organising Thrombus {#sec-organising-thrombus }
+## Organising Thrombus {#sec-organising-thrombus }
 ```
 
 
@@ -57,22 +56,10 @@ if (!file.exists("../qrcodes/organising-thrombus-HE_qrcode.svg")) {
 
 
 
+::::: panel-tabset
 
 
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
+### WSI - Link
 
 
 
@@ -136,18 +123,7 @@ if (!file.exists("../qrcodes/organising-thrombus-HE_qrcode.svg")) {
 ::::
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+### WSI 
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -206,6 +182,7 @@ Organising Thrombus
 
 
 
+:::::
 
 
 
