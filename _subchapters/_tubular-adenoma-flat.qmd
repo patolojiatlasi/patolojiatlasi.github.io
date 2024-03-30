@@ -59,9 +59,11 @@ if (!file.exists("../qrcodes/tubularadenoma-flat-HE2_qrcode.svg")) {
 
 
 
- 
+
+::::: panel-tabset
 
 
+##### WSI - Link
 
 
 
@@ -71,14 +73,10 @@ if (!file.exists("../qrcodes/tubularadenoma-flat-HE2_qrcode.svg")) {
 ```{asis, echo = (language == "TR")}
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_tubularadenoma-flat1.png){width="25%"}](https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html)
 
-
 ```
 
 
-
 ::::
-
-
 
 
 
@@ -87,7 +85,6 @@ if (!file.exists("../qrcodes/tubularadenoma-flat-HE2_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 ![](../qrcodes/tubularadenoma-flat-HE1_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_tubularadenoma-flat1.png){width="25%"}](https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html)
-
 
 ```
 
@@ -215,8 +212,9 @@ if (!file.exists("../qrcodes/tubularadenoma-flat-HE2_qrcode.svg")) {
 
 
 
-  
 
+
+##### WSI
 
 
 
@@ -263,7 +261,7 @@ Mikroskopik görüntüleri inceleyin:
 
 
 
-
+:::::
 
 
 
