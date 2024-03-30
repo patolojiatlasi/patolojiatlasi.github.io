@@ -60,9 +60,10 @@ if (!file.exists("./qrcodes/HSV-herpesesophagitis-HE_qrcode.svg")) {
 
 
 
- 
+::::: panel-tabset
 
 
+#### WSI - Link
 
 
 :::: {.content-hidden when-format="pdf"}
@@ -84,9 +85,6 @@ Tıklayın](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.ht
 ::::
 
 
-
-
-
 :::: {.content-visible when-format="pdf"}
 
 
@@ -105,8 +103,6 @@ Tıklayın](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.ht
 
 
 ::::
-
-
 
 
 
@@ -149,6 +145,7 @@ Tıklayın](https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.ht
 
 
 
+#### WSI
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -172,7 +169,7 @@ See Microscopy with viewer:
 ```
 
 
-
+:::::
 
 
 
@@ -215,9 +212,10 @@ if (!file.exists("./qrcodes/molluscum-contagiosum-HE_qrcode.svg")) {
 
 
 
- 
+::::: panel-tabset
 
 
+### WSI - Link
 
 
 
@@ -239,8 +237,6 @@ if (!file.exists("./qrcodes/molluscum-contagiosum-HE_qrcode.svg")) {
 
 
 
-
-
 :::: {.content-visible when-format="pdf"}
 
 
@@ -257,8 +253,6 @@ if (!file.exists("./qrcodes/molluscum-contagiosum-HE_qrcode.svg")) {
 
 
 ::::
-
-
 
 
 :::: {.content-hidden when-format="pdf"}
@@ -279,8 +273,6 @@ if (!file.exists("./qrcodes/molluscum-contagiosum-HE_qrcode.svg")) {
 
 
 
-
-
 :::: {.content-visible when-format="pdf"}
 
 
@@ -298,11 +290,11 @@ if (!file.exists("./qrcodes/molluscum-contagiosum-HE_qrcode.svg")) {
 
 
 ::::
-  
-  
-  
 
 
+
+
+### WSI
 
 
 
@@ -325,3 +317,4 @@ See Microscopy with viewer:
 ```
 
 
+:::::
