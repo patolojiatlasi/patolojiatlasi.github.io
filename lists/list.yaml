@@ -6913,9 +6913,9 @@
   reponame: pancreas-adenosquamous
   titleTR: pankreas adenoskuamöz karsinom
   titleEN: pancreas adenosquamous carcinoma
-  organTR: ''
-  organEN: ''
-  speciality: ''
+  organTR: pankreas
+  organEN: pancreas
+  speciality: pancreatobiliary
   type: published
   author:
   - Serdar Balci
@@ -6924,17 +6924,19 @@
   url: https://images.patolojiatlasi.com/pancreas-adenosquamous/CK7-p40.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - pankreas
+  - adenoskuamöz
+  - karsinom
+  - immunohistokimya
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - pancreas
+  - adenosquamous
+  - carcinoma
+  - immunohistochemistry
   - pathology
   - atlas
   - histopathology
