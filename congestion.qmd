@@ -1,15 +1,15 @@
 ---
 description: |
-    congestion in spleen
-    dalak konjesyon
+    congestion
+    konjesyon
 date: last-modified
-categories: [congestion, spleen]
+categories: [congestion, konjesyon]
 page-layout: full
 bibliography: references.bib
 ---
 
 
-```{r language congestion-spleen, echo=FALSE, include=TRUE}
+```{r echo=FALSE, include=TRUE}
 source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
@@ -17,12 +17,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "TR")}
-## Dalak konjesyon {#sec-congestion-spleen}
+# Konjesyon {#sec-konjesyon}
 ```
 
 
 ```{asis, echo = (language == "EN")}
-## Congestion in spleen {#sec-congestion-spleen}
+# Congestion {#sec-congestion}
 ```
 
 {{< include ./_subchapters/_congestion-spleen_EN.qmd >}}
