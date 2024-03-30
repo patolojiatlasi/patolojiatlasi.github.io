@@ -30,4 +30,3 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 {{< include ./_subchapters/_enterobius-vermicularis_EN.qmd >}}
 
 
-
