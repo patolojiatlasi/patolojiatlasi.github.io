@@ -3162,9 +3162,10 @@
   youtube: ''
 - stainname: chorioamnionitis-HE
   reponame: chorioamnionitis
-  titleTR: ''
-  titleEN: ''
-  organ: ''
+  titleTR: Korioamniyonit
+  titleEN: Chorioamnionitis
+  organTR: plasenta
+  organEN: placenta
   speciality: ''
   type: published
   author:
@@ -3174,17 +3175,17 @@
   url: https://images.patolojiatlasi.com/chorioamnionitis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - plasenta
+  - korioamniyonit
+  - inflamasyon
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - placenta
+  - chorioamnionitis
+  - inflammation
   - pathology
   - atlas
   - histopathology
@@ -6094,8 +6095,8 @@
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_PDAC-tru-cut3.png
 - stainname: chorioamnionitis
   reponame: chorioamnionitis
-  titleTR: ''
-  titleEN: ''
+  titleTR: Koryoamniyonit
+  titleEN: Chorioamnionitis
   type: published
   author:
   - Serdar Balci
@@ -6104,17 +6105,17 @@
   url: https://images.patolojiatlasi.com/chorioamnionitis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - plasenta
+  - koryoamniyonit
+  - inflamasyon
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - placenta
+  - chorioamnionitis
+  - inflammation
   - pathology
   - atlas
   - histopathology
