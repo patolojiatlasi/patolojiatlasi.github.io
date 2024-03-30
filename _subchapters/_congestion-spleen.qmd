@@ -1,5 +1,22 @@
 
 
+```{r echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+
+```{asis, echo = (language == "TR")}
+## Dalak konjesyon {#sec-congestion-spleen}
+```
+
+
+```{asis, echo = (language == "EN")}
+## Congestion in spleen {#sec-congestion-spleen}
+```
+
+
 ```{r congestion-spleen screenshot, eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/thumbnail_congestion-spleen.png")) {
 webshot2::webshot(
