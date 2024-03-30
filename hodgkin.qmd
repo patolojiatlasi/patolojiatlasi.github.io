@@ -17,8 +17,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-
-
 ```{asis, echo = (language == "TR")}
 
 ## Hodgkin Lenfoma {#sec-hodgkin-lenfoma} 
@@ -54,11 +52,10 @@ if (!file.exists("./qrcodes/hodgkin-HE_qrcode.svg")) {
 ```
 
 
+::::: panel-tabset
 
 
- 
-
-
+### WSI - Link
 
 
 
@@ -146,7 +143,7 @@ if (!file.exists("./qrcodes/hodgkin-HE_qrcode.svg")) {
 
 
 
-
+### WSI
 
 
 
@@ -168,6 +165,8 @@ See Microscopy with viewer:
 ```
 
 
+
+:::::
 
 
 
