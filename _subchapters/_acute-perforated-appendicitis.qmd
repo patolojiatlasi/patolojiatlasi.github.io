@@ -24,15 +24,13 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis Akut Perfore Appendisit TR , echo = (language == "TR")}
-## acute-perforated-appendicitis - Akut Perfore Appendisit {#sec-acute-perforated-appendicitis }
+## Akut Perfore Appendisit {#sec-acute-perforated-appendicitis }
 ```
 
 
 ```{asis Acute Perforated Appendicitis EN , echo = (language == "EN")}
-## acute-perforated-appendicitis - Acute Perforated Appendicitis {#sec-acute-perforated-appendicitis }
+## Acute Perforated Appendicitis {#sec-acute-perforated-appendicitis }
 ```
-
-
 
 
 
