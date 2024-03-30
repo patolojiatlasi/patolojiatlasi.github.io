@@ -21,15 +21,13 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis giardiazis TR , echo = (language == "TR")}
-## giardia - giardiazis {#sec-giardia }
+## Giardia - Giardiazis {#sec-giardia }
 ```
 
 
 ```{asis giardiasis EN , echo = (language == "EN")}
-## giardia - giardiasis {#sec-giardia }
+## Giardia - Giardiasis {#sec-giardia }
 ```
-
-
 
 
 
@@ -61,19 +59,10 @@ if (!file.exists("./qrcodes/giardia-HE_qrcode.svg")) {
 
 
 
+::::: panel-tabset
 
 
-
-
-
- 
-
-
-
-
-
-
-
+### WSI - Link
 
 
 
@@ -138,17 +127,7 @@ if (!file.exists("./qrcodes/giardia-HE_qrcode.svg")) {
 ::::
 
 
-
-
-
-
-
-
-
-
-
-
-
+### WSI
 
 
 
@@ -174,6 +153,10 @@ See Microscopy with viewer:
 
 
 
+::::
+
+
+### Dx
 
 
 
@@ -206,18 +189,5 @@ giardiasis
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+:::::
 
