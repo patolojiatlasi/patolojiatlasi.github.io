@@ -1,6 +1,6 @@
 ---
 description: |
-    Benign Tumor, patoloji, atlas, pathology, whole slide image
+    Benign Tumor, patoloji, atlas, pathology, whole slide image, Benign Tümörler
 date: last-modified
 categories: [benign, tumor]
 page-layout: full
@@ -11,8 +11,6 @@ bibliography: references.bib
 source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
-
-
 
 
 
