@@ -21,12 +21,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis Tümör heterojenliği: Meme tümöründe HER2 immünohistokimyasının heterojen ekspresyonu TR , echo = (language == "TR")}
-## HER2-intratumoral-heterogeneity - Tümör heterojenliği: Meme tümöründe HER2 immünohistokimyasının heterojen ekspresyonu {#sec-HER2-intratumoral-heterogeneity }
+## Tümör heterojenliği: Meme tümöründe HER2 immünohistokimyasının heterojen ekspresyonu {#sec-HER2-intratumoral-heterogeneity }
 ```
 
 
 ```{asis Tumor heterogeneity: Heterogenous HER2 immunexpression in breast tumor EN , echo = (language == "EN")}
-## HER2-intratumoral-heterogeneity - Tumor heterogeneity: Heterogenous HER2 immunexpression in breast tumor {#sec-HER2-intratumoral-heterogeneity }
+## Tumor heterogeneity: Heterogenous HER2 immunexpression in breast tumor {#sec-HER2-intratumoral-heterogeneity }
 ```
 
 
