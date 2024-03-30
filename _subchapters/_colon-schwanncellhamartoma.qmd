@@ -35,7 +35,10 @@ if (!file.exists("./qrcodes/schwanncellhamartoma-HE_qrcode.svg")) {
 ```
 
 
- 
+::::: panel-tabset
+
+
+### WSI - Link
 
 
 
@@ -99,6 +102,7 @@ Tıklayın](https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html)
 
 
 
+### WSI
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
@@ -120,5 +124,7 @@ Mikroskopik görüntüleri inceleyin:
 </iframe>
 ```
 
+
+:::::
 
 
