@@ -58,7 +58,14 @@ if (!file.exists("./qrcodes/celiac-disease-HE_qrcode.svg")) {
 
 
 
- 
+
+::::: panel-tabset
+
+
+### WSI
+
+
+
 
 
 
@@ -146,6 +153,13 @@ if (!file.exists("./qrcodes/celiac-disease-HE_qrcode.svg")) {
 
 
 
+
+
+### WSI - Link
+
+
+
+
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 
 Mikroskopik görüntüleri inceleyin:
@@ -162,4 +176,7 @@ See Microscopy with viewer:
 
 ```
 
+
+
+:::::
 
