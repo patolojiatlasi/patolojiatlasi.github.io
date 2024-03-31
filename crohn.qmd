@@ -11,79 +11,25 @@ bibliography: references.bib
 ---
 
 
+```{asis, echo = (language == "TR")}
+# Crohn Hastalığı {#sec-crohn}
+```
+
+
+```{asis, echo = (language == "EN")}
+# Crohn's Disease {#sec-crohn}
+```
+
+
+
+{{< include ./_subchapters/_crohn-colonoscopic-biopsy.qmd >}}
+
+
 
 ```{r language crohn-colonoscopic-biopsy, echo=FALSE, include=TRUE}
 source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-
-
-
-::::
-
-
-
-
-
-:::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-::::
-
-
-
-
-
-
-
-
-
-
 
 
 
