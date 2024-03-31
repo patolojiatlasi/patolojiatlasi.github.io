@@ -21,12 +21,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis Tübülövillöz adenom zemininde gelişmiş Müsinöz adenokarsinom, kolon TR , echo = (language == "TR")}
-## Tübülövillöz adenom zemininde gelişmiş Müsinöz adenokarsinom, kolon {#sec-mucinous-adenocarcinoma-colon }
+### Tübülövillöz adenom zemininde gelişmiş Müsinöz adenokarsinom, kolon {#sec-mucinous-adenocarcinoma-colon }
 ```
 
 
 ```{asis Mucinous adenocarcinoma of colon arising from tubulovillus adenoma EN , echo = (language == "EN")}
-## Mucinous adenocarcinoma of colon arising from tubulovillus adenoma {#sec-mucinous-adenocarcinoma-colon }
+### Mucinous adenocarcinoma of colon arising from tubulovillus adenoma {#sec-mucinous-adenocarcinoma-colon }
 ```
 
 

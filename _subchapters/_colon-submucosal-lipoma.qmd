@@ -19,12 +19,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis Kolon Submukozal Lipom TR , echo = (language == "TR")}
-## Kolon Submukozal Lipom {#sec-colon-submucosal-lipoma }
+### Kolon Submukozal Lipom {#sec-colon-submucosal-lipoma }
 ```
 
 
 ```{asis Colon Submucosal Lipoma EN , echo = (language == "EN")}
-## Colon Submucosal Lipoma {#sec-colon-submucosal-lipoma }
+### Colon Submucosal Lipoma {#sec-colon-submucosal-lipoma }
 ```
 
 

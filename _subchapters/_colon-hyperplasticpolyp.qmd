@@ -20,12 +20,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis Kolon Hiperplastik Polip TR , echo = (language == "TR")}
-## hyperplasticpolyp - Kolon Hiperplastik Polip {#sec-hyperplasticpolyp }
+### Kolon Hiperplastik Polip {#sec-hyperplasticpolyp }
 ```
 
 
 ```{asis Colon Hyperplastic Polyp EN , echo = (language == "EN")}
-## hyperplasticpolyp - Colon Hyperplastic Polyp {#sec-hyperplasticpolyp }
+### Colon Hyperplastic Polyp {#sec-hyperplasticpolyp }
 ```
 
 
@@ -36,7 +36,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```{r hyperplasticpolyp screenshot HE, eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/thumbnail_hyperplasticpolyp-HE.png")) {
 webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/hyperplasticpolyp/HE.html",
+  url = "https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html",
   file = "./screenshots/thumbnail_hyperplasticpolyp-HE.png"
 )
 }
@@ -47,7 +47,7 @@ webshot2::webshot(
 ```{r hyperplasticpolyp qrcode HE, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/hyperplasticpolyp-HE_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/hyperplasticpolyp/HE.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
                        filename = "./qrcodes/hyperplasticpolyp-HE_qrcode.svg",
@@ -81,7 +81,7 @@ if (!file.exists("./qrcodes/hyperplasticpolyp-HE_qrcode.svg")) {
 **Kolon Hiperplastik Polip**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_hyperplasticpolyp-HE.png){width="25%"}](https://images.patolojiatlasi.com/hyperplasticpolyp/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hyperplasticpolyp/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_hyperplasticpolyp-HE.png){width="25%"}](https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html)
 
 ```
 
@@ -94,7 +94,7 @@ if (!file.exists("./qrcodes/hyperplasticpolyp-HE_qrcode.svg")) {
 
 **Kolon Hiperplastik Polip**
 
-![](./qrcodes/hyperplasticpolyp-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_hyperplasticpolyp-HE.png){width="25%"}](https://images.patolojiatlasi.com/hyperplasticpolyp/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hyperplasticpolyp/HE.html)
+![](./qrcodes/hyperplasticpolyp-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_hyperplasticpolyp-HE.png){width="25%"}](https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html)
 
 ```
 
@@ -112,7 +112,7 @@ if (!file.exists("./qrcodes/hyperplasticpolyp-HE_qrcode.svg")) {
 
 **Colon Hyperplastic Polyp**
 
-[![Click for Full Screen WSI](./screenshots/thumbnail_hyperplasticpolyp-HE.png){width="25%"}](https://images.patolojiatlasi.com/hyperplasticpolyp/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hyperplasticpolyp/HE.html)
+[![Click for Full Screen WSI](./screenshots/thumbnail_hyperplasticpolyp-HE.png){width="25%"}](https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html)
 
 ```
 
@@ -125,7 +125,7 @@ if (!file.exists("./qrcodes/hyperplasticpolyp-HE_qrcode.svg")) {
 
 **Colon Hyperplastic Polyp**
 
-![](./qrcodes/hyperplasticpolyp-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_hyperplasticpolyp-HE.png){width="25%"}](https://images.patolojiatlasi.com/hyperplasticpolyp/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hyperplasticpolyp/HE.html)
+![](./qrcodes/hyperplasticpolyp-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_hyperplasticpolyp-HE.png){width="25%"}](https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html)
 
 ```
 
@@ -150,7 +150,7 @@ if (!file.exists("./qrcodes/hyperplasticpolyp-HE_qrcode.svg")) {
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/hyperplasticpolyp/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -162,7 +162,7 @@ Mikroskopik görüntüleri inceleyin:
 
 See Microscopy with viewer:
 
-<iframe src="https://images.patolojiatlasi.com/hyperplasticpolyp/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 

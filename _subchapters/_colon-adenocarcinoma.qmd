@@ -19,12 +19,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis Kolon Adenokarsinomu TR , echo = (language == "TR")}
-## Kolon Adenokarsinomu {#sec-colon-adenocarcinoma }
+### Kolon Adenokarsinomu {#sec-colon-adenocarcinoma }
 ```
 
 
 ```{asis Colon Adenocarcinoma EN , echo = (language == "EN")}
-## Colon Adenocarcinoma {#sec-colon-adenocarcinoma }
+### Colon Adenocarcinoma {#sec-colon-adenocarcinoma }
 ```
 
 
