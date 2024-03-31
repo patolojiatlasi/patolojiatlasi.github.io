@@ -3300,9 +3300,10 @@
   youtube: ''
 - stainname: cervix-SCC-HE
   reponame: cervix-SCC
-  titleTR: ''
-  titleEN: ''
-  organ: ''
+  titleTR: Serviks Skuamöz Hücreli Karsinom
+  titleEN: Cervix Squamous Cell Carcinoma
+  organTR: serviks
+  organEN: cervix
   speciality: ''
   type: published
   author:
@@ -3312,17 +3313,17 @@
   url: https://images.patolojiatlasi.com/cervix-SCC/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - serviks
+  - skuamöz hücreli karsinom
+  - malign
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - cervix
+  - squamous cell carcinoma
+  - malignant
   - pathology
   - atlas
   - histopathology
@@ -3333,9 +3334,10 @@
   youtube: ''
 - stainname: brain-arteriovenous-malformation-HE
   reponame: brain-arteriovenous-malformation
-  titleTR: ''
-  titleEN: ''
-  organ: ''
+  titleTR: Beyinde arteriyovenöz malformasyon
+  titleEN: Brain arteriovenous malformation
+  organTR: beyin
+  organEN: brain
   speciality: ''
   type: published
   author:
@@ -3345,17 +3347,17 @@
   url: https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - beyin
+  - arteriyovenöz malformasyon
+  - vasküler
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - brain
+  - arteriovenous malformation
+  - vascular
   - pathology
   - atlas
   - histopathology
