@@ -61,7 +61,7 @@ if (!file.exists("./qrcodes/crohn-colonoscopic-biopsy-all_qrcode.svg")) {
 
 
 
-```{r crohn-colonoscopic-biopsy screenshot HE1, eval=TRUE, include=FALSE}
+```{r eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE1.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE1.html",
@@ -90,7 +90,7 @@ if (!file.exists("./qrcodes/crohn-colonoscopic-biopsy-HE1_qrcode.svg")) {
 
 
 
-```{r crohn-colonoscopic-biopsy screenshot HE2, eval=TRUE, include=FALSE}
+```{r eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE2.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE2.html",
@@ -119,7 +119,7 @@ if (!file.exists("./qrcodes/crohn-colonoscopic-biopsy-HE2_qrcode.svg")) {
 
 
 
-```{r crohn-colonoscopic-biopsy screenshot HE3, eval=TRUE, include=FALSE}
+```{r eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE3.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE3.html",
@@ -148,7 +148,7 @@ if (!file.exists("./qrcodes/crohn-colonoscopic-biopsy-HE3_qrcode.svg")) {
 
 
 
-```{r crohn-colonoscopic-biopsy screenshot HE4, eval=TRUE, include=FALSE}
+```{r eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/thumbnail_crohn-colonoscopic-biopsy-HE4.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE4.html",
