@@ -20,12 +20,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis İskemik Kolit TR , echo = (language == "TR")}
-## ischemic-colitis - İskemik Kolit {#sec-ischemic-colitis }
+### İskemik Kolit {#sec-ischemic-colitis }
 ```
 
 
 ```{asis Ischemic Colitis EN , echo = (language == "EN")}
-## ischemic-colitis - Ischemic Colitis {#sec-ischemic-colitis }
+### Ischemic Colitis {#sec-ischemic-colitis }
 ```
 
 
