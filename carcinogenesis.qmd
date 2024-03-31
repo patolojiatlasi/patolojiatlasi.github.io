@@ -23,7 +23,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-## metaplazi, displazi, karsinom  {#sec-mepaplazi-displazi-karsinom} 
+## Metaplazi, Displazi, Karsinom  {#sec-mepaplazi-displazi-karsinom} 
 
 ```
 
@@ -32,7 +32,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{asis, echo = (language == "EN")}
-## metaplasia, dysplasia, carcinoma {#sec-metaplasia-dysplasia-carcinoma} 
+## Metaplasia, Dysplasia, Carcinoma {#sec-metaplasia-dysplasia-carcinoma} 
 
 ```
 
@@ -82,7 +82,7 @@ if (!file.exists("./qrcodes/carcinogenesis-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**metaplazi, displazi, karsinom**
+**Metaplazi, Displazi, Karsinom**
 
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_carcinogenesis.png){width="25%"}](https://images.patolojiatlasi.com/carcinogenesis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/carcinogenesis/HE.html)
@@ -107,7 +107,7 @@ if (!file.exists("./qrcodes/carcinogenesis-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**metaplazi, displazi, karsinom**
+**Metaplazi, Displazi, Karsinom**
 
 
 ![](./qrcodes/carcinogenesis-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_carcinogenesis.png){width="25%"}](https://images.patolojiatlasi.com/carcinogenesis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/carcinogenesis/HE.html)
@@ -126,7 +126,7 @@ if (!file.exists("./qrcodes/carcinogenesis-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**metaplasia, dysplasia, carcinoma**
+**Metaplasia, Dysplasia, Carcinoma**
 
 
 [![Click for Full Screen WSI](./screenshots/thumbnail_carcinogenesis.png){width="25%"}](https://images.patolojiatlasi.com/carcinogenesis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/carcinogenesis/HE.html)
@@ -147,7 +147,7 @@ if (!file.exists("./qrcodes/carcinogenesis-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**metaplasia, dysplasia, carcinoma**
+**Metaplasia, Dysplasia, Carcinoma**
 
 
 ![](./qrcodes/carcinogenesis-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_carcinogenesis.png){width="25%"}](https://images.patolojiatlasi.com/carcinogenesis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/carcinogenesis/HE.html)

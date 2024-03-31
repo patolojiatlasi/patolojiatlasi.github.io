@@ -21,6 +21,17 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
+
+```{asis, echo = (language == "TR")}
+## Nonneoplastik Kolon Hastalıkları {#sec-nonneoplastik-kolon-hastaliklari}
+```
+
+```{asis, echo = (language == "EN")}
+## Nonneoplastic Colon Diseases {#sec-nonneoplastic-colon-diseases}
+```
+
+
+
 {{< include ./_subchapters/_ischemic-colitis_EN.qmd >}}
 
 
