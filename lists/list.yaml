@@ -3262,9 +3262,10 @@
   youtube: ''
 - stainname: ischemia-gangrenous-cholecystitis-HE
   reponame: ischemia-gangrenous-cholecystitis
-  titleTR: ''
-  titleEN: ''
-  organ: ''
+  titleTR: İskemik Gangrenöz Kolesistit
+  titleEN: Ischemic Gangrenous Cholecystitis
+  organTR: safra kesesi
+  organEN: gallbladder
   speciality: ''
   type: published
   author:
@@ -3274,17 +3275,21 @@
   url: https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - safra kesesi
+  - iskemi
+  - gangren
+  - kolesistit
+  - inflamasyon
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - gallbladder
+  - ischemia
+  - gangrenous
+  - cholecystitis
+  - inflammation
   - pathology
   - atlas
   - histopathology
