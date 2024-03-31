@@ -1,0 +1,427 @@
+
+```{comment}
+---
+description: |
+    Kolon Adenokarsinomu, Colon Adenocarcinoma, patoloji, atlas, pathology, whole slide image
+date: last-modified
+categories: [Kolon Adenokarsinomu, Colon Adenocarcinoma]
+page-layout: full
+bibliography: references.bib
+---
+```
+
+
+
+```{r echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis Kolon Adenokarsinomu TR , echo = (language == "TR")}
+## Kolon Adenokarsinomu {#sec-colon-adenocarcinoma }
+```
+
+
+```{asis Colon Adenocarcinoma EN , echo = (language == "EN")}
+## Colon Adenocarcinoma {#sec-colon-adenocarcinoma }
+```
+
+
+
+
+
+
+```{r colon-adenocarcinoma screenshot HE, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_colon-adenocarcinoma-HE.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html",
+  file = "./screenshots/thumbnail_colon-adenocarcinoma-HE.png"
+)
+}
+```
+
+
+
+```{r colon-adenocarcinoma qrcode HE, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/colon-adenocarcinoma-HE_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/colon-adenocarcinoma-HE_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+
+```{r colon-adenocarcinoma screenshot HE2, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_colon-adenocarcinoma-HE2.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html",
+  file = "./screenshots/thumbnail_colon-adenocarcinoma-HE2.png"
+)
+}
+```
+
+
+
+```{r colon-adenocarcinoma qrcode HE2, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/colon-adenocarcinoma-HE2_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/colon-adenocarcinoma-HE2_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+
+```{r colon-adenocarcinoma screenshot HE3, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_colon-adenocarcinoma-HE3.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html",
+  file = "./screenshots/thumbnail_colon-adenocarcinoma-HE3.png"
+)
+}
+```
+
+
+
+```{r colon-adenocarcinoma qrcode HE3, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/colon-adenocarcinoma-HE3_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/colon-adenocarcinoma-HE3_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**Kolon Adenokarsinomu**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_colon-adenocarcinoma-HE.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "TR")}
+
+**Kolon Adenokarsinomu**
+
+![](./qrcodes/colon-adenocarcinoma-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_colon-adenocarcinoma-HE.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html)
+
+```
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Colon Adenocarcinoma**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_colon-adenocarcinoma-HE.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "EN")}
+
+**Colon Adenocarcinoma**
+
+![](./qrcodes/colon-adenocarcinoma-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_colon-adenocarcinoma-HE.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html)
+
+```
+
+
+::::
+
+
+
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**Kolon Adenokarsinomu**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_colon-adenocarcinoma-HE2.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "TR")}
+
+**Kolon Adenokarsinomu**
+
+![](./qrcodes/colon-adenocarcinoma-HE2_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_colon-adenocarcinoma-HE2.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html)
+
+```
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Colon Adenocarcinoma**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_colon-adenocarcinoma-HE2.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "EN")}
+
+**Colon Adenocarcinoma**
+
+![](./qrcodes/colon-adenocarcinoma-HE2_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_colon-adenocarcinoma-HE2.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html)
+
+```
+
+
+::::
+
+
+
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**Kolon Adenokarsinomu pT4a**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_colon-adenocarcinoma-HE3.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "TR")}
+
+**Kolon Adenokarsinomu pT4a**
+
+![](./qrcodes/colon-adenocarcinoma-HE3_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_colon-adenocarcinoma-HE3.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html)
+
+```
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Colon Adenocarcinoma pT4a**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_colon-adenocarcinoma-HE3.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "EN")}
+
+**Colon Adenocarcinoma pT4a**
+
+![](./qrcodes/colon-adenocarcinoma-HE3_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_colon-adenocarcinoma-HE3.png){width="25%"}](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html)
+
+```
+
+
+::::
+
+
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+
