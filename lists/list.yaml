@@ -3196,10 +3196,11 @@
   youtube: ''
 - stainname: benign-prostate-hyperplasia-HE
   reponame: benign-prostate-hyperplasia
-  titleTR: ''
-  titleEN: ''
-  organ: ''
-  speciality: ''
+  titleTR: Benign Prostat Hiperplazisi
+  titleEN: Benign Prostate Hyperplasia
+  organTR: prostat
+  organEN: prostate
+  speciality: genitourinary
   type: published
   author:
   - Serdar Balci
@@ -3208,17 +3209,17 @@
   url: https://images.patolojiatlasi.com/benign-prostate-hyperplasia/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - prostat
+  - benign
+  - hiperplazi
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - prostate
+  - benign
+  - hyperplasia
   - pathology
   - atlas
   - histopathology
@@ -3229,10 +3230,11 @@
   youtube: ''
 - stainname: gallbladder-adenomyoma-HE
   reponame: gallbladder-adenomyoma
-  titleTR: ''
-  titleEN: ''
-  organ: ''
-  speciality: ''
+  titleTR: Safra Kesesi Adenomyoma
+  titleEN: Gallbladder Adenomyoma
+  organTR: safra kesesi
+  organEN: gallbladder
+  speciality: pancreatobiliary
   type: published
   author:
   - Serdar Balci
@@ -3241,17 +3243,15 @@
   url: https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - safra kesesi
+  - adenomyoma
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - gallbladder
+  - adenomyoma
   - pathology
   - atlas
   - histopathology
