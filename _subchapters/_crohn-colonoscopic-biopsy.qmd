@@ -32,7 +32,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-```{r crohn-colonoscopic-biopsy screenshot all, eval=TRUE, include=FALSE}
+```{r eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/thumbnail_crohn-colonoscopic-biopsy-all.png")) {
 webshot2::webshot(
   url = "https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/all.html",
@@ -43,7 +43,7 @@ webshot2::webshot(
 
 
 
-```{r crohn-colonoscopic-biopsy qrcode all, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+```{r eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/crohn-colonoscopic-biopsy-all_qrcode.svg")) {
 
   qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/all.html")
