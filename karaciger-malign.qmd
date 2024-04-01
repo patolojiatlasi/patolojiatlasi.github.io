@@ -16,12 +16,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{asis, echo = (language == "TR")}
-# Karaciğer Tümörleri {#sec-karaciger-tumorleri}
+# Karaciğerin Malign Tümörleri {#sec-karaciger-tumorleri}
 ```
 
 
 ```{asis, echo = (language == "EN")}
-# Tumors of the Liver {#sec-liver-tumors}
+# Malignant Tumors of the Liver {#sec-liver-tumors}
 ```
 
 
