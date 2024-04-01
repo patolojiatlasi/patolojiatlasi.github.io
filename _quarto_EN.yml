@@ -186,10 +186,10 @@ book:
           href: colon.qmd
         - text: "Crohn's Disease"
           href: crohn.qmd
-    - part: "Liver"
+    - part: "Liver Pathology"
       chapters:
-        - text: "Liver Pathology"
-          href: liver.qmd
+        # - text: "Liver Pathology"
+        #   href: liver.qmd
         - text: "Liver Transplantation"
           href: liver-transplantation.qmd
         - text: "Benign Liver Tumors"

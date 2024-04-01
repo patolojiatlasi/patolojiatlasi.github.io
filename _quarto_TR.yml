@@ -200,8 +200,8 @@ book:
           href: crohn.qmd
     - part: "Karaciğer Patolojisi"
       chapters:
-        - text: "Karaciğer Patolojisi"
-          href: karaciger.qmd
+        # - text: "Karaciğer Patolojisi"
+        #   href: karaciger.qmd
         - text: "Karaciğer Transplantasyonu"
           href: karaciger-transplantasyonu.qmd
         - text: "Benign Karaciğer Tümörleri"
