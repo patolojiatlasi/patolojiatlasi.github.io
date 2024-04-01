@@ -1,3 +1,17 @@
 
-{{< include ./_subchapters/_liver-transplant-acute-rejection_EN.qmd >}}
+```{r echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis, echo = (language == "TR")}
+# Karaciğer Patolojisi {#sec-liver-pathology}
+```
+
+
+```{asis, echo = (language == "EN")}
+# Liver Pathology {#sec-liver-pathology}
+```
+
 
