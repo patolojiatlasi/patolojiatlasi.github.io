@@ -19,12 +19,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis Crohn Hastalığı TR , echo = (language == "TR")}
-## Crohn Hastalığı {#sec-crohn-colonoscopic-biopsy }
+## Crohn Hastalığı Kolonoskopik Biyopsi {#sec-crohn-colonoscopic-biopsy }
 ```
 
 
 ```{asis Crohn Disease EN , echo = (language == "EN")}
-## Crohn's Disease {#sec-crohn-colonoscopic-biopsy }
+## Crohn's Disease Colonoscopic Biopsy {#sec-crohn-colonoscopic-biopsy }
 ```
 
 
