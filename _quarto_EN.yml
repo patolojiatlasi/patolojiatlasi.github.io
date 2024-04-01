@@ -188,8 +188,10 @@ book:
           href: crohn.qmd
     - part: "Liver"
       chapters:
-        - text: "Liver Tumors"
+        - text: "Liver Pathology"
           href: liver.qmd
+        - text: "Liver Transplantation"
+          href: liver-transplantation.qmd
         - text: "Benign Liver Tumors"
           href: benign-liver-tumors.qmd
     - part: "Pancreatobiliary system"
