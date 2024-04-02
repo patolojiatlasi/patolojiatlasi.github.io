@@ -20,12 +20,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis pankreas adenoskuamöz karsinom TR , echo = (language == "TR")}
-## pancreas-adenosquamous - pankreas adenoskuamöz karsinom {#sec-pancreas-adenosquamous }
+## Pankreas adenoskuamöz karsinom {#sec-pancreas-adenosquamous }
 ```
 
 
 ```{asis pancreas adenosquamous carcinoma EN , echo = (language == "EN")}
-## pancreas-adenosquamous - pancreas adenosquamous carcinoma {#sec-pancreas-adenosquamous }
+## Pancreas adenosquamous carcinoma {#sec-pancreas-adenosquamous }
 ```
 
 

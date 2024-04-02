@@ -198,10 +198,10 @@ book:
           href: malignant-liver-tumors.qmd
     - part: "Pancreatobiliary system"
       chapters:
-        - text: "Pancreas"
-          href: pancreas.qmd
-        - text: "Pancreas Ductal Adenocarcinoma"
-          href: pdac.qmd
+        - text: "Malignant Pancreas Tumors"
+          href: pancreas-malignant.qmd
+        # - text: "Pancreas Ductal Adenocarcinoma"
+        #   href: pdac.qmd
         - text: "Gallbladder"
           href: gallbladder.qmd
         - text: "Ampulla of Vater"

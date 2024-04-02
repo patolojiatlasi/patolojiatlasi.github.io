@@ -21,12 +21,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis pankreatobilier tip duktal adenokarsinom, benign ve malign duktus farkları TR , echo = (language == "TR")}
-## PDAC-benign-vs-malignant - pankreatobilier tip duktal adenokarsinom, benign ve malign duktus farkları {#sec-PDAC-benign-vs-malignant }
+## Pankreatobilier tip duktal adenokarsinom, benign ve malign duktus farkları {#sec-PDAC-benign-vs-malignant }
 ```
 
 
 ```{asis  a pancreatic ductal adenocarcinoma to show differences between benign and malignant ducts EN , echo = (language == "EN")}
-## PDAC-benign-vs-malignant -  a pancreatic ductal adenocarcinoma to show differences between benign and malignant ducts {#sec-PDAC-benign-vs-malignant }
+## Pancreatic ductal adenocarcinoma to show differences between benign and malignant ducts {#sec-PDAC-benign-vs-malignant }
 ```
 
 
