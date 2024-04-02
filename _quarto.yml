@@ -210,10 +210,10 @@ book:
           href: karaciger-malign.qmd
     - part: "Pankreatobilier Sistem Patolojisi"
       chapters:
-        - text: "Pankreas"
-          href: pankreas.qmd
-        - text: "Pankreas Duktal Adenokarsinom"
-          href: pdac.qmd
+        - text: "Malign Pankreas Tümörleri"
+          href: pankreas-malign.qmd
+        # - text: "Pankreas Duktal Adenokarsinom"
+        #   href: pdac.qmd
         - text: "Safra Kesesi"
           href: safra-kesesi.qmd
         - text: "Ampulla Vater"

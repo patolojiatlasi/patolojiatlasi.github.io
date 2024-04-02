@@ -1,0 +1,35 @@
+---
+description: "pankreas, patoloji, atlas, pathology, whole slide image"
+date: last-modified
+categories: [pankreas]
+page-layout: full
+bibliography: references.bib
+---
+
+```{r language pancreas-undifferentiated-osteoclast, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis, echo = (language == "TR")}
+# Pankreas Malign Tümörleri {#sec-pankreas-tumorleri} 
+```
+
+```{asis, echo = (language == "EN")}
+# Malignant Tumors of the Pancreas {#sec-tumors-of-pancreas} 
+```
+
+
+{{< include ./_subchapters/_pancreas-pancreatic-ductal-adenocarcinoma_EN.qmd >}}
+
+{{< include ./_subchapters/_pdac-large-duct_EN.qmd >}}
+
+{{< include ./_subchapters/_pancreas-musinous-adenocarcinoma-osteoclastic_EN.qmd >}}
+
+{{< include ./_subchapters/_PDAC-benign-vs-malignant_EN.qmd >}}
+
+{{< include ./_subchapters/_pancreas-adenosquamous_EN.qmd >}}
+
+{{< include ./_subchapters/_pdac-tru-cut_EN.qmd >}}
+
