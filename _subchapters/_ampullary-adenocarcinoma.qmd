@@ -19,12 +19,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis Ampulla Vater Adenokarsinomu TR , echo = (language == "TR")}
-## ampullary-adenocarcinoma - Ampulla Vater Adenokarsinomu {#sec-ampullary-adenocarcinoma }
+## Ampulla Vater Adenokarsinomu {#sec-ampullary-adenocarcinoma }
 ```
 
 
 ```{asis Adenocarcinoma of Ampulla of Vater EN , echo = (language == "EN")}
-## ampullary-adenocarcinoma - Adenocarcinoma of Ampulla of Vater {#sec-ampullary-adenocarcinoma }
+## Adenocarcinoma of Ampulla of Vater {#sec-ampullary-adenocarcinoma }
 ```
 
 
