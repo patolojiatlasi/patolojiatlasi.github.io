@@ -19,13 +19,13 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-## Hipofiz {#sec-hipofiz} 
+# Hipofiz Bezi {#sec-hipofiz} 
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Pituitary Hyphophysis {#sec-pituitary} 
+# Pituitary Gland {#sec-pituitary} 
 
 ```
 
