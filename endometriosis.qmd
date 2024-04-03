@@ -19,15 +19,18 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-## Endometriozis {#sec-endometriozis}
+# Endometriozis {#sec-endometriozis}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Endometriosis {#sec-endometriosis}
+# Endometriosis {#sec-endometriosis}
 
 ```
+
+
+
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/thumbnail_endometriosis.png")) {
@@ -50,9 +53,10 @@ if (!file.exists("./qrcodes/endometriosis-HE_qrcode.svg")) {
 ```
 
 
- 
 
+::::: panel-tabset
 
+### WSI - Link
 
 
 
@@ -138,6 +142,7 @@ if (!file.exists("./qrcodes/endometriosis-HE_qrcode.svg")) {
 
 
 
+### WSI
 
 
 
@@ -163,5 +168,6 @@ See Microscopy with viewer:
 
 
 
-::::
+
+:::::
 
