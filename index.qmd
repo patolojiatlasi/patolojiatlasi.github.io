@@ -36,9 +36,9 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ---
 
-**Leanpub**
 
-```{asis, echo = (output_type=="html")}
+```{comment}
+**Leanpub**
 
 <iframe width='160' height='400' src='https://leanpub.com/patolojiatlasi/embed' frameborder='0' allowtransparency='true'></iframe>
 
