@@ -1,4 +1,32 @@
-# Artırılmış gerçeklik (Augmented reality)
+---
+description: |
+    Artırılmış Gerçeklik
+    Augmented Reality
+    patoloji atlası
+    pathology atlas
+    whole slide image
+date: last-modified
+categories: [Artırılmış Gerçeklik, Augmented Reality, Patoloji Atlası, Pathology Atlas, Whole Slide Image]
+page-layout: full
+bibliography: references.bib
+---
+
+
+```{r echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+
+```{asis, echo = (language == "TR")}
+# Artırılmış Gerçeklik {#sec-artirilmis-gerceklik}
+```
+
+```{asis, echo = (language == "EN")}
+# Augmented Reality {#sec-augmented-reality}
+```
+
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
