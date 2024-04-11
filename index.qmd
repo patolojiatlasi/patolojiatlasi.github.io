@@ -44,12 +44,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
----
 
 
+```{comment}
 **Google Kitaplar - Google Books**
-
-```{asis, echo = (output_type=="html")}
 
 <a href="https://play.google.com/store/books/details?id=um5jEAAAQBAJ&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Google Play'den alın" src="https://play.google.com/intl/en_us/badges/static/images/badges/tr_badge_web_generic.png" style="width: 250px;"></img></a>
 
@@ -66,13 +64,10 @@ https://books.google.com.tr/books/about?id=um5jEAAAQBAJ
 ```
 
 
----
 
 
+```{comment}
 **Apple Kitaplar - Apple Books**
-
-
-```{asis, echo = (output_type=="html")}
 
 <a href="https://books.apple.com/us/book/patoloji-atlas%C4%B1/id6456452218?itscg=30200&amp;itsct=books_box_badge&amp;ls=1" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/get-it-on-apple-books/badge/tr-tr?size=250x83&amp;releaseDate=1690848000" alt="Get it on Apple Books" style="border-radius: 13px; width: 250px; height: 83px;"></img></a>
 
@@ -95,56 +90,11 @@ https://apple.co/44WLy11
 ```
 
 
----
 
-
-**Artırılmış gerçeklik (Augmented reality)**
-
-
-```{asis, echo = ((language=="TR") & (output_type=="html"))}
-
-
-Bu sayfadaki görüntülere artırılmış gerçeklik (augmented reality) ile de
-ulaşabilirsiniz[^tamir-1].
-
-[^tamir-1]: [Tarık Atmaca](https://github.com/veterinarypathology3d)
-    tarafından <https://veterinarypathology3d.com/> geliştirilmiştir.
-
-Karekodu cep telefonunuza okutun:
-
-![](images/AR-tamir.jpeg){fig-align="left" width="100"}
-
-Link ile açılan sayfaya ve kamera erişimine izin verin. Sonra kamerayı
-bu sayfadaki patoloji resimlerine tutun. Tanılar cep telefonunuzda
-görünecektir.
-
-```
-
-
-
-```{asis, echo = ((language=="EN") & (output_type=="html"))}
-
-Bu sayfadaki görüntülere artırılmış gerçeklik (augmented reality) ile de
-ulaşabilirsiniz[^tamir-1].
-
-[^tamir-1]: [Tarık Atmaca](https://github.com/veterinarypathology3d)
-    tarafından <https://veterinarypathology3d.com/> geliştirilmiştir.
-
-Karekodu cep telefonunuza okutun:
-
-![](images/AR-tamir.jpeg){fig-align="left" width="100"}
-
-Link ile açılan sayfaya ve kamera erişimine izin verin. Sonra kamerayı
-bu sayfadaki patoloji resimlerine tutun. Tanılar cep telefonunuzda
-görünecektir.
-
-```
-
-
-{{< video https://www.youtube.com/embed/76bOJIiT29Y >}}
-
+<br><br><br><br>
 
 ---
+
 
 **Atıf - Citation**
 
