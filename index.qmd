@@ -96,13 +96,13 @@ https://apple.co/44WLy11
 ---
 
 
-**Atıf - Citation**
+
 
 
 ```{asis, echo = (output_type=="html")}
 
 
-| Atıf için (Citation)                                                                                                                                                                                                                                                                                     |
+| **Atıf - Citation**                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------|
 | [![](https://zenodo.org/badge/452585667.svg)](https://zenodo.org/badge/latestdoi/452585667)                                                                                                                                                                                                              |
 | [Open Science Framework DOI: 10.17605/OSF.IO/6W5K8](https://osf.io/6w5k8/)                                                                                                                                                                                                                               |
@@ -124,8 +124,11 @@ https://apple.co/44WLy11
 ```{asis, echo = (output_type=="html")}
 
 ::: {.iframeContainer}
+<br>
 <h3 id="heading"></h3>
+<hr>
 <iframe id="randomIframe"></iframe>
+<hr>
 :::
 
 ```
