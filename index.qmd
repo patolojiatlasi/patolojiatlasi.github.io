@@ -92,10 +92,12 @@ https://apple.co/44WLy11
 
 
 <br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
 
 ---
 
-
+**Atıf - Citation**
 
 
 
@@ -124,11 +126,8 @@ https://apple.co/44WLy11
 ```{asis, echo = (output_type=="html")}
 
 ::: {.iframeContainer}
-<br>
 <h3 id="heading"></h3>
-<hr>
 <iframe id="randomIframe"></iframe>
-<hr>
 :::
 
 ```
