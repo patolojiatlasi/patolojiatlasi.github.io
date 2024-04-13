@@ -91,10 +91,10 @@
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_congored-congored.png
 - stainname: helicobacterpylori-HE
   reponame: helicobacterpylori
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
+  titleTR: Midede Helicobacter pylori
+  titleEN: Helicobacter pylori in stomach
+  organTR: mide
+  organEN: stomach
   speciality: ''
   type: published
   author:
@@ -104,17 +104,21 @@
   url: https://images.patolojiatlasi.com/helicobacterpylori/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - mide
+  - bakteri
+  - enfeksiyon
+  - gastrik
+  - Helicobacter pylori
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - stomach
+  - bacteria
+  - infection
+  - gastric
+  - Helicobacter pylori
   - pathology
   - atlas
   - histopathology
@@ -139,6 +143,7 @@
   - bakteri
   - enfeksiyon
   - gastrik
+  - histokimya
   - patoloji
   - atlas
   - histopatoloji
@@ -148,6 +153,7 @@
   - bacteria
   - infection
   - gastric
+  - histochemistry
   - pathology
   - atlas
   - histopathology
