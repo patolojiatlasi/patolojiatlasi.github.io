@@ -355,6 +355,9 @@ format:
       warning: false
     css: styles.css
     self-contained: false
+    feed:
+      type: rss
+      path: feed.xml
     anchor-sections: true
     link-external-icon: true
     link-external-newwindow: true
