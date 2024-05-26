@@ -349,6 +349,8 @@ format:
           <script src="script.js"></script>
           <script src="webpages.js"></script>
       - file: "./headerEN.html"
+    feeds:
+      rss: true
 
 #   epub:
 #     toc: true
