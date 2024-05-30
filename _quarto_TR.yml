@@ -373,7 +373,8 @@ format:
       - file: "./headerTR.html"
     filters:
       - collapse-social-embeds
-
+    feeds:
+      rss: true
 citation:
     type: webpage
     container-title: Patoloji Atlası
