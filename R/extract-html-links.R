@@ -1,6 +1,10 @@
 `%>%` <- magrittr::`%>%`
 
-qmd_files <- list.files(path = ".", pattern = "*.qmd", recursive = FALSE, full.names = TRUE)
+qmd_files1 <- list.files(path = ".", pattern = "*.qmd", recursive = FALSE, full.names = TRUE)
+
+qmd_files2 <- list.files(path = "./_subchapters", pattern = "*.qmd", recursive = FALSE, full.names = TRUE)
+
+qmd_files <- c(qmd_files1, qmd_files2)
 
 # qmd_files[31]
 
