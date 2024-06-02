@@ -8,13 +8,22 @@ page-layout: full
 bibliography: references.bib
 ---
 
-# Hücre İçi Birikimler {#sec-hucre-ici-birikimler}
 
 ```{r language, echo=FALSE, include=TRUE}
 source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
+
+
+```{asis, echo = (language == "TR")}
+# Hücre İçi Birikimler {#sec-hucre-ici-birikimler}
+```
+
+
+```{asis, echo = (language == "EN")}
+# Intracellular Accumulations {#sec-intracellular-accumulations}
+```
 
 
 ```{asis, echo = (language == "TR")}
