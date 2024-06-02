@@ -93,7 +93,7 @@ if (!file.exists("./qrcodes/cholesterolpolyp-HE_qrcode.svg")) {
 
 **Kolesterol Polibi**
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_cholesterolpolyp.png){width="25%"}](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html)
+![](./qrcodes/cholesterolpolyp-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_cholesterolpolyp.png){width="25%"}](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html)
 
 ```
 
@@ -114,7 +114,7 @@ if (!file.exists("./qrcodes/cholesterolpolyp-HE_qrcode.svg")) {
 
 **Cholesterol Polyp**
 
-![](./qrcodes/cholesterolpolyp-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_cholesterolpolyp.png){width="25%"}](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html)
+[![Click for Full Screen WSI](./screenshots/thumbnail_cholesterolpolyp.png){width="25%"}](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/cholesterolpolyp/HE.html)
 
 ```
 
@@ -146,6 +146,9 @@ if (!file.exists("./qrcodes/cholesterolpolyp-HE_qrcode.svg")) {
 
 
 ::::
+
+
+
 
 
 ### WSI
@@ -708,13 +711,21 @@ Mikroskopik görüntüleri inceleyin:
 
 
 
-
-
-
+```{asis, echo = (language == "TR")}
 
 ## Antrakoz, Antrakotik Pigment {#sec-antrakoz-antrakotik-pigment}
 
-Torakal bölge lenf nodunda antrakotik pigment
+```
+
+```{asis, echo = (language == "EN")}
+
+## Anthracosis, Anthracotic Pigment {#sec-anthracosis-anthracotic-pigment}
+
+```
+
+
+
+
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/thumbnail_anthracosis1.png")) {
@@ -778,6 +789,8 @@ if (!file.exists("./qrcodes/anthracosis-HE2_qrcode.svg")) {
 
 
 ```{asis, echo = (language == "TR")} 
+**Torakal bölge lenf nodunda antrakotik pigment**
+
 
 [![Click for Full Screen
 WSI](./screenshots/thumbnail_anthracosis1.png){width="25%"}](https://images.patolojiatlasi.com/anthracosis/HE.html)
@@ -800,6 +813,7 @@ WSI](https://images.patolojiatlasi.com/anthracosis/HE.html)
 
 
 ```{asis, echo = (language == "TR")} 
+**Torakal bölge lenf nodunda antrakotik pigment**
 
 ![](./qrcodes/anthracosis-HE1_qrcode.svg){width="15%"} [![Click for Full Screen
 WSI](./screenshots/thumbnail_anthracosis1.png){width="25%"}](https://images.patolojiatlasi.com/anthracosis/HE.html)
