@@ -26,12 +26,13 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ## Herpes Simplex Virus (HSV) {#sec-herpes-simplex-virus}
 ```
 
+
 ```{asis, echo = (language == "EN")}
 ### Herpes Esophagatis {#sec-herpes-esophagatis}
 ```
 
 
-```{asis, echo = (language == "EN")}
+```{asis, echo = (language == "TR")}
 ### Herpes Özofajiti {#sec-herpes-ozofajiti}
 ```
 
