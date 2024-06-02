@@ -23,6 +23,6 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "EN")}
-# Genital Sistem Patolojisi {#sec-genital-sistem-patolojisi}
+# Genital System Pathology {#sec-genital-system-pathology}
 ```
 

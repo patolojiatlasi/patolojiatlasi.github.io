@@ -34,7 +34,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "EN")}
 
-## Benign Kemik Tümörleri {#sec-benign-bone-tumors}
+## Benign Bone Tumors {#sec-benign-bone-tumors}
 ```
 
 
