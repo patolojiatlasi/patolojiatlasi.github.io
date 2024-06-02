@@ -18,7 +18,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{asis virus, echo = (language == "EN")}
-# Virus {#sec-virus}
+# Viruses {#sec-viruses}
 ```
 
 
