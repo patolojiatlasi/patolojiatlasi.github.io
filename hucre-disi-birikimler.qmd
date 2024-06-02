@@ -8,7 +8,20 @@ page-layout: full
 bibliography: references.bib
 ---
 
+
+```{asis, echo = (language == "TR")}
+
 # Hücre Dışı Birikimler {#sec-hucre-disi-birikimler}
+
+```
+
+```{asis, echo = (language == "EN")}
+
+# Extracellular Accumulations {#sec-extracellular-accumulations}
+
+```
+
+
 
 ```{r language ochronosis, echo=FALSE, include=TRUE}
 source("./R/language.R")
