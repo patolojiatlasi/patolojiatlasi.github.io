@@ -311,9 +311,9 @@ Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/HE.html)
 
 
 ```{asis, echo = (language == "EN")}
-**Karaciğer İğnde Biyopsisinde glikojen depo hastalığı**
+**Glycogen Storage Disease in Liver Biopsy**
 
-**Hematoksilen Eozin**
+**Hematoxylin Eosin**
 
 [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_glycogenstorage-HE.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/HE.html)
@@ -337,9 +337,9 @@ Tıklayın](https://images.patolojiatlasi.com/glycogenstorage/HE.html)
 
 
 ```{asis, echo = (language == "EN")}
-**Karaciğer İğnde Biyopsisinde glikojen depo hastalığı**
+**Glycogen Storage Disease in Liver Biopsy**
 
-**Hematoksilen Eozin**
+**Hematoxylin Eosin**
 
 ![](./qrcodes/glycogenstorage-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
 Tıklayın](./screenshots/thumbnail_glycogenstorage-HE.png){width="25%"}](https://images.patolojiatlasi.com/glycogenstorage/HE.html)
@@ -373,7 +373,7 @@ Mikroskopik görüntüleri inceleyin:
 
 ```{asis, echo = ((language=="EN") & (output_type=="html"))}
 
-Mikroskopik görüntüleri inceleyin:
+See Microscopy with viewer:
 
 <iframe src="https://images.patolojiatlasi.com/glycogenstorage/HE.html" style="height:600px;width:100%;" data-external="1">
 
@@ -703,7 +703,7 @@ Mikroskopik görüntüleri inceleyin:
 
 ```{asis, echo = ((language=="EN") & (output_type=="html"))}
 
-Mikroskopik görüntüleri inceleyin:
+See Microscopy with viewer:
 
 <iframe src="https://images.patolojiatlasi.com/glycogenstorage/PASD.html" style="height:600px;width:100%;" data-external="1">
 
