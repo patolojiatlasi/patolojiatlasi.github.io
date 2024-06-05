@@ -216,8 +216,8 @@ book:
           href: mesothelial.qmd
     - part: "Gynecopathology"
       chapters:
-        - text: "Gynecopathology"
-          href: gynecologic.qmd
+        # - text: "Gynecopathology"
+        #   href: gynecologic.qmd
         - text: "Genital System"
           href: genital.qmd
         - text: "Cervix"
