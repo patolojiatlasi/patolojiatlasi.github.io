@@ -33,12 +33,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 
-{{< include ./_subchapters/_ovary-serous-borderline-micropapillary.qmd >}}
+<!-- {{< include ./_subchapters/_ovary-serous-borderline-micropapillary.qmd >}} -->
 
 
 
 
-{{< include ./_subchapters/_ovary_serous-carcinoma-psammoma-bodies.qmd >}}
+<!-- {{< include ./_subchapters/_ovary_serous-carcinoma-psammoma-bodies.qmd >}} -->
 
 
 
