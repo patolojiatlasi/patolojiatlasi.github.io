@@ -1,8 +1,11 @@
 {
-  "hash": "c24551a502782dbc6180d1045b815696",
+  "hash": "388f65c2d1161d94af4fc553278891d9",
   "result": {
+    "engine": "knitr",
     "markdown": "---\ndescription: |\n    genital, reproductive, patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [genital, reproductive]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# Genital Sistem Patolojisi {#sec-genital-sistem-patolojisi}\n:::\n\n::: {.cell}\n\n:::\n",
-    "supporting": [],
+    "supporting": [
+      "genital_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

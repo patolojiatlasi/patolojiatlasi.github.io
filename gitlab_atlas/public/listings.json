@@ -2,5 +2,11 @@
   {
     "listing": "/lists/index.html",
     "items": []
+  },
+  {
+    "listing": "/lists/listing2.html",
+    "items": [
+      "/lists/index.html"
+    ]
   }
 ]
