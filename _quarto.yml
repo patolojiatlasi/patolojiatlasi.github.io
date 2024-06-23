@@ -299,6 +299,17 @@ book:
     - part: "---"
     - referanslar.qmd
     - part: "---"
+    - part: "Listeler"
+      chapters:
+        - text: "Listeler"
+          href: lists/published.qmd
+        - text: "Vaka Listesi"
+          href: lists/index.qmd
+    # - listing.qmd
+    # - lists/listing2.qmd
+    # - listing3.qmd
+    # - listing4.qmd
+    - part: "---"
   appendices:
     - text: "Yazarlar ve Katkıda Bulunanlar"
       href: yazarlar.qmd
@@ -310,15 +321,8 @@ book:
     - yonetim-gelistirme.qmd
     - text: "İletişim"
       href: katki.qmd
-    - text: "Vaka Listesi"
-      href: lists/index.qmd
     - text: "Artırılmış Gerçeklik"
       href: artirilmis-gerceklik.qmd
-#    - text: "Liste"
-#      href: listing.qmd
-    - lists/listing2.qmd
-    # - listing3.qmd
-    # - listing4.qmd
     # - feature-trials.qmd
 
 bibliography: references.bib
