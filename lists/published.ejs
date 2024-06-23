@@ -1,18 +1,51 @@
 ```{=html}
 
 <style>
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  .gallery-item {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  .gallery-item:hover {
+    transform: translateY(-5px);
+  }
+  .gallery-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  .gallery-item a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .item-title {
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #f8f8f8;
+  }
 </style>
 
-<ul class="list">
+<div class="gallery">
   <% for (const item of items) { %>
-    <li <%= metadataAttrs(item) %>>
+    <div class="gallery-item" <%= metadataAttrs(item) %>>
       <a href="<%= item.url %>" target="_blank">
-      <img src="<%= item.screenshot %>" alt="image" style="width:25%;">
+        <img src="<%= item.screenshot %>" alt="<%= item.title %>">
+        <div class="item-title"><%= item.title %></div>
       </a>
-      <br/>
-    </li>
+    </div>
   <% } %>
-</ul>
+</div>
 
 ```
 
