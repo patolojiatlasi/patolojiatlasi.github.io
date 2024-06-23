@@ -1,0 +1,18 @@
+```{=html}
+
+<style>
+</style>
+
+<ul class="list">
+  <% for (const item of items) { %>
+    <li <%= metadataAttrs(item) %>>
+      <a href="<%= item.url %>" target="_blank">
+      <img src="<%= item.screenshot %>" alt="image" style="width:25%;">
+      </a>
+      <br/>
+    </li>
+  <% } %>
+</ul>
+
+```
+
