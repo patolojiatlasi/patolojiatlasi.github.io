@@ -303,6 +303,10 @@ book:
       chapters:
         - text: "Tümü"
           href: lists/published.qmd
+        - text: "Tümü - 2"
+          href: lists/published-2.qmd
+        - text: "Tümü - 3"
+          href: lists/published-3.qmd
         - text: "Özel Boyalar"
           href: lists/stains.qmd
         - text: "pancreatobiliary"
@@ -388,4 +392,5 @@ citation:
 
 
 editor: source
+
 
