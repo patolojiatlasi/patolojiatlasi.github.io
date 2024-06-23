@@ -95,7 +95,7 @@
   titleEN: Helicobacter pylori in stomach
   organTR: mide
   organEN: stomach
-  speciality: ''
+  speciality: 'gastrointestinal'
   type: published
   author:
   - Serdar Balci
@@ -171,17 +171,19 @@
   url: https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - bakteri
+  - mide
+  - giemsa
+  - histokimya
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - bacteria
+  - stomach
+  - giemsa
+  - histochemistry
   - pathology
   - atlas
   - histopathology
@@ -217,11 +219,11 @@
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_helicobacterpylori-IHC.png
 - stainname: liver-hemangioma-HE
   reponame: liver-hemangioma
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
-  speciality: ''
+  titleTR: 'Karaciğer Hemangioma'
+  titleEN: 'Liver Hemangioma'
+  organTR: 'Karaaciğer'
+  organEN: 'Liver'
+  speciality: 'liver'
   type: published
   author:
   - Serdar Balci
@@ -230,17 +232,19 @@
   url: https://images.patolojiatlasi.com/liver-hemangioma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - karaciğer
+  - hemangioma
+  - tümör
+  - benign
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - liver
+  - hemangioma
+  - tumor
+  - benign
   - pathology
   - atlas
   - histopathology
@@ -251,11 +255,11 @@
   youtube: ''
 - stainname: kidneyoncocytoma-HE
   reponame: kidneyoncocytoma
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
-  speciality: ''
+  titleTR: 'Onkositom'
+  titleEN: 'Oncocytoma'
+  organTR: 'Böbrek'
+  organEN: 'Kidney'
+  speciality: 'genitourinary'
   type: published
   author:
   - Serdar Balci
@@ -264,17 +268,19 @@
   url: https://images.patolojiatlasi.com/kidneyoncocytoma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - böbrek
+  - onkositom
+  - benign
+  - tümör
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - kidney
+  - oncocytoma
+  - benign
+  - tumor
   - pathology
   - atlas
   - histopathology
@@ -285,8 +291,11 @@
   youtube: ''
 - stainname: exostosis-oc
   reponame: exostosis
-  titleTR: ''
-  titleEN: ''
+  titleTR: 'Eksostoz'
+  titleEN: 'Exostosis'
+  organTR: 'kemik'
+  organEN: 'bone'
+  speciality: 'bone'
   type: published
   author:
   - Serdar Balci
@@ -313,8 +322,11 @@
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_exostosis-oc.png
 - stainname: exostosis-oc001
   reponame: exostosis
-  titleTR: ''
-  titleEN: ''
+  titleTR: 'Ekzostoz'
+  titleEN: 'Exostosis'
+  organTR: 'Kemik'
+  organEN: 'Bone'
+  speciality: 'Bone'
   type: published
   author:
   - Serdar Balci
@@ -341,8 +353,11 @@
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_exostosis-oc001.png
 - stainname: exostosis-oc002
   reponame: exostosis
-  titleTR: ''
-  titleEN: ''
+  titleTR: 'Ekzostoz'
+  titleEN: 'Exostosis'
+  organTR: 'Kemik'
+  organEN: 'Bone'
+  speciality: 'Bone'
   type: published
   author:
   - Serdar Balci
@@ -369,11 +384,11 @@
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_exostosis-oc002.png
 - stainname: exostosis-HE
   reponame: exostosis
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
-  speciality: ''
+  titleTR: 'Ekzostoz'
+  titleEN: 'Exostosis'
+  organTR: 'Kemik'
+  organEN: 'Bone'
+  speciality: 'Bone'
   type: published
   author:
   - Serdar Balci
@@ -403,11 +418,11 @@
   youtube: ''
 - stainname: carcinogenesis-HE
   reponame: carcinogenesis
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
-  speciality: ''
+  titleTR: 'Karsinogenez'
+  titleEN: 'Carcinogenesis'
+  organTR: 'mide'
+  organEN: 'stomach'
+  speciality: 'gastrointestinal'
   type: published
   author:
   - Serdar Balci
@@ -441,7 +456,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'gastrointestinal'
   type: published
   author:
   - Serdar Balci
@@ -475,7 +490,7 @@
   titleEN: Cervix Squamous Cell Carcinoma
   organTR: serviks
   organEN: cervix
-  speciality: ''
+  speciality: 'gyneacologic'
   type: published
   author:
   - Serdar Balci
@@ -509,7 +524,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'genitourinary'
   type: published
   author:
   - Serdar Balci
@@ -543,7 +558,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'genitourinary'
   type: published
   author:
   - Serdar Balci
@@ -577,7 +592,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'genitourinary'
   type: published
   author:
   - Serdar Balci
@@ -611,7 +626,7 @@
   titleEN: Brain arteriovenous malformation
   organTR: beyin
   organEN: brain
-  speciality: ''
+  speciality: 'neuro'
   type: published
   author:
   - Serdar Balci
@@ -645,7 +660,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'neuro'
   type: published
   author:
   - Serdar Balci
@@ -707,7 +722,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'ENT'
   type: published
   author:
   - Serdar Balci
@@ -741,7 +756,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'gastrointestinal'
   type: published
   author:
   - Serdar Balci
@@ -775,7 +790,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'gasrointestinal'
   type: published
   author:
   - Serdar Balci
@@ -809,7 +824,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'gasrointestinal'
   type: published
   author:
   - Serdar Balci
@@ -843,7 +858,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'gasrointestinal'
   type: published
   author:
   - Serdar Balci
@@ -877,7 +892,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'gyneacologic'
   type: published
   author:
   - Serdar Balci
@@ -911,7 +926,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'gasrointestinal'
   type: published
   author:
   - Serdar Balci
@@ -945,7 +960,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'bone'
   type: published
   author:
   - Serdar Balci
@@ -1035,7 +1050,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'endocrine'
   type: published
   author:
   - Serdar Balci
@@ -1097,7 +1112,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'neuro'
   type: published
   author:
   - Serdar Balci
@@ -1191,7 +1206,7 @@
   titleEN: Ischemic Gangrenous Cholecystitis
   organTR: safra kesesi
   organEN: gallbladder
-  speciality: ''
+  speciality: 'pancreatobiliary'
   type: published
   author:
   - Serdar Balci
@@ -1257,7 +1272,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'gasrointestinal'
   type: published
   author:
   - Serdar Balci
@@ -1375,7 +1390,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'gasrointestinal'
   type: published
   author:
   - Serdar Balci
@@ -1409,7 +1424,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'gasrointestinal'
   type: published
   author:
   - Serdar Balci
@@ -1443,7 +1458,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'autopsy'
   type: published
   author:
   - Serdar Balci
@@ -1477,7 +1492,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'autopsy'
   type: published
   author:
   - Serdar Balci
@@ -1511,7 +1526,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'neuro'
   type: published
   author:
   - Serdar Balci
@@ -1643,11 +1658,11 @@
   youtube: ''
 - stainname: cholesterolpolyp-HE
   reponame: cholesterolpolyp
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
-  speciality: ''
+  titleTR: 'Kolesterol Polibi'
+  titleEN: 'Cholesterol Polyp'
+  organTR: 'safra kesesi'
+  organEN: 'gallbladder'
+  speciality: 'pancreatobiliary'
   type: published
   author:
   - Serdar Balci
