@@ -1,0 +1,41 @@
+---
+pagetitle: "Stains"
+title: "Histochemistry and Immunohistochemistry"
+listing:
+  - id: case-list-histochemistry
+    include: 
+      categoriesEN: "histochemistry"
+    contents: list.yaml
+    template: list.ejs
+    filter-ui: false
+    sort: "date desc"
+    sort-ui: false
+    categories: true
+  - id: case-list-immunohistochemistry
+    include: 
+      categoriesEN: "immunohistochemistry"
+    contents: list.yaml
+    template: list.ejs
+    filter-ui: false
+    sort: "date desc"
+    sort-ui: false
+    categories: true
+toc: true
+search: true
+page-layout: full
+description: |
+  Histochemistry and Immunohistochemistry.
+---
+
+
+## Histochemistry Slides
+
+:::{#case-list-histochemistry}
+:::
+
+
+## Immunohistochemistry Slides
+
+:::{#case-list-immunohistochemistry}
+:::
+
