@@ -28,7 +28,7 @@
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_myxoidliposarcoma-HE.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_myxoidliposarcoma.png
   githubrepo: https:///github.com/pathologyatlas/myxoidliposarcoma
   githubpage: https:///pathologyatlas.github.io/myxoidliposarcoma
   youtube: ''
@@ -47,6 +47,7 @@
   categoriesTR:
   - amiloid
   - kristal violet
+  - histokimya
   - kolon
   - patoloji
   - atlas
@@ -55,12 +56,16 @@
   categoriesEN:
   - amyloid
   - crystal violet
+  - histochemistry
   - colon
   - pathology
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_amyloid-crystalviolet.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_crystalviolet.png
+  githubrepo: https:///github.com/pathologyatlas/amyloid
+  githubpage: https:///pathologyatlas.github.io/amyloid
+  youtube: ''
 - stainname: congored-congored
   reponame: congored
   titleTR: Kongo Kırmızısı
@@ -88,7 +93,10 @@
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_congored-congored.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_congored.png
+  githubrepo: https:///github.com/pathologyatlas/congored
+  githubpage: https:///pathologyatlas.github.io/congored
+  youtube: https://www.youtube.com/watch?v=U9glkfQLTm4
 - stainname: helicobacterpylori-HE
   reponame: helicobacterpylori
   titleTR: Midede Helicobacter pylori
@@ -123,7 +131,7 @@
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_helicobacterpylori-HE.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_helicobacterpylori.png
   githubrepo: https:///github.com/pathologyatlas/helicobacterpylori
   githubpage: https:///pathologyatlas.github.io/helicobacterpylori
   youtube: ''
@@ -158,7 +166,10 @@
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_helicobacterpylori-warthinstarry.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_helicobacterpyloriWS.png
+  githubrepo: https:///github.com/pathologyatlas/helicobacterpylori
+  githubpage: https:///pathologyatlas.github.io/helicobacterpylori
+  youtube: ''
 - stainname: helicobacterpylori-giemsa
   reponame: helicobacterpylori
   titleTR: 'Helicobacter pylori (Giemsa)'
@@ -188,7 +199,10 @@
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_helicobacterpylori-giemsa.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_helicobacterpyloriGiemsa.png
+  githubrepo: https:///github.com/pathologyatlas/helicobacterpylori
+  githubpage: https:///pathologyatlas.github.io/helicobacterpylori
+  youtube: ''
 - stainname: helicobacterpylori-IHC
   reponame: helicobacterpylori
   titleTR: 'Helicobacter pylori (IHC)'
@@ -216,7 +230,10 @@
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_helicobacterpylori-IHC.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_helicobacterpyloriIHC.png
+  githubrepo: https:///github.com/pathologyatlas/helicobacterpylori
+  githubpage: https:///pathologyatlas.github.io/helicobacterpylori
+  youtube: ''
 - stainname: liver-hemangioma-HE
   reponame: liver-hemangioma
   titleTR: 'Karaciğer Hemangioma'
@@ -224,7 +241,7 @@
   organTR: 'Karaaciğer'
   organEN: 'Liver'
   speciality: 'liver'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -260,7 +277,7 @@
   organTR: 'Böbrek'
   organEN: 'Kidney'
   speciality: 'genitourinary'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -296,7 +313,7 @@
   organTR: 'kemik'
   organEN: 'bone'
   speciality: 'bone'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -327,7 +344,7 @@
   organTR: 'Kemik'
   organEN: 'Bone'
   speciality: 'Bone'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -358,7 +375,7 @@
   organTR: 'Kemik'
   organEN: 'Bone'
   speciality: 'Bone'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -389,7 +406,7 @@
   organTR: 'Kemik'
   organEN: 'Bone'
   speciality: 'Bone'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -423,7 +440,7 @@
   organTR: 'mide'
   organEN: 'stomach'
   speciality: 'gastrointestinal'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -457,7 +474,7 @@
   organTR: ''
   organEN: ''
   speciality: 'gastrointestinal'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -491,7 +508,7 @@
   organTR: serviks
   organEN: cervix
   speciality: 'gyneacologic'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -525,7 +542,7 @@
   organTR: ''
   organEN: ''
   speciality: 'genitourinary'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -559,7 +576,7 @@
   organTR: ''
   organEN: ''
   speciality: 'genitourinary'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -593,7 +610,7 @@
   organTR: ''
   organEN: ''
   speciality: 'genitourinary'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -627,7 +644,7 @@
   organTR: beyin
   organEN: brain
   speciality: 'neuro'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -661,7 +678,7 @@
   organTR: ''
   organEN: ''
   speciality: 'neuro'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -692,7 +709,7 @@
   reponame: cholesteatoma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -723,7 +740,7 @@
   organTR: ''
   organEN: ''
   speciality: 'ENT'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -757,7 +774,7 @@
   organTR: ''
   organEN: ''
   speciality: 'gastrointestinal'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -791,7 +808,7 @@
   organTR: ''
   organEN: ''
   speciality: 'gasrointestinal'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -825,7 +842,7 @@
   organTR: ''
   organEN: ''
   speciality: 'gasrointestinal'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -859,7 +876,7 @@
   organTR: ''
   organEN: ''
   speciality: 'gasrointestinal'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -893,7 +910,7 @@
   organTR: ''
   organEN: ''
   speciality: 'gyneacologic'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -927,7 +944,7 @@
   organTR: ''
   organEN: ''
   speciality: 'gasrointestinal'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -961,7 +978,7 @@
   organTR: ''
   organEN: ''
   speciality: 'bone'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -992,7 +1009,7 @@
   reponame: pancreaticadenocarcinoma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1020,7 +1037,7 @@
   reponame: lecture1
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1051,7 +1068,7 @@
   organTR: ''
   organEN: ''
   speciality: 'endocrine'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1082,7 +1099,7 @@
   reponame: candidaalbicans
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1113,7 +1130,7 @@
   organTR: ''
   organEN: ''
   speciality: 'neuro'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1144,7 +1161,7 @@
   reponame: brain-mucormycosis
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1175,7 +1192,7 @@
   organTR: safra kesesi
   organEN: gallbladder
   speciality: pancreatobiliary
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1207,7 +1224,7 @@
   organTR: safra kesesi
   organEN: gallbladder
   speciality: 'pancreatobiliary'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1242,7 +1259,7 @@
   reponame: lymphocytic-gastritis
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1273,7 +1290,7 @@
   organTR: ''
   organEN: ''
   speciality: 'gasrointestinal'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1304,7 +1321,7 @@
   reponame: lymphocytic-gastritis
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1332,7 +1349,7 @@
   reponame: lymphocytic-gastritis
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1360,7 +1377,7 @@
   reponame: lymphocytic-gastritis
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1391,7 +1408,7 @@
   organTR: ''
   organEN: ''
   speciality: 'gasrointestinal'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1425,7 +1442,7 @@
   organTR: ''
   organEN: ''
   speciality: 'gasrointestinal'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1459,7 +1476,7 @@
   organTR: ''
   organEN: ''
   speciality: 'autopsy'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1493,7 +1510,7 @@
   organTR: ''
   organEN: ''
   speciality: 'autopsy'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1527,7 +1544,7 @@
   organTR: ''
   organEN: ''
   speciality: 'neuro'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1561,7 +1578,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1595,7 +1612,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1629,7 +1646,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1663,7 +1680,7 @@
   organTR: 'safra kesesi'
   organEN: 'gallbladder'
   speciality: 'pancreatobiliary'
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1697,7 +1714,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1728,7 +1745,7 @@
   reponame: glycogenstorage
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1756,7 +1773,7 @@
   reponame: glycogenstorage
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1787,7 +1804,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1821,7 +1838,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1855,7 +1872,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1886,7 +1903,7 @@
   reponame: melanosiscoli
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1917,7 +1934,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1951,7 +1968,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1985,7 +2002,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2019,7 +2036,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2053,7 +2070,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2087,7 +2104,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2121,7 +2138,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2155,7 +2172,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2189,7 +2206,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2223,7 +2240,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2254,7 +2271,7 @@
   reponame: metaplasia
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2285,7 +2302,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2319,7 +2336,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2353,7 +2370,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2384,7 +2401,7 @@
   reponame: insidious-lymph-node-metastasis
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2415,7 +2432,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2449,7 +2466,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2480,7 +2497,7 @@
   reponame: nasopharynx-nonkeratinizing-scc
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2508,7 +2525,7 @@
   reponame: nasopharynx-nonkeratinizing-scc
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2536,7 +2553,7 @@
   reponame: nasopharynx-nonkeratinizing-scc
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2564,7 +2581,7 @@
   reponame: neuroendocrine-cytology
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2595,7 +2612,7 @@
   organTR: plasenta
   organEN: placenta
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2629,7 +2646,7 @@
   organTR: prostat
   organEN: prostate
   speciality: genitourinary
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2663,7 +2680,7 @@
   organTR: deri
   organEN: skin
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2697,7 +2714,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2731,7 +2748,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2765,7 +2782,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2799,7 +2816,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2833,7 +2850,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2867,7 +2884,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2901,7 +2918,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2935,7 +2952,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -2969,7 +2986,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3003,7 +3020,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3037,7 +3054,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3071,7 +3088,7 @@
   organTR: appendiks
   organEN: appendix
   speciality: soft tissue
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3102,7 +3119,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3136,7 +3153,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3170,7 +3187,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3204,7 +3221,7 @@
   organTR: meninks
   organEN: meninges
   speciality: neuropathology
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3238,7 +3255,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3272,7 +3289,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3306,7 +3323,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3340,7 +3357,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3374,7 +3391,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3408,7 +3425,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3442,7 +3459,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3476,7 +3493,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3510,7 +3527,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3544,7 +3561,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3578,7 +3595,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3612,7 +3629,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3646,7 +3663,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3680,7 +3697,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3714,7 +3731,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3748,7 +3765,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3782,7 +3799,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3816,7 +3833,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3850,7 +3867,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3884,7 +3901,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3918,7 +3935,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3952,7 +3969,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -3986,7 +4003,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4020,7 +4037,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4054,7 +4071,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4088,7 +4105,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4122,7 +4139,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4156,7 +4173,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4190,7 +4207,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4224,7 +4241,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4258,7 +4275,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4292,7 +4309,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4326,7 +4343,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4360,7 +4377,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4394,7 +4411,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4428,7 +4445,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4462,7 +4479,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4496,7 +4513,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4530,7 +4547,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4564,7 +4581,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4598,7 +4615,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4632,7 +4649,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4666,7 +4683,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4700,7 +4717,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4734,7 +4751,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4765,7 +4782,7 @@
   reponame: her2-cish
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4796,7 +4813,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4830,7 +4847,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4864,7 +4881,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4898,7 +4915,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4932,7 +4949,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -4966,7 +4983,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5000,7 +5017,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5034,7 +5051,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5065,7 +5082,7 @@
   reponame: crohn-colonoscopic-biopsy
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5096,7 +5113,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5130,7 +5147,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5164,7 +5181,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5198,7 +5215,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5232,7 +5249,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5266,7 +5283,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5300,7 +5317,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5334,7 +5351,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5368,7 +5385,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5402,7 +5419,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5436,7 +5453,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5470,7 +5487,7 @@
   organTR: özofagus
   organEN: esophagus
   speciality: gastrointestinal
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5506,7 +5523,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5540,7 +5557,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5574,7 +5591,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5608,7 +5625,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5642,7 +5659,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5676,7 +5693,7 @@
   organTR: adrenal bez
   organEN: adrenal gland
   speciality: endocrine pathology
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Turkan Atasever Rezanko
@@ -5711,7 +5728,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5745,7 +5762,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5779,7 +5796,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5813,7 +5830,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5847,7 +5864,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5881,7 +5898,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5915,7 +5932,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5949,7 +5966,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -5983,7 +6000,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6017,7 +6034,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6051,7 +6068,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6085,7 +6102,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6119,7 +6136,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6153,7 +6170,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6187,7 +6204,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6221,7 +6238,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6255,7 +6272,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6289,7 +6306,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6323,7 +6340,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6357,7 +6374,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6391,7 +6408,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6425,7 +6442,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6459,7 +6476,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6493,7 +6510,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6527,7 +6544,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6561,7 +6578,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6595,7 +6612,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6629,7 +6646,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6663,7 +6680,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6697,7 +6714,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6731,7 +6748,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6765,7 +6782,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6799,7 +6816,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6830,7 +6847,7 @@
   reponame: mucin
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6861,7 +6878,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6895,7 +6912,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6929,7 +6946,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6963,7 +6980,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -6997,7 +7014,7 @@
   organTR: pankreas
   organEN: pancreas
   speciality: pancreatobiliary
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7031,7 +7048,7 @@
   organTR: pankreas
   organEN: pancreas
   speciality: pancreatobiliary
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7067,7 +7084,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7101,7 +7118,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7135,7 +7152,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7169,7 +7186,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7203,7 +7220,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7237,7 +7254,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7271,7 +7288,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7305,7 +7322,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7339,7 +7356,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7373,7 +7390,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7407,7 +7424,7 @@
   organTR: retroorbital
   organEN: retroorbital
   speciality: neuropathology
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7441,7 +7458,7 @@
   organTR: meninks
   organEN: meninges
   speciality: neuropathology
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7477,7 +7494,7 @@
   organTR: meninks
   organEN: meninges
   speciality: neuropathology
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7513,7 +7530,7 @@
   organTR: meninks
   organEN: meninges
   speciality: neuropathology
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7549,7 +7566,7 @@
   organTR: meninks
   organEN: meninges
   speciality: neuropathology
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7585,7 +7602,7 @@
   organTR: meninks
   organEN: meninges
   speciality: neuropathology
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7621,7 +7638,7 @@
   organTR: meninks
   organEN: meninges
   speciality: neuropathology
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7657,7 +7674,7 @@
   organTR: meninks
   organEN: meninges
   speciality: neuropathology
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7693,7 +7710,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7727,7 +7744,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7760,7 +7777,7 @@
   titleEN: trypsin immunohistochemistry
   organ: pancreas
   speciality: pancreatobiliary
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7792,7 +7809,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7826,7 +7843,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7860,7 +7877,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7894,7 +7911,7 @@
   organTR: ''
   organEN: ''
   speciality: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7925,7 +7942,7 @@
   reponame: hepatocellularcarcinoma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7953,7 +7970,7 @@
     histokimyası
   titleEN: Mucicarmine histochemistry stain showing intracellular mucin in a normal
     colon
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -7972,7 +7989,7 @@
   reponame: myxoidliposarcoma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8000,7 +8017,7 @@
   reponame: ampullary-adenocarcinoma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8028,7 +8045,7 @@
   reponame: WDNET-ampulla
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8056,7 +8073,7 @@
   reponame: helicobacterpylori
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8084,7 +8101,7 @@
   reponame: livermangioma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8112,7 +8129,7 @@
   reponame: kidneyoncocytoma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8140,7 +8157,7 @@
   reponame: exostosis
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8168,7 +8185,7 @@
   reponame: carcinogenesis
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8196,7 +8213,7 @@
   reponame: reactive-atypia
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8224,7 +8241,7 @@
   reponame: cervix-SCC
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8252,7 +8269,7 @@
   reponame: chronicpyelonephritis
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8280,7 +8297,7 @@
   reponame: chronicpyelonephritis
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8308,7 +8325,7 @@
   reponame: chronic-pyelonephritis
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8336,7 +8353,7 @@
   reponame: brain-arteriovenous-malformation
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8364,7 +8381,7 @@
   reponame: colon-submucosal-lipoma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8392,7 +8409,7 @@
   reponame: mucinous-adenocarcinoma-colon
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8420,7 +8437,7 @@
   reponame: colon-adenocarcinoma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8448,7 +8465,7 @@
   reponame: colon-adenocarcinoma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8476,7 +8493,7 @@
   reponame: colon-adenocarcinoma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8504,7 +8521,7 @@
   reponame: congestion-spleen
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8532,7 +8549,7 @@
   reponame: crohn-colonoscopic-biopsy
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8560,7 +8577,7 @@
   reponame: crohn-colonoscopic-biopsy
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8588,7 +8605,7 @@
   reponame: crohn-colonoscopic-biopsy
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8616,7 +8633,7 @@
   reponame: crohn-colonoscopic-biopsy
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8644,7 +8661,7 @@
   reponame: celiac-disease
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8672,7 +8689,7 @@
   reponame: cholesteatoma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8700,7 +8717,7 @@
   reponame: extramuralvenousinvasion
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8728,7 +8745,7 @@
   reponame: extramuralvenousinvasion
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8756,7 +8773,7 @@
   reponame: extramural-venous-invasion
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8784,7 +8801,7 @@
   reponame: endometriosis
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8812,7 +8829,7 @@
   reponame: endometrial-polyp
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8840,7 +8857,7 @@
   reponame: erosion
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8868,7 +8885,7 @@
   reponame: granular-cell-tumor
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8896,7 +8913,7 @@
   reponame: ochronosis
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8924,7 +8941,7 @@
   reponame: ectopic-adrenal
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8952,7 +8969,7 @@
   reponame: brain-mucormycosis
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -8980,7 +8997,7 @@
   reponame: gallbladder-adenomyoma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9008,7 +9025,7 @@
   reponame: ischemia-gangrenous-cholecystitis
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9036,7 +9053,7 @@
   reponame: lymphocytic-gastritis
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9064,7 +9081,7 @@
   reponame: GBD1
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9092,7 +9109,7 @@
   reponame: GBD2
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9120,7 +9137,7 @@
   reponame: GBD
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9148,7 +9165,7 @@
   reponame: GBD3
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9176,7 +9193,7 @@
   reponame: high-grade-glioma-squash
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9204,7 +9221,7 @@
   reponame: necrotisinggranuloma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9232,7 +9249,7 @@
   reponame: intrapancreaticspleen
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9260,7 +9277,7 @@
   reponame: pituitary-adenoma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9288,7 +9305,7 @@
   reponame: hodgkin
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9316,7 +9333,7 @@
   reponame: cholesterolpolyp
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9344,7 +9361,7 @@
   reponame: glycogenstorage
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9372,7 +9389,7 @@
   reponame: anthracosis
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9400,7 +9417,7 @@
   reponame: anthracosis
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9428,7 +9445,7 @@
   reponame: melanosiscoli
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9456,7 +9473,7 @@
   reponame: ICE1-WDNET-duodenum
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9484,7 +9501,7 @@
   reponame: fat-necrosis
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9512,7 +9529,7 @@
   reponame: fibrolamellarpatocellular-carcinoma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9540,7 +9557,7 @@
   reponame: fibrolamellarpatocellular-carcinoma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9568,7 +9585,7 @@
   reponame: fibrolamellarpatocellular-carcinoma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9596,7 +9613,7 @@
   reponame: fibrolamellarpatocellular-carcinoma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9624,7 +9641,7 @@
   reponame: pleomorphism
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9652,7 +9669,7 @@
   reponame: brain-invasive-meningioma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9680,7 +9697,7 @@
   reponame: brain-invasive-meningioma}
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9708,7 +9725,7 @@
   reponame: meningioma-bone-infiltration
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9736,7 +9753,7 @@
   reponame: meningioma-bone-infiltration}
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9764,7 +9781,7 @@
   reponame: abdominal-mesothelioma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9792,7 +9809,7 @@
   reponame: metaplasia
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9820,7 +9837,7 @@
   reponame: metaplasia
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9848,7 +9865,7 @@
   reponame: metaplasia
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9876,7 +9893,7 @@
   reponame: metastaticsarcoma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9904,7 +9921,7 @@
   reponame: insidious-lymph-node-metastasis
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9932,7 +9949,7 @@
   reponame: gastritis-cystica-profunda
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9960,7 +9977,7 @@
   reponame: nasopharynx-nonkeratinizing-scc
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -9988,7 +10005,7 @@
   reponame: enterobius-vermicularis
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -10016,7 +10033,7 @@
   reponame: PDAC-tru-cut
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -10044,7 +10061,7 @@
   reponame: PDAC-tru-cut
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -10072,7 +10089,7 @@
   reponame: PDAC-tru-cut
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -10100,7 +10117,7 @@
   reponame: chorioamnionitis
   titleTR: Koryoamniyonit
   titleEN: Chorioamnionitis
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -10128,7 +10145,7 @@
   reponame: benign-prostate-hyperplasia
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -10156,7 +10173,7 @@
   reponame: fibrosis
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -10184,7 +10201,7 @@
   reponame: keloid-scar
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -10212,7 +10229,7 @@
   reponame: mammary-analogue-secretory-carcinoma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -10240,7 +10257,7 @@
   reponame: mammary-analogue-secretory-carcinoma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -10268,7 +10285,7 @@
   reponame: mammary-analogue-secretory-carcinoma
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -10296,7 +10313,7 @@
   reponame: tumor-spread
   titleTR: Servikse Tümör Yayılımı
   titleEN: Tumor Spread in Cervix
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -10324,7 +10341,7 @@
   reponame: tumor-spread
   titleTR: Endometriuma Tümör Yayılımı
   titleEN: Tumor Spread in Endometrium
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -10352,7 +10369,7 @@
   reponame: tumor-spread
   titleTR: Overe Tümör Yayılımı
   titleEN: Tumor Spread in Ovary
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -10380,7 +10397,7 @@
   reponame: tumor-spread
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -10408,7 +10425,7 @@
   reponame: venous-invasion
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -10436,7 +10453,7 @@
   reponame: HSV
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -10464,7 +10481,7 @@
   reponame: molluscum-contagiosum
   titleTR: ''
   titleEN: ''
-  type: published
+  type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
