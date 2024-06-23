@@ -13,6 +13,7 @@ source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
+
 ```{asis, echo = (language == "TR")}
 # Karaciğerin Malign Tümörleri {#sec-karaciger-tumorleri}
 ```
@@ -22,7 +23,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 # Malignant Tumors of the Liver {#sec-liver-tumors}
 ```
 
+
+
 {{< include ./_subchapters/_hepatocellular-carcinoma.qmd >}}
+
 
 
 {{< include ./_subchapters/_fibrolamellar-hepatocellular-carcinoma.qmd >}}
