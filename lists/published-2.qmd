@@ -1,0 +1,26 @@
+---
+pagetitle: "All cases"
+title: "published"
+listing:
+  - id: case-list
+    include: 
+      type: "published"
+    contents: list.yaml
+    template: published-2.ejs
+    filter-ui: false
+    sort: "date desc"
+    sort-ui: false
+    feed: true
+toc: true
+search: true
+page-layout: full
+description: |
+  All cases.
+---
+
+
+## All Cases 
+
+:::{#case-list}
+:::
+
