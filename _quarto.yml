@@ -301,10 +301,10 @@ book:
     - part: "---"
     - part: "Listeler"
       chapters:
-        - text: "Listeler"
+        - text: "Tümü"
           href: lists/published.qmd
-        - text: "Vaka Listesi"
-          href: lists/index.qmd
+        - text: "Özel Boyalar"
+          href: lists/stains.qmd
     # - listing.qmd
     # - lists/listing2.qmd
     # - listing3.qmd
