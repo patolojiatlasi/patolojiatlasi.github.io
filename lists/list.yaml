@@ -129,8 +129,8 @@
   youtube: ''
 - stainname: helicobacterpylori-warthinstarry
   reponame: helicobacterpylori
-  titleTR: ''
-  titleEN: ''
+  titleTR: 'Helicobacter pylori (Warthin-Starry)'
+  titleEN: 'Helicobacter pylori (Warthin-Starry)'
   type: published
   author:
   - Serdar Balci
@@ -161,8 +161,8 @@
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_helicobacterpylori-warthinstarry.png
 - stainname: helicobacterpylori-giemsa
   reponame: helicobacterpylori
-  titleTR: ''
-  titleEN: ''
+  titleTR: 'Helicobacter pylori (Giemsa)'
+  titleEN: 'Helicobacter pylori (Giemsa)'
   type: published
   author:
   - Serdar Balci
@@ -189,8 +189,8 @@
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_helicobacterpylori-giemsa.png
 - stainname: helicobacterpylori-IHC
   reponame: helicobacterpylori
-  titleTR: ''
-  titleEN: ''
+  titleTR: 'Helicobacter pylori (IHC)'
+  titleEN: 'Helicobacter pylori (IHC)'
   type: published
   author:
   - Serdar Balci
@@ -199,17 +199,17 @@
   url: https://images.patolojiatlasi.com/helicobacterpylori/IHC.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - bakteri
+  - mide
+  - immunohistokimya
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - bacteria
+  - stomach
+  - immunohistochemistry
   - pathology
   - atlas
   - histopathology
