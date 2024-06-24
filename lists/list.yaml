@@ -311,8 +311,8 @@
   titleTR: 'Eksostoz'
   titleEN: 'Exostosis'
   organTR: 'kemik'
-  organEN: 'bone'
-  speciality: 'bone'
+  organEN: 'Bone'
+  speciality: 'Bone'
   type: published
   author:
   - Serdar Balci
@@ -756,7 +756,7 @@
   titleEN: 'Extramural Venous Invasion'
   organTR: 'kolon'
   organEN: 'colon'
-  speciality: 'gasrointestinal'
+  speciality: 'gastrointestinal'
   type: published
   author:
   - Serdar Balci
@@ -790,7 +790,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: 'gasrointestinal'
+  speciality: 'gastrointestinal'
   type: unpublished
   author:
   - Serdar Balci
@@ -814,7 +814,7 @@
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_extramural-venous-invasion-HE.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_extramural-venous-invasion.png
   githubrepo: https://github.com/pathologyatlas/extramural-venous-invasion
   githubpage: https://pathologyatlas.github.io/extramural-venous-invasion
   youtube: ''
@@ -926,7 +926,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: 'bone'
+  speciality: 'Bone'
   type: unpublished
   author:
   - Serdar Balci
@@ -3240,8 +3240,7 @@
   speciality: ''
   type: unpublished
   author:
-  - Serdar Balci
-  - Memorial Patoloji
+  - Burcu Saka
   date: '2024-05-30'
   url: https://images.patolojiatlasi.com/BS1/HE1.html
   note: ''
@@ -3274,8 +3273,7 @@
   speciality: ''
   type: unpublished
   author:
-  - Serdar Balci
-  - Memorial Patoloji
+  - Burcu Saka
   date: '2024-05-30'
   url: https://images.patolojiatlasi.com/BS1/HE2.html
   note: ''
