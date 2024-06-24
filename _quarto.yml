@@ -10,6 +10,7 @@ project:
     - openseadragon
     - annotorious
     - files
+    - lists
     - CNAME
     - "script.js"
     - "webpages.js"
@@ -311,6 +312,8 @@ book:
           href: lists/stains.qmd
         - text: "pancreatobiliary"
           href: lists/pancreatobiliary.qmd
+        - text: "İnteraktif Liste"
+          href: lists/interaktif.html
     # - listing.qmd
     # - lists/listing2.qmd
     # - listing3.qmd

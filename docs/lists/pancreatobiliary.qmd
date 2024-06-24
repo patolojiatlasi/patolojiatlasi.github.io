@@ -1,0 +1,26 @@
+---
+pagetitle: "pancreatobiliary cases"
+title: "pancreatobiliary"
+listing:
+  - id: case-list-pancreatobiliary
+    include: 
+      speciality: "pancreatobiliary"
+    contents: list.yaml
+    template: pancreatobiliary.ejs
+    filter-ui: false
+    sort: "date desc"
+    sort-ui: false
+    feed: true
+toc: true
+search: true
+page-layout: full
+description: |
+  All cases.
+---
+
+
+## All Cases pancreatobiliary
+
+:::{#case-list-pancreatobiliary}
+:::
+

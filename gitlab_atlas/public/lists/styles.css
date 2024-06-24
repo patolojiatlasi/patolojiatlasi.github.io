@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#filters {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#categorySelect, #searchInput {
+    padding: 8px;
+    font-size: 16px;
+}
+
+#specimens-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.specimen {
+    border: 1px solid #ddd;
+    padding: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+.specimen:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.specimen h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.specimen img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+#specimen-details {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+#specimen-details img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+#specimen-details a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+#specimen-details a:hover {
+    text-decoration: underline;
+}
+
+#filters select, #filters input {
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
