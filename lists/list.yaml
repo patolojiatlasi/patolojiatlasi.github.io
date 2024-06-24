@@ -752,12 +752,12 @@
   youtube: ''
 - stainname: extramuralvenousinvasion-HE2
   reponame: extramuralvenousinvasion
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
+  titleTR: 'Eksramural Venöz İnvazyon'
+  titleEN: 'Extramural Venous Invasion'
+  organTR: 'kolon'
+  organEN: 'colon'
   speciality: 'gasrointestinal'
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -765,22 +765,22 @@
   url: https://images.patolojiatlasi.com/extramuralvenousinvasion/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - 'malign'
+  - 'kolon'
+  - 'tumor'
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - 'malignant'
+  - 'colon'
+  - 'tumor'
   - pathology
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_extramuralvenousinvasion-HE2.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_extramuralvenousinvasion-2.png
   githubrepo: https://github.com/pathologyatlas/extramuralvenousinvasion
   githubpage: https://pathologyatlas.github.io/extramuralvenousinvasion
   youtube: ''

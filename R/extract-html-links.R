@@ -180,8 +180,11 @@ library(jsonlite)
 # Read the YAML file
 yaml_data <- yaml::read_yaml("./lists/list.yaml")
 
+# Filter the data where type is "published"
+filtered_data <- yaml_data[sapply(yaml_data, function(x) x$type == "published")]
+
 # Convert YAML to JSON
-json_data <- jsonlite::toJSON(yaml_data, auto_unbox = TRUE, pretty = TRUE)
+json_data <- jsonlite::toJSON(filtered_data, auto_unbox = TRUE, pretty = TRUE)
 
 # Wrap the JSON in a JavaScript variable declaration
 js_data <- paste0("const specimensData = ", json_data, ";")
