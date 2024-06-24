@@ -170,6 +170,26 @@ writeLines(js_array, js_file)
 
 
 
+# Install required packages if not already installed
+if (!requireNamespace("yaml", quietly = TRUE)) install.packages("yaml")
+if (!requireNamespace("jsonlite", quietly = TRUE)) install.packages("jsonlite")
+
+library(yaml)
+library(jsonlite)
+
+# Read the YAML file
+yaml_data <- yaml::read_yaml("./lists/list.yaml")
+
+# Convert YAML to JSON
+json_data <- jsonlite::toJSON(yaml_data, auto_unbox = TRUE, pretty = TRUE)
+
+# Wrap the JSON in a JavaScript variable declaration
+js_data <- paste0("const specimensData = ", json_data, ";")
+
+# Write the JavaScript to a file
+writeLines(js_data, "./lists/specimensData.js")
+
+
 
 
 # markdown <- qmd_content
