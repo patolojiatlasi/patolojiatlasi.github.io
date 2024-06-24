@@ -444,12 +444,12 @@
   youtube: ''
 - stainname: reactive-atypia-HE
   reponame: reactive-atypia
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
+  titleTR: 'Ülsere Kolon Polibinde Reaktif Atipi'
+  titleEN: 'Reactive atypia in an ulcerated colon polyp'
+  organTR: 'kolon'
+  organEN: 'colon'
   speciality: 'gastrointestinal'
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -457,22 +457,24 @@
   url: https://images.patolojiatlasi.com/reactive-atypia/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - kolon
+  - reaktif atipi
+  - benign
+  - polip
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - colon
+  - reactive atypia
+  - benign
+  - polyp
   - pathology
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_reactive-atypia-HE.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_reactive-atypia.png
   githubrepo: https://github.com/pathologyatlas/reactive-atypia
   githubpage: https://pathologyatlas.github.io/reactive-atypia
   youtube: ''
@@ -483,7 +485,7 @@
   organTR: serviks
   organEN: cervix
   speciality: 'gyneacologic'
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -506,18 +508,18 @@
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cervix-SCC-HE.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cervix-SCC.png
   githubrepo: https://github.com/pathologyatlas/cervix-SCC
   githubpage: https://pathologyatlas.github.io/cervix-SCC
   youtube: ''
 - stainname: chronicpyelonephritis-HE1
   reponame: chronicpyelonephritis
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
+  titleTR: 'Kronik Piyelonefrit'
+  titleEN: 'Chronic Pyelonephritis'
+  organTR: 'Böbrek'
+  organEN: 'Kidney'
   speciality: 'genitourinary'
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -525,31 +527,31 @@
   url: https://images.patolojiatlasi.com/chronicpyelonephritis/HE1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - böbrek
+  - kronik piyelonefrit
+  - inflamasyon
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - kidney
+  - chronic pyelonephritis
+  - inflammation
   - pathology
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronicpyelonephritis-HE1.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronicpyelonephritis-1.png
   githubrepo: https://github.com/pathologyatlas/chronicpyelonephritis
   githubpage: https://pathologyatlas.github.io/chronicpyelonephritis
   youtube: ''
 - stainname: chronicpyelonephritis-HE2
   reponame: chronicpyelonephritis
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
+  titleTR: 'Kronik Piyelonefrit'
+  titleEN: 'Chronic Pyelonephritis'
+  organTR: 'Böbrek'
+  organEN: 'Kidney'
   speciality: 'genitourinary'
   type: unpublished
   author:
@@ -559,33 +561,33 @@
   url: https://images.patolojiatlasi.com/chronicpyelonephritis/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - böbrek
+  - kronik piyelonefrit
+  - inflamasyon
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - kidney
+  - chronic pyelonephritis
+  - inflammation
   - pathology
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronicpyelonephritis-HE2.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronicpyelonephritis-2.png
   githubrepo: https://github.com/pathologyatlas/chronicpyelonephritis
   githubpage: https://pathologyatlas.github.io/chronicpyelonephritis
   youtube: ''
 - stainname: chronic-pyelonephritis-HE
   reponame: chronic-pyelonephritis
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
+  titleTR: 'Kronik Piyelonefrit'
+  titleEN: 'Chronic Pyelonephritis'
+  organTR: 'Böbrek'
+  organEN: 'Kidney'
   speciality: 'genitourinary'
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -593,22 +595,22 @@
   url: https://images.patolojiatlasi.com/chronic-pyelonephritis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - böbrek
+  - kronik piyelonefrit
+  - inflamasyon
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - kidney
+  - chronic pyelonephritis
+  - inflammation
   - pathology
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronic-pyelonephritis-HE.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronic-pyelonephritis.png
   githubrepo: https://github.com/pathologyatlas/chronic-pyelonephritis
   githubpage: https://pathologyatlas.github.io/chronic-pyelonephritis
   youtube: ''
@@ -619,7 +621,7 @@
   organTR: beyin
   organEN: brain
   speciality: 'neuro'
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -642,18 +644,18 @@
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-arteriovenous-malformation-HE.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-arteriovenous-malformation.png
   githubrepo: https://github.com/pathologyatlas/brain-arteriovenous-malformation
   githubpage: https://pathologyatlas.github.io/brain-arteriovenous-malformation
   youtube: ''
 - stainname: celiac-disease-HE
   reponame: celiac-disease
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
+  titleTR: Çölyak Hastalığı
+  titleEN: Celiac Disease
+  organTR: Duodenum
+  organEN: Duodenum
   speciality: 'neuro'
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -661,30 +663,33 @@
   url: https://images.patolojiatlasi.com/celiac-disease/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - ince bağırsak
+  - çölyak hastalığı
+  - immun sistem
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - small intestine
+  - celiac disease
+  - immune system
   - pathology
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_celiac-disease-HE.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_celiac-disease.png
   githubrepo: https://github.com/pathologyatlas/celiac-disease
   githubpage: https://pathologyatlas.github.io/celiac-disease
   youtube: ''
-- stainname: cholesteatoma-cholesteatoma
+- stainname: cholesteatoma-HE
   reponame: cholesteatoma
-  titleTR: ''
-  titleEN: ''
-  type: unpublished
+  titleTR: Kolesteatom
+  titleEN: Cholesteatoma
+  organTR: kulak
+  organEN: ear
+  speciality: 'ENT'
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -692,64 +697,31 @@
   url: https://images.patolojiatlasi.com/cholesteatoma/cholesteatoma.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - kolesteatom
+  - kulak
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - cholesteatoma
+  - ear
   - pathology
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cholesteatoma-cholesteatoma.png
-- stainname: cholesteatoma-HE
-  reponame: cholesteatoma
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
-  speciality: 'ENT'
-  type: unpublished
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-03-02'
-  url: https://images.patolojiatlasi.com/cholesteatoma/HE.html
-  note: ''
-  categoriesTR:
-  - ''
-  - ''
-  - ''
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  categoriesEN:
-  - ''
-  - ''
-  - ''
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cholesteatoma-HE.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cholesteatoma.png
   githubrepo: https://github.com/pathologyatlas/cholesteatoma
   githubpage: https://pathologyatlas.github.io/cholesteatoma
   youtube: ''
 - stainname: extramuralvenousinvasion-HE
   reponame: extramuralvenousinvasion
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
+  titleTR: 'Ekstramural Venöz İnvazyon'
+  titleEN: 'Extramural Venous Invasion'
+  organTR: 'kolon'
+  organEN: 'colon'
   speciality: 'gastrointestinal'
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -757,22 +729,24 @@
   url: https://images.patolojiatlasi.com/extramuralvenousinvasion/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - malign
+  - kolon
+  - tümör
+  - invazyon
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - malignant
+  - colon
+  - tumor
+  - invasion
   - pathology
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_extramuralvenousinvasion-HE.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_extramuralvenousinvasion.png
   githubrepo: https://github.com/pathologyatlas/extramuralvenousinvasion
   githubpage: https://pathologyatlas.github.io/extramuralvenousinvasion
   youtube: ''
@@ -10424,11 +10398,11 @@
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_venous-invasion.png
-- stainname: HSVrpesesophagitis/viewer_z0
+- stainname: herpesesophagitis-HE
   reponame: HSV
   titleTR: ''
   titleEN: ''
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -10451,12 +10425,12 @@
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_HSVrpesesophagitis/viewer_z0.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_herpesesophagitis.png
 - stainname: molluscum-contagiosum
   reponame: molluscum-contagiosum
   titleTR: ''
   titleEN: ''
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
