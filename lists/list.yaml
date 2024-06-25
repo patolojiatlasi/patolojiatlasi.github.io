@@ -786,10 +786,10 @@
   youtube: ''
 - stainname: extramural-venous-invasion-HE
   reponame: extramural-venous-invasion
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
+  titleTR: 'Ekstramural Venöz İnvazyon'
+  titleEN: 'Extramural Venous Invasion'
+  organTR: 'kolon'
+  organEN: 'colon'
   speciality: 'gasrointestinal'
   type: unpublished
   author:
@@ -799,17 +799,17 @@
   url: https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - 'kolon'
+  - 'malign'
+  - 'tümör'
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - 'colon'
+  - 'malignant'
+  - 'tumor'
   - pathology
   - atlas
   - histopathology
@@ -820,69 +820,69 @@
   youtube: ''
 - stainname: endometriosis-HE
   reponame: endometriosis
-  titleTR: ''
-  titleEN: ''
+  titleTR: 'Endometriozis'
+  titleEN: 'Endometriosis'
   organTR: ''
   organEN: ''
   speciality: 'gasrointestinal'
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
   date: '2024-03-02'
   url: https://images.patolojiatlasi.com/endometriosis/HE.html
-  note: ''
+  note: 'Endometriosis in small intestine wall, causing loop obstruction'
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - 'benign'
+  - 'ince bağırsak'
+  - 'endometriozis'
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - 'benign'
+  - 'small intestine'
+  - 'endometriosis'
   - pathology
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_endometriosis-HE.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_endometriosis.png
   githubrepo: https://github.com/pathologyatlas/endometriosis
   githubpage: https://pathologyatlas.github.io/endometriosis
   youtube: ''
 - stainname: erosion-HE
   reponame: erosion
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
-  speciality: 'gyneacologic'
-  type: unpublished
+  titleTR: 'Erozif Gastrit'
+  titleEN: 'Erosive Gastritis'
+  organTR: 'mide'
+  organEN: 'stomach'
+  speciality: 'gasrointestinal'
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
   date: '2024-03-02'
   url: https://images.patolojiatlasi.com/erosion/HE.html
-  note: ''
+  note: 'Erosion in Gastric Mucosa'
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - 'mide'
+  - 'erozif gastrit'
+  - 'inflamasyon'
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - 'stomach'
+  - 'erosive gastritis'
+  - 'inflammation'
   - pathology
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_erosion-HE.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_erosion.png
   githubrepo: https://github.com/pathologyatlas/erosion
   githubpage: https://pathologyatlas.github.io/erosion
   youtube: ''
