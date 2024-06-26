@@ -357,8 +357,8 @@
   titleTR: 'Ekzostoz'
   titleEN: 'Exostosis'
   organTR: 'Kemik'
-  organEN: 'Bone'
-  speciality: 'Bone'
+  organEN: 'bone'
+  speciality: 'bone'
   type: published
   author:
   - Serdar Balci
@@ -391,8 +391,8 @@
   titleTR: 'Ekzostoz'
   titleEN: 'Exostosis'
   organTR: 'Kemik'
-  organEN: 'Bone'
-  speciality: 'Bone'
+  organEN: 'bone'
+  speciality: 'bone'
   type: published
   author:
   - Serdar Balci
@@ -666,7 +666,7 @@
   titleEN: Celiac Disease
   organTR: Duodenum
   organEN: Duodenum
-  speciality: 'neuro'
+  speciality: 'gastrointestinal'
   type: published
   author:
   - Serdar Balci
@@ -803,7 +803,7 @@
   organTR: 'kolon'
   organEN: 'colon'
   speciality: 'gasrointestinal'
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -826,7 +826,7 @@
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_extramural-venous-invasion-HE.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_extramural-venous-invasion.png
   githubrepo: https://github.com/pathologyatlas/extramural-venous-invasion
   githubpage: https://pathologyatlas.github.io/extramural-venous-invasion
   youtube: ''
