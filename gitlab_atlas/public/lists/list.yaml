@@ -36,14 +36,16 @@
   reponame: amyloid
   titleTR: Amiloid (Kristal Violet)
   titleEN: Amyloid (Crystal Violet)
+  organTR: kolon
+  organEN: colon
+  speciality: 'gastrointestinal'
   type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
-  - deneme
   date: '2024-02-18'
   url: https://images.patolojiatlasi.com/amyloid/crystalviolet.html
-  note: ''
+  note: 'Amyloid deposition in vessels of colon mucosa'
   categoriesTR:
   - amiloid
   - kristal violet
@@ -70,13 +72,16 @@
   reponame: congored
   titleTR: Kongo Kırmızısı
   titleEN: Congo Red
+  organTR: kolon
+  organEN: colon
+  speciality: 'gastrointestinal'
   type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
   date: '2024-02-18'
   url: https://images.patolojiatlasi.com/congored/congored.html
-  note: ''
+  note: 'Amyloid deposition in vessels of colon mucosa'
   categoriesTR:
   - amiloid
   - kongo kırmızısı
@@ -110,7 +115,7 @@
   - Memorial Patoloji
   date: '2024-03-02'
   url: https://images.patolojiatlasi.com/helicobacterpylori/HE.html
-  note: ''
+  note: 'Helicobacter pylori in gastric mucosa'
   categoriesTR:
   - mide
   - bakteri
@@ -139,13 +144,16 @@
   reponame: helicobacterpylori
   titleTR: 'Helicobacter pylori (Warthin-Starry)'
   titleEN: 'Helicobacter pylori (Warthin-Starry)'
+  organTR: mide
+  organEN: stomach
+  speciality: 'gastrointestinal'
   type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
   date: '2024-02-18'
   url: https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html
-  note: ''
+  note: 'Helicobacter pylori in gastric mucosa'
   categoriesTR:
   - mide
   - bakteri
@@ -174,13 +182,15 @@
   reponame: helicobacterpylori
   titleTR: 'Helicobacter pylori (Giemsa)'
   titleEN: 'Helicobacter pylori (Giemsa)'
+  organTR: 'Mide'
+  organEN: 'Stomach'
   type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
   date: '2024-02-18'
   url: https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html
-  note: ''
+  note: 'Helicobacter pylori in gastric mucosa'
   categoriesTR:
   - bakteri
   - mide
@@ -207,13 +217,15 @@
   reponame: helicobacterpylori
   titleTR: 'Helicobacter pylori (IHC)'
   titleEN: 'Helicobacter pylori (IHC)'
+  organTR: 'Mide'
+  organEN: 'Stomach'
   type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
   date: '2024-02-18'
   url: https://images.patolojiatlasi.com/helicobacterpylori/IHC.html
-  note: ''
+  note: 'Helicobacter pylori in gastric mucosa'
   categoriesTR:
   - bakteri
   - mide
@@ -247,7 +259,7 @@
   - Memorial Patoloji
   date: '2024-03-02'
   url: https://images.patolojiatlasi.com/liver-hemangioma/HE.html
-  note: ''
+  note: 'Hemangioma in liver'
   categoriesTR:
   - karaciğer
   - hemangioma
@@ -283,7 +295,7 @@
   - Memorial Patoloji
   date: '2024-03-02'
   url: https://images.patolojiatlasi.com/kidneyoncocytoma/HE.html
-  note: ''
+  note: 'Oncocytoma in kidney'
   categoriesTR:
   - böbrek
   - onkositom
@@ -319,7 +331,7 @@
   - Memorial Patoloji
   date: '2024-02-18'
   url: https://images.patolojiatlasi.com/exostosis/oc.html
-  note: ''
+  note: 'Exostosis in bone'
   categoriesTR:
   - kemik
   - benign
@@ -353,7 +365,7 @@
   - Memorial Patoloji
   date: '2024-02-18'
   url: https://images.patolojiatlasi.com/exostosis/oc001.html
-  note: ''
+  note: 'Exostosis in bone'
   categoriesTR:
   - kemik
   - benign
@@ -387,7 +399,7 @@
   - Memorial Patoloji
   date: '2024-02-18'
   url: https://images.patolojiatlasi.com/exostosis/oc002.html
-  note: ''
+  note: 'Exostosis in bone'
   categoriesTR:
   - kemik
   - benign
@@ -455,7 +467,7 @@
   - Memorial Patoloji
   date: '2024-03-02'
   url: https://images.patolojiatlasi.com/reactive-atypia/HE.html
-  note: ''
+  note: 'Reactive atypia in an ulcerated colon polyp'
   categoriesTR:
   - kolon
   - reaktif atipi
@@ -525,7 +537,7 @@
   - Memorial Patoloji
   date: '2024-03-02'
   url: https://images.patolojiatlasi.com/chronicpyelonephritis/HE1.html
-  note: ''
+  note: 'Chronik pyelonephritis in kidney'
   categoriesTR:
   - böbrek
   - kronik piyelonefrit
@@ -553,13 +565,13 @@
   organTR: 'Böbrek'
   organEN: 'Kidney'
   speciality: 'genitourinary'
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
   date: '2024-03-02'
   url: https://images.patolojiatlasi.com/chronicpyelonephritis/HE2.html
-  note: ''
+  note: 'Chronik pyelonephritis in kidney'
   categoriesTR:
   - böbrek
   - kronik piyelonefrit
@@ -901,17 +913,11 @@
   url: https://images.patolojiatlasi.com/granular-cell-tumor/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -935,17 +941,11 @@
   url: https://images.patolojiatlasi.com/ochronosis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -958,6 +958,8 @@
   reponame: pancreaticadenocarcinoma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -966,26 +968,25 @@
   url: https://images.patolojiatlasi.com/pancreaticadenocarcinoma/case1-histopathology/viewer_z0.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_pancreaticadenocarcinoma-case1-histopathology/viewer_z0.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: lecture1-Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji
   reponame: lecture1
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -994,22 +995,19 @@
   url: https://images.patolojiatlasi.com/lecture1/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lecture1-Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: ectopic-adrenal-HE
   reponame: ectopic-adrenal
   titleTR: ''
@@ -1025,17 +1023,11 @@
   url: https://images.patolojiatlasi.com/ectopic-adrenal/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -1048,6 +1040,8 @@
   reponame: candidaalbicans
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -1056,22 +1050,19 @@
   url: https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_candidaalbicans-cervicovaginalsmear/viewer_z0.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: brain-mucormycosis-HE
   reponame: brain-mucormycosis
   titleTR: ''
@@ -1087,17 +1078,11 @@
   url: https://images.patolojiatlasi.com/brain-mucormycosis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -1110,6 +1095,8 @@
   reponame: brain-mucormycosis
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -1118,22 +1105,19 @@
   url: https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-mucormycosis-GMS.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: gallbladder-adenomyoma-HE
   reponame: gallbladder-adenomyoma
   titleTR: Safra Kesesi Adenomyoma
@@ -1208,6 +1192,8 @@
   reponame: lymphocytic-gastritis
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -1216,22 +1202,19 @@
   url: https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-all.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: lymphocytic-gastritis-HE
   reponame: lymphocytic-gastritis
   titleTR: ''
@@ -1247,17 +1230,11 @@
   url: https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -1270,6 +1247,8 @@
   reponame: lymphocytic-gastritis
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -1278,26 +1257,25 @@
   url: https://images.patolojiatlasi.com/lymphocytic-gastritis/CD3.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-CD3.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: lymphocytic-gastritis-CD8
   reponame: lymphocytic-gastritis
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -1306,26 +1284,25 @@
   url: https://images.patolojiatlasi.com/lymphocytic-gastritis/CD8.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-CD8.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: lymphocytic-gastritis-CD20
   reponame: lymphocytic-gastritis
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -1334,22 +1311,19 @@
   url: https://images.patolojiatlasi.com/lymphocytic-gastritis/CD20.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-CD20.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: GBD1-HE
   reponame: GBD1
   titleTR: ''
@@ -1365,17 +1339,11 @@
   url: https://images.patolojiatlasi.com/GBD1/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -1399,17 +1367,11 @@
   url: https://images.patolojiatlasi.com/GBD2/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -1433,17 +1395,11 @@
   url: https://images.patolojiatlasi.com/GBD/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -1467,17 +1423,11 @@
   url: https://images.patolojiatlasi.com/GBD3/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -1501,17 +1451,11 @@
   url: https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -1535,17 +1479,11 @@
   url: https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -1569,17 +1507,11 @@
   url: https://images.patolojiatlasi.com/pituitary-adenoma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -1603,17 +1535,11 @@
   url: https://images.patolojiatlasi.com/hodgkin/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -1637,17 +1563,11 @@
   url: https://images.patolojiatlasi.com/cholesterolpolyp/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -1671,17 +1591,11 @@
   url: https://images.patolojiatlasi.com/glycogenstorage/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -1694,6 +1608,8 @@
   reponame: glycogenstorage
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -1702,26 +1618,25 @@
   url: https://images.patolojiatlasi.com/glycogenstorage/PAS.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_glycogenstorage-PAS.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: glycogenstorage-PASD
   reponame: glycogenstorage
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -1730,22 +1645,19 @@
   url: https://images.patolojiatlasi.com/glycogenstorage/PASD.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_glycogenstorage-PASD.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: anthracosis-HE
   reponame: anthracosis
   titleTR: ''
@@ -1761,17 +1673,11 @@
   url: https://images.patolojiatlasi.com/anthracosis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -1795,17 +1701,11 @@
   url: https://images.patolojiatlasi.com/anthracosis/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -1829,17 +1729,11 @@
   url: https://images.patolojiatlasi.com/melanosiscoli/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -1852,6 +1746,8 @@
   reponame: melanosiscoli
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -1860,22 +1756,19 @@
   url: https://images.patolojiatlasi.com/melanosiscoli/PAS.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_melanosiscoli-PAS.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: ICE1-WDNET-duodenum-HE
   reponame: ICE1-WDNET-duodenum
   titleTR: ''
@@ -1891,17 +1784,11 @@
   url: https://images.patolojiatlasi.com/ICE1-WDNET-duodenum/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -1925,17 +1812,11 @@
   url: https://images.patolojiatlasi.com/fat-necrosis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -1959,17 +1840,11 @@
   url: https://images.patolojiatlasi.com/pleomorphism/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -1993,17 +1868,11 @@
   url: https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -2027,17 +1896,11 @@
   url: https://images.patolojiatlasi.com/brain-invasive-meningioma}/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -2061,17 +1924,11 @@
   url: https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -2095,17 +1952,11 @@
   url: https://images.patolojiatlasi.com/meningioma-bone-infiltration}/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -2129,17 +1980,11 @@
   url: https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -2163,17 +2008,11 @@
   url: https://images.patolojiatlasi.com/metaplasia/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -2197,17 +2036,11 @@
   url: https://images.patolojiatlasi.com/metaplasia/HE_annotated.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -2220,6 +2053,8 @@
   reponame: metaplasia
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -2228,22 +2063,19 @@
   url: https://images.patolojiatlasi.com/metaplasia/trypsin.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_metaplasia-trypsin.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: metaplasia-HE_annotated3
   reponame: metaplasia
   titleTR: ''
@@ -2259,17 +2091,11 @@
   url: https://images.patolojiatlasi.com/metaplasia/HE_annotated3.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -2293,17 +2119,11 @@
   url: https://images.patolojiatlasi.com/metastaticsarcoma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -2327,17 +2147,11 @@
   url: https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -2350,6 +2164,8 @@
   reponame: insidious-lymph-node-metastasis
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -2358,22 +2174,19 @@
   url: https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/OSKARCK.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_insidious-lymph-node-metastasis-OSKARCK.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: gastritis-cystica-profunda-HE
   reponame: gastritis-cystica-profunda
   titleTR: ''
@@ -2389,17 +2202,11 @@
   url: https://images.patolojiatlasi.com/gastritis-cystica-profunda/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -2423,17 +2230,11 @@
   url: https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -2446,6 +2247,8 @@
   reponame: nasopharynx-nonkeratinizing-scc
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -2454,26 +2257,25 @@
   url: https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/panCK.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_nasopharynx-nonkeratinizing-scc-panCK.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: nasopharynx-nonkeratinizing-scc-p63
   reponame: nasopharynx-nonkeratinizing-scc
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -2482,26 +2284,25 @@
   url: https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/p63.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_nasopharynx-nonkeratinizing-scc-p63.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: nasopharynx-nonkeratinizing-scc-EBER
   reponame: nasopharynx-nonkeratinizing-scc
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -2510,26 +2311,25 @@
   url: https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/EBER.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_nasopharynx-nonkeratinizing-scc-EBER.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: neuroendocrine-cytology-giemsa
   reponame: neuroendocrine-cytology
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -2538,22 +2338,19 @@
   url: https://images.patolojiatlasi.com/neuroendocrine-cytology/giemsa.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_neuroendocrine-cytology-giemsa.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: chorioamnionitis-HE
   reponame: chorioamnionitis
   titleTR: Korioamniyonit
@@ -2637,17 +2434,11 @@
   url: https://images.patolojiatlasi.com/fibrosis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -2671,17 +2462,11 @@
   url: https://images.patolojiatlasi.com/keloid-scar/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -2705,17 +2490,11 @@
   url: https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -2739,17 +2518,11 @@
   url: https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -2773,17 +2546,11 @@
   url: https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -2807,17 +2574,11 @@
   url: https://images.patolojiatlasi.com/tumor-spread/HE-cervix.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -2841,17 +2602,11 @@
   url: https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -2875,17 +2630,11 @@
   url: https://images.patolojiatlasi.com/tumor-spread/HE-over.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -2909,17 +2658,11 @@
   url: https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -2943,17 +2686,11 @@
   url: https://images.patolojiatlasi.com/venous-invasion/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -2977,17 +2714,11 @@
   url: https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3011,17 +2742,11 @@
   url: https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3061,6 +2786,9 @@
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_acute-appendicitis.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: acute-perforated-appendicitis-HE
   reponame: acute-perforated-appendicitis
   titleTR: ''
@@ -3076,17 +2804,11 @@
   url: https://images.patolojiatlasi.com/acute-perforated-appendicitis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3110,17 +2832,11 @@
   url: https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3144,17 +2860,11 @@
   url: https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3212,17 +2922,11 @@
   url: https://images.patolojiatlasi.com/breast-lobular-carcinoma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3246,17 +2950,11 @@
   url: https://images.patolojiatlasi.com/BS1/HE1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3280,17 +2978,11 @@
   url: https://images.patolojiatlasi.com/BS1/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3314,17 +3006,11 @@
   url: https://images.patolojiatlasi.com/BS10/HE1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3348,17 +3034,11 @@
   url: https://images.patolojiatlasi.com/BS10/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3382,17 +3062,11 @@
   url: https://images.patolojiatlasi.com/BS11/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3416,17 +3090,11 @@
   url: https://images.patolojiatlasi.com/BS12/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3450,17 +3118,11 @@
   url: https://images.patolojiatlasi.com/BS13/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3484,17 +3146,11 @@
   url: https://images.patolojiatlasi.com/BS14/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3518,17 +3174,11 @@
   url: https://images.patolojiatlasi.com/BS15/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3552,17 +3202,11 @@
   url: https://images.patolojiatlasi.com/BS16/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3586,17 +3230,11 @@
   url: https://images.patolojiatlasi.com/BS17/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3620,17 +3258,11 @@
   url: https://images.patolojiatlasi.com/BS18/HE1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3654,17 +3286,11 @@
   url: https://images.patolojiatlasi.com/BS18/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3688,17 +3314,11 @@
   url: https://images.patolojiatlasi.com/BS18/PAS.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3722,17 +3342,11 @@
   url: https://images.patolojiatlasi.com/BS18/PASD.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3756,17 +3370,11 @@
   url: https://images.patolojiatlasi.com/BS19/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3790,17 +3398,11 @@
   url: https://images.patolojiatlasi.com/BS2/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3824,17 +3426,11 @@
   url: https://images.patolojiatlasi.com/BS20/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3858,17 +3454,11 @@
   url: https://images.patolojiatlasi.com/BS21/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3892,17 +3482,11 @@
   url: https://images.patolojiatlasi.com/BS22/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3926,17 +3510,11 @@
   url: https://images.patolojiatlasi.com/BS23/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3960,17 +3538,11 @@
   url: https://images.patolojiatlasi.com/BS24/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -3994,17 +3566,11 @@
   url: https://images.patolojiatlasi.com/BS25/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4028,17 +3594,11 @@
   url: https://images.patolojiatlasi.com/BS25/CHR.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4062,17 +3622,11 @@
   url: https://images.patolojiatlasi.com/BS25/SYN.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4096,17 +3650,11 @@
   url: https://images.patolojiatlasi.com/BS26/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4130,17 +3678,11 @@
   url: https://images.patolojiatlasi.com/BS27/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4164,17 +3706,11 @@
   url: https://images.patolojiatlasi.com/BS28/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4198,17 +3734,11 @@
   url: https://images.patolojiatlasi.com/BS29/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4232,17 +3762,11 @@
   url: https://images.patolojiatlasi.com/BS3/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4266,17 +3790,11 @@
   url: https://images.patolojiatlasi.com/BS30/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4300,17 +3818,11 @@
   url: https://images.patolojiatlasi.com/BS31/HE1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4334,17 +3846,11 @@
   url: https://images.patolojiatlasi.com/BS31/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4368,17 +3874,11 @@
   url: https://images.patolojiatlasi.com/BS32/HE1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4402,17 +3902,11 @@
   url: https://images.patolojiatlasi.com/BS32/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4436,17 +3930,11 @@
   url: https://images.patolojiatlasi.com/BS4/HE1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4470,17 +3958,11 @@
   url: https://images.patolojiatlasi.com/BS4/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4504,17 +3986,11 @@
   url: https://images.patolojiatlasi.com/BS5/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4538,17 +4014,11 @@
   url: https://images.patolojiatlasi.com/BS6/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4572,17 +4042,11 @@
   url: https://images.patolojiatlasi.com/BS7/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4606,17 +4070,11 @@
   url: https://images.patolojiatlasi.com/BS8/HE1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4640,17 +4098,11 @@
   url: https://images.patolojiatlasi.com/BS8/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4674,17 +4126,11 @@
   url: https://images.patolojiatlasi.com/BS9/HE1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4708,17 +4154,11 @@
   url: https://images.patolojiatlasi.com/BS9/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4731,6 +4171,8 @@
   reponame: her2-cish
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -4739,22 +4181,19 @@
   url: https://images.patolojiatlasi.com/her2-cish/cish.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_her2-cish-cish.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: colon-adenocarcinoma-HE
   reponame: colon-adenocarcinoma
   titleTR: ''
@@ -4770,17 +4209,11 @@
   url: https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4804,17 +4237,11 @@
   url: https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4838,17 +4265,11 @@
   url: https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4872,17 +4293,11 @@
   url: https://images.patolojiatlasi.com/hamartomatouspolyp/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4906,17 +4321,11 @@
   url: https://images.patolojiatlasi.com/hyperplasticpolyp/case1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4940,17 +4349,11 @@
   url: https://images.patolojiatlasi.com/schwanncellhamartoma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -4974,17 +4377,11 @@
   url: https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5008,17 +4405,11 @@
   url: https://images.patolojiatlasi.com/congestion-spleen/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5031,6 +4422,8 @@
   reponame: crohn-colonoscopic-biopsy
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -5039,22 +4432,19 @@
   url: https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/all.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_crohn-colonoscopic-biopsy-all.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: crohn-colonoscopic-biopsy-HE1
   reponame: crohn-colonoscopic-biopsy
   titleTR: ''
@@ -5070,17 +4460,11 @@
   url: https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5104,17 +4488,11 @@
   url: https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5138,17 +4516,11 @@
   url: https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE3.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5172,17 +4544,11 @@
   url: https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE4.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5206,17 +4572,11 @@
   url: https://images.patolojiatlasi.com/CSF-metastasis/MGG-1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5240,17 +4600,11 @@
   url: https://images.patolojiatlasi.com/CSF-metastasis/MGG-2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5274,17 +4628,11 @@
   url: https://images.patolojiatlasi.com/CSF-metastasis/PAP-1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5308,17 +4656,11 @@
   url: https://images.patolojiatlasi.com/CSF-metastasis/PAP-2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5342,17 +4684,11 @@
   url: https://images.patolojiatlasi.com/ectopic-pancreas/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5376,17 +4712,11 @@
   url: https://images.patolojiatlasi.com/endometrial-polyp/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5410,17 +4740,11 @@
   url: https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5480,17 +4804,11 @@
   url: https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5514,17 +4832,11 @@
   url: https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5548,17 +4860,11 @@
   url: https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE3.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5582,17 +4888,11 @@
   url: https://images.patolojiatlasi.com/fibrolamellar-hepatocellular-carcinoma/HE4.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5616,17 +4916,11 @@
   url: https://images.patolojiatlasi.com/fistula/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5685,17 +4979,11 @@
   url: https://images.patolojiatlasi.com/giardia/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5719,17 +5007,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-1/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5753,17 +5035,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-10/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5787,17 +5063,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-12/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5821,17 +5091,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-13/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5855,17 +5119,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-14/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5889,17 +5147,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-18/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5923,17 +5175,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-19/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5957,17 +5203,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-2/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -5991,17 +5231,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-21/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6025,17 +5259,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-23/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6059,17 +5287,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-24/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6093,17 +5315,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-25/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6127,17 +5343,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-27/HE1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6161,17 +5371,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-27/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6195,17 +5399,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-28/HE1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6229,17 +5427,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-28/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6263,17 +5455,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-31/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6297,17 +5483,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-32/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6331,17 +5511,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-33/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6365,17 +5539,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-38/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6399,17 +5567,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-39/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6433,17 +5595,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-4/HE1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6467,17 +5623,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-4/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6501,17 +5651,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-4/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6535,17 +5679,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-5/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6569,17 +5707,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-6/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6603,17 +5735,11 @@
   url: https://images.patolojiatlasi.com/hacettepe-com-case-9/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6637,17 +5763,11 @@
   url: https://images.patolojiatlasi.com/hepatocellularcarcinoma/HCC/viewer_z0.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6671,17 +5791,11 @@
   url: https://images.patolojiatlasi.com/HER2-intratumoral-heterogeneity/cerbB2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6705,17 +5819,11 @@
   url: https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6739,17 +5847,11 @@
   url: https://images.patolojiatlasi.com/ischemic-colitis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6773,17 +5875,11 @@
   url: https://images.patolojiatlasi.com/liver-transplant-acute-rejection/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6796,6 +5892,8 @@
   reponame: mucin
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -6804,22 +5902,19 @@
   url: https://images.patolojiatlasi.com/mucin/mucicarmine.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_mucin-mucicarmine.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: mucinous-adenocarcinoma-colon-HE
   reponame: mucinous-adenocarcinoma-colon
   titleTR: ''
@@ -6835,17 +5930,11 @@
   url: https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6869,17 +5958,11 @@
   url: https://images.patolojiatlasi.com/organising-thrombus/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6903,17 +5986,11 @@
   url: https://images.patolojiatlasi.com/serous-carcinoma-psammoma-bodies/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -6937,17 +6014,11 @@
   url: https://images.patolojiatlasi.com/ovarianserousmicropapillary/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -7041,17 +6112,11 @@
   url: https://images.patolojiatlasi.com/pancreas-undifferentiated-osteoclast/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -7075,17 +6140,11 @@
   url: https://images.patolojiatlasi.com/PDAC/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -7109,17 +6168,11 @@
   url: https://images.patolojiatlasi.com/parasite/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -7143,17 +6196,11 @@
   url: https://images.patolojiatlasi.com/PASAB/PASAB.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -7177,17 +6224,11 @@
   url: https://images.patolojiatlasi.com/PDAC-benign-vs-malignant/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -7211,17 +6252,11 @@
   url: https://images.patolojiatlasi.com/PDAC-cytology/DQ.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -7245,17 +6280,11 @@
   url: https://images.patolojiatlasi.com/pdac-large-duct/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -7279,17 +6308,11 @@
   url: https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -7313,17 +6336,11 @@
   url: https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -7347,17 +6364,11 @@
   url: https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -7667,17 +6678,11 @@
   url: https://images.patolojiatlasi.com/seed/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -7701,17 +6706,11 @@
   url: https://images.patolojiatlasi.com/signet-ring-cell-carcinoma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -7766,17 +6765,11 @@
   url: https://images.patolojiatlasi.com/tubularadenoma-flat/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -7800,17 +6793,11 @@
   url: https://images.patolojiatlasi.com/tubularadenoma-flat/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -7834,17 +6821,11 @@
   url: https://images.patolojiatlasi.com/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -7868,17 +6849,11 @@
   url: https://images.patolojiatlasi.com/WDNET-ampulla/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
@@ -7891,6 +6866,8 @@
   reponame: hepatocellularcarcinoma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7913,6 +6890,9 @@
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_hepatocellularcarcinoma-HCC/viewer_z0.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: mucin
   reponame: mucin
   titleTR: Normal kolon mukozasında intrasitoplazmik müsini gösteren mucicarmine (müsikarmen)
@@ -7938,6 +6918,8 @@
   reponame: myxoidliposarcoma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7946,26 +6928,25 @@
   url: https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - deneme
-  - deneme
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_myxoidliposarcoma.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: ampullary-adenocarcinoma
   reponame: ampullary-adenocarcinoma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7974,26 +6955,25 @@
   url: https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ampullary-adenocarcinoma.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: WDNET-ampulla
   reponame: WDNET-ampulla
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8002,26 +6982,25 @@
   url: https://images.patolojiatlasi.com/WDNET-ampulla/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_WDNET-ampulla.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: helicobacterpylori
   reponame: helicobacterpylori
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8030,26 +7009,25 @@
   url: https://images.patolojiatlasi.com/helicobacterpylori/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_helicobacterpylori.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: livermangioma
   reponame: livermangioma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8058,26 +7036,25 @@
   url: https://images.patolojiatlasi.com/livermangioma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_livermangioma.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: kidneyoncocytoma
   reponame: kidneyoncocytoma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8086,26 +7063,25 @@
   url: https://images.patolojiatlasi.com/kidneyoncocytoma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_kidneyoncocytoma.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: exostosis
   reponame: exostosis
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8114,26 +7090,25 @@
   url: https://images.patolojiatlasi.com/exostosis/oc001.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_exostosis.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: carcinogenesis
   reponame: carcinogenesis
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8142,26 +7117,25 @@
   url: https://images.patolojiatlasi.com/carcinogenesis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_carcinogenesis.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: reactive-atypia
   reponame: reactive-atypia
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8170,26 +7144,25 @@
   url: https://images.patolojiatlasi.com/reactive-atypia/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_reactive-atypia.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: cervix-SCC
   reponame: cervix-SCC
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8198,26 +7171,25 @@
   url: https://images.patolojiatlasi.com/cervix-SCC/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cervix-SCC.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: chronicpyelonephritis1
   reponame: chronicpyelonephritis
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8226,26 +7198,25 @@
   url: https://images.patolojiatlasi.com/chronicpyelonephritis/HE1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronicpyelonephritis1.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: chronicpyelonephritis2
   reponame: chronicpyelonephritis
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8254,26 +7225,25 @@
   url: https://images.patolojiatlasi.com/chronicpyelonephritis/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronicpyelonephritis2.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: chronic-pyelonephritis
   reponame: chronic-pyelonephritis
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8282,26 +7252,25 @@
   url: https://images.patolojiatlasi.com/chronic-pyelonephritis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronic-pyelonephritis.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: brain-arteriovenous-malformation
   reponame: brain-arteriovenous-malformation
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8310,26 +7279,25 @@
   url: https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-arteriovenous-malformation.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: colon-submucosal-lipoma
   reponame: colon-submucosal-lipoma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8338,26 +7306,25 @@
   url: https://images.patolojiatlasi.com/colon-submucosal-lipoma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_colon-submucosal-lipoma.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: mucinous-adenocarcinoma-colon
   reponame: mucinous-adenocarcinoma-colon
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8366,26 +7333,25 @@
   url: https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_mucinous-adenocarcinoma-colon.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: colon-adenocarcinoma
   reponame: colon-adenocarcinoma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8394,26 +7360,25 @@
   url: https://images.patolojiatlasi.com/colon-adenocarcinoma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_colon-adenocarcinoma.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: colon-adenocarcinoma2
   reponame: colon-adenocarcinoma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8422,26 +7387,25 @@
   url: https://images.patolojiatlasi.com/colon-adenocarcinoma/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_colon-adenocarcinoma2.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: colon-adenocarcinoma3
   reponame: colon-adenocarcinoma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8450,26 +7414,25 @@
   url: https://images.patolojiatlasi.com/colon-adenocarcinoma/HE3.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_colon-adenocarcinoma3.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: congestion-spleen
   reponame: congestion-spleen
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8478,26 +7441,25 @@
   url: https://images.patolojiatlasi.com/congestion-spleen/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_congestion-spleen.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: crohn-colonoscopic-biopsy1
   reponame: crohn-colonoscopic-biopsy
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8506,26 +7468,25 @@
   url: https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_crohn-colonoscopic-biopsy1.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: crohn-colonoscopic-biopsy2
   reponame: crohn-colonoscopic-biopsy
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8534,26 +7495,25 @@
   url: https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_crohn-colonoscopic-biopsy2.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: crohn-colonoscopic-biopsy3
   reponame: crohn-colonoscopic-biopsy
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8562,26 +7522,25 @@
   url: https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE3.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_crohn-colonoscopic-biopsy3.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: crohn-colonoscopic-biopsy4
   reponame: crohn-colonoscopic-biopsy
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8590,26 +7549,25 @@
   url: https://images.patolojiatlasi.com/crohn-colonoscopic-biopsy/HE4.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_crohn-colonoscopic-biopsy4.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: celiac-disease
   reponame: celiac-disease
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8618,26 +7576,25 @@
   url: https://images.patolojiatlasi.com/celiac-disease/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_celiac-disease.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: cholesteatoma
   reponame: cholesteatoma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8646,26 +7603,25 @@
   url: https://images.patolojiatlasi.com/cholesteatoma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cholesteatoma.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: extramuralvenousinvasion
   reponame: extramuralvenousinvasion
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8674,26 +7630,25 @@
   url: https://images.patolojiatlasi.com/extramuralvenousinvasion/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_extramuralvenousinvasion.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: extramuralvenousinvasion2
   reponame: extramuralvenousinvasion
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8702,26 +7657,25 @@
   url: https://images.patolojiatlasi.com/extramuralvenousinvasion/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_extramuralvenousinvasion2.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: extramural-venous-invasion
   reponame: extramural-venous-invasion
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8730,26 +7684,25 @@
   url: https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_extramural-venous-invasion.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: endometriosis
   reponame: endometriosis
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8758,26 +7711,25 @@
   url: https://images.patolojiatlasi.com/endometriosis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_endometriosis.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: endometrial-polyp
   reponame: endometrial-polyp
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8786,26 +7738,25 @@
   url: https://images.patolojiatlasi.com/endometrial-polyp/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_endometrial-polyp.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: erosion
   reponame: erosion
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8814,26 +7765,25 @@
   url: https://images.patolojiatlasi.com/erosion/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_erosion.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: granular-cell-tumor
   reponame: granular-cell-tumor
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8842,26 +7792,25 @@
   url: https://images.patolojiatlasi.com/granular-cell-tumor/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_granular-cell-tumor.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: ochronosis
   reponame: ochronosis
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8870,26 +7819,25 @@
   url: https://images.patolojiatlasi.com/ochronosis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ochronosis.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: ectopic-adrenal
   reponame: ectopic-adrenal
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8898,26 +7846,25 @@
   url: https://images.patolojiatlasi.com/ectopic-adrenal/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ectopic-adrenal.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: brain-mucormycosis
   reponame: brain-mucormycosis
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8926,26 +7873,25 @@
   url: https://images.patolojiatlasi.com/brain-mucormycosis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-mucormycosis.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: gallbladder-adenomyoma
   reponame: gallbladder-adenomyoma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8954,26 +7900,25 @@
   url: https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_gallbladder-adenomyoma.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: ischemia-gangrenous-cholecystitis
   reponame: ischemia-gangrenous-cholecystitis
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8982,26 +7927,25 @@
   url: https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ischemia-gangrenous-cholecystitis.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: lymphocytic-gastritis
   reponame: lymphocytic-gastritis
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9010,26 +7954,25 @@
   url: https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: GBD1
   reponame: GBD1
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9038,26 +7981,25 @@
   url: https://images.patolojiatlasi.com/GBD1/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_GBD1.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: GBD2
   reponame: GBD2
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9066,26 +8008,25 @@
   url: https://images.patolojiatlasi.com/GBD2/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_GBD2.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: GBD
   reponame: GBD
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9094,26 +8035,25 @@
   url: https://images.patolojiatlasi.com/GBD/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_GBD.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: GBD3
   reponame: GBD3
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9122,26 +8062,25 @@
   url: https://images.patolojiatlasi.com/GBD3/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_GBD3.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: high-grade-glioma-squash
   reponame: high-grade-glioma-squash
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9150,26 +8089,25 @@
   url: https://images.patolojiatlasi.com/high-grade-glioma-squash/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_high-grade-glioma-squash.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: necrotisinggranuloma
   reponame: necrotisinggranuloma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9178,26 +8116,25 @@
   url: https://images.patolojiatlasi.com/necrotisinggranuloma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_necrotisinggranuloma.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: intrapancreaticspleen
   reponame: intrapancreaticspleen
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9206,26 +8143,25 @@
   url: https://images.patolojiatlasi.com/intrapancreaticspleen/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_intrapancreaticspleen.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: pituitary-adenoma
   reponame: pituitary-adenoma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9234,26 +8170,25 @@
   url: https://images.patolojiatlasi.com/pituitary-adenoma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_pituitary-adenoma.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: hodgkin
   reponame: hodgkin
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9262,26 +8197,25 @@
   url: https://images.patolojiatlasi.com/hodgkin/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_hodgkin.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: cholesterolpolyp
   reponame: cholesterolpolyp
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9290,26 +8224,25 @@
   url: https://images.patolojiatlasi.com/cholesterolpolyp/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cholesterolpolyp.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: glycogenstorage
   reponame: glycogenstorage
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9318,26 +8251,25 @@
   url: https://images.patolojiatlasi.com/glycogenstorage/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_glycogenstorage.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: anthracosis
   reponame: anthracosis
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9346,26 +8278,25 @@
   url: https://images.patolojiatlasi.com/anthracosis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_anthracosis.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: anthracosis2
   reponame: anthracosis
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9374,26 +8305,25 @@
   url: https://images.patolojiatlasi.com/anthracosis/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_anthracosis2.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: melanosiscoli
   reponame: melanosiscoli
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9402,26 +8332,25 @@
   url: https://images.patolojiatlasi.com/melanosiscoli/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_melanosiscoli.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: ICE1-WDNET-duodenum
   reponame: ICE1-WDNET-duodenum
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9430,26 +8359,25 @@
   url: https://images.patolojiatlasi.com/ICE1-WDNET-duodenum/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ICE1-WDNET-duodenum.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: fat-necrosis
   reponame: fat-necrosis
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9458,26 +8386,25 @@
   url: https://images.patolojiatlasi.com/fat-necrosis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fat-necrosis.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: fibrolamellarpatocellular-carcinoma1
   reponame: fibrolamellarpatocellular-carcinoma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9486,26 +8413,25 @@
   url: https://images.patolojiatlasi.com/fibrolamellarpatocellular-carcinoma/HE1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fibrolamellarpatocellular-carcinoma1.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: fibrolamellarpatocellular-carcinoma2
   reponame: fibrolamellarpatocellular-carcinoma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9514,26 +8440,25 @@
   url: https://images.patolojiatlasi.com/fibrolamellarpatocellular-carcinoma/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fibrolamellarpatocellular-carcinoma2.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: fibrolamellarpatocellular-carcinoma3
   reponame: fibrolamellarpatocellular-carcinoma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9542,26 +8467,25 @@
   url: https://images.patolojiatlasi.com/fibrolamellarpatocellular-carcinoma/HE3.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fibrolamellarpatocellular-carcinoma3.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: fibrolamellarpatocellular-carcinoma4
   reponame: fibrolamellarpatocellular-carcinoma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9570,26 +8494,25 @@
   url: https://images.patolojiatlasi.com/fibrolamellarpatocellular-carcinoma/HE4.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fibrolamellarpatocellular-carcinoma4.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: pleomorphism
   reponame: pleomorphism
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9598,26 +8521,25 @@
   url: https://images.patolojiatlasi.com/pleomorphism/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_pleomorphism.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: brain-invasive-meningioma
   reponame: brain-invasive-meningioma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9626,26 +8548,25 @@
   url: https://images.patolojiatlasi.com/brain-invasive-meningioma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-invasive-meningioma.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: brain-invasive-meningioma}
   reponame: brain-invasive-meningioma}
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9654,26 +8575,25 @@
   url: https://images.patolojiatlasi.com/brain-invasive-meningioma}/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-invasive-meningioma}.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: meningioma-bone-infiltration
   reponame: meningioma-bone-infiltration
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9682,26 +8602,25 @@
   url: https://images.patolojiatlasi.com/meningioma-bone-infiltration/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_meningioma-bone-infiltration.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: meningioma-bone-infiltration}
   reponame: meningioma-bone-infiltration}
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9710,26 +8629,25 @@
   url: https://images.patolojiatlasi.com/meningioma-bone-infiltration}/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_meningioma-bone-infiltration}.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: abdominal-mesothelioma
   reponame: abdominal-mesothelioma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9738,26 +8656,25 @@
   url: https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_abdominal-mesothelioma.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: metaplasia
   reponame: metaplasia
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9766,26 +8683,25 @@
   url: https://images.patolojiatlasi.com/metaplasia/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_metaplasia.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: metaplasia_annotated
   reponame: metaplasia
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9794,26 +8710,25 @@
   url: https://images.patolojiatlasi.com/metaplasia/HE_annotated.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_metaplasia_annotated.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: metaplasia_annotated3
   reponame: metaplasia
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9822,26 +8737,25 @@
   url: https://images.patolojiatlasi.com/metaplasia/HE_annotated3.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_metaplasia_annotated3.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: metastaticsarcoma
   reponame: metastaticsarcoma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9850,26 +8764,25 @@
   url: https://images.patolojiatlasi.com/metastaticsarcoma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_metastaticsarcoma.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: insidious-lymph-node-metastasis
   reponame: insidious-lymph-node-metastasis
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9878,26 +8791,25 @@
   url: https://images.patolojiatlasi.com/insidious-lymph-node-metastasis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_insidious-lymph-node-metastasis.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: gastritis-cystica-profunda
   reponame: gastritis-cystica-profunda
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9906,26 +8818,25 @@
   url: https://images.patolojiatlasi.com/gastritis-cystica-profunda/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_gastritis-cystica-profunda.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: nasopharynx-nonkeratinizing-scc
   reponame: nasopharynx-nonkeratinizing-scc
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9934,26 +8845,25 @@
   url: https://images.patolojiatlasi.com/nasopharynx-nonkeratinizing-scc/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_nasopharynx-nonkeratinizing-scc.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: enterobius-vermicularis
   reponame: enterobius-vermicularis
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9962,26 +8872,25 @@
   url: https://images.patolojiatlasi.com/enterobius-vermicularis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_enterobius-vermicularis.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: PDAC-tru-cut1
   reponame: PDAC-tru-cut
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9990,26 +8899,25 @@
   url: https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_PDAC-tru-cut1.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: PDAC-tru-cut2
   reponame: PDAC-tru-cut
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -10018,26 +8926,25 @@
   url: https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_PDAC-tru-cut2.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: PDAC-tru-cut3
   reponame: PDAC-tru-cut
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -10046,26 +8953,25 @@
   url: https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_PDAC-tru-cut3.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: chorioamnionitis
   reponame: chorioamnionitis
   titleTR: Koryoamniyonit
   titleEN: Chorioamnionitis
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -10090,10 +8996,15 @@
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chorioamnionitis.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: benign-prostate-hyperplasia
   reponame: benign-prostate-hyperplasia
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -10102,26 +9013,25 @@
   url: https://images.patolojiatlasi.com/benign-prostate-hyperplasia/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_benign-prostate-hyperplasia.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: fibrosis
   reponame: fibrosis
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -10130,26 +9040,25 @@
   url: https://images.patolojiatlasi.com/fibrosis/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_fibrosis.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: keloid-scar
   reponame: keloid-scar
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -10158,26 +9067,25 @@
   url: https://images.patolojiatlasi.com/keloid-scar/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_keloid-scar.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: mammary-analogue-secretory-carcinoma1
   reponame: mammary-analogue-secretory-carcinoma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -10186,26 +9094,25 @@
   url: https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_mammary-analogue-secretory-carcinoma1.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: mammary-analogue-secretory-carcinoma
   reponame: mammary-analogue-secretory-carcinoma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -10214,26 +9121,25 @@
   url: https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_mammary-analogue-secretory-carcinoma.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: mammary-analogue-secretory-carcinoma2
   reponame: mammary-analogue-secretory-carcinoma
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -10242,26 +9148,25 @@
   url: https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_mammary-analogue-secretory-carcinoma2.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: tumor-spread-cervix
   reponame: tumor-spread
   titleTR: Servikse Tümör Yayılımı
   titleEN: Tumor Spread in Cervix
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -10286,10 +9191,15 @@
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_tumor-spread-cervix.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: tumor-spread-endometrium
   reponame: tumor-spread
   titleTR: Endometriuma Tümör Yayılımı
   titleEN: Tumor Spread in Endometrium
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -10298,26 +9208,25 @@
   url: https://images.patolojiatlasi.com/tumor-spread/HE-endometrium.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_tumor-spread-endometrium.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: tumor-spread-over
   reponame: tumor-spread
   titleTR: Overe Tümör Yayılımı
   titleEN: Tumor Spread in Ovary
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -10326,26 +9235,25 @@
   url: https://images.patolojiatlasi.com/tumor-spread/HE-over.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_tumor-spread-over.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: tumor-spread-small-intestine
   reponame: tumor-spread
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -10354,26 +9262,25 @@
   url: https://images.patolojiatlasi.com/tumor-spread/HE-small-intestine.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_tumor-spread-small-intestine.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: venous-invasion
   reponame: venous-invasion
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -10382,26 +9289,25 @@
   url: https://images.patolojiatlasi.com/venous-invasion/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_venous-invasion.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: herpesesophagitis-HE
   reponame: HSV
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: published
   author:
   - Serdar Balci
@@ -10410,26 +9316,25 @@
   url: https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_herpesesophagitis.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
 - stainname: molluscum-contagiosum
   reponame: molluscum-contagiosum
   titleTR: ''
   titleEN: ''
+  organTR: ''
+  organEN: ''
   type: published
   author:
   - Serdar Balci
@@ -10438,19 +9343,16 @@
   url: https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_molluscum-contagiosum.png
+  githubrepo: ''
+  githubpage: ''
+  youtube: ''
