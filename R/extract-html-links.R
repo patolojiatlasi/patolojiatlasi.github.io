@@ -108,7 +108,7 @@ yaml_data <- lapply(1:nrow(yaml_preparation_file), function(i) {
        organTR = "",
        organEN = "",
        speciality = "",
-       type = "published",
+       type = "unpublished",
        author = list("Serdar Balci", "Memorial Patoloji"),
        date = as.character(Sys.Date()),
        url = yaml_preparation_file$links[i],
