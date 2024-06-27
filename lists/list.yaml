@@ -962,10 +962,10 @@
   youtube: ''
 - stainname: ochronosis-HE
   reponame: ochronosis
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
+  titleTR: 'Okronozis'
+  titleEN: 'Ochronosis'
+  organTR: 'kemik'
+  organEN: 'bone'
   speciality: bone
   type: unpublished
   author:
@@ -973,7 +973,7 @@
   - Memorial Patoloji
   date: '2024-03-02'
   url: https://images.patolojiatlasi.com/ochronosis/HE.html
-  note: ''
+  note: 'Ochronosis in bone'
   categoriesTR:
   - patoloji
   - atlas
@@ -984,7 +984,7 @@
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ochronosis-HE.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ochronosis.png
   githubrepo: https://github.com/pathologyatlas/ochronosis
   githubpage: https://pathologyatlas.github.io/ochronosis
   youtube: ''
