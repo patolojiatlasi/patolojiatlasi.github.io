@@ -184,6 +184,7 @@
   titleEN: Helicobacter pylori (Giemsa)
   organTR: Mide
   organEN: Stomach
+  speciality: gastrointestinal
   type: published
   author:
   - Serdar Balci
@@ -219,6 +220,7 @@
   titleEN: Helicobacter pylori (IHC)
   organTR: Mide
   organEN: Stomach
+  speciality: gastrointestinal
   type: published
   author:
   - Serdar Balci
@@ -990,30 +992,39 @@
   youtube: ''
 - stainname: pancreaticadenocarcinoma-case1-histopathology/viewer_z0
   reponame: pancreaticadenocarcinoma
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
+  titleTR: Pankreas Adenokarsinomu
+  titleEN: Pancreatic Adenocarcinoma
+  organTR: pankreas
+  organEN: pancreas
+  speciality: pancreas
   type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
   date: '2024-02-18'
   url: https://images.patolojiatlasi.com/pancreaticadenocarcinoma/case1-histopathology/viewer_z0.html
-  note: ''
+  note: Pancreatic adenocarcinoma
   categoriesTR:
+  - pankreas
+  - adenokarsinom
+  - malign
+  - tümör
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
+  - pancreas
+  - adenocarcinoma
+  - malignant
+  - tumor
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_pancreaticadenocarcinoma-case1-histopathology/viewer_z0.png
-  githubrepo: ''
-  githubpage: ''
+  githubrepo: https://github.com/pathologyatlas/pancreaticadenocarcinoma
+  githubpage: https://pathologyatlas.github.io/pancreaticadenocarcinoma
   youtube: ''
 - stainname: lecture1-Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji
   reponame: lecture1
@@ -1021,6 +1032,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -1076,6 +1088,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: gynecologic
   type: unpublished
   author:
   - Serdar Balci
@@ -1131,6 +1144,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: neuro
   type: unpublished
   author:
   - Serdar Balci
@@ -1228,6 +1242,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: gastrointestinal
   type: unpublished
   author:
   - Serdar Balci
@@ -1283,6 +1298,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: gasrointestinal
   type: unpublished
   author:
   - Serdar Balci
@@ -1310,6 +1326,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: gasrointestinal
   type: unpublished
   author:
   - Serdar Balci
@@ -1337,6 +1354,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: gasrointestinal
   type: unpublished
   author:
   - Serdar Balci
@@ -1644,6 +1662,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -1671,6 +1690,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -1782,6 +1802,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -2089,6 +2110,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -2200,6 +2222,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -2283,6 +2306,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -2310,6 +2334,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -2337,6 +2362,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -2364,6 +2390,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -4207,6 +4234,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -4458,6 +4486,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -5928,6 +5957,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -6936,6 +6966,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -6988,6 +7019,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7015,6 +7047,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7042,6 +7075,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7069,6 +7103,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7096,6 +7131,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7123,6 +7159,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7150,6 +7187,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7177,6 +7215,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7204,6 +7243,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7231,6 +7271,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7258,6 +7299,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7285,6 +7327,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7312,6 +7355,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7339,6 +7383,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7366,6 +7411,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7393,6 +7439,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7420,6 +7467,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7447,6 +7495,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7474,6 +7523,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7501,6 +7551,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7528,6 +7579,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7555,6 +7607,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7582,6 +7635,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7609,6 +7663,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7636,6 +7691,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7663,6 +7719,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7690,6 +7747,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7717,6 +7775,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7744,6 +7803,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7771,6 +7831,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7798,6 +7859,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7825,6 +7887,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7852,6 +7915,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7879,6 +7943,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7906,6 +7971,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7933,6 +7999,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7960,6 +8027,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -7987,6 +8055,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8014,6 +8083,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8041,6 +8111,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8068,6 +8139,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8095,6 +8167,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8122,6 +8195,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8149,6 +8223,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8176,6 +8251,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8203,6 +8279,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8230,6 +8307,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8257,6 +8335,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8284,6 +8363,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8311,6 +8391,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8338,6 +8419,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8365,6 +8447,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8392,6 +8475,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8419,6 +8503,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8446,6 +8531,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8473,6 +8559,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8500,6 +8587,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8527,6 +8615,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8554,6 +8643,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8581,6 +8671,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8608,6 +8699,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8635,6 +8727,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8662,6 +8755,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8689,6 +8783,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8716,6 +8811,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8743,6 +8839,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8770,6 +8867,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8797,6 +8895,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8824,6 +8923,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8851,6 +8951,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8878,6 +8979,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8905,6 +9007,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8932,6 +9035,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8959,6 +9063,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -8986,6 +9091,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9013,6 +9119,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9040,6 +9147,7 @@
   titleEN: Chorioamnionitis
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9073,6 +9181,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9100,6 +9209,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9127,6 +9237,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9154,6 +9265,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9181,6 +9293,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9208,6 +9321,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9235,6 +9349,7 @@
   titleEN: Tumor Spread in Cervix
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9268,6 +9383,7 @@
   titleEN: Tumor Spread in Endometrium
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9295,6 +9411,7 @@
   titleEN: Tumor Spread in Ovary
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9322,6 +9439,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9349,6 +9467,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
+  speciality: ''
   type: unpublished
   author:
   - Serdar Balci
@@ -9372,10 +9491,11 @@
   youtube: ''
 - stainname: herpesesophagitis-HE
   reponame: HSV
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
+  titleTR: Herpes Özofajiti
+  titleEN: Herpes Esophagitis
+  organTR: özofagus
+  organEN: esophagus
+  speciality: gastrointestinal
   type: published
   author:
   - Serdar Balci
@@ -9399,10 +9519,11 @@
   youtube: ''
 - stainname: molluscum-contagiosum
   reponame: molluscum-contagiosum
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
+  titleTR: Molluscum Contagiosum
+  titleEN: Molluscum Contagiosum
+  organTR: deri
+  organEN: skin
+  speciality: dermatopatoloji
   type: published
   author:
   - Serdar Balci
