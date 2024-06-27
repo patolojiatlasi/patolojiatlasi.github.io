@@ -992,10 +992,10 @@
   youtube: ''
 - stainname: pancreaticadenocarcinoma-case1-histopathology/viewer_z0
   reponame: pancreaticadenocarcinoma
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
+  titleTR: 'Pankreas Adenokarsinomu'
+  titleEN: 'Pancreatic Adenocarcinoma'
+  organTR: 'pankreas'
+  organEN: 'pancreas'
   speciality: 'pancreas'
   type: unpublished
   author:
@@ -1003,20 +1003,28 @@
   - Memorial Patoloji
   date: '2024-02-18'
   url: https://images.patolojiatlasi.com/pancreaticadenocarcinoma/case1-histopathology/viewer_z0.html
-  note: ''
+  note: 'Pancreatic adenocarcinoma'
   categoriesTR:
+  - pankreas
+  - adenokarsinom
+  - malign
+  - tümör
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
+  - pancreas
+  - adenocarcinoma
+  - malignant
+  - tumor
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_pancreaticadenocarcinoma-case1-histopathology/viewer_z0.png
-  githubrepo: ''
-  githubpage: ''
+  githubrepo: https://github.com/pathologyatlas/pancreaticadenocarcinoma
+  githubpage: https://pathologyatlas.github.io/pancreaticadenocarcinoma
   youtube: ''
 - stainname: lecture1-Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji
   reponame: lecture1
