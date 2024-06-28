@@ -1032,7 +1032,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'lecture'
   type: unpublished
   author:
   - Serdar Balci
@@ -1522,7 +1522,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'liver'
   type: unpublished
   author:
   - Serdar Balci
@@ -1550,7 +1550,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'endocrine'
   type: unpublished
   author:
   - Serdar Balci
@@ -1578,7 +1578,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'hemato'
   type: unpublished
   author:
   - Serdar Balci
@@ -1634,7 +1634,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'liver'
   type: unpublished
   author:
   - Serdar Balci
@@ -1662,7 +1662,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'liver'
   type: unpublished
   author:
   - Serdar Balci
@@ -1690,7 +1690,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'liver'
   type: unpublished
   author:
   - Serdar Balci
@@ -1718,7 +1718,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'lung'
   type: unpublished
   author:
   - Serdar Balci
@@ -1746,7 +1746,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'lung'
   type: unpublished
   author:
   - Serdar Balci
@@ -1774,7 +1774,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'gasrointestinal'
   type: unpublished
   author:
   - Serdar Balci
@@ -1802,7 +1802,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'gasrointestinal'
   type: unpublished
   author:
   - Serdar Balci
@@ -1830,7 +1830,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'pancreatobiliary'
   type: unpublished
   author:
   - Serdar Balci
@@ -1858,7 +1858,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'gastrointestinal'
   type: unpublished
   author:
   - Serdar Balci
@@ -1886,7 +1886,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'soft tissue'
   type: unpublished
   author:
   - Serdar Balci
@@ -1914,7 +1914,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'neuro'
   type: unpublished
   author:
   - Serdar Balci
@@ -9409,16 +9409,16 @@
   reponame: tumor-spread
   titleTR: Overe Tümör Yayılımı
   titleEN: Tumor Spread in Ovary
-  organTR: ''
-  organEN: ''
-  speciality: ''
+  organTR: 'over'
+  organEN: 'over'
+  speciality: 'gastrointestinal'
   type: unpublished
   author:
   - Serdar Balci
   - Memorial Patoloji
   date: '2024-02-18'
   url: https://images.patolojiatlasi.com/tumor-spread/HE-over.html
-  note: ''
+  note: 'Tumor spread in ovary'
   categoriesTR:
   - patoloji
   - atlas
@@ -9439,7 +9439,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'gastrintestinal'
   type: unpublished
   author:
   - Serdar Balci
@@ -9467,7 +9467,7 @@
   titleEN: ''
   organTR: ''
   organEN: ''
-  speciality: ''
+  speciality: 'gastrointestinal'
   type: unpublished
   author:
   - Serdar Balci
