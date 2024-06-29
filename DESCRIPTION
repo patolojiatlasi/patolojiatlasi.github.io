@@ -46,7 +46,8 @@ Imports:
     qrcode,
     yaml,
     stringr,
-    xml2
+    xml2,
+    lubridate
 Remotes:
     duncantl/XMLRPC,
     duncantl/RWordPress
