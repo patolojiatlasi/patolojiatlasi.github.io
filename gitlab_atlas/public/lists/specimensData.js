@@ -560,6 +560,26 @@ const specimensData = [
     "youtube": ""
   },
   {
+    "stainname": "ectopic-adrenal-HE",
+    "reponame": "ectopic-adrenal",
+    "titleTR": "Ektopik Adrenal Dokusu",
+    "titleEN": "Ectopic Adrenal Tissue",
+    "organTR": "Adrenal",
+    "organEN": "Adrenal",
+    "speciality": "endocrine",
+    "type": "published",
+    "author": ["Serdar Balci", "Memorial Patoloji"],
+    "date": "2024-03-02",
+    "url": "https://images.patolojiatlasi.com/ectopic-adrenal/HE.html",
+    "note": "Ectopic adrenal tissue in paratubal adnexal region",
+    "categoriesTR": ["adrenal", "ektopik", "adneks", "patoloji", "atlas", "histopatoloji", "whole slide image"],
+    "categoriesEN": ["adrenal", "ectopic", "adnexa", "pathology", "atlas", "histopathology", "whole slide image"],
+    "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_ectopic-adrenal.png",
+    "githubrepo": "https://github.com/pathologyatlas/ectopic-adrenal",
+    "githubpage": "https://pathologyatlas.github.io/ectopic-adrenal",
+    "youtube": ""
+  },
+  {
     "stainname": "lung-squamous-cell-carcinoma-HE1",
     "reponame": "lung-squamous-cell-carcinoma",
     "titleTR": "Akciğer Skuamöz Hücreli Karsinom, tru-cut biyopsi",
