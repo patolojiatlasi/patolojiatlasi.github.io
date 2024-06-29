@@ -45,7 +45,8 @@ Imports:
     readxl,
     qrcode,
     yaml,
-    stringr
+    stringr,
+    xml2
 Remotes:
     duncantl/XMLRPC,
     duncantl/RWordPress
