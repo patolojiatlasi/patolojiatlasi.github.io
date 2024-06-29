@@ -216,19 +216,30 @@ xml2::xml_add_child(channel, "language", "tr-tr")
 for (item in yaml_data) {
   entry <- xml_add_child(channel, "item")
 
-  xml_add_child(entry, "title", item$titleEN)
+  xml_add_child(entry, "title", item$titleTR)  # Changed to Turkish title
   xml_add_child(entry, "link", item$url)
   xml_add_child(entry, "guid", item$url)
 
-  description <- paste(item$titleTR, "-", item$organTR, "-",
-                       paste(item$categoriesTR, collapse = ", "))
+  description <- paste(
+    item$titleTR, "-", item$organTR, "-",  # Changed to Turkish
+    paste(item$categoriesTR, collapse = ", "),  # Changed to Turkish categories
+    if (!is.null(item$note) && item$note != "") paste("\n\nNot:", item$note) else ""  # Added note
+  )
   xml_add_child(entry, "description", description)
 
   date <- format(as.Date(item$date), "%a, %d %b %Y 00:00:00 +0000")
   xml_add_child(entry, "pubDate", date)
 
-  for (category in item$categoriesTR) {
+  for (category in item$categoriesTR) {  # Changed to Turkish categories
     xml_add_child(entry, "category", category)
+  }
+
+  # Add screenshot as enclosure
+  if (!is.null(item$screenshot)) {
+    enclosure <- xml_add_child(entry, "enclosure")
+    xml_attr(enclosure, "url") <- item$screenshot
+    xml_attr(enclosure, "type") <- "image/png"
+    xml_attr(enclosure, "length") <- "0"
   }
 }
 
