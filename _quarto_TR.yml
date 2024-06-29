@@ -16,6 +16,7 @@ project:
     - "webpages.js"
     - "webpages.txt"
     - "headerTR.html"
+    - "rss_feed.xml"
 
   pre-render:
     - ./R/prerender_TR.R

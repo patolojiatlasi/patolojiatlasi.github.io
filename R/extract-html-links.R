@@ -194,6 +194,50 @@ writeLines(js_data, "./lists/specimensData.js")
 
 
 
+library(xml2)
+library(lubridate)
+
+# Read YAML data
+yaml_data <- yaml::read_yaml("./lists/list.yaml")
+
+yaml_data <- yaml_data[sapply(yaml_data, function(x) x$type == "published")]
+
+# Create the root element
+rss <- xml2::xml_new_root("rss", version = "2.0")
+channel <- xml2::xml_add_child(rss, "channel")
+
+# Add channel information
+xml2::xml_add_child(channel, "title", "Patoloji Atlası")
+xml2::xml_add_child(channel, "link", "https://www.patolojiatlasi.com")
+xml2::xml_add_child(channel, "description", "Patoloji Atlası RSS Feed")
+xml2::xml_add_child(channel, "language", "tr-tr")
+
+# Add items
+for (item in yaml_data) {
+  entry <- xml_add_child(channel, "item")
+
+  xml_add_child(entry, "title", item$titleEN)
+  xml_add_child(entry, "link", item$url)
+  xml_add_child(entry, "guid", item$url)
+
+  description <- paste(item$titleTR, "-", item$organTR, "-",
+                       paste(item$categoriesTR, collapse = ", "))
+  xml_add_child(entry, "description", description)
+
+  date <- format(as.Date(item$date), "%a, %d %b %Y 00:00:00 +0000")
+  xml_add_child(entry, "pubDate", date)
+
+  for (category in item$categoriesTR) {
+    xml_add_child(entry, "category", category)
+  }
+}
+
+# Write to file
+write_xml(rss, "./rss_feed.xml")
+
+
+
+
 
 # markdown <- qmd_content
 #
