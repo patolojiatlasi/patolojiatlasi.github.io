@@ -208,6 +208,8 @@ book:
           href: ampulla-vater.qmd
     - part: "Lung"
       chapters:
+        - text: "Lung Tumors"
+          href: lung.qmd
         - text: "Neuroendocrine"
           href: neuroendocrine.qmd
     - part: "Mezotel"
