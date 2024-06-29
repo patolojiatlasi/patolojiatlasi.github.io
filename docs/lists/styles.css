@@ -82,3 +82,132 @@ h1 {
     font-size: 16px;
 }
 
+
+.specimen-details {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: relative;
+    left: -40%;
+    width: 180%;
+    z-index: 1;
+}
+
+.specimen-details img {
+    max-width: 100%;
+    height: auto;
+}
+
+.close-details {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.specimen-container {
+    margin-bottom: 20px;
+}
+
+.specimen {
+    cursor: pointer;
+}
+
+.specimen-details {
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.specimen-details img {
+    max-width: 100%;
+    height: auto;
+}
+
+.close-details {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#specimens-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.specimen-container {
+    transition: opacity 0.3s ease;
+}
+
+.specimen {
+    cursor: pointer;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.specimen-details {
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: relative;
+    left: -10%;
+    width: 120%;
+    z-index: 1;
+}
+
+.specimen-details img {
+    max-width: 100%;
+    height: auto;
+}
+
+.close-details {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#filters {
+    margin-bottom: 20px;
+}
+
+#filters select, #filters input {
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .specimen-details {
+        left: 0;
+        width: 100%;
+    }
+}
+

@@ -44,7 +44,10 @@ Imports:
     webshot2,
     readxl,
     qrcode,
-    yaml
+    yaml,
+    stringr,
+    xml2,
+    lubridate
 Remotes:
     duncantl/XMLRPC,
     duncantl/RWordPress
