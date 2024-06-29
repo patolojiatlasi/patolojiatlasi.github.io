@@ -600,6 +600,26 @@ const specimensData = [
     "youtube": ""
   },
   {
+    "stainname": "brain-mucormycosis-GMS",
+    "reponame": "brain-mucormycosis",
+    "titleTR": "Beyin Mukormikozisi (GMS)",
+    "titleEN": "Brain Mucormycosis (GMS)",
+    "organTR": "beyin",
+    "organEN": "brain",
+    "speciality": "neuro",
+    "type": "published",
+    "author": ["Serdar Balci", "Memorial Patoloji"],
+    "date": "2024-06-29",
+    "url": "https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html",
+    "note": "Brain mucormycosis with GMS stain",
+    "categoriesTR": ["beyin", "mukormikozis", "enfeksiyon", "mantar", "histokimya", "patoloji", "atlas", "histopatoloji", "whole slide image"],
+    "categoriesEN": ["brain", "mucormycosis", "infection", "fungus", "histochemistry", "pathology", "atlas", "histopathology", "whole slide image"],
+    "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_brain-mucormycosis-GMS.png",
+    "githubrepo": "https://github.com/pathologyatlas/brain-mucormycosis",
+    "githubpage": "https://pathologyatlas.github.io/brain-mucormycosis",
+    "youtube": ""
+  },
+  {
     "stainname": "lung-squamous-cell-carcinoma-HE1",
     "reponame": "lung-squamous-cell-carcinoma",
     "titleTR": "Akciğer Skuamöz Hücreli Karsinom, tru-cut biyopsi",
