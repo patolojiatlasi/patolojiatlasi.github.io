@@ -1065,7 +1065,7 @@
   author:
   - Serdar Balci
   - Memorial Patoloji
-  date: '2024-03-02'
+  date: '2024-06-29'
   url: https://images.patolojiatlasi.com/ectopic-adrenal/HE.html
   note: Ectopic adrenal tissue in paratubal adnexal region
   categoriesTR:
@@ -1118,12 +1118,12 @@
   youtube: ''
 - stainname: brain-mucormycosis-HE
   reponame: brain-mucormycosis
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
+  titleTR: Beyin Mukormikozisi
+  titleEN: Brain Mucormycosis
+  organTR: beyin
+  organEN: brain
   speciality: neuro
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1131,16 +1131,24 @@
   url: https://images.patolojiatlasi.com/brain-mucormycosis/HE.html
   note: ''
   categoriesTR:
+  - beyin
+  - mukormikozis
+  - enfeksiyon
+  - mantar
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
+  - brain
+  - mucormycosis
+  - infection
+  - fungus
   - pathology
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-mucormycosis-HE.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-mucormycosis.png
   githubrepo: https://github.com/pathologyatlas/brain-mucormycosis
   githubpage: https://pathologyatlas.github.io/brain-mucormycosis
   youtube: ''
