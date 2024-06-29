@@ -221,6 +221,8 @@ book:
           href: ampulla-vater.qmd
     - part: "Akciğer Patolojisi"
       chapters:
+        - text: "Akciğer Tümörleri"
+          href: akciger.qmd
         - text: "Nöroendokrin"
           href: noroendokrin.qmd
     - part: "Mezotel"
