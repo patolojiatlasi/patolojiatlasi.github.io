@@ -1284,57 +1284,61 @@
   youtube: ''
 - stainname: lymphocytic-gastritis-all
   reponame: lymphocytic-gastritis
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
+  titleTR: 'Lenfositik Gastrit'
+  titleEN: 'Lymphocytic Gastritis'
+  organTR: 'mide'
+  organEN: 'stomach'
   speciality: gastrointestinal
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
   date: '2024-02-18'
   url: https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html
-  note: ''
+  note: 'Lymphocytic gastritis'
   categoriesTR:
+  - mide
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
+  - stomach
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-all.png
-  githubrepo: ''
-  githubpage: ''
+  githubrepo: https://github.com/pathologyatlas/lymphocytic-gastritis
+  githubpage: https://pathologyatlas.github.io/lymphocytic-gastritis
   youtube: ''
 - stainname: lymphocytic-gastritis-HE
   reponame: lymphocytic-gastritis
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
+  titleTR: 'Lendfositik Gastrit'
+  titleEN: 'Lymphocytic Gastritis'
+  organTR: 'mide'
+  organEN: 'stomach'
   speciality: gasrointestinal
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
   date: '2024-03-02'
   url: https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html
-  note: ''
+  note: 'Lympocytic gastritis'
   categoriesTR:
+  - mide
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
+  - stomach
   - pathology
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-HE.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/lymphocytic-gastritisHE_screenshot.png
   githubrepo: https://github.com/pathologyatlas/lymphocytic-gastritis
   githubpage: https://pathologyatlas.github.io/lymphocytic-gastritis
   youtube: ''
@@ -1362,7 +1366,7 @@
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-CD3.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/lymphocytic-gastritisCD3_screenshot.png
   githubrepo: ''
   githubpage: ''
   youtube: ''
@@ -1390,7 +1394,7 @@
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-CD8.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/lymphocytic-gastritisCD8_screenshot.png
   githubrepo: ''
   githubpage: ''
   youtube: ''
@@ -1418,7 +1422,7 @@
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-CD20.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/lymphocytic-gastritisCD20_screenshot.png
   githubrepo: ''
   githubpage: ''
   youtube: ''
