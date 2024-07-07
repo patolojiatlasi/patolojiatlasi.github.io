@@ -105,6 +105,38 @@ if (!file.exists("./qrcodes/PDAC-tru-cut-HE3_qrcode.svg")) {
 
 
 
+
+
+```{r PDAC-tru-cut-4 screenshot, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_PDAC-tru-cut-4.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/pancreaticadenocarcinoma/case1-histopathology/viewer_z0.html",
+  file = "./screenshots/thumbnail_PDAC-tru-cut-4.png",
+  delay = 20
+)
+}
+```
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/PDAC-tru-cut-HE4_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/pancreaticadenocarcinoma/case1-histopathology/viewer_z0.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/PDAC-tru-cut-HE4_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+
+
 ```{r, echo=FALSE, include=FALSE, eval=FALSE}
 knitr::include_url(url = "https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html")
 ```

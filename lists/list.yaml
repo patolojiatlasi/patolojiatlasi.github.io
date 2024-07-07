@@ -839,7 +839,7 @@
   - Memorial Patoloji
   date: '2024-03-02'
   url: https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html
-  note: ''
+  note: 'Extramural venous invasion in colon cancer'
   categoriesTR:
   - kolon
   - malign
@@ -969,7 +969,7 @@
   organTR: kemik
   organEN: bone
   speciality: bone
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -977,11 +977,19 @@
   url: https://images.patolojiatlasi.com/ochronosis/HE.html
   note: Ochronosis in bone
   categoriesTR:
+  - kemik
+  - okronozis
+  - benign
+  - metabolik
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
+  - bone
+  - ochronosis
+  - benign
+  - metabolic
   - pathology
   - atlas
   - histopathology
@@ -997,7 +1005,7 @@
   organTR: pankreas
   organEN: pancreas
   speciality: pancreas
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1022,7 +1030,7 @@
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_pancreaticadenocarcinoma-case1-histopathology/viewer_z0.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_PDAC-tru-cut-4.png
   githubrepo: https://github.com/pathologyatlas/pancreaticadenocarcinoma
   githubpage: https://pathologyatlas.github.io/pancreaticadenocarcinoma
   youtube: ''
@@ -1090,31 +1098,45 @@
   youtube: ''
 - stainname: candidaalbicans-cervicovaginalsmear/viewer_z0
   reponame: candidaalbicans
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
+  titleTR: 'Servikovajinal yaymada Candida albicans'
+  titleEN: 'Candida albicans in cervicovaginal smear'
+  organTR: 'serviks'
+  organEN: 'cervix'
   speciality: gynecologic
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
   date: '2024-02-18'
   url: https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html
-  note: ''
+  note: 'Candida albicans in cervicovaginal smear'
   categoriesTR:
+  - serviks
+  - sitoloji
+  - PAP
+  - smear
+  - mantar
+  - enfeksiyon
+  - Candida
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
+  - cervix
+  - cytology
+  - PAP
+  - smear
+  - fungus
+  - infection
+  - Candida
   - pathology
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_candidaalbicans-cervicovaginalsmear/viewer_z0.png
-  githubrepo: ''
-  githubpage: ''
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_candidaalbicans.png
+  githubrepo: https://github.com/pathologyatlas/candidaalbicans
+  githubpage: https://pathologyatlas.github.io/candidaalbicans
   youtube: ''
 - stainname: brain-mucormycosis-HE
   reponame: brain-mucormycosis
@@ -1197,7 +1219,7 @@
   organTR: safra kesesi
   organEN: gallbladder
   speciality: pancreatobiliary
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1218,7 +1240,7 @@
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_gallbladder-adenomyoma-HE.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_gallbladder-adenomyoma.png
   githubrepo: https://github.com/pathologyatlas/gallbladder-adenomyoma
   githubpage: https://pathologyatlas.github.io/gallbladder-adenomyoma
   youtube: ''
@@ -1229,7 +1251,7 @@
   organTR: safra kesesi
   organEN: gallbladder
   speciality: pancreatobiliary
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
@@ -1256,7 +1278,7 @@
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ischemia-gangrenous-cholecystitis-HE.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ischemia-gangrenous-cholecystitis.png
   githubrepo: https://github.com/pathologyatlas/ischemia-gangrenous-cholecystitis
   githubpage: https://pathologyatlas.github.io/ischemia-gangrenous-cholecystitis
   youtube: ''
