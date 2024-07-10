@@ -13,11 +13,27 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "TR")}
-# Pankreas Malign Tümörleri {#sec-pankreas-tumorleri} 
+# Pankreas Tümörleri {#sec-pankreas-tumorleri} 
 ```
 
+
 ```{asis, echo = (language == "EN")}
-# Malignant Tumors of the Pancreas {#sec-tumors-of-pancreas} 
+# Tumors of the Pancreas {#sec-tumors-of-pancreas} 
+```
+
+
+
+{{< include ./_subchapters/_pancreas-solid-pseudopapillary.qmd >}}
+
+
+
+```{asis, echo = (language == "TR")}
+# Pankreas Malign Tümörleri {#sec-malign-pankreas-tumorleri} 
+```
+
+
+```{asis, echo = (language == "EN")}
+# Malignant Tumors of the Pancreas {#sec-malignant-tumors-of-pancreas} 
 ```
 
 
