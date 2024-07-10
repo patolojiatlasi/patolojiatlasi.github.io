@@ -75,24 +75,24 @@ if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary-HE1_qrcode.svg")) {
 
 
 
-```{r pancreas-solid-pseudopapillary screenshot  HE2, eval=TRUE, include=FALSE}
-if (!file.exists("./screenshots/thumbnail_pancreas-solid-pseudopapillary- HE2.png")) {
+```{r pancreas-solid-pseudopapillary screenshot HE2, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_pancreas-solid-pseudopapillary-HE2.png")) {
 webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE2.html",
-  file = "./screenshots/thumbnail_pancreas-solid-pseudopapillary- HE2.png"
+  url = "https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE2.html",
+  file = "./screenshots/thumbnail_pancreas-solid-pseudopapillary-HE2.png"
 )
 }
 ```
 
 
 
-```{r pancreas-solid-pseudopapillary qrcode  HE2, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary- HE2_qrcode.svg")) {
+```{r pancreas-solid-pseudopapillary qrcode HE2, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary-HE2_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE2.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE2.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/pancreas-solid-pseudopapillary- HE2_qrcode.svg",
+                       filename = "./qrcodes/pancreas-solid-pseudopapillary-HE2_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -104,24 +104,24 @@ if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary- HE2_qrcode.svg")) {
 
 
 
-```{r pancreas-solid-pseudopapillary screenshot  HE3, eval=TRUE, include=FALSE}
-if (!file.exists("./screenshots/thumbnail_pancreas-solid-pseudopapillary- HE3.png")) {
+```{r pancreas-solid-pseudopapillary screenshot HE3, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_pancreas-solid-pseudopapillary-HE3.png")) {
 webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE3.html",
-  file = "./screenshots/thumbnail_pancreas-solid-pseudopapillary- HE3.png"
+  url = "https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE3.html",
+  file = "./screenshots/thumbnail_pancreas-solid-pseudopapillary-HE3.png"
 )
 }
 ```
 
 
 
-```{r pancreas-solid-pseudopapillary qrcode  HE3, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary- HE3_qrcode.svg")) {
+```{r pancreas-solid-pseudopapillary qrcode HE3, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary-HE3_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE3.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE3.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/pancreas-solid-pseudopapillary- HE3_qrcode.svg",
+                       filename = "./qrcodes/pancreas-solid-pseudopapillary-HE3_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -133,24 +133,24 @@ if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary- HE3_qrcode.svg")) {
 
 
 
-```{r pancreas-solid-pseudopapillary screenshot  HE4, eval=TRUE, include=FALSE}
-if (!file.exists("./screenshots/thumbnail_pancreas-solid-pseudopapillary- HE4.png")) {
+```{r pancreas-solid-pseudopapillary screenshot HE4, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_pancreas-solid-pseudopapillary-HE4.png")) {
 webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE4.html",
-  file = "./screenshots/thumbnail_pancreas-solid-pseudopapillary- HE4.png"
+  url = "https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE4.html",
+  file = "./screenshots/thumbnail_pancreas-solid-pseudopapillary-HE4.png"
 )
 }
 ```
 
 
 
-```{r pancreas-solid-pseudopapillary qrcode  HE4, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary- HE4_qrcode.svg")) {
+```{r pancreas-solid-pseudopapillary qrcode HE4, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary-HE4_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE4.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE4.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/pancreas-solid-pseudopapillary- HE4_qrcode.svg",
+                       filename = "./qrcodes/pancreas-solid-pseudopapillary-HE4_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -162,24 +162,24 @@ if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary- HE4_qrcode.svg")) {
 
 
 
-```{r pancreas-solid-pseudopapillary screenshot  syn, eval=TRUE, include=FALSE}
-if (!file.exists("./screenshots/thumbnail_pancreas-solid-pseudopapillary- syn.png")) {
+```{r pancreas-solid-pseudopapillary screenshot syn, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_pancreas-solid-pseudopapillary-syn.png")) {
 webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ syn.html",
-  file = "./screenshots/thumbnail_pancreas-solid-pseudopapillary- syn.png"
+  url = "https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/syn.html",
+  file = "./screenshots/thumbnail_pancreas-solid-pseudopapillary-syn.png"
 )
 }
 ```
 
 
 
-```{r pancreas-solid-pseudopapillary qrcode  syn, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary- syn_qrcode.svg")) {
+```{r pancreas-solid-pseudopapillary qrcode syn, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary-syn_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ syn.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/syn.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/pancreas-solid-pseudopapillary- syn_qrcode.svg",
+                       filename = "./qrcodes/pancreas-solid-pseudopapillary-syn_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -191,24 +191,24 @@ if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary- syn_qrcode.svg")) {
 
 
 
-```{r pancreas-solid-pseudopapillary screenshot  betacatenine, eval=TRUE, include=FALSE}
-if (!file.exists("./screenshots/thumbnail_pancreas-solid-pseudopapillary- betacatenine.png")) {
+```{r pancreas-solid-pseudopapillary screenshot betacatenine, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_pancreas-solid-pseudopapillary-betacatenine.png")) {
 webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ betacatenine.html",
-  file = "./screenshots/thumbnail_pancreas-solid-pseudopapillary- betacatenine.png"
+  url = "https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/betacatenine.html",
+  file = "./screenshots/thumbnail_pancreas-solid-pseudopapillary-betacatenine.png"
 )
 }
 ```
 
 
 
-```{r pancreas-solid-pseudopapillary qrcode  betacatenine, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
-if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary- betacatenine_qrcode.svg")) {
+```{r pancreas-solid-pseudopapillary qrcode betacatenine, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary-betacatenine_qrcode.svg")) {
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ betacatenine.html")
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/betacatenine.html")
 
   qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/pancreas-solid-pseudopapillary- betacatenine_qrcode.svg",
+                       filename = "./qrcodes/pancreas-solid-pseudopapillary-betacatenine_qrcode.svg",
                        show = FALSE)
 }
 ```
@@ -306,7 +306,7 @@ if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary- betacatenine_qrcode.
 **Pankreas Solid Psödopapiller Neoplazm**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_pancreas-solid-pseudopapillary- HE2.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE2.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_pancreas-solid-pseudopapillary-HE2.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE2.html)
 
 ```
 
@@ -319,7 +319,7 @@ if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary- betacatenine_qrcode.
 
 **Pankreas Solid Psödopapiller Neoplazm**
 
-![](./qrcodes/pancreas-solid-pseudopapillary- HE2_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_pancreas-solid-pseudopapillary- HE2.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE2.html)
+![](./qrcodes/pancreas-solid-pseudopapillary-HE2_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_pancreas-solid-pseudopapillary-HE2.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE2.html)
 
 ```
 
@@ -337,7 +337,7 @@ if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary- betacatenine_qrcode.
 
 **Pancreas Solid Pseudopapillary Neoplasm**
 
-[![Click for Full Screen WSI](./screenshots/thumbnail_pancreas-solid-pseudopapillary- HE2.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE2.html)
+[![Click for Full Screen WSI](./screenshots/thumbnail_pancreas-solid-pseudopapillary-HE2.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE2.html)
 
 ```
 
@@ -350,74 +350,7 @@ if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary- betacatenine_qrcode.
 
 **Pancreas Solid Pseudopapillary Neoplasm**
 
-![](./qrcodes/pancreas-solid-pseudopapillary- HE2_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_pancreas-solid-pseudopapillary- HE2.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE2.html)
-
-```
-
-
-::::
-
-
-
-
-
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-```{asis, echo = (language == "TR")}
-
-**Pankreas Solid Psödopapiller Neoplazm**
-
-
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_pancreas-solid-pseudopapillary- HE3.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE3.html)
-
-```
-
-::::
-
-
-:::: {.content-visible when-format="pdf"}
-
-```{asis, echo = (language == "TR")}
-
-**Pankreas Solid Psödopapiller Neoplazm**
-
-![](./qrcodes/pancreas-solid-pseudopapillary- HE3_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_pancreas-solid-pseudopapillary- HE3.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE3.html)
-
-```
-
-
-
-::::
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-```{asis, echo = (language == "EN")}
-
-**Pancreas Solid Pseudopapillary Neoplasm**
-
-[![Click for Full Screen WSI](./screenshots/thumbnail_pancreas-solid-pseudopapillary- HE3.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE3.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE3.html)
-
-```
-
-::::
-
-
-:::: {.content-visible when-format="pdf"}
-
-```{asis, echo = (language == "EN")}
-
-**Pancreas Solid Pseudopapillary Neoplasm**
-
-![](./qrcodes/pancreas-solid-pseudopapillary- HE3_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_pancreas-solid-pseudopapillary- HE3.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE3.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE3.html)
+![](./qrcodes/pancreas-solid-pseudopapillary-HE2_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_pancreas-solid-pseudopapillary-HE2.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE2.html)
 
 ```
 
@@ -440,7 +373,7 @@ if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary- betacatenine_qrcode.
 **Pankreas Solid Psödopapiller Neoplazm**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_pancreas-solid-pseudopapillary- HE4.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE4.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE4.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_pancreas-solid-pseudopapillary-HE3.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE3.html)
 
 ```
 
@@ -453,7 +386,7 @@ if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary- betacatenine_qrcode.
 
 **Pankreas Solid Psödopapiller Neoplazm**
 
-![](./qrcodes/pancreas-solid-pseudopapillary- HE4_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_pancreas-solid-pseudopapillary- HE4.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE4.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE4.html)
+![](./qrcodes/pancreas-solid-pseudopapillary-HE3_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_pancreas-solid-pseudopapillary-HE3.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE3.html)
 
 ```
 
@@ -471,7 +404,7 @@ if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary- betacatenine_qrcode.
 
 **Pancreas Solid Pseudopapillary Neoplasm**
 
-[![Click for Full Screen WSI](./screenshots/thumbnail_pancreas-solid-pseudopapillary- HE4.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE4.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE4.html)
+[![Click for Full Screen WSI](./screenshots/thumbnail_pancreas-solid-pseudopapillary-HE3.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE3.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE3.html)
 
 ```
 
@@ -484,74 +417,7 @@ if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary- betacatenine_qrcode.
 
 **Pancreas Solid Pseudopapillary Neoplasm**
 
-![](./qrcodes/pancreas-solid-pseudopapillary- HE4_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_pancreas-solid-pseudopapillary- HE4.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE4.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE4.html)
-
-```
-
-
-::::
-
-
-
-
-
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-```{asis, echo = (language == "TR")}
-
-**Pankreas Solid Psödopapiller Neoplazm**
-
-
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_pancreas-solid-pseudopapillary- syn.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ syn.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ syn.html)
-
-```
-
-::::
-
-
-:::: {.content-visible when-format="pdf"}
-
-```{asis, echo = (language == "TR")}
-
-**Pankreas Solid Psödopapiller Neoplazm**
-
-![](./qrcodes/pancreas-solid-pseudopapillary- syn_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_pancreas-solid-pseudopapillary- syn.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ syn.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ syn.html)
-
-```
-
-
-
-::::
-
-
-
-
-:::: {.content-hidden when-format="pdf"}
-
-
-```{asis, echo = (language == "EN")}
-
-**Pancreas Solid Pseudopapillary Neoplasm**
-
-[![Click for Full Screen WSI](./screenshots/thumbnail_pancreas-solid-pseudopapillary- syn.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ syn.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ syn.html)
-
-```
-
-::::
-
-
-:::: {.content-visible when-format="pdf"}
-
-```{asis, echo = (language == "EN")}
-
-**Pancreas Solid Pseudopapillary Neoplasm**
-
-![](./qrcodes/pancreas-solid-pseudopapillary- syn_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_pancreas-solid-pseudopapillary- syn.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ syn.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ syn.html)
+![](./qrcodes/pancreas-solid-pseudopapillary-HE3_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_pancreas-solid-pseudopapillary-HE3.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE3.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE3.html)
 
 ```
 
@@ -574,7 +440,7 @@ if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary- betacatenine_qrcode.
 **Pankreas Solid Psödopapiller Neoplazm**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_pancreas-solid-pseudopapillary- betacatenine.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ betacatenine.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ betacatenine.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_pancreas-solid-pseudopapillary-HE4.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE4.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE4.html)
 
 ```
 
@@ -587,7 +453,7 @@ if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary- betacatenine_qrcode.
 
 **Pankreas Solid Psödopapiller Neoplazm**
 
-![](./qrcodes/pancreas-solid-pseudopapillary- betacatenine_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_pancreas-solid-pseudopapillary- betacatenine.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ betacatenine.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ betacatenine.html)
+![](./qrcodes/pancreas-solid-pseudopapillary-HE4_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_pancreas-solid-pseudopapillary-HE4.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE4.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE4.html)
 
 ```
 
@@ -605,7 +471,7 @@ if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary- betacatenine_qrcode.
 
 **Pancreas Solid Pseudopapillary Neoplasm**
 
-[![Click for Full Screen WSI](./screenshots/thumbnail_pancreas-solid-pseudopapillary- betacatenine.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ betacatenine.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ betacatenine.html)
+[![Click for Full Screen WSI](./screenshots/thumbnail_pancreas-solid-pseudopapillary-HE4.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE4.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE4.html)
 
 ```
 
@@ -618,7 +484,141 @@ if (!file.exists("./qrcodes/pancreas-solid-pseudopapillary- betacatenine_qrcode.
 
 **Pancreas Solid Pseudopapillary Neoplasm**
 
-![](./qrcodes/pancreas-solid-pseudopapillary- betacatenine_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_pancreas-solid-pseudopapillary- betacatenine.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ betacatenine.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ betacatenine.html)
+![](./qrcodes/pancreas-solid-pseudopapillary-HE4_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_pancreas-solid-pseudopapillary-HE4.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE4.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE4.html)
+
+```
+
+
+::::
+
+
+
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**Pankreas Solid Psödopapiller Neoplazm**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_pancreas-solid-pseudopapillary-syn.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/syn.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/syn.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "TR")}
+
+**Pankreas Solid Psödopapiller Neoplazm**
+
+![](./qrcodes/pancreas-solid-pseudopapillary-syn_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_pancreas-solid-pseudopapillary-syn.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/syn.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/syn.html)
+
+```
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Pancreas Solid Pseudopapillary Neoplasm**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_pancreas-solid-pseudopapillary-syn.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/syn.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/syn.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "EN")}
+
+**Pancreas Solid Pseudopapillary Neoplasm**
+
+![](./qrcodes/pancreas-solid-pseudopapillary-syn_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_pancreas-solid-pseudopapillary-syn.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/syn.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/syn.html)
+
+```
+
+
+::::
+
+
+
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**Pankreas Solid Psödopapiller Neoplazm**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_pancreas-solid-pseudopapillary-betacatenine.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/betacatenine.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/betacatenine.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "TR")}
+
+**Pankreas Solid Psödopapiller Neoplazm**
+
+![](./qrcodes/pancreas-solid-pseudopapillary-betacatenine_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_pancreas-solid-pseudopapillary-betacatenine.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/betacatenine.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/betacatenine.html)
+
+```
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Pancreas Solid Pseudopapillary Neoplasm**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_pancreas-solid-pseudopapillary-betacatenine.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/betacatenine.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/betacatenine.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "EN")}
+
+**Pancreas Solid Pseudopapillary Neoplasm**
+
+![](./qrcodes/pancreas-solid-pseudopapillary-betacatenine_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_pancreas-solid-pseudopapillary-betacatenine.png){width="25%"}](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/betacatenine.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/betacatenine.html)
 
 ```
 
@@ -668,7 +668,7 @@ See Microscopy with viewer:
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -680,7 +680,7 @@ Mikroskopik görüntüleri inceleyin:
 
 See Microscopy with viewer:
 
-<iframe src="https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -693,7 +693,7 @@ See Microscopy with viewer:
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE3.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE3.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -705,7 +705,7 @@ Mikroskopik görüntüleri inceleyin:
 
 See Microscopy with viewer:
 
-<iframe src="https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE3.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE3.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -718,7 +718,7 @@ See Microscopy with viewer:
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE4.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE4.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -730,7 +730,7 @@ Mikroskopik görüntüleri inceleyin:
 
 See Microscopy with viewer:
 
-<iframe src="https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ HE4.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE4.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -743,7 +743,7 @@ See Microscopy with viewer:
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ syn.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/syn.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -755,7 +755,7 @@ Mikroskopik görüntüleri inceleyin:
 
 See Microscopy with viewer:
 
-<iframe src="https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ syn.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/syn.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -768,7 +768,7 @@ See Microscopy with viewer:
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ betacatenine.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/betacatenine.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -780,7 +780,7 @@ Mikroskopik görüntüleri inceleyin:
 
 See Microscopy with viewer:
 
-<iframe src="https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/ betacatenine.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/betacatenine.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
