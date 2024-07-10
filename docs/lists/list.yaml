@@ -1284,57 +1284,61 @@
   youtube: ''
 - stainname: lymphocytic-gastritis-all
   reponame: lymphocytic-gastritis
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
+  titleTR: Lenfositik Gastrit
+  titleEN: Lymphocytic Gastritis
+  organTR: mide
+  organEN: stomach
   speciality: gastrointestinal
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
   date: '2024-02-18'
   url: https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html
-  note: ''
+  note: Lymphocytic gastritis
   categoriesTR:
+  - mide
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
+  - stomach
   - pathology
   - atlas
   - histopathology
   - whole slide image
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-all.png
-  githubrepo: ''
-  githubpage: ''
+  githubrepo: https://github.com/pathologyatlas/lymphocytic-gastritis
+  githubpage: https://pathologyatlas.github.io/lymphocytic-gastritis
   youtube: ''
 - stainname: lymphocytic-gastritis-HE
   reponame: lymphocytic-gastritis
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
+  titleTR: Lendfositik Gastrit
+  titleEN: Lymphocytic Gastritis
+  organTR: mide
+  organEN: stomach
   speciality: gasrointestinal
-  type: unpublished
+  type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
   date: '2024-03-02'
   url: https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html
-  note: ''
+  note: Lympocytic gastritis
   categoriesTR:
+  - mide
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
+  - stomach
   - pathology
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-HE.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/lymphocytic-gastritisHE_screenshot.png
   githubrepo: https://github.com/pathologyatlas/lymphocytic-gastritis
   githubpage: https://pathologyatlas.github.io/lymphocytic-gastritis
   youtube: ''
@@ -1362,7 +1366,7 @@
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-CD3.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/lymphocytic-gastritisCD3_screenshot.png
   githubrepo: ''
   githubpage: ''
   youtube: ''
@@ -1390,7 +1394,7 @@
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-CD8.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/lymphocytic-gastritisCD8_screenshot.png
   githubrepo: ''
   githubpage: ''
   youtube: ''
@@ -1418,7 +1422,7 @@
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_lymphocytic-gastritis-CD20.png
+  screenshot: https://www.patolojiatlasi.com/screenshots/lymphocytic-gastritisCD20_screenshot.png
   githubrepo: ''
   githubpage: ''
   youtube: ''
@@ -4774,6 +4778,39 @@
   githubrepo: https://github.com/pathologyatlas/CSF-metastasis
   githubpage: https://pathologyatlas.github.io/CSF-metastasis
   youtube: ''
+- stainname: duodenum-tubular-adenoma-HE
+  reponame: duodenum-tubular-adenoma
+  titleTR: duodenum tübüler adenom
+  titleEN: duodenum tubular adenoma
+  organTR: duodenum
+  organEN: duodenum
+  speciality: gastrointestinal
+  type: published
+  author:
+  - Serdar Balci
+  - Gülgün Koçak
+  - Memorial Patoloji
+  date: '2024-07-08'
+  url: https://images.patolojiatlasi.com/duodenum-tubular-adenoma/HE.html
+  note: Tubular adenoma in Duodenum
+  categoriesTR:
+  - duodenum
+  - tübüler adenom
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - duodenum
+  - tubular adenoma
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_duodenum-tubular-adenoma-HE.png
+  github: https:///github.com/pathologyatlas/duodenum-tubular-adenoma
+  githubpage: https://pathologyatlas.github.io/duodenum-tubular-adenoma
+  youtube: ''
 - stainname: ectopic-pancreas-HE
   reponame: ectopic-pancreas
   titleTR: ''
@@ -6403,6 +6440,224 @@
   githubrepo: https://github.com/pathologyatlas/PDAC
   githubpage: https://pathologyatlas.github.io/PDAC
   youtube: ''
+- stainname: pancreas-solid-pseudopapillary-HE1
+  reponame: pancreas-solid-pseudopapillary
+  titleTR: Pankreas Solid Psödopapiller Neoplazm
+  titleEN: Pancreas Solid Pseudopapillary Neoplasm
+  organTR: pankreas
+  organEN: pancreas
+  speciality: pancreatobiliary
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-07-09'
+  url: https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE1.html
+  note: Solid pseudopapillary neoplasm of pancreas
+  categoriesTR:
+  - pankreas
+  - solid psödopapiller neoplazm
+  - tümör
+  - benign
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - pancreas
+  - solid pseudopapillary neoplasm
+  - tumor
+  - benign
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_pancreas-solid-pseudopapillary-HE1.png
+  github: https:///github.com/pathologyatlas/pancreas-solid-pseudopapillary
+  githubpage: https://pathologyatlas.github.io/pancreas-solid-pseudopapillary
+  youtube: ''
+- stainname: pancreas-solid-pseudopapillary-HE2
+  reponame: pancreas-solid-pseudopapillary
+  titleTR: Pankreas Solid Psödopapiller Neoplazm
+  titleEN: Pancreas Solid Pseudopapillary Neoplasm
+  organTR: pankreas
+  organEN: pancreas
+  speciality: pancreatobiliary
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-07-09'
+  url: https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE2.html
+  note: Solid pseudopapillary neoplasm of pancreas
+  categoriesTR:
+  - pankreas
+  - solid psödopapiller neoplazm
+  - tümör
+  - benign
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - pancreas
+  - solid pseudopapillary neoplasm
+  - tumor
+  - benign
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_pancreas-solid-pseudopapillary-HE2.png
+  github: https:///github.com/pathologyatlas/pancreas-solid-pseudopapillary
+  githubpage: https://pathologyatlas.github.io/pancreas-solid-pseudopapillary
+  youtube: ''
+- stainname: pancreas-solid-pseudopapillary-HE3
+  reponame: pancreas-solid-pseudopapillary
+  titleTR: Pankreas Solid Psödopapiller Neoplazm
+  titleEN: Pancreas Solid Pseudopapillary Neoplasm
+  organTR: pankreas
+  organEN: pancreas
+  speciality: pancreatobiliary
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-07-09'
+  url: https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE3.html
+  note: Solid pseudopapillary neoplasm of pancreas
+  categoriesTR:
+  - pankreas
+  - solid psödopapiller neoplazm
+  - tümör
+  - benign
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - pancreas
+  - solid pseudopapillary neoplasm
+  - tumor
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_pancreas-solid-pseudopapillary-HE3.png
+  github: https:///github.com/pathologyatlas/pancreas-solid-pseudopapillary
+  githubpage: https://pathologyatlas.github.io/pancreas-solid-pseudopapillary
+  youtube: ''
+- stainname: pancreas-solid-pseudopapillary-HE4
+  reponame: pancreas-solid-pseudopapillary
+  titleTR: Pankreas Solid Psödopapiller Neoplazm
+  titleEN: Pancreas Solid Pseudopapillary Neoplasm
+  organTR: pankreas
+  organEN: pancreas
+  speciality: pancreatobiliary
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-07-09'
+  url: https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE4.html
+  note: Solid pseudopapillary neoplasm of pancreas
+  categoriesTR:
+  - pankreas
+  - solid psödopapiller neoplazm
+  - tümör
+  - benign
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - pancreas
+  - solid pseudopapillary neoplasm
+  - tumor
+  - benign
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_pancreas-solid-pseudopapillary-HE4.png
+  github: https:///github.com/pathologyatlas/pancreas-solid-pseudopapillary
+  githubpage: https://pathologyatlas.github.io/pancreas-solid-pseudopapillary
+  youtube: ''
+- stainname: pancreas-solid-pseudopapillary-syn
+  reponame: pancreas-solid-pseudopapillary
+  titleTR: Pankreas Solid Psödopapiller Neoplazm
+  titleEN: Pancreas Solid Pseudopapillary Neoplasm
+  organTR: pankreas
+  organEN: pancreas
+  speciality: pancreatobiliary
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-07-09'
+  url: https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/syn.html
+  note: Solid pseudopapillary neoplasm of pancreas
+  categoriesTR:
+  - pankreas
+  - solid psödopapiller neoplazm
+  - tümör
+  - immünohistokimya
+  - benign
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - pancreas
+  - solid pseudopapillary neoplasm
+  - tumor
+  - immunohistochemistry
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_pancreas-solid-pseudopapillary-syn.png
+  github: https:///github.com/pathologyatlas/pancreas-solid-pseudopapillary
+  githubpage: https://pathologyatlas.github.io/pancreas-solid-pseudopapillary
+  youtube: ''
+- stainname: pancreas-solid-pseudopapillary-betacatenine
+  reponame: pancreas-solid-pseudopapillary
+  titleTR: Pankreas Solid Psödopapiller Neoplazm
+  titleEN: Pancreas Solid Pseudopapillary Neoplasm
+  organTR: pankreas
+  organEN: pancreas
+  speciality: pancreatobiliary
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-07-09'
+  url: https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/betacatenine.html
+  note: Solid pseudopapillary neoplasm of pancreas
+  categoriesTR:
+  - pankreas
+  - solid psödopapiller neoplazm
+  - tümör
+  - immünohistokimya
+  - benign
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  categoriesEN:
+  - pancreas
+  - solid pseudopapillary neoplasm
+  - tumor
+  - immunohistochemistry
+  - benign
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_pancreas-solid-pseudopapillary-betacatenine.png
+  github: https:///github.com/pathologyatlas/pancreas-solid-pseudopapillary
+  githubpage: https://pathologyatlas.github.io/pancreas-solid-pseudopapillary
+  youtube: ''
 - stainname: parasite-HE
   reponame: parasite
   titleTR: ''
@@ -6680,7 +6935,6 @@
   - nöropatoloji
   - meninks
   - patoloji
-  - HE
   - atlas
   - histopatoloji
   - whole slide image
@@ -6689,7 +6943,6 @@
   - neuropathology
   - meninges
   - pathology
-  - HE
   - atlas
   - histopathology
   - whole slide image
@@ -6715,7 +6968,6 @@
   - sekretuar meningiom
   - nöropatoloji
   - meninks
-  - HE
   - patoloji
   - atlas
   - histopatoloji
@@ -6724,7 +6976,6 @@
   - secretory meningioma
   - neuropathology
   - meninges
-  - HE
   - pathology
   - atlas
   - histopathology
