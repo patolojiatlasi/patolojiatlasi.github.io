@@ -1,0 +1,15 @@
+{
+  "hash": "a263b2ddbafe7657cb072357a73532d8",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ndescription: |\n    Deri, Skin, patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [deri, skin]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# Deri {#sec-deri}\n:::\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n## Morfea {#sec-morphea }\n:::\n\n::: {.cell}\n\n:::\n\n\n\n\n\n\n\n\n\n\n\n\n\n::::: panel-tabset\n\n\n### WSI - Link\n\n\n\n\n\n\n\n\n:::: {.content-hidden when-format=\"pdf\"}\n\n\n\n\n::: {.cell}\n\n**Morfea**\n\n\n[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_morphea-HE.png){width=\"25%\"}](https://images.patolojiatlasi.com/morphea/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/morphea/HE.html)\n:::\n\n\n\n::::\n\n\n:::: {.content-visible when-format=\"pdf\"}\n\n\n\n::: {.cell}\n\n**Morfea**\n\n![](./qrcodes/morphea-HE_qrcode.svg){width=\"15%\"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_morphea-HE.png){width=\"25%\"}](https://images.patolojiatlasi.com/morphea/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/morphea/HE.html)\n:::\n\n\n\n\n\n::::\n\n\n\n\n:::: {.content-hidden when-format=\"pdf\"}\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n::::\n\n\n:::: {.content-visible when-format=\"pdf\"}\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n::::\n\n\n\n\n\n\n\n### WSI\n\n\n\n\n\n\n\n\n\n\n::: {.cell}\nMikroskopik görüntüleri inceleyin:\n\n<iframe src=\"https://images.patolojiatlasi.com/morphea/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n::: {.cell}\n\n:::\n\n\n\n\n\n\n\n\n:::::\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

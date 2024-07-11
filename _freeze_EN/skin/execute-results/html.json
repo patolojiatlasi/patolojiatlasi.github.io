@@ -1,0 +1,17 @@
+{
+  "hash": "89c660a1d23907ef9cb9ba0ac9aba129",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ndescription: |\n    Deri, Skin, patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [deri, skin]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# Skin {#sec-skin}\n:::\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n## Morphea {#sec-morphea }\n:::\n\n\n\n\n\n\n\n\n\n\n\n\n\n::::: panel-tabset\n\n\n### WSI - Link\n\n\n\n\n\n\n\n\n:::: {.content-hidden when-format=\"pdf\"}\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n::::\n\n\n:::: {.content-visible when-format=\"pdf\"}\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n::::\n\n\n\n\n:::: {.content-hidden when-format=\"pdf\"}\n\n\n\n\n::: {.cell}\n\n**Morphea**\n\n[![Click for Full Screen WSI](./screenshots/thumbnail_morphea-HE.png){width=\"25%\"}](https://images.patolojiatlasi.com/morphea/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/morphea/HE.html)\n:::\n\n\n\n::::\n\n\n:::: {.content-visible when-format=\"pdf\"}\n\n\n\n::: {.cell}\n\n**Morphea**\n\n![](./qrcodes/morphea-HE_qrcode.svg){width=\"15%\"} [![Click for Full Screen WSI](./screenshots/thumbnail_morphea-HE.png){width=\"25%\"}](https://images.patolojiatlasi.com/morphea/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/morphea/HE.html)\n:::\n\n\n\n\n::::\n\n\n\n\n\n\n\n### WSI\n\n\n\n\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\nSee Microscopy with viewer:\n\n<iframe src=\"https://images.patolojiatlasi.com/morphea/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"></iframe>\n:::\n\n\n\n\n\n\n\n\n:::::\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "supporting": [
+      "skin_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

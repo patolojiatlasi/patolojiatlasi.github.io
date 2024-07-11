@@ -860,6 +860,26 @@ const specimensData = [
     "youtube": ""
   },
   {
+    "stainname": "morphea-HE",
+    "reponame": "morphea",
+    "titleTR": "Morfea",
+    "titleEN": "Morphea",
+    "organTR": "deri",
+    "organEN": "skin",
+    "speciality": "dermatopatoloji",
+    "type": "published",
+    "author": ["Serdar Balci", "Memorial Patoloji"],
+    "date": "2024-07-11",
+    "url": "https://images.patolojiatlasi.com/morphea/HE.html",
+    "note": "",
+    "categoriesTR": ["deri", "benign", "patoloji", "atlas", "histopatoloji", "whole slide image"],
+    "categoriesEN": ["skin", "benign", "pathology", "atlas", "histopathology", "whole slide image"],
+    "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_morphea-HE.png",
+    "github": "https:///github.com/pathologyatlas/morphea",
+    "githubpage": "https://pathologyatlas.github.io/morphea",
+    "youtube": ""
+  },
+  {
     "stainname": "pancreas-solid-pseudopapillary-HE1",
     "reponame": "pancreas-solid-pseudopapillary",
     "titleTR": "Pankreas Solid Psödopapiller Neoplazm",
