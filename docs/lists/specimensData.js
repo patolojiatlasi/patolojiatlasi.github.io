@@ -980,6 +980,26 @@ const specimensData = [
     "youtube": ""
   },
   {
+    "stainname": "rokitansky-aschoff-sinus-HE",
+    "reponame": "rokitansky-aschoff-sinus",
+    "titleTR": "Safra Kesesi Rokitansky-Aschoff Sinus",
+    "titleEN": "Gallbladder Rokitansky-Aschoff Sinus",
+    "organTR": "safra kesesi",
+    "organEN": "gallbladder",
+    "speciality": "pancreatobiliary",
+    "type": "published",
+    "author": ["Serdar Balci", "Memorial Patoloji"],
+    "date": "2024-07-11",
+    "url": "https://images.patolojiatlasi.com/rokitansky-aschoff-sinus/HE.html",
+    "note": "Rokitansky-Aschoff Sinus",
+    "categoriesTR": ["safra kesesi", "benign", "patoloji", "atlas", "histopatoloji", "whole slide image"],
+    "categoriesEN": ["gallbladder", "benign", "pathology", "atlas", "histopathology", "whole slide image"],
+    "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_rokitansky-aschoff-sinus-HE.png",
+    "github": "https:///github.com/pathologyatlas/rokitansky-aschoff-sinus",
+    "githubpage": "https://pathologyatlas.github.io/rokitansky-aschoff-sinus",
+    "youtube": ""
+  },
+  {
     "stainname": "exostosis-HE",
     "reponame": "exostosis",
     "titleTR": "Eksostoz",
