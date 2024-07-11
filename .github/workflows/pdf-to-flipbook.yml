@@ -2,8 +2,8 @@ name: Convert PDF to HTML5 Flipbook
 
 on:
   workflow_dispatch:  # Allow manual trigger
-  schedule:
-    - cron: '0 0 * * *'  # Run daily at midnight UTC
+  # schedule:
+  #   - cron: '0 0 * * *'  # Run daily at midnight UTC
 
 jobs:
   convert-to-flipbook:
