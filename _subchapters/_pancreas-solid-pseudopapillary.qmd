@@ -1,18 +1,4 @@
 
-
-
-
-## pancreas-solid-pseudopapillary
-
-
-**pancreas-solid-pseudopapillary for pathology atlas repositories**
-
-
-
-
-
-
-
 ```{comment}
 ---
 description: |
@@ -33,12 +19,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis Pankreas Solid Psödopapiller Neoplazm TR , echo = (language == "TR")}
-## pancreas-solid-pseudopapillary - Pankreas Solid Psödopapiller Neoplazm {#sec-pancreas-solid-pseudopapillary }
+## Pankreas Solid Psödopapiller Neoplazm {#sec-pancreas-solid-pseudopapillary }
 ```
 
 
 ```{asis Pancreas Solid Pseudopapillary Neoplasm EN , echo = (language == "EN")}
-## pancreas-solid-pseudopapillary - Pancreas Solid Pseudopapillary Neoplasm {#sec-pancreas-solid-pseudopapillary }
+## Pancreas Solid Pseudopapillary Neoplasm {#sec-pancreas-solid-pseudopapillary }
 ```
 
 
