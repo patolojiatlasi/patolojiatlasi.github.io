@@ -23,10 +23,10 @@ jobs:
 
     - name: Generate Flipbook
       run: |
-        mkdir flipbook
+        mkdir -p flipbook
         cp -R docs/* flipbook/
         
-        cat << EOF > flipbook/flipbook.html
+        cat << EOF > flipbook/index.html
         <!DOCTYPE html>
         <html lang="en">
         <head>
@@ -78,11 +78,13 @@ jobs:
         EOF
 
         # Create a manifest of HTML files
-        find flipbook -name "*.html" ! -name "flipbook.html" | sed 's|flipbook/||' | jq -R -s 'split("\n")[:-1] | {pages: .}' > flipbook/manifest.json
+        find flipbook -name "*.html" ! -name "index.html" | sed 's|flipbook/||' | jq -R -s 'split("\n")[:-1] | {pages: .}' > flipbook/manifest.json
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./flipbook
-        keep_files: true
+    - name: Commit flipbook to repository
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add flipbook
+        git commit -m "Update flipbook" -a || echo "No changes to commit"
+        git push
+        
