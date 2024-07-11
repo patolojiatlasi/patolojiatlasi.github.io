@@ -36,7 +36,7 @@ jobs:
           curl -O https://raw.githubusercontent.com/blasten/turn.js/master/turn.min.js
 
 
-- name: Create flipbook HTML
+      - name: Create flipbook HTML
         run: |
           cd flipbookpdf
           cat > "flipbook.html" <<EOL
