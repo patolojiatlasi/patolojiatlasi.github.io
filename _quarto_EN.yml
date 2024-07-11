@@ -268,6 +268,10 @@ book:
       chapters:
         - text: "Adipose Tissue"
           href: adipose.qmd
+    - part: "Skin"
+      chapters:
+        - text: "Skin Diseases"
+          href: skin.qmd
     - part: "Pediatric and Perinatal"
       chapters:
         - text: "Placenta"

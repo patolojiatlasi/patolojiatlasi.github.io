@@ -284,6 +284,10 @@ book:
       chapters:
         - text: "Adipöz Doku Patolojisi"
           href: adipoz.qmd
+    - part: "Deri Patolojisi"
+      chapters:
+        - text: "Deri Hastalıkları"
+          href: deri.qmd
     - part: "Pediatrik ve Perinatal Patoloji"
       chapters:
         - plasenta.qmd

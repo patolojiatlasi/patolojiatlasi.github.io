@@ -1,0 +1,32 @@
+---
+description: |
+    Deri, Skin, patoloji, atlas, pathology, whole slide image
+date: last-modified
+categories: [deri, skin]
+page-layout: full
+bibliography: references.bib
+---
+
+```{r language deri, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+
+
+```{asis, echo = (language == "TR")}
+# Deri {#sec-deri}
+```
+
+```{asis, echo = (language == "EN")}
+# Skin {#sec-skin}
+```
+
+
+
+{{< include ./_subchapters/_morphea.qmd >}}
+
+
+
+
