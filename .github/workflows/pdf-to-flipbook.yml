@@ -35,40 +35,69 @@ jobs:
           cd flipbookpdf
           curl -O https://raw.githubusercontent.com/blasten/turn.js/master/turn.min.js
 
-      - name: Create flipbook HTML
+
+- name: Create flipbook HTML
         run: |
           cd flipbookpdf
           cat > "flipbook.html" <<EOL
           <!DOCTYPE html>
-          <html>
+          <html lang="en">
           <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Patoloji Atlasi Flipbook</title>
             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
             <script src="turn.min.js"></script>
             <script src="pdfjs/build/pdf.js"></script>
             <style>
-              #flipbook { width: 100%; height: 100vh; }
-              #flipbook .page { background-color: white; }
-              body, html { margin: 0; padding: 0; overflow: hidden; }
-              .page canvas { width: 100%; height: 100%; }
+              body, html { 
+                margin: 0; 
+                padding: 0; 
+                overflow: hidden; 
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              #flipbook { 
+                width: 90vw; 
+                height: 90vh; 
+              }
+              #flipbook .page { 
+                background-color: white;
+              }
+              .page canvas { 
+                width: 100%; 
+                height: 100%; 
+              }
             </style>
           </head>
           <body>
             <div id="flipbook"></div>
             <script>
+              // Ensure PDF.js worker is available
+              pdfjsLib.GlobalWorkerOptions.workerSrc = 'pdfjs/build/pdf.worker.js';
+
               // Load the PDF document
               pdfjsLib.getDocument('Patoloji-Atlasi.pdf').promise.then(function(pdf) {
                 var numPages = pdf.numPages;
                 var flipbook = document.getElementById('flipbook');
 
-                // Load each page
+                // Create promises for each page
+                var pagePromises = [];
                 for (var i = 1; i <= numPages; i++) {
-                  var pageDiv = document.createElement('div');
-                  pageDiv.className = 'page';
-                  flipbook.appendChild(pageDiv);
+                  pagePromises.push(pdf.getPage(i));
+                }
 
-                  pdf.getPage(i).then(function(page) {
+                // Render all pages
+                Promise.all(pagePromises).then(function(pages) {
+                  pages.forEach(function(page) {
                     var scale = 1.5;
                     var viewport = page.getViewport({scale: scale});
+
+                    var pageDiv = document.createElement('div');
+                    pageDiv.className = 'page';
+                    flipbook.appendChild(pageDiv);
 
                     var canvas = document.createElement('canvas');
                     var context = canvas.getContext('2d');
@@ -83,31 +112,36 @@ jobs:
                     page.render(renderContext);
                     pageDiv.appendChild(canvas);
                   });
-                }
 
-                // Initialize turn.js
-                $(document).ready(function() {
-                  $("#flipbook").turn({
-                    width: $(window).width(),
-                    height: $(window).height(),
-                    autoCenter: true,
-                    when: {
-                      turning: function(event, page, view) {
-                        if (page == 1) {
-                          event.preventDefault();
+                  // Initialize turn.js after all pages are rendered
+                  $(document).ready(function() {
+                    $("#flipbook").turn({
+                      width: $("#flipbook").width(),
+                      height: $("#flipbook").height(),
+                      autoCenter: true,
+                      when: {
+                        turning: function(event, page, view) {
+                          if (page == 1) {
+                            event.preventDefault();
+                          }
                         }
                       }
-                    }
-                  });
-                  $(window).resize(function() {
-                    $("#flipbook").turn("size", $(window).width(), $(window).height());
+                    });
                   });
                 });
+              }).catch(function(error) {
+                console.error('Error loading PDF:', error);
+              });
+
+              // Resize handler
+              $(window).resize(function() {
+                $("#flipbook").turn("size", $("#flipbook").width(), $("#flipbook").height());
               });
             </script>
           </body>
           </html>
           EOL
+
 
       - name: Commit and push changes
         run: |
