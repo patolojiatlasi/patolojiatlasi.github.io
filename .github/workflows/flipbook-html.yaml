@@ -1,8 +1,8 @@
 name: Generate Flipbook
 
 on:
-  push:
-    branches: [ main ]
+#   push:
+#     branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -87,4 +87,3 @@ jobs:
         git add flipbook
         git commit -m "Update flipbook" -a || echo "No changes to commit"
         git push
-        
