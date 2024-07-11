@@ -1,100 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Patoloji Atlasi Flipbook</title>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="turn.min.js"></script>
-  <script src="pdfjs/build/pdf.js"></script>
-  <style>
-    body, html { 
-      margin: 0; 
-      padding: 0; 
-      overflow: hidden; 
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    #flipbook { 
-      width: 90vw; 
-      height: 90vh; 
-    }
-    #flipbook .page { 
-      background-color: white;
-    }
-    .page canvas { 
-      width: 100%; 
-      height: 100%; 
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patoloji Atlasi Flipbook</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="turn.min.js"></script>
+    <script src="pdfjs/build/pdf.js"></script>
+    <style>
+        body, html { 
+            margin: 0; 
+            padding: 0; 
+            overflow: hidden; 
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #flipbook { 
+            width: 90vw; 
+            height: 80vh; 
+        }
+        #flipbook .page { 
+            background-color: white;
+        }
+        .page canvas { 
+            width: 100%; 
+            height: 100%; 
+        }
+        #debug {
+            margin-top: 20px;
+            width: 90vw;
+            height: 10vh;
+            overflow: auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-  <div id="flipbook"></div>
-  <script>
-    // Ensure PDF.js worker is available
-    pdfjsLib.GlobalWorkerOptions.workerSrc = 'pdfjs/build/pdf.worker.js';
+    <div id="flipbook"></div>
+    <div id="debug"></div>
+    <script>
+        function log(message) {
+            console.log(message);
+            document.getElementById('debug').innerHTML += message + '<br>';
+        }
 
-    // Load the PDF document
-    pdfjsLib.getDocument('Patoloji-Atlasi.pdf').promise.then(function(pdf) {
-      var numPages = pdf.numPages;
-      var flipbook = document.getElementById('flipbook');
+        log('Script started');
 
-      // Create promises for each page
-      var pagePromises = [];
-      for (var i = 1; i <= numPages; i++) {
-        pagePromises.push(pdf.getPage(i));
-      }
+        // Ensure PDF.js worker is available
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'pdfjs/build/pdf.worker.js';
 
-      // Render all pages
-      Promise.all(pagePromises).then(function(pages) {
-        pages.forEach(function(page) {
-          var scale = 1.5;
-          var viewport = page.getViewport({scale: scale});
+        log('PDF.js worker source set');
 
-          var pageDiv = document.createElement('div');
-          pageDiv.className = 'page';
-          flipbook.appendChild(pageDiv);
+        // Load the PDF document
+        log('Attempting to load PDF');
+        pdfjsLib.getDocument('Patoloji-Atlasi.pdf').promise.then(function(pdf) {
+            log('PDF loaded successfully. Number of pages: ' + pdf.numPages);
+            var numPages = pdf.numPages;
+            var flipbook = document.getElementById('flipbook');
 
-          var canvas = document.createElement('canvas');
-          var context = canvas.getContext('2d');
-          canvas.height = viewport.height;
-          canvas.width = viewport.width;
-
-          var renderContext = {
-            canvasContext: context,
-            viewport: viewport
-          };
-
-          page.render(renderContext);
-          pageDiv.appendChild(canvas);
-        });
-
-        // Initialize turn.js after all pages are rendered
-        .ready(function() {
-          .turn({
-            width: .width(),
-            height: .height(),
-            autoCenter: true,
-            when: {
-              turning: function(event, page, view) {
-                if (page == 1) {
-                  event.preventDefault();
-                }
-              }
+            // Create promises for each page
+            var pagePromises = [];
+            for (var i = 1; i <= numPages; i++) {
+                pagePromises.push(pdf.getPage(i));
             }
-          });
-        });
-      });
-    }).catch(function(error) {
-      console.error('Error loading PDF:', error);
-    });
 
-    // Resize handler
-    .resize(function() {
-      .turn("size", .width(), .height());
-    });
-  </script>
+            log('Created promises for all pages');
+
+            // Render all pages
+            Promise.all(pagePromises).then(function(pages) {
+                log('All pages retrieved successfully');
+                pages.forEach(function(page, index) {
+                    log('Rendering page ' + (index + 1));
+                    var scale = 1.5;
+                    var viewport = page.getViewport({scale: scale});
+
+                    var pageDiv = document.createElement('div');
+                    pageDiv.className = 'page';
+                    flipbook.appendChild(pageDiv);
+
+                    var canvas = document.createElement('canvas');
+                    var context = canvas.getContext('2d');
+                    canvas.height = viewport.height;
+                    canvas.width = viewport.width;
+
+                    var renderContext = {
+                        canvasContext: context,
+                        viewport: viewport
+                    };
+
+                    page.render(renderContext);
+                    pageDiv.appendChild(canvas);
+                });
+
+                log('All pages rendered');
+
+                // Initialize turn.js after all pages are rendered
+                .ready(function() {
+                    log('Initializing turn.js');
+                    .turn({
+                        width: .width(),
+                        height: .height(),
+                        autoCenter: true,
+                        when: {
+                            turning: function(event, page, view) {
+                                if (page == 1) {
+                                    event.preventDefault();
+                                }
+                            }
+                        }
+                    });
+                    log('turn.js initialized');
+                });
+            }).catch(function(error) {
+                log('Error rendering pages: ' + error);
+            });
+        }).catch(function(error) {
+            log('Error loading PDF: ' + error);
+        });
+
+        // Resize handler
+        .resize(function() {
+            .turn("size", .width(), .height());
+        });
+
+        log('Script ended');
+    </script>
 </body>
 </html>
