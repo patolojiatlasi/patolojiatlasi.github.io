@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="turn.min.js"></script>
+  <script src="pdfjs/build/pdf.js"></script>
+  <style>
+    #flipbook { width: 100%; height: 100vh; }
+    #flipbook .page { background-color: white; }
+    body, html { margin: 0; padding: 0; overflow: hidden; }
+    .page canvas { width: 100%; height: 100%; }
+  </style>
+</head>
+<body>
+  <div id="flipbook"></div>
+  <script>
+    // Load the PDF document
+    pdfjsLib.getDocument('Patoloji-Atlasi.pdf').promise.then(function(pdf) {
+      var numPages = pdf.numPages;
+      var flipbook = document.getElementById('flipbook');
+
+      // Load each page
+      for (var i = 1; i <= numPages; i++) {
+        var pageDiv = document.createElement('div');
+        pageDiv.className = 'page';
+        flipbook.appendChild(pageDiv);
+
+        pdf.getPage(i).then(function(page) {
+          var scale = 1.5;
+          var viewport = page.getViewport({scale: scale});
+
+          var canvas = document.createElement('canvas');
+          var context = canvas.getContext('2d');
+          canvas.height = viewport.height;
+          canvas.width = viewport.width;
+
+          var renderContext = {
+            canvasContext: context,
+            viewport: viewport
+          };
+
+          page.render(renderContext);
+          pageDiv.appendChild(canvas);
+        });
+      }
+
+      // Initialize turn.js
+      .ready(function() {
+        .turn({
+          width: .width(),
+          height: .height(),
+          autoCenter: true,
+          when: {
+            turning: function(event, page, view) {
+              if (page == 1) {
+                event.preventDefault();
+              }
+            }
+          }
+        });
+        .resize(function() {
+          .turn("size", .width(), .height());
+        });
+      });
+    });
+  </script>
+</body>
+</html>
