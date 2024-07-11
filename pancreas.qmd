@@ -16,20 +16,37 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 # Pankreas Tümörleri {#sec-pankreas-tumorleri} 
 ```
 
+
 ```{asis, echo = (language == "EN")}
 # Tumors of the Pancreas {#sec-tumors-of-pancreas} 
 ```
 
 
-{{< include ./_subchapters/_pancreas-pancreatic-ductal-adenocarcinoma_EN.qmd >}}
 
+{{< include ./_subchapters/_pancreas-solid-pseudopapillary_EN.qmd >}}
+
+
+
+```{asis, echo = (language == "TR")}
+# Pankreas Malign Tümörleri {#sec-malign-pankreas-tumorleri} 
+```
+
+
+```{asis, echo = (language == "EN")}
+# Malignant Tumors of the Pancreas {#sec-malignant-tumors-of-pancreas} 
+```
+
+
+
+{{< include ./_subchapters/_pancreas-pancreatic-ductal-adenocarcinoma_EN.qmd >}}
 
 {{< include ./_subchapters/_pdac-large-duct_EN.qmd >}}
 
-
 {{< include ./_subchapters/_pancreas-musinous-adenocarcinoma-osteoclastic_EN.qmd >}}
-
 
 {{< include ./_subchapters/_PDAC-benign-vs-malignant_EN.qmd >}}
 
 {{< include ./_subchapters/_pancreas-adenosquamous_EN.qmd >}}
+
+{{< include ./_subchapters/_pdac-tru-cut_EN.qmd >}}
+

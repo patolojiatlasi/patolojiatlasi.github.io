@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <p>Authors: ${specimen.author.join(', ')}</p>
             <p>Date: ${specimen.date}</p>
             <p>Categories: ${specimen.categoriesEN.join(', ')}</p>
-            <img src="${specimen.screenshot}" alt="${specimen.titleEN}">
+            <a href="${specimen.url}" target="_blank"><img src="${specimen.screenshot}" alt="${specimen.titleEN}"></a>
             <p><a href="${specimen.url}" target="_blank">View Full Image</a></p>
             ${specimen.githubrepo ? `<p><a href="${specimen.githubrepo}" target="_blank">GitHub Repository</a></p>` : ''}
             ${specimen.youtube ? `<p><a href="${specimen.youtube}" target="_blank">YouTube Video</a></p>` : ''}
