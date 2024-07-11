@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathology Atlas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pathology Atlas</h1>
+    <div id="filters">
+        <select id="specialtySelect">
+            <option value="">All Specialties</option>
+        </select>
+        <select id="organSelect">
+            <option value="">All Organs</option>
+        </select>
+        <select id="categorySelect">
+            <option value="">All Categories</option>
+        </select>
+        <input type="text" id="searchInput" placeholder="Search...">
+    </div>
+    <div id="specimens-list"></div>
+    <div id="specimen-details"></div>
+
+    <script src="specimensData.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

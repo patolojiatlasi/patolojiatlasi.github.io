@@ -17,6 +17,7 @@ project:
     - "webpages.txt"
     - "headerTR.html"
     - "rss_feed.xml"
+    - "flipbook"
 
   pre-render:
     - ./R/prerender_TR.R
