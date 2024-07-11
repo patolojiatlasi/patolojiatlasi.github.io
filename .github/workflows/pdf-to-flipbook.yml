@@ -23,18 +23,18 @@ jobs:
         run: |
           curl -L -o flipbookpdf/Patoloji-Atlasi.pdf https://github.com/patolojiatlasi/patolojiatlasi.github.io/releases/latest/download/Patoloji-Atlasi.pdf
 
-      - name: Download pdf.js
+      - name: Download and extract pdf.js
         run: |
           cd flipbookpdf
+          rm -rf pdfjs  # Remove existing pdfjs directory if it exists
           curl -L -o pdfjs.zip https://github.com/mozilla/pdf.js/releases/download/v2.9.359/pdfjs-2.9.359-dist.zip
-          unzip pdfjs.zip -d pdfjs
+          unzip -o pdfjs.zip -d pdfjs  # -o flag to overwrite files without prompting
           rm pdfjs.zip
 
       - name: Install turn.js
         run: |
           cd flipbookpdf
           curl -O https://raw.githubusercontent.com/blasten/turn.js/master/turn.min.js
-
 
       - name: Create flipbook HTML
         run: |
@@ -141,7 +141,6 @@ jobs:
           </body>
           </html>
           EOL
-
 
       - name: Commit and push changes
         run: |
