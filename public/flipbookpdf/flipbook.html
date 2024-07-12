@@ -8,26 +8,21 @@
     <script src="turn.min.js"></script>
     <script src="pdfjs/build/pdf.js"></script>
     <style>
-        body, html { 
-            margin: 0; 
-            padding: 0; 
-            overflow: hidden; 
+        body, html {
+            margin: 0;
+            padding: 0;
             height: 100vh;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
+            justify-content: center;
         }
-        #flipbook { 
-            width: 90vw; 
-            height: 80vh; 
+        #flipbook {
+            width: 90vw;
+            height: 80vh;
         }
-        #flipbook .page { 
+        #flipbook .page {
             background-color: white;
-        }
-        .page canvas { 
-            width: 100%; 
-            height: 100%; 
         }
         #debug {
             margin-top: 20px;
@@ -50,31 +45,14 @@
 
         log('Script started');
 
-        // Ensure PDF.js worker is available
         pdfjsLib.GlobalWorkerOptions.workerSrc = 'pdfjs/build/pdf.worker.js';
 
-        log('PDF.js worker source set');
-
-        // Load the PDF document
-        log('Attempting to load PDF');
         pdfjsLib.getDocument('Patoloji-Atlasi.pdf').promise.then(function(pdf) {
-            log('PDF loaded successfully. Number of pages: ' + pdf.numPages);
-            var numPages = pdf.numPages;
+            log('PDF loaded. Number of pages: ' + pdf.numPages);
             var flipbook = document.getElementById('flipbook');
 
-            // Create promises for each page
-            var pagePromises = [];
-            for (var i = 1; i <= numPages; i++) {
-                pagePromises.push(pdf.getPage(i));
-            }
-
-            log('Created promises for all pages');
-
-            // Render all pages
-            Promise.all(pagePromises).then(function(pages) {
-                log('All pages retrieved successfully');
-                pages.forEach(function(page, index) {
-                    log('Rendering page ' + (index + 1));
+            for (var i = 1; i <= pdf.numPages; i++) {
+                pdf.getPage(i).then(function(page) {
                     var scale = 1.5;
                     var viewport = page.getViewport({scale: scale});
 
@@ -94,37 +72,21 @@
 
                     page.render(renderContext);
                     pageDiv.appendChild(canvas);
-                });
 
-                log('All pages rendered');
+                    log('Page ' + page.pageNumber + ' rendered');
 
-                // Initialize turn.js after all pages are rendered
-                .ready(function() {
-                    log('Initializing turn.js');
-                    .turn({
-                        width: .width(),
-                        height: .height(),
-                        autoCenter: true,
-                        when: {
-                            turning: function(event, page, view) {
-                                if (page == 1) {
-                                    event.preventDefault();
-                                }
-                            }
-                        }
-                    });
-                    log('turn.js initialized');
+                    if (page.pageNumber === pdf.numPages) {
+                        log('All pages rendered. Initializing flipbook.');
+                        .turn({
+                            width: flipbook.offsetWidth,
+                            height: flipbook.offsetHeight,
+                            autoCenter: true
+                        });
+                    }
                 });
-            }).catch(function(error) {
-                log('Error rendering pages: ' + error);
-            });
+            }
         }).catch(function(error) {
             log('Error loading PDF: ' + error);
-        });
-
-        // Resize handler
-        .resize(function() {
-            .turn("size", .width(), .height());
         });
 
         log('Script ended');
