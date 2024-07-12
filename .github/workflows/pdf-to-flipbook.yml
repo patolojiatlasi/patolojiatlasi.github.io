@@ -2,6 +2,9 @@ name: Convert PDF to HTML5 Flipbook
 
 on:
   workflow_dispatch:  # Allow manual trigger
+  push:
+    branches:
+      - main
   # schedule:
   #   - cron: '0 0 * * *'  # Run daily at midnight UTC
 
@@ -37,40 +40,29 @@ jobs:
           curl -O https://raw.githubusercontent.com/blasten/turn.js/master/turn.min.js
 
 
-      - name: Create flipbook HTML
+      - name: Create basic PDF viewer HTML
         run: |
           cd flipbookpdf
-          cat > "flipbook.html" <<EOL
+          cat > "basic_viewer.html" <<EOL
           <!DOCTYPE html>
           <html lang="en">
           <head>
               <meta charset="UTF-8">
               <meta name="viewport" content="width=device-width, initial-scale=1.0">
-              <title>Patoloji Atlasi Flipbook</title>
-              <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-              <script src="turn.min.js"></script>
-              <script src="pdfjs/build/pdf.js"></script>
+              <title>Basic PDF Viewer</title>
               <style>
-                  body, html { 
-                      margin: 0; 
-                      padding: 0; 
-                      overflow: hidden; 
+                  body, html {
+                      margin: 0;
+                      padding: 0;
                       height: 100vh;
                       display: flex;
                       flex-direction: column;
-                      justify-content: center;
                       align-items: center;
                   }
-                  #flipbook { 
-                      width: 90vw; 
-                      height: 80vh; 
-                  }
-                  #flipbook .page { 
-                      background-color: white;
-                  }
-                  .page canvas { 
-                      width: 100%; 
-                      height: 100%; 
+                  #pdfViewer {
+                      width: 90vw;
+                      height: 80vh;
+                      border: 1px solid #ccc;
                   }
                   #debug {
                       margin-top: 20px;
@@ -83,101 +75,25 @@ jobs:
               </style>
           </head>
           <body>
-              <div id="flipbook"></div>
+              <h1>Patoloji Atlasi PDF Viewer</h1>
+              <object id="pdfViewer" data="Patoloji-Atlasi.pdf" type="application/pdf">
+                  <p>It appears you don't have a PDF plugin for this browser. 
+                  No problem... you can <a href="Patoloji-Atlasi.pdf">click here to download the PDF file.</a></p>
+              </object>
               <div id="debug"></div>
               <script>
                   function log(message) {
                       console.log(message);
-                      document.getElementById('debug').innerHTML += message + '<br>';
+                      var debugDiv = document.getElementById('debug');
+                      debugDiv.innerHTML += message + '<br>';
                   }
 
-                  log('Script started');
-
-                  // Ensure PDF.js worker is available
-                  pdfjsLib.GlobalWorkerOptions.workerSrc = 'pdfjs/build/pdf.worker.js';
-
-                  log('PDF.js worker source set');
-
-                  // Load the PDF document
-                  log('Attempting to load PDF');
-                  pdfjsLib.getDocument('Patoloji-Atlasi.pdf').promise.then(function(pdf) {
-                      log('PDF loaded successfully. Number of pages: ' + pdf.numPages);
-                      var numPages = pdf.numPages;
-                      var flipbook = document.getElementById('flipbook');
-
-                      // Create promises for each page
-                      var pagePromises = [];
-                      for (var i = 1; i <= numPages; i++) {
-                          pagePromises.push(pdf.getPage(i));
-                      }
-
-                      log('Created promises for all pages');
-
-                      // Render all pages
-                      Promise.all(pagePromises).then(function(pages) {
-                          log('All pages retrieved successfully');
-                          pages.forEach(function(page, index) {
-                              log('Rendering page ' + (index + 1));
-                              var scale = 1.5;
-                              var viewport = page.getViewport({scale: scale});
-
-                              var pageDiv = document.createElement('div');
-                              pageDiv.className = 'page';
-                              flipbook.appendChild(pageDiv);
-
-                              var canvas = document.createElement('canvas');
-                              var context = canvas.getContext('2d');
-                              canvas.height = viewport.height;
-                              canvas.width = viewport.width;
-
-                              var renderContext = {
-                                  canvasContext: context,
-                                  viewport: viewport
-                              };
-
-                              page.render(renderContext);
-                              pageDiv.appendChild(canvas);
-                          });
-
-                          log('All pages rendered');
-
-                          // Initialize turn.js after all pages are rendered
-                          $(document).ready(function() {
-                              log('Initializing turn.js');
-                              $("#flipbook").turn({
-                                  width: $("#flipbook").width(),
-                                  height: $("#flipbook").height(),
-                                  autoCenter: true,
-                                  when: {
-                                      turning: function(event, page, view) {
-                                          if (page == 1) {
-                                              event.preventDefault();
-                                          }
-                                      }
-                                  }
-                              });
-                              log('turn.js initialized');
-                          });
-                      }).catch(function(error) {
-                          log('Error rendering pages: ' + error);
-                      });
-                  }).catch(function(error) {
-                      log('Error loading PDF: ' + error);
-                  });
-
-                  // Resize handler
-                  $(window).resize(function() {
-                      $("#flipbook").turn("size", $("#flipbook").width(), $("#flipbook").height());
-                  });
-
-                  log('Script ended');
+                  log('Page loaded');
+                  log('PDF should be visible above');
               </script>
           </body>
           </html>
           EOL
-
-
-
 
 
       - name: Commit and push changes
