@@ -1,95 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patoloji Atlasi Flipbook</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="turn.min.js"></script>
-    <script src="pdfjs/build/pdf.js"></script>
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-        #flipbook {
-            width: 90vw;
-            height: 80vh;
-        }
-        #flipbook .page {
-            background-color: white;
-        }
-        #debug {
-            margin-top: 20px;
-            width: 90vw;
-            height: 10vh;
-            overflow: auto;
-            border: 1px solid #ccc;
-            padding: 10px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF Viewer</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+  <style>
+    #pdf-viewer {
+      width: 100%;
+      height: 800px;
+      overflow: auto;
+      background: #ccc;
+      text-align: center;
+      position: relative;
+    }
+
+    canvas {
+      margin: 10px auto;
+    }
+
+    #controls {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 10px;
+    }
+
+    #loading {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 20px;
+      color: #000;
+    }
+  </style>
 </head>
 <body>
-    <div id="flipbook"></div>
-    <div id="debug"></div>
-    <script>
-        function log(message) {
-            console.log(message);
-            document.getElementById('debug').innerHTML += message + '<br>';
-        }
+  <div id="pdf-viewer">
+    <div id="loading">Loading...</div>
+    <div id="controls">
+      <button id="prev-page">Previous</button>
+      <span id="page-info">Page <span id="current-page"></span> of <span id="total-pages"></span></span>
+      <button id="next-page">Next</button>
+      <button id="zoom-in">Zoom In</button>
+      <button id="zoom-out">Zoom Out</button>
+    </div>
+  </div>
 
-        log('Script started');
+  <script>
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.worker.min.js';
 
-        pdfjsLib.GlobalWorkerOptions.workerSrc = 'pdfjs/build/pdf.worker.js';
+    var pdfPath = 'Patoloji-Atlasi.pdf';
+    var pdfDoc = null;
+    var pageNum = 1;
+    var scale = 1.5;
+    var canvas = document.createElement('canvas');
+    var ctx = canvas.getContext('2d');
+    var viewer = document.getElementById('pdf-viewer');
+    viewer.appendChild(canvas);
 
-        pdfjsLib.getDocument('Patoloji-Atlasi.pdf').promise.then(function(pdf) {
-            log('PDF loaded. Number of pages: ' + pdf.numPages);
-            var flipbook = document.getElementById('flipbook');
+    function renderPage(num) {
+      pdfDoc.getPage(num).then(function (page) {
+        var viewport = page.getViewport({ scale: scale });
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
 
-            for (var i = 1; i <= pdf.numPages; i++) {
-                pdf.getPage(i).then(function(page) {
-                    var scale = 1.5;
-                    var viewport = page.getViewport({scale: scale});
-
-                    var pageDiv = document.createElement('div');
-                    pageDiv.className = 'page';
-                    flipbook.appendChild(pageDiv);
-
-                    var canvas = document.createElement('canvas');
-                    var context = canvas.getContext('2d');
-                    canvas.height = viewport.height;
-                    canvas.width = viewport.width;
-
-                    var renderContext = {
-                        canvasContext: context,
-                        viewport: viewport
-                    };
-
-                    page.render(renderContext);
-                    pageDiv.appendChild(canvas);
-
-                    log('Page ' + page.pageNumber + ' rendered');
-
-                    if (page.pageNumber === pdf.numPages) {
-                        log('All pages rendered. Initializing flipbook.');
-                        .turn({
-                            width: flipbook.offsetWidth,
-                            height: flipbook.offsetHeight,
-                            autoCenter: true
-                        });
-                    }
-                });
-            }
-        }).catch(function(error) {
-            log('Error loading PDF: ' + error);
+        var renderContext = {
+          canvasContext: ctx,
+          viewport: viewport
+        };
+        page.render(renderContext).promise.then(function () {
+          document.getElementById('loading').style.display = 'none';
+          document.getElementById('current-page').textContent = pageNum;
+          document.getElementById('total-pages').textContent = pdfDoc.numPages;
+        }).catch(function (error) {
+          console.error('Error rendering page:', error);
+          alert('Error rendering page: ' + error.message);
         });
+      }).catch(function (error) {
+        console.error('Error getting page:', error);
+        alert('Error getting page: ' + error.message);
+      });
+    }
 
-        log('Script ended');
-    </script>
+    function queueRenderPage(num) {
+      if (pageNum !== num) {
+        pageNum = num;
+        renderPage(pageNum);
+      }
+    }
+
+    function onPrevPage() {
+      if (pageNum <= 1) {
+        return;
+      }
+      queueRenderPage(pageNum - 1);
+    }
+
+    function onNextPage() {
+      if (pageNum >= pdfDoc.numPages) {
+        return;
+      }
+      queueRenderPage(pageNum + 1);
+    }
+
+    function zoomIn() {
+      scale += 0.1;
+      renderPage(pageNum);
+    }
+
+    function zoomOut() {
+      if (scale > 0.5) {
+        scale -= 0.1;
+        renderPage(pageNum);
+      }
+    }
+
+    document.getElementById('prev-page').addEventListener('click', onPrevPage);
+    document.getElementById('next-page').addEventListener('click', onNextPage);
+    document.getElementById('zoom-in').addEventListener('click', zoomIn);
+    document.getElementById('zoom-out').addEventListener('click', zoomOut);
+
+    pdfjsLib.getDocument(pdfPath).promise.then(function (pdfDoc_) {
+      pdfDoc = pdfDoc_;
+      renderPage(pageNum);
+    }).catch(function (error) {
+      console.error('Error loading PDF:', error);
+      alert('Error loading PDF: ' + error.message);
+      document.getElementById('pdf-viewer').innerHTML = 'Error loading PDF. Please check the console for details.';
+    });
+  </script>
 </body>
 </html>
