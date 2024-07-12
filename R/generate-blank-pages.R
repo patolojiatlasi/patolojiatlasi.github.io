@@ -3,7 +3,7 @@ page_string <- '
 ```{comment}
 ---
 description: |
-    {{TemplateTR}}, {{TemplateEN}}, patoloji, atlas, pathology, whole slide image
+    {{TemplateTR}}, {{TemplateEN}}, patoloji, atlas, pathology, whole slide image, virtual microscopy, virtual microscope, sanal mikroskop
 date: last-modified
 categories: [{{TemplateTR}}, {{TemplateEN}}]
 page-layout: full
