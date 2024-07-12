@@ -2,11 +2,8 @@ name: Convert PDF to HTML5 Flipbook
 
 on:
   workflow_dispatch:  # Allow manual trigger
-  push:
-    branches:
-      - main
-  # schedule:
-  #   - cron: '0 0 * * *'  # Run daily at midnight UTC
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight UTC
 
 jobs:
   convert-to-flipbook:
@@ -29,27 +26,28 @@ jobs:
       - name: Download and extract pdf.js
         run: |
           cd flipbookpdf
-          rm -rf pdfjs  # Remove existing pdfjs directory if it exists
           curl -L -o pdfjs.zip https://github.com/mozilla/pdf.js/releases/download/v2.9.359/pdfjs-2.9.359-dist.zip
-          unzip -o pdfjs.zip -d pdfjs  # -o flag to overwrite files without prompting
+          unzip -o pdfjs.zip -d pdfjs
           rm pdfjs.zip
 
-      - name: Install turn.js
+      - name: Download turn.js
         run: |
           cd flipbookpdf
           curl -O https://raw.githubusercontent.com/blasten/turn.js/master/turn.min.js
 
-
-      - name: Create basic PDF viewer HTML
+      - name: Create flipbook HTML
         run: |
           cd flipbookpdf
-          cat > "basic_viewer.html" <<EOL
+          cat > "flipbook.html" <<EOL
           <!DOCTYPE html>
           <html lang="en">
           <head>
               <meta charset="UTF-8">
               <meta name="viewport" content="width=device-width, initial-scale=1.0">
-              <title>Basic PDF Viewer</title>
+              <title>Patoloji Atlasi Flipbook</title>
+              <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+              <script src="turn.min.js"></script>
+              <script src="pdfjs/build/pdf.js"></script>
               <style>
                   body, html {
                       margin: 0;
@@ -58,11 +56,14 @@ jobs:
                       display: flex;
                       flex-direction: column;
                       align-items: center;
+                      justify-content: center;
                   }
-                  #pdfViewer {
+                  #flipbook {
                       width: 90vw;
                       height: 80vh;
-                      border: 1px solid #ccc;
+                  }
+                  #flipbook .page {
+                      background-color: white;
                   }
                   #debug {
                       margin-top: 20px;
@@ -75,26 +76,65 @@ jobs:
               </style>
           </head>
           <body>
-              <h1>Patoloji Atlasi PDF Viewer</h1>
-              <object id="pdfViewer" data="Patoloji-Atlasi.pdf" type="application/pdf">
-                  <p>It appears you don't have a PDF plugin for this browser. 
-                  No problem... you can <a href="Patoloji-Atlasi.pdf">click here to download the PDF file.</a></p>
-              </object>
+              <div id="flipbook"></div>
               <div id="debug"></div>
               <script>
                   function log(message) {
                       console.log(message);
-                      var debugDiv = document.getElementById('debug');
-                      debugDiv.innerHTML += message + '<br>';
+                      document.getElementById('debug').innerHTML += message + '<br>';
                   }
 
-                  log('Page loaded');
-                  log('PDF should be visible above');
+                  log('Script started');
+
+                  pdfjsLib.GlobalWorkerOptions.workerSrc = 'pdfjs/build/pdf.worker.js';
+
+                  pdfjsLib.getDocument('Patoloji-Atlasi.pdf').promise.then(function(pdf) {
+                      log('PDF loaded. Number of pages: ' + pdf.numPages);
+                      var flipbook = document.getElementById('flipbook');
+
+                      for (var i = 1; i <= pdf.numPages; i++) {
+                          pdf.getPage(i).then(function(page) {
+                              var scale = 1.5;
+                              var viewport = page.getViewport({scale: scale});
+
+                              var pageDiv = document.createElement('div');
+                              pageDiv.className = 'page';
+                              flipbook.appendChild(pageDiv);
+
+                              var canvas = document.createElement('canvas');
+                              var context = canvas.getContext('2d');
+                              canvas.height = viewport.height;
+                              canvas.width = viewport.width;
+
+                              var renderContext = {
+                                  canvasContext: context,
+                                  viewport: viewport
+                              };
+
+                              page.render(renderContext);
+                              pageDiv.appendChild(canvas);
+
+                              log('Page ' + page.pageNumber + ' rendered');
+
+                              if (page.pageNumber === pdf.numPages) {
+                                  log('All pages rendered. Initializing flipbook.');
+                                  $(flipbook).turn({
+                                      width: flipbook.offsetWidth,
+                                      height: flipbook.offsetHeight,
+                                      autoCenter: true
+                                  });
+                              }
+                          });
+                      }
+                  }).catch(function(error) {
+                      log('Error loading PDF: ' + error);
+                  });
+
+                  log('Script ended');
               </script>
           </body>
           </html>
           EOL
-
 
       - name: Commit and push changes
         run: |
