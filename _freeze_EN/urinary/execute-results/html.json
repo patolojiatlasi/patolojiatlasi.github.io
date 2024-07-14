@@ -1,8 +1,11 @@
 {
-  "hash": "0e61e61e334702d03258f32e1284e9f1",
+  "hash": "1b507acbda39928f901f340424dcbd71",
   "result": {
+    "engine": "knitr",
     "markdown": "---\ndescription: \"uriner sistem, urinary system, patoloji, atlas, pathology, whole slide image, virtual microscopy, virtual microscope, sanal mikroskop\"\ndate: last-modified\ncategories: [uriner, urinary]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n# Pathology of the Urinary System {#sec-urinary-system-pathology}\n:::\n",
-    "supporting": [],
+    "supporting": [
+      "urinary_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
