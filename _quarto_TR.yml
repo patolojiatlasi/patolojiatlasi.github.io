@@ -64,7 +64,8 @@ book:
   cover-image: images/coverTR.png
   site-url: https://patolojiatlasi.com/
 #  repo-url: https://github.com/patolojiatlasi/patolojiatlasi.github.io
-  google-analytics: "G-7BT7Q4FLT9"
+  google-analytics:
+    tracking-id:  "G-7BT7Q4FLT9"
 #  repo-branch: main
 #  repo-actions: [edit, issue, source]
   sharing: [twitter, facebook, linkedin]
