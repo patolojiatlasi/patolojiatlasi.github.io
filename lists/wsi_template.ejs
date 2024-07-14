@@ -1,79 +1,62 @@
-<%_ items.forEach(function(item) { _%>
-    ::::: panel-tabset
+<% items.forEach(function(item, index) { %>
+    <h2>
+        <%= item.titleEN %> / <%= item.titleTR %>
+    </h2>
 
-    ### WSI - Link
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'wsi-link-<%= index %>')" id="defaultOpen-<%= index %>">WSI -
+            Link</button>
+        <button class="tablinks" onclick="openTab(event, 'wsi-<%= index %>')">WSI</button>
+        <button class="tablinks" onclick="openTab(event, 'diagnosis-<%= index %>')">Diagnosis</button>
+    </div>
 
-    :::: {.content-hidden when-format="pdf"}
+    <div id="wsi-link-<%= index %>" class="tabcontent">
+        <h3>English</h3>
+        <p><strong>
+                <%= item.titleEN %>
+            </strong></p>
+        <p>
+            <a href="<%= item.url %>" target="_blank">
+                <img src="<%= item.screenshot %>" alt="<%= item.titleEN %>" style="width:25%;">
+            </a>
+        </p>
+        <p><a href="<%= item.url %>" target="_blank">Click for Full Screen WSI</a></p>
 
-    **<%= item.titleTR %>**
+        <h3>Türkçe</h3>
+        <p><strong>
+                <%= item.titleTR %>
+            </strong></p>
+        <p>
+            <a href="<%= item.url %>" target="_blank">
+                <img src="<%= item.screenshot %>" alt="<%= item.titleTR %>" style="width:25%;">
+            </a>
+        </p>
+        <p><a href="<%= item.url %>" target="_blank">Tam Ekran Görmek İçin Resmi Tıklayın</a></p>
+    </div>
 
-        [![Tam Ekran Görmek İçin Resmi Tıklayın](<%= item.screenshot %>){width="25%"}](<%= item.url %>) [Tam Ekran
-                Görmek İçin Resmi Tıklayın](<%= item.url %>)
+    <div id="wsi-<%= index %>" class="tabcontent">
+        <h3>English</h3>
+        <p>See Microscopy with viewer:</p>
+        <iframe src="<%= item.url %>" data-external="1"></iframe>
 
-                    ::::
+        <h3>Türkçe</h3>
+        <p>Mikroskopik görüntüleri inceleyin:</p>
+        <iframe src="<%= item.url %>" data-external="1"></iframe>
+    </div>
 
-                    :::: {.content-visible when-format="pdf"}
+    <div id="diagnosis-<%= index %>" class="tabcontent">
+        <div class="callout callout-tip">
+            <h3>Click for Diagnosis</h3>
+            <p>
+                <%= item.titleEN %>
+            </p>
+        </div>
 
-                    **<%= item.titleTR %>**
-
-                        ![](./qrcodes/<%= item.reponame %>_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi
-                            Tıklayın](<%= item.screenshot %>){width="25%"}](<%= item.url %>) [Tam Ekran Görmek İçin
-                                    Resmi Tıklayın](<%= item.url %>)
-
-                                        ::::
-
-                                        :::: {.content-hidden when-format="pdf"}
-
-                                        **<%= item.titleEN %>**
-
-                                            [![Click for Full Screen WSI](<%= item.screenshot %>){width="25%"}](<%=
-                                                    item.url %>) [Click for Full Screen WSI](<%= item.url %>)
-
-                                                        ::::
-
-                                                        :::: {.content-visible when-format="pdf"}
-
-                                                        **<%= item.titleEN %>**
-
-                                                            ![](./qrcodes/<%= item.reponame %>_qrcode.svg){width="15%"}
-                                                                [![Click for Full Screen WSI](<%= item.screenshot %>
-                                                                    ){width="25%"}](<%= item.url %>) [Click for Full
-                                                                        Screen WSI](<%= item.url %>)
-
-                                                                            ::::
-
-                                                                            ### WSI
-
-                                                                            Mikroskopik görüntüleri inceleyin:
-
-                                                                            <iframe src="<%= item.url %>"
-                                                                                style="height:600px;width:100%;"
-                                                                                data-external="1"></iframe>
-
-                                                                            See Microscopy with viewer:
-
-                                                                            <iframe src="<%= item.url %>"
-                                                                                style="height:600px;width:100%;"
-                                                                                data-external="1"></iframe>
-
-                                                                            ### Diagnosis
-
-                                                                            ::: {.callout-tip collapse="true"
-                                                                            appearance="default" icon="true"}
-                                                                            ### Tanı için tıklayın
-
-                                                                            <%= item.titleTR %>
-
-                                                                                :::
-
-                                                                                ::: {.callout-tip collapse="true"
-                                                                                appearance="default" icon="true"}
-                                                                                ### Click for Diagnosis
-
-                                                                                <%= item.titleEN %>
-
-                                                                                    :::
-
-                                                                                    :::::
-
-                                                                                    <%_ }); _%>
+        <div class="callout callout-tip">
+            <h3>Tanı için tıklayın</h3>
+            <p>
+                <%= item.titleTR %>
+            </p>
+        </div>
+    </div>
+    <% }); %>
