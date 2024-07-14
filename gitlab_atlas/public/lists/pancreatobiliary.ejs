@@ -5,12 +5,6 @@
 
 <ul class="list">
   <% for (const item of items) { %>
-
-![](./qrcodes/<%= item.reponame %>_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](<%= item.screenshot
-    %>){width="25%"}](<%= item.url %>) [Tam Ekran Görmek İçin Resmi Tıklayın](<%= item.url %>)
-
-
-
     <li <%= metadataAttrs(item) %>>
       <%= item.stainname %>
       <br/>
@@ -34,7 +28,7 @@
       <br/>
 
 
-<!-- paper info for not-yet-published papers -->
+      <!-- paper info for not-yet-published papers -->
       <% if (item.type !== 'Published') { %>
         <small class="text-muted">
           <%= item.date %>. <%= item.author %>. <%= item.status %>.
