@@ -1,0 +1,274 @@
+
+
+
+
+
+
+
+
+
+```{comment}
+---
+description: |
+    TemplateTR, TemplateEN, patoloji, atlas, pathology, whole slide image, virtual microscopy, virtual microscope, sanal mikroskop
+date: last-modified
+categories: [TemplateTR, TemplateEN]
+page-layout: full
+bibliography: references.bib
+---
+```
+
+
+
+```{r , echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+
+```{asis  Synovial sarcoma with INI1 loss TR, echo = (language == "TR")}
+## Case-41 {#sec-hacettepe-com-case-41 }
+```
+
+
+```{asis  Synovial sarcoma with INI1 loss EN, echo = (language == "EN")}
+## Case-41 {#sec-hacettepe-com-case-41 }
+```
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı
+
+ Synovial sarcoma with INI1 loss
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+
+
+ Synovial sarcoma with INI1 loss
+
+:::
+
+```
+
+
+
+### Video
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+[Video İçin Tıklayın](https://www.youtube.com/watch?v=1Qq67jVEfUA)
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+[Click for Video](https://www.youtube.com/watch?v=1Qq67jVEfUA)
+
+```
+
+
+
+::: {.content-visible when-format="html"}
+
+{{< video https://www.youtube.com/embed/1Qq67jVEfUA >}}
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

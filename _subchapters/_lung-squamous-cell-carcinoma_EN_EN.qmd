@@ -1,0 +1,548 @@
+
+```{comment}
+---
+description: |
+    Akciğer Skuamöz Hücreli Karsinom, tru-cut biyopsi, Lung Squamous Cell Carcinoma, tru-cut biopsy, patoloji, atlas, pathology, whole slide image, virtual microscopy, virtual microscope, sanal mikroskop
+date: last-modified
+categories: [Akciğer Skuamöz Hücreli Karsinom, tru-cut biyopsi, Lung Squamous Cell Carcinoma, tru-cut biopsy]
+page-layout: full
+bibliography: references.bib
+---
+```
+
+
+
+```{r language lung-squamous-cell-carcinoma, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis Akciğer Skuamöz Hücreli Karsinom, tru-cut biyopsi TR , echo = (language == "TR")}
+## Akciğer Skuamöz Hücreli Karsinom, tru-cut biyopsi {#sec-lung-squamous-cell-carcinoma }
+```
+
+
+```{asis Lung Squamous Cell Carcinoma, tru-cut biopsy EN , echo = (language == "EN")}
+## Lung Squamous Cell Carcinoma, tru-cut biopsy {#sec-lung-squamous-cell-carcinoma }
+```
+
+
+
+
+
+
+```{r lung-squamous-cell-carcinoma screenshot HE1, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE1.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE1.html",
+  file = "./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE1.png"
+)
+}
+```
+
+
+
+```{r lung-squamous-cell-carcinoma qrcode HE1, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/lung-squamous-cell-carcinoma-HE1_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE1.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/lung-squamous-cell-carcinoma-HE1_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+
+```{r lung-squamous-cell-carcinoma screenshot HE2, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE2.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE2.html",
+  file = "./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE2.png"
+)
+}
+```
+
+
+
+```{r lung-squamous-cell-carcinoma qrcode HE2, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/lung-squamous-cell-carcinoma-HE2_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE2.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/lung-squamous-cell-carcinoma-HE2_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+
+```{r lung-squamous-cell-carcinoma screenshot HE3, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE3.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE3.html",
+  file = "./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE3.png"
+)
+}
+```
+
+
+
+```{r lung-squamous-cell-carcinoma qrcode HE3, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/lung-squamous-cell-carcinoma-HE3_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE3.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/lung-squamous-cell-carcinoma-HE3_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+
+```{r lung-squamous-cell-carcinoma screenshot HE4, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE4.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE4.html",
+  file = "./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE4.png"
+)
+}
+```
+
+
+
+```{r lung-squamous-cell-carcinoma qrcode HE4, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/lung-squamous-cell-carcinoma-HE4_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE4.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/lung-squamous-cell-carcinoma-HE4_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**Akciğer Skuamöz Hücreli Karsinom, tru-cut biyopsi**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE1.png){width="25%"}](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE1.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "TR")}
+
+**Akciğer Skuamöz Hücreli Karsinom, tru-cut biyopsi**
+
+![](./qrcodes/lung-squamous-cell-carcinoma-HE1_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE1.png){width="25%"}](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE1.html)
+
+```
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Lung Squamous Cell Carcinoma, tru-cut biopsy**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE1.png){width="25%"}](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE1.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "EN")}
+
+**Lung Squamous Cell Carcinoma, tru-cut biopsy**
+
+![](./qrcodes/lung-squamous-cell-carcinoma-HE1_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE1.png){width="25%"}](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE1.html)
+
+```
+
+
+::::
+
+
+
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**Akciğer Skuamöz Hücreli Karsinom, tru-cut biyopsi**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE2.png){width="25%"}](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE2.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "TR")}
+
+**Akciğer Skuamöz Hücreli Karsinom, tru-cut biyopsi**
+
+![](./qrcodes/lung-squamous-cell-carcinoma-HE2_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE2.png){width="25%"}](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE2.html)
+
+```
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Lung Squamous Cell Carcinoma, tru-cut biopsy**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE2.png){width="25%"}](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE2.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "EN")}
+
+**Lung Squamous Cell Carcinoma, tru-cut biopsy**
+
+![](./qrcodes/lung-squamous-cell-carcinoma-HE2_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE2.png){width="25%"}](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE2.html)
+
+```
+
+
+::::
+
+
+
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**Akciğer Skuamöz Hücreli Karsinom, tru-cut biyopsi**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE3.png){width="25%"}](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE3.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "TR")}
+
+**Akciğer Skuamöz Hücreli Karsinom, tru-cut biyopsi**
+
+![](./qrcodes/lung-squamous-cell-carcinoma-HE3_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE3.png){width="25%"}](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE3.html)
+
+```
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Lung Squamous Cell Carcinoma, tru-cut biopsy**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE3.png){width="25%"}](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE3.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE3.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "EN")}
+
+**Lung Squamous Cell Carcinoma, tru-cut biopsy**
+
+![](./qrcodes/lung-squamous-cell-carcinoma-HE3_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE3.png){width="25%"}](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE3.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE3.html)
+
+```
+
+
+::::
+
+
+
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**Akciğer Skuamöz Hücreli Karsinom, tru-cut biyopsi**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE4.png){width="25%"}](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE4.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE4.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "TR")}
+
+**Akciğer Skuamöz Hücreli Karsinom, tru-cut biyopsi**
+
+![](./qrcodes/lung-squamous-cell-carcinoma-HE4_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE4.png){width="25%"}](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE4.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE4.html)
+
+```
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Lung Squamous Cell Carcinoma, tru-cut biopsy**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE4.png){width="25%"}](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE4.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE4.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "EN")}
+
+**Lung Squamous Cell Carcinoma, tru-cut biopsy**
+
+![](./qrcodes/lung-squamous-cell-carcinoma-HE4_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_lung-squamous-cell-carcinoma-HE4.png){width="25%"}](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE4.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE4.html)
+
+```
+
+
+::::
+
+
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE3.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE3.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE4.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE4.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+

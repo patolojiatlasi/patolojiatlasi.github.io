@@ -269,45 +269,6 @@
   githubrepo: https://github.com/pathologyatlas/helicobacterpylori
   githubpage: https://pathologyatlas.github.io/helicobacterpylori
   youtube: ''
-- stainname: liver-hemangioma-HE
-  reponame: liver-hemangioma
-  titleTR: Karaciğer Hemangioma
-  titleEN: Liver Hemangioma
-  organTR: Karaaciğer
-  organEN: Liver
-  speciality: liver
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-03-02'
-  url: https://images.patolojiatlasi.com/liver-hemangioma/HE.html
-  note: Hemangioma in liver
-  categoriesTR:
-  - karaciğer
-  - hemangioma
-  - tümör
-  - benign
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - liver
-  - hemangioma
-  - tumor
-  - benign
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_liver-hemangioma.png
-  githubrepo: https://github.com/pathologyatlas/liver-hemangioma
-  githubpage: https://pathologyatlas.github.io/liver-hemangioma
-  youtube: ''
 - stainname: kidneyoncocytoma-HE
   reponame: kidneyoncocytoma
   titleTR: Onkositom
@@ -347,378 +308,6 @@
   githubrepo: https://github.com/pathologyatlas/kidneyoncocytoma
   githubpage: https://pathologyatlas.github.io/kidneyoncocytoma
   youtube: ''
-- stainname: exostosis-oc
-  reponame: exostosis
-  titleTR: 'Ekzostoz: Osteokondrom'
-  titleEN: 'Exostosis: Osteochondroma'
-  organTR: kemik
-  organEN: Bone
-  speciality: Bone
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-06-26'
-  url: https://images.patolojiatlasi.com/exostosis/oc.html
-  note: Osteochondroma in bone
-  categoriesTR:
-  - kemik
-  - benign
-  - tümör
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - bone
-  - benign
-  - tumor
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_exostosis-1.png
-  githubrepo: https:///github.com/pathologyatlas/exostosis
-  githubpage: https:///pathologyatlas.github.io/exostosis
-  youtube: ''
-- stainname: exostosis-oc001
-  reponame: exostosis
-  titleTR: Ekzostoz
-  titleEN: Exostosis
-  organTR: Kemik
-  organEN: bone
-  speciality: bone
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-02-18'
-  url: https://images.patolojiatlasi.com/exostosis/oc001.html
-  note: Exostosis in bone
-  categoriesTR:
-  - kemik
-  - benign
-  - tümör
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - bone
-  - benign
-  - tumor
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_exostosis-2.png
-  githubrepo: https://github.com/pathologyatlas/exostosis
-  githubpage: https://pathologyatlas.github.io/exostosis
-  youtube: ''
-- stainname: exostosis-oc002
-  reponame: exostosis
-  titleTR: Ekzostoz
-  titleEN: Exostosis
-  organTR: Kemik
-  organEN: bone
-  speciality: bone
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-02-18'
-  url: https://images.patolojiatlasi.com/exostosis/oc002.html
-  note: Exostosis in bone
-  categoriesTR:
-  - kemik
-  - benign
-  - tümör
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - bone
-  - benign
-  - tumor
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_exostosis-3.png
-  githubrepo: https://github.com/pathologyatlas/exostosis
-  githubpage: https://pathologyatlas.github.io/exostosis
-  youtube: ''
-- stainname: carcinogenesis-HE
-  reponame: carcinogenesis
-  titleTR: Karsinogenez
-  titleEN: Carcinogenesis
-  organTR: mide
-  organEN: stomach
-  speciality: gastrointestinal
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-03-02'
-  url: https://images.patolojiatlasi.com/carcinogenesis/HE.html
-  note: ''
-  categoriesTR:
-  - mide
-  - karsinogenez
-  - malign
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - stomach
-  - carcinogenesis
-  - malignant
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_carcinogenesis.png
-  githubrepo: https://github.com/pathologyatlas/carcinogenesis
-  githubpage: https://pathologyatlas.github.io/carcinogenesis
-  youtube: ''
-- stainname: reactive-atypia-HE
-  reponame: reactive-atypia
-  titleTR: Ülsere Kolon Polibinde Reaktif Atipi
-  titleEN: Reactive atypia in an ulcerated colon polyp
-  organTR: kolon
-  organEN: colon
-  speciality: gastrointestinal
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-03-02'
-  url: https://images.patolojiatlasi.com/reactive-atypia/HE.html
-  note: Reactive atypia in an ulcerated colon polyp
-  categoriesTR:
-  - kolon
-  - reaktif atipi
-  - benign
-  - polip
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - colon
-  - reactive atypia
-  - benign
-  - polyp
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_reactive-atypia.png
-  githubrepo: https://github.com/pathologyatlas/reactive-atypia
-  githubpage: https://pathologyatlas.github.io/reactive-atypia
-  youtube: ''
-- stainname: cervix-SCC-HE
-  reponame: cervix-SCC
-  titleTR: Serviks Skuamöz Hücreli Karsinom
-  titleEN: Cervix Squamous Cell Carcinoma
-  organTR: serviks
-  organEN: cervix
-  speciality: gyneacologic
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-03-02'
-  url: https://images.patolojiatlasi.com/cervix-SCC/HE.html
-  note: ''
-  categoriesTR:
-  - serviks
-  - skuamöz hücreli karsinom
-  - malign
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - cervix
-  - squamous cell carcinoma
-  - malignant
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cervix-SCC.png
-  githubrepo: https://github.com/pathologyatlas/cervix-SCC
-  githubpage: https://pathologyatlas.github.io/cervix-SCC
-  youtube: ''
-- stainname: chronicpyelonephritis-HE1
-  reponame: chronicpyelonephritis
-  titleTR: Kronik Piyelonefrit
-  titleEN: Chronic Pyelonephritis
-  organTR: Böbrek
-  organEN: Kidney
-  speciality: genitourinary
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-03-02'
-  url: https://images.patolojiatlasi.com/chronicpyelonephritis/HE1.html
-  note: Chronik pyelonephritis in kidney
-  categoriesTR:
-  - böbrek
-  - kronik piyelonefrit
-  - inflamasyon
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - kidney
-  - chronic pyelonephritis
-  - inflammation
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronicpyelonephritis-1.png
-  githubrepo: https://github.com/pathologyatlas/chronicpyelonephritis
-  githubpage: https://pathologyatlas.github.io/chronicpyelonephritis
-  youtube: ''
-- stainname: chronicpyelonephritis-HE2
-  reponame: chronicpyelonephritis
-  titleTR: Kronik Piyelonefrit
-  titleEN: Chronic Pyelonephritis
-  organTR: Böbrek
-  organEN: Kidney
-  speciality: genitourinary
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-03-02'
-  url: https://images.patolojiatlasi.com/chronicpyelonephritis/HE2.html
-  note: Chronik pyelonephritis in kidney
-  categoriesTR:
-  - böbrek
-  - kronik piyelonefrit
-  - inflamasyon
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - kidney
-  - chronic pyelonephritis
-  - inflammation
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronicpyelonephritis-2.png
-  githubrepo: https://github.com/pathologyatlas/chronicpyelonephritis
-  githubpage: https://pathologyatlas.github.io/chronicpyelonephritis
-  youtube: ''
-- stainname: chronic-pyelonephritis-HE
-  reponame: chronic-pyelonephritis
-  titleTR: Kronik Piyelonefrit
-  titleEN: Chronic Pyelonephritis
-  organTR: Böbrek
-  organEN: Kidney
-  speciality: genitourinary
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-03-02'
-  url: https://images.patolojiatlasi.com/chronic-pyelonephritis/HE.html
-  note: ''
-  categoriesTR:
-  - böbrek
-  - kronik piyelonefrit
-  - inflamasyon
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - kidney
-  - chronic pyelonephritis
-  - inflammation
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronic-pyelonephritis.png
-  githubrepo: https://github.com/pathologyatlas/chronic-pyelonephritis
-  githubpage: https://pathologyatlas.github.io/chronic-pyelonephritis
-  youtube: ''
-- stainname: brain-arteriovenous-malformation-HE
-  reponame: brain-arteriovenous-malformation
-  titleTR: Beyinde arteriyovenöz malformasyon
-  titleEN: Brain arteriovenous malformation
-  organTR: beyin
-  organEN: brain
-  speciality: neuro
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-03-02'
-  url: https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html
-  note: ''
-  categoriesTR:
-  - beyin
-  - arteriyovenöz malformasyon
-  - vasküler
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - brain
-  - arteriovenous malformation
-  - vascular
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-arteriovenous-malformation.png
-  githubrepo: https://github.com/pathologyatlas/brain-arteriovenous-malformation
-  githubpage: https://pathologyatlas.github.io/brain-arteriovenous-malformation
-  youtube: ''
 - stainname: celiac-disease-HE
   reponame: celiac-disease
   titleTR: Çölyak Hastalığı
@@ -755,72 +344,6 @@
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_celiac-disease.png
   githubrepo: https://github.com/pathologyatlas/celiac-disease
   githubpage: https://pathologyatlas.github.io/celiac-disease
-  youtube: ''
-- stainname: cholesteatoma-cholesteatoma
-  reponame: cholesteatoma
-  titleTR: Kolestetom
-  titleEN: Cholesteatoma
-  organTR: kulak
-  organEN: ear
-  speciality: ENT
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-06-26'
-  url: https://images.patolojiatlasi.com/cholesteatoma/cholesteatoma.html
-  note: Cholestatoma in ear
-  categoriesTR:
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cholesteatoma.png
-  githubrepo: https:///github.com/pathologyatlas/cholesteatoma
-  githubpage: https:///pathologyatlas.github.io/cholesteatoma
-  youtube: ''
-- stainname: cholesteatoma-HE
-  reponame: cholesteatoma
-  titleTR: Kolesteatom
-  titleEN: Cholesteatoma
-  organTR: kulak
-  organEN: ear
-  speciality: ENT
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-02-18'
-  url: https://images.patolojiatlasi.com/cholesteatoma/cholesteatoma.html
-  note: ''
-  categoriesTR:
-  - kolesteatom
-  - kulak
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - cholesteatoma
-  - ear
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cholesteatoma.png
-  githubrepo: https://github.com/pathologyatlas/cholesteatoma
-  githubpage: https://pathologyatlas.github.io/cholesteatoma
   youtube: ''
 - stainname: extramuralvenousinvasion-HE
   reponame: extramuralvenousinvasion
@@ -1009,82 +532,6 @@
   githubrepo: https://github.com/pathologyatlas/erosion
   githubpage: https://pathologyatlas.github.io/erosion
   youtube: ''
-- stainname: granular-cell-tumor-HE
-  reponame: granular-cell-tumor
-  titleTR: Özofagus Granüler Hücreli Tümör
-  titleEN: Esophagus Granular Cell Tumor
-  organTR: özofagus
-  organEN: esophagus
-  speciality: gasrointestinal
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-03-02'
-  url: https://images.patolojiatlasi.com/granular-cell-tumor/HE.html
-  note: Granular cell tumor in esophagus
-  categoriesTR:
-  - özofagus
-  - granüler hücreli tümör
-  - benign
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - esophagus
-  - granular cell tumor
-  - benign
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_granular-cell-tumor.png
-  githubrepo: https://github.com/pathologyatlas/granular-cell-tumor
-  githubpage: https://pathologyatlas.github.io/granular-cell-tumor
-  youtube: ''
-- stainname: ochronosis-HE
-  reponame: ochronosis
-  titleTR: Okronozis
-  titleEN: Ochronosis
-  organTR: kemik
-  organEN: bone
-  speciality: bone
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-03-02'
-  url: https://images.patolojiatlasi.com/ochronosis/HE.html
-  note: Ochronosis in bone
-  categoriesTR:
-  - kemik
-  - okronozis
-  - benign
-  - metabolik
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - bone
-  - ochronosis
-  - benign
-  - metabolic
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ochronosis.png
-  githubrepo: https://github.com/pathologyatlas/ochronosis
-  githubpage: https://pathologyatlas.github.io/ochronosis
-  youtube: ''
 - stainname: pancreaticadenocarcinoma-case1-histopathology/viewer_z0
   reponame: pancreaticadenocarcinoma
   titleTR: Pankreas Adenokarsinomu
@@ -1191,207 +638,6 @@
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ectopic-adrenal.png
   githubrepo: https://github.com/pathologyatlas/ectopic-adrenal
   githubpage: https://pathologyatlas.github.io/ectopic-adrenal
-  youtube: ''
-- stainname: candidaalbicans-cervicovaginalsmear/viewer_z0
-  reponame: candidaalbicans
-  titleTR: Servikovajinal yaymada Candida albicans
-  titleEN: Candida albicans in cervicovaginal smear
-  organTR: serviks
-  organEN: cervix
-  speciality: gynecologic
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-02-18'
-  url: https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html
-  note: Candida albicans in cervicovaginal smear
-  categoriesTR:
-  - serviks
-  - sitoloji
-  - PAP
-  - smear
-  - mantar
-  - enfeksiyon
-  - Candida
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - cervix
-  - cytology
-  - PAP
-  - smear
-  - fungus
-  - infection
-  - Candida
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_candidaalbicans.png
-  githubrepo: https://github.com/pathologyatlas/candidaalbicans
-  githubpage: https://pathologyatlas.github.io/candidaalbicans
-  youtube: ''
-- stainname: brain-mucormycosis-HE
-  reponame: brain-mucormycosis
-  titleTR: Beyin Mukormikozisi
-  titleEN: Brain Mucormycosis
-  organTR: beyin
-  organEN: brain
-  speciality: neuro
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-03-02'
-  url: https://images.patolojiatlasi.com/brain-mucormycosis/HE.html
-  note: ''
-  categoriesTR:
-  - beyin
-  - mukormikozis
-  - enfeksiyon
-  - mantar
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - brain
-  - mucormycosis
-  - infection
-  - fungus
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-mucormycosis.png
-  githubrepo: https://github.com/pathologyatlas/brain-mucormycosis
-  githubpage: https://pathologyatlas.github.io/brain-mucormycosis
-  youtube: ''
-- stainname: brain-mucormycosis-GMS
-  reponame: brain-mucormycosis
-  titleTR: Beyin Mukormikozisi (GMS)
-  titleEN: Brain Mucormycosis (GMS)
-  organTR: beyin
-  organEN: brain
-  speciality: neuro
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-06-29'
-  url: https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html
-  note: Brain mucormycosis with GMS stain
-  categoriesTR:
-  - beyin
-  - mukormikozis
-  - enfeksiyon
-  - mantar
-  - histokimya
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - brain
-  - mucormycosis
-  - infection
-  - fungus
-  - histochemistry
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-mucormycosis-GMS.png
-  githubrepo: https://github.com/pathologyatlas/brain-mucormycosis
-  githubpage: https://pathologyatlas.github.io/brain-mucormycosis
-  youtube: ''
-- stainname: gallbladder-adenomyoma-HE
-  reponame: gallbladder-adenomyoma
-  titleTR: Safra Kesesi Adenomyoma
-  titleEN: Gallbladder Adenomyoma
-  organTR: safra kesesi
-  organEN: gallbladder
-  speciality: pancreatobiliary
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-03-02'
-  url: https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html
-  note: ''
-  categoriesTR:
-  - safra kesesi
-  - adenomyoma
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - gallbladder
-  - adenomyoma
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_gallbladder-adenomyoma.png
-  githubrepo: https://github.com/pathologyatlas/gallbladder-adenomyoma
-  githubpage: https://pathologyatlas.github.io/gallbladder-adenomyoma
-  youtube: ''
-- stainname: ischemia-gangrenous-cholecystitis-HE
-  reponame: ischemia-gangrenous-cholecystitis
-  titleTR: İskemik Gangrenöz Kolesistit
-  titleEN: Ischemic Gangrenous Cholecystitis
-  organTR: safra kesesi
-  organEN: gallbladder
-  speciality: pancreatobiliary
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-03-02'
-  url: https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html
-  note: ''
-  categoriesTR:
-  - safra kesesi
-  - iskemi
-  - gangren
-  - kolesistit
-  - inflamasyon
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - gallbladder
-  - ischemia
-  - gangrenous
-  - cholecystitis
-  - inflammation
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ischemia-gangrenous-cholecystitis.png
-  githubrepo: https://github.com/pathologyatlas/ischemia-gangrenous-cholecystitis
-  githubpage: https://pathologyatlas.github.io/ischemia-gangrenous-cholecystitis
   youtube: ''
 - stainname: lymphocytic-gastritis-all
   reponame: lymphocytic-gastritis
@@ -1800,6 +1046,84 @@
   githubrepo: https://github.com/pathologyatlas/hodgkin
   githubpage: https://pathologyatlas.github.io/hodgkin
   youtube: ''
+- stainname: ochronosis-HE
+  reponame: ochronosis
+  titleTR: Okronozis
+  titleEN: Ochronosis
+  organTR: kemik
+  organEN: bone
+  speciality: bone
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-03-02'
+  url: https://images.patolojiatlasi.com/ochronosis/HE.html
+  note: Ochronosis in bone
+  categoriesTR:
+  - kemik
+  - okronozis
+  - benign
+  - metabolik
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  - sanal mikroskop
+  categoriesEN:
+  - bone
+  - ochronosis
+  - benign
+  - metabolic
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  - virtual microscopy
+  - virtual microscope
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ochronosis.png
+  githubrepo: https://github.com/pathologyatlas/ochronosis
+  githubpage: https://pathologyatlas.github.io/ochronosis
+  youtube: ''
+- stainname: reactive-atypia-HE
+  reponame: reactive-atypia
+  titleTR: Ülsere Kolon Polibinde Reaktif Atipi
+  titleEN: Reactive atypia in an ulcerated colon polyp
+  organTR: kolon
+  organEN: colon
+  speciality: gastrointestinal
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-03-02'
+  url: https://images.patolojiatlasi.com/reactive-atypia/HE.html
+  note: Reactive atypia in an ulcerated colon polyp
+  categoriesTR:
+  - kolon
+  - reaktif atipi
+  - benign
+  - polip
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  - sanal mikroskop
+  categoriesEN:
+  - colon
+  - reactive atypia
+  - benign
+  - polyp
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  - virtual microscopy
+  - virtual microscope
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_reactive-atypia.png
+  githubrepo: https://github.com/pathologyatlas/reactive-atypia
+  githubpage: https://pathologyatlas.github.io/reactive-atypia
+  youtube: ''
 - stainname: cholesterolpolyp-HE
   reponame: cholesterolpolyp
   titleTR: Kolesterol Polibi
@@ -2110,6 +1434,370 @@
   githubrepo: https://github.com/pathologyatlas/fat-necrosis
   githubpage: https://pathologyatlas.github.io/fat-necrosis
   youtube: ''
+- stainname: liver-hemangioma-HE
+  reponame: liver-hemangioma
+  titleTR: Karaciğer Hemangioma
+  titleEN: Liver Hemangioma
+  organTR: Karaaciğer
+  organEN: Liver
+  speciality: liver
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-03-02'
+  url: https://images.patolojiatlasi.com/liver-hemangioma/HE.html
+  note: Hemangioma in liver
+  categoriesTR:
+  - karaciğer
+  - hemangioma
+  - tümör
+  - benign
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  - sanal mikroskop
+  categoriesEN:
+  - liver
+  - hemangioma
+  - tumor
+  - benign
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  - virtual microscopy
+  - virtual microscope
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_liver-hemangioma.png
+  githubrepo: https://github.com/pathologyatlas/liver-hemangioma
+  githubpage: https://pathologyatlas.github.io/liver-hemangioma
+  youtube: ''
+- stainname: carcinogenesis-HE
+  reponame: carcinogenesis
+  titleTR: Karsinogenez
+  titleEN: Carcinogenesis
+  organTR: mide
+  organEN: stomach
+  speciality: gastrointestinal
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-03-02'
+  url: https://images.patolojiatlasi.com/carcinogenesis/HE.html
+  note: ''
+  categoriesTR:
+  - mide
+  - karsinogenez
+  - malign
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  - sanal mikroskop
+  categoriesEN:
+  - stomach
+  - carcinogenesis
+  - malignant
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  - virtual microscopy
+  - virtual microscope
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_carcinogenesis.png
+  githubrepo: https://github.com/pathologyatlas/carcinogenesis
+  githubpage: https://pathologyatlas.github.io/carcinogenesis
+  youtube: ''
+- stainname: exostosis-oc
+  reponame: exostosis
+  titleTR: 'Ekzostoz: Osteokondrom'
+  titleEN: 'Exostosis: Osteochondroma'
+  organTR: kemik
+  organEN: Bone
+  speciality: Bone
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-06-26'
+  url: https://images.patolojiatlasi.com/exostosis/oc.html
+  note: Osteochondroma in bone
+  categoriesTR:
+  - kemik
+  - benign
+  - tümör
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  - sanal mikroskop
+  categoriesEN:
+  - bone
+  - benign
+  - tumor
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  - virtual microscopy
+  - virtual microscope
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_exostosis-1.png
+  githubrepo: https:///github.com/pathologyatlas/exostosis
+  githubpage: https:///pathologyatlas.github.io/exostosis
+  youtube: ''
+- stainname: exostosis-oc001
+  reponame: exostosis
+  titleTR: Ekzostoz
+  titleEN: Exostosis
+  organTR: Kemik
+  organEN: bone
+  speciality: bone
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/exostosis/oc001.html
+  note: Exostosis in bone
+  categoriesTR:
+  - kemik
+  - benign
+  - tümör
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  - sanal mikroskop
+  categoriesEN:
+  - bone
+  - benign
+  - tumor
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  - virtual microscopy
+  - virtual microscope
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_exostosis-2.png
+  githubrepo: https://github.com/pathologyatlas/exostosis
+  githubpage: https://pathologyatlas.github.io/exostosis
+  youtube: ''
+- stainname: exostosis-oc002
+  reponame: exostosis
+  titleTR: Ekzostoz
+  titleEN: Exostosis
+  organTR: Kemik
+  organEN: bone
+  speciality: bone
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/exostosis/oc002.html
+  note: Exostosis in bone
+  categoriesTR:
+  - kemik
+  - benign
+  - tümör
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  - sanal mikroskop
+  categoriesEN:
+  - bone
+  - benign
+  - tumor
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  - virtual microscopy
+  - virtual microscope
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_exostosis-3.png
+  githubrepo: https://github.com/pathologyatlas/exostosis
+  githubpage: https://pathologyatlas.github.io/exostosis
+  youtube: ''
+- stainname: chronicpyelonephritis-HE1
+  reponame: chronicpyelonephritis
+  titleTR: Kronik Piyelonefrit
+  titleEN: Chronic Pyelonephritis
+  organTR: Böbrek
+  organEN: Kidney
+  speciality: genitourinary
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-03-02'
+  url: https://images.patolojiatlasi.com/chronicpyelonephritis/HE1.html
+  note: Chronik pyelonephritis in kidney
+  categoriesTR:
+  - böbrek
+  - kronik piyelonefrit
+  - inflamasyon
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  - sanal mikroskop
+  categoriesEN:
+  - kidney
+  - chronic pyelonephritis
+  - inflammation
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  - virtual microscopy
+  - virtual microscope
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronicpyelonephritis-1.png
+  githubrepo: https://github.com/pathologyatlas/chronicpyelonephritis
+  githubpage: https://pathologyatlas.github.io/chronicpyelonephritis
+  youtube: ''
+- stainname: chronicpyelonephritis-HE2
+  reponame: chronicpyelonephritis
+  titleTR: Kronik Piyelonefrit
+  titleEN: Chronic Pyelonephritis
+  organTR: Böbrek
+  organEN: Kidney
+  speciality: genitourinary
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-03-02'
+  url: https://images.patolojiatlasi.com/chronicpyelonephritis/HE2.html
+  note: Chronik pyelonephritis in kidney
+  categoriesTR:
+  - böbrek
+  - kronik piyelonefrit
+  - inflamasyon
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  - sanal mikroskop
+  categoriesEN:
+  - kidney
+  - chronic pyelonephritis
+  - inflammation
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  - virtual microscopy
+  - virtual microscope
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronicpyelonephritis-2.png
+  githubrepo: https://github.com/pathologyatlas/chronicpyelonephritis
+  githubpage: https://pathologyatlas.github.io/chronicpyelonephritis
+  youtube: ''
+- stainname: chronic-pyelonephritis-HE
+  reponame: chronic-pyelonephritis
+  titleTR: Kronik Piyelonefrit
+  titleEN: Chronic Pyelonephritis
+  organTR: Böbrek
+  organEN: Kidney
+  speciality: genitourinary
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-03-02'
+  url: https://images.patolojiatlasi.com/chronic-pyelonephritis/HE.html
+  note: ''
+  categoriesTR:
+  - böbrek
+  - kronik piyelonefrit
+  - inflamasyon
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  - sanal mikroskop
+  categoriesEN:
+  - kidney
+  - chronic pyelonephritis
+  - inflammation
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  - virtual microscopy
+  - virtual microscope
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_chronic-pyelonephritis.png
+  githubrepo: https://github.com/pathologyatlas/chronic-pyelonephritis
+  githubpage: https://pathologyatlas.github.io/chronic-pyelonephritis
+  youtube: ''
+- stainname: cholesteatoma-cholesteatoma
+  reponame: cholesteatoma
+  titleTR: Kolestetom
+  titleEN: Cholesteatoma
+  organTR: kulak
+  organEN: ear
+  speciality: ENT
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-06-26'
+  url: https://images.patolojiatlasi.com/cholesteatoma/cholesteatoma.html
+  note: Cholestatoma in ear
+  categoriesTR:
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  - sanal mikroskop
+  categoriesEN:
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  - virtual microscopy
+  - virtual microscope
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cholesteatoma.png
+  githubrepo: https:///github.com/pathologyatlas/cholesteatoma
+  githubpage: https:///pathologyatlas.github.io/cholesteatoma
+  youtube: ''
+- stainname: cholesteatoma-HE
+  reponame: cholesteatoma
+  titleTR: Kolesteatom
+  titleEN: Cholesteatoma
+  organTR: kulak
+  organEN: ear
+  speciality: ENT
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/cholesteatoma/cholesteatoma.html
+  note: ''
+  categoriesTR:
+  - kolesteatom
+  - kulak
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  - sanal mikroskop
+  categoriesEN:
+  - cholesteatoma
+  - ear
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  - virtual microscopy
+  - virtual microscope
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cholesteatoma.png
+  githubrepo: https://github.com/pathologyatlas/cholesteatoma
+  githubpage: https://pathologyatlas.github.io/cholesteatoma
+  youtube: ''
 - stainname: pleomorphism-HE
   reponame: pleomorphism
   titleTR: ''
@@ -2140,6 +1828,131 @@
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_pleomorphism-HE.png
   githubrepo: https://github.com/pathologyatlas/pleomorphism
   githubpage: https://pathologyatlas.github.io/pleomorphism
+  youtube: ''
+- stainname: candidaalbicans-cervicovaginalsmear/viewer_z0
+  reponame: candidaalbicans
+  titleTR: Servikovajinal yaymada Candida albicans
+  titleEN: Candida albicans in cervicovaginal smear
+  organTR: serviks
+  organEN: cervix
+  speciality: gynecologic
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-02-18'
+  url: https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html
+  note: Candida albicans in cervicovaginal smear
+  categoriesTR:
+  - serviks
+  - sitoloji
+  - PAP
+  - smear
+  - mantar
+  - enfeksiyon
+  - Candida
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  - sanal mikroskop
+  categoriesEN:
+  - cervix
+  - cytology
+  - PAP
+  - smear
+  - fungus
+  - infection
+  - Candida
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  - virtual microscopy
+  - virtual microscope
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_candidaalbicans.png
+  githubrepo: https://github.com/pathologyatlas/candidaalbicans
+  githubpage: https://pathologyatlas.github.io/candidaalbicans
+  youtube: ''
+- stainname: brain-mucormycosis-HE
+  reponame: brain-mucormycosis
+  titleTR: Beyin Mukormikozisi
+  titleEN: Brain Mucormycosis
+  organTR: beyin
+  organEN: brain
+  speciality: neuro
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-03-02'
+  url: https://images.patolojiatlasi.com/brain-mucormycosis/HE.html
+  note: ''
+  categoriesTR:
+  - beyin
+  - mukormikozis
+  - enfeksiyon
+  - mantar
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  - sanal mikroskop
+  categoriesEN:
+  - brain
+  - mucormycosis
+  - infection
+  - fungus
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  - virtual microscopy
+  - virtual microscope
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-mucormycosis.png
+  githubrepo: https://github.com/pathologyatlas/brain-mucormycosis
+  githubpage: https://pathologyatlas.github.io/brain-mucormycosis
+  youtube: ''
+- stainname: brain-mucormycosis-GMS
+  reponame: brain-mucormycosis
+  titleTR: Beyin Mukormikozisi (GMS)
+  titleEN: Brain Mucormycosis (GMS)
+  organTR: beyin
+  organEN: brain
+  speciality: neuro
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-06-29'
+  url: https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html
+  note: Brain mucormycosis with GMS stain
+  categoriesTR:
+  - beyin
+  - mukormikozis
+  - enfeksiyon
+  - mantar
+  - histokimya
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  - sanal mikroskop
+  categoriesEN:
+  - brain
+  - mucormycosis
+  - infection
+  - fungus
+  - histochemistry
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  - virtual microscopy
+  - virtual microscope
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-mucormycosis-GMS.png
+  githubrepo: https://github.com/pathologyatlas/brain-mucormycosis
+  githubpage: https://pathologyatlas.github.io/brain-mucormycosis
   youtube: ''
 - stainname: brain-invasive-meningioma-HE
   reponame: brain-invasive-meningioma
@@ -2264,37 +2077,6 @@
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_meningioma-bone-infiltration}-HE.png
   githubrepo: https://github.com/pathologyatlas/meningioma-bone-infiltration}
   githubpage: https://pathologyatlas.github.io/meningioma-bone-infiltration}
-  youtube: ''
-- stainname: abdominal-mesothelioma-HE
-  reponame: abdominal-mesothelioma
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
-  speciality: ''
-  type: unpublished
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-03-02'
-  url: https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html
-  note: ''
-  categoriesTR:
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_abdominal-mesothelioma-HE.png
-  githubrepo: https://github.com/pathologyatlas/abdominal-mesothelioma
-  githubpage: https://pathologyatlas.github.io/abdominal-mesothelioma
   youtube: ''
 - stainname: metaplasia-HE
   reponame: metaplasia
@@ -2513,6 +2295,37 @@
   githubrepo: ''
   githubpage: ''
   youtube: ''
+- stainname: abdominal-mesothelioma-HE
+  reponame: abdominal-mesothelioma
+  titleTR: ''
+  titleEN: ''
+  organTR: ''
+  organEN: ''
+  speciality: ''
+  type: unpublished
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-03-02'
+  url: https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html
+  note: ''
+  categoriesTR:
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  - sanal mikroskop
+  categoriesEN:
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  - virtual microscopy
+  - virtual microscope
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_abdominal-mesothelioma-HE.png
+  githubrepo: https://github.com/pathologyatlas/abdominal-mesothelioma
+  githubpage: https://pathologyatlas.github.io/abdominal-mesothelioma
+  youtube: ''
 - stainname: gastritis-cystica-profunda-HE
   reponame: gastritis-cystica-profunda
   titleTR: ''
@@ -2699,6 +2512,43 @@
   githubrepo: ''
   githubpage: ''
   youtube: ''
+- stainname: granular-cell-tumor-HE
+  reponame: granular-cell-tumor
+  titleTR: Özofagus Granüler Hücreli Tümör
+  titleEN: Esophagus Granular Cell Tumor
+  organTR: özofagus
+  organEN: esophagus
+  speciality: gasrointestinal
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-03-02'
+  url: https://images.patolojiatlasi.com/granular-cell-tumor/HE.html
+  note: Granular cell tumor in esophagus
+  categoriesTR:
+  - özofagus
+  - granüler hücreli tümör
+  - benign
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  - sanal mikroskop
+  categoriesEN:
+  - esophagus
+  - granular cell tumor
+  - benign
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  - virtual microscopy
+  - virtual microscope
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_granular-cell-tumor.png
+  githubrepo: https://github.com/pathologyatlas/granular-cell-tumor
+  githubpage: https://pathologyatlas.github.io/granular-cell-tumor
+  youtube: ''
 - stainname: chorioamnionitis-HE
   reponame: chorioamnionitis
   titleTR: Korioamniyonit
@@ -2772,6 +2622,156 @@
   screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_benign-prostate-hyperplasia-HE.png
   githubrepo: https://github.com/pathologyatlas/benign-prostate-hyperplasia
   githubpage: https://pathologyatlas.github.io/benign-prostate-hyperplasia
+  youtube: ''
+- stainname: gallbladder-adenomyoma-HE
+  reponame: gallbladder-adenomyoma
+  titleTR: Safra Kesesi Adenomyoma
+  titleEN: Gallbladder Adenomyoma
+  organTR: safra kesesi
+  organEN: gallbladder
+  speciality: pancreatobiliary
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-03-02'
+  url: https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html
+  note: ''
+  categoriesTR:
+  - safra kesesi
+  - adenomyoma
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  - sanal mikroskop
+  categoriesEN:
+  - gallbladder
+  - adenomyoma
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  - virtual microscopy
+  - virtual microscope
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_gallbladder-adenomyoma.png
+  githubrepo: https://github.com/pathologyatlas/gallbladder-adenomyoma
+  githubpage: https://pathologyatlas.github.io/gallbladder-adenomyoma
+  youtube: ''
+- stainname: ischemia-gangrenous-cholecystitis-HE
+  reponame: ischemia-gangrenous-cholecystitis
+  titleTR: İskemik Gangrenöz Kolesistit
+  titleEN: Ischemic Gangrenous Cholecystitis
+  organTR: safra kesesi
+  organEN: gallbladder
+  speciality: pancreatobiliary
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-03-02'
+  url: https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html
+  note: ''
+  categoriesTR:
+  - safra kesesi
+  - iskemi
+  - gangren
+  - kolesistit
+  - inflamasyon
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  - sanal mikroskop
+  categoriesEN:
+  - gallbladder
+  - ischemia
+  - gangrenous
+  - cholecystitis
+  - inflammation
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  - virtual microscopy
+  - virtual microscope
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_ischemia-gangrenous-cholecystitis.png
+  githubrepo: https://github.com/pathologyatlas/ischemia-gangrenous-cholecystitis
+  githubpage: https://pathologyatlas.github.io/ischemia-gangrenous-cholecystitis
+  youtube: ''
+- stainname: cervix-SCC-HE
+  reponame: cervix-SCC
+  titleTR: Serviks Skuamöz Hücreli Karsinom
+  titleEN: Cervix Squamous Cell Carcinoma
+  organTR: serviks
+  organEN: cervix
+  speciality: gyneacologic
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-03-02'
+  url: https://images.patolojiatlasi.com/cervix-SCC/HE.html
+  note: ''
+  categoriesTR:
+  - serviks
+  - skuamöz hücreli karsinom
+  - malign
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  - sanal mikroskop
+  categoriesEN:
+  - cervix
+  - squamous cell carcinoma
+  - malignant
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  - virtual microscopy
+  - virtual microscope
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_cervix-SCC.png
+  githubrepo: https://github.com/pathologyatlas/cervix-SCC
+  githubpage: https://pathologyatlas.github.io/cervix-SCC
+  youtube: ''
+- stainname: brain-arteriovenous-malformation-HE
+  reponame: brain-arteriovenous-malformation
+  titleTR: Beyinde arteriyovenöz malformasyon
+  titleEN: Brain arteriovenous malformation
+  organTR: beyin
+  organEN: brain
+  speciality: neuro
+  type: published
+  author:
+  - Serdar Balci
+  - Memorial Patoloji
+  date: '2024-03-02'
+  url: https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html
+  note: ''
+  categoriesTR:
+  - beyin
+  - arteriyovenöz malformasyon
+  - vasküler
+  - patoloji
+  - atlas
+  - histopatoloji
+  - whole slide image
+  - sanal mikroskop
+  categoriesEN:
+  - brain
+  - arteriovenous malformation
+  - vascular
+  - pathology
+  - atlas
+  - histopathology
+  - whole slide image
+  - virtual microscopy
+  - virtual microscope
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_brain-arteriovenous-malformation.png
+  githubrepo: https://github.com/pathologyatlas/brain-arteriovenous-malformation
+  githubpage: https://pathologyatlas.github.io/brain-arteriovenous-malformation
   youtube: ''
 - stainname: fibrosis-HE
   reponame: fibrosis

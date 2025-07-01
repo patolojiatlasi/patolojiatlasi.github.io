@@ -1,0 +1,376 @@
+
+
+```{comment}
+---
+description: |
+    {{TemplateTR}}, {{TemplateEN}}, patoloji, atlas, pathology, whole slide image, virtual microscopy, virtual microscope, sanal mikroskop
+date: last-modified
+categories: [{{TemplateTR}}, {{TemplateEN}}]
+page-layout: full
+bibliography: references.bib
+---
+```
+
+
+
+
+```{r language BS2, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis sirotik nodülde peliozis , echo = (language == "TR")}
+## BS2 sirotik nodülde peliozis {#sec-BS2 }
+```
+
+
+```{asis peliosis in cirrhotic nodule , echo = (language == "EN")}
+## BS2 peliosis in cirrhotic nodule {#sec-BS2 }
+```
+
+
+
+
+
+
+```{r BS2 screenshot HE, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_BS2-HE.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/BS2/HE.html",
+  file = "./screenshots/thumbnail_BS2-HE.png"
+)
+}
+```
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**sirotik nodülde peliozis**
+
+
+ [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS2-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS2/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS2/HE.html)
+```
+
+```{asis, echo = (language == "EN")}
+
+**peliosis in cirrhotic nodule**
+
+ [![Click for Full Screen WSI](./screenshots/thumbnail_BS2-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS2/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS2/HE.html)
+
+```
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/BS2/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/BS2/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+
+
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı
+
+sirotik nodülde peliozis
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+
+
+peliosis in cirrhotic nodule
+
+:::
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+

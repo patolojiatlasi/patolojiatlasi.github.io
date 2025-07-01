@@ -10,13 +10,11 @@ project:
     - openseadragon
     - annotorious
     - files
-    - lists
     - CNAME
     - "script.js"
     - "webpages.js"
     - "webpages.txt"
     - "headerTR.html"
-    - "rss_feed.xml"
 
   pre-render:
     - ./R/prerender_TR.R
@@ -48,11 +46,9 @@ book:
      affiliation: "Memorial Patoloji ve Diğer Kurumlar"
      affiliation-url: "https://www.patolojiatlasi.com/yazarlar.html"
   description: |
-    Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları.  
-    Patoloji Atlas. 
-    Patoloji Notu. 
-    Sanal Mikroskop.  
-    Online Patoloji Atlası.  
+    Tanıtım: Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları.
+    Patoloji Atlas
+    Patoloji Notu
     Patoloji Ders Notları ve Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan ve diğer kurumlardan katkı yapan meslektaşlarımızın kolleksiyonlarından oluşmaktadır.
   abstract: |
     Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları.
@@ -65,8 +61,7 @@ book:
   cover-image: images/coverTR.png
   site-url: https://patolojiatlasi.com/
 #  repo-url: https://github.com/patolojiatlasi/patolojiatlasi.github.io
-  google-analytics:
-    tracking-id:  "G-7BT7Q4FLT9"
+  google-analytics: "G-7BT7Q4FLT9"
 #  repo-branch: main
 #  repo-actions: [edit, issue, source]
   sharing: [twitter, facebook, linkedin]
@@ -215,8 +210,8 @@ book:
           href: karaciger-malign.qmd
     - part: "Pankreatobilier Sistem Patolojisi"
       chapters:
-        - text: "Pankreas Tümörleri"
-          href: pankreas.qmd
+        # - text: "Malign Pankreas Tümörleri"
+        #   href: pankreas-malign.qmd
         # - text: "Pankreas Duktal Adenokarsinom"
         #   href: pdac.qmd
         - text: "Safra Kesesi"
@@ -225,8 +220,6 @@ book:
           href: ampulla-vater.qmd
     - part: "Akciğer Patolojisi"
       chapters:
-        - text: "Akciğer Tümörleri"
-          href: akciger.qmd
         - text: "Nöroendokrin"
           href: noroendokrin.qmd
     - part: "Mezotel"
@@ -287,10 +280,6 @@ book:
       chapters:
         - text: "Adipöz Doku Patolojisi"
           href: adipoz.qmd
-    - part: "Deri Patolojisi"
-      chapters:
-        - text: "Deri Hastalıkları"
-          href: deri.qmd
     - part: "Pediatrik ve Perinatal Patoloji"
       chapters:
         - plasenta.qmd
@@ -310,27 +299,6 @@ book:
     - part: "---"
     - referanslar.qmd
     - part: "---"
-    - part: "Listeler"
-      chapters:
-        - text: "Tümü"
-          href: lists/published.qmd
-        # - text: "Tümü - 2"
-        #   href: lists/published-2.qmd
-        # - text: "Tümü - 3"
-        #   href: lists/published-3.qmd
-        - text: "Özel Boyalar"
-          href: lists/stains.qmd
-        - text: "pancreatobiliary"
-          href: lists/pancreatobiliary.qmd
-        - text: "pancreatobiliary2"
-          href: lists/pancreatobiliary2.html
-        - text: "İnteraktif Liste"
-          href: lists/interaktif.html
-    # - listing.qmd
-    # - lists/listing2.qmd
-    # - listing3.qmd
-    # - listing4.qmd
-    - part: "---"
   appendices:
     - text: "Yazarlar ve Katkıda Bulunanlar"
       href: yazarlar.qmd
@@ -342,8 +310,15 @@ book:
     - yonetim-gelistirme.qmd
     - text: "İletişim"
       href: katki.qmd
+    - text: "Vaka Listesi"
+      href: lists/index.qmd
     - text: "Artırılmış Gerçeklik"
       href: artirilmis-gerceklik.qmd
+#    - text: "Liste"
+#      href: listing.qmd
+#    - listing2.qmd
+    # - listing3.qmd
+    # - listing4.qmd
     # - feature-trials.qmd
 
 bibliography: references.bib
@@ -380,9 +355,6 @@ format:
       warning: false
     css: styles.css
     self-contained: false
-    feed:
-      type: rss
-      path: feed.xml
     anchor-sections: true
     link-external-icon: true
     link-external-newwindow: true
@@ -407,5 +379,4 @@ citation:
 
 
 editor: source
-
 

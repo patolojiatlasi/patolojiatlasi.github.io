@@ -30,8 +30,8 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
-{{< include ./_subchapters/_ampullary-adenocarcinoma.qmd >}}
+{{< include ./_subchapters/_ampullary-adenocarcinoma_EN_EN_EN.qmd >}}
 
-{{< include ./_subchapters/_WDNET-ampulla.qmd >}}
+{{< include ./_subchapters/_WDNET-ampulla_EN_EN_EN.qmd >}}
 
 

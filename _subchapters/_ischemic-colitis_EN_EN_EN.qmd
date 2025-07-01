@@ -1,0 +1,222 @@
+
+
+```{comment}
+---
+description: |
+    İskemik Kolit, Ischemic Colitis, patoloji, atlas, pathology, whole slide image, virtual microscopy, virtual microscope, sanal mikroskop
+date: last-modified
+categories: [İskemik Kolit, Ischemic Colitis]
+page-layout: full
+bibliography: references.bib
+---
+```
+
+
+
+```{r echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis İskemik Kolit TR , echo = (language == "TR")}
+### İskemik Kolit {#sec-ischemic-colitis }
+```
+
+
+```{asis Ischemic Colitis EN , echo = (language == "EN")}
+### Ischemic Colitis {#sec-ischemic-colitis }
+```
+
+
+
+
+
+
+```{r ischemic-colitis screenshot HE, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_ischemic-colitis-HE.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/ischemic-colitis/HE.html",
+  file = "./screenshots/thumbnail_ischemic-colitis-HE.png"
+)
+}
+```
+
+
+
+```{r ischemic-colitis qrcode HE, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/ischemic-colitis-HE_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/ischemic-colitis/HE.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/ischemic-colitis-HE_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**İskemik Kolit**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_ischemic-colitis-HE.png){width="25%"}](https://images.patolojiatlasi.com/ischemic-colitis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ischemic-colitis/HE.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "TR")}
+
+**İskemik Kolit**
+
+![](./qrcodes/ischemic-colitis-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_ischemic-colitis-HE.png){width="25%"}](https://images.patolojiatlasi.com/ischemic-colitis/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ischemic-colitis/HE.html)
+
+```
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Ischemic Colitis**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_ischemic-colitis-HE.png){width="25%"}](https://images.patolojiatlasi.com/ischemic-colitis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ischemic-colitis/HE.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "EN")}
+
+**Ischemic Colitis**
+
+![](./qrcodes/ischemic-colitis-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_ischemic-colitis-HE.png){width="25%"}](https://images.patolojiatlasi.com/ischemic-colitis/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ischemic-colitis/HE.html)
+
+```
+
+
+::::
+
+
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/ischemic-colitis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/ischemic-colitis/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+### Diagnosis
+
+
+```{asis, echo = (language == "TR")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Tanı için tıklayın
+
+İskemik Kolit
+
+:::
+
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+
+::: {.callout-tip collapse="true" appearance="default" icon="true"}
+### Click for Diagnosis
+
+Ischemic Colitis
+
+:::
+
+```
+
+
+
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+

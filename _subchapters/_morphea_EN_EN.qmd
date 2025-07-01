@@ -1,0 +1,187 @@
+```{comment}
+---
+description: |
+    Morfea, Morphea, patoloji, atlas, pathology, whole slide image, virtual microscopy, virtual microscope, sanal mikroskop
+date: last-modified
+categories: [Morfea, Morphea]
+page-layout: full
+bibliography: references.bib
+---
+```
+
+
+
+```{r language morphea, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis Morfea TR , echo = (language == "TR")}
+## Morfea {#sec-morphea }
+```
+
+
+```{asis Morphea EN , echo = (language == "EN")}
+## Morphea {#sec-morphea }
+```
+
+
+
+
+
+
+```{r morphea screenshot HE, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_morphea-HE.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/morphea/HE.html",
+  file = "./screenshots/thumbnail_morphea-HE.png"
+)
+}
+```
+
+
+
+```{r morphea qrcode HE, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/morphea-HE_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/morphea/HE.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/morphea-HE_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+
+
+
+
+::::: panel-tabset
+
+
+### WSI - Link
+
+
+
+
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "TR")}
+
+**Morfea**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_morphea-HE.png){width="25%"}](https://images.patolojiatlasi.com/morphea/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/morphea/HE.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "TR")}
+
+**Morfea**
+
+![](./qrcodes/morphea-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_morphea-HE.png){width="25%"}](https://images.patolojiatlasi.com/morphea/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/morphea/HE.html)
+
+```
+
+
+
+::::
+
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Morphea**
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_morphea-HE.png){width="25%"}](https://images.patolojiatlasi.com/morphea/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/morphea/HE.html)
+
+```
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+```{asis, echo = (language == "EN")}
+
+**Morphea**
+
+![](./qrcodes/morphea-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_morphea-HE.png){width="25%"}](https://images.patolojiatlasi.com/morphea/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/morphea/HE.html)
+
+```
+
+
+::::
+
+
+
+
+
+
+
+### WSI
+
+
+
+
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/morphea/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))}
+
+See Microscopy with viewer:
+
+<iframe src="https://images.patolojiatlasi.com/morphea/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
