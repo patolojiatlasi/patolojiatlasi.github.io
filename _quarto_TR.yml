@@ -370,6 +370,7 @@ format:
       - file: "./headerTR.html"
     filters:
       - collapse-social-embeds
+      - linkate
     feeds:
       rss: true
 citation:
