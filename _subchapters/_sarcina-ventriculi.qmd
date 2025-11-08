@@ -34,10 +34,10 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{r sarcina-ventriculi screenshot HE, eval=TRUE, include=FALSE}
 if (!file.exists("./screenshots/thumbnail_sarcina-ventriculi-HE.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html",
-  file = "./screenshots/thumbnail_sarcina-ventriculi-HE.png"
-)
+    webshot2::webshot(
+        url = "https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html",
+        file = "./screenshots/thumbnail_sarcina-ventriculi-HE.png"
+    )
 }
 ```
 
@@ -45,12 +45,13 @@ webshot2::webshot(
 
 ```{r sarcina-ventriculi qrcode HE, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/sarcina-ventriculi-HE_qrcode.svg")) {
+    qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html")
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html")
-
-  qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/sarcina-ventriculi-HE_qrcode.svg",
-                       show = FALSE)
+    qrcode::generate_svg(
+        qrcode = qrcode_svg,
+        filename = "./qrcodes/sarcina-ventriculi-HE_qrcode.svg",
+        show = FALSE
+    )
 }
 ```
 
@@ -64,8 +65,6 @@ if (!file.exists("./qrcodes/sarcina-ventriculi-HE_qrcode.svg")) {
 
 
 ### WSI - Link
-
-:::: {.content-visible}
 
 
 
@@ -129,7 +128,6 @@ if (!file.exists("./qrcodes/sarcina-ventriculi-HE_qrcode.svg")) {
 ```
 
 
-::::
 ::::
 
 
@@ -208,15 +206,5 @@ Sarcina ventriculi
 
 
 :::::
-
-
-
-
-
-
-
-
-
-
 
 

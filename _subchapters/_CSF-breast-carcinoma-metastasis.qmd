@@ -1,24 +1,11 @@
 
 
-
-
-## CSF-breast-carcinoma-metastasis
-
-
-**CSF-breast-carcinoma-metastasis for pathology atlas repositories**
-
-
-
-
-
-
-
 ```{comment}
 ---
 description: |
-    Beyin Omurilik Sıvıcında Meme Karsinom Metastazı, Breast Carcinoma Metastasis in Cerebrospinal Fluid, patoloji, atlas, pathology, whole slide image, virtual microscopy, virtual microscope, sanal mikroskop
+    Beyin Omurilik Sıvısında Meme Karsinom Metastazı, Breast Carcinoma Metastasis in Cerebrospinal Fluid, patoloji, atlas, pathology, whole slide image, virtual microscopy, virtual microscope, sanal mikroskop
 date: last-modified
-categories: [Beyin Omurilik Sıvıcında Meme Karsinom Metastazı, Breast Carcinoma Metastasis in Cerebrospinal Fluid]
+categories: [Beyin Omurilik Sıvısında Meme Karsinom Metastazı, Breast Carcinoma Metastasis in Cerebrospinal Fluid]
 page-layout: full
 bibliography: references.bib
 ---
@@ -32,8 +19,8 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
-```{asis Beyin Omurilik Sıvıcında Meme Karsinom Metastazı TR , echo = (language == "TR")}
-## Beyin Omurilik Sıvıcında Meme Karsinom Metastazı {#sec-CSF-breast-carcinoma-metastasis }
+```{asis Beyin Omurilik Sıvısında Meme Karsinom Metastazı TR , echo = (language == "TR")}
+## Beyin Omurilik Sıvısında Meme Karsinom Metastazı {#sec-CSF-breast-carcinoma-metastasis }
 ```
 
 
@@ -110,8 +97,6 @@ if (!file.exists("./qrcodes/CSF-breast-carcinoma-metastasis-MGG_qrcode.svg")) {
 
 ### WSI - Link
 
-:::: {.content-visible}
-
 
 
 
@@ -122,7 +107,7 @@ if (!file.exists("./qrcodes/CSF-breast-carcinoma-metastasis-MGG_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**Beyin Omurilik Sıvıcında Meme Karsinom Metastazı**
+**Beyin Omurilik Sıvısında Meme Karsinom Metastazı**
 
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_CSF-breast-carcinoma-metastasis-PAP.png){width="25%"}](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/PAP.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/PAP.html)
@@ -136,7 +121,7 @@ if (!file.exists("./qrcodes/CSF-breast-carcinoma-metastasis-MGG_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**Beyin Omurilik Sıvıcında Meme Karsinom Metastazı**
+**Beyin Omurilik Sıvısında Meme Karsinom Metastazı**
 
 ![](./qrcodes/CSF-breast-carcinoma-metastasis-PAP_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_CSF-breast-carcinoma-metastasis-PAP.png){width="25%"}](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/PAP.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/PAP.html)
 
@@ -189,7 +174,7 @@ if (!file.exists("./qrcodes/CSF-breast-carcinoma-metastasis-MGG_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**Beyin Omurilik Sıvıcında Meme Karsinom Metastazı**
+**Beyin Omurilik Sıvısında Meme Karsinom Metastazı**
 
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_CSF-breast-carcinoma-metastasis-MGG.png){width="25%"}](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/MGG.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/MGG.html)
@@ -203,7 +188,7 @@ if (!file.exists("./qrcodes/CSF-breast-carcinoma-metastasis-MGG_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**Beyin Omurilik Sıvıcında Meme Karsinom Metastazı**
+**Beyin Omurilik Sıvısında Meme Karsinom Metastazı**
 
 ![](./qrcodes/CSF-breast-carcinoma-metastasis-MGG_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_CSF-breast-carcinoma-metastasis-MGG.png){width="25%"}](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/MGG.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/MGG.html)
 
@@ -242,7 +227,7 @@ if (!file.exists("./qrcodes/CSF-breast-carcinoma-metastasis-MGG_qrcode.svg")) {
 
 
 ::::
-::::
+
 
 
 
@@ -316,7 +301,7 @@ See Microscopy with viewer:
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Tanı için tıklayın
 
-Beyin Omurilik Sıvıcında Meme Karsinom Metastazı
+Beyin Omurilik Sıvısında Meme Karsinom Metastazı
 
 :::
 
