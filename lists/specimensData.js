@@ -1080,6 +1080,26 @@ const specimensData = [
     "youtube": ""
   },
   {
+    "stainname": "sarcina-ventriculi-HE",
+    "reponame": "sarcina-ventriculi",
+    "titleTR": "Sarcina ventriculi",
+    "titleEN": "Sarcina ventriculi",
+    "organTR": "",
+    "organEN": "",
+    "speciality": "",
+    "type": "published",
+    "author": ["Serdar Balci", "Çiğdem Irkkan"],
+    "date": "2025-11-06",
+    "url": "https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html",
+    "note": "",
+    "categoriesTR": ["", "", "", "patoloji", "atlas", "histopatoloji", "whole slide image", "sanal mikroskop"],
+    "categoriesEN": ["", "", "", "pathology", "atlas", "histopathology", "whole slide image", "virtual microscopy", "virtual microscope"],
+    "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_sarcina-ventriculi-HE.png",
+    "github": "https:///github.com/pathologyatlas/sarcina-ventriculi",
+    "githubpage": "https://pathologyatlas.github.io/sarcina-ventriculi",
+    "youtube": ""
+  },
+  {
     "stainname": "exostosis-HE",
     "reponame": "exostosis",
     "titleTR": "Eksostoz",

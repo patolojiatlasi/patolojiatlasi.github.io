@@ -1,26 +1,12 @@
+# Load utilities ----
+source("./R/config.R")
+source("./R/utils.R")
+
 # prepare EN  ----
+setup_language_build("EN", source_freeze_dir = "./_freeze_EN")
 
-fs::file_copy(path = "./_quarto_EN.yml",
-              new_path = "./_quarto.yml",
-              overwrite = TRUE)
-
-
-fs::file_copy(path = "./R/languageEN.R",
-              new_path = "./R/language.R",
-              overwrite = TRUE)
-
-if (dir.exists(paths = "./_freeze")) {
-  fs::dir_delete(path = "./_freeze")
-}
-
-if (dir.exists(paths = "./_freeze_EN")) {
-  fs::dir_copy(path = "./_freeze_EN",
-               new_path = "./_freeze",
-               overwrite = TRUE)
-}
-
-patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx", sheet = "chapters")
-
+# Read chapter mappings from YAML (replaces Excel dependency)
+patolojiatlasi_histopathologyatlas <- read_chapter_mappings()
 patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_chapter_qmd")]
 
 TR_chapter_qmd <- paste0("./", patolojiatlasi_histopathologyatlas$TR_chapter_qmd, ".qmd")
@@ -28,6 +14,9 @@ TR_chapter_qmd <- paste0("./", patolojiatlasi_histopathologyatlas$TR_chapter_qmd
 EN_chapter_qmd <- paste0("./", patolojiatlasi_histopathologyatlas$EN_chapter_qmd, ".qmd")
 
 subchapter_files <- list.files(path = "./_subchapters", pattern = "*.qmd", recursive = FALSE)
+
+# CRITICAL FIX: Exclude files that already have _EN suffix to prevent _EN_EN_EN multiplication
+subchapter_files <- subchapter_files[!grepl("_EN\\.qmd$", subchapter_files)]
 
 subchapter_files  <- paste0("./_subchapters/", subchapter_files)
 
@@ -42,9 +31,25 @@ fs::file_copy(path = TR_chapter_qmd,
               overwrite = TRUE)
 
 
+# CRITICAL FIX: Make pattern replacement IDEMPOTENT
+# First, clean up any _EN_EN_EN... accumulations from previous failed builds
+# Then, add _EN suffix fresh
+# This makes the operation safe to run multiple times
+
+# Step 1: Remove ALL _EN suffixes (handle _EN_EN_EN_EN -> _EN_EN_EN -> _EN_EN -> _EN -> clean)
+# Multiple passes to handle accumulated corruptions
+for (pass in 1:5) {
+  xfun::gsub_files(files = EN_chapter_qmd,
+                   pattern = "_EN.qmd >}}",
+                   replacement = ".qmd >}}",
+                   fixed = TRUE)
+}
+
+# Step 2: Now safely add _EN suffix (we know all patterns are .qmd now)
 xfun::gsub_files(files = EN_chapter_qmd,
                  pattern = ".qmd >}}",
-                 replacement = "_EN.qmd >}}"
+                 replacement = "_EN.qmd >}}",
+                 fixed = TRUE
 )
 
 
@@ -58,14 +63,8 @@ quarto::quarto_render(".", as_job = FALSE)
 
 # post render EN  ----
 
-
-if (dir.exists(paths = "./_freeze")) {
-  fs::dir_copy(path = "./_freeze",
-               new_path = "./_freeze_EN",
-               overwrite = TRUE)
-}
-
-
+# Save freeze directory for future builds
+save_freeze_directory("EN")
 
 if (dir.exists(paths = "./_freeze")) {
   fs::dir_delete(path = "./_freeze")
@@ -82,8 +81,9 @@ files_to_revert <- EN_chapter_qmd[EN_chapter_qmd %in% TR_chapter_qmd]
 
 
 xfun::gsub_files(files = files_to_revert,
-                 pattern = "_EN.qmd >}}",
-                 replacement = ".qmd >}}"
+                 pattern = "_EN\\.qmd\\s*>}}",
+                 replacement = ".qmd >}}",
+                 fixed = FALSE
 )
 
 

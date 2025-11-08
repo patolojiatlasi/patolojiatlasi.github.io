@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Patoloji Atlası",
     "section": "",
-    "text": "Patoloji Atlası\n\n\n\nFor English click here.\nSosyal medyadan derlenen görüntülerden oluşan patoloji notları için tıklayın.\n\n\n\n  \n\nAtıf - Citation\n\n\n\n\nAtıf - Citation\n\n\n\n\n\n\n\nOpen Science Framework DOI: 10.17605/OSF.IO/6W5K8\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlease enable JavaScript to view the comments powered by Disqus.",
+    "text": "Patoloji Atlası\n\n\n\nFor English click here.\nSosyal medyadan derlenen görüntülerden oluşan patoloji notları için tıklayın.\n\n\n\n  \n\nAtıf - Citation\n\n\n\n\nAtıf - Citation\n\n\n\n\n\n\n\nOpen Science Framework DOI: 10.17605/OSF.IO/6W5K8\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlease enable JavaScript to view the comments powered by Disqus.\n\n\n\n\n\nLinks\n\niletişime geçin\npatolojiAI\nclick here\ntıklayın\n\nOpen Science Framework DOI: 10.17605/OSF.IO/6W5K8",
     "crumbs": [
       "Anasayfa"
     ]
@@ -14,7 +14,7 @@
     "href": "giris.html",
     "title": "Giriş",
     "section": "",
-    "text": "Leanpub\nGoogle Kitaplar - Google Books\nApple Kitaplar - Apple Books\nArtırılmış gerçeklik (Augmented reality)\nAtıf - Citation",
+    "text": "Links\nLeanpub\nGoogle Kitaplar - Google Books\nApple Kitaplar - Apple Books\nArtırılmış gerçeklik (Augmented reality)\nAtıf - Citation",
     "crumbs": [
       "Giriş"
     ]
@@ -316,6 +316,17 @@
     ]
   },
   {
+    "objectID": "bakteri.html#sarcina-ventriculi",
+    "href": "bakteri.html#sarcina-ventriculi",
+    "title": "15  Bakteriler",
+    "section": "15.2 sarcina-ventriculi",
+    "text": "15.2 sarcina-ventriculi\n```{comment}\n---\ndescription: |\n    Sarcina ventriculi, Sarcina ventriculi, patoloji, atlas, pathology, whole slide image, virtual microscopy, virtual microscope, sanal mikroskop\ndate: last-modified\ncategories: [Sarcina ventriculi, Sarcina ventriculi]\npage-layout: full\nbibliography: references.bib\n---\n```\n{r language sarcina-ventriculi, echo=FALSE, include=TRUE} source(\"./R/language.R\") output_type &lt;- knitr::opts_knit$get(\"rmarkdown.pandoc.to\")\n{asis Sarcina ventriculi TR , echo = (language == \"TR\")} ## Sarcina ventriculi {{#sec-sarcina-ventriculi }}\n{asis Sarcina ventriculi EN , echo = (language == \"EN\")} ## Sarcina ventriculi {{#sec-sarcina-ventriculi }}\n{r sarcina-ventriculi screenshot HE, eval=TRUE, include=FALSE} if (!file.exists(\"./screenshots/thumbnail_sarcina-ventriculi-HE.png\")) {{ webshot2::webshot(   url = \"https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html\",   file = \"./screenshots/thumbnail_sarcina-ventriculi-HE.png\" ) }}\n{r sarcina-ventriculi qrcode HE, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE} if (!file.exists(\"./qrcodes/sarcina-ventriculi-HE_qrcode.svg\")) {{   qrcode_svg &lt;- qrcode::qr_code(\"https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html\")   qrcode::generate_svg(qrcode = qrcode_svg,                        filename = \"./qrcodes/sarcina-ventriculi-HE_qrcode.svg\",                        show = FALSE) }}\n\nWSI - Link\n\n\n:::: {{.content-hidden when-format=“pdf”}}\n```{{asis, echo = (language == “TR”)}} Sarcina ventriculi\n{{width=“25%”}} Tam Ekran Görmek İçin Resmi Tıklayın\n\n::::\n\n:::: {{.content-visible when-format=\"pdf\"}}\n\n```{asis, echo = (language == \"TR\")}\n**Sarcina ventriculi**\n\n![](./qrcodes/sarcina-ventriculi-HE_qrcode.svg){{width=\"15%\"}} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_sarcina-ventriculi-HE.png){{width=\"25%\"}}](https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html)\n\n\n\n:::: {{.content-hidden when-format=“pdf”}}\n```{{asis, echo = (language == “EN”)}} Sarcina ventriculi\n{{width=“25%”}} Click for Full Screen WSI\n\n::::\n\n:::: {{.content-visible when-format=\"pdf\"}}\n\n```{asis, echo = (language == \"EN\")}\n**Sarcina ventriculi**\n\n![](./qrcodes/sarcina-ventriculi-HE_qrcode.svg){{width=\"15%\"}} [![Click for Full Screen WSI](./screenshots/thumbnail_sarcina-ventriculi-HE.png){{width=\"25%\"}}](https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html)\n::::\n\nWSI\n```{{asis, echo = ((language==“TR”) & (output_type==“html”))}} Mikroskopik görüntüleri inceleyin:\n\n\n\n```{asis, echo = ((language == \"EN\") & (output_type==\"html\"))}\nSee Microscopy with viewer:\n\n&lt;iframe src=\"https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"&gt;&lt;/iframe&gt;\n\n\nDiagnosis\n```{{asis, echo = (language == “TR”)}} ::: {{.callout-tip collapse=“true” appearance=“default” icon=“true”}} ### Tanı için tıklayın\nSarcina ventriculi :::\n\n```{asis, echo = (language == \"EN\")}\n::: {{.callout-tip collapse=\"true\" appearance=\"default\" icon=\"true\"}}\n### Click for Diagnosis\n\nSarcina ventriculi\n:::\n:::::",
+    "crumbs": [
+      "İnfeksiyöz Hastalıkların Patolojisi",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Bakteriler</span>"
+    ]
+  },
+  {
     "objectID": "mantar.html",
     "href": "mantar.html",
     "title": "16  Mantarlar",
@@ -551,7 +562,7 @@
     "href": "venoz-invazyon.html",
     "title": "27  Venöz invazyon",
     "section": "",
-    "text": "WSI - LinkWSI\n\n\n\nVenöz invazyon\n Tam Ekran Görmek İçin Resmi Tıklayın\n\n\n\n\nMikroskopik görüntüleri inceleyin:",
+    "text": "WSI - LinkWSI\n\n\n\nVenöz invazyon\n Tam Ekran Görmek İçin Resmi Tıklayın\n\n\n\n\nMikroskopik görüntüleri inceleyin:\n\n\n\n\n\n\n\n\n\n28 Links\n\niletişime geçin\npatolojiAI",
     "crumbs": [
       "Tümörlerdeki Prognostik Morfolojik Özellikler",
       "<span class='chapter-number'>27</span>  <span class='chapter-title'>Venöz İnvazyon</span>"
@@ -573,10 +584,21 @@
     "href": "hodgkin.html",
     "title": "29  Hodgkin Lenfoma",
     "section": "",
-    "text": "WSI - LinkWSI\n\n\n\nHodgkin Lenfoma\n Tam Ekran Görmek İçin Resmi Tıklayın\n\n\n\n\nMikroskopik görüntüleri inceleyin:",
+    "text": "WSI - LinkWSI\n\n\n\nHodgkin Lenfoma\n Tam Ekran Görmek İçin Resmi Tıklayın\n\n\n\n\nMikroskopik görüntüleri inceleyin:\n\n\n\n\n\n\n\n\n\n30 Links\n\niletişime geçin\npatolojiAI",
     "crumbs": [
       "Hematopatoloji",
       "<span class='chapter-number'>29</span>  <span class='chapter-title'>Hodgkin Lenfoma</span>"
+    ]
+  },
+  {
+    "objectID": "gastro.html",
+    "href": "gastro.html",
+    "title": "30  Gastrointestinal Sistem",
+    "section": "",
+    "text": "31 Links\n\niletişime geçin\npatolojiAI",
+    "crumbs": [
+      "Gastrointestinal Sistem Patolojisi",
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>Gastrointestinal Sistem</span>"
     ]
   },
   {
@@ -822,6 +844,17 @@
     ]
   },
   {
+    "objectID": "genital.html",
+    "href": "genital.html",
+    "title": "45  Genital Sistem Patolojisi",
+    "section": "",
+    "text": "46 Links\n\niletişime geçin\npatolojiAI",
+    "crumbs": [
+      "Jinekolojik Patoloji",
+      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Genital Sistem Patolojisi</span>"
+    ]
+  },
+  {
     "objectID": "serviks.html",
     "href": "serviks.html",
     "title": "46  Serviks",
@@ -848,10 +881,21 @@
     "href": "endometriosis.html",
     "title": "48  Endometriozis",
     "section": "",
-    "text": "WSI - LinkWSI\n\n\n\nİnce barsak duvarında endometriozis, loop yapışıklık ve obstrüksiyon\n Tam Ekran Görmek İçin Resmi Tıklayın\n\n\n\n\nMikroskopik görüntüleri inceleyin:",
+    "text": "WSI - LinkWSI\n\n\n\nİnce barsak duvarında endometriozis, loop yapışıklık ve obstrüksiyon\n Tam Ekran Görmek İçin Resmi Tıklayın\n\n\n\n\nMikroskopik görüntüleri inceleyin:\n\n\n\n\n\n\n\n\n\n49 Links\n\niletişime geçin\npatolojiAI",
     "crumbs": [
       "Jinekolojik Patoloji",
       "<span class='chapter-number'>48</span>  <span class='chapter-title'>Endometriozis</span>"
+    ]
+  },
+  {
+    "objectID": "uriner.html",
+    "href": "uriner.html",
+    "title": "49  Uriner Sistem Patolojisi",
+    "section": "",
+    "text": "50 Links\n\niletişime geçin\npatolojiAI",
+    "crumbs": [
+      "Üriner Sistem Patolojisi",
+      "<span class='chapter-number'>49</span>  <span class='chapter-title'>Üropatoloji</span>"
     ]
   },
   {
@@ -1185,993 +1229,1015 @@
     ]
   },
   {
+    "objectID": "BOS.html",
+    "href": "BOS.html",
+    "title": "64  CSF-metastasis - Lobüler meme kanseri leptomeningeal metastaz, BOS tutulumu",
+    "section": "",
+    "text": "64.1 CSF-breast-carcinoma-metastasis\n{r language CSF-breast-carcinoma-metastasis, echo=FALSE, include=TRUE} source(\"./R/language.R\") output_type &lt;- knitr::opts_knit$get(\"rmarkdown.pandoc.to\")\n{asis Beyin Omurilik Sıvıcında Meme Karsinom Metastazı TR , echo = (language == \"TR\")} ## Beyin Omurilik Sıvıcında Meme Karsinom Metastazı {{#sec-CSF-breast-carcinoma-metastasis }}\n{asis Breast Carcinoma Metastasis in Cerebrospinal Fluid EN , echo = (language == \"EN\")} ## Breast Carcinoma Metastasis in Cerebrospinal Fluid {{#sec-CSF-breast-carcinoma-metastasis }}\n{r CSF-breast-carcinoma-metastasis screenshot MGG, eval=TRUE, include=FALSE} if (!file.exists(\"./screenshots/thumbnail_CSF-breast-carcinoma-metastasis-MGG.png\")) {{ webshot2::webshot(   url = \"https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/MGG.html\",   file = \"./screenshots/thumbnail_CSF-breast-carcinoma-metastasis-MGG.png\" ) }}\n{r CSF-breast-carcinoma-metastasis qrcode MGG, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE} if (!file.exists(\"./qrcodes/CSF-breast-carcinoma-metastasis-MGG_qrcode.svg\")) {{   qrcode_svg &lt;- qrcode::qr_code(\"https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/MGG.html\")   qrcode::generate_svg(qrcode = qrcode_svg,                        filename = \"./qrcodes/CSF-breast-carcinoma-metastasis-MGG_qrcode.svg\",                        show = FALSE) }}\n{r CSF-breast-carcinoma-metastasis screenshot PAP, eval=TRUE, include=FALSE} if (!file.exists(\"./screenshots/thumbnail_CSF-breast-carcinoma-metastasis-PAP.png\")) {{ webshot2::webshot(   url = \"https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/PAP.html\",   file = \"./screenshots/thumbnail_CSF-breast-carcinoma-metastasis-PAP.png\" ) }}\n{r CSF-breast-carcinoma-metastasis qrcode PAP, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE} if (!file.exists(\"./qrcodes/CSF-breast-carcinoma-metastasis-PAP_qrcode.svg\")) {{   qrcode_svg &lt;- qrcode::qr_code(\"https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/PAP.html\")   qrcode::generate_svg(qrcode = qrcode_svg,                        filename = \"./qrcodes/CSF-breast-carcinoma-metastasis-PAP_qrcode.svg\",                        show = FALSE) }}\n:::: {{.content-hidden when-format=“pdf”}}\n```{{asis, echo = (language == “EN”)}} Breast Carcinoma Metastasis in Cerebrospinal Fluid\n{{width=“25%”}} Click for Full Screen WSI\n::::\n:::: {{.content-hidden when-format=“pdf”}}\n```{{asis, echo = (language == “TR”)}} Beyin Omurilik Sıvıcında Meme Karsinom Metastazı\n{{width=“25%”}} Tam Ekran Görmek İçin Resmi Tıklayın\n::::\n:::: {{.content-hidden when-format=“pdf”}}\n```{{asis, echo = (language == “EN”)}} Breast Carcinoma Metastasis in Cerebrospinal Fluid\n{{width=“25%”}} Click for Full Screen WSI\n::::",
+    "crumbs": [
+      "Sitopatoloji",
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BOS.html</span>"
+    ]
+  },
+  {
+    "objectID": "BOS.html#csf-breast-carcinoma-metastasis",
+    "href": "BOS.html#csf-breast-carcinoma-metastasis",
+    "title": "64  CSF-metastasis - Lobüler meme kanseri leptomeningeal metastaz, BOS tutulumu",
+    "section": "",
+    "text": "```{comment}\n---\ndescription: |\n    Beyin Omurilik Sıvıcında Meme Karsinom Metastazı, Breast Carcinoma Metastasis in Cerebrospinal Fluid, patoloji, atlas, pathology, whole slide image, virtual microscopy, virtual microscope, sanal mikroskop\ndate: last-modified\ncategories: [Beyin Omurilik Sıvıcında Meme Karsinom Metastazı, Breast Carcinoma Metastasis in Cerebrospinal Fluid]\npage-layout: full\nbibliography: references.bib\n---\n```\n\n\n\n\n\n\n\n\nWSI - Link\n\n\n:::: {{.content-hidden when-format=“pdf”}}\n```{{asis, echo = (language == “TR”)}} Beyin Omurilik Sıvıcında Meme Karsinom Metastazı\n{{width=“25%”}} Tam Ekran Görmek İçin Resmi Tıklayın\n\n::::\n\n:::: {{.content-visible when-format=\"pdf\"}}\n\n```{asis, echo = (language == \"TR\")}\n**Beyin Omurilik Sıvıcında Meme Karsinom Metastazı**\n\n![](./qrcodes/CSF-breast-carcinoma-metastasis-MGG_qrcode.svg){{width=\"15%\"}} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_CSF-breast-carcinoma-metastasis-MGG.png){{width=\"25%\"}}](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/MGG.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/MGG.html)\n\n\n\n\n\n\n\n::::\n\n:::: {{.content-visible when-format=\"pdf\"}}\n\n```{asis, echo = (language == \"EN\")}\n**Breast Carcinoma Metastasis in Cerebrospinal Fluid**\n\n![](./qrcodes/CSF-breast-carcinoma-metastasis-MGG_qrcode.svg){{width=\"15%\"}} [![Click for Full Screen WSI](./screenshots/thumbnail_CSF-breast-carcinoma-metastasis-MGG.png){{width=\"25%\"}}](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/MGG.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/MGG.html)\n\n\n\n\n\n::::\n\n:::: {{.content-visible when-format=\"pdf\"}}\n\n```{asis, echo = (language == \"TR\")}\n**Beyin Omurilik Sıvıcında Meme Karsinom Metastazı**\n\n![](./qrcodes/CSF-breast-carcinoma-metastasis-PAP_qrcode.svg){{width=\"15%\"}} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_CSF-breast-carcinoma-metastasis-PAP.png){{width=\"25%\"}}](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/PAP.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/PAP.html)\n\n\n\n\n\n::::\n\n:::: {{.content-visible when-format=\"pdf\"}}\n\n```{asis, echo = (language == \"EN\")}\n**Breast Carcinoma Metastasis in Cerebrospinal Fluid**\n\n![](./qrcodes/CSF-breast-carcinoma-metastasis-PAP_qrcode.svg){{width=\"15%\"}} [![Click for Full Screen WSI](./screenshots/thumbnail_CSF-breast-carcinoma-metastasis-PAP.png){{width=\"25%\"}}](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/PAP.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/PAP.html)\n\n\nWSI\n```{{asis, echo = ((language==“TR”) & (output_type==“html”))}} Mikroskopik görüntüleri inceleyin:\n\n\n\n```{asis, echo = ((language == \"EN\") & (output_type==\"html\"))}\nSee Microscopy with viewer:\n\n&lt;iframe src=\"https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/MGG.html\" style=\"height:600px;width:100%;\" data-external=\"1\"&gt;&lt;/iframe&gt;\n```{{asis, echo = ((language==“TR”) & (output_type==“html”))}} Mikroskopik görüntüleri inceleyin:\n\n\n\n```{asis, echo = ((language == \"EN\") & (output_type==\"html\"))}\nSee Microscopy with viewer:\n\n&lt;iframe src=\"https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/PAP.html\" style=\"height:600px;width:100%;\" data-external=\"1\"&gt;&lt;/iframe&gt;\n\n\nDiagnosis\n```{{asis, echo = (language == “TR”)}} ::: {{.callout-tip collapse=“true” appearance=“default” icon=“true”}} ### Tanı için tıklayın\nBeyin Omurilik Sıvıcında Meme Karsinom Metastazı :::\n\n```{asis, echo = (language == \"EN\")}\n::: {{.callout-tip collapse=\"true\" appearance=\"default\" icon=\"true\"}}\n### Click for Diagnosis\n\nBreast Carcinoma Metastasis in Cerebrospinal Fluid\n:::\n:::::",
+    "crumbs": [
+      "Sitopatoloji",
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BOS.html</span>"
+    ]
+  },
+  {
     "objectID": "gbd.html",
     "href": "gbd.html",
-    "title": "64  GBD koleksiyonu",
+    "title": "65  GBD koleksiyonu",
     "section": "",
-    "text": "64.1 GBD Olgu 1 - pediatrik otopsi, beyin",
+    "text": "65.1 GBD Olgu 1 - pediatrik otopsi, beyin",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>64</span>  <span class='chapter-title'>GBDAtlas</span>"
+      "<span class='chapter-number'>65</span>  <span class='chapter-title'>GBDAtlas</span>"
     ]
   },
   {
     "objectID": "gbd.html#sec-GBD2",
     "href": "gbd.html#sec-GBD2",
-    "title": "64  GBD koleksiyonu",
-    "section": "64.2 GBD Olgu 2 - pediatrik otopsi",
-    "text": "64.2 GBD Olgu 2 - pediatrik otopsi",
+    "title": "65  GBD koleksiyonu",
+    "section": "65.2 GBD Olgu 2 - pediatrik otopsi",
+    "text": "65.2 GBD Olgu 2 - pediatrik otopsi",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>64</span>  <span class='chapter-title'>GBDAtlas</span>"
+      "<span class='chapter-number'>65</span>  <span class='chapter-title'>GBDAtlas</span>"
     ]
   },
   {
     "objectID": "gbd.html#sec-GBD3",
     "href": "gbd.html#sec-GBD3",
-    "title": "64  GBD koleksiyonu",
-    "section": "64.3 GBD3",
-    "text": "64.3 GBD3",
+    "title": "65  GBD koleksiyonu",
+    "section": "65.3 GBD3",
+    "text": "65.3 GBD3",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>64</span>  <span class='chapter-title'>GBDAtlas</span>"
+      "<span class='chapter-number'>65</span>  <span class='chapter-title'>GBDAtlas</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html",
     "href": "hacettepecom.html",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
     "section": "",
-    "text": "65.1 Case-1",
+    "text": "66.1 Case-1",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-2",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-2",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.2 Case-2",
-    "text": "65.2 Case-2",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.2 Case-2",
+    "text": "66.2 Case-2",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-3",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-3",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.3 Case-3",
-    "text": "65.3 Case-3",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.3 Case-3",
+    "text": "66.3 Case-3",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-4",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-4",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.4 Case-4",
-    "text": "65.4 Case-4",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.4 Case-4",
+    "text": "66.4 Case-4",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-5",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-5",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.5 Case-5",
-    "text": "65.5 Case-5",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.5 Case-5",
+    "text": "66.5 Case-5",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-6",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-6",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.6 Case-6",
-    "text": "65.6 Case-6",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.6 Case-6",
+    "text": "66.6 Case-6",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-7",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-7",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.7 Case-7",
-    "text": "65.7 Case-7",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.7 Case-7",
+    "text": "66.7 Case-7",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-8",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-8",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.8 Case-8",
-    "text": "65.8 Case-8",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.8 Case-8",
+    "text": "66.8 Case-8",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-9",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-9",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.9 Case-9",
-    "text": "65.9 Case-9",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.9 Case-9",
+    "text": "66.9 Case-9",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-10",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-10",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.10 Case-10",
-    "text": "65.10 Case-10",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.10 Case-10",
+    "text": "66.10 Case-10",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-11",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-11",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.11 Case-11",
-    "text": "65.11 Case-11",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.11 Case-11",
+    "text": "66.11 Case-11",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-12",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-12",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.12 Case-12",
-    "text": "65.12 Case-12",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.12 Case-12",
+    "text": "66.12 Case-12",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-13",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-13",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.13 Case-13",
-    "text": "65.13 Case-13",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.13 Case-13",
+    "text": "66.13 Case-13",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-14",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-14",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.14 Case-14",
-    "text": "65.14 Case-14",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.14 Case-14",
+    "text": "66.14 Case-14",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-15",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-15",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.15 Case-15",
-    "text": "65.15 Case-15",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.15 Case-15",
+    "text": "66.15 Case-15",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-16",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-16",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.16 Case-16",
-    "text": "65.16 Case-16",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.16 Case-16",
+    "text": "66.16 Case-16",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-17",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-17",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.17 Case-17",
-    "text": "65.17 Case-17",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.17 Case-17",
+    "text": "66.17 Case-17",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-18",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-18",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.18 Case-18",
-    "text": "65.18 Case-18",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.18 Case-18",
+    "text": "66.18 Case-18",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-19",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-19",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.19 Case-19",
-    "text": "65.19 Case-19",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.19 Case-19",
+    "text": "66.19 Case-19",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-20",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-20",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.20 Case-20",
-    "text": "65.20 Case-20",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.20 Case-20",
+    "text": "66.20 Case-20",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-21",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-21",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.21 Case-21",
-    "text": "65.21 Case-21",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.21 Case-21",
+    "text": "66.21 Case-21",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-22",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-22",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.22 Case-22",
-    "text": "65.22 Case-22",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.22 Case-22",
+    "text": "66.22 Case-22",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-23",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-23",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.23 Case-23",
-    "text": "65.23 Case-23",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.23 Case-23",
+    "text": "66.23 Case-23",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-24",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-24",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.24 Case-24",
-    "text": "65.24 Case-24",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.24 Case-24",
+    "text": "66.24 Case-24",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-25",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-25",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.25 Case-25",
-    "text": "65.25 Case-25",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.25 Case-25",
+    "text": "66.25 Case-25",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-26",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-26",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.26 Case-26",
-    "text": "65.26 Case-26",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.26 Case-26",
+    "text": "66.26 Case-26",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-27",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-27",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.27 Case-27",
-    "text": "65.27 Case-27",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.27 Case-27",
+    "text": "66.27 Case-27",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-28",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-28",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.28 Case-28",
-    "text": "65.28 Case-28",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.28 Case-28",
+    "text": "66.28 Case-28",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-29",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-29",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.29 Case-29",
-    "text": "65.29 Case-29",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.29 Case-29",
+    "text": "66.29 Case-29",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-30",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-30",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.30 Case-30",
-    "text": "65.30 Case-30",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.30 Case-30",
+    "text": "66.30 Case-30",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-31",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-31",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.31 Case-31",
-    "text": "65.31 Case-31",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.31 Case-31",
+    "text": "66.31 Case-31",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-32",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-32",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.32 Case-32",
-    "text": "65.32 Case-32",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.32 Case-32",
+    "text": "66.32 Case-32",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-33",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-33",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.33 Case-33",
-    "text": "65.33 Case-33",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.33 Case-33",
+    "text": "66.33 Case-33",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-34",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-34",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.34 Case-34",
-    "text": "65.34 Case-34",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.34 Case-34",
+    "text": "66.34 Case-34",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-35",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-35",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.35 Case-35",
-    "text": "65.35 Case-35",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.35 Case-35",
+    "text": "66.35 Case-35",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-36",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-36",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.36 Case-36",
-    "text": "65.36 Case-36",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.36 Case-36",
+    "text": "66.36 Case-36",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-37",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-37",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.37 Case-37",
-    "text": "65.37 Case-37",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.37 Case-37",
+    "text": "66.37 Case-37",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-38",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-38",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.38 Case-38",
-    "text": "65.38 Case-38",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.38 Case-38",
+    "text": "66.38 Case-38",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-39",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-39",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.39 Case-39",
-    "text": "65.39 Case-39",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.39 Case-39",
+    "text": "66.39 Case-39",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.40 Case-40",
-    "text": "65.40 Case-40",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.40 Case-40",
+    "text": "66.40 Case-40",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-com-case-41",
     "href": "hacettepecom.html#sec-hacettepe-com-case-41",
-    "title": "65  Hacettepe Ayın Vakası - Case Of the Month (COM)",
-    "section": "65.41 Case-41",
-    "text": "65.41 Case-41",
+    "title": "66  Hacettepe Ayın Vakası - Case Of the Month (COM)",
+    "section": "66.41 Case-41",
+    "text": "66.41 Case-41",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Hacettepe Ayın Vakası</span>"
     ]
   },
   {
     "objectID": "bs.html",
     "href": "bs.html",
-    "title": "66  BS Atlas",
+    "title": "67  BS Atlas",
     "section": "",
-    "text": "66.1 BS1 anjiosarkom, dalak, karaciğer",
+    "text": "67.1 BS1 anjiosarkom, dalak, karaciğer",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS2",
     "href": "bs.html#sec-BS2",
-    "title": "66  BS Atlas",
-    "section": "66.2 BS2 sirotik nodülde peliozis",
-    "text": "66.2 BS2 sirotik nodülde peliozis",
+    "title": "67  BS Atlas",
+    "section": "67.2 BS2 sirotik nodülde peliozis",
+    "text": "67.2 BS2 sirotik nodülde peliozis",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS3",
     "href": "bs.html#sec-BS3",
-    "title": "66  BS Atlas",
-    "section": "66.3 BS3 - makroveziküler ve mikroveziküler steatoz, lipogranülom, karaciğer",
-    "text": "66.3 BS3 - makroveziküler ve mikroveziküler steatoz, lipogranülom, karaciğer",
+    "title": "67  BS Atlas",
+    "section": "67.3 BS3 - makroveziküler ve mikroveziküler steatoz, lipogranülom, karaciğer",
+    "text": "67.3 BS3 - makroveziküler ve mikroveziküler steatoz, lipogranülom, karaciğer",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS4",
     "href": "bs.html#sec-BS4",
-    "title": "66  BS Atlas",
-    "section": "66.4 BS4 - kahverengi yağ doku",
-    "text": "66.4 BS4 - kahverengi yağ doku",
+    "title": "67  BS Atlas",
+    "section": "67.4 BS4 - kahverengi yağ doku",
+    "text": "67.4 BS4 - kahverengi yağ doku",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS5",
     "href": "bs.html#sec-BS5",
-    "title": "66  BS Atlas",
-    "section": "66.5 BS5 - lenfositik gastrit",
-    "text": "66.5 BS5 - lenfositik gastrit",
+    "title": "67  BS Atlas",
+    "section": "67.5 BS5 - lenfositik gastrit",
+    "text": "67.5 BS5 - lenfositik gastrit",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS6",
     "href": "bs.html#sec-BS6",
-    "title": "66  BS Atlas",
-    "section": "66.6 BS6 -",
-    "text": "66.6 BS6 -",
+    "title": "67  BS Atlas",
+    "section": "67.6 BS6 -",
+    "text": "67.6 BS6 -",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS7",
     "href": "bs.html#sec-BS7",
-    "title": "66  BS Atlas",
-    "section": "66.7 BS7 - nekrotizan sialometaplazi, SCC sonrası radyoterapi",
-    "text": "66.7 BS7 - nekrotizan sialometaplazi, SCC sonrası radyoterapi",
+    "title": "67  BS Atlas",
+    "section": "67.7 BS7 - nekrotizan sialometaplazi, SCC sonrası radyoterapi",
+    "text": "67.7 BS7 - nekrotizan sialometaplazi, SCC sonrası radyoterapi",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS8",
     "href": "bs.html#sec-BS8",
-    "title": "66  BS Atlas",
-    "section": "66.8 BS8 - tromboz, FNH benzeri nodül, Budd-Chiari",
-    "text": "66.8 BS8 - tromboz, FNH benzeri nodül, Budd-Chiari",
+    "title": "67  BS Atlas",
+    "section": "67.8 BS8 - tromboz, FNH benzeri nodül, Budd-Chiari",
+    "text": "67.8 BS8 - tromboz, FNH benzeri nodül, Budd-Chiari",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS9",
     "href": "bs.html#sec-BS9",
-    "title": "66  BS Atlas",
-    "section": "66.9 BS9 - Giardiasis, Duodenum",
-    "text": "66.9 BS9 - Giardiasis, Duodenum",
+    "title": "67  BS Atlas",
+    "section": "67.9 BS9 - Giardiasis, Duodenum",
+    "text": "67.9 BS9 - Giardiasis, Duodenum",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS10",
     "href": "bs.html#sec-BS10",
-    "title": "66  BS Atlas",
-    "section": "66.10 BS10 - granüler hücreli tümör, kolon",
-    "text": "66.10 BS10 - granüler hücreli tümör, kolon",
+    "title": "67  BS Atlas",
+    "section": "67.10 BS10 - granüler hücreli tümör, kolon",
+    "text": "67.10 BS10 - granüler hücreli tümör, kolon",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS11",
     "href": "bs.html#sec-BS11",
-    "title": "66  BS Atlas",
-    "section": "66.11 BS11 - sesile serrated adenoma lesion polyp",
-    "text": "66.11 BS11 - sesile serrated adenoma lesion polyp",
+    "title": "67  BS Atlas",
+    "section": "67.11 BS11 - sesile serrated adenoma lesion polyp",
+    "text": "67.11 BS11 - sesile serrated adenoma lesion polyp",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS12",
     "href": "bs.html#sec-BS12",
-    "title": "66  BS Atlas",
-    "section": "66.12 BS12 - beyin, hepatoblastom metastazı",
-    "text": "66.12 BS12 - beyin, hepatoblastom metastazı",
+    "title": "67  BS Atlas",
+    "section": "67.12 BS12 - beyin, hepatoblastom metastazı",
+    "text": "67.12 BS12 - beyin, hepatoblastom metastazı",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS13",
     "href": "bs.html#sec-BS13",
-    "title": "66  BS Atlas",
-    "section": "66.13 BS13 - lipopeliozis",
-    "text": "66.13 BS13 - lipopeliozis",
+    "title": "67  BS Atlas",
+    "section": "67.13 BS13 - lipopeliozis",
+    "text": "67.13 BS13 - lipopeliozis",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS14",
     "href": "bs.html#sec-BS14",
-    "title": "66  BS Atlas",
-    "section": "66.14 BS14 - miksoid adenoma, karaciğer",
-    "text": "66.14 BS14 - miksoid adenoma, karaciğer",
+    "title": "67  BS Atlas",
+    "section": "67.14 BS14 - miksoid adenoma, karaciğer",
+    "text": "67.14 BS14 - miksoid adenoma, karaciğer",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS15",
     "href": "bs.html#sec-BS15",
-    "title": "66  BS Atlas",
-    "section": "66.15 BS15 - endometriozis, kolon duvarı",
-    "text": "66.15 BS15 - endometriozis, kolon duvarı",
+    "title": "67  BS Atlas",
+    "section": "67.15 BS15 - endometriozis, kolon duvarı",
+    "text": "67.15 BS15 - endometriozis, kolon duvarı",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS16",
     "href": "bs.html#sec-BS16",
-    "title": "66  BS Atlas",
-    "section": "66.16 BS16 - metastatik karsinom, omentum",
-    "text": "66.16 BS16 - metastatik karsinom, omentum",
+    "title": "67  BS Atlas",
+    "section": "67.16 BS16 - metastatik karsinom, omentum",
+    "text": "67.16 BS16 - metastatik karsinom, omentum",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS17",
     "href": "bs.html#sec-BS17",
-    "title": "66  BS Atlas",
-    "section": "66.17 BS17 - CMV hepatiti, karaciğer",
-    "text": "66.17 BS17 - CMV hepatiti, karaciğer",
+    "title": "67  BS Atlas",
+    "section": "67.17 BS17 - CMV hepatiti, karaciğer",
+    "text": "67.17 BS17 - CMV hepatiti, karaciğer",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS18",
     "href": "bs.html#sec-BS18",
-    "title": "66  BS Atlas",
-    "section": "66.18 BS18 - kistik fibrozis, sinüzoidal obstrüksiyon, karaciğer",
-    "text": "66.18 BS18 - kistik fibrozis, sinüzoidal obstrüksiyon, karaciğer",
+    "title": "67  BS Atlas",
+    "section": "67.18 BS18 - kistik fibrozis, sinüzoidal obstrüksiyon, karaciğer",
+    "text": "67.18 BS18 - kistik fibrozis, sinüzoidal obstrüksiyon, karaciğer",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS19",
     "href": "bs.html#sec-BS19",
-    "title": "66  BS Atlas",
-    "section": "66.19 BS19 - psödoinklüzyon, ilaç etkisi, karaciğer, KİT hastası",
-    "text": "66.19 BS19 - psödoinklüzyon, ilaç etkisi, karaciğer, KİT hastası",
+    "title": "67  BS Atlas",
+    "section": "67.19 BS19 - psödoinklüzyon, ilaç etkisi, karaciğer, KİT hastası",
+    "text": "67.19 BS19 - psödoinklüzyon, ilaç etkisi, karaciğer, KİT hastası",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS20",
     "href": "bs.html#sec-BS20",
-    "title": "66  BS Atlas",
-    "section": "66.20 BS20 - granülamatöz hepatit, Tbc vs anti-Tbc ilaç etkisi",
-    "text": "66.20 BS20 - granülamatöz hepatit, Tbc vs anti-Tbc ilaç etkisi",
+    "title": "67  BS Atlas",
+    "section": "67.20 BS20 - granülamatöz hepatit, Tbc vs anti-Tbc ilaç etkisi",
+    "text": "67.20 BS20 - granülamatöz hepatit, Tbc vs anti-Tbc ilaç etkisi",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS21",
     "href": "bs.html#sec-BS21",
-    "title": "66  BS Atlas",
-    "section": "66.21 BS21 - portal gastropati",
-    "text": "66.21 BS21 - portal gastropati",
+    "title": "67  BS Atlas",
+    "section": "67.21 BS21 - portal gastropati",
+    "text": "67.21 BS21 - portal gastropati",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS22",
     "href": "bs.html#sec-BS22",
-    "title": "66  BS Atlas",
-    "section": "66.22 BS22 - ring mitosis, taxane treatment",
-    "text": "66.22 BS22 - ring mitosis, taxane treatment",
+    "title": "67  BS Atlas",
+    "section": "67.22 BS22 - ring mitosis, taxane treatment",
+    "text": "67.22 BS22 - ring mitosis, taxane treatment",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS23",
     "href": "bs.html#sec-BS23",
-    "title": "66  BS Atlas",
-    "section": "66.23 BS23 - Crohn hastalığında fistül",
-    "text": "66.23 BS23 - Crohn hastalığında fistül",
+    "title": "67  BS Atlas",
+    "section": "67.23 BS23 - Crohn hastalığında fistül",
+    "text": "67.23 BS23 - Crohn hastalığında fistül",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS24",
     "href": "bs.html#sec-BS24",
-    "title": "66  BS Atlas",
-    "section": "66.24 BS24 - sevalemer, kayekselat, kronik böbrek yetmezliği, gastrointestinal sistem etkisi",
-    "text": "66.24 BS24 - sevalemer, kayekselat, kronik böbrek yetmezliği, gastrointestinal sistem etkisi",
+    "title": "67  BS Atlas",
+    "section": "67.24 BS24 - sevalemer, kayekselat, kronik böbrek yetmezliği, gastrointestinal sistem etkisi",
+    "text": "67.24 BS24 - sevalemer, kayekselat, kronik böbrek yetmezliği, gastrointestinal sistem etkisi",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS25",
     "href": "bs.html#sec-BS25",
-    "title": "66  BS Atlas",
-    "section": "66.25 BS25 - duodenum, NET",
-    "text": "66.25 BS25 - duodenum, NET",
+    "title": "67  BS Atlas",
+    "section": "67.25 BS25 - duodenum, NET",
+    "text": "67.25 BS25 - duodenum, NET",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS26",
     "href": "bs.html#sec-BS26",
-    "title": "66  BS Atlas",
-    "section": "66.26 BS26 - özofagus, SCC radyoterapi sonrası keratin granülomları",
-    "text": "66.26 BS26 - özofagus, SCC radyoterapi sonrası keratin granülomları",
+    "title": "67  BS Atlas",
+    "section": "67.26 BS26 - özofagus, SCC radyoterapi sonrası keratin granülomları",
+    "text": "67.26 BS26 - özofagus, SCC radyoterapi sonrası keratin granülomları",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS27",
     "href": "bs.html#sec-BS27",
-    "title": "66  BS Atlas",
-    "section": "66.27 BS27 - lenfanjiektazi duodenum",
-    "text": "66.27 BS27 - lenfanjiektazi duodenum",
+    "title": "67  BS Atlas",
+    "section": "67.27 BS27 - lenfanjiektazi duodenum",
+    "text": "67.27 BS27 - lenfanjiektazi duodenum",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS28",
     "href": "bs.html#sec-BS28",
-    "title": "66  BS Atlas",
-    "section": "66.28 BS28 - PanNET metastazı, karaciğer",
-    "text": "66.28 BS28 - PanNET metastazı, karaciğer",
+    "title": "67  BS Atlas",
+    "section": "67.28 BS28 - PanNET metastazı, karaciğer",
+    "text": "67.28 BS28 - PanNET metastazı, karaciğer",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS29",
     "href": "bs.html#sec-BS29",
-    "title": "66  BS Atlas",
-    "section": "66.29 BS29 - iskemik kolit",
-    "text": "66.29 BS29 - iskemik kolit",
+    "title": "67  BS Atlas",
+    "section": "67.29 BS29 - iskemik kolit",
+    "text": "67.29 BS29 - iskemik kolit",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS30",
     "href": "bs.html#sec-BS30",
-    "title": "66  BS Atlas",
-    "section": "66.30 BS30 - embolizan mikrosferül",
-    "text": "66.30 BS30 - embolizan mikrosferül",
+    "title": "67  BS Atlas",
+    "section": "67.30 BS30 - embolizan mikrosferül",
+    "text": "67.30 BS30 - embolizan mikrosferül",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS31",
     "href": "bs.html#sec-BS31",
-    "title": "66  BS Atlas",
-    "section": "66.31 BS31 - cryptosporidium",
-    "text": "66.31 BS31 - cryptosporidium",
+    "title": "67  BS Atlas",
+    "section": "67.31 BS31 - cryptosporidium",
+    "text": "67.31 BS31 - cryptosporidium",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS32",
     "href": "bs.html#sec-BS32",
-    "title": "66  BS Atlas",
-    "section": "66.32 BS32 - isospora",
-    "text": "66.32 BS32 - isospora",
+    "title": "67  BS Atlas",
+    "section": "67.32 BS32 - isospora",
+    "text": "67.32 BS32 - isospora",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "ice.html",
     "href": "ice.html",
-    "title": "67  ICE Atlas",
+    "title": "68  ICE Atlas",
     "section": "",
-    "text": "67.1 Duodenum WDNET",
+    "text": "68.1 Duodenum WDNET",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>67</span>  <span class='chapter-title'>ICEtlas</span>"
+      "<span class='chapter-number'>68</span>  <span class='chapter-title'>ICEtlas</span>"
     ]
   },
   {
     "objectID": "wsi.html",
     "href": "wsi.html",
-    "title": "68  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
+    "title": "69  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
     "section": "",
-    "text": "68.1 Rosai Collection\nhttps://www.rosaicollection.org/",
+    "text": "69.1 Rosai Collection\nhttps://www.rosaicollection.org/",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>68</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
+      "<span class='chapter-number'>69</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
     ]
   },
   {
     "objectID": "wsi.html#virtual-pathology-slide-library",
     "href": "wsi.html#virtual-pathology-slide-library",
-    "title": "68  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
-    "section": "68.2 Virtual Pathology Slide Library",
-    "text": "68.2 Virtual Pathology Slide Library\n\nhttps://www.virtualpathology.leeds.ac.uk/slides/library/\n\n\n\nMicrocystic Serous Cystadenoma",
+    "title": "69  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
+    "section": "69.2 Virtual Pathology Slide Library",
+    "text": "69.2 Virtual Pathology Slide Library\n\nhttps://www.virtualpathology.leeds.ac.uk/slides/library/\n\n\n\nMicrocystic Serous Cystadenoma",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>68</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
+      "<span class='chapter-number'>69</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
     ]
   },
   {
     "objectID": "wsi.html#sec-atlas-of-medical-foreign-bodies",
     "href": "wsi.html#sec-atlas-of-medical-foreign-bodies",
-    "title": "68  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
-    "section": "68.3 Atlas of Medical Foreign Bodies",
-    "text": "68.3 Atlas of Medical Foreign Bodies",
+    "title": "69  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
+    "section": "69.3 Atlas of Medical Foreign Bodies",
+    "text": "69.3 Atlas of Medical Foreign Bodies",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>68</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
+      "<span class='chapter-number'>69</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
     ]
   },
   {
     "objectID": "wsi.html#patoloji-dernekleri-federasyonu-olgu-sayfası",
     "href": "wsi.html#patoloji-dernekleri-federasyonu-olgu-sayfası",
-    "title": "68  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
-    "section": "68.4 Patoloji Dernekleri Federasyonu Olgu Sayfası",
-    "text": "68.4 Patoloji Dernekleri Federasyonu Olgu Sayfası\n\nhttps://www.turkpath.org.tr/case.list.php",
+    "title": "69  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
+    "section": "69.4 Patoloji Dernekleri Federasyonu Olgu Sayfası",
+    "text": "69.4 Patoloji Dernekleri Federasyonu Olgu Sayfası\n\nhttps://www.turkpath.org.tr/case.list.php",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>68</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
+      "<span class='chapter-number'>69</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
     ]
   },
   {
     "objectID": "wsi.html#dermatopathology-collection",
     "href": "wsi.html#dermatopathology-collection",
-    "title": "68  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
-    "section": "68.5 Dermatopathology Collection",
-    "text": "68.5 Dermatopathology Collection\nA collection of online dermatopathology resources for residents and fellows. JAAD Int. 2023 Jan 30;12:12-14. doi: 10.1016/j.jdin.2022.12.007. PMID: 37228363; PMCID: PMC10203758. https://www.sciencedirect.com/science/article/pii/S2666328723000159 (Mukosera vd. 2023)\n\nUnable to display PDF file. Download instead.",
+    "title": "69  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
+    "section": "69.5 Dermatopathology Collection",
+    "text": "69.5 Dermatopathology Collection\nA collection of online dermatopathology resources for residents and fellows. JAAD Int. 2023 Jan 30;12:12-14. doi: 10.1016/j.jdin.2022.12.007. PMID: 37228363; PMCID: PMC10203758. https://www.sciencedirect.com/science/article/pii/S2666328723000159 (Mukosera vd. 2023)\n\nUnable to display PDF file. Download instead.",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>68</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
+      "<span class='chapter-number'>69</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
     ]
   },
   {
     "objectID": "wsi.html#pathodiscovery",
     "href": "wsi.html#pathodiscovery",
-    "title": "68  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
-    "section": "68.6 PathoDiscovery",
-    "text": "68.6 PathoDiscovery\nBuma AIG, Simmer F, den Braber-Ymker M, Groenen PJTA. Appraisal of the PathoDiscovery: an interactive web-based educational tool for teaching pathophysiology and histopathology. APMIS. 2023 Jul 7. doi: 10.1111/apm.13337. Epub ahead of print. PMID: 37418280. (Buma vd. 2023)\nhttps://radboudumc.bkcacademy.nl/module/19/extern",
+    "title": "69  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
+    "section": "69.6 PathoDiscovery",
+    "text": "69.6 PathoDiscovery\nBuma AIG, Simmer F, den Braber-Ymker M, Groenen PJTA. Appraisal of the PathoDiscovery: an interactive web-based educational tool for teaching pathophysiology and histopathology. APMIS. 2023 Jul 7. doi: 10.1111/apm.13337. Epub ahead of print. PMID: 37418280. (Buma vd. 2023)\nhttps://radboudumc.bkcacademy.nl/module/19/extern",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>68</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
+      "<span class='chapter-number'>69</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
     ]
   },
   {
     "objectID": "wsi.html#american-academy-of-opthalmology-ophthalmic-pathology-education-system",
     "href": "wsi.html#american-academy-of-opthalmology-ophthalmic-pathology-education-system",
-    "title": "68  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
-    "section": "68.7 American Academy of Opthalmology Ophthalmic Pathology Education System",
-    "text": "68.7 American Academy of Opthalmology Ophthalmic Pathology Education System\nhttps://www.aao.org/education/resident-course/pathology-atlas",
+    "title": "69  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
+    "section": "69.7 American Academy of Opthalmology Ophthalmic Pathology Education System",
+    "text": "69.7 American Academy of Opthalmology Ophthalmic Pathology Education System\nhttps://www.aao.org/education/resident-course/pathology-atlas",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>68</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
+      "<span class='chapter-number'>69</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
     ]
   },
   {
     "objectID": "wsi.html#johns-hopkins-cytopathology-unknown-conference",
     "href": "wsi.html#johns-hopkins-cytopathology-unknown-conference",
-    "title": "68  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
-    "section": "68.8 Johns Hopkins Cytopathology Unknown Conference",
-    "text": "68.8 Johns Hopkins Cytopathology Unknown Conference\nhttps://cyto.pathology.jhu.edu/",
+    "title": "69  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
+    "section": "69.8 Johns Hopkins Cytopathology Unknown Conference",
+    "text": "69.8 Johns Hopkins Cytopathology Unknown Conference\nhttps://cyto.pathology.jhu.edu/",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>68</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
+      "<span class='chapter-number'>69</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
     ]
   },
   {
     "objectID": "wsi.html#johns-hopkins-bone-pathology-cases",
     "href": "wsi.html#johns-hopkins-bone-pathology-cases",
-    "title": "68  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
-    "section": "68.9 Johns Hopkins Bone Pathology Cases",
-    "text": "68.9 Johns Hopkins Bone Pathology Cases\nhttps://apps.pathology.jhu.edu/bone/",
+    "title": "69  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
+    "section": "69.9 Johns Hopkins Bone Pathology Cases",
+    "text": "69.9 Johns Hopkins Bone Pathology Cases\nhttps://apps.pathology.jhu.edu/bone/",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>68</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
+      "<span class='chapter-number'>69</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
     ]
   },
   {
     "objectID": "wsi.html#johns-hopkins-surgical-pathology-unknown-conference",
     "href": "wsi.html#johns-hopkins-surgical-pathology-unknown-conference",
-    "title": "68  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
-    "section": "68.10 Johns Hopkins Surgical Pathology Unknown Conference",
-    "text": "68.10 Johns Hopkins Surgical Pathology Unknown Conference\nhttps://sp.pathology.jhu.edu/",
+    "title": "69  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
+    "section": "69.10 Johns Hopkins Surgical Pathology Unknown Conference",
+    "text": "69.10 Johns Hopkins Surgical Pathology Unknown Conference\nhttps://sp.pathology.jhu.edu/",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>68</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
+      "<span class='chapter-number'>69</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
     ]
   },
   {
     "objectID": "wsi.html#pathology-of-cancer-atlas",
     "href": "wsi.html#pathology-of-cancer-atlas",
-    "title": "68  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
-    "section": "68.11 Pathology of Cancer Atlas",
-    "text": "68.11 Pathology of Cancer Atlas\nhttps://www.elbolkainy.net/pathology-of-cancer-atlas",
+    "title": "69  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
+    "section": "69.11 Pathology of Cancer Atlas",
+    "text": "69.11 Pathology of Cancer Atlas\nhttps://www.elbolkainy.net/pathology-of-cancer-atlas",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>68</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
+      "<span class='chapter-number'>69</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
     ]
   },
   {
     "objectID": "wsi.html#the-digital-microscope-2.0",
     "href": "wsi.html#the-digital-microscope-2.0",
-    "title": "68  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
-    "section": "68.12 The digital microscope 2.0",
-    "text": "68.12 The digital microscope 2.0\nhttps://www.histology.be/",
+    "title": "69  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
+    "section": "69.12 The digital microscope 2.0",
+    "text": "69.12 The digital microscope 2.0\nhttps://www.histology.be/",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>68</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
+      "<span class='chapter-number'>69</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
     ]
   },
   {
     "objectID": "wsi.html#world-tumor-registry",
     "href": "wsi.html#world-tumor-registry",
-    "title": "68  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
-    "section": "68.13 World Tumor Registry",
-    "text": "68.13 World Tumor Registry\nWorld Tumor Registry\n\n\n\n\n\nBuma, Alessandra I. G., Femke Simmer, Marjanne den Braber-Ymker, ve Patricia J. T. A. Groenen. 2023. “Appraisal of the PathoDiscovery: An Interactive Web-Based Educational Tool for Teaching Pathophysiology and Histopathology”. APMIS, Temmuz. https://doi.org/10.1111/apm.13337.\n\n\nMukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston, Rajendra Singh, Jonhan Ho, Kiran Motaparthi, vd. 2023. “From Scope to Screen: A Collection of Online Dermatopathology Resources for Residents and Fellows”. JAAD International 12 (Eylül): 12-14. https://doi.org/10.1016/j.jdin.2022.12.007.",
+    "title": "69  Patoloji Eğitimi İçin Bütün Slayt Görüntüleme (Whole Slide Image) Sayfaları",
+    "section": "69.13 World Tumor Registry",
+    "text": "69.13 World Tumor Registry\nWorld Tumor Registry",
     "crumbs": [
       "Özel Kolleksiyonlar",
-      "<span class='chapter-number'>68</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
+      "<span class='chapter-number'>69</span>  <span class='chapter-title'>Benzer Sayfalar</span>"
     ]
   },
   {
@@ -2179,7 +2245,7 @@
     "href": "referanslar.html",
     "title": "Referanslar",
     "section": "",
-    "text": "Buma, Alessandra I. G., Femke Simmer, Marjanne den Braber-Ymker, and\nPatricia J. T. A. Groenen. 2023. “Appraisal of the PathoDiscovery:\nAn Interactive Web-Based Educational Tool for Teaching\nPathophysiology and Histopathology.” APMIS, July. https://doi.org/10.1111/apm.13337.\n\n\nMukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston,\nRajendra Singh, Jonhan Ho, Kiran Motaparthi, et al. 2023. “From\nScope to Screen: A Collection of Online Dermatopathology Resources for\nResidents and Fellows.” JAAD International 12\n(September): 12–14. https://doi.org/10.1016/j.jdin.2022.12.007.",
+    "text": "Buma, Alessandra I. G., Femke Simmer, Marjanne den Braber-Ymker, and\nPatricia J. T. A. Groenen. 2023. “Appraisal of the PathoDiscovery:\nAn Interactive Web-Based Educational Tool for Teaching\nPathophysiology and Histopathology.” APMIS, July. https://doi.org/10.1111/apm.13337.\n\n\nMukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston,\nRajendra Singh, Jonhan Ho, Kiran Motaparthi, et al. 2023. “From\nScope to Screen: A Collection of Online Dermatopathology Resources for\nResidents and Fellows.” JAAD International 12\n(September): 12–14. https://doi.org/10.1016/j.jdin.2022.12.007.\n\n\n\n\n\nLinks\n\niletişime geçin\npatolojiAI",
     "crumbs": [
       "Referanslar"
     ]
@@ -2222,7 +2288,7 @@
     "href": "katki.html",
     "title": "Ek B — Katkıda Bulunmak İçin",
     "section": "",
-    "text": "H&E ya da özel boyalı preparatlarınızı bize elden ya da kargo ile ulaştırırsanız, onları tarayıp atlasa ekleyebiliriz.\nHalihazırda taranmış preparatlarınızı bulut üzerinden eposta ile paylaşırsanız, onları da ekleyebiliriz.\nPreparatın olduğu sayfaya eklenmek üzere\nAdınızı,\n\nKurumunuzu\n\nYönlendirilmesini istediğiniz iletişim linkini (web ya da e-posta)\n\nEklemek istediğiniz ek klinik bilgi, resim ya da notları\nbilgi@patolojiatlasi.com adresine iletiniz.\nAdres: Doç.Dr.Serdar Balcı Memorial Patoloji Laboratuvarı, Ortadoğu Plaza Kat:14, Kaptanpaşa Mah. Piyalepaşa Bulvarı, Okmeydanı Cd No:73, 34384 Şişli/İstanbul",
+    "text": "H&E ya da özel boyalı preparatlarınızı bize elden ya da kargo ile ulaştırırsanız, onları tarayıp atlasa ekleyebiliriz.\nHalihazırda taranmış preparatlarınızı bulut üzerinden eposta ile paylaşırsanız, onları da ekleyebiliriz.\nPreparatın olduğu sayfaya eklenmek üzere\nAdınızı,\n\nKurumunuzu\n\nYönlendirilmesini istediğiniz iletişim linkini (web ya da e-posta)\n\nEklemek istediğiniz ek klinik bilgi, resim ya da notları\nbilgi@patolojiatlasi.com adresine iletiniz.\nAdres: Doç.Dr.Serdar Balcı Memorial Patoloji Laboratuvarı, Ortadoğu Plaza Kat:14, Kaptanpaşa Mah. Piyalepaşa Bulvarı, Okmeydanı Cd No:73, 34384 Şişli/İstanbul\n\n\n\n\n\n\n\nC Links\n\niletişime geçin\npatolojiAI\neposta\nbilgi@patolojiatlasi.com",
     "crumbs": [
       "Ekler",
       "<span class='chapter-number'>B</span>  <span class='chapter-title'>Katkıda bulunun</span>"
@@ -2233,7 +2299,7 @@
     "href": "yorum.html",
     "title": "Ek C — Yorum Ekleyin",
     "section": "",
-    "text": "Lütfen, her sayfanın altında bulunan yorum kısmını kullanarak atlasın geliştirilmesine katılın.",
+    "text": "Lütfen, her sayfanın altında bulunan yorum kısmını kullanarak atlasın geliştirilmesine katılın.\n\n\n\n\n\n\n\nD Links\n\niletişime geçin\npatolojiAI",
     "crumbs": [
       "Ekler",
       "<span class='chapter-number'>C</span>  <span class='chapter-title'>Yorum ekleyin</span>"
@@ -2354,10 +2420,21 @@
     "href": "lists/index.html#vaka-listesi",
     "title": "Ek F — list",
     "section": "",
-    "text": "glioblastoma-HE\n      \n      glioblastoma\n      \n      Glioblastom\n      \n      Glioblastoma\n      \n      https://images.patolojiatlasi.com/glioblastoma/HE.html\n      \n      \n      glioblastoma\n      \n      \n      \n      \n      \n      \n      beyin,glioblastoma,malign,gliom,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          28 Tem 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Glioblastoma\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      glioblastoma-GFAP\n      \n      glioblastoma\n      \n      Glioblastom\n      \n      Glioblastoma\n      \n      https://images.patolojiatlasi.com/glioblastoma/GFAP.html\n      \n      \n      glioblastoma\n      \n      \n      \n      \n      \n      \n      beyin,glioblastoma,malign,gliom,tümör,immünohistokimya,GFAP,gliozis,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          28 Tem 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: GFAP stain in Glioblastoma\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      glioblastoma-NFP\n      \n      glioblastoma\n      \n      Glioblastom\n      \n      Glioblastoma\n      \n      https://images.patolojiatlasi.com/glioblastoma/NFP.html\n      \n      \n      glioblastoma\n      \n      \n      \n      \n      \n      \n      beyin,glioblastoma,malign,gliom,tümör,immünohistokimya,NFP,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          28 Tem 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: NFP stain in Glioblastoma\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      morphea-HE\n      \n      morphea\n      \n      Morfea\n      \n      Morphea\n      \n      https://images.patolojiatlasi.com/morphea/HE.html\n      \n      \n      morphea\n      \n      \n      \n      \n      \n      \n      deri,benign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          11 Tem 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      rokitansky-aschoff-sinus-HE\n      \n      rokitansky-aschoff-sinus\n      \n      Safra Kesesi Rokitansky-Aschoff Sinus\n      \n      Gallbladder Rokitansky-Aschoff Sinus\n      \n      https://images.patolojiatlasi.com/rokitansky-aschoff-sinus/HE.html\n      \n      \n      rokitansky-aschoff-sinus\n      \n      \n      \n      \n      \n      \n      safra kesesi,benign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          11 Tem 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Rokitansky-Aschoff Sinus\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      pancreas-solid-pseudopapillary-HE1\n      \n      pancreas-solid-pseudopapillary\n      \n      Pankreas Solid Psödopapiller Neoplazm\n      \n      Pancreas Solid Pseudopapillary Neoplasm\n      \n      https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE1.html\n      \n      \n      pancreas-solid-pseudopapillary\n      \n      \n      \n      \n      \n      \n      pankreas,solid psödopapiller neoplazm,tümör,benign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          9 Tem 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Solid pseudopapillary neoplasm of pancreas\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      pancreas-solid-pseudopapillary-HE2\n      \n      pancreas-solid-pseudopapillary\n      \n      Pankreas Solid Psödopapiller Neoplazm\n      \n      Pancreas Solid Pseudopapillary Neoplasm\n      \n      https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE2.html\n      \n      \n      pancreas-solid-pseudopapillary\n      \n      \n      \n      \n      \n      \n      pankreas,solid psödopapiller neoplazm,tümör,benign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          9 Tem 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Solid pseudopapillary neoplasm of pancreas\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      pancreas-solid-pseudopapillary-HE3\n      \n      pancreas-solid-pseudopapillary\n      \n      Pankreas Solid Psödopapiller Neoplazm\n      \n      Pancreas Solid Pseudopapillary Neoplasm\n      \n      https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE3.html\n      \n      \n      pancreas-solid-pseudopapillary\n      \n      \n      \n      \n      \n      \n      pankreas,solid psödopapiller neoplazm,tümör,benign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          9 Tem 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Solid pseudopapillary neoplasm of pancreas\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      pancreas-solid-pseudopapillary-HE4\n      \n      pancreas-solid-pseudopapillary\n      \n      Pankreas Solid Psödopapiller Neoplazm\n      \n      Pancreas Solid Pseudopapillary Neoplasm\n      \n      https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE4.html\n      \n      \n      pancreas-solid-pseudopapillary\n      \n      \n      \n      \n      \n      \n      pankreas,solid psödopapiller neoplazm,tümör,benign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          9 Tem 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Solid pseudopapillary neoplasm of pancreas\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      pancreas-solid-pseudopapillary-syn\n      \n      pancreas-solid-pseudopapillary\n      \n      Pankreas Solid Psödopapiller Neoplazm\n      \n      Pancreas Solid Pseudopapillary Neoplasm\n      \n      https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/syn.html\n      \n      \n      pancreas-solid-pseudopapillary\n      \n      \n      \n      \n      \n      \n      pankreas,solid psödopapiller neoplazm,tümör,immünohistokimya,benign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          9 Tem 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Solid pseudopapillary neoplasm of pancreas\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      pancreas-solid-pseudopapillary-betacatenine\n      \n      pancreas-solid-pseudopapillary\n      \n      Pankreas Solid Psödopapiller Neoplazm\n      \n      Pancreas Solid Pseudopapillary Neoplasm\n      \n      https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/betacatenine.html\n      \n      \n      pancreas-solid-pseudopapillary\n      \n      \n      \n      \n      \n      \n      pankreas,solid psödopapiller neoplazm,tümör,immünohistokimya,benign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          9 Tem 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Solid pseudopapillary neoplasm of pancreas\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      duodenum-tubular-adenoma-HE\n      \n      duodenum-tubular-adenoma\n      \n      duodenum tübüler adenom\n      \n      duodenum tubular adenoma\n      \n      https://images.patolojiatlasi.com/duodenum-tubular-adenoma/HE.html\n      \n      \n      duodenum-tubular-adenoma\n      \n      \n      \n      \n      \n      \n      duodenum,tübüler adenom,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          8 Tem 2024. Serdar Balci, Gülgün Koçak, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Tubular adenoma in Duodenum\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      ectopic-adrenal-HE\n      \n      ectopic-adrenal\n      \n      Ektopik Adrenal Dokusu\n      \n      Ectopic Adrenal Tissue\n      \n      https://images.patolojiatlasi.com/ectopic-adrenal/HE.html\n      \n      \n      ectopic-adrenal\n      \n      \n      \n      \n      \n      \n      adrenal,ektopik,adneks,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          29 Haz 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Ectopic adrenal tissue in paratubal adnexal region\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      brain-mucormycosis-GMS\n      \n      brain-mucormycosis\n      \n      Beyin Mukormikozisi (GMS)\n      \n      Brain Mucormycosis (GMS)\n      \n      https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html\n      \n      \n      brain-mucormycosis\n      \n      \n      \n      \n      \n      \n      beyin,mukormikozis,enfeksiyon,mantar,histokimya,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          29 Haz 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Brain mucormycosis with GMS stain\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      lung-squamous-cell-carcinoma-HE1\n      \n      lung-squamous-cell-carcinoma\n      \n      Akciğer Skuamöz Hücreli Karsinom, tru-cut biyopsi\n      \n      Lung Squamous Cell Carcinoma, tru-cut biopsy\n      \n      https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE1.html\n      \n      \n      lung-squamous-cell-carcinoma\n      \n      \n      \n      \n      \n      \n      akciğer,tru-cut,malign,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          29 Haz 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Lung Squamous Cell Carcinoma, tru-cut biopsy\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      lung-squamous-cell-carcinoma-HE2\n      \n      lung-squamous-cell-carcinoma\n      \n      Akciğer Skuamöz Hücreli Karsinom, tru-cut biyopsi\n      \n      Lung Squamous Cell Carcinoma, tru-cut biopsy\n      \n      https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE2.html\n      \n      \n      lung-squamous-cell-carcinoma\n      \n      \n      \n      \n      \n      \n      akciğer,tru-cut,malign,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          29 Haz 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Lung Squamous Cell Carcinoma, tru-cut biopsy\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      lung-squamous-cell-carcinoma-HE3\n      \n      lung-squamous-cell-carcinoma\n      \n      Akciğer Skuamöz Hücreli Karsinom, tru-cut biyopsi\n      \n      Lung Squamous Cell Carcinoma, tru-cut biopsy\n      \n      https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE3.html\n      \n      \n      lung-squamous-cell-carcinoma\n      \n      \n      \n      \n      \n      \n      akciğer,tru-cut,malign,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          29 Haz 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Lung Squamous Cell Carcinoma, tru-cut biopsy\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      lung-squamous-cell-carcinoma-HE4\n      \n      lung-squamous-cell-carcinoma\n      \n      Akciğer Skuamöz Hücreli Karsinom, tru-cut biyopsi\n      \n      Lung Squamous Cell Carcinoma, tru-cut biopsy\n      \n      https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE4.html\n      \n      \n      lung-squamous-cell-carcinoma\n      \n      \n      \n      \n      \n      \n      akciğer,tru-cut,malign,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          29 Haz 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Lung Squamous Cell Carcinoma, tru-cut biopsy\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      exostosis-oc\n      \n      exostosis\n      \n      Ekzostoz: Osteokondrom\n      \n      Exostosis: Osteochondroma\n      \n      https://images.patolojiatlasi.com/exostosis/oc.html\n      \n      \n      exostosis\n      \n      \n      \n      \n      \n      \n      kemik,benign,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          26 Haz 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Osteochondroma in bone\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      cholesteatoma-cholesteatoma\n      \n      cholesteatoma\n      \n      Kolestetom\n      \n      Cholesteatoma\n      \n      https://images.patolojiatlasi.com/cholesteatoma/cholesteatoma.html\n      \n      \n      cholesteatoma\n      \n      \n      \n      \n      \n      \n      patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          26 Haz 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Cholestatoma in ear\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      myxoidliposarcoma-HE\n      \n      myxoidliposarcoma\n      \n      Miksoid liposarkom\n      \n      Myxoid liposarcoma\n      \n      https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html\n      \n      \n      myxoidliposarcoma\n      \n      \n      \n      \n      \n      \n      liposarkom,miksoid,yumuşak doku,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      helicobacterpylori-HE\n      \n      helicobacterpylori\n      \n      Midede Helicobacter pylori\n      \n      Helicobacter pylori in stomach\n      \n      https://images.patolojiatlasi.com/helicobacterpylori/HE.html\n      \n      \n      helicobacterpylori\n      \n      \n      \n      \n      \n      \n      mide,bakteri,enfeksiyon,gastrik,Helicobacter pylori,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Helicobacter pylori in gastric mucosa\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      kidneyoncocytoma-HE\n      \n      kidneyoncocytoma\n      \n      Onkositom\n      \n      Oncocytoma\n      \n      https://images.patolojiatlasi.com/kidneyoncocytoma/HE.html\n      \n      \n      kidneyoncocytoma\n      \n      \n      \n      \n      \n      \n      böbrek,onkositom,benign,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Oncocytoma in kidney\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      celiac-disease-HE\n      \n      celiac-disease\n      \n      Çölyak Hastalığı\n      \n      Celiac Disease\n      \n      https://images.patolojiatlasi.com/celiac-disease/HE.html\n      \n      \n      celiac-disease\n      \n      \n      \n      \n      \n      \n      ince bağırsak,çölyak hastalığı,immun sistem,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      extramuralvenousinvasion-HE\n      \n      extramuralvenousinvasion\n      \n      Ekstramural Venöz İnvazyon\n      \n      Extramural Venous Invasion\n      \n      https://images.patolojiatlasi.com/extramuralvenousinvasion/HE.html\n      \n      \n      extramuralvenousinvasion\n      \n      \n      \n      \n      \n      \n      malign,kolon,tümör,invazyon,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      extramuralvenousinvasion-HE2\n      \n      extramuralvenousinvasion\n      \n      Eksramural Venöz İnvazyon\n      \n      Extramural Venous Invasion\n      \n      https://images.patolojiatlasi.com/extramuralvenousinvasion/HE2.html\n      \n      \n      extramuralvenousinvasion\n      \n      \n      \n      \n      \n      \n      malign,kolon,tumor,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      extramural-venous-invasion-HE\n      \n      extramural-venous-invasion\n      \n      Ekstramural Venöz İnvazyon\n      \n      Extramural Venous Invasion\n      \n      https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html\n      \n      \n      extramural-venous-invasion\n      \n      \n      \n      \n      \n      \n      kolon,malign,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Extramural venous invasion in colon cancer\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      endometriosis-HE\n      \n      endometriosis\n      \n      Endometriozis\n      \n      Endometriosis\n      \n      https://images.patolojiatlasi.com/endometriosis/HE.html\n      \n      \n      endometriosis\n      \n      \n      \n      \n      \n      \n      benign,ince bağırsak,endometriozis,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Endometriosis in small intestine wall, causing loop obstruction\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      erosion-HE\n      \n      erosion\n      \n      Erozif Gastrit\n      \n      Erosive Gastritis\n      \n      https://images.patolojiatlasi.com/erosion/HE.html\n      \n      \n      erosion\n      \n      \n      \n      \n      \n      \n      mide,erozif gastrit,inflamasyon,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Erosion in Gastric Mucosa\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      lymphocytic-gastritis-HE\n      \n      lymphocytic-gastritis\n      \n      Lendfositik Gastrit\n      \n      Lymphocytic Gastritis\n      \n      https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html\n      \n      \n      lymphocytic-gastritis\n      \n      \n      \n      \n      \n      \n      mide,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Lympocytic gastritis\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      ochronosis-HE\n      \n      ochronosis\n      \n      Okronozis\n      \n      Ochronosis\n      \n      https://images.patolojiatlasi.com/ochronosis/HE.html\n      \n      \n      ochronosis\n      \n      \n      \n      \n      \n      \n      kemik,okronozis,benign,metabolik,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Ochronosis in bone\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      reactive-atypia-HE\n      \n      reactive-atypia\n      \n      Ülsere Kolon Polibinde Reaktif Atipi\n      \n      Reactive atypia in an ulcerated colon polyp\n      \n      https://images.patolojiatlasi.com/reactive-atypia/HE.html\n      \n      \n      reactive-atypia\n      \n      \n      \n      \n      \n      \n      kolon,reaktif atipi,benign,polip,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Reactive atypia in an ulcerated colon polyp\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      liver-hemangioma-HE\n      \n      liver-hemangioma\n      \n      Karaciğer Hemangioma\n      \n      Liver Hemangioma\n      \n      https://images.patolojiatlasi.com/liver-hemangioma/HE.html\n      \n      \n      liver-hemangioma\n      \n      \n      \n      \n      \n      \n      karaciğer,hemangioma,tümör,benign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Hemangioma in liver\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      carcinogenesis-HE\n      \n      carcinogenesis\n      \n      Karsinogenez\n      \n      Carcinogenesis\n      \n      https://images.patolojiatlasi.com/carcinogenesis/HE.html\n      \n      \n      carcinogenesis\n      \n      \n      \n      \n      \n      \n      mide,karsinogenez,malign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      chronicpyelonephritis-HE1\n      \n      chronicpyelonephritis\n      \n      Kronik Piyelonefrit\n      \n      Chronic Pyelonephritis\n      \n      https://images.patolojiatlasi.com/chronicpyelonephritis/HE1.html\n      \n      \n      chronicpyelonephritis\n      \n      \n      \n      \n      \n      \n      böbrek,kronik piyelonefrit,inflamasyon,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Chronik pyelonephritis in kidney\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      chronicpyelonephritis-HE2\n      \n      chronicpyelonephritis\n      \n      Kronik Piyelonefrit\n      \n      Chronic Pyelonephritis\n      \n      https://images.patolojiatlasi.com/chronicpyelonephritis/HE2.html\n      \n      \n      chronicpyelonephritis\n      \n      \n      \n      \n      \n      \n      böbrek,kronik piyelonefrit,inflamasyon,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Chronik pyelonephritis in kidney\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      chronic-pyelonephritis-HE\n      \n      chronic-pyelonephritis\n      \n      Kronik Piyelonefrit\n      \n      Chronic Pyelonephritis\n      \n      https://images.patolojiatlasi.com/chronic-pyelonephritis/HE.html\n      \n      \n      chronic-pyelonephritis\n      \n      \n      \n      \n      \n      \n      böbrek,kronik piyelonefrit,inflamasyon,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      brain-mucormycosis-HE\n      \n      brain-mucormycosis\n      \n      Beyin Mukormikozisi\n      \n      Brain Mucormycosis\n      \n      https://images.patolojiatlasi.com/brain-mucormycosis/HE.html\n      \n      \n      brain-mucormycosis\n      \n      \n      \n      \n      \n      \n      beyin,mukormikozis,enfeksiyon,mantar,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      granular-cell-tumor-HE\n      \n      granular-cell-tumor\n      \n      Özofagus Granüler Hücreli Tümör\n      \n      Esophagus Granular Cell Tumor\n      \n      https://images.patolojiatlasi.com/granular-cell-tumor/HE.html\n      \n      \n      granular-cell-tumor\n      \n      \n      \n      \n      \n      \n      özofagus,granüler hücreli tümör,benign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Granular cell tumor in esophagus\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      gallbladder-adenomyoma-HE\n      \n      gallbladder-adenomyoma\n      \n      Safra Kesesi Adenomyoma\n      \n      Gallbladder Adenomyoma\n      \n      https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html\n      \n      \n      gallbladder-adenomyoma\n      \n      \n      \n      \n      \n      \n      safra kesesi,adenomyoma,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      ischemia-gangrenous-cholecystitis-HE\n      \n      ischemia-gangrenous-cholecystitis\n      \n      İskemik Gangrenöz Kolesistit\n      \n      Ischemic Gangrenous Cholecystitis\n      \n      https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html\n      \n      \n      ischemia-gangrenous-cholecystitis\n      \n      \n      \n      \n      \n      \n      safra kesesi,iskemi,gangren,kolesistit,inflamasyon,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      cervix-SCC-HE\n      \n      cervix-SCC\n      \n      Serviks Skuamöz Hücreli Karsinom\n      \n      Cervix Squamous Cell Carcinoma\n      \n      https://images.patolojiatlasi.com/cervix-SCC/HE.html\n      \n      \n      cervix-SCC\n      \n      \n      \n      \n      \n      \n      serviks,skuamöz hücreli karsinom,malign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      brain-arteriovenous-malformation-HE\n      \n      brain-arteriovenous-malformation\n      \n      Beyinde arteriyovenöz malformasyon\n      \n      Brain arteriovenous malformation\n      \n      https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html\n      \n      \n      brain-arteriovenous-malformation\n      \n      \n      \n      \n      \n      \n      beyin,arteriyovenöz malformasyon,vasküler,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      amyloid-crystalviolet\n      \n      amyloid\n      \n      Amiloid (Kristal Violet)\n      \n      Amyloid (Crystal Violet)\n      \n      https://images.patolojiatlasi.com/amyloid/crystalviolet.html\n      \n      \n      amyloid\n      \n      \n      \n      \n      \n      \n      amiloid,kristal violet,histokimya,kolon,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Amyloid deposition in vessels of colon mucosa\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      congored-congored\n      \n      congored\n      \n      Kongo Kırmızısı\n      \n      Congo Red\n      \n      https://images.patolojiatlasi.com/congored/congored.html\n      \n      \n      congored\n      \n      \n      \n      \n      \n      \n      amiloid,kongo kırmızısı,histokimya,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Amyloid deposition in vessels of colon mucosa\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      helicobacterpylori-warthinstarry\n      \n      helicobacterpylori\n      \n      Helicobacter pylori (Warthin-Starry)\n      \n      Helicobacter pylori (Warthin-Starry)\n      \n      https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html\n      \n      \n      helicobacterpylori\n      \n      \n      \n      \n      \n      \n      mide,bakteri,enfeksiyon,gastrik,histokimya,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Helicobacter pylori in gastric mucosa\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      helicobacterpylori-giemsa\n      \n      helicobacterpylori\n      \n      Helicobacter pylori (Giemsa)\n      \n      Helicobacter pylori (Giemsa)\n      \n      https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html\n      \n      \n      helicobacterpylori\n      \n      \n      \n      \n      \n      \n      bakteri,mide,giemsa,histokimya,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Helicobacter pylori in gastric mucosa\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      helicobacterpylori-IHC\n      \n      helicobacterpylori\n      \n      Helicobacter pylori (IHC)\n      \n      Helicobacter pylori (IHC)\n      \n      https://images.patolojiatlasi.com/helicobacterpylori/IHC.html\n      \n      \n      helicobacterpylori\n      \n      \n      \n      \n      \n      \n      bakteri,mide,immunohistokimya,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Helicobacter pylori in gastric mucosa\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      pancreaticadenocarcinoma-case1-histopathology/viewer_z0\n      \n      pancreaticadenocarcinoma\n      \n      Pankreas Adenokarsinomu\n      \n      Pancreatic Adenocarcinoma\n      \n      https://images.patolojiatlasi.com/pancreaticadenocarcinoma/case1-histopathology/viewer_z0.html\n      \n      \n      pancreaticadenocarcinoma\n      \n      \n      \n      \n      \n      \n      pankreas,adenokarsinom,malign,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Pancreatic adenocarcinoma\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      lymphocytic-gastritis-all\n      \n      lymphocytic-gastritis\n      \n      Lenfositik Gastrit\n      \n      Lymphocytic Gastritis\n      \n      https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html\n      \n      \n      lymphocytic-gastritis\n      \n      \n      \n      \n      \n      \n      mide,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Lymphocytic gastritis\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      exostosis-oc001\n      \n      exostosis\n      \n      Ekzostoz\n      \n      Exostosis\n      \n      https://images.patolojiatlasi.com/exostosis/oc001.html\n      \n      \n      exostosis\n      \n      \n      \n      \n      \n      \n      kemik,benign,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Exostosis in bone\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      exostosis-oc002\n      \n      exostosis\n      \n      Ekzostoz\n      \n      Exostosis\n      \n      https://images.patolojiatlasi.com/exostosis/oc002.html\n      \n      \n      exostosis\n      \n      \n      \n      \n      \n      \n      kemik,benign,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Exostosis in bone\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      cholesteatoma-HE\n      \n      cholesteatoma\n      \n      Kolesteatom\n      \n      Cholesteatoma\n      \n      https://images.patolojiatlasi.com/cholesteatoma/cholesteatoma.html\n      \n      \n      cholesteatoma\n      \n      \n      \n      \n      \n      \n      kolesteatom,kulak,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      candidaalbicans-cervicovaginalsmear/viewer_z0\n      \n      candidaalbicans\n      \n      Servikovajinal yaymada Candida albicans\n      \n      Candida albicans in cervicovaginal smear\n      \n      https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html\n      \n      \n      candidaalbicans\n      \n      \n      \n      \n      \n      \n      serviks,sitoloji,PAP,smear,mantar,enfeksiyon,Candida,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Candida albicans in cervicovaginal smear\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      exostosis-HE\n      \n      exostosis\n      \n      Eksostoz\n      \n      Exostosis\n      \n      https://images.patolojiatlasi.com/exostosis/oc.html\n      \n      \n      exostosis\n      \n      \n      \n      \n      \n      \n      kemik,benign,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Exostosis in bone\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      herpesesophagitis-HE\n      \n      HSV\n      \n      Herpes Özofajiti\n      \n      Herpes Esophagitis\n      \n      https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html\n      \n      \n      HSV\n      \n      \n      \n      \n      \n      \n      patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      molluscum-contagiosum\n      \n      molluscum-contagiosum\n      \n      Molluscum Contagiosum\n      \n      Molluscum Contagiosum\n      \n      https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html\n      \n      \n      molluscum-contagiosum\n      \n      \n      \n      \n      \n      \n      patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n\n\nEşleşen öğe yok",
+    "text": "sarcina-ventriculi-HE\n      \n      sarcina-ventriculi\n      \n      Sarcina ventriculi\n      \n      Sarcina ventriculi\n      \n      https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html\n      \n      \n      sarcina-ventriculi\n      \n      \n      \n      \n      \n      \n      ,,,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          6 Kas 2025. Serdar Balci, Çiğdem Irkkan. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      glioblastoma-HE\n      \n      glioblastoma\n      \n      Glioblastom\n      \n      Glioblastoma\n      \n      https://images.patolojiatlasi.com/glioblastoma/HE.html\n      \n      \n      glioblastoma\n      \n      \n      \n      \n      \n      \n      beyin,glioblastoma,malign,gliom,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          28 Tem 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Glioblastoma\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      glioblastoma-GFAP\n      \n      glioblastoma\n      \n      Glioblastom\n      \n      Glioblastoma\n      \n      https://images.patolojiatlasi.com/glioblastoma/GFAP.html\n      \n      \n      glioblastoma\n      \n      \n      \n      \n      \n      \n      beyin,glioblastoma,malign,gliom,tümör,immünohistokimya,GFAP,gliozis,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          28 Tem 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: GFAP stain in Glioblastoma\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      glioblastoma-NFP\n      \n      glioblastoma\n      \n      Glioblastom\n      \n      Glioblastoma\n      \n      https://images.patolojiatlasi.com/glioblastoma/NFP.html\n      \n      \n      glioblastoma\n      \n      \n      \n      \n      \n      \n      beyin,glioblastoma,malign,gliom,tümör,immünohistokimya,NFP,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          28 Tem 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: NFP stain in Glioblastoma\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      morphea-HE\n      \n      morphea\n      \n      Morfea\n      \n      Morphea\n      \n      https://images.patolojiatlasi.com/morphea/HE.html\n      \n      \n      morphea\n      \n      \n      \n      \n      \n      \n      deri,benign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          11 Tem 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      rokitansky-aschoff-sinus-HE\n      \n      rokitansky-aschoff-sinus\n      \n      Safra Kesesi Rokitansky-Aschoff Sinus\n      \n      Gallbladder Rokitansky-Aschoff Sinus\n      \n      https://images.patolojiatlasi.com/rokitansky-aschoff-sinus/HE.html\n      \n      \n      rokitansky-aschoff-sinus\n      \n      \n      \n      \n      \n      \n      safra kesesi,benign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          11 Tem 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Rokitansky-Aschoff Sinus\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      pancreas-solid-pseudopapillary-HE1\n      \n      pancreas-solid-pseudopapillary\n      \n      Pankreas Solid Psödopapiller Neoplazm\n      \n      Pancreas Solid Pseudopapillary Neoplasm\n      \n      https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE1.html\n      \n      \n      pancreas-solid-pseudopapillary\n      \n      \n      \n      \n      \n      \n      pankreas,solid psödopapiller neoplazm,tümör,benign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          9 Tem 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Solid pseudopapillary neoplasm of pancreas\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      pancreas-solid-pseudopapillary-HE2\n      \n      pancreas-solid-pseudopapillary\n      \n      Pankreas Solid Psödopapiller Neoplazm\n      \n      Pancreas Solid Pseudopapillary Neoplasm\n      \n      https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE2.html\n      \n      \n      pancreas-solid-pseudopapillary\n      \n      \n      \n      \n      \n      \n      pankreas,solid psödopapiller neoplazm,tümör,benign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          9 Tem 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Solid pseudopapillary neoplasm of pancreas\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      pancreas-solid-pseudopapillary-HE3\n      \n      pancreas-solid-pseudopapillary\n      \n      Pankreas Solid Psödopapiller Neoplazm\n      \n      Pancreas Solid Pseudopapillary Neoplasm\n      \n      https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE3.html\n      \n      \n      pancreas-solid-pseudopapillary\n      \n      \n      \n      \n      \n      \n      pankreas,solid psödopapiller neoplazm,tümör,benign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          9 Tem 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Solid pseudopapillary neoplasm of pancreas\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      pancreas-solid-pseudopapillary-HE4\n      \n      pancreas-solid-pseudopapillary\n      \n      Pankreas Solid Psödopapiller Neoplazm\n      \n      Pancreas Solid Pseudopapillary Neoplasm\n      \n      https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/HE4.html\n      \n      \n      pancreas-solid-pseudopapillary\n      \n      \n      \n      \n      \n      \n      pankreas,solid psödopapiller neoplazm,tümör,benign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          9 Tem 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Solid pseudopapillary neoplasm of pancreas\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      pancreas-solid-pseudopapillary-syn\n      \n      pancreas-solid-pseudopapillary\n      \n      Pankreas Solid Psödopapiller Neoplazm\n      \n      Pancreas Solid Pseudopapillary Neoplasm\n      \n      https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/syn.html\n      \n      \n      pancreas-solid-pseudopapillary\n      \n      \n      \n      \n      \n      \n      pankreas,solid psödopapiller neoplazm,tümör,immünohistokimya,benign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          9 Tem 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Solid pseudopapillary neoplasm of pancreas\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      pancreas-solid-pseudopapillary-betacatenine\n      \n      pancreas-solid-pseudopapillary\n      \n      Pankreas Solid Psödopapiller Neoplazm\n      \n      Pancreas Solid Pseudopapillary Neoplasm\n      \n      https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/betacatenine.html\n      \n      \n      pancreas-solid-pseudopapillary\n      \n      \n      \n      \n      \n      \n      pankreas,solid psödopapiller neoplazm,tümör,immünohistokimya,benign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          9 Tem 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Solid pseudopapillary neoplasm of pancreas\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      duodenum-tubular-adenoma-HE\n      \n      duodenum-tubular-adenoma\n      \n      duodenum tübüler adenom\n      \n      duodenum tubular adenoma\n      \n      https://images.patolojiatlasi.com/duodenum-tubular-adenoma/HE.html\n      \n      \n      duodenum-tubular-adenoma\n      \n      \n      \n      \n      \n      \n      duodenum,tübüler adenom,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          8 Tem 2024. Serdar Balci, Gülgün Koçak, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Tubular adenoma in Duodenum\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      ectopic-adrenal-HE\n      \n      ectopic-adrenal\n      \n      Ektopik Adrenal Dokusu\n      \n      Ectopic Adrenal Tissue\n      \n      https://images.patolojiatlasi.com/ectopic-adrenal/HE.html\n      \n      \n      ectopic-adrenal\n      \n      \n      \n      \n      \n      \n      adrenal,ektopik,adneks,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          29 Haz 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Ectopic adrenal tissue in paratubal adnexal region\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      brain-mucormycosis-GMS\n      \n      brain-mucormycosis\n      \n      Beyin Mukormikozisi (GMS)\n      \n      Brain Mucormycosis (GMS)\n      \n      https://images.patolojiatlasi.com/brain-mucormycosis/GMS.html\n      \n      \n      brain-mucormycosis\n      \n      \n      \n      \n      \n      \n      beyin,mukormikozis,enfeksiyon,mantar,histokimya,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          29 Haz 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Brain mucormycosis with GMS stain\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      lung-squamous-cell-carcinoma-HE1\n      \n      lung-squamous-cell-carcinoma\n      \n      Akciğer Skuamöz Hücreli Karsinom, tru-cut biyopsi\n      \n      Lung Squamous Cell Carcinoma, tru-cut biopsy\n      \n      https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE1.html\n      \n      \n      lung-squamous-cell-carcinoma\n      \n      \n      \n      \n      \n      \n      akciğer,tru-cut,malign,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          29 Haz 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Lung Squamous Cell Carcinoma, tru-cut biopsy\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      lung-squamous-cell-carcinoma-HE2\n      \n      lung-squamous-cell-carcinoma\n      \n      Akciğer Skuamöz Hücreli Karsinom, tru-cut biyopsi\n      \n      Lung Squamous Cell Carcinoma, tru-cut biopsy\n      \n      https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE2.html\n      \n      \n      lung-squamous-cell-carcinoma\n      \n      \n      \n      \n      \n      \n      akciğer,tru-cut,malign,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          29 Haz 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Lung Squamous Cell Carcinoma, tru-cut biopsy\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      lung-squamous-cell-carcinoma-HE3\n      \n      lung-squamous-cell-carcinoma\n      \n      Akciğer Skuamöz Hücreli Karsinom, tru-cut biyopsi\n      \n      Lung Squamous Cell Carcinoma, tru-cut biopsy\n      \n      https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE3.html\n      \n      \n      lung-squamous-cell-carcinoma\n      \n      \n      \n      \n      \n      \n      akciğer,tru-cut,malign,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          29 Haz 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Lung Squamous Cell Carcinoma, tru-cut biopsy\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      lung-squamous-cell-carcinoma-HE4\n      \n      lung-squamous-cell-carcinoma\n      \n      Akciğer Skuamöz Hücreli Karsinom, tru-cut biyopsi\n      \n      Lung Squamous Cell Carcinoma, tru-cut biopsy\n      \n      https://images.patolojiatlasi.com/lung-squamous-cell-carcinoma/HE4.html\n      \n      \n      lung-squamous-cell-carcinoma\n      \n      \n      \n      \n      \n      \n      akciğer,tru-cut,malign,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          29 Haz 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Lung Squamous Cell Carcinoma, tru-cut biopsy\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      exostosis-oc\n      \n      exostosis\n      \n      Ekzostoz: Osteokondrom\n      \n      Exostosis: Osteochondroma\n      \n      https://images.patolojiatlasi.com/exostosis/oc.html\n      \n      \n      exostosis\n      \n      \n      \n      \n      \n      \n      kemik,benign,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          26 Haz 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Osteochondroma in bone\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      cholesteatoma-cholesteatoma\n      \n      cholesteatoma\n      \n      Kolestetom\n      \n      Cholesteatoma\n      \n      https://images.patolojiatlasi.com/cholesteatoma/cholesteatoma.html\n      \n      \n      cholesteatoma\n      \n      \n      \n      \n      \n      \n      patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          26 Haz 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Cholestatoma in ear\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      myxoidliposarcoma-HE\n      \n      myxoidliposarcoma\n      \n      Miksoid liposarkom\n      \n      Myxoid liposarcoma\n      \n      https://images.patolojiatlasi.com/myxoidliposarcoma/HE.html\n      \n      \n      myxoidliposarcoma\n      \n      \n      \n      \n      \n      \n      liposarkom,miksoid,yumuşak doku,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      helicobacterpylori-HE\n      \n      helicobacterpylori\n      \n      Midede Helicobacter pylori\n      \n      Helicobacter pylori in stomach\n      \n      https://images.patolojiatlasi.com/helicobacterpylori/HE.html\n      \n      \n      helicobacterpylori\n      \n      \n      \n      \n      \n      \n      mide,bakteri,enfeksiyon,gastrik,Helicobacter pylori,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Helicobacter pylori in gastric mucosa\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      kidneyoncocytoma-HE\n      \n      kidneyoncocytoma\n      \n      Onkositom\n      \n      Oncocytoma\n      \n      https://images.patolojiatlasi.com/kidneyoncocytoma/HE.html\n      \n      \n      kidneyoncocytoma\n      \n      \n      \n      \n      \n      \n      böbrek,onkositom,benign,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Oncocytoma in kidney\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      celiac-disease-HE\n      \n      celiac-disease\n      \n      Çölyak Hastalığı\n      \n      Celiac Disease\n      \n      https://images.patolojiatlasi.com/celiac-disease/HE.html\n      \n      \n      celiac-disease\n      \n      \n      \n      \n      \n      \n      ince bağırsak,çölyak hastalığı,immun sistem,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      extramuralvenousinvasion-HE\n      \n      extramuralvenousinvasion\n      \n      Ekstramural Venöz İnvazyon\n      \n      Extramural Venous Invasion\n      \n      https://images.patolojiatlasi.com/extramuralvenousinvasion/HE.html\n      \n      \n      extramuralvenousinvasion\n      \n      \n      \n      \n      \n      \n      malign,kolon,tümör,invazyon,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      extramuralvenousinvasion-HE2\n      \n      extramuralvenousinvasion\n      \n      Eksramural Venöz İnvazyon\n      \n      Extramural Venous Invasion\n      \n      https://images.patolojiatlasi.com/extramuralvenousinvasion/HE2.html\n      \n      \n      extramuralvenousinvasion\n      \n      \n      \n      \n      \n      \n      malign,kolon,tumor,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      extramural-venous-invasion-HE\n      \n      extramural-venous-invasion\n      \n      Ekstramural Venöz İnvazyon\n      \n      Extramural Venous Invasion\n      \n      https://images.patolojiatlasi.com/extramural-venous-invasion/HE.html\n      \n      \n      extramural-venous-invasion\n      \n      \n      \n      \n      \n      \n      kolon,malign,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Extramural venous invasion in colon cancer\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      endometriosis-HE\n      \n      endometriosis\n      \n      Endometriozis\n      \n      Endometriosis\n      \n      https://images.patolojiatlasi.com/endometriosis/HE.html\n      \n      \n      endometriosis\n      \n      \n      \n      \n      \n      \n      benign,ince bağırsak,endometriozis,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Endometriosis in small intestine wall, causing loop obstruction\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      erosion-HE\n      \n      erosion\n      \n      Erozif Gastrit\n      \n      Erosive Gastritis\n      \n      https://images.patolojiatlasi.com/erosion/HE.html\n      \n      \n      erosion\n      \n      \n      \n      \n      \n      \n      mide,erozif gastrit,inflamasyon,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Erosion in Gastric Mucosa\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      lymphocytic-gastritis-HE\n      \n      lymphocytic-gastritis\n      \n      Lendfositik Gastrit\n      \n      Lymphocytic Gastritis\n      \n      https://images.patolojiatlasi.com/lymphocytic-gastritis/HE.html\n      \n      \n      lymphocytic-gastritis\n      \n      \n      \n      \n      \n      \n      mide,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Lympocytic gastritis\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      ochronosis-HE\n      \n      ochronosis\n      \n      Okronozis\n      \n      Ochronosis\n      \n      https://images.patolojiatlasi.com/ochronosis/HE.html\n      \n      \n      ochronosis\n      \n      \n      \n      \n      \n      \n      kemik,okronozis,benign,metabolik,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Ochronosis in bone\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      reactive-atypia-HE\n      \n      reactive-atypia\n      \n      Ülsere Kolon Polibinde Reaktif Atipi\n      \n      Reactive atypia in an ulcerated colon polyp\n      \n      https://images.patolojiatlasi.com/reactive-atypia/HE.html\n      \n      \n      reactive-atypia\n      \n      \n      \n      \n      \n      \n      kolon,reaktif atipi,benign,polip,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Reactive atypia in an ulcerated colon polyp\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      liver-hemangioma-HE\n      \n      liver-hemangioma\n      \n      Karaciğer Hemangioma\n      \n      Liver Hemangioma\n      \n      https://images.patolojiatlasi.com/liver-hemangioma/HE.html\n      \n      \n      liver-hemangioma\n      \n      \n      \n      \n      \n      \n      karaciğer,hemangioma,tümör,benign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Hemangioma in liver\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      carcinogenesis-HE\n      \n      carcinogenesis\n      \n      Karsinogenez\n      \n      Carcinogenesis\n      \n      https://images.patolojiatlasi.com/carcinogenesis/HE.html\n      \n      \n      carcinogenesis\n      \n      \n      \n      \n      \n      \n      mide,karsinogenez,malign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      chronicpyelonephritis-HE1\n      \n      chronicpyelonephritis\n      \n      Kronik Piyelonefrit\n      \n      Chronic Pyelonephritis\n      \n      https://images.patolojiatlasi.com/chronicpyelonephritis/HE1.html\n      \n      \n      chronicpyelonephritis\n      \n      \n      \n      \n      \n      \n      böbrek,kronik piyelonefrit,inflamasyon,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Chronik pyelonephritis in kidney\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      chronicpyelonephritis-HE2\n      \n      chronicpyelonephritis\n      \n      Kronik Piyelonefrit\n      \n      Chronic Pyelonephritis\n      \n      https://images.patolojiatlasi.com/chronicpyelonephritis/HE2.html\n      \n      \n      chronicpyelonephritis\n      \n      \n      \n      \n      \n      \n      böbrek,kronik piyelonefrit,inflamasyon,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Chronik pyelonephritis in kidney\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      chronic-pyelonephritis-HE\n      \n      chronic-pyelonephritis\n      \n      Kronik Piyelonefrit\n      \n      Chronic Pyelonephritis\n      \n      https://images.patolojiatlasi.com/chronic-pyelonephritis/HE.html\n      \n      \n      chronic-pyelonephritis\n      \n      \n      \n      \n      \n      \n      böbrek,kronik piyelonefrit,inflamasyon,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      brain-mucormycosis-HE\n      \n      brain-mucormycosis\n      \n      Beyin Mukormikozisi\n      \n      Brain Mucormycosis\n      \n      https://images.patolojiatlasi.com/brain-mucormycosis/HE.html\n      \n      \n      brain-mucormycosis\n      \n      \n      \n      \n      \n      \n      beyin,mukormikozis,enfeksiyon,mantar,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      granular-cell-tumor-HE\n      \n      granular-cell-tumor\n      \n      Özofagus Granüler Hücreli Tümör\n      \n      Esophagus Granular Cell Tumor\n      \n      https://images.patolojiatlasi.com/granular-cell-tumor/HE.html\n      \n      \n      granular-cell-tumor\n      \n      \n      \n      \n      \n      \n      özofagus,granüler hücreli tümör,benign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Granular cell tumor in esophagus\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      gallbladder-adenomyoma-HE\n      \n      gallbladder-adenomyoma\n      \n      Safra Kesesi Adenomyoma\n      \n      Gallbladder Adenomyoma\n      \n      https://images.patolojiatlasi.com/gallbladder-adenomyoma/HE.html\n      \n      \n      gallbladder-adenomyoma\n      \n      \n      \n      \n      \n      \n      safra kesesi,adenomyoma,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      ischemia-gangrenous-cholecystitis-HE\n      \n      ischemia-gangrenous-cholecystitis\n      \n      İskemik Gangrenöz Kolesistit\n      \n      Ischemic Gangrenous Cholecystitis\n      \n      https://images.patolojiatlasi.com/ischemia-gangrenous-cholecystitis/HE.html\n      \n      \n      ischemia-gangrenous-cholecystitis\n      \n      \n      \n      \n      \n      \n      safra kesesi,iskemi,gangren,kolesistit,inflamasyon,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      cervix-SCC-HE\n      \n      cervix-SCC\n      \n      Serviks Skuamöz Hücreli Karsinom\n      \n      Cervix Squamous Cell Carcinoma\n      \n      https://images.patolojiatlasi.com/cervix-SCC/HE.html\n      \n      \n      cervix-SCC\n      \n      \n      \n      \n      \n      \n      serviks,skuamöz hücreli karsinom,malign,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      brain-arteriovenous-malformation-HE\n      \n      brain-arteriovenous-malformation\n      \n      Beyinde arteriyovenöz malformasyon\n      \n      Brain arteriovenous malformation\n      \n      https://images.patolojiatlasi.com/brain-arteriovenous-malformation/HE.html\n      \n      \n      brain-arteriovenous-malformation\n      \n      \n      \n      \n      \n      \n      beyin,arteriyovenöz malformasyon,vasküler,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          2 Mar 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      amyloid-crystalviolet\n      \n      amyloid\n      \n      Amiloid (Kristal Violet)\n      \n      Amyloid (Crystal Violet)\n      \n      https://images.patolojiatlasi.com/amyloid/crystalviolet.html\n      \n      \n      amyloid\n      \n      \n      \n      \n      \n      \n      amiloid,kristal violet,histokimya,kolon,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Amyloid deposition in vessels of colon mucosa\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      congored-congored\n      \n      congored\n      \n      Kongo Kırmızısı\n      \n      Congo Red\n      \n      https://images.patolojiatlasi.com/congored/congored.html\n      \n      \n      congored\n      \n      \n      \n      \n      \n      \n      amiloid,kongo kırmızısı,histokimya,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Amyloid deposition in vessels of colon mucosa\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      helicobacterpylori-warthinstarry\n      \n      helicobacterpylori\n      \n      Helicobacter pylori (Warthin-Starry)\n      \n      Helicobacter pylori (Warthin-Starry)\n      \n      https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html\n      \n      \n      helicobacterpylori\n      \n      \n      \n      \n      \n      \n      mide,bakteri,enfeksiyon,gastrik,histokimya,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Helicobacter pylori in gastric mucosa\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      helicobacterpylori-giemsa\n      \n      helicobacterpylori\n      \n      Helicobacter pylori (Giemsa)\n      \n      Helicobacter pylori (Giemsa)\n      \n      https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html\n      \n      \n      helicobacterpylori\n      \n      \n      \n      \n      \n      \n      bakteri,mide,giemsa,histokimya,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Helicobacter pylori in gastric mucosa\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      helicobacterpylori-IHC\n      \n      helicobacterpylori\n      \n      Helicobacter pylori (IHC)\n      \n      Helicobacter pylori (IHC)\n      \n      https://images.patolojiatlasi.com/helicobacterpylori/IHC.html\n      \n      \n      helicobacterpylori\n      \n      \n      \n      \n      \n      \n      bakteri,mide,immunohistokimya,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Helicobacter pylori in gastric mucosa\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      pancreaticadenocarcinoma-case1-histopathology/viewer_z0\n      \n      pancreaticadenocarcinoma\n      \n      Pankreas Adenokarsinomu\n      \n      Pancreatic Adenocarcinoma\n      \n      https://images.patolojiatlasi.com/pancreaticadenocarcinoma/case1-histopathology/viewer_z0.html\n      \n      \n      pancreaticadenocarcinoma\n      \n      \n      \n      \n      \n      \n      pankreas,adenokarsinom,malign,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Pancreatic adenocarcinoma\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      lymphocytic-gastritis-all\n      \n      lymphocytic-gastritis\n      \n      Lenfositik Gastrit\n      \n      Lymphocytic Gastritis\n      \n      https://images.patolojiatlasi.com/lymphocytic-gastritis/all.html\n      \n      \n      lymphocytic-gastritis\n      \n      \n      \n      \n      \n      \n      mide,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Lymphocytic gastritis\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      exostosis-oc001\n      \n      exostosis\n      \n      Ekzostoz\n      \n      Exostosis\n      \n      https://images.patolojiatlasi.com/exostosis/oc001.html\n      \n      \n      exostosis\n      \n      \n      \n      \n      \n      \n      kemik,benign,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Exostosis in bone\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      exostosis-oc002\n      \n      exostosis\n      \n      Ekzostoz\n      \n      Exostosis\n      \n      https://images.patolojiatlasi.com/exostosis/oc002.html\n      \n      \n      exostosis\n      \n      \n      \n      \n      \n      \n      kemik,benign,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Exostosis in bone\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      cholesteatoma-HE\n      \n      cholesteatoma\n      \n      Kolesteatom\n      \n      Cholesteatoma\n      \n      https://images.patolojiatlasi.com/cholesteatoma/cholesteatoma.html\n      \n      \n      cholesteatoma\n      \n      \n      \n      \n      \n      \n      kolesteatom,kulak,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      candidaalbicans-cervicovaginalsmear/viewer_z0\n      \n      candidaalbicans\n      \n      Servikovajinal yaymada Candida albicans\n      \n      Candida albicans in cervicovaginal smear\n      \n      https://images.patolojiatlasi.com/candidaalbicans/cervicovaginalsmear/viewer_z0.html\n      \n      \n      candidaalbicans\n      \n      \n      \n      \n      \n      \n      serviks,sitoloji,PAP,smear,mantar,enfeksiyon,Candida,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Candida albicans in cervicovaginal smear\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      exostosis-HE\n      \n      exostosis\n      \n      Eksostoz\n      \n      Exostosis\n      \n      https://images.patolojiatlasi.com/exostosis/oc.html\n      \n      \n      exostosis\n      \n      \n      \n      \n      \n      \n      kemik,benign,tümör,patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n        \n          Note: Exostosis in bone\n        \n      \n      \n\n      \n\n      \n\n    \n  \n    \n      herpesesophagitis-HE\n      \n      HSV\n      \n      Herpes Özofajiti\n      \n      Herpes Esophagitis\n      \n      https://images.patolojiatlasi.com/HSV/herpesesophagitis/viewer_z0.html\n      \n      \n      HSV\n      \n      \n      \n      \n      \n      \n      patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n    \n      molluscum-contagiosum\n      \n      molluscum-contagiosum\n      \n      Molluscum Contagiosum\n      \n      Molluscum Contagiosum\n      \n      https://images.patolojiatlasi.com/molluscum-contagiosum/HE.html\n      \n      \n      molluscum-contagiosum\n      \n      \n      \n      \n      \n      \n      patoloji,atlas,histopatoloji,whole slide image,sanal mikroskop\n      \n\n      \n      \n        \n          18 Şub 2024. Serdar Balci, Memorial Patoloji. .\n        \n      \n\n      \n      \n\n      \n\n      \n      \n\n      \n      \n\n      \n\n      \n\n    \n  \n\n\nEşleşen öğe yok",
     "crumbs": [
       "Ekler",
       "<span class='chapter-number'>F</span>  <span class='chapter-title'>Vaka Listesi</span>"
+    ]
+  },
+  {
+    "objectID": "artirilmis-gerceklik.html",
+    "href": "artirilmis-gerceklik.html",
+    "title": "Ek G — Artırılmış Gerçeklik",
+    "section": "",
+    "text": "H Links",
+    "crumbs": [
+      "Ekler",
+      "<span class='chapter-number'>G</span>  <span class='chapter-title'>Artırılmış Gerçeklik</span>"
     ]
   },
   {

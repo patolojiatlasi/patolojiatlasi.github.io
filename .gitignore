@@ -103,3 +103,13 @@ _docs
 *.tex
 .DS_Store
 _pdf_EN
+
+**/*.quarto_ipynb
+*.backup
+
+# Temporary rendering files - auto-generated during builds
+*_EN.qmd
+*_pdf_TR.qmd
+*_pdf_EN.qmd
+*_epub_word_TR.qmd
+*_epub_word_EN.qmd

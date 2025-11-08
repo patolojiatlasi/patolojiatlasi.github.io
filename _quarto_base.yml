@@ -1,0 +1,30 @@
+# Base Quarto configuration shared across all language variants
+# This file is inherited by _quarto_TR.yml, _quarto_EN.yml, and other configs
+# Language-specific settings are defined in the individual config files
+
+project:
+  type: book
+  resources:
+    - "CITATION.cff"
+    - images
+    - img
+    - screenshots
+    - qrcodes
+    - openseadragon
+    - annotorious
+    - files
+    - "script.js"
+    - "webpages.js"
+    - "webpages.txt"
+
+execute:
+  freeze: auto
+
+bibliography: references.bib
+highlight-style: pygments
+editor: source
+
+comments:
+  hypothesis: true
+  utterances:
+    repo: patolojiatlasi/patolojiatlasi.github.io

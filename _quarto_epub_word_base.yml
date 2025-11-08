@@ -1,0 +1,71 @@
+# Base EPUB/Word configuration
+# Shared settings for both TR and EN EPUB/Word outputs
+# Language-specific settings should be defined in _quarto_TR_epub_word.yml and _quarto_EN_epub_word.yml
+
+project:
+  type: book
+  resources:
+    - "CITATION.cff"
+    - images
+    - screenshots
+    - files
+    - "script.js"
+    - "webpages.js"
+    - "webpages.txt"
+
+execute:
+  freeze: auto
+
+book:
+  # Common book settings
+  date: last-modified
+  sharing: [twitter, facebook, linkedin]
+
+  search:
+    location: navbar
+    type: overlay
+    copy-button: true
+
+  sidebar:
+    style: docked
+    background: light
+    search: true
+    collapsed-level: 1
+    pinned: true
+
+  twitter-card:
+    creator: "%40serdarbalci"
+    site: "%40patolojinotlari"
+
+  page-navigation: true
+
+  page-footer:
+    border: true
+    background: light
+    left: "Copyright 2022, [patolojiAI](https://www.patolojiai.com/)"
+
+format:
+  epub:
+    toc: true
+    toc-depth: 2
+    execute:
+      warning: false
+    css:
+      epub.css
+    theme:
+      light: flatly
+      dark: darkly
+    page-layout: full
+    number-depth: 2
+
+  docx:
+    toc: true
+    section-numbers: true
+    highlight-style: github
+    toc-depth: 2
+    number-sections: true
+    number-depth: 2
+    execute:
+      warning: false
+
+editor: source

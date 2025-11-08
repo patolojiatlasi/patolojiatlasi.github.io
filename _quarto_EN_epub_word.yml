@@ -1,19 +1,14 @@
+# English EPUB/Word configuration
+# Inherits common settings from _quarto_epub_word_base.yml
+# Only English-specific settings are defined here
+
+metadata-files:
+  - _quarto_epub_word_base.yml
+
 project:
-  type: book
   output-dir: _epub_word_EN
   resources:
-    - "CITATION.cff"
-    - images
-    - screenshots
-    - files
-    - "script.js"
-    - "webpages.js"
-    - "webpages.txt"
     - "headerEN.html"
-
-
-execute:
-  freeze: auto
 
 lang: en
 
@@ -293,81 +288,18 @@ book:
     # - listing2_epub_word_EN.qmd
 
 format:
-
   epub:
-    toc: true
     epub-cover-image: images/coverEN.png
-    execute:
-      warning: false
-    css:
-      epub.css
-    theme:
-      light: flatly
-      dark: darkly
-    page-layout: full
-    # grid:
-    #   body-width: 1800px # default 900px
-    # self-contained: false
-    # anchor-sections: true
-    # link-external-icon: true
-    # link-external-newwindow: true
-    # link-external-filter: '(^(?:http:|https:)\/\/www\.histopathologyatlas\.com\/)|(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/images.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/pathologyatlas\.github\.io\/)|(^(?:http:|https:)\/\/patolojiatlasi\.github\.io\/)'
-    # citations-hover: true
-    # footnotes-hover: true
-    # number-depth: 2
-    # include-in-header:
-    #   - text: |
-    #       <script src="script.js"></script>
-    #       <script src="webpages.js"></script>
-    #   - file: "./headerTR.html"
-
-
-
-# https://quarto.org/docs/reference/formats/epub.html
-
-
 
   docx:
-    toc: true
-    section-numbers: true
-    highlight-style: github
-    toc-depth: 2
-    toc-title: "İçindekiler"
-    number-sections: true
-    number-depth: 2
-    execute:
-      warning: false
-    # theme:
-    #   light: flatly
-    #   dark: darkly
-    # page-layout: full
-    # grid:
-    #   body-width: 1800px # default 900px
-    # cover-image: images/coverTR.png
-    # css: styles.css
-    # self-contained: false
-    # anchor-sections: true
-    # link-external-icon: true
-    # link-external-newwindow: true
-    # link-external-filter: '(^(?:http:|https:)\/\/www\.histopathologyatlas\.com\/)|(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/images.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/pathologyatlas\.github\.io\/)|(^(?:http:|https:)\/\/patolojiatlasi\.github\.io\/)'
-    # citations-hover: true
-    # footnotes-hover: true
-    # include-in-header:
-    #   - text: |
-    #       <script src="script.js"></script>
-    #       <script src="webpages.js"></script>
-    #   - file: "./headerTR.html"
+    # No EN-specific overrides needed
 
+# https://quarto.org/docs/reference/formats/epub.html
 # https://quarto.org/docs/output-formats/ms-word.html
 # https://quarto.org/docs/reference/formats/docx.html
-
-
 
 citation:
     type: webpage
     container-title: Patoloji Atlası
     url: "https://www.histopathologyatlas.com/"
-
-
-editor: source
 

@@ -1,19 +1,14 @@
+# Turkish (Türkçe) EPUB/Word configuration
+# Inherits common settings from _quarto_epub_word_base.yml
+# Only Turkish-specific settings are defined here
+
+metadata-files:
+  - _quarto_epub_word_base.yml
+
 project:
-  type: book
   output-dir: _epub_word_TR
   resources:
-    - "CITATION.cff"
-    - images
-    - screenshots
-    - files
-    - "script.js"
-    - "webpages.js"
-    - "webpages.txt"
     - "headerTR.html"
-
-
-execute:
-  freeze: auto
 
 lang: tr
 
@@ -45,52 +40,14 @@ book:
 
     Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan ve diğer kurumlardan katkı yapan meslektaşlarımızın kolleksiyonlarından oluşmaktadır.
     Katkı yapmak ve kendi vakalarınız ekletmek için lütfen [iletişime geçin](https://www.patolojiatlasi.com/katki.html).
-  date: last-modified
   image: images/coverTR.png
   output-file: "Patoloji-Atlasi"
   cover-image: images/coverTR.png
   site-url: https://patolojiatlasi.com/
-#  repo-url: https://github.com/patolojiatlasi/patolojiatlasi.github.io
   google-analytics: "G-7BT7Q4FLT9"
-  sharing: [twitter, facebook, linkedin]
-  search:
-    location: navbar
-    type: overlay
-    copy-button: true
-  sidebar:
-    style: docked #floating
-    background: light
-    search: true
-    collapsed-level: 1
-    pinned: true
   open-graph:
     locale: tr_TR
     site-name: Patoloji Atlası
-  twitter-card:
-    creator: "%40serdarbalci"
-    site: "%40patolojinotlari"
-  page-navigation: true
-  page-footer:
-    border: true
-    background: light
-    left: "Copyright 2022, [patolojiAI](https://www.patolojiai.com/)"
-    # right:
-    #   - icon: github
-    #     href: https://github.com/patolojiatlasi
-    #     target: _blank
-    #   - icon: github
-    #     href: https://github.com/pathologyatlas
-    #     target: _blank
-    #   - icon: twitter
-    #     href: https://twitter.com/patolojinotlari
-    #     target: _blank
-    #   - icon: globe2
-    #     href: https://www.patolojinotlari.com
-    #     target: _blank
-    #   - icon: globe2
-    #     href: https://www.serdarbalci.com
-    #     target: _blank
-
   chapters:
     - text: "Anasayfa"
       href: index.qmd
@@ -285,73 +242,14 @@ book:
 
 
 format:
-
   epub:
-    toc: true
-    toc-depth: 2
     toc-title: "İçindekiler"
     epub-cover-image: images/Patoloji-Atlasi-ebook-cover.png
-    execute:
-      warning: false
-    css:
-      epub.css
-    theme:
-      light: flatly
-      dark: darkly
-    page-layout: full
-    # grid:
-    #   body-width: 1800px # default 900px
-    # self-contained: false
-    # anchor-sections: true
-    # link-external-icon: true
-    # link-external-newwindow: true
-    # link-external-filter: '(^(?:http:|https:)\/\/www\.histopathologyatlas\.com\/)|(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/images.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/pathologyatlas\.github\.io\/)|(^(?:http:|https:)\/\/patolojiatlasi\.github\.io\/)'
-    # citations-hover: true
-    # footnotes-hover: true
-    number-depth: 2
-    # include-in-header:
-    #   - text: |
-    #       <script src="script.js"></script>
-    #       <script src="webpages.js"></script>
-    #   - file: "./headerTR.html"
-
-
-
-# https://quarto.org/docs/reference/formats/epub.html
-
-
 
   docx:
-    toc: true
-    section-numbers: true
-    highlight-style: github
-    toc-depth: 2
     toc-title: "İçindekiler"
-    number-sections: true
-    number-depth: 2
-    execute:
-      warning: false
-    # theme:
-    #   light: flatly
-    #   dark: darkly
-    # page-layout: full
-    # grid:
-    #   body-width: 1800px # default 900px
-    # cover-image: images/coverTR.png
-    # css: styles.css
-    # self-contained: false
-    # anchor-sections: true
-    # link-external-icon: true
-    # link-external-newwindow: true
-    # link-external-filter: '(^(?:http:|https:)\/\/www\.histopathologyatlas\.com\/)|(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/images.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/pathologyatlas\.github\.io\/)|(^(?:http:|https:)\/\/patolojiatlasi\.github\.io\/)'
-    # citations-hover: true
-    # footnotes-hover: true
-    # include-in-header:
-    #   - text: |
-    #       <script src="script.js"></script>
-    #       <script src="webpages.js"></script>
-    #   - file: "./headerTR.html"
 
+# https://quarto.org/docs/reference/formats/epub.html
 # https://quarto.org/docs/output-formats/ms-word.html
 # https://quarto.org/docs/reference/formats/docx.html
 
@@ -361,7 +259,4 @@ citation:
     type: webpage
     container-title: Patoloji Atlası
     url: "https://www.patolojiatlasi.com/"
-
-
-editor: source
 

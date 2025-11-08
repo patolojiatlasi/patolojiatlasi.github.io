@@ -1,0 +1,52 @@
+# HTML format settings shared across all language variants
+# This file is inherited by language-specific configs that render HTML
+# Language-specific HTML customizations are defined in individual config files
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    page-layout: full
+    grid:
+      body-width: 1800px
+    css: styles.css
+    self-contained: false
+    anchor-sections: true
+    link-external-icon: true
+    link-external-newwindow: true
+    link-external-filter: '(^(?:http:|https:)\/\/www\.histopathologyatlas\.com\/)|(^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/images.patolojiatlasi\.com\/)|(^(?:http:|https:)\/\/pathologyatlas\.github\.io\/)|(^(?:http:|https:)\/\/patolojiatlasi\.github\.io\/)'
+    citations-hover: true
+    footnotes-hover: true
+    number-depth: 2
+    execute:
+      warning: false
+    include-in-header:
+      - text: |
+          <script src="script.js"></script>
+          <script src="webpages.js"></script>
+    filters:
+      - collapse-social-embeds
+      - linkate
+    feeds:
+      rss: true
+
+book:
+  date: last-modified
+  sharing: [twitter, facebook, linkedin]
+  search:
+    location: navbar
+    type: overlay
+    copy-button: true
+  sidebar:
+    background: light
+    search: true
+    collapsed-level: 1
+    pinned: true
+  twitter-card:
+    creator: "%40serdarbalci"
+    site: "%40patolojinotlari"
+  page-navigation: true
+  page-footer:
+    border: true
+    background: light

@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "WebSearch",
+      "WebFetch(domain:quarto.org)",
+      "Bash(Rscript:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(tee:*)",
+      "Bash(git checkout:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

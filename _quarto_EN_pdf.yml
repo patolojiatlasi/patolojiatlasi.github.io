@@ -1,19 +1,17 @@
+# English PDF configuration
+# Inherits common PDF settings from _quarto_pdf_base.yml
+# Only English-specific PDF settings are defined here
+
+metadata-files:
+  - _quarto_pdf_base.yml
+
 project:
-  type: book
   output-dir: _pdf_EN
   resources:
-    - "CITATION.cff"
-    - images
-    - screenshots
-    - files
     - "script.js"
     - "webpages.js"
     - "webpages.txt"
     - "headerEN.html"
-
-
-execute:
-  freeze: auto
 
 lang: en
 
@@ -42,49 +40,13 @@ book:
     Histopathology Atlas and Notes for Medical Students
     Pathology Lecture Notes and Histopathology Atlas is being prepared from Memorial Pathology Archive and collaborators from other institutions.
     If you want to contribute, please [contact us](https://www.patolojiatlasi.com/contributions.html).
-  date: last-modified
   image: images/coverEN.png
   output-file: "HistoPathology-Atlas"
   cover-image: images/Histopathology-Atlas-ebook-cover.png
   site-url: https://histopathologyatlas.com/
-  search:
-    location: navbar
-    type: overlay
-    copy-button: true
-  sidebar:
-    style: docked #floating
-    background: light
-    search: true
-    collapsed-level: 1
-    pinned: true
   open-graph:
     locale: en_EN
     site-name: Histopathology Atlas
-  twitter-card:
-    creator: "%40serdarbalci"
-    site: "%40patolojinotlari"
-  page-navigation: true
-  page-footer:
-    border: true
-    background: light
-    left: "Copyright 2022, [patolojiAI](https://www.patolojiai.com/)"
-    # right:
-    #   - icon: github
-    #     href: https://github.com/patolojiatlasi
-    #     target: _blank
-    #   - icon: github
-    #     href: https://github.com/pathologyatlas
-    #     target: _blank
-    #   - icon: twitter
-    #     href: https://twitter.com/patolojinotlari
-    #     target: _blank
-    #   - icon: globe2
-    #     href: https://www.patolojinotlari.com
-    #     target: _blank
-    #   - icon: globe2
-    #     href: https://www.serdarbalci.com
-    #     target: _blank
-
   chapters:
     - text: "Home Page"
       href: index.qmd
@@ -286,59 +248,13 @@ book:
     #   href: listing_pdf_EN.qmd
     # - listing2_pdf_EN.qmd
 
-
-
 format:
   pdf:
-    toc: true
-    toc-depth: 2
-    # lof: true
-    # lot: true
-    number-sections: true
     number-depth: 2
-    colorlinks: true
-    keep-tex: true
-    # include-in-header:
-    #   text: |
-    #     \usepackage{makeidx}
-    #     \makeindex
-#         \usepackage{fvextra}
-#         \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
-#         \areaset[0.50in]{4.5in}{8in}
-#         \usepackage{titlesec}
-#         \usepackage{svg}
-#         \usepackage{transparent}
-#         \usepackage{tikzfill}
-#         \usepackage{sidenotes}
-#         \usepackage{marginnote}
-#         \usepackage{changepage}
-#     include-before-body:
-#       text: |
-#         \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
-#            showspaces = false,
-#            showtabs = false,
-#            breaksymbolleft={},
-#            breaklines
-#            % Note: setting commandchars=\\\{\} here will cause an error
-#         }
-    # include-after-body:
-    #   text: |
-    #     \printindex
-    execute:
-      warning: false
-
-#    # documentclass: scrbook
-#    # classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,12pt]
-
 
 # https://quarto.org/docs/reference/formats/pdf.html
-
 
 citation:
     type: webpage
     container-title: Patoloji Atlası
     url: "https://www.histopathologyatlas.com/"
-
-
-editor: source
-

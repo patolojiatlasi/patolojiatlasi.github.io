@@ -1,15 +1,14 @@
+# Turkish (Türkçe) PDF configuration
+# Inherits common PDF settings from _quarto_pdf_base.yml
+# Only Turkish-specific PDF settings are defined here
+
+metadata-files:
+  - _quarto_pdf_base.yml
+
 project:
-  type: book
   output-dir: _pdf_TR
   resources:
-    - "CITATION.cff"
-    - images
-    - screenshots
     - qrcodes
-    - files
-
-execute:
-  freeze: auto
 
 lang: tr
 
@@ -34,58 +33,20 @@ book:
     Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları.
     Patoloji Atlas
     Patoloji Notu
-    Sanal Mikroskop 
+    Sanal Mikroskop
     Patoloji Ders Notları ve Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan ve diğer kurumlardan katkı yapan meslektaşlarımızın kolleksiyonlarından oluşmaktadır.
   abstract: |
     Patoloji Atlası: Tıp Fakültesi ve Sağlık Bilimleri Öğrencileri İçin Patoloji Laboratuvar Notları.
 
     Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan ve diğer kurumlardan katkı yapan meslektaşlarımızın kolleksiyonlarından oluşmaktadır.
     Katkı yapmak ve kendi vakalarınız ekletmek için lütfen [iletişime geçin](https://www.patolojiatlasi.com/katki.html).
-  date: last-modified
   image: images/coverTR.png
   output-file: "Patoloji-Atlasi"
   cover-image: images/coverTR.png
   site-url: https://patolojiatlasi.com/
-#  repo-url: https://github.com/patolojiatlasi/patolojiatlasi.github.io
-  sharing: [twitter, facebook, linkedin]
-  search:
-    location: navbar
-    type: overlay
-    copy-button: true
-  sidebar:
-    style: docked #floating
-    background: light
-    search: true
-    collapsed-level: 1
-    pinned: true
   open-graph:
     locale: tr_TR
     site-name: Patoloji Atlası
-  twitter-card:
-    creator: "%40serdarbalci"
-    site: "%40patolojinotlari"
-  page-navigation: true
-  page-footer:
-    border: true
-    background: light
-    left: "Copyright 2022, [patolojiAI](https://www.patolojiai.com/)"
-    # right:
-    #   - icon: github
-    #     href: https://github.com/patolojiatlasi
-    #     target: _blank
-    #   - icon: github
-    #     href: https://github.com/pathologyatlas
-    #     target: _blank
-    #   - icon: twitter
-    #     href: https://twitter.com/patolojinotlari
-    #     target: _blank
-    #   - icon: globe2
-    #     href: https://www.patolojinotlari.com
-    #     target: _blank
-    #   - icon: globe2
-    #     href: https://www.serdarbalci.com
-    #     target: _blank
-
   chapters:
     - text: "Anasayfa"
       href: index.qmd
@@ -274,66 +235,16 @@ book:
     #   href: listing_pdf_TR.qmd
     # - listing2_pdf_TR.qmd
 
-
 format:
   pdf:
-    toc: true
-    toc-depth: 2
-    # lof: true
-    # lot: true
     toc-title: "İçindekiler"
-    number-sections: true
     number-depth: 1
-    colorlinks: true
-    keep-tex: true
-
-    # documentclass: scrbook
-    # classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,12pt]
-
-    # include-in-header:
-    #   text: |
-    #     \usepackage{makeidx}
-    #     \makeindex
-
-#
-      # \usepackage{fvextra}
-      # \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
-      # \areaset[0.50in]{4.5in}{8in}
-
-    # include-before-body:
-    #   text: |
-    #     \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
-    #        showspaces = false,
-    #        showtabs = false,
-    #        breaksymbolleft={},
-    #        breaklines
-    #        % Note: setting commandchars=\\\{\} here will cause an error
-    #     }
-#
-#     include-after-body:
-#       text: |
-#         \printindex
-#
-#     fig-pos: 'H'
-
-    execute:
-      warning: false
-
-
-
 
 # https://www.brodrigues.co/blog/2023-06-29-book_quarto/
 # https://github.com/b-rodrigues/kdp_quarto/blob/main/_quarto.yml
-
-
 # https://quarto.org/docs/reference/formats/pdf.html
-
 
 citation:
     type: webpage
     container-title: Patoloji Atlası
     url: "https://www.patolojiatlasi.com/"
-
-
-editor: source
-

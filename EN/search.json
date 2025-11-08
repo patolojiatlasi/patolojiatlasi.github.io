@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Histopathology Atlas",
     "section": "",
-    "text": "Histopathology Atlas\n\n\n\nTürkçe Atlas için tıklayın.\nFor social media based pathology notes click here.\n\n\n\n  \n\nAtıf - Citation\n\n\n\n\nAtıf - Citation\n\n\n\n\n\n\n\nOpen Science Framework DOI: 10.17605/OSF.IO/6W5K8\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlease enable JavaScript to view the comments powered by Disqus.",
+    "text": "Histopathology Atlas\n\n\n\nTürkçe Atlas için tıklayın.\nFor social media based pathology notes click here.\n\n\n\n  \n\nAtıf - Citation\n\n\n\n\nAtıf - Citation\n\n\n\n\n\n\n\nOpen Science Framework DOI: 10.17605/OSF.IO/6W5K8\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlease enable JavaScript to view the comments powered by Disqus.\n\n\n\n\n\nLinks\n\ncontact us\ntıklayın\nclick here\n\nOpen Science Framework DOI: 10.17605/OSF.IO/6W5K8",
     "crumbs": [
       "Home Page"
     ]
@@ -14,7 +14,7 @@
     "href": "introduction.html",
     "title": "Introduction",
     "section": "",
-    "text": "Leanpub\nGoogle Kitaplar - Google Books\nApple Kitaplar - Apple Books\nArtırılmış gerçeklik (Augmented reality)\nAtıf - Citation",
+    "text": "Links\nLeanpub\nGoogle Kitaplar - Google Books\nApple Kitaplar - Apple Books\nArtırılmış gerçeklik (Augmented reality)\nAtıf - Citation",
     "crumbs": [
       "Introduction"
     ]
@@ -305,6 +305,17 @@
     ]
   },
   {
+    "objectID": "bacteria.html#sarcina-ventriculi",
+    "href": "bacteria.html#sarcina-ventriculi",
+    "title": "14  Bacteria",
+    "section": "14.2 sarcina-ventriculi",
+    "text": "14.2 sarcina-ventriculi\n```{comment}\n---\ndescription: |\n    Sarcina ventriculi, Sarcina ventriculi, patoloji, atlas, pathology, whole slide image, virtual microscopy, virtual microscope, sanal mikroskop\ndate: last-modified\ncategories: [Sarcina ventriculi, Sarcina ventriculi]\npage-layout: full\nbibliography: references.bib\n---\n```\n{r language sarcina-ventriculi, echo=FALSE, include=TRUE} source(\"./R/language.R\") output_type &lt;- knitr::opts_knit$get(\"rmarkdown.pandoc.to\")\n{asis Sarcina ventriculi TR , echo = (language == \"TR\")} ## Sarcina ventriculi {{#sec-sarcina-ventriculi }}\n{asis Sarcina ventriculi EN , echo = (language == \"EN\")} ## Sarcina ventriculi {{#sec-sarcina-ventriculi }}\n{r sarcina-ventriculi screenshot HE, eval=TRUE, include=FALSE} if (!file.exists(\"./screenshots/thumbnail_sarcina-ventriculi-HE.png\")) {{ webshot2::webshot(   url = \"https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html\",   file = \"./screenshots/thumbnail_sarcina-ventriculi-HE.png\" ) }}\n{r sarcina-ventriculi qrcode HE, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE} if (!file.exists(\"./qrcodes/sarcina-ventriculi-HE_qrcode.svg\")) {{   qrcode_svg &lt;- qrcode::qr_code(\"https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html\")   qrcode::generate_svg(qrcode = qrcode_svg,                        filename = \"./qrcodes/sarcina-ventriculi-HE_qrcode.svg\",                        show = FALSE) }}\n\nWSI - Link\n\n\n:::: {{.content-hidden when-format=“pdf”}}\n```{{asis, echo = (language == “TR”)}} Sarcina ventriculi\n{{width=“25%”}} Tam Ekran Görmek İçin Resmi Tıklayın\n\n::::\n\n:::: {{.content-visible when-format=\"pdf\"}}\n\n```{asis, echo = (language == \"TR\")}\n**Sarcina ventriculi**\n\n![](./qrcodes/sarcina-ventriculi-HE_qrcode.svg){{width=\"15%\"}} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_sarcina-ventriculi-HE.png){{width=\"25%\"}}](https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html)\n\n\n\n:::: {{.content-hidden when-format=“pdf”}}\n```{{asis, echo = (language == “EN”)}} Sarcina ventriculi\n{{width=“25%”}} Click for Full Screen WSI\n\n::::\n\n:::: {{.content-visible when-format=\"pdf\"}}\n\n```{asis, echo = (language == \"EN\")}\n**Sarcina ventriculi**\n\n![](./qrcodes/sarcina-ventriculi-HE_qrcode.svg){{width=\"15%\"}} [![Click for Full Screen WSI](./screenshots/thumbnail_sarcina-ventriculi-HE.png){{width=\"25%\"}}](https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html)\n::::\n\nWSI\n```{{asis, echo = ((language==“TR”) & (output_type==“html”))}} Mikroskopik görüntüleri inceleyin:\n\n\n\n```{asis, echo = ((language == \"EN\") & (output_type==\"html\"))}\nSee Microscopy with viewer:\n\n&lt;iframe src=\"https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html\" style=\"height:600px;width:100%;\" data-external=\"1\"&gt;&lt;/iframe&gt;\n\n\nDiagnosis\n```{{asis, echo = (language == “TR”)}} ::: {{.callout-tip collapse=“true” appearance=“default” icon=“true”}} ### Tanı için tıklayın\nSarcina ventriculi :::\n\n```{asis, echo = (language == \"EN\")}\n::: {{.callout-tip collapse=\"true\" appearance=\"default\" icon=\"true\"}}\n### Click for Diagnosis\n\nSarcina ventriculi\n:::\n:::::",
+    "crumbs": [
+      "Infectious Diseases",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Bacteria</span>"
+    ]
+  },
+  {
     "objectID": "fungi.html",
     "href": "fungi.html",
     "title": "15  Fungi",
@@ -529,7 +540,7 @@
     "href": "venous-invasion.html",
     "title": "25  Venous invasion",
     "section": "",
-    "text": "WSI - LinkWSI\n\n\n\nVenous invasion\n  Click for Full Screen WSI\n\n\n\n\nSee Microscopy with viewer:",
+    "text": "WSI - LinkWSI\n\n\n\nVenous invasion\n  Click for Full Screen WSI\n\n\n\n\nSee Microscopy with viewer:\n\n\n\n\n\n\n\n\n\n26 Links\n\ncontact us",
     "crumbs": [
       "Prognostic Morphologic Features of Neoplasms",
       "<span class='chapter-number'>25</span>  <span class='chapter-title'>Venous Invasion</span>"
@@ -551,10 +562,21 @@
     "href": "hodgkin.html",
     "title": "27  Hodgkin Lymphoma",
     "section": "",
-    "text": "WSI - LinkWSI\n\n\n\nHodgkin Lymphoma\n Click for Full Screen WSI\n\n\n\n\nSee Microscopy with viewer:",
+    "text": "WSI - LinkWSI\n\n\n\nHodgkin Lymphoma\n Click for Full Screen WSI\n\n\n\n\nSee Microscopy with viewer:\n\n\n\n\n\n\n\n\n\n28 Links\n\ncontact us",
     "crumbs": [
       "Hematopathology",
       "<span class='chapter-number'>27</span>  <span class='chapter-title'>Hodgkin Lymphoma</span>"
+    ]
+  },
+  {
+    "objectID": "gastro.html",
+    "href": "gastro.html",
+    "title": "28  Gastrointestinal System",
+    "section": "",
+    "text": "29 Links\n\ncontact us",
+    "crumbs": [
+      "Gastrointestinal System",
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Gastrointestinal Sistem</span>"
     ]
   },
   {
@@ -800,6 +822,17 @@
     ]
   },
   {
+    "objectID": "genital.html",
+    "href": "genital.html",
+    "title": "43  Genital System Pathology",
+    "section": "",
+    "text": "44 Links\n\ncontact us",
+    "crumbs": [
+      "Gynecopathology",
+      "<span class='chapter-number'>43</span>  <span class='chapter-title'>Genital System</span>"
+    ]
+  },
+  {
     "objectID": "cervix.html",
     "href": "cervix.html",
     "title": "44  Cervix",
@@ -826,10 +859,21 @@
     "href": "endometriosis.html",
     "title": "46  Endometriosis",
     "section": "",
-    "text": "WSI - LinkWSI\n\n\n\nEndometriosis in small intestine wall, causing loop obstruction\n Click for Full Screen WSI\n\n\n\n\nSee Microscopy with viewer:",
+    "text": "WSI - LinkWSI\n\n\n\nEndometriosis in small intestine wall, causing loop obstruction\n Click for Full Screen WSI\n\n\n\n\nSee Microscopy with viewer:\n\n\n\n\n\n\n\n\n\n47 Links\n\ncontact us",
     "crumbs": [
       "Gynecopathology",
       "<span class='chapter-number'>46</span>  <span class='chapter-title'>Endometriosis</span>"
+    ]
+  },
+  {
+    "objectID": "urinary.html",
+    "href": "urinary.html",
+    "title": "47  Pathology of the Urinary System",
+    "section": "",
+    "text": "48 Links\n\ncontact us",
+    "crumbs": [
+      "Uropathology",
+      "<span class='chapter-number'>47</span>  <span class='chapter-title'>Uropathology</span>"
     ]
   },
   {
@@ -1152,993 +1196,1025 @@
     ]
   },
   {
+    "objectID": "BOS.html",
+    "href": "BOS.html",
+    "title": "61  CSF-metastasis - Leptomeningeal metastasis of lobular breast carcinoma, CSF metastasis",
+    "section": "",
+    "text": "61.1 CSF-breast-carcinoma-metastasis\n{r language CSF-breast-carcinoma-metastasis, echo=FALSE, include=TRUE} source(\"./R/language.R\") output_type &lt;- knitr::opts_knit$get(\"rmarkdown.pandoc.to\")\n{asis Beyin Omurilik Sıvıcında Meme Karsinom Metastazı TR , echo = (language == \"TR\")} ## Beyin Omurilik Sıvıcında Meme Karsinom Metastazı {{#sec-CSF-breast-carcinoma-metastasis }}\n{asis Breast Carcinoma Metastasis in Cerebrospinal Fluid EN , echo = (language == \"EN\")} ## Breast Carcinoma Metastasis in Cerebrospinal Fluid {{#sec-CSF-breast-carcinoma-metastasis }}\n{r CSF-breast-carcinoma-metastasis screenshot MGG, eval=TRUE, include=FALSE} if (!file.exists(\"./screenshots/thumbnail_CSF-breast-carcinoma-metastasis-MGG.png\")) {{ webshot2::webshot(   url = \"https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/MGG.html\",   file = \"./screenshots/thumbnail_CSF-breast-carcinoma-metastasis-MGG.png\" ) }}\n{r CSF-breast-carcinoma-metastasis qrcode MGG, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE} if (!file.exists(\"./qrcodes/CSF-breast-carcinoma-metastasis-MGG_qrcode.svg\")) {{   qrcode_svg &lt;- qrcode::qr_code(\"https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/MGG.html\")   qrcode::generate_svg(qrcode = qrcode_svg,                        filename = \"./qrcodes/CSF-breast-carcinoma-metastasis-MGG_qrcode.svg\",                        show = FALSE) }}\n{r CSF-breast-carcinoma-metastasis screenshot PAP, eval=TRUE, include=FALSE} if (!file.exists(\"./screenshots/thumbnail_CSF-breast-carcinoma-metastasis-PAP.png\")) {{ webshot2::webshot(   url = \"https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/PAP.html\",   file = \"./screenshots/thumbnail_CSF-breast-carcinoma-metastasis-PAP.png\" ) }}\n{r CSF-breast-carcinoma-metastasis qrcode PAP, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE} if (!file.exists(\"./qrcodes/CSF-breast-carcinoma-metastasis-PAP_qrcode.svg\")) {{   qrcode_svg &lt;- qrcode::qr_code(\"https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/PAP.html\")   qrcode::generate_svg(qrcode = qrcode_svg,                        filename = \"./qrcodes/CSF-breast-carcinoma-metastasis-PAP_qrcode.svg\",                        show = FALSE) }}\n:::: {{.content-hidden when-format=“pdf”}}\n```{{asis, echo = (language == “EN”)}} Breast Carcinoma Metastasis in Cerebrospinal Fluid\n{{width=“25%”}} Click for Full Screen WSI\n::::\n:::: {{.content-hidden when-format=“pdf”}}\n```{{asis, echo = (language == “TR”)}} Beyin Omurilik Sıvıcında Meme Karsinom Metastazı\n{{width=“25%”}} Tam Ekran Görmek İçin Resmi Tıklayın\n::::\n:::: {{.content-hidden when-format=“pdf”}}\n```{{asis, echo = (language == “EN”)}} Breast Carcinoma Metastasis in Cerebrospinal Fluid\n{{width=“25%”}} Click for Full Screen WSI\n::::",
+    "crumbs": [
+      "Cytopathology",
+      "<span class='chapter-number'>61</span>  <span class='chapter-title'>BOS.html</span>"
+    ]
+  },
+  {
+    "objectID": "BOS.html#csf-breast-carcinoma-metastasis",
+    "href": "BOS.html#csf-breast-carcinoma-metastasis",
+    "title": "61  CSF-metastasis - Leptomeningeal metastasis of lobular breast carcinoma, CSF metastasis",
+    "section": "",
+    "text": "```{comment}\n---\ndescription: |\n    Beyin Omurilik Sıvıcında Meme Karsinom Metastazı, Breast Carcinoma Metastasis in Cerebrospinal Fluid, patoloji, atlas, pathology, whole slide image, virtual microscopy, virtual microscope, sanal mikroskop\ndate: last-modified\ncategories: [Beyin Omurilik Sıvıcında Meme Karsinom Metastazı, Breast Carcinoma Metastasis in Cerebrospinal Fluid]\npage-layout: full\nbibliography: references.bib\n---\n```\n\n\n\n\n\n\n\n\nWSI - Link\n\n\n:::: {{.content-hidden when-format=“pdf”}}\n```{{asis, echo = (language == “TR”)}} Beyin Omurilik Sıvıcında Meme Karsinom Metastazı\n{{width=“25%”}} Tam Ekran Görmek İçin Resmi Tıklayın\n\n::::\n\n:::: {{.content-visible when-format=\"pdf\"}}\n\n```{asis, echo = (language == \"TR\")}\n**Beyin Omurilik Sıvıcında Meme Karsinom Metastazı**\n\n![](./qrcodes/CSF-breast-carcinoma-metastasis-MGG_qrcode.svg){{width=\"15%\"}} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_CSF-breast-carcinoma-metastasis-MGG.png){{width=\"25%\"}}](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/MGG.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/MGG.html)\n\n\n\n\n\n\n\n::::\n\n:::: {{.content-visible when-format=\"pdf\"}}\n\n```{asis, echo = (language == \"EN\")}\n**Breast Carcinoma Metastasis in Cerebrospinal Fluid**\n\n![](./qrcodes/CSF-breast-carcinoma-metastasis-MGG_qrcode.svg){{width=\"15%\"}} [![Click for Full Screen WSI](./screenshots/thumbnail_CSF-breast-carcinoma-metastasis-MGG.png){{width=\"25%\"}}](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/MGG.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/MGG.html)\n\n\n\n\n\n::::\n\n:::: {{.content-visible when-format=\"pdf\"}}\n\n```{asis, echo = (language == \"TR\")}\n**Beyin Omurilik Sıvıcında Meme Karsinom Metastazı**\n\n![](./qrcodes/CSF-breast-carcinoma-metastasis-PAP_qrcode.svg){{width=\"15%\"}} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_CSF-breast-carcinoma-metastasis-PAP.png){{width=\"25%\"}}](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/PAP.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/PAP.html)\n\n\n\n\n\n::::\n\n:::: {{.content-visible when-format=\"pdf\"}}\n\n```{asis, echo = (language == \"EN\")}\n**Breast Carcinoma Metastasis in Cerebrospinal Fluid**\n\n![](./qrcodes/CSF-breast-carcinoma-metastasis-PAP_qrcode.svg){{width=\"15%\"}} [![Click for Full Screen WSI](./screenshots/thumbnail_CSF-breast-carcinoma-metastasis-PAP.png){{width=\"25%\"}}](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/PAP.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/PAP.html)\n\n\nWSI\n```{{asis, echo = ((language==“TR”) & (output_type==“html”))}} Mikroskopik görüntüleri inceleyin:\n\n\n\n```{asis, echo = ((language == \"EN\") & (output_type==\"html\"))}\nSee Microscopy with viewer:\n\n&lt;iframe src=\"https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/MGG.html\" style=\"height:600px;width:100%;\" data-external=\"1\"&gt;&lt;/iframe&gt;\n```{{asis, echo = ((language==“TR”) & (output_type==“html”))}} Mikroskopik görüntüleri inceleyin:\n\n\n\n```{asis, echo = ((language == \"EN\") & (output_type==\"html\"))}\nSee Microscopy with viewer:\n\n&lt;iframe src=\"https://images.patolojiatlasi.com/CSF-breast-carcinoma-metastasis/PAP.html\" style=\"height:600px;width:100%;\" data-external=\"1\"&gt;&lt;/iframe&gt;\n\n\nDiagnosis\n```{{asis, echo = (language == “TR”)}} ::: {{.callout-tip collapse=“true” appearance=“default” icon=“true”}} ### Tanı için tıklayın\nBeyin Omurilik Sıvıcında Meme Karsinom Metastazı :::\n\n```{asis, echo = (language == \"EN\")}\n::: {{.callout-tip collapse=\"true\" appearance=\"default\" icon=\"true\"}}\n### Click for Diagnosis\n\nBreast Carcinoma Metastasis in Cerebrospinal Fluid\n:::\n:::::",
+    "crumbs": [
+      "Cytopathology",
+      "<span class='chapter-number'>61</span>  <span class='chapter-title'>BOS.html</span>"
+    ]
+  },
+  {
     "objectID": "gbd.html",
     "href": "gbd.html",
-    "title": "61  GBD Collection",
+    "title": "62  GBD Collection",
     "section": "",
-    "text": "61.1 GBD Case 1 - pediatric autopsy, brain",
+    "text": "62.1 GBD Case 1 - pediatric autopsy, brain",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>61</span>  <span class='chapter-title'>GBDAtlas</span>"
+      "<span class='chapter-number'>62</span>  <span class='chapter-title'>GBDAtlas</span>"
     ]
   },
   {
     "objectID": "gbd.html#sec-GBD2",
     "href": "gbd.html#sec-GBD2",
-    "title": "61  GBD Collection",
-    "section": "61.2 GBD Case 2 - pediatric autopsy",
-    "text": "61.2 GBD Case 2 - pediatric autopsy",
+    "title": "62  GBD Collection",
+    "section": "62.2 GBD Case 2 - pediatric autopsy",
+    "text": "62.2 GBD Case 2 - pediatric autopsy",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>61</span>  <span class='chapter-title'>GBDAtlas</span>"
+      "<span class='chapter-number'>62</span>  <span class='chapter-title'>GBDAtlas</span>"
     ]
   },
   {
     "objectID": "gbd.html#sec-GBD3",
     "href": "gbd.html#sec-GBD3",
-    "title": "61  GBD Collection",
-    "section": "61.3 GBD3",
-    "text": "61.3 GBD3",
+    "title": "62  GBD Collection",
+    "section": "62.3 GBD3",
+    "text": "62.3 GBD3",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>61</span>  <span class='chapter-title'>GBDAtlas</span>"
+      "<span class='chapter-number'>62</span>  <span class='chapter-title'>GBDAtlas</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html",
     "href": "hacettepecom.html",
-    "title": "62  Hacettepe Case Of the Month (COM)",
+    "title": "63  Hacettepe Case Of the Month (COM)",
     "section": "",
-    "text": "62.1 Case-1",
+    "text": "63.1 Case-1",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-2",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-2",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.2 Case-2",
-    "text": "62.2 Case-2",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.2 Case-2",
+    "text": "63.2 Case-2",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-3",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-3",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.3 Case-3",
-    "text": "62.3 Case-3",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.3 Case-3",
+    "text": "63.3 Case-3",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-4",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-4",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.4 Case-4",
-    "text": "62.4 Case-4",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.4 Case-4",
+    "text": "63.4 Case-4",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-5",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-5",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.5 Case-5",
-    "text": "62.5 Case-5",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.5 Case-5",
+    "text": "63.5 Case-5",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-6",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-6",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.6 Case-6",
-    "text": "62.6 Case-6",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.6 Case-6",
+    "text": "63.6 Case-6",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-7",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-7",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.7 Case-7",
-    "text": "62.7 Case-7",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.7 Case-7",
+    "text": "63.7 Case-7",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-8",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-8",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.8 Case-8",
-    "text": "62.8 Case-8",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.8 Case-8",
+    "text": "63.8 Case-8",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-9",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-9",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.9 Case-9",
-    "text": "62.9 Case-9",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.9 Case-9",
+    "text": "63.9 Case-9",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-10",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-10",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.10 Case-10",
-    "text": "62.10 Case-10",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.10 Case-10",
+    "text": "63.10 Case-10",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-11",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-11",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.11 Case-11",
-    "text": "62.11 Case-11",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.11 Case-11",
+    "text": "63.11 Case-11",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-12",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-12",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.12 Case-12",
-    "text": "62.12 Case-12",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.12 Case-12",
+    "text": "63.12 Case-12",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-13",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-13",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.13 Case-13",
-    "text": "62.13 Case-13",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.13 Case-13",
+    "text": "63.13 Case-13",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-14",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-14",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.14 Case-14",
-    "text": "62.14 Case-14",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.14 Case-14",
+    "text": "63.14 Case-14",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-15",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-15",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.15 Case-15",
-    "text": "62.15 Case-15",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.15 Case-15",
+    "text": "63.15 Case-15",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-16",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-16",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.16 Case-16",
-    "text": "62.16 Case-16",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.16 Case-16",
+    "text": "63.16 Case-16",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-17",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-17",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.17 Case-17",
-    "text": "62.17 Case-17",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.17 Case-17",
+    "text": "63.17 Case-17",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-18",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-18",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.18 Case-18",
-    "text": "62.18 Case-18",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.18 Case-18",
+    "text": "63.18 Case-18",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-19",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-19",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.19 Case-19",
-    "text": "62.19 Case-19",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.19 Case-19",
+    "text": "63.19 Case-19",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-20",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-20",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.20 Case-20",
-    "text": "62.20 Case-20",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.20 Case-20",
+    "text": "63.20 Case-20",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-21",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-21",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.21 Case-21",
-    "text": "62.21 Case-21",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.21 Case-21",
+    "text": "63.21 Case-21",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-22",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-22",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.22 Case-22",
-    "text": "62.22 Case-22",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.22 Case-22",
+    "text": "63.22 Case-22",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-23",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-23",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.23 Case-23",
-    "text": "62.23 Case-23",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.23 Case-23",
+    "text": "63.23 Case-23",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-24",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-24",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.24 Case-24",
-    "text": "62.24 Case-24",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.24 Case-24",
+    "text": "63.24 Case-24",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-25",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-25",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.25 Case-25",
-    "text": "62.25 Case-25",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.25 Case-25",
+    "text": "63.25 Case-25",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-26",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-26",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.26 Case-26",
-    "text": "62.26 Case-26",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.26 Case-26",
+    "text": "63.26 Case-26",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-27",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-27",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.27 Case-27",
-    "text": "62.27 Case-27",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.27 Case-27",
+    "text": "63.27 Case-27",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-28",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-28",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.28 Case-28",
-    "text": "62.28 Case-28",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.28 Case-28",
+    "text": "63.28 Case-28",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-29",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-29",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.29 Case-29",
-    "text": "62.29 Case-29",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.29 Case-29",
+    "text": "63.29 Case-29",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-30",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-30",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.30 Case-30",
-    "text": "62.30 Case-30",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.30 Case-30",
+    "text": "63.30 Case-30",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-31",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-31",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.31 Case-31",
-    "text": "62.31 Case-31",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.31 Case-31",
+    "text": "63.31 Case-31",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-32",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-32",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.32 Case-32",
-    "text": "62.32 Case-32",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.32 Case-32",
+    "text": "63.32 Case-32",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-33",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-33",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.33 Case-33",
-    "text": "62.33 Case-33",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.33 Case-33",
+    "text": "63.33 Case-33",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-34",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-34",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.34 Case-34",
-    "text": "62.34 Case-34",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.34 Case-34",
+    "text": "63.34 Case-34",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-35",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-35",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.35 Case-35",
-    "text": "62.35 Case-35",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.35 Case-35",
+    "text": "63.35 Case-35",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-36",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-36",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.36 Case-36",
-    "text": "62.36 Case-36",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.36 Case-36",
+    "text": "63.36 Case-36",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-37",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-37",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.37 Case-37",
-    "text": "62.37 Case-37",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.37 Case-37",
+    "text": "63.37 Case-37",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-38",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-38",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.38 Case-38",
-    "text": "62.38 Case-38",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.38 Case-38",
+    "text": "63.38 Case-38",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-39",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-39",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.39 Case-39",
-    "text": "62.39 Case-39",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.39 Case-39",
+    "text": "63.39 Case-39",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-",
     "href": "hacettepecom.html#sec-hacettepe-case-of-the-month-case-",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.40 Case-40",
-    "text": "62.40 Case-40",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.40 Case-40",
+    "text": "63.40 Case-40",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "hacettepecom.html#sec-hacettepe-com-case-41",
     "href": "hacettepecom.html#sec-hacettepe-com-case-41",
-    "title": "62  Hacettepe Case Of the Month (COM)",
-    "section": "62.41 Case-41",
-    "text": "62.41 Case-41",
+    "title": "63  Hacettepe Case Of the Month (COM)",
+    "section": "63.41 Case-41",
+    "text": "63.41 Case-41",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Hacettepe Case of Month</span>"
     ]
   },
   {
     "objectID": "bs.html",
     "href": "bs.html",
-    "title": "63  BS Atlas",
+    "title": "64  BS Atlas",
     "section": "",
-    "text": "63.1 BS1 angiosarcoma, spleen, liver",
+    "text": "64.1 BS1 angiosarcoma, spleen, liver",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS2",
     "href": "bs.html#sec-BS2",
-    "title": "63  BS Atlas",
-    "section": "63.2 BS2 peliosis in cirrhotic nodule",
-    "text": "63.2 BS2 peliosis in cirrhotic nodule",
+    "title": "64  BS Atlas",
+    "section": "64.2 BS2 peliosis in cirrhotic nodule",
+    "text": "64.2 BS2 peliosis in cirrhotic nodule",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS3",
     "href": "bs.html#sec-BS3",
-    "title": "63  BS Atlas",
-    "section": "63.3 BS3 - macrovesicular and microvesicular steatosis, lipogranuloma, liver",
-    "text": "63.3 BS3 - macrovesicular and microvesicular steatosis, lipogranuloma, liver",
+    "title": "64  BS Atlas",
+    "section": "64.3 BS3 - macrovesicular and microvesicular steatosis, lipogranuloma, liver",
+    "text": "64.3 BS3 - macrovesicular and microvesicular steatosis, lipogranuloma, liver",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS4",
     "href": "bs.html#sec-BS4",
-    "title": "63  BS Atlas",
-    "section": "63.4 BS4 - brown fat",
-    "text": "63.4 BS4 - brown fat",
+    "title": "64  BS Atlas",
+    "section": "64.4 BS4 - brown fat",
+    "text": "64.4 BS4 - brown fat",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS5",
     "href": "bs.html#sec-BS5",
-    "title": "63  BS Atlas",
-    "section": "63.5 BS5 - lymphocytic gastritis",
-    "text": "63.5 BS5 - lymphocytic gastritis",
+    "title": "64  BS Atlas",
+    "section": "64.5 BS5 - lymphocytic gastritis",
+    "text": "64.5 BS5 - lymphocytic gastritis",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS6",
     "href": "bs.html#sec-BS6",
-    "title": "63  BS Atlas",
-    "section": "63.6 BS6 -",
-    "text": "63.6 BS6 -",
+    "title": "64  BS Atlas",
+    "section": "64.6 BS6 -",
+    "text": "64.6 BS6 -",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS7",
     "href": "bs.html#sec-BS7",
-    "title": "63  BS Atlas",
-    "section": "63.7 BS7 - necrotising sialometaplasia, radiotherapy after SCC",
-    "text": "63.7 BS7 - necrotising sialometaplasia, radiotherapy after SCC",
+    "title": "64  BS Atlas",
+    "section": "64.7 BS7 - necrotising sialometaplasia, radiotherapy after SCC",
+    "text": "64.7 BS7 - necrotising sialometaplasia, radiotherapy after SCC",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS8",
     "href": "bs.html#sec-BS8",
-    "title": "63  BS Atlas",
-    "section": "63.8 BS8 - thrombosis, FNH-like nodule, Budd-Chiari",
-    "text": "63.8 BS8 - thrombosis, FNH-like nodule, Budd-Chiari",
+    "title": "64  BS Atlas",
+    "section": "64.8 BS8 - thrombosis, FNH-like nodule, Budd-Chiari",
+    "text": "64.8 BS8 - thrombosis, FNH-like nodule, Budd-Chiari",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS9",
     "href": "bs.html#sec-BS9",
-    "title": "63  BS Atlas",
-    "section": "63.9 BS9 - Giardiasis, Duodenum",
-    "text": "63.9 BS9 - Giardiasis, Duodenum",
+    "title": "64  BS Atlas",
+    "section": "64.9 BS9 - Giardiasis, Duodenum",
+    "text": "64.9 BS9 - Giardiasis, Duodenum",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS10",
     "href": "bs.html#sec-BS10",
-    "title": "63  BS Atlas",
-    "section": "63.10 BS10 - granular cell tumor, colon",
-    "text": "63.10 BS10 - granular cell tumor, colon",
+    "title": "64  BS Atlas",
+    "section": "64.10 BS10 - granular cell tumor, colon",
+    "text": "64.10 BS10 - granular cell tumor, colon",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS11",
     "href": "bs.html#sec-BS11",
-    "title": "63  BS Atlas",
-    "section": "63.11 BS11 - sesile serrated adenoma lesion polyp",
-    "text": "63.11 BS11 - sesile serrated adenoma lesion polyp",
+    "title": "64  BS Atlas",
+    "section": "64.11 BS11 - sesile serrated adenoma lesion polyp",
+    "text": "64.11 BS11 - sesile serrated adenoma lesion polyp",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS12",
     "href": "bs.html#sec-BS12",
-    "title": "63  BS Atlas",
-    "section": "63.12 BS12 - brain, metastatic hepatoblastoma",
-    "text": "63.12 BS12 - brain, metastatic hepatoblastoma",
+    "title": "64  BS Atlas",
+    "section": "64.12 BS12 - brain, metastatic hepatoblastoma",
+    "text": "64.12 BS12 - brain, metastatic hepatoblastoma",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS13",
     "href": "bs.html#sec-BS13",
-    "title": "63  BS Atlas",
-    "section": "63.13 BS13 - lipopeliosis",
-    "text": "63.13 BS13 - lipopeliosis",
+    "title": "64  BS Atlas",
+    "section": "64.13 BS13 - lipopeliosis",
+    "text": "64.13 BS13 - lipopeliosis",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS14",
     "href": "bs.html#sec-BS14",
-    "title": "63  BS Atlas",
-    "section": "63.14 BS14 - myxoid adenomatosis, liver",
-    "text": "63.14 BS14 - myxoid adenomatosis, liver",
+    "title": "64  BS Atlas",
+    "section": "64.14 BS14 - myxoid adenomatosis, liver",
+    "text": "64.14 BS14 - myxoid adenomatosis, liver",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS15",
     "href": "bs.html#sec-BS15",
-    "title": "63  BS Atlas",
-    "section": "63.15 BS15 - endometriosis, colon wall",
-    "text": "63.15 BS15 - endometriosis, colon wall",
+    "title": "64  BS Atlas",
+    "section": "64.15 BS15 - endometriosis, colon wall",
+    "text": "64.15 BS15 - endometriosis, colon wall",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS16",
     "href": "bs.html#sec-BS16",
-    "title": "63  BS Atlas",
-    "section": "63.16 BS16 - metastatic carcinoma, omentum",
-    "text": "63.16 BS16 - metastatic carcinoma, omentum",
+    "title": "64  BS Atlas",
+    "section": "64.16 BS16 - metastatic carcinoma, omentum",
+    "text": "64.16 BS16 - metastatic carcinoma, omentum",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS17",
     "href": "bs.html#sec-BS17",
-    "title": "63  BS Atlas",
-    "section": "63.17 BS17 - CMV hepatitis, liver",
-    "text": "63.17 BS17 - CMV hepatitis, liver",
+    "title": "64  BS Atlas",
+    "section": "64.17 BS17 - CMV hepatitis, liver",
+    "text": "64.17 BS17 - CMV hepatitis, liver",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS18",
     "href": "bs.html#sec-BS18",
-    "title": "63  BS Atlas",
-    "section": "63.18 BS18 - cystic fibrosis, sinusoidal obstruction, liver",
-    "text": "63.18 BS18 - cystic fibrosis, sinusoidal obstruction, liver",
+    "title": "64  BS Atlas",
+    "section": "64.18 BS18 - cystic fibrosis, sinusoidal obstruction, liver",
+    "text": "64.18 BS18 - cystic fibrosis, sinusoidal obstruction, liver",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS19",
     "href": "bs.html#sec-BS19",
-    "title": "63  BS Atlas",
-    "section": "63.19 BS19 - pseudoinclusion, drug-induced injury, liver, bone marrow transplantation history",
-    "text": "63.19 BS19 - pseudoinclusion, drug-induced injury, liver, bone marrow transplantation history",
+    "title": "64  BS Atlas",
+    "section": "64.19 BS19 - pseudoinclusion, drug-induced injury, liver, bone marrow transplantation history",
+    "text": "64.19 BS19 - pseudoinclusion, drug-induced injury, liver, bone marrow transplantation history",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS20",
     "href": "bs.html#sec-BS20",
-    "title": "63  BS Atlas",
-    "section": "63.20 BS20 - granulamatous hepatitis, Tbc vs anti-Tbc drug induced reaction",
-    "text": "63.20 BS20 - granulamatous hepatitis, Tbc vs anti-Tbc drug induced reaction",
+    "title": "64  BS Atlas",
+    "section": "64.20 BS20 - granulamatous hepatitis, Tbc vs anti-Tbc drug induced reaction",
+    "text": "64.20 BS20 - granulamatous hepatitis, Tbc vs anti-Tbc drug induced reaction",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS21",
     "href": "bs.html#sec-BS21",
-    "title": "63  BS Atlas",
-    "section": "63.21 BS21 - portal gastropathy",
-    "text": "63.21 BS21 - portal gastropathy",
+    "title": "64  BS Atlas",
+    "section": "64.21 BS21 - portal gastropathy",
+    "text": "64.21 BS21 - portal gastropathy",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS22",
     "href": "bs.html#sec-BS22",
-    "title": "63  BS Atlas",
-    "section": "63.22 BS22 - ring mitosis, taxane treatment",
-    "text": "63.22 BS22 - ring mitosis, taxane treatment",
+    "title": "64  BS Atlas",
+    "section": "64.22 BS22 - ring mitosis, taxane treatment",
+    "text": "64.22 BS22 - ring mitosis, taxane treatment",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS23",
     "href": "bs.html#sec-BS23",
-    "title": "63  BS Atlas",
-    "section": "63.23 BS23 - Crohn disease fistule",
-    "text": "63.23 BS23 - Crohn disease fistule",
+    "title": "64  BS Atlas",
+    "section": "64.23 BS23 - Crohn disease fistule",
+    "text": "64.23 BS23 - Crohn disease fistule",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS24",
     "href": "bs.html#sec-BS24",
-    "title": "63  BS Atlas",
-    "section": "63.24 BS24 - Kayexalate, Sevelamer, Gastrointestinal tract injury, chronic kidney failure",
-    "text": "63.24 BS24 - Kayexalate, Sevelamer, Gastrointestinal tract injury, chronic kidney failure",
+    "title": "64  BS Atlas",
+    "section": "64.24 BS24 - Kayexalate, Sevelamer, Gastrointestinal tract injury, chronic kidney failure",
+    "text": "64.24 BS24 - Kayexalate, Sevelamer, Gastrointestinal tract injury, chronic kidney failure",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS25",
     "href": "bs.html#sec-BS25",
-    "title": "63  BS Atlas",
-    "section": "63.25 BS25 - duodenum, NET",
-    "text": "63.25 BS25 - duodenum, NET",
+    "title": "64  BS Atlas",
+    "section": "64.25 BS25 - duodenum, NET",
+    "text": "64.25 BS25 - duodenum, NET",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS26",
     "href": "bs.html#sec-BS26",
-    "title": "63  BS Atlas",
-    "section": "63.26 BS26 - esophagus, keratin granulomas after radiotherapy for SCC",
-    "text": "63.26 BS26 - esophagus, keratin granulomas after radiotherapy for SCC",
+    "title": "64  BS Atlas",
+    "section": "64.26 BS26 - esophagus, keratin granulomas after radiotherapy for SCC",
+    "text": "64.26 BS26 - esophagus, keratin granulomas after radiotherapy for SCC",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS27",
     "href": "bs.html#sec-BS27",
-    "title": "63  BS Atlas",
-    "section": "63.27 BS27 - lymphangiectasia duodenum",
-    "text": "63.27 BS27 - lymphangiectasia duodenum",
+    "title": "64  BS Atlas",
+    "section": "64.27 BS27 - lymphangiectasia duodenum",
+    "text": "64.27 BS27 - lymphangiectasia duodenum",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS28",
     "href": "bs.html#sec-BS28",
-    "title": "63  BS Atlas",
-    "section": "63.28 BS28 - metastatic PanNET, liver",
-    "text": "63.28 BS28 - metastatic PanNET, liver",
+    "title": "64  BS Atlas",
+    "section": "64.28 BS28 - metastatic PanNET, liver",
+    "text": "64.28 BS28 - metastatic PanNET, liver",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS29",
     "href": "bs.html#sec-BS29",
-    "title": "63  BS Atlas",
-    "section": "63.29 BS29 - ischemic colitis",
-    "text": "63.29 BS29 - ischemic colitis",
+    "title": "64  BS Atlas",
+    "section": "64.29 BS29 - ischemic colitis",
+    "text": "64.29 BS29 - ischemic colitis",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS30",
     "href": "bs.html#sec-BS30",
-    "title": "63  BS Atlas",
-    "section": "63.30 BS30 - embolisation microspheres",
-    "text": "63.30 BS30 - embolisation microspheres",
+    "title": "64  BS Atlas",
+    "section": "64.30 BS30 - embolisation microspheres",
+    "text": "64.30 BS30 - embolisation microspheres",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS31",
     "href": "bs.html#sec-BS31",
-    "title": "63  BS Atlas",
-    "section": "63.31 BS31 - cryptosporidium",
-    "text": "63.31 BS31 - cryptosporidium",
+    "title": "64  BS Atlas",
+    "section": "64.31 BS31 - cryptosporidium",
+    "text": "64.31 BS31 - cryptosporidium",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "bs.html#sec-BS32",
     "href": "bs.html#sec-BS32",
-    "title": "63  BS Atlas",
-    "section": "63.32 BS32 - isospora",
-    "text": "63.32 BS32 - isospora",
+    "title": "64  BS Atlas",
+    "section": "64.32 BS32 - isospora",
+    "text": "64.32 BS32 - isospora",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>BSAtlas</span>"
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>BSAtlas</span>"
     ]
   },
   {
     "objectID": "ice.html",
     "href": "ice.html",
-    "title": "64  ICE Atlas",
+    "title": "65  ICE Atlas",
     "section": "",
-    "text": "64.1 Duodenum WDNET",
+    "text": "65.1 Duodenum WDNET",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>64</span>  <span class='chapter-title'>ICEtlas</span>"
+      "<span class='chapter-number'>65</span>  <span class='chapter-title'>ICEtlas</span>"
     ]
   },
   {
     "objectID": "wsi.html",
     "href": "wsi.html",
-    "title": "65  Pages Containing Whole Slide Images for Pathology Education",
+    "title": "66  Pages Containing Whole Slide Images for Pathology Education",
     "section": "",
-    "text": "65.1 Rosai Collection\nhttps://www.rosaicollection.org/",
+    "text": "66.1 Rosai Collection\nhttps://www.rosaicollection.org/",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Similar Websites</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Similar Websites</span>"
     ]
   },
   {
     "objectID": "wsi.html#virtual-pathology-slide-library",
     "href": "wsi.html#virtual-pathology-slide-library",
-    "title": "65  Pages Containing Whole Slide Images for Pathology Education",
-    "section": "65.2 Virtual Pathology Slide Library",
-    "text": "65.2 Virtual Pathology Slide Library\n\nhttps://www.virtualpathology.leeds.ac.uk/slides/library/\n\n\n\nMicrocystic Serous Cystadenoma",
+    "title": "66  Pages Containing Whole Slide Images for Pathology Education",
+    "section": "66.2 Virtual Pathology Slide Library",
+    "text": "66.2 Virtual Pathology Slide Library\n\nhttps://www.virtualpathology.leeds.ac.uk/slides/library/\n\n\n\nMicrocystic Serous Cystadenoma",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Similar Websites</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Similar Websites</span>"
     ]
   },
   {
     "objectID": "wsi.html#sec-atlas-of-medical-foreign-bodies",
     "href": "wsi.html#sec-atlas-of-medical-foreign-bodies",
-    "title": "65  Pages Containing Whole Slide Images for Pathology Education",
-    "section": "65.3 Atlas of Medical Foreign Bodies",
-    "text": "65.3 Atlas of Medical Foreign Bodies",
+    "title": "66  Pages Containing Whole Slide Images for Pathology Education",
+    "section": "66.3 Atlas of Medical Foreign Bodies",
+    "text": "66.3 Atlas of Medical Foreign Bodies",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Similar Websites</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Similar Websites</span>"
     ]
   },
   {
     "objectID": "wsi.html#patoloji-dernekleri-federasyonu-olgu-sayfası",
     "href": "wsi.html#patoloji-dernekleri-federasyonu-olgu-sayfası",
-    "title": "65  Pages Containing Whole Slide Images for Pathology Education",
-    "section": "65.4 Patoloji Dernekleri Federasyonu Olgu Sayfası",
-    "text": "65.4 Patoloji Dernekleri Federasyonu Olgu Sayfası\n\nhttps://www.turkpath.org.tr/case.list.php",
+    "title": "66  Pages Containing Whole Slide Images for Pathology Education",
+    "section": "66.4 Patoloji Dernekleri Federasyonu Olgu Sayfası",
+    "text": "66.4 Patoloji Dernekleri Federasyonu Olgu Sayfası\n\nhttps://www.turkpath.org.tr/case.list.php",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Similar Websites</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Similar Websites</span>"
     ]
   },
   {
     "objectID": "wsi.html#dermatopathology-collection",
     "href": "wsi.html#dermatopathology-collection",
-    "title": "65  Pages Containing Whole Slide Images for Pathology Education",
-    "section": "65.5 Dermatopathology Collection",
-    "text": "65.5 Dermatopathology Collection\nA collection of online dermatopathology resources for residents and fellows. JAAD Int. 2023 Jan 30;12:12-14. doi: 10.1016/j.jdin.2022.12.007. PMID: 37228363; PMCID: PMC10203758. https://www.sciencedirect.com/science/article/pii/S2666328723000159 (Mukosera et al. 2023)\n\nUnable to display PDF file. Download instead.",
+    "title": "66  Pages Containing Whole Slide Images for Pathology Education",
+    "section": "66.5 Dermatopathology Collection",
+    "text": "66.5 Dermatopathology Collection\nA collection of online dermatopathology resources for residents and fellows. JAAD Int. 2023 Jan 30;12:12-14. doi: 10.1016/j.jdin.2022.12.007. PMID: 37228363; PMCID: PMC10203758. https://www.sciencedirect.com/science/article/pii/S2666328723000159 (Mukosera et al. 2023)\n\nUnable to display PDF file. Download instead.",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Similar Websites</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Similar Websites</span>"
     ]
   },
   {
     "objectID": "wsi.html#pathodiscovery",
     "href": "wsi.html#pathodiscovery",
-    "title": "65  Pages Containing Whole Slide Images for Pathology Education",
-    "section": "65.6 PathoDiscovery",
-    "text": "65.6 PathoDiscovery\nBuma AIG, Simmer F, den Braber-Ymker M, Groenen PJTA. Appraisal of the PathoDiscovery: an interactive web-based educational tool for teaching pathophysiology and histopathology. APMIS. 2023 Jul 7. doi: 10.1111/apm.13337. Epub ahead of print. PMID: 37418280. (Buma et al. 2023)\nhttps://radboudumc.bkcacademy.nl/module/19/extern",
+    "title": "66  Pages Containing Whole Slide Images for Pathology Education",
+    "section": "66.6 PathoDiscovery",
+    "text": "66.6 PathoDiscovery\nBuma AIG, Simmer F, den Braber-Ymker M, Groenen PJTA. Appraisal of the PathoDiscovery: an interactive web-based educational tool for teaching pathophysiology and histopathology. APMIS. 2023 Jul 7. doi: 10.1111/apm.13337. Epub ahead of print. PMID: 37418280. (Buma et al. 2023)\nhttps://radboudumc.bkcacademy.nl/module/19/extern",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Similar Websites</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Similar Websites</span>"
     ]
   },
   {
     "objectID": "wsi.html#american-academy-of-opthalmology-ophthalmic-pathology-education-system",
     "href": "wsi.html#american-academy-of-opthalmology-ophthalmic-pathology-education-system",
-    "title": "65  Pages Containing Whole Slide Images for Pathology Education",
-    "section": "65.7 American Academy of Opthalmology Ophthalmic Pathology Education System",
-    "text": "65.7 American Academy of Opthalmology Ophthalmic Pathology Education System\nhttps://www.aao.org/education/resident-course/pathology-atlas",
+    "title": "66  Pages Containing Whole Slide Images for Pathology Education",
+    "section": "66.7 American Academy of Opthalmology Ophthalmic Pathology Education System",
+    "text": "66.7 American Academy of Opthalmology Ophthalmic Pathology Education System\nhttps://www.aao.org/education/resident-course/pathology-atlas",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Similar Websites</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Similar Websites</span>"
     ]
   },
   {
     "objectID": "wsi.html#johns-hopkins-cytopathology-unknown-conference",
     "href": "wsi.html#johns-hopkins-cytopathology-unknown-conference",
-    "title": "65  Pages Containing Whole Slide Images for Pathology Education",
-    "section": "65.8 Johns Hopkins Cytopathology Unknown Conference",
-    "text": "65.8 Johns Hopkins Cytopathology Unknown Conference\nhttps://cyto.pathology.jhu.edu/",
+    "title": "66  Pages Containing Whole Slide Images for Pathology Education",
+    "section": "66.8 Johns Hopkins Cytopathology Unknown Conference",
+    "text": "66.8 Johns Hopkins Cytopathology Unknown Conference\nhttps://cyto.pathology.jhu.edu/",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Similar Websites</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Similar Websites</span>"
     ]
   },
   {
     "objectID": "wsi.html#johns-hopkins-bone-pathology-cases",
     "href": "wsi.html#johns-hopkins-bone-pathology-cases",
-    "title": "65  Pages Containing Whole Slide Images for Pathology Education",
-    "section": "65.9 Johns Hopkins Bone Pathology Cases",
-    "text": "65.9 Johns Hopkins Bone Pathology Cases\nhttps://apps.pathology.jhu.edu/bone/",
+    "title": "66  Pages Containing Whole Slide Images for Pathology Education",
+    "section": "66.9 Johns Hopkins Bone Pathology Cases",
+    "text": "66.9 Johns Hopkins Bone Pathology Cases\nhttps://apps.pathology.jhu.edu/bone/",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Similar Websites</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Similar Websites</span>"
     ]
   },
   {
     "objectID": "wsi.html#johns-hopkins-surgical-pathology-unknown-conference",
     "href": "wsi.html#johns-hopkins-surgical-pathology-unknown-conference",
-    "title": "65  Pages Containing Whole Slide Images for Pathology Education",
-    "section": "65.10 Johns Hopkins Surgical Pathology Unknown Conference",
-    "text": "65.10 Johns Hopkins Surgical Pathology Unknown Conference\nhttps://sp.pathology.jhu.edu/",
+    "title": "66  Pages Containing Whole Slide Images for Pathology Education",
+    "section": "66.10 Johns Hopkins Surgical Pathology Unknown Conference",
+    "text": "66.10 Johns Hopkins Surgical Pathology Unknown Conference\nhttps://sp.pathology.jhu.edu/",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Similar Websites</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Similar Websites</span>"
     ]
   },
   {
     "objectID": "wsi.html#pathology-of-cancer-atlas",
     "href": "wsi.html#pathology-of-cancer-atlas",
-    "title": "65  Pages Containing Whole Slide Images for Pathology Education",
-    "section": "65.11 Pathology of Cancer Atlas",
-    "text": "65.11 Pathology of Cancer Atlas\nhttps://www.elbolkainy.net/pathology-of-cancer-atlas",
+    "title": "66  Pages Containing Whole Slide Images for Pathology Education",
+    "section": "66.11 Pathology of Cancer Atlas",
+    "text": "66.11 Pathology of Cancer Atlas\nhttps://www.elbolkainy.net/pathology-of-cancer-atlas",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Similar Websites</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Similar Websites</span>"
     ]
   },
   {
     "objectID": "wsi.html#the-digital-microscope-2.0",
     "href": "wsi.html#the-digital-microscope-2.0",
-    "title": "65  Pages Containing Whole Slide Images for Pathology Education",
-    "section": "65.12 The digital microscope 2.0",
-    "text": "65.12 The digital microscope 2.0\nhttps://www.histology.be/",
+    "title": "66  Pages Containing Whole Slide Images for Pathology Education",
+    "section": "66.12 The digital microscope 2.0",
+    "text": "66.12 The digital microscope 2.0\nhttps://www.histology.be/",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Similar Websites</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Similar Websites</span>"
     ]
   },
   {
     "objectID": "wsi.html#world-tumor-registry",
     "href": "wsi.html#world-tumor-registry",
-    "title": "65  Pages Containing Whole Slide Images for Pathology Education",
-    "section": "65.13 World Tumor Registry",
-    "text": "65.13 World Tumor Registry\nWorld Tumor Registry\n\n\n\n\n\nBuma, Alessandra I. G., Femke Simmer, Marjanne den Braber-Ymker, and Patricia J. T. A. Groenen. 2023. “Appraisal of the PathoDiscovery: An Interactive Web-Based Educational Tool for Teaching Pathophysiology and Histopathology.” APMIS, July. https://doi.org/10.1111/apm.13337.\n\n\nMukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston, Rajendra Singh, Jonhan Ho, Kiran Motaparthi, et al. 2023. “From Scope to Screen: A Collection of Online Dermatopathology Resources for Residents and Fellows.” JAAD International 12 (September): 12–14. https://doi.org/10.1016/j.jdin.2022.12.007.",
+    "title": "66  Pages Containing Whole Slide Images for Pathology Education",
+    "section": "66.13 World Tumor Registry",
+    "text": "66.13 World Tumor Registry\nWorld Tumor Registry",
     "crumbs": [
       "Special Collections",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Similar Websites</span>"
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Similar Websites</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Buma, Alessandra I. G., Femke Simmer, Marjanne den Braber-Ymker, and\nPatricia J. T. A. Groenen. 2023. “Appraisal of the PathoDiscovery:\nAn Interactive Web-Based Educational Tool for Teaching\nPathophysiology and Histopathology.” APMIS, July. https://doi.org/10.1111/apm.13337.\n\n\nMukosera, George T., Marina K. Ibraheim, Michael P. Lee, Dirk Elston,\nRajendra Singh, Jonhan Ho, Kiran Motaparthi, et al. 2023. “From\nScope to Screen: A Collection of Online Dermatopathology Resources for\nResidents and Fellows.” JAAD International 12\n(September): 12–14. https://doi.org/10.1016/j.jdin.2022.12.007.\n\n\n\n\n\nLinks\n\ncontact us",
+    "crumbs": [
+      "References"
     ]
   },
   {
@@ -2179,7 +2255,7 @@
     "href": "contributions.html",
     "title": "Appendix B — Katkıda Bulunmak İçin",
     "section": "",
-    "text": "H&E ya da özel boyalı preparatlarınızı bize elden ya da kargo ile ulaştırırsanız, onları tarayıp atlasa ekleyebiliriz.\nHalihazırda taranmış preparatlarınızı bulut üzerinden eposta ile paylaşırsanız, onları da ekleyebiliriz.\nPreparatın olduğu sayfaya eklenmek üzere\nAdınızı,\n\nKurumunuzu\n\nYönlendirilmesini istediğiniz iletişim linkini (web ya da e-posta)\n\nEklemek istediğiniz ek klinik bilgi, resim ya da notları\nbilgi@patolojiatlasi.com adresine iletiniz.\nAdres: Doç.Dr.Serdar Balcı Memorial Patoloji Laboratuvarı, Ortadoğu Plaza Kat:14, Kaptanpaşa Mah. Piyalepaşa Bulvarı, Okmeydanı Cd No:73, 34384 Şişli/İstanbul",
+    "text": "H&E ya da özel boyalı preparatlarınızı bize elden ya da kargo ile ulaştırırsanız, onları tarayıp atlasa ekleyebiliriz.\nHalihazırda taranmış preparatlarınızı bulut üzerinden eposta ile paylaşırsanız, onları da ekleyebiliriz.\nPreparatın olduğu sayfaya eklenmek üzere\nAdınızı,\n\nKurumunuzu\n\nYönlendirilmesini istediğiniz iletişim linkini (web ya da e-posta)\n\nEklemek istediğiniz ek klinik bilgi, resim ya da notları\nbilgi@patolojiatlasi.com adresine iletiniz.\nAdres: Doç.Dr.Serdar Balcı Memorial Patoloji Laboratuvarı, Ortadoğu Plaza Kat:14, Kaptanpaşa Mah. Piyalepaşa Bulvarı, Okmeydanı Cd No:73, 34384 Şişli/İstanbul\n\n\n\n\n\n\n\nC Links\n\ncontact us\neposta\nbilgi@patolojiatlasi.com",
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>B</span>  <span class='chapter-title'>Contributions are welcome</span>"
@@ -2190,10 +2266,21 @@
     "href": "comments.html",
     "title": "Appendix C — Add Comments",
     "section": "",
-    "text": "Please participate in the development of the atlas by using the comment section at the bottom of each page.",
+    "text": "Please participate in the development of the atlas by using the comment section at the bottom of each page.\n\n\n\n\n\n\n\nD Links\n\ncontact us",
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>C</span>  <span class='chapter-title'>Comments are welcome</span>"
+    ]
+  },
+  {
+    "objectID": "augmented-reality.html",
+    "href": "augmented-reality.html",
+    "title": "Appendix D — Augmented Reality",
+    "section": "",
+    "text": "E Links",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Augmented Reality</span>"
     ]
   },
   {
