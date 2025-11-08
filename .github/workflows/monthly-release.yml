@@ -8,20 +8,23 @@ on:
 jobs:
   monthly-release:
     runs-on: ubuntu-latest
-    continue-on-error: true
+    continue-on-error: false
     env:
       RENV_PATHS_ROOT: ~/.local/share/renv
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install rsvg-convert
         run: sudo apt-get update && sudo apt-get install -y librsvg2-bin
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: pre-release
+          tinytex: true
 
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
@@ -30,7 +33,7 @@ jobs:
 #        uses: r-lib/actions/setup-renv@v2
 
       - name: Restore R package cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ${{ env.R_LIBS_USER }}
           key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
@@ -46,7 +49,7 @@ jobs:
             if (!requireNamespace("quarto", quietly = TRUE)) install.packages("quarto", dependencies = TRUE, quiet = TRUE, verbose = FALSE)
             if (!requireNamespace("xfun", quietly = TRUE)) {install.packages("xfun", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
             if (!requireNamespace("readxl", quietly = TRUE)) {install.packages("readxl", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
-            if (!requireNamespace("tinytex", quietly = TRUE)) {install.packages("tinytex, dependencies = TRUE, quiet = TRUE, verbose = FALSE")}
+            if (!requireNamespace("tinytex", quietly = TRUE)) {install.packages("tinytex", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
             if (!tinytex::is_tinytex()) {tinytex::install_tinytex()}
             saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
             writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")

@@ -8,7 +8,8 @@
       "Bash(ls:*)",
       "Bash(find:*)",
       "Bash(tee:*)",
-      "Bash(git checkout:*)"
+      "Bash(git checkout:*)",
+      "Bash(quarto render:*)"
     ],
     "deny": [],
     "ask": []

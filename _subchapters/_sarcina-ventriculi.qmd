@@ -65,7 +65,7 @@ if (!file.exists("./qrcodes/sarcina-ventriculi-HE_qrcode.svg")) {
 
 ### WSI - Link
 
-
+:::: {.content-visible}
 
 
 
@@ -129,6 +129,7 @@ if (!file.exists("./qrcodes/sarcina-ventriculi-HE_qrcode.svg")) {
 ```
 
 
+::::
 ::::
 
 

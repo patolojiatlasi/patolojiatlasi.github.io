@@ -8,7 +8,7 @@ jobs:
   quarto-render-and-deploy:
     if: "!contains(github.event.head_commit.message, 'WIP') && !contains(github.event.head_commit.message, 'merge') && !contains(github.event.head_commit.message, 'lecture')"
     runs-on: ubuntu-latest
-    continue-on-error: true
+    continue-on-error: false
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       R_LIBS_USER: ~/.local/share/R/library
@@ -115,7 +115,7 @@ jobs:
             if (!requireNamespace("quarto", quietly = TRUE)) install.packages("quarto", dependencies = TRUE, quiet = TRUE, verbose = FALSE)
             if (!requireNamespace("xfun", quietly = TRUE)) {install.packages("xfun", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
             if (!requireNamespace("readxl", quietly = TRUE)) {install.packages("readxl", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
-            if (!requireNamespace("tinytex", quietly = TRUE)) {install.packages("tinytex, dependencies = TRUE, quiet = TRUE, verbose = FALSE")}
+            if (!requireNamespace("tinytex", quietly = TRUE)) {install.packages("tinytex", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
             if (!tinytex::is_tinytex()) {tinytex::install_tinytex()}
             saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
             writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
@@ -172,7 +172,7 @@ jobs:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add .
+          git add docs/ EN/ gitlab_atlas/ public/ screenshots/ qrcodes/ .github/
           git commit -m "CI added changes `date +'%Y-%m-%d %H:%M:%S'`" || echo "No changes to commit"
           git push origin || echo "No changes to commit"
       - name: Push changes # push the output folder to your repo

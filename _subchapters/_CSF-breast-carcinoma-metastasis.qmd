@@ -110,7 +110,7 @@ if (!file.exists("./qrcodes/CSF-breast-carcinoma-metastasis-MGG_qrcode.svg")) {
 
 ### WSI - Link
 
-
+:::: {.content-visible}
 
 
 
@@ -241,6 +241,7 @@ if (!file.exists("./qrcodes/CSF-breast-carcinoma-metastasis-MGG_qrcode.svg")) {
 ```
 
 
+::::
 ::::
 
 

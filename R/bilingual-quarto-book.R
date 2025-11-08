@@ -183,6 +183,16 @@ if (file.exists("./public/CNAME")){
 
 fs::dir_copy(path = "./_docs", new_path = "./docs", overwrite = TRUE)
 
+# Create gitlab_atlas/public for GitLab mirror
+if (dir.exists(paths = "./_docs")) {
+  fs::dir_copy(path = "./_docs", new_path = "./gitlab_atlas/public", overwrite = TRUE)
+}
+
+# Remove CNAME from gitlab_atlas/public (GitLab doesn't need it)
+if (file.exists("./gitlab_atlas/public/CNAME")) {
+  fs::file_delete(path = "./gitlab_atlas/public/CNAME")
+}
+
 if (dir.exists(paths = "./_docs")) {
   fs::dir_delete(path = "./_docs")
 }
