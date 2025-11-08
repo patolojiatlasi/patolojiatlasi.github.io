@@ -22,41 +22,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -1103,11 +1068,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#sec-helicobacter-pylori" id="toc-sec-helicobacter-pylori" class="nav-link active" data-scroll-target="#sec-helicobacter-pylori"><span class="header-section-number">14.1</span> Helicobacter pylori</a></li>
-  <li><a href="#sarcina-ventriculi" id="toc-sarcina-ventriculi" class="nav-link" data-scroll-target="#sarcina-ventriculi"><span class="header-section-number">14.2</span> sarcina-ventriculi</a>
-  <ul class="collapse">
-  <li><a href="#wsi-4" id="toc-wsi-4" class="nav-link" data-scroll-target="#wsi-4">WSI</a></li>
-  <li><a href="#diagnosis" id="toc-diagnosis" class="nav-link" data-scroll-target="#diagnosis">Diagnosis</a></li>
-  </ul></li>
+  <li><a href="#sec-sarcina-ventriculi" id="toc-sec-sarcina-ventriculi" class="nav-link" data-scroll-target="#sec-sarcina-ventriculi"><span class="header-section-number">14.2</span> Sarcina ventriculi</a></li>
   <li><span class="header-section-number">15</span> Links</li>
   </ul>
 </nav>
@@ -1223,82 +1184,49 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<section id="sarcina-ventriculi" class="level2" data-number="14.2">
-<h2 data-number="14.2" class="anchored" data-anchor-id="sarcina-ventriculi"><span class="header-section-number">14.2</span> sarcina-ventriculi</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{comment}</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="op">---</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>description<span class="op">:</span> <span class="op">|</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    Sarcina ventriculi<span class="op">,</span> Sarcina ventriculi<span class="op">,</span> patoloji<span class="op">,</span> atlas<span class="op">,</span> pathology<span class="op">,</span> whole slide image<span class="op">,</span> virtual microscopy<span class="op">,</span> virtual microscope<span class="op">,</span> sanal mikroskop</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>date<span class="op">:</span> last<span class="op">-</span>modified</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>categories<span class="op">:</span> <span class="op">[</span>Sarcina ventriculi<span class="op">,</span> Sarcina ventriculi<span class="op">]</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>page<span class="op">-</span>layout<span class="op">:</span> full</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>bibliography<span class="op">:</span> references<span class="op">.</span>bib</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="op">---</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p><code>{r language sarcina-ventriculi, echo=FALSE, include=TRUE} source("./R/language.R") output_type &lt;- knitr::opts_knit$get("rmarkdown.pandoc.to")</code></p>
-<p><code>{asis Sarcina ventriculi TR , echo = (language == "TR")} ## Sarcina ventriculi {{#sec-sarcina-ventriculi }}</code></p>
-<p><code>{asis Sarcina ventriculi EN , echo = (language == "EN")} ## Sarcina ventriculi {{#sec-sarcina-ventriculi }}</code></p>
-<p><code>{r sarcina-ventriculi screenshot HE, eval=TRUE, include=FALSE} if (!file.exists("./screenshots/thumbnail_sarcina-ventriculi-HE.png")) {{ webshot2::webshot(   url = "https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html",   file = "./screenshots/thumbnail_sarcina-ventriculi-HE.png" ) }}</code></p>
-<p><code>{r sarcina-ventriculi qrcode HE, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE} if (!file.exists("./qrcodes/sarcina-ventriculi-HE_qrcode.svg")) {{   qrcode_svg &lt;- qrcode::qr_code("https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html")   qrcode::generate_svg(qrcode = qrcode_svg,                        filename = "./qrcodes/sarcina-ventriculi-HE_qrcode.svg",                        show = FALSE) }}</code></p>
+<section id="sec-sarcina-ventriculi" class="level2 cell" data-number="14.2">
+<h2 data-number="14.2" class="anchored" data-anchor-id="sec-sarcina-ventriculi"><span class="header-section-number">14.2</span> Sarcina ventriculi</h2>
+</section>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true" href="">WSI - Link</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true" href="">WSI - Link</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false" href="">WSI</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false" href="">Diagnosis</a></li></ul>
 <div class="tab-content">
 <div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
-<p>:::: {{.content-hidden when-format=“pdf”}}</p>
-<p>```{{asis, echo = (language == “TR”)}} <strong>Sarcina ventriculi</strong></p>
-<p><a href="https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html"><img src="./screenshots/thumbnail_sarcina-ventriculi-HE.png" class="img-fluid" alt="Tam Ekran Görmek İçin Resmi Tıklayın">{{width=“25%”}}</a> <a href="https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html">Tam Ekran Görmek İçin Resmi Tıklayın</a></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>::::</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>:::: {{.content-visible when-format="pdf"}}</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="in">```{asis, echo = (language == "TR")}</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="in">**Sarcina ventriculi**</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="in">![](./qrcodes/sarcina-ventriculi-HE_qrcode.svg){{width="15%"}} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_sarcina-ventriculi-HE.png){{width="25%"}}](https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell">
+<p><strong>Sarcina ventriculi</strong></p>
+<p><a href="https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html"><img src="./screenshots/thumbnail_sarcina-ventriculi-HE.png" class="img-fluid" style="width:25.0%" alt="Click for Full Screen WSI"></a> <a href="https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html">Click for Full Screen WSI</a></p>
 </div>
 </div>
-</div>
-<p>:::: {{.content-hidden when-format=“pdf”}}</p>
-<p>```{{asis, echo = (language == “EN”)}} <strong>Sarcina ventriculi</strong></p>
-<p><a href="https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html"><img src="./screenshots/thumbnail_sarcina-ventriculi-HE.png" class="img-fluid" alt="Click for Full Screen WSI">{{width=“25%”}}</a> <a href="https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html">Click for Full Screen WSI</a></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>::::</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>:::: {{.content-visible when-format="pdf"}}</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="in">```{asis, echo = (language == "EN")}</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="in">**Sarcina ventriculi**</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="in">![](./qrcodes/sarcina-ventriculi-HE_qrcode.svg){{width="15%"}} [![Click for Full Screen WSI](./screenshots/thumbnail_sarcina-ventriculi-HE.png){{width="25%"}}](https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>::::</p>
-<section id="wsi-4" class="level3">
-<h3 class="anchored" data-anchor-id="wsi-4">WSI</h3>
-<p>```{{asis, echo = ((language==“TR”) &amp; (output_type==“html”))}} Mikroskopik görüntüleri inceleyin:</p>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<div class="cell">
+<p>See Microscopy with viewer:</p>
 <iframe src="https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html" style="height:600px;width:100%;" data-external="1">
 </iframe>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="in">```{asis, echo = ((language == "EN") &amp; (output_type=="html"))}</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="in">See Microscopy with viewer:</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="in">&lt;iframe src="https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html" style="height:600px;width:100%;" data-external="1"&gt;&lt;/iframe&gt;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="diagnosis" class="level3">
-<h3 class="anchored" data-anchor-id="diagnosis">Diagnosis</h3>
-<p>```{{asis, echo = (language == “TR”)}} ::: {{.callout-tip collapse=“true” appearance=“default” icon=“true”}} ### Tanı için tıklayın</p>
-<p>Sarcina ventriculi :::</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="in">```{asis, echo = (language == "EN")}</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="in">::: {{.callout-tip collapse="true" appearance="default" icon="true"}}</span></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="in">### Click for Diagnosis</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="in">Sarcina ventriculi</span></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="in">:::</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>:::::</p>
+</div>
+</div>
+<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
+<div class="cell">
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Click for Diagnosis
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Sarcina ventriculi</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 
-</section>
-</section>
 <section class="level1" data-number="15">
 <h1 data-number="15"><span class="header-section-number">15</span> Links</h1>
 <ul>
@@ -1307,10 +1235,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><a href="https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html"><img src="./screenshots/thumbnail_helicobacterpyloriWS.png" class="img-fluid" style="width:25.0%" alt="Click for Full Screen WSI"></a></li>
 <li><a href="https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html"><img src="./screenshots/thumbnail_helicobacterpyloriGiemsa.png" class="img-fluid" style="width:25.0%" alt="Click for Full Screen WSI"></a></li>
 <li><a href="https://images.patolojiatlasi.com/helicobacterpylori/IHC.html"><img src="./screenshots/thumbnail_helicobacterpyloriIHC.png" class="img-fluid" style="width:25.0%" alt="Click for Full Screen WSI"></a></li>
-<li><a href="https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html"><img src="./screenshots/thumbnail_sarcina-ventriculi-HE.png" class="img-fluid" alt="Tam Ekran Görmek İçin Resmi Tıklayın">{{width=“25%”}}</a></li>
-<li><a href="https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html">Tam Ekran Görmek İçin Resmi Tıklayın</a></li>
-<li><a href="https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html"><img src="./screenshots/thumbnail_sarcina-ventriculi-HE.png" class="img-fluid" alt="Click for Full Screen WSI">{{width=“25%”}}</a></li>
-<li><a href="https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html">Click for Full Screen WSI</a></li>
+<li><a href="https://images.patolojiatlasi.com/sarcina-ventriculi/HE.html"><img src="./screenshots/thumbnail_sarcina-ventriculi-HE.png" class="img-fluid" style="width:25.0%" alt="Click for Full Screen WSI"></a></li>
 </ul>
 </section>
 
