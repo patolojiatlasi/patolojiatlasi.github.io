@@ -39,22 +39,23 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/thumbnail_helicobacterpylori.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/helicobacterpylori/HE.html",
-  file = "./screenshots/thumbnail_helicobacterpylori.png",
-  delay = 20
-)
+    webshot2::webshot(
+        url = "https://images.patolojiatlasi.com/helicobacterpylori/HE.html",
+        file = "./screenshots/thumbnail_helicobacterpylori.png",
+        delay = 20
+    )
 }
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/helicobacterpylori-HE_qrcode.svg")) {
+    qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/helicobacterpylori/HE.html")
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/helicobacterpylori/HE.html")
-
-  qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/helicobacterpylori-HE_qrcode.svg",
-                       show = FALSE)
+    qrcode::generate_svg(
+        qrcode = qrcode_svg,
+        filename = "./qrcodes/helicobacterpylori-HE_qrcode.svg",
+        show = FALSE
+    )
 }
 ```
 
@@ -176,22 +177,23 @@ See Microscopy with viewer:
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/thumbnail_helicobacterpyloriWS.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html",
-  file = "./screenshots/thumbnail_helicobacterpyloriWS.png",
-  delay = 20
-)
+    webshot2::webshot(
+        url = "https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html",
+        file = "./screenshots/thumbnail_helicobacterpyloriWS.png",
+        delay = 20
+    )
 }
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/helicobacterpylori-WS_qrcode.svg")) {
+    qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html")
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/helicobacterpylori/warthinstarry.html")
-
-  qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/helicobacterpylori-WS_qrcode.svg",
-                       show = FALSE)
+    qrcode::generate_svg(
+        qrcode = qrcode_svg,
+        filename = "./qrcodes/helicobacterpylori-WS_qrcode.svg",
+        show = FALSE
+    )
 }
 ```
 
@@ -314,22 +316,23 @@ See Microscopy with viewer:
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/thumbnail_helicobacterpyloriGiemsa.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html",
-  file = "./screenshots/thumbnail_helicobacterpyloriGiemsa.png",
-  delay = 20
-)
+    webshot2::webshot(
+        url = "https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html",
+        file = "./screenshots/thumbnail_helicobacterpyloriGiemsa.png",
+        delay = 20
+    )
 }
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/helicobacterpylori-giemsa_qrcode.svg")) {
+    qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html")
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/helicobacterpylori/giemsa.html")
-
-  qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/helicobacterpylori-giemsa_qrcode.svg",
-                       show = FALSE)
+    qrcode::generate_svg(
+        qrcode = qrcode_svg,
+        filename = "./qrcodes/helicobacterpylori-giemsa_qrcode.svg",
+        show = FALSE
+    )
 }
 ```
 
@@ -454,22 +457,23 @@ See Microscopy with viewer:
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/thumbnail_helicobacterpyloriIHC.png")) {
-webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/helicobacterpylori/IHC.html",
-  file = "./screenshots/thumbnail_helicobacterpyloriIHC.png",
-  delay = 20
-)
+    webshot2::webshot(
+        url = "https://images.patolojiatlasi.com/helicobacterpylori/IHC.html",
+        file = "./screenshots/thumbnail_helicobacterpyloriIHC.png",
+        delay = 20
+    )
 }
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./qrcodes/helicobacterpylori-IHC_qrcode.svg")) {
+    qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/helicobacterpylori/IHC.html")
 
-  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/helicobacterpylori/IHC.html")
-
-  qrcode::generate_svg(qrcode = qrcode_svg,
-                       filename = "./qrcodes/helicobacterpylori-IHC_qrcode.svg",
-                       show = FALSE)
+    qrcode::generate_svg(
+        qrcode = qrcode_svg,
+        filename = "./qrcodes/helicobacterpylori-IHC_qrcode.svg",
+        show = FALSE
+    )
 }
 ```
 
@@ -587,4 +591,10 @@ See Microscopy with viewer:
 
 
 :::::
+
+
+
+
+{{< include ./_subchapters/_sarcina-ventriculi.qmd >}}
+
 

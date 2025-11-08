@@ -270,6 +270,10 @@ book:
       chapters:
         - text: "Placenta"
           href: placenta.qmd
+    - part: "Cytopathology"
+      chapters:
+        - text: "CSF Cytology"
+          href: CSF.qmd
     - part: "---"
     - part: "Special Collections"
       chapters:
