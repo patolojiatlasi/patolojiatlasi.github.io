@@ -307,7 +307,15 @@ render_format <- function(language, format, config_file, excel_column_suffix) {
 
   # Delete temporary chapter files (keep originals)
   temp_files <- all_target_qmd[!(all_target_qmd %in% TR_chapter_qmd)]
-  fs::file_delete(temp_files)
+
+  # Filter out NA values and non-existent files
+  temp_files <- temp_files[!is.na(temp_files)]
+  temp_files <- temp_files[!grepl("/NA\\.qmd$", temp_files)]
+  temp_files <- temp_files[file.exists(temp_files)]
+
+  if (length(temp_files) > 0) {
+    fs::file_delete(temp_files)
+  }
 
   invisible(TRUE)
 }
