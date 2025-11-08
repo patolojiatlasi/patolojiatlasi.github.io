@@ -72,20 +72,13 @@ xfun::gsub_files(files = qmd_others_TR_files,
 
 # render TR epub ----
 
-Sys.sleep(2)
-
 quarto::quarto_render(".", as_job = FALSE)
-
-
-Sys.sleep(2)
 
 if (dir.exists(paths = "./_freeze")) {
   fs::dir_copy(path = "./_freeze",
                new_path = "./_freeze_TR_others",
                overwrite = TRUE)
 }
-
-Sys.sleep(2)
 
 if (dir.exists(paths = "./_freeze")) {
   fs::dir_delete(path = "./_freeze")
