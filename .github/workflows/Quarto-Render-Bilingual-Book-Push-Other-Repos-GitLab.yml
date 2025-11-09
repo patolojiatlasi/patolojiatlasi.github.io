@@ -1,25 +1,65 @@
+# ============================================================================
+# BILINGUAL PATHOLOGY ATLAS - CI/CD WORKFLOW
+# ============================================================================
+#
+# Purpose: Automatically builds and deploys Turkish (TR) and English (EN)
+#          versions of the pathology atlas to multiple hosting platforms.
+#
+# Workflow:
+#   1. Image Processing - Convert PNG screenshots to JPG for web optimization
+#   2. Environment Setup - Install Quarto, R, and dependencies
+#   3. Bilingual Build - Render both TR and EN versions
+#   4. Commit Results - Push generated files back to main repo
+#   5. Multi-Repository Deploy - Sync to GitHub Pages mirrors and GitLab
+#
+# Output Sites:
+#   - Turkish: https://www.patolojiatlasi.com/ (docs/)
+#   - English: https://www.histopathologyatlas.com/ (EN/)
+#
+# See Also: DEVELOPMENT.md for detailed build process documentation
+# ============================================================================
+
 name: Quarto Render Bilingual Book Push Other Repos GitLab
 
+# ============================================================================
+# TRIGGER CONFIGURATION
+# ============================================================================
 on:
-  workflow_dispatch:
-  push:
+  workflow_dispatch:  # Allows manual trigger from Actions tab
+  push:               # Auto-trigger on any push to repository
 
 jobs:
   quarto-render-and-deploy:
+    # ========================================================================
+    # SKIP CONDITIONS
+    # ========================================================================
+    # Skip this workflow if commit message contains:
+    #   - 'WIP': Work in progress, don't build yet
+    #   - 'merge': Merge commits, avoid duplicate builds
+    #   - 'lecture': Lecture notes only (separate workflow)
     if: "!contains(github.event.head_commit.message, 'WIP') && !contains(github.event.head_commit.message, 'merge') && !contains(github.event.head_commit.message, 'lecture')"
+
     runs-on: ubuntu-latest
-    continue-on-error: false
+    continue-on-error: false  # Fail fast if any step fails
+
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       R_LIBS_USER: ~/.local/share/R/library
-      # RENV_PATHS_ROOT: ~/.local/share/renv
+      # RENV_PATHS_ROOT: ~/.local/share/renv  # Disabled: not using renv in CI
 
     steps:
+      # ======================================================================
+      # PHASE 1: REPOSITORY CHECKOUT
+      # ======================================================================
       - name: "actions checkout"
         uses: actions/checkout@v4
 
-      # - name: "Setup pandoc"
-      #   uses: r-lib/actions/setup-pandoc@v2
+      # ======================================================================
+      # PHASE 2: IMAGE PROCESSING
+      # ======================================================================
+      # Why: PNG screenshots are large; converting to JPG reduces bandwidth
+      #      and improves page load times for users.
+      # Note: Original PNGs remain in repo; JPGs are generated for web only.
 
       - name: Install VIPS
         run: |
@@ -27,20 +67,22 @@ jobs:
           apt-cache search libvips
           sudo apt-get install -y libvips-tools
 
-      - name: Convert Images
+      - name: Convert Images (PNG → JPG)
         run: |
+          # Convert all PNG screenshots to JPG format using VIPS
+          # This reduces file size by ~70% while maintaining quality
           for file in ./screenshots/*.png; do vips copy "$file" "${file%.png}.jpg"; done
+
+      # ======================================================================
+      # PHASE 3: QUARTO SETUP
+      # ======================================================================
+      # Install Quarto with TinyTeX for PDF generation capability
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          version: pre-release
-          tinytex: true
-        # with:
-          # To install LaTeX to build PDF book
-          # tinytex: true
-          # uncomment below and fill to pin a version
-          #version: 1.3.353
+          version: pre-release  # Use latest pre-release for cutting-edge features
+          tinytex: true         # Include TinyTeX for LaTeX/PDF support
 
       # - uses: r-lib/actions/setup-tinytex@v2
       # - run: tlmgr --version
@@ -70,19 +112,18 @@ jobs:
       #     # sudo apt -y install libcurl4-openssl-dev
       #
 
+      # ======================================================================
+      # PHASE 4: R ENVIRONMENT SETUP
+      # ======================================================================
+      # Install R and manage package dependencies
+
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
 
+      # Note: renv is NOT used in CI (too slow to restore each time)
+      # Instead, we use actions/cache for faster package restoration
       # - name: Setup renv
       #   uses: r-lib/actions/setup-renv@v2
-
-      # - name: Publish to GitHub Pages (and render)
-      #   uses: quarto-dev/quarto-actions/publish@v2
-      #   with:
-      #     target: gh-pages
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
-
 
       - name: "Setup R dependencies"
         uses: r-lib/actions/setup-r-dependencies@v2
@@ -105,18 +146,31 @@ jobs:
       #       ${{ runner.os }}-renv-
 
 
+      # ======================================================================
+      # PHASE 5: R PACKAGE INSTALLATION
+      # ======================================================================
+      # Install required R packages for Quarto rendering
+      # Packages are installed selectively to minimize install time
+
       - name: "Install R dependencies"
         run: |
+            # Install remotes package for dependency management
             if (!requireNamespace("remotes", quietly = TRUE)) {install.packages("remotes", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
+
+            # Install all dependencies from DESCRIPTION file
             remotes::install_deps(dependencies = TRUE)
-            # if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv", dependencies = TRUE, quiet = TRUE, verbose = FALSE)
-            # renv::restore()
+
+            # Install critical packages explicitly (ensures latest versions)
             if (!requireNamespace("fs", quietly = TRUE)) install.packages("fs", dependencies = TRUE, quiet = TRUE, verbose = FALSE)
             if (!requireNamespace("quarto", quietly = TRUE)) install.packages("quarto", dependencies = TRUE, quiet = TRUE, verbose = FALSE)
             if (!requireNamespace("xfun", quietly = TRUE)) {install.packages("xfun", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
             if (!requireNamespace("readxl", quietly = TRUE)) {install.packages("readxl", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
             if (!requireNamespace("tinytex", quietly = TRUE)) {install.packages("tinytex", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
+
+            # Ensure TinyTeX is installed for PDF generation
             if (!tinytex::is_tinytex()) {tinytex::install_tinytex()}
+
+            # Save dependency metadata for caching
             saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
             writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
         shell: Rscript {0}
@@ -147,16 +201,31 @@ jobs:
       #   uses: quarto-dev/quarto-actions/render@v2
 
 
+      # ======================================================================
+      # PHASE 6: BILINGUAL BUILD
+      # ======================================================================
+      # Main rendering step - builds both Turkish and English versions
+      # This is the core of the entire workflow!
+      #
+      # Process (see R/bilingual-quarto-book.R for details):
+      #   1. Generate format-specific chapter files (PDF/EPUB variants)
+      #   2. Render EN version:
+      #      - Switch language symlink to languageEN.R
+      #      - Copy .qmd files to *_EN.qmd variants
+      #      - Run quarto render (output → EN/)
+      #   3. Render TR version:
+      #      - Switch language symlink to languageTR.R
+      #      - Run quarto render (output → docs/)
+      #   4. Manage freeze directories for computation caching
+      #
+      # Duration: ~10-15 minutes for full build
+      # Outputs: docs/ (TR) and EN/ (EN) directories
+
       - name: "Render Bilingual Book (EN + TR)"
         shell: Rscript {0}
         run: |
-          # Run the comprehensive bilingual render script
-          # This script handles:
-          # - Cleanup of previous builds
-          # - EN chapter preparation and rendering
-          # - TR chapter preparation and rendering
-          # - Post-render cleanup and file organization
-          # - Freeze directory management
+          # Execute the master bilingual build script
+          # See DEVELOPMENT.md for build process flow diagram
           source("./R/bilingual-quarto-book.R")
 
 #       - name: "Deploy to gh-pages"
@@ -168,22 +237,45 @@ jobs:
 
 
 
+      # ======================================================================
+      # PHASE 7: COMMIT RESULTS TO MAIN REPOSITORY
+      # ======================================================================
+      # Commit the generated HTML files back to the main repository
+      # This triggers GitHub Pages deployment for the Turkish version
+
       - name: Commit results to main branch
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
+
+          # Stage generated output directories and assets
+          # - docs/: Turkish site (GitHub Pages serves from here)
+          # - EN/: English site (synced to mirror repos below)
+          # - gitlab_atlas/: Prepared for GitLab mirror
+          # - public/: Deployment staging directory
+          # - screenshots/: JPG conversions from Phase 2
+          # - qrcodes/: Generated QR codes
+          # - .github/: Dependency metadata for caching
           git add docs/ EN/ gitlab_atlas/ public/ screenshots/ qrcodes/ .github/
+
+          # Commit with timestamp (or skip if no changes)
           git commit -m "CI added changes `date +'%Y-%m-%d %H:%M:%S'`" || echo "No changes to commit"
           git push origin || echo "No changes to commit"
-      - name: Push changes # push the output folder to your repo
+
+      - name: Push changes (force push)
         uses: ad-m/github-push-action@master
         with:
           branch: main
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          # WORKFLOW_GITHUB_TOKEN
-          force: true
+          force: true  # Force push to overwrite any conflicts
 
-      - name: Pushes to patolojiatlasi EN
+      # ======================================================================
+      # PHASE 8: MULTI-REPOSITORY DEPLOYMENT
+      # ======================================================================
+      # Sync the generated content to multiple hosting locations
+      # This provides redundancy and dedicated domains for each language
+
+      - name: Push to patolojiatlasi/EN (English mirror)
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
@@ -194,9 +286,7 @@ jobs:
           user-email: drserdarbalci@gmail.com
           target-branch: main
 
-
-
-      - name: Pushes to histopathologyatlas
+      - name: Push to histopathologyatlas/histopathologyatlas.github.io
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
@@ -206,10 +296,9 @@ jobs:
           destination-repository-name: 'histopathologyatlas.github.io'
           user-email: drserdarbalci@gmail.com
           target-branch: main
+        # Result: English site deployed to https://www.histopathologyatlas.com/
 
-
-
-      - name: Pushes to atlas
+      - name: Push to sbalci/atlas (GitLab mirror)
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
@@ -219,18 +308,26 @@ jobs:
            destination-repository-name: 'atlas'
            user-email: drserdarbalci@gmail.com
            target-branch: main
+        # Result: Content mirrored to GitLab for backup/redundancy
 
-      # - name: Pushes to pathologyatlas EN2
-      #   uses: cpina/github-action-push-to-another-repository@main
-      #   env:
-      #     API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-      #   with:
-      #     source-directory: 'EN'
-      #     destination-github-username: 'pathologyatlas'
-      #     destination-repository-name: 'EN2'
-      #     user-email: drserdarbalci@gmail.com
-      #     target-branch: main
-
+  # ============================================================================
+  # DISABLED JOBS (Commented Out)
+  # ============================================================================
+  #
+  # The following jobs are disabled but preserved for reference:
+  #
+  # 1. send-tweet / send-tweet-EN
+  #    - Automated Twitter/X posts on updates
+  #    - Disabled: API changes made this unreliable
+  #
+  # 2. lecture-notes
+  #    - Separate build for lecture note content
+  #    - Has its own workflow file now
+  #
+  # 3. Pushes to pathologyatlas EN2
+  #    - Mirror to pathologyatlas organization
+  #    - Deprecated: consolidated into histopathologyatlas
+  # ============================================================================
 
   # send-tweet:
   #   if: "!contains(github.event.head_commit.message, 'WIP') && !contains(github.event.head_commit.message, 'merge')   && !contains(github.event.head_commit.message, 'notweet')"

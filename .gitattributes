@@ -1,1 +1,34 @@
-*.qmd linguist-language=RMarkdown
+# .gitattributes
+# Configure GitHub's language statistics to exclude generated files
+
+# QMD files are the primary source - mark as Markdown (not RMarkdown for Quarto)
+*.qmd linguist-language=Markdown
+
+# Generated HTML output directories - exclude from language stats
+docs/** linguist-generated
+public/** linguist-generated
+EN/** linguist-generated
+_docs/** linguist-generated
+_EN/** linguist-generated
+gitlab_atlas/** linguist-generated
+
+# Generated book formats - exclude from language stats
+_pdf_*/** linguist-generated
+_epub_*/** linguist-generated
+_freeze*/** linguist-generated
+
+# JavaScript libraries - mark as vendored (external code)
+openseadragon/** linguist-vendored
+annotorious/** linguist-vendored
+
+# Generated screenshot files
+screenshots/*.jpg linguist-generated
+
+# Mark primary languages for accurate stats
+*.R linguist-language=R
+*.yml linguist-language=YAML
+*.yaml linguist-language=YAML
+
+# Generated/cache files
+*_files/** linguist-generated
+.Rproj.user/** linguist-generated

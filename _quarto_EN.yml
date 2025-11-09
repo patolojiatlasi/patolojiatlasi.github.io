@@ -5,11 +5,14 @@
 metadata-files:
   - _quarto_base.yml
   - _quarto_html_base.yml
+  - _quarto_chapters_EN.yml
 
 project:
   output-dir: _EN
   resources:
     - "headerEN.html"
+  pre-render:
+    - ./R/prerender_EN.R
 
 lang: en
 

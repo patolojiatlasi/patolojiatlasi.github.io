@@ -16,11 +16,13 @@ get_project_config <- function() {
       TR = list(
         config = "./_quarto_TR.yml",
         output_dir = "_docs",
+        deploy_dir = "docs",          # Final deployment directory
         freeze_dir = "./_freeze_TR"
       ),
       EN = list(
         config = "./_quarto_EN.yml",
         output_dir = "_EN",
+        deploy_dir = "EN",             # Final deployment directory
         freeze_dir = "./_freeze_EN"
       )
     ),
@@ -71,6 +73,7 @@ get_language_config <- function(language) {
     language = language,
     quarto_file = config$quarto[[language]]$config,
     output_dir = config$quarto[[language]]$output_dir,
+    deploy_dir = config$quarto[[language]]$deploy_dir,
     freeze_dir = config$quarto[[language]]$freeze_dir,
     language_file = config$r_scripts[[language]]
   )

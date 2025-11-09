@@ -1,15 +1,61 @@
+#' Extract HTML Links and Generate Data Feeds
+#'
+#' @description
+#' Post-processing script that extracts whole slide image (WSI) links from Quarto
+#' markdown files and generates various data formats for the pathology atlas:
+#'   1. Extracts links from .qmd files
+#'   2. Generates YAML metadata for all cases
+#'   3. Creates JSON data for JavaScript consumption
+#'   4. Generates RSS feeds for both TR and EN versions
+#'   5. Creates webpages.txt and webpages.js for navigation
+#'
+#' @details
+#' This script is called at the end of the bilingual build process to aggregate
+#' all pathology case links and metadata from the rendered content.
+#'
+#' Output Files Generated:
+#'   - webpages.txt: Plain text list of all WSI viewer URLs
+#'   - webpages.js: JavaScript array of URLs for web integration
+#'   - lists/yaml_preparation_file.yaml: Auto-generated YAML template
+#'   - lists/list.yaml: Updated master list with manual metadata
+#'   - lists/specimensData.js: JSON data for published specimens
+#'   - rss_feed.xml: Turkish RSS feed
+#'   - rss_feed_EN.xml: English RSS feed
+#'
+#' @seealso
+#' - R/bilingual-quarto-book.R: Main build script that calls this
+#' - lists/list.yaml: Master metadata list (manually curated)
+#' - DEVELOPMENT.md: Documentation on metadata workflow
+#'
+#' @examples
+#' \dontrun{
+#'   # Typically run automatically by bilingual-quarto-book.R
+#'   source("./R/extract-html-links.R")
+#' }
+
+
+# ============================================================================
+# SETUP
+# ============================================================================
+
 `%>%` <- magrittr::`%>%`
 
+
+# ============================================================================
+# PHASE 1: EXTRACT LINKS FROM QMD FILES
+# ============================================================================
+
+# Find all .qmd files in root directory and _subchapters/
 qmd_files1 <- list.files(path = ".", pattern = "*.qmd", recursive = FALSE, full.names = TRUE)
 
 qmd_files2 <- list.files(path = "./_subchapters", pattern = "*.qmd", recursive = FALSE, full.names = TRUE)
 
 qmd_files <- c(qmd_files1, qmd_files2)
 
-# qmd_files[31]
-
-# qmd_content <- readLines(con = qmd_files[31])
-
+# ----------------------------------------------------------------------------
+# Read Content from All QMD Files
+# ----------------------------------------------------------------------------
+# Read all .qmd files and store their content in a list
 qmd_content <- list()
 
 for (file in qmd_files) {
@@ -17,33 +63,43 @@ for (file in qmd_files) {
   qmd_content[[file]] <- text
 }
 
+# Flatten list to single character vector (preserves file names)
 qmd_content2 <-
 unlist(qmd_content, use.names = TRUE)
 
-
-
 qmd_content <- qmd_content2
 
+# ----------------------------------------------------------------------------
+# Extract WSI Links from Content
+# ----------------------------------------------------------------------------
+# Extract all links matching https://images.patolojiatlasi.com/*.html
+# These are the whole slide image viewer URLs
 link_list <-
   stringr::str_extract(string = qmd_content,
                     pattern = "https:\\/\\/images\\.patolojiatlasi\\.com\\/.*?\\.html")
 
+# Extract explanation text (bold markdown **text**)
 explanation_list <-
 stringr::str_extract(string = qmd_content,
                      pattern = "\\*\\*.*?\\*\\*")
 
-
+# Extract headings (also bold markdown)
 heading_list <-
   stringr::str_extract(string = qmd_content,
                        pattern = "\\*\\*.*?\\*\\*")
 
 
+# ============================================================================
+# PHASE 2: PROCESS AND FILTER EXTRACTED DATA
+# ============================================================================
 
+# Create data frame combining links with their explanations
 df_links <- data.frame(
   links = link_list,
   explanation = explanation_list
   )
 
+# Filter out template/example links (not actual pathology cases)
 df_links <- df_links %>%
   dplyr::filter(
     !(stringr::str_detect(string = links,
@@ -51,47 +107,65 @@ df_links <- df_links %>%
     )
   )
 
-
+# ----------------------------------------------------------------------------
+# Generate webpages.txt (Plain Text Link List)
+# ----------------------------------------------------------------------------
+# Extract unique, non-NA links for simple text list
 webpages <- df_links %>%
   dplyr::select(links) %>%
   dplyr::filter(!is.na(links)) %>%
   dplyr::distinct() %>%
   dplyr::pull(links)
 
+# Write to webpages.txt (used by various scripts and navigation)
 write(x = webpages, file = "./webpages.txt")
 
+
+# ============================================================================
+# PHASE 3: GENERATE YAML METADATA
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# Prepare YAML Data Structure
+# ----------------------------------------------------------------------------
+# Extract and transform link data for YAML generation
 yaml_preparation_file <- df_links %>%
   dplyr::select(links) %>%
   dplyr::filter(!is.na(links)) %>%
   dplyr::distinct()
 
+# Transform links into structured metadata fields
 yaml_preparation_file <- yaml_preparation_file %>%
-# remove https://images.patolojiatlasi.com/ from the links
+  # Remove base URL to get repository path
   dplyr::mutate(
     repo = stringr::str_replace(string = links,
                                  pattern = "https://images.patolojiatlasi.com/",
                                  replacement = "")
   ) %>%
+  # Create stainname identifier (repo/file → repo-file)
   dplyr::mutate(
     stainname = stringr::str_replace(string = repo,
                                      pattern = "/",
                                      replacement = "-")
   ) %>%
+  # Remove .html extension from stainname
   dplyr::mutate(
     stainname = stringr::str_replace(string = stainname,
                                      pattern = ".html",
                                      replacement = "")
   ) %>%
-# extract repo name from the repo up to first forward slash
+  # Extract repository name (before first slash)
   dplyr::mutate(
     reponame = stringr::str_extract(string = repo,
                                 pattern = ".*?\\/")
   ) %>%
+  # Remove trailing slash from reponame
   dplyr::mutate(
     reponame = stringr::str_replace(string = reponame,
                                  pattern = "/",
                                  replacement = "")
   ) %>%
+  # Generate screenshot URL
   dplyr::mutate(
     screenshot = paste0("https://www.patolojiatlasi.com/screenshots/thumbnail_",
                         stainname, ".png")
@@ -245,146 +319,3 @@ for (item in yaml_data) {
 
 # Write to file
 write_xml(rss, "./rss_feed.xml")
-
-
-
-
-
-# markdown <- qmd_content
-#
-# # Extract headings
-# headings <- stringr::str_extract(markdown, "^#+\\s.+")
-# headings <- stringr::str_replace_all(headings, "^#+\\s", "") # Remove the hash symbols and leading spaces
-# headings <- stringr::str_replace_all(headings, "\\{.*?\\}", "")
-# headings <- stringr::str_trim(headings)
-#
-#
-# # Extract links
-# # links <- stringr::str_extract_all(markdown, "\\[(.*?)\\]\\((https://images.patolojiatlasi.com/.*?\\.html)\\)")
-# links <- stringr::str_extract_all(markdown, "https://images.patolojiatlasi.com/.*?\\.html")
-#
-# images <- stringr::str_extract_all(markdown, "./screenshots/.*?\\_screenshot.png")
-#
-#
-#
-#
-# # Output the results
-# output <- character()
-#
-# for (i in seq_along(headings)) {
-#   output <- c(output, paste("Heading:", headings[i]))
-#
-#   if (length(links) >= i && length(links[[i]]) > 0) {
-#     output <- c(output, "Links:")
-#     output <- c(output, links[[i]])
-#   } else {
-#     output <- c(output, "No links found.")
-#   }
-#
-#   # Extract images
-#
-#
-#     if (length(images) >= i && length(images[[i]]) > 0) {
-#     output <- c(output, "Images:")
-#     output <- c(output, images[[i]])
-#   } else {
-#     output <- c(output, "No images found.")
-#   }
-#
-#   output <- c(output, "") # Add an empty line between sections
-# }
-#
-# # Convert output to data frame
-# df_output <- data.frame(Info = output, stringsAsFactors = FALSE)
-#
-#
-#
-#
-#
-#
-#
-# # # Output the results
-# # output <- character()
-# #
-# # for (i in seq_along(headings)) {
-# #   output <- c(output, paste("Heading:", headings[i]))
-# #
-# #   if (length(links) >= i && length(links[[i]]) > 0) {
-# #     output <- c(output, "Links:")
-# #     output <- c(output, links[[i]])
-# #   } else {
-# #     output <- c(output, "No links found.")
-# #   }
-# #
-# #   output <- c(output, "") # Add an empty line between sections
-# # }
-# #
-# # # Convert output to data frame
-# # df <- data.frame(Info = output, stringsAsFactors = FALSE)
-#
-#
-# df_output_2 <- df_output %>%
-#   dplyr::distinct() %>%
-#   dplyr::filter(!is.na(Info)) %>%
-#   dplyr::filter(!(Info == "")) %>%
-#   dplyr::filter(!(Info == "No links found.")) %>%
-#   dplyr::filter(!(Info == "Heading: NA")) %>%
-#   dplyr::filter(!(Info == "Links:")) %>%
-#   dplyr::filter(!(Info == "No images found.")) %>%
-#   dplyr::filter(!(Info == "Images:"))
-#
-#
-#
-#
-# texts <- paste0(df_output_2$Info, collapse = " ")
-#
-# texts <- stringr::str_extract_all(string = texts,
-#                      pattern = "Heading: .*?\\.html")
-#
-# texts <- unlist(texts)
-#
-# texts <- stringr::str_replace_all(string = texts,
-#                                   pattern = "Heading: ",
-#                                   replacement = "")
-#
-#
-# texts <- stringr::str_replace_all(string = texts,
-#                                   pattern = "./screenshots/",
-#                                   replacement = "https://www.patolojiatlasi.com/screenshots/")
-#
-# texts <- data.frame(texts = texts)
-#
-# wp_string <- dplyr::sample_n(texts, 1)
-#
-# wp_string <- wp_string$texts[1]
-#
-#
-# wp_text <- paste0(wp_string,
-#                   " #dijitalpatoloji #WSI ",
-#                   " #patolojiatlasi #patolojinotlari ",
-#                   " #histopathologyatlas #memorialpatoloji ",
-#                   .sep ="")
-#
-#
-# wp_text <- gsub(pattern = "https://www.patolojiatlasi.com/screenshots/",
-#                 replacement = "<img src='https://www.patolojiatlasi.com/screenshots/",
-#                 x = wp_text)
-#
-# wp_text <- gsub(pattern = "_screenshot.png",
-#                 replacement = "_screenshot.jpg'>",
-#                 x = wp_text)
-#
-# writeLines(text = wp_text, "./wp_text.txt")
-#
-# wp_heading <- paste0(wp_string,
-#                     " #dijitalpatoloji #WSI ",
-#                     " #patolojiatlasi #patolojinotlari ",
-#                     " #histopathologyatlas #memorialpatoloji ",
-#                           .sep ="")
-#
-# wp_heading <- gsub(pattern = "https?://[^ ]+\\.png",
-#                    replacement = "",
-#                    x = wp_heading)
-#
-# writeLines(text = wp_heading, "./wp_heading.txt")
-

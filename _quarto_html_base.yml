@@ -27,7 +27,6 @@ format:
           <script src="webpages.js"></script>
     filters:
       - collapse-social-embeds
-      - linkate
     feeds:
       rss: true
 

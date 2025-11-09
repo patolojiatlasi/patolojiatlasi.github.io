@@ -389,3 +389,442 @@ fix_corrupted_en_references <- function(quiet = FALSE) {
 
   invisible(corrupted_count)
 }
+
+
+# ==============================================================================
+# ERROR HANDLING AND LOGGING FUNCTIONS
+# ==============================================================================
+
+#' Log Error Message
+#'
+#' @description
+#' Logs an error message with timestamp to stderr. Use this for critical
+#' failures that should stop execution.
+#'
+#' @param message Error message to log
+#' @param context Optional context string (e.g., function name)
+#'
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#'   log_error("File not found", context = "validate_build_output")
+#' }
+log_error <- function(message, context = NULL) {
+  timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M:%S")
+  context_str <- if (!is.null(context)) sprintf("[%s] ", context) else ""
+  cat(sprintf("[ERROR %s] %s%s\n", timestamp, context_str, message), file = stderr())
+}
+
+
+#' Log Warning Message
+#'
+#' @description
+#' Logs a warning message with timestamp to stderr. Use this for issues
+#' that don't stop execution but should be noted.
+#'
+#' @param message Warning message to log
+#' @param context Optional context string (e.g., function name)
+#'
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#'   log_warning("Cache directory not found, skipping optimization", context = "cleanup")
+#' }
+log_warning <- function(message, context = NULL) {
+  timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M:%S")
+  context_str <- if (!is.null(context)) sprintf("[%s] ", context) else ""
+  cat(sprintf("[WARN %s] %s%s\n", timestamp, context_str, message), file = stderr())
+}
+
+
+#' Log Info Message
+#'
+#' @description
+#' Logs an informational message with timestamp. Use this for progress
+#' updates and non-critical information.
+#'
+#' @param message Info message to log
+#' @param context Optional context string (e.g., function name)
+#'
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#'   log_info("Starting Turkish build", context = "render_TR")
+#' }
+log_info <- function(message, context = NULL) {
+  timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M:%S")
+  context_str <- if (!is.null(context)) sprintf("[%s] ", context) else ""
+  message(sprintf("[INFO %s] %s%s", timestamp, context_str, message))
+}
+
+
+#' Safe File Copy with Validation
+#'
+#' @description
+#' Copies files with comprehensive error handling and validation.
+#' Automatically creates destination directories if needed.
+#'
+#' @param from Source file path(s)
+#' @param to Destination file path(s)
+#' @param overwrite Logical: overwrite existing files (default: TRUE)
+#' @param verbose Logical: print progress messages (default: TRUE)
+#'
+#' @return Invisibly returns TRUE on success
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#'   safe_file_copy("config.yml", "backup/config.yml")
+#'   safe_file_copy(c("file1.txt", "file2.txt"), c("dest1.txt", "dest2.txt"))
+#' }
+safe_file_copy <- function(from, to, overwrite = TRUE, verbose = TRUE) {
+
+  tryCatch({
+
+    # Validate inputs
+    if (length(from) != length(to)) {
+      stop(sprintf("Length mismatch: from (%d files) vs to (%d files)",
+                   length(from), length(to)))
+    }
+
+    # Process each file
+    for (i in seq_along(from)) {
+      src <- from[i]
+      dst <- to[i]
+
+      # Check source exists
+      if (!file.exists(src)) {
+        stop(sprintf("Source file not found: %s", src))
+      }
+
+      # Create destination directory if needed
+      dest_dir <- dirname(dst)
+      if (!dir.exists(dest_dir)) {
+        if (verbose) {
+          log_info(sprintf("Creating directory: %s", dest_dir), context = "safe_file_copy")
+        }
+        dir.create(dest_dir, recursive = TRUE, showWarnings = FALSE)
+      }
+
+      # Perform copy
+      if (verbose && length(from) <= 10) {  # Don't spam for bulk operations
+        log_info(sprintf("Copying: %s → %s", basename(src), basename(dst)),
+                context = "safe_file_copy")
+      }
+
+      fs::file_copy(src, dst, overwrite = overwrite)
+
+      # Validate copy succeeded
+      if (!file.exists(dst)) {
+        stop(sprintf("Copy failed - destination not created: %s", dst))
+      }
+    }
+
+    if (verbose && length(from) > 1) {
+      log_info(sprintf("✓ Copied %d file(s) successfully", length(from)),
+              context = "safe_file_copy")
+    }
+
+    invisible(TRUE)
+
+  }, error = function(e) {
+    log_error(sprintf("File copy failed: %s", e$message), context = "safe_file_copy")
+    stop(e)
+  })
+}
+
+
+#' Safe Directory Delete with Validation
+#'
+#' @description
+#' Deletes directories with error handling. Silently succeeds if directory
+#' doesn't exist.
+#'
+#' @param paths Character vector of directory paths to delete
+#' @param verbose Logical: print progress messages (default: TRUE)
+#'
+#' @return Invisibly returns number of directories deleted
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#'   safe_dir_delete(c("./_freeze", "./_docs"))
+#' }
+safe_dir_delete <- function(paths, verbose = TRUE) {
+
+  deleted_count <- 0
+
+  for (path in paths) {
+    tryCatch({
+
+      if (dir.exists(path)) {
+        if (verbose) {
+          file_count <- length(list.files(path, recursive = TRUE, all.files = TRUE))
+          log_info(sprintf("Deleting: %s (%d files)", path, file_count),
+                  context = "safe_dir_delete")
+        }
+
+        fs::dir_delete(path)
+        deleted_count <- deleted_count + 1
+      }
+
+    }, error = function(e) {
+      log_warning(sprintf("Failed to delete %s: %s", path, e$message),
+                 context = "safe_dir_delete")
+      # Don't stop - continue with other directories
+    })
+  }
+
+  if (verbose && deleted_count > 0) {
+    log_info(sprintf("✓ Deleted %d director%s",
+                    deleted_count,
+                    if (deleted_count == 1) "y" else "ies"),
+            context = "safe_dir_delete")
+  }
+
+  invisible(deleted_count)
+}
+
+
+#' Safe Directory Copy with Validation
+#'
+#' @description
+#' Copies directories with error handling and validation.
+#'
+#' @param from Source directory path
+#' @param to Destination directory path
+#' @param overwrite Logical: overwrite existing directory (default: TRUE)
+#' @param verbose Logical: print progress messages (default: TRUE)
+#'
+#' @return Invisibly returns TRUE on success
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#'   safe_dir_copy("./_freeze", "./_freeze_backup")
+#' }
+safe_dir_copy <- function(from, to, overwrite = TRUE, verbose = TRUE) {
+
+  tryCatch({
+
+    # Validate source exists
+    if (!dir.exists(from)) {
+      stop(sprintf("Source directory not found: %s", from))
+    }
+
+    # Count files for progress message
+    if (verbose) {
+      file_count <- length(list.files(from, recursive = TRUE, all.files = TRUE))
+      log_info(sprintf("Copying directory: %s → %s (%d files)",
+                      from, to, file_count),
+              context = "safe_dir_copy")
+    }
+
+    # Perform copy
+    fs::dir_copy(from, to, overwrite = overwrite)
+
+    # Validate copy succeeded
+    if (!dir.exists(to)) {
+      stop(sprintf("Copy failed - destination not created: %s", to))
+    }
+
+    if (verbose) {
+      log_info(sprintf("✓ Directory copied successfully"),
+              context = "safe_dir_copy")
+    }
+
+    invisible(TRUE)
+
+  }, error = function(e) {
+    log_error(sprintf("Directory copy failed: %s", e$message),
+             context = "safe_dir_copy")
+    stop(e)
+  })
+}
+
+
+#' Safe Quarto Render with Retry Logic
+#'
+#' @description
+#' Renders Quarto project with error handling and optional retry logic.
+#' Captures both success and failure cases with detailed error messages.
+#'
+#' @param input Quarto file or project directory (default: ".")
+#' @param as_job Logical: run as background job (default: FALSE)
+#' @param max_retries Integer: maximum retry attempts on failure (default: 1)
+#' @param retry_delay Integer: seconds to wait between retries (default: 5)
+#' @param verbose Logical: print progress messages (default: TRUE)
+#'
+#' @return Invisibly returns TRUE on success
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#'   safe_quarto_render(".", max_retries = 2)
+#' }
+safe_quarto_render <- function(input = ".",
+                                as_job = FALSE,
+                                max_retries = 1,
+                                retry_delay = 5,
+                                verbose = TRUE) {
+
+  attempt <- 1
+
+  while (attempt <= max_retries) {
+
+    if (verbose) {
+      if (attempt > 1) {
+        log_info(sprintf("Retry attempt %d/%d after %d second delay",
+                        attempt, max_retries, retry_delay),
+                context = "safe_quarto_render")
+        Sys.sleep(retry_delay)
+      } else {
+        log_info(sprintf("Starting Quarto render: %s", input),
+                context = "safe_quarto_render")
+      }
+    }
+
+    result <- tryCatch({
+
+      # Perform render
+      quarto::quarto_render(input, as_job = as_job)
+
+      # Success
+      if (verbose) {
+        log_info("✓ Quarto render completed successfully",
+                context = "safe_quarto_render")
+      }
+
+      return(invisible(TRUE))
+
+    }, error = function(e) {
+
+      log_error(sprintf("Quarto render failed (attempt %d/%d): %s",
+                       attempt, max_retries, e$message),
+               context = "safe_quarto_render")
+
+      # Return error for retry logic
+      return(e)
+    })
+
+    # If successful, return
+    if (isTRUE(result)) {
+      return(invisible(TRUE))
+    }
+
+    # If this was the last attempt, stop with error
+    if (attempt >= max_retries) {
+      stop(sprintf("Quarto render failed after %d attempt(s): %s",
+                   max_retries, result$message))
+    }
+
+    # Otherwise, increment attempt counter
+    attempt <- attempt + 1
+  }
+}
+
+
+#' Wait for Directory with Timeout
+#'
+#' @description
+#' Waits for a directory to be created/ready, with timeout. Useful for
+#' handling race conditions in file system operations.
+#'
+#' @param path Directory path to wait for
+#' @param timeout Maximum seconds to wait (default: 10)
+#' @param check_interval Seconds between checks (default: 0.1)
+#' @param verbose Logical: print progress messages (default: TRUE)
+#'
+#' @return Invisibly returns TRUE if directory appears, stops with error on timeout
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#'   wait_for_directory("./_freeze", timeout = 5)
+#' }
+wait_for_directory <- function(path,
+                               timeout = 10,
+                               check_interval = 0.1,
+                               verbose = TRUE) {
+
+  start_time <- Sys.time()
+
+  if (verbose) {
+    log_info(sprintf("Waiting for directory: %s (timeout: %ds)",
+                    path, timeout),
+            context = "wait_for_directory")
+  }
+
+  while (!dir.exists(path)) {
+
+    # Check timeout
+    elapsed <- as.numeric(difftime(Sys.time(), start_time, units = "secs"))
+
+    if (elapsed > timeout) {
+      log_error(sprintf("Timeout waiting for directory: %s (waited %0.1fs)",
+                       path, elapsed),
+               context = "wait_for_directory")
+      stop(sprintf("Timeout waiting for directory: %s", path))
+    }
+
+    # Wait before next check
+    Sys.sleep(check_interval)
+  }
+
+  if (verbose) {
+    elapsed <- as.numeric(difftime(Sys.time(), start_time, units = "secs"))
+    log_info(sprintf("✓ Directory ready after %0.1fs: %s", elapsed, path),
+            context = "wait_for_directory")
+  }
+
+  invisible(TRUE)
+}
+
+
+#' Execute Function with Error Context
+#'
+#' @description
+#' Wrapper function that executes a function with error handling and context.
+#' Provides detailed error messages including function name and arguments.
+#'
+#' @param func Function to execute
+#' @param args List of arguments to pass to function
+#' @param context Context description for error messages
+#' @param on_error Function to call on error (optional)
+#'
+#' @return Result of function execution
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#'   with_error_context(
+#'     func = fs::file_copy,
+#'     args = list(path = "src.txt", new_path = "dst.txt"),
+#'     context = "copying config file"
+#'   )
+#' }
+with_error_context <- function(func, args, context, on_error = NULL) {
+
+  tryCatch({
+
+    # Execute function with args
+    do.call(func, args)
+
+  }, error = function(e) {
+
+    # Log error with context
+    log_error(sprintf("Failed %s: %s", context, e$message),
+             context = "with_error_context")
+
+    # Call custom error handler if provided
+    if (!is.null(on_error) && is.function(on_error)) {
+      on_error(e)
+    }
+
+    # Re-throw error
+    stop(e)
+  })
+}

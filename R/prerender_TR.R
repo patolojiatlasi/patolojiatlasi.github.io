@@ -22,6 +22,11 @@ if (dir.exists(paths = "./docs")) { fs::dir_delete(path = "./docs") }
 # if (dir.exists(paths = "./_freeze_TR")) { fs::dir_copy(path = "./_freeze_TR", new_path = "./_freeze", overwrite = TRUE) }
 # fs::file_copy(path = "./_quarto_TR.yml", new_path = "./_quarto.yml", overwrite = TRUE)
 fs::file_copy(path = "./R/languageTR.R", new_path = "./R/language.R", overwrite = TRUE)
+
+# Generate format-specific chapter YAML files from base chapters
+source("./R/generate-chapter-yamls.R")
+generate_all_chapter_yamls("TR")
+
 source("./R/extract-html-links.R")
 
 
