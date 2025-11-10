@@ -69,7 +69,8 @@ rsconnect/
 # quarto.deb
 *.deb
 *.deb.*
-tweetstring.txt
+# Generated output files - moved to /output/ directory
+output/
 Patoloji Atlası-win32-x64
 /EN/lecture-notes/*_files/
 /docs/lecture-notes/*_files/

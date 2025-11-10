@@ -118,7 +118,7 @@ webpages <- df_links %>%
   dplyr::pull(links)
 
 # Write to webpages.txt (used by various scripts and navigation)
-write(x = webpages, file = "./webpages.txt")
+write(x = webpages, file = "./output/webpages.txt")
 
 
 # ============================================================================
@@ -237,7 +237,7 @@ yaml::write_yaml(updated_content, "lists/list.yaml")
 
 js_array <- paste0('var webPages = [', paste0('"', webpages, '"', collapse = ", "), '];')
 
-js_file <- "webpages.js"
+js_file <- "./output/webpages.js"
 
 writeLines(js_array, js_file)
 

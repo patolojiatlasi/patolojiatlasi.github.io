@@ -74,21 +74,36 @@ This project is an educational medical resource. All contributions should:
 │   ├── utils.R                # Utility functions
 │   ├── validation.R           # Build validation
 │   ├── languageTR.R / languageEN.R  # Language settings
-│   └── bilingual-quarto-book.R      # Automated chapter generation
+│   └── bilingual-quarto-book.R      # Main build orchestrator
+│
+├── config/                    # Configuration files
+│   └── chapter-mapping.xlsx   # Turkish ↔ English chapter mappings
+│
+├── output/                    # Generated files (gitignored)
+│   ├── webpages.txt           # Plain text link list
+│   ├── webpages.js            # JavaScript array of links
+│   └── tweetstring.txt        # Social media content
 │
 ├── _subchapters/              # Reusable case content
 ├── _lecture-notes/            # Lecture materials
-├── images/                    # Cover images and graphics
-├── screenshots/               # Case screenshots (PNG → JPG)
-├── qrcodes/                   # QR codes for cases
+├── images/                    # Cover images (Git LFS tracked)
+├── screenshots/               # Case screenshots (Git LFS tracked, ~177MB)
+├── qrcodes/                   # QR codes for cases (Git LFS tracked)
 │
 ├── _quarto_TR.yml             # Turkish book configuration
 ├── _quarto_EN.yml             # English book configuration
 ├── _quarto_chapters_TR.yml    # Turkish chapter list (base)
 ├── _quarto_chapters_EN.yml    # English chapter list (base)
 │
-└── *.qmd                      # Chapter files
+└── *.qmd                      # Chapter files (see File Naming Conventions below)
 ```
+
+**Important Directories:**
+- **`/config/`** - Static configuration files that don't change frequently
+- **`/output/`** - Auto-generated files during builds (don't commit - gitignored)
+- **`/R/`** - Build scripts and utilities (documented in DEVELOPMENT.md)
+- **`/_subchapters/`** - Reusable content included in multiple chapters
+- **Images directories** - All PNG/JPG files tracked with Git LFS for efficient storage
 
 ## Development Workflow
 
@@ -153,7 +168,7 @@ English content...
    - Edit `_quarto_chapters_EN.yml` - Add to corresponding section
 
 4. **Update mapping file:**
-   - Add entry to `patolojiatlasi_histopathologyatlas.xlsx`
+   - Add entry to `config/chapter-mapping.xlsx`
    - Map Turkish chapter name to English equivalent
 
 5. **Test rendering:**
@@ -198,6 +213,125 @@ Subchapters in `_subchapters/` are reusable content included in multiple chapter
 - Content appears in multiple disease categories
 - Case demonstrates multiple diagnostic features
 - Shared teaching points across chapters
+
+### File Naming Conventions
+
+To maintain consistency and make files easy to find, follow these naming standards:
+
+#### Main Chapter Files (Root Directory)
+
+**Format:** `{topic-name}.qmd`
+
+**Rules:**
+- Use **lowercase** letters only
+- Use **hyphens** (`-`) to separate words, not underscores or spaces
+- Use **descriptive English medical terms** (not Turkish) for filename
+- Keep names **concise** (2-4 words maximum)
+- Avoid special characters (no: `ç, ş, ğ, ı, ö, ü`)
+
+**Examples:**
+```
+✅ Good:
+   kidney.qmd
+   liver-cirrhosis.qmd
+   acute-inflammation.qmd
+   gastric-cancer.qmd
+
+❌ Avoid:
+   Kidney.qmd                    # Capital letters
+   liver_cirrhosis.qmd           # Underscores instead of hyphens
+   akut-inflamasyon.qmd         # Turkish in filename
+   very-long-descriptive-diagnosis-name.qmd  # Too long
+```
+
+#### Subchapter Files (`_subchapters/` Directory)
+
+**Format:** `_{case-description}.qmd` / `_{case-description}_EN.qmd`
+
+**Rules:**
+- **Prefix with underscore** (`_`) to distinguish from main chapters
+- Use **English medical terminology** for case description
+- Use **hyphens** to separate words
+- Use lowercase only
+- English variant adds `_EN` suffix before `.qmd`
+
+**Examples:**
+```
+✅ Good:
+   _acute-appendicitis.qmd
+   _acute-appendicitis_EN.qmd
+   _chronic-gastritis.qmd
+   _chronic-gastritis_EN.qmd
+   _squamous-cell-carcinoma.qmd
+   _squamous-cell-carcinoma_EN.qmd
+
+❌ Avoid:
+   acute-appendicitis.qmd        # Missing underscore prefix
+   _Acute_Appendicitis.qmd       # Capital letters and underscores
+   _akut-apandisit.qmd          # Turkish in filename
+```
+
+#### R Script Files (`R/` Directory)
+
+**Format:** `{descriptive-name}.R`
+
+**Rules:**
+- Use **lowercase** with hyphens
+- Descriptive function-based names
+- Follow existing patterns: `render_*.R`, `config.R`, `utils.R`
+
+**Examples:**
+```
+✅ Good:
+   render-tr.R  or  render_TR.R   # Both acceptable (matches existing)
+   config.R
+   utils.R
+   extract-html-links.R
+
+❌ Avoid:
+   RenderTR.R                     # CamelCase
+   my_custom_script.R             # Underscores (prefer hyphens for new files)
+```
+
+#### YAML Configuration Files (Root Directory)
+
+**Format:** `_quarto_{variant}.yml`
+
+**Rules:**
+- Prefix with `_quarto_` for Quarto configurations
+- Use lowercase with underscores
+- Follow existing patterns
+
+**Examples:**
+```
+✅ Existing patterns (don't change):
+   _quarto_TR.yml
+   _quarto_EN.yml
+   _quarto_TR_pdf.yml
+```
+
+#### Legacy Files
+
+**Important:** Existing files don't need immediate renaming. These conventions apply to:
+- ✅ **All new files** - must follow conventions
+- ✅ **Files being significantly refactored** - rename at that time
+- ❌ **Existing stable files** - leave as-is to avoid breaking links
+
+**When renaming legacy files:**
+1. Update all cross-references in other files
+2. Update `_quarto_chapters_TR.yml` and `_quarto_chapters_EN.yml`
+3. Update `config/chapter-mapping.xlsx` mapping
+4. Test that all links still work
+
+#### Quick Reference Table
+
+| File Type | Prefix | Case | Separator | Example |
+|-----------|--------|------|-----------|---------|
+| Main chapter | none | lowercase | hyphens | `liver-cirrhosis.qmd` |
+| Subchapter (TR) | `_` | lowercase | hyphens | `_acute-appendicitis.qmd` |
+| Subchapter (EN) | `_` | lowercase | hyphens + `_EN` | `_acute-appendicitis_EN.qmd` |
+| R script | none | lowercase | hyphens/underscores | `render-tr.R` |
+| Quarto config | `_quarto_` | lowercase | underscores | `_quarto_TR.yml` |
 
 ## Content Contributions
 
@@ -263,6 +397,23 @@ When modifying R scripts in `/R`:
    log_error("Operation failed", context = "function_name")
    ```
 
+5. **Follow code style conventions:**
+   - Use `snake_case` for all variables and functions
+   - Prefer concise, clear names over long descriptive ones
+   - Use lowercase for language identifiers (e.g., `tr_chapter_qmd`, not `TR_chapter_qmd`)
+
+   **Examples:**
+   ```r
+   # Good
+   chapter_mappings <- read_chapter_mappings()
+   tr_chapter_qmd <- paste0("./", chapter_mappings$TR_chapter_qmd, ".qmd")
+   en_chapter_qmd <- paste0("./", chapter_mappings$EN_chapter_qmd, ".qmd")
+
+   # Avoid
+   patolojiatlasi_histopathologyatlas <- read_chapter_mappings()  # Old name (too long)
+   TR_chapter_qmd <- ...  # Mixed case instead of snake_case
+   ```
+
 ### Validation
 
 Before submitting changes that modify build scripts:
@@ -304,7 +455,7 @@ The main build workflow (`.github/workflows/Quarto-Render-Bilingual-Book-Push-Ot
 1. **Medical terminology:**
    - Use standard English medical terms
    - Reference WHO classifications and ICD-O coding
-   - Consult `patolojiatlasi_histopathologyatlas.xlsx` for consistency
+   - Consult `config/chapter-mapping.xlsx` for consistency
 
 2. **Maintain structure:**
    - Keep same heading levels

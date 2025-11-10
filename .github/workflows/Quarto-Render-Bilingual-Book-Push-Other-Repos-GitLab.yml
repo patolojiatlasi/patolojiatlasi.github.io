@@ -27,17 +27,25 @@ name: Quarto Render Bilingual Book Push Other Repos GitLab
 on:
   workflow_dispatch:  # Allows manual trigger from Actions tab
   push:               # Auto-trigger on any push to repository
+    paths-ignore:
+      # Documentation files (don't need full build)
+      - '**.md'
+      - 'CONTRIBUTING.md'
+      - 'DEVELOPMENT.md'
+      - 'ANALYSIS.md'
+      # Lecture notes (separate workflow)
+      - 'lecture-notes/**'
+      - '_lecture-notes/**'
+      # Test/demo folders
+      - 'deneme/**'
+      - 'deneme1/**'
+      - '.unotes/**'
+      # Git-related files
+      - '.gitignore'
+      - '.gitattributes'
 
 jobs:
   quarto-render-and-deploy:
-    # ========================================================================
-    # SKIP CONDITIONS
-    # ========================================================================
-    # Skip this workflow if commit message contains:
-    #   - 'WIP': Work in progress, don't build yet
-    #   - 'merge': Merge commits, avoid duplicate builds
-    #   - 'lecture': Lecture notes only (separate workflow)
-    if: "!contains(github.event.head_commit.message, 'WIP') && !contains(github.event.head_commit.message, 'merge') && !contains(github.event.head_commit.message, 'lecture')"
 
     runs-on: ubuntu-latest
     continue-on-error: false  # Fail fast if any step fails
@@ -53,6 +61,8 @@ jobs:
       # ======================================================================
       - name: "actions checkout"
         uses: actions/checkout@v4
+        with:
+          lfs: true  # Enable Git LFS for large image files (~206MB)
 
       # ======================================================================
       # PHASE 2: IMAGE PROCESSING
@@ -119,21 +129,27 @@ jobs:
 
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.3.0'
 
       # Note: renv is NOT used in CI (too slow to restore each time)
       # Instead, we use actions/cache for faster package restoration
       # - name: Setup renv
       #   uses: r-lib/actions/setup-renv@v2
 
-      - name: "Setup R dependencies"
-        uses: r-lib/actions/setup-r-dependencies@v2
-
-      - name: Restore R package cache
+      # Cache R packages based on DESCRIPTION file (committed to repo)
+      # This ensures cache is restored when dependencies haven't changed
+      - name: Cache R packages
         uses: actions/cache@v4
         with:
           path: ${{ env.R_LIBS_USER }}
-          key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
-          restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
+          key: ${{ runner.os }}-r-${{ hashFiles('DESCRIPTION') }}-v3
+          restore-keys: |
+            ${{ runner.os }}-r-${{ hashFiles('DESCRIPTION') }}-
+            ${{ runner.os }}-r-
+
+      - name: "Setup R dependencies"
+        uses: r-lib/actions/setup-r-dependencies@v2
 
 
 
@@ -170,7 +186,8 @@ jobs:
             # Ensure TinyTeX is installed for PDF generation
             if (!tinytex::is_tinytex()) {tinytex::install_tinytex()}
 
-            # Save dependency metadata for caching
+            # Save dependency metadata for debugging (not used for caching)
+            # Note: Caching is based on DESCRIPTION file hash (see Cache R packages step above)
             saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
             writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
         shell: Rscript {0}

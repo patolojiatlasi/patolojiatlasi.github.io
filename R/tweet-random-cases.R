@@ -23,4 +23,4 @@ tweetstring <- glue::glue("Patoloji atlası {searchcontent$title} bölümünden 
 
 tweetstring <- trimws(tweetstring)
 
-writeLines(text = tweetstring, "./tweetstring.txt")
+writeLines(text = tweetstring, "./output/tweetstring.txt")

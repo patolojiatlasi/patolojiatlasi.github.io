@@ -244,17 +244,17 @@ render_format <- function(language, format, config_file, excel_column_suffix) {
   }
 
   # Read chapter mappings from YAML (replaces Excel dependency)
-  patolojiatlasi_histopathologyatlas <- read_chapter_mappings()
+  chapter_mappings <- read_chapter_mappings()
 
   # Determine column names based on language and format
   tr_col <- "TR_chapter_qmd"
   target_col <- paste0(language, "_", excel_column_suffix, "_chapter_qmd")
 
-  patolojiatlasi_histopathologyatlas <-
-    patolojiatlasi_histopathologyatlas[, c(tr_col, target_col)]
+  chapter_mappings <-
+    chapter_mappings[, c(tr_col, target_col)]
 
-  TR_chapter_qmd <- paste0("./", patolojiatlasi_histopathologyatlas[[tr_col]], ".qmd")
-  target_chapter_qmd <- paste0("./", patolojiatlasi_histopathologyatlas[[target_col]], ".qmd")
+  tr_chapter_qmd <- paste0("./", chapter_mappings[[tr_col]], ".qmd")
+  target_chapter_qmd <- paste0("./", chapter_mappings[[target_col]], ".qmd")
 
   # Handle subchapter files
   subchapter_files <- list.files("_subchapters", pattern = "*.qmd", recursive = FALSE)
@@ -265,11 +265,11 @@ render_format <- function(language, format, config_file, excel_column_suffix) {
   subchapter_files_target <- gsub(".qmd", suffix, subchapter_files)
 
   # Combine main chapters and subchapters
-  TR_chapter_qmd <- c(TR_chapter_qmd, subchapter_files)
+  tr_chapter_qmd <- c(tr_chapter_qmd, subchapter_files)
   all_target_qmd <- c(target_chapter_qmd, subchapter_files_target)
 
   # Copy files
-  fs::file_copy(TR_chapter_qmd, all_target_qmd, overwrite = TRUE)
+  fs::file_copy(tr_chapter_qmd, all_target_qmd, overwrite = TRUE)
 
   # Apply text replacements for PDF/EPUB format
   # Remove panel-tabset (doesn't work in PDF/EPUB)
@@ -306,7 +306,7 @@ render_format <- function(language, format, config_file, excel_column_suffix) {
   if (dir.exists("./_freeze")) fs::dir_delete("./_freeze")
 
   # Delete temporary chapter files (keep originals)
-  temp_files <- all_target_qmd[!(all_target_qmd %in% TR_chapter_qmd)]
+  temp_files <- all_target_qmd[!(all_target_qmd %in% tr_chapter_qmd)]
 
   # Filter out NA values and non-existent files
   temp_files <- temp_files[!is.na(temp_files)]

@@ -32,7 +32,7 @@ get_project_config <- function() {
       EN = "./R/languageEN.R"
     ),
 
-    mapping_file = "./patolojiatlasi_histopathologyatlas.xlsx",
+    mapping_file = "./config/chapter-mapping.xlsx",
 
     cleanup_patterns = c(
       "_files$", "_pdf_", "_epub_", "_freeze$"

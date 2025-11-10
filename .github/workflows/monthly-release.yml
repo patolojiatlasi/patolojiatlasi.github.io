@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          lfs: true  # Enable Git LFS for large image files
 
       - name: Install rsvg-convert
         run: sudo apt-get update && sudo apt-get install -y librsvg2-bin
@@ -27,6 +29,8 @@ jobs:
 
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.3.0'
 
 #      - name: Setup renv
 #        uses: r-lib/actions/setup-renv@v2

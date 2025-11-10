@@ -88,12 +88,12 @@ setup_language_build("EN", source_freeze_dir = "./_freeze_EN")
 # ----------------------------------------------------------------------------
 # Read Turkish ↔ English chapter name mappings from YAML file
 # This replaced the previous Excel-based approach for better maintainability
-patolojiatlasi_histopathologyatlas <- read_chapter_mappings()
-patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "EN_chapter_qmd")]
+chapter_mappings <- read_chapter_mappings()
+chapter_mappings <- chapter_mappings[, c("TR_chapter_qmd", "EN_chapter_qmd")]
 
 # Build file path lists for main chapters
-TR_chapter_qmd <- paste0("./", patolojiatlasi_histopathologyatlas$TR_chapter_qmd, ".qmd")
-EN_chapter_qmd <- paste0("./", patolojiatlasi_histopathologyatlas$EN_chapter_qmd, ".qmd")
+tr_chapter_qmd <- paste0("./", chapter_mappings$TR_chapter_qmd, ".qmd")
+en_chapter_qmd <- paste0("./", chapter_mappings$EN_chapter_qmd, ".qmd")
 
 # ----------------------------------------------------------------------------
 # Handle Subchapters (Reusable Content in _subchapters/)
@@ -108,16 +108,16 @@ subchapter_files  <- paste0("./_subchapters/", subchapter_files)
 subchapter_files_EN <- gsub(pattern = ".qmd", replacement = "_EN.qmd", x = subchapter_files)
 
 # Combine main chapters and subchapters
-TR_chapter_qmd <- c(TR_chapter_qmd, subchapter_files)
-EN_chapter_qmd <- c(EN_chapter_qmd, subchapter_files_EN)
+tr_chapter_qmd <- c(tr_chapter_qmd, subchapter_files)
+en_chapter_qmd <- c(en_chapter_qmd, subchapter_files_EN)
 
 # ----------------------------------------------------------------------------
 # Copy Turkish Files to English Variants
 # ----------------------------------------------------------------------------
 # Create *_EN.qmd copies of all Turkish .qmd files
 # These will be modified to reference other *_EN.qmd files in cross-links
-fs::file_copy(path = TR_chapter_qmd,
-              new_path = EN_chapter_qmd,
+fs::file_copy(path = tr_chapter_qmd,
+              new_path = en_chapter_qmd,
               overwrite = TRUE)
 
 # ----------------------------------------------------------------------------
@@ -132,14 +132,14 @@ fs::file_copy(path = TR_chapter_qmd,
 # Step 1: Remove ALL existing _EN suffixes from include statements
 # Multiple passes handle accumulated corruptions (_EN_EN_EN → _EN_EN → _EN → clean)
 for (pass in 1:5) {
-  xfun::gsub_files(files = EN_chapter_qmd,
+  xfun::gsub_files(files = en_chapter_qmd,
                    pattern = "_EN.qmd >}}",
                    replacement = ".qmd >}}",
                    fixed = TRUE)
 }
 
 # Step 2: Add _EN suffix fresh (now safe since all patterns are .qmd)
-xfun::gsub_files(files = EN_chapter_qmd,
+xfun::gsub_files(files = en_chapter_qmd,
                  pattern = ".qmd >}}",
                  replacement = "_EN.qmd >}}",
                  fixed = TRUE
@@ -162,11 +162,13 @@ quarto::quarto_render(".", as_job = FALSE)
 # PHASE 4: POST-RENDER CLEANUP (EN)
 # ============================================================================
 
-# Remove CNAME file from EN output (not needed for /EN/ subdirectory)
-# Only the main docs/ directory needs CNAME for custom domain
+# Remove CNAME file from EN output and replace with histopathologyatlas CNAME
+# The EN version needs the histopathologyatlas.com CNAME
 if (file.exists("./_EN/CNAME")){
   fs::file_delete(path = "./_EN/CNAME")
 }
+# Copy the correct CNAME file for the English site
+fs::file_copy(path = "./CNAME-histopathologyatlas", new_path = "./_EN/CNAME", overwrite = TRUE)
 
 # Remove any nested output directories that shouldn't exist
 # (prevents directory structure pollution from failed builds)
@@ -195,7 +197,7 @@ if (dir.exists(paths = "./_freeze")) {
 # ----------------------------------------------------------------------------
 # Remove *_EN.qmd files that don't have corresponding base files
 # These were created during the build but aren't needed anymore
-files_to_delete <- EN_chapter_qmd[!(EN_chapter_qmd %in% TR_chapter_qmd)]
+files_to_delete <- en_chapter_qmd[!(en_chapter_qmd %in% tr_chapter_qmd)]
 
 fs::file_delete(path = files_to_delete)
 
@@ -204,7 +206,7 @@ fs::file_delete(path = files_to_delete)
 # ----------------------------------------------------------------------------
 # For .qmd files that contain BOTH languages, revert the _EN suffix changes
 # These files will be re-modified during the next EN build
-files_to_revert <- EN_chapter_qmd[EN_chapter_qmd %in% TR_chapter_qmd]
+files_to_revert <- en_chapter_qmd[en_chapter_qmd %in% tr_chapter_qmd]
 
 # Revert include statements back to original (.qmd instead of _EN.qmd)
 xfun::gsub_files(files = files_to_revert,

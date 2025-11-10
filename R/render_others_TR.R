@@ -20,17 +20,17 @@ if (dir.exists(paths = "./_freeze_TR_others")) {
                overwrite = TRUE)
 }
 
-patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx", sheet = "chapters")
+chapter_mappings <- readxl::read_excel("./config/chapter-mapping.xlsx", sheet = "chapters")
 
-patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "TR_others_chapter_qmd")]
+chapter_mappings <- chapter_mappings[, c("TR_chapter_qmd", "TR_others_chapter_qmd")]
 
-patolojiatlasi_histopathologyatlas$TR_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_chapter_qmd, ".qmd")
+chapter_mappings$TR_chapter_qmd <- paste0(chapter_mappings$TR_chapter_qmd, ".qmd")
 
-patolojiatlasi_histopathologyatlas$TR_others_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_others_chapter_qmd, ".qmd")
+chapter_mappings$TR_others_chapter_qmd <- paste0(chapter_mappings$TR_others_chapter_qmd, ".qmd")
 
 
-fs::file_copy(path = patolojiatlasi_histopathologyatlas$TR_chapter_qmd,
-              new_path = patolojiatlasi_histopathologyatlas$TR_others_chapter_qmd,
+fs::file_copy(path = chapter_mappings$TR_chapter_qmd,
+              new_path = chapter_mappings$TR_others_chapter_qmd,
               overwrite = TRUE)
 
 
@@ -87,18 +87,18 @@ if (dir.exists(paths = "./_freeze")) {
 
 
 
-patolojiatlasi_histopathologyatlas <- readxl::read_excel("./patolojiatlasi_histopathologyatlas.xlsx", sheet = "chapters")
+chapter_mappings <- readxl::read_excel("./config/chapter-mapping.xlsx", sheet = "chapters")
 
-patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas[, c("TR_chapter_qmd", "TR_others_chapter_qmd")]
+chapter_mappings <- chapter_mappings[, c("TR_chapter_qmd", "TR_others_chapter_qmd")]
 
 '%>%' <- magrittr:::`%>%`
 
-patolojiatlasi_histopathologyatlas <- patolojiatlasi_histopathologyatlas %>%
+chapter_mappings <- chapter_mappings %>%
   dplyr::distinct() %>%
   dplyr::filter(TR_chapter_qmd != TR_others_chapter_qmd)
 
-patolojiatlasi_histopathologyatlas$TR_others_chapter_qmd <- paste0(patolojiatlasi_histopathologyatlas$TR_others_chapter_qmd, ".qmd")
+chapter_mappings$TR_others_chapter_qmd <- paste0(chapter_mappings$TR_others_chapter_qmd, ".qmd")
 
-fs::file_delete(path = patolojiatlasi_histopathologyatlas$TR_others_chapter_qmd)
+fs::file_delete(path = chapter_mappings$TR_others_chapter_qmd)
 
 

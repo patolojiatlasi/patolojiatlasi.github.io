@@ -32,3 +32,23 @@ screenshots/*.jpg linguist-generated
 # Generated/cache files
 *_files/** linguist-generated
 .Rproj.user/** linguist-generated
+
+# ============================================================================
+# Git LFS Configuration
+# ============================================================================
+# Track large binary assets with Git LFS to reduce repository size
+# Total: ~206MB (screenshots: 177MB, qrcodes: 12MB, images: 17MB)
+
+# Screenshot images (histopathology slides)
+screenshots/*.png filter=lfs diff=lfs merge=lfs -text
+screenshots/*.jpg filter=lfs diff=lfs merge=lfs -text
+screenshots/*.jpeg filter=lfs diff=lfs merge=lfs -text
+
+# QR code images
+qrcodes/*.png filter=lfs diff=lfs merge=lfs -text
+qrcodes/*.jpg filter=lfs diff=lfs merge=lfs -text
+
+# Cover and graphic images
+images/*.png filter=lfs diff=lfs merge=lfs -text
+images/*.jpg filter=lfs diff=lfs merge=lfs -text
+images/*.jpeg filter=lfs diff=lfs merge=lfs -text
