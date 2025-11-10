@@ -117,6 +117,11 @@ webpages <- df_links %>%
   dplyr::distinct() %>%
   dplyr::pull(links)
 
+# Create output directory if it doesn't exist
+if (!dir.exists("./output")) {
+  dir.create("./output", recursive = TRUE)
+}
+
 # Write to webpages.txt (used by various scripts and navigation)
 write(x = webpages, file = "./output/webpages.txt")
 
