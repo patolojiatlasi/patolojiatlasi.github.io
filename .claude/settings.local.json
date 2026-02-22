@@ -18,7 +18,12 @@
       "Bash(done)",
       "Bash(python3:*)",
       "Bash(awk:*)",
-      "Bash(/tmp/ANALYSIS_cleaned.md)"
+      "Bash(/tmp/ANALYSIS_cleaned.md)",
+      "Bash(pandoc:*)",
+      "Bash(wc:*)",
+      "Bash(head:*)",
+      "Bash(grep:*)",
+      "Skill(scientific-skills:markitdown)"
     ],
     "deny": [],
     "ask": []
