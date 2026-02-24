@@ -68,6 +68,18 @@ book:
           href: venoz-invazyon.qmd
         - text: "Ekstramural Venöz İnvazyon"
           href: ekstramural-venoz-invazyon.qmd
+    - part: "Kardiyovasküler Sistem Patolojisi"
+      chapters:
+        - text: "Kan Damarları"
+          href: damar.qmd
+        - text: "Kalp"
+          href: kalp.qmd
+        - text: "Hemodinamik Bozukluklar"
+          href: hemodinamik-bozukluklar.qmd
+        - text: "İskemi ve Nekroz"
+          href: iskemi-nekroz.qmd
+        - text: "Konjesyon"
+          href: konjesyon.qmd
     - part: "Hematopatoloji"
       chapters:
         - hodgkin.qmd

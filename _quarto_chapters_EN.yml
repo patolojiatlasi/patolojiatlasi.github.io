@@ -73,6 +73,16 @@ book:
           href: venous-invasion.qmd
         - text: "Extramural Venous Invaasion"
           href: extramural-venous-invasion.qmd
+    - part: "Cardiovascular System"
+      chapters:
+        - text: "Blood Vessels"
+          href: blood-vessels.qmd
+        - text: "Heart"
+          href: heart.qmd
+        - text: "Ischemia and Necrosis"
+          href: ischemia-necrosis.qmd
+        - text: "Congestion"
+          href: congestion.qmd
     - part: "Hematopathology"
       chapters:
         - text: "Hodgkin Lymphoma"

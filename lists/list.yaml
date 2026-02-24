@@ -269,45 +269,6 @@
   githubrepo: https://github.com/pathologyatlas/helicobacterpylori
   githubpage: https://pathologyatlas.github.io/helicobacterpylori
   youtube: ''
-- stainname: kidneyoncocytoma-HE
-  reponame: kidneyoncocytoma
-  titleTR: Onkositom
-  titleEN: Oncocytoma
-  organTR: Böbrek
-  organEN: Kidney
-  speciality: genitourinary
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-03-02'
-  url: https://images.patolojiatlasi.com/kidneyoncocytoma/HE.html
-  note: Oncocytoma in kidney
-  categoriesTR:
-  - böbrek
-  - onkositom
-  - benign
-  - tümör
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - kidney
-  - oncocytoma
-  - benign
-  - tumor
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_kidneyoncocytoma.png
-  githubrepo: https://github.com/pathologyatlas/kidneyoncocytoma
-  githubpage: https://pathologyatlas.github.io/kidneyoncocytoma
-  youtube: ''
 - stainname: celiac-disease-HE
   reponame: celiac-disease
   titleTR: Çölyak Hastalığı
@@ -860,37 +821,6 @@
   githubrepo: https://github.com/pathologyatlas/GBD2
   githubpage: https://pathologyatlas.github.io/GBD2
   youtube: ''
-- stainname: GBD-HE
-  reponame: GBD
-  titleTR: ''
-  titleEN: ''
-  organTR: ''
-  organEN: ''
-  speciality: autopsy
-  type: unpublished
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: '2024-03-02'
-  url: https://images.patolojiatlasi.com/GBD/HE.html
-  note: ''
-  categoriesTR:
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  - sanal mikroskop
-  categoriesEN:
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  - virtual microscopy
-  - virtual microscope
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_GBD-HE.png
-  githubrepo: https://github.com/pathologyatlas/GBD
-  githubpage: https://pathologyatlas.github.io/GBD
-  youtube: ''
 - stainname: GBD3-HE
   reponame: GBD3
   titleTR: ''
@@ -925,7 +855,7 @@
 - stainname: high-grade-glioma-squash-HE
   reponame: high-grade-glioma-squash
   titleTR: ''
-  titleEN: ''
+  titleEN: High Grade Glioma Squash
   organTR: ''
   organEN: ''
   speciality: neuro
