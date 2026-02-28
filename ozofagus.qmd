@@ -21,10 +21,195 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "EN")}
-# Esophagus {#sec-esophagus} 
+# Esophagus {#sec-esophagus}
 ```
 
 
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Özofagus Hastalıkları - Histopatolojik Tanımlama / Esophageal Diseases - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### Özofajitler
+
+**Tanısal Değerlendirmede İlk Sorular:**
+
+- Yüzey defekti var mı (erozyon veya ülser)?
+- Aktif inflamasyon var mı (nötrofilin epitele geçmesi)?
+- Eozinofil baskın mı?
+- Viral "punched-out" ülser paterni var mı?
+- Mantar psödomembranı var mı?
+- Reflüye özgü rejeneratif değişiklikler var mı?
+
+**a) Kimyasal veya İlaç Özofajiti**
+
+- *Düşük büyütme:* Erozyon veya ülser alanları izlenir. Bazen yaygın mukozal nekroz görülür. Lezyonlar sıklıkla fizyolojik daralma bölgelerine yerleşir.
+- *Orta büyütme:* Yüzeyde fibrinopürülan eksüda. Akut kanama ve nekrotik debris.
+- *Yüksek büyütme:* Ağır kimyasal hasarda koagülasyon nekrozu baskındır. Nötrofil infiltrasyonu değişken olabilir.
+
+**b) Enfeksiyöz Özofajit**
+
+- **Candida Özofajiti:** Gri-beyaz psödomembranlar, yüzeyel eksüda içinde hif ve psödohifler. H&E kesitlerde görülebilir, özel boyalar tanıyı destekler.
+- **HSV Özofajiti:** Keskin sınırlı küçük ülserler. Multinükleer dejeneratif epitel hücreleri. İntranükleer viral inklüzyonlar özellikle ülser kenarında izlenir.
+- **CMV Özofajiti:** Daha geniş ve yüzeyel ülser alanları. Stromal hücrelerde ve kapiller endotelde büyük nükleer inklüzyonlar. Sitoplazmik inklüzyonlar da görülebilir. İnklüzyonlar genellikle ülser tabanında aranmalıdır.
+
+**c) Reflü Özofajiti (GERD)**
+
+- *Düşük büyütme:* Hafif olgularda mukoza normal görünebilir. İleri olguda yüzey erozyonları olabilir.
+- *Orta büyütme:* Bazal hücre hiperplazisi. Lamina propria papillalarının uzaması.
+- *Yüksek büyütme:* Skuamöz epitel içinde eozinofiller görülebilir. Nötrofiller belirgin ise enfeksiyon veya kimyasal hasar düşünülmelidir.
+- *Tuzak:* Minimal değişiklikler tek başına tanısal değildir. Klinik ve endoskopik korelasyon önemlidir.
+
+**d) Eozinofilik Özofajit**
+
+- *Düşük büyütme:* Yamalı mukozal tutulum. Yüzey defekti zorunlu değildir.
+- *Orta büyütme:* Epitel içinde belirgin eozinofil infiltrasyonu.
+- *Yüksek büyütme:* İntraepitelyal eozinofiller baskındır. Yüzeye yakın eozinofilik mikroabseler görülebilir. Bazal zon hiperplazisi eşlik edebilir.
+- *İpucu:* Eozinofil baskın epitelit paterni tanısal önemdedir.
+
+---
+
+### Plummer-Vinson Sendromu
+
+- Mukoza ince ve atrofik görünebilir. Nonspesifik atrofi ve kronik irritasyon bulguları.
+- *Not:* Tanı çoğunlukla klinik ve hematolojik bulgulara dayanır.
+
+---
+
+### Akalazya ve Staz Özofajiti
+
+- *Düşük büyütme:* Dilate özofagus. Sekonder mukozal hasar alanları.
+- *Orta büyütme:* Staza bağlı erozyonlar ve kronik inflamasyon.
+- *Yüksek büyütme:* Yüzeyde eksüda. Sekonder kandidiyazis eşlik edebilir.
+
+---
+
+### Mallory-Weiss Yırtığı
+
+- Mukozada lineer yırtık veya erozyon. Lamina propriada akut kanama. Yüzeyde fibrin ve nötrofilik eksüda.
+
+---
+
+### Barrett Özofagusu
+
+- *Düşük büyütme:* Distal özofagusta skuamöz epitel yerine glandüler mukoza.
+- *Orta büyütme:* Kolumnar metaplazi alanları. Düzensiz bez yapıları.
+- *Yüksek büyütme:* Goblet hücreleri intestinal metaplazi için tanısaldır.
+
+**Displazi değerlendirmesi:**
+
+- **Düşük derece displazi:** Nükleer uzama ve hiperkromazi, psödostratifikasyon, yüzey maturasyon kaybı.
+- **Yüksek derece displazi:** Belirgin mimari düzensizlik, bez tomurcuklanması, şiddetli sitolojik atipi. Lamina propriaya invazyon varsa intramukozal karsinom.
+
+---
+
+### Özofagus Skuamöz Hücreli Karsinomu
+
+- *Düşük büyütme:* Yüzey epiteli ile bağlantılı invaziv tümör adacıkları.
+- *Orta büyütme:* Keratinizasyon odakları. Keratin incileri görülebilir.
+- *Yüksek büyütme:* Belirgin nükleer atipi. Artmış mitotik aktivite. Stromal invazyon ve desmoplazi.
+
+---
+
+### Özofagus Adenokarsinomu
+
+- *Düşük büyütme:* Çoğunlukla Barrett zemini üzerinde gelişir. İnvaziv glandüler büyüme.
+- *Orta büyütme:* Düzensiz ve açılı glandlar. Kribriform yapılar olabilir.
+- *Yüksek büyütme:* Desmoplastik stromal yanıt. İnvazyon derinliği değerlendirilir. Bazı olgularda signet ring hücre paterni görülebilir.
+```
+
+```{asis, echo = (language == "EN")}
+
+### Esophagitis
+
+**Initial Questions in Diagnostic Evaluation:**
+
+- Is there a surface defect (erosion or ulcer)?
+- Is there active inflammation (neutrophils crossing into epithelium)?
+- Is eosinophilic infiltration predominant?
+- Is there a viral "punched-out" ulcer pattern?
+- Is there a fungal pseudomembrane?
+- Are there reflux-specific regenerative changes?
+
+**a) Chemical or Drug-induced Esophagitis**
+
+- *Low power:* Erosion or ulcer areas are observed. Sometimes widespread mucosal necrosis. Lesions often localize to areas of physiological narrowing.
+- *Medium power:* Fibrinopurulent exudate on the surface. Acute hemorrhage and necrotic debris.
+- *High power:* Coagulation necrosis predominates in severe chemical injury. Neutrophil infiltration may be variable.
+
+**b) Infectious Esophagitis**
+
+- **Candida Esophagitis:** Gray-white pseudomembranes, hyphae and pseudohyphae within superficial exudate. Visible on H&E; special stains support the diagnosis.
+- **HSV Esophagitis:** Sharply demarcated small ulcers. Multinucleated degenerative epithelial cells. Intranuclear viral inclusions, especially at ulcer margins.
+- **CMV Esophagitis:** Broader and more superficial ulcer areas. Large nuclear inclusions in stromal cells and capillary endothelium. Cytoplasmic inclusions may also be seen. Inclusions should be searched for at the ulcer base.
+
+**c) Reflux Esophagitis (GERD)**
+
+- *Low power:* Mucosa may appear normal in mild cases. Surface erosions in advanced cases.
+- *Medium power:* Basal cell hyperplasia. Elongation of lamina propria papillae.
+- *High power:* Eosinophils may be seen within squamous epithelium. Prominent neutrophils suggest infection or chemical injury.
+- *Pitfall:* Minimal changes are not diagnostic alone. Clinical and endoscopic correlation is essential.
+
+**d) Eosinophilic Esophagitis**
+
+- *Low power:* Patchy mucosal involvement. Surface defect is not mandatory.
+- *Medium power:* Prominent eosinophilic infiltration within the epithelium.
+- *High power:* Intraepithelial eosinophils predominate. Eosinophilic microabscesses near the surface may be seen. Basal zone hyperplasia may accompany.
+- *Clue:* Eosinophil-predominant epithelitis pattern is diagnostically important.
+
+---
+
+### Plummer-Vinson Syndrome
+
+- Mucosa may appear thin and atrophic. Nonspecific atrophy and chronic irritation findings.
+- *Note:* Diagnosis is primarily based on clinical and hematological findings.
+
+---
+
+### Achalasia and Stasis Esophagitis
+
+- *Low power:* Dilated esophagus. Secondary mucosal injury areas.
+- *Medium power:* Stasis-related erosions and chronic inflammation.
+- *High power:* Surface exudate. Secondary candidiasis may accompany.
+
+---
+
+### Mallory-Weiss Tear
+
+- Linear mucosal tear or erosion. Acute hemorrhage in lamina propria. Fibrin and neutrophilic exudate on the surface.
+
+---
+
+### Barrett Esophagus
+
+- *Low power:* Glandular mucosa replacing squamous epithelium in the distal esophagus.
+- *Medium power:* Areas of columnar metaplasia. Irregular gland structures.
+- *High power:* Goblet cells are diagnostic for intestinal metaplasia.
+
+**Dysplasia assessment:**
+
+- **Low-grade dysplasia:** Nuclear elongation and hyperchromasia, pseudostratification, loss of surface maturation.
+- **High-grade dysplasia:** Marked architectural irregularity, gland budding, severe cytologic atypia. If invasion into lamina propria is present, intramucosal carcinoma.
+
+---
+
+### Esophageal Squamous Cell Carcinoma
+
+- *Low power:* Invasive tumor islands connected to surface epithelium.
+- *Medium power:* Foci of keratinization. Keratin pearls may be seen.
+- *High power:* Prominent nuclear atypia. Increased mitotic activity. Stromal invasion and desmoplasia.
+
+---
+
+### Esophageal Adenocarcinoma
+
+- *Low power:* Usually develops on a Barrett background. Invasive glandular growth.
+- *Medium power:* Irregular and angulated glands. Cribriform structures may be present.
+- *High power:* Desmoplastic stromal response. Depth of invasion is assessed. Signet ring cell pattern may be seen in some cases.
+```
+
+:::
+-->
 
 
 ```{asis, echo = (language == "TR")}

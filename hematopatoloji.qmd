@@ -8,4 +8,220 @@ page-layout: full
 bibliography: references.bib
 ---
 
+```{r language hematopatoloji, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+```{asis, echo = (language == "TR")}
+# Hematopatoloji {#sec-hematopatoloji}
+```
+
+```{asis, echo = (language == "EN")}
+# Hematopathology {#sec-hematopathology}
+```
+
+
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Hematopoetik Sistem - Histopatolojik Tanimlama / Hematopoietic System - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+## Eritroid Seri Bozukluklari
+
+### Anemiler - Genel Patolojik Yanitlar
+
+**Kemik Iligi:**
+
+- Eritropoietin artisina yanit olarak eritroid hiperplazi gelisir
+- Normoblast sayisinda artis
+- Siddetli olgularda ekstramedüller hematopoez
+
+**Periferik Kan:**
+
+- Anizositoz, poikilositoz
+- Retikülositoz
+
+---
+
+### Hemolitik Anemiler
+
+**Herediter Sferositoz:**
+
+- Periferik kanda kucuk, koyu boyanan sferositler, santral solukluk kaybi
+- Dalakta eritrosit sekestrasyonu ve splenomegali
+
+**G6PD Eksikligi:**
+
+- Hemoliz sirasinda **bite cell**
+- **Heinz cisimcikleri** ozel boyalarla saptanir
+
+**Orak Hucre Hastaligi:**
+
+- Irreversibl orak hucreler, target hucreler, **Howell-Jolly cisimcikleri**
+- Dalakta tekrarlayan infarktlar, fibrozis ve **otosplenektomi**
+- Multiorgan infarktlar
+
+**Talasemiler:**
+
+- Mikrositer hipokrom eritrositler, target hucreler, nukleuslu eritrositler
+- Asiri eritroid hiperplazi ve etkisiz eritropoez
+- Kemiklerde kortikal rezorpsiyon, **crew cut kafatasi gorunumu**
+- Ekstramedüller hematopoez ve splenomegali
+- Hemosiderozis ve sekonder hemokromatozis
+
+---
+
+### Azalmis Eritropoezle Giden Anemiler
+
+**Megaloblastik Anemi:**
+
+- Periferik kanda makro-ovalositler ve **hipersegmentli notrofiller**
+- Kemik iliginde hiperselüler yapi, nukleer-sitoplazmik asenkroni ve megaloblastlar
+
+**Vitamin B12 Eksikligi:**
+
+- Midede kronik atrofik gastrit, fundik gland atrofisi, intestinal metaplazi
+- Spinal kordda demiyelinizasyon
+
+**Demir Eksikligi Anemisi:**
+
+- Mikrositer hipokrom eritrositler, **pencil cell**
+- Prusya mavisi ile demir yoklugu
+
+**Aplastik Anemi:**
+
+- Belirgin hiposellülarite, yag dokusu baskin
+- **Dry tap** aspirasyon
+
+**Polisitemi:**
+
+- Hiperselüler yapi, artmis eritroid seri
+
+---
+
+## Lokosit ve Lenforetikular Doku Hastaliklari
+
+### Notropeni - Agranülositoz
+
+- Agiz mukozasinda nekrotizan ülseratif lezyonlar
+- Lezyonlarda bol bakteri veya mantar olmasina ragmen **lokosit yaniti minimal**
+
+### Lenfadenit
+
+**Akut Nonspesifik Lenfadenit:**
+
+- Reaktif germinal merkezler, artmis mitotik aktivite
+- Piyojenik olgularda notrofiller belirgin, apse olusabilir
+
+**Kronik Nonspesifik Lenfadenit - Uc Patern:**
+
+1. **Follikuler Hiperplazi:** Buyuk sekonder folikuller, polarize germinal merkezler (sentroblastlar/sentrositler), **tingible body makrofajlari**
+2. **Parakortikal Hiperplazi:** T hucre yanitini yansitir, immunoblastlar gorulur (normal lenfositten 3-4 kat buyuk)
+3. **Sinus Histiyositozu:** Sinusleri doseyen endotel hucrelerinde artis, intrasunuzoidal makrofaj sayisi artar
+
+---
+
+## Beyaz Hucre Neoplazileri
+
+### Akut Lenfoblastik Losemi / Lenfoma (ALL/LBL)
+
+- Kemik iligi hiperselüler, lenfoblastlar baskin
+- Az sitoplazmalı, bazofilik hucreler, ince kromatin
+- Apoptotik hucreler ve makrofajlar ile **starry sky gorunumu**
+- Hucreler PAS pozitif boyanir
+- T hucreli ALL'de mediastinal timik kitle eslik edebilir
+
+### Kronik Lenfositik Losemi / Kucuk Lenfositik Lenfoma
+
+- Lenf nodunda diffuz mimari silinme ve **proliferasyon merkezleri**
+- Periferik kanda kucuk lenfositler ve **smudge cell**
+
+### Folikuler Lenfoma
+
+- Noduler veya noduler ile diffuz patern
+- Sentrosit ve sentroblast karisimi
+- Kemik iliginde **paratrabekuler tumor agregatlari**
+
+### Diffuz Buyuk B Hucreli Lenfoma
+
+- Buyuk hucreler (kucuk lenfositlerden 4-5 kat buyuk)
+- Vesikuler nukleuslar ve belirgin nukleoller
+
+### Burkitt Lenfoma
+
+- Orta boy hucreler, cok yuksek mitotik aktivite ve apoptoz
+- **Starry sky gorunumu** belirgindir
+- Sitoplazmik vakuoller bulunabilir
+
+### Mantle Hucreli Lenfoma
+
+- Homojen kucuk-orta boy hucreler, proliferasyon merkezleri yoktur
+- Blastoid varyant ALL ile karisabilir
+
+### Killu Hucreli Losemi
+
+- Periferik kanda **sac benzeri sitoplazmik uzantilari** olan hucreler
+
+### Multipl Miyelom
+
+- Kemik iliginde plazma hucre artisi (%30'dan fazla olabilir)
+- **Russel cisimcikleri** (sitoplazmik globuler inkluzyonlar)
+- **Dutcher cisimcikleri** (nukleer globuler inkluzyonlar)
+- **Alev hucreleri** (atesli kirmizi sitoplazma)
+- **Mott hucreleri** (uzum salkimi benzeri damlaciklar)
+
+### Akut Miyeloid Losemi
+
+- Kemik iliginde %20 veya daha fazla blast
+- Sitoplazmada peroksidaz pozitif azurofil granuller
+- **Auer cubuklari** ozellikle akut promiyelositik losemide belirgin
+
+### Miyelodisplastik Neoplaziler
+
+- Etkisiz hematopoez
+- Eritroid: **ring sideroblastlar**, megaloblastoid degisiklikler
+- Notrofiller: hipogranulasyon ve **pseudo-Pelger-Huet anomalisi**
+- Megakaryositlerde tek loblu veya **pawn ball gorunumleri**
+
+### Miyeloproliferatif Neoplaziler
+
+- KML: granulositik proliferasyon ve ekstramedüller hematopoez
+- Primer miyelofibrozda: kemik iligi fibrozisi, periferik kanda lokokeritroblastoz ve **dakriositler** (gozyasi hucreler)
+
+### Langerhans Hucreli Histiyositoz
+
+- Bol sitoplazmalı hucreler, nukleuslarinda lineer oluk veya kivrimlar
+- Ultrastüktürel olarak **Birbeck granülleri** (tenis raketi gorunumu)
+
+---
+
+## Dalak
+
+- **Splenomegali:** Konjesyon, hematolojik neoplazilerle infiltrasyon, ekstramedüller hematopoez veya inflamasyon
+- **Konjestif Splenomegali:** Venoz konjesyon sonucu kirmizi pulpa genisler
+- **Splenik Infarkt:** Kama seklinde infarkt alanlari, kronik donemde fibrozis
+
+---
+
+## Timus
+
+**Timoma:**
+
+- Lobule, gri-beyaz, cogu kapsullu kitleler
+- Meduller tip: igsi epitel hucreleri, az timosit
+- Karisik paternlerde kortikal tip epitel ile yogun timositler
+- Invaziv timomalar sitolojik olarak benign gorunebilir ancak kapsulu asar
+- Timik karsinomlarda belirgin sitolojik atipi
+
+```
+
+```{asis, echo = (language == "EN")}
+
+This section covers the hematopoietic system including: **Erythroid disorders** (hemolytic anemias with characteristic RBC morphologies -- spherocytes, sickle cells, target cells; megaloblastic anemia with macro-ovalocytes and hypersegmented neutrophils; iron deficiency with microcytic hypochromic cells; aplastic anemia with hypocellular marrow). **White cell disorders** include reactive proliferations (follicular, paracortical, sinus histiocytosis patterns) and neoplasms: ALL/LBL (starry sky, PAS-positive blasts), CLL/SLL (proliferation centers, smudge cells), follicular lymphoma (paratrabecular aggregates), DLBCL (large cells with vesicular nuclei), Burkitt (starry sky, high mitotic rate), mantle cell lymphoma, hairy cell leukemia, multiple myeloma (Russell/Dutcher bodies, flame cells), AML (Auer rods), MDS (ring sideroblasts, pseudo-Pelger-Huet), myeloproliferative neoplasms (dacrocytes in myelofibrosis), and Langerhans cell histiocytosis (Birbeck granules). Also covers spleen (congestion, infarction) and thymus (thymoma subtypes).
+
+```
+
+:::
+-->
 

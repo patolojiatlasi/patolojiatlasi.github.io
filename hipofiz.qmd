@@ -25,14 +25,371 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "EN")}
 
-# Pituitary Gland {#sec-pituitary} 
+# Pituitary Gland {#sec-pituitary}
 
 ```
 
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Endokrin Sistem - Histopatolojik Tanımlama / Endocrine System - Histopathological Description"}
 
 ```{asis, echo = (language == "TR")}
 
-## Hipofiz Adenomu {#sec-hipofiz-adenomu} 
+### I. Tiroid Patolojisi
+
+**1. Tiroid Nodüler Hiperplazisi (Multinodüler Guatr)**
+
+- Reaktif ve benign bir süreçtir, neoplazi değildir
+- İyot eksikliği, artmış TSH uyarısı ve heterojen yanıt temel mekanizmadır
+
+*Düşük büyütme:*
+
+- Çok sayıda, düzensiz nodül
+- Nodüller arasında belirgin kapsül yok
+- Nodüller normal parankimi sıkıştırır ama invaze etmez
+
+*Orta büyütme:*
+
+- Foliküller son derece değişken boyutta (mikrofoliküler alanlar ve dev makrofoliküller)
+- Kolloid miktarı heterojen; scalloped görünüm aktif alanları gösterir
+- Dejeneratif değişiklikler: hemoraji, fibrozis, kalsifikasyon, kistik değişiklik
+
+*Yüksek büyütme:*
+
+- Folikül epitelinde hafif yassılaşma veya küboidal epitel
+- Nükleer atipi yok; papiller karsinom nükleusları yok
+- Mitoz nadirdir; psammom cisimciği görülmez
+
+---
+
+**2. Tiroid Foliküler Adenomu**
+
+- Benign, klonal, neoplastik lezyon; daima soliter ve iyi sınırlıdır
+
+*Düşük büyütme:*
+
+- Tek, yuvarlak veya oval nodül
+- Kalın ve düzgün fibröz kapsül
+
+*Orta büyütme:*
+
+- Uniform foliküler mimari (mikrofoliküler, normofoliküler veya makrofoliküler patern)
+
+*Yüksek büyütme:*
+
+- Hücreler monomorfik, nükleuslar düzgün
+- Kapsül invazyonu yok, damar invazyonu yok
+
+**Kritik nokta:** Bu iki bulgudan biri varsa artık adenom değildir.
+
+---
+
+**3. Tiroid Papiller Karsinomu**
+
+- Tiroidin en sık malignitesi; tanı mimariye değil, nükleere dayanır
+- Lenfatik yayılım baskındır
+
+*Düşük büyütme:*
+
+- Papiller yapılar; solid veya foliküler alanlar olabilir; multifokalite sık
+
+*Orta büyütme:*
+
+- Gerçek papilla: ince fibrovasküler çekirdek üzerini örten neoplastik epitel
+
+*Yüksek büyütme:*
+
+- **Orphan Annie eye nükleus:** Açık, buzlu cam görünüm
+- Nükleer oluklar
+- İntranükleer psödoinklüzyonlar
+- Psammom cisimcikleri özellikle lenfatik alanlarda
+
+---
+
+**4. Tiroid Foliküler Karsinomu**
+
+- Malignite kriteri invazyondur; hematojen yayılım eğilimi vardır
+
+*Düşük büyütme:*
+
+- Adenoma çok benzer görünüm, kapsüllü izlenebilir
+
+*Orta büyütme:*
+
+- Kapsül boyunca dikkatli tarama gerekir
+
+*Yüksek büyütme:*
+
+- Kapsül invazyonu
+- Damar invazyonu: tümör hücreleri damar lümeni içinde trombüsle birlikte
+
+---
+
+**5. Anaplastik Karsinom**
+
+- Yüksek dereceli ve son derece agresif malignite
+
+*Düşük büyütme:*
+
+- Sınırları belirsiz, infiltratif kitle; çevre yumuşak dokulara yayılım
+
+*Orta ve yüksek büyütme:*
+
+- Aşırı pleomorfizm, dev tümör hücreleri
+- Spindle hücre alanları, yaygın nekroz
+- Çok sayıda atipik mitoz
+
+---
+
+**6. Medüller Tiroid Karsinomu**
+
+- Parafoliküler C hücre kökenlidir; MEN 2 sendromu ile ilişkili olabilir
+
+*Düşük büyütme:*
+
+- Solid, trabeküler veya yuvalar oluşturan tümör alanları
+
+*Orta büyütme:*
+
+- Stromada amiloid birikimi sık görülür (kalsitonin türevidir)
+
+*Yüksek büyütme:*
+
+- Plazmasitoid hücreler, spindle hücre alanları
+- Tuz ve biber kromatin yapısı
+
+**Ayırt edici:** Kongo red ile amiloid pozitifliği, kalsitonin pozitifliği, tiroglobulin negatifliği.
+
+---
+
+**7. Hashimoto Tiroiditi**
+
+- En sık hipotiroidi nedenlerinden biri; otoimmün kökenlidir
+
+*Düşük büyütme:*
+
+- Diffüz lenfoid infiltrasyon; normal tiroid mimarisi büyük ölçüde silinmiştir
+
+*Orta büyütme:*
+
+- Lenfoid folliküller ve germinal merkez oluşumu
+- Tiroid folliküllerinde atrofi
+
+*Yüksek büyütme:*
+
+- Hürthle hücre metaplazisi: eozinofilik ve granüler sitoplazmalı follikül epitel hücreleri
+
+---
+
+**8. Graves Hastalığı**
+
+- Diffüz toksik guatr; TSH reseptörüne karşı uyarıcı otoantikorlar temel mekanizmadır
+
+*Düşük büyütme:*
+
+- Tiroid bezinde diffüz büyüme
+
+*Orta büyütme:*
+
+- Follikül epitelinde belirgin hiperplazi
+- Papiller infolding izlenir ancak gerçek papilla değildir (fibrovasküler çekirdek içermez)
+
+*Yüksek büyütme:*
+
+- Yüksek, prizmatik epitel hücreleri
+- Scalloped kolloid tipiktir
+- Hafif lenfositik infiltrasyon eşlik edebilir
+
+---
+
+**9. Subakut Granülomatöz Tiroidit (De Quervain)**
+
+- Sıklıkla viral enfeksiyon sonrası gelişir
+
+*Düşük büyütme:*
+
+- Tiroid parankiminde yamalı tutulum
+
+*Orta büyütme:*
+
+- Hasarlı ve parçalanmış folliküller; kolloid sızıntısı çevresinde inflamatuvar reaksiyon
+
+*Yüksek büyütme:*
+
+- Multinükleer dev hücreler
+- Kolloid materyal etrafında granülomatöz inflamasyon
+- Kazeifikasyon nekrozu yoktur
+
+---
+
+**10. Riedel Tiroiditi**
+
+- Nadir, ileri derecede fibrotik tiroidit; IgG4 ilişkili hastalık spektrumunda yer alabilir
+
+*Düşük büyütme:*
+
+- Tiroid dokusunun büyük kısmı fibrozis ile yer değiştirmiştir
+
+*Orta büyütme:*
+
+- Yoğun, hiyalinize fibrotik stroma
+
+*Yüksek büyütme:*
+
+- Fibrozis tiroid kapsülünü aşarak çevre yumuşak dokulara uzanabilir
+
+---
+
+### II. Paratiroid
+
+**Paratiroid Adenomu**
+
+- Primer hiperparatiroidinin en sık nedenidir; genellikle tek bez tutulur
+
+*Düşük büyütme:*
+
+- İyi sınırlı nodüler lezyon; çevredeki normal paratiroid dokusu baskılanmış görünür
+
+*Orta büyütme:*
+
+- Artmış hücresellik; yağ dokusu belirgin azalmıştır
+
+*Yüksek büyütme:*
+
+- Monoton chief hücre proliferasyonu
+- Nükleer pleomorfizm olabilir ancak tek başına malignite anlamına gelmez
+
+---
+
+### III. Hipofiz
+
+**Hipofiz Adenomu (PitNET)**
+
+- Monoton hücre popülasyonundan oluşan nöroendokrin tümör
+
+*Düşük büyütme:*
+
+- İyi sınırlı, solid tümör alanları
+
+*Orta büyütme:*
+
+- Uniform hücre dizilimleri; sinüzoidal damar ağı seçilebilir
+
+*Yüksek büyütme:*
+
+- Hücre morfolojisi salgılanan hormona göre değişir
+- Retikülin ağı bozulmuştur
+- ACTH üreten tümörlerde komşu normal hipofizde Crooke hyalin değişiklik görülebilir
+
+---
+
+### IV. Adrenal
+
+**Adrenokortikal Tümörler**
+
+- Korteks kökenli neoplazmlarda malignite değerlendirmesi morfolojik kriterlere dayanır
+
+*Düşük büyütme:*
+
+- Büyük, heterojen kitle
+
+*Yüksek büyütme:*
+
+- Yüksek mitotik aktivite, atipik mitozlar
+- Kapsül ve damar invazyonu
+
+---
+
+**Feokromositoma**
+
+- Adrenal medulla kökenli nöroendokrin tümör
+
+*Orta büyütme:*
+
+- Zellballen paterni: yuvalar halinde tümör hücreleri ve ince vasküler stroma
+
+*Yüksek büyütme:*
+
+- Nöroendokrin tip tuz ve biber kromatin
+- S-100 pozitif sustentaküler hücreler periferde yer alır
+
+**Not:** Malignite yalnızca metastaz varlığı ile tanımlanır.
+
+---
+
+**Nöroblastom**
+
+- Çocukluk çağının malign embriyonal tümörü
+
+*Düşük büyütme:*
+
+- Diffüz, küçük mavi hücreli tümör
+
+*Yüksek büyütme:*
+
+- Homer-Wright psödorozetleri
+- Hiperkromatik çekirdekli küçük hücreler
+
+---
+
+### V. Endokrin Pankreas
+
+**İnsülinoma**
+
+- En sık pankreatik nöroendokrin tümördür
+
+*Düşük büyütme:*
+
+- İyi sınırlı nodül
+
+*Orta büyütme:*
+
+- Solid veya trabeküler hücre dizilimleri
+
+*Yüksek büyütme:*
+
+- Uniform hücreler, tuz ve biber kromatin
+- Stromada amiloid birikimi görülebilir
+
+---
+
+### VI. Metabolik
+
+**Diabetes Mellitus**
+
+*Orta büyütme:*
+
+- Tip 1 diyabette adacıklarda lenfosit infiltrasyonu (insülit)
+- Tip 2 diyabette adacık yapısı korunabilir
+
+*Yüksek büyütme:*
+
+- Tip 1: T lenfosit baskın insülit
+- Tip 2: adacıklarda amiloid birikimi (IAPP kökenli)
+
+```
+
+```{asis, echo = (language == "EN")}
+
+### Endocrine System - Summary
+
+**Thyroid:** Nodular hyperplasia (multinodular goiter) shows multiple unencapsulated nodules with variable-sized follicles and no nuclear atypia. Follicular adenoma is a solitary encapsulated nodule without capsular or vascular invasion. Papillary carcinoma is diagnosed by nuclear features (Orphan Annie eyes, nuclear grooves, pseudoinclusions, psammoma bodies). Follicular carcinoma requires capsular or vascular invasion for diagnosis. Anaplastic carcinoma shows extreme pleomorphism and aggressive behavior. Medullary carcinoma (C-cell origin) features amyloid stroma and salt-and-pepper chromatin. Hashimoto thyroiditis shows dense lymphoid infiltration with Hurthle cell metaplasia. Graves disease features diffuse hyperplasia with tall columnar cells and scalloped colloid.
+
+**Parathyroid:** Adenoma is a well-circumscribed lesion with chief cell proliferation and compressed surrounding parathyroid tissue.
+
+**Pituitary:** Pituitary adenoma (PitNET) shows monotonous cell population with disrupted reticulin network. ACTH-producing tumors may show Crooke hyaline change in adjacent normal pituitary.
+
+**Adrenal:** Adrenocortical carcinoma shows high mitotic activity, atypical mitoses, and capsular/vascular invasion. Pheochromocytoma features Zellballen pattern with S-100 positive sustentacular cells. Neuroblastoma presents as a small round blue cell tumor with Homer-Wright pseudorosettes.
+
+**Endocrine Pancreas:** Insulinoma is the most common pancreatic neuroendocrine tumor, well-circumscribed with salt-and-pepper chromatin. In diabetes mellitus, Type 1 shows insulitis (lymphocytic infiltration) while Type 2 shows islet amyloid deposition.
+
+```
+
+:::
+-->
+
+```{asis, echo = (language == "TR")}
+
+## Hipofiz Adenomu {#sec-hipofiz-adenomu}
 
 ```
 

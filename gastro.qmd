@@ -33,4 +33,35 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Histopatolojik Tanımlama / Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+Gastrointestinal sistem (GİS), özofagustan anüse uzanan sindirim kanalını kapsar. Histopatolojik değerlendirmede mukoza, submukoza, muskularis propria ve seroza/adventisya katmanları sistematik olarak incelenir. Her segment kendine özgü mukozal yapı ve hücresel kompozisyona sahiptir:
+
+- **Özofagus**: Çok katlı yassı (skuamöz) epitel ile döşelidir
+- **Mide**: Foveolar yüzey epiteli, fundik bezler (parietal ve chief hücreler) veya antrumda müsinöz bezler içerir
+- **İnce barsak**: Villus-kript mimarisi, goblet hücreleri ve Paneth hücreleri karakteristiktir
+- **Kolon**: Kript ağırlıklı mimari, bol goblet hücreleri ve düzenli kript yapısı ile tanınır
+
+GİS patolojisinde inflamatuar, neoplastik ve yapısal hastalıklar geniş bir spektrum oluşturur. Biyopsi yorumunda mukozal mimari, inflamasyon tipi ve dağılımı, displazi varlığı ve invazyon derinliği temel değerlendirme parametreleridir.
+```
+
+```{asis, echo = (language == "EN")}
+
+The gastrointestinal (GI) system encompasses the digestive tract from the esophagus to the anus. Histopathological evaluation systematically examines the mucosa, submucosa, muscularis propria, and serosa/adventitia layers. Each segment has its own characteristic mucosal architecture and cellular composition:
+
+- **Esophagus**: Lined by stratified squamous epithelium
+- **Stomach**: Features foveolar surface epithelium, fundic glands (parietal and chief cells) or mucous glands in the antrum
+- **Small intestine**: Characterized by villus-crypt architecture, goblet cells, and Paneth cells
+- **Colon**: Recognized by crypt-predominant architecture, abundant goblet cells, and regular crypt structure
+
+GI pathology encompasses a broad spectrum of inflammatory, neoplastic, and structural diseases. Key assessment parameters in biopsy interpretation include mucosal architecture, type and distribution of inflammation, presence of dysplasia, and depth of invasion.
+```
+
+:::
+-->
+
+
 

@@ -18,6 +18,617 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 # Gynecopathology {#sec-gynecopathology}
 ```
 
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Kadın Genital Sistem - Histopatolojik Tanımlama / Female Genital System - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### A) Vulva ve Vajina
+
+**Bartholin Kisti**
+
+- Bartholin bez kanalının obstrüksiyonuna bağlı retansiyon kistidir
+
+*Düşük büyütme:*
+
+- İyi sınırlı, yuvarlak kistik yapı
+
+*Orta büyütme:*
+
+- İnce fibröz kist duvarı, inflamasyon değişken olabilir
+
+*Yüksek büyütme:*
+
+- Düz veya küboidal epitel ile döşeli
+- Sekonder enfeksiyonda nötrofil infiltrasyonu görülebilir
+
+---
+
+**Condyloma Acuminatum**
+
+- HPV ilişkili benign skuamöz papiller lezyon
+
+*Düşük büyütme:*
+
+- Ekzofitik, papiller çıkıntılar
+
+*Orta büyütme:*
+
+- Fibrovasküler papiller saplar
+
+*Yüksek büyütme:*
+
+- Koilositoz, yani perinükleer halo ve düzensiz nükleer konturlar
+
+**Tanısal ipucu:** Epitelyal maturasyon korunmuştur ve stromal invazyon yoktur.
+
+---
+
+**Liken Skleroz**
+
+- Kronik inflamatuvar, atrofik dermatozdur ve HPV bağımsız vulvar skuamöz hücreli karsinom ile ilişkilidir
+
+*Düşük büyütme:*
+
+- Epidermal incelme
+
+*Orta büyütme:*
+
+- Subepidermal homojen, soluk, hiyalinize bant
+
+*Yüksek büyütme:*
+
+- Daha derin dermiste bant tarzında lenfositik infiltrasyon
+
+---
+
+**Liken Simpleks Kronikus**
+
+- Kronik kaşıma ve irritasyona yanıt olarak gelişir
+
+*Düşük büyütme:*
+
+- Epidermal kalınlaşma
+
+*Orta büyütme:*
+
+- Belirgin akantoz
+
+*Yüksek büyütme:*
+
+- Hiperkeratoz ve belirgin granüler tabaka kalınlaşması
+
+---
+
+**Vulvar Skuamöz Hücreli Karsinom**
+
+- Vulvanın en sık malign tümörüdür. HPV ilişkili ve HPV bağımsız tipleri vardır
+
+*Düşük büyütme:*
+
+- İnvaziv, düzensiz sınırlı tümör adacıkları
+
+*Orta büyütme:*
+
+- Keratinizasyon odakları ve keratin incileri
+
+*Yüksek büyütme:*
+
+- Belirgin sitolojik atipi
+- İntersellüler köprüler
+
+---
+
+**Ekstramamarian Paget Hastalığı**
+
+- Vulvada görülen intraepidermal adenokarsinomdur
+
+*Düşük büyütme:*
+
+- Epidermis içinde açık renkli hücre grupları
+
+*Orta büyütme:*
+
+- Epidermis boyunca yayılmış Paget hücreleri
+
+*Yüksek büyütme:*
+
+- Büyük, soluk sitoplazmalı, belirgin nükleuslu hücreler
+- Mukin içeriği nedeniyle PAS pozitiflik görülebilir
+
+---
+
+**Berrak Hücreli Adenokarsinom**
+
+*Düşük büyütme:*
+
+- Glandüler ve solid alanların birlikte bulunduğu tümör
+
+*Orta büyütme:*
+
+- Tubulokistik büyüme paterni
+
+*Yüksek büyütme:*
+
+- Berrak sitoplazmalı hücreler
+- Hobnail tip hücreler
+
+---
+
+**Embriyonal Rabdomiyosarkom**
+
+*Düşük büyütme:*
+
+- Polipoid, üzüm salkımı benzeri kitle
+
+*Orta büyütme:*
+
+- Epitel altında yoğun hücresel kambiyum tabakası
+
+*Yüksek büyütme:*
+
+- Küçük, yuvarlak, hiperkromatik mavi hücreler
+
+---
+
+### B) Serviks
+
+**HPV İlişkili Değişiklikler**
+
+- Koilositoz
+- Bazal ve parabazal tabakalarda artmış mitoz
+- Epitel maturasyonunda bozulma
+
+---
+
+**Servikal İntraepitelyal Neoplazi (CIN)**
+
+- **CIN I:** Alt üçte bir tutulum
+- **CIN II:** Alt üçte iki tutulum
+- **CIN III:** Tüm epitel kalınlığı, karsinoma in situ
+
+**Tanısal Özellikler:**
+
+- Nükleer büyüme ve hiperkromazi
+- Nükleer düzensizlik
+- Artmış mitoz
+- Koilositik değişiklikler eşlik edebilir
+
+---
+
+**Serviks Karsinomu**
+
+- En sık skuamöz hücreli karsinomdur, ikinci sıklıkta adenokarsinom görülür
+
+*Düşük büyütme:*
+
+- Stromaya invaze tümör adacıkları veya glandlar
+
+*Orta büyütme:*
+
+- Skuamöz tipte solid adacıklar
+- Adenokarsinomda düzensiz glandüler yapılar
+
+*Yüksek büyütme:*
+
+- Belirgin sitolojik atipi
+- Sık mitoz figürleri
+- Tümör tipine göre keratinizasyon veya müsin üretimi görülebilir
+
+---
+
+### C) Endometrium
+
+**Akut Endometrit**
+
+- Akut bakteriyel enfeksiyona bağlı endometrium inflamasyonudur ve tanıda nötrofiller temel bulgudur
+
+*Düşük büyütme:*
+
+- Mukozada ödem ve konjesyon görülebilir
+
+*Orta büyütme:*
+
+- Endometriyal stroma içinde inflamatuvar hücre artışı dikkati çeker
+
+*Yüksek büyütme:*
+
+- Gland lümenleri ve stroma içinde nötrofiller izlenir
+
+---
+
+**Kronik Endometrit**
+
+- Uzamış inflamasyondur ve tanı için plazma hücrelerinin gösterilmesi gerekir
+
+*Düşük büyütme:*
+
+- Endometriumda hafif düzensizlik ve stromal artış olabilir
+
+*Orta büyütme:*
+
+- Stromada mononükleer inflamasyon izlenir
+
+*Yüksek büyütme:*
+
+- Plazma hücreleri tanısaldır
+
+---
+
+**Endometriyal Polip**
+
+- Endometriumdan köken alan lokalize, benign mukozal çıkıntıdır
+
+*Düşük büyütme:*
+
+- Kaviteye uzanan, iyi sınırlı nodüler lezyon görülür
+
+*Orta büyütme:*
+
+- Kalın duvarlı damarlar ve fibrotik stroma belirgindir
+
+*Yüksek büyütme:*
+
+- Düzensiz yerleşimli fakat sitolojik olarak benign glandlar izlenir
+
+---
+
+**Endometriozis**
+
+- Endometriyal dokunun uterus dışı yerleşimidir
+
+*Düşük büyütme:*
+
+- Normal dışı bölgede gland benzeri yapılar görülebilir
+
+*Orta büyütme:*
+
+- Endometriyal stroma ve gland birlikteliği izlenir
+
+*Yüksek büyütme:*
+
+- Hemosiderin yüklü makrofajlar tanıyı destekler
+
+---
+
+**Endometriyal Hiperplazi**
+
+- Östrojen fazlalığına bağlı gland artışı ile karakterizedir ve karsinom öncülü olabilir
+
+*Düşük büyütme:*
+
+- Gland yoğunluğu artmıştır
+
+*Orta büyütme:*
+
+- Glandlar sıkışık yerleşimli ve stroma azalmıştır
+
+*Yüksek büyütme:*
+
+- Bazal membran korunur, invazyon yoktur
+
+---
+
+**Endometriyal Karsinom, Endometrioid Tip**
+
+- En sık görülen endometrium kanseridir ve sıklıkla hiperplazi zemininde gelişir
+
+*Düşük büyütme:*
+
+- Endometriumdan myometriuma doğru invaziv büyüme izlenir
+
+*Orta büyütme:*
+
+- Back-to-back yerleşimli düzensiz bez yapıları görülür
+
+*Yüksek büyütme:*
+
+- Sitolojik atipi belirgindir, solid alanlar eşlik edebilir
+
+---
+
+### D) Myometrium
+
+**Leiomyoma**
+
+- Uterusun en sık benign tümörüdür ve düz kas kökenlidir
+
+*Düşük büyütme:*
+
+- İyi sınırlı, solid nodül izlenir
+
+*Orta büyütme:*
+
+- Demetler halinde düzenli düz kas hücreleri görülür
+
+*Yüksek büyütme:*
+
+- Atipi, mitoz artışı ve nekroz yoktur
+
+---
+
+**Leiomyosarkom**
+
+- Myometriumun malign düz kas tümörüdür
+
+*Düşük büyütme:*
+
+- İnfiltratif sınırlı kitle görünümü olabilir
+
+*Orta büyütme:*
+
+- Hücresellik artmıştır ve mimari düzensizdir
+
+*Yüksek büyütme:*
+
+- Belirgin atipi, yüksek mitotik aktivite ve koagülasyon tipi tümör nekrozu tanısaldır
+
+---
+
+### E) Over
+
+**Polikistik Over**
+
+- Hormonal düzensizlik ile ilişkili, çok sayıda küçük follikül içeren over yapısıdır
+
+*Düşük büyütme:*
+
+- Korteks kalın ve stromal artış gösterir
+
+*Orta büyütme:*
+
+- Farklı gelişim evrelerinde çok sayıda küçük follikül izlenir
+
+*Yüksek büyütme:*
+
+- Teka hücre artışı görülebilir
+
+---
+
+**Yüzey Epiteliyal Over Tümörleri**
+
+**Seröz Tümörler**
+
+- En sık over tümörleridir ve tubal tipe benzer epitel içerir
+
+*Düşük büyütme:*
+
+- Kistik veya papiller yapılar görülebilir
+
+*Orta büyütme:*
+
+- Papiller çıkıntılar fibrovasküler saplar içerir
+
+*Yüksek büyütme:*
+
+- Silyalı kolumnar epitel tipiktir
+
+---
+
+**Müsinöz Tümörler**
+
+- İntestinal tip epitel ile döşeli, genellikle büyük kistik tümörlerdir
+
+*Düşük büyütme:*
+
+- Multikistik yapı izlenir
+
+*Orta büyütme:*
+
+- Mukus içeren geniş bezler görülür
+
+*Yüksek büyütme:*
+
+- Silyasız, müsin dolu sitoplazmalı hücreler dikkati çeker
+
+---
+
+**Endometrioid Tümörler**
+
+- Endometrium benzeri gland yapıları içerir
+
+*Düşük büyütme:*
+
+- Solid ve glandüler alanlar birlikte bulunabilir
+
+*Orta büyütme:*
+
+- Tübüler gland yapıları görülür
+
+*Yüksek büyütme:*
+
+- Sitolojik atipi derecesi tümör tipine göre değişir
+
+---
+
+**Germ Hücreli Tümörler**
+
+**Teratom**
+
+- Birden fazla germ yaprağına ait dokular içerir
+
+*Düşük büyütme:*
+
+- Kistik ve solid alanlar birlikte izlenir
+
+*Orta büyütme:*
+
+- Farklı doku tipleri yan yana bulunur
+
+*Yüksek büyütme:*
+
+- Epidermis, saç follikülü veya sebase bez yapıları görülebilir
+
+---
+
+**Disgerminom**
+
+- Seminoma benzeri malign germ hücreli tümördür
+
+*Düşük büyütme:*
+
+- Solid lobüler kitle görünümü vardır
+
+*Orta büyütme:*
+
+- Fibroz septalar ile ayrılan hücre adacıkları izlenir
+
+*Yüksek büyütme:*
+
+- Berrak sitoplazmalı hücreler ve lenfosit infiltrasyonu tipiktir
+
+---
+
+**Yolk Sac Tümörü**
+
+- Embriyonik yolk sac diferansiyasyonu gösteren agresif tümördür
+
+*Düşük büyütme:*
+
+- Retiküler ve mikrokistik alanlar görülebilir
+
+*Orta büyütme:*
+
+- Gevşek ağ benzeri yapı izlenir
+
+*Yüksek büyütme:*
+
+- Schiller-Duval cisimcikleri tanısaldır
+
+---
+
+**Seks Kord-Stromal Tümörler**
+
+**Granüloza Hücreli Tümör**
+
+- Östrojen üretebilen stromal tümördür
+
+*Düşük büyütme:*
+
+- Solid ve kistik alanlar görülebilir
+
+*Orta büyütme:*
+
+- Küçük hücre adacıkları izlenir
+
+*Yüksek büyütme:*
+
+- Call-Exner cisimcikleri ve kahve çekirdeği görünümlü nükleuslar tipiktir
+
+---
+
+### F) Gebelik ve Plasenta
+
+**Ektopik Gebelik**
+
+- Gebeliğin uterus dışında yerleşmesidir
+
+*Düşük büyütme:*
+
+- Uterus dışı dokuda villöz yapılar görülür
+
+*Orta büyütme:*
+
+- Koryonik villuslar belirgindir
+
+*Yüksek büyütme:*
+
+- Trofoblast hücreleri izlenir
+
+---
+
+**Spontan Abortus**
+
+- Gebeliğin erken dönemde sonlanmasıdır
+
+*Düşük büyütme:*
+
+- Villöz yapılar düzensizdir
+
+*Orta büyütme:*
+
+- Villöz stromada dejenerasyon görülür
+
+*Yüksek büyütme:*
+
+- Trofoblast hücrelerinde gerileme bulguları olabilir
+
+---
+
+**Plasenta Accreta**
+
+- Plasentanın myometriuma anormal derecede yapışmasıdır
+
+*Düşük büyütme:*
+
+- Desidua tabakası izlenmez
+
+*Orta büyütme:*
+
+- Koryonik villuslar myometriuma yaklaşmıştır
+
+*Yüksek büyütme:*
+
+- Villöz yapılar doğrudan myometriuma temas eder
+
+---
+
+**Preeklampsi**
+
+- Gebelikte hipertansiyon ve plasental perfüzyon bozukluğu ile ilişkilidir
+
+*Düşük büyütme:*
+
+- Plasentada infarkt alanları görülebilir
+
+*Orta büyütme:*
+
+- Spiral arterlerde daralma ve duvar kalınlaşması izlenir
+
+*Yüksek büyütme:*
+
+- Plasental villuslarda iskemiye bağlı değişiklikler bulunur
+
+---
+
+**Hidatidiform Mol**
+
+- Anormal trofoblast proliferasyonu ile seyreden gestasyonel trofoblastik hastalıktır
+
+*Düşük büyütme:*
+
+- Hidropik, ödemli villuslar görülür
+
+*Orta büyütme:*
+
+- Villöz stromada genişleme belirgindir
+
+*Yüksek büyütme:*
+
+- Diffüz trofoblast proliferasyonu tanısaldır
+
+```
+
+```{asis, echo = (language == "EN")}
+
+### Female Genital System - Summary
+
+**Vulva and Vagina:** Bartholin cyst is a retention cyst lined by flat or cuboidal epithelium. Condyloma acuminatum shows HPV-related koilocytosis with preserved maturation. Lichen sclerosus features epidermal thinning with subepidermal hyalinized band. Vulvar squamous cell carcinoma presents with invasive tumor islands, keratin pearls, and intercellular bridges. Extramammary Paget disease shows large pale intraepidermal cells.
+
+**Cervix:** CIN is graded by the extent of epithelial involvement (CIN I: lower third, CIN II: lower two-thirds, CIN III: full thickness). Cervical carcinoma is most commonly squamous cell type, with adenocarcinoma being the second most frequent.
+
+**Endometrium:** Acute endometritis is diagnosed by neutrophils in gland lumens and stroma. Chronic endometritis requires plasma cells for diagnosis. Endometrial hyperplasia shows increased gland density with preserved basement membrane. Endometrioid carcinoma features back-to-back glands invading the myometrium.
+
+**Myometrium:** Leiomyoma is the most common benign uterine tumor with well-circumscribed nodules of smooth muscle without atypia. Leiomyosarcoma shows significant atypia, high mitotic activity, and coagulative tumor necrosis.
+
+**Ovary:** Surface epithelial tumors (serous, mucinous, endometrioid) are the most common. Germ cell tumors include teratoma, dysgerminoma (clear cells with lymphocytic infiltrate), and yolk sac tumor (Schiller-Duval bodies). Granulosa cell tumor features Call-Exner bodies and coffee-bean nuclei.
+
+**Pregnancy and Placenta:** Ectopic pregnancy shows villi outside the uterus. Placenta accreta lacks decidua between villi and myometrium. Hydatidiform mole shows hydropic villi with trophoblast proliferation.
+
+```
+
+:::
+-->
 
 
 ```{asis, echo = (language == "TR")}

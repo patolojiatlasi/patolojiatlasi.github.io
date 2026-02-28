@@ -26,11 +26,169 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{asis, echo = (language == "EN")}
-# Cellular Injury {#sec-cellular-injury} 
+# Cellular Injury {#sec-cellular-injury}
 
-## Reactive atypia in an ulcerated colon polyp {#sec-reactive-atypia} 
+## Reactive atypia in an ulcerated colon polyp {#sec-reactive-atypia}
 
 ```
+
+
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Hucre Hasari - Histopatolojik Tanimlama / Cell Injury - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### Hucresel Adaptasyonlar
+
+Hucresel adaptasyonlar, hucrenin yasamsal butunlugunu korumaya yonelik, kontrollu ve genellikle geri donusumlü yanitlaridir.
+
+**Hiperplazi**
+
+- Mitoz kapasitesi olan dokularda hucre sayisinin artisi ile karakterize adaptif bir buyume yanitidir
+- Histopatolojik olarak korunmus mimari, artmis hucresellik ve sitolojik atipi yoklugu ile tanimlanir
+- Fizyolojik veya patolojik olabilir
+
+**Hipertrofi**
+
+- Hucre sayisi artmadan, tek tek hucrelerin hacim kazanmasi sonucu doku veya organ buyumesidir
+- Ozellikle bolunme kapasitesi sinirli dokularda (kalp, iskelet kasi) gorulur
+- Histopatolojik olarak hucreler buyuktur, cekirdekler iri olabilir ancak hucre sayisi artmaz
+
+**Atrofi**
+
+- Hucre boyutunun veya hucre sayisinin azalmasina bagli olarak doku hacminin kuculmesidir
+- Azalmis fonksiyonel gereksinim, iskemi, denervasyon veya beslenme yetersizligi gibi nedenlerle gelisir
+- Histolojik olarak hucreler kuculmus, sitoplazma azalmistir
+- Lipofuscin birikimi gorulebilir
+
+**Metaplazi**
+
+- Bir diferansiye hucre tipinin, ayni dokuda bulunan baska bir diferansiye hucre tipiyle yer degistirmesidir
+- Genellikle kronik irritasyonlara yanit olarak gelisir
+- Surec reversibl olmakla birlikte uzun sureli metaplazi displazi ve neoplazi icin zemin olusturabilir
+
+---
+
+### Hucre Hasari
+
+**Geri Donusumlü Hucre Hasari**
+
+- Hucre, stres faktoru ortadan kalktiginda normale donebilir
+- Histolojik bulgular:
+  - Hucresel sisme
+  - Yagli degisim
+  - Endoplazmik retikulum dilatasyonu
+  - Ribozom ayrilmasi
+
+**Geri Donusumsuz Hucre Hasari**
+
+- Mitokondriyal fonksiyon kaybi ve membran butunlugunun bozulmasi ile karakterizedir
+- Bu asamadan sonra hucre olumu kacinilmazdir
+
+**Hipoksi**
+
+- Dokunun yetersiz oksijenlenmesi durumudur
+- ATP azalmasi, anaerobik glikoliz artisi ve hucresel sisme ile sonuclanir
+
+**Iskemi**
+
+- Kan akiminin azalmasi veya kesilmesi sonucu gelisir
+- Hipoksiye ek olarak metabolik atiklarin birikmesi nedeniyle hipoksiden daha agir hucre hasari olusturur
+
+---
+
+### Hucre Olumu
+
+**Nekroz**
+
+- Kontrolsuz ve patolojik hucre olumudur
+- Hucre membrani bozulur, icerik cevreye yayilir ve inflamasyon gelisir
+- Histolojik olarak hucre sismesi, eozinofili ve cekirdek degisiklikleri (piknozis, karyoreksis, karyolizis) izlenir
+
+**Nekrozun Tipleri:**
+
+- **Koagulasyon Nekrozu:** En sik gorulen tip, genellikle iskemiye bagli solid organ hasarinda ortaya cikar. Doku mimarisi korunmustur, hayalet hucreler gorulur. *Klinik ornek:* Miyokard infarktusu
+- **Likefaksiyon Nekrozu:** Dokunun enzimatik sindirimi ile karakterizedir, en sik beyin infarktlarinda ve purulan enfeksiyonlarda gorulur. Doku mimarisi kaybolmustur, notrofil agirlikli inflamasyon eslik eder. *Klinik ornek:* Serebral infarkt, beyin apsesi
+- **Kazeoz Nekroz:** Amorf, granuler, eozinofilik, peynirimsi beyaz gorunumlu nekrotik materyal. Cevresinde epiteloid histiositler ve dev hucrelerden olusan granulomatoz reaksiyon. *Klinik ornek:* Tuberkuloz lenfadenit
+- **Yag Nekrozu:** Adipoz dokunun hasari sonucu gelisir. Sabunlasma ve bazofilik kalsifikasyon odaklari gozlenir. *Klinik ornek:* Akut pankreatit
+- **Fibrinoid Nekroz:** Bag dokusu ve damar duvarlarinda gorulur. Parlak, eozinofilik, amorf materyal. *Klinik ornek:* Vaskulitler, malign hipertansiyon
+- **Gangrenoz Nekroz:** Tek basina bir nekroz tipi olmayip klinik ve morfolojik bir terimdir. Kuru gangren (koagulasyon nekrozu baskin), yas gangren (enfeksiyon eklenmis), gazli gangren (Clostridium)
+
+**Apoptoz**
+
+- Enerji bagimli, kontrollu ve inflamasyon olusturmayan hucre olumudur
+- Hucre kuculur, nukleer kondansasyon gelisir ve apoptotik cisimcikler fagosite edilir
+
+**Nekroptoz**
+
+- Morfolojik olarak nekroza benzeyen ancak programlanmis bir hucre olum yoludur
+- Inflamatuvar yanit olusturur
+
+**Piroptoz**
+
+- Inflamatuvar kaspazlar araciligiyla gelisen, ozellikle enfeksiyonlara yanit olarak gorulen siddetli inflamasyonla seyreden hucre olumudur
+
+**Ferroptoz**
+
+- Demir bagimli lipid peroksidasyonu sonucu gelisen, mitokondriyal hasarin on planda oldugu ozgun bir hucre olum yoludur
+
+**Otofaji**
+
+- Hucrenin kendi organellerini lizozomal yolla yikarak hayatta kalmaya calistigi adaptif bir mekanizmadir
+- Asiri ve kontrolsuz oldugunda hucre olumune katki saglayabilir
+
+---
+
+### Hucre Ici ve Hucre Disi Degisiklikler
+
+**Yagli Degisim (Steatoz)**
+
+- Trigliserid birikimi ile karakterizedir, en sik karaciger, kalp ve bobrekte gorulur
+- Reversibl hucre hasarinin tipik bir bulgusudur
+- Lipid birikimi frozen kesitlerde Oil Red O ve Sudan boyalari ile gosterilebilir
+
+**Hyalin Degisiklik**
+
+- Homojen ve eozinofilik protein birikimini ifade eder
+- Hucre ici veya hucre disi olarak izlenebilir
+
+**Kolesterol** - En sik makrofajlarda gorulur, ateroskleroz ve ksantomlarla iliskilidir
+
+**Protein** - Hucre icinde eozinofilik globuller veya vakuoller seklinde izlenir
+
+**Glikojen** - PAS ve Best Carmine boyalari ile gosterilir
+
+**Lipofuksin** - Perinukleer yerlesimli, kahverengi, cozunmeyen pigment, serbest radikal hasarinin gostergesidir
+
+**Melanin** - Tirozin kokenli endojen pigment, kahverengi-siyah renkte
+
+**Bilirubin** - Hemoglobin yikim urunu, sari-kahverengi safra pigmenti
+
+**Hemosiderin** - Demir iceren altin sarisi-kahverengi pigment, kanama alanlarinda gorulur
+
+**Antrakosis** - Komur tozu birikmesine bagli en sik gorulen eksojen pigment
+
+**Dovme Pigmenti** - Dermiste makrofajlar icinde birikir ve kalicidir
+
+---
+
+### Kalsifikasyon
+
+- **Distrofik kalsifikasyon:** Serum kalsiyum duzeyi normal iken hasarli veya nekrotik dokularda gelisir
+- **Metastatik kalsifikasyon:** Serum kalsiyum duzeyinin yuksek oldugu durumlarda normal dokularda gorulur
+- Histolojik olarak bazofilik, granuler veya amorf birikimler seklinde izlenir
+
+```
+
+```{asis, echo = (language == "EN")}
+
+Cell injury encompasses cellular adaptations (hyperplasia, hypertrophy, atrophy, metaplasia), reversible and irreversible injury patterns, and multiple cell death mechanisms. Necrosis types include coagulative, liquefactive, caseous, fat, fibrinoid, and gangrenous necrosis, each with distinct histopathological features. Additional cell death pathways include apoptosis (controlled, non-inflammatory), necroptosis, pyroptosis, ferroptosis, and autophagy. Intracellular and extracellular accumulations (steatosis, hyaline change, pigments, calcification) represent important morphological markers of cellular injury and adaptation.
+
+```
+
+:::
+-->
+
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/thumbnail_reactive-atypia.png")) {

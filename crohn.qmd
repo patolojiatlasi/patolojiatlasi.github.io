@@ -27,6 +27,72 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="İnflamatuar Barsak Hastalıkları - Histopatolojik Tanımlama / Inflammatory Bowel Diseases - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### Crohn Hastalığı
+
+- *Düşük büyütme:* Tutulum segmental ve yamalıdır, "skip lezyonlar" tipiktir. Derin fissürler ve ülserler görülebilir. Tutulum tüm barsak duvarına uzanma eğilimindedir.
+- *Orta büyütme:* Transmural inflamasyon dikkati çeker. Lenfoid agregatlar sık görülür. Kriptit ve kript apseleri eşlik edebilir.
+- *Yüksek büyütme:* Non-kazeöz granülomlar saptanabilir ancak her olguda bulunmaz. Kronik olgularda kript distorsiyonu gelişir. Psödopilorik metaplazi ve sol kolonda Paneth hücre metaplazisi görülebilir.
+
+---
+
+### Ülseratif Kolit
+
+- *Düşük büyütme:* Tutulum rektumdan başlar ve kesintisiz şekilde proksimale yayılır. İnflamasyon mukoza ve submukoza ile sınırlıdır.
+- *Orta büyütme:* Mukozaya sınırlı kronik inflamasyon izlenir. Kript mimarisi bozulmuştur ve distorsiyon belirgindir.
+- *Yüksek büyütme:* Kriptit ve kript apseleri tipiktir. Kronik değişiklikler belirgindir. Granülom görülmesi beklenmez.
+- *Not:* Şiddetli pankolit olgularında distal ileumda backwash ileiti görülebilir.
+
+---
+
+### Crohn Hastalığı vs Ülseratif Kolit — Ayırıcı Tanı Özeti
+
+| Özellik | Crohn | Ülseratif Kolit |
+|---------|-------|-----------------|
+| Dağılım | Segmental, skip | Kesintisiz, rektumdan proksimale |
+| Derinlik | Transmural | Mukoza/submukoza |
+| Granülom | Olabilir (non-kazeöz) | Beklenmez |
+| Fissür/Fistül | Sık | Nadir |
+| Kript distorsiyonu | Var (kronik) | Belirgin |
+```
+
+```{asis, echo = (language == "EN")}
+
+### Crohn's Disease
+
+- *Low power:* Involvement is segmental and patchy; "skip lesions" are typical. Deep fissures and ulcers may be seen. Involvement tends to extend through the full thickness of the bowel wall.
+- *Medium power:* Transmural inflammation is notable. Lymphoid aggregates are common. Cryptitis and crypt abscesses may accompany.
+- *High power:* Non-caseating granulomas may be found but are not present in every case. Crypt distortion develops in chronic cases. Pseudopyloric metaplasia and Paneth cell metaplasia in the left colon may be seen.
+
+---
+
+### Ulcerative Colitis
+
+- *Low power:* Involvement begins in the rectum and extends proximally in a continuous fashion. Inflammation is limited to the mucosa and submucosa.
+- *Medium power:* Chronic inflammation limited to the mucosa. Crypt architecture is disrupted with prominent distortion.
+- *High power:* Cryptitis and crypt abscesses are typical. Chronic changes are prominent. Granulomas are not expected.
+- *Note:* Backwash ileitis may be seen in the distal ileum in severe pancolitis cases.
+
+---
+
+### Crohn's Disease vs Ulcerative Colitis — Differential Diagnosis Summary
+
+| Feature | Crohn's | Ulcerative Colitis |
+|---------|---------|-------------------|
+| Distribution | Segmental, skip | Continuous, rectum to proximal |
+| Depth | Transmural | Mucosa/submucosa |
+| Granulomas | May be present (non-caseating) | Not expected |
+| Fissures/Fistulae | Common | Rare |
+| Crypt distortion | Present (chronic) | Prominent |
+```
+
+:::
+-->
+
 
 {{< include ./_subchapters/_crohn-colonoscopic-biopsy.qmd >}}
 

@@ -15,3 +15,156 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Karaciğer Hastalıkları - Histopatolojik Tanımlama / Liver Diseases - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### Siroz
+
+Diffüz fibrozis ve rejeneratif nodüller ile karakterizedir.
+
+- *Düşük büyütme:* Karaciğer mimarisi nodüler hale gelmiştir.
+- *Orta büyütme:* Kalın fibrotik septalar nodülleri birbirinden ayırır.
+- *Yüksek büyütme:* Rejeneratif hepatosit nodülleri izlenir.
+
+---
+
+### Viral Hepatit
+
+Hepatosit hasarı ve inflamasyon ön plandadır.
+
+- *Düşük büyütme:* Portal alanlarda inflamatuvar hücre artışı görülür.
+- *Orta büyütme:* Interface hepatit izlenir, inflamasyon sınırlayıcı plakta hepatositlere taşar.
+- *Yüksek büyütme:* Asitofil cisimcikler görülür.
+
+---
+
+### Alkolle İlişkili Karaciğer Hastalığı
+
+Steatozdan steatohepatite ve siroza ilerleyebilir.
+
+- *Düşük büyütme:* Makroveziküler steatoz belirgindir.
+- *Orta büyütme:* Balonlaşmış hepatositler görülür.
+- *Yüksek büyütme:* Mallory-Denk cisimcikleri ve çevresinde nötrofiller izlenir. Perisinüzoidal fibrozis tipik olarak tel kafes görünümü oluşturur.
+
+---
+
+### NAFLD / MASLD
+
+Metabolik kökenlidir ve histolojik olarak alkole bağlı hasara çok benzer. Steatoz, hepatosit balonlaşması ve lobüler inflamasyon birlikte görülür. Ayırım klinik öykü ile yapılır.
+
+---
+
+### Hemokromatozis
+
+Karaciğerde demir birikimi vardır.
+
+- *Düşük büyütme:* Periportal bölgeler öncelikli etkilenir.
+- *Orta büyütme:* Hepatosit sitoplazmasında kahverengi granüller görülür.
+- *Yüksek büyütme:* Prusya mavisi boyası ile demir pozitif boyanır.
+
+---
+
+### Wilson Hastalığı
+
+Bakır birikimi ile karakterizedir. Steatoz, hepatit benzeri inflamasyon ve fibrozis görülebilir. Bakır boyaları tanıda her zaman güvenilir değildir.
+
+---
+
+### Primer Biliyer Kolanjit
+
+Otoimmün mekanizma ile küçük safra yolları hasarlanır.
+
+- *Düşük büyütme:* Portal alanlarda inflamasyon vardır.
+- *Orta büyütme:* İnterlobüler safra yollarında destrüksiyon görülür.
+- *Yüksek büyütme:* Granülomatöz reaksiyon içeren florid duct lezyonları izlenir.
+
+---
+
+### Primer Sklerozan Kolanjit
+
+Büyük safra yolları tutulur ve sıklıkla inflamatuar barsak hastalığı ile ilişkilidir.
+
+- *Düşük büyütme:* Safra kanalları çevresinde fibrozis izlenir.
+- *Orta büyütme:* Konsantrik soğan zarı tarzında fibrozis görülür.
+- *Yüksek büyütme:* Safra kanallarında daralma ve obliterasyon gelişebilir.
+
+---
+
+### Hepatik Adenom
+
+Benign hepatosit kökenli tümördür.
+
+- *Düşük büyütme:* İyi sınırlı nodül şeklindedir.
+- *Orta büyütme:* Portal alan yapıları bulunmaz.
+- *Yüksek büyütme:* Monoton görünümlü hepatosit proliferasyonu vardır.
+
+---
+
+### Reye Sendromu
+
+Mitokondriyal disfonksiyon sonucu gelişir. Diffüz mikroveziküler steatoz izlenir.
+
+---
+
+### Karaciğer Metastazı
+
+Karaciğerde en sık görülen malign tümörler metastazlardır.
+
+- *Düşük büyütme:* Çok sayıda nodüler lezyon görülür.
+- *Orta büyütme:* Normal karaciğer mimarisinden farklı tümör dokusu izlenir.
+- *Yüksek büyütme:* Histopatoloji primer tümörün tipine göre değişir.
+
+---
+
+### Hepatoselüler Karsinom
+
+Hepatosit kökenli malign tümördür. Sirotik zemin sık olmakla birlikte siroz olmadan da gelişebilir.
+
+- *Düşük büyütme:* Nodüler veya trabeküler büyüme paterni izlenir.
+- *Orta büyütme:* Kalınlaşmış hepatosit trabekülleri görülür.
+- *Yüksek büyütme:* Belirgin sitolojik atipi vardır. Tümör hücrelerinde safra üretimi görülebilir.
+
+```
+
+```{asis, echo = (language == "EN")}
+
+### Cirrhosis
+
+Characterized by diffuse fibrosis and regenerative nodules. Thick fibrotic septa separate nodules of regenerating hepatocytes.
+
+### Viral Hepatitis
+
+Hepatocyte damage and inflammation are prominent. Interface hepatitis with spillover of inflammation into the limiting plate.
+
+### Alcoholic Liver Disease
+
+Progresses from steatosis to steatohepatitis and cirrhosis. Macrovesicular steatosis, ballooned hepatocytes, Mallory-Denk bodies with surrounding neutrophils, and perisinusoidal fibrosis.
+
+### NAFLD / MASLD
+
+Metabolic in origin, histologically very similar to alcoholic damage. Distinction is made by clinical history.
+
+### Hemochromatosis
+
+Iron accumulation in the liver. Periportal zones are preferentially affected. Prussian blue stain demonstrates iron positivity.
+
+### Primary Biliary Cholangitis
+
+Autoimmune destruction of small bile ducts. Florid duct lesions with granulomatous reaction.
+
+### Primary Sclerosing Cholangitis
+
+Large bile duct involvement with concentric "onion-skin" fibrosis. Often associated with inflammatory bowel disease.
+
+### Hepatocellular Carcinoma
+
+Hepatocyte-derived malignant tumor. Nodular or trabecular growth pattern with cytologic atypia. Bile production by tumor cells may be seen.
+
+```
+
+:::
+-->
+
+

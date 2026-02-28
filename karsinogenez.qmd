@@ -28,8 +28,48 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{asis, echo = (language == "EN")}
-# Carcinogenesis {#sec-carcinogenesis} 
+# Carcinogenesis {#sec-carcinogenesis}
 ```
+
+
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Karsinogenez - Histopatolojik Tanimlama / Carcinogenesis - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### Metaplazi, Displazi ve Karsinoma in situ
+
+**Metaplazi**
+
+- Bir diferansiye hucre tipinin baska bir diferansiye hucre tipi ile yer degistirmesi
+- Adaptif bir surecdir
+- Tek basina neoplazi degildir
+
+**Displazi**
+
+- Hucresel atipi ve mimari duzensizlik
+- Epitel icinde sinirlidir
+- **Premalign** kabul edilir
+- Hafiften siddetliye spektrum gosterir
+
+**Karsinoma in situ**
+
+- Tum epitel kalinligi boyunca siddetli displazi
+- Bazal membran intakt
+- Invazyon yoktur
+- Tedavi edilmezse invaziv kansere ilerleyebilir
+
+```
+
+```{asis, echo = (language == "EN")}
+
+The carcinogenesis spectrum includes: **Metaplasia** (adaptive replacement of one differentiated cell type by another), **Dysplasia** (premalignant cellular atypia and architectural disorganization confined within epithelium, graded from mild to severe), and **Carcinoma in situ** (full-thickness severe dysplasia with intact basement membrane and no invasion, which may progress to invasive cancer if untreated).
+
+```
+
+:::
+-->
+
 
 ```{asis, echo = (language == "EN")}
 ## Metaplasia, Dysplasia, Carcinoma {#sec-metaplasia-dysplasia-carcinoma} 

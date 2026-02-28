@@ -23,6 +23,625 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 # Skin {#sec-skin}
 ```
 
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Deri - Histopatolojik Tanımlama / Skin - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### A) Melanositik Lezyonlar
+
+**1) İntradermal Melanositik Nevüs**
+
+- Benign melanositik proliferasyondur
+- Nevüs hücreleri tamamen dermistedir
+- Junctional komponent ya yoktur ya da silinmiştir
+
+*Düşük büyütme:*
+
+- Simetrik ve iyi sınırlı dermal lezyon
+- Genellikle kubbe şeklinde görünüm
+
+*Orta büyütme:*
+
+- Dermiste adacıklar, kordonlar ve trabeküller
+- Yüzeye yakın alanlarda belirgin yuva yapıları
+- Derine doğru tekil hücreler ve nörotizasyon eğilimi olabilir
+
+*Yüksek büyütme:*
+
+- Hücreler bland görünümlüdür
+- Çekirdekler küçük ve uniformdur
+- Derine gidildikçe hücreler küçülür ve pigment azalır
+- Derin dermiste mitoz beklenmez
+
+**Yardımcı İHK:** SOX10, S100, Melan-A ve HMB45 pozitiftir. HMB45 boyanması yüzeyde daha güçlü, derinde zayıftır.
+
+---
+
+**2) Lentigo / Lentiginöz Nevüs**
+
+- Dermoepidermal bileşkede lineer melanosit artışı vardır
+
+*Düşük büyütme:*
+
+- Düz ve yüzeysel lezyon görünümü
+- Bazal tabakada pigment artışı
+
+*Orta büyütme:*
+
+- Bazal tabakada tek sıra halinde melanosit artışı
+
+*Yüksek büyütme:*
+
+- Hücreler uniformdur
+- Sitolojik atipi minimaldir
+- Pagetoid yayılım görülmez
+
+---
+
+**3) Displastik Nevüs**
+
+- Mimari düzensizlik ve değişken derecede sitolojik atipi vardır
+
+*Düşük büyütme:*
+
+- Asimetri eğilimi vardır
+- Junctional komponent periferde daha geniş olabilir
+
+*Orta büyütme:*
+
+- Rete uzantılarında düzensiz yuvalar
+- Lameller fibroplazi tipiktir
+- Yüzeyel dermiste lenfosit infiltrasyonu olabilir
+
+*Yüksek büyütme:*
+
+- Melanin inkontinansı ve melanofajlar görülür
+- Sitolojik atipi değişkendir
+- Derinde mitoz beklenmez
+
+---
+
+**4) Malign Melanom**
+
+- Malign melanositik tümördür
+- Prognoz için Breslow kalınlığı, ülserasyon ve mitoz sayısı önemlidir
+
+*Düşük büyütme:*
+
+- Asimetrik ve kötü sınırlıdır
+- Epidermis içinde yukarı doğru pagetoid yayılım olabilir
+
+*Orta büyütme:*
+
+- Junctional komponent düzensizdir
+- Dermiste infiltratif adalar ve tek hücre invazyonu görülür
+- Regresyon alanları bulunabilir
+
+*Yüksek büyütme:*
+
+- Belirgin sitolojik atipi ve pleomorfizm vardır
+- Nükleoller belirgindir
+- Dermal mitozlar uyarıcıdır
+- Maturasyon kaybı tipiktir
+
+**Yardımcı İHK:** SOX10 ve S100 duyarlıdır; Melan-A ve HMB45 destekleyicidir; Ki-67 proliferasyon indeksi melanomda artmıştır.
+
+---
+
+### B) Benign Epidermal Proliferasyonlar ve Viral Lezyonlar
+
+**1) Seboreik Keratoz**
+
+- Benign epidermal proliferasyondur
+
+*Düşük büyütme:*
+
+- Ekzofitik ve iyi sınırlı lezyon
+- Yüzeye yapışık görünüm tipiktir
+
+*Orta büyütme:*
+
+- Akantoz, papillomatozis ve hiperkeratoz birlikteliği
+- Basaloid hücrelerden zengin epidermal kalınlaşma
+
+*Yüksek büyütme:*
+
+- Pseudohorn kistleri tipiktir
+- Keratin dolu küçük intraepidermal kistler görülür
+- İritasyon durumunda squamous eddy benzeri yapılar gelişebilir
+
+---
+
+**2) Verrukalar (HPV ilişkili)**
+
+- HPV enfeksiyonuna bağlı epidermal hiperplazi
+
+*Düşük büyütme:*
+
+- Papillomatöz ve siğilimsi yüzey çıkıntıları
+
+*Orta büyütme:*
+
+- Hiperkeratoz ve belirgin akantoz
+- Uzamış ve dalgalı rete uzantıları
+
+*Yüksek büyütme:*
+
+- Koilositoz tipiktir
+- Perinükleer halo ve düzensiz, koyu çekirdekler görülür
+
+---
+
+**3) Molluscum Contagiosum**
+
+- Poxvirus enfeksiyonu
+
+*Düşük büyütme:*
+
+- Krateriform epidermal yapı
+
+*Orta büyütme:*
+
+- Epidermise doğru büyüyen lobüller
+
+*Yüksek büyütme:*
+
+- Henderson-Patterson cisimcikleri tanısaldır
+- Büyük, sitoplazmik viral inklüzyonlar
+
+---
+
+**4) Deri Papillomu / Fibroepitelyal Polip**
+
+- Benign polipoid deri lezyonu
+
+*Düşük büyütme:*
+
+- Saplı ve polipoid yapı
+
+*Orta büyütme:*
+
+- Gevşek yapıda fibrovasküler stroma
+
+*Yüksek büyütme:*
+
+- Üzerinde benign skuamöz epitel bulunur
+- Sitolojik atipi beklenmez
+
+---
+
+**5) Akantozis Nigrikans**
+
+- Reaktif epidermal değişikliktir
+- Obezite ve insülin direnci ile ilişkili olabilir; paraneoplastik formları da vardır
+- Melanosit sayısı artmaz, renk artışı epidermal kalınlığa bağlıdır
+- Hiperkeratoz, papillomatozis, akantoz
+- Bazal tabakada hafif hiperpigmentasyon olabilir
+
+---
+
+### C) Keratinositik Prekanser ve Kanserler
+
+**1) Aktinik Keratoz**
+
+- UV ilişkili epidermal displazidir
+- Skuamöz hücreli karsinom için prekürsör kabul edilir
+
+*Düşük büyütme:*
+
+- Epidermiste düzensiz kalınlaşma veya incelme alanları birlikte olabilir
+
+*Orta büyütme:*
+
+- Bazal tabakada atipi ve displazi odakları izlenir
+
+*Yüksek büyütme:*
+
+- Parakeratoz ve diskeratoz tipiktir
+- Dermiste belirgin solar elastoz sıklıkla eşlik eder
+
+---
+
+**2) Keratoakantom**
+
+- Hızlı büyüyen krateriform skuamöz proliferasyondur
+- Skuamöz hücreli karsinom ile histolojik örtüşme gösterebilir
+
+*Düşük büyütme:*
+
+- Ortada keratinle dolu krater yapısı izlenir
+
+*Orta büyütme:*
+
+- Lezyon genellikle simetriktir
+- Tümör kenarlarında epidermisin yukarı doğru kıvrıldığı dudak benzeri yapı görülebilir
+
+*Yüksek büyütme:*
+
+- Sitolojik atipi genellikle sınırlıdır
+- Mitozlar görülebilir ancak belirgin anaplazi tipik değildir
+
+---
+
+**3) Skuamöz Hücreli Karsinom**
+
+- İnvaziv keratinositik malignitedir
+
+*Düşük büyütme:*
+
+- Dermise doğru invaze olan tümör adaları veya şeritler görülür
+
+*Orta büyütme:*
+
+- İyi diferansiye olgularda keratin incileri izlenebilir
+- Stromal desmoplazik reaksiyon değişken derecede bulunabilir
+
+*Yüksek büyütme:*
+
+- Belirgin nükleer atipi ve artmış mitozlar görülür
+- Kötü diferansiye olgularda keratinizasyon tek hücre düzeyinde kalabilir
+
+---
+
+**4) Bazal Hücreli Karsinom**
+
+- Lokal invaziv tümördür, metastaz nadirdir
+- Basaloid hücre adaları ve karakteristik stromal ilişki ile tanınır
+
+*Düşük büyütme:*
+
+- Dermiste yerleşmiş tümör adaları görülür
+- Yüzey ülserasyonu varsa kemirici ülser görünümü oluşabilir
+
+*Orta büyütme:*
+
+- Tümör adalarının periferinde palisading dizilim tipiktir
+- Çevrede mukoid veya miksoid stroma bulunabilir
+
+*Yüksek büyütme:*
+
+- Tümör adaları ile stroma arasında retraksiyon aralıkları sık görülür
+- Belirgin intersellüler köprüler genellikle izlenmez (skuamöz hücreli karsinomdan ayrımda yardımcıdır)
+
+---
+
+### D) Dermal Spindle Hücreli Tümörler
+
+**Dermatofibrom**
+
+- Benign fibrohistiositik dermal lezyondur
+
+*Düşük büyütme:*
+
+- Dermiste iyi sınırlı ancak kapsülsüz nodül izlenir
+- Üzerindeki epidermiste reaktif hiperplazi sık görülebilir
+
+*Orta büyütme:*
+
+- Spindle hücre proliferasyonu dikkati çeker
+- Lezyon kenarında kollajen liflerinin tümör içine doğru çekildiği görünüm oluşabilir
+
+*Yüksek büyütme:*
+
+- Hücreler genellikle bland özellik gösterir
+- Belirgin sitolojik atipi veya nekroz beklenmez
+
+---
+
+**Dermatofibrosarkom Protuberans**
+
+- Düşük dereceli fakat lokal agresif fibroblastik tümördür
+- Dermisten başlar, subkütan yağ dokusuna infiltrasyon tipiktir
+
+*Düşük büyütme:*
+
+- Dermisten subkütise uzanan infiltratif lezyon
+
+*Orta büyütme:*
+
+- Storiform yani çark benzeri dizilim gösteren iğsi hücre proliferasyonu
+
+*Yüksek büyütme:*
+
+- Monoton iğsi hücreler
+- Yağ dokusuna bal peteği görünümünde infiltrasyon tanısaldır
+
+**Tanısal ipucu:** Storiform patern ve subkütan yağ içine honeycomb infiltrasyon.
+
+---
+
+### E) Lenfoproliferatif Hastalıklar
+
+**Mikozis Fungoides**
+
+- Kutanöz T hücreli lenfoma
+- Klinik olarak yama, plak ve tümör evreleri vardır
+
+*Düşük büyütme:*
+
+- Epidermotropizm eğilimi
+- Yüzeyel dermiste bant benzeri lenfositik infiltrat
+
+*Orta büyütme:*
+
+- Epidermis içinde tek tek veya küçük kümeler halinde atipik lenfositler
+
+*Yüksek büyütme:*
+
+- Pautrier mikroabseleri görülebilir
+- Atipik lenfositlerde serebriform çekirdek kıvrımları tipiktir
+
+**Tanısal ipucu:** Epidermotropizm ve serebriform çekirdekli T lenfositler.
+
+---
+
+### F) İnflamatuvar Dermatozlar
+
+**Akut Ekzamatöz Dermatit (Spongiotik Dermatit)**
+
+- Temel olay epidermal spongiozis
+
+*Düşük büyütme:*
+
+- Epidermiste gevşeme, intersellüler ödem
+
+*Orta büyütme:*
+
+- Yüzeyel perivasküler inflamatuvar infiltrat
+
+*Yüksek büyütme:*
+
+- Spongiozis belirgindir
+- İleri olgularda intraepidermal vezikül
+- İnfiltrat çoğunlukla lenfositik, bazen eozinofiller eşlik eder
+
+---
+
+**Psoriasis**
+
+- Kronik inflamatuvar dermatoz
+- Psoriasiform epidermal hiperplazi temel bulgudur
+
+*Düşük büyütme:*
+
+- Düzenli akantoz
+- Rete uzantıları eşit uzunlukta uzamıştır
+
+*Orta büyütme:*
+
+- Suprapapiller epidermis incelmiştir
+- Dermal papillalarda dilate kapillerler
+
+*Yüksek büyütme:*
+
+- Parakeratoz
+- Munro mikroabseleri
+- Granüler tabaka incelmiş veya kaybolmuş
+
+**Tanısal ipucu:** Psoriasiform hiperplazi ve Munro mikroabseleri.
+
+---
+
+**Liken Planus**
+
+- Interface dermatit prototipidir
+- Hücresel immün yanıt bazal tabakayı hedef alır
+
+*Düşük büyütme:*
+
+- Dermoepidermal bileşkede bant benzeri infiltrat
+
+*Orta büyütme:*
+
+- Hiperkeratoz ve hipergranüloz
+- Rete uzantılarında düzensizlik
+
+*Yüksek büyütme:*
+
+- Bazal hücre hasarı
+- Civatte cisimcikleri
+- Testere dişi görünüm
+
+**Tanısal ipucu:** Lichenoid bant ve bazal hasar.
+
+---
+
+**Ürtiker**
+
+- Vasküler geçirgenlik artışı ile gelişen ödematöz reaksiyon
+
+*Düşük büyütme:*
+
+- Epidermis genellikle normal
+
+*Orta büyütme:*
+
+- Dermiste belirgin ödem
+
+*Yüksek büyütme:*
+
+- Hafif perivasküler infiltrat
+- Eozinofiller eşlik edebilir
+
+---
+
+**Eritema Nodozum**
+
+- Septal pannikülit
+
+*Düşük büyütme:*
+
+- Subkütan yağ dokusunda septalar boyunca inflamasyon
+
+*Orta büyütme:*
+
+- Septalarda ödem ve inflamatuvar hücreler
+
+*Yüksek büyütme:*
+
+- Erken nötrofiller, geç dönemde histiyosit ve lenfositler
+- Vaskülit tipik değildir
+
+---
+
+**Eritema İnduratum**
+
+- Lobüler pannikülit paterni
+
+*Düşük büyütme:*
+
+- Yağ lobüllerinde inflamasyon
+
+*Orta büyütme:*
+
+- Vasküler tutulum eşlik edebilir
+
+*Yüksek büyütme:*
+
+- Yağ nekrozu
+- Granülomatöz inflamasyon
+
+---
+
+### G) Büllöz Hastalıklar
+
+**Pemfigus**
+
+- İntraepidermal bül ile seyreden otoimmün hastalık grubu
+- Temel mekanizma akantolizdir
+
+*Düşük büyütme:*
+
+- Epidermis içinde ayrışma alanları
+
+*Orta büyütme:*
+
+- Suprabazal ayrışma tipiktir
+- Bazal hücreler dermise yapışık kalır ve mezar taşı görünümü oluşturur
+
+*Yüksek büyütme:*
+
+- Bül boşluğu içinde serbest akantolitik keratinositler
+
+**Direkt İmmünfloresan:** Keratinositler arası ağsı IgG birikimi.
+
+---
+
+**Büllöz Pemfigoid**
+
+- Subepidermal bül oluşturan otoimmün hastalık
+
+*Düşük büyütme:*
+
+- Epidermis bütünüyle kalkmış görünür
+
+*Orta büyütme:*
+
+- Subepidermal ayrışma
+
+*Yüksek büyütme:*
+
+- Eozinofil ağırlıklı inflamasyon
+
+**Direkt İmmünfloresan:** Dermoepidermal bileşkede lineer IgG ve C3 birikimi.
+
+---
+
+**Dermatitis Herpetiformis**
+
+- Gluten duyarlı enteropati ile ilişkili büllöz hastalık
+
+*Düşük büyütme:*
+
+- Küçük subepidermal ayrışma odakları
+
+*Orta büyütme:*
+
+- Dermal papilla uçlarında mikroabseler
+
+*Yüksek büyütme:*
+
+- Nötrofil kümeleri
+
+**Direkt İmmünfloresan:** Dermal papilla uçlarında granüler IgA birikimi.
+
+---
+
+**Epidermolizis Bülloza**
+
+- Kalıtsal büllöz hastalık grubu
+- Ayrışma düzeyi hastalık tipine göre değişir
+- Kesin tanı için klinik bulgular, genetik inceleme ve immünfloresan haritalama gerekebilir
+
+---
+
+### H) Diğer Dermatolojik Durumlar
+
+**İktiyozis**
+
+- Keratinizasyon bozukluğu ile seyreden kalıtsal veya edinsel hastalıklar
+- Belirgin hiperkeratoz ve minimal inflamasyon
+
+---
+
+**İmpetigo**
+
+- Yüzeyel bakteriyel enfeksiyon
+- Subkorneal püstül paterni
+
+---
+
+**Akne Vulgaris**
+
+- Foliküler keratinizasyon bozukluğu ve inflamasyon
+- Komedon ve perifoliküler inflamasyon
+- Folikül rüptürü sonrası yabancı cisim reaksiyonu ve granülomatöz inflamasyon
+
+---
+
+**Rozasea**
+
+- Kronik inflamatuvar yüz dermatozu
+- Perifoliküler inflamasyon ve telanjiektazi
+
+---
+
+**Gut Tofusu**
+
+- Monosodyum ürat kristal birikimi
+- İğne şeklinde boşluklar ve çevresinde yabancı cisim dev hücre reaksiyonu
+
+---
+
+**Porfiriye Bağlı Büllöz Lezyonlar**
+
+- Fotosensitiviteye bağlı bül oluşumu
+- Subepidermal ayrışma, hafif inflamasyon
+- Klinik ve biyokimyasal korelasyon tanıda belirleyicidir
+
+```
+
+```{asis, echo = (language == "EN")}
+
+### Skin - Summary
+
+**Melanocytic Lesions:** Intradermal melanocytic nevus shows symmetric dermal nests with maturation (cells become smaller and less pigmented with depth). Dysplastic nevus displays architectural disorder with lamellar fibroplasia. Malignant melanoma is asymmetric with pagetoid spread, loss of maturation, dermal mitoses, and marked cytologic atypia; Breslow thickness is the key prognostic factor.
+
+**Benign Epidermal Lesions:** Seborrheic keratosis features pseudohorn cysts within an exophytic basaloid proliferation. Verrucae show koilocytosis with papillomatous architecture. Molluscum contagiosum is identified by Henderson-Patterson bodies.
+
+**Keratinocytic Neoplasms:** Actinic keratosis is a UV-related dysplasia with parakeratosis and solar elastosis. Squamous cell carcinoma shows invasive tumor islands with keratin pearls and nuclear atypia. Basal cell carcinoma features peripheral palisading, retraction artifacts, and lacks intercellular bridges.
+
+**Dermal Tumors:** Dermatofibroma is a benign fibrohistiocytic lesion with overlying epidermal hyperplasia. Dermatofibrosarcoma protuberans shows storiform spindle cell growth with honeycomb infiltration into subcutaneous fat.
+
+**Inflammatory Dermatoses:** Eczema shows spongiosis; psoriasis features regular acanthosis with Munro microabscesses; lichen planus is the prototype of interface dermatitis with sawtooth rete ridges and Civatte bodies.
+
+**Bullous Diseases:** Pemphigus shows suprabasal acantholysis with intercellular IgG. Bullous pemphigoid features subepidermal bulla with eosinophils and linear IgG/C3 at the BMZ. Dermatitis herpetiformis shows neutrophilic microabscesses at dermal papillae with granular IgA.
+
+```
+
+:::
+-->
 
 
 {{< include ./_subchapters/_morphea.qmd >}}

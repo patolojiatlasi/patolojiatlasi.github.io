@@ -1,0 +1,203 @@
+---
+description: "kan damarları, lenfatik sistem, vasküler patoloji, vascular pathology, patoloji, atlas, pathology, whole slide image, virtual microscopy, virtual microscope, sanal mikroskop"
+date: last-modified
+categories: [vasküler, vascular]
+page-layout: full
+bibliography: references.bib
+---
+
+```{r language damar, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis, echo = (language == "TR")}
+# Kan Damarları ve Lenfatik Sistem Patolojisi {#sec-vaskuler-patoloji}
+```
+
+```{asis, echo = (language == "EN")}
+# Pathology of Blood Vessels and Lymphatic System {#sec-vascular-pathology}
+```
+
+
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Vasküler Hastalıklar - Histopatolojik Tanımlama / Vascular Diseases - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### A) Arteriyoskleroz
+
+**Arterioloskleroz:**
+
+Küçük arter ve arteriyollerin duvar kalınlaşmasıdır. İki tipi vardır:
+
+- **Hiyalin arterioloskleroz:** Damar duvarında homojen pembe hiyalin materyal birikimi. Lümen daralması. Benign hipertansiyon ve diyabette sık görülür.
+- **Hiperplastik arterioloskleroz:** Konsantrik laminer düz kas proliferasyonu (soğan zarı görünümü). Malign hipertansiyon ile ilişkilidir. Fibrinoid nekroz eşlik edebilir.
+
+**Mönckeberg Medial Kalsifik Sklerozu:**
+
+Orta boy müsküler arterlerin mediasında kalsifikasyon. İntima tutulmadığından lümen daralması tipik olarak yoktur. Radyolojik olarak pipe-stem görünümü.
+
+---
+
+### B) Ateroskleroz
+
+En sık ve klinik olarak en önemli arteriyoskleroz formudur. Büyük ve orta boy arterleri tutar.
+
+**Yağlı çizgiler (Fatty streaks):**
+
+- *Düşük büyütme:* İntimada hafif kabarıklık yapan sarı lezyon.
+- *Yüksek büyütme:* Lipid yüklü makrofajlar (köpük hücreleri) intima altında birikir. Geri dönüşümlü olabilir.
+
+**Aterosklerotik plak (Aterom):**
+
+- *Düşük büyütme:* İntimada eksantrik yerleşimli plak. Fibröz kap ve altında lipid çekirdek.
+- *Orta büyütme:* Fibröz kap düz kas hücreleri, kollajen ve az sayıda inflamatuvar hücrelerden oluşur. Lipid çekirdekte nekrotik debris ve kolesterol kristalleri.
+- *Yüksek büyütme:* Kolesterol yarıkları (iğne şeklinde boşluklar), köpük hücreleri, kalsifikasyon odakları ve neovaskülarizasyon görülebilir.
+
+**Komplike plak:** Yüzey ülserasyonu, tromboz, hemoraji veya anevrizma oluşumu.
+
+---
+
+### C) Vaskülitler
+
+**Dev Hücreli (Temporal) Arterit:**
+
+- *Düşük büyütme:* Temporal arter duvarında segmental tutulum.
+- *Orta büyütme:* Transmural granülomatöz inflamasyon.
+- *Yüksek büyütme:* İnternal elastik laminanın fragmantasyonu ve çevresinde çok çekirdekli dev hücreler. Lenfosit ve makrofaj infiltrasyonu. Lümen trombozla daralabilir.
+
+**Takayasu Arteriti:**
+
+Aort ve büyük dallarının granülomatöz arteriti. Genç kadınlarda sık. Aort duvarında granülomatöz inflamasyon, medial fibrozis ve adventisyal kalınlaşma. Nabızsız hastalık (pulseless disease) kliniği tipiktir.
+
+**Poliarteritis Nodoza (PAN):**
+
+- *Düşük büyütme:* Orta boy müsküler arterlerde segmental, transmural inflamasyon.
+- *Orta büyütme:* Fibrinoid nekroz damar duvarında belirgindir. Akut ve kronik inflamatuvar infiltrat.
+- *Yüksek büyütme:* Nekrotik damar duvarında eozinofilik fibrinoid materyal. Nötrofiller ve lenfositler karışık infiltrasyon yapar.
+
+*Farklı evrelerdeki lezyonların aynı anda bulunması tipiktir. Glomerüller ve akciğer korunur.*
+
+**Mikroskopik Polianjit:**
+
+Küçük damarları (kapiller, venül, arteriyol) tutar. Pauci-immün glomerülonefrit ve pulmoner kapillarit sık eşlik eder. Nekrotizan vaskülit granülom içermez. ANCA pozitiftir (genellikle p-ANCA/MPO).
+
+**Granülomatozis with Polianjit (GPA, Wegener):**
+
+- *Düşük büyütme:* Üst ve alt solunum yollarında nekrotizan granülomatöz inflamasyon.
+- *Orta büyütme:* Coğrafi nekroz alanları çevresinde palizatlanmış histiositler ve dev hücreler.
+- *Yüksek büyütme:* Nekrotizan vaskülit küçük ve orta boy arterlerde izlenir. Böbrekte kresentik glomerülonefrit. c-ANCA/PR3 pozitiftir.
+
+**Eozinofilik Granülomatozis with Polianjit (EGPA, Churg-Strauss):**
+
+Astım ve eozinofili zemininde gelişir. Küçük damar vasküliti, doku eozinofilisi ve nekrotizan granülomlar üçlüsü tipiktir. Ekstravasküler granülomlar eozinofillerden zengindir.
+
+**Kawasaki Hastalığı:**
+
+Çocukluk çağında görülen akut vaskülit. Koroner arterlerde transmural inflamasyon ve anevrizma oluşumu en önemli komplikasyondur. Akut dönemde fibrinoid nekroz ve yoğun inflamasyon, iyileşme döneminde intimal proliferasyon ve fibrozis.
+
+**Buerger Hastalığı (Tromboanjitis Obliterans):**
+
+Genç erkek sigara içicilerde görülür. Orta boy arter ve venlerde segmental akut ve kronik inflamasyon. Tromboz damar lümenini tıkar. Trombus içinde mikroabseler tipiktir. Adventisya fibroz doku ile çevre yapılara yapışır.
+
+---
+
+### D) Anevrizma ve Diseksiyon
+
+**Aort Anevrizması:**
+
+- *Düşük büyütme:* Aort duvarında fokal genişleme.
+- *Orta büyütme:* Medial dejenerasyon: düz kas kaybı ve elastik lif fragmentasyonu.
+- *Yüksek büyütme:* Kistik medial dejenerasyon: mukoid materyal birikimi ile elastik liflerin parçalanması. Aterosklerotik tipte intimal plak bulguları eşlik eder.
+
+**Aort Diseksiyonu:**
+
+- *Düşük büyütme:* Aort duvarında medianın dış üçte biri ile orta üçte biri arasında bir yarık (false lumen).
+- *Yüksek büyütme:* Medial dejenerasyon, elastik lif kaybı ve hemorajik diseksiyon düzlemi.
+
+**Sifiliz Aortiti:**
+
+Tersiyer sifilizde görülür. Aorta ascendenste obliteratif endarterit (vasa vasorumun tıkanması) sonucu medial hasar. Adventisyada lenfoplazmositer infiltrasyon ve ağaç kabuğu görünümü (tree-bark appearance). Aort yetmezliği ve koroner ostium darlığı gelişebilir.
+
+---
+
+### E) Venöz ve Lenfatik Hastalıklar
+
+**Flebotromboz (Derin Ven Trombozu):**
+
+Bacak derin venlerinde trombüs oluşumu. Histolojik olarak fibrin, eritrositler ve az sayıda trombosit içeren trombus. Pulmoner emboli riski taşır. Virchow triadı: endotel hasarı, staz, hiperkoagülabilite.
+
+**Varis:**
+
+Dilate ve kıvrımlı yüzeyel venler. Duvar kalınlaşması ve elastik lif dejenerasyonu. Kapak yetmezliği. Staz dermatiti ve ülserasyon komplikasyondur.
+
+**Lenfödem:**
+
+Lenfatik drenaj bozukluğuna bağlı interstisyel ödem. Primer (konjenital) veya sekonder (cerrahi, radyasyon, enfeksiyon). Kronik lenfödem fibroza yol açar. Nadir komplikasyon olarak lenfanjiosarkom (Stewart-Treves sendromu) gelişebilir.
+
+---
+
+### F) Vasküler Tümörler
+
+**Hemanjiom:**
+
+En sık görülen benign vasküler tümördür. Kapiller ve kavernöz tipler.
+
+- *Düşük büyütme:* İyi sınırlı, lobüler vasküler proliferasyon.
+- *Yüksek büyütme:* İnce duvarlı, kan dolu vasküler kanallar. Endotel hücreleri benign görünümlüdür. Sitolojik atipi yoktur.
+
+**Lenfanjiom:**
+
+Lenfatik kaynaklı benign tümör. Kapiller boyuttan kistik higromanın büyük kanallarına kadar değişen dilate lenfatik kanallar.
+
+**Kaposi Sarkomu:**
+
+HHV-8 ilişkili vasküler tümör. Dört klinik tip: klasik, endemik, immünosüpresif ve AIDS ilişkili.
+
+- *Düşük büyütme:* Dermiste nodüler veya diffüz lezyon.
+- *Orta büyütme:* İğsi hücreler düzensiz vasküler yarıklar oluşturur.
+- *Yüksek büyütme:* Slit-like vasküler kanallar arasında iğsi hücreler. Eritrosit ekstravazasyonu ve hemosiderin birikimi. PAS pozitif hyalin globüller görülebilir.
+
+**Anjiosarkom:**
+
+Yüksek dereceli malign vasküler tümör.
+
+- *Düşük büyütme:* İnfiltratif, hemorajik kitle.
+- *Orta büyütme:* Düzensiz anastomozlaşan vasküler kanallar oluşturan atipik endotel hücreleri.
+- *Yüksek büyütme:* Belirgin sitolojik atipi ve mitotik aktivite. Solid alanlar ve papiller çıkıntılar görülebilir.
+
+**Hemanjioendotelyom:**
+
+Hemanjiom ile anjiosarkom arasında ara biyolojik davranışa sahip vasküler tümör. Epiteloid hemanjioendotelyomda karakteristik miyxoid ve hiyalinize stroma içinde kordon ve yuvalar oluşturan epiteloid endotel hücreleri izlenir.
+
+```
+
+```{asis, echo = (language == "EN")}
+
+### Arteriosclerosis
+
+Hyaline arteriolosclerosis: homogeneous pink hyaline in vessel walls, common in hypertension and diabetes. Hyperplastic arteriolosclerosis: concentric laminar smooth muscle proliferation (onion-skin) in malignant hypertension.
+
+### Atherosclerosis
+
+The most clinically significant form. Fatty streaks with foam cells may progress to fibrous-cap atheromas with lipid cores. Cholesterol clefts, calcification, and neovascularization characterize advanced plaques. Complications include ulceration, thrombosis, and aneurysm formation.
+
+### Vasculitis
+
+Giant Cell Arteritis: granulomatous inflammation with multinucleated giant cells at the internal elastic lamina. Polyarteritis Nodosa: segmental transmural fibrinoid necrosis in medium-sized arteries. Granulomatosis with Polyangiitis (Wegener): necrotizing granulomas with vasculitis, crescentic glomerulonephritis, c-ANCA/PR3 positive. Kawasaki disease: childhood vasculitis with coronary artery aneurysm risk.
+
+### Aneurysm and Dissection
+
+Aortic aneurysm: medial degeneration with loss of smooth muscle and elastic fiber fragmentation. Aortic dissection: tear through the media creating a false lumen. Syphilitic aortitis: obliterative endarteritis of vasa vasorum with tree-bark appearance.
+
+### Vascular Tumors
+
+Hemangioma: most common benign vascular tumor. Kaposi Sarcoma: HHV-8-associated, spindle cells with slit-like vascular channels. Angiosarcoma: high-grade malignant vascular tumor with atypical endothelial cells.
+
+```
+
+:::
+-->
+

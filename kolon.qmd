@@ -17,9 +17,129 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{asis, echo = (language == "EN")}
-# Pathology of Colon {#sec-pathology-of-colon} 
+# Pathology of Colon {#sec-pathology-of-colon}
 ```
 
+
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Kolon Hastalıkları - Histopatolojik Tanımlama / Colon Diseases - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### Nonneoplastik Lezyonlar
+
+**İskemik Kolit:**
+
+- *Düşük büyütme:* Mukozal nekroz ve restitüsyon bulguları.
+- Yüzeyel mukozal hasar, kript "ghost" yapıları ve lamina propriada hemoraji görülebilir.
+
+---
+
+### Barsak Polipleri
+
+**İnflamatuar Polip:**
+
+- Rejeneratif mukozal çıkıntılar şeklinde polipoid yapılar görülür. Lamina propriada inflamasyon ve ödem dikkati çeker. Epitelde displazi beklenmez.
+
+**Hiperplastik Polip:**
+
+- Küçük ve yüzeyden kabarık lezyon şeklindedir. Serrated yüzey mimarisi belirgindir. Serrasyon kriptlerin üst kısımlarında daha belirgindir. Bazal kriptler daha rejeneratif görünümdedir.
+
+**Juvenil Polip:**
+
+- Geniş ve sıklıkla pedinküllü polipoid yapı izlenir. Kistik dilate bez yapıları belirgindir. Ödemli stroma ve inflamasyon vardır. Epitel genellikle displastik değildir.
+
+**Hamartomatöz Polipler:**
+
+- Bağ dokusu ve düz kas demetleri polip içinde arborizan şekilde dağılır (Peutz-Jeghers). Ağaç dallanması görünümü belirgindir.
+
+**Neoplastik Polip (Adenom):**
+
+- Kadifemsi veya ahududu benzeri yüzeyli polipoid lezyon görülür. Tübüler, villöz veya tubulovillöz mimari patern izlenir. Displazi bulguları belirgindir: nükleer hiperkromazi ve uzama, psödostratifikasyon, goblet hücre sayısında azalma.
+- *Kolonda invazyon eşiği:* Lamina propriaya invazyon intramukozal karsinom olarak adlandırılır ve metastaz riski çok düşüktür. Muscularis mukozayı aşan invazyon gerçek invaziv adenokarsinom kabul edilir.
+
+**Sessil Serrated Polip:**
+
+- Serrasyon kript tabanına kadar uzanır. Kript dilatasyonu ve lateral uzanım görülür.
+
+---
+
+### Polipozis ve Kanser Sendromları
+
+**Peutz-Jeghers Sendromu:** Büyük, pedinküllü hamartomatöz polipler. Düz kas demetleri arborizan dağılım gösterir.
+
+**Ailesel Adenomatöz Polipozis (FAP):** Kolonda çok sayıda adenom. Displazi hafiften yükseğe uzanan spektrum. İnvazyon odakları mutlaka araştırılmalıdır.
+
+**Lynch Sendromu:** Adenom ve adenokarsinom spektrumu. Kesin tanı klinik ve genetik incelemeye dayanır.
+
+---
+
+### Kolon Adenokarsinomu
+
+- *Düşük büyütme:* İnvaziv gland yapıları ve belirgin desmoplazi izlenir. Bu durum makroskopik sertliğin histolojik karşılığıdır.
+- *Orta büyütme:* Düzensiz ve angüle glandlar görülür. "Dirty necrosis" eşlik edebilir.
+- *Yüksek büyütme:* Belirgin sitolojik atipi ve artmış mitoz vardır. İnvazyon derinliği değerlendirilmelidir. Bazı olgularda az gland yapan kötü diferansiye, müsinöz veya signet ring patern görülebilir.
+```
+
+```{asis, echo = (language == "EN")}
+
+### Nonneoplastic Lesions
+
+**Ischemic Colitis:**
+
+- *Low power:* Mucosal necrosis and restitution findings.
+- Superficial mucosal injury, crypt "ghost" structures, and hemorrhage in lamina propria may be seen.
+
+---
+
+### Intestinal Polyps
+
+**Inflammatory Polyp:**
+
+- Polypoid structures as regenerative mucosal protrusions. Inflammation and edema in the lamina propria are notable. Dysplasia is not expected in the epithelium.
+
+**Hyperplastic Polyp:**
+
+- Small and elevated lesion. Serrated surface architecture is prominent. Serration is more prominent in the upper portions of crypts. Basal crypts appear more regenerative.
+
+**Juvenile Polyp:**
+
+- Large and often pedunculated polypoid structure. Cystically dilated gland structures are prominent. Edematous stroma and inflammation. Epithelium is generally not dysplastic.
+
+**Hamartomatous Polyps:**
+
+- Connective tissue and smooth muscle bundles are distributed in an arborizing pattern within the polyp (Peutz-Jeghers). Tree-branching appearance is prominent.
+
+**Neoplastic Polyp (Adenoma):**
+
+- Velvety or raspberry-like surface polypoid lesion. Tubular, villous, or tubulovillous architectural pattern. Dysplasia findings are prominent: nuclear hyperchromasia and elongation, pseudostratification, decreased goblet cell count.
+- *Invasion threshold in colon:* Invasion into lamina propria is termed intramucosal carcinoma with very low metastatic risk. Invasion beyond the muscularis mucosae is considered true invasive adenocarcinoma.
+
+**Sessile Serrated Polyp:**
+
+- Serration extends to the crypt base. Crypt dilatation and lateral extension are seen.
+
+---
+
+### Polyposis and Cancer Syndromes
+
+**Peutz-Jeghers Syndrome:** Large, pedunculated hamartomatous polyps. Smooth muscle bundles show arborizing distribution.
+
+**Familial Adenomatous Polyposis (FAP):** Numerous adenomas in the colon. Dysplasia spectrum ranging from low to high grade. Foci of invasion must always be investigated.
+
+**Lynch Syndrome:** Adenoma and adenocarcinoma spectrum. Definitive diagnosis is based on clinical and genetic evaluation.
+
+---
+
+### Colon Adenocarcinoma
+
+- *Low power:* Invasive gland structures and prominent desmoplasia. This is the histological correlate of macroscopic firmness.
+- *Medium power:* Irregular and angulated glands. "Dirty necrosis" may accompany.
+- *High power:* Prominent cytologic atypia and increased mitoses. Depth of invasion must be evaluated. Poorly differentiated, mucinous, or signet ring patterns with few glands may be seen in some cases.
+```
+
+:::
+-->
 
 
 ```{asis, echo = (language == "TR")}

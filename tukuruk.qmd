@@ -23,9 +23,56 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "EN")}
 
-# Tumors of Salivary Gland {#sec-salivary-gland-tumors} 
+# Tumors of Salivary Gland {#sec-salivary-gland-tumors}
 
 ```
+
+
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Ağız Boşluğu ve Tükürük Bezleri - Histopatolojik Tanımlama / Oral Cavity and Salivary Glands - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### Benign Mikst Tümör / Pleomorfik Adenom
+
+- *Düşük büyütme:* İyi sınırlı, kapsüllü, lobüle kitle izlenir
+- *Orta büyütme:* Epitel adacıkları ile miksomatöz ve kondroid stroma yan yana görülür
+- *Yüksek büyütme:* Miyoepitelyal hücreler belirgindir, hücresel çeşitlilik vardır ancak malign sitolojik atipi yoktur
+- Tanısal tuzak: Kapsül dışına uzanan psödopod benzeri uzanımlar nüks riskini açıklar
+
+---
+
+### Warthin Tümörü
+
+- *Düşük büyütme:* Kistik ve papiller yapılar içeren iyi sınırlı lezyon görülür
+- *Orta büyütme:* Papiller yapıların yüzeyi çift sıralı onkositik epitel ile döşelidir
+- *Yüksek büyütme:* Altında yoğun lenfoid stroma ve germinal merkezler belirgindir
+
+---
+
+### Hairy Lökoplaki
+
+- *Düşük büyütme:* Oral mukozada belirgin epitel kalınlaşması izlenir
+- *Orta büyütme:* Hiperparakeratoz ve akantoz dikkati çeker
+- *Yüksek büyütme:* Yüzey epitelinde balonlaşmış hücreler görülür, belirgin displazi saptanmaz
+
+```
+
+```{asis, echo = (language == "EN")}
+
+### Oral Cavity and Salivary Glands - Histopathological Overview
+
+**Pleomorphic adenoma (benign mixed tumor)** is a well-circumscribed, encapsulated, lobulated mass with epithelial islands in myxoid and chondroid stroma. Myoepithelial cells are prominent. Pseudopod-like extensions beyond the capsule explain recurrence risk.
+
+**Warthin tumor** shows cystic and papillary structures lined by double-layered oncocytic epithelium overlying dense lymphoid stroma with germinal centers.
+
+**Hairy leukoplakia** demonstrates epithelial thickening with hyperparakeratosis, acanthosis, and ballooning cells in the surface epithelium without significant dysplasia.
+
+```
+
+:::
+-->
+
 
 ```{r language mammary-analogue-secretory-carcinoma, echo=FALSE, include=TRUE}
 

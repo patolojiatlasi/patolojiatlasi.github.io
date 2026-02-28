@@ -25,6 +25,414 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 # Bone Tumors {#sec-bone-tumors}
 ```
 
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Kas-İskelet Sistemi ve Yumuşak Doku - Histopatolojik Tanımlama / Musculoskeletal System and Soft Tissue - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### A) Metabolik ve Dejeneratif Kemik Hastalıkları
+
+**1. Osteoporoz**
+
+- Kemik mineralizasyonu normaldir; temel problem kemik kitlesinin azalmasıdır
+- Kemik rezorpsiyonu yapımdan fazladır
+
+*Düşük büyütme:*
+
+- Trabeküler kemik hacmi belirgin azalmıştır
+- Trabeküller incelmiş ve seyrekleşmiştir
+- Trabeküller arası bağlantılar kaybolmuştur
+
+*Orta büyütme:*
+
+- Trabeküler plaklar perfore görünür
+- Mikrokırık odakları izlenebilir
+- Havers kanalları genişlemiştir
+
+*Yüksek büyütme:*
+
+- Osteoid kalınlığı normaldir
+- Osteoblast ve osteoklast morfolojisi normaldir
+
+**Ayırıcı tanı:** Osteomalazide osteoid artar, mineralizasyon bozukluğu vardır. Osteoporozda osteoid normal, kemik miktarı azdır.
+
+---
+
+**2. Osteomalazi ve Rikets**
+
+- Mineralizasyon kusuruna bağlı kemik yumuşaması
+
+*Orta büyütme:*
+
+- Trabekül yüzeylerinde kalın osteoid bantları izlenir
+
+*Yüksek büyütme:*
+
+- Osteoid artışı belirgindir
+- Mineralize kemik ile osteoid oranı artmıştır
+
+---
+
+**3. Osteitis Fibroza Kistika**
+
+- Hiperparatiroidiye bağlı kemik değişiklikleridir
+
+*Düşük büyütme:*
+
+- Normal kemik yerini fibrovasküler doku ve kistik alanlar alır
+
+*Orta büyütme:*
+
+- Osteoklast sayısı belirgin artmıştır
+
+*Yüksek büyütme:*
+
+- Brown tümör alanları: osteoklast benzeri dev hücreler, fibroblastik stroma, hemosiderin yüklü makrofajlar
+- Gerçek neoplazi değildir
+
+---
+
+**4. Paget Hastalığı**
+
+- Kemik yıkımı ve yapımı düzensiz ve artmıştır
+
+*Düşük büyütme:*
+
+- Kemik kalın, düzensiz ve deforme görünür
+
+*Orta büyütme:*
+
+- Mozaik patern dikkat çekicidir
+
+*Yüksek büyütme:*
+
+- Çimento çizgileri kalın ve düzensizdir
+- Jigsaw puzzle görünümü oluşur
+- Dev, çok çekirdekli osteoklastlar izlenir
+
+---
+
+**5. Osteonekroz**
+
+- Kemik dokusunun iskemik nekrozudur
+
+*Düşük büyütme:*
+
+- Kemik mimarisi başlangıçta korunmuş görünür
+
+*Orta büyütme:*
+
+- Boş lakünler izlenir
+- Nekrotik yağ hücreleri ve kalsiyum sabunlaşması olabilir
+
+*Yüksek büyütme:*
+
+- Osteosit çekirdekleri kaybolmuştur
+- Reaktif kemik oluşumu nekrotik trabeküller üzerinde izlenir
+
+---
+
+### B) Enfeksiyöz Kemik Hastalıkları
+
+**Osteomiyelit**
+
+- Kemik ve kemik iliğinin enfeksiyöz inflamasyonudur; en sık etken Staphylococcus aureus
+
+**Akut faz:**
+
+*Düşük büyütme:*
+
+- Kemik iliğinde yaygın inflamasyon ve ödem
+
+*Yüksek büyütme:*
+
+- Nötrofil baskın infiltrasyon
+- Kemik ve ilik nekrozu, osteosit lakünlerinde çekirdek kaybı
+
+**Kronik faz:**
+
+*Orta büyütme:*
+
+- Sequestrum: canlılığını yitirmiş nekrotik kemik trabekülleri
+- Involucrum: ölü kemiği saran reaktif yeni kemik oluşumu
+
+*Yüksek büyütme:*
+
+- Lenfosit ve plazma hücrelerinden zengin kronik inflamasyon
+- Granülasyon dokusu ve fibrozis alanları
+
+---
+
+### C) Benign Kemik Tümörleri
+
+**Osteoid Osteom**
+
+- Küçük, ağrılı benign kemik tümörüdür
+
+*Düşük büyütme:*
+
+- Küçük, iyi sınırlı nidus; çevresinde belirgin reaktif skleroz
+
+*Yüksek büyütme:*
+
+- Osteoblast rimming belirgindir; hücresel atipi görülmez
+
+---
+
+**Osteoblastom**
+
+- Osteoid osteoma benzer fakat daha büyük ve daha agresiftir
+
+*Düşük büyütme:*
+
+- Daha geniş lezyon, çevresinde daha az reaktif skleroz
+
+*Yüksek büyütme:*
+
+- Osteoblastlar daha belirgin ve hücreseldir; belirgin malign atipi yoktur
+
+---
+
+**Osteokondrom**
+
+- En sık benign kemik tümörüdür; metafizden köken alır
+
+*Düşük büyütme:*
+
+- Kemikten dışa doğru uzanan kemiksi çıkıntı
+
+*Orta büyütme:*
+
+- Medüller kavite ile devamlılık gösterir
+
+*Yüksek büyütme:*
+
+- Yüzeyde hiyalin kıkırdak kap; altında endokondral ossifikasyon
+
+**Ayırıcı tanı:** Kıkırdak kap kalınlığının artması malign dönüşüm şüphesini artırır.
+
+---
+
+**Enkondrom**
+
+- Medüller yerleşimli benign hiyalin kıkırdak tümörüdür
+
+*Düşük büyütme:*
+
+- Kemik iliği içinde iyi sınırlı kıkırdak nodülü
+
+*Yüksek büyütme:*
+
+- Hücresel atipi minimaldir; binükleasyon görülebilir ancak malignite göstergesi değildir
+
+---
+
+**Dev Hücreli Tümör**
+
+- Genç erişkinde epifiz yerleşimli tümördür; lokal agresif davranış gösterebilir
+
+*Orta büyütme:*
+
+- Mononükleer stromal hücreler arasında çok sayıda dev hücre
+
+*Yüksek büyütme:*
+
+- Dev hücreler uniform dağılmıştır; osteoid üretimi yoktur
+
+---
+
+### D) Malign Kemik Tümörleri
+
+**Osteosarkom**
+
+- En sık primer malign kemik tümörüdür
+- Tanı için malign hücrelerin osteoid üretmesi şarttır
+
+*Düşük büyütme:*
+
+- Korteksi yıkan ve yumuşak dokuya uzanan kitle
+
+*Orta büyütme:*
+
+- Düzensiz, dantel benzeri osteoid alanları
+
+*Yüksek büyütme:*
+
+- Pleomorfik mezenkimal hücreler
+- Atipik mitozlar; tümör nekrozu sık görülür
+
+---
+
+**Fibrosarkom**
+
+- Malign fibroblastik tümördür; osteoid üretimi yoktur
+
+*Orta büyütme:*
+
+- Herringbone yani balık sırtı paterni
+
+*Yüksek büyütme:*
+
+- İğsi hücreler, belirgin atipi ve mitozlar
+
+---
+
+**Ewing Sarkomu**
+
+- Çocuk ve adolesanlarda görülen agresif tümördür; nöroektodermal kökenli
+
+*Düşük büyütme:*
+
+- Kemik iliğini dolduran monoton hücre kitlesi
+
+*Yüksek büyütme:*
+
+- İnce kromatinli hücreler; sitoplazmada PAS pozitif glikojen
+- Homer-Wright psödorozetleri görülebilir
+
+---
+
+### Yumuşak Doku Tümörleri
+
+**A) Yağ Dokusu Tümörleri**
+
+**Lipom**
+
+- En sık benign yumuşak doku tümörüdür
+
+*Düşük büyütme:*
+
+- İyi sınırlı, kapsüle yakın sınırlı lezyon
+
+*Yüksek büyütme:*
+
+- Adipositler uniform; lipoblast yoktur; sitolojik atipi beklenmez
+
+---
+
+**Liposarkom**
+
+- Malign adipositik tümördür; tanıda temel kriter lipoblast varlığıdır
+
+*Yüksek büyütme:*
+
+- Lipoblastlar: sitoplazmada vakuoller, çentikli veya itilmiş çekirdek
+
+**Alt tipler:**
+
+- İyi diferansiye: yağ dokusu baskın, septalarda atipik stromal hücreler
+- Miksoid: bol miksoid matriks ve ince arborizan kapiller ağ
+- Pleomorfik: belirgin hücresel pleomorfizm ve yüksek dereceli atipi
+
+---
+
+**B) Fibroblastik ve Myofibroblastik Lezyonlar**
+
+**Nodüler Fasiit**
+
+- Reaktif, hızlı büyüyen ancak benign bir lezyondur
+
+*Yüksek büyütme:*
+
+- "Tissue culture" benzeri görünüm: gevşek dizilmiş iğsi hücreler
+- Mitoz görülebilir ancak belirgin sitolojik atipi yoktur; nekroz beklenmez
+
+---
+
+**Desmoid Tümör**
+
+- Derin yerleşimli, lokal agresif fibroblastik tümördür; metastaz yapmaz
+
+*Orta büyütme:*
+
+- Uzun fasiküller halinde düzenlenmiş iğsi hücreler; kollajen üretimi belirgindir
+
+*Yüksek büyütme:*
+
+- Hücreler uniform; sitolojik atipi minimal; nekroz nadirdir
+
+---
+
+**C) Kas Tümörleri**
+
+**Leiomyom**
+
+- Düz kas kökenli benign tümördür
+
+*Yüksek büyütme:*
+
+- Hücreler uzun, puro şeklinde çekirdeklidir
+- Sitolojik atipi yoktur; mitoz sayısı düşüktür; koagülasyon nekrozu görülmez
+
+---
+
+**Leiomyosarkom**
+
+- Düz kas kökenli malign tümördür
+
+*Yüksek büyütme:*
+
+- Belirgin sitolojik atipi; yüksek mitoz sayısı; koagülasyon tipi tümör nekrozu
+
+---
+
+**Rabdomiyosarkom**
+
+- İskelet kası diferansiyasyonu gösteren malign tümördür; çocukluk çağında sık
+
+*Yüksek büyütme:*
+
+- Rhabdomyoblastlar: geniş eozinofilik sitoplazma
+- Çizgilenme nadiren seçilebilir
+- Myogenin ve MyoD1 pozitifliği destekleyicidir
+
+---
+
+**D) Yüksek Dereceli Sarkomlar**
+
+**Sinovyal Sarkom**
+
+- Genç erişkinde derin yumuşak dokuda görülür
+
+*Orta büyütme:*
+
+- Monofazik: iğsi hücreler baskın
+- Bifazik: hem iğsi hem epitelyal komponent birlikte
+
+*Yüksek büyütme:*
+
+- Keratin pozitifliği olabilir; karakteristik kromozomal translokasyon tanısaldır
+
+---
+
+**Undiferansiye Pleomorfik Sarkom (UPS)**
+
+- Spesifik diferansiyasyon gösteremeyen yüksek dereceli sarkom; tanı dışlama ile konur
+
+*Yüksek büyütme:*
+
+- Aşırı pleomorfik hücreler; çok sayıda ve atipik mitoz; dev hücreler görülebilir
+
+```
+
+```{asis, echo = (language == "EN")}
+
+### Musculoskeletal System and Soft Tissue - Summary
+
+**Metabolic Bone Diseases:** Osteoporosis shows reduced trabecular bone volume with normal mineralization. Osteomalacia features thick unmineralized osteoid seams. Osteitis fibrosa cystica (hyperparathyroidism) shows increased osteoclasts and brown tumor formation. Paget disease features mosaic bone pattern with jigsaw puzzle cement lines and giant osteoclasts.
+
+**Bone Infections:** Acute osteomyelitis shows neutrophilic inflammation with bone necrosis. Chronic phase features sequestrum (dead bone) and involucrum (reactive new bone).
+
+**Benign Bone Tumors:** Osteoid osteoma is a small painful nidus with surrounding reactive sclerosis. Osteochondroma shows a cartilage-capped bony excrescence continuous with the medullary cavity. Enchondroma is a well-circumscribed intramedullary hyaline cartilage nodule. Giant cell tumor features uniformly distributed multinucleated giant cells in an epiphyseal location.
+
+**Malignant Bone Tumors:** Osteosarcoma requires malignant osteoid production for diagnosis; shows pleomorphic mesenchymal cells with atypical mitoses. Ewing sarcoma presents as a small round blue cell tumor with PAS-positive glycogen and Homer-Wright pseudorosettes.
+
+**Soft Tissue Tumors:** Lipoma is the most common benign soft tissue tumor (uniform adipocytes without lipoblasts). Liposarcoma requires lipoblasts for diagnosis. Nodular fasciitis is a reactive "tissue culture-like" spindle cell proliferation. Desmoid tumor is locally aggressive but does not metastasize. Synovial sarcoma may be monophasic or biphasic with characteristic translocation. Undifferentiated pleomorphic sarcoma is a diagnosis of exclusion showing extreme pleomorphism.
+
+```
+
+:::
+-->
 
 ```{asis, echo = (language == "TR")}
 

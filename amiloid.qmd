@@ -25,6 +25,49 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Amiloidoz - Histopatolojik Tanimlama / Amyloidosis - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### Amiloidozis
+
+- Ekstraselluler alanda yanlis katlanmis protein fibrillerinin birikimi ile karakterizedir
+- Birikim organ fonksiyonunu mekanik olarak bozar
+
+*Dusuk buyutme:*
+
+- Organ parankiminde yaygin, homojen, soluk eozinofilik alanlar
+- Glomerul, damar duvari ve stromada diffuz tutulum
+
+*Orta buyutme:*
+
+- Amorf, hiyalin benzeri materyal birikimi
+- Parankim yapilarinda basi ve atrofi
+- Damar duvar kalinlasmalari
+
+*Yuksek buyutme:*
+
+- Hucre disi, yapisiz, eozinofilik depozitler
+- Komsu hucrelerde basi atrofisi
+
+- **Tanidal ayirt edici ozellikler:** Kongo kirmizisi ile boyanma, polarize isikta elma yesili cift kirinim, elektron mikroskopide ince fibriller
+- **Ayirici tani:** Hiyalinizasyon, fibrinoid nekroz, skar dokusu
+- **Immunohistokimya:** Amiloid tipine gore hafif zincir, AA veya transtiretin boyanmasi yapilabilir
+
+```
+
+```{asis, echo = (language == "EN")}
+
+Amyloidosis is characterized by extracellular deposition of misfolded protein fibrils causing progressive organ dysfunction. Diagnosis relies on Congo Red staining with apple-green birefringence under polarized light. Subtypes are classified by immunohistochemical staining for light chain, AA, or transthyretin protein.
+
+```
+
+:::
+-->
+
+
+
 
 
 

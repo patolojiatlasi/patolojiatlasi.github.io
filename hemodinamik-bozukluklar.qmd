@@ -15,4 +15,105 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Hemodinamik Bozukluklar - Histopatolojik Tanimlama / Hemodynamic Disorders - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### Odem
+
+- Ekstraselluler interstisyel alanda sivi birikimidir
+
+*Dusuk buyutme:*
+
+- Dokuda genel solukluk ve gevsek gorunum
+- Stromal alanlarda genisleme
+- Belirgin inflamatuvar hucre artisi yoktur
+
+*Orta buyutme:*
+
+- Kollajen liflerin birbirinden ayrilmasi
+- Ekstraselluler matriksin acilmis gorunumu
+
+*Yuksek buyutme:*
+
+- Hucreler arasi berrak bosluklar
+- Inflamasyon bulgusu yoktur (noninflamatuvar odem)
+
+- **Akciğer (Pulmoner Odem):** Alveol lumenlerinde homojen, pembe sivi birikimi. Kronik olgularda hemosiderin yuklu makrofajlar
+- **Beyin (Serebral Odem):** Parankimde acilma ve gri-beyaz cevher ayriminda siliklesme
+
+---
+
+### Hiperemi ve Konjesyon
+
+- Her ikisi de dokuda artmis kan hacmi ile iliskilidir
+- **Hiperemi:** Aktif arteriyel dilatasyona bagli, genellikle zararsiz
+- **Konjesyon:** Venoz drenaj bozuklugu sonucu gelisir, hipoksi ve doku hasari
+
+*Yuksek buyutme:*
+
+- Hiperemi: Arteriol ve kapillerlerde uniform genisleme, staz yok
+- Konjesyon: Venul ve kapillerlerde belirgin dolgunluk, eritrosit stazi ve ekstravazasyonu
+
+---
+
+### Trombus
+
+- Canli dolasimda damar lumeni icinde olusan intravaskuler pihtidir
+
+*Dusuk buyutme:*
+
+- Damar lumeninin kismen veya tamamen dolu olmasi
+- Damar duvarına yapısık intraluminal kitle
+
+*Yuksek buyutme:*
+
+- **Zahn cizgileri:** Acik renkli fibrin/trombosit alanlari ile koyu eritrosit katmanlari
+- Endotele siki tutunma
+- Arteriyel trombus trombositten zengin, venoz trombus eritrositten zengin
+
+- **Ayirici tani:** Postmortem pihti (damar duvarına yapışmaz), embolus
+
+---
+
+### Emboli
+
+- Damar icinde tasinarak distal bir damari tikayan intravaskuler materyaldir
+
+*Yuksek buyutme:*
+
+- Trombus kaynakli: fibrin ve eritrositler
+- Yag embolisi: bos vakuoller
+- Amniyotik sivi embolisi: skuamoz hucreler
+
+---
+
+### Infarkt
+
+- Damar tikanikligina bagli gelisen iskemik doku nekrozudur
+
+*Dusuk buyutme:*
+
+- Keskin sinirli soluk alan, cevrede hiperemik sinir
+
+*Yuksek buyutme:*
+
+- Eozinofilik sitoplazma, cekirdek kaybi
+- Notrofil infiltrasyonu (erken), makrofajlar (gec)
+- Zamanla granulasyon dokusu ve skar
+
+```
+
+```{asis, echo = (language == "EN")}
+
+This section covers key hemodynamic disorders: **Edema** (extracellular fluid accumulation with stromal expansion), **Hyperemia and Congestion** (increased blood volume -- active arterial vs. passive venous), **Thrombus** (intravascular clot with Lines of Zahn), **Embolism** (intravascular material occluding distal vessels), and **Infarction** (ischemic tissue necrosis progressing from coagulative necrosis to granulation tissue and scar).
+
+```
+
+:::
+-->
+
+
+
 {{< include ./_subchapters/_organising-thrombus.qmd >}}

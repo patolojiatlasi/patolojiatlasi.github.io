@@ -8,4 +8,241 @@ page-layout: full
 bibliography: references.bib
 ---
 
+```{r language inflamasyon, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+```{asis, echo = (language == "TR")}
 # İnflamasyon {#sec-inflamasyon}
+```
+
+```{asis, echo = (language == "EN")}
+# Inflammation {#sec-inflammation}
+```
+
+
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Immunopatoloji - Histopatolojik Tanimlama / Immunopathology - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### Sistemik Lupus Eritematozus (SLE)
+
+- Immun kompleks birikimine bagli gelisen sistemik otoimmun hastaliktir
+- Bobrek, deri, kalp, eklem, santral sinir sistemi ve diger bag dokusu yapilari siklikla tutulur
+
+*Dusuk buyutme:*
+
+- Tutulum organlara gore degiskenlik gosterir
+- Lezyonlar siklikla fokal ve heterojen dagilim gosterir
+- Bobrekte glomeruller arasinda tutulum siddeti farkli olabilir
+
+*Orta buyutme:*
+
+- Bobrekte mezengiyal ve endokapiller proliferasyon
+- Kapiller duvar kalinlasmalari
+- Deride perivaskuler inflamasyon
+- Dalakta perivaskuler fibrozis
+
+*Yuksek buyutme:*
+
+- Subendotelyal immun kompleks birikimine bagli kalin kapiller duvarlar
+- Bowman boslugunyu dolduran epitelyal kresentler bazi olgularda gorulebilir
+- Bazal tabakada vakuoler dejenerasyon
+- Hematoksilin cisimcikleri nadiren izlenebilir
+
+- **Tanidal ayirt edici ozellikler:** Bobrekte wire loop gorunumu, dermoepidermal bileskede immun birikim, Libman Sacks endokarditi
+- **Ayirici tani:** Diger immun kompleks glomerulonefritleri, dermatomiyozit, romatoid artrit
+- **Immunohistokimya:** Granuler IgG, IgM, IgA ve C3 birikimi
+
+---
+
+### Sistemik Skleroz (Skleroderma)
+
+- Kucuk damar hasari ve ilerleyici fibrozis ile karakterize kronik bag dokusu hastaligi
+
+*Dusuk buyutme:*
+
+- Deride yaygin dermal kalinlasma
+- Dermal eklerin kaybi
+- Organlarda diffuz fibrotik alanlar
+
+*Orta buyutme:*
+
+- Dermiste yogun kollajen birikimi
+- Kas tabakasinda atrofi ve yerini fibrozisin almasi
+- Kucuk damarlarda duvar kalinlasmasi
+
+*Yuksek buyutme:*
+
+- Hiyalinize damar duvarlari
+- Konsantrik intimal proliferasyon
+- Endotel hasari
+- Hucreden fakir, yogun kollajen alanlar
+
+- **Tanidal ayirt edici ozellikler:** Dermiste belirgin kollajen artisi, rete peg kaybi, dermal eklerin atrofisi
+- **Ayirici tani:** Morfea, kronik graft versus host hastaligi, nefrojenik sistemik fibrozis
+
+---
+
+### Sjogren Sendromu
+
+- Ekzokrin bezlerin kronik lenfositik infiltrasyon ve fibrozis ile harap oldugu otoimmun hastalik
+
+*Dusuk buyutme:*
+
+- Bez lobullerinde fokal lenfoid infiltrasyon
+- Glanduler mimaride kismi korunma veya ileri evrede bozulma
+
+*Orta buyutme:*
+
+- Periduktal lenfositik kumelenmeler
+- Fokal lenfositik sialadenit gorunumu
+- Lenfoid follikul olusumu
+
+*Yuksek buyutme:*
+
+- Kucuk, matur lenfositlerden zengin infiltrat
+- Duktal epitel hiperplazisi
+- Asiner atrofi
+- Ileri evrede fibrozis ve yag dokusu ile replasman
+
+- **Tanidal ayirt edici ozellikler:** Fokal lenfositik sialadenit, germinal merkez olusumu
+- **Ayirici tani:** Kronik sialadenit, IgG4 iliskili hastalik, lenfoma gelisimi acisindan dikkat
+- **Immunohistokimya:** Lenfositlerin cogu CD4 pozitif T hucreleri
+
+```
+
+```{asis, echo = (language == "EN")}
+
+This section covers three major autoimmune diseases: **Systemic Lupus Erythematosus (SLE)** -- an immune complex-mediated systemic disease with multi-organ involvement including wire loop glomerular lesions and Libman-Sacks endocarditis; **Systemic Sclerosis (Scleroderma)** -- characterized by small vessel damage and progressive fibrosis with dense dermal collagen deposition; and **Sjogren Syndrome** -- featuring chronic lymphocytic infiltration and destruction of exocrine glands with focal lymphocytic sialadenitis as the key diagnostic finding.
+
+```
+
+:::
+-->
+
+
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Enflamasyon ve Iyilesme - Histopatolojik Tanimlama / Inflammation and Healing - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### Akut Enflamasyon
+
+- Hizli baslayan, kisa sureli inflamatuvar yanittir, temel hucre notrofildir
+
+*Dusuk buyutme:*
+
+- Dokuda odem ve damar dolgunlugu
+- Etkilenen alanda yaygin hucresel infiltrasyon
+- Seroz yuzeylerde sivi birikimi veya fibrin tabakalari
+
+*Orta buyutme:*
+
+- Genislemis kapiller ve venuller
+- Ekstraselluler alanda proteinoz sivi
+- Lumene veya dokuya goc eden notrofiller
+
+*Yuksek buyutme:*
+
+- Notrofiller baskindir
+- Endotel hucreleri siskin
+- Fibrin birikimi gorulebilir
+- Doku nekrozu eslik edebilir
+
+**Akut Enflamasyonun Morfolojik Tipleri:**
+
+- **Seroz Enflamasyon:** Berrak, hucreden fakir sivi birikimi
+- **Fibrinoz Enflamasyon:** Eozinofilik fibrin aglari, rezolüsyon olmazsa fibrozis gelisebilir
+- **Purulan Enflamasyon:** Puy olusumu, notrofiller ve nekrotik debris baskindir
+- **Apse:** Merkezde likefaksiyon nekrozu, cevrede notrofiller, daha dista granulasyon dokusu
+- **Ulser:** Yuzey epitel kaybi, altta akut inflamasyon ve nekroz
+
+---
+
+### Kronik Enflamasyon
+
+- Uzun sureli inflamatuvar yanittir, mononukleer hucreler baskindir
+- Doku yikimi ve onarim birlikte gorulur
+
+*Dusuk buyutme:*
+
+- Diffuz veya noduler hucresel infiltrasyon
+- Parankimal kayip alanlari
+- Fibrotik alanlar
+
+*Orta buyutme:*
+
+- Lenfosit ve plazma hucrelerinden zengin infiltrat
+- Makrofaj kumeleri
+- Anjiyogenez odaklari
+
+*Yuksek buyutme:*
+
+- Aktive makrofajlar
+- Fibroblast proliferasyonu
+- Kollajen lif artisi
+
+---
+
+### Granulomatoz Enflamasyon
+
+- Eradike edilemeyen ajanlara karsi gelisen ozel kronik inflamasyon tipidir
+
+*Dusuk buyutme:*
+
+- Noduler, iyi sinirli hucresel odaklar
+
+*Orta buyutme:*
+
+- Epiteloid makrofaj kumeleri
+- Cevresinde lenfosit halkasi
+
+*Yuksek buyutme:*
+
+- Epiteloid histiyositler
+- Cok cekirdekli dev hucreler (Langhans veya yabanci cisim tipi)
+
+---
+
+### Fibrozis ve Skar
+
+- Fibrozis normal dokunun kollajen agirlikli bag dokusu ile yer degistirmesidir
+
+*Dusuk buyutme:*
+
+- Yogun, homojen, soluk bag dokusu
+- Parankim kaybi
+
+*Yuksek buyutme:*
+
+- Aktif fibroblastlar (erken donem)
+- Yogun kollajen birikimi (gec donem)
+
+---
+
+### Anjiyogenez ve Granulasyon Dokusu
+
+- Yeni damar olusumu ve fibroblast proliferasyonu ile karakterizedir
+- Yara iyilesmesinin erken fazidir
+- Cok sayida ince duvarli yeni kapiller
+- Odemli gevsek stroma
+- Fibroblast proliferasyonu
+
+**Hipertrofik Skar:** Kollajen artisi yara sinirlari icinde, zamanla gerileyebilir
+
+**Keloid:** Kollajen asiri ve duzensizdir, yara sinirlarini asar, regresyon gostermez
+
+```
+
+```{asis, echo = (language == "EN")}
+
+This section covers the spectrum of inflammation: **Acute inflammation** is characterized by neutrophil-dominant infiltration, vascular permeability changes, and exudate formation (serous, fibrinous, purulent, abscess, ulcer patterns). **Chronic inflammation** features mononuclear cell infiltration with concurrent tissue destruction and repair. **Granulomatous inflammation** shows organized nodular collections of epithelioid macrophages and multinucleated giant cells. The healing process involves **fibrosis/scar formation**, **angiogenesis/granulation tissue**, and can result in hypertrophic scars or keloids.
+
+```
+
+:::
+-->
+

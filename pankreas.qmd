@@ -18,9 +18,107 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "EN")}
-# Tumors of the Pancreas {#sec-tumors-of-pancreas} 
+# Tumors of the Pancreas {#sec-tumors-of-pancreas}
 ```
 
+
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Pankreas Hastalıkları - Histopatolojik Tanımlama / Pancreatic Diseases - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### Akut Pankreatit
+
+Akut pankreatit morfolojisi hafif ödemli formdan yaygın nekroz ve hemorajiye kadar uzanır. Temel bileşenler: mikrovasküler kaçak ve interstisyel ödem, yağ nekrozu, akut inflamasyon, parankim hasarı ve oto sindirim, damar hasarı ve hemoraji.
+
+**a) Akut İnterstisyel Ödemli Pankreatit**
+
+- *Düşük büyütme:* Lobüller arası belirgin interstisyel ödem vardır. Lobüler yapı hafif şiş görünür.
+- *Orta büyütme:* Hafif akut inflamasyon görülür. Pankreas içi ve çevresinde fokal yağ nekrozu izlenebilir.
+- *Yüksek büyütme:* Yağ nekrozunda sabunlaşma görünümü vardır. Yağ asitleri kalsiyum ile birleşerek granüler bazofilik odaklar oluşturur. Çevrede nötrofiller eşlik edebilir.
+
+**b) Akut Nekrotizan Pankreatit**
+
+- *Düşük büyütme:* Yaygın nekroz alanları vardır. Lobüler bütünlük kaybolur.
+- *Orta büyütme:* Asiner hücre nekrozu belirgindir. Duktal yapılar ve adacıklar da nekroza katılabilir.
+- *Yüksek büyütme:* Nekrotik dokuda kirli granüler görünüm vardır. Belirgin akut inflamasyon eşlik eder. Damar hasarı izlenebilir.
+
+**c) Hemorajik Pankreatit**
+
+- *Düşük büyütme:* Geniş hemoraji alanları vardır. Parankim koyu kırmızı görünür.
+- *Orta büyütme:* İntraparankimal kanama belirgindir. Yaygın nekroz eşlik eder.
+- *Yüksek büyütme:* Damar duvar yıkımı ve eritrosit ekstravazasyonu görülür. Yoğun akut inflamasyon vardır.
+
+*Sistemik yağ nekrozu:* Lipaz dolaşıma geçerek uzak yağ dokularında nekroz oluşturabilir. Omentum ve mezenter dışında nadiren subkutan yağ dokuda da görülebilir.
+
+---
+
+### Kronik Pankreatit
+
+Parankimal fibrozis, asiner hücre kaybı ve değişken duktal değişiklikler ile karakterizedir.
+
+- *Düşük büyütme:* Pankreas sert ve fibrotik görünür. Lobüler mimari silinmiştir.
+- *Orta büyütme:* Lobül ve dukt çevresinde kronik inflamasyon vardır. Fibrotik stroma artmıştır. Duktlar dilate olabilir.
+- *Yüksek büyütme:* Asiner hücre kaybı sabit bulgudur. Adacıklar göreceli olarak korunur. Dukt epiteli atrofik, hiperplastik veya metaplastik olabilir.
+
+*Alkole bağlı tip için ipuçları:* Dukt içinde protein tıkaçları görülebilir. Kalsifiye konkresyonlar tipiktir.
+
+---
+
+### Otoimmün Pankreatit
+
+**Tip 1 – IgG4 İlişkili:**
+
+- *Düşük ve orta büyütme:* Storiform tarzda burgaçlı fibrozis görülür.
+- *Yüksek büyütme:* Lenfoplazmositer yoğun infiltrasyon vardır. Obliteratif flebit görülür. IgG4 pozitif plazma hücreleri artmıştır.
+
+**Tip 2:**
+
+- *Düşük ve orta büyütme:* Orta boy dukt tutulumu belirgindir.
+- *Yüksek büyütme:* Granülositik epitel lezyon vardır. Dukt epiteli içinde ve lümeninde nötrofiller izlenir. IgG4 pozitif hücre artışı tipik değildir.
+
+**Tip 3:** Spesifik bir histolojik patern tanımlı değildir. Tanı çoğunlukla klinik ve tedavi yanıtına dayanır.
+
+---
+
+### Pankreas Duktal Adenokarsinomu
+
+Tümörlerin çoğu pankreas başında yerleşir. Çevre dokulara erken ve belirgin invazyon eğilimi ile yoğun desmoplazik stromal yanıt iki temel tanısal özelliktir.
+
+- *Düşük büyütme:* Küçük abortif tübüler yapılar ve hücre kümeleri yoğun fibrotik stroma içinde infiltratif büyür.
+- *Orta büyütme:* Düzensiz yerleşimli malign bez yapıları izlenir. Bezler arasında belirgin desmoplazik kollajen stroma vardır.
+- *Yüksek büyütme:* Pleomorfik küboidal veya kolumnar tümör hücreleri görülür. Müsin üretimi olabilir. Perinöral invazyon sık görülür. Lenfatik ve damar invazyonu yaygındır.
+
+*Tanısal tuzak:* İyi diferansiye tümör bezleri kronik pankreatitteki reaktif bezlerle karışabilir. Desmoplazi iğne biyopsisinde tümör hücresinden çok stroma görülmesine neden olabilir.
+
+*Yayılım paterni:* Sinirler boyunca ve retroperitoneal alana yayılım sıktır. Dalak, mide, kolon ve adrenal bezlere direkt invazyon görülebilir.
+
+*Nadir morfolojik varyantlar:* Adenoskuamöz tip, kolloid tip, medüller tip, signet ring hücreli tip, undiferansiye tip ve osteoklast benzeri dev hücreli tip.
+
+```
+
+```{asis, echo = (language == "EN")}
+
+### Acute Pancreatitis
+
+Acute pancreatitis morphology ranges from mild edematous forms to widespread necrosis and hemorrhage. Key components: microvascular leakage and interstitial edema, fat necrosis, acute inflammation, parenchymal damage and autodigestion, vascular damage and hemorrhage.
+
+### Chronic Pancreatitis
+
+Characterized by parenchymal fibrosis, acinar cell loss, and variable ductal changes.
+
+### Autoimmune Pancreatitis
+
+Type 1 (IgG4-related): storiform fibrosis, lymphoplasmacytic infiltration, obliterative phlebitis. Type 2: granulocytic epithelial lesion in ducts.
+
+### Pancreatic Ductal Adenocarcinoma
+
+Most tumors are located in the pancreatic head. Two key diagnostic features: early and prominent invasion into surrounding tissues and intense desmoplastic stromal response.
+
+```
+
+:::
+-->
 
 
 {{< include ./_subchapters/_pancreas-solid-pseudopapillary.qmd >}}

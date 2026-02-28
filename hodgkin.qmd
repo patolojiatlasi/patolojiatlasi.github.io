@@ -25,9 +25,63 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "EN")}
 
-## Hodgkin Lymphoma {#sec-hodgkin-lymphoma} 
+## Hodgkin Lymphoma {#sec-hodgkin-lymphoma}
 
 ```
+
+
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Hodgkin Lenfoma - Histopatolojik Tanimlama / Hodgkin Lymphoma - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### Hodgkin Lenfoma
+
+**Tanidal Hucre: Reed-Sternberg Hucresi**
+
+- Buyuk hucre, binukleer veya multiloblu nukleus
+- Her nukleer lobda belirgin ve inkluzyon benzeri buyuk nukleol
+- Tumor hucreleri arasinda reaktif T hucreleri, eozinofiller, plazma hucreleri ve makrofajlar karisimi bulunur
+
+---
+
+### Alt Tiplerin Morfolojik Ozellikleri
+
+**Noduler Skleroz:**
+
+- Kollajen bantlar noduler yapi olusturur
+- **Lakuner hucreler** tipiktir
+
+**Mikst Selluler:**
+
+- Diffuz mimari silinme
+- Reed-Sternberg hucreleri ve mononukleer varyantlar daha bol
+
+**Lenfositten Zengin:**
+
+- Arka plan hucreselliginde lenfosit baskinligi
+- Reed-Sternberg hucresi sayisi az
+
+**Lenfositten Fakir:**
+
+- Az lenfosit, cok Reed-Sternberg hucresi
+
+**Noduler Lenfosit Predominant:**
+
+- **Popcorn hucreleri** (L&H hucreleri)
+- Klasik Reed-Sternberg hucreleri cogu kez yoktur
+
+```
+
+```{asis, echo = (language == "EN")}
+
+Hodgkin lymphoma is characterized by the diagnostic **Reed-Sternberg cell** -- a large binucleated or multilobated cell with prominent inclusion-like nucleoli, set within a reactive background of T cells, eosinophils, plasma cells, and macrophages. Subtypes include: Nodular Sclerosis (collagen bands, lacunar cells), Mixed Cellularity (abundant RS cells), Lymphocyte-Rich, Lymphocyte-Depleted, and Nodular Lymphocyte Predominant (popcorn/L&H cells without classic RS cells).
+
+```
+
+:::
+-->
+
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/thumbnail_hodgkin.png")) {

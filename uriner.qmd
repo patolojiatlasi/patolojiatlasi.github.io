@@ -20,3 +20,123 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```{asis, echo = (language == "EN")}
 # Pathology of the Urinary System {#sec-urinary-system-pathology}
 ```
+
+
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Üriner Sistem Hastalıkları - Histopatolojik Tanımlama / Urinary System Diseases - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### A) Konjenital ve Yapısal Bozukluklar
+
+**Displastik Böbrek:**
+
+- *Düşük büyütme:* Düzensiz mimari ve bozulmuş kortikomedüller ayrım görülür.
+- *Orta büyütme:* İmmatür yapılar ve düzensiz kistik dilatasyonlar vardır.
+- *Yüksek büyütme:* Disorganize tübüller ve artmış fibromüsküler stroma izlenir. Bazen kartilaj odakları görülebilir.
+
+**Polikistik Böbrek Hastalığı:**
+
+- *Düşük büyütme:* Parankimi dolduran çok sayıda kist görülür.
+- *Orta büyütme:* Farklı boyutlarda dilate tübüller ve kanallar izlenir.
+- *Yüksek büyütme:* Kistler yassı, kübik veya kolumnar epitel ile döşelidir.
+
+---
+
+### B) Akut Böbrek Yetmezliği Spektrumu
+
+**Akut Tübüler Nekroz / Akut Tübüler Hasar:**
+
+- *Düşük büyütme:* Korteks ve özellikle proksimal düz tübül ile kalın çıkan kol segmentlerinde yamalı hasar görülür.
+- *Orta büyütme:* Epitel dökülmesi, tübül dilatasyonu ve tubulorrhexis odakları vardır. Lümende granüler silendirler görülebilir.
+- *Yüksek büyütme:* Nekrotik epitel hücreleri ve bazal membran yırtıkları izlenir. Rejenerasyon alanlarında yassılaşmış epitel ve mitozlar görülebilir.
+
+**Akut İnterstisyel Nefrit:**
+
+- *Düşük büyütme:* İnterstisyum hücresel ve dolu görünür.
+- *Orta büyütme:* İnterstisyel ödem ve inflamatuvar infiltrasyon vardır.
+- *Yüksek büyütme:* Eozinofiller eşlik edebilir. Tübülit yani tübül epitelinde lenfosit infiltrasyonu tipiktir.
+
+---
+
+### C) Glomerüler Sendromlar
+
+**Minimal Değişiklik Hastalığı:** Işık mikroskopisinde glomerüller normal görünür. İmmünfloresan genellikle negatiftir. Elektron mikroskopisinde diffüz podosit ayakçık silinmesi izlenir.
+
+**Fokal Segmental Glomerüloskleroz:** Bazı glomerüllerde segmental skleroz ve kapiller kollaps. Hiyalinoz ve kapiller duvarlara yapışıklıklar. İmmünfloresanda sklerotik alanlarda IgM ve C3 tutulumu.
+
+**Membranöz Nefropati:** Kapiller duvar kalınlaşması. Gümüş boyada spike-dome paterni. İmmünfloresanda granüler IgG ve C3 tutulumu. Elektron mikroskopisinde subepitelyal immün kompleks depozitleri.
+
+**Membranoproliferatif Glomerülonefrit:** Lobüle görünümlü glomerüller. GBM duplikasyonu sonucu tram-track görünümü.
+
+**Poststreptokoksik Glomerülonefrit:** Büyük ve hiperselüler glomerüller. Endokapiller proliferasyon ve lökosit infiltrasyonu. Elektron mikroskopisinde subepitelyal hump depozitleri.
+
+**Hızlı İlerleyen Glomerülonefrit:** Bowman boşluğunda kresent oluşumu. Fibrin birikimi ve nekroz.
+
+**IgA Nefropatisi:** Mezangial proliferasyon. İmmünfloresanda mezangial IgA birikimi tanı için anahtar bulgudur.
+
+**Alport Sendromu:** Bazal membranda düzensiz kalınlaşma ve incelme. Elektron mikroskopisinde GBM'de basket-weave paterni.
+
+---
+
+### D) Vasküler ve Metabolik
+
+**Diyabetik Nefropati:**
+
+- *Düşük büyütme:* Glomerüller belirgin şekilde büyümüştür.
+- *Orta büyütme:* Difüz mezangial matriks ekspansiyonu izlenir.
+- *Yüksek büyütme:* Nodüler glomerüloskleroz (Kimmelstiel-Wilson nodülleri) tipiktir. Hiyalin arterioloskleroz eşlik eder.
+
+---
+
+### E) Papilla ve Kronik Hasar
+
+**Renal Papiller Nekroz:** Papillada koagülasyon nekrozu paterni ve sekonder inflamasyon.
+
+**Kronik Renal Yetmezlik:** Korteks incelmiş ve skarlı görünür. Tübüler atrofi ve interstisyel fibrozis belirgindir. Proteinle dolu dilate tübüller nedeniyle thyroidization paterni oluşur.
+
+---
+
+### F) Enfeksiyon ve Taş
+
+**Akut Piyelonefrit:** Patchy dağılım gösteren süpüratif inflamasyon. Nötrofilik tubulitis ve intratübüler lökosit agregatları tipiktir. Glomerüller genellikle korunmuştur.
+
+**Kronik Piyelonefrit:** Kaba kortikomedüller skarlar ve kaliks deformasyonu. Thyroidization paterni izlenir.
+
+---
+
+### G) Tümörler
+
+**Anjiyomiyolipom:** İyi sınırlı kitle. Yağ dokusu, damar yapıları ve düz kas demetleri birlikte görülür.
+
+**Renal Hücreli Karsinom:**
+
+- *Clear cell tip:* Şeffaf sitoplazmalı hücreler ve ince damar ağı.
+- *Papiller tip:* Papilla veya tubulopapiller yapılar ve köpüksü histiositler.
+- *Chromophobe tip:* Soluk eozinofilik hücreler ve perinükleer halo.
+
+**Wilms Tümörü:** Blastema, epitel ve stroma içeren trifazik patern tipiktir.
+
+**Ürotelyal Karsinom:** Papiller veya solid büyüme paterni. İnvazyon derinliği özellikle muscularis propria tutulumu açısından kritik önemdedir.
+
+```
+
+```{asis, echo = (language == "EN")}
+
+### Glomerular Diseases
+
+Minimal Change Disease: normal on light microscopy, diffuse podocyte foot process effacement on EM. Focal Segmental Glomerulosclerosis: segmental sclerosis and capillary collapse. Membranous Nephropathy: capillary wall thickening with spike-dome pattern on silver stain. IgA Nephropathy: mesangial IgA deposition is the key diagnostic finding.
+
+### Tubulointerstitial Diseases
+
+Acute Tubular Necrosis: patchy damage to proximal tubules and thick ascending limb. Acute Interstitial Nephritis: interstitial edema with eosinophils and tubulitis.
+
+### Tumors
+
+Renal Cell Carcinoma: clear cell, papillary, and chromophobe subtypes. Wilms Tumor: triphasic pattern (blastema, epithelium, stroma). Urothelial Carcinoma: invasion depth is critical for staging.
+
+```
+
+:::
+-->
+

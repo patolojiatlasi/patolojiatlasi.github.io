@@ -1,0 +1,230 @@
+---
+description: "kalp, kardiyak patoloji, cardiac pathology, heart, patoloji, atlas, pathology, whole slide image, virtual microscopy, virtual microscope, sanal mikroskop"
+date: last-modified
+categories: [kalp, cardiac]
+page-layout: full
+bibliography: references.bib
+---
+
+```{r language kalp, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+
+```{asis, echo = (language == "TR")}
+# Kalp Patolojisi {#sec-kalp-patolojisi}
+```
+
+```{asis, echo = (language == "EN")}
+# Cardiac Pathology {#sec-cardiac-pathology}
+```
+
+
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Kalp Hastalıkları - Histopatolojik Tanımlama / Cardiac Diseases - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### A) Kardiyak Hipertrofi ve Kalp Yetmezliği
+
+**Kardiyak Hipertrofi:**
+
+- *Düşük büyütme:* Miyokard kalınlığında artış (sol ventrikül > 1.5 cm).
+- *Orta büyütme:* Miyosit çaplarında artış görülür.
+- *Yüksek büyütme:* Kardiyomiyositlerde dikdörtgen şeklinde büyümüş çekirdekler (boxcar nuclei). İnterstisyel fibrozis eşlik edebilir.
+
+*Basınç yükü:* Konsantrik hipertrofi (duvar kalınlaşması, kavite küçülmesi). Aort stenozu ve hipertansiyon.
+*Hacim yükü:* Eksantrik hipertrofi (kavite genişlemesi). Kapak yetmezlikleri.
+
+**Konjestif Kalp Yetmezliği:**
+
+Kalbin yeterli kanı pompalayamaması durumudur. Sol kalp yetmezliğinde akciğer konjesyonu ve pulmoner ödem gelişir. Sağ kalp yetmezliğinde hepatik konjesyon (nutmeg liver / hindistancevizi karaciğeri), periferal ödem ve plevral efüzyon görülür.
+
+---
+
+### B) İskemik Kalp Hastalığı
+
+**Miyokard İnfarktüsü – Zaman İçinde Histolojik Değişimler:**
+
+**0-4 saat:**
+- *Yüksek büyütme:* Işık mikroskobunda belirgin değişiklik yoktur. Dalgalı lifler (wavy fibers) erken bulgu olabilir.
+
+**4-12 saat:**
+- *Düşük büyütme:* Nekroz alanı henüz belirsizdir.
+- *Yüksek büyütme:* Koagülasyon nekrozu başlar. Miyosit sitoplazmasında eozinofilide artış. Çekirdek piknoz başlangıcı. İnterstisyel ödem.
+
+**12-24 saat:**
+- *Düşük büyütme:* Soluk infarkt alanı belirginleşir.
+- *Orta büyütme:* Koagülasyon nekrozu yaygınlaşır.
+- *Yüksek büyütme:* Belirgin miyosit nekrozu. Çekirdek kaybı (karyoliz). Nötrofil infiltrasyonu başlar.
+
+**1-3 gün:**
+- *Düşük büyütme:* Sarı-kahverengi yumuşamış alan.
+- *Orta büyütme:* Yoğun nötrofilik infiltrasyon. Nekrotik miyositler dağılmaya başlar.
+- *Yüksek büyütme:* Kontraksiyon bandı nekrozu: hipereozinofilik transvers bantlar. Nötrofiller nekrotik debris içinde yoğundur.
+
+**3-7 gün:**
+- *Düşük büyütme:* İnfarkt çevresi hiperemik.
+- *Orta büyütme:* Nekrotik miyositlerin fagositozu başlar. Makrofajlar belirginleşir.
+- *Yüksek büyütme:* Nekrotik debris temizlenmektedir. Bu dönem duvar rüptürü riski en yüksek dönemdir.
+
+**1-3 hafta:**
+- *Düşük büyütme:* Granülasyon dokusu gelişimi.
+- *Orta büyütme:* Yeni kapiller damarlar, fibroblastlar ve kollajen birikimi. İnfarkt alanı giderek küçülür.
+- *Yüksek büyütme:* Makrofajlar hemosiderin içerebilir. Fibroblast proliferasyonu belirgindir.
+
+**Haftalar-Aylar:**
+- *Düşük büyütme:* Beyaz fibröz skar dokusu.
+- *Orta büyütme:* Yoğun kollajen. Miyosit kaybı.
+- *Yüksek büyütme:* Olgun skar dokusu. Çevre miyositlerde kompansatuar hipertrofi.
+
+---
+
+### C) Hipertansif Kalp Hastalığı
+
+**Sistemik (Sol Ventrikül):**
+
+- Sol ventrikül konsantrik hipertrofisi (duvar > 2 cm).
+- İnterstisyel fibrozis.
+- Koroner arterlerde ateroskleroz eşlik edebilir.
+
+**Pulmoner (Sağ Ventrikül / Kor Pulmonale):**
+
+- Sağ ventrikül hipertrofisi ve dilatasyonu.
+- Pulmoner arterlerde medial hipertrofi ve intimal fibrozis.
+
+---
+
+### D) Kapak Hastalıkları
+
+**Akut Romatizmal Ateş:**
+
+- *Düşük büyütme:* Pankardit: endokard, miyokard ve perikard tutulumu.
+- *Orta büyütme:* Aschoff cisimcikleri: miyokardda fokal interstisyel granülomatöz inflamasyon odakları. Fibrinoid nekroz çevresinde Anitschkow hücreleri (tırtıl hücreleri) ve Aschoff dev hücreleri.
+- *Yüksek büyütme:* Anitschkow hücreleri: dalgalı çekirdekli büyük histiositler. MacCallum plakları: sol atriyum endokardında irregüler kalınlaşma. Kapak üzerinde küçük verrüköz vejetasyonlar (1-2 mm).
+
+**Kronik Romatizmal Kalp Hastalığı:**
+
+Kapak kalınlaşması, kommissüral füzyon ve korda tendinea kısalması/kalınlaşması. Mitral kapak en sık tutulan kapaktır. Balık ağzı deformitesi (fish-mouth stenosis).
+
+**İnfektif Endokardit:**
+
+- *Düşük büyütme:* Kapak üzerinde büyük, düzensiz vejetasyonlar.
+- *Orta büyütme:* Fibrin, trombosit, inflamatuvar hücreler ve bakteri kolonilerinden oluşan vejetasyon.
+- *Yüksek büyütme:* Gram pozitif bakteri kümeleri görülebilir. Kapak dokusunda destrüksiyon ve apse formasyonu. Akut formda nötrofil hakimiyeti, subakut formda lenfosit ve makrofaj infiltrasyonu.
+
+**Nonbakteriyel Trombotik Endokardit (Marantic Endokardit):**
+
+Malignite ve hiperkoagülabilite ile ilişkili steril vejetasyonlar. Küçük, sapsız fibrin-trombosit depozitleri kapak kenarlarında izlenir. İnflamasyon ve doku hasarı minimal.
+
+**Libman-Sacks Endokarditi:**
+
+SLE ile ilişkili steril vejetasyonlar. Kapağın her iki yüzünde de görülebilir. Fibrinoid nekroz ve granüler debris.
+
+---
+
+### E) Miyokardit
+
+- *Düşük büyütme:* Miyokardda yamalı veya diffüz inflamatuvar infiltrasyon.
+- *Orta büyütme:* Lenfosit ağırlıklı inflamatuvar hücre infiltrasyonu (viral miyokardit).
+- *Yüksek büyütme:* Miyosit nekrozu ve çevreden lenfositik infiltrasyon. İnterstisyel ödem.
+
+*Viral miyokardit:* Lenfositik infiltrasyon, Coxsackievirus B en sık etken.
+*Dev hücreli miyokardit:* Çok çekirdekli dev hücreler ve yaygın nekroz. Fulminan seyir.
+*Hipersensitivite miyokarditi:* Eozinofil ağırlıklı infiltrasyon.
+
+---
+
+### F) Perikardit
+
+**Fibrinöz Perikardit:**
+
+- *Düşük büyütme:* Perikard yüzeyinde düzensiz fibrin birikimi (ekmek ve tereyağı görünümü / bread-and-butter appearance).
+- *Yüksek büyütme:* Eozinofilik fibrin depozitleri. Altında mezotel hücre proliferasyonu ve inflamasyon.
+
+**Seröz Perikardit:** Berrak sıvı birikimi. Viral enfeksiyonlarda sık.
+
+**Hemorajik Perikardit:** Kanlı perikardiyal sıvı. Malignite ve tüberküloz ile ilişkili.
+
+**Konstriktif Perikardit:** Perikardda yoğun fibrozis ve kalsifikasyon. Diyastolik dolum kısıtlanır.
+
+---
+
+### G) Kardiyomiyopatiler
+
+**Dilate Kardiyomiyopati:**
+
+- *Düşük büyütme:* Tüm kalp boşlukları dilate. Duvar kalınlığı normal veya incelmiş.
+- *Orta büyütme:* Miyosit hipertrofisi ve interstisyel fibrozis.
+- *Yüksek büyütme:* Miyosit çekirdeklerinde büyüme ve dejenerasyon. İnterstisyel ve perivasküler fibrozis.
+
+**Hipertrofik Kardiyomiyopati:**
+
+- *Düşük büyütme:* Asimetrik septal hipertrofi (septum/serbest duvar oranı > 1.3).
+- *Orta büyütme:* Miyosit disarray: miyositler düzensiz, çapraz ve girdap paterni oluşturur.
+- *Yüksek büyütme:* Belirgin miyosit hipertrofisi. İnterstisyel fibrozis. İntramural koroner arterlerde displazi.
+
+**Restriktif Kardiyomiyopati:**
+
+Diyastolik dolum bozukluğu. Endomiyokardiyal fibrozis veya infiltratif hastalıklar (amiloidoz, sarkoidoz, hemokromatozis) ile ilişkili. Miyokardda yoğun fibrozis veya anormal materyal birikimi.
+
+**Aritmojenik Sağ Ventrikül Kardiyomiyopatisi (ARVC):**
+
+Sağ ventrikül miyokardının yağ ve fibröz doku ile yer değiştirmesi. Miyositler arasında adipoz doku infiltrasyonu ve fibrozis. Aritmi ve ani kardiyak ölüm riski.
+
+---
+
+### H) Kardiyak Tümörler
+
+**Kardiyak Miksoma:**
+
+En sık primer kardiyak tümör. Sol atriyumda sıklıkla fossa ovalise yakın yerleşim.
+
+- *Düşük büyütme:* Miksoid stroma içinde dağınık hücre kümeleri.
+- *Orta büyütme:* Yıldız şeklinde (stellat) ve iğsi hücreler gevşek miksoid matriks içinde.
+- *Yüksek büyütme:* Karakteristik lepidik hücreler. Hemosiderin birikimi ve kalsifikasyon odakları.
+
+**Rabdomiyom:**
+
+Çocukluk çağının en sık kardiyak tümörü. Tuberoskleroz ile ilişkili.
+
+- *Yüksek büyütme:* Örümcek hücreleri (spider cells): glikojen yüklü, vakuolize sitoplazma ile merkezde çekirdeğe uzanan ince iplikler.
+
+**Kardiyak Metastaz:**
+
+Primer kardiyak tümörlerden çok daha sıktır. En sık akciğer, meme, melanom ve lenfoma kaynaklıdır.
+
+```
+
+```{asis, echo = (language == "EN")}
+
+### Cardiac Hypertrophy
+
+Pressure overload produces concentric hypertrophy; volume overload produces eccentric hypertrophy. Histologically: increased myocyte diameter, boxcar nuclei, and interstitial fibrosis.
+
+### Myocardial Infarction - Time Course
+
+0-4h: wavy fibers only. 4-24h: coagulative necrosis begins, early neutrophils. 1-3 days: dense neutrophilic infiltration, contraction band necrosis, highest rupture risk at 3-7 days. 1-3 weeks: granulation tissue with capillaries and fibroblasts. Weeks-months: mature fibrous scar with compensatory hypertrophy.
+
+### Valvular Disease
+
+Acute Rheumatic Fever: Aschoff bodies with Anitschkow cells and fibrinoid necrosis. Small verrucous vegetations. Chronic RHD: valve thickening, commissural fusion, fish-mouth stenosis. Infective Endocarditis: large irregular vegetations with bacterial colonies and valve destruction.
+
+### Myocarditis
+
+Lymphocytic infiltration with myocyte necrosis (most commonly viral, Coxsackievirus B). Giant cell myocarditis has a fulminant course.
+
+### Cardiomyopathies
+
+Dilated: four-chamber dilation with interstitial fibrosis. Hypertrophic: asymmetric septal hypertrophy with myocyte disarray. Restrictive: impaired diastolic filling from endomyocardial fibrosis or infiltrative disease. ARVC: fibrofatty replacement of right ventricular myocardium.
+
+### Cardiac Tumors
+
+Myxoma: most common primary cardiac tumor, stellate cells in myxoid stroma. Rhabdomyoma: spider cells with glycogen-laden vacuolated cytoplasm, associated with tuberous sclerosis.
+
+```
+
+:::
+-->
+

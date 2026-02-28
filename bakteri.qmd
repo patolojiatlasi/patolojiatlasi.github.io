@@ -20,6 +20,164 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 # Bacteria {#sec-bacteria}
 ```
 
+
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Bakteriyel Enfeksiyonlar - Histopatolojik Tanimlama / Bacterial Infections - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### Lepra/Cuzzam (Mycobacterium leprae)
+
+- Asidorezistan basil enfeksiyonu, ozellikle deri ile periferik sinirleri tutar
+- Spektrum hucresel immuniteye bagli degisir
+
+*Tuberkuloid form:*
+
+- Dermiste iyi sinirli granulom odaklari
+- Sinir demetleri cevresinde inflamasyon
+- Basil azdir, AFB cogu zaman negatif
+
+*Lepromatoz form:*
+
+- Dermiste diffuz histiositik infiltrasyon
+- Epidermis altinda **grenz zone** gorulebilir
+- Kopuksu makrofajlar (Virchow hucreleri)
+- Basiller coktur, **globi kumeleri** secilebilir
+
+---
+
+### Stafilokok Enfeksiyonlari
+
+- Staphylococcus aureus piyojenik inflamasyon ve belirgin doku destruksiyonu
+
+*Dusuk buyutme:*
+
+- Odaksal ve lokalize lezyonlar, apselessme egilimi belirgin
+
+*Yuksek buyutme:*
+
+- Yogun notrofil birikimi ve doku yikimi
+- Scalded skin sendromunda ayrismanin stratum granulosum duzeyinde oldugu gorulur
+
+---
+
+### Streptokok Enfeksiyonlari
+
+- Diffuz inflamasyon paterni, doku nekrozu stafilokoka gore daha az
+
+*Orta buyutme:*
+
+- Diffuz interstisyel notrofilik infiltrasyon
+- Erysipelasta yuzeyel dermal tutulum ve belirgin odem
+- Pnomokok pnomonisinde alveoller notrofil ve fibrinle dolu, lobar pnomoni paterni
+
+---
+
+### Difteri (Corynebacterium diphtheriae)
+
+- Toksin aracili epitel hasari
+- Yuzeyel psodomembran: nekrotik epitel, fibrin ve notrofillerden olusur
+- Miyokardda yagli degisiklik ve sinirlerde demiyelinizasyon
+
+---
+
+### Listeriosis (Listeria monocytogenes)
+
+- Fakultatif intrasellüler bakteri
+- En tipik patern: akut eksüdatif inflamasyon ve **mikroabse olusumu**
+- Yenidoganda multiorgan tutulum yaygin
+- Plasentada abselessme gorulebilir
+
+---
+
+### Anthrax (Bacillus anthracis)
+
+- Toksin aracili nekrotizan doku hasari
+- Genis nekroz alanlari, vaskuler hasar ve yaygin hemoraji
+- Buyuk, zincir yapan gram pozitif basiller doku icinde secilebilir
+- **Vaskulit, tromboz ve hemoraji birlikteligı** ayirt edicidir
+
+---
+
+### Kedi Tirmigi Hastaligi (Bartonella henselae)
+
+- Evrelere gore degisen lenf nodu patolojisi
+
+*Erken evre:* Reaktif follikuler hiperplazi ve sinus histiyositozu
+
+*Tipik evre:*
+
+- **Stellat gorunumlu irregüler nekroz alanlari**
+- Nekroz cevresinde epiteloid histiositler
+- Nekroz icinde notrofil infiltrasyonu ve **mikroabse odaklari** (supuratif bilesen)
+
+*Gec evre:* Fibrozis ve skarlasma
+
+- Warthin-Starry gumus boyasi ile basiller gosterilebilir
+
+---
+
+### Nocardiosis
+
+- Dallanan gram pozitif, zayif asidorezistan bakteri
+- Supuratif inflamasyon ve santral likefaksiyon
+- **Dallanan, boncuklu filamentler** secilebilir
+- Fite-Faraco pozitifliği destekleyicidir
+
+---
+
+### Pseudomonas aeruginosa
+
+- Gram negatif firsatci patojen
+- Nekrotizan pnomoni, **vaskuler invazyon ve tromboz** ile agırlasir
+- Ecthyma gangrenosum paterninde nekrotik odaklar
+- Damar duvarlarında bakteri kumeleri
+
+---
+
+### Veba (Yersinia pestis)
+
+- Lenf nodunda **masif nekrozlu bubo** paterni
+- Inflamatuvar yanit nekrozun siddetine kiyasla zayif olabilir
+- Pnömonik formda nekrotizan hemorajik pnomoni
+
+---
+
+### Sankroid (Haemophilus ducreyi)
+
+- Agrili genital ulser
+- Yuzeyel fibrinli notrofilik eksuda, altta granulasyon dokusu ve tromboz
+
+---
+
+### Granuloma inguinale (Klebsiella granulomatis)
+
+- Kronik ve agrisiz genital ulser
+- Psodoepitelyomatoz hiperplazi
+- Makrofaj sitoplazmasinda **Donovan cisimcikleri** (Giemsa ile belirginlesir)
+
+---
+
+### Lyme Hastaligi (Borrelia burgdorferi)
+
+- Deride perivaskuler lenfositik infiltrasyon ve plazma hucreleri
+- Eklemde kronik sinovit
+- Sinir sisteminde perivaskuler cuffing
+- Kalpte interstisyel lenfositik miyokardit
+- Spiroketler H&E'de cogu zaman izlenmez, ozel boyalar gerekir
+
+```
+
+```{asis, echo = (language == "EN")}
+
+This section covers bacterial infections: **Leprosy** (tuberculoid vs. lepromatous spectrum with globi), **Staphylococcal** infections (pyogenic inflammation with abscess formation), **Streptococcal** infections (diffuse neutrophilic inflammation), **Diphtheria** (toxin-mediated pseudomembrane), **Listeriosis** (microabscesses in neonates), **Anthrax** (necrotizing vasculitis with hemorrhage), **Cat Scratch Disease** (stellate necrotizing suppurative granulomas), **Nocardiosis** (branching filaments), **Pseudomonas** (necrotizing infection with vascular invasion), **Plague** (massive necrotic buboes), **Chancroid/Granuloma inguinale** (genital ulcers with characteristic features), and **Lyme Disease** (perivascular lymphocytic infiltration with plasma cells).
+
+```
+
+:::
+-->
+
+
 ```{asis, echo = language == "TR"}
 ## Helicobacter pylori {#sec-helicobacter-pylori}
 ```

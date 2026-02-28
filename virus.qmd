@@ -22,6 +22,227 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Viral Enfeksiyonlar - Histopatolojik Tanimlama / Viral Infections - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### COVID-19 (SARS-CoV-2)
+
+- ACE2 reseptoru uzerinden solunum yolu epitelini enfekte eden RNA virusu
+
+*Dusuk buyutme:*
+
+- Akciger mimarisi diffuz sekilde bozulmustur
+- Alveollerin bir kismi sivi ile dolu, bir kismi kollabe
+
+*Orta buyutme:*
+
+- Alveol bosluklarinda proteinoz odem sivisi
+- Hiyalin membranlar alveol yuzeylerinde izlenir
+
+*Yuksek buyutme:*
+
+- Tip II pnomositlerde belirgin hiperplazi
+- Kapillerlerde ve kucuk damarlarda mikrotrombusler
+- Endotel hasari belirgindir
+
+- **Tanidal ozellikler:** Diffuz alveoler hasar ile birlikte mikrotromboz egilimi
+
+---
+
+### Kizamik (Measles)
+
+- Paramyxoviridae ailesinden RNA virus enfeksiyonu
+
+*Yuksek buyutme:*
+
+- **Warthin-Finkeldey hucreleri** (multinukleer dev hucreler) karakteristiktir
+- Dev hucrelerde nukleer ve sitoplazmik inkluzyonlar gorulebilir
+
+---
+
+### Kabakulak (Mumps)
+
+- En sik parotis bezini tutar
+
+*Dusuk buyutme:*
+
+- Parotis bezinde belirgin interstisyel odem
+
+*Yuksek buyutme:*
+
+- Duktal epitelde hasar ve deskuamasyon
+- Orsitte odem, mononukleer infiltrasyon ve hemoraji
+
+---
+
+### HSV Enfeksiyonu
+
+- Mukozal epitelde cogalir ve ganglionlarda latent kalir
+
+*Yuksek buyutme:*
+
+- Multinukleer dev hucreler
+- **Cowdry tip A intranukleer inkluzyonlar**
+- Balonlasma dejenerasyonu
+
+---
+
+### Sitomegalovirus (CMV)
+
+- Immunsüpreselerde firsatci enfeksiyon yapar
+
+*Yuksek buyutme:*
+
+- **Owl eye intranukleer inkluzyon** tanisaldir
+- Sitomegali ve buyuk bazofilik inkluzyon
+
+---
+
+### Tuberkuloz
+
+- Mycobacterium tuberculosis enfeksiyonu, tipik yanit nekrotizan granulom
+
+*Dusuk buyutme:*
+
+- Noduler granulomlar gorulur
+
+*Yuksek buyutme:*
+
+- Langhans tip dev hucreler ve epiteloid histiositler
+- **Kazeifiye granulom paterni** tanisaldir
+- AFB boyalari kullanilir
+
+---
+
+### HPV Enfeksiyonu
+
+- Skuamoz epitel enfeksiyonu, dusuk risk tipler benign lezyonlar, yuksek risk tipler displazi yapar
+
+*Yuksek buyutme:*
+
+- **Koilositler** tipiktir (nukleer buyume ve perinukleer halo)
+- p16 boyanmasi yuksek risk iliskisini destekler
+
+---
+
+### Poliovirus (Poliomyelit)
+
+- Spinal kord on boynuz motor noronlarini hedef alir
+
+*Yuksek buyutme:*
+
+- Motor noronlarda dejenerasyon, kromatoliz ve nukleer piknoz
+- Sekonder olarak iskelet kasinda denervasyon atrofisi
+
+---
+
+### Bati Nil Virusu
+
+- Flavivirus grubundan artropod kaynakli RNA virusu
+
+*Yuksek buyutme:*
+
+- **Noronofaji** dikkati ceker
+- Perivaskuler mononukleer infiltrasyon ve mikroglial noduller
+
+---
+
+### Viral Hemorajik Atesler
+
+- Multisistem tutulumlu, yaygin vaskuler hasar ve kapiller kacak ile karakterize
+
+*Yuksek buyutme:*
+
+- Karacigerde hepatoselluler nekroz
+- Dalakta lenfosit apoptozu
+- Hemoraji belirgin, inflamasyon sinirli
+
+---
+
+### Zika Virusu
+
+- Fetal beyinde kortikal hipoplazi ve ventrikülomegali
+- Periventrikuler kalsifikasyon odaklari
+- Noronal dejenerasyon ve noron kaybi
+
+---
+
+### Dengue
+
+- Yaygin kapiller hasar, kanama ve sok ile seyreder
+- Karacigerde hepatoselluler nekroz ve yaglanma
+
+---
+
+### Mpox
+
+*Yuksek buyutme:*
+
+- **Guarnieri cisimcikleri** (intrasitoplazmik inkluzyon) tipiktir
+- Keratinositlerde balonlasma ve multinukleasyon
+
+---
+
+### Varicella Zoster Virus (VZV)
+
+- Primer enfeksiyon varicella, reaktivasyon zoster
+
+*Yuksek buyutme:*
+
+- Intranukleer inkluzyonlu epitel hucreleri
+- Ganglion hucrelerinde herpetik intranukleer inkluzyon ve nekroz
+
+---
+
+### Epstein-Barr Virusu (EBV)
+
+- Latensi cogunlukla B hucrelerinde episomal formda surdurur
+
+*Dusuk buyutme:*
+
+- Lenf nodunda parakortikal genisleme belirgindir
+
+*Yuksek buyutme:*
+
+- Periferik kanda genis sitoplazmalı atipik lenfositler
+- EBER in situ hibridizasyon taniyi destekler
+
+---
+
+### Kaposi Sarkom Herpesvirusu (KSHV/HHV-8)
+
+- Dermiste yarik benzeri vaskuler bosluklar ve spindle hucre proliferasyonu
+- HHV-8 pozitifliği taniyi destekler
+
+---
+
+### HIV
+
+*Dusuk buyutme:*
+
+- Lenf nodunda erken evrede follikuler hiperplazi
+- Ileri evrede lenfoid deplesyon ve mimari kayip
+
+*Orta buyutme:*
+
+- Germinal merkezlerde duzensizlesme ve follikul lizi
+- Gec evrede burnt-out lenf nodu paterni
+
+```
+
+```{asis, echo = (language == "EN")}
+
+This section covers major viral infections with their histopathological features: **COVID-19** (diffuse alveolar damage with microthrombosis), **Measles** (Warthin-Finkeldey giant cells), **HSV** (Cowdry type A inclusions), **CMV** (owl-eye inclusions), **Tuberculosis** (caseating granulomas), **HPV** (koilocytosis), **Poliovirus** (anterior horn motor neuron damage), **West Nile** (neuronophagia), **Viral hemorrhagic fevers** (vascular damage with minimal inflammation), **Zika** (fetal cortical hypoplasia), **VZV** (ganglionitis), **EBV** (paracortical expansion), **HHV-8** (slit-like vascular spaces), and **HIV** (follicular hyperplasia progressing to lymphoid depletion).
+
+```
+
+:::
+-->
+
+
+
 ```{asis}
 ## Herpes Simplex Virus (HSV) {#sec-herpes-simplex-virus}
 ```

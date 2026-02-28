@@ -23,6 +23,91 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Safra Yolları ve Safra Kesesi Hastalıkları - Histopatolojik Tanımlama / Biliary and Gallbladder Diseases - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### Biliyer Atrezi
+
+Yenidoğanda ekstrahepatik safra yollarının obliterasyonu ile karakterizedir.
+
+- *Düşük büyütme:* Portal alanlar genişlemiştir.
+- *Orta büyütme:* Safra yolu proliferasyonu ve duktüler reaksiyon görülür.
+- *Yüksek büyütme:* Portal fibrozis ve kolestaz izlenir.
+
+---
+
+### Kolelitiyazis
+
+Safra taşları ile karakterizedir, histolojik bulgular genellikle sekonderdir. Mukozada kronik irritasyona bağlı inflamasyon olabilir. Taşın kendisi histolojik kesitte çoğunlukla görülmez.
+
+---
+
+### Akut Kolesistit
+
+- *Düşük büyütme:* Safra kesesi duvarı kalın ve ödemlidir.
+- *Orta büyütme:* Duvar boyunca belirgin nötrofil infiltrasyonu vardır.
+- *Yüksek büyütme:* Mukozal ülserasyon ve nekroz görülebilir. Tanı için muskularis propriada nötrofil varlığı önemlidir.
+
+---
+
+### Kronik Kolesistit
+
+- *Düşük büyütme:* Duvar kalınlaşmış ve fibrotiktir.
+- *Orta büyütme:* Lenfosit ve plazma hücrelerinden oluşan kronik inflamasyon vardır.
+- *Yüksek büyütme:* Rokitansky-Aschoff sinüsleri tipiktir.
+
+---
+
+### Asendan Kolanjit
+
+- *Düşük büyütme:* Portal alanlarda inflamasyon izlenir.
+- *Orta büyütme:* Safra kanalı duvarında nötrofil infiltrasyonu vardır.
+- *Yüksek büyütme:* Mikroabse odakları görülebilir.
+
+---
+
+### Safra Taşı İleusu
+
+Safra taşının barsakta mekanik obstrüksiyon oluşturmasıdır. Sekonder barsak dilatasyonu ve iskemi bulguları görülür.
+
+---
+
+### Safra Kesesi Karsinomu
+
+Çoğu zaman kronik kolesistit zemininde gelişir.
+
+- *Düşük büyütme:* İnvaziv tümör kitlesi izlenir.
+- *Orta büyütme:* Glandüler veya solid tümör alanları vardır.
+- *Yüksek büyütme:* Belirgin sitolojik atipi ve stromal invazyon görülür. Porselen safra kesesi önemli bir risk faktörüdür.
+
+```
+
+```{asis, echo = (language == "EN")}
+
+### Biliary Atresia
+
+Characterized by obliteration of extrahepatic bile ducts in neonates. Portal areas are expanded with bile duct proliferation, ductular reaction, portal fibrosis and cholestasis.
+
+### Acute Cholecystitis
+
+Thickened, edematous gallbladder wall with prominent neutrophilic infiltration. Mucosal ulceration and necrosis may be seen.
+
+### Chronic Cholecystitis
+
+Thickened, fibrotic wall with chronic lymphoplasmacytic inflammation. Rokitansky-Aschoff sinuses are typical.
+
+### Gallbladder Carcinoma
+
+Often develops in a background of chronic cholecystitis. Glandular or solid tumor areas with significant cytologic atypia and stromal invasion.
+
+```
+
+:::
+-->
+
+
 ```{asis, echo = (language == "TR")}
 ## Safra Kesesi Adenomyom {#sec-safra-kesesi-adenomyom}
 ```

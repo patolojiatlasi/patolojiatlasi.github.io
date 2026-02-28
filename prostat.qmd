@@ -25,8 +25,312 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 # Prostate {#sec-prostate}
 ```
 
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Erkek Genital Sistem ve Prostat - Histopatolojik Tanımlama / Male Genital System and Prostate - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### A) Konjenital ve Gelişimsel Bozukluklar
+
+**Hipospadias**
+
+- Üretral açıklığın ventral yerleşimi, esas olarak klinik ve cerrahi bir anomalidir
+- Spesifik tanısal bir mikroskobik patern beklenmez
+- Sekonder inflamasyon veya fibrozis görülebilir
+
+---
+
+**Epispadias**
+
+- Üretral açıklığın dorsal yerleşimi ile karakterizedir
+- Nonspesifik bulgular
+- Tanı histolojiyle değil anatomik yerleşim ile konur
+
+---
+
+### B) Enfeksiyöz ve Enflamatuvar Lezyonlar
+
+**Condyloma Acuminatum**
+
+- Düşük riskli HPV tipleri ile ilişkili benign papiller lezyon
+
+*Düşük büyütme:*
+
+- Ekzofitik, papiller çıkıntılar
+
+*Orta büyütme:*
+
+- Fibrovasküler papiller saplar
+
+*Yüksek büyütme:*
+
+- Koilositoz yani perinükleer halo ve nükleer düzensizlik
+- Epitel maturasyonu korunmuştur
+
+**Tanısal ipucu:** Koilositoz ve papiller mimari birlikteliği HPV lehinedir.
+
+---
+
+**Lymphogranuloma Venereum**
+
+- Chlamydia trachomatis ile ilişkili kronik enfeksiyon
+
+*Düşük büyütme:*
+
+- Lenf nodu büyümesi ve mimari bozulma
+
+*Orta büyütme:*
+
+- Granülomatöz inflamasyon
+
+*Yüksek büyütme:*
+
+- Nekroz odakları
+- Kronik inflamatuvar hücre infiltrasyonu
+
+---
+
+**Orşit**
+
+- Testisin inflamasyonu. Viral nedenler arasında Kabakulak virüsü yer alabilir.
+
+*Düşük büyütme:*
+
+- Testiküler parankimde ödem
+
+*Orta büyütme:*
+
+- İnflamatuvar hücre infiltrasyonu
+
+*Yüksek büyütme:*
+
+- Seminifer tübül hasarı
+- Germ hücre kaybı
+
+---
+
+### C) Vasküler ve Akut Acil Durumlar
+
+**Varikosel**
+
+- Pampiniform pleksus venlerinin dilatasyonu
+- Dilate, ince duvarlı venler
+- Kapak yetmezliğine ait değişiklikler
+- Testiküler parankim genellikle sekonder etkilenir
+
+---
+
+**Testiküler Torsiyon**
+
+- Akut venöz ve arteriyel obstrüksiyon sonucu iskemi ve nekroz gelişir
+
+*Düşük büyütme:*
+
+- Parankimde soluk, infarkt benzeri alanlar
+
+*Orta büyütme:*
+
+- Hemoraji ve koagülasyon nekrozu
+
+*Yüksek büyütme:*
+
+- Germ hücre nekrozu ve kaybı
+
+**Tanısal ipucu:** Akut ağrı öyküsü ile birlikte yaygın hemorajik nekroz görülmesi tipiktir.
+
+---
+
+**Hidrosel**
+
+- Tunica vaginalis içinde seröz sıvı birikimi
+- Spesifik parankimal patoloji yoktur
+- Uzun süreli olgularda sekonder bası değişiklikleri olabilir
+
+---
+
+### D) Testiküler Tümörler
+
+**Germ Hücreli Tümörler**
+
+- Testisin en sık malign tümör grubudur
+
+*Düşük büyütme:*
+
+- Solid, iyi sınırlı kitle
+
+*Orta büyütme:*
+
+- Alt tipe özgü büyüme paternleri
+
+*Yüksek büyütme:*
+
+- Belirgin nükleer atipi ve mitozlar
+- Özellikle nonseminomatöz tümörlerde nekroz
+
+**Alt tipler:**
+
+- **Seminoma:** Büyük, berrak sitoplazmalı hücreler; lenfositten zengin fibrotik septalar
+- **Embriyonel karsinom:** Düzensiz, anaplastik hücreler; agresif ve infiltratif büyüme paterni
+- **Yolk sac tümörü:** Retiküler büyüme paterni; Schiller-Duval cisimcikleri tanısaldır
+- **Koryokarsinom:** Yaygın hemoraji ve nekroz; sitotrofoblast ve sinsityotrofoblast hücreleri birlikte görülür
+- **Teratom:** Birden fazla germ yaprağına ait diferansiye dokular içerir
+
+---
+
+**Seks Kord-Stromal Tümörler**
+
+- Leydig veya Sertoli hücre kökenli tümörlerdir
+
+*Düşük büyütme:*
+
+- İyi sınırlı kitle
+
+*Orta büyütme:*
+
+- Solid ve nispeten uniform hücresel patern
+
+*Yüksek büyütme:*
+
+- Leydig hücreli tümörde Reinke kristalleri tanısal ipucudur
+
+---
+
+**Testiküler Lenfoma**
+
+- Özellikle ileri yaş erkeklerde testisin en sık malign tümörüdür ve çoğu olgu diffüz büyük B hücreli lenfoma spektrumundadır
+
+*Düşük büyütme:*
+
+- Testiküler parankimi diffüz şekilde dolduran infiltrasyon izlenir
+
+*Orta büyütme:*
+
+- Neoplastik hücreler seminifer tübüller arasına yayılır ve tübül yapıları sıkışmış görünür
+
+*Yüksek büyütme:*
+
+- Monoton, atipik lenfoid hücre populasyonu
+- Mitotik aktivite artmış olabilir
+
+---
+
+### E) Prostat Patolojileri
+
+**Akut Prostatit**
+
+- Çoğunlukla bakteriyel enfeksiyona bağlı akut inflamasyondur
+
+*Düşük büyütme:*
+
+- Glandlar arası alanda belirgin inflamasyon dikkati çeker
+
+*Orta büyütme:*
+
+- Nötrofil ağırlıklı inflamatuvar infiltrasyon izlenir
+
+*Yüksek büyütme:*
+
+- Mikroabse oluşumları görülebilir
+
+---
+
+**Kronik Prostatit**
+
+- Uzun süreli inflamasyon ile karakterizedir ve bazen asemptomatik olabilir
+
+*Düşük büyütme:*
+
+- Glandüler mimari genellikle korunmuştur
+
+*Orta büyütme:*
+
+- Lenfosit ve plazma hücrelerinden zengin kronik inflamasyon
+
+*Yüksek büyütme:*
+
+- Stromada fibrozis gelişebilir
+
+---
+
+**Benign Prostatik Hiperplazi (BPH)**
+
+- Transizyonel zonda glandüler ve stromal hiperplazi sonucu nodüler büyüme olur
+
+*Düşük büyütme:*
+
+- Nodüler büyüme paterni izlenir
+
+*Orta büyütme:*
+
+- Genişlemiş ve kıvrımlı gland yapıları dikkati çeker
+
+*Yüksek büyütme:*
+
+- Çift sıralı epitel korunmuştur ve bazal hücre tabakası seçilir
+
+---
+
+**Prostat Adenokarsinomu**
+
+- Prostatın en sık malign tümörüdür ve çoğunlukla periferik zondan köken alır
+
+*Düşük büyütme:*
+
+- Küçük, düzensiz ve sıkışık bez yapıları izlenir
+
+*Orta büyütme:*
+
+- İnfiltratif büyüme paterni vardır ve normal gland mimarisi kaybolur
+
+*Yüksek büyütme:*
+
+- Tek sıralı epitel ile döşeli küçük bezler
+- Belirgin nükleoller
+
+**Tanısal ipuçları:**
+
+- Bazal hücre tabakasının yokluğu
+- Perinöral invazyon varlığı
+- AMACR pozitifliği destekleyici bulgudur
+
+---
+
+### F) Skuamöz Hücreli Karsinom
+
+- Kronik irritasyon veya bazı olgularda HPV ilişkisi söz konusu olabilir
+
+*Düşük büyütme:*
+
+- Solid veya ülseratif kitle görünümü
+
+*Orta büyütme:*
+
+- Keratinizasyon alanları dikkati çeker
+
+*Yüksek büyütme:*
+
+- İntersellüler köprüler izlenir
+- Keratin incileri görülebilir
+
+```
+
 ```{asis, echo = (language == "EN")}
-## benign prostate hyperplasia {#sec-benign-prostate-hyperplasia} 
+
+### Male Genital System and Prostate - Summary
+
+This section covers the histopathological features of the male genital system and prostate. **Congenital anomalies** (hypospadias, epispadias) lack specific histologic patterns. **Infectious lesions** include condyloma acuminatum (HPV-related koilocytosis), lymphogranuloma venereum (granulomatous inflammation), and orchitis. **Vascular emergencies** such as testicular torsion show hemorrhagic necrosis.
+
+**Testicular tumors** are divided into germ cell tumors (seminoma with clear cells and fibrous septa; embryonal carcinoma; yolk sac tumor with Schiller-Duval bodies; choriocarcinoma; teratoma), sex cord-stromal tumors (Reinke crystals in Leydig cell tumors), and testicular lymphoma (diffuse large B-cell type in elderly men).
+
+**Prostate pathologies** include acute prostatitis (neutrophilic inflammation with microabscesses), chronic prostatitis (lymphoplasmacytic infiltrate with stromal fibrosis), BPH (nodular growth with double-layered epithelium), and prostatic adenocarcinoma (small infiltrative glands, loss of basal cell layer, prominent nucleoli, perineural invasion, AMACR positivity). Squamous cell carcinoma of the penis shows keratin pearls and intercellular bridges.
+
+```
+
+:::
+-->
+
+```{asis, echo = (language == "EN")}
+## benign prostate hyperplasia {#sec-benign-prostate-hyperplasia}
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}

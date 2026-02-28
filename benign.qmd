@@ -23,6 +23,102 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Benign Neoplazmlar - Histopatolojik Tanimlama / Benign Neoplasms - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### Neoplazi - Genel Bakis
+
+- Neoplazi, hucrelerin kontrolsuz, otonom ve klonal proliferasyonu ile karakterize patolojik surecdir
+- Neoplastik proliferasyon fizyolojik buyume sinyallerinden bagimsizdir
+- Iki temel bilesen: **Parankim** (neoplastik hucreler) ve **Stroma** (bag dokusu, damarlar)
+
+---
+
+### Benign Neoplazmlarin Histopatolojik Ozellikleri
+
+- Iyi diferansiye hucrelerden olusur
+- Koken aldiklari normal dokuya morfolojik olarak benzer
+- Genellikle yavas buyur
+- Invazyon ve metastaz gostermez
+- Hucreler uniform, nukleer yapi duzenli
+- Nukleer-sitoplazmik oran normal
+- Mitozlar nadir ve normal tiptedir
+- Mimari yapi korunmustur
+- Cogu benign tumor iyi sinirli veya kapsulludur
+
+---
+
+### Benign Tumor Tipleri
+
+**Adenom**
+
+- Bez epiteli kokenli benign neoplazm
+- Solid, tubuler, trabekuler veya papiller patern gosterebilir
+- Fonksiyonel olabilir (hormon salgiliyan adenomlar)
+- Ornek: Tiroid follikuler adenom, adrenal adenom
+
+**Papillom**
+
+- Epitel kokenli benign tumor
+- Fibrovaskular stroma iceren parmak benzeri cikintilar
+- Ornek: Uriner mesane papillomu
+
+**Polip**
+
+- Makroskopik tanimlayici terim, histolojik tani degildir
+- Mukoza yuzeyinden lumene dogru uzanan cikinti
+- Neoplastik (adenomatoz) veya non-neoplastik (hiperplastik, inflamatuvar) olabilir
+
+**Kistadenom**
+
+- Bez epiteli kokenli, kistik yapida benign neoplazm
+- Seroz veya musinoz tipleri vardir
+
+**Hibernom**
+
+- Kahverengi yag dokusundan koken alan nadir benign tumor
+
+**Teratom**
+
+- Germ hucre kokenli, en az iki embriyonik germ yapragi icerir
+- Matur (benign) veya immatur (malign potansiyelli) olabilir
+
+**Hamartom**
+
+- Normal dokuların duzensiz ama olgun proliferasyonu
+- Gercek neoplazm degildir
+- Ornek: Akciger hamartomu
+
+**Koristom (Ektopi)**
+
+- Normal dokunun anormal anatomik lokalizasyonda bulunmasi
+- Neoplazm degildir
+- Ornek: Dil kokunde pankreas dokusu
+
+---
+
+### Mixed Tumorler
+
+- Tek klonal neoplaziden koken almasına ragmen birden fazla hucresel farklilasma paterni gosterir
+- En tipik ornek: **Pleomorfik adenom**
+- Ayni tumor icinde epitelyal ve mezenkimal benzeri alanlar birlikte izlenir
+- Myksoid stroma, kikirdak veya kemik benzeri alanlar gorulebilir
+
+```
+
+```{asis, echo = (language == "EN")}
+
+Benign neoplasms are characterized by well-differentiated cells resembling their tissue of origin, uniform nuclear features, normal nuclear-to-cytoplasmic ratio, rare mitoses, preserved architecture, and well-defined/encapsulated margins. Types include adenoma (glandular), papilloma (epithelial with fibrovascular cores), polyps (macroscopic term), cystadenoma (cystic glandular), hibernoma (brown fat), teratoma (germ cell-derived), hamartoma (disorganized normal tissue), choristoma (ectopic normal tissue), and mixed tumors (e.g., pleomorphic adenoma).
+
+```
+
+:::
+-->
+
+
+
 
 
 ```{asis, echo = (language == "TR")}

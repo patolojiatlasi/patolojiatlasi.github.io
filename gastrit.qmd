@@ -30,6 +30,102 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Gastrit Tipleri - Histopatolojik Tanımlama / Gastritis Types - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### Helicobacter pylori Gastriti
+
+- *Düşük büyütme:* Antrum ağırlıklı kronik inflamasyon paterni.
+- *Orta büyütme:* Lenfoid agregatlar ve folliküller görülebilir.
+- *Yüksek büyütme:* Foveol çevresinde kronik inflamasyon ve aktif komponent birlikte bulunur. Organizma yüzey mukusunda aranır.
+- *Tanısal vurgu:* Lenfoid follikül varlığı ve aktif gastrit birlikteliği tipiktir.
+
+---
+
+### Otoimmün Atrofik Gastrit
+
+- *Düşük büyütme:* Korpus ve fundus ağırlıklı tutulum. Mukozada incelme.
+- *Orta büyütme:* Gland kaybı ve metaplazi alanları.
+- *Yüksek büyütme:* Parietal ve chief hücre kaybı belirgindir. İnflamasyon derin bez bölgelerinde yoğunlaşır. Nötrofiller genellikle belirgin değildir.
+- *Ek bulgu:* ECL hücre hiperplazisi görülebilir.
+
+---
+
+### Eozinofilik Gastrit
+
+- *Düşük büyütme:* Yamalı mukozal ödem ve inflamasyon.
+- *Orta büyütme:* Lamina propria ve bazen epitelde eozinofil artışı.
+- *Yüksek büyütme:* Eozinofiller baskın hücre tipidir.
+- *Not:* Yaygın ve yoğun eozinofil paterni tanısal açıdan önemlidir.
+
+---
+
+### Lenfositik Gastrit
+
+- *Düşük büyütme:* Mukozada hafif diffüz inflamatuar görünüm olabilir.
+- *Orta büyütme:* Epitel içinde artmış lenfositler dikkat çeker.
+- *Yüksek büyütme:* İntraepitelyal lenfositoz belirgindir.
+
+---
+
+### Granülomatöz Gastrit
+
+- *Düşük büyütme:* Yamalı inflamasyon alanları.
+- *Orta büyütme:* Lamina propriada granülom odakları aranır.
+- *Yüksek büyütme:* Non-kazeifiye epiteloid histiosit granülomları görülebilir.
+- *Tuzak:* Yabancı cisim reaksiyonu ile ilişkili reaktif granülomlar ayırıcı tanıda düşünülmelidir.
+```
+
+```{asis, echo = (language == "EN")}
+
+### Helicobacter pylori Gastritis
+
+- *Low power:* Antrum-predominant chronic inflammation pattern.
+- *Medium power:* Lymphoid aggregates and follicles may be seen.
+- *High power:* Chronic inflammation and active component coexist around foveolae. The organism is searched for in the surface mucus.
+- *Diagnostic emphasis:* The combination of lymphoid follicles and active gastritis is typical.
+
+---
+
+### Autoimmune Atrophic Gastritis
+
+- *Low power:* Corpus and fundus-predominant involvement. Mucosal thinning.
+- *Medium power:* Gland loss and areas of metaplasia.
+- *High power:* Parietal and chief cell loss is prominent. Inflammation concentrates in deep gland areas. Neutrophils are usually not prominent.
+- *Additional finding:* ECL cell hyperplasia may be seen.
+
+---
+
+### Eosinophilic Gastritis
+
+- *Low power:* Patchy mucosal edema and inflammation.
+- *Medium power:* Eosinophil increase in lamina propria and sometimes in epithelium.
+- *High power:* Eosinophils are the predominant cell type.
+- *Note:* Widespread and dense eosinophil pattern is diagnostically important.
+
+---
+
+### Lymphocytic Gastritis
+
+- *Low power:* Mild diffuse inflammatory appearance in the mucosa.
+- *Medium power:* Increased lymphocytes within the epithelium are notable.
+- *High power:* Intraepithelial lymphocytosis is prominent.
+
+---
+
+### Granulomatous Gastritis
+
+- *Low power:* Patchy areas of inflammation.
+- *Medium power:* Granuloma foci are searched for in the lamina propria.
+- *High power:* Non-caseating epithelioid histiocyte granulomas may be seen.
+- *Pitfall:* Reactive granulomas associated with foreign body reaction should be considered in the differential diagnosis.
+```
+
+:::
+-->
+
 
 ```{asis, echo = (language == "TR")}
 

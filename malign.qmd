@@ -23,9 +23,118 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "EN")}
 
-# Features of Malignancy  {#sec-features-of-malignancy} 
+# Features of Malignancy  {#sec-features-of-malignancy}
 
 ```
+
+
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Malign Tumor Ozellikleri - Histopatolojik Tanimlama / Features of Malignancy - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### Malign Neoplazmlar
+
+- Invazyon ve metastaz kapasitesine sahiptir
+- Diferansiyasyon derecesi degiskendir
+- Histolojik olarak atipi ve mimari bozulma gosterir
+
+---
+
+### Malign Tumor Tipleri
+
+**Skiroz Kanser**
+
+- Yogun desmoplastik stroma iceren malign tumor
+- Sert, fibrotik yapilidır
+- Ornek: Mide ve meme skiroz karsinomlari
+
+**Sarkom**
+
+- Mezenkimal dokulardan (kemik, kas, yag, damar) koken alan malign tumor
+- Hematojen yayilim egilimli
+- Ornek: Osteosarkom, liposarkom
+
+**Karsinom**
+
+- Epitel kokenli malign tumor, en sik gorulen malign tumor grubu
+- Lenfatik yayilim egilimi
+- Alt tipler: Adenokarsinom, skuamoz hucreli karsinom
+
+**Blastom**
+
+- Embriyonik (ilkel) hucrelerden koken alan malign tumor
+- Cocukluk caginda sik
+- Ornek: Nefroblastom (Wilms tumoru), retinoblastom
+
+---
+
+### Diferansiyasyon ve Anaplazi
+
+- Diferansiyasyon: neoplastik hucrelerin koken aldiklari normal hücrelere ne kadar benzedigi
+- Iyi diferansiye tumorler: normal dokuya benzeyen hücreler ve korunmus mimari
+- Kotu diferansiye / anaplastik tumorler: belirgin yapi bozulmasi
+
+**Anaplazinin Histopatolojik Bulgulari:**
+
+- Belirgin **pleomorfizm** (hucre ve cekirdek boyut/sekil farkliligi)
+- Artmis **nukleer-sitoplazmik oran**
+- Hiperokromatik, duzensiz nukleuslar
+- Belirgin nükleoller
+- Artmis **mitotik aktivite**
+- **Atipik mitoz figurleri** (bizar, tripolar vb.)
+- Tumor dev hucreleri
+- **Koagulatif nekroz** alanlari
+
+---
+
+### Mimari Bozulma
+
+- Hucre polaritesi kaybolur
+- Glanduler yapilar duzensizlesir
+- Solid alanlar artar
+- Normal doku sinirlari silinir
+
+---
+
+### Invazyon
+
+- Benign-malign ayriminda en guvenilir histopatolojik kriter
+
+**Invazyonun mikroskobik gostergeleri:**
+
+- Bazal membranin asilmasi
+- Tumor hucrelerinin stromaya infiltrasyonu
+- Desmoplastik stromal reaksiyon
+- **Lenfovaskuler invazyon**
+- **Perinoral invazyon**
+
+---
+
+### Buyume Sekli ve Sinirlar
+
+- **Benign tumorler:** Itici buyume, iyi sinirli, siklikla kapsullu
+- **Malign tumorler:** Infiltratif buyume, duzensiz sinirlar, psodokapsul olabilir ancak mikroskobik invazyon icerir
+
+---
+
+### Metastaz
+
+- Primer tumorle anatomik surekliligi olmayan odaklarda tumor hucrelerinin saptanmasi
+- Malignitenin kesin gostergesidir
+- Baslica yollar: lenfatik yayilim, hematojen yayilim, seroz bosluklara yayilim
+
+```
+
+```{asis, echo = (language == "EN")}
+
+Malignant neoplasms are characterized by invasion and metastasis capacity. Key histopathological features of malignancy include anaplasia (pleomorphism, increased nuclear-to-cytoplasmic ratio, hyperchromatic nuclei, atypical mitoses, tumor giant cells, coagulative necrosis), architectural disruption (loss of polarity, irregular glands, solid growth), and invasion (basement membrane breach, desmoplastic stromal reaction, lymphovascular invasion, perineural invasion). Malignant tumor types include carcinoma (epithelial), sarcoma (mesenchymal), and blastoma (embryonic). Metastasis via lymphatic, hematogenous, or serosal routes is the definitive marker of malignancy.
+
+```
+
+:::
+-->
+
 
 
 ```{asis, echo = (language == "TR")}

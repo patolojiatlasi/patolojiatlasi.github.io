@@ -20,10 +20,205 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{asis, echo = (language == "EN")}
-# Pathology of Stomach {#sec-pathology-of-stomach} 
+# Pathology of Stomach {#sec-pathology-of-stomach}
 ```
 
 
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Mide Hastalıkları - Histopatolojik Tanımlama / Stomach Diseases - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### Akut Gastrit ve Akut Eroziv Hemorajik Gastrit
+
+- *Düşük büyütme:* Yüzey bütünlüğü bozulmuştur. Erozyonlar ve mukozal kanama alanları görülebilir.
+- *Orta büyütme:* Lamina propriada ödem ve konjesyon. Yüzey epiteli altında hasar odakları.
+- *Yüksek büyütme:* Aktif inflamasyonun temel kriteri nötrofillerin epitel içine veya bez lümenine girmesidir. Pit absesi oluşabilir.
+- *İpucu:* Akut gastrit yerine "aktif gastrit" terimi histolojik olarak daha doğrudur.
+
+---
+
+### Peptik Ülser
+
+Mikroskopta ülser tabanı katmanlı yapı gösterir:
+
+- Yüzeyde nekrotik debris bulunur
+- Altında akut inflamasyon tabakası yer alır
+- Daha derinde granülasyon dokusu görülür
+- En derinde fibrozis ve skar dokusu bulunur
+
+---
+
+### Akut Stres Ülserleri
+
+- *Düşük büyütme:* Çoklu ve yüzeyel ülserler. Çevre mukoza nispeten korunmuştur.
+- *Orta büyütme:* Yüzey nekrozu ve akut kanama.
+- *Yüksek büyütme:* Kronik ülserlerdeki gibi belirgin skarlaşma yoktur.
+
+---
+
+### Zollinger-Ellison Sendromu
+
+- Histolojik olarak peptik ülser morfolojisi izlenir. Spesifik tanısal bir mukoza paterni yoktur.
+
+---
+
+### Ménétrier Hastalığı
+
+- *Düşük büyütme:* Belirgin mukozal kalınlaşma ve geniş rugae.
+- *Orta büyütme:* Foveoler hiperplazi.
+- *Yüksek büyütme:* Uzamış ve kıvrımlı bez yapıları. Kistik dilatasyon alanları.
+
+---
+
+### Gastrik Polipler
+
+**Hiperplastik Polip:**
+
+- İyi sınırlı mukozal çıkıntı. Foveoler hiperplazi ve stromal ödem. Kistik dilate bezler ve inflamasyon.
+
+**Fundik Gland Polipi:**
+
+- Korpus ve fundusta küçük polipler. Kistik genişlemiş bez yapıları. Parietal ve chief hücrelerle döşeli kistik bezler.
+
+**Gastrik Adenom:**
+
+- Glandüler polipoid lezyon. Displastik bez yapıları. Nükleer hiperkromazi ve psödostratifikasyon. İnvazyon mutlaka araştırılmalıdır.
+
+---
+
+### Mide Adenokarsinomu
+
+- *Düşük büyütme:* Mukozayı aşan invaziv büyüme.
+- *Orta büyütme:* Düzensiz glandüler yapılar veya diffüz infiltrasyon.
+- *Yüksek büyütme:* Desmoplazi ve belirgin sitolojik atipi.
+
+**İntestinal tip:** Daha düzenli gland yapıları.
+
+**Diffüz tip:** Kohezyon kaybı gösteren tek hücre infiltrasyonu. Signet ring hücreler görülebilir.
+
+---
+
+### GİS Lenfomaları
+
+- *Düşük büyütme:* Mukozada diffüz lenfoid infiltrasyon.
+- *Orta büyütme:* Glandlar arasında infiltrasyon ve mimari bozulma.
+- *Yüksek büyütme:* Monoton lenfoid hücre popülasyonu. Lenfoepitelyal lezyonlar görülebilir.
+
+---
+
+### Nöroendokrin Tümör
+
+- *Düşük büyütme:* Submukozal nodül.
+- *Orta büyütme:* Ada veya trabeküler büyüme paterni.
+- *Yüksek büyütme:* Monoton hücreler ve "tuz-biber" kromatin paterni.
+
+---
+
+### GIST (Gastrointestinal Stromal Tümör)
+
+- *Düşük büyütme:* Submukozal veya muskularis propria kökenli kitle.
+- *Orta büyütme:* İğsi hücre demetleri veya epiteloid hücre adacıkları.
+- *Yüksek büyütme:* Mitotik aktivite, hücresellik ve atipi değerlendirilir.
+```
+
+```{asis, echo = (language == "EN")}
+
+### Acute Gastritis and Acute Erosive Hemorrhagic Gastritis
+
+- *Low power:* Surface integrity is disrupted. Erosions and mucosal hemorrhage areas may be seen.
+- *Medium power:* Edema and congestion in lamina propria. Foci of injury beneath surface epithelium.
+- *High power:* The key criterion for active inflammation is neutrophils entering the epithelium or gland lumen. Pit abscesses may form.
+- *Clue:* The term "active gastritis" is histologically more accurate than "acute gastritis."
+
+---
+
+### Peptic Ulcer
+
+The ulcer base shows a layered structure microscopically:
+
+- Necrotic debris on the surface
+- Acute inflammation layer beneath
+- Granulation tissue deeper
+- Fibrosis and scar tissue at the base
+
+---
+
+### Acute Stress Ulcers
+
+- *Low power:* Multiple and superficial ulcers. Surrounding mucosa is relatively preserved.
+- *Medium power:* Surface necrosis and acute hemorrhage.
+- *High power:* No prominent scarring as seen in chronic ulcers.
+
+---
+
+### Zollinger-Ellison Syndrome
+
+- Histologically shows peptic ulcer morphology. No specific diagnostic mucosal pattern exists.
+
+---
+
+### Ménétrier Disease
+
+- *Low power:* Marked mucosal thickening and prominent rugae.
+- *Medium power:* Foveolar hyperplasia.
+- *High power:* Elongated and tortuous gland structures. Areas of cystic dilatation.
+
+---
+
+### Gastric Polyps
+
+**Hyperplastic Polyp:**
+
+- Well-circumscribed mucosal protrusion. Foveolar hyperplasia and stromal edema. Cystically dilated glands and inflammation.
+
+**Fundic Gland Polyp:**
+
+- Small polyps in corpus and fundus. Cystically dilated gland structures. Cystic glands lined by parietal and chief cells.
+
+**Gastric Adenoma:**
+
+- Glandular polypoid lesion. Dysplastic gland structures. Nuclear hyperchromasia and pseudostratification. Invasion must always be investigated.
+
+---
+
+### Gastric Adenocarcinoma
+
+- *Low power:* Invasive growth beyond the mucosa.
+- *Medium power:* Irregular glandular structures or diffuse infiltration.
+- *High power:* Desmoplasia and prominent cytologic atypia.
+
+**Intestinal type:** More organized gland structures.
+
+**Diffuse type:** Single-cell infiltration showing loss of cohesion. Signet ring cells may be seen.
+
+---
+
+### GI Lymphomas
+
+- *Low power:* Diffuse lymphoid infiltration in the mucosa.
+- *Medium power:* Infiltration between glands with architectural disruption.
+- *High power:* Monotonous lymphoid cell population. Lymphoepithelial lesions may be seen.
+
+---
+
+### Neuroendocrine Tumor
+
+- *Low power:* Submucosal nodule.
+- *Medium power:* Insular or trabecular growth pattern.
+- *High power:* Monotonous cells with "salt-and-pepper" chromatin pattern.
+
+---
+
+### GIST (Gastrointestinal Stromal Tumor)
+
+- *Low power:* Mass originating from submucosa or muscularis propria.
+- *Medium power:* Spindle cell fascicles or epithelioid cell islands.
+- *High power:* Mitotic activity, cellularity, and atypia are assessed.
+```
+
+:::
+-->
 
 
 ```{asis, echo = (language == "TR")}

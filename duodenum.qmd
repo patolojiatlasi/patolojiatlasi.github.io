@@ -23,6 +23,63 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Duodenum ve İnce Barsak Hastalıkları - Histopatolojik Tanımlama / Duodenum and Small Bowel Diseases - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### Çölyak Hastalığı
+
+- *Düşük büyütme:* Villus mimarisi bozulmuş ve kısalmış olabilir.
+- *Orta büyütme:* Villus atrofisi ve kript hiperplazisi birlikte görülür.
+- *Yüksek büyütme:* İntraepitelyal lenfosit sayısı artmıştır.
+
+---
+
+### Whipple Hastalığı
+
+- *Düşük büyütme:* Villuslar genişlemiş ve kalınlaşmış görünür.
+- *Orta büyütme:* Lamina propriada köpüksü makrofaj kümeleri izlenir.
+- *Yüksek büyütme:* Makrofaj sitoplazmasında PAS-pozitif ve diastaza dirençli granüller bulunur.
+
+---
+
+### Meckel Divertikülü
+
+- *Düşük büyütme:* Barsak duvarından dışa doğru kör sonlanan divertiküler çıkıntı görülür.
+- *Orta büyütme:* Normal ince barsak mukozası ile döşeli olabilir.
+- *Yüksek büyütme:* Ektopik mukoza aranır ve en sık gastrik tip mukoza saptanır.
+```
+
+```{asis, echo = (language == "EN")}
+
+### Celiac Disease
+
+- *Low power:* Villous architecture may be disrupted and shortened.
+- *Medium power:* Villous atrophy and crypt hyperplasia are seen together.
+- *High power:* Intraepithelial lymphocyte count is increased.
+
+---
+
+### Whipple Disease
+
+- *Low power:* Villi appear expanded and thickened.
+- *Medium power:* Clusters of foamy macrophages in the lamina propria.
+- *High power:* PAS-positive, diastase-resistant granules are found in macrophage cytoplasm.
+
+---
+
+### Meckel Diverticulum
+
+- *Low power:* A blind-ending diverticular protrusion from the bowel wall is seen.
+- *Medium power:* May be lined by normal small bowel mucosa.
+- *High power:* Ectopic mucosa is searched for; gastric-type mucosa is most commonly found.
+```
+
+:::
+-->
+
+
 ```{asis, echo = (language == "TR")}
 
 ## Çölyak Hastalığı {#sec-colyak-hastaligi}

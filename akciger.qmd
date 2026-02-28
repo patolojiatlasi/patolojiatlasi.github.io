@@ -25,9 +25,285 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "EN")}
 
-# Lung Tumors {#sec-lung-tumors} 
+# Lung Tumors {#sec-lung-tumors}
 
 ```
+
+
+<!-- COMMENTED OUT - will be uncommented later
+::: {.callout-note collapse="true" title="Solunum Sistemi - Histopatolojik Tanımlama / Respiratory System - Histopathological Description"}
+
+```{asis, echo = (language == "TR")}
+
+### Pulmoner Hipoplazi
+
+- *Düşük büyütme:* Parankim sık görünür, hava boşlukları azdır, akciğer normalden küçük olabilir
+- *Orta büyütme:* Alveoller az sayıda ve küçüktür, terminal hava boşluğu yapıları gelişimsel olarak geridedir
+- *Yüksek büyütme:* Septalar immatür görünür, interstisyum göreceli olarak kalındır, alveoler yüzey alanı belirgin şekilde azalmıştır
+
+---
+
+### Atelektazi
+
+- *Düşük büyütme:* Havasız, koyu ve çökmüş alanlar görülür, komşu bölgelerde kompansatuvar hiperinflasyon olabilir
+- *Orta büyütme:* Alveoler boşluklar kapanmıştır, parankim yoğunlaşmış görünür
+- *Yüksek büyütme:* Alveoler septalar birbirine yaklaşmıştır, belirgin hücresel detritus veya eksüda yoktur
+
+**Rezorpsiyon (Obstrüksiyon) Atelektazisi:** Bronş veya bronşiol obstrüksiyonu distalinde kollaps gelişir, sekonder enfeksiyon riski artar. Distal alveollerde kollaps, obstrüksiyon çevresinde mukus birikimi, enfeksiyon eklenirse nötrofilik eksüda izlenir.
+
+**Kompresyon Atelektazisi:** Plevral efüzyon, pnömotoraks veya kitle basısı ile alveoller kapanır. Parankim pasif çökmüş görünüm sergiler.
+
+**Mikro Atelektazi:** Diffüz, çok küçük kollaps odakları vardır. Şok, sepsis, uzun süreli yatış ve ventilasyonla ilişkili olabilir. Hiyalin membran yokluğu ARDS'den ayırıcı tanıda önemlidir.
+
+---
+
+### Akciğer Ödemi
+
+- *Düşük büyütme:* Parankim ıslak görünür, alveol boşluklarında pembe amorf materyal seçilir
+- *Orta büyütme:* Alveollerde homojen eozinofilik sıvı vardır, septalarda konjesyon izlenir
+- *Yüksek büyütme:* Kapiller konjesyon belirgindir, eritrosit ekstravazasyonu görülebilir, kronik olgularda hemosiderin yüklü makrofajlar artar
+
+---
+
+### Akut Akciğer Hasarı (Difüz Alveoler Hasar Spektrumu)
+
+- *Düşük büyütme:* Tutulum yaygındır, alanlar arası homojenlik ARDS lehine olabilir
+- *Orta büyütme:* İnterstisyel ödem izlenir, alveoler septalarda hücresel reaksiyon vardır, alveollerde proteinöz materyal bulunur
+- *Yüksek büyütme:* Erken dönemde diffüz alveoler hasar ve hiyalin membranlar görülür, ilerleyen dönemde tip II pnömosit hiperplazisi gelişir, granülasyon dokusu ve fibröz kalınlaşma ortaya çıkabilir
+
+**Akut (Eksüdatif) Faz:**
+- Makroskopi: Akciğerler ağır, sert, kırmızı ve boggy görünümdedir, yaygın konjesyon ve ödem vardır
+- Mikroskopi: İnterstisyel ve intraalveoler ödem, fibrin birikimi, inflamasyon, hiyalin membranlar alveol yüzeylerini döşer (fibrin ve nekrotik epitel artıklarından oluşur)
+
+**Proliferatif (Organizasyon) Faz:**
+- Tip II pnömosit hiperplazisi gelişir, alveol duvarlarında ve lümeninde granülasyon dokusu oluşur, rejenerasyon ve fibrozis başlangıcı görülür
+
+---
+
+### Akut Respiratuar Distres Sendromu (ARDS)
+
+- *Düşük büyütme:* Yaygın ve diffüz tutulum vardır, konsolidasyon benzeri alanlar görülebilir
+- *Orta büyütme:* Alveol duvarlarında hasar vardır, interstisyel ödem izlenir, alveoler boşluklarda proteinöz eksüda bulunur
+- *Yüksek büyütme:* Hiyalin membranlar alveol yüzeyini döşeyen eozinofilik bantlar şeklindedir, geç dönemde tip II pnömosit hiperplazisi gelişir, organizasyon bulguları ortaya çıkabilir
+
+---
+
+### Obstrüktif Akciğer Hastalıkları
+
+**Amfizem**
+
+- *Düşük büyütme:* Geniş hava boşlukları görülür, parankimde seyrelme dikkati çeker
+- *Orta büyütme:* Alveoler septalar incelmiştir veya kaybolmuştur, alveoler duvar kaybı belirgindir
+- *Yüksek büyütme:* İnflamasyon genellikle minimaldir, elastik doku kaybı belirgindir
+- Makroskopi: Akciğerler artmış volümdedir, kalbi önden örtebilir, diyafram yassılaşmıştır, üst loblar genellikle daha belirgin etkilenir, apikal bleb veya büller görülebilir
+- Anormal genişlemiş alveoller, alveoler septalar incelmiş veya kaybolmuş, kapiller yatakta azalma, Kohn porları genişlemiş, septalar havada asılı görünüm verebilir
+
+---
+
+**Astım**
+
+- *Düşük büyütme:* Bronş lümeninde mukus tıkaçları görülebilir
+- *Orta büyütme:* Bronş duvarı kalınlaşmıştır, submukozal bezler ve goblet hücreleri artmıştır
+- *Yüksek büyütme:* Eozinofil ağırlıklı inflamasyon vardır, bazal membran kalınlaşmıştır, düz kas hipertrofisi ve hiperplazisi görülür, **Charcot-Leyden kristalleri** izlenebilir, mukus içinde **Curschmann spiralleri** bulunabilir
+- Subbazal membran fibrozisi, damar sayısında artış, goblet hücre ve mukus bezi artışı
+
+---
+
+**Kronik Bronşit**
+
+- *Düşük büyütme:* Bronş duvarı kalın görünür, lümende mukus birikimi vardır
+- *Orta büyütme:* Submukozal mukus bezleri belirgin şekilde artmıştır
+- *Yüksek büyütme:* Kronik inflamatuvar hücre infiltrasyonu vardır, goblet hücre metaplazisi izlenir, epitel hasarı görülebilir
+- Makroskopi: Bronş mukozası hiperemik ve ödemlidir, bronş lümenleri mukus veya mukopürülan sekresyon ile doludur
+- Lenfosit ve makrofajlardan oluşan kronik inflamasyon, düz kas hipertrofisi, peribronşiyal fibrozis
+
+---
+
+**Bronşektazi**
+
+- *Düşük büyütme:* Genişlemiş bronş lümenleri görülür, lümende pürülan içerik bulunabilir
+- *Orta büyütme:* Bronş duvarında destrüksiyon vardır, kıkırdak ve düz kas elemanlarında kayıp izlenir
+- *Yüksek büyütme:* Akut ve kronik inflamasyon birlikte bulunur, ülserasyon ve fibrozis gelişebilir, çevre parankimde pnömoni veya apse odakları görülebilir
+
+---
+
+### Kronik Diffüz İnterstisyel (Restriktif) Hastalıklar
+
+**İdiyopatik Pulmoner Fibrozis (UIP Paterni)**
+
+- *Düşük büyütme:* Yamalar halinde fibrozis görülür, tutulum heterojendir
+- *Orta büyütme:* Bal peteği değişiklikleri izlenir, subplevral ve paraseptal alanlar ağırlıklı tutulur
+- *Yüksek büyütme:* Fibroblastik odaklar ile olgun kollajenize fibrozis yan yana bulunur
+- Makroskopi: Alt lob ve subplevral alanlarda belirgindir, sert beyaz lastiksi fibrotik alanlar, bal peteği görünümü
+- Erken dönemde fibroblastik odaklar, geç dönemde yoğun kollajenize fibrozis, normal alanlar ile ileri derecede harap alanlar yan yana (zamansal heterojenlik)
+
+---
+
+**Nonspesifik İnterstisyel Pnömoni (NSIP)**
+
+- *Düşük büyütme:* Tutulum daha homojendir, UIP kadar patchy değildir
+- *Orta büyütme:* Diffüz interstisyel kalınlaşma görülür
+- *Yüksek büyütme:* İnflamasyon ve fibrozis daha düzenlidir, belirgin fibroblastik odaklar ve bal peteği değişiklikleri UIP kadar baskın değildir
+- Zamansal homojenite vardır, granülom görülmez
+
+---
+
+**Kriptojenik Organize Pnömoni (COP)**
+
+- *Düşük büyütme:* Patchy konsolidasyon alanları görülür
+- *Orta büyütme:* Alveol ve bronşiol lümenlerinde polipoid tıkaçlar izlenir
+- *Yüksek büyütme:* **Masson cisimcikleri** görülür, organize granülasyon dokusu polipoid tıkaçlar oluşturur, alveoler mimari temelde korunmuştur
+
+---
+
+### Pnömokonyozlar
+
+**Antrakozis**
+
+- *Düşük büyütme:* Siyah pigment odakları görülür
+- *Orta büyütme:* Peribronşioler ve lenfatiklerde pigment birikimi vardır
+- *Yüksek büyütme:* Makrofajlarda karbon pigmenti izlenir, fibrozis değişken derecededir
+
+**Silikozis**
+
+- *Düşük büyütme:* Nodüler lezyonlar görülür
+- *Orta büyütme:* Konsantrik, girdapsı fibrotik nodüller izlenir
+- *Yüksek büyütme:* Kollajenize nodüller bulunur, periferde inflamasyon olabilir, polarizan mikroskopta partiküller seçilebilir
+- Lenf nodlarında egg-shell tarzı kalsifikasyon, tüberküloz riski artmıştır
+
+**Asbestozis**
+
+- *Düşük büyütme:* İnterstisyel fibrozis vardır, plevral kalınlaşma ve plaklar görülebilir
+- *Orta büyütme:* Bazal ağırlıklı fibrozis izlenir
+- *Yüksek büyütme:* **Asbest cisimcikleri** görülür, demir kaplı lifler fuziform ve boncuklu görünüm sergiler
+- Plevral plaklar tipiktir, UIP benzeri interstisyel fibrozis gelişebilir
+
+**Berilyozis:** Nonkazeifiye granülomlar izlenir, sarkoidozu taklit edebilir, klinik ve mesleki öykü tanıda önemlidir.
+
+---
+
+### Granülomatöz Hastalıklar
+
+**Sarkoidoz**
+
+- *Düşük büyütme:* Perilenfatik dağılım paterni vardır (bronkovasküler demetler, interlobüler septalar ve subplevral alanlar tutulur)
+- *Orta büyütme:* Nonkazeifiye granülomlar izlenir
+- *Yüksek büyütme:* Sıkı, iyi organize epiteloid histiosit granülomları görülür, nekroz yoktur veya minimaldir
+- Çok çekirdekli dev hücreler, **asteroid** ve **Schaumann cisimcikleri** görülebilir ancak spesifik değildir
+- Bronşiyal submukozadan alınan biyopsiler tanısal olabilir
+
+**Hipersensitivite Pnömonisi**
+
+- Peribronşioler dağılım gösterir, gevşek yapılı granülomlar bulunur
+- Peribronşioler interstisyel inflamasyon vardır, küçük hava yolu merkezli gevşek granülomlar izlenir
+- Kronik fazda interstisyel fibrozis, obliteratif bronşiolit ve ileri olgularda UIP benzeri patern gelişebilir
+
+---
+
+### Sigara İlişkili İnterstisyel Hastalıklar
+
+**Deskuamatif İnterstisyel Pnömoni (DIP):** Alveol boşluklarında yaygın pigmente makrofajlar vardır, interstisyel kalınlaşma eşlik edebilir
+
+**Respiratuvar Bronşiolit İlişkili Akciğer Hastalığı (RB-ILD):** Respiratuvar bronşiollerde pigmente makrofaj birikimi vardır, bronşiol merkezli tutulum izlenir
+
+---
+
+### Pulmoner Alveoler Proteinozis
+
+- Alveollerde granüler, PAS pozitif proteinöz materyal bulunur, alveoler septalar nispeten sağlamdır, interstisyum göreceli olarak korunmuştur, inflamasyon minimaldir
+
+---
+
+### Vasküler Akciğer Hastalıkları
+
+**Pulmoner Embolizm:** Damar lümeninde tromboemboli görülür, organize veya rekanalize trombüs bulguları izlenebilir. Çoğu derin ven trombozu kökenlidir, saddle embolus gelişebilir.
+
+**Pulmoner İnfarkt:** Hemorajik nekroz vardır, nekrotik alveoler duvarlar görülür, alveoller eritrositlerle doludur. Kama şeklindedir, apeksi hiler tarafa, tabanı plevraya bakar.
+
+**Diffüz Pulmoner Hemoraji:** Alveol boşluklarında eritrositler bulunur, zamanla hemosiderin yüklü makrofajlar artar
+
+**Pulmoner Hipertansiyon:** Küçük arterlerde medial hipertrofi vardır, intimal kalınlaşma görülür, ileri olgularda pleksiform lezyonlar gelişebilir
+
+**Goodpasture Sendromu:** Kapillerit paterni vardır, alveoler hemoraji görülür
+
+**Granülomatozis Polianjitis:** Nekrotizan granülomlar görülür, vaskülit bulguları eşlik eder, alveoler hemoraji bulunabilir
+
+---
+
+### Enfeksiyonlar
+
+**Akut Bakteriyel Pnömoni:** Alveol boşluklarında yoğun nötrofilik eksüda bulunur, patern lober pnömoni veya bronkopnömoni şeklinde olabilir
+
+**Lober Pnömoni:** Geniş alanlarda konsolidasyon vardır, alveoller yaygın eksüda ile doludur. Evreler: konjesyon, kırmızı hepatizasyon, gri hepatizasyon, rezolüsyon.
+
+**Bronkopnömoni:** Patchy dağılım gösterir, bronşiol merkezli inflamatuvar odaklar vardır, alt loblarda daha sık, farklı loblarda çok odaklı tutulum görülebilir
+
+**İnterstisyel Pnömoni:** İnflamasyon esas olarak alveoler septalardadır, alveol boşlukları görece daha açıktır, septalarda mononükleer hücre infiltrasyonu bulunur
+
+**Tüberküloz:** Kazeifiye nekroz içeren granülomlar vardır, epiteloid histiositler izlenir, çok çekirdekli dev hücreler görülür
+
+**Akciğer Apsesi:** Likefaksiyon nekrozu vardır, pürülan içerikli kavite oluşmuştur, çevrede granülasyon dokusu ve zamanla fibrozis gelişebilir
+
+---
+
+### Tümörler ve Kitleler
+
+**Hamartom:** Kıkırdak, yağ ve bağ dokusu karışımı bulunur, iyi huylu nodüler lezyondur
+
+**Lenfanjiyoleiomyomatozis (LAM):** İnce duvarlı kistik boşluklar vardır, düz kas benzeri hücre proliferasyonu görülür
+
+**Skuamöz Hücreli Akciğer Kanseri:** Keratinizasyon alanları bulunur, intersellüler köprüler izlenir, nekroz eşlik edebilir. Genellikle santral yerleşimli, **p40** pozitiftir.
+
+**Küçük Hücreli Akciğer Kanseri:** Küçük, mavi, az sitoplazmalı hücreler vardır, nükleer molding tipiktir, ezilme artefaktı sık görülür, ince granüler kromatin paterni, nekroz yaygındır. **Azzopardi fenomeni** görülebilir, nöroendokrin belirteçler pozitiftir.
+
+**Adenokarsinom:** Glandüler diferansiyasyon görülür, lepidik büyüme paterni izlenebilir. Genellikle periferik yerleşimli, lepidik, asiner ve papiller paternler görülebilir, **TTF-1** pozitiftir.
+
+**Büyük Hücreli Karsinom:** Belirgin bir diferansiyasyon paterni yoktur, büyük, pleomorfik tümör hücreleri görülür
+
+**Karsinoid Tümör:** Organize ve trabeküler büyüme paterni vardır, monoton, nöroendokrin görünümlü hücreler bulunur, polipoid kitleler oluşturabilir, üzeri genellikle sağlam mukoza ile örtülüdür
+
+---
+
+### Plevra
+
+**Soliter Fibröz Tümör:** Plevra kaynaklı iğsi hücreli tümördür, değişken histolojik patern gösterir
+
+**Malign Mezotelyoma:** Plevrada diffüz kalınlaşma vardır, invaziv büyüme paterni görülür, stromal infiltrasyon belirgindir. Histopatolojik tipler: epitelioid, sarkomatoid, bifazik. İHK: **Calretinin** pozitif, **WT-1** pozitif, **CK5/6** pozitif, **Claudin-4** negatif.
+
+---
+
+### Konjenital Lezyonlar
+
+**Pulmoner Sekestrasyon:** Normal bronş ağacı ile bağlantı yoktur, anormal sistemik vaskülarizasyon bulunur
+
+**Bronşiyel Atrezi:** Proksimal bronş tıkanıklığı vardır, distal hava yollarında hiperinflasyon gelişir, mukosel görülebilir
+
+**Foregut Kistleri:** Epitel ile döşeli kistik lezyon bulunur, duvar yapısı kist tipine göre değişkenlik gösterir
+
+```
+
+```{asis, echo = (language == "EN")}
+
+### Respiratory System - Histopathological Overview
+
+This section covers the full spectrum of pulmonary pathology including developmental anomalies (pulmonary hypoplasia), atelectasis types, pulmonary edema, diffuse alveolar damage / ARDS, and acute interstitial pneumonia.
+
+**Obstructive diseases** include emphysema (alveolar wall destruction with enlarged air spaces), asthma (eosinophilic inflammation, basement membrane thickening, Curschmann spirals, Charcot-Leyden crystals), chronic bronchitis (mucous gland hyperplasia, goblet cell metaplasia), and bronchiectasis (permanent bronchial dilation with wall destruction).
+
+**Restrictive / interstitial diseases** include idiopathic pulmonary fibrosis (UIP pattern with temporal heterogeneity and fibroblastic foci), NSIP (more uniform involvement), COP (Masson bodies in airspaces), pneumoconioses (anthracosis, silicosis, asbestosis, berylliosis), sarcoidosis (non-caseating granulomas in perilymphatic distribution), and hypersensitivity pneumonitis.
+
+**Vascular diseases** include pulmonary embolism, pulmonary infarction (hemorrhagic, wedge-shaped), pulmonary hypertension (medial hypertrophy, plexiform lesions), Goodpasture syndrome, and granulomatosis with polyangiitis.
+
+**Infections** include lobar pneumonia (stages: congestion, red hepatization, gray hepatization, resolution), bronchopneumonia (patchy, bronchiolecentric), interstitial pneumonia, tuberculosis (caseating granulomas), and lung abscess.
+
+**Tumors** include squamous cell carcinoma (p40+, central), adenocarcinoma (TTF-1+, peripheral), small cell carcinoma (nuclear molding, Azzopardi effect), large cell carcinoma, carcinoid tumor, hamartoma, and LAM. Pleural tumors include solitary fibrous tumor and malignant mesothelioma (calretinin+, WT-1+, CK5/6+, claudin-4-).
+
+**Congenital lesions** include pulmonary sequestration, bronchial atresia, and foregut cysts.
+
+```
+
+:::
+-->
 
 
 {{< include ./_subchapters/_lung-squamous-cell-carcinoma.qmd >}}
