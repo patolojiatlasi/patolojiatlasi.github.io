@@ -30,6 +30,14 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
+
+
+
+
+
+
+
+
 <!-- COMMENTED OUT - will be uncommented later
 ::: {.callout-note collapse="true" title="Gastrit Tipleri - Histopatolojik Tanımlama / Gastritis Types - Histopathological Description"}
 
@@ -138,6 +146,282 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ## Lymphocytic gastritis {#sec-lymphocytic-gastritis}
 
 ```
+
+
+```{r, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_lymphocytic-gastritis-sidebyside.png")) {
+webshot2::webshot(delay = 20,
+  url = "https://images.patolojiatlasi.com/lymphocytic-gastritis/sidebyside.html",
+  file = "./screenshots/thumbnail_lymphocytic-gastritis-sidebyside.png"
+)
+}
+```
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/lymphocytic-gastritis-sidebyside_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/lymphocytic-gastritis/sidebyside.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/lymphocytic-gastritis-sidebyside_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+```{r, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/thumbnail_lymphocytic-gastritis-curtain.png")) {
+webshot2::webshot(delay = 20,
+  url = "https://images.patolojiatlasi.com/lymphocytic-gastritis/curtain.html",
+  file = "./screenshots/thumbnail_lymphocytic-gastritis-curtain.png"
+)
+}
+```
+
+
+
+```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
+if (!file.exists("./qrcodes/lymphocytic-gastritis-curtain_qrcode.svg")) {
+
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/lymphocytic-gastritis/curtain.html")
+
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/lymphocytic-gastritis-curtain_qrcode.svg",
+                       show = FALSE)
+}
+```
+
+
+
+```{asis, echo = (language == "TR")}
+
+### Görüntüleme Modları {-}
+
+```
+
+```{asis, echo = (language == "EN")}
+
+### Viewing Modes {-}
+
+```
+
+
+::::: panel-tabset
+
+
+### Yan Yana / Side by Side
+
+
+#### WSI - Link
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Yan Yana Karşılaştırma** - 2, 3 veya 4 boyamayı eş zamanlı senkronize panellerde görüntüleyin
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_lymphocytic-gastritis-sidebyside.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/sidebyside.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/sidebyside.html)
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Yan Yana Karşılaştırma** - 2, 3 veya 4 boyamayı eş zamanlı senkronize panellerde görüntüleyin
+
+
+![](./qrcodes/lymphocytic-gastritis-sidebyside_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_lymphocytic-gastritis-sidebyside.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/sidebyside.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/sidebyside.html)
+
+```
+
+
+
+
+::::
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Side by Side Comparison** - View 2, 3, or 4 stains in synchronized panels
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_lymphocytic-gastritis-sidebyside.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/sidebyside.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/lymphocytic-gastritis/sidebyside.html)
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Side by Side Comparison** - View 2, 3, or 4 stains in synchronized panels
+
+![](./qrcodes/lymphocytic-gastritis-sidebyside_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_lymphocytic-gastritis-sidebyside.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/sidebyside.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/lymphocytic-gastritis/sidebyside.html)
+
+```
+
+
+
+
+::::
+
+#### WSI
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+<iframe src="https://images.patolojiatlasi.com/lymphocytic-gastritis/sidebyside.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+<iframe src="https://images.patolojiatlasi.com/lymphocytic-gastritis/sidebyside.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+### Perde / Curtain
+
+
+#### WSI - Link
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Perde Karşılaştırma** - İki boyamayı sürgülü perde ile üst üste karşılaştırın, hizalama araçları ile
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_lymphocytic-gastritis-curtain.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/curtain.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/curtain.html)
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+
+```{asis, echo = (language == "TR")}
+
+**Perde Karşılaştırma** - İki boyamayı sürgülü perde ile üst üste karşılaştırın, hizalama araçları ile
+
+
+![](./qrcodes/lymphocytic-gastritis-curtain_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_lymphocytic-gastritis-curtain.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/curtain.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/lymphocytic-gastritis/curtain.html)
+
+```
+
+
+
+
+::::
+
+
+
+:::: {.content-hidden when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Curtain Comparison** - Overlay two stains with a draggable slider, with alignment tools
+
+[![Click for Full Screen WSI](./screenshots/thumbnail_lymphocytic-gastritis-curtain.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/curtain.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/lymphocytic-gastritis/curtain.html)
+
+```
+
+
+
+::::
+
+
+
+
+
+:::: {.content-visible when-format="pdf"}
+
+
+```{asis, echo = (language == "EN")}
+
+**Curtain Comparison** - Overlay two stains with a draggable slider, with alignment tools
+
+![](./qrcodes/lymphocytic-gastritis-curtain_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_lymphocytic-gastritis-curtain.png){width="25%"}](https://images.patolojiatlasi.com/lymphocytic-gastritis/curtain.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/lymphocytic-gastritis/curtain.html)
+
+```
+
+
+
+
+::::
+
+#### WSI
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+
+<iframe src="https://images.patolojiatlasi.com/lymphocytic-gastritis/curtain.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+
+```{asis, echo = ((language=="EN") & (output_type=="html"))}
+
+<iframe src="https://images.patolojiatlasi.com/lymphocytic-gastritis/curtain.html" style="height:600px;width:100%;" data-external="1">
+
+</iframe>
+```
+
+
+
+:::::
+
+
 
 
 ```{r, eval=TRUE, include=FALSE}
