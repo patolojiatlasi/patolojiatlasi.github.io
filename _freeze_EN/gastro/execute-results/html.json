@@ -1,8 +1,11 @@
 {
-  "hash": "e15e4756a3523df1cf75c67112eb0ea6",
+  "hash": "d4b71c3200fa7f677c764705a4a693cc",
   "result": {
-    "markdown": "---\ndescription: |\n    gastrointestinal,\n    patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [gastrointestinal]\npage-layout: full\nbibliography: references.bib\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n# Gastrointestinal System  {#sec-gastrointestinal-system}\n:::\n",
-    "supporting": [],
+    "engine": "knitr",
+    "markdown": "---\ndescription: |\n    gastrointestinal,\n    patoloji, atlas, pathology, whole slide image\ndate: last-modified\ncategories: [gastrointestinal]\npage-layout: full\nbibliography: references.bib\n---\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n\n::: {.cell}\n\n# Gastrointestinal System  {#sec-gastrointestinal-system}\n:::\n\n\n\n<!-- COMMENTED OUT - will be uncommented later\n::: {.callout-note collapse=\"true\" title=\"Histopatolojik Tanımlama / Histopathological Description\"}\n\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n\nThe gastrointestinal (GI) system encompasses the digestive tract from the esophagus to the anus. Histopathological evaluation systematically examines the mucosa, submucosa, muscularis propria, and serosa/adventitia layers. Each segment has its own characteristic mucosal architecture and cellular composition:\n\n- **Esophagus**: Lined by stratified squamous epithelium\n- **Stomach**: Features foveolar surface epithelium, fundic glands (parietal and chief cells) or mucous glands in the antrum\n- **Small intestine**: Characterized by villus-crypt architecture, goblet cells, and Paneth cells\n- **Colon**: Recognized by crypt-predominant architecture, abundant goblet cells, and regular crypt structure\n\nGI pathology encompasses a broad spectrum of inflammatory, neoplastic, and structural diseases. Key assessment parameters in biopsy interpretation include mucosal architecture, type and distribution of inflammation, presence of dysplasia, and depth of invasion.\n:::\n\n\n:::\n-->\n\n\n\n",
+    "supporting": [
+      "gastro_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

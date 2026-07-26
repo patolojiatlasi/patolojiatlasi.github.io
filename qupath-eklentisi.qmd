@@ -1,0 +1,107 @@
+---
+description: |
+    QuPath
+    eklenti
+    extension
+    dijital patoloji
+    digital pathology
+    whole slide image
+    patoloji
+    atlas
+    pathology
+date: last-modified
+categories: [qupath, wsi, atlas, yazılım, software]
+page-layout: full
+bibliography: references.bib
+execute:
+  freeze: false
+---
+
+```{r language qupath, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
+```{asis, echo = (language == "TR")}
+
+# QuPath Patoloji Atlası Eklentisi {#sec-qupath-eklentisi}
+
+Patoloji Atlası'nda yayımlanan bütün slayt görüntülerini (whole slide image)
+**QuPath** içinden tarayıp doğrudan açmanızı sağlayan açık kaynaklı bir eklenti.
+Slaytlar HTTP üzerinden karo karo aktarılır; önceden indirmeniz gereken bir dosya yoktur.
+
+Eklenti QuPath'e bir Deep Zoom (DZI) görüntü okuyucusu ile atlasın kendi görüntü
+listesinden beslenen aranabilir bir katalog ekler. Böylece slaytlar üzerinde
+QuPath'in tüm ölçüm, anotasyon ve analiz araçlarını kullanabilirsiniz.
+
+**Kısaca neler yapabilirsiniz:** kategoriye göre slayt tarama, seçtiğiniz vakalardan
+ders/seminer/sınav için taşınabilir QuPath projesi oluşturma, kendi kendine çalışma
+sınavları hazırlayıp çözme, bir vakanın tüm boyalarını eşzamanlı karşılaştırma,
+kendi slaytınızın yanında atlastan referans slayt açma, koleksiyon ve favori
+kaydetme, katalog kapsam/QC panosu ve slayt alıntılama (BibTeX / RIS).
+
+**Gereksinim:** QuPath 0.6 veya üzeri ve çalışma anında internet bağlantısı.
+
+**Kurulum (özet):** QuPath'te **Extensions → Manage extension catalogs → Add**
+yolunu izleyip `https://github.com/sbalci/patolojiatlasi-QuPath` adresini ekleyin,
+ardından **Extensions → Manage extensions** altından eklentiyi **Install** edip
+QuPath'i yeniden başlatın. Ayrıntılı adımlar ve elle kurulum için aşağıdaki
+*Install* bölümüne bakın.
+
+**Bağlantılar:**
+[Kaynak kodu ve sürümler](https://github.com/sbalci/patolojiatlasi-QuPath) ·
+[Son sürüm](https://github.com/sbalci/patolojiatlasi-QuPath/releases/latest) ·
+[DOI: 10.5281/zenodo.21443833](https://doi.org/10.5281/zenodo.21443833) ·
+[Araştırma projesi paylaşma kılavuzu (Türkçe)](https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/SHARING.tr.md) ·
+MIT lisansı
+
+Aşağıdaki belgeler eklentinin deposundaki README dosyasıyla otomatik olarak
+eşitlenir; bu nedenle İngilizcedir. Menü ve düğme adları eklentideki hâliyle,
+yani Türkçe verilmiştir.
+
+## Belgeler (İngilizce)
+
+```
+
+```{asis, echo = (language == "EN")}
+
+# QuPath Patoloji Atlası Extension {#sec-qupath-extension}
+
+An open-source QuPath extension that lets you browse the whole-slide images
+published on this atlas and open any of them directly inside **QuPath**. Slides are
+streamed tile-by-tile over HTTP, with nothing to download in advance.
+
+The extension adds a Deep Zoom (DZI) image reader to QuPath plus a searchable
+catalogue driven by the atlas's own image list, so QuPath's full measurement,
+annotation and analysis toolkit works on atlas slides.
+
+**Requires** QuPath 0.6 or newer and an internet connection at runtime.
+
+**Links:**
+[Source code and releases](https://github.com/sbalci/patolojiatlasi-QuPath) ·
+[Latest release](https://github.com/sbalci/patolojiatlasi-QuPath/releases/latest) ·
+[DOI: 10.5281/zenodo.21443833](https://doi.org/10.5281/zenodo.21443833) ·
+[Sharing a research project](https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/SHARING.md) ·
+MIT licence
+
+The documentation below is kept in sync with the extension repository's README.
+Menu and button labels are given exactly as they appear in the extension, which
+ships a Turkish interface.
+
+```
+
+```{r qupath-readme, echo=FALSE, results='asis'}
+
+readme <- readLines("_qupath-readme.md", warn = FALSE, encoding = "UTF-8")
+
+# Latin Modern's text faces lack U+2192; xelatex drops it with only a warning,
+# silently turning "Extensions → Patoloji Atlası" into "Extensions  Patoloji Atlası".
+if (isTRUE(output_type == "latex")) {
+  readme <- gsub("→", ">", readme, fixed = TRUE)
+}
+
+cat(readme, sep = "\n")
+
+```

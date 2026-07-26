@@ -26,6 +26,10 @@ name: Quarto Render Bilingual Book Push Other Repos GitLab
 # ============================================================================
 on:
   workflow_dispatch:  # Allows manual trigger from Actions tab
+  schedule:
+    # Mondays 04:00 UTC - picks up QuPath extension README changes, which do
+    # not trigger a push to this repository (see PHASE 5b below)
+    - cron: '0 4 * * 1'
   push:               # Auto-trigger on any push to repository
     paths-ignore:
       # Documentation files (don't need full build)
@@ -219,6 +223,19 @@ jobs:
 
 
       # ======================================================================
+      # PHASE 5b: SYNC QUPATH EXTENSION DOCUMENTATION
+      # ======================================================================
+      # Regenerates _qupath-readme.md from the extension repository's README so
+      # qupath-eklentisi.qmd always ships current documentation. A failed fetch
+      # is a warning, not an error - the committed fragment is used instead.
+
+      - name: "Sync QuPath extension README"
+        shell: Rscript {0}
+        run: |
+          source("./R/sync-qupath-readme.R")
+
+
+      # ======================================================================
       # PHASE 6: BILINGUAL BUILD
       # ======================================================================
       # Main rendering step - builds both Turkish and English versions
@@ -273,7 +290,8 @@ jobs:
           # - screenshots/: JPG conversions from Phase 2
           # - qrcodes/: Generated QR codes
           # - .github/: Dependency metadata for caching
-          git add docs/ EN/ gitlab_atlas/ public/ screenshots/ qrcodes/ .github/
+          # - _qupath-readme.md: Synced QuPath extension documentation
+          git add docs/ EN/ gitlab_atlas/ public/ screenshots/ qrcodes/ .github/ _qupath-readme.md
 
           # Commit with timestamp (or skip if no changes)
           git commit -m "CI added changes `date +'%Y-%m-%d %H:%M:%S'`" || echo "No changes to commit"

@@ -140,26 +140,6 @@ const specimensData = [
     "youtube": ""
   },
   {
-    "stainname": "kidneyoncocytoma-HE",
-    "reponame": "kidneyoncocytoma",
-    "titleTR": "Onkositom",
-    "titleEN": "Oncocytoma",
-    "organTR": "Böbrek",
-    "organEN": "Kidney",
-    "speciality": "genitourinary",
-    "type": "published",
-    "author": ["Serdar Balci", "Memorial Patoloji"],
-    "date": "2024-03-02",
-    "url": "https://images.patolojiatlasi.com/kidneyoncocytoma/HE.html",
-    "note": "Oncocytoma in kidney",
-    "categoriesTR": ["böbrek", "onkositom", "benign", "tümör", "patoloji", "atlas", "histopatoloji", "whole slide image", "sanal mikroskop"],
-    "categoriesEN": ["kidney", "oncocytoma", "benign", "tumor", "pathology", "atlas", "histopathology", "whole slide image", "virtual microscopy", "virtual microscope"],
-    "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_kidneyoncocytoma.png",
-    "githubrepo": "https://github.com/pathologyatlas/kidneyoncocytoma",
-    "githubpage": "https://pathologyatlas.github.io/kidneyoncocytoma",
-    "youtube": ""
-  },
-  {
     "stainname": "celiac-disease-HE",
     "reponame": "celiac-disease",
     "titleTR": "Çölyak Hastalığı",
@@ -171,7 +151,7 @@ const specimensData = [
     "author": ["Serdar Balci", "Memorial Patoloji"],
     "date": "2024-03-02",
     "url": "https://images.patolojiatlasi.com/celiac-disease/HE.html",
-    "note": "",
+    "note": "Villus atrofisi, kript hiperplazisi ve intraepitelyal lenfositoz. / Villous atrophy, crypt hyperplasia, and intraepithelial lymphocytosis.",
     "categoriesTR": ["ince bağırsak", "çölyak hastalığı", "immun sistem", "patoloji", "atlas", "histopatoloji", "whole slide image", "sanal mikroskop"],
     "categoriesEN": ["small intestine", "celiac disease", "immune system", "pathology", "atlas", "histopathology", "whole slide image", "virtual microscopy", "virtual microscope"],
     "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_celiac-disease.png",
@@ -455,7 +435,7 @@ const specimensData = [
     "categoriesTR": ["kemik", "benign", "tümör", "patoloji", "atlas", "histopatoloji", "whole slide image", "sanal mikroskop"],
     "categoriesEN": ["bone", "benign", "tumor", "pathology", "atlas", "histopathology", "whole slide image", "virtual microscopy", "virtual microscope"],
     "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_exostosis-1.png",
-    "githubrepo": "https:///github.com/pathologyatlas/exostosis",
+    "githubrepo": "https://github.com/pathologyatlas/exostosis",
     "githubpage": "https:///pathologyatlas.github.io/exostosis",
     "youtube": ""
   },
@@ -575,7 +555,7 @@ const specimensData = [
     "categoriesTR": ["patoloji", "atlas", "histopatoloji", "whole slide image", "sanal mikroskop"],
     "categoriesEN": ["pathology", "atlas", "histopathology", "whole slide image", "virtual microscopy", "virtual microscope"],
     "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_cholesteatoma.png",
-    "githubrepo": "https:///github.com/pathologyatlas/cholesteatoma",
+    "githubrepo": "https://github.com/pathologyatlas/cholesteatoma",
     "githubpage": "https:///pathologyatlas.github.io/cholesteatoma",
     "youtube": ""
   },
@@ -775,7 +755,7 @@ const specimensData = [
     "categoriesTR": ["duodenum", "tübüler adenom", "patoloji", "atlas", "histopatoloji", "whole slide image", "sanal mikroskop"],
     "categoriesEN": ["duodenum", "tubular adenoma", "pathology", "atlas", "histopathology", "whole slide image", "virtual microscopy", "virtual microscope"],
     "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_duodenum-tubular-adenoma-HE.png",
-    "github": "https:///github.com/pathologyatlas/duodenum-tubular-adenoma",
+    "github": "https://github.com/pathologyatlas/duodenum-tubular-adenoma",
     "githubpage": "https://pathologyatlas.github.io/duodenum-tubular-adenoma",
     "youtube": ""
   },
@@ -795,7 +775,7 @@ const specimensData = [
     "categoriesTR": ["beyin", "glioblastoma", "malign", "gliom", "tümör", "patoloji", "atlas", "histopatoloji", "whole slide image", "sanal mikroskop"],
     "categoriesEN": ["brain", "glioblastoma", "malignant", "pathology", "atlas", "histopathology", "whole slide image", "virtual microscopy", "virtual microscope"],
     "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_glioblastoma-HE.png",
-    "github": "https:///github.com/pathologyatlas/glioblastoma",
+    "github": "https://github.com/pathologyatlas/glioblastoma",
     "githubpage": "https://pathologyatlas.github.io/glioblastoma",
     "youtube": ""
   },
@@ -815,7 +795,7 @@ const specimensData = [
     "categoriesTR": ["beyin", "glioblastoma", "malign", "gliom", "tümör", "immünohistokimya", "GFAP", "gliozis", "patoloji", "atlas", "histopatoloji", "whole slide image", "sanal mikroskop"],
     "categoriesEN": ["brain", "glioblastoma", "malignant", "glioma", "tumor", "immunohistochemistry", "GFAP", "gliosis", "pathology", "atlas", "histopathology", "whole slide image", "virtual microscopy", "virtual microscope"],
     "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_glioblastoma-GFAP.png",
-    "github": "https:///github.com/pathologyatlas/glioblastoma",
+    "github": "https://github.com/pathologyatlas/glioblastoma",
     "githubpage": "https://pathologyatlas.github.io/glioblastoma",
     "youtube": ""
   },
@@ -835,7 +815,7 @@ const specimensData = [
     "categoriesTR": ["beyin", "glioblastoma", "malign", "gliom", "tümör", "immünohistokimya", "NFP", "patoloji", "atlas", "histopatoloji", "whole slide image", "sanal mikroskop"],
     "categoriesEN": ["brain", "glioblastoma", "malignant", "glioma", "tumor", "immunohistochemistry", "NFP", "pathology", "atlas", "histopathology", "whole slide image", "virtual microscopy", "virtual microscope"],
     "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_glioblastoma-NFP.png",
-    "github": "https:///github.com/pathologyatlas/glioblastoma",
+    "github": "https://github.com/pathologyatlas/glioblastoma",
     "githubpage": "https://pathologyatlas.github.io/glioblastoma",
     "youtube": ""
   },
@@ -855,9 +835,9 @@ const specimensData = [
     "categoriesTR": ["akciğer", "tru-cut", "malign", "tümör", "patoloji", "atlas", "histopatoloji", "whole slide image", "sanal mikroskop"],
     "categoriesEN": ["lung", "tru-cut", "malignant", "tumor", "pathology", "atlas", "histopathology", "whole slide image", "virtual microscopy", "virtual microscope"],
     "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_lung-squamous-cell-carcinoma-HE1.png",
-    "github": "https:///github.com/pathologyatlas/lung-squamous-cell-carcinoma",
+    "github": "https://github.com/pathologyatlas/lung-squamous-cell-carcinoma",
     "githubpage": "https://pathologyatlas.github.io/lung-squamous-cell-carcinoma",
-    "youtube": ""
+    "youtube": "https://www.youtube.com/watch?v=youtube_link"
   },
   {
     "stainname": "lung-squamous-cell-carcinoma-HE2",
@@ -875,9 +855,9 @@ const specimensData = [
     "categoriesTR": ["akciğer", "tru-cut", "malign", "tümör", "patoloji", "atlas", "histopatoloji", "whole slide image", "sanal mikroskop"],
     "categoriesEN": ["lung", "tru-cut", "malignant", "tumor", "pathology", "atlas", "histopathology", "whole slide image", "virtual microscopy", "virtual microscope"],
     "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_lung-squamous-cell-carcinoma-HE2.png",
-    "github": "https:///github.com/pathologyatlas/lung-squamous-cell-carcinoma",
+    "github": "https://github.com/pathologyatlas/lung-squamous-cell-carcinoma",
     "githubpage": "https://pathologyatlas.github.io/lung-squamous-cell-carcinoma",
-    "youtube": ""
+    "youtube": "https://www.youtube.com/watch?v=youtube_link"
   },
   {
     "stainname": "lung-squamous-cell-carcinoma-HE3",
@@ -895,9 +875,9 @@ const specimensData = [
     "categoriesTR": ["akciğer", "tru-cut", "malign", "tümör", "patoloji", "atlas", "histopatoloji", "whole slide image", "sanal mikroskop"],
     "categoriesEN": ["lung", "tru-cut", "malignant", "tumor", "pathology", "atlas", "histopathology", "whole slide image", "virtual microscopy", "virtual microscope"],
     "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_lung-squamous-cell-carcinoma-HE3.png",
-    "github": "https:///github.com/pathologyatlas/lung-squamous-cell-carcinoma",
+    "github": "https://github.com/pathologyatlas/lung-squamous-cell-carcinoma",
     "githubpage": "https://pathologyatlas.github.io/lung-squamous-cell-carcinoma",
-    "youtube": ""
+    "youtube": "https://www.youtube.com/watch?v=youtube_link"
   },
   {
     "stainname": "lung-squamous-cell-carcinoma-HE4",
@@ -915,9 +895,9 @@ const specimensData = [
     "categoriesTR": ["akciğer", "tru-cut", "malign", "tümör", "patoloji", "atlas", "histopatoloji", "whole slide image", "sanal mikroskop"],
     "categoriesEN": ["lung", "tru-cut", "malignant", "tumor", "pathology", "atlas", "histopathology", "whole slide image", "virtual microscopy", "virtual microscope"],
     "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_lung-squamous-cell-carcinoma-HE4.png",
-    "github": "https:///github.com/pathologyatlas/lung-squamous-cell-carcinoma",
+    "github": "https://github.com/pathologyatlas/lung-squamous-cell-carcinoma",
     "githubpage": "https://pathologyatlas.github.io/lung-squamous-cell-carcinoma",
-    "youtube": ""
+    "youtube": "https://www.youtube.com/watch?v=youtube_link"
   },
   {
     "stainname": "morphea-HE",
@@ -935,7 +915,7 @@ const specimensData = [
     "categoriesTR": ["deri", "benign", "patoloji", "atlas", "histopatoloji", "whole slide image", "sanal mikroskop"],
     "categoriesEN": ["skin", "benign", "pathology", "atlas", "histopathology", "whole slide image", "virtual microscopy", "virtual microscope"],
     "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_morphea-HE.png",
-    "github": "https:///github.com/pathologyatlas/morphea",
+    "github": "https://github.com/pathologyatlas/morphea",
     "githubpage": "https://pathologyatlas.github.io/morphea",
     "youtube": ""
   },
@@ -955,7 +935,7 @@ const specimensData = [
     "categoriesTR": ["pankreas", "solid psödopapiller neoplazm", "tümör", "benign", "patoloji", "atlas", "histopatoloji", "whole slide image", "sanal mikroskop"],
     "categoriesEN": ["pancreas", "solid pseudopapillary neoplasm", "tumor", "benign", "pathology", "atlas", "histopathology", "whole slide image", "virtual microscopy", "virtual microscope"],
     "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_pancreas-solid-pseudopapillary-HE1.png",
-    "github": "https:///github.com/pathologyatlas/pancreas-solid-pseudopapillary",
+    "github": "https://github.com/pathologyatlas/pancreas-solid-pseudopapillary",
     "githubpage": "https://pathologyatlas.github.io/pancreas-solid-pseudopapillary",
     "youtube": ""
   },
@@ -975,7 +955,7 @@ const specimensData = [
     "categoriesTR": ["pankreas", "solid psödopapiller neoplazm", "tümör", "benign", "patoloji", "atlas", "histopatoloji", "whole slide image", "sanal mikroskop"],
     "categoriesEN": ["pancreas", "solid pseudopapillary neoplasm", "tumor", "benign", "pathology", "atlas", "histopathology", "whole slide image", "virtual microscopy", "virtual microscope"],
     "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_pancreas-solid-pseudopapillary-HE2.png",
-    "github": "https:///github.com/pathologyatlas/pancreas-solid-pseudopapillary",
+    "github": "https://github.com/pathologyatlas/pancreas-solid-pseudopapillary",
     "githubpage": "https://pathologyatlas.github.io/pancreas-solid-pseudopapillary",
     "youtube": ""
   },
@@ -995,7 +975,7 @@ const specimensData = [
     "categoriesTR": ["pankreas", "solid psödopapiller neoplazm", "tümör", "benign", "patoloji", "atlas", "histopatoloji", "whole slide image", "sanal mikroskop"],
     "categoriesEN": ["pancreas", "solid pseudopapillary neoplasm", "tumor", "pathology", "atlas", "histopathology", "whole slide image", "virtual microscopy", "virtual microscope"],
     "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_pancreas-solid-pseudopapillary-HE3.png",
-    "github": "https:///github.com/pathologyatlas/pancreas-solid-pseudopapillary",
+    "github": "https://github.com/pathologyatlas/pancreas-solid-pseudopapillary",
     "githubpage": "https://pathologyatlas.github.io/pancreas-solid-pseudopapillary",
     "youtube": ""
   },
@@ -1015,7 +995,7 @@ const specimensData = [
     "categoriesTR": ["pankreas", "solid psödopapiller neoplazm", "tümör", "benign", "patoloji", "atlas", "histopatoloji", "whole slide image", "sanal mikroskop"],
     "categoriesEN": ["pancreas", "solid pseudopapillary neoplasm", "tumor", "benign", "pathology", "atlas", "histopathology", "whole slide image", "virtual microscopy", "virtual microscope"],
     "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_pancreas-solid-pseudopapillary-HE4.png",
-    "github": "https:///github.com/pathologyatlas/pancreas-solid-pseudopapillary",
+    "github": "https://github.com/pathologyatlas/pancreas-solid-pseudopapillary",
     "githubpage": "https://pathologyatlas.github.io/pancreas-solid-pseudopapillary",
     "youtube": ""
   },
@@ -1035,7 +1015,7 @@ const specimensData = [
     "categoriesTR": ["pankreas", "solid psödopapiller neoplazm", "tümör", "immünohistokimya", "benign", "patoloji", "atlas", "histopatoloji", "whole slide image", "sanal mikroskop"],
     "categoriesEN": ["pancreas", "solid pseudopapillary neoplasm", "tumor", "immunohistochemistry", "pathology", "atlas", "histopathology", "whole slide image", "virtual microscopy", "virtual microscope"],
     "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_pancreas-solid-pseudopapillary-syn.png",
-    "github": "https:///github.com/pathologyatlas/pancreas-solid-pseudopapillary",
+    "github": "https://github.com/pathologyatlas/pancreas-solid-pseudopapillary",
     "githubpage": "https://pathologyatlas.github.io/pancreas-solid-pseudopapillary",
     "youtube": ""
   },
@@ -1055,7 +1035,7 @@ const specimensData = [
     "categoriesTR": ["pankreas", "solid psödopapiller neoplazm", "tümör", "immünohistokimya", "benign", "patoloji", "atlas", "histopatoloji", "whole slide image", "sanal mikroskop"],
     "categoriesEN": ["pancreas", "solid pseudopapillary neoplasm", "tumor", "immunohistochemistry", "benign", "pathology", "atlas", "histopathology", "whole slide image", "virtual microscopy", "virtual microscope"],
     "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_pancreas-solid-pseudopapillary-betacatenine.png",
-    "github": "https:///github.com/pathologyatlas/pancreas-solid-pseudopapillary",
+    "github": "https://github.com/pathologyatlas/pancreas-solid-pseudopapillary",
     "githubpage": "https://pathologyatlas.github.io/pancreas-solid-pseudopapillary",
     "youtube": ""
   },
@@ -1075,7 +1055,7 @@ const specimensData = [
     "categoriesTR": ["safra kesesi", "benign", "patoloji", "atlas", "histopatoloji", "whole slide image", "sanal mikroskop"],
     "categoriesEN": ["gallbladder", "benign", "pathology", "atlas", "histopathology", "whole slide image", "virtual microscopy", "virtual microscope"],
     "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_rokitansky-aschoff-sinus-HE.png",
-    "github": "https:///github.com/pathologyatlas/rokitansky-aschoff-sinus",
+    "github": "https://github.com/pathologyatlas/rokitansky-aschoff-sinus",
     "githubpage": "https://pathologyatlas.github.io/rokitansky-aschoff-sinus",
     "youtube": ""
   },
@@ -1095,7 +1075,7 @@ const specimensData = [
     "categoriesTR": ["", "", "", "patoloji", "atlas", "histopatoloji", "whole slide image", "sanal mikroskop"],
     "categoriesEN": ["", "", "", "pathology", "atlas", "histopathology", "whole slide image", "virtual microscopy", "virtual microscope"],
     "screenshot": "https://www.patolojiatlasi.com/screenshots/thumbnail_sarcina-ventriculi-HE.png",
-    "github": "https:///github.com/pathologyatlas/sarcina-ventriculi",
+    "github": "https://github.com/pathologyatlas/sarcina-ventriculi",
     "githubpage": "https://pathologyatlas.github.io/sarcina-ventriculi",
     "youtube": ""
   },

@@ -132,6 +132,30 @@ If you see `_EN_EN` patterns in `.qmd` files, run:
 source("./R/utils.R"); fix_corrupted_en_references()
 ```
 
+## Known Pitfall: `quarto render`/`quarto preview` Destroys `docs/`
+
+`R/prerender_TR.R` unconditionally runs `fs::dir_delete("./docs")` and
+`fs::dir_delete("./gitlab_atlas/public")`, and `R/postrender_TR.R` is entirely commented out — the
+copy back into `docs/` happens in phase 6 of `R/bilingual-quarto-book.R`, not in the post-render
+hook. So **any** bare `quarto render` or `quarto preview`, including rendering a single page, wipes
+both directories and only the full build script puts them back. Since `docs/` and `gitlab_atlas/`
+are *tracked* (convention 4 below is wrong on this point), the damage shows up as ~1800 staged
+deletions.
+
+The same pre-render also runs `R/extract-html-links.R`, which re-derives `lists/list.yaml`,
+`lists/specimensData.js`, `lists/yaml_preparation_file.yaml` and `rss_feed.xml` **from the HTML in
+`docs/`**. With `docs/` freshly deleted it silently strips `note:` and `titleTR`/`titleEN` fields
+from existing entries and drops items from the RSS feed.
+
+After any partial render, restore before committing:
+
+```bash
+git checkout -- docs/ gitlab_atlas/ lists/ rss_feed.xml
+```
+
+Let CI regenerate those files from a full build; never commit a partially regenerated `lists/` or
+`rss_feed.xml`.
+
 ## CI/CD
 
 **Main workflow**: `.github/workflows/Quarto-Render-Bilingual-Book-Push-Other-Repos-GitLab.yml`
