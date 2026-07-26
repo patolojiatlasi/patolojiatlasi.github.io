@@ -1,0 +1,24 @@
+graph TB
+
+A[Scanners\nAT2\nGT450] --> |<span style='color:#bbb;'>Scanning</span>| B[PACS\nSectra]
+
+B --> |<span style='color:#bbb;'>Anonymised .svs</span>| D(ImageScope)
+
+D -.-> |<span style='color:#bbb;'>Optional\nSize\nReduction</span>| D
+
+D --> E[<b>VIPS</b>]
+
+E --> |<b>Openseadragon</b>| F[<b>Html</b>]
+
+
+    %% style A fill:#ccc,stroke:#333,stroke-width:4px
+    style A fill:#ccc,stroke:#999,color:#999
+    style B fill:#ccc,stroke:#999,color:#999
+    style D fill:#ccc,stroke:#999,color:#999
+    style E stroke-width:4px,stroke:#1570a6
+    style F stroke-width:4px,stroke:#1570a6
+    linkStyle 0 stroke:#bbb,stroke-width:2px;
+    linkStyle 1 stroke:#bbb,stroke-width:2px;
+    linkStyle 2 stroke:#bbb,stroke-width:2px;
+    %% linkStyle 3 stroke:#bbb,stroke-width:2px;
+    %% linkStyle 4 stroke:#bbb,stroke-width:2px;
