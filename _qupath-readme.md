@@ -11,6 +11,13 @@ to these sites:
 - **Türkçe:** [patolojiatlasi.com](https://www.patolojiatlasi.com/)
 - **English:** [histopathologyatlas.com](https://www.histopathologyatlas.com/)
 
+**Related work:** [QuPath Edu / OpenMicroanatomy](https://github.com/openmicroanatomy)
+(Yli-Hallila et al., *Journal of Anatomy* 2025;246(5):846–856,
+[doi:10.1111/joa.14172](https://doi.org/10.1111/joa.14172)) is a server-based QuPath teaching
+extension (workspaces, hidden-answer annotations, slide tours). This extension serves the same
+educational space with a deliberately serverless design: slides stream read-only from the public
+atlas, and every study artifact (quiz/tour packs, collections, recordings) is a portable local file.
+
 
 ## What it does
 
@@ -63,11 +70,22 @@ Four question types are supported:
   navigate to a region — then click **Göster** to reveal the correct MCQ option, the free-text
   model answer, or, for annotation/navigation questions, an overlay of the reference/target region
   drawn directly on the slide.
-- This is **self-study**: **there is no auto-grading** — **Göster** only overlays the reference for
-  a visual self-compare, nothing is scored. Nothing is saved anywhere either: the quiz-pack is a
-  single portable file you're free to email or hand out, and anything you draw while answering an
-  annotation or navigation question is transient — it's cleared again as soon as you move to the
-  next/previous question or close the window, so it never ends up saved in the project.
+- This is **self-study**, not a graded exam. For **multiple-choice** and **free-text** questions
+  there is no auto-grading at all — **Göster** only reveals the correct option or model answer for
+  a visual self-compare, nothing is scored. For **annotation** and **navigation** questions,
+  **Göster** additionally appends one measurement-only score line below the reference/target
+  overlay: IoU % plus a hit/miss verdict, where a hit is "IoU > 0.3 or containment" (annotation:
+  your drawn outline vs. the reference geometry; navigation: your viewport at reveal time vs. the
+  target geometry). This score is a geometric measurement, not a clinical judgement, and it is
+  **display-only**: it is never persisted, never written back into the quiz-pack, and disappears
+  like everything else in the reveal area as soon as you move on. Nothing is saved anywhere:
+  the quiz-pack is a single portable file you're free to email or hand out, and anything you draw
+  while answering an annotation or navigation question is transient — it's cleared again as soon as
+  you move to the next/previous question or close the window, so it never ends up saved in the
+  project.
+- **No QuPath? No problem.** [`web-tour-player/`](https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/web-tour-player/) is a single self-contained
+  HTML page that plays the same quiz/tour packs in a plain web browser — see its
+  [README](https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/web-tour-player/README.md) for deployment and CORS notes.
 
 
 ## Compare a case's stains

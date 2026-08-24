@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-08-17">
+<meta name="dcterms.date" content="2026-08-24">
 <meta name="description" content="QuPath eklenti extension dijital patoloji digital pathology whole slide image patoloji atlas pathology">
 
 <title>Appendix E — QuPath Patoloji Atlası Extension – Histopathology Atlas</title>
@@ -1271,7 +1271,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 17, 2026</p>
+      <p class="date">August 24, 2026</p>
     </div>
   </div>
   
@@ -1298,6 +1298,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><strong>Türkçe:</strong> <a href="https://www.patolojiatlasi.com/">patolojiatlasi.com</a></li>
 <li><strong>English:</strong> <a href="https://www.histopathologyatlas.com/">histopathologyatlas.com</a></li>
 </ul>
+<p><strong>Related work:</strong> <a href="https://github.com/openmicroanatomy">QuPath Edu / OpenMicroanatomy</a> (Yli-Hallila et al., <em>Journal of Anatomy</em> 2025;246(5):846–856, <a href="https://doi.org/10.1111/joa.14172">doi:10.1111/joa.14172</a>) is a server-based QuPath teaching extension (workspaces, hidden-answer annotations, slide tours). This extension serves the same educational space with a deliberately serverless design: slides stream read-only from the public atlas, and every study artifact (quiz/tour packs, collections, recordings) is a portable local file.</p>
 </section>
 <section id="what-it-does" class="level2" data-number="E.2">
 <h2 data-number="E.2" class="anchored" data-anchor-id="what-it-does"><span class="header-section-number">E.2</span> What it does</h2>
@@ -1324,7 +1325,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><p><strong>Guided navigation (“find it”)</strong> — a prompt that asks you to navigate to a region (e.g.&nbsp;“find the area of highest mitotic activity”); pan/zoom there yourself, then click <strong>Göster</strong> to overlay the target region and recentre the viewer on it.</p></li>
 <li><p><strong>Author</strong> (<code>Sınav / Quiz → Hazırla…</code>) — with an atlas slide open, add a question of any of the four types; each question is bound to the slide that was open when you added it (its DZI URL is stored with the question), so one pack can span several slides. For an annotation or navigation question, draw and select the reference region on the slide yourself, then click <strong>Referansı slayttan al</strong> to capture its shape as the question’s reference (annotation) or target (navigation) geometry. Save the finished set as a quiz-pack JSON.</p></li>
 <li><p><strong>Take</strong> (<code>Sınav / Quiz → Çöz…</code>) — load a quiz-pack and work through its questions in order; each question opens its slide, you answer it — pick an option, type notes, draw an outline, or navigate to a region — then click <strong>Göster</strong> to reveal the correct MCQ option, the free-text model answer, or, for annotation/navigation questions, an overlay of the reference/target region drawn directly on the slide.</p></li>
-<li><p>This is <strong>self-study</strong>: <strong>there is no auto-grading</strong> — <strong>Göster</strong> only overlays the reference for a visual self-compare, nothing is scored. Nothing is saved anywhere either: the quiz-pack is a single portable file you’re free to email or hand out, and anything you draw while answering an annotation or navigation question is transient — it’s cleared again as soon as you move to the next/previous question or close the window, so it never ends up saved in the project.</p></li>
+<li><p>This is <strong>self-study</strong>, not a graded exam. For <strong>multiple-choice</strong> and <strong>free-text</strong> questions there is no auto-grading at all — <strong>Göster</strong> only reveals the correct option or model answer for a visual self-compare, nothing is scored. For <strong>annotation</strong> and <strong>navigation</strong> questions, <strong>Göster</strong> additionally appends one measurement-only score line below the reference/target overlay: IoU % plus a hit/miss verdict, where a hit is “IoU &gt; 0.3 or containment” (annotation: your drawn outline vs.&nbsp;the reference geometry; navigation: your viewport at reveal time vs.&nbsp;the target geometry). This score is a geometric measurement, not a clinical judgement, and it is <strong>display-only</strong>: it is never persisted, never written back into the quiz-pack, and disappears like everything else in the reveal area as soon as you move on. Nothing is saved anywhere: the quiz-pack is a single portable file you’re free to email or hand out, and anything you draw while answering an annotation or navigation question is transient — it’s cleared again as soon as you move to the next/previous question or close the window, so it never ends up saved in the project.</p></li>
+<li><p><strong>No QuPath? No problem.</strong> <a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/web-tour-player/"><code>web-tour-player/</code></a> is a single self-contained HTML page that plays the same quiz/tour packs in a plain web browser — see its <a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/web-tour-player/README.md">README</a> for deployment and CORS notes.</p></li>
 </ul>
 </section>
 <section id="compare-a-cases-stains" class="level2" data-number="E.4">
