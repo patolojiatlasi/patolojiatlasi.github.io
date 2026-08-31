@@ -244,6 +244,19 @@ connection is needed for the first build.
   automatically on open (and enable QuPath's scale bar); (3) manually per slide after opening
   (Image tab → *Set pixel size*), or baked into a URL as `…/HE.dzi?mpp=0.25`. No pixel size is
   imposed by default, so a wrong calibration is never applied silently.
+
+  **In-app helper:** **Patoloji Atlası → *Piksel boyutu ayarla…*** shows whether the open image is
+  calibrated, computes `mpp_export = mpp_original × (width_original / width_export)` from the scanner
+  preset and the export ratio (the formula in [docs/pixel-size-mpp.md](https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/docs/pixel-size-mpp.md)), and
+  then either applies it **for the session** or builds the durable `?mpp=` URL — the two are labelled
+  separately because only the URL survives a reopen.
+
+  This matters more than a missing scale bar. An uncalibrated image still reports
+  `getAveragedPixelSize() == 1.0`, and µm-based tools that read it without first checking
+  `hasPixelSizeMicrons()` silently treat one pixel as one micron. The WSInfer extension is a verified
+  example: it computes `downsample = spacing_um_px / getAveragedPixelSize()`, so a model trained at
+  0.5 µm/px runs at roughly twice the intended magnification and the run completes with no error.
+  Cell detection fails differently again (it checks, and returns `NaN`). Calibrate before analysing.
 - **Image type is set on open when recognised.** H&E → *Brightfield (H&E)* and a known
   special/histochemical stain → *Brightfield (other)*, so color deconvolution works without setting
   it by hand. Any other stain (including IHC markers) is left **unset** — the extension only assigns
