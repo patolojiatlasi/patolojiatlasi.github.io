@@ -2612,5 +2612,60 @@
       "Ekler",
       "<span class='chapter-number'>H</span>  <span class='chapter-title'>QuPath Eklentisi</span>"
     ]
+  },
+  {
+    "objectID": "yapay-zeka-asistanlari.html#bağlantı-adresi",
+    "href": "yapay-zeka-asistanlari.html#bağlantı-adresi",
+    "title": "Ek I — ChatGPT / Claude ile Kullanım",
+    "section": "I.1 Bağlantı adresi",
+    "text": "I.1 Bağlantı adresi\nAşağıdaki adresi asistanınıza bağlayıcı (connector) olarak ekleyin. Giriş veya şifre gerekmez.\nhttps://atlas-mcp.serdarbalci.workers.dev/mcp",
+    "crumbs": [
+      "Ekler",
+      "<span class='chapter-number'>I</span>  <span class='chapter-title'>ChatGPT / Claude ile Kullanım</span>"
+    ]
+  },
+  {
+    "objectID": "yapay-zeka-asistanlari.html#claude",
+    "href": "yapay-zeka-asistanlari.html#claude",
+    "title": "Ek I — ChatGPT / Claude ile Kullanım",
+    "section": "I.2 Claude",
+    "text": "I.2 Claude\nClaude’un bütün planlarında (ücretsiz planda bir özel bağlayıcı) çalışır: web, masaüstü ve mobil uygulama.\n\nCustomize → Connectors bölümünü açın, + ve ardından Add custom connector seçin.\nAd olarak örneğin Patoloji Atlası yazın, yukarıdaki adresi yapıştırın ve kaydedin.\nYeni bir sohbet açın, mesaj kutusundaki + menüsünden bağlayıcıyı etkinleştirin.",
+    "crumbs": [
+      "Ekler",
+      "<span class='chapter-number'>I</span>  <span class='chapter-title'>ChatGPT / Claude ile Kullanım</span>"
+    ]
+  },
+  {
+    "objectID": "yapay-zeka-asistanlari.html#chatgpt",
+    "href": "yapay-zeka-asistanlari.html#chatgpt",
+    "title": "Ek I — ChatGPT / Claude ile Kullanım",
+    "section": "I.3 ChatGPT",
+    "text": "I.3 ChatGPT\nChatGPT web sürümünde Plus, Pro, Business, Enterprise ve Edu hesaplarında Developer mode ile eklenebilir.\n\nSettings → Security and login bölümünden Developer mode seçeneğini açın.\nchatgpt.com/plugins sayfasında + düğmesine tıklayın, adresi yapıştırın ve kimlik doğrulama olarak No authentication seçin.\nYeni bir sohbette mesaj kutusunun araçlar menüsünden bağlayıcıyı seçin.\n\nCodex, VS Code (Copilot) ve Cursor gibi diğer MCP uygulamalarına da aynı adres eklenebilir; bu uygulamalar görüntüleyiciyi göstermez, yanıtı atlas bağlantılarıyla birlikte metin olarak verir.",
+    "crumbs": [
+      "Ekler",
+      "<span class='chapter-number'>I</span>  <span class='chapter-title'>ChatGPT / Claude ile Kullanım</span>"
+    ]
+  },
+  {
+    "objectID": "yapay-zeka-asistanlari.html#örnek-sorular",
+    "href": "yapay-zeka-asistanlari.html#örnek-sorular",
+    "title": "Ek I — ChatGPT / Claude ile Kullanım",
+    "section": "I.4 Örnek sorular",
+    "text": "I.4 Örnek sorular\n\n“Amiloid örneklerini göster”\n“Lenfositik gastritte CD3 boyasını göster”\n“Helicobacter pylori Giemsa kesitini aç”\n“Bu olgunun PAS boyasını göster”\n“Bana bir quiz olgusu ver, tanıyı söyleme”\n\nGörüntüleyicide Tam ekran ile kesiti büyütebilir, Atlasta aç ile olgunun atlas sayfasına geçebilirsiniz. Sohbet içindeyken yakınlaştırmak için Ctrl/Cmd + fare tekerleği veya iki parmak kullanın.",
+    "crumbs": [
+      "Ekler",
+      "<span class='chapter-number'>I</span>  <span class='chapter-title'>ChatGPT / Claude ile Kullanım</span>"
+    ]
+  },
+  {
+    "objectID": "yapay-zeka-asistanlari.html#gizlilik-koşullar-ve-kaynak-kodu",
+    "href": "yapay-zeka-asistanlari.html#gizlilik-koşullar-ve-kaynak-kodu",
+    "title": "Ek I — ChatGPT / Claude ile Kullanım",
+    "section": "I.5 Gizlilik, koşullar ve kaynak kodu",
+    "text": "I.5 Gizlilik, koşullar ve kaynak kodu\n\nGizlilik Politikası · Kullanım Koşulları\nKaynak kodu (MIT lisansı) · Hata bildirimi ve öneriler\nAtlas görüntüleri ve metinleri CC BY 4.0 lisansıyla sunulur.\n\nBağlayıcı açık MCP Apps standardıyla geliştirilmiştir. Slaytları QuPath içinde açmak için QuPath Eklentisi sayfasına bakın.",
+    "crumbs": [
+      "Ekler",
+      "<span class='chapter-number'>I</span>  <span class='chapter-title'>ChatGPT / Claude ile Kullanım</span>"
+    ]
   }
 ]

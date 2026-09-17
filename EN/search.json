@@ -2469,5 +2469,60 @@
       "Appendices",
       "<span class='chapter-number'>E</span>  <span class='chapter-title'>QuPath Extension</span>"
     ]
+  },
+  {
+    "objectID": "ai-assistants.html#connector-address",
+    "href": "ai-assistants.html#connector-address",
+    "title": "Appendix F — Use the Atlas in ChatGPT / Claude",
+    "section": "F.1 Connector address",
+    "text": "F.1 Connector address\nAdd this address to your assistant as a connector. No sign-in or password is needed.\nhttps://atlas-mcp.serdarbalci.workers.dev/mcp",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>F</span>  <span class='chapter-title'>Use in ChatGPT / Claude</span>"
+    ]
+  },
+  {
+    "objectID": "ai-assistants.html#claude",
+    "href": "ai-assistants.html#claude",
+    "title": "Appendix F — Use the Atlas in ChatGPT / Claude",
+    "section": "F.2 Claude",
+    "text": "F.2 Claude\nWorks on every Claude plan (the free plan allows one custom connector), on the web, desktop and mobile apps.\n\nOpen Customize → Connectors, click +, then Add custom connector.\nEnter a name such as Histopathology Atlas, paste the address above and save.\nStart a new chat and enable the connector from the + menu in the message box.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>F</span>  <span class='chapter-title'>Use in ChatGPT / Claude</span>"
+    ]
+  },
+  {
+    "objectID": "ai-assistants.html#chatgpt",
+    "href": "ai-assistants.html#chatgpt",
+    "title": "Appendix F — Use the Atlas in ChatGPT / Claude",
+    "section": "F.3 ChatGPT",
+    "text": "F.3 ChatGPT\nOn ChatGPT for the web, Plus, Pro, Business, Enterprise and Edu accounts can add it in Developer mode.\n\nTurn on Developer mode under Settings → Security and login.\nGo to chatgpt.com/plugins, click +, paste the address and choose No authentication.\nIn a new chat, select the connector from the tools menu in the message box.\n\nThe same address also works in other MCP apps such as Codex, VS Code (Copilot) and Cursor; they show text answers with atlas links instead of the viewer.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>F</span>  <span class='chapter-title'>Use in ChatGPT / Claude</span>"
+    ]
+  },
+  {
+    "objectID": "ai-assistants.html#example-prompts",
+    "href": "ai-assistants.html#example-prompts",
+    "title": "Appendix F — Use the Atlas in ChatGPT / Claude",
+    "section": "F.4 Example prompts",
+    "text": "F.4 Example prompts\n\n“Any amyloid examples?”\n“Show me the CD3 stain in lymphocytic gastritis”\n“Open the Helicobacter pylori Giemsa slide”\n“Show the PAS stain from this case”\n“Give me a quiz case and don’t tell me the diagnosis”\n\nIn the viewer, use Fullscreen for a larger view and Open in atlas to jump to the case page. While the viewer is inline in the chat, zoom with Ctrl/Cmd + mouse wheel or two fingers.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>F</span>  <span class='chapter-title'>Use in ChatGPT / Claude</span>"
+    ]
+  },
+  {
+    "objectID": "ai-assistants.html#privacy-terms-and-source-code",
+    "href": "ai-assistants.html#privacy-terms-and-source-code",
+    "title": "Appendix F — Use the Atlas in ChatGPT / Claude",
+    "section": "F.5 Privacy, terms and source code",
+    "text": "F.5 Privacy, terms and source code\n\nPrivacy Policy · Terms of Use\nSource code (MIT licence) · Report a problem or suggest a feature\nAtlas images and text are licensed under CC BY 4.0.\n\nThe connector is built on the open MCP Apps standard. To open the slides in QuPath instead, see the QuPath Extension page.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>F</span>  <span class='chapter-title'>Use in ChatGPT / Claude</span>"
+    ]
   }
 ]
