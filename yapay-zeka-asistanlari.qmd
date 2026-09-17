@@ -1,0 +1,176 @@
+---
+description: |
+    ChatGPT
+    Claude
+    yapay zekâ
+    artificial intelligence
+    MCP
+    whole slide image
+    patoloji atlası
+    pathology atlas
+date: last-modified
+categories: [ChatGPT, Claude, yapay zekâ, artificial intelligence, MCP, whole slide image]
+page-layout: full
+bibliography: references.bib
+---
+
+```{r language ai-assistants, echo=FALSE, include=TRUE}
+
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
+```{asis, echo = (language == "TR")}
+
+# ChatGPT / Claude ile Kullanım {#sec-yapay-zeka-asistanlari}
+
+Patoloji Atlası'nı **ChatGPT** ve **Claude** gibi yapay zekâ asistanlarının içinden
+kullanabilirsiniz. Asistana Türkçe veya İngilizce olarak bir tanı, organ ya da boya
+sorun; asistan atlastaki uygun olguları bulur ve tam kesit görüntüsünü (whole slide
+image) **sohbetin içinde yakınlaştırılabilir bir görüntüleyicide** açar.
+
+- Yaklaşık **160 olguda 229 tam kesit görüntüsü**: H&E, histokimya (PAS, Giemsa,
+  Kongo kırmızısı…), immünohistokimya (CD3, GFAP, Ki-67…) ve sitoloji.
+- Her yanıtta olgunun Türkçe ve İngilizce atlas sayfalarına bağlantı bulunur.
+- **Quiz modu:** Hacettepe *Ayın Vakası* olgularında tanı gizli tutulur.
+- Salt okunurdur; hesap, oturum açma, çerez veya izleme yoktur.
+
+::: {.callout-important}
+Yalnızca **eğitim amaçlıdır**; tek tek hastaların tanısında kullanmayın. Sorularınıza
+**hasta adı, protokol numarası veya kimliği belirleyen başka bir bilgi yazmayın.**
+:::
+
+## Bağlantı adresi
+
+Aşağıdaki adresi asistanınıza *bağlayıcı* (connector) olarak ekleyin. Giriş veya
+şifre gerekmez.
+
+`https://atlas-mcp.serdarbalci.workers.dev/mcp`
+
+## Claude
+
+Claude'un bütün planlarında (ücretsiz planda bir özel bağlayıcı) çalışır: web, masaüstü
+ve mobil uygulama.
+
+1. **Customize → Connectors** bölümünü açın, **+** ve ardından **Add custom connector**
+   seçin.
+2. Ad olarak örneğin `Patoloji Atlası` yazın, yukarıdaki adresi yapıştırın ve kaydedin.
+3. Yeni bir sohbet açın, mesaj kutusundaki **+** menüsünden bağlayıcıyı etkinleştirin.
+
+## ChatGPT
+
+ChatGPT web sürümünde Plus, Pro, Business, Enterprise ve Edu hesaplarında
+*Developer mode* ile eklenebilir.
+
+1. **Settings → Security and login** bölümünden **Developer mode** seçeneğini açın.
+2. [chatgpt.com/plugins](https://chatgpt.com/plugins) sayfasında **+** düğmesine
+   tıklayın, adresi yapıştırın ve kimlik doğrulama olarak **No authentication**
+   seçin.
+3. Yeni bir sohbette mesaj kutusunun araçlar menüsünden bağlayıcıyı seçin.
+
+Codex, VS Code (Copilot) ve Cursor gibi diğer MCP uygulamalarına da aynı adres
+eklenebilir; bu uygulamalar görüntüleyiciyi göstermez, yanıtı atlas bağlantılarıyla
+birlikte metin olarak verir.
+
+## Örnek sorular
+
+- *"Amiloid örneklerini göster"*
+- *"Lenfositik gastritte CD3 boyasını göster"*
+- *"Helicobacter pylori Giemsa kesitini aç"*
+- *"Bu olgunun PAS boyasını göster"*
+- *"Bana bir quiz olgusu ver, tanıyı söyleme"*
+
+Görüntüleyicide **Tam ekran** ile kesiti büyütebilir, **Atlasta aç** ile olgunun
+atlas sayfasına geçebilirsiniz. Sohbet içindeyken yakınlaştırmak için
+**Ctrl/Cmd + fare tekerleği** veya iki parmak kullanın.
+
+## Gizlilik, koşullar ve kaynak kodu
+
+- [Gizlilik Politikası](https://github.com/patolojiatlasi/atlas-mcp/blob/main/PRIVACY.md) ·
+  [Kullanım Koşulları](https://github.com/patolojiatlasi/atlas-mcp/blob/main/TERMS.md)
+- [Kaynak kodu (MIT lisansı)](https://github.com/patolojiatlasi/atlas-mcp) ·
+  [Hata bildirimi ve öneriler](https://github.com/patolojiatlasi/atlas-mcp/issues)
+- Atlas görüntüleri ve metinleri
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.tr) lisansıyla sunulur.
+
+Bağlayıcı açık [MCP Apps](https://github.com/modelcontextprotocol/ext-apps) standardıyla
+geliştirilmiştir. Slaytları QuPath içinde açmak için
+[QuPath Eklentisi](https://www.patolojiatlasi.com/qupath-eklentisi.html) sayfasına bakın.
+
+```
+
+```{asis, echo = (language == "EN")}
+
+# Use the Atlas in ChatGPT / Claude {#sec-ai-assistants}
+
+You can use the Histopathology Atlas from inside AI assistants such as **ChatGPT** and
+**Claude**. Ask for a diagnosis, organ or stain in English or Turkish; the assistant
+finds matching atlas cases and opens the whole-slide image **in a zoomable viewer
+right in the chat**.
+
+- About **229 whole-slide images in 160 cases**: H&E, histochemistry (PAS, Giemsa,
+  Congo red…), immunohistochemistry (CD3, GFAP, Ki-67…) and cytology.
+- Every answer links to the case's English and Turkish atlas pages.
+- **Quiz mode:** Hacettepe *Case of the Month* slides keep their diagnosis hidden.
+- Read-only: no account, no sign-in, no cookies, no tracking.
+
+::: {.callout-important}
+For **educational use only**; not for diagnosing individual patients. **Never type
+patient names, record numbers or other identifying information** into your questions.
+:::
+
+## Connector address
+
+Add this address to your assistant as a *connector*. No sign-in or password is needed.
+
+`https://atlas-mcp.serdarbalci.workers.dev/mcp`
+
+## Claude
+
+Works on every Claude plan (the free plan allows one custom connector), on the web,
+desktop and mobile apps.
+
+1. Open **Customize → Connectors**, click **+**, then **Add custom connector**.
+2. Enter a name such as `Histopathology Atlas`, paste the address above and save.
+3. Start a new chat and enable the connector from the **+** menu in the message box.
+
+## ChatGPT
+
+On ChatGPT for the web, Plus, Pro, Business, Enterprise and Edu accounts can add it in
+*Developer mode*.
+
+1. Turn on **Developer mode** under **Settings → Security and login**.
+2. Go to [chatgpt.com/plugins](https://chatgpt.com/plugins), click **+**, paste the
+   address and choose **No authentication**.
+3. In a new chat, select the connector from the tools menu in the message box.
+
+The same address also works in other MCP apps such as Codex, VS Code (Copilot) and
+Cursor; they show text answers with atlas links instead of the viewer.
+
+## Example prompts
+
+- *"Any amyloid examples?"*
+- *"Show me the CD3 stain in lymphocytic gastritis"*
+- *"Open the Helicobacter pylori Giemsa slide"*
+- *"Show the PAS stain from this case"*
+- *"Give me a quiz case and don't tell me the diagnosis"*
+
+In the viewer, use **Fullscreen** for a larger view and **Open in atlas** to jump to the
+case page. While the viewer is inline in the chat, zoom with **Ctrl/Cmd + mouse wheel**
+or two fingers.
+
+## Privacy, terms and source code
+
+- [Privacy Policy](https://github.com/patolojiatlasi/atlas-mcp/blob/main/PRIVACY.md) ·
+  [Terms of Use](https://github.com/patolojiatlasi/atlas-mcp/blob/main/TERMS.md)
+- [Source code (MIT licence)](https://github.com/patolojiatlasi/atlas-mcp) ·
+  [Report a problem or suggest a feature](https://github.com/patolojiatlasi/atlas-mcp/issues)
+- Atlas images and text are licensed under
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+The connector is built on the open [MCP Apps](https://github.com/modelcontextprotocol/ext-apps)
+standard. To open the slides in QuPath instead, see the
+[QuPath Extension](https://www.histopathologyatlas.com/qupath-extension.html) page.
+
+```
