@@ -64,7 +64,7 @@ jobs:
       # PHASE 1: REPOSITORY CHECKOUT
       # ======================================================================
       - name: "actions checkout"
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           lfs: true  # Enable Git LFS for large image files (~206MB)
 
@@ -144,7 +144,7 @@ jobs:
       # Cache R packages based on DESCRIPTION file (committed to repo)
       # This ensures cache is restored when dependencies haven't changed
       - name: Cache R packages
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ${{ env.R_LIBS_USER }}
           key: ${{ runner.os }}-r-${{ hashFiles('DESCRIPTION') }}-v3
