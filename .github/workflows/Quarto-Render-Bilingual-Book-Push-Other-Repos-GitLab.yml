@@ -333,17 +333,17 @@ jobs:
           target-branch: main
         # Result: English site deployed to https://www.histopathologyatlas.com/
 
-      - name: Push to sbalci/atlas (GitLab mirror)
-        uses: cpina/github-action-push-to-another-repository@main
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-        with:
-           source-directory: 'gitlab_atlas'
-           destination-github-username: 'sbalci'
-           destination-repository-name: 'atlas'
-           user-email: drserdarbalci@gmail.com
-           target-branch: main
-        # Result: Content mirrored to GitLab for backup/redundancy
+      # - name: Push to sbalci/atlas (GitLab mirror)
+      #   uses: cpina/github-action-push-to-another-repository@main
+      #   env:
+      #     API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      #   with:
+      #      source-directory: 'gitlab_atlas'
+      #      destination-github-username: 'sbalci'
+      #      destination-repository-name: 'atlas'
+      #      user-email: drserdarbalci@gmail.com
+      #      target-branch: main
+      #   # Result: Content mirrored to GitLab for backup/redundancy
 
   # ============================================================================
   # DISABLED JOBS (Commented Out)
