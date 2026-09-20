@@ -42,6 +42,20 @@ atlas, and every study artifact (quiz/tour packs, collections, recordings) is a 
   the box.
 - Registers `.dzi` URLs as an openable image type, so **File → Open URI…** with any
   `https://images.patolojiatlasi.com/<case>/<stain>.dzi` link works too.
+- **Opens local Deep Zoom folders too** — **Patoloji Atlası → *Yerel DZI aç…*** reads a `.dzi`
+  sitting next to its `<name>_files/` directory on disk, the same pyramid format the atlas serves.
+  Useful for a slide you have exported with `vips dzsave` but not yet published. It is an explicit
+  command rather than drag-and-drop because QuPath may filter unknown extensions before any image
+  reader is consulted. With a project open the slide is added to it, because annotations on a
+  slide opened *without* a project live only in memory and are lost on close.
+- **Named teaching regions.** **Patoloji Atlası → Bölgeler → *Bölgeleri dışa aktar…*** writes the
+  slide's named annotations to `<slide>.regions.json` beside the pyramid. That one small file is
+  read by three different things: this extension (*Bölgeleri içe aktar…* to revise them), the
+  OpenSeadragon web viewer (click a region name, the slide zooms to it), and the atlas MCP server
+  (so an assistant can list a slide's regions and open one). Coordinates are plain full-resolution
+  pixels — the space QuPath, the DZI descriptor and OpenSeadragon all already share, so nothing is
+  transformed anywhere along the way. Name an annotation `Lenfoid agregat | Lymphoid aggregate` to
+  give it both languages.
 
 
 ## Quiz (self-study)
@@ -237,16 +251,25 @@ connection is needed for the first build.
 
 ## Notes & limitations
 
-- **Pixel-size calibration.** `vips dzsave` does not store microns-per-pixel in the DZI, so a
-  slide opens **uncalibrated** (measurements in pixels) unless a pixel size is supplied. Three
-  ways to supply it, in order of precedence: (1) a per-image `"mpp"` field in the catalog, (2) a
-  catalog-wide `"defaultMpp"` (see *Regenerating the bundled snapshot* below) — both are applied
-  automatically on open (and enable QuPath's scale bar); (3) manually per slide after opening
-  (Image tab → *Set pixel size*), or baked into a URL as `…/HE.dzi?mpp=0.25`. No pixel size is
-  imposed by default, so a wrong calibration is never applied silently.
+- **Pixel-size calibration is now usually automatic.** The `.dzi` descriptor itself carries no
+  microns-per-pixel, but `vips dzsave` writes a **`vips-properties.xml` sidecar inside the
+  `<name>_files/` directory**, and that sidecar keeps the scanner's real calibration
+  (`openslide.mpp-x`, `aperio.MPP`, `xres`, plus `aperio.AppMag` and `ScannerType`). The extension
+  reads it on open — over HTTP for atlas slides and from disk for local ones — so most slides now
+  open **already calibrated**, with QuPath's scale bar working and measurements in µm. Verified
+  against `lymphocytic-gastritis/HE`: `aperio.MPP = 0.263018` on a GT450 DX at 40×.
 
-  **In-app helper:** **Patoloji Atlası → *Piksel boyutu ayarla…*** shows whether the open image is
-  calibrated, computes `mpp_export = mpp_original × (width_original / width_export)` from the scanner
+  Precedence, highest first: (1) an explicit `…/HE.dzi?mpp=0.25` in the URL; (2) a per-image
+  `"mpp"` or catalog-wide `"defaultMpp"` in the catalog; (3) the `vips-properties.xml` sidecar;
+  (4) nothing — the slide opens uncalibrated, as before. A wrong calibration is never guessed:
+  if no source supplies one, none is applied.
+
+  Note `xres` is pixels per **millimetre**, so µm/px is `1000 / xres`. Because vips computes it
+  for the image it actually wrote, it stays correct even for a slide that was downsampled on
+  export — no per-case export ratio has to be recovered.
+
+  **In-app helper, for the slides that still need it:** **Patoloji Atlası → *Piksel boyutu ayarla…***
+  shows whether the open image is calibrated, computes `mpp_export = mpp_original × (width_original / width_export)` from the scanner
   preset and the export ratio (the formula in [docs/pixel-size-mpp.md](https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/docs/pixel-size-mpp.md)), and
   then either applies it **for the session** or builds the durable `?mpp=` URL — the two are labelled
   separately because only the URL survives a reopen.
