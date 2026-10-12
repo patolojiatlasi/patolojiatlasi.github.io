@@ -56,6 +56,18 @@ atlas, and every study artifact (quiz/tour packs, collections, recordings) is a 
   pixels — the space QuPath, the DZI descriptor and OpenSeadragon all already share, so nothing is
   transformed anywhere along the way. Name an annotation `Lenfoid agregat | Lymphoid aggregate` to
   give it both languages.
+- **GeoJSON region exchange.** **Bölgeler → *GeoJSON dışa aktar… / içe aktar…*** writes and reads a
+  separate GeoJSON `FeatureCollection` for QuPath, R tools such as wsiTools, and geometry checks.
+  The exchange file carries full-resolution pixel coordinates, feature UUIDs, names, classes,
+  descriptions, and slide dimensions when exported here. Polygon holes and fractional coordinates
+  remain in the geometry; QuPath 0.6 ROI conversion can shift fractional coordinates by a few
+  thousandths of a pixel, so use a 0.01 px tolerance for a QuPath round-trip check. Import checks
+  dimensions and asks for confirmation when another tool
+  omitted them; matching UUIDs can replace existing annotations after confirmation. The website
+  and MCP server still use `<slide>.regions.json`, so export that format again after editing a
+  GeoJSON copy if the published teaching regions should change. **Bölgeler → *Bölge dosyasını
+  GeoJSON'a çevir…*** converts an existing published `.regions.json` without opening its slide;
+  it copies stored geometry directly, avoiding QuPath ROI coordinate rounding.
 
 
 ## Quiz (self-study)
@@ -360,9 +372,10 @@ project opens; accepting is remembered so later sessions start recording immedia
 `<project>/atlas-focus/` (captured once when recording starts, so a later project switch can't
 misattribute a still-finishing session); with no project open it falls back to
 `~/QuPath-atlas-focus-maps/contributions/`. While recording, the current slide's map is
-checkpointed to a `session-<id>.partial.json` file roughly every **30 seconds**, so a crash or
+checkpointed to a `session-<id>__<slide-start>.partial.json` file roughly every **30 seconds**, so a crash or
 force-quit loses at most that much data — not the whole session. Switching slides or stopping
-promotes the checkpoint into a final per-slide JSON fragment and removes the `.partial.json`.
+promotes the checkpoint into a final per-slide JSON fragment and removes that `.partial.json` only
+after the final write succeeds. A failed final write leaves the checkpoint for recovery.
 Closing or switching away from the project stops recording, writes the last slide's fragment, and
 bundles every fragment from the session into a single
 `atlas-focus_<timestamp>_<session>.zip` in the project folder (or the fallback dir) — that one zip
