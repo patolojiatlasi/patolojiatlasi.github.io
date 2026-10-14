@@ -272,9 +272,10 @@ render_format <- function(language, format, config_file, excel_column_suffix) {
   fs::file_copy(tr_chapter_qmd, all_target_qmd, overwrite = TRUE)
 
   # Apply text replacements for PDF/EPUB format
-  # Remove panel-tabset (doesn't work in PDF/EPUB)
-  xfun::gsub_files(all_target_qmd, pattern = "panel-tabset", replacement = "")
-  xfun::gsub_files(all_target_qmd, pattern = ":::::", replacement = "")
+  # Remove complete tabset fence lines; preserve shorter conditional-content divs.
+  xfun::gsub_files(all_target_qmd,
+    pattern = "^[[:blank:]]*:{5,}([[:blank:]]+panel-tabset)?[[:blank:]]*$",
+    replacement = "")
 
   # Remove WSI sections (not useful in PDF/EPUB)
   xfun::gsub_files(all_target_qmd, pattern = "#+\\s*WSI - Link", replacement = "")
