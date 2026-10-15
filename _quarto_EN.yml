@@ -48,8 +48,7 @@ book:
   site-url: https://www.histopathologyatlas.com/
   sidebar:
     style: floating
-  open-graph:
-    image: https://www.histopathologyatlas.com/images/coverEN.png
+  open-graph: true
   page-footer:
     left: "Copyright 2022, patolojiAI"
 
