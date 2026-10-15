@@ -13,6 +13,8 @@ project:
     - "headerEN.html"
   pre-render:
     - ./R/prerender_EN.R
+  post-render:
+    - ./R/postrender_SEO.R
 
 lang: en
 
@@ -38,14 +40,16 @@ book:
     Atlas of Pathology with Whole Slide Images
     Histopathology Atlas and Notes for Medical Students
     Pathology Lecture Notes and Histopathology Atlas is being prepared from Memorial Pathology Archive and collaborators from other institutions.
-    If you want to contribute, please [contact us](https://www.patolojiatlasi.com/contributions.html).
+    If you want to contribute, please [contact us](https://www.histopathologyatlas.com/contributions.html).
   image: images/coverEN.png
   output-file: "HistoPatology-Atlas"
   cover-image: images/coverEN.png
-  site-url: https://histopathologyatlas.com/
+  cover-image-alt: "Histopathology Atlas book cover"
+  site-url: https://www.histopathologyatlas.com/
   sidebar:
     style: floating
-  open-graph: true
+  open-graph:
+    image: https://www.histopathologyatlas.com/images/coverEN.png
   page-footer:
     left: "Copyright 2022, patolojiAI"
 

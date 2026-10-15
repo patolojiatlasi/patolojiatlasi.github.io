@@ -12,6 +12,7 @@ format:
       body-width: 1800px
     css: styles.css
     self-contained: false
+    canonical-url: true
     anchor-sections: true
     link-external-icon: true
     link-external-newwindow: true
@@ -25,6 +26,7 @@ format:
       - text: |
           <script src="script.js"></script>
           <script src="webpages.js"></script>
+          <script defer src="/wsi-tabs.js"></script>
     filters:
       - collapse-social-embeds
     feeds:

@@ -16,6 +16,7 @@ project:
     - ./R/prerender_TR.R
   post-render:
     - ./R/postrender_TR.R
+    - ./R/postrender_SEO.R
 
 lang: tr
 
@@ -49,13 +50,15 @@ book:
   image: images/coverTR.png
   output-file: "Patoloji-Atlasi"
   cover-image: images/coverTR.png
-  site-url: https://patolojiatlasi.com/
+  cover-image-alt: "Patoloji Atlası kitap kapağı"
+  site-url: https://www.patolojiatlasi.com/
   google-analytics: "G-7BT7Q4FLT9"
   sidebar:
     style: docked
   open-graph:
     locale: tr_TR
     site-name: Patoloji Atlası
+    image: https://www.patolojiatlasi.com/images/coverTR.png
   page-footer:
     left: "Copyright 2022, [patolojiAI](https://www.patolojiai.com/)"
 

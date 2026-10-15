@@ -21,6 +21,8 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 # Gastrointestinal Sistem {#sec-gastrointestinal-sistem}
 
+İlgili bölümler: [Özofagus](https://www.patolojiatlasi.com/ozofagus.html), [Mide](https://www.patolojiatlasi.com/mide.html), [Gastrit](https://www.patolojiatlasi.com/gastrit.html), [Duodenum](https://www.patolojiatlasi.com/duodenum.html), [Kolon](https://www.patolojiatlasi.com/kolon.html) ve [Crohn hastalığı](https://www.patolojiatlasi.com/crohn.html).
+
 ```
 
 
@@ -29,6 +31,8 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```{asis, echo = (language == "EN")}
 
 # Gastrointestinal System  {#sec-gastrointestinal-system}
+
+Related chapters: [Esophagus](https://www.histopathologyatlas.com/esophagus.html), [Stomach](https://www.histopathologyatlas.com/stomach.html), [Gastritis](https://www.histopathologyatlas.com/gastritis.html), [Duodenum](https://www.histopathologyatlas.com/duodenum.html), [Colon](https://www.histopathologyatlas.com/colon.html) and [Crohn’s disease](https://www.histopathologyatlas.com/crohn.html).
 
 ```
 

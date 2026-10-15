@@ -1,0 +1,15 @@
+# Descriptions summarize existing page contents, without revealing case diagnoses.
+descriptions:
+  TR:
+    meme.html: "Meme patolojisi bölümü: inflamatuvar hastalıklar, fibrokistik değişiklikler ve meme tümörü başlıkları."
+    BOS.html: "Beyin omurilik sıvısı (BOS) sitolojisi için MGG ve PAP boyalı sanal mikroskop görüntüleri."
+    gastro.html: "Özofagus, mide, gastrit, duodenum, kolon ve Crohn hastalığı bölümlerine bağlantılar."
+  EN:
+    breast.html: "Breast pathology chapter index covering inflammatory disorders, fibrocystic changes and breast tumor categories."
+    BOS.html: "Cerebrospinal fluid (CSF) cytology whole-slide images with MGG and PAP stains."
+    gastro.html: "Links to the esophagus, stomach, gastritis, duodenum, colon and Crohn's disease chapters."
+# The mapped English contributions page still contains Turkish-only prose.
+# Do not advertise it as an English translation until that content is localized.
+hreflang-exclude:
+  - katki.html
+  - contributions.html
