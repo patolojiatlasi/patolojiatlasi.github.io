@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.11.5">
+<meta name="generator" content="quarto-1.11.6">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-10-12">
+<meta name="dcterms.date" content="2026-10-19">
 <meta name="description" content="QuPath eklenti extension dijital patoloji digital pathology whole slide image patoloji atlas pathology">
 
 <title>Appendix E — QuPath Patoloji Atlası Extension – Histopathology Atlas</title>
@@ -76,13 +76,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="./augmented-reality.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-04607e8572370e2f3e7d09c47281eb5d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-04607e8572370e2f3e7d09c47281eb5d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-04607e8572370e2f3e7d09c47281eb5d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-675246d0bd878a7b21ff9f761817b13b.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-675246d0bd878a7b21ff9f761817b13b.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-675246d0bd878a7b21ff9f761817b13b.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-a55a49f8c2b715632d0101689f00ac42.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -219,13 +220,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       manageTransitions('#quarto-margin-sidebar .nav-link', true);
       // Switch the toggles
       setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455).
+    // Not run on load: stylesheets are set before first paint there, and
+    // scrolling would undo the scroll to a URL fragment (#14973).
+    // The one pixel nudge keeps the reader where they were.
+    const refreshSafariScrollbar = () => {
       if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
         manageTransitions("body", false);
-        window.scrollTo(0, 1);
+        const scrollY = window.scrollY;
+        window.scrollTo(0, scrollY > 0 ? scrollY - 1 : 1);
         setTimeout(() => {
-          window.scrollTo(0, 0);
+          window.scrollTo(0, scrollY);
           manageTransitions("body", true);
         }, 40);
       }
@@ -319,6 +326,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       // Read the current dark / light value
       let toAlternate = !hasAlternateSentinel();
       toggleColorMode(toAlternate);
+      refreshSafariScrollbar();
       setStyleSentinel(toAlternate);
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
@@ -1169,6 +1177,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#focus-heatmap" id="toc-focus-heatmap" class="nav-link" data-scroll-target="#focus-heatmap"><span class="header-section-number">E.12</span> Focus heatmap</a>
   <ul class="collapse">
   <li><a href="#blinded-research-recording" id="toc-blinded-research-recording" class="nav-link" data-scroll-target="#blinded-research-recording">Blinded research recording</a></li>
+  <li><a href="#pathology-cot-demo-recording" id="toc-pathology-cot-demo-recording" class="nav-link" data-scroll-target="#pathology-cot-demo-recording">Pathology-CoT demo recording</a></li>
   </ul></li>
   <li><a href="#coverage-qc-dashboard" id="toc-coverage-qc-dashboard" class="nav-link" data-scroll-target="#coverage-qc-dashboard"><span class="header-section-number">E.13</span> Coverage &amp; QC dashboard</a></li>
   <li><a href="#provenance-citation" id="toc-provenance-citation" class="nav-link" data-scroll-target="#provenance-citation"><span class="header-section-number">E.14</span> Provenance &amp; citation</a></li>
@@ -1201,7 +1210,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 12, 2026</p>
+      <p class="date">October 19, 2026</p>
     </div>
   </div>
   
@@ -1228,6 +1237,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><strong>Türkçe:</strong> <a href="https://www.patolojiatlasi.com/">patolojiatlasi.com</a></li>
 <li><strong>English:</strong> <a href="https://www.histopathologyatlas.com/">histopathologyatlas.com</a></li>
 </ul>
+<p>Website images, favicons, and the extension icon are available in the <a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/assets/brand/README.md">visual asset pack</a>.</p>
 <p><strong>Related work:</strong> <a href="https://github.com/openmicroanatomy">QuPath Edu / OpenMicroanatomy</a> (Yli-Hallila et al., <em>Journal of Anatomy</em> 2025;246(5):846–856, <a href="https://doi.org/10.1111/joa.14172">doi:10.1111/joa.14172</a>) is a server-based QuPath teaching extension (workspaces, hidden-answer annotations, slide tours). This extension serves the same educational space with a deliberately serverless design: slides stream read-only from the public atlas, and every study artifact (quiz/tour packs, collections, recordings) is a portable local file.</p>
 </section>
 <section id="what-it-does" class="level2" data-number="E.2">
@@ -1244,7 +1254,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><strong>Refresh list</strong> pulls the latest <code>lists/list.yaml</code> live from the <code>patolojiatlasi/patolojiatlasi.github.io</code> repository, so new cases appear without updating the extension. A snapshot of the list (288 images) is bundled so the browser works offline out of the box.</li>
 <li>Registers <code>.dzi</code> URLs as an openable image type, so <strong>File → Open URI…</strong> with any <code>https://images.patolojiatlasi.com/&lt;case&gt;/&lt;stain&gt;.dzi</code> link works too.</li>
 <li><strong>Opens local Deep Zoom folders too</strong> — <strong>Patoloji Atlası → <em>Yerel DZI aç…</em></strong> reads a <code>.dzi</code> sitting next to its <code>&lt;name&gt;_files/</code> directory on disk, the same pyramid format the atlas serves. Useful for a slide you have exported with <code>vips dzsave</code> but not yet published. It is an explicit command rather than drag-and-drop because QuPath may filter unknown extensions before any image reader is consulted. With a project open the slide is added to it, because annotations on a slide opened <em>without</em> a project live only in memory and are lost on close.</li>
-<li><strong>Named teaching regions.</strong> <strong>Patoloji Atlası → Bölgeler → <em>Bölgeleri dışa aktar…</em></strong> writes the slide’s named annotations to <code>&lt;slide&gt;.regions.json</code> beside the pyramid. That one small file is read by three different things: this extension (<em>Bölgeleri içe aktar…</em> to revise them), the OpenSeadragon web viewer (click a region name, the slide zooms to it), and the atlas MCP server (so an assistant can list a slide’s regions and open one). Coordinates are plain full-resolution pixels — the space QuPath, the DZI descriptor and OpenSeadragon all already share, so nothing is transformed anywhere along the way. Name an annotation <code>Lenfoid agregat | Lymphoid aggregate</code> to give it both languages.</li>
+<li><strong>Named teaching regions.</strong> <strong>Patoloji Atlası → Bölgeler → <em>Bölgeleri dışa aktar…</em></strong> writes the slide’s named annotations to <code>&lt;slide&gt;.regions.json</code> beside the pyramid. That one small file is read by three different things: this extension (<em>Bölgeleri içe aktar…</em> to revise them), the OpenSeadragon web viewer (click a region name, the slide zooms to it), and the atlas MCP server (so an assistant can list a slide’s regions and open one). Coordinates are plain full-resolution pixels — the space QuPath, the DZI descriptor and OpenSeadragon all already share, so nothing is transformed anywhere along the way. Name an annotation <code>Lenfoid agregat | Lymphoid aggregate</code> to give it both languages. Full workflow, the <code>atlas-regions/1</code> format, and the invariants that keep the three consumers in step: <strong><a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/docs/teaching-regions.md">docs/teaching-regions.md</a></strong>.</li>
 <li><strong>GeoJSON region exchange.</strong> <strong>Bölgeler → <em>GeoJSON dışa aktar… / içe aktar…</em></strong> writes and reads a separate GeoJSON <code>FeatureCollection</code> for QuPath, R tools such as wsiTools, and geometry checks. The exchange file carries full-resolution pixel coordinates, feature UUIDs, names, classes, descriptions, and slide dimensions when exported here. Polygon holes and fractional coordinates remain in the geometry; QuPath 0.6 ROI conversion can shift fractional coordinates by a few thousandths of a pixel, so use a 0.01 px tolerance for a QuPath round-trip check. Import checks dimensions and asks for confirmation when another tool omitted them; matching UUIDs can replace existing annotations after confirmation. The website and MCP server still use <code>&lt;slide&gt;.regions.json</code>, so export that format again after editing a GeoJSON copy if the published teaching regions should change. <strong>Bölgeler → <em>Bölge dosyasını GeoJSON’a çevir…</em></strong> converts an existing published <code>.regions.json</code> without opening its slide; it copies stored geometry directly, avoiding QuPath ROI coordinate rounding.</li>
 </ul>
 </section>
@@ -1388,6 +1398,56 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Either way, this writes a small <code>atlas-research.json</code> sidecar next to the project’s <code>.qpproj</code> file; every time the project is opened afterwards, blinded recording starts automatically — after a <strong>one-time consent notice</strong> explaining that anonymised viewing data (regions viewed + dwell time, no identity) is being recorded for research. (The “flag current project” action asks for that same consent immediately, since you’re opting in right there, and starts recording at once rather than waiting for the next reopen.) Declining leaves recording off and the notice reappears next time the project opens; accepting is remembered so later sessions start recording immediately, no re-prompt.</p>
 <p><strong>Where the data goes.</strong> When a project is open, every blinded write for that session goes into <code>&lt;project&gt;/atlas-focus/</code> (captured once when recording starts, so a later project switch can’t misattribute a still-finishing session); with no project open it falls back to <code>~/QuPath-atlas-focus-maps/contributions/</code>. While recording, the current slide’s map is checkpointed to a <code>session-&lt;id&gt;__&lt;slide-start&gt;.partial.json</code> file roughly every <strong>30 seconds</strong>, so a crash or force-quit loses at most that much data — not the whole session. Switching slides or stopping promotes the checkpoint into a final per-slide JSON fragment and removes that <code>.partial.json</code> only after the final write succeeds. A failed final write leaves the checkpoint for recovery. Closing or switching away from the project stops recording, writes the last slide’s fragment, and bundles every fragment from the session into a single <code>atlas-focus_&lt;timestamp&gt;_&lt;session&gt;.zip</code> in the project folder (or the fallback dir) — that one zip is what you hand to the study coordinator. Every artifact in this pipeline (checkpoint, fragment, zip) is JSON-only and anonymised: no PNG, no username, ever.</p>
 <p><strong>Running a study?</strong> See <strong><a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/SHARING.md">SHARING.md</a></strong> for the end-to-end guide to preparing a blinded-research project, packaging it (with the extension) for researchers, the consent / observer-effect tradeoff, and getting the data back — and <strong><a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/analysis/README.md">analysis/</a></strong> for the Python/R analysis toolkits.</p>
+</section>
+<section id="pathology-cot-demo-recording" class="level3">
+<h3 class="anchored" data-anchor-id="pathology-cot-demo-recording">Pathology-CoT demo recording</h3>
+<p>Blinded recording answers “how does an unaware reader actually navigate?”. The <strong>authoring recorder</strong> answers the opposite question — “how would you <em>show</em> someone your reasoning on this slide?” — and turns the answer into Pathology-CoT training data.</p>
+<p><strong>Extensions → Araştırma → Pathology-CoT → CoT demo kaydı — başlat / durdur</strong> (<kbd>Shortcut</kbd>+<kbd>Shift</kbd>+<kbd>G</kbd>). A short notice explains what is recorded, then a red <strong>KAYIT</strong> indicator appears in the top-left of the viewer with the elapsed time and point count. Navigate the slide the way you would talk a trainee through it. Press the shortcut again and the draft is built immediately — each inspect/peek you made becomes a stop with its viewport and highlight box, ready for you to type the “why I looked here / what I saw” rationale in the tour author.</p>
+<p>This is the deliberate counterpart to blinded recording, and the two differ in every respect that matters:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Blinded research recording</th>
+<th>CoT demo recording</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Scope</td>
+<td>whole project, every time it opens</td>
+<td>one take, one slide</td>
+</tr>
+<tr class="even">
+<td>On screen</td>
+<td>nothing, by design</td>
+<td><strong>KAYIT</strong> indicator</td>
+</tr>
+<tr class="odd">
+<td>Who it describes</td>
+<td>an <strong>unaware</strong> reader (naturalistic)</td>
+<td>an <strong>aware</strong> author (demonstration)</td>
+</tr>
+<tr class="even">
+<td>Slide identity</td>
+<td>anonymised hash only</td>
+<td>the real slide URI (see below)</td>
+</tr>
+<tr class="odd">
+<td>Where it lands</td>
+<td><code>&lt;project&gt;/atlas-focus/</code></td>
+<td><code>~/QuPath-atlas-cot/&lt;slide&gt;__&lt;timestamp&gt;/</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>The two can never run at once.</strong> Starting either one while the other is recording is refused with a message rather than silently taking over — an awareness cue during a blinded session would compromise that study, and blinded recording starting mid-take would mix a demonstration into the study cohort.</p>
+<p><strong>Where the data goes, and why not in the project.</strong> A take is written to <code>~/QuPath-atlas-cot/&lt;slide-slug&gt;__&lt;yyyyMMdd-HHmmss&gt;/recording.json</code>, checkpointed every ~30 seconds and flushed on quit, with schema <code>atlas-cot-authored/1</code>. That schema is a deliberately <em>new</em> family, so the blinded analysis toolkits — which accept only <code>atlas-focus-contribution/…</code> — reject an authored take automatically and demonstration data can never be scored as if it were naturalistic. Unlike a blinded fragment, a take records the <strong>real slide path</strong> (the draft has to reopen the slide), which is why it is kept outside the project folder: <a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/SHARING.md">SHARING.md</a> asks study participants to send their whole <code>atlas-focus/</code> folder, and nothing authored should ever travel with it.</p>
+<p>Design notes, verified facts and what is deliberately not built yet are in <a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/docs/superpowers/2026-10-11-cot-authoring-recorder.md">docs/superpowers/2026-10-11-cot-authoring-recorder.md</a>.</p>
 </section>
 </section>
 <section id="coverage-qc-dashboard" class="level2" data-number="E.13">
@@ -1881,6 +1941,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       }
     }
   });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 <script src="https://utteranc.es/client.js" repo="patolojiatlasi/patolojiatlasi.github.io" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
 </script>

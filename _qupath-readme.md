@@ -11,6 +11,8 @@ to these sites:
 - **Türkçe:** [patolojiatlasi.com](https://www.patolojiatlasi.com/)
 - **English:** [histopathologyatlas.com](https://www.histopathologyatlas.com/)
 
+Website images, favicons, and the extension icon are available in the [visual asset pack](https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/assets/brand/README.md).
+
 **Related work:** [QuPath Edu / OpenMicroanatomy](https://github.com/openmicroanatomy)
 (Yli-Hallila et al., *Journal of Anatomy* 2025;246(5):846–856,
 [doi:10.1111/joa.14172](https://doi.org/10.1111/joa.14172)) is a server-based QuPath teaching
@@ -55,7 +57,8 @@ atlas, and every study artifact (quiz/tour packs, collections, recordings) is a 
   (so an assistant can list a slide's regions and open one). Coordinates are plain full-resolution
   pixels — the space QuPath, the DZI descriptor and OpenSeadragon all already share, so nothing is
   transformed anywhere along the way. Name an annotation `Lenfoid agregat | Lymphoid aggregate` to
-  give it both languages.
+  give it both languages. Full workflow, the `atlas-regions/1` format, and the invariants that keep
+  the three consumers in step: **[docs/teaching-regions.md](https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/docs/teaching-regions.md)**.
 - **GeoJSON region exchange.** **Bölgeler → *GeoJSON dışa aktar… / içe aktar…*** writes and reads a
   separate GeoJSON `FeatureCollection` for QuPath, R tools such as wsiTools, and geometry checks.
   The exchange file carries full-resolution pixel coordinates, feature UUIDs, names, classes,
@@ -386,6 +389,49 @@ zip) is JSON-only and anonymised: no PNG, no username, ever.
 blinded-research project, packaging it (with the extension) for researchers, the consent /
 observer-effect tradeoff, and getting the data back — and **[analysis/](https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/analysis/README.md)** for
 the Python/R analysis toolkits.
+
+### Pathology-CoT demo recording
+
+Blinded recording answers "how does an unaware reader actually navigate?". The **authoring
+recorder** answers the opposite question — "how would you *show* someone your reasoning on this
+slide?" — and turns the answer into Pathology-CoT training data.
+
+**Extensions → Araştırma → Pathology-CoT → CoT demo kaydı — başlat / durdur**
+(<kbd>Shortcut</kbd>+<kbd>Shift</kbd>+<kbd>G</kbd>). A short notice explains what is recorded, then
+a red **KAYIT** indicator appears in the top-left of the viewer with the elapsed time and point
+count. Navigate the slide the way you would talk a trainee through it. Press the shortcut again and
+the draft is built immediately — each inspect/peek you made becomes a stop with its viewport and
+highlight box, ready for you to type the "why I looked here / what I saw" rationale in the tour
+author.
+
+This is the deliberate counterpart to blinded recording, and the two differ in every respect that
+matters:
+
+| | Blinded research recording | CoT demo recording |
+|---|---|---|
+| Scope | whole project, every time it opens | one take, one slide |
+| On screen | nothing, by design | **KAYIT** indicator |
+| Who it describes | an **unaware** reader (naturalistic) | an **aware** author (demonstration) |
+| Slide identity | anonymised hash only | the real slide URI (see below) |
+| Where it lands | `<project>/atlas-focus/` | `~/QuPath-atlas-cot/<slide>__<timestamp>/` |
+
+**The two can never run at once.** Starting either one while the other is recording is refused with
+a message rather than silently taking over — an awareness cue during a blinded session would
+compromise that study, and blinded recording starting mid-take would mix a demonstration into the
+study cohort.
+
+**Where the data goes, and why not in the project.** A take is written to
+`~/QuPath-atlas-cot/<slide-slug>__<yyyyMMdd-HHmmss>/recording.json`, checkpointed every ~30 seconds
+and flushed on quit, with schema `atlas-cot-authored/1`. That schema is a deliberately *new* family,
+so the blinded analysis toolkits — which accept only `atlas-focus-contribution/…` — reject an
+authored take automatically and demonstration data can never be scored as if it were naturalistic.
+Unlike a blinded fragment, a take records the **real slide path** (the draft has to reopen the
+slide), which is why it is kept outside the project folder: [SHARING.md](https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/SHARING.md) asks study
+participants to send their whole `atlas-focus/` folder, and nothing authored should ever travel with
+it.
+
+Design notes, verified facts and what is deliberately not built yet are in
+[docs/superpowers/2026-10-11-cot-authoring-recorder.md](https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/docs/superpowers/2026-10-11-cot-authoring-recorder.md).
 
 
 ## Coverage & QC dashboard
