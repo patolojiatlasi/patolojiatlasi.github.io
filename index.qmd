@@ -1,16 +1,20 @@
-
 ```{r language, echo=FALSE, include=TRUE}
 source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 
+<!-- HTML uses the book title block; retain an unnumbered chapter heading for other formats. -->
+:::: {.content-hidden when-format="html"}
+# {{< meta book.title >}} {.unnumbered}
+::::
+
 ```{asis, echo = (language == "TR")}
-# Patoloji Atlası {#sec-patoloji-atlasi .unnumbered}
+<span id="sec-patoloji-atlasi"></span>
 ```
 
 ```{asis, echo = (language == "EN")}
-# Histopathology Atlas {#sec-histopathology-atlas .unnumbered}
+<span id="sec-histopathology-atlas"></span>
 ```
 
 

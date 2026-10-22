@@ -51,16 +51,22 @@ book:
           href: parazit.qmd
     - part: "Temel Tümör Patolojisi"
       chapters:
-        - benign.qmd
-        - hamartom.qmd
-        - heterotopi.qmd
+        - text: "Benign Tümörler"
+          href: benign.qmd
+        - text: "Hamartom"
+          href: hamartom.qmd
+        - text: "Heterotopi Ektopi"
+          href: heterotopi.qmd
         - text: "Metaplazi"
           href: metaplazi.qmd
         - text: "Karsinogenez"
           href: karsinogenez.qmd
-        - malign.qmd
-        - metastaz.qmd
-        - tumor-yayilimi.qmd
+        - text: "Malign Tümör Özellikleri"
+          href: malign.qmd
+        - text: "Metastaz"
+          href: metastaz.qmd
+        - text: "Başka Organlara Tümör Yayılımı"
+          href: tumor-yayilimi.qmd
         - heterojenite.qmd
     - part: "Tümörlerdeki Prognostik Morfolojik Özellikler"
       chapters:
@@ -74,18 +80,14 @@ book:
           href: damar.qmd
         - text: "Kalp"
           href: kalp.qmd
-        - text: "Hemodinamik Bozukluklar"
-          href: hemodinamik-bozukluklar.qmd
-        - text: "İskemi ve Nekroz"
-          href: iskemi-nekroz.qmd
-        - text: "Konjesyon"
-          href: konjesyon.qmd
     - part: "Hematopatoloji"
       chapters:
-        - hodgkin.qmd
+        - text: "Hodgkin Lenfoma"
+          href: hodgkin.qmd
     - part: "Gastrointestinal Sistem Patolojisi"
       chapters:
-        - gastro.qmd
+        - text: "Gastrointestinal Sistem"
+          href: gastro.qmd
         - text: "Özofagus"
           href: ozofagus.qmd
         - text: "Mide Patolojisi"
@@ -118,7 +120,7 @@ book:
           href: noroendokrin.qmd
     - part: "Mezotel"
       chapters:
-        - text: "Abdomen"
+        - text: "Mezotel"
           href: mezotel.qmd
     - part: "Jinekolojik Patoloji"
       chapters:
@@ -176,10 +178,12 @@ book:
           href: adipoz.qmd
     - part: "Pediatrik ve Perinatal Patoloji"
       chapters:
-        - plasenta.qmd
+        - text: "Plasenta"
+          href: plasenta.qmd
     - part: "Sitopatoloji"
       chapters:
-        - BOS.qmd
+        - text: "Beyin Omurilik Sıvısı (BOS)"
+          href: BOS.qmd
     - part: "---"
     - part: "Özel Kolleksiyonlar"
       chapters:
@@ -201,13 +205,12 @@ book:
     - text: "Yazarlar ve Katkıda Bulunanlar"
       href: yazarlar.qmd
       target: _blank
-    - text: "Katkıda bulunun"
+    - text: "Katkıda bulunun ve İletişim"
       href: katki.qmd
     - text: "Yorum ekleyin"
       href: yorum.qmd
-    - yonetim-gelistirme.qmd
-    - text: "İletişim"
-      href: katki.qmd
+    - text: "Patoloji Atlası Nasıl Geliştiriliyor?"
+      href: yonetim-gelistirme.qmd
     - text: "Vaka Listesi"
       href: lists/index.qmd
     - text: "Artırılmış Gerçeklik"

@@ -1,0 +1,26 @@
+# Descriptions summarize existing page contents, without revealing case diagnoses.
+descriptions:
+  TR:
+    meme.html: "Meme patolojisi bölümü: inflamatuvar hastalıklar, fibrokistik değişiklikler ve meme tümörü başlıkları."
+    BOS.html: "Beyin omurilik sıvısı (BOS) sitolojisi için MGG ve PAP boyalı sanal mikroskop görüntüleri."
+    gastro.html: "Özofagus, mide, gastrit, duodenum, kolon ve Crohn hastalığı bölümlerine bağlantılar."
+    bobrek.html: "Böbrek tümörleri bölümü; vaka içeriği hazırlanıyor."
+    mezotel.html: "Mezotel patolojisi bölümündeki sanal mikroskop görüntüleri ve vaka içeriği."
+    hacettepecom.html: "Hacettepe Üniversitesi ayın vakası koleksiyonundan sanal mikroskop görüntüleri ve eğitim videoları."
+    karaciger-malign.html: "Karaciğerin malign tümörlerine ait vakalar ve sanal mikroskop görüntüleri."
+    qupath-eklentisi.html: "Patoloji Atlası slaytlarını QuPath içinde açmaya yönelik eklentinin kurulumu ve kullanım belgeleri."
+    yonetim-gelistirme.html: "Patoloji Atlası'nın geliştirilmesi, vaka seçimi, teknik altyapısı ve sunumlarda kullanılması hakkında bilgiler."
+  EN:
+    breast.html: "Breast pathology chapter index covering inflammatory disorders, fibrocystic changes and breast tumor categories."
+    BOS.html: "Cerebrospinal fluid (CSF) cytology whole-slide images with MGG and PAP stains."
+    gastro.html: "Links to the esophagus, stomach, gastritis, duodenum, colon and Crohn's disease chapters."
+    kidney.html: "Kidney tumors chapter; case content is being prepared."
+    mesothelial.html: "Whole-slide images and case content in the mesothelial pathology chapter."
+    hacettepecom.html: "Whole-slide images and teaching videos from Hacettepe University's case-of-the-month collection."
+    malignant-liver-tumors.html: "Cases and whole-slide images covering malignant tumors of the liver."
+    qupath-extension.html: "Installation and usage documentation for the extension that opens Pathology Atlas slides in QuPath."
+# The mapped English contributions page still contains Turkish-only prose.
+# Do not advertise it as an English translation until that content is localized.
+hreflang-exclude:
+  - katki.html
+  - contributions.html

@@ -79,17 +79,14 @@ book:
           href: blood-vessels.qmd
         - text: "Heart"
           href: heart.qmd
-        - text: "Ischemia and Necrosis"
-          href: ischemia-necrosis.qmd
-        - text: "Congestion"
-          href: congestion.qmd
     - part: "Hematopathology"
       chapters:
         - text: "Hodgkin Lymphoma"
           href: hodgkin.qmd
     - part: "Gastrointestinal System"
       chapters:
-        - gastro.qmd
+        - text: "Gastrointestinal System"
+          href: gastro.qmd
         - text: "Esophagus"
           href: esophagus.qmd
         - text: "Stomach"
@@ -120,9 +117,9 @@ book:
       chapters:
         - text: "Neuroendocrine"
           href: neuroendocrine.qmd
-    - part: "Mezotel"
+    - part: "Mesothelium"
       chapters:
-        - text: "Abdomen"
+        - text: "Mesothelium"
           href: mesothelial.qmd
     - part: "Gynecopathology"
       chapters:
@@ -184,7 +181,8 @@ book:
           href: placenta.qmd
     - part: "Cytopathology"
       chapters:
-        - BOS.qmd
+        - text: "Cerebrospinal Fluid (CSF)"
+          href: BOS.qmd
     - part: "---"
     - part: "Special Collections"
       chapters:
