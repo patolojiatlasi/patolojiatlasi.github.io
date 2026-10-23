@@ -51,7 +51,7 @@ source("./R/config.R")
 source("./R/utils.R")
 
 # Ensure all required R packages are installed
-ensure_dependencies(quiet = TRUE)
+ensure_dependencies(quiet = TRUE, install_tinytex = FALSE)
 
 # CRITICAL: Fix any _EN_EN_EN... accumulations from previous failed builds
 # This prevents suffix multiplication bug

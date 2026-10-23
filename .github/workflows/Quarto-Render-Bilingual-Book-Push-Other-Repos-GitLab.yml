@@ -96,7 +96,7 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: pre-release  # Use latest pre-release for cutting-edge features
-          tinytex: true         # Include TinyTeX for LaTeX/PDF support
+          tinytex: false        # This workflow publishes HTML only
 
       # - uses: r-lib/actions/setup-tinytex@v2
       # - run: tlmgr --version
@@ -187,8 +187,7 @@ jobs:
             if (!requireNamespace("readxl", quietly = TRUE)) {install.packages("readxl", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
             if (!requireNamespace("tinytex", quietly = TRUE)) {install.packages("tinytex", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
 
-            # Ensure TinyTeX is installed for PDF generation
-            if (!tinytex::is_tinytex()) {tinytex::install_tinytex()}
+            # HTML publication does not require a LaTeX distribution.
 
             # Save dependency metadata for debugging (not used for caching)
             # Note: Caching is based on DESCRIPTION file hash (see Cache R packages step above)

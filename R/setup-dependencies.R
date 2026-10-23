@@ -7,6 +7,8 @@
 #'
 #' @param update_packages Logical: update existing packages (default: FALSE)
 #' @param quiet Logical: suppress installation messages (default: TRUE)
+#' @param install_tinytex Logical: install the LaTeX distribution for PDF output
+#'   (default: TRUE); HTML-only builds can skip it.
 #'
 #' @return Invisibly returns named list of installed package versions
 #' @export
@@ -20,7 +22,8 @@
 #'
 #' # Install with verbose output
 #' ensure_dependencies(quiet = FALSE)
-ensure_dependencies <- function(update_packages = FALSE, quiet = TRUE) {
+ensure_dependencies <- function(update_packages = FALSE, quiet = TRUE,
+                                install_tinytex = TRUE) {
 
   # Core dependencies
   required_packages <- c(
@@ -61,7 +64,7 @@ ensure_dependencies <- function(update_packages = FALSE, quiet = TRUE) {
   }
 
   # Ensure TinyTeX is installed (for PDF generation)
-  if (!tinytex::is_tinytex()) {
+  if (install_tinytex && !tinytex::is_tinytex()) {
     if (!quiet) {
       message("Installing TinyTeX...")
     }
