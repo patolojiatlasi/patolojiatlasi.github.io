@@ -7,3 +7,6 @@ fs::file_copy(path = "./R/languageEN.R", new_path = "./R/language.R", overwrite 
 # Generate format-specific chapter YAML files from base chapters
 source("./R/generate-chapter-yamls.R")
 generate_all_chapter_yamls("EN")
+
+# Prepare the homepage URL list before Quarto copies its HTML resources.
+source("./R/extract-html-links.R")

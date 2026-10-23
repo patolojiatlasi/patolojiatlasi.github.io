@@ -125,6 +125,9 @@ if (!dir.exists("./output")) {
 # Write to webpages.txt (used by various scripts and navigation)
 write(x = webpages, file = "./output/webpages.txt")
 
+# Quarto resources and the HTML header use the project-root URL lists.
+write(x = webpages, file = "./webpages.txt")
+
 
 # ============================================================================
 # PHASE 3: GENERATE YAML METADATA
@@ -245,6 +248,8 @@ js_array <- paste0('var webPages = [', paste0('"', webpages, '"', collapse = ", 
 js_file <- "./output/webpages.js"
 
 writeLines(js_array, js_file)
+
+writeLines(js_array, "./webpages.js")
 
 
 
