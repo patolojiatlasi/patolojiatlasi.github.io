@@ -51,7 +51,8 @@ on:
 jobs:
   quarto-render-and-deploy:
 
-    runs-on: ubuntu-latest
+    # Match the last successful build and the ICU ABI of its cached R packages.
+    runs-on: ubuntu-24.04
     continue-on-error: false  # Fail fast if any step fails
 
     env:
