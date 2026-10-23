@@ -1,26 +1,17 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.11.6">
-
+<meta name="generator" content="quarto-1.8.25">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-<meta name="dcterms.date" content="2026-10-19">
-<meta name="description" content="QuPath eklenti extension dijital patoloji digital pathology whole slide image patoloji atlas pathology">
-
+<meta name="dcterms.date" content="2026-10-23">
 <title>Appendix E — QuPath Patoloji Atlası Extension – Histopathology Atlas</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
+code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -64,31 +55,17 @@ div.sourceCode
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
-
-
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script><script src="site_libs/clipboard/clipboard.min.js"></script><script src="site_libs/quarto-search/autocomplete.umd.js"></script><script src="site_libs/quarto-search/fuse.min.js"></script><script src="site_libs/quarto-search/quarto-search.js"></script><meta name="quarto:offset" content="./">
 <link href="./ai-assistants.html" rel="next">
 <link href="./augmented-reality.html" rel="prev">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-675246d0bd878a7b21ff9f761817b13b.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-675246d0bd878a7b21ff9f761817b13b.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-675246d0bd878a7b21ff9f761817b13b.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a55a49f8c2b715632d0101689f00ac42.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-c3d37209dce034228c3913da51f5bdf5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-a55a49f8c2b715632d0101689f00ac42.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script><script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script><script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script><script src="site_libs/quarto-html/popper.min.js"></script><script src="site_libs/quarto-html/tippy.umd.min.js"></script><script src="site_libs/quarto-html/anchor.min.js"></script><link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-95f147d06fdb9f8ce149f95e323965f4.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-95f147d06fdb9f8ce149f95e323965f4.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-95f147d06fdb9f8ce149f95e323965f4.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script><link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-30dd28bfb2f63406c3939889d78062ae.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-eb1ff6dadfac3cb966b574d479431b3f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-30dd28bfb2f63406c3939889d78062ae.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/collapse-social-embeds-1.0.0/collapse.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -115,59 +92,44 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
-}</script>
-<script async="" src="https://hypothes.is/embed.js"></script>
-<script>
+}</script><script async="" src="https://hypothes.is/embed.js"></script><script>
   window.document.addEventListener("DOMContentLoaded", function (_event) {
     document.body.classList.add('hypothesis-enabled');
   });
-</script>
-<link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon_EN.png">
+</script><link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon_EN.png">
 <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32_EN.png">
 <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16_EN.png">
 <link rel="manifest" href="./images/site.webmanifest">
 <link rel="icon" href="https://images.patolojiatlasi.com/img/favicon.ico" type="image/x-icon">
-
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-
-<script src="https://images.patolojiatlasi.com/openseadragon/openseadragon.min.js"></script>
-<script src="https://images.patolojiatlasi.com/annotorious/openseadragon-annotorious.min.js"></script>
-
-<script src="./openseadragon/openseadragon.min.js"></script>
-<script src="./annotorious/openseadragon-annotorious.min.js"></script>
-<!-- Google tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-99KZJ5W1MH"></script>
-<script>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script><script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script><script src="https://images.patolojiatlasi.com/openseadragon/openseadragon.min.js"></script><script src="https://images.patolojiatlasi.com/annotorious/openseadragon-annotorious.min.js"></script><script src="./openseadragon/openseadragon.min.js"></script><script src="./annotorious/openseadragon-annotorious.min.js"></script><!-- Google tag (gtag.js) --><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-99KZJ5W1MH"></script><script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-99KZJ5W1MH');
-</script>
-<script src="script.js"></script>
-<script src="webpages.js"></script>
-
-
-<link rel="stylesheet" href="styles.css">
+</script><script src="script.js"></script><script src="webpages.js"></script><script defer src="./wsi-tabs.js"></script><link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Appendix E — QuPath Patoloji Atlası Extension – Histopathology Atlas">
-<meta property="og:description" content="Atlas of Pathology with Whole Slide Images Histopathology Atlas and Notes for Medical Students Atlas of Histopathology Notes for Pathology Pathology Lecture Notes and Histopathology Atlas is being prepared from Memorial Pathology Archive and collaborators from other institutions.">
-<meta property="og:image" content="https://histopathologyatlas.com/images/coverEN.png">
+<meta property="og:image" content="https://www.histopathologyatlas.com/images/coverEN.png">
 <meta property="og:site_name" content="Histopathology Atlas">
 <meta property="og:image:height" content="794">
 <meta property="og:image:width" content="1268">
 <meta name="twitter:title" content="Appendix E — QuPath Patoloji Atlası Extension – Histopathology Atlas">
-<meta name="twitter:description" content="Atlas of Pathology with Whole Slide Images Histopathology Atlas and Notes for Medical Students Atlas of Histopathology Notes for Pathology Pathology Lecture Notes and Histopathology Atlas is being prepared from Memorial Pathology Archive and collaborators from other institutions.">
-<meta name="twitter:image" content="https://histopathologyatlas.com/images/coverEN.png">
+<meta name="twitter:image" content="https://www.histopathologyatlas.com/images/coverEN.png">
 <meta name="twitter:creator" content="%40serdarbalci">
 <meta name="twitter:site" content="%40patolojinotlari">
 <meta name="twitter:image-height" content="794">
 <meta name="twitter:image-width" content="1268">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://www.histopathologyatlas.com/qupath-extension.html">
+<link rel="alternate" hreflang="tr" href="https://www.patolojiatlasi.com/qupath-eklentisi.html">
+<link rel="alternate" hreflang="en" href="https://www.histopathologyatlas.com/qupath-extension.html">
+<meta content="Installation and usage documentation for the extension that opens Pathology Atlas slides in QuPath." name="description">
+<meta content="Installation and usage documentation for the extension that opens Pathology Atlas slides in QuPath." property="og:description">
+<meta content="Installation and usage documentation for the extension that opens Pathology Atlas slides in QuPath." name="twitter:description">
 </head>
-
-<body class="nav-sidebar floating quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar floating quarto-light">
+<script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -190,7 +152,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       for (let i=0; i < toggles.length; i++) {
         const toggle = toggles[i];
         if (toggle) {
-          toggle.setAttribute("aria-checked", alternate ? "true" : "false");
           if (alternate) {
             toggle.classList.add("alternate");
           } else {
@@ -220,19 +181,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       manageTransitions('#quarto-margin-sidebar .nav-link', true);
       // Switch the toggles
       setColorSchemeToggle(alternate)
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455).
-    // Not run on load: stylesheets are set before first paint there, and
-    // scrolling would undo the scroll to a URL fragment (#14973).
-    // The one pixel nudge keeps the reader where they were.
-    const refreshSafariScrollbar = () => {
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
       if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
         manageTransitions("body", false);
-        const scrollY = window.scrollY;
-        window.scrollTo(0, scrollY > 0 ? scrollY - 1 : 1);
+        window.scrollTo(0, 1);
         setTimeout(() => {
-          window.scrollTo(0, scrollY);
+          window.scrollTo(0, 0);
           manageTransitions("body", true);
         }, 40);
       }
@@ -326,7 +281,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       // Read the current dark / light value
       let toAlternate = !hasAlternateSentinel();
       toggleColorMode(toAlternate);
-      refreshSafariScrollbar();
       setStyleSentinel(toAlternate);
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
@@ -337,36 +291,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     } else {
       toggleColorMode(false);
     }
-  </script>
-
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" aria-label="Toolbar">
-    <div class="container-fluid d-flex">
+  </script><div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top"><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="Breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./authors.html">Appendices</a></li><li class="breadcrumb-item"><a href="./qupath-extension.html"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">QuPath Extension</span></a></li></ol></nav>
-        <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="./authors.html">Appendices</a></li>
+<li class="breadcrumb-item"><a href="./qupath-extension.html"><span class="chapter-number">E</span>  <span class="chapter-title">QuPath Extension</span></a></li>
+</ol></nav><a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
-  </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+  </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto" aria-label="Site">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto"><div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      </a>
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Histopathology Atlas</a> 
         <div class="sidebar-tools-main">
     <div class="dropdown">
       <a href="" title="Share" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Share"><i class="bi bi-share"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
-          <li>
+<li>
             <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
               <i class="bi bi-twitter pe-1"></i>
             Twitter
@@ -385,8 +335,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
             </a>
           </li>
       </ul>
-    </div>
-  <button type="button" role="switch" aria-checked="false" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode" aria-label="Toggle dark mode"><i class="bi"></i></button>
+</div>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
       </div>
@@ -397,16 +347,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Home Page</span></span></a>
+ <span class="menu-text">Home Page</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text">Introduction</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -415,575 +365,684 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-controls="quarto-sidebar-section-2" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-2-label">General Pathology</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">General Pathology</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" aria-labelledby="quarto-sidebar-section-2-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./techniques.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Techniques Used in Pathology</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>  <span class="chapter-title">Techniques Used in Pathology</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./intracellular-accumulations.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Intracellular Accumulations</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>  <span class="chapter-title">Intracellular Accumulations</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./extracellular-accumulations.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Extracellular Accumulations</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>  <span class="chapter-title">Extracellular Accumulations</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./cell-injury.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Cellular Injury</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>  <span class="chapter-title">Cellular Injury</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./ischemia-necrosis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Ischemia and Necrosis</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>  <span class="chapter-title">Ischemia and Necrosis</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./congestion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Congestion</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>  <span class="chapter-title">Congestion</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./amyloidosis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Amyloidosis</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>  <span class="chapter-title">Amyloidosis</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./repair.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Repair Mechanisms</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>  <span class="chapter-title">Repair Mechanisms</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./erosion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Erosion</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>  <span class="chapter-title">Erosion</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-controls="quarto-sidebar-section-3" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-3-label">Inflamation</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Inflamation</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" aria-labelledby="quarto-sidebar-section-3-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./acute-inflammation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Acute inflammation</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>  <span class="chapter-title">Acute inflammation</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chronic-inflammation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Chronic inflammation</span></span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>  <span class="chapter-title">Chronic inflammation</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./granulamatous-inflammation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Granulamatous inflammation</span></span></a>
+ <span class="menu-text"><span class="chapter-number">12</span>  <span class="chapter-title">Granulamatous inflammation</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-controls="quarto-sidebar-section-4" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-4-label">Infectious Diseases</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Infectious Diseases</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" aria-labelledby="quarto-sidebar-section-4-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./virus.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Viruses</span></span></a>
+ <span class="menu-text"><span class="chapter-number">13</span>  <span class="chapter-title">Viruses</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./bacteria.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Bacteria</span></span></a>
+ <span class="menu-text"><span class="chapter-number">14</span>  <span class="chapter-title">Bacteria</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./fungi.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Fungi</span></span></a>
+ <span class="menu-text"><span class="chapter-number">15</span>  <span class="chapter-title">Fungi</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./parasites.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Parasites</span></span></a>
+ <span class="menu-text"><span class="chapter-number">16</span>  <span class="chapter-title">Parasites</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-controls="quarto-sidebar-section-5" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-5-label">Neoplasia, Tumor Pathology Basics</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Neoplasia, Tumor Pathology Basics</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" aria-labelledby="quarto-sidebar-section-5-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./benign.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Benign Tumors</span></span></a>
+ <span class="menu-text"><span class="chapter-number">17</span>  <span class="chapter-title">Benign Tumors</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./hamartoma.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Hamartoma</span></span></a>
+ <span class="menu-text"><span class="chapter-number">18</span>  <span class="chapter-title">Hamartoma</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./heterotopia.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Heterotopia</span></span></a>
+ <span class="menu-text"><span class="chapter-number">19</span>  <span class="chapter-title">Heterotopia</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./metaplasia.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Metaplasia</span></span></a>
+ <span class="menu-text"><span class="chapter-number">20</span>  <span class="chapter-title">Metaplasia</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./carcinogenesis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Carcinogenesis</span></span></a>
+ <span class="menu-text"><span class="chapter-number">21</span>  <span class="chapter-title">Carcinogenesis</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./malignant.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">The properties of Malignant Tumors</span></span></a>
+ <span class="menu-text"><span class="chapter-number">22</span>  <span class="chapter-title">The properties of Malignant Tumors</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./metastasis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Metastasis</span></span></a>
+ <span class="menu-text"><span class="chapter-number">23</span>  <span class="chapter-title">Metastasis</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./tumor-spread.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Tumor Spread to Other Organs</span></span></a>
+ <span class="menu-text"><span class="chapter-number">24</span>  <span class="chapter-title">Tumor Spread to Other Organs</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./heterogeneity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>  <span class="chapter-title">Tumor Heterogeneity</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-controls="quarto-sidebar-section-6" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-6-label">Prognostic Morphologic Features of Neoplasms</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
+ <span class="menu-text">Prognostic Morphologic Features of Neoplasms</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" aria-labelledby="quarto-sidebar-section-6-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./venous-invasion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Venous Invasion</span></span></a>
+ <span class="menu-text"><span class="chapter-number">26</span>  <span class="chapter-title">Venous Invasion</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./extramural-venous-invasion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Extramural Venous Invaasion</span></span></a>
+ <span class="menu-text"><span class="chapter-number">27</span>  <span class="chapter-title">Extramural Venous Invaasion</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-controls="quarto-sidebar-section-7" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-7-label">Hematopathology</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
+ <span class="menu-text">Cardiovascular System</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-7" aria-labelledby="quarto-sidebar-section-7-label" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./blood-vessels.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">28</span>  <span class="chapter-title">Blood Vessels</span></span></a>
+  </div>
+</li>
           <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./heart.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">29</span>  <span class="chapter-title">Heart</span></span></a>
+  </div>
+</li>
+      </ul>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
+ <span class="menu-text">Hematopathology</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./hodgkin.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">Hodgkin Lymphoma</span></span></a>
+ <span class="menu-text"><span class="chapter-number">30</span>  <span class="chapter-title">Hodgkin Lymphoma</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-controls="quarto-sidebar-section-8" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-8-label">Gastrointestinal System</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true">
+ <span class="menu-text">Gastrointestinal System</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-8" aria-labelledby="quarto-sidebar-section-8-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./gastro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">gastro.html</span></span></a>
+ <span class="menu-text"><span class="chapter-number">31</span>  <span class="chapter-title">Gastrointestinal System</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./esophagus.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">31</span>&nbsp; <span class="chapter-title">Esophagus</span></span></a>
+ <span class="menu-text"><span class="chapter-number">32</span>  <span class="chapter-title">Esophagus</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./stomach.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">32</span>&nbsp; <span class="chapter-title">Stomach</span></span></a>
+ <span class="menu-text"><span class="chapter-number">33</span>  <span class="chapter-title">Stomach</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./gastritis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">33</span>&nbsp; <span class="chapter-title">Gastritis</span></span></a>
+ <span class="menu-text"><span class="chapter-number">34</span>  <span class="chapter-title">Gastritis</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./duodenum.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">34</span>&nbsp; <span class="chapter-title">Duodenum</span></span></a>
+ <span class="menu-text"><span class="chapter-number">35</span>  <span class="chapter-title">Duodenum</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./colon.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">35</span>&nbsp; <span class="chapter-title">Colon</span></span></a>
+ <span class="menu-text"><span class="chapter-number">36</span>  <span class="chapter-title">Colon</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./crohn.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">36</span>&nbsp; <span class="chapter-title">Crohn’s Disease</span></span></a>
+ <span class="menu-text"><span class="chapter-number">37</span>  <span class="chapter-title">Crohn’s Disease</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-controls="quarto-sidebar-section-9" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-9-label">Liver Pathology</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true">
+ <span class="menu-text">Liver Pathology</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-9" aria-labelledby="quarto-sidebar-section-9-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./liver-transplantation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">37</span>&nbsp; <span class="chapter-title">Liver Transplantation</span></span></a>
+ <span class="menu-text"><span class="chapter-number">38</span>  <span class="chapter-title">Liver Transplantation</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./benign-liver-tumors.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">38</span>&nbsp; <span class="chapter-title">Benign Liver Tumors</span></span></a>
+ <span class="menu-text"><span class="chapter-number">39</span>  <span class="chapter-title">Benign Liver Tumors</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./malignant-liver-tumors.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">Malignant Liver Tumors</span></span></a>
+ <span class="menu-text"><span class="chapter-number">40</span>  <span class="chapter-title">Malignant Liver Tumors</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-controls="quarto-sidebar-section-10" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-10-label">Pancreatobiliary system</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="true">
+ <span class="menu-text">Pancreatobiliary system</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-10" aria-labelledby="quarto-sidebar-section-10-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./gallbladder.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">40</span>&nbsp; <span class="chapter-title">Gallbladder</span></span></a>
+ <span class="menu-text"><span class="chapter-number">41</span>  <span class="chapter-title">Gallbladder</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./ampulla-vater.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">41</span>&nbsp; <span class="chapter-title">Ampulla of Vater</span></span></a>
+ <span class="menu-text"><span class="chapter-number">42</span>  <span class="chapter-title">Ampulla of Vater</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-controls="quarto-sidebar-section-11" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-11-label">Lung</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="true">
+ <span class="menu-text">Lung</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-11" aria-labelledby="quarto-sidebar-section-11-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./neuroendocrine.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">42</span>&nbsp; <span class="chapter-title">Neuroendocrine</span></span></a>
+ <span class="menu-text"><span class="chapter-number">43</span>  <span class="chapter-title">Neuroendocrine</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" aria-controls="quarto-sidebar-section-12" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-12-label">Mezotel</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="true">
+ <span class="menu-text">Mesothelium</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-12" aria-labelledby="quarto-sidebar-section-12-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./mesothelial.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">43</span>&nbsp; <span class="chapter-title">Abdomen</span></span></a>
+ <span class="menu-text"><span class="chapter-number">44</span>  <span class="chapter-title">Mesothelium</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" aria-controls="quarto-sidebar-section-13" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-13-label">Gynecopathology</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true">
+ <span class="menu-text">Gynecopathology</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-13" aria-labelledby="quarto-sidebar-section-13-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./gynecologic.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">44</span>&nbsp; <span class="chapter-title">Gynecopathology</span></span></a>
+ <span class="menu-text"><span class="chapter-number">45</span>  <span class="chapter-title">Gynecopathology</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./genital.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">45</span>&nbsp; <span class="chapter-title">Genital System</span></span></a>
+ <span class="menu-text"><span class="chapter-number">46</span>  <span class="chapter-title">Genital System</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./cervix.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">46</span>&nbsp; <span class="chapter-title">Cervix</span></span></a>
+ <span class="menu-text"><span class="chapter-number">47</span>  <span class="chapter-title">Cervix</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./endometrium.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">47</span>&nbsp; <span class="chapter-title">Endometrium</span></span></a>
+ <span class="menu-text"><span class="chapter-number">48</span>  <span class="chapter-title">Endometrium</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./endometriosis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">48</span>&nbsp; <span class="chapter-title">Endometriosis</span></span></a>
+ <span class="menu-text"><span class="chapter-number">49</span>  <span class="chapter-title">Endometriosis</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-controls="quarto-sidebar-section-14" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-14-label">Uropathology</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="true">
+ <span class="menu-text">Uropathology</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-14" aria-labelledby="quarto-sidebar-section-14-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./urinary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">49</span>&nbsp; <span class="chapter-title">Uropathology</span></span></a>
+ <span class="menu-text"><span class="chapter-number">50</span>  <span class="chapter-title">Uropathology</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./kidney.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">50</span>&nbsp; <span class="chapter-title">Kidney Tumors / Renal Tumors</span></span></a>
+ <span class="menu-text"><span class="chapter-number">51</span>  <span class="chapter-title">Kidney Tumors / Renal Tumors</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./prostate.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">51</span>&nbsp; <span class="chapter-title">Prostate</span></span></a>
+ <span class="menu-text"><span class="chapter-number">52</span>  <span class="chapter-title">Prostate</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-controls="quarto-sidebar-section-15" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-15-label">Endocrine System</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="true">
+ <span class="menu-text">Endocrine System</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-15" aria-labelledby="quarto-sidebar-section-15-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./pituitary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">52</span>&nbsp; <span class="chapter-title">Pituitary Adenoma</span></span></a>
+ <span class="menu-text"><span class="chapter-number">53</span>  <span class="chapter-title">Pituitary Adenoma</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./adrenal.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">54</span>  <span class="chapter-title">Adrenal Gland Pathology</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" aria-controls="quarto-sidebar-section-16" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-16-label">Breast</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="true">
+ <span class="menu-text">Breast</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-16" aria-labelledby="quarto-sidebar-section-16-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./breast.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">53</span>&nbsp; <span class="chapter-title">Breast Tumors</span></span></a>
+ <span class="menu-text"><span class="chapter-number">55</span>  <span class="chapter-title">Breast Tumors</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" aria-controls="quarto-sidebar-section-17" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-17-label">Head and Neck</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" role="navigation" aria-expanded="true">
+ <span class="menu-text">Head and Neck</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-17" aria-labelledby="quarto-sidebar-section-17-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-18" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./nasopharynx.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">54</span>&nbsp; <span class="chapter-title">Nasopharynx</span></span></a>
+ <span class="menu-text"><span class="chapter-number">56</span>  <span class="chapter-title">Nasopharynx</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./ear.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">55</span>&nbsp; <span class="chapter-title">Ear</span></span></a>
+ <span class="menu-text"><span class="chapter-number">57</span>  <span class="chapter-title">Ear</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./salivary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">56</span>&nbsp; <span class="chapter-title">Salivary Gland</span></span></a>
+ <span class="menu-text"><span class="chapter-number">58</span>  <span class="chapter-title">Salivary Gland</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" aria-controls="quarto-sidebar-section-18" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-18-label">Central Nervous System</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" role="navigation" aria-expanded="true">
+ <span class="menu-text">Central Nervous System</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-18" aria-labelledby="quarto-sidebar-section-18-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-19" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./glioma.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">57</span>&nbsp; <span class="chapter-title">Glioma</span></span></a>
+ <span class="menu-text"><span class="chapter-number">59</span>  <span class="chapter-title">Glioma</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./meningioma.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">58</span>&nbsp; <span class="chapter-title">Meningioma</span></span></a>
+ <span class="menu-text"><span class="chapter-number">60</span>  <span class="chapter-title">Meningioma</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./cns-vascular.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">59</span>&nbsp; <span class="chapter-title">Vascular Lesions</span></span></a>
+ <span class="menu-text"><span class="chapter-number">61</span>  <span class="chapter-title">Vascular Lesions</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" aria-controls="quarto-sidebar-section-19" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-19-label">Bone</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" role="navigation" aria-expanded="true">
+ <span class="menu-text">Bone</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-19" aria-labelledby="quarto-sidebar-section-19-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-20" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./bone.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">60</span>&nbsp; <span class="chapter-title">Bone Tumors</span></span></a>
+ <span class="menu-text"><span class="chapter-number">62</span>  <span class="chapter-title">Bone Tumors</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" aria-controls="quarto-sidebar-section-20" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-20-label">Soft Tissue</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" role="navigation" aria-expanded="true">
+ <span class="menu-text">Soft Tissue</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-20" aria-labelledby="quarto-sidebar-section-20-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-21" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./adipose.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">61</span>&nbsp; <span class="chapter-title">Adipose Tissue</span></span></a>
+ <span class="menu-text"><span class="chapter-number">63</span>  <span class="chapter-title">Adipose Tissue</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" aria-controls="quarto-sidebar-section-21" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-21-label">Pediatric and Perinatal</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-22" role="navigation" aria-expanded="true">
+ <span class="menu-text">Pediatric and Perinatal</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-22" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-21" aria-labelledby="quarto-sidebar-section-21-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-22" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./placenta.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">62</span>&nbsp; <span class="chapter-title">Placenta</span></span></a>
+ <span class="menu-text"><span class="chapter-number">64</span>  <span class="chapter-title">Placenta</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-22" aria-controls="quarto-sidebar-section-22" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-22-label">Cytopathology</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-23" role="navigation" aria-expanded="true">
+ <span class="menu-text">Cytopathology</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-23" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-22" aria-labelledby="quarto-sidebar-section-22-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-23" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./BOS.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">63</span>&nbsp; <span class="chapter-title">BOS.html</span></span></a>
+ <span class="menu-text"><span class="chapter-number">65</span>  <span class="chapter-title">Cerebrospinal Fluid (CSF)</span></span></a>
   </div>
 </li>
       </ul>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">---</span></span>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-23" aria-controls="quarto-sidebar-section-23" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-23-label">Special Collections</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-25" role="navigation" aria-expanded="true">
+ <span class="menu-text">Special Collections</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-25" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-23" aria-labelledby="quarto-sidebar-section-23-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-25" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./gbd.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">64</span>&nbsp; <span class="chapter-title">GBDAtlas</span></span></a>
+ <span class="menu-text"><span class="chapter-number">66</span>  <span class="chapter-title">GBDAtlas</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./hacettepecom.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">65</span>&nbsp; <span class="chapter-title">Hacettepe Case of Month</span></span></a>
+ <span class="menu-text"><span class="chapter-number">67</span>  <span class="chapter-title">Hacettepe Case of Month</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./bs.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">66</span>&nbsp; <span class="chapter-title">BSAtlas</span></span></a>
+ <span class="menu-text"><span class="chapter-number">68</span>  <span class="chapter-title">BSAtlas</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./ice.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">67</span>&nbsp; <span class="chapter-title">ICEtlas</span></span></a>
+ <span class="menu-text"><span class="chapter-number">69</span>  <span class="chapter-title">ICEtlas</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./wsi.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">68</span>&nbsp; <span class="chapter-title">Similar Websites</span></span></a>
+ <span class="menu-text"><span class="chapter-number">70</span>  <span class="chapter-title">Similar Websites</span></span></a>
   </div>
 </li>
       </ul>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">---</span></span>
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
@@ -992,174 +1051,65 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-24" aria-controls="quarto-sidebar-section-24" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-24-label">Neoplasia, Tumor Pathology Basics</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
-      </div>
-      <ul id="quarto-sidebar-section-24" aria-labelledby="quarto-sidebar-section-24-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./benign.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Benign Tumors</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./hamartoma.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Hamartoma</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./heterotopia.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Heterotopia</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./metaplasia.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Metaplasia</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./carcinogenesis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Carcinogenesis</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./malignant.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">The properties of Malignant Tumors</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./metastasis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Metastasis</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./tumor-spread.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Tumor Spread to Other Organs</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./heterogeneity.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">77</span>&nbsp; <span class="chapter-title">Tumor Heterogeneity</span></span></a>
-  </div>
-</li>
-      </ul>
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">---</span></span>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-25" aria-controls="quarto-sidebar-section-25" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-25-label">Cardiovascular System</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-28" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-28" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-      <ul id="quarto-sidebar-section-25" aria-labelledby="quarto-sidebar-section-25-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./blood-vessels.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">78</span>&nbsp; <span class="chapter-title">Blood Vessels</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./heart.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">79</span>&nbsp; <span class="chapter-title">Heart</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./ischemia-necrosis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Ischemia and Necrosis</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./congestion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Congestion</span></span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-26" aria-controls="quarto-sidebar-section-26" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-26-label">Endocrine System</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
-      </div>
-      <ul id="quarto-sidebar-section-26" aria-labelledby="quarto-sidebar-section-26-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./pituitary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">52</span>&nbsp; <span class="chapter-title">Pituitary Adenoma</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./adrenal.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">83</span>&nbsp; <span class="chapter-title">Adrenal Gland Pathology</span></span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-27" aria-controls="quarto-sidebar-section-27" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-27-label">Appendices</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
-      </div>
-      <ul id="quarto-sidebar-section-27" aria-labelledby="quarto-sidebar-section-27-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-28" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./authors.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Authors and Contributors</span></span></a>
+ <span class="menu-text"><span class="chapter-number">A</span>  <span class="chapter-title">Authors and Contributors</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./contributions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Contributions are welcome</span></span></a>
+ <span class="menu-text"><span class="chapter-number">B</span>  <span class="chapter-title">Contributions are welcome</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./comments.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Comments are welcome</span></span></a>
+ <span class="menu-text"><span class="chapter-number">C</span>  <span class="chapter-title">Comments are welcome</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./augmented-reality.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Augmented Reality</span></span></a>
+ <span class="menu-text"><span class="chapter-number">D</span>  <span class="chapter-title">Augmented Reality</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./qupath-extension.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">QuPath Extension</span></span></a>
+ <span class="menu-text"><span class="chapter-number">E</span>  <span class="chapter-title">QuPath Extension</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./ai-assistants.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Use in ChatGPT / Claude</span></span></a>
+ <span class="menu-text"><span class="chapter-number">F</span>  <span class="chapter-title">Use in ChatGPT / Claude</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
     </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+</div>
+</nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about"><span class="header-section-number">E.1</span> About</a></li>
+<li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about"><span class="header-section-number">E.1</span> About</a></li>
   <li><a href="#what-it-does" id="toc-what-it-does" class="nav-link" data-scroll-target="#what-it-does"><span class="header-section-number">E.2</span> What it does</a></li>
   <li><a href="#quiz-self-study" id="toc-quiz-self-study" class="nav-link" data-scroll-target="#quiz-self-study"><span class="header-section-number">E.3</span> Quiz (self-study)</a></li>
   <li><a href="#compare-a-cases-stains" id="toc-compare-a-cases-stains" class="nav-link" data-scroll-target="#compare-a-cases-stains"><span class="header-section-number">E.4</span> Compare a case’s stains</a></li>
@@ -1167,31 +1117,33 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#related-content-navigator" id="toc-related-content-navigator" class="nav-link" data-scroll-target="#related-content-navigator"><span class="header-section-number">E.6</span> Related-content navigator</a></li>
   <li><a href="#collections-favorites" id="toc-collections-favorites" class="nav-link" data-scroll-target="#collections-favorites"><span class="header-section-number">E.7</span> Collections &amp; favorites</a></li>
   <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements"><span class="header-section-number">E.8</span> Requirements</a></li>
-  <li><a href="#install" id="toc-install" class="nav-link" data-scroll-target="#install"><span class="header-section-number">E.9</span> Install</a>
+  <li>
+<a href="#install" id="toc-install" class="nav-link" data-scroll-target="#install"><span class="header-section-number">E.9</span> Install</a>
   <ul class="collapse">
-  <li><a href="#method-a-add-the-catalog-to-qupath-recommended" id="toc-method-a-add-the-catalog-to-qupath-recommended" class="nav-link" data-scroll-target="#method-a-add-the-catalog-to-qupath-recommended">Method A — add the catalog to QuPath (recommended)</a></li>
+<li><a href="#method-a-add-the-catalog-to-qupath-recommended" id="toc-method-a-add-the-catalog-to-qupath-recommended" class="nav-link" data-scroll-target="#method-a-add-the-catalog-to-qupath-recommended">Method A — add the catalog to QuPath (recommended)</a></li>
   <li><a href="#method-b-download-the-jar-from-releases-manual" id="toc-method-b-download-the-jar-from-releases-manual" class="nav-link" data-scroll-target="#method-b-download-the-jar-from-releases-manual">Method B — download the JAR from Releases (manual)</a></li>
-  </ul></li>
+  </ul>
+</li>
   <li><a href="#build-optional" id="toc-build-optional" class="nav-link" data-scroll-target="#build-optional"><span class="header-section-number">E.10</span> Build (optional)</a></li>
   <li><a href="#notes-limitations" id="toc-notes-limitations" class="nav-link" data-scroll-target="#notes-limitations"><span class="header-section-number">E.11</span> Notes &amp; limitations</a></li>
-  <li><a href="#focus-heatmap" id="toc-focus-heatmap" class="nav-link" data-scroll-target="#focus-heatmap"><span class="header-section-number">E.12</span> Focus heatmap</a>
+  <li>
+<a href="#focus-heatmap" id="toc-focus-heatmap" class="nav-link" data-scroll-target="#focus-heatmap"><span class="header-section-number">E.12</span> Focus heatmap</a>
   <ul class="collapse">
-  <li><a href="#blinded-research-recording" id="toc-blinded-research-recording" class="nav-link" data-scroll-target="#blinded-research-recording">Blinded research recording</a></li>
+<li><a href="#blinded-research-recording" id="toc-blinded-research-recording" class="nav-link" data-scroll-target="#blinded-research-recording">Blinded research recording</a></li>
   <li><a href="#pathology-cot-demo-recording" id="toc-pathology-cot-demo-recording" class="nav-link" data-scroll-target="#pathology-cot-demo-recording">Pathology-CoT demo recording</a></li>
-  </ul></li>
+  </ul>
+</li>
   <li><a href="#coverage-qc-dashboard" id="toc-coverage-qc-dashboard" class="nav-link" data-scroll-target="#coverage-qc-dashboard"><span class="header-section-number">E.13</span> Coverage &amp; QC dashboard</a></li>
   <li><a href="#provenance-citation" id="toc-provenance-citation" class="nav-link" data-scroll-target="#provenance-citation"><span class="header-section-number">E.14</span> Provenance &amp; citation</a></li>
   <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation"><span class="header-section-number">E.15</span> Citation</a></li>
   <li><a href="#license" id="toc-license" class="nav-link" data-scroll-target="#license"><span class="header-section-number">E.16</span> License</a></li>
-  </ul>
-</nav>
-    </div>
+  </ul></nav>
+</div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content" tabindex="-1">
-
-
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="Breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./authors.html">Appendices</a></li><li class="breadcrumb-item"><a href="./qupath-extension.html"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">QuPath Extension</span></a></li></ol></nav>
-<div class="quarto-title">
+<main class="content column-body" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="./authors.html">Appendices</a></li>
+<li class="breadcrumb-item"><a href="./qupath-extension.html"><span class="chapter-number">E</span>  <span class="chapter-title">QuPath Extension</span></a></li>
+</ol></nav><div class="quarto-title">
 <h1 class="title"><span id="sec-qupath-extension" class="quarto-section-identifier">Appendix E — QuPath Patoloji Atlası Extension</span></h1>
   <div class="quarto-categories">
     <div class="quarto-category">qupath</div>
@@ -1210,7 +1162,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 19, 2026</p>
+      <p class="date">October 23, 2026</p>
     </div>
   </div>
   
@@ -1219,10 +1171,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   
 
 
-</header>
-
-
-<div class="cell">
+</header><div class="cell">
 <p>An open-source QuPath extension that lets you browse the whole-slide images published on this atlas and open any of them directly inside <strong>QuPath</strong>. Slides are streamed tile-by-tile over HTTP, with nothing to download in advance.</p>
 <p>The extension adds a Deep Zoom (DZI) image reader to QuPath plus a searchable catalogue driven by the atlas’s own image list, so QuPath’s full measurement, annotation and analysis toolkit works on atlas slides.</p>
 <p><strong>Requires</strong> QuPath 0.6 or newer and an internet connection at runtime.</p>
@@ -1230,18 +1179,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>The documentation below is kept in sync with the extension repository’s README. Menu and button labels are given exactly as they appear in the extension, which ships a Turkish interface.</p>
 </div>
 <!-- Generated by R/sync-qupath-readme.R - do not edit by hand. -->
-<section id="about" class="level2" data-number="E.1">
-<h2 data-number="E.1" class="anchored" data-anchor-id="about"><span class="header-section-number">E.1</span> About</h2>
+<section id="about" class="level2" data-number="E.1"><h2 data-number="E.1" class="anchored" data-anchor-id="about">
+<span class="header-section-number">E.1</span> About</h2>
 <p>The <strong>Patoloji Atlası</strong> is a whole-slide image teaching collection curated by pathologists and published openly on the web. This extension brings that same collection into QuPath so the slides can be browsed and opened for study and analysis without leaving the application. An <strong>About</strong> button in the browser window (and the extension’s entry in QuPath’s extension manager) links back to these sites:</p>
 <ul>
-<li><strong>Türkçe:</strong> <a href="https://www.patolojiatlasi.com/">patolojiatlasi.com</a></li>
-<li><strong>English:</strong> <a href="https://www.histopathologyatlas.com/">histopathologyatlas.com</a></li>
+<li>
+<strong>Türkçe:</strong> <a href="https://www.patolojiatlasi.com/">patolojiatlasi.com</a>
+</li>
+<li>
+<strong>English:</strong> <a href="https://www.histopathologyatlas.com/">histopathologyatlas.com</a>
+</li>
 </ul>
 <p>Website images, favicons, and the extension icon are available in the <a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/assets/brand/README.md">visual asset pack</a>.</p>
 <p><strong>Related work:</strong> <a href="https://github.com/openmicroanatomy">QuPath Edu / OpenMicroanatomy</a> (Yli-Hallila et al., <em>Journal of Anatomy</em> 2025;246(5):846–856, <a href="https://doi.org/10.1111/joa.14172">doi:10.1111/joa.14172</a>) is a server-based QuPath teaching extension (workspaces, hidden-answer annotations, slide tours). This extension serves the same educational space with a deliberately serverless design: slides stream read-only from the public atlas, and every study artifact (quiz/tour packs, collections, recordings) is a portable local file.</p>
-</section>
-<section id="what-it-does" class="level2" data-number="E.2">
-<h2 data-number="E.2" class="anchored" data-anchor-id="what-it-does"><span class="header-section-number">E.2</span> What it does</h2>
+</section><section id="what-it-does" class="level2" data-number="E.2"><h2 data-number="E.2" class="anchored" data-anchor-id="what-it-does">
+<span class="header-section-number">E.2</span> What it does</h2>
 <ul>
 <li>Adds <strong>Extensions → Patoloji Atlası → Slaytlara gözat…</strong>, opening a searchable window that lists every image grouped by category (Gastrointestinal, Pancreatobiliary, Neuropathology, …), with a thumbnail preview and a <strong>Published only</strong> filter.</li>
 <li>Each entry is a single stain of a case, so multi-stain cases (H&amp;E plus IHC / special stains such as Warthin-Starry, Giemsa, CISH, PAS…) each appear as their own openable image.</li>
@@ -1249,158 +1201,171 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li>With a <strong>project</strong> open, the slide is added to the project and opened as an entry, so your annotations, detections and measurements are saved with the project.</li>
 <li>With no project open, it opens in the current viewer for read-only viewing.</li>
-</ul></li>
-<li><strong>Curate a project from several images.</strong> Use <strong>Add to selection</strong> (button or the tree right-click menu) to build up a set as you browse and search — the selection persists across searches and <em>Refresh list</em>. Then <strong>Create project…</strong> opens a dialog where you review the set and either create a <strong>new project</strong> on disk or <strong>add the selection to the current project</strong>. Because slides stream from URLs, the resulting project is tiny and portable — hand the project folder to students (they need this extension installed) to run a course, seminar, or exam set.</li>
-<li><strong>Refresh list</strong> pulls the latest <code>lists/list.yaml</code> live from the <code>patolojiatlasi/patolojiatlasi.github.io</code> repository, so new cases appear without updating the extension. A snapshot of the list (288 images) is bundled so the browser works offline out of the box.</li>
-<li>Registers <code>.dzi</code> URLs as an openable image type, so <strong>File → Open URI…</strong> with any <code>https://images.patolojiatlasi.com/&lt;case&gt;/&lt;stain&gt;.dzi</code> link works too.</li>
-<li><strong>Opens local Deep Zoom folders too</strong> — <strong>Patoloji Atlası → <em>Yerel DZI aç…</em></strong> reads a <code>.dzi</code> sitting next to its <code>&lt;name&gt;_files/</code> directory on disk, the same pyramid format the atlas serves. Useful for a slide you have exported with <code>vips dzsave</code> but not yet published. It is an explicit command rather than drag-and-drop because QuPath may filter unknown extensions before any image reader is consulted. With a project open the slide is added to it, because annotations on a slide opened <em>without</em> a project live only in memory and are lost on close.</li>
-<li><strong>Named teaching regions.</strong> <strong>Patoloji Atlası → Bölgeler → <em>Bölgeleri dışa aktar…</em></strong> writes the slide’s named annotations to <code>&lt;slide&gt;.regions.json</code> beside the pyramid. That one small file is read by three different things: this extension (<em>Bölgeleri içe aktar…</em> to revise them), the OpenSeadragon web viewer (click a region name, the slide zooms to it), and the atlas MCP server (so an assistant can list a slide’s regions and open one). Coordinates are plain full-resolution pixels — the space QuPath, the DZI descriptor and OpenSeadragon all already share, so nothing is transformed anywhere along the way. Name an annotation <code>Lenfoid agregat | Lymphoid aggregate</code> to give it both languages. Full workflow, the <code>atlas-regions/1</code> format, and the invariants that keep the three consumers in step: <strong><a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/docs/teaching-regions.md">docs/teaching-regions.md</a></strong>.</li>
-<li><strong>GeoJSON region exchange.</strong> <strong>Bölgeler → <em>GeoJSON dışa aktar… / içe aktar…</em></strong> writes and reads a separate GeoJSON <code>FeatureCollection</code> for QuPath, R tools such as wsiTools, and geometry checks. The exchange file carries full-resolution pixel coordinates, feature UUIDs, names, classes, descriptions, and slide dimensions when exported here. Polygon holes and fractional coordinates remain in the geometry; QuPath 0.6 ROI conversion can shift fractional coordinates by a few thousandths of a pixel, so use a 0.01 px tolerance for a QuPath round-trip check. Import checks dimensions and asks for confirmation when another tool omitted them; matching UUIDs can replace existing annotations after confirmation. The website and MCP server still use <code>&lt;slide&gt;.regions.json</code>, so export that format again after editing a GeoJSON copy if the published teaching regions should change. <strong>Bölgeler → <em>Bölge dosyasını GeoJSON’a çevir…</em></strong> converts an existing published <code>.regions.json</code> without opening its slide; it copies stored geometry directly, avoiding QuPath ROI coordinate rounding.</li>
 </ul>
-</section>
-<section id="quiz-self-study" class="level2" data-number="E.3">
-<h2 data-number="E.3" class="anchored" data-anchor-id="quiz-self-study"><span class="header-section-number">E.3</span> Quiz (self-study)</h2>
+</li>
+<li>
+<strong>Curate a project from several images.</strong> Use <strong>Add to selection</strong> (button or the tree right-click menu) to build up a set as you browse and search — the selection persists across searches and <em>Refresh list</em>. Then <strong>Create project…</strong> opens a dialog where you review the set and either create a <strong>new project</strong> on disk or <strong>add the selection to the current project</strong>. Because slides stream from URLs, the resulting project is tiny and portable — hand the project folder to students (they need this extension installed) to run a course, seminar, or exam set.</li>
+<li>
+<strong>Refresh list</strong> pulls the latest <code>lists/list.yaml</code> live from the <code>patolojiatlasi/patolojiatlasi.github.io</code> repository, so new cases appear without updating the extension. A snapshot of the list (288 images) is bundled so the browser works offline out of the box.</li>
+<li>Registers <code>.dzi</code> URLs as an openable image type, so <strong>File → Open URI…</strong> with any <code>https://images.patolojiatlasi.com/&lt;case&gt;/&lt;stain&gt;.dzi</code> link works too.</li>
+<li>
+<strong>Opens local Deep Zoom folders too</strong> — <strong>Patoloji Atlası → <em>Yerel DZI aç…</em></strong> reads a <code>.dzi</code> sitting next to its <code>&lt;name&gt;_files/</code> directory on disk, the same pyramid format the atlas serves. Useful for a slide you have exported with <code>vips dzsave</code> but not yet published. It is an explicit command rather than drag-and-drop because QuPath may filter unknown extensions before any image reader is consulted. With a project open the slide is added to it, because annotations on a slide opened <em>without</em> a project live only in memory and are lost on close.</li>
+<li>
+<strong>Named teaching regions.</strong> <strong>Patoloji Atlası → Bölgeler → <em>Bölgeleri dışa aktar…</em></strong> writes the slide’s named annotations to <code>&lt;slide&gt;.regions.json</code> beside the pyramid. That one small file is read by three different things: this extension (<em>Bölgeleri içe aktar…</em> to revise them), the OpenSeadragon web viewer (click a region name, the slide zooms to it), and the atlas MCP server (so an assistant can list a slide’s regions and open one). Coordinates are plain full-resolution pixels — the space QuPath, the DZI descriptor and OpenSeadragon all already share, so nothing is transformed anywhere along the way. Name an annotation <code>Lenfoid agregat | Lymphoid aggregate</code> to give it both languages. Full workflow, the <code>atlas-regions/1</code> format, and the invariants that keep the three consumers in step: <strong><a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/docs/teaching-regions.md">docs/teaching-regions.md</a></strong>.</li>
+<li>
+<strong>GeoJSON region exchange.</strong> <strong>Bölgeler → <em>GeoJSON dışa aktar… / içe aktar…</em></strong> writes and reads a separate GeoJSON <code>FeatureCollection</code> for QuPath, R tools such as wsiTools, and geometry checks. The exchange file carries full-resolution pixel coordinates, feature UUIDs, names, classes, descriptions, and slide dimensions when exported here. Polygon holes and fractional coordinates remain in the geometry; QuPath 0.6 ROI conversion can shift fractional coordinates by a few thousandths of a pixel, so use a 0.01 px tolerance for a QuPath round-trip check. Import checks dimensions and asks for confirmation when another tool omitted them; matching UUIDs can replace existing annotations after confirmation. The website and MCP server still use <code>&lt;slide&gt;.regions.json</code>, so export that format again after editing a GeoJSON copy if the published teaching regions should change. <strong>Bölgeler → <em>Bölge dosyasını GeoJSON’a çevir…</em></strong> converts an existing published <code>.regions.json</code> without opening its slide; it copies stored geometry directly, avoiding QuPath ROI coordinate rounding.</li>
+</ul></section><section id="quiz-self-study" class="level2" data-number="E.3"><h2 data-number="E.3" class="anchored" data-anchor-id="quiz-self-study">
+<span class="header-section-number">E.3</span> Quiz (self-study)</h2>
 <p><strong>Extensions → Patoloji Atlası → Sınav / Quiz → Hazırla…</strong> and <strong>Extensions → Patoloji Atlası → Sınav / Quiz → Çöz…</strong> turn atlas slides into a self-study quiz — no project and no server required. Four question types are supported:</p>
 <ul>
 <li><p><strong>Multiple-choice</strong> — a prompt with several options, one marked correct.</p></li>
 <li><p><strong>Free-text</strong> — a prompt with a model answer to compare your own notes against.</p></li>
 <li><p><strong>Annotation task</strong> — a prompt that asks you to mark or outline a feature on the slide (e.g. “mark every mitosis”); you draw with QuPath’s normal annotation tools, then click <strong>Göster</strong> to overlay the instructor’s reference annotation on the slide and compare by eye.</p></li>
-<li><p><strong>Guided navigation (“find it”)</strong> — a prompt that asks you to navigate to a region (e.g.&nbsp;“find the area of highest mitotic activity”); pan/zoom there yourself, then click <strong>Göster</strong> to overlay the target region and recentre the viewer on it.</p></li>
+<li><p><strong>Guided navigation (“find it”)</strong> — a prompt that asks you to navigate to a region (e.g. “find the area of highest mitotic activity”); pan/zoom there yourself, then click <strong>Göster</strong> to overlay the target region and recentre the viewer on it.</p></li>
 <li><p><strong>Author</strong> (<code>Sınav / Quiz → Hazırla…</code>) — with an atlas slide open, add a question of any of the four types; each question is bound to the slide that was open when you added it (its DZI URL is stored with the question), so one pack can span several slides. For an annotation or navigation question, draw and select the reference region on the slide yourself, then click <strong>Referansı slayttan al</strong> to capture its shape as the question’s reference (annotation) or target (navigation) geometry. Save the finished set as a quiz-pack JSON.</p></li>
 <li><p><strong>Take</strong> (<code>Sınav / Quiz → Çöz…</code>) — load a quiz-pack and work through its questions in order; each question opens its slide, you answer it — pick an option, type notes, draw an outline, or navigate to a region — then click <strong>Göster</strong> to reveal the correct MCQ option, the free-text model answer, or, for annotation/navigation questions, an overlay of the reference/target region drawn directly on the slide.</p></li>
-<li><p>This is <strong>self-study</strong>, not a graded exam. For <strong>multiple-choice</strong> and <strong>free-text</strong> questions there is no auto-grading at all — <strong>Göster</strong> only reveals the correct option or model answer for a visual self-compare, nothing is scored. For <strong>annotation</strong> and <strong>navigation</strong> questions, <strong>Göster</strong> additionally appends one measurement-only score line below the reference/target overlay: IoU % plus a hit/miss verdict, where a hit is “IoU &gt; 0.3 or containment” (annotation: your drawn outline vs.&nbsp;the reference geometry; navigation: your viewport at reveal time vs.&nbsp;the target geometry). This score is a geometric measurement, not a clinical judgement, and it is <strong>display-only</strong>: it is never persisted, never written back into the quiz-pack, and disappears like everything else in the reveal area as soon as you move on. Nothing is saved anywhere: the quiz-pack is a single portable file you’re free to email or hand out, and anything you draw while answering an annotation or navigation question is transient — it’s cleared again as soon as you move to the next/previous question or close the window, so it never ends up saved in the project.</p></li>
+<li><p>This is <strong>self-study</strong>, not a graded exam. For <strong>multiple-choice</strong> and <strong>free-text</strong> questions there is no auto-grading at all — <strong>Göster</strong> only reveals the correct option or model answer for a visual self-compare, nothing is scored. For <strong>annotation</strong> and <strong>navigation</strong> questions, <strong>Göster</strong> additionally appends one measurement-only score line below the reference/target overlay: IoU % plus a hit/miss verdict, where a hit is “IoU &gt; 0.3 or containment” (annotation: your drawn outline vs. the reference geometry; navigation: your viewport at reveal time vs. the target geometry). This score is a geometric measurement, not a clinical judgement, and it is <strong>display-only</strong>: it is never persisted, never written back into the quiz-pack, and disappears like everything else in the reveal area as soon as you move on. Nothing is saved anywhere: the quiz-pack is a single portable file you’re free to email or hand out, and anything you draw while answering an annotation or navigation question is transient — it’s cleared again as soon as you move to the next/previous question or close the window, so it never ends up saved in the project.</p></li>
 <li><p><strong>No QuPath? No problem.</strong> <a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/web-tour-player/"><code>web-tour-player/</code></a> is a single self-contained HTML page that plays the same quiz/tour packs in a plain web browser — see its <a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/web-tour-player/README.md">README</a> for deployment and CORS notes.</p></li>
-</ul>
-</section>
-<section id="compare-a-cases-stains" class="level2" data-number="E.4">
-<h2 data-number="E.4" class="anchored" data-anchor-id="compare-a-cases-stains"><span class="header-section-number">E.4</span> Compare a case’s stains</h2>
+</ul></section><section id="compare-a-cases-stains" class="level2" data-number="E.4"><h2 data-number="E.4" class="anchored" data-anchor-id="compare-a-cases-stains">
+<span class="header-section-number">E.4</span> Compare a case’s stains</h2>
 <p><strong>Extensions → Patoloji Atlası → Karşılaştır → Bu vakanın boyalarını karşılaştır…</strong> opens every stain of the case shown in the active viewer — H&amp;E plus any IHC / special stains — into QuPath’s native multi-viewer grid, with pan/zoom linked across all of them (QuPath’s built-in <strong>synchronize viewers</strong> behavior), so you can scroll one panel and have the others follow to the same field. The grid size (1×2 up to 2×3) is picked to fit the number of stains; cases with more than six stains only show the first six. If the active viewer isn’t showing a cataloged atlas slide, or the slide’s case has no other stains, you get a message instead of a grid.</p>
 <p><strong>Extensions → Patoloji Atlası → Karşılaştır → Tek görünüme dön</strong> turns synchronization off and collapses the grid back to a single viewer, closing the other panels (prompting to save first if any of them have unsaved edits, exactly like QuPath’s own close-viewer action).</p>
-</section>
-<section id="bench-side-reference" class="level2" data-number="E.5">
-<h2 data-number="E.5" class="anchored" data-anchor-id="bench-side-reference"><span class="header-section-number">E.5</span> Bench-side reference</h2>
+</section><section id="bench-side-reference" class="level2" data-number="E.5"><h2 data-number="E.5" class="anchored" data-anchor-id="bench-side-reference">
+<span class="header-section-number">E.5</span> Bench-side reference</h2>
 <p>Open an atlas case in a <strong>second viewer beside your own slide</strong> — handy for comparing your own case against a known reference while you work, without losing what’s already open. Two ways to launch it:</p>
 <ul>
-<li><strong>Browser right-click</strong> — in <strong>Slaytlara gözat…</strong>, right-click a case and choose <strong>Referans olarak yanında aç</strong>.</li>
-<li><strong>Extensions → Patoloji Atlası → Referans → Referans slayt aç…</strong> — a search-and-pick dialog (filter by title, organ, or stain) with a <strong>Yanında aç</strong> button (or double-click a row).</li>
+<li>
+<strong>Browser right-click</strong> — in <strong>Slaytlara gözat…</strong>, right-click a case and choose <strong>Referans olarak yanında aç</strong>.</li>
+<li>
+<strong>Extensions → Patoloji Atlası → Referans → Referans slayt aç…</strong> — a search-and-pick dialog (filter by title, organ, or stain) with a <strong>Yanında aç</strong> button (or double-click a row).</li>
 </ul>
 <p>Either way, the reference slide streams into a new viewer added next to your active one; if nothing is open yet, it opens directly into that single viewer instead (there’s nothing to be “beside” yet). When both slides carry a known pixel size (µm/px), the reference viewer’s zoom is matched automatically to show the same on-screen scale as yours. A small floating <strong>Referans</strong> window appears alongside it with:</p>
 <ul>
-<li><strong>Büyütmeyi eşle</strong> — re-match magnification on demand.</li>
-<li><strong>Kaydırmayı da eşle (tam senkron)</strong> — toggle full pan/zoom sync between the two viewers (QuPath’s built-in synchronize-viewers behavior).</li>
-<li><strong>Referansı kapat</strong> — closes the reference viewer (prompting to save first if it has unsaved edits) and collapses the grid back to a single viewer.</li>
-</ul>
-</section>
-<section id="related-content-navigator" class="level2" data-number="E.6">
-<h2 data-number="E.6" class="anchored" data-anchor-id="related-content-navigator"><span class="header-section-number">E.6</span> Related-content navigator</h2>
+<li>
+<strong>Büyütmeyi eşle</strong> — re-match magnification on demand.</li>
+<li>
+<strong>Kaydırmayı da eşle (tam senkron)</strong> — toggle full pan/zoom sync between the two viewers (QuPath’s built-in synchronize-viewers behavior).</li>
+<li>
+<strong>Referansı kapat</strong> — closes the reference viewer (prompting to save first if it has unsaved edits) and collapses the grid back to a single viewer.</li>
+</ul></section><section id="related-content-navigator" class="level2" data-number="E.6"><h2 data-number="E.6" class="anchored" data-anchor-id="related-content-navigator">
+<span class="header-section-number">E.6</span> Related-content navigator</h2>
 <p><strong>Extensions → Patoloji Atlası → İlgili içerik…</strong> opens a companion window that, for the atlas slide currently open in the active viewer, shows two thumbnail filmstrips:</p>
 <ul>
-<li><strong>Bu vakanın diğer boyaları</strong> — the same case’s other stains (H&amp;E plus any IHC / special stains), captioned by stain name.</li>
-<li><strong>Aynı kategoriden vakalar</strong> — other cases from the same category, one representative thumbnail per case (its H&amp;E stain if it has one, otherwise its first stain).</li>
+<li>
+<strong>Bu vakanın diğer boyaları</strong> — the same case’s other stains (H&amp;E plus any IHC / special stains), captioned by stain name.</li>
+<li>
+<strong>Aynı kategoriden vakalar</strong> — other cases from the same category, one representative thumbnail per case (its H&amp;E stain if it has one, otherwise its first stain).</li>
 </ul>
 <p>The window <strong>auto-follows the active viewer</strong> — switch slides, open a different one, or close it, and both strips rebuild for whatever’s now open, with no need to reopen the window. If the active viewer isn’t showing a cataloged atlas slide, it shows a hint instead of strips. A <strong>Yenile</strong> button rebuilds on demand.</p>
 <p><strong>Click a thumbnail to swap the active viewer to that slide.</strong> Because <code>QuPathViewer.setImageData</code> bypasses QuPath’s own save prompt, the navigator checks first: if the slide you’re leaving has unsaved changes, you’re asked to confirm before it’s replaced.</p>
 <p>The swap targets the <strong>active</strong> viewer. If you have a Case-Compare grid open, only the active panel changes — use the navigator with a single viewer for the intended jump-to-related experience.</p>
-</section>
-<section id="collections-favorites" class="level2" data-number="E.7">
-<h2 data-number="E.7" class="anchored" data-anchor-id="collections-favorites"><span class="header-section-number">E.7</span> Collections &amp; favorites</h2>
+</section><section id="collections-favorites" class="level2" data-number="E.7"><h2 data-number="E.7" class="anchored" data-anchor-id="collections-favorites">
+<span class="header-section-number">E.7</span> Collections &amp; favorites</h2>
 <p>Build a selection in the browser (right-click a slide → <strong>Add to selection</strong>, or the <strong>Add to selection</strong> button), then:</p>
 <ul>
-<li><strong>Koleksiyonu kaydet…</strong> writes the current selection to a small, shareable <code>.json</code> file — send it to a colleague, or keep it as your own case list. Refuses (with a status hint) if the selection is empty.</li>
-<li><strong>Koleksiyon yükle…</strong> opens a <code>.json</code> collection and re-resolves each entry against the currently-loaded catalog, adding whatever matches into the selection basket. The status line reports how many slides loaded and how many are <strong>no longer in the catalog</strong> (e.g.&nbsp;renamed or removed since the file was saved) — that part is safely ignored rather than failing the whole load.</li>
+<li>
+<strong>Koleksiyonu kaydet…</strong> writes the current selection to a small, shareable <code>.json</code> file — send it to a colleague, or keep it as your own case list. Refuses (with a status hint) if the selection is empty.</li>
+<li>
+<strong>Koleksiyon yükle…</strong> opens a <code>.json</code> collection and re-resolves each entry against the currently-loaded catalog, adding whatever matches into the selection basket. The status line reports how many slides loaded and how many are <strong>no longer in the catalog</strong> (e.g. renamed or removed since the file was saved) — that part is safely ignored rather than failing the whole load.</li>
 <li>Right-click a slide → <strong>★ Favori (aç/kapat)</strong> to mark or unmark it as a favorite. Favorited slides show a ★ prefix in the tree. Favorites persist automatically to <code>~/QuPath-atlas-collections/favorites.json</code>, independent of any saved collection file.</li>
-<li><strong>Favorileri yükle</strong> adds every currently-catalogued favorite into the selection basket.</li>
+<li>
+<strong>Favorileri yükle</strong> adds every currently-catalogued favorite into the selection basket.</li>
 </ul>
 <p>Collections are portable: the <code>.json</code> file only needs the slide’s DZI URL plus a bit of display metadata, so it resolves correctly even against a refreshed catalog — share it with a colleague running the same extension.</p>
-</section>
-<section id="requirements" class="level2" data-number="E.8">
-<h2 data-number="E.8" class="anchored" data-anchor-id="requirements"><span class="header-section-number">E.8</span> Requirements</h2>
+</section><section id="requirements" class="level2" data-number="E.8"><h2 data-number="E.8" class="anchored" data-anchor-id="requirements">
+<span class="header-section-number">E.8</span> Requirements</h2>
 <ul>
-<li><strong>QuPath 0.6.x</strong> (built against the 0.6 API; runs on Java 21).</li>
+<li>
+<strong>QuPath 0.6.x</strong> (built against the 0.6 API; runs on Java 21).</li>
 <li>Internet access at runtime (slides stream from <code>images.patolojiatlasi.com</code>).</li>
-</ul>
-</section>
-<section id="install" class="level2" data-number="E.9">
-<h2 data-number="E.9" class="anchored" data-anchor-id="install"><span class="header-section-number">E.9</span> Install</h2>
+</ul></section><section id="install" class="level2" data-number="E.9"><h2 data-number="E.9" class="anchored" data-anchor-id="install">
+<span class="header-section-number">E.9</span> Install</h2>
 <p>Two ways to install, both needing only <strong>QuPath 0.6 or newer</strong>. <strong>Method A is recommended</strong> — you add the catalog once and QuPath installs the extension and offers future updates for you. Method B is a one-time manual download if you’d rather not add a catalog.</p>
-<section id="method-a-add-the-catalog-to-qupath-recommended" class="level3">
-<h3 class="anchored" data-anchor-id="method-a-add-the-catalog-to-qupath-recommended">Method A — add the catalog to QuPath (recommended)</h3>
+<section id="method-a-add-the-catalog-to-qupath-recommended" class="level3"><h3 class="anchored" data-anchor-id="method-a-add-the-catalog-to-qupath-recommended">Method A — add the catalog to QuPath (recommended)</h3>
 <p>You add the catalog <strong>once</strong>; afterwards QuPath installs and updates the extension from it.</p>
 <ol type="1">
 <li><p>In QuPath, open <strong>Extensions → Manage extension catalogs</strong>.</p></li>
-<li><p>Click <strong>Add</strong>, paste this repository URL, and confirm:</p>
+<li>
+<p>Click <strong>Add</strong>, paste this repository URL, and confirm:</p>
 <pre><code>https://github.com/sbalci/patolojiatlasi-QuPath</code></pre>
-<p>QuPath finds the <code>catalog.json</code> in the repository for you.</p></li>
+<p>QuPath finds the <code>catalog.json</code> in the repository for you.</p>
+</li>
 <li><p>Open <strong>Extensions → Manage extensions</strong>. Under the catalog you just added you’ll see <strong>QuPath Patoloji Atlası extension</strong> — click <strong>Install</strong>. QuPath downloads the matching release JAR for you (no manual file handling).</p></li>
 <li><p>When prompted, <strong>restart QuPath</strong>. After it reopens, the extension lives under <strong>Extensions → Patoloji Atlası</strong> (start with <strong>Slaytlara gözat…</strong> to browse the slides).</p></li>
 </ol>
 <p><strong>Updating later.</strong> When a newer version is released, open <strong>Extensions → Manage extensions</strong> again and click <strong>Update</strong> next to the extension. If the update doesn’t seem to take effect, fully quit and reopen QuPath — QuPath re-reads the catalog and loads the new JAR on the next launch.</p>
-</section>
-<section id="method-b-download-the-jar-from-releases-manual" class="level3">
-<h3 class="anchored" data-anchor-id="method-b-download-the-jar-from-releases-manual">Method B — download the JAR from Releases (manual)</h3>
+</section><section id="method-b-download-the-jar-from-releases-manual" class="level3"><h3 class="anchored" data-anchor-id="method-b-download-the-jar-from-releases-manual">Method B — download the JAR from Releases (manual)</h3>
 <ol type="1">
 <li>Go to the <strong><a href="https://github.com/sbalci/patolojiatlasi-QuPath/releases/latest">latest release</a></strong> and download the attached <code>qupath-extension-atlas-&lt;version&gt;.jar</code> (under <strong>Assets</strong>).</li>
 <li>Start QuPath 0.6+.</li>
-<li><strong>Drag the <code>.jar</code> onto the QuPath window</strong> and confirm when asked to install it. (Alternatively, copy it into QuPath’s extensions directory: <strong>Extensions → Installed extensions → open extensions directory</strong>, drop the JAR there.)</li>
-<li><strong>Restart QuPath</strong> when prompted. The extension then appears under <strong>Extensions → Patoloji Atlası → Slaytlara gözat…</strong>.</li>
+<li>
+<strong>Drag the <code>.jar</code> onto the QuPath window</strong> and confirm when asked to install it. (Alternatively, copy it into QuPath’s extensions directory: <strong>Extensions → Installed extensions → open extensions directory</strong>, drop the JAR there.)</li>
+<li>
+<strong>Restart QuPath</strong> when prompted. The extension then appears under <strong>Extensions → Patoloji Atlası → Slaytlara gözat…</strong>.</li>
 </ol>
 <blockquote class="blockquote">
 <p>To update with Method B, download the newer JAR and repeat — replace the old JAR in the extensions directory (or just drag the new one on and let QuPath overwrite it).</p>
 </blockquote>
-</section>
-</section>
-<section id="build-optional" class="level2" data-number="E.10">
-<h2 data-number="E.10" class="anchored" data-anchor-id="build-optional"><span class="header-section-number">E.10</span> Build (optional)</h2>
+</section></section><section id="build-optional" class="level2" data-number="E.10"><h2 data-number="E.10" class="anchored" data-anchor-id="build-optional">
+<span class="header-section-number">E.10</span> Build (optional)</h2>
 <p>Pre-built JARs are attached to every <a href="https://github.com/sbalci/patolojiatlasi-QuPath/releases">GitHub release</a>, so most users never need to build. To build from source (JDK 21 required):</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">./gradlew</span> build          <span class="co"># macOS / Linux</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">gradlew.bat</span> build        <span class="co"># Windows</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold">
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">./gradlew</span> build          <span class="co"># macOS / Linux</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">gradlew.bat</span> build        <span class="co"># Windows</span></span></code></pre></div>
+<button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button>
+</div>
 <p>The extension jar is written to <code>build/libs/qupath-extension-atlas-&lt;version&gt;.jar</code>. QuPath’s own APIs are resolved from the SciJava Maven repository at build time, so an internet connection is needed for the first build.</p>
-</section>
-<section id="notes-limitations" class="level2" data-number="E.11">
-<h2 data-number="E.11" class="anchored" data-anchor-id="notes-limitations"><span class="header-section-number">E.11</span> Notes &amp; limitations</h2>
+</section><section id="notes-limitations" class="level2" data-number="E.11"><h2 data-number="E.11" class="anchored" data-anchor-id="notes-limitations">
+<span class="header-section-number">E.11</span> Notes &amp; limitations</h2>
 <ul>
-<li><p><strong>Pixel-size calibration is now usually automatic.</strong> The <code>.dzi</code> descriptor itself carries no microns-per-pixel, but <code>vips dzsave</code> writes a <strong><code>vips-properties.xml</code> sidecar inside the <code>&lt;name&gt;_files/</code> directory</strong>, and that sidecar keeps the scanner’s real calibration (<code>openslide.mpp-x</code>, <code>aperio.MPP</code>, <code>xres</code>, plus <code>aperio.AppMag</code> and <code>ScannerType</code>). The extension reads it on open — over HTTP for atlas slides and from disk for local ones — so most slides now open <strong>already calibrated</strong>, with QuPath’s scale bar working and measurements in µm. Verified against <code>lymphocytic-gastritis/HE</code>: <code>aperio.MPP = 0.263018</code> on a GT450 DX at 40×.</p>
+<li>
+<p><strong>Pixel-size calibration is now usually automatic.</strong> The <code>.dzi</code> descriptor itself carries no microns-per-pixel, but <code>vips dzsave</code> writes a <strong><code>vips-properties.xml</code> sidecar inside the <code>&lt;name&gt;_files/</code> directory</strong>, and that sidecar keeps the scanner’s real calibration (<code>openslide.mpp-x</code>, <code>aperio.MPP</code>, <code>xres</code>, plus <code>aperio.AppMag</code> and <code>ScannerType</code>). The extension reads it on open — over HTTP for atlas slides and from disk for local ones — so most slides now open <strong>already calibrated</strong>, with QuPath’s scale bar working and measurements in µm. Verified against <code>lymphocytic-gastritis/HE</code>: <code>aperio.MPP = 0.263018</code> on a GT450 DX at 40×.</p>
 <p>Precedence, highest first: (1) an explicit <code>…/HE.dzi?mpp=0.25</code> in the URL; (2) a per-image <code>"mpp"</code> or catalog-wide <code>"defaultMpp"</code> in the catalog; (3) the <code>vips-properties.xml</code> sidecar;</p>
 <ol start="4" type="1">
 <li>nothing — the slide opens uncalibrated, as before. A wrong calibration is never guessed: if no source supplies one, none is applied.</li>
 </ol>
 <p>Note <code>xres</code> is pixels per <strong>millimetre</strong>, so µm/px is <code>1000 / xres</code>. Because vips computes it for the image it actually wrote, it stays correct even for a slide that was downsampled on export — no per-case export ratio has to be recovered.</p>
 <p><strong>In-app helper, for the slides that still need it:</strong> <strong>Patoloji Atlası → <em>Piksel boyutu ayarla…</em></strong> shows whether the open image is calibrated, computes <code>mpp_export = mpp_original × (width_original / width_export)</code> from the scanner preset and the export ratio (the formula in <a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/docs/pixel-size-mpp.md">docs/pixel-size-mpp.md</a>), and then either applies it <strong>for the session</strong> or builds the durable <code>?mpp=</code> URL — the two are labelled separately because only the URL survives a reopen.</p>
-<p>This matters more than a missing scale bar. An uncalibrated image still reports <code>getAveragedPixelSize() == 1.0</code>, and µm-based tools that read it without first checking <code>hasPixelSizeMicrons()</code> silently treat one pixel as one micron. The WSInfer extension is a verified example: it computes <code>downsample = spacing_um_px / getAveragedPixelSize()</code>, so a model trained at 0.5 µm/px runs at roughly twice the intended magnification and the run completes with no error. Cell detection fails differently again (it checks, and returns <code>NaN</code>). Calibrate before analysing.</p></li>
+<p>This matters more than a missing scale bar. An uncalibrated image still reports <code>getAveragedPixelSize() == 1.0</code>, and µm-based tools that read it without first checking <code>hasPixelSizeMicrons()</code> silently treat one pixel as one micron. The WSInfer extension is a verified example: it computes <code>downsample = spacing_um_px / getAveragedPixelSize()</code>, so a model trained at 0.5 µm/px runs at roughly twice the intended magnification and the run completes with no error. Cell detection fails differently again (it checks, and returns <code>NaN</code>). Calibrate before analysing.</p>
+</li>
 <li><p><strong>Image type is set on open when recognised.</strong> H&amp;E → <em>Brightfield (H&amp;E)</em> and a known special/histochemical stain → <em>Brightfield (other)</em>, so color deconvolution works without setting it by hand. Any other stain (including IHC markers) is left <strong>unset</strong> — the extension only assigns a type it is confident about and never guesses IHC/DAB; set those in the Image tab.</p></li>
 <li><p><strong>Streaming, not downloaded.</strong> Tiles are fetched on demand into QuPath’s tile cache; a live connection is needed while panning into new regions.</p></li>
 <li><p><strong>Category coverage depends on the list metadata.</strong> Images are grouped from the <code>speciality</code> and <code>organEN</code> fields, falling back to the title/slug. Entries whose list record has none of these (currently a fair number, many with blank titles) land under <strong>Uncategorized</strong> — filling in <code>organEN</code>/<code>titleEN</code> in <code>list.yaml</code> will automatically improve grouping on the next refresh.</p></li>
 <li><p><strong>Respecting the source.</strong> The images belong to patolojiatlasi.com; this tool is for viewing and study. Avoid bulk-downloading the tile pyramids.</p></li>
-</ul>
-</section>
-<section id="focus-heatmap" class="level2" data-number="E.12">
-<h2 data-number="E.12" class="anchored" data-anchor-id="focus-heatmap"><span class="header-section-number">E.12</span> Focus heatmap</h2>
+</ul></section><section id="focus-heatmap" class="level2" data-number="E.12"><h2 data-number="E.12" class="anchored" data-anchor-id="focus-heatmap">
+<span class="header-section-number">E.12</span> Focus heatmap</h2>
 <p><strong>Extensions → Araştırma → Odak ısı haritası</strong> adds a dwell/attention heatmap that records where you look on a slide. This lives in the <strong>“Araştırma”</strong> menu (a top-level sibling of “Patoloji Atlası” in Extensions), together with image rotation and the “flag any project” action below — these tools are atlas-independent and work on <strong>any</strong> open slide, not just ones opened from the atlas catalogue. While tracking is on, the active viewer’s visible region is sampled a few times a second and accumulated into a per-slide grid shown as a translucent overlay — focused high-magnification viewing heats an area far faster than a zoomed-out browse, so the map doubles as a <em>“did I review the whole slide?”</em> check and as a way to study where readers focus.</p>
 <p>Menu items:</p>
 <ul>
-<li><strong>Slayt üzerinde göster (ısı katmanı)</strong> — toggle the translucent heatmap overlay on the active viewer.</li>
-<li><strong>Ayrı pencerede göster</strong> — toggle a separate floating window showing the same heatmap.</li>
-<li><strong>Temizle</strong> — reset the current slide’s map.</li>
-<li><strong>Kaydet…</strong> — save the current map now to a folder you pick.</li>
-<li><strong>Araştırmaya katkıda bulun…</strong> — save an <strong>anonymised</strong> contribution (no user name; a random session id + stable slide key + date) under <code>~/QuPath-atlas-focus-maps/contributions/</code>, for the planned per-slide <em>crowd attention map</em>. <strong>Uploading is disabled</strong> until the atlas website has a receiver — until then the file is only written locally and can be shared manually.</li>
-<li><strong>Oturumdan sonra sakla (kalıcı)</strong> — when <strong>off</strong> (default), maps live only for the session and are discarded; when <strong>on</strong>, each slide’s map is auto-saved (on slide change, close, or stopping) to <code>~/QuPath-atlas-focus-maps/</code> so it can be analysed later.</li>
-<li><strong>Gezinme kaydı (araştırma) — sessizce kaydeder, ısı haritası gösterilmez</strong> — the blinded-recording toggle; see <em>Blinded research recording</em> below.</li>
+<li>
+<strong>Slayt üzerinde göster (ısı katmanı)</strong> — toggle the translucent heatmap overlay on the active viewer.</li>
+<li>
+<strong>Ayrı pencerede göster</strong> — toggle a separate floating window showing the same heatmap.</li>
+<li>
+<strong>Temizle</strong> — reset the current slide’s map.</li>
+<li>
+<strong>Kaydet…</strong> — save the current map now to a folder you pick.</li>
+<li>
+<strong>Araştırmaya katkıda bulun…</strong> — save an <strong>anonymised</strong> contribution (no user name; a random session id + stable slide key + date) under <code>~/QuPath-atlas-focus-maps/contributions/</code>, for the planned per-slide <em>crowd attention map</em>. <strong>Uploading is disabled</strong> until the atlas website has a receiver — until then the file is only written locally and can be shared manually.</li>
+<li>
+<strong>Oturumdan sonra sakla (kalıcı)</strong> — when <strong>off</strong> (default), maps live only for the session and are discarded; when <strong>on</strong>, each slide’s map is auto-saved (on slide change, close, or stopping) to <code>~/QuPath-atlas-focus-maps/</code> so it can be analysed later.</li>
+<li>
+<strong>Gezinme kaydı (araştırma) — sessizce kaydeder, ısı haritası gösterilmez</strong> — the blinded-recording toggle; see <em>Blinded research recording</em> below.</li>
 </ul>
 <p>Each saved map is a <code>&lt;slide&gt;__&lt;user&gt;__&lt;timestamp&gt;.json</code> (plus a <code>.png</code> preview). The JSON carries the slide name/URI, the user (OS login), image and grid dimensions, sample count, and the row-major <code>grid</code> of dwell values — enough to aggregate focus across readers offline. The plan for pooling contributions into a website overlay is in <a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/docs/focus-aggregation-plan.md">docs/focus-aggregation-plan.md</a>.</p>
-<section id="blinded-research-recording" class="level3">
-<h3 class="anchored" data-anchor-id="blinded-research-recording">Blinded research recording</h3>
+<section id="blinded-research-recording" class="level3"><h3 class="anchored" data-anchor-id="blinded-research-recording">Blinded research recording</h3>
 <p>For studies that need real, unbiased dwell-time data — where seeing a live heatmap of your own viewing could change how you look — the same focus tracker has a <strong>blinded</strong> mode: it silently records which regions of the slide you looked at and for how long, with <strong>no overlay, no window, and no on-screen indication of any kind</strong> while it’s active. It can’t be toggled visible; the <strong>Slayt üzerinde göster (ısı katmanı)</strong> / <strong>Ayrı pencerede göster</strong> / <strong>Temizle</strong> / <strong>Kaydet…</strong> / <strong>Araştırmaya katkıda bulun…</strong> menu items are all disabled for the duration, so a session can’t accidentally surface a heatmap or leak one to a file.</p>
 <p>You can turn it on for a single session from <strong>Extensions → Araştırma → Odak ısı haritası → Gezinme kaydı (araştırma)</strong>, or make it the default for an entire study. There are two ways to do that:</p>
 <ul>
-<li><strong>Building a project from the atlas browser:</strong> check <strong>“Araştırma projesi — gezinme kaydı (blinded)”</strong> in the <em>Create project</em> dialog.</li>
-<li><strong>Any other project — local slides, a server/PACS project, or one you already have open:</strong> <strong>Extensions → Araştırma → Mevcut projeyi araştırma projesi yap (gezinme kaydı)…</strong> flags the <strong>currently open project</strong> in one click, no atlas involvement required. This is the same sidecar mechanism, so it’s how a researcher sets up a double-blind spatial/temporal/directional viewing study on their own SVS files.</li>
+<li>
+<strong>Building a project from the atlas browser:</strong> check <strong>“Araştırma projesi — gezinme kaydı (blinded)”</strong> in the <em>Create project</em> dialog.</li>
+<li>
+<strong>Any other project — local slides, a server/PACS project, or one you already have open:</strong> <strong>Extensions → Araştırma → Mevcut projeyi araştırma projesi yap (gezinme kaydı)…</strong> flags the <strong>currently open project</strong> in one click, no atlas involvement required. This is the same sidecar mechanism, so it’s how a researcher sets up a double-blind spatial/temporal/directional viewing study on their own SVS files.</li>
 </ul>
 <p>Either way, this writes a small <code>atlas-research.json</code> sidecar next to the project’s <code>.qpproj</code> file; every time the project is opened afterwards, blinded recording starts automatically — after a <strong>one-time consent notice</strong> explaining that anonymised viewing data (regions viewed + dwell time, no identity) is being recorded for research. (The “flag current project” action asks for that same consent immediately, since you’re opting in right there, and starts recording at once rather than waiting for the next reopen.) Declining leaves recording off and the notice reappears next time the project opens; accepting is remembered so later sessions start recording immediately, no re-prompt.</p>
 <p><strong>Where the data goes.</strong> When a project is open, every blinded write for that session goes into <code>&lt;project&gt;/atlas-focus/</code> (captured once when recording starts, so a later project switch can’t misattribute a still-finishing session); with no project open it falls back to <code>~/QuPath-atlas-focus-maps/contributions/</code>. While recording, the current slide’s map is checkpointed to a <code>session-&lt;id&gt;__&lt;slide-start&gt;.partial.json</code> file roughly every <strong>30 seconds</strong>, so a crash or force-quit loses at most that much data — not the whole session. Switching slides or stopping promotes the checkpoint into a final per-slide JSON fragment and removes that <code>.partial.json</code> only after the final write succeeds. A failed final write leaves the checkpoint for recovery. Closing or switching away from the project stops recording, writes the last slide’s fragment, and bundles every fragment from the session into a single <code>atlas-focus_&lt;timestamp&gt;_&lt;session&gt;.zip</code> in the project folder (or the fallback dir) — that one zip is what you hand to the study coordinator. Every artifact in this pipeline (checkpoint, fragment, zip) is JSON-only and anonymised: no PNG, no username, ever.</p>
 <p><strong>Running a study?</strong> See <strong><a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/SHARING.md">SHARING.md</a></strong> for the end-to-end guide to preparing a blinded-research project, packaging it (with the extension) for researchers, the consent / observer-effect tradeoff, and getting the data back — and <strong><a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/analysis/README.md">analysis/</a></strong> for the Python/R analysis toolkits.</p>
-</section>
-<section id="pathology-cot-demo-recording" class="level3">
-<h3 class="anchored" data-anchor-id="pathology-cot-demo-recording">Pathology-CoT demo recording</h3>
+</section><section id="pathology-cot-demo-recording" class="level3"><h3 class="anchored" data-anchor-id="pathology-cot-demo-recording">Pathology-CoT demo recording</h3>
 <p>Blinded recording answers “how does an unaware reader actually navigate?”. The <strong>authoring recorder</strong> answers the opposite question — “how would you <em>show</em> someone your reasoning on this slide?” — and turns the answer into Pathology-CoT training data.</p>
 <p><strong>Extensions → Araştırma → Pathology-CoT → CoT demo kaydı — başlat / durdur</strong> (<kbd>Shortcut</kbd>+<kbd>Shift</kbd>+<kbd>G</kbd>). A short notice explains what is recorded, then a red <strong>KAYIT</strong> indicator appears in the top-left of the viewer with the elapsed time and point count. Navigate the slide the way you would talk a trainee through it. Press the shortcut again and the draft is built immediately — each inspect/peek you made becomes a stop with its viewport and highlight box, ready for you to type the “why I looked here / what I saw” rationale in the tour author.</p>
 <p>This is the deliberate counterpart to blinded recording, and the two differ in every respect that matters:</p>
@@ -1410,13 +1375,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <col style="width: 33%">
 <col style="width: 33%">
 </colgroup>
-<thead>
-<tr class="header">
+<thead><tr class="header">
 <th></th>
 <th>Blinded research recording</th>
 <th>CoT demo recording</th>
-</tr>
-</thead>
+</tr></thead>
 <tbody>
 <tr class="odd">
 <td>Scope</td>
@@ -1426,7 +1389,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tr class="even">
 <td>On screen</td>
 <td>nothing, by design</td>
-<td><strong>KAYIT</strong> indicator</td>
+<td>
+<strong>KAYIT</strong> indicator</td>
 </tr>
 <tr class="odd">
 <td>Who it describes</td>
@@ -1448,93 +1412,56 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><strong>The two can never run at once.</strong> Starting either one while the other is recording is refused with a message rather than silently taking over — an awareness cue during a blinded session would compromise that study, and blinded recording starting mid-take would mix a demonstration into the study cohort.</p>
 <p><strong>Where the data goes, and why not in the project.</strong> A take is written to <code>~/QuPath-atlas-cot/&lt;slide-slug&gt;__&lt;yyyyMMdd-HHmmss&gt;/recording.json</code>, checkpointed every ~30 seconds and flushed on quit, with schema <code>atlas-cot-authored/1</code>. That schema is a deliberately <em>new</em> family, so the blinded analysis toolkits — which accept only <code>atlas-focus-contribution/…</code> — reject an authored take automatically and demonstration data can never be scored as if it were naturalistic. Unlike a blinded fragment, a take records the <strong>real slide path</strong> (the draft has to reopen the slide), which is why it is kept outside the project folder: <a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/SHARING.md">SHARING.md</a> asks study participants to send their whole <code>atlas-focus/</code> folder, and nothing authored should ever travel with it.</p>
 <p>Design notes, verified facts and what is deliberately not built yet are in <a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/docs/superpowers/2026-10-11-cot-authoring-recorder.md">docs/superpowers/2026-10-11-cot-authoring-recorder.md</a>.</p>
-</section>
-</section>
-<section id="coverage-qc-dashboard" class="level2" data-number="E.13">
-<h2 data-number="E.13" class="anchored" data-anchor-id="coverage-qc-dashboard"><span class="header-section-number">E.13</span> Coverage &amp; QC dashboard</h2>
+</section></section><section id="coverage-qc-dashboard" class="level2" data-number="E.13"><h2 data-number="E.13" class="anchored" data-anchor-id="coverage-qc-dashboard">
+<span class="header-section-number">E.13</span> Coverage &amp; QC dashboard</h2>
 <p><strong>Extensions → Patoloji Atlası → Katalog kapsamı ve QC…</strong> opens a read-only <strong>category x stain</strong> matrix computed from the bundled catalogue snapshot — for every category, how many slides and distinct cases fall into each of the four stain buckets (H&amp;E / IHC / special stain / other), plus per-category <strong>published%</strong> and <strong>mpp-known%</strong> (pixel-size calibration coverage). A bold TOTAL strip under the table sums the whole catalogue.</p>
 <ul>
-<li><strong>Bağlantıları denetle</strong> — an opt-in, best-effort reachability check of every distinct DZI URL in the catalogue (a <code>HEAD</code> request per URL, run off the UI thread with a progress bar). Any unreachable slide is listed by title and URL underneath — nothing is checked automatically, since this makes a batch of network calls.</li>
-<li><strong>Drill down.</strong> Double-click a category row to seed the project builder (the same dialog the browser’s selection basket uses) with every case in that category, ready to review and turn into a project.</li>
-<li><strong>Export.</strong> Copy or save the matrix as <strong>CSV</strong> or <strong>Markdown</strong> — handy for pasting a data-availability statement or tracking catalogue gaps over time.</li>
+<li>
+<strong>Bağlantıları denetle</strong> — an opt-in, best-effort reachability check of every distinct DZI URL in the catalogue (a <code>HEAD</code> request per URL, run off the UI thread with a progress bar). Any unreachable slide is listed by title and URL underneath — nothing is checked automatically, since this makes a batch of network calls.</li>
+<li>
+<strong>Drill down.</strong> Double-click a category row to seed the project builder (the same dialog the browser’s selection basket uses) with every case in that category, ready to review and turn into a project.</li>
+<li>
+<strong>Export.</strong> Copy or save the matrix as <strong>CSV</strong> or <strong>Markdown</strong> — handy for pasting a data-availability statement or tracking catalogue gaps over time.</li>
 </ul>
 <p>The classification (which stain bucket a slide falls into) is keyword-based, so the <strong>Diğer</strong> (“other”) / <strong>Uncategorized</strong> buckets are honest catch-alls rather than a guarantee of correctness — see <code>stainBucket()</code>/<code>normalizeCategory()</code> if you need to extend the keyword lists.</p>
-</section>
-<section id="provenance-citation" class="level2" data-number="E.14">
-<h2 data-number="E.14" class="anchored" data-anchor-id="provenance-citation"><span class="header-section-number">E.14</span> Provenance &amp; citation</h2>
+</section><section id="provenance-citation" class="level2" data-number="E.14"><h2 data-number="E.14" class="anchored" data-anchor-id="provenance-citation">
+<span class="header-section-number">E.14</span> Provenance &amp; citation</h2>
 <p>Beyond citing the extension itself (see <strong>Citation</strong> below), the atlas menu can generate ready-to-use citations and export files for the slides you actually used — image + extension + QuPath references together, so a figure or methods section always carries full provenance.</p>
 <ul>
-<li><strong>Cite a slide.</strong> Right-click a case in <strong>Slaytlara gözat…</strong> and choose <strong>Bu slaytı alıntıla…</strong>, or use <strong>Extensions → Patoloji Atlası → Atıf → Açık slaytı alıntıla…</strong> with the slide open in the active viewer. Produces BibTeX / RIS / plain-text citations for the atlas image, this extension, and QuPath (Bankhead et al.&nbsp;2017), with copy-to-clipboard and save-to-file actions.</li>
-<li><strong>Export a cohort manifest.</strong> In the project-builder dialog (from the browser’s selection basket), click <strong>Künye / manifest dışa aktar…</strong> and pick a folder — writes <code>atlas-manifest.csv</code>, <code>atlas-manifest.md</code>, and <code>atlas-methods.txt</code> for every slide in the current selection. This does <strong>not</strong> create a project; it only records provenance for the slides you’ve gathered.</li>
-<li><strong>Cite a region.</strong> Select an annotation on an open atlas slide, then use <strong>Extensions → Patoloji Atlası → Atıf → Bu bölgeyi alıntıla…</strong>. Produces a figure-citation card — the slide citation, the viewport framing (downsample + center), an editable caption, and the region’s geometry as GeoJSON — with the same copy/save actions.</li>
+<li>
+<strong>Cite a slide.</strong> Right-click a case in <strong>Slaytlara gözat…</strong> and choose <strong>Bu slaytı alıntıla…</strong>, or use <strong>Extensions → Patoloji Atlası → Atıf → Açık slaytı alıntıla…</strong> with the slide open in the active viewer. Produces BibTeX / RIS / plain-text citations for the atlas image, this extension, and QuPath (Bankhead et al. 2017), with copy-to-clipboard and save-to-file actions.</li>
+<li>
+<strong>Export a cohort manifest.</strong> In the project-builder dialog (from the browser’s selection basket), click <strong>Künye / manifest dışa aktar…</strong> and pick a folder — writes <code>atlas-manifest.csv</code>, <code>atlas-manifest.md</code>, and <code>atlas-methods.txt</code> for every slide in the current selection. This does <strong>not</strong> create a project; it only records provenance for the slides you’ve gathered.</li>
+<li>
+<strong>Cite a region.</strong> Select an annotation on an open atlas slide, then use <strong>Extensions → Patoloji Atlası → Atıf → Bu bölgeyi alıntıla…</strong>. Produces a figure-citation card — the slide citation, the viewport framing (downsample + center), an editable caption, and the region’s geometry as GeoJSON — with the same copy/save actions.</li>
 </ul>
 <p>All three add a best-effort catalogue commit SHA (from a lightweight, unauthenticated GitHub API call) and this extension’s version to the exported provenance, without blocking the UI while that network lookup runs.</p>
-</section>
-<section id="citation" class="level2" data-number="E.15">
-<h2 data-number="E.15" class="anchored" data-anchor-id="citation"><span class="header-section-number">E.15</span> Citation</h2>
+</section><section id="citation" class="level2" data-number="E.15"><h2 data-number="E.15" class="anchored" data-anchor-id="citation">
+<span class="header-section-number">E.15</span> Citation</h2>
 <p>If you use this software, please cite it — GitHub renders a <strong>“Cite this repository”</strong> button from <a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/CITATION.cff"><code>CITATION.cff</code></a>. The archive is on Zenodo under a <strong>concept DOI that always resolves to the latest release</strong> (cite this — it stays the same across versions):</p>
 <p><strong><a href="https://doi.org/10.5281/zenodo.21443833">10.5281/zenodo.21443833</a></strong></p>
 <blockquote class="blockquote">
 <p>Balcı, S. <em>QuPath Patoloji Atlası Extension (qupath-extension-atlas)</em> [Software]. Zenodo. https://doi.org/10.5281/zenodo.21443833</p>
 </blockquote>
-</section>
-<section id="license" class="level2" data-number="E.16">
-<h2 data-number="E.16" class="anchored" data-anchor-id="license"><span class="header-section-number">E.16</span> License</h2>
+</section><section id="license" class="level2" data-number="E.16"><h2 data-number="E.16" class="anchored" data-anchor-id="license">
+<span class="header-section-number">E.16</span> License</h2>
 <p>MIT — see <a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/LICENSE">LICENSE</a>.</p>
 <p><em>Developer and release notes are kept with the source code: <a href="https://github.com/sbalci/patolojiatlasi-QuPath#readme">README</a>.</em></p>
 
 
-</section>
-
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
     if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const toggle = window.document.createElement('button');
-      toggle.type = "button";
-      toggle.setAttribute("role", "switch");
-      toggle.setAttribute("aria-checked", "false");
-      toggle.classList.add('top-right');
-      toggle.classList.add('quarto-color-scheme-toggle');
-      toggle.setAttribute("aria-label", "Toggle dark mode");
-      toggle.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
       const i = window.document.createElement("i");
       i.classList.add('bi');
-      toggle.appendChild(i);
-      // Put the toggle in a landmark of its own, so that landmark navigation
-      // can reach it.
-      //
-      // The container is always a fresh direct child of body, and the toggle is
-      // never moved into page furniture that the theme or the author controls.
-      // The toggle is positioned against the page, so any ancestor that
-      // establishes a containing block captures it: a positioned element or a
-      // grid for position: absolute, and transform, filter, will-change or
-      // contain for position: fixed. A direct child of body has none of these
-      // to inherit, and the shift when one appears is silent and visual.
-      //
-      // ARIA says a document should have at most one banner, and axe reports a
-      // duplicate whether or not the banners carry distinct labels. So use a
-      // header when the page has no banner yet, and a named region otherwise.
-      //
-      // A header is a banner wherever it sits, unless it is inside sectioning
-      // content, so this cannot just look at the children of body: a custom
-      // page layout wraps the title block header in a plain div. An explicit
-      // role="banner" always counts.
-      const sectioning = 'article, aside, main, nav, section, [role="article"], [role="complementary"], [role="main"], [role="navigation"], [role="region"]';
-      const hasBanner = Array.from(
-        window.document.querySelectorAll('header:not([role]), [role="banner"]')
-      ).some(function(el) {
-        return el.hasAttribute("role") || el.closest(sectioning) === null;
-      });
-      const container = window.document.createElement(hasBanner ? "div" : "header");
-      if (hasBanner) {
-        container.setAttribute("role", "region");
-        container.setAttribute("aria-label", "Toggle dark mode");
-      }
-      container.classList.add('quarto-color-scheme-toggle-container');
-      container.appendChild(toggle);
-      window.document.body.appendChild(container);
+      a.appendChild(i);
+      window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
@@ -1941,40 +1868,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       }
     }
   });
-  </script>
-  <script type="application/javascript">
-  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
-  </script>
-<script src="https://utteranc.es/client.js" repo="patolojiatlasi/patolojiatlasi.github.io" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
-</script>
-<nav class="page-navigation column-body" aria-label="Page">
-  <div class="nav-page nav-page-previous">
+  </script><script src="https://utteranc.es/client.js" repo="patolojiatlasi/patolojiatlasi.github.io" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
+</script><nav class="page-navigation column-body"><div class="nav-page nav-page-previous">
       <a href="./augmented-reality.html" class="pagination-link" aria-label="Augmented Reality">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Augmented Reality</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">D</span>  <span class="chapter-title">Augmented Reality</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./ai-assistants.html" class="pagination-link" aria-label="Use in ChatGPT / Claude">
-        <span class="nav-page-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Use in ChatGPT / Claude</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">F</span>  <span class="chapter-title">Use in ChatGPT / Claude</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
+<footer class="footer"><div class="nav-footer">
     <div class="nav-footer-left">
 <p>Copyright 2022, patolojiAI</p>
 </div>   
     <div class="nav-footer-center">
-      &nbsp;
+       
     </div>
     <div class="nav-footer-right">
-      &nbsp;
+       
     </div>
   </div>
 </footer>
-
-
-
-
-</body></html>
+</body>
+</html>

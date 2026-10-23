@@ -1,5 +1,5 @@
 import * as tabsets from "./tabsets/tabsets.js";
-import * as scrollableRegions from "./scrollable-regions/scrollable-regions.js";
+import * as axe from "./axe/axe-check.js";
 
 const sectionChanged = new CustomEvent("quarto-sectionChanged", {
   detail: {},
@@ -35,25 +35,21 @@ const layoutMarginEls = () => {
 };
 
 window.document.addEventListener("DOMContentLoaded", function (_event) {
-  // Recompute the position of margin elements and re-sync scrollable regions
-  // anytime the body size changes. Trailing, so a resize that ends inside the
-  // wait is still handled rather than left at a size the page no longer has.
+  // Recompute the position of margin elements anytime the body size changes
   if (window.ResizeObserver) {
     const resizeObserver = new window.ResizeObserver(
       throttle(() => {
         layoutMarginEls();
-        scrollableRegions.syncScrollableRegions();
         if (
           window.document.body.getBoundingClientRect().width < 990 &&
           isReaderMode()
         ) {
           quartoToggleReader();
         }
-      }, 50, true)
+      }, 50)
     );
     resizeObserver.observe(window.document.body);
   }
-  scrollableRegions.syncScrollableRegions();
 
   const tocEl = window.document.querySelector('nav.toc-active[role="doc-toc"]');
   const sidebarEl = window.document.getElementById("quarto-sidebar");
@@ -831,32 +827,18 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
 });
 
 tabsets.init();
+axe.init();
 
-// With `trailing`, a call dropped during the wait runs once the wait ends, so
-// the last event of a burst is never lost.
-function throttle(func, wait, trailing = false) {
+function throttle(func, wait) {
   let waiting = false;
-  let pending = null;
-  const release = function () {
-    if (pending) {
-      const [context, args] = pending;
-      pending = null;
-      func.apply(context, args);
-      setTimeout(release, wait);
-    } else {
-      waiting = false;
-    }
-  };
   return function () {
-    if (waiting) {
-      if (trailing) {
-        pending = [this, arguments];
-      }
-      return;
+    if (!waiting) {
+      func.apply(this, arguments);
+      waiting = true;
+      setTimeout(function () {
+        waiting = false;
+      }, wait);
     }
-    func.apply(this, arguments);
-    waiting = true;
-    setTimeout(release, wait);
   };
 }
 
