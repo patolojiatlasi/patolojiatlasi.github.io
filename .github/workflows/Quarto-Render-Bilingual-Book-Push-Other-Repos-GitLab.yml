@@ -257,6 +257,7 @@ jobs:
       - name: "Render Bilingual Book (EN + TR)"
         shell: Rscript {0}
         run: |
+          options(repos = c(CRAN = Sys.getenv("RSPM", "https://cloud.r-project.org")))
           # Execute the master bilingual build script
           # See DEVELOPMENT.md for build process flow diagram
           source("./R/bilingual-quarto-book.R")
