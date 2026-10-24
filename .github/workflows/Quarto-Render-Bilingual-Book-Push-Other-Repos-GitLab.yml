@@ -26,11 +26,13 @@ name: Quarto Render Bilingual Book Push Other Repos GitLab
 # ============================================================================
 on:
   workflow_dispatch:  # Allows manual trigger from Actions tab
+  pull_request:       # Build and validate the proposed output without publishing
   schedule:
     # Mondays 04:00 UTC - picks up QuPath extension README changes, which do
     # not trigger a push to this repository (see PHASE 5b below)
     - cron: '0 4 * * 1'
-  push:               # Auto-trigger on any push to repository
+  push:               # Publish only changes merged to the default branch
+    branches: [main]
     paths-ignore:
       # Documentation files (don't need full build)
       - '**.md'
@@ -48,6 +50,10 @@ on:
       - '.gitignore'
       - '.gitattributes'
 
+concurrency:
+  group: atlas-bilingual-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   quarto-render-and-deploy:
 
@@ -57,6 +63,7 @@ jobs:
 
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      RSPM: https://cloud.r-project.org
       R_LIBS_USER: ~/.local/share/R/library
       # RENV_PATHS_ROOT: ~/.local/share/renv  # Disabled: not using renv in CI
 
@@ -142,16 +149,19 @@ jobs:
       # - name: Setup renv
       #   uses: r-lib/actions/setup-renv@v2
 
-      # Cache R packages based on DESCRIPTION file (committed to repo)
-      # This ensures cache is restored when dependencies haven't changed
+      # Binary R packages link to the runner's ICU library. Do not restore a
+      # cache built against a different Ubuntu release or ICU ABI.
+      - name: Identify ICU ABI
+        id: icu
+        run: echo "version=$(dpkg-query -W -f='${Version}' libicu74)" >> "$GITHUB_OUTPUT"
+
       - name: Cache R packages
         uses: actions/cache@v6
         with:
           path: ${{ env.R_LIBS_USER }}
-          key: ${{ runner.os }}-r-${{ hashFiles('DESCRIPTION') }}-v3
+          key: ${{ runner.os }}-24.04-icu-${{ steps.icu.outputs.version }}-r-4.3.0-${{ hashFiles('DESCRIPTION') }}-v4
           restore-keys: |
-            ${{ runner.os }}-r-${{ hashFiles('DESCRIPTION') }}-
-            ${{ runner.os }}-r-
+            ${{ runner.os }}-24.04-icu-${{ steps.icu.outputs.version }}-r-4.3.0-
 
       - name: "Setup R dependencies"
         uses: r-lib/actions/setup-r-dependencies@v2
@@ -175,6 +185,7 @@ jobs:
 
       - name: "Install R dependencies"
         run: |
+            options(repos = c(CRAN = "https://cloud.r-project.org"))
             # Install remotes package for dependency management
             if (!requireNamespace("remotes", quietly = TRUE)) {install.packages("remotes", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
 
@@ -263,6 +274,16 @@ jobs:
           # See DEVELOPMENT.md for build process flow diagram
           source("./R/bilingual-quarto-book.R")
 
+      - name: Set up Python for output checks
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Check generated Atlas pages before publishing
+        run: |
+          python -m pip install PyYAML lxml
+          python validation/check_atlas_html.py . docs EN
+
 #       - name: "Deploy to gh-pages"
 #         uses: peaceiris/actions-gh-pages@v3
 #         if: github.ref == 'refs/heads/main'
@@ -279,6 +300,7 @@ jobs:
       # This triggers GitHub Pages deployment for the Turkish version
 
       - name: Commit results to main branch
+        if: github.event_name != 'pull_request'
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
@@ -295,15 +317,12 @@ jobs:
           git add docs/ EN/ gitlab_atlas/ public/ screenshots/ qrcodes/ .github/ _qupath-readme.md
 
           # Commit with timestamp (or skip if no changes)
-          git commit -m "CI added changes `date +'%Y-%m-%d %H:%M:%S'`" || echo "No changes to commit"
-          git push origin || echo "No changes to commit"
-
-      - name: Push changes (force push)
-        uses: ad-m/github-push-action@master
-        with:
-          branch: main
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          force: true  # Force push to overwrite any conflicts
+          if ! git diff --cached --quiet; then
+            git commit -m "CI added changes $(date +'%Y-%m-%d %H:%M:%S')"
+            git push origin HEAD:main
+          else
+            echo "No generated changes to commit"
+          fi
 
       # ======================================================================
       # PHASE 8: MULTI-REPOSITORY DEPLOYMENT
@@ -312,6 +331,7 @@ jobs:
       # This provides redundancy and dedicated domains for each language
 
       - name: Push to patolojiatlasi/EN (English mirror)
+        if: github.event_name != 'pull_request'
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
@@ -323,6 +343,7 @@ jobs:
           target-branch: main
 
       - name: Push to histopathologyatlas/histopathologyatlas.github.io
+        if: github.event_name != 'pull_request'
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
