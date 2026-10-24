@@ -26,6 +26,7 @@ name: Quarto Render Bilingual Book Push Other Repos GitLab
 # ============================================================================
 on:
   workflow_dispatch:  # Allows manual trigger from Actions tab
+  pull_request:       # Build and validate the proposed output without publishing
   schedule:
     # Mondays 04:00 UTC - picks up QuPath extension README changes, which do
     # not trigger a push to this repository (see PHASE 5b below)
@@ -50,7 +51,7 @@ on:
       - '.gitattributes'
 
 concurrency:
-  group: atlas-bilingual-main
+  group: atlas-bilingual-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -299,6 +300,7 @@ jobs:
       # This triggers GitHub Pages deployment for the Turkish version
 
       - name: Commit results to main branch
+        if: github.event_name != 'pull_request'
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
@@ -329,6 +331,7 @@ jobs:
       # This provides redundancy and dedicated domains for each language
 
       - name: Push to patolojiatlasi/EN (English mirror)
+        if: github.event_name != 'pull_request'
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
@@ -340,6 +343,7 @@ jobs:
           target-branch: main
 
       - name: Push to histopathologyatlas/histopathologyatlas.github.io
+        if: github.event_name != 'pull_request'
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
