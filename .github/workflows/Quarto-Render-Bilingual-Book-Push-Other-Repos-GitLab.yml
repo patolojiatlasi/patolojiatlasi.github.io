@@ -25,13 +25,19 @@ name: Quarto Render Bilingual Book Push Other Repos GitLab
 # TRIGGER CONFIGURATION
 # ============================================================================
 on:
-  workflow_dispatch:  # Allows manual trigger from Actions tab
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: 'Commit generated HTML and update both English mirrors (main only)'
+        type: boolean
+        required: true
+        default: false
   pull_request:       # Build and validate the proposed output without publishing
   schedule:
-    # Mondays 04:00 UTC - picks up QuPath extension README changes, which do
+    # Mondays 04:00 UTC - validate QuPath extension README changes, which do
     # not trigger a push to this repository (see PHASE 5b below)
     - cron: '0 4 * * 1'
-  push:               # Publish only changes merged to the default branch
+  push:               # Validate default-branch changes; publication is opt-in
     branches: [main]
     paths-ignore:
       # Documentation files (don't need full build)
@@ -254,6 +260,7 @@ jobs:
           cat("Loaded stringi from:", so, "\n")
           linkage <- system2("ldd", shQuote(so), stdout = TRUE, stderr = TRUE)
           cat(linkage, sep = "\n")
+          stopifnot(is.null(attr(linkage, "status")) || attr(linkage, "status") == 0L)
           stopifnot(!any(grepl("not found", linkage, fixed = TRUE)))
 
       - name: "Sync QuPath extension README"
@@ -318,13 +325,15 @@ jobs:
 
 
       # ======================================================================
+      # Publication requires a manual run on main with publish=true.
+      # PRs, schedules, pushes and ordinary manual runs only validate.
       # PHASE 7: COMMIT RESULTS TO MAIN REPOSITORY
       # ======================================================================
       # Commit the generated HTML files back to the main repository
       # This triggers GitHub Pages deployment for the Turkish version
 
       - name: Commit results to main branch
-        if: github.event_name != 'pull_request'
+        if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main' && inputs.publish == true
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
@@ -355,7 +364,7 @@ jobs:
       # This provides redundancy and dedicated domains for each language
 
       - name: Push to patolojiatlasi/EN (English mirror)
-        if: github.event_name != 'pull_request'
+        if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main' && inputs.publish == true
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
@@ -367,7 +376,7 @@ jobs:
           target-branch: main
 
       - name: Push to histopathologyatlas/histopathologyatlas.github.io
-        if: github.event_name != 'pull_request'
+        if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main' && inputs.publish == true
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
