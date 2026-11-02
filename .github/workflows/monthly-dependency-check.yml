@@ -49,7 +49,7 @@ jobs:
           Path(os.environ["RUNNER_TEMP"], "monthly-dependencies.R").write_text(script)
           PY
       # Deliberately start without the monthly cache to exercise remotes bootstrap.
-      # Only the extracted R block executes; no rendering, tags or uploads.
+      # Only the extracted R block executes here; no tags or uploads.
       - name: Install monthly dependencies from a cold library
         run: Rscript "$RUNNER_TEMP/monthly-dependencies.R"
       - name: Verify installed dependencies and native linkage
@@ -63,3 +63,15 @@ jobs:
           library(stringi)
           print(stringi::stri_info())
           print(sessionInfo())
+
+      - name: Generate document chapter configurations
+        run: Rscript R/generate-chapter-yamls.R
+      # Exercise the document wrappers without any release or deployment code.
+      - name: Render Turkish EPUB and Word
+        run: Rscript R/render_epub_word_TR.R
+      - name: Render Turkish PDF
+        run: Rscript R/render_pdf_TR.R
+      - name: Render English EPUB and Word
+        run: Rscript R/render_epub_word_EN.R
+      - name: Render English PDF
+        run: Rscript R/render_pdf_EN.R
