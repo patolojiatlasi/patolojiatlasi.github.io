@@ -12,6 +12,7 @@ on:
       - 'tests/**'
       - 'tukuruk.qmd'
       - 'hucre-ici-birikimler.qmd'
+      - 'meningiom.qmd'
       - 'qrcodes/**'
   workflow_dispatch:
 

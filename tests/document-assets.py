@@ -16,6 +16,10 @@ import zxingcpp
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://images.patolojiatlasi.com/"
 CASES = {
+    "meningiom.qmd": {
+        "brain-invasive-meningioma-HE_qrcode.svg": BASE + "brain-invasive-meningioma/HE.html",
+        "meningioma-bone-infiltration-HE_qrcode.svg": BASE + "meningioma-bone-infiltration/HE.html",
+    },
     "tukuruk.qmd": {
         "mammary-analogue-secretory-carcinoma-HE1_qrcode.svg": BASE + "mammary-analogue-secretory-carcinoma/HE1.html",
         "mammary-analogue-secretory-carcinoma-HE2_qrcode.svg": BASE + "mammary-analogue-secretory-carcinoma/HE2.html",
@@ -72,6 +76,15 @@ class DocumentAssets(unittest.TestCase):
             # Every literal QR reference in the affected chapters must exist.
             for asset in re.findall(r'!\[\]\((\./qrcodes/[^)]+)\)', text):
                 self.assertTrue((ROOT / asset).is_file(), asset)
+
+    def test_literal_qr_filenames_are_safe_for_latex(self):
+        sources = list(ROOT.glob("*.qmd")) + list((ROOT / "_subchapters").glob("*.qmd"))
+        for source in sources:
+            for asset in re.findall(r'!\[\]\((\./qrcodes/[^)]+)\)', source.read_text()):
+                # These template tokens are explicitly removed by render_format().
+                if asset == "./qrcodes/{{template}}-{{stain}}_qrcode.svg":
+                    continue
+                self.assertNotRegex(asset, r"[{}%]", str(source))
 
     def test_epub_word_configuration_and_inheritance(self):
         base = yaml.safe_load((ROOT / "_quarto_epub_word_base.yml").read_text())
