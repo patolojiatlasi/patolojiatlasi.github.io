@@ -93,8 +93,7 @@ format:
   epub:
     epub-cover-image: images/coverEN.png
 
-  docx:
-    # No EN-specific overrides needed
+  docx: {} # Inherit all shared Word settings without overrides
 
 # https://quarto.org/docs/reference/formats/epub.html
 # https://quarto.org/docs/output-formats/ms-word.html

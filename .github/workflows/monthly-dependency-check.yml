@@ -9,7 +9,10 @@ on:
       - 'R/**'
       - '_quarto*.yml'
       - 'chapter-mappings.yml'
-      - 'tests/document-chapters.R'
+      - 'tests/**'
+      - 'tukuruk.qmd'
+      - 'hucre-ici-birikimler.qmd'
+      - 'qrcodes/**'
   workflow_dispatch:
 
 permissions:
@@ -73,6 +76,10 @@ jobs:
 
       - name: Generate document chapter configurations
         run: Rscript R/generate-chapter-yamls.R
+      - name: Check QR assets, decoded destinations, and EPUB/Word configuration
+        run: |
+          python -m pip install -r tests/document-assets-requirements.txt
+          python tests/document-assets.py
       - name: Test all document chapter configurations and generated QMDs
         run: Rscript tests/document-chapters.R
       # Attempt every wrapper even if another language/format fails.
@@ -87,6 +94,21 @@ jobs:
             else
               echo "${format}: FAIL" | tee -a "$GITHUB_STEP_SUMMARY"
               tail -n 60 "${RUNNER_TEMP}/render-${format}.log"
+              failed=1
+            fi
+          done
+          # Verify the six deliverables, not just the wrapper exit codes.
+          for output in \
+            _epub_word_TR/Patoloji-Atlasi.epub \
+            _epub_word_TR/Patoloji-Atlasi.docx \
+            _pdf_TR/Patoloji-Atlasi.pdf \
+            _epub_word_EN/HistoPatology-Atlas.epub \
+            _epub_word_EN/HistoPatology-Atlas.docx \
+            _pdf_EN/HistoPathology-Atlas.pdf; do
+            if test -s "$output"; then
+              echo "$output: GENERATED ($(stat -c%s "$output") bytes)" | tee -a "$GITHUB_STEP_SUMMARY"
+            else
+              echo "$output: MISSING" | tee -a "$GITHUB_STEP_SUMMARY"
               failed=1
             fi
           done
