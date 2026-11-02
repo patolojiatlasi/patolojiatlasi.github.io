@@ -44,6 +44,7 @@ jobs:
 
       - name: Install R dependencies
         run: |
+            options(repos = c(CRAN = "https://cloud.r-project.org"))
             if (!requireNamespace("remotes", quietly = TRUE)) {install.packages("remotes", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
             remotes::install_deps(dependencies = TRUE)
             if (!requireNamespace("fs", quietly = TRUE)) install.packages("fs", dependencies = TRUE, quiet = TRUE, verbose = FALSE)
