@@ -6,6 +6,10 @@ on:
       - '.github/workflows/monthly-release.yml'
       - '.github/workflows/monthly-dependency-check.yml'
       - 'DESCRIPTION'
+      - 'R/**'
+      - '_quarto*.yml'
+      - 'chapter-mappings.yml'
+      - 'tests/document-chapters.R'
   workflow_dispatch:
 
 permissions:
@@ -69,12 +73,28 @@ jobs:
 
       - name: Generate document chapter configurations
         run: Rscript R/generate-chapter-yamls.R
-      # Exercise the document wrappers without any release or deployment code.
-      - name: Render Turkish EPUB and Word
-        run: Rscript R/render_epub_word_TR.R
-      - name: Render Turkish PDF
-        run: Rscript R/render_pdf_TR.R
-      - name: Render English EPUB and Word
-        run: Rscript R/render_epub_word_EN.R
-      - name: Render English PDF
-        run: Rscript R/render_pdf_EN.R
+      - name: Test all document chapter configurations and generated QMDs
+        run: Rscript tests/document-chapters.R
+      # Attempt every wrapper even if another language/format fails.
+      # Each wrapper cleans generated QMDs on error; no release/deployment code.
+      - name: Check all four document renders without publishing
+        shell: bash
+        run: |
+          failed=0
+          for format in epub_word_TR pdf_TR epub_word_EN pdf_EN; do
+            if Rscript "R/render_${format}.R" > "${RUNNER_TEMP}/render-${format}.log" 2>&1; then
+              echo "${format}: PASS" | tee -a "$GITHUB_STEP_SUMMARY"
+            else
+              echo "${format}: FAIL" | tee -a "$GITHUB_STEP_SUMMARY"
+              tail -n 60 "${RUNNER_TEMP}/render-${format}.log"
+              failed=1
+            fi
+          done
+          exit "$failed"
+      - name: Preserve document check logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: monthly-document-check-logs
+          path: ${{ runner.temp }}/render-*.log
+          if-no-files-found: ignore
