@@ -33,12 +33,12 @@ def render(section, language, output_format, links, legacy=False):
             assert files, result.stdout
             tex = files[0].read_text()
             assert "includesvg" in tex, tex
-            assert links[0][1] in tex, tex
+            assert links[0][0] in re.sub(r"\s+", " ", tex), tex
             lines = tex.splitlines()
             for i, line in enumerate(lines):
                 if "includesvg" in line:
                     print("Original status-section TeX trace:\n" +
-                          "\n".join(lines[max(0, i-4):i+4]), flush=True)
+                          "\n".join(lines[max(0, i-4):i+10]), flush=True)
                     break
             print(f"Original image section PDF exit status: {result.returncode}", flush=True)
             return
