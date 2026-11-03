@@ -105,7 +105,7 @@ https://apple.co/44WLy11
 
 
 
-::: {.content-visible when-format="html"}
+```{asis, echo = (output_type=="html")}
 
 
 | **Atıf - Citation**                                                                                                                                                                                                                                                                                     |
@@ -121,15 +121,7 @@ https://apple.co/44WLy11
 
 
 
-:::
-
-::: {.content-hidden when-format="html"}
-
-- [Zenodo DOI / latest archived version](https://zenodo.org/badge/latestdoi/452585667)
-- [Open Science Framework DOI: 10.17605/OSF.IO/6W5K8](https://osf.io/6w5k8/)
-- [License / Lisans](https://github.com/patolojiatlasi/patolojiatlasi.github.io/blob/main/LICENSE)
-
-:::
+```
 
 
 ---
