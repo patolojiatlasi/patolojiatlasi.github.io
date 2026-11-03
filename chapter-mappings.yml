@@ -246,6 +246,7 @@ chapters:
   tr_epub_word: karaciger_epub_word_TR
   en_epub_word: liver_epub_word_EN
 - tr: karaciger-transplantasyonu
+  document_omission: Existing document exclusion retained; the acute-rejection case remains available in the web atlas.
   en: liver-transplantation
   tr_pdf: .na.character
   en_pdf: .na.character
@@ -450,6 +451,7 @@ chapters:
   tr_epub_word: wsi_epub_word_TR
   en_epub_word: wsi_epub_word_EN
 - tr: referanslar
+  document_aliases_EN: [references]
   en: referanslar
   tr_pdf: referanslar_pdf_TR
   en_pdf: references_pdf_EN
@@ -468,6 +470,7 @@ chapters:
   tr_epub_word: yorum_epub_word_TR
   en_epub_word: comments_epub_word_EN
 - tr: artirilmis-gerceklik
+  document_omission: Interactive camera and video instructions are web-only.
   en: augmented-reality
   tr_pdf: .na.character
   en_pdf: .na.character
@@ -491,3 +494,31 @@ chapters:
   en_pdf: BOS_pdf_EN
   tr_epub_word: BOS_epub_word_TR
   en_epub_word: BOS_epub_word_EN
+
+- tr: hemodinamik-bozukluklar
+  en: hemodinamik-bozukluklar
+  tr_pdf: hemodinamik-bozukluklar_pdf_TR
+  tr_epub_word: hemodinamik-bozukluklar_epub_word_TR
+  en_pdf: hemodinamik-bozukluklar_pdf_EN
+  en_epub_word: hemodinamik-bozukluklar_epub_word_EN
+
+- tr: adrenal
+  en: adrenal
+  tr_pdf: adrenal_pdf_TR
+  tr_epub_word: adrenal_epub_word_TR
+  en_pdf: adrenal_pdf_EN
+  en_epub_word: adrenal_epub_word_EN
+
+- tr: yonetim-gelistirme
+  en: yonetim-gelistirme
+  tr_pdf: yonetim-gelistirme_pdf_TR
+  tr_epub_word: yonetim-gelistirme_epub_word_TR
+  en_pdf: yonetim-gelistirme_pdf_EN
+  en_epub_word: yonetim-gelistirme_epub_word_EN
+- tr: lists/index
+  en: lists/index
+  document_omission: Quarto HTML listing widget; individual cases remain in document chapters.
+  tr_pdf: .na.character
+  en_pdf: .na.character
+  tr_epub_word: .na.character
+  en_epub_word: .na.character

@@ -19,8 +19,8 @@ jobs:
         with:
           lfs: true  # Enable Git LFS for large image files
 
-      - name: Install rsvg-convert
-        run: sudo apt-get update && sudo apt-get install -y librsvg2-bin
+      - name: Install document system dependencies
+        run: sudo apt-get update && sudo apt-get install -y librsvg2-bin libcurl4-openssl-dev libuv1-dev
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
@@ -44,6 +44,7 @@ jobs:
 
       - name: Install R dependencies
         run: |
+            options(repos = c(CRAN = "https://cloud.r-project.org"))
             if (!requireNamespace("remotes", quietly = TRUE)) {install.packages("remotes", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
             remotes::install_deps(dependencies = TRUE)
             if (!requireNamespace("fs", quietly = TRUE)) install.packages("fs", dependencies = TRUE, quiet = TRUE, verbose = FALSE)
@@ -51,10 +52,18 @@ jobs:
             if (!requireNamespace("xfun", quietly = TRUE)) {install.packages("xfun", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
             if (!requireNamespace("readxl", quietly = TRUE)) {install.packages("readxl", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
             if (!requireNamespace("tinytex", quietly = TRUE)) {install.packages("tinytex", dependencies = TRUE, quiet = TRUE, verbose = FALSE)}
+            # install.packages() can warn and return successfully after a failed build.
+            required <- unique(c(remotes::dev_package_deps(dependencies = TRUE)$package, "remotes", "fs", "quarto", "xfun", "readxl", "tinytex"))
+            missing <- required[!vapply(required, requireNamespace, logical(1), quietly = TRUE)]
+            if (length(missing)) stop("Unavailable dependencies: ", paste(missing, collapse = ", "))
             if (!tinytex::is_tinytex()) {tinytex::install_tinytex()}
             saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
             writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
         shell: Rscript {0}
+
+      # Document builds do not run the HTML pre-render hooks that generate these.
+      - name: Generate document chapter configurations
+        run: Rscript R/generate-chapter-yamls.R
 
       - name: "epub word TR"
         shell: Rscript {0}
@@ -102,6 +111,8 @@ jobs:
           sudo apt-get install -y jq curl
 
       - name: Prepare and Upload Release
+        # Validation never publishes; only the existing main-branch release events do.
+        if: (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && github.ref == 'refs/heads/main'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TAG_NAME: ${{ env.DATE }}
