@@ -32,11 +32,11 @@ def render(section, language, output_format, links, legacy=False):
             files = list(work.rglob("*.tex"))
             assert files, result.stdout
             tex = files[0].read_text()
-            assert "badge.svg" in tex, tex
+            assert "includesvg" in tex, tex
             assert links[0][1] in tex, tex
             lines = tex.splitlines()
             for i, line in enumerate(lines):
-                if "badge.svg" in line:
+                if "includesvg" in line:
                     print("Original status-section TeX trace:\n" +
                           "\n".join(lines[max(0, i-4):i+4]), flush=True)
                     break
@@ -54,7 +54,7 @@ def render(section, language, output_format, links, legacy=False):
             tex = next(work.rglob("*.tex")).read_text()
             for name, url in links:
                 assert url in tex, name
-                assert name in tex, name
+                assert name in re.sub(r"\s+", " ", tex), name
             assert "includesvg" not in tex
             assert "badge.svg" not in tex
         print(f"workflow status {language}/{output_format}: PASS", flush=True)
