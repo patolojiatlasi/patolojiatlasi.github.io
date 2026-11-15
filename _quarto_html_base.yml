@@ -24,11 +24,13 @@ format:
       warning: false
     include-in-header:
       - text: |
-          <script src="script.js"></script>
-          <script src="webpages.js"></script>
+          <script defer src="script.js"></script>
+          <script defer src="webpages.js"></script>
           <script defer src="/wsi-tabs.js"></script>
     filters:
       - collapse-social-embeds
+      - path: filters/wsi-iframes.lua
+        at: post-quarto # after {{< video >}} shortcodes have become iframes
     feeds:
       rss: true
 
