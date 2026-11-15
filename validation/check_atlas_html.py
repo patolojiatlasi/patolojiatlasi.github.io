@@ -210,6 +210,10 @@ check(
     archive.exists() and "kidneyoncocytoma/HE.html" in archive.read_text(),
     "Archived source missing",
 )
+check(
+    (roots["TR"] / "lists/index.html").is_file(),
+    "TR: published case list is missing at lists/index.html",
+)
 for lang, root in roots.items():
     check(
         not list(root.rglob("*kidney-oncocytoma*")),

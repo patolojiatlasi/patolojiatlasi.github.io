@@ -219,7 +219,8 @@ save_freeze_directory <- function(language) {
 #' render_format(language = "EN", format = "epub_word",
 #'               config_file = "_quarto_EN_epub_word.yml",
 #'               excel_column_suffix = "epub_word")
-render_format <- function(language, format, config_file, excel_column_suffix) {
+render_format <- function(language, format, config_file, excel_column_suffix,
+                          render = quarto::quarto_render) {
 
   # Validate inputs
   if (!language %in% c("TR", "EN")) {
@@ -243,33 +244,32 @@ render_format <- function(language, format, config_file, excel_column_suffix) {
     fs::dir_copy(freeze_dir_name, "./_freeze", overwrite = TRUE)
   }
 
-  # Read chapter mappings from YAML (replaces Excel dependency)
-  chapter_mappings <- read_chapter_mappings()
-
-  # Determine column names based on language and format
-  tr_col <- "TR_chapter_qmd"
-  target_col <- paste0(language, "_", excel_column_suffix, "_chapter_qmd")
-
-  chapter_mappings <-
-    chapter_mappings[, c(tr_col, target_col)]
-
-  tr_chapter_qmd <- paste0("./", chapter_mappings[[tr_col]], ".qmd")
-  target_chapter_qmd <- paste0("./", chapter_mappings[[target_col]], ".qmd")
+  # Use the same explicit selection plan as the generated chapter YAML.
+  source("./R/document-chapters.R")
+  plan <- document_chapter_plan(language, format)
+  write_document_chapters(plan, language, format)
+  copies <- plan$copies[plan$copies$source != plan$copies$target, ]
+  tr_chapter_qmd <- paste0("./", copies$source)
+  target_chapter_qmd <- paste0("./", copies$target)
 
   # Handle subchapter files
-  subchapter_files <- list.files("_subchapters", pattern = "*.qmd", recursive = FALSE)
+  subchapter_files <- list.files("_subchapters", pattern = "\\.qmd$", recursive = FALSE)
+  subchapter_files <- subchapter_files[!grepl("_(EN|pdf_TR|pdf_EN|epub_word_TR|epub_word_EN)\\.qmd$", subchapter_files)]
   subchapter_files <- paste0("./_subchapters/", subchapter_files)
 
   # Generate target subchapter names
   suffix <- paste0("_", format, "_", language, ".qmd")
-  subchapter_files_target <- gsub(".qmd", suffix, subchapter_files)
+  subchapter_files_target <- sub("\\.qmd$", suffix, subchapter_files)
 
   # Combine main chapters and subchapters
   tr_chapter_qmd <- c(tr_chapter_qmd, subchapter_files)
   all_target_qmd <- c(target_chapter_qmd, subchapter_files_target)
 
-  # Copy files
+  # Always remove generated copies, including after a failed render.
+  on.exit(unlink(all_target_qmd), add = TRUE)
   fs::file_copy(tr_chapter_qmd, all_target_qmd, overwrite = TRUE)
+  missing <- plan$copies$target[!file.exists(plan$copies$target)]
+  if (length(missing)) stop("Missing generated chapters: ", paste(missing, collapse = ", "))
 
   # Apply text replacements for PDF/EPUB format
   # Remove complete tabset fence lines; preserve shorter conditional-content divs.
@@ -296,7 +296,7 @@ render_format <- function(language, format, config_file, excel_column_suffix) {
     replacement = paste0(suffix, " >}}"))
 
   # Render
-  quarto::quarto_render(".", as_job = FALSE)
+  render(".", as_job = FALSE)
 
   # Save freeze directory
   if (dir.exists("./_freeze")) {
