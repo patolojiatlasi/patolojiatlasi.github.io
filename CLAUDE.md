@@ -156,6 +156,22 @@ git checkout -- docs/ gitlab_atlas/ lists/ rss_feed.xml
 Let CI regenerate those files from a full build; never commit a partially regenerated `lists/` or
 `rss_feed.xml`.
 
+## Known Pitfall: Freeze Cache Hides Edits to Included Case Files
+
+`_freeze_TR/` and `_freeze_EN/` are tracked snapshots, and CI does not commit refreshed ones. With
+`freeze: auto`, Quarto reuses a chapter's cached output when the md5 of the chapter `.qmd` matches
+the hash in `_freeze_*/<chapter>/execute-results/html.json`. Content brought in with
+`{{< include _subchapters/... >}}` is not part of that hash. So an edit to a case file shows up only
+in chapters that have no cache entry or whose own file has changed since the snapshot.
+
+After editing a file in `_subchapters/`, remove the cache of each chapter that includes it:
+
+```bash
+git rm -r _freeze_TR/<tr-chapter> _freeze_EN/<en-chapter>
+```
+
+Then check the live page after publishing; a passing build does not show this problem.
+
 ## CI/CD
 
 **Main workflow**: `.github/workflows/Quarto-Render-Bilingual-Book-Push-Other-Repos-GitLab.yml`

@@ -1,5 +1,11 @@
 # Lessons
 
+## 2026-11-23: Edited case files did not reach the site because of the freeze cache
+
+- **Failure:** Title fixes in `_subchapters/*.qmd` were published, but ten chapters (the BS collection, glioma, colon and others) still showed the old titles. `freeze: auto` reuses a chapter's cached output when the md5 of the chapter `.qmd` equals the hash stored in `_freeze_{TR,EN}/<chapter>/execute-results/html.json`. Text pulled in by `{{< include >}}` is not part of that hash, and CI never commits a refreshed cache, so a chapter whose own file is unchanged keeps rendering the case text from the day its cache was committed.
+- **Detection:** After publishing, the live headings of `bs.html` and `gliom.html` did not match the sources while `pankreas.html` did. Comparing `md5(chapter.qmd)` with the stored hash showed 41 chapters reusing cached output.
+- **Prevention:** After editing a case file, delete the cache folder of every chapter that includes it (`git rm -r _freeze_TR/<tr-name> _freeze_EN/<en-name>`), or the edit will not appear. Verify on the live page, not only by a green build.
+
 ## 2026-11-23: A case was added to a chapter that the book does not build
 
 - **Failure:** `_PDAC-adrenal-invasion.qmd` was included in `pankreas.qmd` and reported as placed "under pancreas". `pankreas.qmd` existed, had a mapping in `chapter-mappings.yml` and already held seven cases, but was not in `_quarto_chapters_TR.yml` or `_quarto_chapters_EN.yml`, so no pancreas page was rendered. A second trap: a push only builds and checks; publishing needs a manual run with `publish=true`.
