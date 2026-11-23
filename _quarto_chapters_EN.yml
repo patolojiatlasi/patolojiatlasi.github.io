@@ -109,6 +109,8 @@ book:
           href: malignant-liver-tumors.qmd
     - part: "Pancreatobiliary system"
       chapters:
+        - text: "Pancreas"
+          href: pancreas.qmd
         - text: "Gallbladder"
           href: gallbladder.qmd
         - text: "Ampulla of Vater"

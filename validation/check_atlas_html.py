@@ -38,7 +38,7 @@ def paths(obj):
 seo = yaml.safe_load((repo / "config/seo.yml").read_text())
 mappings = yaml.safe_load((repo / "chapter-mappings.yml").read_text())["chapters"]
 allpaths = {}
-for lang, expected in [("TR", 82), ("EN", 79)]:
+for lang, expected in [("TR", 83), ("EN", 80)]:
     book = yaml.safe_load((repo / f"_quarto_chapters_{lang}.yml").read_text())["book"]
     ps = paths([book["chapters"], book["appendices"]])
     allpaths[lang] = [p[:-4] + ".html" for p in ps]
