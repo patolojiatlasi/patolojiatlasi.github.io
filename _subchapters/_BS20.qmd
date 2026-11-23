@@ -24,12 +24,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis granülamatöz hepatit, Tbc vs anti-Tbc ilaç etkisi TR , echo = (language == "TR")}
-## BS20 - granülomatöz hepatit, Tbc vs anti-Tbc ilaç etkisi {#sec-BS20 }
+## BS20 - Granülomatöz Hepatit, Tbc vs Anti-Tbc İlaç Etkisi {#sec-BS20 }
 ```
 
 
 ```{asis granulamatous hepatitis, Tbc vs anti-Tbc drug induced reaction EN , echo = (language == "EN")}
-## BS20 - granulomatous hepatitis, Tbc vs anti-Tbc drug induced reaction {#sec-BS20 }
+## BS20 - Granulomatous Hepatitis, Tbc vs Anti-Tbc Drug Induced Reaction {#sec-BS20 }
 ```
 
 
@@ -146,7 +146,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**granülomatöz hepatit, Tbc vs anti-Tbc ilaç etkisi**
+**Granülomatöz Hepatit, Tbc vs Anti-Tbc İlaç Etkisi**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS20-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS20/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS20/HE.html)
@@ -154,7 +154,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**granulomatous hepatitis, Tbc vs anti-Tbc drug induced reaction**
+**Granulomatous Hepatitis, Tbc vs Anti-Tbc Drug Induced Reaction**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS20-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS20/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS20/HE.html)
 
@@ -345,7 +345,7 @@ See Microscopy with viewer:
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Tanı
 
-granülomatöz hepatit, Tbc vs anti-Tbc ilaç etkisi
+Granülomatöz Hepatit, Tbc vs Anti-Tbc İlaç Etkisi
 
 :::
 
@@ -359,7 +359,7 @@ granülomatöz hepatit, Tbc vs anti-Tbc ilaç etkisi
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
 
-granulomatous hepatitis, Tbc vs anti-Tbc drug induced reaction
+Granulomatous Hepatitis, Tbc vs Anti-Tbc Drug Induced Reaction
 
 :::
 

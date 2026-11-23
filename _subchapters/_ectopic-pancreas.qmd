@@ -19,12 +19,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis midede ektopik pankreas TR , echo = (language == "TR")}
-## Midede ektopik pankreas {#sec-ectopic-pancreas }
+## Midede Ektopik Pankreas {#sec-ectopic-pancreas }
 ```
 
 
 ```{asis ectopic pancreas in stomach EN , echo = (language == "EN")}
-## Ectopic pancreas in stomach {#sec-ectopic-pancreas }
+## Ectopic Pancreas in Stomach {#sec-ectopic-pancreas }
 ```
 
 

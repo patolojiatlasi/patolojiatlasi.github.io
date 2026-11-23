@@ -23,12 +23,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis psödoinklüzyon, ilaç etkisi, karaciğer, KİT hastası TR , echo = (language == "TR")}
-## BS19 - psödoinklüzyon, ilaç etkisi, karaciğer, KİT hastası {#sec-BS19 }
+## BS19 - Psödoinklüzyon, İlaç Etkisi, Karaciğer, KİT Hastası {#sec-BS19 }
 ```
 
 
 ```{asis pseudoinclusion, drug-induced injury, liver, bone marrow transplantation history EN , echo = (language == "EN")}
-## BS19 - pseudoinclusion, drug-induced injury, liver, bone marrow transplantation history {#sec-BS19 }
+## BS19 - Pseudoinclusion, Drug-Induced Injury, Liver, Bone Marrow Transplantation History {#sec-BS19 }
 ```
 
 
@@ -145,7 +145,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**psödoinklüzyon, ilaç etkisi, karaciğer, KİT hastası**
+**Psödoinklüzyon, İlaç Etkisi, Karaciğer, KİT Hastası**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS19-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS19/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS19/HE.html)
@@ -153,7 +153,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**pseudoinclusion, drug-induced injury, liver, bone marrow transplantation history**
+**Pseudoinclusion, Drug-Induced Injury, Liver, Bone Marrow Transplantation History**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS19-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS19/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS19/HE.html)
 
@@ -344,7 +344,7 @@ See Microscopy with viewer:
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Tanı
 
-psödoinklüzyon, ilaç etkisi, karaciğer, KİT hastası
+Psödoinklüzyon, İlaç Etkisi, Karaciğer, KİT Hastası
 
 :::
 
@@ -358,7 +358,7 @@ psödoinklüzyon, ilaç etkisi, karaciğer, KİT hastası
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
 
-pseudoinclusion, drug-induced injury, liver, bone marrow transplantation history
+Pseudoinclusion, Drug-Induced Injury, Liver, Bone Marrow Transplantation History
 
 :::
 

@@ -16,20 +16,20 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "TR")}
-# Mezotel {#sec-mezotel} 
+# Mezotel {#sec-mezotel}
 ```
 
 ```{asis, echo = (language == "EN")}
-# Mesothelium {#sec-mesothelium} 
+# Mesothelium {#sec-mesothelium}
 ```
 
 
 ```{asis, echo = (language == "TR")}
-## Abdominal mezotelyoma {#sec-abdominal-mesothelioma} 
+## Abdominal Mezotelyoma {#sec-abdominal-mesothelioma}
 ```
 
 ```{asis, echo = (language == "EN")}
-## Abdominal mesothelioma {#sec-abdominal-mesothelioma} 
+## Abdominal Mesothelioma {#sec-abdominal-mesothelioma}
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
@@ -74,7 +74,7 @@ if (!file.exists("./qrcodes/abdominal-mesothelioma-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**Abdominal mezotelyoma**
+**Abdominal Mezotelyoma**
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_abdominal-mesothelioma.png){width="25%"}](https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html)
 
@@ -95,7 +95,7 @@ if (!file.exists("./qrcodes/abdominal-mesothelioma-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**Abdominal mezotelyoma**
+**Abdominal Mezotelyoma**
 
 
 ![](./qrcodes/abdominal-mesothelioma-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_abdominal-mesothelioma.png){width="25%"}](https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html)
@@ -116,7 +116,7 @@ if (!file.exists("./qrcodes/abdominal-mesothelioma-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**Abdominal mesothelioma**
+**Abdominal Mesothelioma**
 
 [![Click for Full Screen WSI](./screenshots/thumbnail_abdominal-mesothelioma.png){width="25%"}](https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html)
 
@@ -134,7 +134,7 @@ if (!file.exists("./qrcodes/abdominal-mesothelioma-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**Abdominal mesothelioma**
+**Abdominal Mesothelioma**
 
 
 ![](./qrcodes/abdominal-mesothelioma-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_abdominal-mesothelioma.png){width="25%"}](https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/abdominal-mesothelioma/HE.html)

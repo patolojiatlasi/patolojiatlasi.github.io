@@ -23,12 +23,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis makroveziküler ve mikroveziküler steatoz, lipogranülom, karaciğer , echo = (language == "TR")}
-## BS3 - makroveziküler ve mikroveziküler steatoz, lipogranülom, karaciğer {#sec-BS3 }
+## BS3 - Makroveziküler ve Mikroveziküler Steatoz, Lipogranülom, Karaciğer {#sec-BS3 }
 ```
 
 
 ```{asis macrovesicular and microvesicular steatosis, lipogranuloma, liver , echo = (language == "EN")}
-## BS3 - macrovesicular and microvesicular steatosis, lipogranuloma, liver {#sec-BS3 }
+## BS3 - Macrovesicular and Microvesicular Steatosis, Lipogranuloma, Liver {#sec-BS3 }
 ```
 
 
@@ -145,7 +145,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**makroveziküler ve mikroveziküler steatoz, lipogranülom, karaciğer**
+**Makroveziküler ve Mikroveziküler Steatoz, Lipogranülom, Karaciğer**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS3-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS3/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS3/HE.html)
@@ -153,7 +153,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**macrovesicular and microvesicular steatosis, lipogranuloma, liver**
+**Macrovesicular and Microvesicular Steatosis, Lipogranuloma, Liver**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS3-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS3/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS3/HE.html)
 
@@ -344,7 +344,7 @@ See Microscopy with viewer:
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Tanı
 
-makroveziküler ve mikroveziküler steatoz, lipogranülom, karaciğer
+Makroveziküler ve Mikroveziküler Steatoz, Lipogranülom, Karaciğer
 
 :::
 
@@ -358,7 +358,7 @@ makroveziküler ve mikroveziküler steatoz, lipogranülom, karaciğer
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
 
-macrovesicular and microvesicular steatosis, lipogranuloma, liver
+Macrovesicular and Microvesicular Steatosis, Lipogranuloma, Liver
 
 :::
 

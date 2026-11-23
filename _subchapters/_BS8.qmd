@@ -22,12 +22,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis tromboz, FNH benzeri nodül, Budd-Chiari , echo = (language == "TR")}
-## BS8 - tromboz, FNH benzeri nodül, Budd-Chiari {#sec-BS8 }
+## BS8 - Tromboz, FNH Benzeri Nodül, Budd-Chiari {#sec-BS8 }
 ```
 
 
 ```{asis thrombosis, FNH-like nodule, Budd-Chiari , echo = (language == "EN")}
-## BS8 - thrombosis, FNH-like nodule, Budd-Chiari {#sec-BS8 }
+## BS8 - Thrombosis, FNH-Like Nodule, Budd-Chiari {#sec-BS8 }
 ```
 
 
@@ -171,7 +171,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**tromboz, FNH benzeri nodül, Budd-Chiari**
+**Tromboz, FNH Benzeri Nodül, Budd-Chiari**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS8-HE1.png){width="25%"}](https://images.patolojiatlasi.com/BS8/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS8/HE1.html)
@@ -179,7 +179,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**thrombosis, FNH-like nodule, Budd-Chiari**
+**Thrombosis, FNH-Like Nodule, Budd-Chiari**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS8-HE1.png){width="25%"}](https://images.patolojiatlasi.com/BS8/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS8/HE1.html)
 
@@ -262,7 +262,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**tromboz, FNH benzeri nodül, Budd-Chiari**
+**Tromboz, FNH Benzeri Nodül, Budd-Chiari**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS8-HE2.png){width="25%"}](https://images.patolojiatlasi.com/BS8/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS8/HE2.html)
@@ -270,7 +270,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**thrombosis, FNH-like nodule, Budd-Chiari**
+**Thrombosis, FNH-Like Nodule, Budd-Chiari**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS8-HE2.png){width="25%"}](https://images.patolojiatlasi.com/BS8/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS8/HE2.html)
 

@@ -14,21 +14,21 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "TR")}
-# Patolojide Kullanılan Teknikler {#sec-patolojide-kullanilan-teknikler} 
+# Patolojide Kullanılan Teknikler {#sec-patolojide-kullanilan-teknikler}
 ```
 
 ```{asis, echo = (language == "EN")}
-# Techniques Used in Pathology {#sec-techniques-used-in-pathology} 
+# Techniques Used in Pathology {#sec-techniques-used-in-pathology}
 ```
 
 
 
 ```{asis, echo = (language == "TR")}
-## Histokimya {#sec-histokimya} 
+## Histokimya {#sec-histokimya}
 ```
 
 ```{asis, echo = (language == "EN")}
-## Histochemistry {#sec-histochemistry} 
+## Histochemistry {#sec-histochemistry}
 ```
 
 
@@ -41,13 +41,13 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-## Kromojenik in situ hibridizasyon (CISH) {#sec-chromogenic-in-situ-hybridization-cish}
+## Kromojenik In Situ Hibridizasyon (CISH) {#sec-chromogenic-in-situ-hybridization-cish}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Chromogenic in situ hybridization (CISH) {#sec-chromogenic-in-situ-hybridization-cish} 
+## Chromogenic In Situ Hybridization (CISH) {#sec-chromogenic-in-situ-hybridization-cish}
 
 ```
 
@@ -58,13 +58,13 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-## İmmünohistokimya {#sec-immunohistokimya} 
+## İmmünohistokimya {#sec-immunohistokimya}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Immunohistochemistry {#sec-immunohistochemistry} 
+## Immunohistochemistry {#sec-immunohistochemistry}
 
 ```
 
@@ -76,13 +76,13 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-## Artefaktlar {#sec-artefaktlar} 
+## Artefaktlar {#sec-artefaktlar}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Artefacts {#sec-artefacts} 
+## Artefacts {#sec-artefacts}
 
 ```
 

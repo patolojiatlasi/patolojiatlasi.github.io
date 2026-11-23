@@ -32,7 +32,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-## Mide mukozasında erozyon {#sec-mide-mukozasinda-erozyon}
+## Mide Mukozasında Erozyon {#sec-mide-mukozasinda-erozyon}
 
 ```
 
@@ -75,7 +75,7 @@ if (!file.exists("./qrcodes/erosion-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**Mide mukozasında erozyon**
+**Mide Mukozasında Erozyon**
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_erosion.png){width="25%"}](https://images.patolojiatlasi.com/erosion/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/erosion/HE.html)
 
@@ -96,7 +96,7 @@ if (!file.exists("./qrcodes/erosion-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**Mide mukozasında erozyon**
+**Mide Mukozasında Erozyon**
 
 
 ![](./qrcodes/erosion-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_erosion.png){width="25%"}](https://images.patolojiatlasi.com/erosion/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/erosion/HE.html)

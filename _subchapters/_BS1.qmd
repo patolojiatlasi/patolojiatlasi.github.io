@@ -15,12 +15,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis anjiosarkom, dalak, karaciğer , echo = (language == "TR")}
-## BS1 - anjiosarkom, dalak, karaciğer {#sec-BS1 }
+## BS1 - Anjiosarkom, Dalak, Karaciğer {#sec-BS1 }
 ```
 
 
 ```{asis angiosarcoma, spleen, liver , echo = (language == "EN")}
-## BS1 - angiosarcoma, spleen, liver {#sec-BS1 }
+## BS1 - Angiosarcoma, Spleen, Liver {#sec-BS1 }
 ```
 
 
@@ -479,7 +479,7 @@ See Microscopy with viewer:
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Tanı
 
-anjiosarkom, dalak, karaciğer
+Anjiosarkom, Dalak, Karaciğer
 
 :::
 
@@ -493,7 +493,7 @@ anjiosarkom, dalak, karaciğer
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
 
-angiosarcoma, spleen, liver
+Angiosarcoma, Spleen, Liver
 
 :::
 

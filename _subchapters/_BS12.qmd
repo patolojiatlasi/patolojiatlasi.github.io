@@ -23,12 +23,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis beyin, hepatoblastom metastazı TR , echo = (language == "TR")}
-## BS12 - beyin, hepatoblastom metastazı {#sec-BS12 }
+## BS12 - Beyin, Hepatoblastom Metastazı {#sec-BS12 }
 ```
 
 
 ```{asis brain, metastatic hepatoblastoma EN , echo = (language == "EN")}
-## BS12 - brain, metastatic hepatoblastoma {#sec-BS12 }
+## BS12 - Brain, Metastatic Hepatoblastoma {#sec-BS12 }
 ```
 
 
@@ -145,7 +145,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**beyin, hepatoblastom metastazı**
+**Beyin, Hepatoblastom Metastazı**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS12-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS12/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS12/HE.html)
@@ -153,7 +153,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**brain, metastatic hepatoblastoma**
+**Brain, Metastatic Hepatoblastoma**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS12-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS12/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS12/HE.html)
 
@@ -344,7 +344,7 @@ See Microscopy with viewer:
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Tanı
 
-beyin, hepatoblastom metastazı
+Beyin, Hepatoblastom Metastazı
 
 :::
 
@@ -358,7 +358,7 @@ beyin, hepatoblastom metastazı
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
 
-brain, metastatic hepatoblastoma
+Brain, Metastatic Hepatoblastoma
 
 :::
 

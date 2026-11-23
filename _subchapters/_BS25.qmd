@@ -23,12 +23,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis duodenum, NET TR , echo = (language == "TR")}
-## BS25 - duodenum, NET {#sec-BS25 }
+## BS25 - Duodenum, NET {#sec-BS25 }
 ```
 
 
 ```{asis duodenum, NET EN , echo = (language == "EN")}
-## BS25 - duodenum, NET {#sec-BS25 }
+## BS25 - Duodenum, NET {#sec-BS25 }
 ```
 
 
@@ -199,7 +199,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**duodenum, NET**
+**Duodenum, NET**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS25-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS25/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS25/HE.html)
@@ -207,7 +207,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**duodenum, NET**
+**Duodenum, NET**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS25-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS25/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS25/HE.html)
 
@@ -290,7 +290,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**duodenum, NET**
+**Duodenum, NET**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS25-CHR.png){width="25%"}](https://images.patolojiatlasi.com/BS25/CHR.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS25/CHR.html)
@@ -298,7 +298,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**duodenum, NET**
+**Duodenum, NET**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS25-CHR.png){width="25%"}](https://images.patolojiatlasi.com/BS25/CHR.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS25/CHR.html)
 
@@ -381,7 +381,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**duodenum, NET**
+**Duodenum, NET**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS25-SYN.png){width="25%"}](https://images.patolojiatlasi.com/BS25/SYN.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS25/SYN.html)
@@ -389,7 +389,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**duodenum, NET**
+**Duodenum, NET**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS25-SYN.png){width="25%"}](https://images.patolojiatlasi.com/BS25/SYN.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS25/SYN.html)
 
@@ -630,7 +630,7 @@ See Microscopy with viewer:
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Tanı
 
-duodenum, NET
+Duodenum, NET
 
 :::
 
@@ -644,7 +644,7 @@ duodenum, NET
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
 
-duodenum, NET
+Duodenum, NET
 
 :::
 

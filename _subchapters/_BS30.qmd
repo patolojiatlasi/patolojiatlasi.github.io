@@ -23,12 +23,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis embolizan mikrosferül TR , echo = (language == "TR")}
-## BS30 - embolizan mikrosferül {#sec-BS30 }
+## BS30 - Embolizan Mikrosferül {#sec-BS30 }
 ```
 
 
 ```{asis embolisation microspheres EN , echo = (language == "EN")}
-## BS30 - embolisation microspheres {#sec-BS30 }
+## BS30 - Embolisation Microspheres {#sec-BS30 }
 ```
 
 
@@ -145,7 +145,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**embolizan mikrosferül**
+**Embolizan Mikrosferül**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS30-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS30/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS30/HE.html)
@@ -153,7 +153,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**embolisation microspheres**
+**Embolisation Microspheres**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS30-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS30/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS30/HE.html)
 
@@ -344,7 +344,7 @@ See Microscopy with viewer:
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Tanı
 
-embolizan mikrosferül
+Embolizan Mikrosferül
 
 :::
 
@@ -358,7 +358,7 @@ embolizan mikrosferül
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
 
-embolisation microspheres
+Embolisation Microspheres
 
 :::
 

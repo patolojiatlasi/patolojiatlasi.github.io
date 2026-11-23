@@ -31,11 +31,11 @@ book:
           href: erosion.qmd
     - part: "Inflammation"
       chapters:
-        - text: "Acute inflammation"
+        - text: "Acute Inflammation"
           href: acute-inflammation.qmd
-        - text: "Chronic inflammation"
+        - text: "Chronic Inflammation"
           href: chronic-inflammation.qmd
-        - text: "Granulomatous inflammation"
+        - text: "Granulomatous Inflammation"
           href: granulamatous-inflammation.qmd
     - part: "Infectious Diseases"
       chapters:
@@ -59,7 +59,7 @@ book:
           href: metaplasia.qmd
         - text: "Carcinogenesis"
           href: carcinogenesis.qmd
-        - text: "The properties of Malignant Tumors"
+        - text: "The Properties of Malignant Tumors"
           href: malignant.qmd
         - text: "Metastasis"
           href: metastasis.qmd

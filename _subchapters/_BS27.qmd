@@ -22,12 +22,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis lenfanjiektazi duodenum TR , echo = (language == "TR")}
-## BS27 - lenfanjiektazi duodenum {#sec-BS27 }
+## BS27 - Lenfanjiektazi Duodenum {#sec-BS27 }
 ```
 
 
 ```{asis lymphangiectasia duodenum EN , echo = (language == "EN")}
-## BS27 - lymphangiectasia duodenum {#sec-BS27 }
+## BS27 - Lymphangiectasia Duodenum {#sec-BS27 }
 ```
 
 
@@ -144,7 +144,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**lenfanjiektazi duodenum**
+**Lenfanjiektazi Duodenum**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS27-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS27/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS27/HE.html)
@@ -152,7 +152,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**lymphangiectasia duodenum**
+**Lymphangiectasia Duodenum**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS27-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS27/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS27/HE.html)
 

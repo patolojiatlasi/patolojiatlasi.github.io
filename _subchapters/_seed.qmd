@@ -19,12 +19,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis bitki tohumu, yiyecek artığı TR , echo = (language == "TR")}
-### Bitki tohumu, yiyecek artığı {#sec-seed }
+### Bitki Tohumu, Yiyecek Artığı {#sec-seed }
 ```
 
 
 ```{asis seed, food remnant  EN , echo = (language == "EN")}
-### Seed, food remnant  {#sec-seed }
+### Seed, Food Remnant  {#sec-seed }
 ```
 
 

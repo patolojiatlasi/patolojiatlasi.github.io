@@ -28,12 +28,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "TR")}
-## Yağ nekrozu ve Sabunlaşma {#sec-yag-nekrozu-sabunlasma}
+## Yağ Nekrozu ve Sabunlaşma {#sec-yag-nekrozu-sabunlasma}
 ```
 
 
 ```{asis, echo = (language == "EN")}
-## Fat necrosis and Saponification {#sec-fat-necrosis-saponification}
+## Fat Necrosis and Saponification {#sec-fat-necrosis-saponification}
 ```
 
 

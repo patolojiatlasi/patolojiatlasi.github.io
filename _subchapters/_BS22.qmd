@@ -23,12 +23,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis ring mitosis, taxane treatment TR , echo = (language == "TR")}
-## BS22 - halka (ring) mitoz, taksan tedavisi {#sec-BS22 }
+## BS22 - Halka (Ring) Mitoz, Taksan Tedavisi {#sec-BS22 }
 ```
 
 
 ```{asis ring mitosis, taxane treatment EN , echo = (language == "EN")}
-## BS22 - ring mitosis, taxane treatment {#sec-BS22 }
+## BS22 - Ring Mitosis, Taxane Treatment {#sec-BS22 }
 ```
 
 
@@ -145,7 +145,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**ring mitosis, taxane treatment**
+**Ring Mitosis, Taxane Treatment**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS22-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS22/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS22/HE.html)
@@ -153,7 +153,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**ring mitosis, taxane treatment**
+**Ring Mitosis, Taxane Treatment**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS22-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS22/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS22/HE.html)
 
@@ -344,7 +344,7 @@ See Microscopy with viewer:
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Tanı
 
-ring mitosis, taxane treatment
+Ring Mitosis, Taxane Treatment
 
 :::
 
@@ -358,7 +358,7 @@ ring mitosis, taxane treatment
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
 
-ring mitosis, taxane treatment
+Ring Mitosis, Taxane Treatment
 
 :::
 

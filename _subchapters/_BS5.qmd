@@ -20,12 +20,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis lenfositik gastrit , echo = (language == "TR")}
-## BS5 - lenfositik gastrit {#sec-BS5 }
+## BS5 - Lenfositik Gastrit {#sec-BS5 }
 ```
 
 
 ```{asis lymphocytic gastritis , echo = (language == "EN")}
-## BS5 - lymphocytic gastritis {#sec-BS5 }
+## BS5 - Lymphocytic Gastritis {#sec-BS5 }
 ```
 
 
@@ -142,7 +142,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**lenfositik gastrit**
+**Lenfositik Gastrit**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS5-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS5/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS5/HE.html)
@@ -150,7 +150,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**lymphocytic gastritis**
+**Lymphocytic Gastritis**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS5-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS5/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS5/HE.html)
 
@@ -341,7 +341,7 @@ See Microscopy with viewer:
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Tanı
 
-lenfositik gastrit
+Lenfositik Gastrit
 
 :::
 
@@ -355,7 +355,7 @@ lenfositik gastrit
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
 
-lymphocytic gastritis
+Lymphocytic Gastritis
 
 :::
 

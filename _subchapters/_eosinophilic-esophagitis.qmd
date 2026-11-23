@@ -20,12 +20,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis özofagus, eozinofilik özofajit TR , echo = (language == "TR")}
-## Eozinofilik özofajit {#sec-eosinophilic-esophagitis }
+## Eozinofilik Özofajit {#sec-eosinophilic-esophagitis }
 ```
 
 
 ```{asis esophagus, eosinophilic esophagitis EN , echo = (language == "EN")}
-## Eosinophilic esophagitis {#sec-eosinophilic-esophagitis }
+## Eosinophilic Esophagitis {#sec-eosinophilic-esophagitis }
 ```
 
 

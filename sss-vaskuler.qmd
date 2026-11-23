@@ -20,13 +20,13 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-# Santral Sinir Sistemi Vasküler Lezyonlar {#sec-santral-sinir-sistemi-vaskuler} 
+# Santral Sinir Sistemi Vasküler Lezyonlar {#sec-santral-sinir-sistemi-vaskuler}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-# Central Nervous System Vascular Lesions {#sec-central-nervous-system-vascular} 
+# Central Nervous System Vascular Lesions {#sec-central-nervous-system-vascular}
 
 ```
 
@@ -35,13 +35,13 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-## Beyin arteriovenöz malformasyon {#sec-beyin-arteriovenoz-malformasyon} 
+## Beyin Arteriovenöz Malformasyon {#sec-beyin-arteriovenoz-malformasyon}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Brain arteriovenous malformation {#sec-brain-arteriovenous-malformation} 
+## Brain Arteriovenous Malformation {#sec-brain-arteriovenous-malformation}
 
 ```
 

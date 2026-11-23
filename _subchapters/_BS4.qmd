@@ -20,12 +20,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis kahverengi yağ doku , echo = (language == "TR")}
-## BS4 - kahverengi yağ doku {#sec-BS4 }
+## BS4 - Kahverengi Yağ Doku {#sec-BS4 }
 ```
 
 
 ```{asis brown fat , echo = (language == "EN")}
-## BS4 - brown fat {#sec-BS4 }
+## BS4 - Brown Fat {#sec-BS4 }
 ```
 
 
@@ -169,7 +169,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**kahverengi yağ doku**
+**Kahverengi Yağ Doku**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS4-HE1.png){width="25%"}](https://images.patolojiatlasi.com/BS4/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS4/HE1.html)
@@ -177,7 +177,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**brown fat**
+**Brown Fat**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS4-HE1.png){width="25%"}](https://images.patolojiatlasi.com/BS4/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS4/HE1.html)
 
@@ -260,7 +260,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**kahverengi yağ doku**
+**Kahverengi Yağ Doku**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS4-HE2.png){width="25%"}](https://images.patolojiatlasi.com/BS4/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS4/HE2.html)
@@ -268,7 +268,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**brown fat**
+**Brown Fat**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS4-HE2.png){width="25%"}](https://images.patolojiatlasi.com/BS4/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS4/HE2.html)
 
@@ -484,7 +484,7 @@ See Microscopy with viewer:
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Tanı
 
-kahverengi yağ doku
+Kahverengi Yağ Doku
 
 :::
 
@@ -498,7 +498,7 @@ kahverengi yağ doku
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
 
-brown fat
+Brown Fat
 
 :::
 

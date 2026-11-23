@@ -8,12 +8,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "TR")}
-## Dalakta konjesyon {#sec-congestion-spleen}
+## Dalakta Konjesyon {#sec-congestion-spleen}
 ```
 
 
 ```{asis, echo = (language == "EN")}
-## Congestion in spleen {#sec-congestion-spleen}
+## Congestion in Spleen {#sec-congestion-spleen}
 ```
 
 
@@ -94,7 +94,7 @@ if (!file.exists("./qrcodes/congestion-spleen-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**Congestion in spleen**
+**Congestion in Spleen**
 
 [![Click for Full Screen WSI](./screenshots/thumbnail_congestion-spleen.png){width="25%"}](https://images.patolojiatlasi.com/congestion-spleen/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/congestion-spleen/HE.html)
 
@@ -117,7 +117,7 @@ if (!file.exists("./qrcodes/congestion-spleen-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**Congestion in spleen**
+**Congestion in Spleen**
 
 ![](./qrcodes/congestion-spleen-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_congestion-spleen.png){width="25%"}](https://images.patolojiatlasi.com/congestion-spleen/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/congestion-spleen/HE.html)
 

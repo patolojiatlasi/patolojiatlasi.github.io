@@ -23,12 +23,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis karaciğer transplantasyonu, akut rejeksiyon TR , echo = (language == "TR")}
-## Karaciğer transplantasyonu, akut rejeksiyon {#sec-liver-transplant-acute-rejection }
+## Karaciğer Transplantasyonu, Akut Rejeksiyon {#sec-liver-transplant-acute-rejection }
 ```
 
 
 ```{asis liver transplant, acute rejection EN , echo = (language == "EN")}
-## Liver transplant, acute rejection {#sec-liver-transplant-acute-rejection }
+## Liver Transplant, Acute Rejection {#sec-liver-transplant-acute-rejection }
 ```
 
 

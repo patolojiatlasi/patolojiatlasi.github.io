@@ -27,12 +27,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis nekrotizan sialometaplazi, SCC sonrası radyoterapi , echo = (language == "TR")}
-## BS7 - nekrotizan sialometaplazi, SCC sonrası radyoterapi {#sec-BS7 }
+## BS7 - Nekrotizan Sialometaplazi, SCC Sonrası Radyoterapi {#sec-BS7 }
 ```
 
 
 ```{asis necrotising sialometaplasia, radiotherapy after SCC , echo = (language == "EN")}
-## BS7 - necrotising sialometaplasia, radiotherapy after SCC {#sec-BS7 }
+## BS7 - Necrotising Sialometaplasia, Radiotherapy After SCC {#sec-BS7 }
 ```
 
 
@@ -149,7 +149,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**nekrotizan sialometaplazi, SCC sonrası radyoterapi**
+**Nekrotizan Sialometaplazi, SCC Sonrası Radyoterapi**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS7-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS7/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS7/HE.html)
@@ -157,7 +157,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**necrotising sialometaplasia, radiotherapy after SCC**
+**Necrotising Sialometaplasia, Radiotherapy After SCC**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS7-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS7/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS7/HE.html)
 

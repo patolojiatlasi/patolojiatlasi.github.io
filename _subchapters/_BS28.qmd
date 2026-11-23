@@ -23,12 +23,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis PanNET metastazı, karaciğer TR , echo = (language == "TR")}
-## BS28 - PanNET metastazı, karaciğer {#sec-BS28 }
+## BS28 - PanNET Metastazı, Karaciğer {#sec-BS28 }
 ```
 
 
 ```{asis metastatic PanNET, liver EN , echo = (language == "EN")}
-## BS28 - metastatic PanNET, liver {#sec-BS28 }
+## BS28 - Metastatic PanNET, Liver {#sec-BS28 }
 ```
 
 
@@ -145,7 +145,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**PanNET metastazı, karaciğer**
+**PanNET Metastazı, Karaciğer**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS28-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS28/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS28/HE.html)
@@ -153,7 +153,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**metastatic PanNET, liver**
+**Metastatic PanNET, Liver**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS28-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS28/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS28/HE.html)
 
@@ -344,7 +344,7 @@ See Microscopy with viewer:
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Tanı
 
-PanNET metastazı, karaciğer
+PanNET Metastazı, Karaciğer
 
 :::
 
@@ -358,7 +358,7 @@ PanNET metastazı, karaciğer
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
 
-metastatic PanNET, liver
+Metastatic PanNET, Liver
 
 :::
 

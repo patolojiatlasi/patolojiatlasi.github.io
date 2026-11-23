@@ -22,12 +22,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis endometriozis, kolon duvarı TR , echo = (language == "TR")}
-## BS15 - endometriozis, kolon duvarı {#sec-BS15 }
+## BS15 - Endometriozis, Kolon Duvarı {#sec-BS15 }
 ```
 
 
 ```{asis endometriosis, colon wall EN , echo = (language == "EN")}
-## BS15 - endometriosis, colon wall {#sec-BS15 }
+## BS15 - Endometriosis, Colon Wall {#sec-BS15 }
 ```
 
 
@@ -144,7 +144,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**endometriozis, kolon duvarı**
+**Endometriozis, Kolon Duvarı**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS15-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS15/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS15/HE.html)
@@ -152,7 +152,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**endometriosis, colon wall**
+**Endometriosis, Colon Wall**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS15-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS15/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS15/HE.html)
 
@@ -343,7 +343,7 @@ See Microscopy with viewer:
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Tanı
 
-endometriozis, kolon duvarı
+Endometriozis, Kolon Duvarı
 
 :::
 
@@ -357,7 +357,7 @@ endometriozis, kolon duvarı
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
 
-endometriosis, colon wall
+Endometriosis, Colon Wall
 
 :::
 

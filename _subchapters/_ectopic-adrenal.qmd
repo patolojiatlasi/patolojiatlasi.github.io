@@ -8,11 +8,11 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "TR")}
-## Paratubal adneksiyal bölgede ektopik adrenal dokusu {#sec-paratubal-adneksiyal-bolgede-ektopik-adrenal} 
+## Paratubal Adneksiyal Bölgede Ektopik Adrenal Dokusu {#sec-paratubal-adneksiyal-bolgede-ektopik-adrenal}
 ```
 
 ```{asis, echo = (language == "EN")}
-## Ectopic adrenal tissue in paratubal adnexal region {#sec-ectopic-adrenal-tissue-paratubal-adnexial-tissue} 
+## Ectopic Adrenal Tissue in Paratubal Adnexal Region {#sec-ectopic-adrenal-tissue-paratubal-adnexial-tissue}
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
@@ -52,7 +52,7 @@ if (!file.exists("./qrcodes/ectopic-adrenal-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**Paratubal adneksiyal bölgede ektopik adrenal dokusu**
+**Paratubal Adneksiyal Bölgede Ektopik Adrenal Dokusu**
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_ectopic-adrenal.png){width="25%"}](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html)
 
@@ -73,7 +73,7 @@ if (!file.exists("./qrcodes/ectopic-adrenal-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**Paratubal adneksiyal bölgede ektopik adrenal dokusu**
+**Paratubal Adneksiyal Bölgede Ektopik Adrenal Dokusu**
 
 
 ![](./qrcodes/ectopic-adrenal-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_ectopic-adrenal.png){width="25%"}](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html)
@@ -96,7 +96,7 @@ if (!file.exists("./qrcodes/ectopic-adrenal-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**Ectopic adrenal tissue in paratubal adnexal region**
+**Ectopic Adrenal Tissue in Paratubal Adnexal Region**
 
 
 [![Click for Full Screen WSI](./screenshots/thumbnail_ectopic-adrenal.png){width="25%"}](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html)
@@ -117,7 +117,7 @@ if (!file.exists("./qrcodes/ectopic-adrenal-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**Ectopic adrenal tissue in paratubal adnexal region**
+**Ectopic Adrenal Tissue in Paratubal Adnexal Region**
 
 
 ![](./qrcodes/ectopic-adrenal-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_ectopic-adrenal.png){width="25%"}](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/ectopic-adrenal/HE.html)

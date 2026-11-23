@@ -24,12 +24,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis özofagus, SCC radyoterapi sonrası keratin granülomları TR , echo = (language == "TR")}
-## BS26 - özofagus, SCC radyoterapi sonrası keratin granülomları {#sec-BS26 }
+## BS26 - Özofagus, SCC Radyoterapi Sonrası Keratin Granülomları {#sec-BS26 }
 ```
 
 
 ```{asis esophagus, keratin granulomas after radiotherapy for SCC EN , echo = (language == "EN")}
-## BS26 - esophagus, keratin granulomas after radiotherapy for SCC {#sec-BS26 }
+## BS26 - Esophagus, Keratin Granulomas After Radiotherapy for SCC {#sec-BS26 }
 ```
 
 
@@ -146,7 +146,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**özofagus, SCC radyoterapi sonrası keratin granülomları**
+**Özofagus, SCC Radyoterapi Sonrası Keratin Granülomları**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS26-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS26/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS26/HE.html)
@@ -154,7 +154,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**esophagus, keratin granulomas after radiotherapy for SCC**
+**Esophagus, Keratin Granulomas After Radiotherapy for SCC**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS26-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS26/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS26/HE.html)
 
@@ -345,7 +345,7 @@ See Microscopy with viewer:
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Tanı
 
-özofagus, SCC radyoterapi sonrası keratin granülomları
+Özofagus, SCC Radyoterapi Sonrası Keratin Granülomları
 
 :::
 
@@ -359,7 +359,7 @@ See Microscopy with viewer:
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
 
-esophagus, keratin granulomas after radiotherapy for SCC
+Esophagus, Keratin Granulomas After Radiotherapy for SCC
 
 :::
 

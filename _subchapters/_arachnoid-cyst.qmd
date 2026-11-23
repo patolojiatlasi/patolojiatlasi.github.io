@@ -19,12 +19,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis araknoid kist TR , echo = (language == "TR")}
-## Araknoid kist {#sec-arachnoid-cyst }
+## Araknoid Kist {#sec-arachnoid-cyst }
 ```
 
 
 ```{asis arachnoid cyst EN , echo = (language == "EN")}
-## Arachnoid cyst {#sec-arachnoid-cyst }
+## Arachnoid Cyst {#sec-arachnoid-cyst }
 ```
 
 

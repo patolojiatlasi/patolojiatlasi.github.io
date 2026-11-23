@@ -22,7 +22,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "TR")}
-# GBD koleksiyonu
+# GBD Koleksiyonu
 **Bu sayfadaki vakalar Prof. Dr. Gülen Bülbül Doğusoy'un koleksiyonundan alınmıştır.**
 
 ```
@@ -37,12 +37,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "TR")}
-## GBD Olgu 1 - pediatrik otopsi, beyin {#sec-GBD1}
+## GBD Olgu 1 - Pediatrik Otopsi, Beyin {#sec-GBD1}
 ```
 
 
 ```{asis, echo = (language == "EN")}
-## GBD Case 1 - pediatric autopsy, brain {#sec-GBD1}
+## GBD Case 1 - Pediatric Autopsy, Brain {#sec-GBD1}
 ```
 
 
@@ -188,12 +188,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "TR")}
-## GBD Olgu 2 - pediatrik otopsi {#sec-GBD2}
+## GBD Olgu 2 - Pediatrik Otopsi {#sec-GBD2}
 ```
 
 
 ```{asis, echo = (language == "EN")}
-## GBD Case 2 - pediatric autopsy {#sec-GBD2}
+## GBD Case 2 - Pediatric Autopsy {#sec-GBD2}
 ```
 
 

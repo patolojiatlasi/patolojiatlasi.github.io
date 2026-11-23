@@ -22,12 +22,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis iskemik kolit TR , echo = (language == "TR")}
-## BS29 - iskemik kolit {#sec-BS29 }
+## BS29 - İskemik Kolit {#sec-BS29 }
 ```
 
 
 ```{asis ischemic colitis EN , echo = (language == "EN")}
-## BS29 - ischemic colitis {#sec-BS29 }
+## BS29 - Ischemic Colitis {#sec-BS29 }
 ```
 
 
@@ -144,7 +144,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**iskemik kolit**
+**İskemik Kolit**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS29-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS29/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS29/HE.html)
@@ -152,7 +152,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**ischemic colitis**
+**Ischemic Colitis**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS29-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS29/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS29/HE.html)
 

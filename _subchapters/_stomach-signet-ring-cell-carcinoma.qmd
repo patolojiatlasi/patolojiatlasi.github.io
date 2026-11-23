@@ -20,12 +20,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis mide taşlı yüzük hücreli karsinom TR , echo = (language == "TR")}
-## Mide taşlı yüzük hücreli karsinom {#sec-signet-ring-cell-carcinoma }
+## Mide Taşlı Yüzük Hücreli Karsinom {#sec-signet-ring-cell-carcinoma }
 ```
 
 
 ```{asis stomach signet ring cell carcinoma EN , echo = (language == "EN")}
-## Stomach signet ring cell carcinoma {#sec-signet-ring-cell-carcinoma }
+## Stomach Signet Ring Cell Carcinoma {#sec-signet-ring-cell-carcinoma }
 ```
 
 

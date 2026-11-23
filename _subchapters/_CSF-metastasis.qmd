@@ -21,12 +21,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis Lobüler meme kanseri leptomeningeal metastaz, BOS tutulumu TR , echo = (language == "TR")}
-## Lobüler meme kanseri leptomeningeal metastaz, BOS tutulumu {#sec-CSF-metastasis }
+## Lobüler Meme Kanseri Leptomeningeal Metastaz, BOS Tutulumu {#sec-CSF-metastasis }
 ```
 
 
 ```{asis Leptomeningeal metastasis of lobular breast carcinoma, CSF metastasis EN , echo = (language == "EN")}
-## Leptomeningeal metastasis of lobular breast carcinoma, CSF metastasis {#sec-CSF-metastasis }
+## Leptomeningeal Metastasis of Lobular Breast Carcinoma, CSF Metastasis {#sec-CSF-metastasis }
 ```
 
 
@@ -182,7 +182,7 @@ if (!file.exists("./qrcodes/CSF-metastasis-PAP-2_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**Lobüler meme kanseri leptomeningeal metastaz, BOS tutulumu**
+**Lobüler Meme Kanseri Leptomeningeal Metastaz, BOS Tutulumu**
 
 
 [![BOS sitolojisi, vaka 1, MGG-1 — önizleme](./screenshots/thumbnail_CSF-metastasis-MGG-1.png){width="25%"}](https://images.patolojiatlasi.com/CSF-metastasis/MGG-1.html) [BOS sitolojisi, vaka 1, MGG-1 — tam ekran aç](https://images.patolojiatlasi.com/CSF-metastasis/MGG-1.html)
@@ -196,7 +196,7 @@ if (!file.exists("./qrcodes/CSF-metastasis-PAP-2_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**Lobüler meme kanseri leptomeningeal metastaz, BOS tutulumu**
+**Lobüler Meme Kanseri Leptomeningeal Metastaz, BOS Tutulumu**
 
 ![](./qrcodes/CSF-metastasis-MGG-1_qrcode.svg){width="15%"} [![BOS sitolojisi, vaka 1, MGG-1 — önizleme](./screenshots/thumbnail_CSF-metastasis-MGG-1.png){width="25%"}](https://images.patolojiatlasi.com/CSF-metastasis/MGG-1.html) [BOS sitolojisi, vaka 1, MGG-1 — tam ekran aç](https://images.patolojiatlasi.com/CSF-metastasis/MGG-1.html)
 
@@ -214,7 +214,7 @@ if (!file.exists("./qrcodes/CSF-metastasis-PAP-2_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**Leptomeningeal metastasis of lobular breast carcinoma, CSF metastasis**
+**Leptomeningeal Metastasis of Lobular Breast Carcinoma, CSF Metastasis**
 
 [![CSF cytology, case 1, MGG-1 — preview](./screenshots/thumbnail_CSF-metastasis-MGG-1.png){width="25%"}](https://images.patolojiatlasi.com/CSF-metastasis/MGG-1.html) [CSF cytology, case 1, MGG-1 — open full screen](https://images.patolojiatlasi.com/CSF-metastasis/MGG-1.html)
 
@@ -227,7 +227,7 @@ if (!file.exists("./qrcodes/CSF-metastasis-PAP-2_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**Leptomeningeal metastasis of lobular breast carcinoma, CSF metastasis**
+**Leptomeningeal Metastasis of Lobular Breast Carcinoma, CSF Metastasis**
 
 ![](./qrcodes/CSF-metastasis-MGG-1_qrcode.svg){width="15%"} [![CSF cytology, case 1, MGG-1 — preview](./screenshots/thumbnail_CSF-metastasis-MGG-1.png){width="25%"}](https://images.patolojiatlasi.com/CSF-metastasis/MGG-1.html) [CSF cytology, case 1, MGG-1 — open full screen](https://images.patolojiatlasi.com/CSF-metastasis/MGG-1.html)
 
@@ -249,7 +249,7 @@ if (!file.exists("./qrcodes/CSF-metastasis-PAP-2_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**Lobüler meme kanseri leptomeningeal metastaz, BOS tutulumu**
+**Lobüler Meme Kanseri Leptomeningeal Metastaz, BOS Tutulumu**
 
 
 [![BOS sitolojisi, vaka 1, MGG-2 — önizleme](./screenshots/thumbnail_CSF-metastasis-MGG-2.png){width="25%"}](https://images.patolojiatlasi.com/CSF-metastasis/MGG-2.html) [BOS sitolojisi, vaka 1, MGG-2 — tam ekran aç](https://images.patolojiatlasi.com/CSF-metastasis/MGG-2.html)
@@ -263,7 +263,7 @@ if (!file.exists("./qrcodes/CSF-metastasis-PAP-2_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**Lobüler meme kanseri leptomeningeal metastaz, BOS tutulumu**
+**Lobüler Meme Kanseri Leptomeningeal Metastaz, BOS Tutulumu**
 
 ![](./qrcodes/CSF-metastasis-MGG-2_qrcode.svg){width="15%"} [![BOS sitolojisi, vaka 1, MGG-2 — önizleme](./screenshots/thumbnail_CSF-metastasis-MGG-2.png){width="25%"}](https://images.patolojiatlasi.com/CSF-metastasis/MGG-2.html) [BOS sitolojisi, vaka 1, MGG-2 — tam ekran aç](https://images.patolojiatlasi.com/CSF-metastasis/MGG-2.html)
 
@@ -281,7 +281,7 @@ if (!file.exists("./qrcodes/CSF-metastasis-PAP-2_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**Leptomeningeal metastasis of lobular breast carcinoma, CSF metastasis**
+**Leptomeningeal Metastasis of Lobular Breast Carcinoma, CSF Metastasis**
 
 [![CSF cytology, case 1, MGG-2 — preview](./screenshots/thumbnail_CSF-metastasis-MGG-2.png){width="25%"}](https://images.patolojiatlasi.com/CSF-metastasis/MGG-2.html) [CSF cytology, case 1, MGG-2 — open full screen](https://images.patolojiatlasi.com/CSF-metastasis/MGG-2.html)
 
@@ -294,7 +294,7 @@ if (!file.exists("./qrcodes/CSF-metastasis-PAP-2_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**Leptomeningeal metastasis of lobular breast carcinoma, CSF metastasis**
+**Leptomeningeal Metastasis of Lobular Breast Carcinoma, CSF Metastasis**
 
 ![](./qrcodes/CSF-metastasis-MGG-2_qrcode.svg){width="15%"} [![CSF cytology, case 1, MGG-2 — preview](./screenshots/thumbnail_CSF-metastasis-MGG-2.png){width="25%"}](https://images.patolojiatlasi.com/CSF-metastasis/MGG-2.html) [CSF cytology, case 1, MGG-2 — open full screen](https://images.patolojiatlasi.com/CSF-metastasis/MGG-2.html)
 
@@ -316,7 +316,7 @@ if (!file.exists("./qrcodes/CSF-metastasis-PAP-2_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**Lobüler meme kanseri leptomeningeal metastaz, BOS tutulumu**
+**Lobüler Meme Kanseri Leptomeningeal Metastaz, BOS Tutulumu**
 
 
 [![BOS sitolojisi, vaka 1, PAP-1 — önizleme](./screenshots/thumbnail_CSF-metastasis-PAP-1.png){width="25%"}](https://images.patolojiatlasi.com/CSF-metastasis/PAP-1.html) [BOS sitolojisi, vaka 1, PAP-1 — tam ekran aç](https://images.patolojiatlasi.com/CSF-metastasis/PAP-1.html)
@@ -330,7 +330,7 @@ if (!file.exists("./qrcodes/CSF-metastasis-PAP-2_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**Lobüler meme kanseri leptomeningeal metastaz, BOS tutulumu**
+**Lobüler Meme Kanseri Leptomeningeal Metastaz, BOS Tutulumu**
 
 ![](./qrcodes/CSF-metastasis-PAP-1_qrcode.svg){width="15%"} [![BOS sitolojisi, vaka 1, PAP-1 — önizleme](./screenshots/thumbnail_CSF-metastasis-PAP-1.png){width="25%"}](https://images.patolojiatlasi.com/CSF-metastasis/PAP-1.html) [BOS sitolojisi, vaka 1, PAP-1 — tam ekran aç](https://images.patolojiatlasi.com/CSF-metastasis/PAP-1.html)
 
@@ -348,7 +348,7 @@ if (!file.exists("./qrcodes/CSF-metastasis-PAP-2_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**Leptomeningeal metastasis of lobular breast carcinoma, CSF metastasis**
+**Leptomeningeal Metastasis of Lobular Breast Carcinoma, CSF Metastasis**
 
 [![CSF cytology, case 1, PAP-1 — preview](./screenshots/thumbnail_CSF-metastasis-PAP-1.png){width="25%"}](https://images.patolojiatlasi.com/CSF-metastasis/PAP-1.html) [CSF cytology, case 1, PAP-1 — open full screen](https://images.patolojiatlasi.com/CSF-metastasis/PAP-1.html)
 
@@ -361,7 +361,7 @@ if (!file.exists("./qrcodes/CSF-metastasis-PAP-2_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**Leptomeningeal metastasis of lobular breast carcinoma, CSF metastasis**
+**Leptomeningeal Metastasis of Lobular Breast Carcinoma, CSF Metastasis**
 
 ![](./qrcodes/CSF-metastasis-PAP-1_qrcode.svg){width="15%"} [![CSF cytology, case 1, PAP-1 — preview](./screenshots/thumbnail_CSF-metastasis-PAP-1.png){width="25%"}](https://images.patolojiatlasi.com/CSF-metastasis/PAP-1.html) [CSF cytology, case 1, PAP-1 — open full screen](https://images.patolojiatlasi.com/CSF-metastasis/PAP-1.html)
 
@@ -383,7 +383,7 @@ if (!file.exists("./qrcodes/CSF-metastasis-PAP-2_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**Lobüler meme kanseri leptomeningeal metastaz, BOS tutulumu**
+**Lobüler Meme Kanseri Leptomeningeal Metastaz, BOS Tutulumu**
 
 
 [![BOS sitolojisi, vaka 1, PAP-2 — önizleme](./screenshots/thumbnail_CSF-metastasis-PAP-2.png){width="25%"}](https://images.patolojiatlasi.com/CSF-metastasis/PAP-2.html) [BOS sitolojisi, vaka 1, PAP-2 — tam ekran aç](https://images.patolojiatlasi.com/CSF-metastasis/PAP-2.html)
@@ -397,7 +397,7 @@ if (!file.exists("./qrcodes/CSF-metastasis-PAP-2_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**Lobüler meme kanseri leptomeningeal metastaz, BOS tutulumu**
+**Lobüler Meme Kanseri Leptomeningeal Metastaz, BOS Tutulumu**
 
 ![](./qrcodes/CSF-metastasis-PAP-2_qrcode.svg){width="15%"} [![BOS sitolojisi, vaka 1, PAP-2 — önizleme](./screenshots/thumbnail_CSF-metastasis-PAP-2.png){width="25%"}](https://images.patolojiatlasi.com/CSF-metastasis/PAP-2.html) [BOS sitolojisi, vaka 1, PAP-2 — tam ekran aç](https://images.patolojiatlasi.com/CSF-metastasis/PAP-2.html)
 
@@ -415,7 +415,7 @@ if (!file.exists("./qrcodes/CSF-metastasis-PAP-2_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**Leptomeningeal metastasis of lobular breast carcinoma, CSF metastasis**
+**Leptomeningeal Metastasis of Lobular Breast Carcinoma, CSF Metastasis**
 
 [![CSF cytology, case 1, PAP-2 — preview](./screenshots/thumbnail_CSF-metastasis-PAP-2.png){width="25%"}](https://images.patolojiatlasi.com/CSF-metastasis/PAP-2.html) [CSF cytology, case 1, PAP-2 — open full screen](https://images.patolojiatlasi.com/CSF-metastasis/PAP-2.html)
 
@@ -428,7 +428,7 @@ if (!file.exists("./qrcodes/CSF-metastasis-PAP-2_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**Leptomeningeal metastasis of lobular breast carcinoma, CSF metastasis**
+**Leptomeningeal Metastasis of Lobular Breast Carcinoma, CSF Metastasis**
 
 ![](./qrcodes/CSF-metastasis-PAP-2_qrcode.svg){width="15%"} [![CSF cytology, case 1, PAP-2 — preview](./screenshots/thumbnail_CSF-metastasis-PAP-2.png){width="25%"}](https://images.patolojiatlasi.com/CSF-metastasis/PAP-2.html) [CSF cytology, case 1, PAP-2 — open full screen](https://images.patolojiatlasi.com/CSF-metastasis/PAP-2.html)
 
@@ -559,7 +559,7 @@ See Microscopy with viewer:
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Tanı için tıklayın
 
-Lobüler meme kanseri leptomeningeal metastaz, BOS tutulumu
+Lobüler Meme Kanseri Leptomeningeal Metastaz, BOS Tutulumu
 
 :::
 
@@ -573,7 +573,7 @@ Lobüler meme kanseri leptomeningeal metastaz, BOS tutulumu
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Click for Diagnosis
 
-Leptomeningeal metastasis of lobular breast carcinoma, CSF metastasis
+Leptomeningeal Metastasis of Lobular Breast Carcinoma, CSF Metastasis
 
 :::
 

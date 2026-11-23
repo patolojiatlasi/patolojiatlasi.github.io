@@ -22,12 +22,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis Crohn hastalığında fistül TR , echo = (language == "TR")}
-## BS23 - Crohn hastalığında fistül {#sec-BS23 }
+## BS23 - Crohn Hastalığında Fistül {#sec-BS23 }
 ```
 
 
 ```{asis Crohn disease fistule EN , echo = (language == "EN")}
-## BS23 - fistula in Crohn's disease {#sec-BS23 }
+## BS23 - Fistula in Crohn's Disease {#sec-BS23 }
 ```
 
 
@@ -144,7 +144,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**Crohn hastalığında fistül**
+**Crohn Hastalığında Fistül**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS23-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS23/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS23/HE.html)
@@ -152,7 +152,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**fistula in Crohn's disease**
+**Fistula in Crohn's Disease**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS23-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS23/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS23/HE.html)
 
@@ -343,7 +343,7 @@ See Microscopy with viewer:
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Tanı
 
-Crohn hastalığında fistül
+Crohn Hastalığında Fistül
 
 :::
 
@@ -357,7 +357,7 @@ Crohn hastalığında fistül
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
 
-fistula in Crohn's disease
+Fistula in Crohn's Disease
 
 :::
 

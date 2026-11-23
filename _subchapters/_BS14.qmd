@@ -22,12 +22,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis miksoid adenoma, karaciğer TR , echo = (language == "TR")}
-## BS14 - miksoid adenoma, karaciğer {#sec-BS14 }
+## BS14 - Miksoid Adenoma, Karaciğer {#sec-BS14 }
 ```
 
 
 ```{asis myxoid adenomatosis, liver EN , echo = (language == "EN")}
-## BS14 - myxoid adenomatosis, liver {#sec-BS14 }
+## BS14 - Myxoid Adenoma, Liver {#sec-BS14 }
 ```
 
 
@@ -144,7 +144,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**miksoid adenoma, karaciğer**
+**Miksoid Adenoma, Karaciğer**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS14-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS14/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS14/HE.html)
@@ -152,7 +152,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**myxoid adenomatosis, liver**
+**Myxoid Adenoma, Liver**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS14-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS14/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS14/HE.html)
 
@@ -343,7 +343,7 @@ See Microscopy with viewer:
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Tanı
 
-miksoid adenoma, karaciğer
+Miksoid Adenoma, Karaciğer
 
 :::
 
@@ -357,7 +357,7 @@ miksoid adenoma, karaciğer
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
 
-myxoid adenomatosis, liver
+Myxoid Adenoma, Liver
 
 :::
 

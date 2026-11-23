@@ -158,12 +158,12 @@ This section covers fungal infections: **Candidiasis** (pseudohyphae with suppur
 
 
 ```{asis, echo = (language == "TR")}
-## Servikovajinal yaymada *Candida albicans*  {#sec-servikovajinal-yaymada-candida-albicans}
+## Servikovajinal Yaymada *Candida albicans*  {#sec-servikovajinal-yaymada-candida-albicans}
 ```
 
 
 ```{asis, echo = (language == "EN")}
-## *Candida albicans* in cervicovaginal smear {#sec-candida-albicans-in-cervicovaginal-smear}
+## *Candida albicans* in Cervicovaginal Smear {#sec-candida-albicans-in-cervicovaginal-smear}
 ```
 
 
@@ -316,13 +316,13 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-## Beyin mukormikozis {#sec-beyin-mukormikozis} 
+## Beyin Mukormikozis {#sec-beyin-mukormikozis}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Brain mucormycosis {#sec-brain-mucormycosis} 
+## Brain Mucormycosis {#sec-brain-mucormycosis}
 
 ```
 

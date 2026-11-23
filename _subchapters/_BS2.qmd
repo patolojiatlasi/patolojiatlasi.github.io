@@ -21,12 +21,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis sirotik nodülde peliozis , echo = (language == "TR")}
-## BS2 - sirotik nodülde peliozis {#sec-BS2 }
+## BS2 - Sirotik Nodülde Peliozis {#sec-BS2 }
 ```
 
 
 ```{asis peliosis in cirrhotic nodule , echo = (language == "EN")}
-## BS2 - peliosis in cirrhotic nodule {#sec-BS2 }
+## BS2 - Peliosis in Cirrhotic Nodule {#sec-BS2 }
 ```
 
 
@@ -143,7 +143,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**sirotik nodülde peliozis**
+**Sirotik Nodülde Peliozis**
 
 
  [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS2-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS2/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS2/HE.html)
@@ -151,7 +151,7 @@ if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**peliosis in cirrhotic nodule**
+**Peliosis in Cirrhotic Nodule**
 
  [![Click for Full Screen WSI](./screenshots/thumbnail_BS2-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS2/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS2/HE.html)
 
@@ -342,7 +342,7 @@ See Microscopy with viewer:
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Tanı
 
-sirotik nodülde peliozis
+Sirotik Nodülde Peliozis
 
 :::
 
@@ -356,7 +356,7 @@ sirotik nodülde peliozis
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
 
-peliosis in cirrhotic nodule
+Peliosis in Cirrhotic Nodule
 
 :::
 

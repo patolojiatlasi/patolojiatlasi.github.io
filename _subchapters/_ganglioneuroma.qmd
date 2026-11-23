@@ -20,12 +20,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis ganglionörom, adrenal bez TR , echo = (language == "TR")}
-## Ganglionörom, adrenal bez {#sec-ganglioneuroma }
+## Ganglionörom, Adrenal Bez {#sec-ganglioneuroma }
 ```
 
 
 ```{asis ganglioneuroma in adrenal gland EN , echo = (language == "EN")}
-## Ganglioneuroma in adrenal gland {#sec-ganglioneuroma }
+## Ganglioneuroma in Adrenal Gland {#sec-ganglioneuroma }
 ```
 
 

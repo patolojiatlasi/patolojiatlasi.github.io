@@ -23,12 +23,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis sesile serrated adenoma lesion polyp TR, echo = (language == "TR")}
-## BS11 - sesil serrated lezyon (adenom/polip) {#sec-BS11 }
+## BS11 - Sesil Serrated Lezyon (Adenom/Polip) {#sec-BS11 }
 ```
 
 
 ```{asis sesile serrated adenoma lesion polyp EN, echo = (language == "EN")}
-## BS11 - sessile serrated lesion (adenoma/polyp) {#sec-BS11 }
+## BS11 - Sessile Serrated Lesion (Adenoma/Polyp) {#sec-BS11 }
 ```
 
 

@@ -20,12 +20,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis pilositik astrositom TR , echo = (language == "TR")}
-## Pilositik astrositom {#sec-pilocytic-astrocytoma }
+## Pilositik Astrositom {#sec-pilocytic-astrocytoma }
 ```
 
 
 ```{asis pilocytic astrocytoma EN , echo = (language == "EN")}
-## Pilocytic astrocytoma {#sec-pilocytic-astrocytoma }
+## Pilocytic Astrocytoma {#sec-pilocytic-astrocytoma }
 ```
 
 

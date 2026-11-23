@@ -13,11 +13,11 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "TR")}
-# Venöz invazyon {#sec-venoz-invazyon} 
+# Venöz İnvazyon {#sec-venoz-invazyon}
 ```
 
 ```{asis, echo = (language == "EN")}
-# Venous invasion {#sec-venous-invasion} 
+# Venous Invasion {#sec-venous-invasion}
 ```
 
 
@@ -57,7 +57,7 @@ if (!file.exists("./qrcodes/venous-invasion-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**Venöz invazyon**
+**Venöz İnvazyon**
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_venous-invasion.png){width="25%"}](https://images.patolojiatlasi.com/venous-invasion/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/venous-invasion/HE.html)
 
@@ -78,7 +78,7 @@ if (!file.exists("./qrcodes/venous-invasion-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**Venöz invazyon**
+**Venöz İnvazyon**
 
 
 ![](./qrcodes/venous-invasion-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_venous-invasion.png){width="25%"}](https://images.patolojiatlasi.com/venous-invasion/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/venous-invasion/HE.html)
@@ -97,7 +97,7 @@ if (!file.exists("./qrcodes/venous-invasion-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**Venous invasion**
+**Venous Invasion**
 
 
 ![](./qrcodes/venous-invasion-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_venous-invasion.png){width="25%"}](https://images.patolojiatlasi.com/venous-invasion/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/venous-invasion/HE.html)
@@ -120,7 +120,7 @@ if (!file.exists("./qrcodes/venous-invasion-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**Venous invasion**
+**Venous Invasion**
 
 
 [![Click for Full Screen WSI](./screenshots/thumbnail_venous-invasion.png){width="25%"}](https://images.patolojiatlasi.com/venous-invasion/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/venous-invasion/HE.html)

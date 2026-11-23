@@ -137,13 +137,13 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-## Lenfositik gastrit {#sec-lymphocytic-gastritis}
+## Lenfositik Gastrit {#sec-lymphocytic-gastritis}
 
 ```
 
 ```{asis, echo = (language == "EN")}
 
-## Lymphocytic gastritis {#sec-lymphocytic-gastritis}
+## Lymphocytic Gastritis {#sec-lymphocytic-gastritis}
 
 ```
 

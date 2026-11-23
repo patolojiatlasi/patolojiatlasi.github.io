@@ -22,12 +22,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis CMV hepatiti, karaciğer TR , echo = (language == "TR")}
-## BS17 - CMV hepatiti, karaciğer {#sec-BS17 }
+## BS17 - CMV Hepatiti, Karaciğer {#sec-BS17 }
 ```
 
 
 ```{asis CMV hepatitis, liver EN , echo = (language == "EN")}
-## BS17 - CMV hepatitis, liver {#sec-BS17 }
+## BS17 - CMV Hepatitis, Liver {#sec-BS17 }
 ```
 
 
@@ -81,7 +81,7 @@ if (!file.exists("./qrcodes/BS17-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**CMV hepatiti, karaciğer**
+**CMV Hepatiti, Karaciğer**
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS17-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS17/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS17/HE.html)
 ```
@@ -102,7 +102,7 @@ if (!file.exists("./qrcodes/BS17-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "TR")}
 
-**CMV hepatiti, karaciğer**
+**CMV Hepatiti, Karaciğer**
 
 
 ![](./qrcodes/BS17-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_BS17-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS17/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/BS17/HE.html)
@@ -124,7 +124,7 @@ if (!file.exists("./qrcodes/BS17-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**CMV hepatitis, liver**
+**CMV Hepatitis, Liver**
 
 [![Click for Full Screen WSI](./screenshots/thumbnail_BS17-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS17/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS17/HE.html)
 
@@ -148,7 +148,7 @@ if (!file.exists("./qrcodes/BS17-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**CMV hepatitis, liver**
+**CMV Hepatitis, Liver**
 
 ![](./qrcodes/BS17-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_BS17-HE.png){width="25%"}](https://images.patolojiatlasi.com/BS17/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/BS17/HE.html)
 
@@ -274,7 +274,7 @@ See Microscopy with viewer:
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Tanı
 
-CMV hepatiti, karaciğer
+CMV Hepatiti, Karaciğer
 
 :::
 
@@ -288,7 +288,7 @@ CMV hepatiti, karaciğer
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 
 
-CMV hepatitis, liver
+CMV Hepatitis, Liver
 
 :::
 

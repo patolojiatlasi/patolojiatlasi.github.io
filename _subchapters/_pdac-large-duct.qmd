@@ -24,12 +24,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis pankreatik duktal adenokarsinom, large-duct tip TR , echo = (language == "TR")}
-## Pankreatik duktal adenokarsinom, large-duct tip {#sec-pdac-large-duct }
+## Pankreatik Duktal Adenokarsinom, Large-Duct Tip {#sec-pdac-large-duct }
 ```
 
 
 ```{asis pancreatic ductal adenocarcinoma, large duct type EN , echo = (language == "EN")}
-## Pancreatic ductal adenocarcinoma, large duct type {#sec-pdac-large-duct }
+## Pancreatic Ductal Adenocarcinoma, Large Duct Type {#sec-pdac-large-duct }
 ```
 
 
