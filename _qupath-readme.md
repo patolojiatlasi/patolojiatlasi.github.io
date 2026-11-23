@@ -2,6 +2,12 @@
 
 ## About
 
+Browse the whole-slide images published on **patolojiatlasi.com** from inside QuPath and open
+any of them directly — the slides are streamed tile-by-tile over HTTP, with nothing to download
+in advance. The atlas serves its slides as **Deep Zoom (DZI)** pyramids (produced by `vips dzsave`
+and shown on the website with OpenSeadragon); this extension adds a DZI image reader to QuPath plus
+a browsable catalogue driven by the atlas's own image list.
+
 The **Patoloji Atlası** is a whole-slide image teaching collection curated by pathologists and
 published openly on the web. This extension brings that same collection into QuPath so the slides
 can be browsed and opened for study and analysis without leaving the application. An **About**
@@ -23,28 +29,28 @@ atlas, and every study artifact (quiz/tour packs, collections, recordings) is a 
 
 ## What it does
 
-- Adds **Extensions → Patoloji Atlası → Slaytlara gözat…**, opening a searchable window that lists every
+- Adds **Extensions → Patoloji Atlası → Slaytlara göz at…**, opening a searchable window that lists every
   image grouped by category (Gastrointestinal, Pancreatobiliary, Neuropathology, …), with a
-  thumbnail preview and a **Published only** filter.
+  thumbnail preview and a **Yalnızca yayımlanmış vakalar** (*Published only*) filter.
 - Each entry is a single stain of a case, so multi-stain cases (H&E plus IHC / special stains
   such as Warthin-Starry, Giemsa, CISH, PAS…) each appear as their own openable image.
-- Double-click an image (or select it and press **Open in QuPath**) to open it.
+- Double-click an image (or select it and press **QuPath'te aç**) to open it.
   - With a **project** open, the slide is added to the project and opened as an entry, so your
     annotations, detections and measurements are saved with the project.
   - With no project open, it opens in the current viewer for read-only viewing.
-- **Curate a project from several images.** Use **Add to selection** (button or the tree
-  right-click menu) to build up a set as you browse and search — the selection persists across
-  searches and *Refresh list*. Then **Create project…** opens a dialog where you review the set
+- **Curate a project from several images.** Use **Sepete ekle** (button or the tree
+  right-click menu **Seçim sepetine ekle**) to build up a set as you browse and search — the selection persists across
+  searches and *Listeyi güncelle*. Then **Proje oluştur…** opens a dialog where you review the set
   and either create a **new project** on disk or **add the selection to the current project**.
   Because slides stream from URLs, the resulting project is tiny and portable — hand the project
   folder to students (they need this extension installed) to run a course, seminar, or exam set.
-- **Refresh list** pulls the latest `lists/list.yaml` live from the
+- **Listeyi güncelle** (*Refresh list*) pulls the latest `lists/list.yaml` live from the
   `patolojiatlasi/patolojiatlasi.github.io` repository, so new cases appear without updating the
   extension. A snapshot of the list (288 images) is bundled so the browser works offline out of
   the box.
 - Registers `.dzi` URLs as an openable image type, so **File → Open URI…** with any
   `https://images.patolojiatlasi.com/<case>/<stain>.dzi` link works too.
-- **Opens local Deep Zoom folders too** — **Patoloji Atlası → *Yerel DZI aç…*** reads a `.dzi`
+- **Opens local Deep Zoom folders too** — **Patoloji Atlası → *Bilgisayardan DZI slaytı aç…*** reads a `.dzi`
   sitting next to its `<name>_files/` directory on disk, the same pyramid format the atlas serves.
   Useful for a slide you have exported with `vips dzsave` but not yet published. It is an explicit
   command rather than drag-and-drop because QuPath may filter unknown extensions before any image
@@ -138,7 +144,7 @@ Open an atlas case in a **second viewer beside your own slide** — handy for co
 case against a known reference while you work, without losing what's already open. Two ways to
 launch it:
 
-- **Browser right-click** — in **Slaytlara gözat…**, right-click a case and choose **Referans
+- **Browser right-click** — in **Slaytlara göz at…**, right-click a case and choose **Referans
   olarak yanında aç**.
 - **Extensions → Patoloji Atlası → Referans → Referans slayt aç…** — a search-and-pick dialog
   (filter by title, organ, or stain) with a **Yanında aç** button (or double-click a row).
@@ -218,7 +224,8 @@ is a one-time manual download if you'd rather not add a catalog.
 
 You add the catalog **once**; afterwards QuPath installs and updates the extension from it.
 
-1. In QuPath, open **Extensions → Manage extension catalogs**.
+1. In QuPath, open **Extensions → Manage extensions** and click the **Manage extension catalogs**
+   button in that window.
 2. Click **Add**, paste this repository URL, and confirm:
    ```
    https://github.com/sbalci/patolojiatlasi-QuPath
@@ -228,7 +235,7 @@ You add the catalog **once**; afterwards QuPath installs and updates the extensi
    **QuPath Patoloji Atlası extension** — click **Install**. QuPath downloads the matching
    release JAR for you (no manual file handling).
 4. When prompted, **restart QuPath**. After it reopens, the extension lives under
-   **Extensions → Patoloji Atlası** (start with **Slaytlara gözat…** to browse the slides).
+   **Extensions → Patoloji Atlası** (start with **Slaytlara göz at…** to browse the slides).
 
 **Updating later.** When a newer version is released, open **Extensions → Manage extensions** again
 and click **Update** next to the extension. If the update doesn't seem to take effect, fully quit
@@ -243,7 +250,7 @@ and reopen QuPath — QuPath re-reads the catalog and loads the new JAR on the n
    copy it into QuPath's extensions directory: **Extensions → Installed extensions →
    open extensions directory**, drop the JAR there.)
 4. **Restart QuPath** when prompted. The extension then appears under
-   **Extensions → Patoloji Atlası → Slaytlara gözat…**.
+   **Extensions → Patoloji Atlası → Slaytlara göz at…**.
 
 > To update with Method B, download the newer JAR and repeat — replace the old JAR in the
 > extensions directory (or just drag the new one on and let QuPath overwrite it).
@@ -463,7 +470,7 @@ Beyond citing the extension itself (see **Citation** below), the atlas menu can 
 ready-to-use citations and export files for the slides you actually used — image + extension +
 QuPath references together, so a figure or methods section always carries full provenance.
 
-- **Cite a slide.** Right-click a case in **Slaytlara gözat…** and choose **Bu slaytı alıntıla…**,
+- **Cite a slide.** Right-click a case in **Slaytlara göz at…** and choose **Bu slaytı alıntıla…**,
   or use **Extensions → Patoloji Atlası → Atıf → Açık slaytı alıntıla…** with the slide open in the
   active viewer. Produces BibTeX / RIS / plain-text citations for the atlas image, this extension,
   and QuPath (Bankhead et al. 2017), with copy-to-clipboard and save-to-file actions.
