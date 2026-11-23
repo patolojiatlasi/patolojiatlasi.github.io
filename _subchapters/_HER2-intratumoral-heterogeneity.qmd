@@ -4,9 +4,9 @@
 ```{comment}
 ---
 description: |
-    Tümör heterojenliği: Meme tümöründe HER2 immünohistokimyasının heterojen ekspresyonu, Tumor heterogeneity: Heterogenous HER2 immunexpression in breast tumor, patoloji, atlas, pathology, whole slide image, virtual microscopy, virtual microscope, sanal mikroskop
+    Tümör heterojenliği: Meme tümöründe HER2 immünohistokimyasının heterojen ekspresyonu, Tumor heterogeneity: Heterogeneous HER2 immunoexpression in breast tumor, patoloji, atlas, pathology, whole slide image, virtual microscopy, virtual microscope, sanal mikroskop
 date: last-modified
-categories: [Tümör heterojenliği: Meme tümöründe HER2 immünohistokimyasının heterojen ekspresyonu, Tumor heterogeneity: Heterogenous HER2 immunexpression in breast tumor]
+categories: [Tümör heterojenliği: Meme tümöründe HER2 immünohistokimyasının heterojen ekspresyonu, Tumor heterogeneity: Heterogeneous HER2 immunoexpression in breast tumor]
 page-layout: full
 bibliography: references.bib
 ---
@@ -26,7 +26,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis Tumor heterogeneity: Heterogenous HER2 immunexpression in breast tumor EN , echo = (language == "EN")}
-## Tumor heterogeneity: Heterogenous HER2 immunexpression in breast tumor {#sec-HER2-intratumoral-heterogeneity }
+## Tumor heterogeneity: Heterogeneous HER2 immunoexpression in breast tumor {#sec-HER2-intratumoral-heterogeneity }
 ```
 
 
@@ -115,7 +115,7 @@ if (!file.exists("./qrcodes/HER2-intratumoral-heterogeneity-cerbB2_qrcode.svg"))
 
 ```{asis, echo = (language == "EN")}
 
-**Tumor heterogeneity: Heterogenous HER2 immunexpression in breast tumor**
+**Tumor heterogeneity: Heterogeneous HER2 immunoexpression in breast tumor**
 
 [![Click for Full Screen WSI](./screenshots/thumbnail_HER2-intratumoral-heterogeneity-cerbB2.png){width="25%"}](https://images.patolojiatlasi.com/HER2-intratumoral-heterogeneity/cerbB2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/HER2-intratumoral-heterogeneity/cerbB2.html)
 
@@ -128,7 +128,7 @@ if (!file.exists("./qrcodes/HER2-intratumoral-heterogeneity-cerbB2_qrcode.svg"))
 
 ```{asis, echo = (language == "EN")}
 
-**Tumor heterogeneity: Heterogenous HER2 immunexpression in breast tumor**
+**Tumor heterogeneity: Heterogeneous HER2 immunoexpression in breast tumor**
 
 ![](./qrcodes/HER2-intratumoral-heterogeneity-cerbB2_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_HER2-intratumoral-heterogeneity-cerbB2.png){width="25%"}](https://images.patolojiatlasi.com/HER2-intratumoral-heterogeneity/cerbB2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/HER2-intratumoral-heterogeneity/cerbB2.html)
 
@@ -198,7 +198,7 @@ Tümör heterojenliği: Meme tümöründe HER2 immünohistokimyasının heteroje
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Click for Diagnosis
 
-Tumor heterogeneity: Heterogenous HER2 immunexpression in breast tumor
+Tumor heterogeneity: Heterogeneous HER2 immunoexpression in breast tumor
 
 :::
 

@@ -20,12 +20,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis pankreas duktal adenokarsinom TR , echo = (language == "TR")}
-## PDAC - pankreas duktal adenokarsinom {#sec-PDAC }
+## Pankreatik duktal adenokarsinom (PDAC) {#sec-PDAC }
 ```
 
 
 ```{asis pancreatic ductal adenocarcinoma EN , echo = (language == "EN")}
-## PDAC - pancreatic ductal adenocarcinoma {#sec-PDAC }
+## Pancreatic ductal adenocarcinoma (PDAC) {#sec-PDAC }
 ```
 
 

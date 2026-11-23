@@ -18,7 +18,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{asis, echo = (language == "TR")}
-## benign prostat hiperplazisi {#sec-benign-prostat-hiperplazisi} 
+## Benign prostat hiperplazisi {#sec-benign-prostat-hiperplazisi}
 ```
 
 ```{asis, echo = (language == "EN")}
@@ -330,7 +330,7 @@ This section covers the histopathological features of the male genital system an
 -->
 
 ```{asis, echo = (language == "EN")}
-## benign prostate hyperplasia {#sec-benign-prostate-hyperplasia}
+## Benign prostatic hyperplasia {#sec-benign-prostate-hyperplasia}
 ```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}

@@ -4,9 +4,9 @@
 ```{comment}
 ---
 description: |
-    Tübülövillöz adenom zemininde gelişmiş Müsinöz adenokarsinom, kolon, Mucinous adenocarcinoma of colon arising from tubulovillus adenoma, patoloji, atlas, pathology, whole slide image, virtual microscopy, virtual microscope, sanal mikroskop
+    Tübülövillöz adenom zemininde gelişmiş Müsinöz adenokarsinom, kolon, Mucinous adenocarcinoma of colon arising from tubulovillous adenoma, patoloji, atlas, pathology, whole slide image, virtual microscopy, virtual microscope, sanal mikroskop
 date: last-modified
-categories: [Tübülövillöz adenom zemininde gelişmiş Müsinöz adenokarsinom, kolon, Mucinous adenocarcinoma of colon arising from tubulovillus adenoma]
+categories: [Tübülövillöz adenom zemininde gelişmiş Müsinöz adenokarsinom, kolon, Mucinous adenocarcinoma of colon arising from tubulovillous adenoma]
 page-layout: full
 bibliography: references.bib
 ---
@@ -26,7 +26,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis Mucinous adenocarcinoma of colon arising from tubulovillus adenoma EN , echo = (language == "EN")}
-### Mucinous adenocarcinoma of colon arising from tubulovillus adenoma {#sec-mucinous-adenocarcinoma-colon }
+### Mucinous adenocarcinoma of colon arising from tubulovillous adenoma {#sec-mucinous-adenocarcinoma-colon }
 ```
 
 
@@ -111,7 +111,7 @@ if (!file.exists("./qrcodes/mucinous-adenocarcinoma-colon-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**Mucinous adenocarcinoma of colon arising from tubulovillus adenoma**
+**Mucinous adenocarcinoma of colon arising from tubulovillous adenoma**
 
 [![Click for Full Screen WSI](./screenshots/thumbnail_mucinous-adenocarcinoma-colon-HE.png){width="25%"}](https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html)
 
@@ -124,7 +124,7 @@ if (!file.exists("./qrcodes/mucinous-adenocarcinoma-colon-HE_qrcode.svg")) {
 
 ```{asis, echo = (language == "EN")}
 
-**Mucinous adenocarcinoma of colon arising from tubulovillus adenoma**
+**Mucinous adenocarcinoma of colon arising from tubulovillous adenoma**
 
 ![](./qrcodes/mucinous-adenocarcinoma-colon-HE_qrcode.svg){width="15%"} [![Click for Full Screen WSI](./screenshots/thumbnail_mucinous-adenocarcinoma-colon-HE.png){width="25%"}](https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/mucinous-adenocarcinoma-colon/HE.html)
 
@@ -194,7 +194,7 @@ Tübülövillöz adenom zemininde gelişmiş Müsinöz adenokarsinom, kolon
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Click for Diagnosis
 
-Mucinous adenocarcinoma of colon arising from tubulovillus adenoma
+Mucinous adenocarcinoma of colon arising from tubulovillous adenoma
 
 :::
 

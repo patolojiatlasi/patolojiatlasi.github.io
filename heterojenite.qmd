@@ -1,3 +1,14 @@
-# Tümör Heterojenitesi
+```{r language heterojenite, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+```{asis, echo = (language == "TR")}
+# Tümör Heterojenitesi {#sec-tumor-heterojenitesi}
+```
+
+```{asis, echo = (language == "EN")}
+# Tumor Heterogeneity {#sec-tumor-heterogeneity}
+```
 
 {{< include ./_subchapters/_HER2-intratumoral-heterogeneity.qmd >}}

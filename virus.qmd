@@ -14,7 +14,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{asis viruslar, echo = (language == "TR")}
-# Viruslar {#sec-viruslar}
+# Virüsler {#sec-viruslar}
 ```
 
 ```{asis virus, echo = (language == "EN")}
@@ -249,7 +249,7 @@ This section covers major viral infections with their histopathological features
 
 
 ```{asis, echo = (language == "EN")}
-### Herpes Esophagatis {#sec-herpes-esophagatis}
+### Herpes Esophagitis {#sec-herpes-esophagatis}
 ```
 
 

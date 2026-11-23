@@ -37,11 +37,11 @@ book:
           href: akut-inflamasyon.qmd
         - text: "Kronik inflamasyon"
           href: kronik-inflamasyon.qmd
-        - text: "Granülamatöz İnflamasyon"
+        - text: "Granülomatöz İnflamasyon"
           href: granulom.qmd
     - part: "İnfeksiyöz Hastalıkların Patolojisi"
       chapters:
-        - text: "Viruslar"
+        - text: "Virüsler"
           href: virus.qmd
         - text: "Bakteriler"
           href: bakteri.qmd
@@ -187,7 +187,7 @@ book:
         - text: "Beyin Omurilik Sıvısı (BOS)"
           href: BOS.qmd
     - part: "---"
-    - part: "Özel Kolleksiyonlar"
+    - part: "Özel Koleksiyonlar"
       chapters:
         - text: "GBDAtlas"
           href: gbd.qmd
@@ -195,7 +195,7 @@ book:
           href: hacettepecom.qmd
         - text: "BSAtlas"
           href: bs.qmd
-        - text: "ICEtlas"
+        - text: "ICEAtlas"
           href: ice.qmd
         - text: "Benzer Sayfalar"
           href: wsi.qmd

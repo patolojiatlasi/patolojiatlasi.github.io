@@ -190,7 +190,13 @@ See Microscopy with viewer:
 
 
 
+```{asis, echo = (language == "TR")}
 ## Keloid - Skar {#sec-keloid-skar}
+```
+
+```{asis, echo = (language == "EN")}
+## Keloid - Scar {#sec-keloid-skar}
+```
 
 ```{r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}
 if (!file.exists("./screenshots/thumbnail_keloid-scar.png")) {

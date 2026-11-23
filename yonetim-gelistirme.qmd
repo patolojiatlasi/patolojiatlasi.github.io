@@ -153,7 +153,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-### görüntülerin `html` haline dönüştürülmesi {#sec-svs-html-donusumu}
+### Görüntülerin `html` haline dönüştürülmesi {#sec-svs-html-donusumu}
 
 ```
 
@@ -166,7 +166,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```{asis, echo = (language == "TR")}
 
-### `openseagradon` {#sec-openseadragon}
+### `openseadragon` {#sec-openseadragon}
 
 ```
 
@@ -243,7 +243,7 @@ https://github.com/pathologyatlas/template
 
 ```{asis, echo = (language == "TR")}
 
-## patoloji atlası web sayfasının hazırlanması {#sec-web-sayfasi}
+## Patoloji Atlası web sayfasının hazırlanması {#sec-web-sayfasi}
 
 ```
 
@@ -269,7 +269,7 @@ https://github.com/patolojiatlasi/patolojiatlasi.github.io
 
 ```{asis, echo = (language == "TR")}
 
-## epub, word ve pdf formatları {#sec-quarto-formatlari}
+## EPUB, Word ve PDF formatları {#sec-quarto-formatlari}
 
 ```
 

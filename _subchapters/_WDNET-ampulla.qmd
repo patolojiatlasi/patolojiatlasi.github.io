@@ -8,12 +8,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "TR")}
-## Ampulla WDNET iyi diferansiye nöroendokrin tümör {#sec-WDNET-ampulla}
+## Ampulla, iyi diferansiye nöroendokrin tümör (WDNET) {#sec-WDNET-ampulla}
 ```
 
 
 ```{asis, echo = (language == "EN")}
-## Ampulla WDNET well differantiated neuroendocrine tumor {#sec-WDNET-ampulla}
+## Ampulla, well-differentiated neuroendocrine tumor (WDNET) {#sec-WDNET-ampulla}
 ```
 
 
@@ -60,7 +60,7 @@ knitr::include_url(url = "https://images.patolojiatlasi.com/WDNET-ampulla/HE.htm
 
 ```{asis, echo = (language == "TR")}
 
-**Ampulla WDNET iyi diferansiye nöroendokrin tümör**
+**Ampulla, iyi diferansiye nöroendokrin tümör (WDNET)**
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_WDNET-ampulla.png){width="25%"}](https://images.patolojiatlasi.com/WDNET-ampulla/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/WDNET-ampulla/HE.html)
 ```
@@ -78,7 +78,7 @@ knitr::include_url(url = "https://images.patolojiatlasi.com/WDNET-ampulla/HE.htm
 
 ```{asis, echo = (language == "TR")}
 
-**Ampulla WDNET iyi diferansiye nöroendokrin tümör**
+**Ampulla, iyi diferansiye nöroendokrin tümör (WDNET)**
 
 
 ![](./qrcodes/WDNET-ampulla-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_WDNET-ampulla.png){width="25%"}](https://images.patolojiatlasi.com/WDNET-ampulla/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/WDNET-ampulla/HE.html)

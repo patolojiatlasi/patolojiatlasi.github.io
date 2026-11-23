@@ -21,12 +21,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis Lobüler meme kanseri leptomeningeal metastaz, BOS tutulumu TR , echo = (language == "TR")}
-## CSF-metastasis - Lobüler meme kanseri leptomeningeal metastaz, BOS tutulumu {#sec-CSF-metastasis }
+## Lobüler meme kanseri leptomeningeal metastaz, BOS tutulumu {#sec-CSF-metastasis }
 ```
 
 
 ```{asis Leptomeningeal metastasis of lobular breast carcinoma, CSF metastasis EN , echo = (language == "EN")}
-## CSF-metastasis - Leptomeningeal metastasis of lobular breast carcinoma, CSF metastasis {#sec-CSF-metastasis }
+## Leptomeningeal metastasis of lobular breast carcinoma, CSF metastasis {#sec-CSF-metastasis }
 ```
 
 

@@ -20,12 +20,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis  , echo = (language == "TR")}
-## BS6 -  {#sec-BS6 }
+## BS6 {#sec-BS6 }
 ```
 
 
 ```{asis  , echo = (language == "EN")}
-## BS6 -  {#sec-BS6 }
+## BS6 {#sec-BS6 }
 ```
 
 

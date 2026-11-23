@@ -2,9 +2,9 @@
 ```{comment}
 ---
 description: |
-    Pankreatik Duktal Adenokarsinom Adrenal Bez İnvazyonu, Pancreatic Ductal Adenocarcinoma, Adrenal Gland Invasion, patoloji, atlas, pathology, whole slide image, virtual microscopy, virtual microscope, sanal mikroskop
+    Pankreatik Duktal Adenokarsinom, Adrenal Bez İnvazyonu, Pancreatic Ductal Adenocarcinoma, Adrenal Gland Invasion, patoloji, atlas, pathology, whole slide image, virtual microscopy, virtual microscope, sanal mikroskop
 date: last-modified
-categories: [Pankreatik Duktal Adenokarsinom Adrenal Bez İnvazyonu, Pancreatic Ductal Adenocarcinoma, Adrenal Gland Invasion]
+categories: [Pankreatik Duktal Adenokarsinom, Adrenal Bez İnvazyonu, Pancreatic Ductal Adenocarcinoma, Adrenal Gland Invasion]
 page-layout: full
 bibliography: references.bib
 ---
@@ -16,7 +16,7 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
 
 ```{asis Pankreatik Duktal Adenokarsinom Adrenal Bez İnvazyonu TR , echo = (language == "TR")}
-## Pankreatik Duktal Adenokarsinom Adrenal Bez İnvazyonu {#sec-PDAC-adrenal-invasion }
+## Pankreatik Duktal Adenokarsinom, Adrenal Bez İnvazyonu {#sec-PDAC-adrenal-invasion }
 ```
 
 ```{asis Pancreatic Ductal Adenocarcinoma, Adrenal Gland Invasion EN , echo = (language == "EN")}
@@ -50,7 +50,7 @@ if (!file.exists("./qrcodes/PDAC-adrenal-invasion-HE_qrcode.svg")) {
 :::: {.content-hidden when-format="pdf"}
 
 ```{asis, echo = (language == "TR")}
-**Pankreatik Duktal Adenokarsinom Adrenal Bez İnvazyonu**
+**Pankreatik Duktal Adenokarsinom, Adrenal Bez İnvazyonu**
 
 [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_PDAC-adrenal-invasion-HE.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-adrenal-invasion/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/PDAC-adrenal-invasion/HE.html)
 ```
@@ -60,7 +60,7 @@ if (!file.exists("./qrcodes/PDAC-adrenal-invasion-HE_qrcode.svg")) {
 :::: {.content-visible when-format="pdf"}
 
 ```{asis, echo = (language == "TR")}
-**Pankreatik Duktal Adenokarsinom Adrenal Bez İnvazyonu**
+**Pankreatik Duktal Adenokarsinom, Adrenal Bez İnvazyonu**
 
 ![](./qrcodes/PDAC-adrenal-invasion-HE_qrcode.svg){width="15%"} [![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/thumbnail_PDAC-adrenal-invasion-HE.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-adrenal-invasion/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/PDAC-adrenal-invasion/HE.html)
 ```
@@ -108,7 +108,7 @@ See Microscopy with viewer:
 ::: {.callout-tip collapse="true" appearance="default" icon="true"}
 ### Tanı için tıklayın
 
-Pankreatik Duktal Adenokarsinom Adrenal Bez İnvazyonu
+Pankreatik Duktal Adenokarsinom, Adrenal Bez İnvazyonu
 :::
 ```
 

@@ -344,12 +344,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "TR")}
-## GBD3 {#sec-GBD3}
+## GBD Olgu 3 {#sec-GBD3}
 ```
 
 
 ```{asis, echo = (language == "EN")}
-## GBD3 {#sec-GBD3}
+## GBD Case 3 {#sec-GBD3}
 ```
 
 

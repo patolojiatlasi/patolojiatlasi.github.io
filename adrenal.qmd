@@ -1,3 +1,16 @@
+```{r language adrenal, echo=FALSE, include=TRUE}
+source("./R/language.R")
+output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```
+
+```{asis, echo = (language == "TR")}
+# Adrenal Bez Patolojisi {#sec-adrenal}
+```
+
+```{asis, echo = (language == "EN")}
+# Adrenal Gland Pathology {#sec-adrenal-gland}
+```
+
 {{< include ./_subchapters/_ganglioneuroma.qmd >}}
 
 {{< include ./_subchapters/_PDAC-adrenal-invasion.qmd >}}

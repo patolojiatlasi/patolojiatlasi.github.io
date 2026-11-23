@@ -19,12 +19,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis isospora TR , echo = (language == "TR")}
-## BS32 - isospora {#sec-BS32 }
+## BS32 - Isospora {#sec-BS32 }
 ```
 
 
 ```{asis isospora EN , echo = (language == "EN")}
-## BS32 - isospora {#sec-BS32 }
+## BS32 - Isospora {#sec-BS32 }
 ```
 
 

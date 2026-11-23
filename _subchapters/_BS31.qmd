@@ -18,12 +18,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis cryptosporidium TR , echo = (language == "TR")}
-## BS31 - cryptosporidium {#sec-BS31 }
+## BS31 - Cryptosporidium {#sec-BS31 }
 ```
 
 
 ```{asis cryptosporidium EN , echo = (language == "EN")}
-## BS31 - cryptosporidium {#sec-BS31 }
+## BS31 - Cryptosporidium {#sec-BS31 }
 ```
 
 

@@ -274,11 +274,11 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "TR")}
-## iskemi gangrenöz kolesistit {#sec-ischemia-gangrenous-cholecystitis}
+## Gangrenöz kolesistitte iskemi {#sec-ischemia-gangrenous-cholecystitis}
 ```
 
 ```{asis, echo = (language == "EN")}
-## ischemia in gangrenous cholecystitis {#sec-ischemia-gangrenous-cholecystitis}
+## Ischemia in gangrenous cholecystitis {#sec-ischemia-gangrenous-cholecystitis}
 ```
 
 ```{r, eval=TRUE, include=FALSE}

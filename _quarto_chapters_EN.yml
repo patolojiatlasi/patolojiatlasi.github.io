@@ -29,13 +29,13 @@ book:
           href: repair.qmd
         - text: "Erosion"
           href: erosion.qmd
-    - part: "Inflamation"
+    - part: "Inflammation"
       chapters:
         - text: "Acute inflammation"
           href: acute-inflammation.qmd
         - text: "Chronic inflammation"
           href: chronic-inflammation.qmd
-        - text: "Granulamatous inflammation"
+        - text: "Granulomatous inflammation"
           href: granulamatous-inflammation.qmd
     - part: "Infectious Diseases"
       chapters:
@@ -71,7 +71,7 @@ book:
       chapters:
         - text: "Venous Invasion"
           href: venous-invasion.qmd
-        - text: "Extramural Venous Invaasion"
+        - text: "Extramural Venous Invasion"
           href: extramural-venous-invasion.qmd
     - part: "Cardiovascular System"
       chapters:
@@ -194,7 +194,7 @@ book:
           href: hacettepecom.qmd
         - text: "BSAtlas"
           href: bs.qmd
-        - text: "ICEtlas"
+        - text: "ICEAtlas"
           href: ice.qmd
         - text: "Similar Websites"
           href: wsi.qmd

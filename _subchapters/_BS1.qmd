@@ -15,12 +15,12 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis anjiosarkom, dalak, karaciğer , echo = (language == "TR")}
-## BS1 anjiosarkom, dalak, karaciğer {#sec-BS1 }
+## BS1 - anjiosarkom, dalak, karaciğer {#sec-BS1 }
 ```
 
 
 ```{asis angiosarcoma, spleen, liver , echo = (language == "EN")}
-## BS1 angiosarcoma, spleen, liver {#sec-BS1 }
+## BS1 - angiosarcoma, spleen, liver {#sec-BS1 }
 ```
 
 
